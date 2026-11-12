@@ -1,0 +1,406 @@
+{
+  "id": "p1-changes-in-energy",
+  "science": "physics",
+  "topicId": "p1",
+  "slug": "changes-in-energy",
+  "specRef": "4.1.1.2",
+  "title": "Changes in energy",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The amount of energy in the kinetic, elastic potential and gravitational potential stores of an object can be calculated: Ek = ½mv², Ee = ½ke² and Ep = mgh.",
+    "explanation": [
+      "Any moving object has energy in its kinetic store. The amount depends on the mass of the object and on the square of its speed: Ek = ½mv². Because speed is squared, doubling the speed makes the kinetic energy four times bigger, while doubling the mass only doubles it. Mass must be in kilograms and speed in metres per second to get the energy in joules.",
+      "A stretched or compressed spring has energy in its elastic potential store. This is given by Ee = ½ke², where k is the spring constant in newtons per metre (N/m) and e is the extension in metres. The equation only works if the limit of proportionality has not been exceeded. It is equal to the area under the force against extension graph, which is a triangle while force is proportional to extension. This equation is given on the Physics equation sheet.",
+      "An object raised above ground level gains energy in its gravitational potential store. The amount gained is Ep = mgh, where m is mass in kg, g is the gravitational field strength in N/kg and h is the change in height in metres. On Earth g = 9.8 N/kg. The same object raised the same height on the Moon (where g is smaller) gains less gravitational potential energy. You must recall both Ek = ½mv² and Ep = mgh.",
+      "These equations are often combined using conservation of energy. If air resistance is negligible, the energy lost from the gravitational potential store of a falling object equals the energy gained by its kinetic store, so mgh = ½mv². The mass cancels, so all objects dropped from the same height reach the same speed (v² = 2gh). In real life some energy is dissipated by air resistance, so the actual speed is a little lower than the calculated value.",
+      "Exam questions often need rearranging. To find speed from kinetic energy, use v = √(2Ek ÷ m). To find height, use h = Ep ÷ (mg). To find extension, use e = √(2Ee ÷ k). Always convert units first: grams to kilograms (÷ 1000), centimetres to metres (÷ 100) and kilojoules to joules (× 1000)."
+    ],
+    "keyFacts": [
+      "Kinetic energy: Ek = ½mv² (must be recalled).",
+      "Gravitational potential energy: Ep = mgh (must be recalled).",
+      "Elastic potential energy: Ee = ½ke² (given on the equation sheet), valid only up to the limit of proportionality.",
+      "Energy is in joules (J), mass in kg, speed in m/s, height and extension in m, g in N/kg, k in N/m.",
+      "On Earth, g = 9.8 N/kg.",
+      "Doubling speed quadruples kinetic energy; doubling extension quadruples elastic potential energy.",
+      "For a falling object with no air resistance: loss in Ep = gain in Ek, so v = √(2gh).",
+      "Elastic potential energy equals the area under a force against extension graph.",
+      "Convert g to kg, cm to m and kJ to J before substituting."
+    ],
+    "keyTerms": [
+      { "term": "Kinetic energy", "definition": "Energy in the kinetic store of a moving object, Ek = ½mv²." },
+      { "term": "Gravitational potential energy", "definition": "Energy in the gravitational potential store of an object raised in a gravitational field, Ep = mgh." },
+      { "term": "Elastic potential energy", "definition": "Energy in the elastic potential store of a stretched or compressed object, Ee = ½ke²." },
+      { "term": "Spring constant (k)", "definition": "The force needed per metre of extension for a spring, in N/m. A stiffer spring has a larger k." },
+      { "term": "Extension (e)", "definition": "The increase in length of a spring compared with its original length, in metres." },
+      { "term": "Gravitational field strength (g)", "definition": "The force of gravity on each kilogram of mass, 9.8 N/kg on Earth." },
+      { "term": "Limit of proportionality", "definition": "The point beyond which the extension of a spring is no longer proportional to the force applied." }
+    ],
+    "equations": [
+      { "name": "Kinetic energy", "formula": "kinetic energy = 0.5 × mass × (speed)²", "symbols": "Ek = ½ m v²", "units": "Ek in joules (J), m in kilograms (kg), v in metres per second (m/s)", "recall": true },
+      { "name": "Elastic potential energy", "formula": "elastic potential energy = 0.5 × spring constant × (extension)²", "symbols": "Ee = ½ k e²", "units": "Ee in joules (J), k in newtons per metre (N/m), e in metres (m)", "recall": false },
+      { "name": "Gravitational potential energy", "formula": "g.p.e. = mass × gravitational field strength × height", "symbols": "Ep = m g h", "units": "Ep in joules (J), m in kilograms (kg), g in newtons per kilogram (N/kg), h in metres (m)", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Kinetic energy with a mass in grams",
+        "question": "A ball of mass 800 g is moving at 5.0 m/s. Calculate its kinetic energy.",
+        "steps": [
+          "Convert mass to kg: 800 g ÷ 1000 = 0.80 kg.",
+          "Ek = ½mv² = 0.5 × 0.80 × 5.0².",
+          "= 0.5 × 0.80 × 25 = 10 J."
+        ],
+        "answer": "10 J"
+      },
+      {
+        "title": "Rearranging Ek = ½mv² with kJ",
+        "question": "A car of mass 1200 kg has 240 kJ in its kinetic store. Calculate its speed.",
+        "steps": [
+          "Convert energy to J: 240 kJ × 1000 = 240 000 J.",
+          "Rearrange: v² = 2Ek ÷ m = (2 × 240 000) ÷ 1200 = 400.",
+          "v = √400 = 20 m/s."
+        ],
+        "answer": "20 m/s"
+      },
+      {
+        "title": "Elastic potential energy with extension in cm",
+        "question": "A spring with spring constant 40 N/m is stretched by 15 cm. The limit of proportionality is not exceeded. Calculate the energy in its elastic potential store.",
+        "steps": [
+          "Convert extension to m: 15 cm ÷ 100 = 0.15 m.",
+          "Ee = ½ke² = 0.5 × 40 × 0.15².",
+          "= 0.5 × 40 × 0.0225 = 0.45 J."
+        ],
+        "answer": "0.45 J"
+      },
+      {
+        "title": "Combining Ep and Ek for a falling object",
+        "question": "A 0.50 kg stone is dropped from a height of 5.0 m. Ignoring air resistance, calculate its speed just before it hits the ground. (g = 9.8 N/kg)",
+        "steps": [
+          "Ep lost = mgh = 0.50 × 9.8 × 5.0 = 24.5 J.",
+          "Ignoring air resistance, Ek gained = 24.5 J.",
+          "v² = 2Ek ÷ m = (2 × 24.5) ÷ 0.50 = 98.",
+          "v = √98 = 9.9 m/s (2 s.f.)."
+        ],
+        "answer": "9.9 m/s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Energy changes in a swinging pendulum",
+        "caption": "At A and C the bob is momentarily at rest: its gravitational potential store is at a maximum and its kinetic store is zero. At B (lowest point) its kinetic store is at a maximum. Ignoring air resistance, Ep lost = Ek gained.",
+        "svg": "<svg viewBox='0 0 440 250' xmlns='http://www.w3.org/2000/svg'><line x1='170' y1='20' x2='270' y2='20' stroke='currentColor' stroke-width='3'/><g stroke='currentColor'><line x1='220' y1='20' x2='117' y2='143'/><line x1='220' y1='20' x2='220' y2='180'/><line x1='220' y1='20' x2='323' y2='143'/></g><path d='M117 143 A160 160 0 0 0 323 143' fill='none' stroke='currentColor' stroke-dasharray='4 4'/><g stroke='currentColor'><circle cx='117' cy='143' r='11' fill='#c4b5fd' fill-opacity='0.5'/><circle cx='220' cy='180' r='11' fill='#c4b5fd' fill-opacity='0.5'/><circle cx='323' cy='143' r='11' fill='#c4b5fd' fill-opacity='0.5'/><line x1='80' y1='143' x2='80' y2='180'/><line x1='74' y1='143' x2='86' y2='143'/><line x1='74' y1='180' x2='86' y2='180'/><line x1='86' y1='180' x2='206' y2='180' stroke-dasharray='2 3'/></g><g font-size='12' fill='currentColor'><text x='112' y='126'>A</text><text x='216' y='206'>B</text><text x='320' y='126'>C</text><text x='66' y='166'>h</text><text x='10' y='92'>A: GPE maximum</text><text x='10' y='107'>KE = 0</text><text x='335' y='92'>C: GPE maximum</text><text x='335' y='107'>KE = 0</text><text x='150' y='228'>B: KE maximum, GPE minimum</text><text x='120' y='246'>Ep lost (mgh) = Ek gained (½mv²)</text><text x='230' y='14'>pivot</text></g></svg>"
+      },
+      {
+        "title": "Elastic potential energy from a force against extension graph",
+        "caption": "Up to the limit of proportionality the graph is a straight line through the origin. The shaded triangle under the line up to extension e equals the elastic potential energy, ½ × F × e = ½ke².",
+        "svg": "<svg viewBox='0 0 440 250' xmlns='http://www.w3.org/2000/svg'><path d='M60 210 L220 210 L220 114 Z' fill='#86efac' fill-opacity='0.5'/><g stroke='currentColor'><line x1='60' y1='210' x2='420' y2='210' stroke-width='2'/><line x1='60' y1='210' x2='60' y2='20' stroke-width='2'/><line x1='60' y1='210' x2='260' y2='90' stroke-width='2'/><path d='M260 90 Q310 64 380 55' fill='none' stroke-width='2'/><line x1='220' y1='210' x2='220' y2='114' stroke-dasharray='4 3'/><line x1='60' y1='114' x2='220' y2='114' stroke-dasharray='4 3'/></g><circle cx='260' cy='90' r='4' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='14' y='30'>Force</text><text x='14' y='45'>(N)</text><text x='330' y='235'>Extension (m)</text><text x='216' y='228'>e</text><text x='44' y='118'>F</text><text x='270' y='112'>limit of</text><text x='270' y='127'>proportionality</text><text x='120' y='196'>area = ½Fe</text><text x='74' y='36'>gradient = spring constant k</text><text x='74' y='52'>Ee = ½ke² (valid on straight part)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think doubling the speed doubles the kinetic energy.", "right": "In fact Ek depends on v², so doubling the speed makes the kinetic energy four times larger." },
+      { "wrong": "Students often substitute mass in grams or extension in centimetres directly into the equations.", "right": "In fact mass must be in kg and lengths in m to get energy in J. Convert first: 250 g = 0.25 kg, 5 cm = 0.05 m." },
+      { "wrong": "Students often think heavier objects fall faster and hit the ground at a higher speed.", "right": "In fact, ignoring air resistance, mgh = ½mv² so the mass cancels and v = √(2gh) is the same for any mass." },
+      { "wrong": "Students often think Ee = ½ke² works for any stretch.", "right": "In fact it is only valid up to the limit of proportionality, where force is still proportional to extension." },
+      { "wrong": "Students often forget to square root when finding speed from kinetic energy.", "right": "In fact rearranging gives v² = 2Ek ÷ m, so you must take the square root to find v." }
+    ],
+    "realWorld": [
+      "Road safety: kinetic energy rises with the square of speed, so a car at 40 mph has nearly twice the kinetic energy of one at 30 mph, and crashes are far more damaging.",
+      "Pumped storage hydroelectric stations pump water uphill to store energy in its gravitational potential store, then let it fall through turbines when demand is high.",
+      "Bows, catapults and trampolines store energy in elastic potential stores and transfer it to kinetic stores."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write the equation first, then substitute with units, then give the answer with a unit. Method marks are available even if the final answer is wrong.",
+      "Square only the speed in ½mv² and only the extension in ½ke²; do not square the mass or k.",
+      "If a question says 'ignore air resistance', set Ep lost equal to Ek gained.",
+      "Use g = 9.8 N/kg unless the question gives a different value.",
+      "When rearranging for v or e, remember the final square root step."
+    ],
+    "summary": [
+      "Ek = ½mv² (recall); doubling v quadruples Ek.",
+      "Ep = mgh (recall); g = 9.8 N/kg on Earth.",
+      "Ee = ½ke² (equation sheet), valid up to the limit of proportionality.",
+      "Use SI units: kg, m, m/s, N/kg, N/m, J.",
+      "Falling with no air resistance: mgh = ½mv², so v = √(2gh).",
+      "Real speeds are lower because energy is dissipated by air resistance."
+    ]
+  },
+  "flashcards": [
+    { "front": "Equation for kinetic energy", "back": "Ek = ½mv² (kinetic energy = 0.5 × mass × speed²)" },
+    { "front": "Equation for gravitational potential energy", "back": "Ep = mgh (mass × gravitational field strength × height)" },
+    { "front": "Equation for elastic potential energy", "back": "Ee = ½ke² (given on the equation sheet)" },
+    { "front": "Unit of spring constant", "back": "N/m (newtons per metre)" },
+    { "front": "Value of g on Earth", "back": "9.8 N/kg" },
+    { "front": "What happens to Ek if speed doubles?", "back": "It becomes four times larger." },
+    { "front": "When is Ee = ½ke² valid?", "back": "Only if the limit of proportionality has not been exceeded." },
+    { "front": "Speed of a dropped object (no air resistance)", "back": "v = √(2gh), found from mgh = ½mv²; mass cancels." },
+    { "front": "Rearrange Ek = ½mv² for v", "back": "v = √(2Ek ÷ m)" },
+    { "front": "Rearrange Ep = mgh for h", "back": "h = Ep ÷ (mg)" },
+    { "front": "What does the area under a force against extension graph give?", "back": "The energy stored (work done stretching the spring)." },
+    { "front": "Convert 350 g and 12 cm to SI units", "back": "0.35 kg and 0.12 m" }
+  ],
+  "questions": [
+    {
+      "id": "p1-changes-in-energy-q01",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "What is the unit of kinetic energy?",
+      "options": ["newton (N)", "joule (J)", "watt (W)", "kilogram metre per second (kg m/s)"],
+      "answer": 1,
+      "markScheme": ["1 mark: joule (J)"],
+      "explanation": "All energies are measured in joules. The newton is the unit of force, the watt is the unit of power and kg m/s is the unit of momentum."
+    },
+    {
+      "id": "p1-changes-in-energy-q02",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Which equation gives the energy in the gravitational potential store of a raised object?",
+      "options": ["Ep = ½mv²", "Ep = m ÷ (gh)", "Ep = mgh", "Ep = ½ke²"],
+      "answer": 2,
+      "markScheme": ["1 mark: Ep = mgh"],
+      "explanation": "Gravitational potential energy = mass × gravitational field strength × height. ½mv² is kinetic energy and ½ke² is elastic potential energy."
+    },
+    {
+      "id": "p1-changes-in-energy-q03",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "In the equation Ee = ½ke², what does k represent?",
+      "options": ["Extension", "Kinetic energy", "Gravitational field strength", "Spring constant"],
+      "answer": 3,
+      "markScheme": ["1 mark: Spring constant"],
+      "explanation": "k is the spring constant in N/m, a measure of the stiffness of the spring. e is the extension."
+    },
+    {
+      "id": "p1-changes-in-energy-q04",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "A car doubles its speed. What happens to the energy in its kinetic store?",
+      "options": ["It becomes four times bigger", "It doubles", "It halves", "It stays the same"],
+      "answer": 0,
+      "markScheme": ["1 mark: It becomes four times bigger"],
+      "explanation": "Ek = ½mv². If v is doubled, v² becomes 2² = 4 times bigger, so Ek is four times bigger. 'It doubles' is the common error from forgetting the square."
+    },
+    {
+      "id": "p1-changes-in-energy-q05",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Ee = ½ke² can be used to calculate the energy stored in a stretched spring provided that:",
+      "options": ["the spring is hanging vertically", "the limit of proportionality is not exceeded", "the spring constant is greater than 1 N/m", "the extension is measured in centimetres"],
+      "answer": 1,
+      "markScheme": ["1 mark: the limit of proportionality is not exceeded"],
+      "explanation": "The equation assumes force is proportional to extension, which is only true up to the limit of proportionality. Extension must be in metres, not cm."
+    },
+    {
+      "id": "p1-changes-in-energy-q06",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "A bowling ball and a tennis ball are lifted onto the same shelf. Which statement is correct?",
+      "options": ["Both gain the same gravitational potential energy because they are raised the same height", "The tennis ball gains more gravitational potential energy because it is smaller", "The bowling ball gains more gravitational potential energy because it has a greater mass", "Neither gains gravitational potential energy because they are not moving"],
+      "answer": 2,
+      "markScheme": ["1 mark: The bowling ball gains more gravitational potential energy because it has a greater mass"],
+      "explanation": "Ep = mgh. With the same g and h, Ep is proportional to mass, so the heavier bowling ball gains more. Gravitational potential energy depends on position, not on movement."
+    },
+    {
+      "id": "p1-changes-in-energy-q07",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "An astronaut lifts a 2 kg rock through 1 m on the Moon, where g = 1.6 N/kg. Compared with lifting the same rock through 1 m on Earth, the gain in gravitational potential energy on the Moon is:",
+      "options": ["larger, because the rock is easier to lift", "the same, because mass and height are unchanged", "zero, because there is no air on the Moon", "smaller, because the gravitational field strength is smaller"],
+      "answer": 3,
+      "markScheme": ["1 mark: smaller, because the gravitational field strength is smaller"],
+      "explanation": "Ep = mgh. On the Moon Ep = 2 × 1.6 × 1 = 3.2 J; on Earth Ep = 2 × 9.8 × 1 = 19.6 J. Mass is unchanged but g is smaller. Air has nothing to do with gravitational potential energy."
+    },
+    {
+      "id": "p1-changes-in-energy-q08",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "The extension of a spring is tripled. The limit of proportionality is not exceeded. By what factor does the energy in its elastic potential store increase?",
+      "options": ["3", "9", "6", "1.5"],
+      "answer": 1,
+      "markScheme": ["1 mark: 9"],
+      "explanation": "Ee = ½ke². Tripling e makes e² become 3² = 9 times larger, so Ee increases by a factor of 9. Choosing 3 ignores the square; 6 comes from doubling 3 by mistake."
+    },
+    {
+      "id": "p1-changes-in-energy-q09",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "What is the unit of the spring constant k?",
+      "options": ["N/m", "J/m", "N m", "kg/m"],
+      "answer": 0,
+      "markScheme": ["1 mark: N/m"],
+      "explanation": "k is the force needed per unit extension (force ÷ extension), so its unit is newtons per metre. N m is the unit of a moment, not of k."
+    },
+    {
+      "id": "p1-changes-in-energy-q10",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A stone falls from a cliff. Air resistance can be ignored. Which statement is true while it falls?",
+      "options": ["Its gravitational potential store increases", "Its kinetic store stays the same", "The energy lost from its gravitational potential store equals the energy gained by its kinetic store", "Its total energy decreases"],
+      "answer": 2,
+      "markScheme": ["1 mark: The energy lost from its gravitational potential store equals the energy gained by its kinetic store"],
+      "explanation": "With no air resistance no energy is dissipated, so the decrease in Ep equals the increase in Ek and the total stays constant. The stone loses height (Ep decreases) and speeds up (Ek increases)."
+    },
+    {
+      "id": "p1-changes-in-energy-q11",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A 2.0 kg trolley moves at 3.0 m/s. Calculate the energy in its kinetic store.",
+      "numericAnswer": 9, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: Ek = 0.5 × 2.0 × 3.0²", "1 mark: 9 J"],
+      "explanation": "Ek = ½mv² = 0.5 × 2.0 × 9.0 = 9.0 J. A common error is 0.5 × 2.0 × 3.0 = 3 J, forgetting to square the speed."
+    },
+    {
+      "id": "p1-changes-in-energy-q12",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A climber of mass 60 kg climbs 10 m up a rock face. Calculate the increase in her gravitational potential store. (g = 9.8 N/kg)",
+      "numericAnswer": 5880, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: Ep = 60 × 9.8 × 10", "1 mark: 5880 J"],
+      "explanation": "Ep = mgh = 60 × 9.8 × 10 = 5880 J (about 5.9 kJ)."
+    },
+    {
+      "id": "p1-changes-in-energy-q13",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A spring has a spring constant of 200 N/m. It is stretched by 5.0 cm without exceeding the limit of proportionality. Calculate the energy in its elastic potential store.",
+      "numericAnswer": 0.25, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: e = 0.050 m", "1 mark: Ee = 0.5 × 200 × 0.050²", "1 mark: 0.25 J"],
+      "explanation": "Convert 5.0 cm to 0.050 m. Ee = ½ke² = 0.5 × 200 × 0.0025 = 0.25 J. Using 5.0 instead of 0.050 gives 2500 J, which is far too large."
+    },
+    {
+      "id": "p1-changes-in-energy-q14",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A cricket ball of mass 250 g is thrown at 12 m/s. Calculate its kinetic energy.",
+      "numericAnswer": 18, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: m = 0.25 kg", "1 mark: Ek = 0.5 × 0.25 × 12²", "1 mark: 18 J"],
+      "explanation": "250 g = 0.25 kg. Ek = 0.5 × 0.25 × 144 = 18 J. Using 250 instead of 0.25 gives 18 000 J."
+    },
+    {
+      "id": "p1-changes-in-energy-q15",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A book of mass 450 g is lifted from the floor onto a shelf 1.6 m high. Calculate the gain in its gravitational potential store. Give your answer to 2 significant figures. (g = 9.8 N/kg)",
+      "numericAnswer": 7.1, "tolerance": 0.02, "unit": "J",
+      "markScheme": ["1 mark: m = 0.45 kg", "1 mark: Ep = 0.45 × 9.8 × 1.6 = 7.056", "1 mark: 7.1 J"],
+      "explanation": "Convert 450 g to 0.45 kg. Ep = mgh = 0.45 × 9.8 × 1.6 = 7.056 J, which is 7.1 J to 2 significant figures."
+    },
+    {
+      "id": "p1-changes-in-energy-q16",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A runner of mass 70 kg has 3.5 kJ in her kinetic store. Calculate her speed.",
+      "numericAnswer": 10, "tolerance": 0.01, "unit": "m/s",
+      "markScheme": ["1 mark: Ek = 3500 J", "1 mark: v² = (2 × 3500) ÷ 70 = 100", "1 mark: v = 10 m/s"],
+      "explanation": "Convert 3.5 kJ to 3500 J. Rearranging Ek = ½mv² gives v = √(2Ek ÷ m) = √(7000 ÷ 70) = √100 = 10 m/s. Forgetting the square root gives 100, which is unrealistic for a runner."
+    },
+    {
+      "id": "p1-changes-in-energy-q17",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A spring with spring constant 500 N/m stores 4.0 J in its elastic potential store. The limit of proportionality has not been exceeded. Calculate the extension of the spring in centimetres.",
+      "numericAnswer": 12.6, "tolerance": 0.02, "unit": "cm",
+      "markScheme": ["1 mark: e² = (2 × 4.0) ÷ 500 = 0.016", "1 mark: e = 0.126 m", "1 mark: 12.6 cm (accept 13 cm)"],
+      "explanation": "Rearrange Ee = ½ke² to e = √(2Ee ÷ k) = √(8.0 ÷ 500) = √0.016 = 0.126 m. Multiply by 100 to convert to cm: 12.6 cm."
+    },
+    {
+      "id": "p1-changes-in-energy-q18",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A ball is dropped from a height of 3.2 m. Air resistance can be ignored. Calculate the speed of the ball just before it hits the ground. (g = 9.8 N/kg)",
+      "numericAnswer": 7.9, "tolerance": 0.02, "unit": "m/s",
+      "markScheme": ["1 mark: mgh = ½mv² (Ep lost = Ek gained)", "1 mark: v² = 2 × 9.8 × 3.2 = 62.72", "1 mark: v = 7.9 m/s"],
+      "explanation": "No mass is given because it cancels: mgh = ½mv² gives v² = 2gh = 62.72, so v = 7.9 m/s. Any mass can be assumed and gives the same answer."
+    },
+    {
+      "id": "p1-changes-in-energy-q19",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A 2.0 kg box gains 49 J in its gravitational potential store when it is lifted. Calculate the height it was lifted through. (g = 9.8 N/kg)",
+      "numericAnswer": 2.5, "tolerance": 0.01, "unit": "m",
+      "markScheme": ["1 mark: h = Ep ÷ (mg)", "1 mark: h = 49 ÷ (2.0 × 9.8)", "1 mark: 2.5 m"],
+      "explanation": "Rearrange Ep = mgh to h = Ep ÷ (mg) = 49 ÷ 19.6 = 2.5 m."
+    },
+    {
+      "id": "p1-changes-in-energy-q20",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Write down the equation that links kinetic energy (Ek), mass (m) and speed (v).",
+      "acceptedAnswers": ["Ek = ½mv²", "Ek = 0.5mv²", "kinetic energy = 0.5 × mass × speed²", "Ek = 1/2 m v^2"],
+      "markScheme": ["1 mark: Ek = ½mv²"],
+      "explanation": "This equation must be recalled; it is not on the equation sheet."
+    },
+    {
+      "id": "p1-changes-in-energy-q21",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Write down the equation that links gravitational potential energy (Ep), mass (m), gravitational field strength (g) and height (h).",
+      "acceptedAnswers": ["Ep = mgh", "gpe = mass × gravitational field strength × height"],
+      "markScheme": ["1 mark: Ep = mgh"],
+      "explanation": "This equation must be recalled. It gives the change in gravitational potential store when an object's height changes by h."
+    },
+    {
+      "id": "p1-changes-in-energy-q22",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "State the value of the gravitational field strength, g, at the surface of the Earth. Give the unit.",
+      "acceptedAnswers": ["9.8 N/kg", "9.8 newtons per kilogram"],
+      "markScheme": ["1 mark: 9.8 N/kg (value and unit)"],
+      "explanation": "AQA uses g = 9.8 N/kg. Each kilogram of mass has a weight of 9.8 N at the Earth's surface."
+    },
+    {
+      "id": "p1-changes-in-energy-q23",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A student calculates the kinetic energy of a 500 g ball moving at 4.0 m/s as 4000 J. Identify the mistake and give the correct value.",
+      "acceptedAnswers": ["mass not converted to kg", "used grams", "4 J", "4.0 J"],
+      "markScheme": ["1 mark: the mass was used in grams instead of kilograms (should be 0.50 kg)", "1 mark: correct Ek = 0.5 × 0.50 × 4.0² = 4.0 J"],
+      "explanation": "0.5 × 500 × 16 = 4000 gives the wrong answer because the mass must be in kg. With m = 0.50 kg, Ek = 4.0 J, which is 1000 times smaller."
+    },
+    {
+      "id": "p1-changes-in-energy-q24",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Explain, in terms of energy stores, why a skydiver's speed increases when she first jumps from a plane.",
+      "acceptedAnswers": ["gravitational potential store decreases", "kinetic store increases", "weight does work", "energy transferred from GPE to KE"],
+      "markScheme": ["1 mark: her gravitational potential store decreases as she loses height", "1 mark: energy is transferred to her kinetic store, so her speed increases"],
+      "explanation": "Losing height reduces Ep. At first air resistance is small, so most of this energy goes into her kinetic store, and since Ek = ½mv² her speed rises."
+    },
+    {
+      "id": "p1-changes-in-energy-q25",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A student uses mgh = ½mv² to calculate the speed of a falling tennis ball just before it lands. Her measured speed is lower than the calculated speed. Explain why.",
+      "acceptedAnswers": ["air resistance", "work done against air resistance", "energy dissipated", "thermal store", "not all Ep transferred to Ek"],
+      "markScheme": ["1 mark: there is air resistance acting on the ball", "1 mark: work is done against air resistance so energy is dissipated to thermal stores of the ball and air", "1 mark: so the gain in kinetic store is less than the loss in gravitational potential store, giving a lower speed"],
+      "explanation": "The equation assumes all Ep becomes Ek. In reality some energy is transferred by work against air resistance, so Ek, and hence the speed, is smaller than predicted."
+    },
+    {
+      "id": "p1-changes-in-energy-q26",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Explain why, if air resistance is ignored, a heavy ball and a light ball dropped from the same height hit the ground at the same speed.",
+      "acceptedAnswers": ["mass cancels", "mgh = ½mv²", "v² = 2gh", "speed does not depend on mass"],
+      "markScheme": ["1 mark: Ep lost = Ek gained, so mgh = ½mv²", "1 mark: mass appears on both sides and cancels, so v = √(2gh) depends only on g and h"],
+      "explanation": "The heavier ball has more Ep but also needs more energy for the same speed. The m cancels, leaving v² = 2gh."
+    },
+    {
+      "id": "p1-changes-in-energy-q27",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Explain why Ee = ½ke² cannot be used to find the energy stored in a spring that has been stretched beyond its limit of proportionality.",
+      "acceptedAnswers": ["force no longer proportional to extension", "k not constant", "graph no longer a straight line", "area is not a triangle"],
+      "markScheme": ["1 mark: beyond the limit of proportionality, force is no longer proportional to extension (k is not constant)", "1 mark: so the area under the force against extension graph is no longer a triangle and ½ke² does not give the energy stored"],
+      "explanation": "The equation comes from the triangular area under a straight-line graph. Beyond the limit of proportionality the graph curves, so the equation no longer applies."
+    },
+    {
+      "id": "p1-changes-in-energy-q28",
+      "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "question": "A pendulum bob is pulled to one side and released. Describe the changes in its energy stores during one swing from one side to the other, and explain why it eventually stops swinging.",
+      "markScheme": [
+        "Indicative content: at the highest point the bob is momentarily at rest, so its kinetic store is zero and its gravitational potential store is at a maximum; as it swings down, Ep decreases and Ek increases; at the lowest point Ek is at a maximum and Ep at a minimum; as it rises to the other side Ek decreases and Ep increases; air resistance and friction at the pivot do work, dissipating energy to thermal stores of the surroundings; so each swing reaches a slightly lower height until it stops.",
+        "Level 2 (3 to 4 marks): clear description of the Ep and Ek changes at the key points with a correct explanation of why it stops.",
+        "Level 1 (1 to 2 marks): some correct statements about Ep and Ek changing, or a simple reason for stopping."
+      ],
+      "explanation": "Ep and Ek swap back and forth, with Ep maximum at the ends and Ek maximum at the bottom. Dissipation by air resistance and friction slowly removes energy from the bob."
+    },
+    {
+      "id": "p1-changes-in-energy-q29",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "A toy launcher uses a spring with spring constant 400 N/m. The spring is compressed by 8.0 cm and then released, firing a 50 g ball vertically upwards.\nDescribe the energy transfers that take place, and calculate the maximum height the ball could reach. Explain why the real height will be lower. (g = 9.8 N/kg)",
+      "markScheme": [
+        "Indicative content: energy is stored in the elastic potential store of the compressed spring; on release the spring does work on the ball, transferring energy mechanically to its kinetic store; as the ball rises its kinetic store decreases and its gravitational potential store increases; at maximum height Ek = 0; Ee = ½ke² = 0.5 × 400 × 0.080² = 1.28 J; m = 0.050 kg; h = Ee ÷ (mg) = 1.28 ÷ (0.050 × 9.8) = 2.6 m; real height lower because energy is dissipated by friction in the launcher, air resistance and sound, and the spring itself gains some kinetic energy.",
+        "Level 3 (5 to 6 marks): full description of transfers, correct unit conversions and correct height of 2.6 m, with a clear explanation of why the real height is lower.",
+        "Level 2 (3 to 4 marks): correct description of most transfers and Ee calculated correctly, or a correct height with limited description.",
+        "Level 1 (1 to 2 marks): some correct stores named or one correct step in the calculation."
+      ],
+      "explanation": "Convert 8.0 cm to 0.080 m and 50 g to 0.050 kg. Ee = 1.28 J. If all of this ends in the gravitational potential store, h = 1.28 ÷ 0.49 = 2.6 m. Dissipation means the real ball falls short of this."
+    },
+    {
+      "id": "p1-changes-in-energy-q30",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A roller coaster car of mass 500 kg starts from rest at the top of a 20 m drop. Assume no energy is dissipated.\nCalculate the gravitational potential energy lost and the speed of the car at the bottom of the drop. Explain each step. (g = 9.8 N/kg)",
+      "markScheme": [
+        "Indicative content: Ep = mgh = 500 × 9.8 × 20 = 98 000 J; with no energy dissipated, Ek gained = 98 000 J; v² = 2Ek ÷ m = 196 000 ÷ 500 = 392; v = √392 = 19.8 m/s (accept 20 m/s).",
+        "Level 2 (3 to 4 marks): both values correct with a clear explanation linking Ep lost to Ek gained.",
+        "Level 1 (1 to 2 marks): Ep calculated correctly, or correct use of Ek = ½mv² with an incorrect Ep."
+      ],
+      "explanation": "Ep lost = 98 000 J (98 kJ). Setting this equal to ½mv² and rearranging gives v = 19.8 m/s. The same answer comes from v = √(2gh) = √392."
+    }
+  ]
+}

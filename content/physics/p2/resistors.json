@@ -1,0 +1,685 @@
+{
+  "id": "p2-resistors",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "resistors",
+  "specRef": "4.2.1.4",
+  "title": "Resistors and I–V characteristics",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "For an ohmic conductor at constant temperature, the current is directly proportional to the potential difference, so its resistance is constant. Components such as filament lamps, diodes, thermistors and LDRs have resistances that change, and their behaviour is shown by I–V characteristic graphs.",
+    "explanation": [
+      "An I–V characteristic is a graph of current (I) against potential difference (V) for a component. For an ohmic conductor, such as a fixed resistor or a metal wire kept at a constant temperature, the graph is a straight line through the origin. Current is directly proportional to potential difference, so the resistance does not change. Reversing the potential difference just reverses the current, so the line continues into the opposite quadrant.",
+      "A filament lamp is not ohmic. As the current through it increases, the filament gets hotter. In a hotter metal the ions vibrate more, so the moving electrons collide with them more often and the resistance increases. The I–V graph is a curve that gets less steep as the potential difference increases: each extra volt produces a smaller increase in current. The graph has the same shape for negative values, because the filament heats up whichever way the current flows.",
+      "A diode lets current flow in one direction only. In the reverse direction it has a very high resistance, so the current is zero. In the forward direction the current stays almost zero until a small potential difference (about 0.6 V for a silicon diode) is reached, then rises steeply. Diodes are used to protect circuits from batteries connected the wrong way round and to allow current in one direction only.",
+      "The resistance of a thermistor decreases as its temperature increases. Thermistors are used as temperature sensors, for example in thermostats, car engine temperature gauges and digital thermometers. The resistance of a light-dependent resistor (LDR) decreases as the light intensity increases. LDRs are used in circuits that switch on outdoor or street lights when it gets dark.",
+      "To find a resistance from an I–V graph, read off a pair of values at one point and use R = V ÷ I. Do not use the gradient: on a curved graph the gradient changes and is not the resistance. In Required Practical 4 you use a circuit with a power supply, a variable resistor, an ammeter in series and a voltmeter in parallel across the component. Varying the variable resistor gives a range of readings; reversing the supply connections gives the negative values. To investigate a thermistor or an LDR, you measure V and I to calculate R while changing the temperature (using a water bath) or the light intensity."
+    ],
+    "keyFacts": [
+      "Ohmic conductor: current directly proportional to potential difference at constant temperature; resistance is constant.",
+      "Resistor I–V graph: straight line through the origin.",
+      "Filament lamp: resistance increases as the temperature of the filament increases; I–V graph is a curve that flattens.",
+      "Diode: current flows in one direction only; very high resistance in the reverse direction.",
+      "Thermistor: resistance decreases as temperature increases (used in thermostats).",
+      "LDR: resistance decreases as light intensity increases (used to switch on lights when dark).",
+      "Find resistance at a point using R = V ÷ I, not the gradient.",
+      "Required Practical 4 uses a variable resistor to change V and reversed connections to get negative values."
+    ],
+    "keyTerms": [
+      {
+        "term": "Ohmic conductor",
+        "definition": "A conductor in which current is directly proportional to potential difference at constant temperature, so the resistance is constant."
+      },
+      {
+        "term": "I–V characteristic",
+        "definition": "A graph of current against potential difference for a component."
+      },
+      {
+        "term": "Filament lamp",
+        "definition": "A lamp containing a thin metal wire that glows when hot; its resistance increases as its temperature increases."
+      },
+      {
+        "term": "Diode",
+        "definition": "A component that allows current to flow in one direction only; it has a very high resistance in the reverse direction."
+      },
+      {
+        "term": "Thermistor",
+        "definition": "A resistor whose resistance decreases as its temperature increases."
+      },
+      {
+        "term": "Light-dependent resistor (LDR)",
+        "definition": "A resistor whose resistance decreases as the light intensity on it increases."
+      },
+      {
+        "term": "Variable resistor",
+        "definition": "A resistor whose resistance can be changed, used to vary the current and potential difference in a circuit."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Potential difference, current and resistance",
+        "formula": "potential difference = current × resistance",
+        "symbols": "V = I R",
+        "units": "V in volts (V), I in amperes (A), R in ohms (Ω)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Resistance of a filament lamp at two points",
+        "question": "A filament lamp has a current of 0.20 A at 2.0 V and 0.30 A at 6.0 V. Calculate its resistance at each potential difference and explain the change.",
+        "steps": [
+          "At 2.0 V: R = V ÷ I = 2.0 ÷ 0.20 = 10 Ω.",
+          "At 6.0 V: R = 6.0 ÷ 0.30 = 20 Ω.",
+          "The resistance has doubled because the larger current makes the filament hotter.",
+          "In the hotter metal, the ions vibrate more and electrons collide with them more often."
+        ],
+        "answer": "10 Ω at 2.0 V and 20 Ω at 6.0 V; resistance increases as the filament heats up."
+      },
+      {
+        "title": "Resistance from an I–V graph",
+        "question": "The straight-line I–V graph for a resistor passes through the origin and the point (4.0 V, 80 mA). Calculate the resistance.",
+        "steps": [
+          "Convert the current: 80 mA ÷ 1000 = 0.080 A.",
+          "R = V ÷ I = 4.0 ÷ 0.080.",
+          "R = 50 Ω.",
+          "The line is straight through the origin, so the resistance is 50 Ω at every point."
+        ],
+        "answer": "50 Ω"
+      },
+      {
+        "title": "Thermistor sensor",
+        "question": "A thermistor has 12 V across it and a current of 4.0 mA at 20 °C. Calculate its resistance and state what happens to the current if it is warmed with the same potential difference.",
+        "steps": [
+          "Convert: 4.0 mA = 0.0040 A.",
+          "R = V ÷ I = 12 ÷ 0.0040 = 3000 Ω.",
+          "When warmed, the thermistor's resistance decreases.",
+          "With the same potential difference, I = V ÷ R, so the current increases."
+        ],
+        "answer": "3000 Ω; the current increases when it is warmed."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "I–V characteristics",
+        "caption": "Resistor: straight line through the origin (constant resistance). Filament lamp: curve that flattens because resistance increases as it heats up. Diode: no current in reverse, current rises steeply above about 0.6 V forward.",
+        "svg": "<svg viewBox='0 0 480 200' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='18' y1='90' x2='144' y2='90' stroke-width='1.5'/><path d='M144 90 L139 92 L139 88 Z' fill='currentColor' stroke='none'/><line x1='80' y1='152' x2='80' y2='26' stroke-width='1.5'/><path d='M80 26 L82 31 L78 31 Z' fill='currentColor' stroke='none'/><text x='144' y='104' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>V</text><text x='86' y='34' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>I</text><g transform='translate(80 90)'><line x1='-52' y1='40' x2='52' y2='-40' stroke-width='2.5'/></g><text x='80' y='172' font-size='12' fill='currentColor' stroke='none'>Resistor (ohmic)</text><text x='80' y='188' font-size='10' fill='currentColor' stroke='none'>straight line: R constant</text><line x1='178' y1='90' x2='304' y2='90' stroke-width='1.5'/><path d='M304 90 L299 92 L299 88 Z' fill='currentColor' stroke='none'/><line x1='240' y1='152' x2='240' y2='26' stroke-width='1.5'/><path d='M240 26 L242 31 L238 31 Z' fill='currentColor' stroke='none'/><text x='304' y='104' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>V</text><text x='246' y='34' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>I</text><g transform='translate(240 90)'><path d='M0 0 C14 -24 28 -40 56 -46 M0 0 C-14 24 -28 40 -56 46' stroke-width='2.5'/></g><text x='240' y='172' font-size='12' fill='currentColor' stroke='none'>Filament lamp</text><text x='240' y='188' font-size='10' fill='currentColor' stroke='none'>curve: R increases</text><line x1='338' y1='90' x2='464' y2='90' stroke-width='1.5'/><path d='M464 90 L459 92 L459 88 Z' fill='currentColor' stroke='none'/><line x1='400' y1='152' x2='400' y2='26' stroke-width='1.5'/><path d='M400 26 L402 31 L398 31 Z' fill='currentColor' stroke='none'/><text x='464' y='104' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>V</text><text x='406' y='34' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>I</text><g transform='translate(400 90)'><path d='M-56 0 L16 0 C24 0 28 -10 34 -54' stroke-width='2.5'/></g><text x='400' y='172' font-size='12' fill='currentColor' stroke='none'>Diode</text><text x='400' y='188' font-size='10' fill='currentColor' stroke='none'>current one way only</text></g></svg>"
+      },
+      {
+        "title": "Circuit for Required Practical 4",
+        "caption": "The variable resistor changes the current and the potential difference across the component under test (here a lamp). The ammeter is in series and the voltmeter is in parallel.",
+        "svg": "<svg viewBox='0 0 480 280' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='60' y1='40' x2='110' y2='40'/><g transform='translate(130 40)'><line x1='-20' y1='0' x2='-12' y2='0'/><line x1='-12' y1='-13' x2='-12' y2='13'/><line x1='-6' y1='-7' x2='-6' y2='7' stroke-width='4'/><line x1='-6' y1='0' x2='6' y2='0' stroke-width='1.5' stroke-dasharray='2 2'/><line x1='6' y1='-13' x2='6' y2='13'/><line x1='12' y1='-7' x2='12' y2='7' stroke-width='4'/><line x1='12' y1='0' x2='20' y2='0'/></g><line x1='150' y1='40' x2='220' y2='40'/><g transform='translate(240 40)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/><line x1='-12' y1='12' x2='13' y2='-12' stroke-width='1.5'/><path d='M13 -12 L11 -6 L7 -10 Z' fill='currentColor' stroke='none'/></g><line x1='260' y1='40' x2='330' y2='40'/><g transform='translate(350 40)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='370' y1='40' x2='420' y2='40'/><line x1='60' y1='40' x2='60' y2='160'/><line x1='420' y1='40' x2='420' y2='160'/><line x1='60' y1='160' x2='220' y2='160'/><g transform='translate(240 160)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='-7.8' y1='-7.8' x2='7.8' y2='7.8' stroke-width='1.5'/><line x1='-7.8' y1='7.8' x2='7.8' y2='-7.8' stroke-width='1.5'/><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='260' y1='160' x2='420' y2='160'/><line x1='190' y1='160' x2='190' y2='220'/><line x1='290' y1='160' x2='290' y2='220'/><line x1='190' y1='220' x2='220' y2='220'/><g transform='translate(240 220)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>V</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='260' y1='220' x2='290' y2='220'/><circle cx='190' cy='160' r='3' fill='currentColor' stroke='none'/><circle cx='290' cy='160' r='3' fill='currentColor' stroke='none'/><text x='130' y='20' font-size='12' fill='currentColor' stroke='none'>battery</text><text x='240' y='20' font-size='12' fill='currentColor' stroke='none'>variable resistor</text><text x='350' y='20' font-size='12' fill='currentColor' stroke='none'>ammeter</text><text x='240' y='142' font-size='12' fill='currentColor' stroke='none'>component under test</text><text x='240' y='252' font-size='12' fill='currentColor' stroke='none'>voltmeter across the component</text><text x='240' y='272' font-size='10' fill='currentColor' stroke='none'>swap the supply connections to get negative readings</text></g></svg>"
+      },
+      {
+        "title": "Thermistor and LDR",
+        "caption": "A thermistor's resistance falls as temperature rises; an LDR's resistance falls as light intensity rises.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='50' y1='170' x2='200' y2='170' stroke-width='1.5'/><path d='M200 170 L195 172 L195 168 Z' fill='currentColor' stroke='none'/><line x1='50' y1='170' x2='50' y2='30' stroke-width='1.5'/><path d='M50 30 L52 35 L48 35 Z' fill='currentColor' stroke='none'/><text x='56' y='40' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>resistance</text><text x='200' y='188' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>temperature</text><path d='M60 50 C90 120 120 150 190 158' stroke-width='2.5'/><text x='125' y='205' font-size='12' fill='currentColor' stroke='none'>Thermistor</text><text x='125' y='222' font-size='10' fill='currentColor' stroke='none'>resistance falls as it gets hotter</text><line x1='290' y1='170' x2='440' y2='170' stroke-width='1.5'/><path d='M440 170 L435 172 L435 168 Z' fill='currentColor' stroke='none'/><line x1='290' y1='170' x2='290' y2='30' stroke-width='1.5'/><path d='M290 30 L292 35 L288 35 Z' fill='currentColor' stroke='none'/><text x='296' y='40' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>resistance</text><text x='440' y='188' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>light intensity</text><path d='M300 50 C330 120 360 150 430 158' stroke-width='2.5'/><text x='365' y='205' font-size='12' fill='currentColor' stroke='none'>LDR</text><text x='365' y='222' font-size='10' fill='currentColor' stroke='none'>resistance falls as light gets brighter</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the gradient of an I–V graph is the resistance.",
+        "right": "In fact resistance at a point is V ÷ I using values read from the graph. On an I–V graph a steeper line means a smaller resistance."
+      },
+      {
+        "wrong": "Students often think the resistance of a filament lamp decreases as it gets hotter.",
+        "right": "In fact the resistance of the metal filament increases as its temperature increases."
+      },
+      {
+        "wrong": "Students often mix up thermistors and LDRs, or think their resistance increases with temperature or light.",
+        "right": "In fact thermistor resistance decreases as temperature increases, and LDR resistance decreases as light intensity increases."
+      },
+      {
+        "wrong": "Students often think a diode conducts as soon as any forward potential difference is applied.",
+        "right": "In fact a diode needs a small forward potential difference (about 0.6 V) before the current rises significantly."
+      }
+    ],
+    "realWorld": [
+      "Thermistors are used in thermostats, fridges, car engine temperature sensors and digital thermometers.",
+      "LDRs are used in circuits that switch on street lights and garden lights automatically when it gets dark.",
+      "Diodes protect electronic devices from damage if batteries are inserted the wrong way round."
+    ],
+    "practicals": [
+      "phys-rp4"
+    ],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn to sketch the three I–V graphs, including the negative quadrant: a straight line for a resistor, an S-shaped curve for a filament lamp and a flat-then-steep line for a diode.",
+      "Explain the lamp's curve in steps: more current, filament hotter, ions vibrate more, more collisions, resistance increases.",
+      "To find resistance from a graph, read V and I at the point and calculate V ÷ I; convert mA to A first.",
+      "For Required Practical 4, mention the variable resistor (to change V), reversing the connections (for negative values) and switching off between readings (to avoid heating).",
+      "When asked for an application, give a specific one: thermistor in a thermostat, LDR in a street light."
+    ],
+    "summary": [
+      "Ohmic conductors have a constant resistance at constant temperature: I ∝ V.",
+      "Filament lamp resistance increases with temperature.",
+      "A diode conducts in one direction only.",
+      "Thermistor resistance falls as temperature rises; LDR resistance falls as light intensity rises.",
+      "Resistance at a point = V ÷ I.",
+      "Required Practical 4 plots I–V graphs using a variable resistor, an ammeter and a voltmeter."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is an ohmic conductor?",
+      "back": "A conductor where current is directly proportional to potential difference at constant temperature, so resistance is constant."
+    },
+    {
+      "front": "Shape of the I–V graph for a fixed resistor?",
+      "back": "A straight line through the origin."
+    },
+    {
+      "front": "Shape of the I–V graph for a filament lamp?",
+      "back": "A curve through the origin that gets less steep at higher V (in both directions)."
+    },
+    {
+      "front": "Why does a filament lamp's resistance increase?",
+      "back": "As current increases the filament gets hotter; ions vibrate more so electrons collide more often."
+    },
+    {
+      "front": "Describe the I–V graph of a diode.",
+      "back": "Zero current in reverse; in the forward direction current rises steeply above about 0.6 V."
+    },
+    {
+      "front": "What does a diode do?",
+      "back": "Allows current to flow in one direction only."
+    },
+    {
+      "front": "How does a thermistor's resistance change with temperature?",
+      "back": "It decreases as temperature increases."
+    },
+    {
+      "front": "How does an LDR's resistance change with light intensity?",
+      "back": "It decreases as light intensity increases."
+    },
+    {
+      "front": "Give a use of a thermistor.",
+      "back": "Thermostat / temperature sensor."
+    },
+    {
+      "front": "Give a use of an LDR.",
+      "back": "Switching on street lights when it gets dark."
+    },
+    {
+      "front": "How do you find resistance from a point on an I–V graph?",
+      "back": "Read off V and I and calculate R = V ÷ I."
+    },
+    {
+      "front": "In Required Practical 4, how are negative readings obtained?",
+      "back": "Reverse the connections to the power supply (or the component)."
+    },
+    {
+      "front": "What does the variable resistor do in Required Practical 4?",
+      "back": "Changes the current and the potential difference across the component."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-resistors-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component has an I–V graph that is a straight line through the origin?",
+      "markScheme": [
+        "1 mark: Fixed resistor at constant temperature"
+      ],
+      "explanation": "A fixed resistor at constant temperature is ohmic: I is directly proportional to V, giving a straight line through the origin.",
+      "options": [
+        "Filament lamp",
+        "Diode",
+        "Fixed resistor at constant temperature",
+        "Thermistor being heated"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-resistors-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens to the resistance of a filament lamp as the current through it increases?",
+      "markScheme": [
+        "1 mark: It increases."
+      ],
+      "explanation": "More current makes the filament hotter, and the resistance of a metal increases with temperature.",
+      "options": [
+        "It increases.",
+        "It decreases.",
+        "It stays the same.",
+        "It becomes zero."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-resistors-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How does the resistance of a thermistor change as its temperature increases?",
+      "markScheme": [
+        "1 mark: It decreases."
+      ],
+      "explanation": "Thermistor resistance decreases as temperature increases. This is why thermistors make good temperature sensors.",
+      "options": [
+        "It increases.",
+        "It stays the same.",
+        "It increases then decreases.",
+        "It decreases."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-resistors-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component would be best for a circuit that switches on a garden light automatically at dusk?",
+      "markScheme": [
+        "1 mark: LDR"
+      ],
+      "explanation": "An LDR's resistance increases as it gets darker, so it can be used to sense the light level. A thermistor senses temperature.",
+      "options": [
+        "Thermistor",
+        "LDR",
+        "Diode",
+        "Fuse"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-resistors-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the main property of a diode?",
+      "markScheme": [
+        "1 mark: It allows current in one direction only."
+      ],
+      "explanation": "A diode has a very high resistance in the reverse direction, so current flows only one way.",
+      "options": [
+        "Its resistance falls as light increases.",
+        "Its resistance increases with temperature.",
+        "It allows current in one direction only.",
+        "It has a constant resistance."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-resistors-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "On the I–V graph of a filament lamp, why does the line get less steep at higher potential differences?",
+      "markScheme": [
+        "1 mark: The resistance increases, so each extra volt gives less extra current."
+      ],
+      "explanation": "The filament is hotter at higher currents, so its resistance is higher and the current rises more slowly with V.",
+      "options": [
+        "The resistance increases, so each extra volt gives less extra current.",
+        "The resistance decreases.",
+        "The current becomes constant because the lamp is ohmic.",
+        "The lamp stops conducting."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-resistors-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In Required Practical 4, what is the purpose of the variable resistor?",
+      "markScheme": [
+        "1 mark: To change the potential difference across the component"
+      ],
+      "explanation": "Changing the variable resistor's resistance changes the current and so the potential difference across the component, giving a range of readings.",
+      "options": [
+        "To measure the current",
+        "To protect the voltmeter",
+        "To keep the current constant",
+        "To change the potential difference across the component"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-resistors-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A diode is connected in reverse with 3 V across it. What is the current?",
+      "markScheme": [
+        "1 mark: About zero"
+      ],
+      "explanation": "In the reverse direction a diode has a very high resistance, so the current is effectively zero.",
+      "options": [
+        "About 3 A",
+        "About zero",
+        "The same as in the forward direction",
+        "It cannot be predicted"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-resistors-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student reads a point on an I–V graph: V = 6.0 V, I = 0.25 A. What is the resistance at that point?",
+      "markScheme": [
+        "1 mark: 24 Ω"
+      ],
+      "explanation": "R = V ÷ I = 6.0 ÷ 0.25 = 24 Ω. 0.042 is I ÷ V, the wrong way round.",
+      "options": [
+        "1.5 Ω",
+        "0.042 Ω",
+        "24 Ω",
+        "6.25 Ω"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-resistors-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A thermistor and a fixed resistor are both at 20 °C and have the same resistance. Both are heated to 60 °C. Which statement is correct?",
+      "markScheme": [
+        "1 mark: The thermistor's resistance falls; the fixed resistor's resistance rises slightly or stays about the same."
+      ],
+      "explanation": "A thermistor's resistance falls with temperature. An ordinary metal or fixed resistor does not behave like this: its resistance stays about the same or rises slightly.",
+      "options": [
+        "The thermistor's resistance falls; the fixed resistor's resistance rises slightly or stays about the same.",
+        "Both resistances fall.",
+        "The thermistor's resistance rises; the fixed resistor's falls.",
+        "Both resistances stay the same."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-resistors-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A filament lamp has a current of 0.20 A when the potential difference across it is 2.0 V. Calculate its resistance.",
+      "markScheme": [
+        "1 mark: R = 2.0 ÷ 0.20",
+        "1 mark: 10 Ω"
+      ],
+      "explanation": "R = V ÷ I = 2.0 ÷ 0.20 = 10 Ω.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-resistors-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The same lamp has a current of 0.30 A at 6.0 V. Calculate its resistance at 6.0 V.",
+      "markScheme": [
+        "1 mark: R = 6.0 ÷ 0.30",
+        "1 mark: 20 Ω"
+      ],
+      "explanation": "R = V ÷ I = 6.0 ÷ 0.30 = 20 Ω. It is higher than at 2.0 V because the filament is hotter.",
+      "numericAnswer": 20,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-resistors-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "The I–V graph of a resistor is a straight line through the origin and the point (4.0 V, 80 mA). Calculate the resistance.",
+      "markScheme": [
+        "1 mark: 80 mA = 0.080 A",
+        "1 mark: R = 4.0 ÷ 0.080",
+        "1 mark: 50 Ω"
+      ],
+      "explanation": "Convert to amps, then R = V ÷ I = 4.0 ÷ 0.080 = 50 Ω.",
+      "numericAnswer": 50,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-resistors-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "An LDR in a dark room has 12 V across it and a current of 4.0 mA. Calculate its resistance.",
+      "markScheme": [
+        "1 mark: 4.0 mA = 0.0040 A",
+        "1 mark: R = 12 ÷ 0.0040",
+        "1 mark: 3000 Ω"
+      ],
+      "explanation": "R = V ÷ I = 12 ÷ 0.0040 = 3000 Ω. In bright light the resistance would be much lower.",
+      "numericAnswer": 3000,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-resistors-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A forward-biased diode has 0.60 V across it and a current of 20 mA. Calculate its resistance at this point.",
+      "markScheme": [
+        "1 mark: 20 mA = 0.020 A",
+        "1 mark: R = 0.60 ÷ 0.020 = 30 Ω"
+      ],
+      "explanation": "R = V ÷ I = 0.60 ÷ 0.020 = 30 Ω.",
+      "numericAnswer": 30,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-resistors-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define an ohmic conductor.",
+      "markScheme": [
+        "1 mark: current is directly proportional to potential difference",
+        "1 mark: at constant temperature (so the resistance is constant)"
+      ],
+      "explanation": "Ohmic means V ÷ I stays the same for all values, which needs the temperature to stay constant.",
+      "acceptedAnswers": [
+        "current directly proportional to potential difference",
+        "constant resistance",
+        "constant temperature"
+      ]
+    },
+    {
+      "id": "p2-resistors-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State how the resistance of an LDR changes when the light intensity increases.",
+      "markScheme": [
+        "1 mark: resistance decreases"
+      ],
+      "explanation": "More light means lower resistance for an LDR.",
+      "acceptedAnswers": [
+        "decreases"
+      ]
+    },
+    {
+      "id": "p2-resistors-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one use of a thermistor.",
+      "markScheme": [
+        "1 mark: e.g. thermostat / temperature sensor / digital thermometer / engine temperature gauge"
+      ],
+      "explanation": "Thermistors are temperature sensors because their resistance changes with temperature.",
+      "acceptedAnswers": [
+        "thermostat",
+        "temperature sensor",
+        "thermometer",
+        "fire alarm"
+      ]
+    },
+    {
+      "id": "p2-resistors-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain why the resistance of a filament lamp increases as the current through it increases.",
+      "markScheme": [
+        "1 mark: larger current makes the filament hotter",
+        "1 mark: ions (atoms) in the metal vibrate more",
+        "1 mark: so electrons collide with them more often, increasing resistance"
+      ],
+      "explanation": "The chain of reasoning: current up, temperature up, ion vibrations up, collisions up, resistance up.",
+      "acceptedAnswers": [
+        "temperature increases",
+        "ions vibrate more",
+        "more collisions"
+      ]
+    },
+    {
+      "id": "p2-resistors-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why, in Required Practical 4, the student reverses the connections to the power supply.",
+      "markScheme": [
+        "1 mark: to get negative values of current and potential difference",
+        "1 mark: so the behaviour in the reverse direction can be seen (e.g. diode conducts one way only)"
+      ],
+      "explanation": "A complete I–V characteristic includes both directions. This shows the diode's one-way behaviour and the symmetry of the resistor and lamp graphs.",
+      "acceptedAnswers": [
+        "negative values",
+        "reverse direction",
+        "test both directions"
+      ]
+    },
+    {
+      "id": "p2-resistors-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the I–V characteristic of a diode.",
+      "markScheme": [
+        "1 mark: (almost) zero current for negative potential differences / reverse direction",
+        "1 mark: current rises steeply in the forward direction after a small potential difference (about 0.6 V)"
+      ],
+      "explanation": "The diode blocks current one way and only conducts in the forward direction once a small threshold is reached.",
+      "acceptedAnswers": [
+        "zero current in reverse",
+        "high resistance in reverse",
+        "current rises steeply",
+        "above 0.6 V"
+      ]
+    },
+    {
+      "id": "p2-resistors-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says the resistance of a component is the gradient of its I–V graph. Explain why this is incorrect.",
+      "markScheme": [
+        "1 mark: resistance is V ÷ I at a point (read from the graph)",
+        "1 mark: the gradient of an I–V graph is I ÷ V (the reciprocal), and for a curve it is not the same as V ÷ I at that point"
+      ],
+      "explanation": "On an I–V graph the gradient is ΔI ÷ ΔV, and for a curved graph the tangent does not give V ÷ I. Always use values read from the point.",
+      "acceptedAnswers": [
+        "R = V ÷ I",
+        "gradient is I ÷ V",
+        "not constant on a curve"
+      ]
+    },
+    {
+      "id": "p2-resistors-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Suggest how a student could investigate how the resistance of a thermistor changes with temperature.",
+      "markScheme": [
+        "1 mark: place the thermistor in a beaker of water (water bath) and heat it, measuring temperature with a thermometer",
+        "1 mark: measure V and I (or use an ohmmeter) at each temperature",
+        "1 mark: calculate R = V ÷ I and plot R against temperature"
+      ],
+      "explanation": "Changing temperature in a water bath and calculating R each time shows resistance falling as temperature rises.",
+      "acceptedAnswers": [
+        "water bath",
+        "thermometer",
+        "measure V and I",
+        "R = V ÷ I"
+      ]
+    },
+    {
+      "id": "p2-resistors-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how to carry out Required Practical 4 to find the I–V characteristic of a filament lamp. Explain the shape of the graph you would expect.",
+      "markScheme": [
+        "Indicative content: connect a power supply, variable resistor and ammeter in series with the lamp; connect a voltmeter in parallel across the lamp; adjust the variable resistor to change the potential difference; record V and I for a range of values (e.g. every 1 V up to 6 V); switch off between readings; reverse the supply connections and repeat to get negative values; repeat and take means; plot current (y-axis) against potential difference (x-axis) with a smooth curve. Expected shape: curve through the origin, steep at first then less steep at higher V, symmetrical in the negative quadrant; explanation: current heats the filament, ions vibrate more, more collisions with electrons, resistance increases.",
+        "Level 3 (5 to 6 marks): a logical, detailed method with the correct circuit, a way of varying V, negative values, and a full explanation of the curve.",
+        "Level 2 (3 to 4 marks): a workable method with some detail and a partial explanation of the shape.",
+        "Level 1 (1 to 2 marks): basic points about measuring V and I, or a correct sketch with no explanation."
+      ],
+      "explanation": "The best answers combine a clear method (variable resistor, meters, reversing connections) with an explanation linking temperature to resistance."
+    },
+    {
+      "id": "p2-resistors-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Compare the I–V characteristics of a fixed resistor, a filament lamp and a diode.",
+      "markScheme": [
+        "Indicative content: resistor: straight line through the origin, current directly proportional to potential difference, constant resistance (ohmic) at constant temperature, same in both directions. Lamp: curve through origin, gradient decreases as V increases, resistance increases as filament heats, symmetrical in both directions. Diode: current only in forward direction, zero current (very high resistance) in reverse, current rises steeply after about 0.6 V. Similarities: all pass through the origin; resistor and lamp behave the same in both directions.",
+        "Level 2 (3 to 4 marks): correct description of all three graphs with at least one explicit comparison.",
+        "Level 1 (1 to 2 marks): correct description of one or two graphs."
+      ],
+      "explanation": "A comparison should say how the graphs are alike and how they differ, linked to what happens to the resistance."
+    },
+    {
+      "id": "p2-resistors-q26",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component's resistance is very high in one direction and low in the other?",
+      "markScheme": [
+        "1 mark: Diode"
+      ],
+      "explanation": "That is the defining property of a diode. All the other components conduct equally well in either direction.",
+      "options": [
+        "Filament lamp",
+        "Fixed resistor",
+        "LDR",
+        "Diode"
+      ],
+      "answer": 3
+    }
+  ]
+}

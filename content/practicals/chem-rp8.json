@@ -1,0 +1,445 @@
+{
+  "id": "chem-rp8",
+  "science": "chemistry",
+  "number": 8,
+  "title": "Water purification: analysing and purifying water samples",
+  "combined": true,
+  "topicId": "c10",
+  "subtopic": "potable-water",
+  "aim": "To analyse samples of water from different sources by measuring their pH and the mass of dissolved solids, and to purify a sample of salt water by distillation.",
+  "background": [
+    "Potable water is water that is safe to drink. It is not pure in the chemical sense, because it contains low levels of dissolved salts and microbes, but these are at safe levels. Pure water contains only water molecules (H₂O) and has a pH of 7, boils at 100 °C and leaves no residue when evaporated.",
+    "Water samples can be analysed by measuring the pH, using universal indicator or a pH meter, and by measuring the mass of dissolved solids. A measured volume of water is evaporated to dryness in a weighed evaporating basin; the increase in mass is the mass of solid that was dissolved.",
+    "In the UK, most drinking water comes from fresh water (rain water collected in lakes, rivers and underground rocks). It is treated by passing it through filter beds to remove insoluble solids, then sterilised with chlorine, ozone or ultraviolet light to kill microbes.",
+    "Where fresh water is scarce, sea water can be desalinated by distillation or reverse osmosis. In distillation, the salt water is boiled; the water vapour leaves the dissolved salts behind and is then cooled and condensed back to liquid water, which is collected as the distillate. Distillation needs large amounts of energy, so it is expensive."
+  ],
+  "hypothesis": "Sea water will contain far more dissolved solids than fresh water samples, and distilling sea water will produce water with a pH of about 7, a boiling point of 100 °C and no dissolved solids.",
+  "variables": {
+    "independent": "The source of the water sample (tap water, rain water, river water, sea water, and the distillate made from sea water).",
+    "dependent": "pH of the sample, and mass of dissolved solids left after evaporating 50 cm³ (g), used to calculate g/dm³.",
+    "control": [
+      "Volume of each sample evaporated (50.0 cm³)",
+      "Same balance (reading to 0.001 g) for all weighings",
+      "Same method of measuring pH (calibrated pH meter)",
+      "Samples filtered first to remove insoluble solids",
+      "Evaporating basins clean and dry before first weighing"
+    ]
+  },
+  "equipment": [
+    "Water samples: tap water, rain water, river water, sea water (or salt solution)",
+    "pH meter (or universal indicator paper and colour chart)",
+    "Filter funnel and filter paper",
+    "50 cm³ measuring cylinder",
+    "Evaporating basins",
+    "Balance reading to 0.001 g",
+    "Bunsen burner, tripod, gauze and heatproof mat (or a steam bath)",
+    "Conical flask with a bung fitted with a thermometer and delivery tube",
+    "Test tube and a beaker of ice and water",
+    "Anti-bumping granules",
+    "Tongs and eye protection"
+  ],
+  "method": [
+    "Analysis: filter each water sample that looks cloudy to remove insoluble solids.",
+    "Measure the pH of each sample with a calibrated pH meter (or dip in universal indicator paper and compare with the colour chart). Rinse the probe with distilled water between samples. Record the pH.",
+    "Weigh a clean, dry evaporating basin and record its mass.",
+    "Use a measuring cylinder to add 50.0 cm³ of the water sample to the basin.",
+    "Heat the basin gently on a steam bath or over a low Bunsen flame until all the water has evaporated. Do not let the residue spit.",
+    "Let the basin cool, then weigh it again with the residue. Record the mass. Calculate the mass of dissolved solids and repeat for each water sample.",
+    "Purification: pour about 50 cm³ of sea water into a conical flask and add a few anti-bumping granules.",
+    "Fit the bung with the thermometer and delivery tube. The thermometer bulb should be level with the delivery tube opening so it measures the temperature of the vapour.",
+    "Place the end of the delivery tube in a test tube standing in a beaker of ice and water, so the steam condenses.",
+    "Heat the flask so that the sea water boils gently. Record the temperature on the thermometer while the distillate is being collected.",
+    "Collect a few cm³ of distillate, then stop heating. Lift the delivery tube out of the test tube before stopping, to prevent suck-back.",
+    "Test the distillate: measure its pH and evaporate a sample to check that it leaves no residue."
+  ],
+  "safety": [
+    {
+      "hazard": "Hot apparatus and boiling water or steam",
+      "risk": "Scalds and burns.",
+      "precaution": "Use tongs to move hot evaporating basins, let apparatus cool before handling and keep hands away from the steam."
+    },
+    {
+      "hazard": "Suck-back during distillation",
+      "risk": "Cold water is sucked back into the hot flask, which can crack the glass.",
+      "precaution": "Remove the delivery tube from the collecting test tube before turning off the Bunsen burner."
+    },
+    {
+      "hazard": "Uneven (bumping) boiling",
+      "risk": "Hot liquid jumps violently out of the flask.",
+      "precaution": "Add anti-bumping granules and heat gently."
+    },
+    {
+      "hazard": "Microbes in river or pond water",
+      "risk": "May cause infection if swallowed or if they enter cuts.",
+      "precaution": "Do not drink any samples (including the distillate, which is in lab glassware), cover cuts, and wash hands after the practical."
+    }
+  ],
+  "results": {
+    "headers": [
+      "Sample",
+      "pH",
+      "Mass of empty basin (g)",
+      "Mass of basin + residue (g)",
+      "Mass of dissolved solids in 50.0 cm³ (g)",
+      "Dissolved solids (g/dm³)"
+    ],
+    "rows": [
+      [
+        "Tap water",
+        "7.2",
+        "32.415",
+        "32.432",
+        "0.017",
+        "0.34"
+      ],
+      [
+        "Rain water",
+        "5.6",
+        "29.950",
+        "29.951",
+        "0.001",
+        "0.02"
+      ],
+      [
+        "River water (filtered)",
+        "6.8",
+        "30.872",
+        "30.896",
+        "0.024",
+        "0.48"
+      ],
+      [
+        "Sea water",
+        "8.1",
+        "31.604",
+        "33.354",
+        "1.750",
+        "35.0"
+      ],
+      [
+        "Distillate from sea water",
+        "7.0",
+        "32.118",
+        "32.118",
+        "0.000",
+        "0.00"
+      ]
+    ],
+    "notes": "Mass of dissolved solids = mass of basin + residue − mass of empty basin. To convert to g/dm³, divide by the volume in dm³: 50.0 cm³ = 0.0500 dm³. For example, sea water: 1.750 ÷ 0.0500 = 35.0 g/dm³. The thermometer read 100 °C while the distillate was being collected."
+  },
+  "analysis": [
+    "Sea water contained by far the most dissolved solids (35.0 g/dm³), mainly sodium chloride. This is about 100 times more than tap water (0.34 g/dm³), which explains why sea water is not potable without treatment.",
+    "Tap water and river water contain small amounts of dissolved solids (salts such as calcium and magnesium compounds). Tap water is potable because these salts are at safe levels and it has been sterilised, but it is not pure water.",
+    "Rain water was slightly acidic (pH 5.6) because carbon dioxide from the air dissolves in it. It contained almost no dissolved solids because it formed by evaporation and condensation, a natural distillation.",
+    "The distillate from sea water had a pH of 7.0, left no residue on evaporation, and was collected while the vapour temperature was 100 °C. These results show the distillate was pure water: distillation separated the water from the dissolved salts.",
+    "Distillation works because water has a much lower boiling point than the salts dissolved in it, so only water evaporates. However, it requires a lot of energy to boil the water, so desalination of sea water by distillation is expensive and only used where fresh water is scarce."
+  ],
+  "errors": [
+    {
+      "error": "The masses of dissolved solids in fresh water samples are very small, so the balance resolution causes a large percentage uncertainty.",
+      "improvement": "Use a larger volume of sample (for example 250 cm³, evaporated in stages) and a balance that reads to 0.001 g."
+    },
+    {
+      "error": "The residue spits out of the basin during the final stages of evaporation, losing some solid.",
+      "improvement": "Evaporate gently on a steam bath, and cover loosely with a watch glass near the end."
+    },
+    {
+      "error": "Not all the water is evaporated, so the residue mass is too high.",
+      "improvement": "Heat, cool and reweigh repeatedly until the mass is constant (heating to constant mass)."
+    },
+    {
+      "error": "Some steam escapes without condensing, so little distillate is collected.",
+      "improvement": "Keep the collecting tube in plenty of ice and water, or use a Liebig condenser with cold water flowing through it."
+    },
+    {
+      "error": "Universal indicator paper only gives the pH to the nearest whole number and the colour judgement is subjective.",
+      "improvement": "Use a calibrated pH meter, which gives readings to 0.1 pH unit."
+    }
+  ],
+  "diagram": {
+    "title": "Distilling salt water",
+    "caption": "Salt water is boiled in a conical flask. The thermometer measures the temperature of the water vapour (100 °C). The steam passes along the delivery tube and condenses in a test tube cooled in a beaker of ice and water. The salt stays behind in the flask.",
+    "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M80 70 V100 L40 180 H160 L120 100 V70\"/><rect x=\"74\" y=\"58\" width=\"52\" height=\"14\"/><path d=\"M112 64 H200 L330 150 V215\"/><path d=\"M112 70 H196 L322 154 V215\" stroke-width=\"1\"/><line x1=\"25\" y1=\"182\" x2=\"175\" y2=\"182\"/><line x1=\"40\" y1=\"182\" x2=\"32\" y2=\"240\"/><line x1=\"160\" y1=\"182\" x2=\"168\" y2=\"240\"/><path d=\"M92 240 V214 H108 V240\"/><path d=\"M100 212 q-8 -12 0 -24 q8 12 0 24\"/><path d=\"M310 150 V230 a16 16 0 0 0 32 0 V150\"/><path d=\"M270 170 V275 H390 V170\"/></g><path d=\"M52 155 L41 179 H159 L148 155 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"271\" y=\"195\" width=\"118\" height=\"79\" fill=\"#93c5fd\" fill-opacity=\"0.3\"/><g fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"0.8\"><rect x=\"282\" y=\"205\" width=\"16\" height=\"14\" transform=\"rotate(12 290 212)\"/><rect x=\"355\" y=\"215\" width=\"16\" height=\"14\" transform=\"rotate(-10 363 222)\"/><rect x=\"285\" y=\"245\" width=\"14\" height=\"12\"/><rect x=\"358\" y=\"250\" width=\"14\" height=\"12\"/></g><path d=\"M311 225 V230 a15 15 0 0 0 30 0 V225 Z\" fill=\"#93c5fd\" fill-opacity=\"0.7\"/><rect x=\"94\" y=\"10\" width=\"8\" height=\"66\" rx=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"98\" cy=\"80\" r=\"5\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"102\" y1=\"24\" x2=\"150\" y2=\"24\"/><line x1=\"104\" y1=\"80\" x2=\"200\" y2=\"110\"/><line x1=\"240\" y1=\"92\" x2=\"262\" y2=\"80\"/><line x1=\"150\" y1=\"170\" x2=\"200\" y2=\"160\"/><line x1=\"341\" y1=\"232\" x2=\"405\" y2=\"220\"/><line x1=\"380\" y1=\"262\" x2=\"405\" y2=\"262\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"154\" y=\"28\">Thermometer (100 °C)</text><text x=\"204\" y=\"114\">Bulb level with</text><text x=\"204\" y=\"128\">delivery tube</text><text x=\"266\" y=\"78\">Delivery tube (steam)</text><text x=\"204\" y=\"158\">Salt water</text><text x=\"204\" y=\"172\">(sea water)</text><text x=\"408\" y=\"218\">Pure water</text><text x=\"408\" y=\"232\">(distillate)</text><text x=\"408\" y=\"260\">Ice and</text><text x=\"408\" y=\"274\">water</text><text x=\"30\" y=\"262\">Heat</text></g></svg>"
+  },
+  "examTips": [
+    "Know the difference: potable water is safe to drink but contains dissolved substances; pure water contains only H₂O.",
+    "Describe how to show water is pure: it boils at exactly 100 °C (and freezes at 0 °C), has a pH of 7, and leaves no residue when evaporated.",
+    "Mass of dissolved solids = (basin + residue) − empty basin. Convert cm³ to dm³ by dividing by 1000 before calculating g/dm³.",
+    "Explain distillation in steps: boil the salt water, water evaporates and leaves salt behind, steam is cooled and condenses, pure water is collected.",
+    "Explain why distillation of sea water is expensive: boiling large volumes of water needs a lot of energy (from fuels)."
+  ],
+  "questions": [
+    {
+      "id": "chem-rp8-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does 'potable water' mean?",
+      "options": [
+        "Water that contains only H₂O molecules",
+        "Water that has been distilled",
+        "Water that is safe to drink",
+        "Water from the sea"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: water that is safe to drink"
+      ],
+      "explanation": "Potable water is safe to drink but it is not pure: it contains low levels of dissolved salts and microbes. Pure water contains only water molecules."
+    },
+    {
+      "id": "chem-rp8-q02",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "An empty evaporating basin had a mass of 30.872 g. After 50.0 cm³ of river water was evaporated in it, the basin and residue had a mass of 30.896 g.\nCalculate the mass of dissolved solids.",
+      "numericAnswer": 0.024,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: 30.896 − 30.872 = 0.024 g"
+      ],
+      "explanation": "The increase in mass of the basin is the mass of solid that was dissolved in the water."
+    },
+    {
+      "id": "chem-rp8-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Evaporating 50.0 cm³ of sea water left 1.750 g of dissolved solids.\nCalculate the concentration of dissolved solids in g/dm³.",
+      "numericAnswer": 35,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: 50.0 cm³ = 0.0500 dm³",
+        "1 mark: 1.750 ÷ 0.0500 = 35.0 g/dm³"
+      ],
+      "explanation": "Concentration = mass ÷ volume in dm³. Dividing by 50 instead of 0.0500 gives 0.035, which is 1000 times too small."
+    },
+    {
+      "id": "chem-rp8-q04",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two ways a student could show that the distillate from sea water is pure water.",
+      "acceptedAnswers": [
+        "boils at 100 °C",
+        "freezes at 0 °C",
+        "pH 7",
+        "no residue on evaporation"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: it boils at exactly 100 °C; it freezes / melts at exactly 0 °C; it has a pH of 7 (neutral); it leaves no residue when evaporated"
+      ],
+      "explanation": "Pure substances have fixed melting and boiling points. Dissolved substances raise the boiling point and would leave a solid residue."
+    },
+    {
+      "id": "chem-rp8-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why is the test tube collecting the distillate placed in a beaker of ice and water?",
+      "options": [
+        "To stop the salt from dissolving",
+        "To cool the steam so that it condenses to liquid water",
+        "To measure the boiling point of the water",
+        "To make the water boil faster"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: to cool the steam / water vapour so it condenses"
+      ],
+      "explanation": "Distillation needs evaporation followed by condensation. The ice-cold test tube removes energy from the steam so it turns back into liquid water."
+    },
+    {
+      "id": "chem-rp8-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain how distillation separates pure water from sea water.",
+      "acceptedAnswers": [
+        "water boils and evaporates",
+        "salt has a much higher boiling point",
+        "salt left behind",
+        "steam is cooled",
+        "condenses"
+      ],
+      "markScheme": [
+        "1 mark: the sea water is heated until the water boils / evaporates",
+        "1 mark: the dissolved salts do not evaporate (much higher boiling point) and are left behind in the flask",
+        "1 mark: the water vapour is cooled and condenses back to liquid water, which is collected"
+      ],
+      "explanation": "Distillation relies on the large difference in boiling point between water (100 °C) and salts such as sodium chloride (over 1400 °C)."
+    },
+    {
+      "id": "chem-rp8-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Rain water had a pH of 5.6. What is the best explanation for this?",
+      "options": [
+        "It contains a lot of dissolved sodium chloride",
+        "It has been sterilised with chlorine",
+        "It contains dissolved carbon dioxide from the air",
+        "It contains no dissolved substances at all"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: dissolved carbon dioxide (makes it slightly acidic)"
+      ],
+      "explanation": "Carbon dioxide dissolves in rain water to form a weakly acidic solution. Sodium chloride solution is neutral, and water with nothing dissolved would have pH 7."
+    },
+    {
+      "id": "chem-rp8-q08",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the delivery tube must be removed from the collecting test tube before the Bunsen burner is turned off.",
+      "acceptedAnswers": [
+        "suck-back",
+        "cold water sucked into hot flask",
+        "flask could crack"
+      ],
+      "markScheme": [
+        "1 mark: to prevent suck-back (as the flask cools, the pressure drops and cold liquid is drawn back up the tube)",
+        "1 mark: cold water entering the hot flask could crack it"
+      ],
+      "explanation": "When heating stops, the vapour in the flask condenses and the pressure falls, which can pull liquid back up the delivery tube."
+    },
+    {
+      "id": "chem-rp8-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which piece of equipment gives the most precise measurement of the pH of a water sample?",
+      "options": [
+        "Universal indicator paper",
+        "Litmus paper",
+        "Phenolphthalein",
+        "A pH meter"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: a pH meter"
+      ],
+      "explanation": "A pH meter gives a numerical reading, usually to 0.1 pH unit. Universal indicator gives whole numbers by colour, and litmus and phenolphthalein only show acid or alkali."
+    },
+    {
+      "id": "chem-rp8-q10",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In the UK, fresh water is made potable by filtration and sterilisation.\nExplain the purpose of each stage.",
+      "acceptedAnswers": [
+        "filtration removes insoluble solids",
+        "sterilisation kills microbes",
+        "chlorine",
+        "ozone",
+        "ultraviolet"
+      ],
+      "markScheme": [
+        "1 mark: filtration (through filter beds) removes insoluble solids / particles",
+        "1 mark: sterilisation (with chlorine, ozone or ultraviolet light) kills microbes"
+      ],
+      "explanation": "Neither stage removes dissolved salts, which is why tap water still contains dissolved solids."
+    },
+    {
+      "id": "chem-rp8-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Tap water contains 0.34 g/dm³ of dissolved solids and sea water contains 35.0 g/dm³.\nCalculate how many times greater the concentration of dissolved solids is in sea water than in tap water. Give your answer to 3 significant figures.",
+      "numericAnswer": 103,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 35.0 ÷ 0.34",
+        "1 mark: 103 (from 102.94)"
+      ],
+      "explanation": "35.0 ÷ 0.34 = 102.94, which is 103 to 3 significant figures. Sea water has about 100 times more dissolved solids than tap water."
+    },
+    {
+      "id": "chem-rp8-q12",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The mass of dissolved solids in 50.0 cm³ of rain water was 0.001 g, measured on a balance that reads to 0.001 g.\nEvaluate how reliable this result is and suggest an improvement.",
+      "acceptedAnswers": [
+        "mass is the same as the resolution",
+        "very large percentage uncertainty",
+        "could be zero or 0.002 g",
+        "use larger volume",
+        "more precise balance"
+      ],
+      "markScheme": [
+        "1 mark: the mass is equal to the resolution of the balance, so the percentage uncertainty is very large / the true value could be anywhere from 0 to 0.002 g",
+        "1 mark: evaporate a much larger volume of rain water (or use a more precise balance)"
+      ],
+      "explanation": "When a measurement is close to the smallest division of the instrument, the result is not reliable. A larger sample gives a larger mass of residue, reducing the percentage uncertainty."
+    },
+    {
+      "id": "chem-rp8-q13",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is desalination by distillation not widely used in the UK?",
+      "options": [
+        "It does not remove salts from sea water",
+        "It needs large amounts of energy, so it is expensive, and the UK has enough fresh water",
+        "It makes the water too acidic to drink",
+        "It produces toxic gases"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: needs a lot of energy / expensive, and enough fresh water is available"
+      ],
+      "explanation": "Boiling large volumes of sea water uses a lot of fuel or electricity. Desalination is used in dry countries with little fresh water, but the UK has plenty of rain water to treat."
+    },
+    {
+      "id": "chem-rp8-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Suggest why the thermometer bulb is placed next to the delivery tube opening rather than in the boiling salt water.",
+      "acceptedAnswers": [
+        "measure temperature of the vapour",
+        "boiling point of what is being distilled",
+        "salt water boils above 100 °C"
+      ],
+      "markScheme": [
+        "1 mark: to measure the temperature of the vapour (steam) being distilled, not the salt solution, which boils at a higher temperature"
+      ],
+      "explanation": "Dissolved salt raises the boiling point of the solution. The vapour temperature (100 °C) shows that pure water is distilling over."
+    },
+    {
+      "id": "chem-rp8-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A student has samples of tap water and sea water.\nDescribe how the student could analyse the two samples and then purify the sea water. Include the measurements the student should take.",
+      "markScheme": [
+        "Indicative content: analysis: measure pH of each sample using universal indicator paper or a pH meter; weigh a clean, dry evaporating basin; add a measured volume (for example 50 cm³ with a measuring cylinder); evaporate the water by heating gently; cool and reweigh; mass of dissolved solids = difference; compare samples (sea water has much more dissolved solid); purification: put sea water in a conical flask with anti-bumping granules; bung with thermometer and delivery tube; heat to boil; steam passes through delivery tube into test tube cooled in ice and water; condenses; collect distillate; check temperature reading is 100 °C; test distillate pH (7) and that it leaves no residue; remove delivery tube before stopping heating",
+        "Level 3 (5 to 6 marks): a coherent description of both analysis (pH and mass of dissolved solids with weighings) and distillation, with measurements and a check of purity.",
+        "Level 2 (3 to 4 marks): describes analysis and distillation with some detail, or one of them in full detail.",
+        "Level 1 (1 to 2 marks): simple statements, such as test the pH, boil the sea water and collect the water.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The question has two parts: analysis and purification. Good answers include both, with the specific measurements (pH, masses before and after evaporation, temperature during distillation)."
+    }
+  ]
+}

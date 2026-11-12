@@ -1,0 +1,710 @@
+{
+  "id": "c9-carbon-footprint",
+  "science": "chemistry",
+  "topicId": "c9",
+  "slug": "carbon-footprint",
+  "specRef": "4.9.2.4",
+  "title": "The carbon footprint and its reduction",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The carbon footprint is the total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event. It can be reduced by reducing emissions of carbon dioxide and methane.",
+    "explanation": [
+      "The carbon footprint of a product, service or event is the total amount of carbon dioxide and other greenhouse gases (such as methane) emitted over its full life cycle. For a product, the life cycle includes extracting raw materials, manufacturing, transport, use and disposal. Adding up the emissions from every stage gives the carbon footprint.",
+      "The carbon footprint can be reduced by reducing emissions of carbon dioxide and methane. Actions to reduce carbon dioxide include: increased use of alternative energy supplies (such as wind, solar, hydroelectric and nuclear power) instead of fossil fuels; energy conservation (for example insulating homes, using efficient appliances and using public transport); and carbon capture and storage, where carbon dioxide from power stations is captured and stored underground, for example in old oil and gas fields.",
+      "Other actions include carbon taxes and licences, which make polluters pay for or limit their emissions so there is a financial reason to reduce them; carbon offsetting, which balances emissions by actions that remove carbon dioxide, including tree planting; and carbon neutrality, where there is zero net release of carbon dioxide and other greenhouse gases. Methane emissions can be reduced by sending less waste to landfill (more recycling and composting), capturing methane from landfill to use as a fuel, and reducing livestock farming, for example by eating less meat.",
+      "Actions may be limited for several reasons. There is still some scientific disagreement about the causes and consequences of global climate change. There are economic considerations: many actions are expensive, and countries and businesses may not want to harm their economies. There is a lack of public information and education, so people may not know what to do or why. Many people are reluctant to make lifestyle changes, such as flying less or driving less. Finally, international cooperation is needed, because greenhouse gases affect the whole planet, but it is difficult to get all countries to agree and to keep to agreements.",
+      "Carbon footprint questions often include data handling: adding up emissions from life cycle stages, calculating percentages, calculating percentage reductions, or using an emission factor such as kg of carbon dioxide per kWh of electricity. Watch the units: 1 tonne = 1000 kg."
+    ],
+    "keyFacts": [
+      "Carbon footprint: total carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event.",
+      "It can be reduced by reducing emissions of carbon dioxide and methane.",
+      "Actions: alternative energy, energy conservation, carbon capture and storage, carbon taxes and licences, carbon offsetting (including tree planting), carbon neutrality.",
+      "Methane can be reduced by less landfill (recycling, composting), capturing landfill gas and less livestock farming.",
+      "Carbon capture and storage stores carbon dioxide underground instead of releasing it.",
+      "Limits: scientific disagreement, economic considerations, lack of public information and education, reluctance to change lifestyle, need for international cooperation.",
+      "1 tonne = 1000 kg."
+    ],
+    "keyTerms": [
+      {
+        "term": "Carbon footprint",
+        "definition": "The total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event."
+      },
+      {
+        "term": "Life cycle",
+        "definition": "All the stages of a product: raw materials, manufacture, transport, use and disposal."
+      },
+      {
+        "term": "Carbon capture and storage",
+        "definition": "Capturing carbon dioxide from sources such as power stations and storing it, for example underground in old oil and gas fields."
+      },
+      {
+        "term": "Carbon offsetting",
+        "definition": "Balancing greenhouse gas emissions by actions that remove carbon dioxide from the atmosphere, such as planting trees."
+      },
+      {
+        "term": "Carbon neutral",
+        "definition": "Having zero net release of carbon dioxide and other greenhouse gases."
+      },
+      {
+        "term": "Carbon tax",
+        "definition": "A charge on emissions of carbon dioxide, giving a financial reason to reduce them."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Carbon dioxide from electricity use",
+        "formula": "mass of CO₂ = energy used (kWh) × emission factor (kg CO₂ per kWh)",
+        "symbols": "",
+        "units": "kg",
+        "recall": false
+      },
+      {
+        "name": "Percentage reduction",
+        "formula": "percentage reduction = (original − new) ÷ original × 100",
+        "symbols": "",
+        "units": "%",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Adding up a carbon footprint",
+        "question": "Example data: a product's life cycle emits 2.0 kg (raw materials), 1.5 kg (manufacture), 0.8 kg (transport), 0.2 kg (use) and 0.5 kg (disposal) of carbon dioxide. Calculate the carbon footprint and the percentage due to manufacture.",
+        "steps": [
+          "Total = 2.0 + 1.5 + 0.8 + 0.2 + 0.5 = 5.0 kg.",
+          "Percentage from manufacture = (1.5 ÷ 5.0) × 100 = 30%."
+        ],
+        "answer": "5.0 kg; 30% from manufacture."
+      },
+      {
+        "title": "Using an emission factor",
+        "question": "Example data: a household uses 3200 kWh of electricity a year. Each kWh produces 0.25 kg of carbon dioxide. Calculate the carbon dioxide emitted in tonnes.",
+        "steps": [
+          "Mass = 3200 × 0.25 = 800 kg.",
+          "Convert to tonnes: 800 ÷ 1000 = 0.8 tonnes."
+        ],
+        "answer": "0.8 tonnes"
+      },
+      {
+        "title": "Offsetting with trees",
+        "question": "Example data: a tree absorbs about 25 kg of carbon dioxide per year. How many trees would be needed to offset 1.5 tonnes of carbon dioxide per year?",
+        "steps": [
+          "1.5 tonnes = 1500 kg.",
+          "Number of trees = 1500 ÷ 25 = 60."
+        ],
+        "answer": "60 trees"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Carbon footprint over a life cycle (example data)",
+        "caption": "Example data for one product: the carbon footprint is the total of the emissions from all life cycle stages, here 5.0 kg of carbon dioxide.",
+        "svg": "<svg viewBox='0 0 540 250' xmlns='http://www.w3.org/2000/svg'><defs><marker id='cf' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='currentColor'/></marker></defs><text x='10' y='22' font-size='12' fill='currentColor'>Example data: greenhouse gases emitted at each life cycle stage</text><text x='10' y='40' font-size='12' fill='currentColor'>of one product (kg of carbon dioxide)</text><rect x='8' y='60' width='88' height='60' rx='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='52' y='84' font-size='12' fill='currentColor' text-anchor='middle'>raw</text><text x='52' y='100' font-size='12' fill='currentColor' text-anchor='middle'>materials</text><rect x='22' y='140' width='60' height='60' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='52' y='134' font-size='12' fill='currentColor' text-anchor='middle'>2.0 kg</text><line x1='98' y1='90' x2='108' y2='90' stroke='currentColor' marker-end='url(#cf)'/><rect x='114' y='60' width='88' height='60' rx='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='158' y='84' font-size='12' fill='currentColor' text-anchor='middle'>manufacture</text><text x='158' y='100' font-size='12' fill='currentColor' text-anchor='middle'></text><rect x='128' y='155' width='60' height='45' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='158' y='149' font-size='12' fill='currentColor' text-anchor='middle'>1.5 kg</text><line x1='204' y1='90' x2='214' y2='90' stroke='currentColor' marker-end='url(#cf)'/><rect x='220' y='60' width='88' height='60' rx='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='264' y='84' font-size='12' fill='currentColor' text-anchor='middle'>transport</text><text x='264' y='100' font-size='12' fill='currentColor' text-anchor='middle'></text><rect x='234' y='176' width='60' height='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='264' y='170' font-size='12' fill='currentColor' text-anchor='middle'>0.8 kg</text><line x1='310' y1='90' x2='320' y2='90' stroke='currentColor' marker-end='url(#cf)'/><rect x='326' y='60' width='88' height='60' rx='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='370' y='84' font-size='12' fill='currentColor' text-anchor='middle'>use</text><text x='370' y='100' font-size='12' fill='currentColor' text-anchor='middle'></text><rect x='340' y='194' width='60' height='6' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='370' y='188' font-size='12' fill='currentColor' text-anchor='middle'>0.2 kg</text><line x1='416' y1='90' x2='426' y2='90' stroke='currentColor' marker-end='url(#cf)'/><rect x='432' y='60' width='88' height='60' rx='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='476' y='84' font-size='12' fill='currentColor' text-anchor='middle'>disposal</text><text x='476' y='100' font-size='12' fill='currentColor' text-anchor='middle'></text><rect x='446' y='185' width='60' height='15' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='476' y='179' font-size='12' fill='currentColor' text-anchor='middle'>0.5 kg</text><line x1='8' y1='200' x2='532' y2='200' stroke='currentColor'/><text x='10' y='225' font-size='12' fill='currentColor'>Carbon footprint = total over the full life cycle = 2.0 + 1.5 + 0.8 + 0.2 + 0.5 = 5.0 kg</text></svg>"
+      },
+      {
+        "title": "Reducing the carbon footprint",
+        "caption": "Actions that reduce emissions of carbon dioxide and methane, and reasons why these actions may be limited.",
+        "svg": "<svg viewBox='0 0 540 260' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='255' height='240' rx='6' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><rect x='275' y='10' width='255' height='240' rx='6' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='137' y='32' font-size='12' fill='currentColor' text-anchor='middle'>Actions to reduce emissions</text><text x='402' y='32' font-size='12' fill='currentColor' text-anchor='middle'>Why actions may be limited</text><g font-size='12' fill='currentColor'><text x='20' y='60'>alternative energy supplies</text><text x='20' y='80'>(renewables, nuclear)</text><text x='20' y='105'>energy conservation</text><text x='20' y='130'>carbon capture and storage</text><text x='20' y='155'>carbon taxes and licences</text><text x='20' y='180'>carbon offsetting, for</text><text x='20' y='200'>example tree planting</text><text x='20' y='225'>carbon neutrality; less</text><text x='20' y='243'>landfill, fewer cattle (methane)</text><text x='285' y='60'>scientific disagreement</text><text x='285' y='80'>about causes and effects</text><text x='285' y='105'>economic considerations:</text><text x='285' y='125'>cost, effect on businesses</text><text x='285' y='150'>lack of public information</text><text x='285' y='170'>and education</text><text x='285' y='195'>people unwilling to make</text><text x='285' y='215'>lifestyle changes</text><text x='285' y='240'>need for international cooperation</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the carbon footprint only counts carbon dioxide from using a product.",
+        "right": "In fact it includes carbon dioxide and other greenhouse gases from the full life cycle: raw materials, manufacture, transport, use and disposal."
+      },
+      {
+        "wrong": "Students often think planting trees cancels emissions immediately.",
+        "right": "In fact trees remove carbon dioxide slowly as they grow, over many years, and the carbon can be released again if they are cut down or burned."
+      },
+      {
+        "wrong": "Students often think carbon capture and storage removes carbon dioxide that is already in the atmosphere.",
+        "right": "In fact it usually captures carbon dioxide at the source, such as a power station, before it reaches the atmosphere."
+      },
+      {
+        "wrong": "Students often think everyone agrees on and can easily make these changes.",
+        "right": "In fact actions are limited by cost, lack of information, reluctance to change lifestyle, some scientific disagreement and the need for international cooperation."
+      }
+    ],
+    "realWorld": [
+      "Some food packaging and product labels show the carbon footprint of the product.",
+      "The UK government has set a target of reaching net zero greenhouse gas emissions by 2050.",
+      "Some landfill sites capture methane and burn it to generate electricity, reducing the methane released."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the exact definition, including 'other greenhouse gases' and 'full life cycle'.",
+      "When asked to describe actions, explain how each one reduces emissions, for example 'insulating homes reduces energy needed for heating, so less fossil fuel is burned'.",
+      "For 'why actions may be limited', name a specific reason and explain it: cost, lack of education, lifestyle, international cooperation or scientific disagreement.",
+      "In calculations, check units: kg or tonnes, and per year or per journey."
+    ],
+    "summary": [
+      "Carbon footprint: total greenhouse gas emissions over the full life cycle of a product, service or event.",
+      "Reduce it by reducing carbon dioxide and methane emissions.",
+      "Alternative energy and energy conservation reduce fossil fuel use.",
+      "Carbon capture and storage, taxes, licences and offsetting also help.",
+      "Methane: less landfill, capture landfill gas, fewer livestock.",
+      "Limits: cost, lack of information, lifestyle, scientific disagreement, international cooperation."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define carbon footprint.",
+      "back": "The total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event."
+    },
+    {
+      "front": "Name the stages of a product life cycle.",
+      "back": "Raw materials, manufacture, transport, use and disposal."
+    },
+    {
+      "front": "Which two gases should be reduced to reduce the carbon footprint?",
+      "back": "Carbon dioxide and methane."
+    },
+    {
+      "front": "What is carbon capture and storage?",
+      "back": "Capturing carbon dioxide (for example from power stations) and storing it underground."
+    },
+    {
+      "front": "What is carbon offsetting?",
+      "back": "Balancing emissions by actions that remove carbon dioxide, such as planting trees."
+    },
+    {
+      "front": "What does carbon neutral mean?",
+      "back": "Zero net release of carbon dioxide and other greenhouse gases."
+    },
+    {
+      "front": "How do carbon taxes help?",
+      "back": "They make emitting carbon dioxide cost money, encouraging lower emissions."
+    },
+    {
+      "front": "Two ways to reduce methane emissions?",
+      "back": "Less waste to landfill (recycling or composting) and reducing livestock farming (also capturing landfill gas)."
+    },
+    {
+      "front": "Give two examples of energy conservation.",
+      "back": "Insulating homes; using energy-efficient appliances (also using public transport)."
+    },
+    {
+      "front": "Give two alternative energy supplies.",
+      "back": "Wind and solar (also hydroelectric, nuclear, tidal)."
+    },
+    {
+      "front": "Five reasons actions to reduce emissions may be limited?",
+      "back": "Scientific disagreement, economic considerations, lack of public information and education, reluctance to change lifestyle, need for international cooperation."
+    },
+    {
+      "front": "Why is international cooperation needed?",
+      "back": "Greenhouse gases affect the whole planet, so all countries must reduce emissions; one country alone cannot solve it."
+    },
+    {
+      "front": "How many kg in 1 tonne?",
+      "back": "1000 kg."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c9-carbon-footprint-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the carbon footprint of a product?",
+      "options": [
+        "The mass of carbon atoms in the product",
+        "The total amount of carbon dioxide and other greenhouse gases emitted over its full life cycle",
+        "The carbon dioxide released when the product is thrown away",
+        "The area of land used to make the product"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: total CO₂ and other greenhouse gases over the full life cycle"
+      ],
+      "explanation": "The definition includes all greenhouse gases and every stage of the life cycle, not just one stage."
+    },
+    {
+      "id": "c9-carbon-footprint-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which action reduces carbon dioxide emissions from electricity generation?",
+      "options": [
+        "Building more coal power stations",
+        "Burning more natural gas",
+        "Leaving lights on",
+        "Using more wind turbines"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: using more wind turbines"
+      ],
+      "explanation": "Wind is an alternative energy supply that does not burn fossil fuels."
+    },
+    {
+      "id": "c9-carbon-footprint-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Planting trees to balance the carbon dioxide released by a flight is an example of:",
+      "options": [
+        "carbon capture and storage",
+        "a carbon tax",
+        "carbon offsetting",
+        "energy conservation"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: carbon offsetting"
+      ],
+      "explanation": "Offsetting balances emissions by removing carbon dioxide elsewhere, for example by tree planting."
+    },
+    {
+      "id": "c9-carbon-footprint-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which action reduces methane emissions?",
+      "options": [
+        "Recycling and composting instead of sending waste to landfill",
+        "Burning more coal",
+        "Using more fertiliser",
+        "Cutting down forests"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: recycling and composting instead of landfill"
+      ],
+      "explanation": "Waste in landfill decomposes to release methane, so less landfill means less methane."
+    },
+    {
+      "id": "c9-carbon-footprint-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens in carbon capture and storage?",
+      "options": [
+        "Carbon dioxide is turned into oxygen.",
+        "Carbon dioxide is released at night.",
+        "Trees store carbon dioxide in their leaves.",
+        "Carbon dioxide from power stations is captured and stored, for example underground."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: captured from power stations and stored underground"
+      ],
+      "explanation": "Carbon capture and storage stops carbon dioxide reaching the atmosphere by storing it, for example in old oil and gas fields."
+    },
+    {
+      "id": "c9-carbon-footprint-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these is a reason why actions to reduce emissions may be limited?",
+      "options": [
+        "Carbon dioxide is not a greenhouse gas.",
+        "Renewable energy never works.",
+        "Some actions are expensive and may affect economies.",
+        "Methane cannot be measured."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: economic considerations"
+      ],
+      "explanation": "Economic considerations are one of the AQA reasons; the other statements are false."
+    },
+    {
+      "id": "c9-carbon-footprint-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does it mean if an event is carbon neutral?",
+      "options": [
+        "There is zero net release of carbon dioxide and other greenhouse gases.",
+        "It uses no electricity at all.",
+        "It releases only carbon monoxide.",
+        "It contains no carbon compounds."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: zero net release of greenhouse gases"
+      ],
+      "explanation": "Carbon neutral means any emissions are balanced by removals, giving zero net release."
+    },
+    {
+      "id": "c9-carbon-footprint-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How does a carbon tax help reduce emissions?",
+      "options": [
+        "It removes carbon dioxide from the air.",
+        "It makes emitting carbon dioxide more expensive, so businesses have a reason to emit less.",
+        "It bans all fossil fuels.",
+        "It pays people to use more energy."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: makes emitting more expensive, giving a reason to emit less"
+      ],
+      "explanation": "Taxes and licences give a financial incentive to reduce emissions."
+    },
+    {
+      "id": "c9-carbon-footprint-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is international cooperation especially important for reducing greenhouse gas emissions?",
+      "options": [
+        "Only one country emits greenhouse gases.",
+        "Greenhouse gases mix in the global atmosphere, so reductions by one country can be cancelled by increases elsewhere.",
+        "Greenhouse gases stay above the country that emits them.",
+        "International agreements make carbon dioxide less dense."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: gases mix globally so all countries must act"
+      ],
+      "explanation": "Climate change is a global problem: emissions anywhere affect everyone, so countries need to agree and act together."
+    },
+    {
+      "id": "c9-carbon-footprint-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Example data: a T-shirt has a carbon footprint of 8.0 kg CO₂. Manufacture contributes 4.4 kg. What percentage of the carbon footprint is from manufacture?",
+      "options": [
+        "44%",
+        "36%",
+        "55%",
+        "18%"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 55%"
+      ],
+      "explanation": "4.4 ÷ 8.0 × 100 = 55%. 44% comes from wrongly dividing by 10."
+    },
+    {
+      "id": "c9-carbon-footprint-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Example data: the life cycle stages of a product emit 2.0 kg, 1.5 kg, 0.8 kg, 0.2 kg and 0.5 kg of carbon dioxide. Calculate the carbon footprint of the product.",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: 5.0 kg"
+      ],
+      "explanation": "The carbon footprint is the total over the full life cycle: 2.0 + 1.5 + 0.8 + 0.2 + 0.5 = 5.0 kg."
+    },
+    {
+      "id": "c9-carbon-footprint-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Example data: a household uses 3200 kWh of electricity in a year. Each kWh produces 0.25 kg of carbon dioxide. Calculate the mass of carbon dioxide produced, in tonnes.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "tonnes",
+      "markScheme": [
+        "1 mark: 3200 × 0.25 = 800 kg",
+        "1 mark: 800 ÷ 1000 = 0.8 tonnes"
+      ],
+      "explanation": "Multiply energy by the emission factor, then convert kg to tonnes by dividing by 1000."
+    },
+    {
+      "id": "c9-carbon-footprint-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Example data: after insulating its loft and walls, a family's carbon footprint for heating fell from 2.4 tonnes to 1.5 tonnes of carbon dioxide per year. Calculate the percentage reduction.",
+      "numericAnswer": 37.5,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (2.4 − 1.5) ÷ 2.4 × 100",
+        "1 mark: 37.5%"
+      ],
+      "explanation": "Reduction = 0.9 tonnes. 0.9 ÷ 2.4 = 0.375 = 37.5%."
+    },
+    {
+      "id": "c9-carbon-footprint-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Example data: one tree absorbs about 25 kg of carbon dioxide per year. Calculate how many trees are needed to offset 1.5 tonnes of carbon dioxide per year.",
+      "numericAnswer": 60,
+      "tolerance": 0.01,
+      "unit": "trees",
+      "markScheme": [
+        "1 mark: 1.5 tonnes = 1500 kg",
+        "1 mark: 1500 ÷ 25 = 60 trees"
+      ],
+      "explanation": "Convert tonnes to kg first so the units match, then divide."
+    },
+    {
+      "id": "c9-carbon-footprint-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Example data: a car emits 150 g of carbon dioxide per km. A bus emits 1200 g per km but carries 40 passengers. Calculate how many grams of carbon dioxide per passenger per km are saved when one person travels by bus instead of driving alone.",
+      "numericAnswer": 120,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: bus per passenger = 1200 ÷ 40 = 30 g per km",
+        "1 mark: car (one person) = 150 g per km",
+        "1 mark: saving = 150 − 30 = 120 g per km"
+      ],
+      "explanation": "Sharing the bus's emissions among 40 people gives 30 g per passenger per km, much less than 150 g for a car with one person."
+    },
+    {
+      "id": "c9-carbon-footprint-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two ways a family could reduce the carbon footprint of their home.",
+      "acceptedAnswers": [
+        "insulation",
+        "loft insulation",
+        "double glazing",
+        "energy-efficient appliances",
+        "LED bulbs",
+        "solar panels",
+        "turn heating down",
+        "switch off appliances",
+        "renewable electricity"
+      ],
+      "markScheme": [
+        "1 mark each for any two: insulation (loft, walls, double glazing); energy-efficient appliances or bulbs; solar panels or renewable electricity supplier; turning heating down or switching off appliances"
+      ],
+      "explanation": "These either reduce energy use (conservation) or use alternative energy."
+    },
+    {
+      "id": "c9-carbon-footprint-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one alternative energy supply that can be used instead of fossil fuels.",
+      "acceptedAnswers": [
+        "wind",
+        "solar",
+        "hydroelectric",
+        "nuclear",
+        "tidal",
+        "geothermal",
+        "wave"
+      ],
+      "markScheme": [
+        "1 mark: any one: wind, solar, hydroelectric, nuclear, tidal, wave, geothermal"
+      ],
+      "explanation": "These do not burn fossil fuels so produce little carbon dioxide while generating electricity."
+    },
+    {
+      "id": "c9-carbon-footprint-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how carbon capture and storage reduces the carbon footprint of electricity from a gas-fired power station.",
+      "acceptedAnswers": [
+        "captures carbon dioxide",
+        "stored underground",
+        "not released into atmosphere",
+        "old oil and gas fields"
+      ],
+      "markScheme": [
+        "1 mark: carbon dioxide produced by burning the gas is captured",
+        "1 mark: it is stored (for example underground in old oil or gas fields) so it is not released into the atmosphere"
+      ],
+      "explanation": "The fuel is still burned, but most of the carbon dioxide does not reach the atmosphere."
+    },
+    {
+      "id": "c9-carbon-footprint-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe two ways to reduce methane emissions.",
+      "acceptedAnswers": [
+        "recycling",
+        "composting",
+        "less landfill",
+        "capture landfill gas",
+        "fewer cattle",
+        "eat less meat",
+        "less livestock"
+      ],
+      "markScheme": [
+        "1 mark: reduce waste going to landfill (recycle, compost) or capture methane from landfill and burn it as a fuel",
+        "1 mark: reduce livestock (cattle) farming, for example by eating less meat"
+      ],
+      "explanation": "Methane comes mainly from landfill and livestock, so reducing these reduces methane."
+    },
+    {
+      "id": "c9-carbon-footprint-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two reasons why actions to reduce the carbon footprint may be limited.",
+      "acceptedAnswers": [
+        "scientific disagreement",
+        "economic",
+        "cost",
+        "lack of public information",
+        "education",
+        "lifestyle changes",
+        "international cooperation"
+      ],
+      "markScheme": [
+        "1 mark each for any two: scientific disagreement; economic considerations (cost); lack of public information and education; reluctance to make lifestyle changes; need for international cooperation"
+      ],
+      "explanation": "These are the five reasons named in the AQA specification."
+    },
+    {
+      "id": "c9-carbon-footprint-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why lack of public information and education can limit reductions in carbon footprint.",
+      "acceptedAnswers": [
+        "people do not know",
+        "do not understand",
+        "not aware",
+        "will not change behaviour",
+        "do not support policies"
+      ],
+      "markScheme": [
+        "1 mark: people may not know how their actions cause emissions, or what they could do",
+        "1 mark: so they do not change behaviour or support policies such as carbon taxes"
+      ],
+      "explanation": "People can only make informed choices if they understand the problem and the solutions."
+    },
+    {
+      "id": "c9-carbon-footprint-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A company claims a flight is 'carbon neutral' because it pays for trees to be planted. Evaluate this claim.",
+      "acceptedAnswers": [
+        "trees take years to grow",
+        "absorb slowly",
+        "trees might be cut down",
+        "hard to check",
+        "emissions still released now"
+      ],
+      "markScheme": [
+        "1 mark: planting trees can remove carbon dioxide by photosynthesis, so it can offset emissions",
+        "1 mark: but trees take many years to absorb the carbon dioxide while the flight emits it immediately / trees may be cut down or burned",
+        "1 mark: it is hard to check that enough trees are planted and survive, so the claim may not be fully justified (conclusion)"
+      ],
+      "explanation": "Offsetting can work but has limitations; a balanced evaluation with a conclusion is needed."
+    },
+    {
+      "id": "c9-carbon-footprint-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Explain how using public transport instead of a car can reduce a person's carbon footprint.",
+      "acceptedAnswers": [
+        "shared between many passengers",
+        "less fuel per person",
+        "fewer cars"
+      ],
+      "markScheme": [
+        "1 mark: the fuel burned (and carbon dioxide released) is shared between many passengers, so less carbon dioxide per person"
+      ],
+      "explanation": "This is an example of energy conservation."
+    },
+    {
+      "id": "c9-carbon-footprint-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A carbon footprint includes emissions from every stage of a product's life cycle. Which list shows these stages?",
+      "options": [
+        "Manufacture and use only",
+        "Raw materials, manufacture, transport, use and disposal",
+        "Use and disposal only",
+        "Transport only"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: raw materials, manufacture, transport, use and disposal"
+      ],
+      "explanation": "The 'full life cycle' means every stage from extracting raw materials to disposal."
+    },
+    {
+      "id": "c9-carbon-footprint-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Example data: an electric car has higher emissions during manufacture than a petrol car, but much lower emissions during use. Explain why the full life cycle must be considered when comparing their carbon footprints.",
+      "acceptedAnswers": [
+        "full life cycle",
+        "manufacture emissions",
+        "use emissions",
+        "total over lifetime",
+        "depends on electricity source"
+      ],
+      "markScheme": [
+        "1 mark: comparing only one stage (for example use) would give a misleading result",
+        "1 mark: the total emissions over all stages (raw materials, manufacture, use, disposal) decide which has the lower carbon footprint, which also depends on how the electricity is generated"
+      ],
+      "explanation": "The carbon footprint is defined over the full life cycle, so higher manufacturing emissions may be outweighed by lower emissions during use."
+    },
+    {
+      "id": "c9-carbon-footprint-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe actions that could be taken to reduce emissions of carbon dioxide.",
+      "markScheme": [
+        "Indicative content: increase use of alternative energy supplies (wind, solar, hydroelectric, nuclear) instead of fossil fuels; energy conservation (insulation, efficient appliances, public transport, walking or cycling); carbon capture and storage at power stations; carbon taxes and licences to discourage emissions; carbon offsetting including tree planting; aiming for carbon neutrality.",
+        "Level 2 (3 to 4 marks): at least three actions described, with how each reduces carbon dioxide emissions.",
+        "Level 1 (1 to 2 marks): one or two actions named with little explanation."
+      ],
+      "explanation": "Explain how each action reduces emissions, not just its name."
+    },
+    {
+      "id": "c9-carbon-footprint-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A government plans to halve the country's carbon footprint in 20 years. Discuss the actions it could take to reduce emissions of carbon dioxide and methane, and explain why these actions may be limited.",
+      "markScheme": [
+        "Indicative content: actions: alternative energy (wind, solar, nuclear) to replace fossil fuel power stations; energy conservation (insulation grants, efficient appliances, public transport); carbon capture and storage; carbon taxes and licences; carbon offsetting through tree planting; methane: reduce landfill (recycling, composting), capture landfill methane, reduce livestock farming. Limits: scientific disagreement over causes and effects; economic considerations (high cost, effect on jobs and industry, competitiveness); lack of public information and education; people unwilling to make lifestyle changes (for example flying less, eating less meat); need for international cooperation because emissions are global and other countries may not cut theirs.",
+        "Level 3 (5 to 6 marks): a range of actions for both carbon dioxide and methane explained, and several limitations discussed with reasons, leading to a balanced judgement.",
+        "Level 2 (3 to 4 marks): actions for at least one gas explained and at least one limitation discussed.",
+        "Level 1 (1 to 2 marks): a few actions or limitations listed with little explanation."
+      ],
+      "explanation": "Cover both gases and both parts (actions and limits) to reach Level 3."
+    }
+  ]
+}

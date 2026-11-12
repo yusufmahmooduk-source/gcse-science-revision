@@ -1,0 +1,696 @@
+{
+  "id": "p2-charge-and-current",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "charge-and-current",
+  "specRef": "4.2.1.2",
+  "title": "Electrical charge and current",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Electric current is a flow of electrical charge. The size of the current is the rate of flow of charge: charge flow (C) = current (A) × time (s), or Q = I t.",
+    "explanation": [
+      "For charge to flow round a circuit, two things are needed: the circuit must be closed (complete, with no gaps), and it must contain a source of potential difference, such as a cell, battery or power supply. The potential difference pushes the charge round the circuit. If the circuit is broken, for example by an open switch, the charge stops flowing everywhere at once and the current is zero.",
+      "Current is a flow of electrical charge. In metal wires the charge is carried by electrons that are free to move. Current is measured in amperes (amps, A) using an ammeter connected in series. Charge is measured in coulombs (C). A current of 1 ampere means that 1 coulomb of charge passes a point in the circuit every second.",
+      "The size of the current is the rate of flow of charge, which gives the equation charge flow = current × time, written Q = I t. Q is the charge in coulombs, I is the current in amperes and t is the time in seconds. You must remember this equation. It can be rearranged to I = Q ÷ t to find the current, or t = Q ÷ I to find the time.",
+      "Always convert to standard units before substituting. Currents are often given in milliamps (mA): divide by 1000 to get amps, so 250 mA = 0.25 A. Times are often given in minutes or hours: multiply minutes by 60 and hours by 3600 to get seconds. Forgetting these conversions is the most common way to lose marks in charge calculations.",
+      "In a single closed loop (a series circuit) the current has the same value at every point. Charge is not used up by components: the same amount of charge that leaves the cell returns to it. So ammeters placed before and after a lamp, or anywhere else in the loop, all give the same reading. What components transfer is energy, not charge."
+    ],
+    "keyFacts": [
+      "A closed circuit with a source of potential difference is needed for charge to flow.",
+      "Electric current is a flow of electrical charge.",
+      "Current is the rate of flow of charge.",
+      "Q = I t: charge (C) = current (A) × time (s).",
+      "1 ampere = 1 coulomb of charge passing a point per second.",
+      "Current is measured in amperes (A); charge in coulombs (C); time in seconds (s).",
+      "The current is the same at every point in a single closed loop.",
+      "Charge is not used up in a circuit; it flows all the way round.",
+      "Convert mA to A by dividing by 1000; minutes to seconds by × 60; hours to seconds by × 3600."
+    ],
+    "keyTerms": [
+      {
+        "term": "Electric current",
+        "definition": "A flow of electrical charge; its size is the rate of flow of charge, measured in amperes (A)."
+      },
+      {
+        "term": "Charge",
+        "definition": "A property of particles such as electrons; the amount of charge that flows is measured in coulombs (C)."
+      },
+      {
+        "term": "Coulomb (C)",
+        "definition": "The unit of charge; 1 C passes a point each second when the current is 1 A."
+      },
+      {
+        "term": "Ampere (A)",
+        "definition": "The unit of current; 1 A is a flow of 1 coulomb per second."
+      },
+      {
+        "term": "Closed circuit",
+        "definition": "A complete loop with no gaps, so charge can flow all the way round."
+      },
+      {
+        "term": "Potential difference",
+        "definition": "What a cell or battery provides to make charge flow round a circuit; measured in volts (V)."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Charge flow",
+        "formula": "charge flow = current × time",
+        "symbols": "Q = I t",
+        "units": "Q in coulombs (C), I in amperes (A), t in seconds (s)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating charge flow",
+        "question": "A current of 3.0 A flows through a heater for 45 s. Calculate the charge that flows.",
+        "steps": [
+          "Write the equation: Q = I t.",
+          "Substitute: Q = 3.0 × 45.",
+          "Q = 135 C."
+        ],
+        "answer": "135 C"
+      },
+      {
+        "title": "Converting mA and minutes",
+        "question": "A current of 200 mA flows through an LED for 5 minutes. Calculate the charge that flows through the LED.",
+        "steps": [
+          "Convert the current: 200 mA ÷ 1000 = 0.20 A.",
+          "Convert the time: 5 minutes × 60 = 300 s.",
+          "Q = I t = 0.20 × 300.",
+          "Q = 60 C."
+        ],
+        "answer": "60 C"
+      },
+      {
+        "title": "Rearranging to find time",
+        "question": "48 C of charge flows through a lamp. The current is 0.60 A. Calculate how long the charge takes to flow.",
+        "steps": [
+          "Start from Q = I t.",
+          "Rearrange for time: t = Q ÷ I.",
+          "t = 48 ÷ 0.60.",
+          "t = 80 s."
+        ],
+        "answer": "80 s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Current is the same all round a series loop",
+        "caption": "Three ammeters in one closed loop all read 0.40 A. Charge is not used up by the lamp or the resistor; it flows all the way round the circuit.",
+        "svg": "<svg viewBox='0 0 470 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='70' y1='50' x2='130' y2='50'/><g transform='translate(150 50) rotate(180)'><line x1='-20' y1='0' x2='-12' y2='0'/><line x1='-12' y1='-13' x2='-12' y2='13'/><line x1='-6' y1='-7' x2='-6' y2='7' stroke-width='4'/><line x1='-6' y1='0' x2='6' y2='0' stroke-width='1.5' stroke-dasharray='2 2'/><line x1='6' y1='-13' x2='6' y2='13'/><line x1='12' y1='-7' x2='12' y2='7' stroke-width='4'/><line x1='12' y1='0' x2='20' y2='0'/></g><line x1='170' y1='50' x2='270' y2='50'/><g transform='translate(290 50)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='310' y1='50' x2='370' y2='50'/><line x1='70' y1='50' x2='70' y2='110'/><g transform='translate(70 130) rotate(90)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='-7.8' y1='-7.8' x2='7.8' y2='7.8' stroke-width='1.5'/><line x1='-7.8' y1='7.8' x2='7.8' y2='-7.8' stroke-width='1.5'/><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='70' y1='150' x2='70' y2='210'/><line x1='370' y1='50' x2='370' y2='110'/><g transform='translate(370 130) rotate(90)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='11' y1='0' x2='20' y2='0'/></g><text x='370' y='134.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='370' y1='150' x2='370' y2='210'/><line x1='70' y1='210' x2='130' y2='210'/><g transform='translate(150 210)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/></g><line x1='170' y1='210' x2='270' y2='210'/><g transform='translate(290 210)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='310' y1='210' x2='370' y2='210'/><text x='150' y='28' font-size='12' fill='currentColor' stroke='none'>battery</text><text x='290' y='28' font-size='12' fill='currentColor' stroke='none'>0.40 A</text><text x='394' y='134' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>0.40 A</text><text x='290' y='240' font-size='12' fill='currentColor' stroke='none'>0.40 A</text><text x='150' y='240' font-size='12' fill='currentColor' stroke='none'>resistor</text><text x='48' y='134' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>lamp</text><line x1='200' y1='64' x2='240' y2='64' stroke-width='1.5'/><path d='M240 64 L234 67 L234 61 Z' fill='currentColor' stroke='none'/><line x1='240' y1='196' x2='200' y2='196' stroke-width='1.5'/><path d='M200 196 L206 193 L206 199 Z' fill='currentColor' stroke='none'/><text x='220' y='90' font-size='12' fill='currentColor' stroke='none'>current flows round</text><text x='220' y='110' font-size='12' fill='currentColor' stroke='none'>the complete loop</text></g></svg>"
+      },
+      {
+        "title": "Formula triangle for Q = I t",
+        "caption": "Cover the quantity you want: Q = I × t, I = Q ÷ t, t = Q ÷ I. Time must be in seconds and current in amps.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><path d='M240 20 L380 220 L100 220 Z' fill='#93c5fd' fill-opacity='0.5'/><line x1='160' y1='135' x2='320' y2='135'/><line x1='240' y1='135' x2='240' y2='220'/><text x='240' y='115' font-size='22' fill='currentColor' stroke='none'>Q</text><text x='185' y='190' font-size='22' fill='currentColor' stroke='none'>I</text><text x='295' y='190' font-size='22' fill='currentColor' stroke='none'>t</text><text x='240' y='245' font-size='12' fill='currentColor' stroke='none'>Q = charge (C),  I = current (A),  t = time (s)</text><text x='30' y='40' font-size='14' fill='currentColor' stroke='none' text-anchor='start'>Q = I × t</text><text x='30' y='62' font-size='14' fill='currentColor' stroke='none' text-anchor='start'>I = Q ÷ t</text><text x='30' y='84' font-size='14' fill='currentColor' stroke='none' text-anchor='start'>t = Q ÷ I</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think current is used up as it passes through a lamp, so it is smaller after the lamp.",
+        "right": "In fact current is the same at every point in a single closed loop. Components transfer energy, not charge."
+      },
+      {
+        "wrong": "Students often think a battery stores charge that it pushes out and then runs out of.",
+        "right": "In fact the charge is already in the wires; the battery provides a potential difference that makes the charge flow. It is the energy store that runs down."
+      },
+      {
+        "wrong": "Students often substitute minutes or milliamps directly into Q = I t.",
+        "right": "In fact time must be in seconds and current in amps, so convert first (× 60 for minutes, ÷ 1000 for mA)."
+      },
+      {
+        "wrong": "Students often think current and charge are the same thing.",
+        "right": "In fact charge is an amount (coulombs) and current is how fast that charge flows (coulombs per second, amperes)."
+      }
+    ],
+    "realWorld": [
+      "Phone and laptop batteries are often labelled with a charge capacity in mAh (milliamp hours), which tells you how much charge they can deliver: 1 mAh = 3.6 C.",
+      "Electroplating uses a measured current for a set time; the charge that flows (Q = I t) controls how much metal is deposited.",
+      "Ammeters in a car's dashboard or a lab power supply show the rate at which charge is flowing through a circuit."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write the equation first (Q = I t), then rearrange, then substitute. You often get a mark just for the correct equation.",
+      "Circle the units in the question before you start: convert mA to A and minutes or hours to seconds.",
+      "Check your answer is sensible: a current of a few amps for a few minutes gives hundreds of coulombs.",
+      "If asked why ammeters in a series loop read the same, say that charge is not used up and the current is the same at all points in a single loop."
+    ],
+    "summary": [
+      "Charge flows only around a closed circuit containing a source of potential difference.",
+      "Current is the rate of flow of charge.",
+      "Q = I t, with Q in C, I in A and t in s.",
+      "Rearrange as I = Q ÷ t or t = Q ÷ I.",
+      "Convert mA to A and minutes or hours to seconds before calculating.",
+      "In a single loop the current is the same everywhere."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is electric current?",
+      "back": "A flow of electrical charge. Its size is the rate of flow of charge."
+    },
+    {
+      "front": "State the equation linking charge, current and time.",
+      "back": "charge flow = current × time (Q = I t)"
+    },
+    {
+      "front": "Unit of charge?",
+      "back": "The coulomb (C)."
+    },
+    {
+      "front": "Unit of current?",
+      "back": "The ampere or amp (A)."
+    },
+    {
+      "front": "What does a current of 1 A mean?",
+      "back": "1 coulomb of charge passes a point every second."
+    },
+    {
+      "front": "Two conditions needed for a current to flow?",
+      "back": "A closed (complete) circuit and a source of potential difference."
+    },
+    {
+      "front": "How does current vary round a single closed loop?",
+      "back": "It is the same at every point."
+    },
+    {
+      "front": "Convert 450 mA to amps.",
+      "back": "0.45 A (divide by 1000)."
+    },
+    {
+      "front": "Convert 3 minutes to seconds.",
+      "back": "180 s (multiply by 60)."
+    },
+    {
+      "front": "Rearrange Q = I t for time.",
+      "back": "t = Q ÷ I"
+    },
+    {
+      "front": "Is charge used up by a lamp?",
+      "back": "No. The lamp transfers energy; the charge carries on round the circuit."
+    },
+    {
+      "front": "What carries the charge in a metal wire?",
+      "back": "Free electrons."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-charge-and-current-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is electric current?",
+      "markScheme": [
+        "1 mark: A flow of electrical charge"
+      ],
+      "explanation": "Current is a flow of charge; its size is the rate of flow. The push comes from the potential difference, and energy is a separate quantity.",
+      "options": [
+        "The energy carried by charge",
+        "The force pushing charge round a circuit",
+        "A flow of electrical charge",
+        "The amount of charge stored in a cell"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-charge-and-current-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of electrical charge?",
+      "markScheme": [
+        "1 mark: Coulomb"
+      ],
+      "explanation": "Charge is measured in coulombs (C). Amperes measure current, volts measure potential difference and ohms measure resistance.",
+      "options": [
+        "Coulomb",
+        "Volt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-charge-and-current-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links charge flow Q, current I and time t?",
+      "markScheme": [
+        "1 mark: Q = I × t"
+      ],
+      "explanation": "Charge = current × time. A bigger current or a longer time both mean more charge flows.",
+      "options": [
+        "Q = I ÷ t",
+        "Q = I + t",
+        "Q = t ÷ I",
+        "Q = I × t"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-charge-and-current-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What two things must a circuit have for a current to flow?",
+      "markScheme": [
+        "1 mark: A closed loop and a source of potential difference"
+      ],
+      "explanation": "Charge flows only when there is a complete circuit and something (a cell, battery or power supply) providing a potential difference.",
+      "options": [
+        "A switch and a lamp",
+        "A closed loop and a source of potential difference",
+        "An ammeter and a voltmeter",
+        "A resistor and a battery in parallel"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-charge-and-current-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Three ammeters are placed at different points in a single series loop containing a cell, a lamp and a resistor. The ammeter next to the cell reads 0.30 A. What do the other two read?",
+      "markScheme": [
+        "1 mark: 0.30 A and 0.30 A"
+      ],
+      "explanation": "In a single closed loop the current is the same at every point, so every ammeter reads 0.30 A.",
+      "options": [
+        "Both less than 0.30 A",
+        "0.15 A each",
+        "0.30 A and 0.30 A",
+        "Larger than 0.30 A, because the current speeds up"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-charge-and-current-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A current of 1 A flows in a wire. Which statement is correct?",
+      "markScheme": [
+        "1 mark: 1 coulomb of charge passes a point each second."
+      ],
+      "explanation": "1 ampere = 1 coulomb per second. It is a vast number of electrons, not one.",
+      "options": [
+        "1 coulomb of charge passes a point each second.",
+        "1 joule of energy passes a point each second.",
+        "1 volt is used up each second.",
+        "1 electron passes a point each second."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-charge-and-current-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which current is the same as 75 mA?",
+      "markScheme": [
+        "1 mark: 0.075 A"
+      ],
+      "explanation": "Divide milliamps by 1000: 75 ÷ 1000 = 0.075 A. 0.75 A would be 750 mA.",
+      "options": [
+        "7.5 A",
+        "0.75 A",
+        "75 000 A",
+        "0.075 A"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-charge-and-current-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The same charge flows through two lamps. Lamp X takes 20 s and lamp Y takes 40 s. Which statement is correct?",
+      "markScheme": [
+        "1 mark: The current in X is twice the current in Y."
+      ],
+      "explanation": "I = Q ÷ t. With the same Q, halving the time doubles the current, so X has twice the current of Y.",
+      "options": [
+        "The current in X is half the current in Y.",
+        "The current in X is twice the current in Y.",
+        "The currents are equal.",
+        "The current in Y is four times the current in X."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-charge-and-current-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student says: 'The current after a lamp is smaller because the lamp uses some of it up.' Which response is correct?",
+      "markScheme": [
+        "1 mark: The current is the same, because charge is not used up; energy is transferred."
+      ],
+      "explanation": "Charge flows round the whole circuit and is conserved. The lamp transfers energy from the charge to the surroundings, but the current in a single loop is the same everywhere.",
+      "options": [
+        "The student is right: lamps use up current.",
+        "The current is larger after the lamp because the lamp adds charge.",
+        "The current is the same, because charge is not used up; energy is transferred.",
+        "The current is zero after the lamp."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-charge-and-current-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A current of 2.0 A flows through a lamp for 30 s. Calculate the charge that flows.",
+      "markScheme": [
+        "1 mark: Q = 2.0 × 30",
+        "1 mark: 60 C"
+      ],
+      "explanation": "Q = I t = 2.0 × 30 = 60 C.",
+      "numericAnswer": 60,
+      "tolerance": 0.02,
+      "unit": "C"
+    },
+    {
+      "id": "p2-charge-and-current-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "450 C of charge passes through a motor in 90 s. Calculate the current.",
+      "markScheme": [
+        "1 mark: I = Q ÷ t = 450 ÷ 90",
+        "1 mark: 5 A"
+      ],
+      "explanation": "Rearrange Q = I t to I = Q ÷ t = 450 ÷ 90 = 5.0 A.",
+      "numericAnswer": 5,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-charge-and-current-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A current of 250 mA flows through a buzzer for 2.0 minutes. Calculate the charge that flows.",
+      "markScheme": [
+        "1 mark: 250 mA = 0.25 A and 2.0 min = 120 s",
+        "1 mark: Q = 0.25 × 120",
+        "1 mark: 30 C"
+      ],
+      "explanation": "Convert first: 0.25 A and 120 s. Q = 0.25 × 120 = 30 C. Using 250 × 2 gives 500, which is wrong because the units were not converted.",
+      "numericAnswer": 30,
+      "tolerance": 0.02,
+      "unit": "C"
+    },
+    {
+      "id": "p2-charge-and-current-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "900 C of charge flows through a heater. The current is 1.5 A. Calculate the time taken in seconds.",
+      "markScheme": [
+        "1 mark: t = Q ÷ I",
+        "1 mark: t = 900 ÷ 1.5 = 600 s"
+      ],
+      "explanation": "t = Q ÷ I = 900 ÷ 1.5 = 600 s (which is 10 minutes).",
+      "numericAnswer": 600,
+      "tolerance": 0.02,
+      "unit": "s"
+    },
+    {
+      "id": "p2-charge-and-current-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A laptop draws a current of 0.80 A for 1.5 hours. Calculate the charge that flows.",
+      "markScheme": [
+        "1 mark: 1.5 h = 5400 s",
+        "1 mark: Q = 0.80 × 5400",
+        "1 mark: 4320 C"
+      ],
+      "explanation": "1.5 hours = 1.5 × 3600 = 5400 s. Q = I t = 0.80 × 5400 = 4320 C.",
+      "numericAnswer": 4320,
+      "tolerance": 0.02,
+      "unit": "C"
+    },
+    {
+      "id": "p2-charge-and-current-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "3600 C of charge flows through a kettle element in 20 minutes. Calculate the current.",
+      "markScheme": [
+        "1 mark: 20 min = 1200 s",
+        "1 mark: I = 3600 ÷ 1200",
+        "1 mark: 3.0 A"
+      ],
+      "explanation": "Convert: 20 × 60 = 1200 s. I = Q ÷ t = 3600 ÷ 1200 = 3.0 A.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-charge-and-current-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A charge of 24 C flows through an LED. The current is 40 mA. Calculate the time taken. Give your answer in minutes.",
+      "markScheme": [
+        "1 mark: 40 mA = 0.040 A",
+        "1 mark: t = 24 ÷ 0.040 = 600 s",
+        "1 mark: 600 ÷ 60 = 10 minutes"
+      ],
+      "explanation": "Convert the current to amps, find t = Q ÷ I = 600 s, then convert to minutes: 600 ÷ 60 = 10 minutes.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "minutes"
+    },
+    {
+      "id": "p2-charge-and-current-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A current of 1.2 A flows for 90 s. Calculate the charge that flows.",
+      "markScheme": [
+        "1 mark: Q = 1.2 × 90",
+        "1 mark: 108 C"
+      ],
+      "explanation": "Q = I t = 1.2 × 90 = 108 C.",
+      "numericAnswer": 108,
+      "tolerance": 0.02,
+      "unit": "C"
+    },
+    {
+      "id": "p2-charge-and-current-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Define electric current.",
+      "markScheme": [
+        "1 mark: the rate of flow of (electrical) charge"
+      ],
+      "explanation": "Current is the amount of charge passing a point each second.",
+      "acceptedAnswers": [
+        "rate of flow of charge",
+        "flow of charge"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two conditions needed for charge to flow in a circuit.",
+      "markScheme": [
+        "1 mark: the circuit must be closed/complete",
+        "1 mark: there must be a source of potential difference (cell/battery/power supply)"
+      ],
+      "explanation": "Without a complete loop the charge cannot get round; without a potential difference there is nothing to make it move.",
+      "acceptedAnswers": [
+        "closed circuit",
+        "complete circuit",
+        "source of potential difference",
+        "cell",
+        "battery"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the unit of current and the unit of charge.",
+      "markScheme": [
+        "1 mark: current: ampere (A)",
+        "1 mark: charge: coulomb (C)"
+      ],
+      "explanation": "Current in amperes, charge in coulombs. 1 A = 1 C/s.",
+      "acceptedAnswers": [
+        "ampere",
+        "amp",
+        "coulomb"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why ammeters at different points in a series circuit give the same reading.",
+      "markScheme": [
+        "1 mark: there is only one path/loop for charge to flow",
+        "1 mark: charge is not used up (it flows all the way round), so the rate of flow is the same at every point"
+      ],
+      "explanation": "The same charge passes every point in a single loop each second, so the current, the rate of flow of charge, is identical everywhere.",
+      "acceptedAnswers": [
+        "charge not used up",
+        "same current everywhere in a single loop"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A switch in a series circuit is opened. Explain what happens to the current in every part of the circuit.",
+      "markScheme": [
+        "1 mark: the circuit is no longer closed/complete",
+        "1 mark: so the current becomes zero everywhere in the loop (at the same time)"
+      ],
+      "explanation": "Charge can only flow round a complete loop. Opening the switch breaks the loop, so the current stops everywhere, not just next to the switch.",
+      "acceptedAnswers": [
+        "current becomes zero everywhere",
+        "circuit incomplete"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student writes: 'A battery stores charge and pushes it out into the wires until it runs out.' Explain what is wrong with this statement.",
+      "markScheme": [
+        "1 mark: the charge (free electrons) is already in the wires/components",
+        "1 mark: the battery provides a potential difference that makes the charge move",
+        "1 mark: what runs out is the battery's (chemical) energy store, not the charge"
+      ],
+      "explanation": "Charge circulates; it is not used up. The battery transfers energy to the charge, and it is this energy store that runs down.",
+      "acceptedAnswers": [
+        "charge already in wires",
+        "battery provides potential difference",
+        "energy store runs down"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how to measure the current through a lamp.",
+      "markScheme": [
+        "1 mark: use an ammeter",
+        "1 mark: connected in series with the lamp"
+      ],
+      "explanation": "An ammeter measures current and must be placed in series so the same current passes through it as through the lamp.",
+      "acceptedAnswers": [
+        "ammeter in series"
+      ]
+    },
+    {
+      "id": "p2-charge-and-current-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student says: 'If the current through a component is doubled, the charge passing through it in one minute is also doubled.'\nUse the equation linking charge, current and time to evaluate this statement. Include a calculation with example values in your answer.",
+      "markScheme": [
+        "Indicative content: Q = I t; time fixed at one minute = 60 s; Q is directly proportional to I when t is constant; example: I = 0.5 A gives Q = 0.5 × 60 = 30 C; I = 1.0 A gives Q = 1.0 × 60 = 60 C, which is double; so the statement is correct; it is only true if the time stays the same; current is the rate of flow of charge, so twice the current means twice as many coulombs per second.",
+        "Level 2 (3 to 4 marks): correct use of Q = I t with a correct worked example showing doubling, and a conclusion that notes the time must be constant.",
+        "Level 1 (1 to 2 marks): states the equation or makes a correct conclusion with limited support."
+      ],
+      "explanation": "Because Q = I t, with t fixed, Q is proportional to I. A worked pair of values makes the evaluation convincing."
+    },
+    {
+      "id": "p2-charge-and-current-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain what is meant by an electric current in a circuit, what is needed for a current to flow, and how the current varies around a single closed loop. Include the equation linking charge, current and time, with units.",
+      "markScheme": [
+        "Indicative content: current is a flow of electrical charge; in metals the charge carriers are free electrons; the size of the current is the rate of flow of charge; Q = I t with Q in coulombs, I in amperes, t in seconds; 1 A = 1 C per second; a current needs a closed circuit and a source of potential difference such as a cell or battery; in a single closed loop the current is the same at all points; charge is not used up, energy is transferred by components; opening a switch anywhere stops the current everywhere.",
+        "Level 3 (5 to 6 marks): a clear, detailed explanation covering the meaning of current, the conditions for flow, the equation with units and why the current is the same throughout a single loop.",
+        "Level 2 (3 to 4 marks): some correct explanation of current and the conditions needed, with the equation or the idea that current is the same in a loop.",
+        "Level 1 (1 to 2 marks): simple statements, such as 'current is a flow of charge' or 'you need a battery'."
+      ],
+      "explanation": "Top answers link all three parts: what current is (rate of flow of charge), why it needs a closed loop and a potential difference, and why it is constant in a single loop (charge is conserved)."
+    },
+    {
+      "id": "p2-charge-and-current-q27",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A current of 0.50 A flows for 4.0 minutes. What charge flows?",
+      "markScheme": [
+        "1 mark: 120 C"
+      ],
+      "explanation": "Convert 4.0 minutes to 240 s. Q = 0.50 × 240 = 120 C. 2.0 C comes from forgetting to convert minutes to seconds.",
+      "options": [
+        "120 C",
+        "2.0 C",
+        "8.0 C",
+        "30 C"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-charge-and-current-q28",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Write down the equation that links charge flow, current and time, and rearrange it to give current.",
+      "markScheme": [
+        "1 mark: Q = I t (charge flow = current × time)",
+        "1 mark: I = Q ÷ t"
+      ],
+      "explanation": "Divide both sides of Q = I t by t to get I = Q ÷ t.",
+      "acceptedAnswers": [
+        "Q = I t",
+        "I = Q ÷ t",
+        "charge = current × time"
+      ]
+    }
+  ]
+}

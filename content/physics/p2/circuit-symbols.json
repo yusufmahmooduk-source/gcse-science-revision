@@ -1,0 +1,754 @@
+{
+  "id": "p2-circuit-symbols",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "circuit-symbols",
+  "specRef": "4.2.1.1",
+  "title": "Standard circuit diagram symbols",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Circuit diagrams use agreed standard symbols to show how electrical components are connected. You need to recognise, name and draw the symbol for each common component and be able to read and draw circuit diagrams.",
+    "explanation": [
+      "A circuit diagram is a simplified drawing of an electrical circuit. Instead of drawing what each part really looks like, everyone uses the same standard symbols, so an engineer anywhere can read a diagram drawn by someone else. Wires are drawn as straight lines with square corners, using a ruler, and there should be no gaps where a wire joins a component. A gap in a line means the circuit is broken.",
+      "The energy source is shown as a cell or a battery. A cell is drawn as a long thin line and a short thick line. The long line is the positive terminal. A battery is two or more cells joined together, drawn as two or more cells side by side (sometimes with a dashed line between them). A switch is drawn as a break in the wire with a hinged line: open (off) when the line is lifted, closed (on) when the line touches the second contact.",
+      "Several components control or use the current. A resistor is a plain rectangle. A variable resistor is a rectangle with a diagonal arrow through it, showing its resistance can be changed. A lamp is a circle with a cross inside. A fuse is a rectangle with a line running through it lengthways. A diode is a triangle pointing towards a short bar; current can only pass in the direction the triangle points. An LED (light-emitting diode) is a diode symbol inside a circle with two arrows pointing away, because it gives out light.",
+      "Two components are sensors. A thermistor is a resistor rectangle with a diagonal line that has a short flat tail at the bottom; its resistance changes with temperature. A light-dependent resistor (LDR) is a resistor rectangle inside a circle with two arrows pointing in towards it, because light falls on it. Notice the difference: arrows pointing out (LED) mean light is given out, arrows pointing in (LDR) mean light is received.",
+      "Meters are circles with a letter. An ammeter (A) measures current and is always connected in series, in the same loop as the component. A voltmeter (V) measures potential difference and is always connected in parallel, across the component, with its own two wires. Where wires join, a solid dot is drawn at the junction. When interpreting a circuit, trace the path of the current from the positive terminal round to the negative terminal and check which components it passes through."
+    ],
+    "keyFacts": [
+      "Cell: long thin line (positive terminal) and short thick line (negative terminal).",
+      "Battery: two or more cells connected together.",
+      "Lamp: a circle with a cross inside.",
+      "Resistor: a rectangle; variable resistor: a rectangle with a diagonal arrow through it.",
+      "Fuse: a rectangle with a line running through it lengthways.",
+      "Diode: a triangle pointing at a bar; current flows only in the direction of the triangle.",
+      "LED: diode symbol in a circle with arrows pointing outwards (light given out).",
+      "LDR: resistor in a circle with arrows pointing inwards (light received).",
+      "Thermistor: resistor with a diagonal line that has a flat tail at the bottom.",
+      "Ammeter (A) goes in series; voltmeter (V) goes in parallel across a component.",
+      "Wires are drawn as straight lines with no gaps; a dot marks a junction."
+    ],
+    "keyTerms": [
+      {
+        "term": "Circuit diagram",
+        "definition": "A drawing of an electrical circuit that uses standard symbols for components and straight lines for wires."
+      },
+      {
+        "term": "Cell",
+        "definition": "A single source of potential difference; drawn as a long thin line and a short thick line."
+      },
+      {
+        "term": "Battery",
+        "definition": "Two or more cells connected together."
+      },
+      {
+        "term": "Ammeter",
+        "definition": "A meter that measures current; connected in series with a component."
+      },
+      {
+        "term": "Voltmeter",
+        "definition": "A meter that measures potential difference; connected in parallel across a component."
+      },
+      {
+        "term": "Diode",
+        "definition": "A component that lets current flow in one direction only."
+      },
+      {
+        "term": "Light-emitting diode (LED)",
+        "definition": "A diode that gives out light when current flows through it in the forward direction."
+      },
+      {
+        "term": "Junction",
+        "definition": "A point where wires join, shown by a solid dot on a circuit diagram."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Identifying components from a description",
+        "question": "A circuit diagram shows a cell, a circle with a cross in it, and a rectangle with an arrow passing diagonally through it, all in one loop. Name the components and describe what the circuit could be used for.",
+        "steps": [
+          "The circle with a cross is a lamp.",
+          "The rectangle with a diagonal arrow through it is a variable resistor.",
+          "All three components are in one loop, so they are in series.",
+          "Changing the variable resistor changes the current in the loop, which changes the brightness of the lamp."
+        ],
+        "answer": "Cell, lamp and variable resistor in series: a dimmer circuit for the lamp."
+      },
+      {
+        "title": "Placing meters correctly",
+        "question": "A student wants to measure the current through a resistor and the potential difference across it. Describe how the ammeter and voltmeter must be drawn in the circuit diagram.",
+        "steps": [
+          "Current is measured by an ammeter, which must be in the same loop as the resistor, so it is drawn in series (in line with the resistor).",
+          "Potential difference is measured by a voltmeter, which must compare the two ends of the resistor.",
+          "So the voltmeter is drawn in parallel: one wire to each side of the resistor, with junction dots where it joins the main circuit."
+        ],
+        "answer": "Ammeter in series with the resistor; voltmeter in parallel across the resistor."
+      },
+      {
+        "title": "LED or LDR?",
+        "question": "Two symbols each have a circle and two small arrows. In symbol X the arrows point away from the circle; in symbol Y the arrows point towards the circle and there is a rectangle inside. Identify X and Y.",
+        "steps": [
+          "Arrows pointing away show light being given out, so X emits light.",
+          "X must be a light-emitting diode (LED). It also contains a diode triangle and bar.",
+          "Arrows pointing in show light falling on the component; a rectangle is a resistor.",
+          "So Y is a light-dependent resistor (LDR)."
+        ],
+        "answer": "X is an LED; Y is an LDR."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Standard circuit symbols",
+        "caption": "The fourteen standard symbols you need for AQA GCSE Physics. Notice that the LED has arrows pointing out and the LDR has arrows pointing in.",
+        "svg": "<svg viewBox='0 0 480 330' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><g transform='translate(60 45)'><line x1='-20' y1='0' x2='-4' y2='0'/><line x1='-4' y1='-13' x2='-4' y2='13'/><line x1='4' y1='-7' x2='4' y2='7' stroke-width='4'/><line x1='4' y1='0' x2='20' y2='0'/></g><text x='60' y='77' font-size='12' fill='currentColor' stroke='none'>Cell</text><g transform='translate(180 45)'><line x1='-20' y1='0' x2='-12' y2='0'/><line x1='-12' y1='-13' x2='-12' y2='13'/><line x1='-6' y1='-7' x2='-6' y2='7' stroke-width='4'/><line x1='-6' y1='0' x2='6' y2='0' stroke-width='1.5' stroke-dasharray='2 2'/><line x1='6' y1='-13' x2='6' y2='13'/><line x1='12' y1='-7' x2='12' y2='7' stroke-width='4'/><line x1='12' y1='0' x2='20' y2='0'/></g><text x='180' y='77' font-size='12' fill='currentColor' stroke='none'>Battery</text><g transform='translate(300 45)'><line x1='-20' y1='0' x2='-14' y2='0'/><circle cx='-12' cy='0' r='2.5' fill='currentColor' stroke='none'/><circle cx='12' cy='0' r='2.5' fill='currentColor' stroke='none'/><line x1='-12' y1='0' x2='10' y2='-12'/><line x1='14' y1='0' x2='20' y2='0'/></g><text x='300' y='77' font-size='12' fill='currentColor' stroke='none'>Switch (open)</text><g transform='translate(420 45)'><line x1='-20' y1='0' x2='-14' y2='0'/><circle cx='-12' cy='0' r='2.5' fill='currentColor' stroke='none'/><circle cx='12' cy='0' r='2.5' fill='currentColor' stroke='none'/><line x1='-12' y1='0' x2='12' y2='-2'/><line x1='14' y1='0' x2='20' y2='0'/></g><text x='420' y='77' font-size='12' fill='currentColor' stroke='none'>Switch (closed)</text><g transform='translate(60 125)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/></g><text x='60' y='157' font-size='12' fill='currentColor' stroke='none'>Resistor</text><g transform='translate(180 125)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/><line x1='-12' y1='12' x2='13' y2='-12' stroke-width='1.5'/><path d='M13 -12 L11 -6 L7 -10 Z' fill='currentColor' stroke='none'/></g><text x='180' y='157' font-size='12' fill='currentColor' stroke='none'>Variable resistor</text><g transform='translate(300 125)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='-7.8' y1='-7.8' x2='7.8' y2='7.8' stroke-width='1.5'/><line x1='-7.8' y1='7.8' x2='7.8' y2='-7.8' stroke-width='1.5'/><line x1='11' y1='0' x2='20' y2='0'/></g><text x='300' y='157' font-size='12' fill='currentColor' stroke='none'>Lamp</text><g transform='translate(420 125)'><line x1='-20' y1='0' x2='20' y2='0'/><rect x='-12' y='-5' width='24' height='10'/></g><text x='420' y='157' font-size='12' fill='currentColor' stroke='none'>Fuse</text><g transform='translate(60 205)'><line x1='-20' y1='0' x2='20' y2='0'/><path d='M-7 -8 L-7 8 L7 0 Z' fill='currentColor' stroke='none'/><line x1='7' y1='-8' x2='7' y2='8'/></g><text x='60' y='237' font-size='12' fill='currentColor' stroke='none'>Diode</text><g transform='translate(180 205)'><line x1='-20' y1='0' x2='20' y2='0'/><path d='M-7 -8 L-7 8 L7 0 Z' fill='currentColor' stroke='none'/><line x1='7' y1='-8' x2='7' y2='8'/><circle cx='0' cy='0' r='13' stroke-width='1.5'/><line x1='2' y1='-14' x2='10' y2='-24' stroke-width='1.2'/><path d='M10 -24 L9 -20 L6 -22 Z' fill='currentColor' stroke='none'/><line x1='8' y1='-12' x2='16' y2='-22' stroke-width='1.2'/><path d='M16 -22 L15 -18 L12 -20 Z' fill='currentColor' stroke='none'/></g><text x='180' y='237' font-size='12' fill='currentColor' stroke='none'>LED</text><g transform='translate(300 205)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/><circle cx='0' cy='0' r='17' stroke-width='1.5'/><line x1='-17' y1='-27' x2='-10' y2='-18' stroke-width='1.2'/><path d='M-10 -18 L-14 -20 L-11 -22 Z' fill='currentColor' stroke='none'/><line x1='-8' y1='-29' x2='-1' y2='-20' stroke-width='1.2'/><path d='M-1 -20 L-5 -22 L-2 -24 Z' fill='currentColor' stroke='none'/></g><text x='300' y='237' font-size='12' fill='currentColor' stroke='none'>LDR</text><g transform='translate(420 205)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/><line x1='-16' y1='12' x2='-10' y2='12' stroke-width='1.5'/><line x1='-10' y1='12' x2='12' y2='-12' stroke-width='1.5'/></g><text x='420' y='237' font-size='12' fill='currentColor' stroke='none'>Thermistor</text><g transform='translate(60 285)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><text x='60' y='317' font-size='12' fill='currentColor' stroke='none'>Ammeter</text><g transform='translate(180 285)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>V</text><line x1='11' y1='0' x2='20' y2='0'/></g><text x='180' y='317' font-size='12' fill='currentColor' stroke='none'>Voltmeter</text></g></svg>"
+      },
+      {
+        "title": "Reading a simple circuit",
+        "caption": "A cell, an open switch, an ammeter and a lamp in series. The voltmeter is connected in parallel across the lamp; the dots show the junctions.",
+        "svg": "<svg viewBox='0 0 480 300' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='60' y1='40' x2='180' y2='40'/><g transform='translate(200 40)'><line x1='-20' y1='0' x2='-4' y2='0'/><line x1='-4' y1='-13' x2='-4' y2='13'/><line x1='4' y1='-7' x2='4' y2='7' stroke-width='4'/><line x1='4' y1='0' x2='20' y2='0'/></g><line x1='220' y1='40' x2='340' y2='40'/><line x1='60' y1='40' x2='60' y2='100'/><g transform='translate(60 120) rotate(90)'><line x1='-20' y1='0' x2='-14' y2='0'/><circle cx='-12' cy='0' r='2.5' fill='currentColor' stroke='none'/><circle cx='12' cy='0' r='2.5' fill='currentColor' stroke='none'/><line x1='-12' y1='0' x2='10' y2='-12'/><line x1='14' y1='0' x2='20' y2='0'/></g><line x1='60' y1='140' x2='60' y2='200'/><line x1='340' y1='40' x2='340' y2='100'/><g transform='translate(340 120) rotate(90)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='11' y1='0' x2='20' y2='0'/></g><text x='340' y='124.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='340' y1='140' x2='340' y2='200'/><line x1='60' y1='200' x2='180' y2='200'/><g transform='translate(200 200)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><line x1='-7.8' y1='-7.8' x2='7.8' y2='7.8' stroke-width='1.5'/><line x1='-7.8' y1='7.8' x2='7.8' y2='-7.8' stroke-width='1.5'/><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='220' y1='200' x2='340' y2='200'/><line x1='150' y1='200' x2='150' y2='260'/><line x1='250' y1='200' x2='250' y2='260'/><line x1='150' y1='260' x2='180' y2='260'/><g transform='translate(200 260)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>V</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='220' y1='260' x2='250' y2='260'/><circle cx='150' cy='200' r='3' fill='currentColor' stroke='none'/><circle cx='250' cy='200' r='3' fill='currentColor' stroke='none'/><text x='200' y='20' font-size='12' fill='currentColor' stroke='none'>cell</text><text x='40' y='124' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>switch</text><text x='360' y='124' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>ammeter in series</text><text x='200' y='185' font-size='12' fill='currentColor' stroke='none'>lamp</text><text x='200' y='290' font-size='12' fill='currentColor' stroke='none'>voltmeter in parallel with the lamp</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a voltmeter is connected in series like an ammeter.",
+        "right": "In fact a voltmeter is always connected in parallel across a component, because it compares the energy per unit charge at two points."
+      },
+      {
+        "wrong": "Students often confuse the LED and LDR symbols.",
+        "right": "In fact the LED has arrows pointing out (it emits light) and a diode inside; the LDR has arrows pointing in (it detects light) and a resistor inside."
+      },
+      {
+        "wrong": "Students often think the short thick line of a cell is the positive terminal.",
+        "right": "In fact the long thin line is the positive terminal and the short thick line is the negative terminal."
+      },
+      {
+        "wrong": "Students often think a lamp and a fuse use the same symbol because both have a thin wire inside.",
+        "right": "In fact a lamp is a circle with a cross; a fuse is a rectangle with a line through it."
+      }
+    ],
+    "realWorld": [
+      "Electricians and engineers worldwide use standard circuit symbols so wiring diagrams can be read by anyone, whatever language they speak.",
+      "Circuit diagrams for a car's lighting system or a house's wiring are used to find faults quickly by tracing which components are on each loop.",
+      "Thermistor and LDR symbols appear on the circuit diagrams of thermostats and automatic street lights, which sense temperature and light level."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Draw circuits with a ruler and pencil, with square corners and no gaps in the wires; a gap means the circuit is broken and can lose you the mark.",
+      "Learn the arrow directions: LED arrows point out, LDR arrows point in.",
+      "Do not draw a wire passing through the middle of a lamp, ammeter or voltmeter circle; the wire stops at the edge of the circle.",
+      "When asked to add a voltmeter, draw it with its own two wires joined either side of the component, and add junction dots.",
+      "If asked to name a component, give its full name (for example 'light-dependent resistor'), not just a letter."
+    ],
+    "summary": [
+      "Circuit diagrams use standard symbols and straight lines for wires.",
+      "A cell has a long (positive) and short (negative) line; a battery is two or more cells.",
+      "Lamp: circle with a cross; resistor: rectangle; fuse: rectangle with a line through it.",
+      "Diode: triangle and bar; LED adds a circle and outward arrows.",
+      "LDR: resistor in a circle with inward arrows; thermistor: resistor with a tailed diagonal line.",
+      "Ammeters go in series, voltmeters go in parallel."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Describe the symbol for a cell.",
+      "back": "A long thin line (positive terminal) and a short thick line (negative terminal), with a wire on each side."
+    },
+    {
+      "front": "What is a battery?",
+      "back": "Two or more cells connected together."
+    },
+    {
+      "front": "Describe the symbol for a lamp.",
+      "back": "A circle with a cross inside it."
+    },
+    {
+      "front": "Describe the symbol for a fuse.",
+      "back": "A rectangle with a line running through it lengthways."
+    },
+    {
+      "front": "Describe the symbol for a variable resistor.",
+      "back": "A resistor rectangle with a diagonal arrow drawn through it."
+    },
+    {
+      "front": "Describe the symbol for a diode.",
+      "back": "A triangle pointing towards a short bar, on a straight wire."
+    },
+    {
+      "front": "How is the LED symbol different from the diode symbol?",
+      "back": "The LED has a circle round it and two arrows pointing outwards to show light being given out."
+    },
+    {
+      "front": "Describe the symbol for an LDR.",
+      "back": "A resistor rectangle inside a circle with two arrows pointing in towards it."
+    },
+    {
+      "front": "Describe the symbol for a thermistor.",
+      "back": "A resistor rectangle with a diagonal line through it that has a short flat tail at the bottom."
+    },
+    {
+      "front": "How is an ammeter connected?",
+      "back": "In series with the component, in the same loop."
+    },
+    {
+      "front": "How is a voltmeter connected?",
+      "back": "In parallel, across the component."
+    },
+    {
+      "front": "What does a dot on a circuit diagram show?",
+      "back": "A junction, where two or more wires are joined."
+    },
+    {
+      "front": "What is the difference between the open and closed switch symbols?",
+      "back": "Open: the switch line is lifted and does not touch the second contact. Closed: the line touches both contacts so current can flow."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-circuit-symbols-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component is drawn as a circle with a cross inside?",
+      "markScheme": [
+        "1 mark: Lamp"
+      ],
+      "explanation": "A lamp is a circle with a cross. An ammeter is a circle with the letter A; a fuse is a rectangle with a line through it.",
+      "options": [
+        "Fuse",
+        "Ammeter",
+        "Lamp",
+        "Diode"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-circuit-symbols-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A circuit symbol is a rectangle with a straight line running through it lengthways. What is it?",
+      "markScheme": [
+        "1 mark: Fuse"
+      ],
+      "explanation": "A fuse is a rectangle with a line through it. A resistor is an empty rectangle, a variable resistor has a diagonal arrow through it and a thermistor has a diagonal line with a flat tail.",
+      "options": [
+        "Fuse",
+        "Thermistor",
+        "Variable resistor",
+        "Resistor"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-circuit-symbols-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which symbol represents a battery?",
+      "markScheme": [
+        "1 mark: Two or more long and short line pairs joined together"
+      ],
+      "explanation": "A battery is two or more cells joined together, so it is drawn as two or more cell symbols side by side. A single pair of lines is one cell.",
+      "options": [
+        "A single long line and a single short line",
+        "A rectangle with an arrow through it",
+        "A circle with the letter B inside",
+        "Two or more long and short line pairs joined together"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-circuit-symbols-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In the symbol for a cell, which part is the positive terminal?",
+      "markScheme": [
+        "1 mark: The long thin line"
+      ],
+      "explanation": "The long thin line is the positive terminal. Many students think the thick line is positive, but it is the negative terminal.",
+      "options": [
+        "The short thick line",
+        "The long thin line",
+        "The wire on the left",
+        "Either line, it does not matter"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-circuit-symbols-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component has a symbol of a resistor inside a circle with two arrows pointing in towards it?",
+      "markScheme": [
+        "1 mark: Light-dependent resistor"
+      ],
+      "explanation": "Arrows pointing in show light falling on the component, and the rectangle is a resistor, so it is a light-dependent resistor (LDR). An LED has arrows pointing out.",
+      "options": [
+        "Light-emitting diode",
+        "Thermistor",
+        "Light-dependent resistor",
+        "Variable resistor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-circuit-symbols-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about the LED symbol is correct?",
+      "markScheme": [
+        "1 mark: It contains a diode and arrows pointing outwards."
+      ],
+      "explanation": "An LED gives out light, so its arrows point outwards, and it is a type of diode, so it contains the triangle and bar.",
+      "options": [
+        "It contains a diode and arrows pointing outwards.",
+        "It contains a resistor and arrows pointing inwards.",
+        "It is a circle with a cross and arrows pointing outwards.",
+        "It is a diode with a diagonal arrow through it."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-circuit-symbols-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How must an ammeter be connected to measure the current through a lamp?",
+      "markScheme": [
+        "1 mark: In series with the lamp"
+      ],
+      "explanation": "An ammeter measures the current flowing through the component, so the same current must pass through both: it goes in series. Voltmeters are the ones connected in parallel.",
+      "options": [
+        "In parallel with the lamp",
+        "Either in series or in parallel",
+        "Across the cell only",
+        "In series with the lamp"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-circuit-symbols-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student draws a voltmeter in series with a lamp. What is wrong?",
+      "markScheme": [
+        "1 mark: The voltmeter should be in parallel across the lamp."
+      ],
+      "explanation": "A voltmeter measures the potential difference between two points, so it must be connected in parallel across the lamp, one lead on each side.",
+      "options": [
+        "Nothing, voltmeters go in series.",
+        "The voltmeter should be in parallel across the lamp.",
+        "The voltmeter should be replaced with an ammeter in parallel.",
+        "Voltmeters can only be connected across the cell."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-circuit-symbols-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A symbol shows a resistor with a diagonal line through it. The line has a short horizontal section at its lower end. What is the component?",
+      "markScheme": [
+        "1 mark: Thermistor"
+      ],
+      "explanation": "This is the thermistor symbol. The variable resistor has a diagonal arrow (with an arrowhead) instead of a line with a flat tail.",
+      "options": [
+        "Variable resistor",
+        "LDR",
+        "Thermistor",
+        "Fuse"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-circuit-symbols-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component allows current to flow in one direction only?",
+      "markScheme": [
+        "1 mark: Diode"
+      ],
+      "explanation": "A diode has a very high resistance in the reverse direction, so current only flows the way the triangle points. Resistors, lamps and thermistors conduct in both directions.",
+      "options": [
+        "Diode",
+        "Lamp",
+        "Resistor",
+        "Thermistor"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-circuit-symbols-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a circuit diagram, two wires cross with no dot where they cross. What does this show?",
+      "markScheme": [
+        "1 mark: The wires are not connected."
+      ],
+      "explanation": "A solid dot shows a junction where wires are connected. Without a dot, crossing wires are not joined.",
+      "options": [
+        "The wires are joined at that point.",
+        "There is a short circuit.",
+        "There is a fuse at that point.",
+        "The wires are not connected."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-circuit-symbols-q12",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A circuit has a cell, an open switch and a lamp in series. Why does the lamp not light?",
+      "markScheme": [
+        "1 mark: The circuit is incomplete, so no charge can flow."
+      ],
+      "explanation": "An open switch breaks the circuit. Charge can only flow round a complete (closed) circuit, so the current is zero and the lamp is off.",
+      "options": [
+        "The switch adds too much resistance when open.",
+        "The circuit is incomplete, so no charge can flow.",
+        "The cell is connected the wrong way round.",
+        "There is no ammeter in the circuit."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-circuit-symbols-q13",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which pair of symbols both contain a circle?",
+      "markScheme": [
+        "1 mark: Ammeter and LED"
+      ],
+      "explanation": "The ammeter is a circle with A, and the LED is drawn with a circle round the diode. Resistors, fuses, plain diodes and cells have no circle.",
+      "options": [
+        "Lamp and resistor",
+        "Fuse and diode",
+        "Ammeter and LED",
+        "Cell and voltmeter"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-circuit-symbols-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the component whose symbol is a rectangle with a diagonal arrow through it.",
+      "markScheme": [
+        "1 mark: variable resistor"
+      ],
+      "explanation": "The arrow through the rectangle shows that the resistance can be varied, for example to dim a lamp.",
+      "acceptedAnswers": [
+        "variable resistor"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe the circuit symbol for a diode.",
+      "markScheme": [
+        "1 mark: a triangle (on a wire)",
+        "1 mark: pointing towards a short line/bar"
+      ],
+      "explanation": "The diode symbol is a solid triangle pointing at a bar. The triangle points in the direction current is allowed to flow.",
+      "acceptedAnswers": [
+        "triangle",
+        "bar",
+        "line"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain the difference between the LED symbol and the LDR symbol.",
+      "markScheme": [
+        "1 mark: LED arrows point outwards / LDR arrows point inwards",
+        "1 mark: LED gives out light, LDR detects/responds to light",
+        "1 mark: LED contains a diode symbol, LDR contains a resistor symbol"
+      ],
+      "explanation": "The arrows show the direction of light: out of the LED (emitter), into the LDR (detector). Their internal symbols also differ.",
+      "acceptedAnswers": [
+        "LED arrows point out",
+        "LDR arrows point in",
+        "LED contains a diode",
+        "LDR contains a resistor"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what a battery is.",
+      "markScheme": [
+        "1 mark: two or more cells joined together (in series)"
+      ],
+      "explanation": "A single cell is one long and one short line. A battery is several cells joined, giving a larger potential difference.",
+      "acceptedAnswers": [
+        "two or more cells"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student wants to measure the potential difference across a thermistor. Describe how the voltmeter should be connected.",
+      "markScheme": [
+        "1 mark: in parallel / across the thermistor",
+        "1 mark: one connection on each side of the thermistor"
+      ],
+      "explanation": "A voltmeter measures the potential difference between two points, so it is connected across the component in parallel.",
+      "acceptedAnswers": [
+        "parallel",
+        "across the thermistor"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two rules for drawing a circuit diagram clearly.",
+      "markScheme": [
+        "1 mark: use standard symbols",
+        "1 mark: draw wires as straight lines with a ruler / with no gaps / dots at junctions"
+      ],
+      "explanation": "Clear circuit diagrams use standard symbols, straight ruled wires with square corners and no gaps, and junction dots where wires join.",
+      "acceptedAnswers": [
+        "ruler",
+        "straight lines",
+        "no gaps",
+        "standard symbols",
+        "dots at junctions"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student draws an ammeter with the connecting wire passing straight through the centre of the circle. Suggest why this is incorrect.",
+      "markScheme": [
+        "1 mark: the wire should stop at the edge of the circle / a wire through the middle suggests the meter is bypassed (shorted out)"
+      ],
+      "explanation": "Meter and lamp symbols are drawn with the wire ending at the circle. A line through the middle could be read as a wire bypassing the meter.",
+      "acceptedAnswers": [
+        "wire stops at the circle",
+        "looks like a short circuit",
+        "meter is bypassed"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Suggest why circuit symbols are standardised internationally.",
+      "markScheme": [
+        "1 mark: so that circuit diagrams can be understood by anyone / everywhere / avoids mistakes"
+      ],
+      "explanation": "Standard symbols mean that a diagram drawn in one country can be read by an engineer in another, without needing pictures or translation.",
+      "acceptedAnswers": [
+        "anyone can read them",
+        "same meaning everywhere",
+        "avoid confusion"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A circuit contains a cell, a closed switch, a resistor and an LED in one loop. The LED does not light. The cell is working and all connections are good. Suggest the most likely reason.",
+      "markScheme": [
+        "1 mark: the LED is connected the wrong way round (reverse direction) so current cannot flow"
+      ],
+      "explanation": "An LED is a diode, so it only conducts in one direction. If it is the wrong way round there is no current and it stays off.",
+      "acceptedAnswers": [
+        "LED connected the wrong way round",
+        "reverse biased",
+        "LED is backwards"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A student wants to investigate how the current through a filament lamp changes with the potential difference across it.\nDescribe the circuit the student should set up. Your answer should name each component, say how it is connected and explain why it is needed. You may draw a circuit diagram.",
+      "markScheme": [
+        "Indicative content: a cell or battery (or power supply) as the source of potential difference; a lamp (circle with a cross); an ammeter in series with the lamp to measure current; a voltmeter in parallel across the lamp to measure potential difference; a variable resistor in series to change the current and so the potential difference across the lamp; a switch to turn the circuit off between readings so the lamp does not overheat; wires drawn as straight lines with no gaps; correct standard symbols for each component.",
+        "Level 3 (5 to 6 marks): all key components named with correct connections (ammeter in series, voltmeter in parallel, variable resistor in series) and a clear reason for each.",
+        "Level 2 (3 to 4 marks): most components named with mostly correct connections and some reasons.",
+        "Level 1 (1 to 2 marks): some relevant components named, with little detail on how they are connected."
+      ],
+      "explanation": "Marks come from naming the right components, connecting the meters correctly (A in series, V in parallel) and explaining the job of each, especially the variable resistor that lets the potential difference be changed."
+    },
+    {
+      "id": "p2-circuit-symbols-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Compare the circuit symbols and functions of a diode, an LED, a thermistor and an LDR.",
+      "markScheme": [
+        "Indicative content: diode: triangle pointing at a bar; lets current flow in one direction only. LED: diode symbol in a circle with arrows pointing out; also lets current flow in one direction only but gives out light. Thermistor: resistor rectangle with a diagonal line with a flat tail; resistance changes with temperature. LDR: resistor in a circle with arrows pointing in; resistance changes with light intensity. Similarities: diode and LED share the triangle-and-bar shape; thermistor and LDR both contain the resistor rectangle and are used as sensors.",
+        "Level 2 (3 to 4 marks): correct descriptions of at least three symbols with their functions, including at least one similarity or difference.",
+        "Level 1 (1 to 2 marks): one or two symbols or functions correctly described."
+      ],
+      "explanation": "A good comparison pairs similar components (diode and LED, thermistor and LDR) and points out what makes each symbol different."
+    },
+    {
+      "id": "p2-circuit-symbols-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is the correct symbol description for an open switch?",
+      "markScheme": [
+        "1 mark: Two dots with a line hinged from one dot and lifted away from the other"
+      ],
+      "explanation": "An open switch is drawn with the hinged line lifted, so there is a gap and no current flows. When the line touches both contacts the switch is closed.",
+      "options": [
+        "Two dots with a line hinged from one dot and lifted away from the other",
+        "Two dots joined by a straight line",
+        "A circle with an S inside",
+        "A rectangle with a gap in the middle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-circuit-symbols-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name the component drawn as a circle containing the letter V, and state what it measures.",
+      "markScheme": [
+        "1 mark: voltmeter",
+        "1 mark: potential difference (voltage)"
+      ],
+      "explanation": "A circle with V is a voltmeter. It measures the potential difference across a component in volts.",
+      "acceptedAnswers": [
+        "voltmeter",
+        "potential difference",
+        "voltage"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q27",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A torch circuit has a battery, a switch and a lamp. A designer adds a component so the lamp's brightness can be changed. Which component should be added?",
+      "markScheme": [
+        "1 mark: Variable resistor"
+      ],
+      "explanation": "A variable resistor changes the resistance of the circuit, so it changes the current and the lamp's brightness. A fuse, diode or voltmeter would not allow the brightness to be adjusted.",
+      "options": [
+        "Fuse",
+        "Diode",
+        "Voltmeter",
+        "Variable resistor"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-circuit-symbols-q28",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student describes a symbol as 'a diode symbol with a circle round it and two arrows'. Which extra detail is needed to decide if it is a correct LED symbol?",
+      "markScheme": [
+        "1 mark: Whether the arrows point inwards or outwards"
+      ],
+      "explanation": "An LED's arrows must point outwards because it emits light. The triangle can point either way on a diagram, as long as it matches the intended current direction.",
+      "options": [
+        "Whether the circle is shaded",
+        "Whether the arrows point inwards or outwards",
+        "Whether the triangle points left or right",
+        "Whether there is a letter in the circle"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-circuit-symbols-q29",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why the arrows on an LED symbol point in the opposite direction to those on an LDR symbol.",
+      "markScheme": [
+        "1 mark: LED emits/gives out light so arrows point away",
+        "1 mark: light falls on/is absorbed by the LDR so arrows point towards it"
+      ],
+      "explanation": "The arrows show which way light travels: away from a light source (LED) and towards a light detector (LDR).",
+      "acceptedAnswers": [
+        "LED gives out light",
+        "LDR receives light"
+      ]
+    },
+    {
+      "id": "p2-circuit-symbols-q30",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which component symbol has an arrow drawn diagonally through a rectangle?",
+      "markScheme": [
+        "1 mark: variable resistor"
+      ],
+      "explanation": "A diagonal arrow through a resistor rectangle shows that its resistance can be adjusted: a variable resistor. The thermistor line has a flat tail, not an arrowhead.",
+      "options": [
+        "Thermistor",
+        "LDR",
+        "Variable resistor",
+        "Fuse"
+      ],
+      "answer": 2
+    }
+  ]
+}

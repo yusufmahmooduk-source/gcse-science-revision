@@ -1,0 +1,700 @@
+{
+  "id": "p2-current-resistance-pd",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "current-resistance-pd",
+  "specRef": "4.2.1.3",
+  "title": "Current, resistance and potential difference",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The current through a component depends on both the potential difference across it and its resistance. Potential difference = current × resistance (V = I R): the greater the resistance, the smaller the current for a given potential difference.",
+    "explanation": [
+      "Potential difference (pd) is what drives charge round a circuit, and resistance is how much a component opposes that flow. For a given potential difference, a component with a larger resistance has a smaller current through it. For a given resistance, a larger potential difference gives a larger current. So the current through a component depends on both.",
+      "These three quantities are linked by the equation potential difference = current × resistance, V = I R. Potential difference V is in volts (V), current I in amperes (A) and resistance R in ohms (Ω). You must remember this equation and be able to rearrange it: I = V ÷ R and R = V ÷ I. Watch the units: milliamps must be divided by 1000 to give amps, and kilohms (kΩ) multiplied by 1000 to give ohms.",
+      "To find the resistance of a component, measure the current through it with an ammeter in series and the potential difference across it with a voltmeter in parallel, then calculate R = V ÷ I. Taking several readings at different potential differences and finding the mean (or plotting a graph) gives a more reliable value.",
+      "In Required Practical 3 you investigate factors that affect resistance. For the length of a wire, a test wire is fixed along a metre rule. One crocodile clip stays at 0 cm and the other is moved to set the length. For each length, record the ammeter and voltmeter readings and calculate R = V ÷ I. A graph of resistance against length is a straight line through the origin, showing that resistance is directly proportional to length: twice the length gives twice the resistance, because the charge has to pass through more of the wire.",
+      "The wire must stay at a constant temperature, because resistance increases as a metal wire gets hotter. So use a small current, switch off between readings and do not leave the circuit on. The same circuit can be used to measure the total resistance of two resistors connected in series, which is larger than either resistor, and in parallel, which is smaller than either resistor."
+    ],
+    "keyFacts": [
+      "V = I R: potential difference (V) = current (A) × resistance (Ω).",
+      "For a given potential difference, a bigger resistance means a smaller current.",
+      "Resistance is measured in ohms (Ω).",
+      "R = V ÷ I: measure V with a voltmeter in parallel and I with an ammeter in series.",
+      "The resistance of a wire is directly proportional to its length (at constant temperature).",
+      "Keep the current low and switch off between readings to stop the wire heating up.",
+      "Resistors in series have a bigger total resistance than either one alone.",
+      "Resistors in parallel have a smaller total resistance than the smallest one.",
+      "1 kΩ = 1000 Ω; 1 mA = 0.001 A."
+    ],
+    "keyTerms": [
+      {
+        "term": "Resistance",
+        "definition": "How much a component opposes the flow of charge; measured in ohms (Ω). R = V ÷ I."
+      },
+      {
+        "term": "Potential difference",
+        "definition": "The energy transferred per unit charge between two points; measured in volts (V) with a voltmeter in parallel."
+      },
+      {
+        "term": "Ohm (Ω)",
+        "definition": "The unit of resistance; 1 Ω means a current of 1 A flows when the potential difference is 1 V."
+      },
+      {
+        "term": "Directly proportional",
+        "definition": "Two quantities are directly proportional if doubling one doubles the other; the graph is a straight line through the origin."
+      },
+      {
+        "term": "Independent variable",
+        "definition": "The variable you change; in the wire experiment, the length of wire."
+      },
+      {
+        "term": "Control variable",
+        "definition": "A variable kept the same so the test is fair, such as the temperature, material and thickness of the wire."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Potential difference, current and resistance",
+        "formula": "potential difference = current × resistance",
+        "symbols": "V = I R",
+        "units": "V in volts (V), I in amperes (A), R in ohms (Ω)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding potential difference",
+        "question": "A current of 0.20 A flows through a 45 Ω resistor. Calculate the potential difference across it.",
+        "steps": [
+          "Write the equation: V = I R.",
+          "Substitute: V = 0.20 × 45.",
+          "V = 9.0 V."
+        ],
+        "answer": "9.0 V"
+      },
+      {
+        "title": "Rearranging with milliamps",
+        "question": "The potential difference across a resistor is 6.0 V and the current is 40 mA. Calculate its resistance.",
+        "steps": [
+          "Convert the current: 40 mA ÷ 1000 = 0.040 A.",
+          "Rearrange V = I R to R = V ÷ I.",
+          "R = 6.0 ÷ 0.040.",
+          "R = 150 Ω."
+        ],
+        "answer": "150 Ω"
+      },
+      {
+        "title": "Working with kilohms",
+        "question": "A 12 V supply is connected across a 4.0 kΩ resistor. Calculate the current in milliamps.",
+        "steps": [
+          "Convert the resistance: 4.0 kΩ × 1000 = 4000 Ω.",
+          "Rearrange: I = V ÷ R.",
+          "I = 12 ÷ 4000 = 0.0030 A.",
+          "Convert to mA: 0.0030 × 1000 = 3.0 mA."
+        ],
+        "answer": "3.0 mA"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Circuit for Required Practical 3 (length of wire)",
+        "caption": "The test wire is taped along a metre rule. The ammeter is in series, and the voltmeter is connected across the length of wire between the clips. Moving the sliding clip changes the length being tested.",
+        "svg": "<svg viewBox='0 0 480 280' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='60' y1='40' x2='120' y2='40'/><g transform='translate(140 40)'><line x1='-20' y1='0' x2='-12' y2='0'/><line x1='-12' y1='-13' x2='-12' y2='13'/><line x1='-6' y1='-7' x2='-6' y2='7' stroke-width='4'/><line x1='-6' y1='0' x2='6' y2='0' stroke-width='1.5' stroke-dasharray='2 2'/><line x1='6' y1='-13' x2='6' y2='13'/><line x1='12' y1='-7' x2='12' y2='7' stroke-width='4'/><line x1='12' y1='0' x2='20' y2='0'/></g><line x1='160' y1='40' x2='220' y2='40'/><g transform='translate(240 40)'><line x1='-20' y1='0' x2='-14' y2='0'/><circle cx='-12' cy='0' r='2.5' fill='currentColor' stroke='none'/><circle cx='12' cy='0' r='2.5' fill='currentColor' stroke='none'/><line x1='-12' y1='0' x2='10' y2='-12'/><line x1='14' y1='0' x2='20' y2='0'/></g><line x1='260' y1='40' x2='320' y2='40'/><g transform='translate(340 40)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='360' y1='40' x2='420' y2='40'/><line x1='60' y1='40' x2='60' y2='150'/><line x1='60' y1='150' x2='80' y2='150'/><line x1='420' y1='40' x2='420' y2='105'/><line x1='420' y1='105' x2='300' y2='105'/><line x1='300' y1='105' x2='300' y2='138'/><rect x='70' y='160' width='340' height='14' fill='#fde68a' fill-opacity='0.5' stroke-width='1'/><line x1='80' y1='160' x2='80' y2='170' stroke-width='1'/><line x1='112' y1='160' x2='112' y2='167' stroke-width='1'/><line x1='144' y1='160' x2='144' y2='167' stroke-width='1'/><line x1='176' y1='160' x2='176' y2='167' stroke-width='1'/><line x1='208' y1='160' x2='208' y2='167' stroke-width='1'/><line x1='240' y1='160' x2='240' y2='170' stroke-width='1'/><line x1='272' y1='160' x2='272' y2='167' stroke-width='1'/><line x1='304' y1='160' x2='304' y2='167' stroke-width='1'/><line x1='336' y1='160' x2='336' y2='167' stroke-width='1'/><line x1='368' y1='160' x2='368' y2='167' stroke-width='1'/><line x1='400' y1='160' x2='400' y2='170' stroke-width='1'/><line x1='80' y1='150' x2='400' y2='150' stroke-width='3'/><path d='M294 138 L306 138 L308 150 L292 150 Z' fill='currentColor' stroke='none'/><circle cx='80' cy='150' r='3' fill='currentColor' stroke='none'/><line x1='80' y1='150' x2='80' y2='230'/><line x1='300' y1='150' x2='300' y2='230'/><line x1='80' y1='230' x2='170' y2='230'/><g transform='translate(190 230)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>V</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='210' y1='230' x2='300' y2='230'/><text x='140' y='22' font-size='12' fill='currentColor' stroke='none'>battery</text><text x='240' y='22' font-size='12' fill='currentColor' stroke='none'>switch</text><text x='340' y='22' font-size='12' fill='currentColor' stroke='none'>ammeter</text><text x='240' y='192' font-size='12' fill='currentColor' stroke='none'>metre rule</text><text x='190' y='140' font-size='12' fill='currentColor' stroke='none'>test wire</text><text x='312' y='128' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>sliding crocodile clip</text><text x='74' y='192' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>0 cm</text><text x='400' y='192' font-size='10' fill='currentColor' stroke='none'>100 cm</text><text x='190' y='262' font-size='12' fill='currentColor' stroke='none'>voltmeter across the length being tested</text></g></svg>"
+      },
+      {
+        "title": "Resistance against length",
+        "caption": "Sample results: a straight line of best fit through the origin shows that the resistance of the wire is directly proportional to its length.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='60' y1='220' x2='440' y2='220' stroke-width='1.5'/><path d='M440 220 L434 223 L434 217 Z' fill='currentColor' stroke='none'/><line x1='60' y1='220' x2='60' y2='30' stroke-width='1.5'/><path d='M60 30 L63 36 L57 36 Z' fill='currentColor' stroke='none'/><text x='438' y='252' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>length of wire / cm</text><text x='66' y='34' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>resistance / Ω</text><line x1='124.0' y1='185.4' x2='132.0' y2='193.4' stroke-width='1.5'/><line x1='124.0' y1='193.4' x2='132.0' y2='185.4' stroke-width='1.5'/><line x1='192.0' y1='144.6' x2='200.0' y2='152.6' stroke-width='1.5'/><line x1='192.0' y1='152.6' x2='200.0' y2='144.6' stroke-width='1.5'/><line x1='260.0' y1='117.4' x2='268.0' y2='125.4' stroke-width='1.5'/><line x1='260.0' y1='125.4' x2='268.0' y2='117.4' stroke-width='1.5'/><line x1='328.0' y1='80.0' x2='336.0' y2='88.0' stroke-width='1.5'/><line x1='328.0' y1='88.0' x2='336.0' y2='80.0' stroke-width='1.5'/><line x1='396.0' y1='42.60000000000002' x2='404.0' y2='50.60000000000002' stroke-width='1.5'/><line x1='396.0' y1='50.60000000000002' x2='404.0' y2='42.60000000000002' stroke-width='1.5'/><line x1='60' y1='220' x2='400' y2='50.0'/><line x1='128.0' y1='220' x2='128.0' y2='225' stroke-width='1'/><text x='128.0' y='238' font-size='10' fill='currentColor' stroke='none'>20</text><line x1='196.0' y1='220' x2='196.0' y2='225' stroke-width='1'/><text x='196.0' y='238' font-size='10' fill='currentColor' stroke='none'>40</text><line x1='264.0' y1='220' x2='264.0' y2='225' stroke-width='1'/><text x='264.0' y='238' font-size='10' fill='currentColor' stroke='none'>60</text><line x1='332.0' y1='220' x2='332.0' y2='225' stroke-width='1'/><text x='332.0' y='238' font-size='10' fill='currentColor' stroke='none'>80</text><line x1='400.0' y1='220' x2='400.0' y2='225' stroke-width='1'/><text x='400.0' y='238' font-size='10' fill='currentColor' stroke='none'>100</text><line x1='55' y1='186' x2='60' y2='186' stroke-width='1'/><text x='50' y='190' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>1</text><line x1='55' y1='152' x2='60' y2='152' stroke-width='1'/><text x='50' y='156' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>2</text><line x1='55' y1='118' x2='60' y2='118' stroke-width='1'/><text x='50' y='122' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>3</text><line x1='55' y1='84' x2='60' y2='84' stroke-width='1'/><text x='50' y='88' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>4</text><line x1='55' y1='50' x2='60' y2='50' stroke-width='1'/><text x='50' y='54' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>5</text><text x='250' y='70' font-size='12' fill='currentColor' stroke='none'>straight line through the origin:</text><text x='250' y='86' font-size='12' fill='currentColor' stroke='none'>resistance ∝ length</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a larger resistance gives a larger current.",
+        "right": "In fact, for the same potential difference, a larger resistance gives a smaller current (I = V ÷ R)."
+      },
+      {
+        "wrong": "Students often think resistance is measured directly with a voltmeter or ammeter.",
+        "right": "In fact you measure V and I with the meters and then calculate R = V ÷ I (an ohmmeter can measure it directly, but the practical uses meters)."
+      },
+      {
+        "wrong": "Students often think the wire's temperature does not matter in the length experiment.",
+        "right": "In fact a hotter wire has a higher resistance, so a low current must be used and the circuit switched off between readings."
+      },
+      {
+        "wrong": "Students often think adding a resistor in parallel increases the total resistance.",
+        "right": "In fact adding a resistor in parallel gives the charge another path, so the total resistance decreases."
+      }
+    ],
+    "realWorld": [
+      "Dimmer switches and volume controls use a variable resistor: increasing resistance reduces the current.",
+      "Long cables have more resistance than short ones, which is why cable length and thickness matter when wiring a house or an electric vehicle charger.",
+      "Electricians use V = I R to choose resistors that limit the current through LEDs so they are not damaged."
+    ],
+    "practicals": [
+      "phys-rp3"
+    ],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always write V = I R first, rearrange, then substitute; check the units (A, V, Ω) before substituting.",
+      "In practical questions, say how to keep the temperature constant: low current, switch off between readings.",
+      "When describing the length experiment, name the control variables: material, diameter (thickness) and temperature of the wire.",
+      "If a resistance against length graph does not pass through the origin, suggest a systematic error such as contact resistance at the crocodile clips or the zero of the rule not lining up with the clip.",
+      "When asked about resistors in parallel, say the total resistance is less than the smallest individual resistor."
+    ],
+    "summary": [
+      "Current depends on potential difference and resistance.",
+      "V = I R; rearranged I = V ÷ R and R = V ÷ I.",
+      "Larger resistance means smaller current for the same potential difference.",
+      "Measure R with an ammeter in series and a voltmeter in parallel, then R = V ÷ I.",
+      "Resistance of a wire is directly proportional to its length at constant temperature.",
+      "Series resistors add up; parallel resistors give less than the smallest one."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State the equation linking potential difference, current and resistance.",
+      "back": "potential difference = current × resistance (V = I R)"
+    },
+    {
+      "front": "Unit of resistance?",
+      "back": "The ohm (Ω)."
+    },
+    {
+      "front": "Rearrange V = I R to find resistance.",
+      "back": "R = V ÷ I"
+    },
+    {
+      "front": "For a fixed potential difference, what happens to the current if resistance increases?",
+      "back": "The current decreases."
+    },
+    {
+      "front": "How do you find the resistance of a component in a circuit?",
+      "back": "Measure current with an ammeter in series and pd with a voltmeter in parallel; calculate R = V ÷ I."
+    },
+    {
+      "front": "How does the resistance of a wire depend on its length?",
+      "back": "Resistance is directly proportional to length (at constant temperature)."
+    },
+    {
+      "front": "Why use a low current in the wire practical?",
+      "back": "To stop the wire heating up, because resistance increases with temperature."
+    },
+    {
+      "front": "Name two control variables in the length of wire practical.",
+      "back": "Material of the wire, diameter (thickness), temperature."
+    },
+    {
+      "front": "Total resistance of resistors in series compared with each one?",
+      "back": "Larger than any individual resistor."
+    },
+    {
+      "front": "Total resistance of two resistors in parallel compared with each one?",
+      "back": "Smaller than the smallest individual resistor."
+    },
+    {
+      "front": "Convert 2.2 kΩ to ohms.",
+      "back": "2200 Ω"
+    },
+    {
+      "front": "What graph shows direct proportion?",
+      "back": "A straight line through the origin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-current-resistance-pd-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links potential difference V, current I and resistance R?",
+      "markScheme": [
+        "1 mark: V = I × R"
+      ],
+      "explanation": "V = I R. Check with numbers: 2 A through 3 Ω gives 6 V.",
+      "options": [
+        "V = I ÷ R",
+        "V = R ÷ I",
+        "V = I × R",
+        "V = I + R"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-current-resistance-pd-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of resistance?",
+      "markScheme": [
+        "1 mark: Ohm"
+      ],
+      "explanation": "Resistance is measured in ohms (Ω).",
+      "options": [
+        "Ohm",
+        "Ampere",
+        "Volt",
+        "Coulomb"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-current-resistance-pd-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The potential difference across a component stays the same, but its resistance increases. What happens to the current?",
+      "markScheme": [
+        "1 mark: It decreases."
+      ],
+      "explanation": "I = V ÷ R, so a larger R with the same V gives a smaller current.",
+      "options": [
+        "It increases.",
+        "It becomes zero.",
+        "It stays the same.",
+        "It decreases."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-current-resistance-pd-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In Required Practical 3, why should the current through the test wire be kept low?",
+      "markScheme": [
+        "1 mark: To stop the wire heating up and changing its resistance"
+      ],
+      "explanation": "A large current heats the wire. A hotter metal wire has a higher resistance, which would spoil the relationship between resistance and length.",
+      "options": [
+        "To make the ammeter more accurate",
+        "To stop the wire heating up and changing its resistance",
+        "So the voltmeter reading is zero",
+        "To make the wire longer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-current-resistance-pd-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student measures the resistance of different lengths of the same wire. Which graph shape is expected for resistance against length?",
+      "markScheme": [
+        "1 mark: A straight line through the origin"
+      ],
+      "explanation": "Resistance is directly proportional to length, so the graph is a straight line through the origin.",
+      "options": [
+        "A curve getting steeper",
+        "A horizontal line",
+        "A straight line through the origin",
+        "A straight line with a negative gradient"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-current-resistance-pd-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two identical 10 Ω resistors are connected in parallel. Which statement about the total resistance is correct?",
+      "markScheme": [
+        "1 mark: It is less than 10 Ω."
+      ],
+      "explanation": "In parallel the total resistance is less than the smallest individual resistor (it is in fact 5 Ω here, but you only need to know it is below 10 Ω).",
+      "options": [
+        "It is less than 10 Ω.",
+        "It is 10 Ω.",
+        "It is 20 Ω.",
+        "It is more than 10 Ω but less than 20 Ω."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-current-resistance-pd-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student's resistance against length graph is a straight line but does not pass through the origin; it has a positive value of resistance at zero length. What is the most likely cause?",
+      "markScheme": [
+        "1 mark: Resistance of the crocodile clips and connecting leads (a systematic error)"
+      ],
+      "explanation": "A constant extra resistance added to every reading shifts the whole line up. Contact resistance at the clips is a systematic error. A random error would scatter points, not shift them all.",
+      "options": [
+        "The wire got colder during the experiment",
+        "A random error in one reading",
+        "The voltmeter was connected in parallel",
+        "Resistance of the crocodile clips and connecting leads (a systematic error)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-current-resistance-pd-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which variable must be controlled when investigating how length affects the resistance of a wire?",
+      "markScheme": [
+        "1 mark: The diameter of the wire"
+      ],
+      "explanation": "The diameter (thickness) and material must be kept the same. Length is the independent variable and resistance the dependent variable.",
+      "options": [
+        "The potential difference of the supply only",
+        "The diameter of the wire",
+        "The length of the wire",
+        "The resistance of the wire"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-current-resistance-pd-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A resistor has 6.0 V across it and a current of 2.0 mA through it. What is its resistance?",
+      "markScheme": [
+        "1 mark: 3000 Ω"
+      ],
+      "explanation": "Convert 2.0 mA to 0.0020 A. R = 6.0 ÷ 0.0020 = 3000 Ω. 3.0 Ω comes from forgetting to convert mA.",
+      "options": [
+        "3.0 Ω",
+        "12 Ω",
+        "3000 Ω",
+        "0.33 Ω"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-current-resistance-pd-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A current of 0.50 A flows through a 12 Ω resistor. Calculate the potential difference across it.",
+      "markScheme": [
+        "1 mark: V = 0.50 × 12",
+        "1 mark: 6.0 V"
+      ],
+      "explanation": "V = I R = 0.50 × 12 = 6.0 V.",
+      "numericAnswer": 6,
+      "tolerance": 0.02,
+      "unit": "V"
+    },
+    {
+      "id": "p2-current-resistance-pd-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A 12 V battery is connected across a 48 Ω resistor. Calculate the current.",
+      "markScheme": [
+        "1 mark: I = V ÷ R = 12 ÷ 48",
+        "1 mark: 0.25 A"
+      ],
+      "explanation": "Rearrange: I = V ÷ R = 12 ÷ 48 = 0.25 A.",
+      "numericAnswer": 0.25,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-current-resistance-pd-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A heater connected to 230 V draws a current of 10 A. Calculate its resistance.",
+      "markScheme": [
+        "1 mark: R = V ÷ I = 230 ÷ 10",
+        "1 mark: 23 Ω"
+      ],
+      "explanation": "R = V ÷ I = 230 ÷ 10 = 23 Ω.",
+      "numericAnswer": 23,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-current-resistance-pd-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A current of 30 mA flows through a 150 Ω resistor. Calculate the potential difference across the resistor.",
+      "markScheme": [
+        "1 mark: 30 mA = 0.030 A",
+        "1 mark: V = 0.030 × 150",
+        "1 mark: 4.5 V"
+      ],
+      "explanation": "Convert to amps first: 0.030 A. V = I R = 0.030 × 150 = 4.5 V.",
+      "numericAnswer": 4.5,
+      "tolerance": 0.02,
+      "unit": "V"
+    },
+    {
+      "id": "p2-current-resistance-pd-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 9.0 V battery is connected across a 2.0 kΩ resistor. Calculate the current in milliamps.",
+      "markScheme": [
+        "1 mark: 2.0 kΩ = 2000 Ω",
+        "1 mark: I = 9.0 ÷ 2000 = 0.0045 A",
+        "1 mark: 4.5 mA"
+      ],
+      "explanation": "I = V ÷ R = 9.0 ÷ 2000 = 0.0045 A. Multiply by 1000 for milliamps: 4.5 mA.",
+      "numericAnswer": 4.5,
+      "tolerance": 0.02,
+      "unit": "mA"
+    },
+    {
+      "id": "p2-current-resistance-pd-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "An LED has 3.0 V across it when the current is 20 mA. Calculate its resistance at this current.",
+      "markScheme": [
+        "1 mark: 20 mA = 0.020 A",
+        "1 mark: R = 3.0 ÷ 0.020",
+        "1 mark: 150 Ω"
+      ],
+      "explanation": "R = V ÷ I = 3.0 ÷ 0.020 = 150 Ω.",
+      "numericAnswer": 150,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-current-resistance-pd-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In Required Practical 3, a 50 cm length of wire has a potential difference of 1.2 V across it and a current of 0.40 A through it. Calculate the resistance of this length of wire.",
+      "markScheme": [
+        "1 mark: R = 1.2 ÷ 0.40",
+        "1 mark: 3.0 Ω"
+      ],
+      "explanation": "R = V ÷ I = 1.2 ÷ 0.40 = 3.0 Ω.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-current-resistance-pd-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The wire in the previous experiment has a resistance of 3.0 Ω for a 50 cm length. Resistance is directly proportional to length. Predict the resistance of an 80 cm length of the same wire.",
+      "markScheme": [
+        "1 mark: resistance per cm = 3.0 ÷ 50 = 0.06 Ω/cm (or ratio 80/50 = 1.6)",
+        "1 mark: 0.06 × 80 = 4.8 Ω"
+      ],
+      "explanation": "Because R ∝ L, R = 3.0 × (80 ÷ 50) = 3.0 × 1.6 = 4.8 Ω.",
+      "numericAnswer": 4.8,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-current-resistance-pd-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the current through a component if the potential difference across it increases while its resistance stays the same.",
+      "markScheme": [
+        "1 mark: the current increases (I = V ÷ R)"
+      ],
+      "explanation": "With R constant, I = V ÷ R, so a larger V gives a larger current.",
+      "acceptedAnswers": [
+        "current increases"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "Describe how to measure the resistance of a resistor using an ammeter and a voltmeter.",
+      "markScheme": [
+        "1 mark: ammeter in series with the resistor to measure current",
+        "1 mark: voltmeter in parallel across the resistor to measure potential difference",
+        "1 mark: calculate resistance using R = V ÷ I"
+      ],
+      "explanation": "The two meters give V and I; resistance is then calculated from R = V ÷ I.",
+      "acceptedAnswers": [
+        "ammeter in series",
+        "voltmeter in parallel",
+        "R = V ÷ I"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "In Required Practical 3, give two control variables when investigating the effect of length on the resistance of a wire.",
+      "markScheme": [
+        "1 mark each for any two: material of the wire, diameter/thickness, temperature (of the wire)"
+      ],
+      "explanation": "Only length should change. Changing the material or thickness, or letting the wire warm up, would also change its resistance.",
+      "acceptedAnswers": [
+        "material",
+        "diameter",
+        "thickness",
+        "temperature",
+        "cross-sectional area"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a student should switch off the circuit between readings when measuring the resistance of a wire.",
+      "markScheme": [
+        "1 mark: to stop the wire heating up / keep temperature constant",
+        "1 mark: because resistance increases as temperature increases"
+      ],
+      "explanation": "A current heats the wire; a hotter wire has a higher resistance. Switching off keeps the temperature, and so the resistance, steady.",
+      "acceptedAnswers": [
+        "prevent heating",
+        "temperature increase increases resistance"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student connects two resistors, each of 20 Ω, first in series and then in parallel. Compare the total resistance in each arrangement with 20 Ω.",
+      "markScheme": [
+        "1 mark: series: total resistance greater than 20 Ω (40 Ω)",
+        "1 mark: parallel: total resistance less than 20 Ω"
+      ],
+      "explanation": "Series resistors add (20 + 20 = 40 Ω). In parallel there are two paths for the charge, so the total resistance is lower than either resistor.",
+      "acceptedAnswers": [
+        "series greater than 20",
+        "series 40",
+        "parallel less than 20"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain, in terms of charge flow, why a longer wire has a greater resistance.",
+      "markScheme": [
+        "1 mark: the charge has to pass through more of the wire / the electrons collide with more ions",
+        "1 mark: so there is more opposition to the flow of charge"
+      ],
+      "explanation": "Each section of wire adds resistance. Doubling the length doubles the amount of material the charge must pass through, doubling the resistance.",
+      "acceptedAnswers": [
+        "more wire to pass through",
+        "more collisions",
+        "more opposition"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Suggest one way of improving the accuracy of the measurement of the length of wire in Required Practical 3.",
+      "markScheme": [
+        "1 mark: e.g. tape the wire straight along the metre rule / read the scale at eye level / place the clip exactly on the mark"
+      ],
+      "explanation": "Kinks or sag make the true length longer than the ruler reading; parallax when reading the scale also causes errors.",
+      "acceptedAnswers": [
+        "tape wire to metre rule",
+        "keep wire straight",
+        "read at eye level",
+        "clip on the mark"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the length of a wire affects its resistance (Required Practical 3). Your answer should include the circuit, the measurements, how to make it a fair and safe test, and how to process the results.",
+      "markScheme": [
+        "Indicative content: tape a length of test wire (e.g. constantan) along a metre rule; connect a battery or low-voltage supply, switch and ammeter in series with the wire using crocodile clips; place one clip at 0 cm; connect a voltmeter across the wire between the clips; set the other clip at, for example, 10 cm; switch on, record I and V, switch off; repeat for lengths up to 100 cm in 10 cm steps; repeat each length and calculate a mean; calculate R = V ÷ I for each length; plot resistance against length and draw a line of best fit; expect a straight line through the origin, so resistance is directly proportional to length. Control variables: same wire material and diameter, low current/switch off between readings to keep temperature constant. Safety: wire can get hot, do not touch it while the current flows; use a low potential difference.",
+        "Level 3 (5 to 6 marks): a coherent method with correct circuit (ammeter in series, voltmeter in parallel), a range of lengths, repeats, R = V ÷ I, graph, and control of temperature.",
+        "Level 2 (3 to 4 marks): a method with most key steps, including measuring V and I for different lengths and calculating resistance, with some control.",
+        "Level 1 (1 to 2 marks): simple statements, such as 'change the length and measure resistance'."
+      ],
+      "explanation": "The mark scheme rewards a logical sequence: set up, vary length, measure V and I, calculate R, repeat, graph. Keeping the temperature constant is the key control."
+    },
+    {
+      "id": "p2-current-resistance-pd-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student uses the Required Practical 3 circuit to compare the total resistance of two resistors, A (10 Ω) and B (22 Ω), connected in series and then in parallel.\nDescribe how the student should measure each total resistance and explain the results they should expect.",
+      "markScheme": [
+        "Indicative content: connect A and B in series between the ammeter and supply; voltmeter across both resistors together; record V and I and calculate R = V ÷ I; expect about 32 Ω, the sum of the two; then connect A and B in parallel (side by side, both ends joined); voltmeter across the pair; ammeter in the main circuit; calculate R = V ÷ I; expect a value less than 10 Ω (less than the smallest resistor); explanation: in series charge must pass through both resistors, so total resistance increases; in parallel there are two paths so more current flows for the same potential difference, so the total resistance decreases.",
+        "Level 2 (3 to 4 marks): correct measurement method and correct expected results for both arrangements with an explanation.",
+        "Level 1 (1 to 2 marks): some correct description of the circuit or the expected results."
+      ],
+      "explanation": "Total resistance is found from R = V ÷ I using the total pd and the main current. Series adds; parallel gives less than the smallest resistor because there are more paths."
+    },
+    {
+      "id": "p2-current-resistance-pd-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Write down the equation linking potential difference, current and resistance, giving the unit of each quantity.",
+      "markScheme": [
+        "1 mark: V = I R",
+        "1 mark: V in volts, I in amperes, R in ohms"
+      ],
+      "explanation": "V = I R with volts, amps and ohms. You must recall this equation; it is not on the equation sheet.",
+      "acceptedAnswers": [
+        "V = I R",
+        "volts",
+        "amperes",
+        "ohms"
+      ]
+    },
+    {
+      "id": "p2-current-resistance-pd-q28",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which pair of measurements is needed to calculate the resistance of a lamp?",
+      "markScheme": [
+        "1 mark: Potential difference across it and current through it"
+      ],
+      "explanation": "R = V ÷ I, so you need the potential difference across the lamp and the current through it.",
+      "options": [
+        "Potential difference across it and current through it",
+        "Current through it and time",
+        "Charge and time",
+        "Power and time"
+      ],
+      "answer": 0
+    }
+  ]
+}

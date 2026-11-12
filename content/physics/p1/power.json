@@ -1,0 +1,393 @@
+{
+  "id": "p1-power",
+  "science": "physics",
+  "topicId": "p1",
+  "slug": "power",
+  "specRef": "4.1.1.4",
+  "title": "Power",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Power is the rate at which energy is transferred or the rate at which work is done. An energy transfer of 1 joule per second is a power of 1 watt.",
+    "explanation": [
+      "Power tells you how quickly energy is transferred, not how much is transferred in total. It is calculated with P = E ÷ t, where P is power in watts (W), E is energy transferred in joules (J) and t is time in seconds (s). Because work done is the energy transferred by a force (or by a current), power is also the rate of doing work: P = W ÷ t. You must be able to recall both equations.",
+      "The watt is defined as one joule per second. A 60 W lamp transfers 60 J of energy every second; a 2 kW kettle transfers 2000 J every second. Large powers are often written in kilowatts (1 kW = 1000 W) or megawatts (1 MW = 1 000 000 W). Always convert to watts, joules and seconds before using the equations, and remember there are 60 seconds in a minute and 3600 seconds in an hour.",
+      "AQA asks you to compare devices. Two electric motors that lift the same weight through the same height do the same amount of work. If one motor does it in half the time, it has twice the power. Similarly, two kettles heating the same water by the same amount transfer the same energy, but the kettle with the higher power rating does it faster.",
+      "Rearranging the equation is common in exam questions: E = P × t gives the energy transferred by a device of known power in a given time, and t = E ÷ P gives how long a transfer takes. For lifting problems, combine power with gravitational potential energy: the work done lifting an object equals mgh, so the useful power output is mgh ÷ t.",
+      "The power rating on an appliance is its total input power. Not all of this is transferred usefully: some is dissipated, for example by heating the motor and the surroundings. So the useful power output of a motor is always less than its input power, which links to efficiency."
+    ],
+    "keyFacts": [
+      "Power is the rate of energy transfer or the rate of doing work.",
+      "P = E ÷ t (must be recalled).",
+      "P = W ÷ t (must be recalled).",
+      "Power is measured in watts (W); 1 W = 1 J/s.",
+      "1 kW = 1000 W and 1 MW = 1 000 000 W.",
+      "Time must be in seconds: 1 minute = 60 s, 1 hour = 3600 s.",
+      "Two devices doing the same work: the one that takes less time is more powerful.",
+      "Rearranged: E = P × t and t = E ÷ P.",
+      "Useful power for lifting = mgh ÷ t."
+    ],
+    "keyTerms": [
+      { "term": "Power", "definition": "The rate at which energy is transferred, or the rate at which work is done." },
+      { "term": "Watt (W)", "definition": "The unit of power: an energy transfer of 1 joule per second." },
+      { "term": "Kilowatt (kW)", "definition": "1000 watts." },
+      { "term": "Work done", "definition": "The energy transferred when a force moves an object (or when a current flows), in joules." },
+      { "term": "Power rating", "definition": "The input power of an appliance, stated on its label, for example 2.0 kW for a kettle." },
+      { "term": "Useful power output", "definition": "The part of the input power that is transferred to useful energy stores." }
+    ],
+    "equations": [
+      { "name": "Power from energy transferred", "formula": "power = energy transferred ÷ time", "symbols": "P = E ÷ t", "units": "P in watts (W), E in joules (J), t in seconds (s)", "recall": true },
+      { "name": "Power from work done", "formula": "power = work done ÷ time", "symbols": "P = W ÷ t", "units": "P in watts (W), W in joules (J), t in seconds (s)", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Power of a kettle with time in minutes",
+        "question": "A kettle transfers 360 kJ of energy in 2.5 minutes. Calculate its power in kW.",
+        "steps": [
+          "Convert: E = 360 kJ = 360 000 J; t = 2.5 × 60 = 150 s.",
+          "P = E ÷ t = 360 000 ÷ 150 = 2400 W.",
+          "2400 W ÷ 1000 = 2.4 kW."
+        ],
+        "answer": "2.4 kW"
+      },
+      {
+        "title": "Rearranging for energy",
+        "question": "A 60 W lamp is left on for 2.0 hours. Calculate the energy transferred.",
+        "steps": [
+          "Convert time: 2.0 hours × 3600 = 7200 s.",
+          "Rearrange P = E ÷ t to E = P × t.",
+          "E = 60 × 7200 = 432 000 J (432 kJ)."
+        ],
+        "answer": "432 000 J"
+      },
+      {
+        "title": "Rearranging for time",
+        "question": "A 1.2 kW heater must transfer 540 kJ of energy. Calculate how long this takes, in minutes.",
+        "steps": [
+          "Convert: P = 1200 W; E = 540 000 J.",
+          "t = E ÷ P = 540 000 ÷ 1200 = 450 s.",
+          "450 ÷ 60 = 7.5 minutes."
+        ],
+        "answer": "7.5 minutes"
+      },
+      {
+        "title": "Power of a motor lifting a load",
+        "question": "A motor lifts a 50 kg load through a height of 6.0 m in 12 s. Calculate its useful power output. (g = 9.8 N/kg)",
+        "steps": [
+          "Work done = gain in gravitational potential energy = mgh = 50 × 9.8 × 6.0 = 2940 J.",
+          "P = W ÷ t = 2940 ÷ 12.",
+          "P = 245 W."
+        ],
+        "answer": "245 W"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Comparing the power of two motors",
+        "caption": "Both motors lift a 500 N load through 2.0 m, so both do 1000 J of work. Motor A takes half the time, so it has twice the power.",
+        "svg": "<svg viewBox='0 0 440 260' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='230' x2='420' y2='230' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><rect x='70' y='20' width='70' height='36' rx='4' fill='#93c5fd' fill-opacity='0.5'/><rect x='290' y='20' width='70' height='36' rx='4' fill='#c4b5fd' fill-opacity='0.5'/><line x1='105' y1='56' x2='105' y2='150'/><line x1='325' y1='56' x2='325' y2='150'/><rect x='80' y='150' width='50' height='40' fill='#fde68a' fill-opacity='0.5'/><rect x='300' y='150' width='50' height='40' fill='#fde68a' fill-opacity='0.5'/><line x1='165' y1='190' x2='165' y2='230'/><line x1='165' y1='150' x2='165' y2='178' stroke-dasharray='3 3'/></g><g fill='currentColor'><path d='M105 120 L100 132 L110 132 Z'/><path d='M325 120 L320 132 L330 132 Z'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='105' y='42'>Motor A</text><text x='325' y='42'>Motor B</text><text x='105' y='174'>500 N</text><text x='325' y='174'>500 N</text><text x='105' y='206'>raised 2.0 m</text><text x='325' y='206'>raised 2.0 m</text><text x='105' y='76'>time = 10 s</text><text x='325' y='76'>time = 20 s</text><text x='105' y='248'>P = 1000 ÷ 10 = 100 W</text><text x='325' y='248'>P = 1000 ÷ 20 = 50 W</text><text x='215' y='110'>work done</text><text x='215' y='125'>= 500 × 2.0</text><text x='215' y='140'>= 1000 J each</text></g></svg>"
+      },
+      {
+        "title": "Power equation triangle and unit conversions",
+        "caption": "Cover the quantity you want: E = P × t, P = E ÷ t, t = E ÷ P. Convert to joules, watts and seconds first.",
+        "svg": "<svg viewBox='0 0 440 220' xmlns='http://www.w3.org/2000/svg'><path d='M110 20 L200 180 L20 180 Z' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><line x1='65' y1='100' x2='155' y2='100' stroke='currentColor' stroke-width='2'/><line x1='110' y1='100' x2='110' y2='180' stroke='currentColor' stroke-width='2'/><g font-size='12' fill='currentColor'><text x='104' y='80'>E</text><text x='70' y='150'>P</text><text x='140' y='150'>t</text><text x='20' y='206'>E in J, P in W, t in s</text><text x='240' y='40'>Unit conversions</text><text x='240' y='65'>1 kW = 1000 W</text><text x='240' y='85'>1 MW = 1 000 000 W</text><text x='240' y='105'>1 kJ = 1000 J</text><text x='240' y='125'>1 minute = 60 s</text><text x='240' y='145'>1 hour = 3600 s</text><text x='240' y='175'>1 W = 1 J transferred</text><text x='240' y='191'>per second</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think a more powerful device always transfers more energy.", "right": "In fact power is the rate of transfer. A low-power device left on for a long time can transfer more energy than a high-power device used briefly." },
+      { "wrong": "Students often use time in minutes or hours in P = E ÷ t.", "right": "In fact time must be in seconds to give power in watts." },
+      { "wrong": "Students often think power and energy have the same unit.", "right": "In fact energy is in joules (J) and power is in watts (W), where 1 W = 1 J/s." },
+      { "wrong": "Students often think two motors lifting the same load the same height do different amounts of work if one is faster.", "right": "In fact they do the same work; the faster one simply has a greater power." }
+    ],
+    "realWorld": [
+      "Appliance labels show power ratings, such as a 3 kW kettle or a 10 W LED bulb, so buyers can compare how quickly they transfer energy.",
+      "Car engines are rated by power output in kW; a more powerful engine can accelerate the car or climb hills faster.",
+      "Power stations are rated in megawatts, telling engineers how much energy per second they can supply to the National Grid."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Both P = E ÷ t and P = W ÷ t must be learned; they are not on the equation sheet.",
+      "Convert kW to W, kJ to J and minutes or hours to seconds before substituting.",
+      "When comparing two devices, state what is the same (energy or work) and what is different (time), then link to power.",
+      "For lifting questions, find the work done using mgh, then divide by time."
+    ],
+    "summary": [
+      "Power is the rate of energy transfer or rate of doing work.",
+      "P = E ÷ t and P = W ÷ t, both to be recalled.",
+      "1 W = 1 J/s; 1 kW = 1000 W.",
+      "Use joules, watts and seconds.",
+      "Same work in less time means greater power.",
+      "Useful power output is always less than input power."
+    ]
+  },
+  "flashcards": [
+    { "front": "Define power.", "back": "The rate at which energy is transferred or the rate at which work is done." },
+    { "front": "Equation linking power, energy and time", "back": "P = E ÷ t" },
+    { "front": "Equation linking power, work done and time", "back": "P = W ÷ t" },
+    { "front": "What is 1 watt?", "back": "An energy transfer of 1 joule per second." },
+    { "front": "How many watts in 1 kW?", "back": "1000 W" },
+    { "front": "How many seconds in 1 hour?", "back": "3600 s" },
+    { "front": "Rearrange P = E ÷ t for E", "back": "E = P × t" },
+    { "front": "Rearrange P = E ÷ t for t", "back": "t = E ÷ P" },
+    { "front": "Two motors lift the same load the same height. A takes 5 s, B takes 10 s. Which is more powerful?", "back": "A: same work done in less time, so twice the power." },
+    { "front": "Useful power when lifting an object", "back": "mgh ÷ t" },
+    { "front": "Energy transferred by a 100 W lamp in 1 minute", "back": "100 × 60 = 6000 J" },
+    { "front": "Why is useful power output less than input power?", "back": "Some energy is dissipated, for example heating the device and its surroundings." }
+  ],
+  "questions": [
+    {
+      "id": "p1-power-q01",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "What is the unit of power?",
+      "options": ["joule", "newton", "volt", "watt"],
+      "answer": 3,
+      "markScheme": ["1 mark: watt"],
+      "explanation": "Power is measured in watts (W). The joule is the unit of energy and the newton the unit of force."
+    },
+    {
+      "id": "p1-power-q02",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Which of these is the best definition of power?",
+      "options": ["The rate at which energy is transferred", "The total energy transferred by a device", "The force needed to move an object", "The energy wasted by a device"],
+      "answer": 0,
+      "markScheme": ["1 mark: The rate at which energy is transferred"],
+      "explanation": "Power is about how quickly energy is transferred (per second), not the total amount transferred."
+    },
+    {
+      "id": "p1-power-q03",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A power of 1 watt is equal to:",
+      "options": ["1 joule per minute", "1 newton per second", "1 joule per second", "1 joule × 1 second"],
+      "answer": 2,
+      "markScheme": ["1 mark: 1 joule per second"],
+      "explanation": "P = E ÷ t, so 1 W = 1 J ÷ 1 s = 1 J/s."
+    },
+    {
+      "id": "p1-power-q04",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A kettle has a power of 3 kW. What is this in watts?",
+      "options": ["30 W", "3000 W", "300 W", "0.003 W"],
+      "answer": 1,
+      "markScheme": ["1 mark: 3000 W"],
+      "explanation": "The prefix kilo means × 1000, so 3 kW = 3 × 1000 = 3000 W."
+    },
+    {
+      "id": "p1-power-q05",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Motor A and motor B each lift identical loads through the same height. Motor A takes 5 s and motor B takes 10 s. Which statement is correct?",
+      "options": ["Motor B does more work because it takes longer", "Motor A does more work because it is faster", "Both do the same work, but motor A has twice the power of motor B", "Both have the same power because they lift the same load"],
+      "answer": 2,
+      "markScheme": ["1 mark: Both do the same work, but motor A has twice the power of motor B"],
+      "explanation": "Work done depends on the load and height, which are the same. Power = work ÷ time, so halving the time doubles the power."
+    },
+    {
+      "id": "p1-power-q06",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Heater X (2 kW) is on for 10 minutes. Heater Y (1 kW) is on for 30 minutes. Which statement is correct?",
+      "options": ["Heater X transfers more energy because its power is higher", "Heater Y transfers more energy: 1800 kJ compared with 1200 kJ", "Both heaters transfer the same energy", "It is impossible to compare them without knowing the voltage"],
+      "answer": 1,
+      "markScheme": ["1 mark: Heater Y transfers more energy: 1800 kJ compared with 1200 kJ"],
+      "explanation": "E = P × t. X: 2000 × 600 = 1 200 000 J. Y: 1000 × 1800 = 1 800 000 J. A lower power for a longer time can transfer more energy."
+    },
+    {
+      "id": "p1-power-q07",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Which equation links power (P), work done (W) and time (t)?",
+      "options": ["P = W × t", "P = t ÷ W", "P = W + t", "P = W ÷ t"],
+      "answer": 3,
+      "markScheme": ["1 mark: P = W ÷ t"],
+      "explanation": "Power is the rate of doing work, so it is work done divided by time taken."
+    },
+    {
+      "id": "p1-power-q08",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "A lift raises a load through a fixed height. The mass of the load is doubled and the time taken is halved. What happens to the useful power output of the lift motor?",
+      "options": ["It becomes four times larger", "It doubles", "It stays the same", "It halves"],
+      "answer": 0,
+      "markScheme": ["1 mark: It becomes four times larger"],
+      "explanation": "P = mgh ÷ t. Doubling m doubles the work done, and halving t doubles the power again: 2 × 2 = 4 times larger."
+    },
+    {
+      "id": "p1-power-q09",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Two kettles each heat 1 kg of water from 20 °C to 100 °C. Ignoring energy losses, which statement is correct about the kettle with the higher power rating?",
+      "options": ["It transfers more energy to the water", "It transfers less energy because it is more powerful", "It transfers the same energy to the water in a shorter time", "It raises the water to a higher final temperature"],
+      "answer": 2,
+      "markScheme": ["1 mark: It transfers the same energy to the water in a shorter time"],
+      "explanation": "The energy needed depends only on the mass, the specific heat capacity and the temperature change, which are the same. A higher power transfers that energy faster, so t = E ÷ P is shorter."
+    },
+    {
+      "id": "p1-power-q10",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "A 40 W lamp is switched on for 1 minute. How much energy does it transfer?",
+      "options": ["40 J", "2400 J", "0.67 J", "40 000 J"],
+      "answer": 1,
+      "markScheme": ["1 mark: 2400 J"],
+      "explanation": "E = P × t = 40 × 60 = 2400 J. Using t = 1 gives 40 J, and dividing gives 0.67 J; both are wrong."
+    },
+    {
+      "id": "p1-power-q11",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A motor transfers 600 J of energy in 20 s. Calculate its power.",
+      "numericAnswer": 30, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: P = 600 ÷ 20", "1 mark: 30 W"],
+      "explanation": "P = E ÷ t = 600 ÷ 20 = 30 W."
+    },
+    {
+      "id": "p1-power-q12",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A weightlifter does 4500 J of work in 15 s. Calculate the power.",
+      "numericAnswer": 300, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: P = 4500 ÷ 15", "1 mark: 300 W"],
+      "explanation": "P = W ÷ t = 4500 ÷ 15 = 300 W."
+    },
+    {
+      "id": "p1-power-q13",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "An 800 W microwave oven is used for 3.0 minutes. Calculate the energy transferred. Give your answer in kJ.",
+      "numericAnswer": 144, "tolerance": 0.01, "unit": "kJ",
+      "markScheme": ["1 mark: t = 180 s", "1 mark: E = 800 × 180 = 144 000 J", "1 mark: 144 kJ"],
+      "explanation": "Convert 3.0 minutes to 180 s. E = P × t = 144 000 J. Divide by 1000 to get 144 kJ."
+    },
+    {
+      "id": "p1-power-q14",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A 2.5 kW heater transfers 900 kJ of energy. Calculate the time taken in minutes.",
+      "numericAnswer": 6, "tolerance": 0.01, "unit": "minutes",
+      "markScheme": ["1 mark: t = 900 000 ÷ 2500", "1 mark: t = 360 s", "1 mark: 6.0 minutes"],
+      "explanation": "Convert to W and J, then t = E ÷ P = 900 000 ÷ 2500 = 360 s. Divide by 60: 6.0 minutes."
+    },
+    {
+      "id": "p1-power-q15",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A cyclist does 36 kJ of work in 4.0 minutes. Calculate the cyclist's average power.",
+      "numericAnswer": 150, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: W = 36 000 J and t = 240 s", "1 mark: P = 36 000 ÷ 240", "1 mark: 150 W"],
+      "explanation": "Convert both units first. P = W ÷ t = 36 000 ÷ 240 = 150 W."
+    },
+    {
+      "id": "p1-power-q16",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A crane lifts an 800 kg steel beam through a height of 15 m in 40 s. Calculate the useful power output of the crane. (g = 9.8 N/kg)",
+      "numericAnswer": 2940, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: work done = mgh", "1 mark: = 800 × 9.8 × 15 = 117 600 J", "1 mark: P = 117 600 ÷ 40", "1 mark: 2940 W"],
+      "explanation": "The work done lifting the beam equals its gain in gravitational potential energy, 117 600 J. Dividing by 40 s gives 2940 W (about 2.9 kW)."
+    },
+    {
+      "id": "p1-power-q17",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A student of mass 55 kg runs up a flight of stairs with a vertical height of 3.2 m in 4.0 s. Calculate her useful power. Give your answer to 2 significant figures. (g = 9.8 N/kg)",
+      "numericAnswer": 430, "tolerance": 0.02, "unit": "W",
+      "markScheme": ["1 mark: Ep = 55 × 9.8 × 3.2 = 1724.8 J", "1 mark: P = 1724.8 ÷ 4.0 = 431.2 W", "1 mark: 430 W (2 s.f.)"],
+      "explanation": "Only the vertical height matters for gravitational potential energy. P = 1724.8 ÷ 4.0 = 431 W, which is 430 W to 2 s.f."
+    },
+    {
+      "id": "p1-power-q18",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A 2.2 kW kettle takes 3.0 minutes to boil some water. A 1.8 kW kettle is used to transfer the same amount of energy. Calculate how long the 1.8 kW kettle takes, in seconds.",
+      "numericAnswer": 220, "tolerance": 0.01, "unit": "s",
+      "markScheme": ["1 mark: E = 2200 × 180", "1 mark: E = 396 000 J", "1 mark: t = 396 000 ÷ 1800", "1 mark: 220 s"],
+      "explanation": "First find the energy needed using the first kettle: 2200 × 180 = 396 000 J. Then t = E ÷ P = 396 000 ÷ 1800 = 220 s. The lower power kettle takes longer."
+    },
+    {
+      "id": "p1-power-q19",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Write down the equation that links power, energy transferred and time.",
+      "acceptedAnswers": ["P = E ÷ t", "power = energy transferred ÷ time", "P = E/t"],
+      "markScheme": ["1 mark: power = energy transferred ÷ time (P = E ÷ t)"],
+      "explanation": "This equation must be recalled; it is not on the equation sheet."
+    },
+    {
+      "id": "p1-power-q20",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Define the term power.",
+      "acceptedAnswers": ["rate of energy transfer", "rate of doing work", "energy transferred per second", "work done per second"],
+      "markScheme": ["1 mark: the rate at which energy is transferred (or the rate at which work is done)"],
+      "explanation": "The word 'rate' (or 'per second') is essential. 'Amount of energy' alone does not score."
+    },
+    {
+      "id": "p1-power-q21",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "State what is meant by a power of 1 watt.",
+      "acceptedAnswers": ["1 joule per second", "transfer of 1 J every second", "1 J/s"],
+      "markScheme": ["1 mark: an energy transfer of 1 joule per second"],
+      "explanation": "The watt is defined from P = E ÷ t: 1 W means 1 J of energy transferred each second."
+    },
+    {
+      "id": "p1-power-q22",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Two cyclists of equal mass ride up the same hill. Cyclist A reaches the top in less time than cyclist B. Explain which cyclist has the greater useful power output.",
+      "acceptedAnswers": ["cyclist A", "same work done", "less time", "same gravitational potential energy gained"],
+      "markScheme": ["1 mark: both do the same work (gain the same gravitational potential energy) because mass and height are equal", "1 mark: A does it in less time, so A has the greater power (P = W ÷ t)"],
+      "explanation": "Same mass and same height means the same mgh. Power = work ÷ time, so the shorter time gives the greater power."
+    },
+    {
+      "id": "p1-power-q23",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Explain why a 3 kW kettle boils a litre of water faster than a 2 kW kettle.",
+      "acceptedAnswers": ["transfers energy at a higher rate", "more energy per second", "same energy needed", "t = E ÷ P"],
+      "markScheme": ["1 mark: the same amount of energy is needed to boil the water in each kettle", "1 mark: the 3 kW kettle transfers more energy per second (3000 J/s compared with 2000 J/s), so it takes less time"],
+      "explanation": "t = E ÷ P: with the same E, a bigger P gives a smaller t."
+    },
+    {
+      "id": "p1-power-q24",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A hairdryer is labelled 1.5 kW. State what this tells you about the hairdryer's energy transfer, giving a value in joules.",
+      "acceptedAnswers": ["1500 J per second", "transfers 1500 joules each second", "1500 J/s"],
+      "markScheme": ["1 mark: 1.5 kW = 1500 W", "1 mark: it transfers 1500 J of energy every second"],
+      "explanation": "A watt is a joule per second, so 1.5 kW means 1500 J transferred each second it is switched on."
+    },
+    {
+      "id": "p1-power-q25",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A student wants to find her useful power output when running up a flight of stairs. State the three measurements she must take, and the instruments she should use.",
+      "acceptedAnswers": ["mass", "bathroom scales", "vertical height", "metre rule", "tape measure", "time", "stopwatch"],
+      "markScheme": ["1 mark: her mass, using (bathroom) scales", "1 mark: the vertical height of the stairs, using a tape measure or metre rule", "1 mark: the time taken, using a stopwatch"],
+      "explanation": "Useful power = mgh ÷ t, so she needs m, h (vertical height, not length along the stairs) and t. g is taken as 9.8 N/kg."
+    },
+    {
+      "id": "p1-power-q26",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "The electrical input power of a lift motor is greater than the value of mgh ÷ t for the load it raises. Explain why.",
+      "acceptedAnswers": ["energy dissipated", "wasted as thermal energy", "friction", "heating of the motor", "sound"],
+      "markScheme": ["1 mark: mgh ÷ t is only the useful power output", "1 mark: some energy is dissipated, for example heating the motor and wires because of resistance and friction, or as sound"],
+      "explanation": "Not all of the input energy goes into the gravitational potential store of the load. The rest is wasted, so input power is greater than useful output power."
+    },
+    {
+      "id": "p1-power-q27",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "Describe how you could find the useful power output of a small electric motor by using it to lift a load. Include the measurements you would make, how you would use them, and how you would make your result more accurate.",
+      "markScheme": [
+        "Indicative content: attach a string from the motor's axle to a load of known mass (measured on a balance); measure the vertical height the load is raised with a metre rule; switch on the motor and time how long it takes to lift the load through that height with a stopwatch; calculate work done = mgh using g = 9.8 N/kg; calculate useful power = mgh ÷ t; use a large height so the time is longer and percentage error in timing is smaller; repeat several times and calculate a mean; use light gates or video to reduce reaction time error; check the load moves at a steady speed so kinetic energy is not changing much.",
+        "Level 3 (5 to 6 marks): a coherent method with all measurements and instruments, correct calculation of power from mgh ÷ t, and at least two valid ways of improving accuracy.",
+        "Level 2 (3 to 4 marks): a method with most measurements and a correct calculation, with limited reference to accuracy.",
+        "Level 1 (1 to 2 marks): simple statements about lifting a load and timing it."
+      ],
+      "explanation": "Useful power = work done ÷ time = mgh ÷ t, so mass, height and time are needed. Repeats and longer timings reduce random error."
+    },
+    {
+      "id": "p1-power-q28",
+      "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "question": "A family replaces a 2.0 kW kettle with a 3.0 kW kettle. Both need to transfer 360 kJ of energy to boil a full kettle of water.\nCalculate how long each kettle takes and explain the difference in terms of power.",
+      "markScheme": [
+        "Indicative content: 360 kJ = 360 000 J; 2.0 kW = 2000 W, t = 360 000 ÷ 2000 = 180 s (3.0 minutes); 3.0 kW = 3000 W, t = 360 000 ÷ 3000 = 120 s (2.0 minutes); the same energy is transferred by both; the 3.0 kW kettle transfers 1000 J more each second, so it takes 60 s less.",
+        "Level 2 (3 to 4 marks): both times calculated correctly with a clear explanation linking higher power to a faster rate of energy transfer.",
+        "Level 1 (1 to 2 marks): one time calculated correctly, or a correct statement that higher power is faster."
+      ],
+      "explanation": "Using t = E ÷ P: 180 s for the 2.0 kW kettle and 120 s for the 3.0 kW kettle. Power is the rate of transfer, so the higher power finishes sooner."
+    },
+    {
+      "id": "p1-power-q29",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A lift of total mass 600 kg is raised 20 m in 25 s. The electrical input power to the lift motor is 6.0 kW.\nCalculate the useful power output and the power wasted, and explain what happens to the wasted energy. (g = 9.8 N/kg)",
+      "markScheme": [
+        "Indicative content: work done = mgh = 600 × 9.8 × 20 = 117 600 J; useful power = 117 600 ÷ 25 = 4704 W (4.7 kW); power wasted = 6000 − 4704 = 1296 W (about 1.3 kW); wasted energy is dissipated, mainly heating the motor, cables and pulleys due to friction and electrical resistance, and as sound, ending up in the thermal store of the surroundings.",
+        "Level 2 (3 to 4 marks): correct useful power and wasted power, with a correct explanation of where the wasted energy goes.",
+        "Level 1 (1 to 2 marks): correct work done or useful power, or a correct description of wasted energy."
+      ],
+      "explanation": "Useful power = mgh ÷ t = 4704 W. The other 1296 W of the input is wasted, mainly as thermal energy from friction and resistance."
+    }
+  ]
+}

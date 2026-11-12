@@ -1,0 +1,750 @@
+{
+  "id": "p3-density",
+  "science": "physics",
+  "topicId": "p3",
+  "slug": "density",
+  "specRef": "4.3.1.1",
+  "title": "Density of materials",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Density is the mass per unit volume of a material. It is calculated using density = mass ÷ volume (ρ = m ÷ V) and is measured in kilograms per metre cubed (kg/m³).",
+    "explanation": [
+      "Density tells you how much mass is packed into a given volume. A block of lead feels much heavier than a block of wood of the same size because lead has a greater density: each cubic metre of lead contains more mass. Density depends only on the material (and its state), not on how much of it you have, so cutting a block in half halves both its mass and its volume and leaves its density unchanged.",
+      "The equation is density = mass ÷ volume, written ρ = m ÷ V. The Greek letter ρ (rho) stands for density. In SI units mass is in kilograms (kg), volume is in metres cubed (m³) and density is in kg/m³. In the laboratory you often measure mass in grams and volume in cm³, which gives density in g/cm³. To convert g/cm³ to kg/m³ multiply by 1000, because 1 m³ = 1 000 000 cm³ and 1 kg = 1000 g. Water has a density of 1 g/cm³, which is 1000 kg/m³.",
+      "The particle model explains why the same substance has different densities in different states. In a solid the particles are packed closely together in a regular arrangement. In a liquid the particles are still touching but are randomly arranged. In a gas the particles are far apart with large spaces between them. Solids and liquids therefore have high densities, while gases have very low densities, often around a thousand times lower, because there is far less mass in each cubic metre.",
+      "To find the density of a regular solid such as a cuboid, measure its mass on a top pan balance and measure its length, width and height with a ruler (or vernier callipers for small objects). Volume = length × width × height. Then use ρ = m ÷ V. Measuring several times and calculating a mean reduces the effect of random errors.",
+      "An irregular solid such as a stone has no simple formula for its volume, so you measure it by displacement. Fill a eureka (displacement) can with water until it drips from the spout, wait until it stops, then put a measuring cylinder under the spout and gently lower the object in on a thread. The volume of water that collects equals the volume of the object. Alternatively, partly fill a measuring cylinder, read the volume, lower the object in and read again: the increase is the object's volume.",
+      "To find the density of a liquid, place an empty measuring cylinder on a balance and record its mass (or press tare to zero the balance). Pour in a known volume of liquid, for example 50 cm³, reading the bottom of the meniscus at eye level, and record the new mass. The mass of liquid is the difference between the two readings. Density = mass of liquid ÷ volume of liquid."
+    ],
+    "keyFacts": [
+      "density = mass ÷ volume, ρ = m ÷ V (you must recall this equation).",
+      "SI unit of density: kg/m³. A common lab unit is g/cm³.",
+      "1 g/cm³ = 1000 kg/m³; water has a density of about 1000 kg/m³.",
+      "1 m³ = 1 000 000 cm³ (10⁶ cm³); 1 cm³ = 1 ml.",
+      "Solids and liquids have high densities because their particles are closely packed.",
+      "Gases have very low densities because their particles are far apart.",
+      "Density is a property of the material: cutting an object in half does not change its density.",
+      "Volume of a regular solid = length × width × height.",
+      "Volume of an irregular solid is found by displacement of water (eureka can or measuring cylinder).",
+      "Read a measuring cylinder at eye level from the bottom of the meniscus."
+    ],
+    "keyTerms": [
+      {
+        "term": "Density",
+        "definition": "The mass per unit volume of a material, ρ = m ÷ V, measured in kg/m³."
+      },
+      {
+        "term": "Mass",
+        "definition": "The amount of matter in an object, measured in kilograms (kg) using a balance."
+      },
+      {
+        "term": "Volume",
+        "definition": "The amount of space an object takes up, measured in m³ (or cm³ in the lab)."
+      },
+      {
+        "term": "Eureka can",
+        "definition": "A can with a spout used to collect the water displaced by an object, so its volume can be measured."
+      },
+      {
+        "term": "Displacement",
+        "definition": "The method of finding an object's volume from the volume of water it pushes aside when fully submerged."
+      },
+      {
+        "term": "Meniscus",
+        "definition": "The curved surface of a liquid in a narrow tube; for water you read the bottom of the curve."
+      },
+      {
+        "term": "Particle model",
+        "definition": "The model that all matter is made of tiny particles whose arrangement and motion explain the properties of solids, liquids and gases."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Density",
+        "formula": "density = mass ÷ volume",
+        "symbols": "ρ = m ÷ V",
+        "units": "ρ in kg/m³, m in kg, V in m³",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Density of a regular block",
+        "question": "An aluminium block measures 5.0 cm × 4.0 cm × 2.0 cm and has a mass of 108 g. Calculate its density in g/cm³ and in kg/m³.",
+        "steps": [
+          "Volume = 5.0 × 4.0 × 2.0 = 40 cm³.",
+          "ρ = m ÷ V = 108 ÷ 40 = 2.7 g/cm³.",
+          "Convert: 2.7 g/cm³ × 1000 = 2700 kg/m³."
+        ],
+        "answer": "2.7 g/cm³ = 2700 kg/m³"
+      },
+      {
+        "title": "Irregular object by displacement",
+        "question": "A measuring cylinder contains 50.0 cm³ of water. When a stone of mass 57.2 g is lowered into it, the reading rises to 72.0 cm³. Calculate the density of the stone.",
+        "steps": [
+          "Volume of stone = 72.0 − 50.0 = 22.0 cm³.",
+          "ρ = m ÷ V = 57.2 ÷ 22.0 = 2.6 g/cm³.",
+          "In SI units: 2.6 × 1000 = 2600 kg/m³."
+        ],
+        "answer": "2.6 g/cm³ (2600 kg/m³)"
+      },
+      {
+        "title": "Density of a liquid",
+        "question": "An empty measuring cylinder has a mass of 120.0 g. With 50.0 cm³ of cooking oil in it, the mass is 166.0 g. Calculate the density of the oil in kg/m³.",
+        "steps": [
+          "Mass of oil = 166.0 − 120.0 = 46.0 g.",
+          "ρ = 46.0 ÷ 50.0 = 0.92 g/cm³.",
+          "0.92 × 1000 = 920 kg/m³."
+        ],
+        "answer": "920 kg/m³"
+      },
+      {
+        "title": "Rearranging to find mass",
+        "question": "A room measures 5.0 m × 4.0 m × 2.5 m. The density of air is 1.2 kg/m³. Calculate the mass of air in the room.",
+        "steps": [
+          "Volume = 5.0 × 4.0 × 2.5 = 50 m³.",
+          "Rearrange ρ = m ÷ V to give m = ρ × V.",
+          "m = 1.2 × 50 = 60 kg."
+        ],
+        "answer": "60 kg"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Particle arrangement in solids, liquids and gases",
+        "caption": "Particles in solids and liquids are touching, so these states have high densities. Gas particles are far apart, so a gas has a much lower density.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='20' y='40' width='120' height='120'/><rect x='180' y='40' width='120' height='120'/><rect x='340' y='40' width='120' height='120'/></g><g fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'><circle cx='35' cy='55' r='9'/><circle cx='53' cy='55' r='9'/><circle cx='71' cy='55' r='9'/><circle cx='89' cy='55' r='9'/><circle cx='107' cy='55' r='9'/><circle cx='125' cy='55' r='9'/><circle cx='35' cy='73' r='9'/><circle cx='53' cy='73' r='9'/><circle cx='71' cy='73' r='9'/><circle cx='89' cy='73' r='9'/><circle cx='107' cy='73' r='9'/><circle cx='125' cy='73' r='9'/><circle cx='35' cy='91' r='9'/><circle cx='53' cy='91' r='9'/><circle cx='71' cy='91' r='9'/><circle cx='89' cy='91' r='9'/><circle cx='107' cy='91' r='9'/><circle cx='125' cy='91' r='9'/><circle cx='35' cy='109' r='9'/><circle cx='53' cy='109' r='9'/><circle cx='71' cy='109' r='9'/><circle cx='89' cy='109' r='9'/><circle cx='107' cy='109' r='9'/><circle cx='125' cy='109' r='9'/><circle cx='35' cy='127' r='9'/><circle cx='53' cy='127' r='9'/><circle cx='71' cy='127' r='9'/><circle cx='89' cy='127' r='9'/><circle cx='107' cy='127' r='9'/><circle cx='125' cy='127' r='9'/><circle cx='35' cy='145' r='9'/><circle cx='53' cy='145' r='9'/><circle cx='71' cy='145' r='9'/><circle cx='89' cy='145' r='9'/><circle cx='107' cy='145' r='9'/><circle cx='125' cy='145' r='9'/><circle cx='192' cy='151' r='9'/><circle cx='210' cy='151' r='9'/><circle cx='228' cy='150' r='9'/><circle cx='247' cy='151' r='9'/><circle cx='265' cy='151' r='9'/><circle cx='284' cy='151' r='9'/><circle cx='200' cy='134' r='9'/><circle cx='219' cy='133' r='9'/><circle cx='238' cy='135' r='9'/><circle cx='256' cy='133' r='9'/><circle cx='275' cy='134' r='9'/><circle cx='190' cy='117' r='9'/><circle cx='209' cy='116' r='9'/><circle cx='229' cy='118' r='9'/><circle cx='266' cy='116' r='9'/><circle cx='285' cy='118' r='9'/><circle cx='218' cy='100' r='9'/><circle cx='247' cy='101' r='9'/><circle cx='198' cy='99' r='9'/><circle cx='352' cy='62' r='9'/><circle cx='410' cy='55' r='9'/><circle cx='446' cy='92' r='9'/><circle cx='375' cy='120' r='9'/><circle cx='430' cy='140' r='9'/><circle cx='395' cy='88' r='9'/></g><g stroke='currentColor' stroke-width='1.5'><line x1='362' y1='60' x2='378' y2='52'/><line x1='420' y1='55' x2='436' y2='60'/><line x1='446' y1='81' x2='441' y2='68'/><line x1='384' y1='125' x2='398' y2='133'/><line x1='430' y1='129' x2='440' y2='118'/><line x1='395' y1='77' x2='390' y2='64'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='80' y='28'>Solid</text><text x='240' y='28'>Liquid</text><text x='400' y='28'>Gas</text><text x='80' y='180'>closely packed,</text><text x='80' y='195'>regular pattern</text><text x='80' y='215'>high density</text><text x='240' y='180'>close together,</text><text x='240' y='195'>random arrangement</text><text x='240' y='215'>high density</text><text x='400' y='180'>far apart,</text><text x='400' y='195'>random motion</text><text x='400' y='215'>very low density</text></g></svg>"
+      },
+      {
+        "title": "Measuring the volume of an irregular object with a eureka can",
+        "caption": "The eureka can is filled to the spout first. The water that overflows when the object is lowered in is collected in a measuring cylinder; its volume equals the object's volume.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><rect x='70' y='110' width='120' height='120' fill='#93c5fd' fill-opacity='0.5' stroke='none'/><path d='M70 70 V230 H190 V70' fill='none' stroke='currentColor' stroke-width='2'/><path d='M190 104 L262 128 M190 114 L258 136' stroke='currentColor' stroke-width='2' fill='none'/><line x1='130' y1='40' x2='130' y2='165' stroke='currentColor'/><path d='M112 165 L140 158 L152 178 L138 200 L114 196 L104 180 Z' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'/><path d='M262 138 Q263 150 265 175' stroke='currentColor' stroke-dasharray='3 3' fill='none'/><rect x='250' y='200' width='40' height='30' fill='#93c5fd' fill-opacity='0.5' stroke='none'/><path d='M250 150 V230 H290 V150' fill='none' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><line x1='290' y1='165' x2='282' y2='165'/><line x1='290' y1='185' x2='282' y2='185'/><line x1='290' y1='205' x2='282' y2='205'/><line x1='290' y1='225' x2='282' y2='225'/></g><g stroke='currentColor' stroke-width='0.8'><line x1='40' y1='130' x2='72' y2='130'/><line x1='175' y1='60' x2='132' y2='60'/><line x1='60' y1='185' x2='104' y2='182'/><line x1='230' y1='90' x2='215' y2='112'/><line x1='330' y1='212' x2='290' y2='212'/><line x1='330' y1='152' x2='290' y2='168'/></g><g font-size='12' fill='currentColor'><text x='70' y='60' text-anchor='end'>eureka can</text><text x='180' y='56'>string</text><text x='4' y='126'>water</text><text x='4' y='190'>irregular</text><text x='4' y='204'>object</text><text x='212' y='84'>spout</text><text x='334' y='146'>measuring</text><text x='334' y='160'>cylinder</text><text x='334' y='212'>displaced</text><text x='334' y='226'>water</text><text x='240' y='252' text-anchor='middle'>Volume of displaced water = volume of the object</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a bigger object of the same material has a greater density.",
+        "right": "In fact density depends only on the material. Doubling the volume also doubles the mass, so mass ÷ volume stays the same."
+      },
+      {
+        "wrong": "Students often think heavy objects are always dense.",
+        "right": "In fact a large object can be heavy but have a low density (for example a large wooden log). Density compares mass with volume, not mass alone."
+      },
+      {
+        "wrong": "Students often think gases have no mass, so their density is zero.",
+        "right": "In fact gases have mass but a very low density because their particles are spread far apart. Air has a density of about 1.2 kg/m³."
+      },
+      {
+        "wrong": "Students often think to convert g/cm³ to kg/m³ you divide by 1000.",
+        "right": "In fact you multiply by 1000: 1 g/cm³ = 1000 kg/m³. A check: water is 1 g/cm³ or 1000 kg/m³."
+      }
+    ],
+    "realWorld": [
+      "Ship and boat designers choose materials and hull shapes so the boat's overall density is less than that of water, so it floats.",
+      "Jewellers and scientists can test whether a gold item is pure by measuring its density by displacement and comparing it with the known value for gold.",
+      "Engineers choose low density materials such as aluminium alloys and carbon fibre for aircraft and racing bikes to keep them light but strong."
+    ],
+    "practicals": [
+      "phys-rp5"
+    ],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write ρ = m ÷ V before substituting, and check your units: kg with m³ gives kg/m³, g with cm³ gives g/cm³.",
+      "If the question asks for kg/m³ but you have g/cm³, multiply by 1000. Sense-check: most solids are 1000 to 20 000 kg/m³.",
+      "For the required practical, name the equipment precisely: top pan balance, ruler or vernier callipers, eureka can, measuring cylinder.",
+      "When describing displacement, say the eureka can is filled until water drips from the spout and you wait until it stops before adding the object.",
+      "For particle explanations of density, compare spacing: 'particles in a gas are far apart, so there is less mass per unit volume'."
+    ],
+    "summary": [
+      "Density = mass ÷ volume (ρ = m ÷ V), unit kg/m³.",
+      "1 g/cm³ = 1000 kg/m³.",
+      "Solids and liquids are dense because particles are closely packed; gases are far less dense.",
+      "Regular solid: measure dimensions with a ruler, V = l × w × h.",
+      "Irregular solid: find volume by displacement using a eureka can or measuring cylinder.",
+      "Liquid: find mass of a known volume using a balance and a measuring cylinder."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Equation linking density, mass and volume",
+      "back": "density = mass ÷ volume (ρ = m ÷ V)"
+    },
+    {
+      "front": "SI unit of density",
+      "back": "kilograms per metre cubed, kg/m³"
+    },
+    {
+      "front": "Convert 1 g/cm³ to kg/m³",
+      "back": "1000 kg/m³ (multiply by 1000)"
+    },
+    {
+      "front": "How many cm³ in 1 m³?",
+      "back": "1 000 000 cm³ (10⁶)"
+    },
+    {
+      "front": "Why do gases have low density?",
+      "back": "Particles are far apart, so there is little mass in each unit of volume."
+    },
+    {
+      "front": "Particle arrangement in a solid",
+      "back": "Closely packed in a regular pattern, vibrating about fixed positions."
+    },
+    {
+      "front": "Particle arrangement in a liquid",
+      "back": "Close together (touching) but randomly arranged and able to move past each other."
+    },
+    {
+      "front": "How do you find the volume of a regular cuboid?",
+      "back": "Measure length, width and height with a ruler; V = l × w × h."
+    },
+    {
+      "front": "How do you find the volume of an irregular object?",
+      "back": "Displacement: measure the volume of water it pushes out of a eureka can (or the rise in a measuring cylinder)."
+    },
+    {
+      "front": "How do you find the mass of a liquid in a measuring cylinder?",
+      "back": "Mass of cylinder with liquid minus mass of empty cylinder (or tare the balance first)."
+    },
+    {
+      "front": "Where do you read a measuring cylinder?",
+      "back": "At eye level, from the bottom of the meniscus."
+    },
+    {
+      "front": "Does cutting a block in half change its density?",
+      "back": "No: mass and volume both halve, so density stays the same."
+    },
+    {
+      "front": "Rearrange ρ = m ÷ V for mass",
+      "back": "m = ρ × V"
+    },
+    {
+      "front": "Rearrange ρ = m ÷ V for volume",
+      "back": "V = m ÷ ρ"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-density-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the SI unit of density?",
+      "options": [
+        "kg/m³",
+        "kg m³",
+        "m³/kg",
+        "N/m³"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: kg/m³"
+      ],
+      "explanation": "Density is mass ÷ volume, so its unit is the mass unit divided by the volume unit: kg/m³. m³/kg is the inverse, and N/m³ uses force (weight) instead of mass."
+    },
+    {
+      "id": "p3-density-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which state does a substance usually have the lowest density?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "It has the same density in every state"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Gas"
+      ],
+      "explanation": "Gas particles are far apart, so there is much less mass in each cubic metre than in a solid or liquid. The mass of the particles does not change between states, but their spacing does."
+    },
+    {
+      "id": "p3-density-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation correctly links density ρ, mass m and volume V?",
+      "options": [
+        "ρ = V ÷ m",
+        "ρ = m × V",
+        "m = ρ ÷ V",
+        "ρ = m ÷ V"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: ρ = m ÷ V"
+      ],
+      "explanation": "Density is mass per unit volume, ρ = m ÷ V. Rearranged, m = ρ × V, not ρ ÷ V."
+    },
+    {
+      "id": "p3-density-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student needs to find the volume of an irregularly shaped stone. Which apparatus should they use?",
+      "options": [
+        "A ruler and a top pan balance",
+        "A eureka can and a measuring cylinder",
+        "A thermometer and a beaker",
+        "A metre rule and a stopwatch"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A eureka can and a measuring cylinder"
+      ],
+      "explanation": "An irregular object has no simple formula for its volume, so it is found by displacement: a eureka can catches the water pushed out, which is measured in a measuring cylinder. A ruler only works for regular shapes and a balance measures mass, not volume."
+    },
+    {
+      "id": "p3-density-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A density of 1 g/cm³ is equal to:",
+      "options": [
+        "0.001 kg/m³",
+        "1 kg/m³",
+        "1000 kg/m³",
+        "1 000 000 kg/m³"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 1000 kg/m³"
+      ],
+      "explanation": "1 g = 0.001 kg and 1 cm³ = 0.000 001 m³, so 1 g/cm³ = 0.001 ÷ 0.000 001 = 1000 kg/m³. Water (1 g/cm³) has a density of 1000 kg/m³."
+    },
+    {
+      "id": "p3-density-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A block of copper is cut into two equal halves. What happens to the density of each half?",
+      "options": [
+        "It halves",
+        "It doubles",
+        "It stays the same",
+        "It depends on the shape of the cut"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It stays the same"
+      ],
+      "explanation": "Each half has half the mass and half the volume, so mass ÷ volume is unchanged. Density is a property of the material, not the size of the sample."
+    },
+    {
+      "id": "p3-density-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement best explains why steam has a much lower density than liquid water?",
+      "options": [
+        "Steam particles have a smaller mass than water particles",
+        "Steam particles are much further apart than water particles",
+        "Steam particles are smaller than water particles",
+        "Steam particles vibrate about fixed positions"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Steam particles are much further apart than water particles"
+      ],
+      "explanation": "The particles are the same water molecules in both states, with the same mass and size. In steam they are far apart, so the same mass takes up a much larger volume and the density is lower."
+    },
+    {
+      "id": "p3-density-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How should a student read the volume of water in a measuring cylinder?",
+      "options": [
+        "From the top of the meniscus, looking from above",
+        "From the bottom of the meniscus, with the eye level with the surface",
+        "From the edge where the water touches the glass",
+        "From the bottom of the meniscus, looking up from below"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: From the bottom of the meniscus, with the eye level with the surface"
+      ],
+      "explanation": "Reading at eye level from the bottom of the meniscus avoids parallax error. Looking from above or below makes the reading appear too high or too low."
+    },
+    {
+      "id": "p3-density-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Object P has a mass of 2.0 kg and a volume of 0.0010 m³. Object Q has a mass of 6.0 kg and a volume of 0.0040 m³. Which statement is correct?",
+      "options": [
+        "Q is denser because it has the greater mass",
+        "P and Q have the same density",
+        "Q is denser because it has the greater volume",
+        "P is denser than Q"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: P is denser than Q"
+      ],
+      "explanation": "ρ(P) = 2.0 ÷ 0.0010 = 2000 kg/m³ and ρ(Q) = 6.0 ÷ 0.0040 = 1500 kg/m³. P is denser even though Q has more mass, because density compares mass with volume."
+    },
+    {
+      "id": "p3-density-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "When finding the density of a stone with a eureka can, some displaced water stays on the inside of the spout instead of reaching the measuring cylinder. What effect does this have on the calculated density?",
+      "options": [
+        "It is too high, because the measured volume is too small",
+        "It is too low, because the measured volume is too small",
+        "It is too high, because the measured mass is too large",
+        "There is no effect, because the mass is measured separately"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It is too high, because the measured volume is too small"
+      ],
+      "explanation": "Less water reaches the cylinder, so the recorded volume is smaller than the real volume. Dividing the correct mass by a smaller volume gives a density that is too high."
+    },
+    {
+      "id": "p3-density-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A metal block has a mass of 12 kg and a volume of 0.0015 m³. Calculate its density.",
+      "numericAnswer": 8000,
+      "tolerance": 0.02,
+      "unit": "kg/m³",
+      "markScheme": [
+        "1 mark: ρ = 12 ÷ 0.0015",
+        "1 mark: 8000 kg/m³"
+      ],
+      "explanation": "ρ = m ÷ V = 12 ÷ 0.0015 = 8000 kg/m³."
+    },
+    {
+      "id": "p3-density-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Convert a density of 1.3 g/cm³ into kg/m³.",
+      "numericAnswer": 1300,
+      "tolerance": 0.02,
+      "unit": "kg/m³",
+      "markScheme": [
+        "1 mark: 1300 kg/m³"
+      ],
+      "explanation": "To go from g/cm³ to kg/m³ multiply by 1000: 1.3 × 1000 = 1300 kg/m³."
+    },
+    {
+      "id": "p3-density-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Concrete has a density of 2400 kg/m³. Calculate the mass of 0.25 m³ of concrete.",
+      "numericAnswer": 600,
+      "tolerance": 0.02,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: m = ρ × V = 2400 × 0.25",
+        "1 mark: 600 kg"
+      ],
+      "explanation": "Rearrange ρ = m ÷ V to m = ρ × V = 2400 × 0.25 = 600 kg."
+    },
+    {
+      "id": "p3-density-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A cube of metal has sides of 2.0 cm and a mass of 71.6 g. Calculate its density in kg/m³.",
+      "numericAnswer": 8950,
+      "tolerance": 0.02,
+      "unit": "kg/m³",
+      "markScheme": [
+        "1 mark: volume = 2.0 × 2.0 × 2.0 = 8.0 cm³",
+        "1 mark: ρ = 71.6 ÷ 8.0 = 8.95 g/cm³",
+        "1 mark: 8950 kg/m³"
+      ],
+      "explanation": "Volume = 2.0³ = 8.0 cm³. ρ = 71.6 ÷ 8.0 = 8.95 g/cm³. Multiply by 1000 to give 8950 kg/m³. A common error is using 2.0 × 3 = 6 cm³ instead of cubing."
+    },
+    {
+      "id": "p3-density-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student lowers a piece of rock of mass 94.5 g into a full eureka can. 35.0 cm³ of water is collected in a measuring cylinder. Calculate the density of the rock in g/cm³. (Required practical)",
+      "numericAnswer": 2.7,
+      "tolerance": 0.02,
+      "unit": "g/cm³",
+      "markScheme": [
+        "1 mark: ρ = 94.5 ÷ 35.0",
+        "1 mark: 2.7 g/cm³"
+      ],
+      "explanation": "The volume of water displaced equals the volume of the rock, 35.0 cm³. ρ = 94.5 ÷ 35.0 = 2.7 g/cm³."
+    },
+    {
+      "id": "p3-density-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Cork has a density of 240 kg/m³. Calculate the volume of 3.0 kg of cork.",
+      "numericAnswer": 0.0125,
+      "tolerance": 0.02,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: V = m ÷ ρ",
+        "1 mark: V = 3.0 ÷ 240",
+        "1 mark: 0.0125 m³"
+      ],
+      "explanation": "Rearranging ρ = m ÷ V gives V = m ÷ ρ = 3.0 ÷ 240 = 0.0125 m³. Multiplying instead (720) gives an impossible volume for 3 kg of a very light material."
+    },
+    {
+      "id": "p3-density-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "An empty measuring cylinder has a mass of 85.0 g. A student pours in 40.0 cm³ of a liquid and the mass becomes 117.6 g. Calculate the density of the liquid in kg/m³. (Required practical)",
+      "numericAnswer": 815,
+      "tolerance": 0.02,
+      "unit": "kg/m³",
+      "markScheme": [
+        "1 mark: mass of liquid = 117.6 − 85.0 = 32.6 g",
+        "1 mark: ρ = 32.6 ÷ 40.0 = 0.815 g/cm³",
+        "1 mark: 815 kg/m³"
+      ],
+      "explanation": "Subtract to get the mass of liquid alone: 32.6 g. ρ = 32.6 ÷ 40.0 = 0.815 g/cm³ = 815 kg/m³. Using 117.6 g would wrongly include the mass of the cylinder."
+    },
+    {
+      "id": "p3-density-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A piece of metal has a mass of 0.675 kg and a volume of 250 cm³. Calculate its density in kg/m³.",
+      "numericAnswer": 2700,
+      "tolerance": 0.02,
+      "unit": "kg/m³",
+      "markScheme": [
+        "1 mark: 250 cm³ = 250 ÷ 1 000 000 = 2.5 × 10⁻⁴ m³",
+        "1 mark: ρ = 0.675 ÷ 2.5 × 10⁻⁴",
+        "1 mark: 2700 kg/m³"
+      ],
+      "explanation": "Convert the volume to m³ first: 250 cm³ = 2.5 × 10⁻⁴ m³ (divide by 10⁶). Then ρ = 0.675 ÷ 0.00025 = 2700 kg/m³. Dividing 0.675 by 250 gives a unit mismatch (kg/cm³)."
+    },
+    {
+      "id": "p3-density-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links density, mass and volume.",
+      "acceptedAnswers": [
+        "density = mass ÷ volume",
+        "ρ = m ÷ V",
+        "density = mass / volume"
+      ],
+      "markScheme": [
+        "1 mark: density = mass ÷ volume"
+      ],
+      "explanation": "This equation must be recalled; it is not on the equation sheet."
+    },
+    {
+      "id": "p3-density-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how a student could find the volume of a rectangular wooden block.",
+      "acceptedAnswers": [
+        "measure length, width and height",
+        "ruler",
+        "multiply",
+        "volume = length × width × height"
+      ],
+      "markScheme": [
+        "1 mark: measure the length, width and height with a ruler",
+        "1 mark: multiply them together: volume = length × width × height"
+      ],
+      "explanation": "A regular solid has a volume that can be calculated from its dimensions, measured with a ruler (or vernier callipers for higher resolution)."
+    },
+    {
+      "id": "p3-density-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain, in terms of particles, why a solid usually has a higher density than the same substance as a gas.",
+      "acceptedAnswers": [
+        "particles closely packed in a solid",
+        "particles far apart in a gas",
+        "more mass per unit volume",
+        "more particles per unit volume"
+      ],
+      "markScheme": [
+        "1 mark: particles in a solid are closely packed / touching; in a gas they are far apart",
+        "1 mark: so a solid has more mass in the same volume (more particles per unit volume)"
+      ],
+      "explanation": "The particles themselves do not change mass between states. Close packing means more particles, and so more mass, fits into each cubic metre."
+    },
+    {
+      "id": "p3-density-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the mass of an empty measuring cylinder, then adds 50 cm³ of salt water and measures the mass again. Explain why the student must subtract the two readings.",
+      "acceptedAnswers": [
+        "mass of liquid only",
+        "remove mass of cylinder",
+        "difference gives mass of liquid",
+        "density of liquid not cylinder"
+      ],
+      "markScheme": [
+        "1 mark: the second reading includes the mass of the cylinder",
+        "1 mark: subtracting gives the mass of the liquid only, which is needed to calculate its density"
+      ],
+      "explanation": "Density of the liquid is mass of liquid ÷ volume of liquid. Including the cylinder's mass would give a density that is far too high. Taring the balance with the empty cylinder on it does the same job."
+    },
+    {
+      "id": "p3-density-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A eureka can is used to find the volume of a stone. State two things the student should do to make the measurement accurate.",
+      "acceptedAnswers": [
+        "fill until water drips from spout",
+        "wait for dripping to stop",
+        "lower the stone gently",
+        "read bottom of meniscus at eye level",
+        "use a string",
+        "make sure the stone is fully submerged"
+      ],
+      "markScheme": [
+        "1 mark each, any two: fill the can until water runs out of the spout and wait for it to stop dripping before adding the stone; lower the stone gently on a thread so no water splashes out; make sure the stone is fully submerged; read the measuring cylinder at eye level from the bottom of the meniscus"
+      ],
+      "explanation": "Each of these makes sure all the displaced water, and only the displaced water, is measured."
+    },
+    {
+      "id": "p3-density-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student uses a 250 cm³ measuring cylinder with 2 cm³ graduations to measure the volume of a small pebble of about 4 cm³. Suggest why this gives an uncertain value and how to improve it.",
+      "acceptedAnswers": [
+        "resolution too low",
+        "large uncertainty compared with volume",
+        "use a smaller measuring cylinder",
+        "finer graduations",
+        "10 cm³ measuring cylinder"
+      ],
+      "markScheme": [
+        "1 mark: the resolution (2 cm³) is large compared with the 4 cm³ being measured, so the percentage uncertainty is large",
+        "1 mark: use a smaller measuring cylinder with finer graduations (for example a 10 cm³ cylinder marked in 0.2 cm³)"
+      ],
+      "explanation": "An uncertainty of about 1 or 2 cm³ in a 4 cm³ reading is a very large fraction of the result. A narrower cylinder with finer scale divisions has a higher resolution."
+    },
+    {
+      "id": "p3-density-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "When 1 kg of water boils, it turns into about 1.7 m³ of steam at atmospheric pressure. 1 kg of liquid water occupies 0.001 m³. Use the particle model to explain the difference in density between water and steam, and calculate how many times denser the liquid is.",
+      "acceptedAnswers": [
+        "mass stays the same",
+        "particles far apart in steam",
+        "volume much larger",
+        "1700 times",
+        "density = 1000 kg/m³ and about 0.59 kg/m³"
+      ],
+      "markScheme": [
+        "1 mark: the mass (number of particles) is unchanged when water turns to steam",
+        "1 mark: in steam the particles are much further apart so the same mass takes up a much larger volume, giving a lower density",
+        "1 mark: ratio = 1.7 ÷ 0.001 = 1700 times denser"
+      ],
+      "explanation": "Same mass, much bigger volume. ρ(water) = 1 ÷ 0.001 = 1000 kg/m³ and ρ(steam) = 1 ÷ 1.7 ≈ 0.59 kg/m³, so the ratio is 1700."
+    },
+    {
+      "id": "p3-density-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Two students find the density of the same irregular stone. One uses a eureka can and one measures the rise in water level in a measuring cylinder. Suggest why repeating the measurement and calculating a mean improves the result.",
+      "acceptedAnswers": [
+        "reduces effect of random errors",
+        "identify anomalous results",
+        "mean closer to true value",
+        "more precise"
+      ],
+      "markScheme": [
+        "1 mark: reduces the effect of random errors (such as reading the meniscus or water left in the spout)",
+        "1 mark: allows anomalous results to be identified and ignored, so the mean is closer to the true value"
+      ],
+      "explanation": "Repeats do not remove systematic errors but they do reduce the effect of random variation between readings."
+    },
+    {
+      "id": "p3-density-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to determine the density of an irregularly shaped object, such as a small stone. Include the equipment you would use and how you would calculate the density. (Required practical)",
+      "markScheme": [
+        "Indicative content: measure the mass of the stone using a top pan balance; fill a eureka can with water until it overflows from the spout; wait until it stops dripping; place an empty measuring cylinder under the spout; tie a thread to the stone and lower it gently into the can until fully submerged; collect the displaced water in the measuring cylinder; read the volume at eye level from the bottom of the meniscus; volume of water = volume of stone; density = mass ÷ volume; repeat and calculate a mean; convert g/cm³ to kg/m³ by multiplying by 1000. Alternative: partly fill a measuring cylinder, record the volume, add the stone, record the new volume and subtract.",
+        "Level 3 (5 to 6 marks): a clear, logically ordered method that would produce valid results, including mass measurement, displacement method, collection and reading of volume, and the density calculation.",
+        "Level 2 (3 to 4 marks): the main steps of measuring mass and volume by displacement are described, but some detail or logical order is missing.",
+        "Level 1 (1 to 2 marks): simple statements, for example 'weigh it' or 'put it in water', with no coherent method.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "The key idea is that a fully submerged object displaces its own volume of water. Precise wording such as 'fill to the spout and wait for dripping to stop' and 'read the bottom of the meniscus at eye level' earns credit at the top level."
+    },
+    {
+      "id": "p3-density-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a student could find the density of a liquid such as cooking oil using a top pan balance and a measuring cylinder. (Required practical)",
+      "markScheme": [
+        "Indicative content: place the empty measuring cylinder on the balance and record its mass (or zero/tare the balance); pour in a measured volume of oil, for example 50 cm³, reading the bottom of the meniscus at eye level; record the new mass; mass of oil = second reading − first reading; density = mass ÷ volume; repeat with different volumes or repeat readings and find a mean.",
+        "Level 2 (3 to 4 marks): a clear method covering mass of empty cylinder, known volume of liquid, subtraction to find mass of liquid and the density calculation.",
+        "Level 1 (1 to 2 marks): some relevant steps, for example measuring mass and volume, but the method is incomplete or not logical.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "The essential step is finding the mass of the liquid alone, by subtraction or by taring the balance."
+    },
+    {
+      "id": "p3-density-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student has a solid metal cube, a lump of the same metal with an irregular shape, and a beaker of water. Compare the methods for finding the volume of the cube and of the lump, and explain why the two objects should have the same density.",
+      "markScheme": [
+        "Indicative content: cube: measure the side length with a ruler or vernier callipers and calculate volume = side³; lump: use displacement in a eureka can or a measuring cylinder; the cube's method relies on a regular shape, the lump's on the volume of water displaced equalling its volume; the ruler method can have smaller uncertainty if vernier callipers are used; both objects are the same material, so the arrangement and mass of the particles are the same; density depends on the material not on shape or size, so mass ÷ volume should be equal; any difference is due to measurement error.",
+        "Level 2 (3 to 4 marks): both methods described correctly with a clear comparison, and a correct explanation that density depends on material only.",
+        "Level 1 (1 to 2 marks): one method described, or a statement that density is the same with no explanation.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "Density is a property of the material. Shape decides only which method you use to measure volume."
+    }
+  ]
+}
