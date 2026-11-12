@@ -1,0 +1,682 @@
+{
+  "id": "p4-radioactive-decay",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "radioactive-decay",
+  "specRef": "4.4.2.1",
+  "title": "Radioactive decay and nuclear radiation",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Some atomic nuclei are unstable. They give out radiation (alpha, beta, gamma or neutrons) as they change to become more stable. This is a random process called radioactive decay.",
+    "explanation": [
+      "Some atomic nuclei are unstable. An unstable nucleus gives out radiation as it changes to become more stable. This is called radioactive decay. It is a random process: it is impossible to predict when a particular nucleus will decay, and decay is not affected by temperature, pressure or chemical reactions.",
+      "The activity of a source is the rate at which its unstable nuclei decay. Activity is measured in becquerels (Bq), where 1 Bq is 1 decay per second. A detector such as a Geiger-Muller tube connected to a counter records the count rate: the number of decays it detects each second (or per minute). The count rate is usually less than the activity, because radiation goes in all directions and not all of it enters the detector.",
+      "There are four types of nuclear radiation. An alpha particle (α) is two protons and two neutrons, the same as a helium nucleus. A beta particle (β) is a high-speed electron ejected from the nucleus when a neutron turns into a proton. A gamma ray (γ) is electromagnetic radiation emitted from the nucleus. Some nuclei can also emit a neutron (n).",
+      "The radiations have different properties. Alpha is the most ionising, because it is large and has a charge of +2, but it has a range of only a few centimetres in air and is stopped by a sheet of paper or the outer layer of skin. Beta is moderately ionising, travels around a metre in air, and is stopped by a few millimetres of aluminium. Gamma is the least ionising, travels a long way in air, and is only reduced (not completely stopped) by several centimetres of lead or a thick layer of concrete.",
+      "Penetration and ionising power are linked: the more strongly a radiation ionises, the faster it loses energy, so the shorter its range. These properties decide which source is best for a job. Smoke alarms use alpha sources, because alpha ionises air strongly but cannot escape the alarm. Paper thickness gauges use beta, because beta is partly absorbed by paper, so the count rate changes with thickness. Gamma is used where radiation must pass through the body or thick materials, such as medical tracers or sterilising equipment."
+    ],
+    "keyFacts": [
+      "Radioactive decay is random: you cannot predict when a nucleus will decay.",
+      "Activity is the rate at which a source of unstable nuclei decays, measured in becquerels (Bq).",
+      "1 Bq = 1 decay per second.",
+      "Count rate is the number of decays recorded each second by a detector, e.g. a Geiger-Muller tube.",
+      "Alpha particle: 2 protons + 2 neutrons (a helium nucleus).",
+      "Beta particle: a high-speed electron ejected from the nucleus as a neutron turns into a proton.",
+      "Gamma ray: electromagnetic radiation from the nucleus.",
+      "Alpha: stopped by paper or skin, a few cm in air, most ionising.",
+      "Beta: stopped by a few mm of aluminium, about 1 m in air, moderately ionising.",
+      "Gamma: reduced by several cm of lead or thick concrete, long range, least ionising.",
+      "An unstable nucleus can also emit a neutron."
+    ],
+    "keyTerms": [
+      {
+        "term": "Radioactive decay",
+        "definition": "The random process in which an unstable nucleus gives out radiation to become more stable."
+      },
+      {
+        "term": "Activity",
+        "definition": "The rate at which a source of unstable nuclei decays, measured in becquerels (Bq)."
+      },
+      {
+        "term": "Becquerel (Bq)",
+        "definition": "The unit of activity: one decay per second."
+      },
+      {
+        "term": "Count rate",
+        "definition": "The number of decays recorded each second by a detector such as a Geiger-Muller tube."
+      },
+      {
+        "term": "Ionising power",
+        "definition": "How easily a radiation knocks electrons off atoms, turning them into ions."
+      },
+      {
+        "term": "Penetrating power",
+        "definition": "How far a radiation can travel through materials before it is absorbed."
+      },
+      {
+        "term": "Alpha particle",
+        "definition": "Two protons and two neutrons emitted from a nucleus; identical to a helium nucleus."
+      },
+      {
+        "term": "Beta particle",
+        "definition": "A high-speed electron emitted from the nucleus when a neutron turns into a proton."
+      },
+      {
+        "term": "Gamma ray",
+        "definition": "Electromagnetic radiation of high frequency emitted from a nucleus."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Finding a count rate",
+        "question": "A Geiger-Muller tube records 1800 counts in 2 minutes. Calculate the count rate in counts per second.",
+        "steps": [
+          "Convert time to seconds: 2 minutes = 120 s.",
+          "Count rate = number of counts ÷ time.",
+          "= 1800 ÷ 120 = 15."
+        ],
+        "answer": "15 counts per second"
+      },
+      {
+        "title": "Using activity",
+        "question": "A source has an activity of 2.5 kBq. How many nuclei decay in 1 minute?",
+        "steps": [
+          "2.5 kBq = 2500 Bq = 2500 decays per second.",
+          "1 minute = 60 s.",
+          "Decays = 2500 × 60 = 150 000."
+        ],
+        "answer": "150 000 (1.5 × 10⁵) decays"
+      },
+      {
+        "title": "Identifying radiation from absorption data",
+        "question": "Count rate from a source: no absorber 400 counts/min; paper 398; 3 mm aluminium 120; 3 cm lead 30 (background 30). Which radiations are emitted?",
+        "steps": [
+          "Paper causes almost no drop, so there is no alpha.",
+          "Aluminium causes a big drop, so beta is present.",
+          "Count rate behind aluminium (120) is above background, so something gets through aluminium: gamma.",
+          "Lead reduces it to background, which is consistent with gamma being absorbed."
+        ],
+        "answer": "Beta and gamma"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Penetrating power of alpha, beta and gamma",
+        "caption": "Alpha is stopped by paper, beta by a few millimetres of aluminium, and gamma is only reduced by several centimetres of lead.",
+        "svg": "<svg viewBox='0 0 460 230' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='60' width='50' height='110' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><rect x='150' y='30' width='6' height='170' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='250' y='30' width='14' height='170' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='350' y='30' width='40' height='170' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='2'><line x1='60' y1='80' x2='148' y2='80'/><line x1='60' y1='115' x2='248' y2='115'/><line x1='60' y1='150' x2='348' y2='150'/><line x1='390' y1='150' x2='440' y2='150' stroke-dasharray='4 3'/></g><g fill='currentColor'><polygon points='148,80 138,75 138,85'/><polygon points='248,115 238,110 238,120'/><polygon points='348,150 338,145 338,155'/><polygon points='450,150 440,145 440,155'/></g><g font-size='12' fill='currentColor'><text x='12' y='52'>source</text><text x='70' y='74'>alpha (α)</text><text x='70' y='109'>beta (β)</text><text x='70' y='144'>gamma (γ)</text><text x='132' y='22'>paper</text><text x='220' y='22'>aluminium</text><text x='240' y='214'>(a few mm)</text><text x='340' y='22'>lead</text><text x='330' y='214'>(several cm)</text><text x='392' y='140'>reduced</text></g></svg>"
+      },
+      {
+        "title": "Beta thickness gauge",
+        "caption": "A beta source below a moving paper sheet and a detector above. If the count rate falls, the paper is too thick and the rollers are adjusted.",
+        "svg": "<svg viewBox='0 0 440 230' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='100' width='360' height='14' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><circle cx='70' cy='107' r='10' fill='none' stroke='currentColor'/><circle cx='370' cy='107' r='10' fill='none' stroke='currentColor'/><rect x='190' y='150' width='60' height='30' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='195' y='30' width='50' height='40' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='220' y1='148' x2='220' y2='72' stroke-dasharray='4 3'/><line x1='245' y1='50' x2='300' y2='50'/><line x1='300' y1='50' x2='300' y2='20'/></g><polygon points='220,72 215,82 225,82' fill='currentColor'/><polygon points='40,130 60,124 60,136' fill='currentColor'/><g stroke='currentColor'><line x1='60' y1='130' x2='110' y2='130'/></g><g font-size='12' fill='currentColor'><text x='180' y='196'>beta source</text><text x='255' y='54'>detector</text><text x='304' y='24'>to counter and</text><text x='304' y='38'>roller control</text><text x='230' y='120' text-anchor='middle'>paper sheet</text><text x='120' y='134'>direction of paper</text><text x='228' y='140'>beta</text><text x='20' y='222'>Thicker paper absorbs more beta, so the count rate falls.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think gamma is the most dangerous radiation in all situations because it is the most penetrating.",
+        "right": "In fact gamma is the least ionising. Inside the body, alpha is the most dangerous because it is the most ionising."
+      },
+      {
+        "wrong": "Students often think a beta particle is an electron from the shells around the nucleus.",
+        "right": "In fact a beta particle is a high-speed electron created and ejected from the nucleus when a neutron turns into a proton."
+      },
+      {
+        "wrong": "Students often think heating a radioactive source will speed up its decay.",
+        "right": "In fact radioactive decay is random and is not affected by temperature or chemical changes."
+      },
+      {
+        "wrong": "Students often think count rate and activity are the same thing.",
+        "right": "In fact activity is the total decays per second; count rate is only the decays a detector records, which is usually fewer."
+      }
+    ],
+    "realWorld": [
+      "Smoke alarms contain americium-241, an alpha source. Smoke absorbs the alpha particles, reducing the current and setting off the alarm.",
+      "Paper and aluminium foil factories use beta sources and detectors to control the thickness of the sheets.",
+      "Gamma radiation is used to sterilise surgical instruments and some foods, because it penetrates packaging and kills microorganisms."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "When choosing a source, give a reason based on penetration (can it get through?) and ionisation or safety (will it be absorbed where it should?).",
+      "Remember the pattern: the more ionising, the less penetrating.",
+      "Use 'stopped by' for alpha and beta, but say gamma is 'reduced' or 'absorbed by thick lead'.",
+      "Always convert minutes to seconds before calculating a count rate per second. 1 kBq = 1000 Bq."
+    ],
+    "summary": [
+      "Unstable nuclei decay randomly, giving out radiation to become more stable.",
+      "Activity is measured in becquerels; count rate is what a detector records.",
+      "Alpha: helium nucleus; beta: fast electron from the nucleus; gamma: EM wave; neutrons can also be emitted.",
+      "Alpha: most ionising, least penetrating; gamma: least ionising, most penetrating.",
+      "Choose sources for uses by matching their penetration and ionisation to the job."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is radioactive decay?",
+      "back": "The random process in which an unstable nucleus gives out radiation to become more stable."
+    },
+    {
+      "front": "What is activity and its unit?",
+      "back": "The rate at which a source decays; becquerels (Bq)."
+    },
+    {
+      "front": "What is 1 Bq?",
+      "back": "One decay per second."
+    },
+    {
+      "front": "What is count rate?",
+      "back": "The number of decays recorded each second by a detector."
+    },
+    {
+      "front": "What is an alpha particle?",
+      "back": "Two protons and two neutrons (a helium nucleus)."
+    },
+    {
+      "front": "What is a beta particle?",
+      "back": "A high-speed electron ejected from the nucleus as a neutron turns into a proton."
+    },
+    {
+      "front": "What is a gamma ray?",
+      "back": "Electromagnetic radiation emitted from the nucleus."
+    },
+    {
+      "front": "What stops alpha?",
+      "back": "A sheet of paper, skin or a few cm of air."
+    },
+    {
+      "front": "What stops beta?",
+      "back": "A few millimetres of aluminium."
+    },
+    {
+      "front": "What reduces gamma?",
+      "back": "Several centimetres of lead or thick concrete."
+    },
+    {
+      "front": "Most ionising radiation?",
+      "back": "Alpha."
+    },
+    {
+      "front": "Most penetrating radiation?",
+      "back": "Gamma."
+    },
+    {
+      "front": "Name a detector of radiation.",
+      "back": "A Geiger-Muller tube (with counter)."
+    },
+    {
+      "front": "Which source is used in smoke alarms?",
+      "back": "An alpha source."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-radioactive-decay-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of activity of a radioactive source?",
+      "options": [
+        "Sievert (Sv)",
+        "Becquerel (Bq)",
+        "Hertz (Hz)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Becquerel (Bq)"
+      ],
+      "explanation": "Activity is measured in becquerels: 1 Bq is one decay per second. The sievert measures radiation dose."
+    },
+    {
+      "id": "p4-radioactive-decay-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is an alpha particle made of?",
+      "options": [
+        "Two protons and two neutrons",
+        "One electron",
+        "Two electrons and two protons",
+        "A single neutron"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Two protons and two neutrons"
+      ],
+      "explanation": "An alpha particle is 2 protons and 2 neutrons, the same as a helium nucleus."
+    },
+    {
+      "id": "p4-radioactive-decay-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of radiation is an electromagnetic wave?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Neutron"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Gamma"
+      ],
+      "explanation": "Gamma rays are electromagnetic radiation. Alpha, beta and neutrons are particles."
+    },
+    {
+      "id": "p4-radioactive-decay-q04",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which radiation is stopped by a sheet of paper?",
+      "options": [
+        "Beta",
+        "Gamma",
+        "Alpha",
+        "All three"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Alpha"
+      ],
+      "explanation": "Alpha is the least penetrating and is stopped by paper. Beta needs a few mm of aluminium."
+    },
+    {
+      "id": "p4-radioactive-decay-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which radiation is the most strongly ionising?",
+      "options": [
+        "Gamma",
+        "Beta",
+        "Neutron",
+        "Alpha"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Alpha"
+      ],
+      "explanation": "Alpha particles are large and have a +2 charge, so they ionise atoms most strongly. This is also why they have the shortest range."
+    },
+    {
+      "id": "p4-radioactive-decay-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Where does a beta particle come from?",
+      "options": [
+        "The outer electron shell of the atom",
+        "The nucleus, when a neutron turns into a proton",
+        "The nucleus, when a proton turns into a neutron",
+        "The air around the source"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The nucleus, when a neutron turns into a proton"
+      ],
+      "explanation": "A beta particle is an electron made in the nucleus when a neutron changes into a proton. It is not an orbiting electron."
+    },
+    {
+      "id": "p4-radioactive-decay-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about radioactive decay is correct?",
+      "options": [
+        "Heating a source makes it decay faster",
+        "Each nucleus decays at a predictable time",
+        "Decay is random and cannot be predicted for a single nucleus",
+        "Only gamma emitters decay randomly"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Decay is random and cannot be predicted for a single nucleus"
+      ],
+      "explanation": "Decay is random and unaffected by physical conditions. We can only predict what a large number of nuclei will do on average."
+    },
+    {
+      "id": "p4-radioactive-decay-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A factory uses a radioactive source and a detector to monitor the thickness of paper. Which source is most suitable?",
+      "options": [
+        "A beta source",
+        "An alpha source",
+        "A gamma source",
+        "A neutron source"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A beta source"
+      ],
+      "explanation": "Beta is partly absorbed by paper, so small changes in thickness change the count rate. Alpha would be completely stopped and gamma would pass through almost unchanged."
+    },
+    {
+      "id": "p4-radioactive-decay-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A source's count rate drops a lot when a 3 mm aluminium sheet is added, but stays well above background. Adding paper first made no difference. What does the source emit?",
+      "options": [
+        "Alpha only",
+        "Beta and gamma",
+        "Alpha and beta",
+        "Gamma only"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Beta and gamma"
+      ],
+      "explanation": "Paper had no effect, so no alpha. Aluminium caused a large drop, so beta is present. Radiation still passing through aluminium must be gamma."
+    },
+    {
+      "id": "p4-radioactive-decay-q10",
+      "type": "numeric",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A source has an activity of 500 Bq. State how many nuclei decay each second.",
+      "numericAnswer": 500,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 500"
+      ],
+      "explanation": "1 Bq means 1 decay per second, so 500 Bq means 500 decays per second."
+    },
+    {
+      "id": "p4-radioactive-decay-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A Geiger-Muller tube records 2400 counts in 5 minutes.\nCalculate the count rate in counts per second.",
+      "numericAnswer": 8,
+      "tolerance": 0.01,
+      "unit": "counts/s",
+      "markScheme": [
+        "1 mark: 5 minutes = 300 s",
+        "1 mark: 2400 ÷ 300 = 8 counts/s"
+      ],
+      "explanation": "Convert minutes to seconds first: 5 × 60 = 300 s. Dividing by 5 gives counts per minute (480), not per second."
+    },
+    {
+      "id": "p4-radioactive-decay-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sample has an activity of 3.0 kBq.\nCalculate the number of nuclei that decay in 2 minutes.",
+      "numericAnswer": 360000,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 3.0 kBq = 3000 decays per second and 2 minutes = 120 s",
+        "1 mark: 3000 × 120 = 360 000 (3.6 × 10⁵)"
+      ],
+      "explanation": "Activity × time = number of decays. 3000 × 120 = 360 000."
+    },
+    {
+      "id": "p4-radioactive-decay-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A detector records 3600 counts in 3 minutes from a source. The background count rate is 0.5 counts per second.\nCalculate the count rate due to the source alone, in counts per second.",
+      "numericAnswer": 19.5,
+      "tolerance": 0.01,
+      "unit": "counts/s",
+      "markScheme": [
+        "1 mark: 3 minutes = 180 s",
+        "1 mark: total count rate = 3600 ÷ 180 = 20 counts/s",
+        "1 mark: 20 − 0.5 = 19.5 counts/s"
+      ],
+      "explanation": "Find the total count rate, then subtract the background so that only the source's radiation is left."
+    },
+    {
+      "id": "p4-radioactive-decay-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A detector records 900 counts in 30 seconds.\nCalculate the count rate in counts per minute.",
+      "numericAnswer": 1800,
+      "tolerance": 0.01,
+      "unit": "counts/min",
+      "markScheme": [
+        "1 mark: 30 s is half a minute (or 900 ÷ 30 = 30 counts/s)",
+        "1 mark: 900 × 2 = 1800 counts/min (or 30 × 60)"
+      ],
+      "explanation": "There are two 30-second intervals in a minute, so double the count: 1800 counts per minute."
+    },
+    {
+      "id": "p4-radioactive-decay-q15",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the activity of a radioactive source.",
+      "acceptedAnswers": [
+        "rate of decay",
+        "number of decays per second",
+        "rate at which nuclei decay"
+      ],
+      "markScheme": [
+        "1 mark: the rate at which unstable nuclei decay (number of decays per second)"
+      ],
+      "explanation": "Activity is a rate, so refer to decays per unit time."
+    },
+    {
+      "id": "p4-radioactive-decay-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name a device that can be used to measure count rate.",
+      "acceptedAnswers": [
+        "Geiger-Muller tube",
+        "GM tube",
+        "Geiger counter"
+      ],
+      "markScheme": [
+        "1 mark: Geiger-Muller tube (and counter)"
+      ],
+      "explanation": "A Geiger-Muller tube detects ionising radiation and a counter records the number of detections."
+    },
+    {
+      "id": "p4-radioactive-decay-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe what a beta particle is and how it is formed.",
+      "acceptedAnswers": [
+        "high-speed electron",
+        "from the nucleus",
+        "neutron turns into proton"
+      ],
+      "markScheme": [
+        "1 mark: a high-speed (fast-moving) electron",
+        "1 mark: ejected from the nucleus when a neutron changes into a proton"
+      ],
+      "explanation": "Both what it is and where it comes from are needed."
+    },
+    {
+      "id": "p4-radioactive-decay-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why an alpha source is used in a smoke alarm rather than a gamma source.",
+      "acceptedAnswers": [
+        "alpha strongly ionising",
+        "alpha short range",
+        "stopped by smoke",
+        "gamma would escape and passes through smoke"
+      ],
+      "markScheme": [
+        "1 mark: alpha is strongly ionising (so ionises the air to make a current) / is absorbed by smoke",
+        "1 mark: alpha has a short range so does not escape from the alarm; gamma would penetrate out of the alarm (and not be absorbed by smoke)"
+      ],
+      "explanation": "Alpha's strong ionisation and short range make it both effective and safe in this use."
+    },
+    {
+      "id": "p4-radioactive-decay-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the count rate measured by a detector is usually less than the activity of the source.",
+      "acceptedAnswers": [
+        "radiation emitted in all directions",
+        "not all enters detector",
+        "some absorbed by air"
+      ],
+      "markScheme": [
+        "1 mark: radiation is emitted in all directions",
+        "1 mark: so only some of it enters the detector (some is absorbed by air or the detector window)"
+      ],
+      "explanation": "The detector catches only a fraction of the emitted radiation."
+    },
+    {
+      "id": "p4-radioactive-decay-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why alpha particles have a much shorter range in air than gamma rays.",
+      "acceptedAnswers": [
+        "alpha more ionising",
+        "loses energy quickly",
+        "gamma weakly ionising",
+        "gamma no charge"
+      ],
+      "markScheme": [
+        "1 mark: alpha is strongly ionising / collides with and ionises many air particles",
+        "1 mark: so it loses its energy quickly; gamma ionises weakly so loses energy slowly"
+      ],
+      "explanation": "Each ionisation takes energy. Strongly ionising radiation gives up its energy over a short distance."
+    },
+    {
+      "id": "p4-radioactive-decay-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the materials needed to absorb beta radiation and gamma radiation.",
+      "acceptedAnswers": [
+        "few mm aluminium",
+        "several cm lead",
+        "thick concrete"
+      ],
+      "markScheme": [
+        "1 mark: beta: a few millimetres of aluminium",
+        "1 mark: gamma: several centimetres of lead / thick concrete"
+      ],
+      "explanation": "Gamma is never completely stopped, only greatly reduced."
+    },
+    {
+      "id": "p4-radioactive-decay-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A hospital needs to sterilise sealed packs of plastic syringes using radiation. Evaluate which type of radiation should be used.",
+      "acceptedAnswers": [
+        "gamma",
+        "penetrates packaging",
+        "alpha and beta would be absorbed by packaging",
+        "kills microorganisms"
+      ],
+      "markScheme": [
+        "1 mark: gamma",
+        "1 mark: gamma penetrates the packaging and the syringes",
+        "1 mark: alpha and beta would be absorbed by the packaging, so would not reach the microorganisms inside"
+      ],
+      "explanation": "The radiation must get through the sealed pack, so only gamma is suitable."
+    },
+    {
+      "id": "p4-radioactive-decay-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the count rate?",
+      "options": [
+        "The number of nuclei in a source",
+        "The number of decays recorded each second by a detector",
+        "The time taken for a source to decay",
+        "The energy carried by each decay"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The number of decays recorded each second by a detector"
+      ],
+      "explanation": "Count rate is the number of decays a detector records per second (or per minute)."
+    },
+    {
+      "id": "p4-radioactive-decay-q24",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is alpha radiation more ionising than beta radiation?",
+      "options": [
+        "Alpha particles travel faster",
+        "Alpha particles are electromagnetic waves",
+        "Alpha particles have a larger charge and mass",
+        "Alpha particles come from the nucleus but beta particles do not"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Alpha particles have a larger charge and mass"
+      ],
+      "explanation": "Alpha has charge +2 and is much more massive than a beta particle, so it interacts more strongly with atoms. Alpha is actually slower than beta, and both come from the nucleus."
+    },
+    {
+      "id": "p4-radioactive-decay-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare the properties of alpha, beta and gamma radiation. Include what each one is, its penetrating power and its ionising power.",
+      "markScheme": [
+        "Indicative content: alpha is 2 protons and 2 neutrons (helium nucleus), beta is a high-speed electron from the nucleus, gamma is EM radiation; alpha stopped by paper/few cm air, beta by a few mm aluminium, gamma reduced by thick lead/concrete; alpha most ionising, beta moderately, gamma least; more ionising means less penetrating.",
+        "Level 2 (3 to 4 marks): a clear comparison covering nature, penetration and ionisation for all three.",
+        "Level 1 (1 to 2 marks): some correct properties for one or two radiations, with little comparison.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Organise the answer by property or by radiation, and use comparative words (more, less, most)."
+    },
+    {
+      "id": "p4-radioactive-decay-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A company wants to check whether drinks cans are filled to the correct level as they pass along a conveyor belt. A radioactive source is placed on one side of the cans and a detector on the other, just below the correct fill line.\nEvaluate which type of radiation would be best, and explain how the system would detect an under-filled can. Refer to the properties of alpha, beta and gamma radiation.",
+      "markScheme": [
+        "Indicative content: alpha would be stopped by the can wall so nothing would be detected whether full or empty; beta would be absorbed by the aluminium wall and the drink, so little difference; gamma passes through the can; liquid absorbs some gamma, so a full can at the detector level reduces the count rate; if the can is under-filled, there is no liquid at that level so more gamma reaches the detector and the count rate rises; this triggers rejection of the can; gamma is least ionising, but shielding is needed for workers; source should have long half-life so count rate stays steady (credit).",
+        "Level 3 (5 to 6 marks): a clear evaluation rejecting alpha and beta with reasons, choosing gamma, and explaining logically how the count rate change identifies under-filled cans.",
+        "Level 2 (3 to 4 marks): chooses gamma with some reasoning and some explanation of the detection method.",
+        "Level 1 (1 to 2 marks): simple statements about the radiations or the method with little reasoning.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Match the penetration to the job: only gamma gets through a metal can, and a change in the amount of liquid changes how much gets through."
+    }
+  ]
+}

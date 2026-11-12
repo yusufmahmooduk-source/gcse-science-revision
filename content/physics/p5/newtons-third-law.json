@@ -1,0 +1,674 @@
+{
+  "id": "p5-newtons-third-law",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "newtons-third-law",
+  "specRef": "4.5.6.2.3",
+  "title": "Newton's Third Law",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Newton's Third Law states that whenever two objects interact, the forces they exert on each other are equal in size and opposite in direction.",
+    "explanation": [
+      "Forces always come in pairs because a force is an interaction between two objects. If object A exerts a force on object B, then object B exerts a force on object A at the same moment. Newton's Third Law says these two forces are equal in size and opposite in direction. For example, if you push on a wall with a force of 40 N, the wall pushes back on you with a force of 40 N in the opposite direction.",
+      "The two forces in a third-law pair always share several features. They are the same size, they act in opposite directions along the same line, they are the same type of force (both gravitational, both contact, both magnetic and so on) and they start and stop at the same time. Most importantly, the two forces act on different objects: one acts on A and the other acts on B.",
+      "Because the two forces act on different objects, they never cancel each other out. To decide whether an object will accelerate, you only add up the forces acting on that one object. A horse can pull a cart forwards even though the cart pulls back on the horse with an equal force: the backward pull acts on the horse, not on the cart, so it does not stop the cart from moving.",
+      "Newton's Third Law is often confused with balanced forces. A book resting on a table is in equilibrium: its weight (the Earth pulling it down) is balanced by the normal contact force (the table pushing it up). These two forces are equal and opposite, but they are not a third-law pair, because they both act on the same object (the book) and they are different types of force. The third-law partner of the book's weight is the book pulling the Earth upwards. The third-law partner of the normal contact force is the book pushing down on the table.",
+      "Many everyday movements depend on third-law pairs. When you walk, your foot pushes backwards on the ground (through friction) and the ground pushes your foot forwards. A swimmer pushes water backwards and the water pushes the swimmer forwards. A rocket pushes hot exhaust gases backwards out of its engine and the gases push the rocket forwards, which is why a rocket can accelerate in space where there is no air to push against.",
+      "Equal forces do not mean equal effects. Using Newton's Second Law, acceleration = force ÷ mass, so the object with the smaller mass has the larger acceleration. When you jump, you push the Earth with the same force that it pushes you, but the Earth's mass is so enormous that its acceleration is far too small to notice."
+    ],
+    "keyFacts": [
+      "Whenever two objects interact, they exert equal and opposite forces on each other.",
+      "The two forces in a third-law pair act on different objects.",
+      "Third-law pairs are always the same type of force (for example, both gravitational).",
+      "Third-law forces are equal in size, opposite in direction and act along the same line.",
+      "Third-law pairs never cancel, because they act on different objects.",
+      "Balanced forces act on the same object; a third-law pair acts on two different objects.",
+      "The weight of an object is paired with the object's gravitational pull on the Earth.",
+      "Equal forces can produce different accelerations if the masses are different (a = F ÷ m)."
+    ],
+    "keyTerms": [
+      {
+        "term": "Newton's Third Law",
+        "definition": "Whenever two objects interact, the forces they exert on each other are equal and opposite."
+      },
+      {
+        "term": "Interaction pair",
+        "definition": "The two forces that two objects exert on each other; also called a third-law pair."
+      },
+      {
+        "term": "Equilibrium",
+        "definition": "The state of an object when the resultant force on it is zero, so it stays at rest or moves at constant velocity."
+      },
+      {
+        "term": "Normal contact force",
+        "definition": "The force a surface exerts on an object pressing on it, acting at right angles to the surface."
+      },
+      {
+        "term": "Weight",
+        "definition": "The force acting on an object due to gravity; the Earth pulling the object."
+      },
+      {
+        "term": "Balanced forces",
+        "definition": "Forces acting on the same object that add up to a resultant force of zero."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Identifying third-law pairs for a book on a table",
+        "question": "A book rests on a table. Name the two forces acting on the book and give the third-law partner of each.",
+        "steps": [
+          "Forces on the book: its weight (the Earth pulls the book down) and the normal contact force (the table pushes the book up).",
+          "These two forces balance, so the book is in equilibrium, but they act on the same object, so they are not a third-law pair.",
+          "Partner of the weight: the book pulls the Earth upwards with an equal gravitational force.",
+          "Partner of the normal contact force: the book pushes down on the table with an equal contact force."
+        ],
+        "answer": "Weight pairs with the book's gravitational pull on the Earth; the normal contact force pairs with the book pushing down on the table."
+      },
+      {
+        "title": "Force on the floor from a standing person",
+        "question": "A person of mass 70 kg stands still on a floor. Gravitational field strength = 9.8 N/kg. Calculate the force the person exerts on the floor.",
+        "steps": [
+          "Weight of the person: W = m × g = 70 × 9.8 = 686 N.",
+          "The person is in equilibrium, so the floor pushes up on the person with 686 N.",
+          "By Newton's Third Law, the person pushes down on the floor with an equal and opposite force."
+        ],
+        "answer": "686 N downwards"
+      },
+      {
+        "title": "Equal forces, different accelerations",
+        "question": "Two skaters push apart. Skater A (50 kg) pushes skater B (75 kg) with a force of 150 N. Calculate the acceleration of each skater.",
+        "steps": [
+          "By Newton's Third Law, B pushes A with 150 N in the opposite direction.",
+          "Acceleration of A = F ÷ m = 150 ÷ 50 = 3.0 m/s².",
+          "Acceleration of B = F ÷ m = 150 ÷ 75 = 2.0 m/s².",
+          "The forces are equal, but the lighter skater has the larger acceleration."
+        ],
+        "answer": "A: 3.0 m/s²; B: 2.0 m/s² (in opposite directions)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A third-law pair: two skaters pushing apart",
+        "caption": "Each skater pushes the other. The forces are equal in size (60 N), opposite in direction and act on different skaters.",
+        "svg": "<svg viewBox='0 0 440 230' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='195' x2='420' y2='195' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='2'><circle cx='150' cy='70' r='14' fill='#93c5fd' fill-opacity='0.5'/><rect x='136' y='86' width='28' height='80' rx='6' fill='#93c5fd' fill-opacity='0.5'/><line x1='143' y1='166' x2='140' y2='195'/><line x1='157' y1='166' x2='160' y2='195'/><circle cx='290' cy='70' r='14' fill='#c4b5fd' fill-opacity='0.5'/><rect x='276' y='86' width='28' height='80' rx='6' fill='#c4b5fd' fill-opacity='0.5'/><line x1='283' y1='166' x2='280' y2='195'/><line x1='297' y1='166' x2='300' y2='195'/><line x1='164' y1='105' x2='220' y2='105'/><line x1='276' y1='105' x2='220' y2='105'/></g><g stroke='currentColor' stroke-width='3'><line x1='150' y1='140' x2='72' y2='140'/><line x1='290' y1='140' x2='368' y2='140'/></g><g fill='currentColor'><path d='M60 140 L74 133 L74 147 Z'/><path d='M380 140 L366 133 L366 147 Z'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='110' y='25'>Force of B on A</text><text x='110' y='40'>60 N to the left</text><text x='330' y='25'>Force of A on B</text><text x='330' y='40'>60 N to the right</text><text x='95' y='132'>60 N</text><text x='345' y='132'>60 N</text><text x='150' y='215'>Skater A</text><text x='290' y='215'>Skater B</text><text x='220' y='95'>hands push</text></g></svg>"
+      },
+      {
+        "title": "Balanced forces are not a third-law pair",
+        "caption": "The weight and normal contact force on a book both act on the book, so they are balanced forces, not a third-law pair. Each has its own partner acting on a different object.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2'><rect x='40' y='150' width='220' height='12' fill='#e5e7eb' fill-opacity='0.5'/><line x1='55' y1='162' x2='55' y2='200'/><line x1='245' y1='162' x2='245' y2='200'/><rect x='110' y='118' width='80' height='32' fill='#fde68a' fill-opacity='0.5'/></g><g stroke='currentColor' stroke-width='3'><line x1='165' y1='118' x2='165' y2='62'/><line x1='135' y1='134' x2='135' y2='205'/></g><g fill='currentColor'><path d='M165 50 L158 64 L172 64 Z'/><path d='M135 217 L128 203 L142 203 Z'/></g><g font-size='12' fill='currentColor'><text x='175' y='60'>normal contact force</text><text x='175' y='75'>(table pushes book up)</text><text x='145' y='225'>weight</text><text x='145' y='240'>(Earth pulls book down)</text><text x='130' y='138'>book</text><text x='70' y='176'>table</text><text x='290' y='120'>Balanced (same object):</text><text x='290' y='135'>weight and normal force</text><text x='290' y='150'>both act on the book.</text><text x='290' y='180'>Third-law partners:</text><text x='290' y='195'>weight ↔ book pulls Earth up</text><text x='290' y='210'>normal force ↔ book pushes</text><text x='290' y='225'>down on the table</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the weight of a book and the normal contact force from the table are a Newton's Third Law pair.",
+        "right": "In fact they act on the same object and are different types of force, so they are balanced forces. The partner of the weight is the book pulling the Earth up."
+      },
+      {
+        "wrong": "Students often think third-law forces cancel out, so nothing can ever move.",
+        "right": "In fact the two forces act on different objects, so they cannot cancel. Only forces on the same object are added to find the resultant force."
+      },
+      {
+        "wrong": "Students often think the bigger or faster object exerts the bigger force in a collision.",
+        "right": "In fact the forces the two objects exert on each other are always exactly equal in size. The lighter object has the larger acceleration."
+      },
+      {
+        "wrong": "Students often think a rocket needs air to push against.",
+        "right": "In fact the rocket pushes exhaust gases backwards and the gases push the rocket forwards, so it works in the vacuum of space."
+      }
+    ],
+    "realWorld": [
+      "Rockets and jet engines push exhaust gases backwards so the gases push the vehicle forwards.",
+      "Walking and running depend on your shoes pushing backwards on the ground through friction, so the ground pushes you forwards.",
+      "Rifles and cannons recoil backwards because the bullet or shell is pushed forwards.",
+      "Swimmers and rowers push water backwards with hands, feet or oars, and the water pushes them forwards."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "When describing a third-law partner, say which object exerts the force and which object it acts on, for example 'the book pulls the Earth upwards'.",
+      "Always state all three features: equal in size, opposite in direction, acting on different objects.",
+      "If two forces act on the same object, they cannot be a third-law pair, even if they are equal and opposite.",
+      "Use the 'A on B, B on A' check: swap the two objects and reverse the direction to find a partner force."
+    ],
+    "summary": [
+      "When two objects interact, they exert equal and opposite forces on each other.",
+      "Third-law forces act on different objects and are the same type of force.",
+      "They never cancel because they act on different objects.",
+      "Balanced forces in equilibrium act on one object and are not a third-law pair.",
+      "Equal forces on different masses give different accelerations."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State Newton's Third Law.",
+      "back": "Whenever two objects interact, the forces they exert on each other are equal and opposite."
+    },
+    {
+      "front": "Do the two forces in a third-law pair act on the same object?",
+      "back": "No. They always act on different objects."
+    },
+    {
+      "front": "Why don't third-law pairs cancel out?",
+      "back": "Because they act on different objects; only forces on the same object combine into a resultant."
+    },
+    {
+      "front": "What type of force is the partner of a gravitational force?",
+      "back": "Another gravitational force (third-law pairs are always the same type)."
+    },
+    {
+      "front": "Third-law partner of the Earth pulling a book down?",
+      "back": "The book pulling the Earth up with an equal force."
+    },
+    {
+      "front": "Third-law partner of the table pushing up on a book?",
+      "back": "The book pushing down on the table with an equal force."
+    },
+    {
+      "front": "Are the weight and normal contact force on a book a third-law pair?",
+      "back": "No. They both act on the book and are different types of force; they are balanced forces."
+    },
+    {
+      "front": "You push a wall with 50 N. What force does the wall exert on you?",
+      "back": "50 N in the opposite direction (away from the wall)."
+    },
+    {
+      "front": "How does a swimmer move forwards?",
+      "back": "Pushes water backwards; the water pushes the swimmer forwards with an equal force."
+    },
+    {
+      "front": "How does a rocket accelerate in space?",
+      "back": "It pushes exhaust gases backwards; the gases push the rocket forwards."
+    },
+    {
+      "front": "In a car and lorry collision, which exerts the larger force?",
+      "back": "Neither: the forces are equal and opposite."
+    },
+    {
+      "front": "Why does the Earth not visibly move when you jump?",
+      "back": "The force on it equals the force on you, but its huge mass gives a tiny acceleration."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-newtons-third-law-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement is Newton's Third Law?",
+      "options": [
+        "Whenever two objects interact, the forces they exert on each other are equal and opposite.",
+        "An object stays at rest or moves at constant velocity unless a resultant force acts on it.",
+        "The resultant force on an object equals its mass multiplied by its acceleration.",
+        "Every force on an object is balanced by an equal and opposite force on the same object."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Whenever two objects interact, the forces they exert on each other are equal and opposite."
+      ],
+      "explanation": "This is Newton's Third Law. The second option is the First Law and the third is the Second Law. The last option describes balanced forces on one object, which is not the Third Law."
+    },
+    {
+      "id": "p5-newtons-third-law-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A girl pushes on a wall with a force of 40 N. What force does the wall exert on the girl?",
+      "options": [
+        "0 N, because the wall does not move",
+        "20 N, pushing her away from the wall",
+        "40 N, pushing her away from the wall",
+        "80 N, pushing her away from the wall"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 40 N, pushing her away from the wall"
+      ],
+      "explanation": "By Newton's Third Law the wall pushes on the girl with a force equal in size (40 N) and opposite in direction. The wall not moving does not mean it exerts no force."
+    },
+    {
+      "id": "p5-newtons-third-law-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement is always true about the two forces in a Newton's Third Law pair?",
+      "options": [
+        "They act on the same object.",
+        "They are different types of force.",
+        "They act on different objects.",
+        "They cancel each other out."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: They act on different objects."
+      ],
+      "explanation": "Third-law forces act on the two different objects that are interacting. Because they act on different objects they cannot cancel, and they are always the same type of force."
+    },
+    {
+      "id": "p5-newtons-third-law-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A book rests on a table. Which force is the Newton's Third Law partner of the weight of the book?",
+      "options": [
+        "The normal contact force of the table on the book",
+        "The gravitational pull of the book on the Earth",
+        "The force of the book pushing down on the table",
+        "The friction force between the book and the table"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The gravitational pull of the book on the Earth"
+      ],
+      "explanation": "The weight is the Earth pulling the book (a gravitational force). Its partner must be gravitational and act on the other object: the book pulling the Earth. The normal contact force balances the weight but acts on the same object, so it is not the partner."
+    },
+    {
+      "id": "p5-newtons-third-law-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A swimmer pushes water backwards with her arms. Which force makes the swimmer move forwards?",
+      "options": [
+        "The weight of the swimmer",
+        "The upthrust of the water on the swimmer",
+        "The force of the swimmer's arms on the water",
+        "The force of the water pushing the swimmer forwards"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The force of the water pushing the swimmer forwards"
+      ],
+      "explanation": "The swimmer pushes the water backwards; by Newton's Third Law the water pushes the swimmer forwards. The force of her arms on the water acts on the water, not on her, so it cannot move her."
+    },
+    {
+      "id": "p5-newtons-third-law-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do the two forces in a Newton's Third Law pair not cancel each other out?",
+      "options": [
+        "They act on different objects.",
+        "They are not exactly equal in size.",
+        "They act at different times.",
+        "One of them is always much smaller than the other."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: They act on different objects."
+      ],
+      "explanation": "Forces only combine into a resultant if they act on the same object. Third-law forces are exactly equal and act at the same time, but on different objects."
+    },
+    {
+      "id": "p5-newtons-third-law-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A rocket accelerates in space where there is no air. Which explanation is correct?",
+      "options": [
+        "The exhaust gases push against the air behind the rocket.",
+        "The rocket pushes exhaust gases backwards, so the gases push the rocket forwards.",
+        "There is no gravity in space, so the rocket needs no force to accelerate.",
+        "The rocket's weight pulls it forwards."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The rocket pushes exhaust gases backwards, so the gases push the rocket forwards."
+      ],
+      "explanation": "The rocket and its exhaust gases interact. The rocket pushes the gas backwards and the gas pushes the rocket forwards with an equal force. No air is needed, and an object always needs a resultant force to accelerate."
+    },
+    {
+      "id": "p5-newtons-third-law-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A small car collides head-on with a heavy lorry. Which statement about the collision is correct?",
+      "options": [
+        "The lorry exerts a larger force on the car than the car exerts on the lorry.",
+        "The car exerts a larger force on the lorry because it decelerates more.",
+        "The forces are equal in size, but the car has the larger acceleration.",
+        "The forces are equal in size, and both vehicles have the same acceleration."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The forces are equal in size, but the car has the larger acceleration."
+      ],
+      "explanation": "By Newton's Third Law the forces are equal and opposite. Since a = F ÷ m, the car, with its smaller mass, has the larger acceleration (change in velocity per second), which is why its occupants are more at risk."
+    },
+    {
+      "id": "p5-newtons-third-law-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Magnet A (mass 0.10 kg) and magnet B (mass 0.20 kg) are on a frictionless surface. A attracts B with a force of 0.6 N. Which statement is correct?",
+      "options": [
+        "The force on A is 1.2 N and both magnets have the same acceleration.",
+        "Both forces are 0.6 N and both magnets have the same acceleration.",
+        "The force on B is larger because B has the larger mass.",
+        "Both forces are 0.6 N and magnet A has twice the acceleration of magnet B."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Both forces are 0.6 N and magnet A has twice the acceleration of magnet B."
+      ],
+      "explanation": "B attracts A with an equal force of 0.6 N. Acceleration of A = 0.6 ÷ 0.10 = 6 m/s²; acceleration of B = 0.6 ÷ 0.20 = 3 m/s². Equal forces, but the smaller mass accelerates more."
+    },
+    {
+      "id": "p5-newtons-third-law-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a Newton's Third Law pair of forces?",
+      "options": [
+        "The Earth pulls the Moon; the Moon pulls the Earth.",
+        "The weight of a car; the upward force of the road on the car.",
+        "The driving force on a cyclist; the air resistance on the cyclist.",
+        "The tension in a rope holding a mass; the weight of the mass."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The Earth pulls the Moon; the Moon pulls the Earth."
+      ],
+      "explanation": "Only the Earth and Moon pair involves two objects exerting the same type of force on each other. The other pairs both act on a single object (the car, the cyclist or the mass)."
+    },
+    {
+      "id": "p5-newtons-third-law-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A footballer kicks a ball with a force of 250 N. State the size of the force that the ball exerts on the footballer's foot.",
+      "numericAnswer": 250,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 250 N"
+      ],
+      "explanation": "By Newton's Third Law the ball pushes back on the foot with a force equal in size (250 N) and opposite in direction."
+    },
+    {
+      "id": "p5-newtons-third-law-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A person of mass 60 kg stands still on a floor. Gravitational field strength = 9.8 N/kg.\nCalculate the size of the force the person exerts on the floor.",
+      "numericAnswer": 588,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: weight = 60 × 9.8",
+        "1 mark: 588 N"
+      ],
+      "explanation": "Weight = mg = 60 × 9.8 = 588 N. The floor pushes up on the person with 588 N (equilibrium), so by Newton's Third Law the person pushes down on the floor with 588 N."
+    },
+    {
+      "id": "p5-newtons-third-law-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A 2.0 kg book is held above the ground. Gravitational field strength = 9.8 N/kg.\nCalculate the size of the gravitational force that the book exerts on the Earth.",
+      "numericAnswer": 19.6,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: weight of book = 2.0 × 9.8",
+        "1 mark: 19.6 N (accept 20 N)"
+      ],
+      "explanation": "The Earth pulls the book with 2.0 × 9.8 = 19.6 N. The third-law partner is the book pulling the Earth upwards with 19.6 N."
+    },
+    {
+      "id": "p5-newtons-third-law-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Skater A (mass 50 kg) and skater B (mass 75 kg) stand still on smooth ice and push each other apart. Skater A pushes skater B with a force of 150 N.\nCalculate the acceleration of skater A.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: force on A = 150 N (Newton's Third Law)",
+        "1 mark: a = F ÷ m = 150 ÷ 50",
+        "1 mark: 3.0 m/s²"
+      ],
+      "explanation": "B pushes A with an equal and opposite force of 150 N. a = F ÷ m = 150 ÷ 50 = 3.0 m/s². A common error is to think A feels no force because A is the one doing the pushing."
+    },
+    {
+      "id": "p5-newtons-third-law-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Using the information about skaters A and B in the previous question (A: 50 kg, B: 75 kg, push force 150 N), calculate the acceleration of skater B.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: a = 150 ÷ 75",
+        "1 mark: 2.0 m/s²"
+      ],
+      "explanation": "a = F ÷ m = 150 ÷ 75 = 2.0 m/s². The force on B is the same size as the force on A, but B has the larger mass so it has the smaller acceleration."
+    },
+    {
+      "id": "p5-newtons-third-law-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State Newton's Third Law.",
+      "acceptedAnswers": [
+        "two objects interact",
+        "equal and opposite",
+        "forces they exert on each other"
+      ],
+      "markScheme": [
+        "1 mark: whenever two objects interact, the forces they exert on each other are equal and opposite"
+      ],
+      "explanation": "The law must mention two objects interacting and the forces being equal (in size) and opposite (in direction)."
+    },
+    {
+      "id": "p5-newtons-third-law-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A man leans against a wall, pushing it with a force of 200 N.\nDescribe the force that the wall exerts on the man.",
+      "acceptedAnswers": [
+        "200 N",
+        "opposite direction",
+        "away from the wall",
+        "on the man"
+      ],
+      "markScheme": [
+        "1 mark: 200 N",
+        "1 mark: in the opposite direction (away from the wall / towards the man)"
+      ],
+      "explanation": "Newton's Third Law: the wall exerts a force of the same size (200 N) on the man, in the opposite direction."
+    },
+    {
+      "id": "p5-newtons-third-law-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Use Newton's Third Law to explain how a person is able to walk forwards.",
+      "acceptedAnswers": [
+        "foot pushes ground backwards",
+        "ground pushes foot forwards",
+        "equal and opposite",
+        "friction"
+      ],
+      "markScheme": [
+        "1 mark: the foot pushes backwards on the ground (friction)",
+        "1 mark: the ground pushes forwards on the foot with an equal force"
+      ],
+      "explanation": "The forward force on the walker comes from the ground. This is why walking on very slippery ice is hard: with little friction the foot cannot push backwards on the ground."
+    },
+    {
+      "id": "p5-newtons-third-law-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "When a gun is fired, it moves backwards (recoils). Use Newton's Third Law to explain why.",
+      "acceptedAnswers": [
+        "gun pushes bullet forwards",
+        "bullet pushes gun backwards",
+        "equal and opposite force"
+      ],
+      "markScheme": [
+        "1 mark: the gun exerts a forward force on the bullet",
+        "1 mark: the bullet exerts an equal force on the gun in the opposite (backward) direction"
+      ],
+      "explanation": "The gun and the bullet interact, so they exert equal and opposite forces on each other. The backward force acts on the gun, making it recoil."
+    },
+    {
+      "id": "p5-newtons-third-law-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A book rests on a table.\nName the two forces acting on the book and explain why they are not a Newton's Third Law pair.",
+      "acceptedAnswers": [
+        "weight",
+        "normal contact force",
+        "same object",
+        "different types of force"
+      ],
+      "markScheme": [
+        "1 mark: weight (downwards) and normal contact force / reaction force (upwards)",
+        "1 mark: both forces act on the same object (the book)",
+        "1 mark: they are different types of force (gravitational and contact)"
+      ],
+      "explanation": "The forces balance, so the book is in equilibrium, but a third-law pair must act on two different objects and be the same type of force."
+    },
+    {
+      "id": "p5-newtons-third-law-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: \"A horse cannot pull a cart forwards, because the cart pulls back on the horse with an equal force, so the forces cancel.\"\nExplain why the student is wrong.",
+      "acceptedAnswers": [
+        "act on different objects",
+        "cannot cancel",
+        "resultant force on the cart",
+        "forces on the cart only"
+      ],
+      "markScheme": [
+        "1 mark: the two forces act on different objects (one on the horse, one on the cart)",
+        "1 mark: so they do not cancel; the cart accelerates if the horse's pull is bigger than the friction on the cart"
+      ],
+      "explanation": "Whether the cart moves depends only on the forces acting on the cart: the pull of the horse forwards and friction backwards. The cart's pull on the horse acts on the horse."
+    },
+    {
+      "id": "p5-newtons-third-law-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The Earth pulls on the Moon with a gravitational force. Describe the Newton's Third Law partner of this force.",
+      "acceptedAnswers": [
+        "Moon pulls the Earth",
+        "gravitational",
+        "equal and opposite"
+      ],
+      "markScheme": [
+        "1 mark: the Moon pulls the Earth with an equal gravitational force (in the opposite direction)"
+      ],
+      "explanation": "The partner force is the same type (gravitational), the same size and acts on the other object, the Earth."
+    },
+    {
+      "id": "p5-newtons-third-law-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Give three properties that the two forces in a Newton's Third Law pair always have in common.",
+      "acceptedAnswers": [
+        "same size",
+        "same type of force",
+        "same line of action",
+        "act at the same time"
+      ],
+      "markScheme": [
+        "1 mark each, any three: same size (magnitude); same type of force; act along the same line; act at the same time (start and stop together)"
+      ],
+      "explanation": "They differ in direction (opposite) and in which object they act on. Everything else about them matches."
+    },
+    {
+      "id": "p5-newtons-third-law-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A lamp of weight 30 N hangs at rest from a ceiling on a cable.\nDescribe the Newton's Third Law partner of the force that the cable exerts on the lamp.",
+      "acceptedAnswers": [
+        "lamp pulls down on the cable",
+        "30 N",
+        "downwards"
+      ],
+      "markScheme": [
+        "1 mark: the lamp pulls (downwards) on the cable",
+        "1 mark: with a force of 30 N"
+      ],
+      "explanation": "The cable pulls up on the lamp with 30 N (equal to the weight, since the lamp is in equilibrium). Its partner is the lamp pulling down on the cable with 30 N. The lamp's weight is not the partner, because it is a gravitational force exerted by the Earth."
+    },
+    {
+      "id": "p5-newtons-third-law-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A book rests on a table. A student says: \"The weight of the book and the normal contact force from the table are equal and opposite, so they are a Newton's Third Law pair.\"\nEvaluate the student's statement. In your answer, identify the forces acting, the correct third-law pairs and explain why the book stays at rest.",
+      "markScheme": [
+        "Indicative content: forces on the book are weight (Earth pulls book down) and normal contact force (table pushes book up); they are equal and opposite, so the resultant force is zero and the book is in equilibrium (Newton's First Law); but both act on the same object and are different types of force, so they are not a third-law pair; the student is wrong; third-law pairs act on different objects and are the same type; partner of weight is the book pulling the Earth up (gravitational); partner of normal contact force is the book pushing down on the table (contact); third-law pairs never cancel because they act on different objects.",
+        "Level 3 (5 to 6 marks): clear judgement that the student is wrong, with both correct third-law pairs identified and a clear explanation of equilibrium using forces on the book only.",
+        "Level 2 (3 to 4 marks): identifies the two forces on the book and at least one correct third-law partner, with some explanation of why they are not a pair.",
+        "Level 1 (1 to 2 marks): names the forces or states that they are balanced, with little explanation."
+      ],
+      "explanation": "The key distinction is between balanced forces (on one object) and a third-law pair (on two interacting objects, same type of force)."
+    },
+    {
+      "id": "p5-newtons-third-law-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain, using Newton's Third Law, how a rocket can accelerate upwards at launch and can also accelerate in space where there is no air.",
+      "markScheme": [
+        "Indicative content: the engine pushes hot exhaust gases downwards/backwards; by Newton's Third Law the gases push the rocket upwards/forwards with an equal and opposite force; at launch this thrust is greater than the rocket's weight, so there is an upward resultant force; in space the same interaction happens between rocket and gases; no air is needed because the rocket pushes on its own exhaust gases, not on the air.",
+        "Level 2 (3 to 4 marks): clear third-law pair identified (rocket on gases, gases on rocket) and explains why air is not needed.",
+        "Level 1 (1 to 2 marks): states that gases are pushed out and the rocket moves the other way, with limited explanation."
+      ],
+      "explanation": "A common misconception is that rockets push on the air. The interaction is between the rocket and its exhaust gases."
+    },
+    {
+      "id": "p5-newtons-third-law-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Two ice skaters of different masses stand still facing each other and push apart.\nExplain, using Newton's Laws, why the forces on the skaters are equal but they move apart with different accelerations.",
+      "markScheme": [
+        "Indicative content: each skater exerts a force on the other; by Newton's Third Law the forces are equal in size and opposite in direction; each force acts on a different skater; by Newton's Second Law a = F ÷ m; the same force on a smaller mass gives a larger acceleration; so the lighter skater accelerates more (and moves away faster); they move in opposite directions.",
+        "Level 2 (3 to 4 marks): uses the Third Law for equal forces and a = F ÷ m to explain different accelerations, linking the larger acceleration to the smaller mass.",
+        "Level 1 (1 to 2 marks): states the forces are equal and opposite, or that the lighter skater moves faster, without full explanation."
+      ],
+      "explanation": "Equal forces do not mean equal motion. The Second Law links the same force to a different acceleration for each mass."
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "id": "p2-energy-transfers-in-appliances",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "energy-transfers-in-appliances",
+  "specRef": "4.2.4.2",
+  "title": "Energy transfers in everyday appliances",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Everyday electrical appliances are designed to transfer energy from batteries or the a.c. mains to useful stores, such as the kinetic store of a motor or the thermal store of a heating element. The energy transferred depends on the power and how long the appliance is on: E = P t. Work is done when charge flows through a potential difference: E = Q V.",
+    "explanation": [
+      "Electrical appliances are designed to bring about energy transfers. When an appliance is switched on, charge flows through it and work is done: energy is transferred electrically from the supply (the chemical store of a battery, or the a.c. mains supplied by a power station) to the appliance. The appliance then transfers this energy to another store. In an electric kettle, the heating element transfers energy to the thermal store of the water. In a fan, food mixer or drill, an electric motor transfers energy to a kinetic store. A hair dryer does both: a heating element warms the air and a motor drives the fan.",
+      "The amount of energy an appliance transfers depends on its power and how long it is switched on. Energy transferred = power × time, E = P t, with E in joules (J), P in watts (W) and t in seconds (s). A 2 kW heater left on for one hour transfers twice as much energy as a 1 kW heater on for the same time, and the same 2 kW heater left on for two hours transfers twice as much again.",
+      "The energy transferred can also be found from the charge that flows and the potential difference: energy transferred = charge flow × potential difference, E = Q V, with Q in coulombs (C) and V in volts (V). This is because potential difference is the energy transferred per unit charge: a potential difference of 230 V means each coulomb transfers 230 J. Combining E = Q V with Q = I t gives E = V I t, which links back to P = V I.",
+      "Before substituting, convert to standard units. Change kilowatts to watts by multiplying by 1000. Change minutes to seconds (× 60) and hours to seconds (× 3600). Energies are often large, so you may give answers in kilojoules (1 kJ = 1000 J) or megajoules (1 MJ = 1 000 000 J).",
+      "Power ratings let you compare appliances. A kettle rated at 3000 W transfers 3000 J to the thermal store of the water every second, so it boils water much faster than a 1000 W travel kettle. The higher the power rating, the faster the energy in the appliance's useful store changes. Not all the energy is transferred usefully: some is dissipated to the surroundings, for example as sound from a motor or heating of the casing."
+    ],
+    "keyFacts": [
+      "Appliances transfer energy from batteries or the a.c. mains to other stores.",
+      "Heating devices transfer energy to thermal stores; motors transfer energy to kinetic stores.",
+      "Work is done when charge flows in a circuit.",
+      "E = P t: energy (J) = power (W) × time (s).",
+      "E = Q V: energy (J) = charge (C) × potential difference (V).",
+      "Energy transferred depends on the power of the appliance and how long it is on.",
+      "1 kW = 1000 W; 1 minute = 60 s; 1 hour = 3600 s.",
+      "1 V means 1 J of energy transferred per coulomb of charge.",
+      "Higher power rating means energy is transferred to useful stores faster."
+    ],
+    "keyTerms": [
+      {
+        "term": "Energy transfer",
+        "definition": "The movement of energy from one store to another, for example from the mains to the thermal store of water."
+      },
+      {
+        "term": "Work done",
+        "definition": "Energy transferred; when charge flows through a potential difference, work is done."
+      },
+      {
+        "term": "Power rating",
+        "definition": "The rate at which an appliance transfers energy when operating normally, in watts."
+      },
+      {
+        "term": "Joule (J)",
+        "definition": "The unit of energy."
+      },
+      {
+        "term": "Kinetic store",
+        "definition": "Energy stored by a moving object, such as the turning parts of a motor."
+      },
+      {
+        "term": "Thermal store",
+        "definition": "Energy stored in an object because of its temperature."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Energy transferred from power and time",
+        "formula": "energy transferred = power × time",
+        "symbols": "E = P t",
+        "units": "E in joules (J), P in watts (W), t in seconds (s)",
+        "recall": true
+      },
+      {
+        "name": "Energy transferred from charge and potential difference",
+        "formula": "energy transferred = charge flow × potential difference",
+        "symbols": "E = Q V",
+        "units": "E in joules (J), Q in coulombs (C), V in volts (V)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Kilowatts and minutes",
+        "question": "A 1.5 kW hair dryer is used for 4 minutes. Calculate the energy transferred.",
+        "steps": [
+          "Convert power: 1.5 kW = 1500 W.",
+          "Convert time: 4 minutes × 60 = 240 s.",
+          "E = P t = 1500 × 240.",
+          "E = 360 000 J (360 kJ)."
+        ],
+        "answer": "360 000 J"
+      },
+      {
+        "title": "Using E = Q V via Q = I t",
+        "question": "A current of 0.50 A flows through a 9.0 V motor for 60 s. Calculate the energy transferred.",
+        "steps": [
+          "Find the charge: Q = I t = 0.50 × 60 = 30 C.",
+          "E = Q V = 30 × 9.0.",
+          "E = 270 J.",
+          "Check: P = V I = 4.5 W and E = P t = 4.5 × 60 = 270 J."
+        ],
+        "answer": "270 J"
+      },
+      {
+        "title": "Rearranging for time",
+        "question": "A 600 W microwave oven transfers 54 000 J to some soup. Calculate how long it was on.",
+        "steps": [
+          "Rearrange E = P t to t = E ÷ P.",
+          "t = 54 000 ÷ 600.",
+          "t = 90 s."
+        ],
+        "answer": "90 s (1.5 minutes)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Energy transfers in appliances",
+        "caption": "When charge flows, work is done and energy is transferred from the supply to useful stores: thermal stores in heating devices and kinetic stores in motors.",
+        "svg": "<svg viewBox='0 0 480 272' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><rect x='10' y='95' width='110' height='60' rx='8' fill='#fde68a' fill-opacity='0.5'/><text x='65.0' y='122.5' font-size='12' fill='currentColor' stroke='none'>battery or</text><text x='65.0' y='137.5' font-size='12' fill='currentColor' stroke='none'>a.c. mains</text><rect x='160' y='95' width='110' height='60' rx='8' fill='#93c5fd' fill-opacity='0.5'/><text x='215.0' y='122.5' font-size='12' fill='currentColor' stroke='none'>charge flows:</text><text x='215.0' y='137.5' font-size='12' fill='currentColor' stroke='none'>work is done</text><rect x='320' y='10' width='150' height='50' rx='8' fill='#fca5a5' fill-opacity='0.5'/><text x='395.0' y='32.5' font-size='12' fill='currentColor' stroke='none'>kettle: thermal</text><text x='395.0' y='47.5' font-size='12' fill='currentColor' stroke='none'>store of water</text><rect x='320' y='100' width='150' height='50' rx='8' fill='#86efac' fill-opacity='0.5'/><text x='395.0' y='122.5' font-size='12' fill='currentColor' stroke='none'>fan, drill: kinetic</text><text x='395.0' y='137.5' font-size='12' fill='currentColor' stroke='none'>store of motor</text><rect x='320' y='190' width='150' height='50' rx='8' fill='#c4b5fd' fill-opacity='0.5'/><text x='395.0' y='212.5' font-size='12' fill='currentColor' stroke='none'>hair dryer: thermal</text><text x='395.0' y='227.5' font-size='12' fill='currentColor' stroke='none'>and kinetic stores</text><line x1='120' y1='125' x2='158' y2='125' stroke-width='1.5'/><path d='M158 125 L152 128 L152 122 Z' fill='currentColor' stroke='none'/><line x1='270' y1='115' x2='318' y2='40' stroke-width='1.5'/><path d='M318 40 L317 47 L312 43 Z' fill='currentColor' stroke='none'/><line x1='270' y1='125' x2='318' y2='125' stroke-width='1.5'/><path d='M318 125 L312 128 L312 122 Z' fill='currentColor' stroke='none'/><line x1='270' y1='135' x2='318' y2='210' stroke-width='1.5'/><path d='M318 210 L312 207 L317 203 Z' fill='currentColor' stroke='none'/><text x='240' y='262' font-size='12' fill='currentColor' stroke='none'>energy transferred electrically: E = P t = Q V</text></g></svg>"
+      },
+      {
+        "title": "Formula triangles for E = P t and E = Q V",
+        "caption": "Cover the quantity you want to find. Use joules, watts, seconds, coulombs and volts.",
+        "svg": "<svg viewBox='0 0 480 210' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><path d='M120 30 L210 170 L30 170 Z' fill='#93c5fd' fill-opacity='0.5'/><line x1='68' y1='110' x2='172' y2='110'/><line x1='120' y1='110' x2='120' y2='170'/><text x='120' y='96' font-size='20' fill='currentColor' stroke='none'>E</text><text x='82' y='152' font-size='20' fill='currentColor' stroke='none'>P</text><text x='158' y='152' font-size='20' fill='currentColor' stroke='none'>t</text><text x='120' y='198' font-size='12' fill='currentColor' stroke='none'>E = P t (J, W, s)</text><path d='M360 30 L450 170 L270 170 Z' fill='#93c5fd' fill-opacity='0.5'/><line x1='308' y1='110' x2='412' y2='110'/><line x1='360' y1='110' x2='360' y2='170'/><text x='360' y='96' font-size='20' fill='currentColor' stroke='none'>E</text><text x='322' y='152' font-size='20' fill='currentColor' stroke='none'>Q</text><text x='398' y='152' font-size='20' fill='currentColor' stroke='none'>V</text><text x='360' y='198' font-size='12' fill='currentColor' stroke='none'>E = Q V (J, C, V)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a higher power appliance always transfers more energy.",
+        "right": "In fact energy depends on power and time: a 100 W lamp left on for 10 hours transfers more energy than a 3000 W kettle on for 2 minutes."
+      },
+      {
+        "wrong": "Students often substitute minutes or hours directly into E = P t.",
+        "right": "In fact time must be in seconds when power is in watts, so convert first."
+      },
+      {
+        "wrong": "Students often think electricity itself is stored in the appliance.",
+        "right": "In fact energy is transferred electrically by the moving charge and ends up in other stores, such as thermal or kinetic stores."
+      }
+    ],
+    "realWorld": [
+      "Kettles, toasters, ovens and immersion heaters transfer energy to thermal stores; washing machines, fans and drills use motors to transfer energy to kinetic stores.",
+      "Battery-powered tools transfer energy from the chemical store of the battery to the kinetic store of the motor.",
+      "Choosing a lower power appliance, or using it for less time, reduces the energy transferred from the mains and so the electricity bill."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Decide which equation fits the data: E = P t if you know power and time; E = Q V if you know charge and potential difference.",
+      "Convert kW to W and minutes or hours to seconds before substituting.",
+      "For 'describe the energy transfer' questions, name the source (mains or battery), say energy is transferred electrically, and name the useful store (thermal or kinetic).",
+      "Large answers are fine: a kettle can easily transfer hundreds of thousands of joules. Give units, and use kJ or MJ if it helps."
+    ],
+    "summary": [
+      "Appliances transfer energy from the mains or batteries to useful stores.",
+      "Heaters fill thermal stores; motors fill kinetic stores.",
+      "E = P t, with time in seconds.",
+      "E = Q V: potential difference is energy per coulomb.",
+      "Energy transferred depends on power and time switched on.",
+      "Convert kW to W and minutes or hours to seconds first."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Equation linking energy, power and time?",
+      "back": "E = P t"
+    },
+    {
+      "front": "Equation linking energy, charge and potential difference?",
+      "back": "E = Q V"
+    },
+    {
+      "front": "What two factors decide the energy an appliance transfers?",
+      "back": "Its power and how long it is switched on."
+    },
+    {
+      "front": "What happens when charge flows in a circuit?",
+      "back": "Work is done: energy is transferred."
+    },
+    {
+      "front": "Useful energy transfer in an electric kettle?",
+      "back": "Electrically from the mains to the thermal store of the water."
+    },
+    {
+      "front": "Useful energy transfer in an electric fan?",
+      "back": "Electrically to the kinetic store of the motor (and blades)."
+    },
+    {
+      "front": "What does 230 V mean in terms of energy?",
+      "back": "Each coulomb of charge transfers 230 J."
+    },
+    {
+      "front": "Convert 2 hours to seconds.",
+      "back": "7200 s"
+    },
+    {
+      "front": "Convert 3.2 kW to W.",
+      "back": "3200 W"
+    },
+    {
+      "front": "Energy transferred by a 100 W lamp in 60 s?",
+      "back": "6000 J"
+    },
+    {
+      "front": "Rearrange E = P t for time.",
+      "back": "t = E ÷ P"
+    },
+    {
+      "front": "Rearrange E = Q V for charge.",
+      "back": "Q = E ÷ V"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-energy-transfers-in-appliances-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links energy transferred, power and time?",
+      "markScheme": [
+        "1 mark: E = P × t"
+      ],
+      "explanation": "Energy transferred = power × time. A more powerful appliance or a longer time both transfer more energy.",
+      "options": [
+        "E = P ÷ t",
+        "E = t ÷ P",
+        "E = P × t",
+        "E = P + t"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links energy transferred, charge and potential difference?",
+      "markScheme": [
+        "1 mark: E = Q × V"
+      ],
+      "explanation": "E = Q V. A potential difference of 1 V means 1 J is transferred per coulomb.",
+      "options": [
+        "E = Q × V",
+        "E = V ÷ Q",
+        "E = Q ÷ V",
+        "E = Q × V²"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Into which store does an electric kettle usefully transfer energy?",
+      "markScheme": [
+        "1 mark: Thermal store of the water"
+      ],
+      "explanation": "The heating element raises the temperature of the water, increasing its thermal store.",
+      "options": [
+        "Kinetic store of the water",
+        "Gravitational potential store of the kettle",
+        "Chemical store of the water",
+        "Thermal store of the water"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Into which store does the motor in a food mixer usefully transfer energy?",
+      "markScheme": [
+        "1 mark: Kinetic store"
+      ],
+      "explanation": "Electric motors transfer energy to the kinetic store of the moving parts.",
+      "options": [
+        "Thermal store",
+        "Kinetic store",
+        "Elastic potential store",
+        "Nuclear store"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which uses the most energy?",
+      "markScheme": [
+        "1 mark: A 100 W TV for 1 hour"
+      ],
+      "explanation": "Energy = P t: kettle 180 000 J, toaster 120 000 J, TV 360 000 J, LED 36 000 J. The low-power TV on for a long time transfers the most.",
+      "options": [
+        "A 3000 W kettle for 1 minute",
+        "A 1000 W toaster for 2 minutes",
+        "A 100 W TV for 1 hour",
+        "A 10 W LED for 1 hour"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is 2.5 kW in watts?",
+      "markScheme": [
+        "1 mark: 2500 W"
+      ],
+      "explanation": "Multiply kilowatts by 1000: 2.5 × 1000 = 2500 W.",
+      "options": [
+        "2500 W",
+        "250 W",
+        "25 W",
+        "25 000 W"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A potential difference of 12 V means that:",
+      "markScheme": [
+        "1 mark: 12 J of energy is transferred per coulomb of charge"
+      ],
+      "explanation": "Potential difference is energy transferred per unit charge: 1 V = 1 J/C.",
+      "options": [
+        "12 C of charge flows each second",
+        "12 A of current flows",
+        "12 W of power is used",
+        "12 J of energy is transferred per coulomb of charge"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two heaters are switched on for the same time. Heater A has twice the power of heater B. Which statement is correct?",
+      "markScheme": [
+        "1 mark: A transfers twice as much energy as B."
+      ],
+      "explanation": "E = P t with the same t, so energy is proportional to power: twice the power, twice the energy.",
+      "options": [
+        "A transfers half as much energy as B.",
+        "A transfers twice as much energy as B.",
+        "They transfer the same energy.",
+        "A transfers four times as much energy as B."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A 60 W lamp is on for 2 hours. How much energy does it transfer?",
+      "markScheme": [
+        "1 mark: 432 000 J"
+      ],
+      "explanation": "2 hours = 7200 s. E = 60 × 7200 = 432 000 J. 120 J comes from not converting hours to seconds.",
+      "options": [
+        "120 J",
+        "7200 J",
+        "432 000 J",
+        "3600 J"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A 2000 W kettle is switched on for 90 s. Calculate the energy transferred.",
+      "markScheme": [
+        "1 mark: E = 2000 × 90",
+        "1 mark: 180 000 J"
+      ],
+      "explanation": "E = P t = 2000 × 90 = 180 000 J.",
+      "numericAnswer": 180000,
+      "tolerance": 0.02,
+      "unit": "J"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 1.5 kW heater is switched on for 4.0 minutes. Calculate the energy transferred.",
+      "markScheme": [
+        "1 mark: 1500 W and 240 s",
+        "1 mark: E = 1500 × 240",
+        "1 mark: 360 000 J"
+      ],
+      "explanation": "Convert both: 1.5 kW = 1500 W, 4.0 min = 240 s. E = 360 000 J.",
+      "numericAnswer": 360000,
+      "tolerance": 0.02,
+      "unit": "J"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "30 C of charge flows through a 12 V lamp. Calculate the energy transferred.",
+      "markScheme": [
+        "1 mark: E = 30 × 12",
+        "1 mark: 360 J"
+      ],
+      "explanation": "E = Q V = 30 × 12 = 360 J.",
+      "numericAnswer": 360,
+      "tolerance": 0.02,
+      "unit": "J"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A toaster connected to the 230 V mains transfers 4600 J of energy. Calculate the charge that flows through it.",
+      "markScheme": [
+        "1 mark: Q = E ÷ V = 4600 ÷ 230",
+        "1 mark: 20 C"
+      ],
+      "explanation": "Rearrange E = Q V to Q = E ÷ V = 4600 ÷ 230 = 20 C.",
+      "numericAnswer": 20,
+      "tolerance": 0.02,
+      "unit": "C"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A blender transfers 90 000 J of energy in 5.0 minutes. Calculate its power.",
+      "markScheme": [
+        "1 mark: 5.0 min = 300 s",
+        "1 mark: P = E ÷ t = 90 000 ÷ 300",
+        "1 mark: 300 W"
+      ],
+      "explanation": "Convert the time to seconds, then P = E ÷ t.",
+      "numericAnswer": 300,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A heater on the 230 V mains carries a current of 3.0 A for 2.0 minutes. Calculate the energy transferred.",
+      "markScheme": [
+        "1 mark: Q = I t = 3.0 × 120 = 360 C",
+        "1 mark: E = Q V = 360 × 230",
+        "1 mark: 82 800 J"
+      ],
+      "explanation": "Find the charge with Q = I t (time in seconds), then E = Q V. Alternatively P = V I = 690 W and E = P t = 690 × 120 = 82 800 J.",
+      "numericAnswer": 82800,
+      "tolerance": 0.02,
+      "unit": "J"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 2.5 kW heater transfers 1.8 MJ of energy. Calculate how long it was switched on, in minutes.",
+      "markScheme": [
+        "1 mark: 2500 W and 1 800 000 J",
+        "1 mark: t = 1 800 000 ÷ 2500 = 720 s",
+        "1 mark: 12 minutes"
+      ],
+      "explanation": "Convert kW and MJ to W and J, find t = E ÷ P = 720 s, then divide by 60.",
+      "numericAnswer": 12,
+      "tolerance": 0.02,
+      "unit": "minutes"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two factors that affect the amount of energy transferred by an appliance.",
+      "markScheme": [
+        "1 mark: the power (rating) of the appliance",
+        "1 mark: how long it is switched on (time)"
+      ],
+      "explanation": "E = P t, so both power and time matter.",
+      "acceptedAnswers": [
+        "power",
+        "time"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "Describe the energy transfer that takes place in a battery-powered electric drill.",
+      "markScheme": [
+        "1 mark: from the chemical store of the battery",
+        "1 mark: transferred electrically (by the current / work done by charge)",
+        "1 mark: to the kinetic store of the motor/drill bit"
+      ],
+      "explanation": "Source store, transfer pathway, useful store: chemical, electrical, kinetic.",
+      "acceptedAnswers": [
+        "chemical store of battery",
+        "electrically",
+        "kinetic store of motor"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain what is meant by 'work is done when charge flows in a circuit'.",
+      "markScheme": [
+        "1 mark: energy is transferred (from the supply to the component)",
+        "1 mark: the amount is equal to charge × potential difference (E = Q V)"
+      ],
+      "explanation": "Doing work means transferring energy. Charge moving through a potential difference transfers energy.",
+      "acceptedAnswers": [
+        "energy transferred",
+        "potential difference energy per charge"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says 'a 3 kW kettle always transfers more energy than a 50 W fridge.' Evaluate this statement.",
+      "markScheme": [
+        "1 mark: energy depends on time as well as power (E = P t)",
+        "1 mark: the fridge is on for much longer (all day), so it may transfer more energy in total, e.g. 50 W × 24 h = 4.32 MJ versus 3 kW × 10 min = 1.8 MJ"
+      ],
+      "explanation": "A low-power appliance running all the time can transfer more energy than a high-power one used briefly.",
+      "acceptedAnswers": [
+        "depends on time",
+        "fridge on longer",
+        "E = P t"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the useful energy transfers in a hair dryer.",
+      "markScheme": [
+        "1 mark: energy transferred electrically to the heating element / thermal store (of the air)",
+        "1 mark: and to the kinetic store of the motor/fan"
+      ],
+      "explanation": "A hair dryer contains both a heating element and a motor.",
+      "acceptedAnswers": [
+        "thermal store of air",
+        "kinetic store of fan motor"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Show that E = V I t, starting from E = Q V and Q = I t.",
+      "markScheme": [
+        "1 mark: substitute Q = I t into E = Q V",
+        "1 mark: E = (I t) × V = V I t"
+      ],
+      "explanation": "Replacing Q with I t links the two energy equations, and also shows E = P t because P = V I.",
+      "acceptedAnswers": [
+        "substitute Q = I t"
+      ]
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe, with examples, how different domestic appliances transfer energy from the mains supply or from batteries. Explain how the power rating of an appliance is related to the energy it transfers.",
+      "markScheme": [
+        "Indicative content: when charge flows, work is done and energy is transferred electrically from the supply; mains comes from power stations (a.c.), batteries from their chemical store (d.c.); heating devices such as kettles, toasters and electric heaters transfer energy to thermal stores; devices with motors such as fans, drills, washing machines and food mixers transfer energy to kinetic stores; some, e.g. hair dryers, do both; some energy is dissipated to the surroundings (e.g. sound, heating of the casing); power rating is the energy transferred per second; E = P t; higher power transfers energy faster; for the same time, double the power means double the energy; total energy also depends on how long the appliance is on.",
+        "Level 3 (5 to 6 marks): several correct examples of both heating and motor appliances with correct stores, and a clear explanation of the link between power, time and energy using E = P t.",
+        "Level 2 (3 to 4 marks): some correct examples and stores with a partial explanation of power.",
+        "Level 1 (1 to 2 marks): simple statements about one appliance or about power."
+      ],
+      "explanation": "Strong answers name the source, the useful store for each example, and use E = P t to link power to energy over a given time."
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A 2.0 kW kettle and a 1.2 kW microwave are each used to heat a cup of water. The kettle takes 40 s and the microwave takes 75 s.\nCalculate the energy transferred by each appliance and suggest which is the better choice, giving a reason.",
+      "markScheme": [
+        "Indicative content: kettle: E = P t = 2000 × 40 = 80 000 J; microwave: E = 1200 × 75 = 90 000 J; the kettle has a higher power but is on for less time; the kettle transfers less energy in total for the same job, so it is more efficient / cheaper to run for this task; it is also faster; possible counterpoints: microwave heats in the cup directly, kettle may heat more water than needed.",
+        "Level 2 (3 to 4 marks): both energies correctly calculated (with unit conversions) and a justified conclusion.",
+        "Level 1 (1 to 2 marks): one correct calculation or a conclusion with limited support."
+      ],
+      "explanation": "Power alone does not tell you which uses more energy; E = P t shows the kettle transfers 80 kJ and the microwave 90 kJ."
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of energy?",
+      "markScheme": [
+        "1 mark: Joule"
+      ],
+      "explanation": "Energy is measured in joules. The watt is the unit of power (joules per second).",
+      "options": [
+        "Joule",
+        "Watt",
+        "Volt",
+        "Coulomb"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q26",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A 40 W lamp is switched on for 30 s. Calculate the energy transferred.",
+      "markScheme": [
+        "1 mark: E = 40 × 30",
+        "1 mark: 1200 J"
+      ],
+      "explanation": "E = P t = 40 × 30 = 1200 J.",
+      "numericAnswer": 1200,
+      "tolerance": 0.02,
+      "unit": "J"
+    },
+    {
+      "id": "p2-energy-transfers-in-appliances-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare the energy transferred by each coulomb of charge passing through a 230 V mains heater and a 12 V car headlamp.",
+      "markScheme": [
+        "1 mark: each coulomb transfers 230 J in the heater and 12 J in the headlamp",
+        "1 mark: so each coulomb transfers about 19 times more energy in the mains heater (E = Q V)"
+      ],
+      "explanation": "Potential difference is energy per unit charge, so with E = Q V and Q = 1 C, E equals the potential difference in joules.",
+      "acceptedAnswers": [
+        "230 J per coulomb",
+        "12 J per coulomb",
+        "more energy per coulomb"
+      ]
+    }
+  ]
+}

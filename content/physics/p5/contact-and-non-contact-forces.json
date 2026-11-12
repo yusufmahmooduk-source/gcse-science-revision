@@ -1,0 +1,735 @@
+{
+  "id": "p5-contact-and-non-contact-forces",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "contact-and-non-contact-forces",
+  "specRef": "4.5.1.2",
+  "title": "Contact and non-contact forces",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A force is a push or a pull that acts on an object because of its interaction with another object. Every force is either a contact force (the objects are physically touching) or a non-contact force (the objects are physically separated).",
+    "explanation": [
+      "Forces always come from an interaction between two objects. When you push a door, you and the door interact. When an apple falls, the apple and the Earth interact. A force never appears on its own: whenever object A exerts a force on object B, object B also exerts a force on object A. These two forces are the same size but act in opposite directions, and they act on different objects.",
+      "Contact forces only act when the objects are touching. Friction acts between two surfaces that slide (or try to slide) over each other, and it acts in the opposite direction to the motion. Air resistance is a type of friction that acts on objects moving through air, because air particles hit the surface of the object. Tension is the force in a stretched rope, string or cable. The normal contact force is the push of a surface on an object resting on it, acting at right angles to the surface.",
+      "Non-contact forces act even when the objects are separated by a gap. The gravitational force acts between any two objects that have mass; the gravitational force of the Earth on an object is called its weight. The electrostatic force acts between objects that are electrically charged. The magnetic force acts between magnets, or between a magnet and a magnetic material such as iron or steel. Gravitational forces only attract, but electrostatic and magnetic forces can attract or repel.",
+      "Force is a vector quantity: it has a size (measured in newtons, N) and a direction. On a diagram each force is drawn as an arrow starting on the object it acts on. The length of the arrow shows the size of the force and the arrow points in the direction of the force. For a book resting on a table, the weight arrow points down and the normal contact force arrow points up. The arrows are the same length because the forces are balanced.",
+      "To describe the forces on an object, ask what is touching it and what is acting on it from a distance. A skydiver falling through the air is touched by the air (air resistance, contact) and is pulled by the Earth (weight, non-contact). A lamp hanging from the ceiling is touched by its cable (tension, contact) and is pulled down by the Earth (weight, non-contact)."
+    ],
+    "keyFacts": [
+      "A force is a push or pull caused by an interaction between two objects.",
+      "Force is measured in newtons (N) and is a vector quantity.",
+      "Contact forces: friction, air resistance, tension, normal contact force.",
+      "Non-contact forces: gravitational force, electrostatic force, magnetic force.",
+      "Weight is the gravitational force of the Earth on an object.",
+      "Friction and air resistance act in the opposite direction to motion.",
+      "The normal contact force acts at right angles to the surface.",
+      "When two objects interact, each exerts a force on the other: equal in size, opposite in direction.",
+      "Forces are shown as arrows: length for size, arrowhead for direction."
+    ],
+    "keyTerms": [
+      {
+        "term": "Force",
+        "definition": "A push or a pull on an object caused by its interaction with another object; measured in newtons (N)."
+      },
+      {
+        "term": "Contact force",
+        "definition": "A force that acts only when the objects are physically touching."
+      },
+      {
+        "term": "Non-contact force",
+        "definition": "A force that acts between objects that are physically separated."
+      },
+      {
+        "term": "Friction",
+        "definition": "A contact force that opposes motion between two surfaces in contact."
+      },
+      {
+        "term": "Air resistance",
+        "definition": "A frictional (contact) force that acts on an object moving through air."
+      },
+      {
+        "term": "Tension",
+        "definition": "The pulling force in a stretched rope, string, cable or spring."
+      },
+      {
+        "term": "Normal contact force",
+        "definition": "The force a surface exerts on an object pressing on it, acting at right angles to the surface."
+      },
+      {
+        "term": "Interaction pair",
+        "definition": "The two forces produced when two objects interact: equal in size, opposite in direction, acting on different objects."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Identifying and classifying forces",
+        "question": "A crate is dragged across a concrete floor by a rope. Name each force acting on the crate and classify it as contact or non-contact.",
+        "steps": [
+          "What is touching the crate? The rope, the floor and the air.",
+          "The rope gives tension (contact), pulling along the rope.",
+          "The floor gives a normal contact force upwards (contact) and friction backwards (contact).",
+          "The air gives air resistance (contact), which is tiny at low speed.",
+          "What acts at a distance? The Earth pulls the crate down: weight (non-contact, gravitational)."
+        ],
+        "answer": "Tension, normal contact force, friction and air resistance are contact forces; weight is a non-contact force."
+      },
+      {
+        "title": "Describing an interaction pair",
+        "question": "A magnet attracts a steel paper clip with a force of 0.3 N to the left. Describe the force that the paper clip exerts on the magnet.",
+        "steps": [
+          "The magnet and paper clip interact, so each exerts a force on the other.",
+          "The forces in an interaction pair are equal in size: 0.3 N.",
+          "They act in opposite directions: the clip pulls the magnet to the right.",
+          "It is a magnetic (non-contact) force, acting on the magnet."
+        ],
+        "answer": "0.3 N to the right, a magnetic (non-contact) force acting on the magnet"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Forces on a book resting on a table",
+        "caption": "The Earth pulls the book down (weight, a non-contact force). The table pushes the book up (normal contact force). The arrows start on the book and are equal in length, so the forces are balanced.",
+        "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='150' width='360' height='16' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='50' y1='166' x2='50' y2='240' stroke='currentColor' stroke-width='3'/><line x1='370' y1='166' x2='370' y2='240' stroke='currentColor' stroke-width='3'/><rect x='150' y='118' width='100' height='32' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='200' y1='134' x2='200' y2='212'/><line x1='200' y1='134' x2='200' y2='50'/></g><g fill='currentColor'><path d='M200 222 L194 210 L206 210 Z'/><path d='M200 40 L194 52 L206 52 Z'/><circle cx='200' cy='134' r='3'/></g><g font-size='12' fill='currentColor'><text x='160' y='139'>book</text><text x='300' y='145'>table</text><text x='210' y='60'>normal contact force</text><text x='210' y='75'>(table pushes up on book)</text><text x='210' y='205'>weight (gravitational,</text><text x='210' y='220'>Earth pulls down on book)</text><text x='20' y='30'>Equal-length arrows: the two forces are the same size</text></g></svg>"
+      },
+      {
+        "title": "Contact and non-contact forces",
+        "caption": "Every force is either a contact force (objects touching) or a non-contact force (objects separated).",
+        "svg": "<svg viewBox='0 0 440 230' xmlns='http://www.w3.org/2000/svg'><rect x='170' y='10' width='100' height='34' rx='8' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><rect x='20' y='80' width='180' height='34' rx='8' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><rect x='240' y='80' width='180' height='34' rx='8' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor'><line x1='200' y1='44' x2='110' y2='80'/><line x1='240' y1='44' x2='330' y2='80'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='220' y='32'>FORCES</text><text x='110' y='96'>CONTACT</text><text x='110' y='109'>(objects touching)</text><text x='330' y='96'>NON-CONTACT</text><text x='330' y='109'>(objects separated)</text><text x='110' y='140'>friction</text><text x='110' y='160'>air resistance</text><text x='110' y='180'>tension</text><text x='110' y='200'>normal contact force</text><text x='330' y='140'>gravitational force (weight)</text><text x='330' y='160'>electrostatic force</text><text x='330' y='180'>magnetic force</text></g></svg>"
+      },
+      {
+        "title": "An interaction pair between two magnets",
+        "caption": "Two like poles repel across a gap. Magnet A pushes magnet B and magnet B pushes magnet A with forces of the same size in opposite directions.",
+        "svg": "<svg viewBox='0 0 420 170' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='60' width='50' height='30' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><rect x='110' y='60' width='50' height='30' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='260' y='60' width='50' height='30' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='310' y='60' width='50' height='30' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='60' y1='120' x2='20' y2='120'/><line x1='360' y1='120' x2='400' y2='120'/></g><g fill='currentColor'><path d='M10 120 L22 114 L22 126 Z'/><path d='M410 120 L398 114 L398 126 Z'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='85' y='80'>N</text><text x='135' y='80'>S</text><text x='285' y='80'>S</text><text x='335' y='80'>N</text><text x='110' y='50'>magnet A</text><text x='310' y='50'>magnet B</text><text x='70' y='145'>force on A from B</text><text x='350' y='145'>force on B from A</text><text x='210' y='80'>gap</text><text x='210' y='30'>Like poles (S and S) repel without touching</text><text x='210' y='165'>Same size, opposite directions</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think air resistance is a non-contact force because you cannot see air touching the object.",
+        "right": "In fact air particles collide with the surface of the object, so air resistance is a contact force."
+      },
+      {
+        "wrong": "Students often think gravity only pulls an apple towards the Earth.",
+        "right": "In fact the apple also pulls the Earth with a force of the same size. The Earth's mass is so large that the effect on it is too small to notice."
+      },
+      {
+        "wrong": "Students often think a book on a table has no forces acting on it because it is not moving.",
+        "right": "In fact two forces act on it (weight down, normal contact force up); they are balanced, so the resultant force is zero."
+      },
+      {
+        "wrong": "Students often think non-contact forces can only attract.",
+        "right": "In fact gravitational forces only attract, but electrostatic and magnetic forces can attract or repel."
+      }
+    ],
+    "realWorld": [
+      "Tyre treads and brake pads are designed to give large friction forces so that cars can grip the road and stop safely.",
+      "Cyclists crouch low and wear smooth clothing to reduce air resistance.",
+      "Lifts and cranes rely on the tension in steel cables to support heavy loads.",
+      "Maglev trains use magnetic forces to float above the track, removing friction between wheels and rails.",
+      "Electrostatic forces are used in photocopiers and laser printers to attract toner powder to the paper."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the two lists exactly: contact (friction, air resistance, tension, normal contact force) and non-contact (gravitational, electrostatic, magnetic).",
+      "Use the precise name 'normal contact force' rather than 'reaction' or 'support force' in AQA answers.",
+      "When drawing force arrows, start them on the object, use a ruler, and make the lengths match the relative sizes of the forces.",
+      "For an interaction pair, state three things: same size, opposite direction, acting on different objects.",
+      "Weight is the name for the gravitational force on an object; say 'weight' rather than 'gravity' when naming the force."
+    ],
+    "summary": [
+      "A force is a push or pull caused by an interaction between objects.",
+      "Contact forces need the objects to touch; non-contact forces act across a gap.",
+      "Contact: friction, air resistance, tension, normal contact force.",
+      "Non-contact: gravitational, electrostatic, magnetic.",
+      "Force is a vector, drawn as an arrow starting on the object.",
+      "Interacting objects exert equal and opposite forces on each other."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a force?",
+      "back": "A push or pull that acts on an object due to its interaction with another object."
+    },
+    {
+      "front": "What is a contact force?",
+      "back": "A force that acts only when objects are physically touching."
+    },
+    {
+      "front": "What is a non-contact force?",
+      "back": "A force that acts between objects that are physically separated."
+    },
+    {
+      "front": "Name four contact forces.",
+      "back": "Friction, air resistance, tension, normal contact force."
+    },
+    {
+      "front": "Name three non-contact forces.",
+      "back": "Gravitational, electrostatic, magnetic."
+    },
+    {
+      "front": "What is weight?",
+      "back": "The gravitational force of the Earth (or another body) on an object."
+    },
+    {
+      "front": "What is tension?",
+      "back": "The pulling force in a stretched rope, string or cable."
+    },
+    {
+      "front": "In which direction does the normal contact force act?",
+      "back": "At right angles (perpendicular) to the surface."
+    },
+    {
+      "front": "In which direction does friction act?",
+      "back": "Opposite to the direction of motion (or attempted motion)."
+    },
+    {
+      "front": "Is force a scalar or a vector?",
+      "back": "A vector: it has size and direction."
+    },
+    {
+      "front": "Object A pushes object B with 5 N. What force does B exert on A?",
+      "back": "5 N in the opposite direction."
+    },
+    {
+      "front": "Which non-contact force can only attract?",
+      "back": "The gravitational force."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-contact-and-non-contact-forces-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a non-contact force?",
+      "options": [
+        "Friction",
+        "Tension",
+        "Magnetic force",
+        "Air resistance"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Magnetic force"
+      ],
+      "explanation": "A magnetic force can act across a gap. Friction, tension and air resistance all need the objects to touch."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a contact force?",
+      "options": [
+        "Gravitational force",
+        "Electrostatic force",
+        "Magnetic force",
+        "Normal contact force"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Normal contact force"
+      ],
+      "explanation": "The normal contact force is the push of a surface on an object touching it. The other three can act across a gap."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement best describes a force?",
+      "options": [
+        "A push or pull due to an interaction between two objects",
+        "The energy an object has because it is moving",
+        "The amount of matter in an object",
+        "A quantity with magnitude only"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A push or pull due to an interaction between two objects"
+      ],
+      "explanation": "A force is a push or pull resulting from an interaction. Kinetic energy, mass and scalars are different ideas."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the name of the force in a rope that is pulling a sledge?",
+      "options": [
+        "Friction",
+        "Tension",
+        "Weight",
+        "Normal contact force"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Tension"
+      ],
+      "explanation": "A stretched rope exerts a pulling force called tension. Friction acts between the sledge and the snow, not in the rope."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A charged plastic comb picks up small pieces of paper before it touches them. Which force causes this?",
+      "options": [
+        "Gravitational force",
+        "Friction",
+        "Electrostatic force",
+        "Tension"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Electrostatic force"
+      ],
+      "explanation": "Charged objects attract or repel through the electrostatic force, which is a non-contact force. Gravity pulls the paper down, not up."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A book rests on a table. Which two forces act on the book?",
+      "options": [
+        "Weight downwards and normal contact force upwards",
+        "Weight downwards and friction upwards",
+        "Tension upwards and weight downwards",
+        "Air resistance upwards and normal contact force downwards"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Weight downwards and normal contact force upwards"
+      ],
+      "explanation": "The Earth pulls the book down (weight) and the table pushes it up (normal contact force). There is no rope, so no tension, and friction only acts if the book slides or tries to slide."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A skydiver is falling through the air. Which row correctly classifies the two forces acting on her?",
+      "options": [
+        "Weight: contact; air resistance: contact",
+        "Weight: non-contact; air resistance: contact",
+        "Weight: contact; air resistance: non-contact",
+        "Weight: non-contact; air resistance: non-contact"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Weight: non-contact; air resistance: contact"
+      ],
+      "explanation": "Weight is a gravitational force so it acts without contact. Air resistance comes from air particles hitting the skydiver, so it is a contact force."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of force?",
+      "options": [
+        "Joule",
+        "Kilogram",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Newton"
+      ],
+      "explanation": "Force is measured in newtons (N). Joules measure energy, kilograms measure mass, and pascals measure pressure."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Magnet A exerts a force of 2 N to the right on magnet B. Which describes the force that magnet B exerts on magnet A?",
+      "options": [
+        "0 N, because only magnet A is pulling",
+        "1 N to the left",
+        "2 N to the right",
+        "2 N to the left"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 2 N to the left"
+      ],
+      "explanation": "Interacting objects exert forces on each other that are equal in size and opposite in direction, so B pushes or pulls A with 2 N to the left."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A magnet is held close to a steel paper clip on a table without touching it. The clip moves towards the magnet. Which statement is correct?",
+      "options": [
+        "Only the magnet exerts a force, because it is the magnet.",
+        "The clip exerts a force on the magnet of the same size as the force on the clip.",
+        "The clip exerts a smaller force on the magnet because steel is not a magnet.",
+        "No force acts, because they are not touching."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The clip exerts a force on the magnet of the same size as the force on the clip."
+      ],
+      "explanation": "The magnet and clip interact, so each exerts a force on the other of the same size in opposite directions. Non-contact forces act without touching."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A box is pushed to the right across a rough floor. In which direction does friction act on the box?",
+      "options": [
+        "To the left",
+        "To the right",
+        "Upwards",
+        "Downwards"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To the left"
+      ],
+      "explanation": "Friction always opposes the motion, so it acts to the left when the box moves to the right."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q12",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which force acts between any two objects that have mass?",
+      "options": [
+        "Electrostatic force",
+        "Magnetic force",
+        "Tension",
+        "Gravitational force"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Gravitational force"
+      ],
+      "explanation": "Every object with mass attracts every other object with mass through the gravitational force. Electrostatic forces need charge and magnetic forces need magnets or magnetic materials."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe the difference between a contact force and a non-contact force.",
+      "acceptedAnswers": [
+        "contact forces need objects to touch",
+        "non-contact act when separated",
+        "act at a distance"
+      ],
+      "markScheme": [
+        "1 mark: contact force acts when the objects are touching",
+        "1 mark: non-contact force acts when the objects are physically separated"
+      ],
+      "explanation": "The classification depends only on whether the objects must touch for the force to act."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two non-contact forces.",
+      "acceptedAnswers": [
+        "gravitational",
+        "weight",
+        "electrostatic",
+        "magnetic"
+      ],
+      "markScheme": [
+        "1 mark each for any two: gravitational (weight), electrostatic, magnetic"
+      ],
+      "explanation": "These three forces all act across a gap. Friction, air resistance, tension and normal contact force would not score."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Explain why force is a vector quantity.",
+      "acceptedAnswers": [
+        "has direction",
+        "magnitude and direction"
+      ],
+      "markScheme": [
+        "1 mark: it has both magnitude (size) and direction"
+      ],
+      "explanation": "A force always acts in a direction, for example 10 N downwards, so it is a vector."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A box is pushed along a rough floor. Apart from the push and its weight, name two other forces acting on the box.",
+      "acceptedAnswers": [
+        "friction",
+        "normal contact force",
+        "air resistance"
+      ],
+      "markScheme": [
+        "1 mark: friction",
+        "1 mark: normal contact force (accept air resistance)"
+      ],
+      "explanation": "The floor exerts two forces: friction parallel to the floor opposing motion, and the normal contact force upwards at right angles to the floor."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car travels at high speed along a motorway. Name the force from the air that opposes its motion, and state whether it is a contact or a non-contact force.",
+      "acceptedAnswers": [
+        "air resistance",
+        "drag",
+        "contact"
+      ],
+      "markScheme": [
+        "1 mark: air resistance (accept drag)",
+        "1 mark: contact force"
+      ],
+      "explanation": "Air particles collide with the car's surface, so air resistance is a contact force that opposes motion."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A lamp hangs at rest from a ceiling on a cable. Describe the two forces acting on the lamp.",
+      "acceptedAnswers": [
+        "weight downwards",
+        "tension upwards",
+        "gravitational non-contact",
+        "tension contact",
+        "equal size"
+      ],
+      "markScheme": [
+        "1 mark: weight acting downwards (non-contact / gravitational)",
+        "1 mark: tension in the cable acting upwards (contact)",
+        "1 mark: the forces are equal in size (balanced)"
+      ],
+      "explanation": "The Earth pulls down on the lamp (weight). The cable pulls up (tension). The lamp is at rest, so these forces are balanced."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why air resistance is a contact force.",
+      "acceptedAnswers": [
+        "air particles collide",
+        "touch the surface",
+        "particles hit the object"
+      ],
+      "markScheme": [
+        "1 mark: air is made of particles",
+        "1 mark: which collide with / touch the surface of the moving object"
+      ],
+      "explanation": "Although air is invisible, its particles physically hit the object, so the force needs contact."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student says: \"The Earth pulls an apple down, but the apple does not pull on the Earth.\" Explain why the student is wrong.",
+      "acceptedAnswers": [
+        "interaction",
+        "apple pulls earth",
+        "equal size",
+        "opposite direction",
+        "earth mass large",
+        "effect too small to notice"
+      ],
+      "markScheme": [
+        "1 mark: the gravitational force is an interaction between the apple and the Earth",
+        "1 mark: the apple pulls the Earth with a force of equal size in the opposite direction (upwards)",
+        "1 mark: the Earth's mass is so large that the effect on it is too small to notice"
+      ],
+      "explanation": "Forces come from interactions, so they come in pairs. The apple's pull on the Earth is the same size as the Earth's pull on the apple, but the Earth hardly responds because it is so massive."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why a table exerts a force on a book resting on it.",
+      "acceptedAnswers": [
+        "book pushes down on table",
+        "interaction",
+        "table pushes back",
+        "surface is compressed",
+        "normal contact force"
+      ],
+      "markScheme": [
+        "1 mark: the book presses down on the table surface (interaction / table slightly compressed)",
+        "1 mark: so the table pushes up on the book with a normal contact force (at right angles to surface)"
+      ],
+      "explanation": "The book and table are in contact and interact: the book pushes on the table and the table pushes back on the book with the normal contact force."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A balloon is rubbed on a jumper. The balloon is then held just above some hair, which rises towards it. Name the force acting on the hair, classify it, and state the property of the balloon that causes it.",
+      "acceptedAnswers": [
+        "electrostatic",
+        "non-contact",
+        "charge",
+        "charged"
+      ],
+      "markScheme": [
+        "1 mark: electrostatic force",
+        "1 mark: non-contact force",
+        "1 mark: the balloon is (electrically) charged"
+      ],
+      "explanation": "Rubbing transfers charge, so the balloon becomes charged. Charged objects exert electrostatic forces across a gap, so the hair is attracted without touching."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the contact force exerted by a stretched string.",
+      "acceptedAnswers": [
+        "tension"
+      ],
+      "markScheme": [
+        "1 mark: tension"
+      ],
+      "explanation": "A stretched string, rope or cable pulls with a force called tension."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A parachutist is falling through the air with her parachute open. Describe the forces acting on her. For each force, state its direction, what causes it and whether it is a contact or non-contact force.",
+      "markScheme": [
+        "Indicative content:",
+        "Weight acts downwards.",
+        "Weight is caused by the Earth's gravitational pull on her mass.",
+        "Weight is a non-contact force.",
+        "Air resistance acts upwards (opposite to the direction of motion).",
+        "Air resistance is caused by air particles colliding with her and the parachute.",
+        "Air resistance is a contact force.",
+        "Level 2 (3 to 4 marks): both forces named with correct directions, causes and classifications.",
+        "Level 1 (1 to 2 marks): one or both forces named, with some correct detail."
+      ],
+      "explanation": "Two forces act: weight (Earth's pull, non-contact, down) and air resistance (from the air, contact, up). Air resistance acts opposite to her motion."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A child pulls a sledge across flat snow using a rope held parallel to the ground.\nDescribe all the forces acting on the sledge. For each force, name the object that exerts it, state whether it is a contact or non-contact force, and describe how it would be drawn on a force diagram.",
+      "markScheme": [
+        "Indicative content:",
+        "Weight: exerted by the Earth, non-contact (gravitational), arrow vertically downwards.",
+        "Normal contact force: exerted by the snow/ground, contact, arrow vertically upwards, at right angles to the surface.",
+        "Tension: exerted by the rope, contact, arrow along the rope in the direction the child pulls.",
+        "Friction: exerted by the snow, contact, arrow parallel to the ground opposite to the motion.",
+        "Air resistance: exerted by the air, contact, opposite to the motion (small at low speed).",
+        "Arrows start on the sledge; length of each arrow represents the size of the force (drawn to scale).",
+        "Weight and normal contact force arrows have equal length (vertical forces balanced).",
+        "Level 3 (5 to 6 marks): at least four forces correctly identified with source, classification and direction, plus how arrow length represents size.",
+        "Level 2 (3 to 4 marks): at least three forces with mostly correct sources or classifications and directions.",
+        "Level 1 (1 to 2 marks): one or two forces named with limited detail."
+      ],
+      "explanation": "The sledge is touched by the rope, the snow and the air, giving contact forces, and is pulled down by the Earth from a distance. Each force is shown as a vector arrow starting on the sledge."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Compare the gravitational force, the electrostatic force and the magnetic force.",
+      "markScheme": [
+        "Indicative content:",
+        "All three are non-contact forces; they act between objects that are separated.",
+        "Gravitational force acts between any objects with mass.",
+        "Gravitational force is always attractive.",
+        "Electrostatic force acts between charged objects; it can attract or repel.",
+        "Magnetic force acts between magnets, or a magnet and a magnetic material (iron, steel, nickel, cobalt); it can attract or repel.",
+        "All are vectors and are produced as interaction pairs (equal and opposite forces on each object).",
+        "Level 2 (3 to 4 marks): a similarity and clear differences in what causes each force and whether it attracts or repels.",
+        "Level 1 (1 to 2 marks): simple statements, e.g. all are non-contact."
+      ],
+      "explanation": "A comparison needs similarities and differences. They are all non-contact forces, but each is caused by a different property (mass, charge, magnetism) and only gravity is always attractive."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q27",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A ball rolls across a grass field and slows down. Which force acting along the ground slows it down?",
+      "options": [
+        "Weight",
+        "Magnetic force",
+        "Friction",
+        "Tension"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Friction"
+      ],
+      "explanation": "Friction between the ball and the grass (and air resistance) acts against the motion. Weight acts downwards, so it does not slow the ball horizontally."
+    },
+    {
+      "id": "p5-contact-and-non-contact-forces-q28",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which pair contains two non-contact forces?",
+      "options": [
+        "Weight and magnetic force",
+        "Friction and electrostatic force",
+        "Tension and weight",
+        "Air resistance and magnetic force"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Weight and magnetic force"
+      ],
+      "explanation": "Weight (gravitational) and magnetic forces both act across a gap. Each other pair includes a contact force: friction, tension or air resistance."
+    }
+  ]
+}

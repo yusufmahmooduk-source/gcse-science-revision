@@ -1,0 +1,709 @@
+{
+  "id": "p5-speed",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "speed",
+  "specRef": "4.5.6.1.2",
+  "title": "Speed",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Speed is the distance travelled per unit time. It is a scalar quantity (it has no direction) measured in metres per second (m/s), and for constant speed, distance travelled = speed × time.",
+    "explanation": [
+      "Speed tells you how fast an object is moving: how much distance it covers each second. An object moving at 4 m/s travels 4 metres every second. Speed is a scalar quantity because it has a size but no direction. The SI unit is metres per second (m/s), although km/h and miles per hour (mph) are used for vehicles.",
+      "For an object moving at a constant speed, distance travelled = speed × time, or s = v t, where s is distance in metres, v is speed in metres per second and t is time in seconds. You must be able to recall this equation and rearrange it: v = s ÷ t and t = s ÷ v. Always convert to SI units first: minutes and hours to seconds, kilometres to metres.",
+      "In real life, objects rarely move at a constant speed for a whole journey. A car speeds up, slows down for junctions and stops at traffic lights. A person walking or running changes speed too. For non-uniform motion we calculate the average speed: average speed = total distance travelled ÷ total time taken. This is what the equation s = v t gives you when you use the total distance and total time.",
+      "The speed at which a person can walk, run or cycle depends on several factors: their age, their fitness, the terrain (for example uphill, rough ground or sand) and the distance they are travelling (people cannot keep up a sprint over long distances). Typical values you should recall are: walking about 1.5 m/s, running about 3 m/s and cycling about 6 m/s.",
+      "You should also know typical speeds for transport. A car in town travels at roughly 13 m/s (about 30 mph) and on a motorway up to about 31 m/s (70 mph). A fast train may travel at about 50 m/s and a passenger aircraft cruises at about 250 m/s. It is not only moving objects whose speed varies: the speed of the wind changes all the time, and the speed of sound in air depends on conditions such as temperature. A typical value for the speed of sound in air is 330 m/s.",
+      "To measure the speed of an object you need a distance and a time. In a simple experiment, mark out a measured distance with a tape measure or trundle wheel, and time how long the object takes to cover it with a stopwatch. For more accurate measurements, especially of fast objects or short times, light gates connected to a data logger remove the human reaction time from the timing."
+    ],
+    "keyFacts": [
+      "Speed is a scalar quantity: it has magnitude but no direction.",
+      "SI unit of speed: metres per second (m/s).",
+      "distance travelled = speed × time, s = v t (recall this equation).",
+      "Average speed = total distance ÷ total time, for non-uniform motion.",
+      "Typical walking speed is about 1.5 m/s.",
+      "Typical running speed is about 3 m/s.",
+      "Typical cycling speed is about 6 m/s.",
+      "Typical speed of sound in air is 330 m/s.",
+      "A person's speed depends on age, fitness, terrain and distance travelled.",
+      "Typical car speeds: about 13 m/s in town and up to about 31 m/s on a motorway; aircraft about 250 m/s.",
+      "To convert km/h to m/s, multiply by 1000 then divide by 3600 (equivalent to dividing by 3.6)."
+    ],
+    "keyTerms": [
+      {
+        "term": "Speed",
+        "definition": "The distance an object travels per unit time. A scalar quantity measured in m/s."
+      },
+      {
+        "term": "Average speed",
+        "definition": "Total distance travelled divided by total time taken, used when speed varies during a journey."
+      },
+      {
+        "term": "Constant (uniform) speed",
+        "definition": "Speed that does not change: equal distances are covered in equal times."
+      },
+      {
+        "term": "Scalar quantity",
+        "definition": "A quantity with magnitude only, such as speed, distance or time."
+      },
+      {
+        "term": "Light gate",
+        "definition": "A sensor that records the time when an object breaks an infrared beam, used with a data logger to measure times accurately."
+      },
+      {
+        "term": "Metre per second (m/s)",
+        "definition": "The SI unit of speed: the number of metres travelled in each second."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Distance travelled at constant speed",
+        "formula": "distance travelled = speed × time",
+        "symbols": "s = v t",
+        "units": "s in metres (m), v in metres per second (m/s), t in seconds (s)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating speed",
+        "question": "A student runs 100 m in 16 s. Calculate her average speed.",
+        "steps": [
+          "Write the equation: s = v t, so v = s ÷ t.",
+          "Substitute: v = 100 ÷ 16.",
+          "v = 6.25 m/s."
+        ],
+        "answer": "6.25 m/s (about 6.3 m/s)"
+      },
+      {
+        "title": "Rearranging and converting minutes to seconds",
+        "question": "A person walks at 1.5 m/s for 12 minutes. Calculate the distance they walk.",
+        "steps": [
+          "Convert the time to seconds: 12 minutes × 60 = 720 s.",
+          "Use s = v t.",
+          "s = 1.5 × 720 = 1080 m (1.08 km)."
+        ],
+        "answer": "1080 m"
+      },
+      {
+        "title": "Converting km/h to m/s",
+        "question": "A car travels at 54 km/h. Convert this speed to m/s and calculate the time it takes to travel 450 m.",
+        "steps": [
+          "54 km/h means 54 000 m in 3600 s.",
+          "speed = 54 000 ÷ 3600 = 15 m/s.",
+          "Rearrange s = v t to t = s ÷ v.",
+          "t = 450 ÷ 15 = 30 s."
+        ],
+        "answer": "15 m/s; 30 s"
+      },
+      {
+        "title": "Average speed for a journey in two parts",
+        "question": "A cyclist rides 3.0 km in 10 minutes, then 2.4 km in 5 minutes. Calculate the average speed for the whole journey in m/s.",
+        "steps": [
+          "Total distance = 3.0 + 2.4 = 5.4 km = 5400 m.",
+          "Total time = 10 + 5 = 15 minutes = 15 × 60 = 900 s.",
+          "Average speed = total distance ÷ total time = 5400 ÷ 900.",
+          "Average speed = 6.0 m/s. (Do not average the two separate speeds: the times are different.)"
+        ],
+        "answer": "6.0 m/s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Formula triangle for s = v t",
+        "caption": "Cover the quantity you want: s = v × t, v = s ÷ t, t = s ÷ v. Use metres, metres per second and seconds.",
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"200,20 330,200 70,200\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"115\" y1=\"130\" x2=\"285\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"130\" x2=\"200\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"200\" y=\"100\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">s</text><text x=\"155\" y=\"175\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">v</text><text x=\"245\" y=\"175\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">t</text><text x=\"200\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">distance (m)</text><text x=\"150\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speed (m/s)</text><text x=\"248\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time (s)</text><text x=\"340\" y=\"60\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">s = v × t</text><text x=\"340\" y=\"80\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">v = s ÷ t</text><text x=\"340\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">t = s ÷ v</text><text x=\"200\" y=\"222\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Cover the quantity you want to find</text></svg>"
+      },
+      {
+        "title": "Typical everyday speeds",
+        "caption": "Typical speeds to recall: walking 1.5 m/s, running 3 m/s, cycling 6 m/s. A car in town is about 13 m/s; sound in air travels at about 330 m/s.",
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"200\" x2=\"110\" y2=\"205\" stroke=\"currentColor\"/><text x=\"110\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"150\" y1=\"200\" x2=\"150\" y2=\"205\" stroke=\"currentColor\"/><text x=\"150\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><line x1=\"190\" y1=\"200\" x2=\"190\" y2=\"205\" stroke=\"currentColor\"/><text x=\"190\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"230\" y1=\"200\" x2=\"230\" y2=\"205\" stroke=\"currentColor\"/><text x=\"230\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><line x1=\"270\" y1=\"200\" x2=\"270\" y2=\"205\" stroke=\"currentColor\"/><text x=\"270\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><line x1=\"310\" y1=\"200\" x2=\"310\" y2=\"205\" stroke=\"currentColor\"/><text x=\"310\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><line x1=\"350\" y1=\"200\" x2=\"350\" y2=\"205\" stroke=\"currentColor\"/><text x=\"350\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><line x1=\"390\" y1=\"200\" x2=\"390\" y2=\"205\" stroke=\"currentColor\"/><text x=\"390\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">14</text><text x=\"255\" y=\"235\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">typical speed (m/s)</text><rect x=\"110\" y=\"35\" width=\"30\" height=\"24\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"104\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">walking</text><text x=\"146\" y=\"52\" font-size=\"12\" fill=\"currentColor\">1.5 m/s</text><rect x=\"110\" y=\"77\" width=\"60\" height=\"24\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"104\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">running</text><text x=\"176\" y=\"94\" font-size=\"12\" fill=\"currentColor\">3 m/s</text><rect x=\"110\" y=\"119\" width=\"120\" height=\"24\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"104\" y=\"136\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">cycling</text><text x=\"236\" y=\"136\" font-size=\"12\" fill=\"currentColor\">6 m/s</text><rect x=\"110\" y=\"161\" width=\"260\" height=\"24\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"104\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">car in town</text><text x=\"376\" y=\"178\" font-size=\"12\" fill=\"currentColor\">13 m/s</text><text x=\"400\" y=\"15\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">sound in air: about 330 m/s (off the scale)</text></svg>"
+      },
+      {
+        "title": "Measuring speed",
+        "caption": "Measure the distance between two lines and time how long the object takes to travel between them. Average speed = distance ÷ time.",
+        "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"sa\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker><marker id=\"sb\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8 z\" fill=\"currentColor\"/></marker></defs><line x1=\"10\" y1=\"150\" x2=\"410\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"60\" x2=\"70\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"350\" y1=\"60\" x2=\"350\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"70\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">start line</text><text x=\"350\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">finish line</text><line x1=\"72\" y1=\"175\" x2=\"348\" y2=\"175\" stroke=\"currentColor\" marker-end=\"url(#sa)\" marker-start=\"url(#sb)\"/><text x=\"210\" y=\"192\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">distance measured with a tape measure or trundle wheel (m)</text><circle cx=\"120\" cy=\"105\" r=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"115\" x2=\"120\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"120\" y1=\"135\" x2=\"110\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"120\" y1=\"135\" x2=\"132\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"140\" y1=\"105\" x2=\"190\" y2=\"105\" stroke=\"currentColor\" marker-end=\"url(#sa)\"/><text x=\"145\" y=\"95\" font-size=\"12\" fill=\"currentColor\">moving</text><rect x=\"245\" y=\"80\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"265\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">s</text><text x=\"265\" y=\"135\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">stopwatch (s)</text><text x=\"210\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">average speed = distance ÷ time</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think speed is a vector because a moving object is always going somewhere.",
+        "right": "In fact speed has no direction, so it is a scalar. Speed in a given direction is velocity, which is a vector."
+      },
+      {
+        "wrong": "Students often think average speed is found by adding the speeds for each part of a journey and dividing by the number of parts.",
+        "right": "In fact average speed = total distance ÷ total time. Simply averaging speeds only works if each part takes the same time."
+      },
+      {
+        "wrong": "Students often substitute times in minutes or hours, or distances in km, straight into s = v t and give the answer in m/s.",
+        "right": "In fact you must convert to metres and seconds first (1 min = 60 s, 1 h = 3600 s, 1 km = 1000 m) to get an answer in m/s."
+      },
+      {
+        "wrong": "Students often think the speed of sound is always exactly the same.",
+        "right": "In fact the speed of sound varies with the material and conditions (such as air temperature). 330 m/s is a typical value in air."
+      }
+    ],
+    "realWorld": [
+      "Average speed cameras on motorways time cars between two cameras a known distance apart and calculate average speed = distance ÷ time.",
+      "You can estimate how far away a lightning strike is by counting the seconds between seeing the flash and hearing the thunder: every 3 seconds is about 1 km, because sound travels at about 330 m/s.",
+      "Fitness apps and sports watches use GPS to measure distance and time, then display running or cycling speed.",
+      "Town planners use typical walking speeds (about 1.5 m/s) to set how long pedestrian crossing lights stay green."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write the equation, substitute with units, then give the answer with a unit. You can get method marks even if the final answer is wrong.",
+      "Check units before substituting: convert km to m (× 1000), minutes to s (× 60) and hours to s (× 3600).",
+      "Learn the typical speeds: walking 1.5 m/s, running 3 m/s, cycling 6 m/s, sound 330 m/s. Questions often ask you to estimate using these.",
+      "For average speed, always use total distance ÷ total time, including any time spent stopped.",
+      "Sense-check answers: a person walking at 20 m/s or a car at 0.2 m/s means a unit or rearrangement mistake."
+    ],
+    "summary": [
+      "Speed is a scalar: distance per unit time, in m/s.",
+      "s = v t (recall); rearrange to v = s ÷ t or t = s ÷ v.",
+      "Average speed = total distance ÷ total time for non-uniform motion.",
+      "Typical speeds: walking 1.5 m/s, running 3 m/s, cycling 6 m/s, sound in air 330 m/s.",
+      "A person's speed depends on age, fitness, terrain and distance travelled.",
+      "Convert to metres and seconds before calculating."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define speed.",
+      "back": "The distance travelled per unit time."
+    },
+    {
+      "front": "Is speed a scalar or vector?",
+      "back": "Scalar: magnitude only."
+    },
+    {
+      "front": "Equation linking distance, speed and time",
+      "back": "distance travelled = speed × time, s = v t"
+    },
+    {
+      "front": "SI unit of speed",
+      "back": "metres per second, m/s"
+    },
+    {
+      "front": "Typical walking speed",
+      "back": "About 1.5 m/s"
+    },
+    {
+      "front": "Typical running speed",
+      "back": "About 3 m/s"
+    },
+    {
+      "front": "Typical cycling speed",
+      "back": "About 6 m/s"
+    },
+    {
+      "front": "Typical speed of sound in air",
+      "back": "About 330 m/s"
+    },
+    {
+      "front": "How do you calculate average speed?",
+      "back": "Total distance travelled ÷ total time taken"
+    },
+    {
+      "front": "Four factors that affect a person's walking or running speed",
+      "back": "Age, fitness, terrain, distance travelled"
+    },
+    {
+      "front": "How do you convert km/h to m/s?",
+      "back": "Multiply by 1000 and divide by 3600 (or divide by 3.6)."
+    },
+    {
+      "front": "How many seconds in 1 hour?",
+      "back": "3600 s"
+    },
+    {
+      "front": "Why are light gates better than a stopwatch for timing?",
+      "back": "They remove human reaction time, so times (especially short ones) are more accurate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-speed-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the typical speed of a person walking?",
+      "options": [
+        "0.15 m/s",
+        "1.5 m/s",
+        "15 m/s",
+        "150 m/s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Walking speed is about 1.5 m/s: about one and a half metres every second. 15 m/s is faster than an Olympic sprinter."
+    },
+    {
+      "id": "p5-speed-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation correctly links distance travelled (s), speed (v) and time (t)?",
+      "options": [
+        "s = v ÷ t",
+        "s = t ÷ v",
+        "s = v × t",
+        "s = v + t"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Distance = speed × time. The other forms are incorrect rearrangements."
+    },
+    {
+      "id": "p5-speed-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is a typical speed of sound in air?",
+      "options": [
+        "3 m/s",
+        "33 m/s",
+        "3300 m/s",
+        "330 m/s"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "A typical value for the speed of sound in air is 330 m/s. It varies with conditions such as temperature."
+    },
+    {
+      "id": "p5-speed-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a scalar quantity?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Displacement",
+        "Acceleration"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Speed has magnitude but no direction. The other three are vectors."
+    },
+    {
+      "id": "p5-speed-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is closest to the typical speed of a person cycling?",
+      "options": [
+        "0.6 m/s",
+        "60 m/s",
+        "6 m/s",
+        "16 m/s"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Cycling speed is about 6 m/s (around 13 mph). 16 m/s would be a fast car in town."
+    },
+    {
+      "id": "p5-speed-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which factor does NOT normally affect how fast a person can run?",
+      "options": [
+        "Their fitness",
+        "The terrain",
+        "The distance they must run",
+        "The colour of their clothing"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Age, fitness, terrain and distance travelled all affect speed. Clothing colour has no effect."
+    },
+    {
+      "id": "p5-speed-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A car travels at 90 km/h. What is this speed in m/s?",
+      "options": [
+        "25 m/s",
+        "324 m/s",
+        "1.5 m/s",
+        "54 m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "90 × 1000 ÷ 3600 = 25 m/s. 324 comes from multiplying by 3.6 instead of dividing; 1.5 comes from dividing by 60 only."
+    },
+    {
+      "id": "p5-speed-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student times a toy car over 2.0 m with a stopwatch. Why would using light gates give a more accurate time?",
+      "options": [
+        "Light gates make the car go at a constant speed",
+        "Light gates remove the effect of human reaction time",
+        "Light gates measure the distance more precisely",
+        "Light gates reduce friction on the car"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Starting and stopping a stopwatch involves reaction time, which is a large fraction of a short time. Light gates trigger automatically."
+    },
+    {
+      "id": "p5-speed-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A runner runs 400 m at 8.0 m/s and then walks 400 m at 2.0 m/s. What is the average speed for the whole 800 m?",
+      "options": [
+        "5.0 m/s",
+        "4.0 m/s",
+        "3.2 m/s",
+        "6.0 m/s"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Time running = 400 ÷ 8.0 = 50 s; time walking = 400 ÷ 2.0 = 200 s. Average speed = 800 ÷ 250 = 3.2 m/s. 5.0 m/s is the trap of averaging the speeds; more time is spent walking, so the average is closer to 2.0 m/s."
+    },
+    {
+      "id": "p5-speed-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A dog runs 60 m in 8.0 s. Calculate its average speed.",
+      "numericAnswer": 7.5,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: v = s ÷ t = 60 ÷ 8.0",
+        "1 mark: 7.5 m/s"
+      ],
+      "explanation": "Speed = distance ÷ time = 60 ÷ 8.0 = 7.5 m/s."
+    },
+    {
+      "id": "p5-speed-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A bus travels at a constant speed of 12 m/s for 50 s. Calculate the distance it travels.",
+      "numericAnswer": 600,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: s = v t = 12 × 50",
+        "1 mark: 600 m"
+      ],
+      "explanation": "s = v t = 12 × 50 = 600 m."
+    },
+    {
+      "id": "p5-speed-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A woman walks at 1.5 m/s for 25 minutes. Calculate the distance she walks in metres.",
+      "numericAnswer": 2250,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 25 × 60 = 1500 s",
+        "1 mark: s = 1.5 × 1500",
+        "1 mark: 2250 m"
+      ],
+      "explanation": "Convert minutes to seconds first: 25 × 60 = 1500 s. Then s = v t = 1.5 × 1500 = 2250 m."
+    },
+    {
+      "id": "p5-speed-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A cyclist travels at 6.0 m/s. Calculate how long it takes her to cycle 3.6 km. Give your answer in seconds.",
+      "numericAnswer": 600,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 3.6 km = 3600 m",
+        "1 mark: t = s ÷ v = 3600 ÷ 6.0",
+        "1 mark: 600 s"
+      ],
+      "explanation": "Rearrange s = v t to t = s ÷ v. Convert km to m: 3.6 km = 3600 m. t = 3600 ÷ 6.0 = 600 s (10 minutes)."
+    },
+    {
+      "id": "p5-speed-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A train travels at 108 km/h. Convert this speed to m/s.",
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 108 × 1000 ÷ 3600",
+        "1 mark: 30 m/s"
+      ],
+      "explanation": "108 km/h = 108 000 m per 3600 s = 30 m/s."
+    },
+    {
+      "id": "p5-speed-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "During a storm, a girl hears thunder 4.0 s after she sees a lightning flash. The speed of sound in air is 330 m/s. Calculate how far away the lightning was.",
+      "numericAnswer": 1320,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: s = 330 × 4.0",
+        "1 mark: 1320 m"
+      ],
+      "explanation": "Light arrives almost instantly, so the delay is the time for the sound. s = v t = 330 × 4.0 = 1320 m (about 1.3 km)."
+    },
+    {
+      "id": "p5-speed-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A car travels 12 km along a motorway in 8.0 minutes and then 3.0 km through a town in 7.0 minutes. Calculate the average speed of the car for the whole journey in m/s.",
+      "numericAnswer": 16.67,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: total distance = 15 km = 15 000 m",
+        "1 mark: total time = 15 min = 900 s",
+        "1 mark: average speed = 15 000 ÷ 900",
+        "1 mark: 16.7 m/s"
+      ],
+      "explanation": "Average speed = total distance ÷ total time = 15 000 ÷ 900 = 16.7 m/s. Averaging the two separate speeds (25 m/s and 7.1 m/s) gives the wrong answer because the times are different."
+    },
+    {
+      "id": "p5-speed-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student stands 99 m from a tall wall and claps once. The speed of sound in air is 330 m/s. Calculate the time between the clap and hearing the echo.",
+      "numericAnswer": 0.6,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: distance travelled by sound = 2 × 99 = 198 m",
+        "1 mark: t = s ÷ v = 198 ÷ 330",
+        "1 mark: 0.60 s"
+      ],
+      "explanation": "The sound must travel to the wall and back, a distance of 198 m. t = 198 ÷ 330 = 0.60 s. Using 99 m gives 0.30 s, which forgets the return trip."
+    },
+    {
+      "id": "p5-speed-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the unit of speed in the SI system.",
+      "acceptedAnswers": [
+        "m/s",
+        "metres per second",
+        "ms⁻¹"
+      ],
+      "markScheme": [
+        "1 mark: m/s / metres per second"
+      ],
+      "explanation": "Speed is distance (m) divided by time (s)."
+    },
+    {
+      "id": "p5-speed-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two factors that affect the speed at which a person can walk.",
+      "acceptedAnswers": [
+        "age",
+        "fitness",
+        "terrain",
+        "distance travelled",
+        "slope",
+        "ground"
+      ],
+      "markScheme": [
+        "1 mark each for any two: age, fitness, terrain (type of ground or slope), distance travelled"
+      ],
+      "explanation": "AQA lists age, terrain, fitness and distance travelled as factors affecting a person's speed."
+    },
+    {
+      "id": "p5-speed-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State a typical speed for a person running.",
+      "acceptedAnswers": [
+        "3 m/s",
+        "about 3 m/s"
+      ],
+      "markScheme": [
+        "1 mark: about 3 m/s (accept 2 to 4 m/s)"
+      ],
+      "explanation": "A typical running speed is about 3 m/s, twice walking speed."
+    },
+    {
+      "id": "p5-speed-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the speed calculated from a whole car journey is called an average speed.",
+      "acceptedAnswers": [
+        "speed changes",
+        "not constant",
+        "total distance ÷ total time",
+        "speeds up and slows down"
+      ],
+      "markScheme": [
+        "1 mark: the car's speed changes / is not constant during the journey (for example slowing at junctions)",
+        "1 mark: so total distance ÷ total time gives a single average value, not the speed at every moment"
+      ],
+      "explanation": "Real vehicles rarely travel at constant speed, so the calculation gives the average."
+    },
+    {
+      "id": "p5-speed-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The speed of sound is often quoted as 330 m/s. Suggest why the speed of sound measured in an experiment might not be exactly 330 m/s.",
+      "acceptedAnswers": [
+        "speed of sound varies",
+        "temperature",
+        "conditions of the air",
+        "measurement error",
+        "reaction time"
+      ],
+      "markScheme": [
+        "1 mark: the speed of sound varies with conditions, for example air temperature",
+        "1 mark: errors in measuring time, for example human reaction time, or distance"
+      ],
+      "explanation": "330 m/s is a typical value. The real value depends on the air, and timing errors are large when times are short."
+    },
+    {
+      "id": "p5-speed-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe how a student could measure the average walking speed of a classmate in the school playground.",
+      "acceptedAnswers": [
+        "measure a distance with a tape measure or trundle wheel",
+        "time with a stopwatch",
+        "speed = distance ÷ time",
+        "repeat and average"
+      ],
+      "markScheme": [
+        "1 mark: measure a known distance (for example 20 m) with a tape measure or trundle wheel",
+        "1 mark: time the classmate walking the distance with a stopwatch",
+        "1 mark: calculate speed = distance ÷ time (repeat and take a mean)"
+      ],
+      "explanation": "This is the standard method: known distance, measured time, then speed = distance ÷ time."
+    },
+    {
+      "id": "p5-speed-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student says: \"I can estimate the time for a 2 km walk to school without being told my speed.\" Estimate the time in minutes, showing your reasoning.",
+      "acceptedAnswers": [
+        "1.5 m/s",
+        "about 1300 s",
+        "about 22 minutes",
+        "20 to 25 minutes"
+      ],
+      "markScheme": [
+        "1 mark: uses a typical walking speed of about 1.5 m/s",
+        "1 mark: t = 2000 ÷ 1.5 ≈ 1300 s",
+        "1 mark: about 22 minutes (accept 20 to 25 minutes)"
+      ],
+      "explanation": "Estimation questions expect you to use the typical speeds you have learned. 2000 ÷ 1.5 = 1333 s, which is about 22 minutes."
+    },
+    {
+      "id": "p5-speed-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare the typical speeds of walking, running and cycling, and explain why the speed of a person running can change during a long race.",
+      "markScheme": [
+        "Indicative content:",
+        "Walking about 1.5 m/s",
+        "Running about 3 m/s, about twice walking speed",
+        "Cycling about 6 m/s, about twice running speed and four times walking speed",
+        "Speed changes in a race because of fitness / tiredness over long distance",
+        "Terrain changes, for example hills or muddy ground slow the runner",
+        "Age and fitness of the runner affect the speed they can keep up",
+        "Level 2 (3 to 4 marks): correct typical values compared, with at least two reasons for changing speed",
+        "Level 1 (1 to 2 marks): some correct values or a reason",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "AQA expects you to recall the typical speeds and the factors (age, terrain, fitness, distance) that affect them."
+    },
+    {
+      "id": "p5-speed-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Two students want to measure the speed of sound in air. They have a starting pistol (which makes a flash and a bang), a stopwatch and a long, straight, open field.\nDescribe a method they could use, explain how they would calculate the speed of sound, and explain how they could make their result more accurate.",
+      "markScheme": [
+        "Indicative content:",
+        "Measure a large distance between the students, for example 400 m to 500 m, with a trundle wheel or measuring tape",
+        "Student A fires the pistol; student B starts the stopwatch on seeing the flash",
+        "Student B stops the stopwatch on hearing the bang",
+        "Light travels so fast that its travel time is negligible",
+        "Speed of sound = distance ÷ time (expected result about 330 m/s)",
+        "Use a large distance so the time is longer and reaction time is a smaller fraction of it",
+        "Repeat several times and calculate a mean; discard anomalous results",
+        "Swap positions to cancel the effect of wind",
+        "Level 3 (5 to 6 marks): detailed, logical method with calculation and at least two valid improvements explained",
+        "Level 2 (3 to 4 marks): clear method with calculation or improvements, some explanation",
+        "Level 1 (1 to 2 marks): basic relevant steps",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "The key ideas are: time the delay between flash and bang over a known, large distance; speed = distance ÷ time; and reduce the effect of reaction time by using a large distance and repeats."
+    }
+  ]
+}

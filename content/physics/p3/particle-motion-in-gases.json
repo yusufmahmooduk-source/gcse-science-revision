@@ -1,0 +1,694 @@
+{
+  "id": "p3-particle-motion-in-gases",
+  "science": "physics",
+  "topicId": "p3",
+  "slug": "particle-motion-in-gases",
+  "specRef": "4.3.3.1",
+  "title": "Particle motion in gases",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The molecules of a gas are in constant random motion. The temperature of a gas is related to the average kinetic energy of its molecules, and for a gas held at constant volume, increasing the temperature increases the pressure.",
+    "explanation": [
+      "In a gas the molecules are far apart and move about quickly in all directions. Their motion is constant (they never stop) and random (they move in straight lines in any direction until they collide with each other or with the walls of the container, then change direction). At any moment, different molecules have different speeds.",
+      "The temperature of a gas is related to the average kinetic energy of its molecules. When a gas is heated, energy is transferred to the molecules, they move faster on average and their average kinetic energy increases, so the temperature rises. When a gas is cooled, the molecules slow down and the temperature falls.",
+      "A gas exerts pressure because its molecules collide with the walls of its container. Each collision exerts a small force on the wall. Billions of collisions every second add up to a steady force on each part of the wall, and the force per unit area is the pressure of the gas.",
+      "If a fixed mass of gas is kept at constant volume (for example in a sealed, rigid container) and its temperature is increased, its pressure increases. The molecules move faster, so they collide with the walls more often (more collisions per second) and each collision is harder (exerts a larger force). Both effects increase the total force on the walls, so the pressure rises. Cooling the gas does the reverse: slower molecules make fewer, gentler collisions, so the pressure falls.",
+      "This explains everyday observations. Car tyres have a higher pressure after a long drive because the air inside has warmed up. Aerosol cans carry a warning not to heat them, because the pressure of the gas inside would increase and could make the can burst. A sealed plastic bottle put in a freezer is crushed, because the pressure of the cold air inside becomes lower than the atmospheric pressure outside."
+    ],
+    "keyFacts": [
+      "Gas molecules are in constant random motion.",
+      "Gas molecules move at a range of speeds in all directions.",
+      "The temperature of a gas is related to the average kinetic energy of its molecules.",
+      "Heating a gas makes its molecules move faster on average.",
+      "Gas pressure is caused by molecules colliding with the walls of the container.",
+      "At constant volume, increasing the temperature of a gas increases its pressure.",
+      "Higher temperature means more frequent collisions with the walls and a larger force from each collision.",
+      "At constant volume, cooling a gas decreases its pressure.",
+      "Constant volume and a fixed mass of gas (sealed container) are needed for this relationship."
+    ],
+    "keyTerms": [
+      {
+        "term": "Random motion",
+        "definition": "Movement in unpredictable directions, with molecules changing direction when they collide."
+      },
+      {
+        "term": "Temperature (of a gas)",
+        "definition": "A measure related to the average kinetic energy of the gas molecules."
+      },
+      {
+        "term": "Kinetic energy",
+        "definition": "Energy an object or particle has because it is moving."
+      },
+      {
+        "term": "Gas pressure",
+        "definition": "The force per unit area exerted by a gas on a surface, caused by molecules colliding with it."
+      },
+      {
+        "term": "Constant volume",
+        "definition": "The gas is kept in a container that cannot expand or contract, such as a sealed, rigid can."
+      },
+      {
+        "term": "Collision",
+        "definition": "When a gas molecule hits another molecule or the wall of its container and changes direction."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Explaining a pressure rise",
+        "question": "A sealed, rigid metal can of air is placed in hot water. Explain why the pressure of the air inside increases.",
+        "steps": [
+          "The volume of the can is fixed and no air can escape.",
+          "Energy is transferred to the air, so the molecules move faster: their average kinetic energy increases, so the temperature rises.",
+          "Faster molecules hit the walls more often (more collisions per second).",
+          "Each collision is harder, exerting a larger force.",
+          "So the total force on the walls, and the pressure, increases."
+        ],
+        "answer": "Higher temperature, faster molecules, more frequent and harder collisions with the walls, so greater pressure."
+      },
+      {
+        "title": "Reading a pressure and temperature graph",
+        "question": "A graph shows that a fixed mass of gas at constant volume has a pressure of 94 kPa at 0 °C and 129 kPa at 100 °C. Describe the relationship and explain it.",
+        "steps": [
+          "As temperature increases, pressure increases (a straight-line graph that does not pass through 0 at 0 °C).",
+          "Pressure rises by 129 − 94 = 35 kPa for a 100 °C rise.",
+          "Explanation: higher temperature means a higher average kinetic energy, so molecules collide with the walls more often and with more force."
+        ],
+        "answer": "Pressure increases steadily with temperature, because faster molecules make more frequent and more forceful collisions."
+      },
+      {
+        "title": "The bottle in the freezer",
+        "question": "A sealed, empty plastic bottle is put in a freezer and becomes crushed. Explain why.",
+        "steps": [
+          "The air inside cools, so the molecules slow down.",
+          "They hit the inside walls less often and with less force, so the pressure inside falls.",
+          "The air outside the bottle is still at atmospheric pressure, which is now greater than the pressure inside.",
+          "The larger force from outside pushes the walls in."
+        ],
+        "answer": "The pressure inside falls below atmospheric pressure, so the bottle is pushed in."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Heating a gas at constant volume",
+        "caption": "The same molecules in the same rigid container. At the higher temperature the molecules move faster (longer arrows), so they hit the walls more often and harder, giving a higher pressure.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='30' width='160' height='175' fill='none' stroke='currentColor' stroke-width='2.5'/><rect x='290' y='30' width='160' height='175' fill='none' stroke='currentColor' stroke-width='2.5'/><circle cx='50' cy='60' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='55.144957554275265' y1='56.91302546743484' x2='58.8' y2='54.9' stroke='currentColor' stroke-width='1.2'/><path d='M64 52 L57.3 52.3 L60.2 57.5 Z' fill='currentColor'/><circle cx='105' cy='45' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='99.91201017596947' y1='48.17999364001908' x2='99' y2='48.7' stroke='currentColor' stroke-width='1.2'/><path d='M94 52 L100.7 51.3 L97.4 46.2 Z' fill='currentColor'/><circle cx='150' cy='80' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='152.22834405812463' y1='85.57086014531156' x2='153.5' y2='88.5' stroke='currentColor' stroke-width='1.2'/><path d='M156 94 L156.3 87.3 L150.8 89.7 Z' fill='currentColor'/><circle cx='70' cy='120' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='64.25304228867309' y1='121.72408731339807' x2='61.8' y2='122.4' stroke='currentColor' stroke-width='1.2'/><path d='M56 124 L62.6 125.3 L61 119.5 Z' fill='currentColor'/><circle cx='125' cy='135' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='130.88348405414553' y1='136.1766968108291' x2='133.1' y2='136.7' stroke='currentColor' stroke-width='1.2'/><path d='M139 138 L133.8 133.8 L132.5 139.6 Z' fill='currentColor'/><circle cx='170' cy='170' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='168.27591268660194' y1='164.2530422886731' x2='167.6' y2='161.8' stroke='currentColor' stroke-width='1.2'/><path d='M166 156 L164.7 162.6 L170.5 161 Z' fill='currentColor'/><circle cx='60' cy='180' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='65.59202802924777' y1='182.1746775669297' x2='67.4' y2='182.9' stroke='currentColor' stroke-width='1.2'/><path d='M73 185 L68.5 180.1 L66.3 185.7 Z' fill='currentColor'/><circle cx='115' cy='95' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='115.597022314126' y1='89.02977685874006' x2='115.7' y2='87' stroke='currentColor' stroke-width='1.2'/><path d='M116 81 L112.7 86.8 L118.7 87.1 Z' fill='currentColor'/><circle cx='310' cy='60' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='315.14495755427527' y1='56.91302546743484' x2='332.9' y2='46.1' stroke='currentColor' stroke-width='1.2'/><path d='M338 43 L331.3 43.6 L334.4 48.7 Z' fill='currentColor'/><circle cx='365' cy='45' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='359.9120101759695' y1='48.17999364001908' x2='348.1' y2='55.8' stroke='currentColor' stroke-width='1.2'/><path d='M343 59 L349.7 58.3 L346.4 53.2 Z' fill='currentColor'/><circle cx='410' cy='80' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='412.2283440581246' y1='85.57086014531156' x2='418.8' y2='102.4' stroke='currentColor' stroke-width='1.2'/><path d='M421 108 L421.6 101.3 L416 103.5 Z' fill='currentColor'/><circle cx='330' cy='120' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='324.2530422886731' y1='121.72408731339807' x2='307.8' y2='126.4' stroke='currentColor' stroke-width='1.2'/><path d='M302 128 L308.6 129.3 L307 123.5 Z' fill='currentColor'/><circle cx='385' cy='135' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='390.8834840541455' y1='136.1766968108291' x2='407.1' y2='139.7' stroke='currentColor' stroke-width='1.2'/><path d='M413 141 L407.8 136.8 L406.5 142.7 Z' fill='currentColor'/><circle cx='430' cy='170' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='428.27591268660194' y1='164.2530422886731' x2='423.6' y2='147.8' stroke='currentColor' stroke-width='1.2'/><path d='M422 142 L420.7 148.6 L426.5 147 Z' fill='currentColor'/><circle cx='320' cy='180' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='325.5920280292478' y1='182.1746775669297' x2='339.4' y2='187.8' stroke='currentColor' stroke-width='1.2'/><path d='M345 190 L340.6 185 L338.3 190.5 Z' fill='currentColor'/><circle cx='375' cy='95' r='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='375.597022314126' y1='89.02977685874006' x2='377.3' y2='73' stroke='currentColor' stroke-width='1.2'/><path d='M378 67 L374.4 72.6 L380.3 73.3 Z' fill='currentColor'/><line x1='210' y1='118' x2='275' y2='118' stroke='currentColor' stroke-width='2'/><path d='M285 118 L275 113 L275 123 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='110' y='20'>Lower temperature</text><text x='370' y='20'>Higher temperature</text><text x='248' y='108'>heat</text><text x='110' y='225'>slower molecules: fewer,</text><text x='110' y='240'>gentler collisions with walls</text><text x='110' y='255'>lower pressure</text><text x='370' y='225'>faster molecules: more frequent,</text><text x='370' y='240'>harder collisions with walls</text><text x='370' y='255'>higher pressure</text></g><g font-size='12' fill='currentColor'><text x='206' y='160'>same volume,</text><text x='206' y='174'>same number</text><text x='206' y='188'>of molecules</text></g></svg>"
+      },
+      {
+        "title": "Pressure against temperature at constant volume",
+        "caption": "For a fixed mass of gas at constant volume, the pressure increases as the temperature increases. The graph is a straight line that does not pass through zero at 0 °C. Note that the pressure axis starts at 90 kPa.",
+        "svg": "<svg viewBox='0 0 480 280' xmlns='http://www.w3.org/2000/svg'><line x1='70' y1='230' x2='70' y2='38' stroke='currentColor' stroke-width='1.5'/><path d='M70 30 L66 38 L74 38 Z' fill='currentColor'/><line x1='70' y1='230' x2='447' y2='230' stroke='currentColor' stroke-width='1.5'/><path d='M455 230 L447 226 L447 234 Z' fill='currentColor'/><line x1='70' y1='215.2' x2='430' y2='91.1' stroke='currentColor' stroke-width='2.5'/><g fill='currentColor'><circle cx='70' cy='215.2' r='3.5'/><circle cx='142' cy='190.4' r='3.5'/><circle cx='214' cy='165.6' r='3.5'/><circle cx='286' cy='140.8' r='3.5'/><circle cx='358' cy='115.9' r='3.5'/><circle cx='430' cy='91.1' r='3.5'/></g><g font-size='12' fill='currentColor'><line x1='70' y1='230' x2='70' y2='235' stroke='currentColor'/><text x='70' y='248' text-anchor='middle'>0</text><line x1='160' y1='230' x2='160' y2='235' stroke='currentColor'/><text x='160' y='248' text-anchor='middle'>25</text><line x1='250' y1='230' x2='250' y2='235' stroke='currentColor'/><text x='250' y='248' text-anchor='middle'>50</text><line x1='340' y1='230' x2='340' y2='235' stroke='currentColor'/><text x='340' y='248' text-anchor='middle'>75</text><line x1='430' y1='230' x2='430' y2='235' stroke='currentColor'/><text x='430' y='248' text-anchor='middle'>100</text><line x1='65' y1='230' x2='70' y2='230' stroke='currentColor'/><text x='60' y='234' text-anchor='end'>90</text><line x1='65' y1='194' x2='70' y2='194' stroke='currentColor'/><text x='60' y='198' text-anchor='end'>100</text><line x1='65' y1='158' x2='70' y2='158' stroke='currentColor'/><text x='60' y='162' text-anchor='end'>110</text><line x1='65' y1='122' x2='70' y2='122' stroke='currentColor'/><text x='60' y='126' text-anchor='end'>120</text><line x1='65' y1='86' x2='70' y2='86' stroke='currentColor'/><text x='60' y='90' text-anchor='end'>130</text><text x='262' y='272' text-anchor='middle'>temperature (°C)</text><text x='18' y='130' text-anchor='middle' transform='rotate(-90 18 130)'>pressure (kPa)</text><text x='120' y='60'>fixed mass of gas at constant volume:</text><text x='120' y='76'>pressure increases as temperature increases</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think gas molecules get bigger when the gas is heated.",
+        "right": "In fact the molecules stay the same size; they just move faster."
+      },
+      {
+        "wrong": "Students often think pressure is caused by molecules colliding with each other.",
+        "right": "In fact gas pressure on a container is caused by molecules colliding with the walls of the container."
+      },
+      {
+        "wrong": "Students often think all the molecules in a gas move at the same speed.",
+        "right": "In fact they have a range of speeds. Temperature is related to the average kinetic energy."
+      },
+      {
+        "wrong": "Students often say that heated molecules 'collide more' without explaining the force.",
+        "right": "In fact there are two effects: more frequent collisions with the walls, and a greater force in each collision. Both increase pressure."
+      }
+    ],
+    "realWorld": [
+      "Tyre pressures should be checked when the tyres are cold, because the pressure rises as the air warms up during driving.",
+      "Aerosol cans warn 'do not heat or puncture', because heating raises the pressure inside and could cause the can to burst.",
+      "Pressure cookers and gas cylinders are designed with safety valves because heating raises the gas pressure."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always link temperature to the average kinetic energy (or speed) of the molecules.",
+      "For pressure rises, give both reasons: collisions with the walls are more frequent and each collision exerts a greater force.",
+      "Say 'collide with the walls of the container', not just 'collide', when explaining pressure.",
+      "State that the volume (and mass of gas) is constant, so the only change is temperature."
+    ],
+    "summary": [
+      "Gas molecules are in constant random motion.",
+      "Temperature is related to the average kinetic energy of the molecules.",
+      "Pressure is caused by molecules colliding with the container walls.",
+      "At constant volume, higher temperature means higher pressure.",
+      "Faster molecules collide with the walls more often and with more force.",
+      "Cooling a gas at constant volume lowers its pressure."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "How do gas molecules move?",
+      "back": "In constant random motion, at a range of speeds."
+    },
+    {
+      "front": "Temperature of a gas is related to...",
+      "back": "the average kinetic energy of its molecules."
+    },
+    {
+      "front": "What causes gas pressure?",
+      "back": "Molecules colliding with the walls of the container."
+    },
+    {
+      "front": "Heating a gas at constant volume does what to its pressure?",
+      "back": "Increases it."
+    },
+    {
+      "front": "Two reasons pressure rises when a gas is heated at constant volume",
+      "back": "Molecules hit the walls more often, and each collision exerts a greater force."
+    },
+    {
+      "front": "What happens to gas molecules when the gas is heated?",
+      "back": "They move faster on average (greater average kinetic energy)."
+    },
+    {
+      "front": "What must be kept constant for the pressure and temperature relationship?",
+      "back": "The volume and the mass (amount) of gas."
+    },
+    {
+      "front": "Why check tyre pressure when tyres are cold?",
+      "back": "Driving warms the air, raising its pressure, so a warm reading is too high."
+    },
+    {
+      "front": "Why must aerosol cans not be heated?",
+      "back": "The gas pressure inside rises and the can could burst."
+    },
+    {
+      "front": "What happens to pressure when a gas is cooled at constant volume?",
+      "back": "It decreases."
+    },
+    {
+      "front": "Do gas molecules get bigger when heated?",
+      "back": "No: they move faster but stay the same size."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-particle-motion-in-gases-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes the motion of molecules in a gas?",
+      "options": [
+        "They vibrate about fixed positions",
+        "They move in constant random motion",
+        "They are stationary unless heated",
+        "They all move in the same direction"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: They move in constant random motion"
+      ],
+      "explanation": "Gas molecules move constantly in random directions. Vibrating about fixed positions describes a solid."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The temperature of a gas is related to the average of which quantity for its molecules?",
+      "options": [
+        "Mass",
+        "Size",
+        "Potential energy",
+        "Kinetic energy"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Kinetic energy"
+      ],
+      "explanation": "Temperature is related to the average kinetic energy of the molecules: faster molecules mean a higher temperature."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A sealed, rigid container of gas is heated. What happens to the pressure of the gas?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It increases"
+      ],
+      "explanation": "At constant volume, a higher temperature means faster molecules, more frequent and harder collisions with the walls, and so a higher pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What causes a gas to exert pressure on the walls of its container?",
+      "options": [
+        "The weight of the container",
+        "Molecules collapsing together",
+        "Molecules colliding with the walls",
+        "Molecules getting larger"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Molecules colliding with the walls"
+      ],
+      "explanation": "Each collision with a wall exerts a small force; the total force per unit area is the pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When a gas is heated, what happens to its molecules?",
+      "options": [
+        "They move faster on average",
+        "They get bigger",
+        "They stop moving",
+        "They lose mass"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: They move faster on average"
+      ],
+      "explanation": "Energy transferred to the gas increases the average kinetic energy of the molecules, so they move faster. Their size and mass do not change."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A fixed mass of gas is cooled at constant volume. Why does its pressure decrease?",
+      "options": [
+        "The molecules become smaller",
+        "There are fewer molecules in the container",
+        "The molecules collide with each other more often",
+        "The molecules move more slowly, so they hit the walls less often and with less force"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The molecules move more slowly, so they hit the walls less often and with less force"
+      ],
+      "explanation": "Cooling lowers the average kinetic energy, so collisions with the walls are less frequent and less forceful. The number of molecules stays the same in a sealed container."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which two effects make the pressure of a gas increase when it is heated at constant volume?",
+      "options": [
+        "More molecules are made, and they are heavier",
+        "Collisions with the walls are more frequent, and each collision exerts a greater force",
+        "Molecules attract each other more, and they move more slowly",
+        "The volume increases, and the molecules spread out"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Collisions with the walls are more frequent, and each collision exerts a greater force"
+      ],
+      "explanation": "Faster molecules reach the walls more often and hit them harder. The number and mass of molecules do not change, and the volume is constant."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A gas is heated in a sealed, rigid container. Which quantity stays the same?",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Volume",
+        "Average speed of the molecules"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Volume"
+      ],
+      "explanation": "The container is rigid, so the volume is constant. The temperature, the molecules' average speed and the pressure all increase."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A driver measures the tyre pressure after a long motorway journey and finds it higher than in the morning. What is the most likely reason?",
+      "options": [
+        "The air in the tyres has warmed up",
+        "Air has leaked into the tyres",
+        "The air molecules have become larger",
+        "The tyres have shrunk"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The air in the tyres has warmed up"
+      ],
+      "explanation": "Friction and flexing of the tyre warm the air. At (roughly) constant volume, higher temperature means higher pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do aerosol cans carry the warning 'Do not heat'?",
+      "options": [
+        "Heating makes the gas molecules heavier",
+        "Heating would increase the pressure of the gas inside, which could make the can burst",
+        "Heating would make the gas turn into a solid",
+        "Heating reduces the number of gas molecules in the can"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Heating would increase the pressure of the gas inside, which could make the can burst"
+      ],
+      "explanation": "The can has a fixed volume. Heating raises the temperature and therefore the pressure of the gas inside, which could exceed what the can can withstand."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement about the molecules of a gas at a constant temperature is correct?",
+      "options": [
+        "All the molecules move at exactly the same speed",
+        "The molecules have a range of speeds, but their average kinetic energy is constant",
+        "The molecules are stationary",
+        "The molecules move only when they collide"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The molecules have a range of speeds, but their average kinetic energy is constant"
+      ],
+      "explanation": "Collisions constantly change individual speeds, so there is a range of speeds. Temperature is linked to the average kinetic energy, which stays constant at constant temperature."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q12",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sealed, rigid flask of gas is cooled. What happens to the number of collisions per second between molecules and the walls, and to the average force of each collision?",
+      "options": [
+        "Both increase",
+        "Collisions per second increase, average force decreases",
+        "Both decrease",
+        "Both stay the same"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Both decrease"
+      ],
+      "explanation": "Slower molecules take longer to cross the flask, so they reach the walls less often, and they hit with less momentum, so each collision exerts less force."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q13",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student heats a sealed, rigid flask of air and plots pressure against temperature in °C. Which description of the graph is correct?",
+      "options": [
+        "Pressure increases as temperature increases",
+        "Pressure decreases as temperature increases",
+        "Pressure stays constant as temperature increases",
+        "Pressure is zero at 0 °C and doubles when the temperature doubles"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Pressure increases as temperature increases"
+      ],
+      "explanation": "At constant volume, raising the temperature raises the pressure. The gas still has a large pressure at 0 °C, because its molecules are still moving, so the line does not pass through zero at 0 °C."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sealed, rigid container of gas has a pressure of 101 kPa at 20 °C. Predict whether the pressure will be higher or lower at 60 °C, and give a reason.",
+      "acceptedAnswers": [
+        "higher",
+        "molecules move faster",
+        "more frequent collisions",
+        "greater force",
+        "average kinetic energy increases"
+      ],
+      "markScheme": [
+        "1 mark: higher",
+        "1 mark: at a higher temperature the molecules move faster, so they collide with the walls more often and with more force"
+      ],
+      "explanation": "The volume is fixed, so increasing the temperature increases the pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe the motion of the molecules in a gas.",
+      "acceptedAnswers": [
+        "constant",
+        "random",
+        "different speeds",
+        "all directions",
+        "fast"
+      ],
+      "markScheme": [
+        "1 mark: constant / continuous motion",
+        "1 mark: random (in all directions, with a range of speeds)"
+      ],
+      "explanation": "The two key words are 'constant' and 'random'."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what the temperature of a gas is related to.",
+      "acceptedAnswers": [
+        "average kinetic energy of the molecules",
+        "average kinetic energy",
+        "speed of molecules"
+      ],
+      "markScheme": [
+        "1 mark: the average kinetic energy of its molecules"
+      ],
+      "explanation": "A higher temperature means the molecules have a higher average kinetic energy."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the pressure of a gas held at constant volume when its temperature decreases.",
+      "acceptedAnswers": [
+        "decreases",
+        "goes down",
+        "falls"
+      ],
+      "markScheme": [
+        "1 mark: the pressure decreases"
+      ],
+      "explanation": "Cooler gas molecules move more slowly and collide with the walls less often and less forcefully."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the type of energy that gas molecules have because they are moving.",
+      "acceptedAnswers": [
+        "kinetic energy",
+        "kinetic"
+      ],
+      "markScheme": [
+        "1 mark: kinetic energy"
+      ],
+      "explanation": "All moving particles have kinetic energy; temperature relates to its average value."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how the molecules of a gas exert a pressure on the walls of a container.",
+      "acceptedAnswers": [
+        "molecules collide with walls",
+        "exert a force",
+        "force per unit area",
+        "many collisions"
+      ],
+      "markScheme": [
+        "1 mark: the molecules collide with the walls of the container",
+        "1 mark: each collision exerts a force on the wall; the total force on an area of wall produces the pressure"
+      ],
+      "explanation": "Pressure is force per unit area, and the force comes from collisions."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student wants to investigate how the pressure of a gas depends on its temperature. State two variables that must be kept constant.",
+      "acceptedAnswers": [
+        "volume",
+        "mass of gas",
+        "amount of gas",
+        "number of molecules"
+      ],
+      "markScheme": [
+        "1 mark: the volume of the gas",
+        "1 mark: the mass (amount) of gas / number of molecules"
+      ],
+      "explanation": "A sealed, rigid flask keeps both the volume and the mass of gas constant."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe what happens to the molecules of a gas when the gas is cooled.",
+      "acceptedAnswers": [
+        "move more slowly",
+        "lower average kinetic energy",
+        "lower temperature",
+        "fewer collisions"
+      ],
+      "markScheme": [
+        "1 mark: the molecules move more slowly on average",
+        "1 mark: so their average kinetic energy (and the temperature) decreases"
+      ],
+      "explanation": "Cooling transfers energy away from the molecules."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain, in terms of molecules, why the pressure of a gas in a sealed, rigid container increases when the gas is heated.",
+      "acceptedAnswers": [
+        "average kinetic energy increases",
+        "move faster",
+        "collide with walls more often",
+        "greater force per collision",
+        "volume constant"
+      ],
+      "markScheme": [
+        "1 mark: the average kinetic energy of the molecules increases, so they move faster",
+        "1 mark: they collide with the walls more frequently",
+        "1 mark: each collision exerts a greater force, so the total force (and pressure) on the walls increases"
+      ],
+      "explanation": "Three linked steps: temperature, speed, collisions. Remember the volume is fixed."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why tyre pressures should be measured before a car is driven rather than straight after a long journey.",
+      "acceptedAnswers": [
+        "air warms up during driving",
+        "pressure increases with temperature",
+        "reading too high",
+        "compare with recommended cold value"
+      ],
+      "markScheme": [
+        "1 mark: during driving the air in the tyres warms up, so its pressure increases",
+        "1 mark: so a reading straight after driving would be higher than the cold value the recommended pressure refers to (the tyres might be under-inflated without the driver realising)"
+      ],
+      "explanation": "The recommended pressures are for cold tyres. A warm reading overestimates the pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "An empty plastic bottle has its lid screwed on tightly and is put in a freezer. After an hour, the sides of the bottle have been pushed in. Explain why.",
+      "acceptedAnswers": [
+        "air inside cools",
+        "molecules slow down",
+        "fewer and weaker collisions",
+        "pressure inside decreases",
+        "atmospheric pressure outside greater"
+      ],
+      "markScheme": [
+        "1 mark: the air inside cools, so its molecules move more slowly",
+        "1 mark: they collide with the inside walls less often and with less force, so the pressure inside decreases",
+        "1 mark: the pressure outside is now greater than the pressure inside, so the walls are pushed in"
+      ],
+      "explanation": "The bottle is sealed, so the mass of air is fixed. The fall in pressure inside creates a pressure difference across the walls."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A fixed mass of gas is held in a sealed, rigid container. The gas is heated from 20 °C to 80 °C.\nExplain how the motion of the gas molecules is related to the temperature and the pressure of the gas, and describe how both change as the gas is heated.",
+      "markScheme": [
+        "Indicative content: gas molecules are in constant random motion; they have a range of speeds; temperature is related to the average kinetic energy of the molecules; heating transfers energy to the molecules; average kinetic energy increases so molecules move faster; temperature rises; pressure is caused by molecules colliding with the walls; each collision exerts a force; force per unit area is pressure; volume is constant (rigid container) and the number of molecules is constant (sealed); faster molecules collide with the walls more often; each collision exerts a greater force; so the total force on the walls increases and the pressure increases.",
+        "Level 3 (5 to 6 marks): a detailed and coherent explanation linking temperature to average kinetic energy and pressure to collisions with the walls, with both effects (frequency and force) explained, and constant volume recognised.",
+        "Level 2 (3 to 4 marks): a clear explanation of either temperature or pressure in terms of molecules, with some link between the two.",
+        "Level 1 (1 to 2 marks): simple statements, for example 'the molecules move faster' or 'the pressure goes up'.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "A top answer builds a chain: heating, faster molecules, higher temperature, more frequent and harder collisions with the walls, higher pressure."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a student could investigate the relationship between the temperature and the pressure of a gas at constant volume.",
+      "markScheme": [
+        "Indicative content: use a sealed round-bottomed flask of air connected by short tubing to a pressure gauge; place the flask in a beaker of water so the air is fully surrounded; measure the water temperature with a thermometer; heat the water in steps (for example every 10 °C); stir and wait for the air to reach the water temperature before each reading; record the pressure at each temperature; keep the volume and mass of air constant (rigid, sealed flask); plot a graph of pressure against temperature; expected result: pressure increases as temperature increases.",
+        "Level 2 (3 to 4 marks): a workable method including a sealed rigid container, a way of changing and measuring temperature, a pressure measurement, and control of volume.",
+        "Level 1 (1 to 2 marks): some relevant steps, such as heating a gas and measuring its pressure, without a clear method.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "Waiting for the gas to reach the water temperature makes each pair of readings valid."
+    },
+    {
+      "id": "p3-particle-motion-in-gases-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A gas cylinder is stored in a shed. On a cold night the gas inside is at 5 °C; on a hot afternoon it reaches 45 °C. The cylinder is rigid and sealed.\nExplain how the pressure of the gas differs between the two times, and suggest why gas cylinders should be stored out of direct sunlight.",
+      "markScheme": [
+        "Indicative content: the volume and mass of gas are constant; at 45 °C the molecules have a greater average kinetic energy than at 5 °C; they move faster; they collide with the walls more often and with greater force; so the pressure is higher in the afternoon; in direct sunlight the gas could get much hotter; the pressure could rise above the safe limit for the cylinder; risk of the cylinder leaking or bursting.",
+        "Level 2 (3 to 4 marks): a correct molecular explanation of the higher pressure at the higher temperature, and a sensible safety suggestion linked to pressure.",
+        "Level 1 (1 to 2 marks): states that pressure is higher when hotter, or gives a safety reason, with little explanation.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "Link temperature to the motion of the molecules, then to collisions and pressure, then to the safety consequence."
+    }
+  ]
+}

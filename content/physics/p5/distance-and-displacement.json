@@ -1,0 +1,677 @@
+{
+  "id": "p5-distance-and-displacement",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "distance-and-displacement",
+  "specRef": "4.5.6.1.1",
+  "title": "Distance and displacement",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Distance is how far an object moves along its path; it is a scalar with no direction. Displacement is the distance moved in a straight line from the start point to the finish point, together with the direction of that line; it is a vector.",
+    "explanation": [
+      "Distance tells you how far an object has travelled. If you walk to school along winding roads, the distance is the total length of the route you actually followed. Distance does not involve direction, so it is a scalar quantity: it only has a size (magnitude). Distance is measured in metres (m), although kilometres (km) are often used for long journeys.",
+      "Displacement is different. It is measured in a straight line from where the object started to where it finished, and it must include the direction of that straight line. Because it has both magnitude and direction, displacement is a vector quantity. A displacement is not complete without a direction: \"5 m\" is not a displacement, but \"5 m east\" or \"5 m at a bearing of 090°\" is.",
+      "For motion along a straight line, it often helps to choose one direction as positive. If a person walks 8 m east and then 3 m west, the distance travelled is 8 + 3 = 11 m. The displacement is 8 − 3 = 5 m east, because they finish 5 m east of their starting point. If east is positive, a displacement of −5 m would mean 5 m west.",
+      "Distance can only stay the same or increase as an object moves, but displacement can go up, go down or return to zero. A runner who completes exactly one lap of a 400 m track has travelled a distance of 400 m but has a displacement of zero, because they finish where they started. A ball thrown 3 m straight up that lands back in the thrower's hand travels 6 m but has zero displacement.",
+      "The size of the displacement can never be larger than the distance travelled. The two are equal only when the object moves in a straight line without changing direction. Any turning, reversing or curved path makes the distance larger than the displacement. This difference between a scalar and its matching vector is also true for speed (scalar) and velocity (vector), which you meet next.",
+      "To express a displacement fully, give both the magnitude with units and the direction. Directions can be given as compass points (north, south, east, west), as a bearing, as up or down, as left or right, or as a positive or negative sign once a positive direction has been chosen. Vectors can be shown as arrows: the length of the arrow represents the magnitude and the arrow points in the direction."
+    ],
+    "keyFacts": [
+      "Distance is how far an object moves; it does not involve direction.",
+      "Distance is a scalar quantity: it has magnitude only.",
+      "Displacement is the straight-line distance from start to finish plus the direction of that line.",
+      "Displacement is a vector quantity: it has magnitude and direction.",
+      "Both distance and displacement are measured in metres (m).",
+      "A displacement must always be given with a direction, for example 40 m north.",
+      "If an object returns to its starting point, its displacement is zero but the distance travelled is not.",
+      "The magnitude of displacement is never greater than the distance travelled.",
+      "Distance and displacement have the same size only for motion in one direction along a straight line.",
+      "A vector can be drawn as an arrow: length shows magnitude, the arrowhead shows direction."
+    ],
+    "keyTerms": [
+      {
+        "term": "Distance",
+        "definition": "How far an object moves along its path. A scalar quantity measured in metres."
+      },
+      {
+        "term": "Displacement",
+        "definition": "The distance in a straight line from the start point to the finish point, together with the direction. A vector quantity."
+      },
+      {
+        "term": "Scalar quantity",
+        "definition": "A quantity that has magnitude (size) only, for example distance, speed, mass, time."
+      },
+      {
+        "term": "Vector quantity",
+        "definition": "A quantity that has both magnitude and direction, for example displacement, velocity, force."
+      },
+      {
+        "term": "Magnitude",
+        "definition": "The size of a quantity, for example the 5 m in \"5 m east\"."
+      },
+      {
+        "term": "Direction",
+        "definition": "Which way a vector points, given as a compass direction, bearing, up/down, or a positive or negative sign."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Back and forth along a straight line",
+        "question": "A dog runs 25 m east to fetch a ball, then runs 10 m west towards its owner. Calculate (a) the distance travelled and (b) the displacement of the dog.",
+        "steps": [
+          "Distance ignores direction, so add the two lengths: 25 m + 10 m = 35 m.",
+          "For displacement, take east as positive: +25 m + (−10 m) = +15 m.",
+          "A positive answer means east, so the displacement is 15 m east."
+        ],
+        "answer": "(a) 35 m  (b) 15 m east"
+      },
+      {
+        "title": "Returning to the start",
+        "question": "A lift carrying a cleaner goes up 24 m from the ground floor to the top floor, then comes back down to the ground floor. State the distance travelled and the displacement of the lift.",
+        "steps": [
+          "Distance: 24 m up + 24 m down = 48 m.",
+          "The lift finishes at the same point it started, so the straight line from start to finish has zero length.",
+          "Displacement = 0 m (no direction is needed for a zero displacement)."
+        ],
+        "answer": "Distance 48 m, displacement 0 m"
+      },
+      {
+        "title": "Moving at right angles (Higher challenge)",
+        "question": "A walker goes 300 m north and then 400 m east. Calculate the distance walked and the magnitude of the displacement.",
+        "steps": [
+          "Distance = 300 m + 400 m = 700 m.",
+          "The displacement is the straight line from start to finish. The two walks are at right angles, so use Pythagoras: displacement² = 300² + 400².",
+          "displacement² = 90 000 + 160 000 = 250 000, so displacement = √250 000 = 500 m.",
+          "The direction is north east of the start (between north and east), so the displacement is 500 m in a north-easterly direction."
+        ],
+        "answer": "Distance 700 m; displacement 500 m (towards the north east)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Distance and displacement on a straight line",
+        "caption": "A person walks 8 m east then 3 m west. The total distance is 11 m but the displacement (dashed arrow) is only 5 m east.",
+        "svg": "<svg viewBox=\"0 0 440 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><line x1=\"30\" y1=\"150\" x2=\"410\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"145\" x2=\"40\" y2=\"155\" stroke=\"currentColor\"/><text x=\"40\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"80\" y1=\"145\" x2=\"80\" y2=\"155\" stroke=\"currentColor\"/><text x=\"80\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><line x1=\"120\" y1=\"145\" x2=\"120\" y2=\"155\" stroke=\"currentColor\"/><text x=\"120\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><line x1=\"160\" y1=\"145\" x2=\"160\" y2=\"155\" stroke=\"currentColor\"/><text x=\"160\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><line x1=\"200\" y1=\"145\" x2=\"200\" y2=\"155\" stroke=\"currentColor\"/><text x=\"200\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"240\" y1=\"145\" x2=\"240\" y2=\"155\" stroke=\"currentColor\"/><text x=\"240\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><line x1=\"280\" y1=\"145\" x2=\"280\" y2=\"155\" stroke=\"currentColor\"/><text x=\"280\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><line x1=\"320\" y1=\"145\" x2=\"320\" y2=\"155\" stroke=\"currentColor\"/><text x=\"320\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><line x1=\"360\" y1=\"145\" x2=\"360\" y2=\"155\" stroke=\"currentColor\"/><text x=\"360\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><line x1=\"400\" y1=\"145\" x2=\"400\" y2=\"155\" stroke=\"currentColor\"/><text x=\"400\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"400\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">position east of start (m)</text><circle cx=\"40\" cy=\"150\" r=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"40\" y=\"133\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Start</text><line x1=\"40\" y1=\"40\" x2=\"358\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ah1)\"/><text x=\"200\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1. walks 8 m east</text><line x1=\"360\" y1=\"70\" x2=\"242\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ah1)\"/><text x=\"300\" y=\"88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2. walks 3 m west</text><line x1=\"40\" y1=\"115\" x2=\"238\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"6 3\" marker-end=\"url(#ah1)\"/><text x=\"140\" y=\"108\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">displacement = 5 m east</text><circle cx=\"240\" cy=\"150\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"252\" y=\"133\" font-size=\"12\" fill=\"currentColor\">Finish</text><text x=\"20\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Distance travelled = 8 m + 3 m = 11 m</text></svg>"
+      },
+      {
+        "title": "Curved path compared with displacement",
+        "caption": "The dashed curve is the path followed; its length is the distance. The solid arrow from A to B is the displacement.",
+        "svg": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ah2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><path d=\"M60 180 C 90 40, 170 30, 200 120 S 300 220, 340 70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"60\" y1=\"180\" x2=\"335\" y2=\"74\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#ah2)\"/><circle cx=\"60\" cy=\"180\" r=\"7\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"340\" cy=\"70\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"30\" y=\"205\" font-size=\"12\" fill=\"currentColor\">A (start)</text><text x=\"320\" y=\"55\" font-size=\"12\" fill=\"currentColor\">B (finish)</text><text x=\"70\" y=\"60\" font-size=\"12\" fill=\"currentColor\">path actually taken:</text><text x=\"70\" y=\"75\" font-size=\"12\" fill=\"currentColor\">its length is the DISTANCE</text><text x=\"200\" y=\"175\" font-size=\"12\" fill=\"currentColor\">straight arrow from A to B:</text><text x=\"200\" y=\"190\" font-size=\"12\" fill=\"currentColor\">the DISPLACEMENT</text><text x=\"200\" y=\"205\" font-size=\"12\" fill=\"currentColor\">(size and direction)</text><rect x=\"10\" y=\"8\" width=\"380\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"20\" y=\"24\" font-size=\"12\" fill=\"currentColor\">Distance is always greater than or equal to the size of the displacement</text></svg>"
+      },
+      {
+        "title": "One lap of a running track",
+        "caption": "After one complete lap the runner has travelled 400 m but is back at the start, so the displacement is zero.",
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"80\" y=\"50\" width=\"240\" height=\"120\" rx=\"60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"115\" y=\"80\" width=\"170\" height=\"60\" rx=\"30\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"170\" x2=\"200\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"160\" y=\"195\" font-size=\"12\" fill=\"currentColor\">start and finish line</text><text x=\"130\" y=\"40\" font-size=\"12\" fill=\"currentColor\">one lap of a 400 m track</text><text x=\"20\" y=\"215\" font-size=\"12\" fill=\"currentColor\">Distance = 400 m      Displacement = 0 m (back where it started)</text><text x=\"128\" y=\"114\" font-size=\"12\" fill=\"currentColor\">runner goes all the way round</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think distance and displacement are just two names for the same thing.",
+        "right": "In fact distance is the length of the path actually travelled (a scalar), while displacement is the straight-line distance from start to finish with a direction (a vector). They are only equal in size for straight-line motion in one direction."
+      },
+      {
+        "wrong": "Students often think a displacement can be given as a number and a unit, such as 60 m.",
+        "right": "In fact a displacement must include a direction, for example 60 m south. Without a direction it is only a distance."
+      },
+      {
+        "wrong": "Students often think that if an object has travelled a long way, its displacement must be large.",
+        "right": "In fact an object can travel a large distance and end up with zero displacement if it returns to its starting point, like a runner completing a lap."
+      },
+      {
+        "wrong": "Students often think a negative displacement means the object moved a negative distance.",
+        "right": "In fact the negative sign only shows direction: the object finished on the opposite side of the start to the direction chosen as positive."
+      }
+    ],
+    "realWorld": [
+      "Sat-navs and map apps show the road distance for a journey, which is longer than the straight-line distance (the size of the displacement) between start and destination.",
+      "In a 400 m race on a standard track, athletes run 400 m but finish close to where they started, so their displacement is very small.",
+      "Pilots and ship navigators work with displacements (a distance plus a bearing) to plot courses between ports and airports.",
+      "A delivery driver's van records distance on its odometer; a GPS tracker can show the displacement from the depot at any moment."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Whenever a question asks for a displacement, always give a direction (north, left, upwards, or a sign) as well as a number and unit, or you may lose the mark.",
+      "Draw a quick sketch with arrows for back-and-forth journeys. Choose one direction as positive and add the movements with signs to find displacement.",
+      "If asked to explain the difference between distance and displacement, use the words scalar and vector and say that displacement has direction and is measured in a straight line from start to finish.",
+      "Check your answer: the size of the displacement can never be bigger than the distance travelled."
+    ],
+    "summary": [
+      "Distance: how far an object moves; scalar; no direction.",
+      "Displacement: straight-line distance from start to finish plus direction; vector.",
+      "Both measured in metres.",
+      "Displacement can be zero even when the distance travelled is large.",
+      "Size of displacement ≤ distance; equal only for straight-line motion in one direction.",
+      "Always give a direction with a displacement."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is distance?",
+      "back": "How far an object moves along its path. It has no direction."
+    },
+    {
+      "front": "What is displacement?",
+      "back": "The distance from the start point to the finish point in a straight line, together with the direction of that line."
+    },
+    {
+      "front": "Is distance a scalar or a vector?",
+      "back": "Scalar (magnitude only)."
+    },
+    {
+      "front": "Is displacement a scalar or a vector?",
+      "back": "Vector (magnitude and direction)."
+    },
+    {
+      "front": "What is the unit of distance and displacement?",
+      "back": "The metre (m)."
+    },
+    {
+      "front": "A runner completes one lap of a 400 m track. What is their displacement?",
+      "back": "0 m, because they finish at their starting point."
+    },
+    {
+      "front": "Walk 6 m north then 2 m south: distance?",
+      "back": "8 m"
+    },
+    {
+      "front": "Walk 6 m north then 2 m south: displacement?",
+      "back": "4 m north"
+    },
+    {
+      "front": "Define a scalar quantity.",
+      "back": "A quantity with magnitude only, for example distance, speed, time, mass."
+    },
+    {
+      "front": "Define a vector quantity.",
+      "back": "A quantity with magnitude and direction, for example displacement, velocity, force, acceleration."
+    },
+    {
+      "front": "When are distance and displacement the same size?",
+      "back": "When an object moves in a straight line without changing direction."
+    },
+    {
+      "front": "How is a vector shown on a diagram?",
+      "back": "As an arrow: its length represents the magnitude and it points in the direction of the vector."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-distance-and-displacement-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes displacement?",
+      "options": [
+        "The total length of the path an object follows",
+        "The distance in a straight line from start to finish, with a direction",
+        "How fast an object moves in a given direction",
+        "The time taken to travel from start to finish"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Displacement is a vector: straight-line distance from start to finish plus direction. A is distance, C is velocity, D is time."
+    },
+    {
+      "id": "p5-distance-and-displacement-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Distance",
+        "Force"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Distance has magnitude only. Displacement, velocity and force all have a direction, so they are vectors."
+    },
+    {
+      "id": "p5-distance-and-displacement-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the SI unit of displacement?",
+      "options": [
+        "metre (m)",
+        "metre per second (m/s)",
+        "newton (N)",
+        "second (s)"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Displacement is a length with a direction, so it is measured in metres. m/s is the unit of speed and velocity."
+    },
+    {
+      "id": "p5-distance-and-displacement-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A girl walks 40 m north and then 15 m south. What is her displacement?",
+      "options": [
+        "55 m north",
+        "25 m south",
+        "55 m",
+        "25 m north"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Taking north as positive: +40 − 15 = +25 m, so 25 m north. 55 m is the distance. 25 m south has the wrong direction, and 55 m has no direction."
+    },
+    {
+      "id": "p5-distance-and-displacement-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A cyclist rides once around a circular track and stops exactly at the starting line. Which row is correct?",
+      "options": [
+        "Distance = 0, displacement = circumference",
+        "Distance = circumference, displacement = circumference",
+        "Distance = circumference, displacement = 0",
+        "Distance = 0, displacement = 0"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "The cyclist has covered the full length of the track (the circumference), but finishes where they started, so the straight line from start to finish has zero length."
+    },
+    {
+      "id": "p5-distance-and-displacement-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is a correctly stated displacement?",
+      "options": [
+        "12 m",
+        "12 m to the west",
+        "12 m/s west",
+        "12 s to the west"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "A displacement needs a magnitude with a length unit (m) and a direction. 12 m has no direction; m/s is a velocity unit; s is a time unit."
+    },
+    {
+      "id": "p5-distance-and-displacement-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object moves from point P to point Q. Under what condition is the distance travelled equal to the magnitude of the displacement?",
+      "options": [
+        "The object moves in a straight line in one direction only",
+        "The object moves at a constant speed",
+        "The object follows a curved path",
+        "The object returns to P before reaching Q"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Any curve or reversal makes the path longer than the straight line from P to Q. Constant speed has nothing to do with the shape of the path."
+    },
+    {
+      "id": "p5-distance-and-displacement-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A ball is dropped from a height of 2.0 m. It bounces up to 1.2 m, falls again and is caught at a height of 0.5 m above the ground. What is the displacement of the ball from where it was dropped?",
+      "options": [
+        "3.9 m downwards",
+        "1.5 m downwards",
+        "0.5 m upwards",
+        "2.7 m downwards"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Start at 2.0 m, finish at 0.5 m above the ground: displacement = 2.0 − 0.5 = 1.5 m downwards. The distance travelled is 2.0 + 1.2 + 0.7 = 3.9 m, which is the trap answer."
+    },
+    {
+      "id": "p5-distance-and-displacement-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student walks 6 m east and then 8 m north. Which statement is correct?",
+      "options": [
+        "Distance = 14 m and displacement = 14 m north east",
+        "Distance = 10 m and displacement = 14 m north east",
+        "Distance = 14 m and the magnitude of the displacement = 10 m",
+        "Distance = 10 m and the magnitude of the displacement = 10 m"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Distance = 6 + 8 = 14 m. The displacement is the hypotenuse of a right-angled triangle: √(6² + 8²) = √100 = 10 m. The displacement magnitude can never exceed the distance."
+    },
+    {
+      "id": "p5-distance-and-displacement-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A boy walks 120 m along a straight road to a shop and then 50 m back towards his house. Calculate the total distance he walks.",
+      "numericAnswer": 170,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 170 m"
+      ],
+      "explanation": "Distance ignores direction: 120 + 50 = 170 m."
+    },
+    {
+      "id": "p5-distance-and-displacement-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The boy in the last question walked 120 m north to the shop, then 50 m south. Calculate the size of his displacement from his house.",
+      "numericAnswer": 70,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 120 − 50",
+        "1 mark: 70 m (north)"
+      ],
+      "explanation": "Taking north as positive: +120 − 50 = +70 m, so the displacement is 70 m north."
+    },
+    {
+      "id": "p5-distance-and-displacement-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "An athlete runs 2 complete laps of a 400 m track. Calculate the distance she runs.",
+      "numericAnswer": 800,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 800 m"
+      ],
+      "explanation": "2 × 400 = 800 m. Her displacement is zero because she finishes at the start line."
+    },
+    {
+      "id": "p5-distance-and-displacement-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lift goes up 15 m from the ground floor, then down 6 m, then up 9 m. Calculate the displacement of the lift from the ground floor. Give your answer as a number of metres upwards.",
+      "numericAnswer": 18,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: +15 − 6 + 9",
+        "1 mark: 18 m (upwards)"
+      ],
+      "explanation": "Taking up as positive: 15 − 6 + 9 = 18 m upwards. The distance travelled is 15 + 6 + 9 = 30 m."
+    },
+    {
+      "id": "p5-distance-and-displacement-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A ball is thrown straight up. It rises 4.5 m and then falls back into the thrower's hand. Calculate the distance travelled by the ball.",
+      "numericAnswer": 9,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 4.5 m up + 4.5 m down",
+        "1 mark: 9.0 m"
+      ],
+      "explanation": "The ball travels 4.5 m up and 4.5 m down, a total distance of 9.0 m. Its displacement is zero because it returns to the starting point."
+    },
+    {
+      "id": "p5-distance-and-displacement-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A drone flies 120 m due east and then 50 m due north. Calculate the magnitude of its displacement from its starting point.",
+      "numericAnswer": 130,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: displacement² = 120² + 50²",
+        "1 mark: = 14 400 + 2500 = 16 900",
+        "1 mark: displacement = 130 m"
+      ],
+      "explanation": "The two movements are at right angles, so the displacement is the hypotenuse: √(120² + 50²) = √16 900 = 130 m (in a direction between east and north). The distance flown is 170 m."
+    },
+    {
+      "id": "p5-distance-and-displacement-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State whether distance is a scalar or a vector quantity.",
+      "acceptedAnswers": [
+        "scalar"
+      ],
+      "markScheme": [
+        "1 mark: scalar"
+      ],
+      "explanation": "Distance has magnitude only and no direction, so it is a scalar."
+    },
+    {
+      "id": "p5-distance-and-displacement-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two differences between distance and displacement.",
+      "acceptedAnswers": [
+        "distance is scalar, displacement is vector",
+        "displacement has direction",
+        "displacement measured in a straight line from start to finish",
+        "distance is total path length"
+      ],
+      "markScheme": [
+        "1 mark: distance is a scalar / has no direction; displacement is a vector / has direction",
+        "1 mark: distance is the length of the path taken; displacement is measured in a straight line from start to finish"
+      ],
+      "explanation": "The key ideas are scalar against vector, and path length against straight-line start-to-finish."
+    },
+    {
+      "id": "p5-distance-and-displacement-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one vector quantity other than displacement.",
+      "acceptedAnswers": [
+        "velocity",
+        "force",
+        "acceleration",
+        "momentum",
+        "weight"
+      ],
+      "markScheme": [
+        "1 mark: any one of velocity, force, acceleration, weight, momentum"
+      ],
+      "explanation": "These all have a direction. Speed, mass, time, energy and distance are scalars."
+    },
+    {
+      "id": "p5-distance-and-displacement-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A train travels 30 km north from Town A to Town B, then returns 30 km south to Town A. State the distance travelled and the displacement of the train.",
+      "acceptedAnswers": [
+        "60 km",
+        "0",
+        "zero displacement"
+      ],
+      "markScheme": [
+        "1 mark: distance = 60 km",
+        "1 mark: displacement = 0 (km)"
+      ],
+      "explanation": "The train covers 30 + 30 = 60 km, but it ends where it started, so its displacement is zero."
+    },
+    {
+      "id": "p5-distance-and-displacement-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student writes: \"The displacement of the car was 250 m.\" Explain why this statement is incomplete.",
+      "acceptedAnswers": [
+        "no direction",
+        "displacement is a vector",
+        "needs a direction"
+      ],
+      "markScheme": [
+        "1 mark: displacement is a vector",
+        "1 mark: so a direction must be given (for example 250 m west)"
+      ],
+      "explanation": "Without a direction, 250 m only describes a distance (or the magnitude of the displacement)."
+    },
+    {
+      "id": "p5-distance-and-displacement-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the magnitude of an object's displacement can never be greater than the distance it travels.",
+      "acceptedAnswers": [
+        "shortest path is a straight line",
+        "displacement measured in a straight line",
+        "any other path is longer"
+      ],
+      "markScheme": [
+        "1 mark: displacement is measured along the straight line from start to finish",
+        "1 mark: a straight line is the shortest possible route, so any actual path is equal or longer"
+      ],
+      "explanation": "The straight line between two points is the shortest path, so the real path (the distance) is always at least as long."
+    },
+    {
+      "id": "p5-distance-and-displacement-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A swimmer swims 4 lengths of a 25 m pool, ending where she started. State her displacement.",
+      "acceptedAnswers": [
+        "0",
+        "zero",
+        "0 m"
+      ],
+      "markScheme": [
+        "1 mark: 0 m / zero"
+      ],
+      "explanation": "She finishes at her starting point, so the straight line from start to finish has zero length. The distance swum is 100 m."
+    },
+    {
+      "id": "p5-distance-and-displacement-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A hiker walks 2.0 km east, then 5.0 km west, then 1.0 km east. Calculate the distance walked and the displacement of the hiker. Give a direction with the displacement.",
+      "acceptedAnswers": [
+        "8.0 km",
+        "2.0 km west",
+        "8 km",
+        "2 km west"
+      ],
+      "markScheme": [
+        "1 mark: distance = 2.0 + 5.0 + 1.0 = 8.0 km",
+        "1 mark: taking east as positive, +2.0 − 5.0 + 1.0 = −2.0 km",
+        "1 mark: displacement = 2.0 km west"
+      ],
+      "explanation": "The negative result means the hiker finishes on the west side of the start. Many students forget to convert the negative sign into a direction."
+    },
+    {
+      "id": "p5-distance-and-displacement-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student walks from her house to school. The route along the roads is 1.8 km long. The school is 1.2 km north east of her house in a straight line.\nCompare the distance and displacement for her journey to school, and for the complete journey to school and back home again.",
+      "markScheme": [
+        "Indicative content:",
+        "Distance to school is 1.8 km; distance is the length of the route taken",
+        "Displacement to school is 1.2 km north east; measured in a straight line with direction",
+        "Distance is larger because the road route is not a straight line",
+        "Distance is a scalar, displacement is a vector",
+        "For the return trip the distance is 3.6 km",
+        "For the return trip the displacement is zero because she ends at home",
+        "Level 2 (3 to 4 marks): clear comparison for both journeys with correct values and reasoning",
+        "Level 1 (1 to 2 marks): some correct values or statements with little explanation",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "A full answer gives values (1.8 km, 1.2 km NE, 3.6 km, 0) and explains why they differ using scalar and vector ideas."
+    },
+    {
+      "id": "p5-distance-and-displacement-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A bus travels along a straight road. It moves 600 m east, stops, then reverses 50 m west into a bus stop.\nDescribe how to find the distance travelled and the displacement of the bus, and explain why they are different.",
+      "markScheme": [
+        "Indicative content:",
+        "Distance: add the lengths of each part, ignoring direction: 600 + 50 = 650 m",
+        "Displacement: choose east as positive; +600 − 50 = +550 m",
+        "Displacement is 550 m east",
+        "They differ because the bus changed direction",
+        "Distance is scalar so direction is ignored; displacement is a vector so movements in opposite directions partly cancel",
+        "Level 2 (3 to 4 marks): correct method and values for both, with a reason for the difference",
+        "Level 1 (1 to 2 marks): one correct value or a basic statement of the difference",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Reversing direction is what makes distance and displacement differ for straight-line motion."
+    },
+    {
+      "id": "p5-distance-and-displacement-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A ball is kicked from point S on a football pitch. It travels in a curved path through the air, bounces, and rolls to a stop at point T, 40 m north of S. Later a player kicks it from T back to S.\nExplain, using the ideas of scalar and vector quantities, how the distance and displacement of the ball compare (a) for the motion from S to T and (b) for the whole motion from S to T and back to S. Suggest how each could be measured.",
+      "markScheme": [
+        "Indicative content:",
+        "Distance is a scalar: only magnitude; displacement is a vector: magnitude and direction",
+        "S to T: displacement is 40 m north (straight line from S to T)",
+        "S to T: distance is greater than 40 m because the path is curved (up through the air and bouncing)",
+        "Whole motion: displacement is zero because the ball ends at its starting point S",
+        "Whole motion: distance is the total length of both paths, more than 80 m",
+        "Displacement could be measured with a tape measure laid in a straight line from S to T and a compass for direction",
+        "Distance could be estimated by tracking the path, for example video analysis or adding up the lengths of each part of the path",
+        "Level 3 (5 to 6 marks): detailed, correct comparison for both parts using scalar/vector terms with sensible measurement methods",
+        "Level 2 (3 to 4 marks): correct comparison for at least one part with some explanation",
+        "Level 1 (1 to 2 marks): basic statements, for example displacement has direction",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "The key points are that a curved path makes distance exceed displacement, and returning to the start makes displacement zero while distance keeps growing."
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "id": "p2-electrical-power",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "electrical-power",
+  "specRef": "4.2.4.1",
+  "title": "Power",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Power is the rate at which energy is transferred. The power of a circuit device depends on the potential difference across it and the current through it: power = potential difference × current (P = V I), or, using V = I R, power = current² × resistance (P = I² R).",
+    "explanation": [
+      "Every circuit device transfers energy. A kettle transfers energy to the water's thermal store, a motor to a kinetic store, a lamp to the surroundings by light and heating. The power of a device is how quickly it transfers energy: the energy transferred each second. Power is measured in watts (W), where 1 W is 1 joule per second, and large powers are given in kilowatts (1 kW = 1000 W).",
+      "The power transferred by a device depends on both the potential difference across it and the current through it. A larger potential difference means each coulomb of charge transfers more energy; a larger current means more coulombs pass each second. So power = potential difference × current, P = V I, with P in watts, V in volts and I in amperes. You must remember this equation.",
+      "If you know the current and the resistance instead of the potential difference, use power = (current)² × resistance, P = I² R. This comes from substituting V = I R into P = V I. Because the current is squared, doubling the current through a fixed resistor makes the power four times as large. This equation is useful for working out the energy wasted by heating in wires and cables.",
+      "To use these equations, convert to standard units first: kilowatts to watts (× 1000), milliamps to amps (÷ 1000) and kilohms to ohms (× 1000). Rearrange before substituting. From P = V I you get I = P ÷ V and V = P ÷ I. From P = I² R you get R = P ÷ I² and, for higher-level questions, I = √(P ÷ R).",
+      "Appliances are labelled with their power rating, for example a 2.3 kW kettle on a 230 V supply. From P = V I the current is I = 2300 ÷ 230 = 10 A. Appliances that heat things, such as kettles, heaters and hair dryers, usually have the highest power ratings and draw the largest currents."
+    ],
+    "keyFacts": [
+      "Power is the rate of energy transfer, measured in watts (W); 1 W = 1 J/s.",
+      "P = V I: power (W) = potential difference (V) × current (A).",
+      "P = I² R: power (W) = current² (A²) × resistance (Ω).",
+      "P = I² R comes from combining P = V I with V = I R.",
+      "Doubling the current through a fixed resistance quadruples the power.",
+      "1 kW = 1000 W; 1 mA = 0.001 A.",
+      "Higher power appliances transfer energy faster and draw more current from the same supply."
+    ],
+    "keyTerms": [
+      {
+        "term": "Power",
+        "definition": "The rate at which energy is transferred, or the energy transferred per second."
+      },
+      {
+        "term": "Watt (W)",
+        "definition": "The unit of power; 1 W is a transfer of 1 joule per second."
+      },
+      {
+        "term": "Kilowatt (kW)",
+        "definition": "1000 watts."
+      },
+      {
+        "term": "Power rating",
+        "definition": "The power of an appliance when it is working normally, shown on its label."
+      },
+      {
+        "term": "Potential difference",
+        "definition": "The energy transferred per unit charge between two points, in volts."
+      },
+      {
+        "term": "Resistance",
+        "definition": "Opposition to current, in ohms; a current through a resistance causes heating."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Power from potential difference and current",
+        "formula": "power = potential difference × current",
+        "symbols": "P = V I",
+        "units": "P in watts (W), V in volts (V), I in amperes (A)",
+        "recall": true
+      },
+      {
+        "name": "Power from current and resistance",
+        "formula": "power = (current)² × resistance",
+        "symbols": "P = I² R",
+        "units": "P in watts (W), I in amperes (A), R in ohms (Ω)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Kilowatts to watts",
+        "question": "A 3.0 kW kettle is connected to the 230 V mains. Calculate the current through it.",
+        "steps": [
+          "Convert: 3.0 kW = 3000 W.",
+          "Rearrange P = V I to I = P ÷ V.",
+          "I = 3000 ÷ 230 = 13.04 A.",
+          "To 2 significant figures, I = 13 A."
+        ],
+        "answer": "13 A"
+      },
+      {
+        "title": "Using P = I² R with milliamps",
+        "question": "A current of 150 mA flows through a 200 Ω resistor. Calculate the power transferred.",
+        "steps": [
+          "Convert: 150 mA = 0.150 A.",
+          "P = I² R = 0.150² × 200.",
+          "0.150² = 0.0225.",
+          "P = 0.0225 × 200 = 4.5 W."
+        ],
+        "answer": "4.5 W"
+      },
+      {
+        "title": "Rearranging for resistance",
+        "question": "A heater has a power of 48 W when the current is 2.0 A. Calculate its resistance.",
+        "steps": [
+          "Rearrange P = I² R to R = P ÷ I².",
+          "I² = 2.0² = 4.0.",
+          "R = 48 ÷ 4.0 = 12 Ω.",
+          "Check with V = I R: V = 2.0 × 12 = 24 V and P = V I = 24 × 2.0 = 48 W."
+        ],
+        "answer": "12 Ω"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Measuring the power of a heater",
+        "caption": "An ammeter in series measures the current and a voltmeter in parallel measures the potential difference. Multiplying them gives the power: 12 V × 2.5 A = 30 W.",
+        "svg": "<svg viewBox='0 0 480 252' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='80' y1='40' x2='150' y2='40'/><g transform='translate(170 40) rotate(180)'><line x1='-20' y1='0' x2='-12' y2='0'/><line x1='-12' y1='-13' x2='-12' y2='13'/><line x1='-6' y1='-7' x2='-6' y2='7' stroke-width='4'/><line x1='-6' y1='0' x2='6' y2='0' stroke-width='1.5' stroke-dasharray='2 2'/><line x1='6' y1='-13' x2='6' y2='13'/><line x1='12' y1='-7' x2='12' y2='7' stroke-width='4'/><line x1='12' y1='0' x2='20' y2='0'/></g><line x1='190' y1='40' x2='290' y2='40'/><g transform='translate(310 40)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>A</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='330' y1='40' x2='400' y2='40'/><line x1='80' y1='40' x2='80' y2='150'/><line x1='400' y1='40' x2='400' y2='150'/><line x1='80' y1='150' x2='220' y2='150'/><g transform='translate(240 150)'><line x1='-20' y1='0' x2='-14' y2='0'/><rect x='-14' y='-6' width='28' height='12'/><line x1='14' y1='0' x2='20' y2='0'/></g><line x1='260' y1='150' x2='400' y2='150'/><line x1='190' y1='150' x2='190' y2='210'/><line x1='290' y1='150' x2='290' y2='210'/><line x1='190' y1='210' x2='220' y2='210'/><g transform='translate(240 210)'><line x1='-20' y1='0' x2='-11' y2='0'/><circle cx='0' cy='0' r='11'/><text x='0' y='4.5' font-size='12' fill='currentColor' stroke='none'>V</text><line x1='11' y1='0' x2='20' y2='0'/></g><line x1='260' y1='210' x2='290' y2='210'/><circle cx='190' cy='150' r='3' fill='currentColor' stroke='none'/><circle cx='290' cy='150' r='3' fill='currentColor' stroke='none'/><text x='170' y='20' font-size='12' fill='currentColor' stroke='none'>12 V supply</text><text x='310' y='20' font-size='12' fill='currentColor' stroke='none'>I = 2.5 A</text><text x='240' y='134' font-size='12' fill='currentColor' stroke='none'>heater</text><text x='240' y='240' font-size='12' fill='currentColor' stroke='none'>V = 12 V</text><text x='240' y='90' font-size='14' fill='currentColor' stroke='none'>P = V × I = 12 × 2.5 = 30 W</text></g></svg>"
+      },
+      {
+        "title": "Power against current for a fixed resistor",
+        "caption": "Because P = I² R, the graph is a curve, not a straight line. For R = 10 Ω, 1 A gives 10 W and 2 A gives 40 W.",
+        "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='60' y1='210' x2='440' y2='210' stroke-width='1.5'/><path d='M440 210 L434 213 L434 207 Z' fill='currentColor' stroke='none'/><line x1='60' y1='210' x2='60' y2='30' stroke-width='1.5'/><path d='M60 30 L63 36 L57 36 Z' fill='currentColor' stroke='none'/><text x='438' y='242' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>current / A</text><text x='66' y='34' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>power / W</text><polyline points='60 210 73 210 86 209 98 208 111 206 124 204 137 201 150 197 162 194 175 189 188 184 201 179 214 173 226 167 239 160 252 152 265 144 278 136 290 127 303 118 316 108 329 97 342 86 354 75 367 63 380 50' stroke-width='2.5'/><line x1='220.0' y1='210' x2='220.0' y2='170.0' stroke-width='1' stroke-dasharray='4 3'/><line x1='60' y1='170.0' x2='220.0' y2='170.0' stroke-width='1' stroke-dasharray='4 3'/><text x='220.0' y='226' font-size='10' fill='currentColor' stroke='none'>1</text><line x1='380.0' y1='210' x2='380.0' y2='50.0' stroke-width='1' stroke-dasharray='4 3'/><line x1='60' y1='50.0' x2='380.0' y2='50.0' stroke-width='1' stroke-dasharray='4 3'/><text x='380.0' y='226' font-size='10' fill='currentColor' stroke='none'>2</text><text x='52' y='174' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>10</text><text x='52' y='54' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>40</text><text x='190' y='70' font-size='12' fill='currentColor' stroke='none'>fixed resistance R = 10 Ω</text><text x='190' y='88' font-size='12' fill='currentColor' stroke='none'>P = I²R: double the current,</text><text x='190' y='106' font-size='12' fill='currentColor' stroke='none'>four times the power</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think doubling the current through a resistor doubles the power.",
+        "right": "In fact P = I² R, so doubling the current makes the power four times as large."
+      },
+      {
+        "wrong": "Students often forget to square the current in P = I² R, or square the whole of I × R.",
+        "right": "In fact only the current is squared: P = I × I × R."
+      },
+      {
+        "wrong": "Students often think power and energy are the same thing.",
+        "right": "In fact power is the rate of energy transfer (joules per second); energy is measured in joules."
+      },
+      {
+        "wrong": "Students often substitute kilowatts directly into P = V I.",
+        "right": "In fact you must convert kilowatts to watts (× 1000) first."
+      }
+    ],
+    "realWorld": [
+      "Appliance labels give power ratings: a kettle might be 3 kW, a phone charger about 10 W, an LED bulb about 5 W.",
+      "Electric showers have high power ratings, so they need thick cables that can carry large currents safely.",
+      "Engineers use P = I² R to calculate how much energy is wasted heating cables, which is why the National Grid uses low currents."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Rearranging P = I² R to find the current needs a square root: I = √(P ÷ R)."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Choose the equation from the data: use P = V I if you have V and I; use P = I² R if you have I and R.",
+      "Square the current before multiplying by R, and write down the squared value to show your working.",
+      "Convert kW to W and mA to A before substituting.",
+      "When asked to explain the effect of changing current on power, use P = I² R and say the power changes by the square of the factor."
+    ],
+    "summary": [
+      "Power is the rate of energy transfer, in watts.",
+      "P = V I.",
+      "P = I² R.",
+      "Doubling current through a fixed resistance gives four times the power.",
+      "Convert kW to W, mA to A and kΩ to Ω first."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define power.",
+      "back": "The rate at which energy is transferred."
+    },
+    {
+      "front": "Unit of power?",
+      "back": "The watt (W), equal to 1 joule per second."
+    },
+    {
+      "front": "Equation linking power, potential difference and current?",
+      "back": "P = V I"
+    },
+    {
+      "front": "Equation linking power, current and resistance?",
+      "back": "P = I² R"
+    },
+    {
+      "front": "How is P = I² R derived?",
+      "back": "Substitute V = I R into P = V I."
+    },
+    {
+      "front": "Effect on power of doubling current through a fixed resistor?",
+      "back": "Power is four times as large."
+    },
+    {
+      "front": "Convert 2.5 kW to watts.",
+      "back": "2500 W"
+    },
+    {
+      "front": "Rearrange P = V I for current.",
+      "back": "I = P ÷ V"
+    },
+    {
+      "front": "Rearrange P = I² R for resistance.",
+      "back": "R = P ÷ I²"
+    },
+    {
+      "front": "Current drawn by a 2300 W kettle on 230 V?",
+      "back": "10 A"
+    },
+    {
+      "front": "Which equation to use with I and R known?",
+      "back": "P = I² R"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-electrical-power-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links power, potential difference and current?",
+      "markScheme": [
+        "1 mark: P = V × I"
+      ],
+      "explanation": "Power = potential difference × current. Check the units: volts × amps = joules per coulomb × coulombs per second = joules per second = watts.",
+      "options": [
+        "P = V ÷ I",
+        "P = I ÷ V",
+        "P = V × I",
+        "P = V + I"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electrical-power-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of power?",
+      "markScheme": [
+        "1 mark: Watt"
+      ],
+      "explanation": "Power is measured in watts. Joules measure energy.",
+      "options": [
+        "Watt",
+        "Joule",
+        "Volt",
+        "Coulomb"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electrical-power-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation correctly links power, current and resistance?",
+      "markScheme": [
+        "1 mark: P = I² R"
+      ],
+      "explanation": "P = I² R: only the current is squared.",
+      "options": [
+        "P = I R²",
+        "P = (I R)²",
+        "P = I² ÷ R",
+        "P = I² R"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-electrical-power-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is 1.5 kW in watts?",
+      "markScheme": [
+        "1 mark: 1500 W"
+      ],
+      "explanation": "1 kW = 1000 W, so 1.5 kW = 1500 W.",
+      "options": [
+        "15 W",
+        "1500 W",
+        "150 W",
+        "0.0015 W"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-electrical-power-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The current through a fixed resistor is doubled. What happens to the power transferred?",
+      "markScheme": [
+        "1 mark: It is four times as large."
+      ],
+      "explanation": "P = I² R. Doubling I multiplies I² by 4, so the power is four times as large.",
+      "options": [
+        "It halves.",
+        "It stays the same.",
+        "It is four times as large.",
+        "It doubles."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electrical-power-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two appliances are connected to the 230 V mains. Appliance X has a power of 2000 W and Y has a power of 500 W. Which statement is correct?",
+      "markScheme": [
+        "1 mark: X draws four times the current of Y."
+      ],
+      "explanation": "I = P ÷ V and V is the same, so current is proportional to power: 2000 ÷ 500 = 4.",
+      "options": [
+        "X draws four times the current of Y.",
+        "Y draws four times the current of X.",
+        "They draw the same current.",
+        "X draws twice the current of Y."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electrical-power-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A resistor has 6.0 V across it and a current of 200 mA through it. What power does it transfer?",
+      "markScheme": [
+        "1 mark: 1.2 W"
+      ],
+      "explanation": "200 mA = 0.20 A. P = V I = 6.0 × 0.20 = 1.2 W. 1200 W comes from not converting mA.",
+      "options": [
+        "1200 W",
+        "0.033 W",
+        "30 W",
+        "1.2 W"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-electrical-power-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A current of 3.0 A flows through a 20 Ω resistor. What is the power?",
+      "markScheme": [
+        "1 mark: 180 W"
+      ],
+      "explanation": "P = I² R = 3.0² × 20 = 9.0 × 20 = 180 W. 60 W comes from forgetting to square the current; 3600 W from squaring I × R.",
+      "options": [
+        "60 W",
+        "180 W",
+        "120 W",
+        "3600 W"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-electrical-power-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement best describes power?",
+      "markScheme": [
+        "1 mark: The energy transferred per second"
+      ],
+      "explanation": "Power is the rate of energy transfer. Charge per second is current; energy per unit charge is potential difference.",
+      "options": [
+        "The total energy an appliance uses",
+        "The charge flowing per second",
+        "The energy transferred per second",
+        "The energy per unit charge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electrical-power-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A heater is connected to 230 V and draws a current of 4.0 A. Calculate its power.",
+      "markScheme": [
+        "1 mark: P = 230 × 4.0",
+        "1 mark: 920 W"
+      ],
+      "explanation": "P = V I = 230 × 4.0 = 920 W.",
+      "numericAnswer": 920,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-electrical-power-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A car headlamp works at 12 V with a current of 2.5 A. Calculate its power.",
+      "markScheme": [
+        "1 mark: P = 12 × 2.5",
+        "1 mark: 30 W"
+      ],
+      "explanation": "P = V I = 12 × 2.5 = 30 W.",
+      "numericAnswer": 30,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-electrical-power-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 2.3 kW kettle is connected to the 230 V mains. Calculate the current through it.",
+      "markScheme": [
+        "1 mark: 2.3 kW = 2300 W",
+        "1 mark: I = P ÷ V = 2300 ÷ 230",
+        "1 mark: 10 A"
+      ],
+      "explanation": "Convert to watts, then I = P ÷ V = 2300 ÷ 230 = 10 A.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-electrical-power-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A current of 0.50 A flows through a 40 Ω resistor. Calculate the power transferred.",
+      "markScheme": [
+        "1 mark: P = 0.50² × 40",
+        "1 mark: 10 W"
+      ],
+      "explanation": "P = I² R = 0.25 × 40 = 10 W.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-electrical-power-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A 60 W lamp is connected to the 230 V mains. Calculate the current through the lamp. Give your answer to 2 significant figures.",
+      "markScheme": [
+        "1 mark: I = P ÷ V = 60 ÷ 230",
+        "1 mark: 0.26 A"
+      ],
+      "explanation": "I = 60 ÷ 230 = 0.2609 A, which is 0.26 A to 2 significant figures.",
+      "numericAnswer": 0.26,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-electrical-power-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A resistor transfers 36 W when the current through it is 3.0 A. Calculate its resistance.",
+      "markScheme": [
+        "1 mark: R = P ÷ I²",
+        "1 mark: R = 36 ÷ 9.0",
+        "1 mark: 4.0 Ω"
+      ],
+      "explanation": "Rearrange P = I² R to R = P ÷ I² = 36 ÷ 9.0 = 4.0 Ω.",
+      "numericAnswer": 4,
+      "tolerance": 0.02,
+      "unit": "Ω"
+    },
+    {
+      "id": "p2-electrical-power-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 4.0 Ω resistor transfers energy at a rate of 9.0 W. Calculate the current through it.",
+      "markScheme": [
+        "1 mark: I² = P ÷ R = 9.0 ÷ 4.0 = 2.25",
+        "1 mark: I = √2.25",
+        "1 mark: 1.5 A"
+      ],
+      "explanation": "Rearrange: I = √(P ÷ R) = √2.25 = 1.5 A.",
+      "numericAnswer": 1.5,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-electrical-power-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Define power.",
+      "markScheme": [
+        "1 mark: the rate at which energy is transferred / energy transferred per second"
+      ],
+      "explanation": "Power tells you how quickly energy is transferred, not how much.",
+      "acceptedAnswers": [
+        "rate of energy transfer",
+        "energy transferred per second"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Write down the two equations for electrical power that you need to recall.",
+      "markScheme": [
+        "1 mark: P = V I (power = potential difference × current)",
+        "1 mark: P = I² R (power = current² × resistance)"
+      ],
+      "explanation": "Both must be recalled; neither is on the equation sheet.",
+      "acceptedAnswers": [
+        "P = V I",
+        "P = I² R"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain how the power of a device depends on the potential difference across it and the current through it.",
+      "markScheme": [
+        "1 mark: a larger potential difference means more energy is transferred by each coulomb of charge",
+        "1 mark: a larger current means more charge flows per second",
+        "1 mark: so power = potential difference × current"
+      ],
+      "explanation": "Volts are joules per coulomb and amps are coulombs per second, so V × I gives joules per second.",
+      "acceptedAnswers": [
+        "larger pd more energy per charge",
+        "larger current more charge per second",
+        "P = V I"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Show how the equation P = I² R can be obtained from P = V I and V = I R.",
+      "markScheme": [
+        "1 mark: substitute V = I R into P = V I",
+        "1 mark: P = (I R) × I = I² R"
+      ],
+      "explanation": "Replacing V with I R gives P = I × R × I = I² R.",
+      "acceptedAnswers": [
+        "substitute V = I R",
+        "P = I R × I"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says that the current through a resistor is tripled, so the power is tripled. Explain why the student is wrong and state the correct factor.",
+      "markScheme": [
+        "1 mark: P = I² R, so power depends on the square of the current",
+        "1 mark: power increases by a factor of 9 (3²)"
+      ],
+      "explanation": "Tripling I multiplies I² by 9, so the power is nine times as large (resistance assumed constant).",
+      "acceptedAnswers": [
+        "P = I² R",
+        "nine times"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why appliances that heat things, such as kettles and heaters, usually draw a larger current than other appliances on the mains.",
+      "markScheme": [
+        "1 mark: they have a higher power rating",
+        "1 mark: the potential difference is the same (230 V), so I = P ÷ V is larger"
+      ],
+      "explanation": "Heating needs a lot of energy quickly. At a fixed 230 V, a higher power means a higher current.",
+      "acceptedAnswers": [
+        "higher power",
+        "I = P ÷ V",
+        "same voltage"
+      ]
+    },
+    {
+      "id": "p2-electrical-power-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A student is given a 12 V power supply, an ammeter, a voltmeter and a small electric heater.\nDescribe how the student could find the power of the heater, and explain how they could use their results to calculate the resistance of the heater in two different ways.",
+      "markScheme": [
+        "Indicative content: connect the heater in series with the ammeter and supply; connect the voltmeter in parallel across the heater; switch on and record V and I; calculate power using P = V I; resistance method 1: R = V ÷ I; resistance method 2: rearrange P = I² R to R = P ÷ I²; the two values should agree; switch off between readings because the heater gets hot (resistance changes with temperature); repeat and take a mean; safety: do not touch the heater element.",
+        "Level 3 (5 to 6 marks): correct circuit, correct power calculation and both methods for resistance clearly explained.",
+        "Level 2 (3 to 4 marks): correct circuit or power calculation with one method for resistance.",
+        "Level 1 (1 to 2 marks): some relevant points, such as measuring current or naming P = V I."
+      ],
+      "explanation": "Both resistance methods come from the same data: R = V ÷ I directly, or R = P ÷ I² using the calculated power."
+    },
+    {
+      "id": "p2-electrical-power-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Two heaters, A and B, are connected to the same 230 V supply. Heater A has twice the resistance of heater B.\nCompare the currents through the heaters and the powers they transfer. Explain your answer using equations.",
+      "markScheme": [
+        "Indicative content: same potential difference for both; I = V ÷ R, so A (twice the resistance) has half the current of B; P = V I, same V, so A has half the power of B; check with P = I² R: A has (½)² × 2 = ½ the power of B; so heater B (lower resistance) transfers energy faster and heats faster; numerical example, e.g. B = 23 Ω: I = 10 A, P = 2300 W; A = 46 Ω: I = 5 A, P = 1150 W.",
+        "Level 2 (3 to 4 marks): correct comparisons of both current and power with justification from equations.",
+        "Level 1 (1 to 2 marks): one correct comparison with limited justification."
+      ],
+      "explanation": "With the same potential difference, the lower-resistance heater draws more current and so transfers more power. Using P = I² R alone can mislead because both I and R change."
+    },
+    {
+      "id": "p2-electrical-power-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these appliances is likely to have the highest power rating?",
+      "markScheme": [
+        "1 mark: Electric fan heater"
+      ],
+      "explanation": "Heating appliances transfer a lot of energy quickly, so they have high power ratings (often 2 to 3 kW). The others are only a few watts.",
+      "options": [
+        "Electric fan heater",
+        "Phone charger",
+        "LED bulb",
+        "Digital clock"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electrical-power-q26",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A phone charger supplies a potential difference of 5.0 V and a current of 2.0 A. Calculate the output power.",
+      "markScheme": [
+        "1 mark: P = 5.0 × 2.0",
+        "1 mark: 10 W"
+      ],
+      "explanation": "P = V I = 5.0 × 2.0 = 10 W.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-electrical-power-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the unit of power and explain what a power of 1 unit means.",
+      "markScheme": [
+        "1 mark: watt (W)",
+        "1 mark: 1 W means 1 joule of energy is transferred every second"
+      ],
+      "explanation": "A 60 W lamp transfers 60 J every second.",
+      "acceptedAnswers": [
+        "watt",
+        "1 joule per second"
+      ]
+    }
+  ]
+}
