@@ -39,7 +39,7 @@ export default function SubtopicTabs({
 
   return (
     <div>
-      <div className="no-print sticky top-[57px] z-20 -mx-4 mb-6 border-b border-line bg-bg/95 px-4 backdrop-blur">
+      <div className="no-print sticky top-16 z-20 -mx-4 mb-6 border-b border-line bg-bg/95 px-4 backdrop-blur">
         <div className="flex items-center gap-1 overflow-x-auto">
           {TABS.map((t) => (
             <button

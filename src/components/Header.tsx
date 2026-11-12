@@ -35,19 +35,19 @@ export default function Header() {
 
   return (
     <header className="no-print sticky top-0 z-30 border-b border-line bg-card/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
+      <div className="mx-auto flex h-16 max-w-7xl items-center gap-3 px-4">
         <Link href="/" className="flex items-center gap-2 font-bold tracking-tight">
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-green-500 via-violet-500 to-blue-500 text-sm text-white">
             G
           </span>
-          <span className="hidden sm:inline">GCSE Science</span>
+          <span className="hidden whitespace-nowrap sm:inline">GCSE Science</span>
         </Link>
-        <nav className="ml-4 hidden flex-1 items-center gap-1 lg:flex">
+        <nav className="ml-2 hidden flex-1 items-center gap-0.5 xl:flex">
           {NAV.map((n) => (
             <Link
               key={n.href}
               href={n.href}
-              className={`${n.cls ?? ""} rounded-md px-2.5 py-1.5 text-sm hover:bg-accent-soft ${
+              className={`${n.cls ?? ""} whitespace-nowrap rounded-md px-2 py-1.5 text-sm hover:bg-accent-soft ${
                 path?.startsWith(n.href) ? "bg-accent-soft font-semibold text-accent-fg" : "text-muted"
               }`}
             >
@@ -62,8 +62,8 @@ export default function Header() {
             onChange={(e) => setPrefs({ course: e.target.value as "separate" | "combined" })}
             className="rounded-md border border-line bg-card px-2 py-1 text-sm"
           >
-            <option value="separate">Separate sciences</option>
-            <option value="combined">Combined Science</option>
+            <option value="separate">Separate</option>
+            <option value="combined">Combined</option>
           </select>
           <select
             aria-label="Tier"
@@ -77,13 +77,13 @@ export default function Header() {
           <button onClick={toggleTheme} aria-label="Toggle dark mode" className="rounded-md border border-line px-2 py-1 text-sm">
             {dark ? "☀︎" : "☾"}
           </button>
-          <button onClick={() => setOpen(!open)} className="rounded-md border border-line px-2 py-1 text-sm lg:hidden" aria-label="Menu">
+          <button onClick={() => setOpen(!open)} className="rounded-md border border-line px-2 py-1 text-sm xl:hidden" aria-label="Menu">
             ☰
           </button>
         </div>
       </div>
       {open && (
-        <nav className="grid grid-cols-2 gap-1 border-t border-line px-4 py-3 lg:hidden">
+        <nav className="grid grid-cols-2 gap-1 border-t border-line px-4 py-3 xl:hidden">
           {NAV.map((n) => (
             <Link key={n.href} href={n.href} className="rounded-md px-2 py-2 text-sm hover:bg-accent-soft">
               {n.label}

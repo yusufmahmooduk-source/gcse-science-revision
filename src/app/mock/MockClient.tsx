@@ -144,7 +144,7 @@ export default function MockClient() {
 
   return (
     <div className={`theme-${science} space-y-5`}>
-      <div className="sticky top-[57px] z-20 -mx-4 flex flex-wrap items-center gap-3 border-b border-line bg-bg/95 px-4 py-3 backdrop-blur">
+      <div className="sticky top-16 z-20 -mx-4 flex flex-wrap items-center gap-3 border-b border-line bg-bg/95 px-4 py-3 backdrop-blur">
         <p className="font-semibold capitalize">
           {science} Paper {paper + 1} · {totalMarks} marks
         </p>
