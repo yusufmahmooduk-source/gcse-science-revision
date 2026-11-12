@@ -1,0 +1,738 @@
+{
+  "id": "b5-control-of-blood-glucose",
+  "science": "biology",
+  "topicId": "b5",
+  "slug": "control-of-blood-glucose",
+  "specRef": "4.5.3.2",
+  "title": "Control of blood glucose concentration",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Blood glucose concentration is monitored and controlled by the pancreas. When it is too high the pancreas produces insulin, which causes glucose to move from the blood into cells, where excess glucose is stored as glycogen in liver and muscle cells.",
+    "explanation": [
+      "Cells need a steady supply of glucose for respiration, but too much glucose in the blood is harmful. After a meal containing carbohydrates, glucose is absorbed from the small intestine and blood glucose concentration rises. The pancreas monitors the blood glucose concentration and acts as the coordination centre for controlling it.",
+      "If the blood glucose concentration is too high, the pancreas produces the hormone insulin, which is carried in the blood. Insulin causes glucose to move from the blood into the cells. In liver and muscle cells, excess glucose is converted to glycogen for storage. As a result, the blood glucose concentration falls back towards normal.",
+      "Type 1 diabetes is a disorder in which the pancreas fails to produce sufficient insulin. It is characterised by uncontrolled high blood glucose levels and is normally treated with insulin injections. People with type 1 diabetes monitor their blood glucose and adjust their insulin dose to the food they eat and the exercise they do.",
+      "In type 2 diabetes the body cells no longer respond to the insulin produced by the pancreas, so glucose is not taken up properly and blood glucose stays high. A carbohydrate-controlled diet and an exercise regime are common treatments. Obesity is a risk factor for type 2 diabetes. Some people with type 2 diabetes also need medicines.",
+      "Higher tier: if the blood glucose concentration is too low, the pancreas produces the hormone glucagon. Glucagon causes glycogen in the liver to be converted into glucose, which is released into the blood. Insulin and glucagon work together in a negative feedback cycle: a rise in blood glucose triggers insulin, which lowers it; a fall triggers glucagon, which raises it. This keeps blood glucose within a narrow range."
+    ],
+    "keyFacts": [
+      "Blood glucose concentration is monitored and controlled by the pancreas.",
+      "Too high: the pancreas produces insulin, which causes glucose to move from the blood into cells.",
+      "In liver and muscle cells, excess glucose is converted to glycogen for storage.",
+      "Type 1 diabetes: pancreas fails to produce sufficient insulin; treated with insulin injections.",
+      "Type 2 diabetes: body cells no longer respond to insulin; treated with a carbohydrate-controlled diet and exercise.",
+      "Obesity is a risk factor for type 2 diabetes.",
+      "Untreated diabetes gives uncontrolled high blood glucose levels.",
+      "(HT) Too low: the pancreas produces glucagon, which causes glycogen to be converted into glucose and released into the blood.",
+      "(HT) Insulin and glucagon interact in a negative feedback cycle."
+    ],
+    "keyTerms": [
+      {
+        "term": "Insulin",
+        "definition": "A hormone produced by the pancreas that causes glucose to move from the blood into cells, lowering blood glucose concentration."
+      },
+      {
+        "term": "Glycogen",
+        "definition": "A storage carbohydrate made from excess glucose in liver and muscle cells."
+      },
+      {
+        "term": "Glucagon",
+        "definition": "(HT) A hormone produced by the pancreas when blood glucose is too low; it causes glycogen to be converted into glucose and released into the blood."
+      },
+      {
+        "term": "Type 1 diabetes",
+        "definition": "A disorder in which the pancreas fails to produce sufficient insulin."
+      },
+      {
+        "term": "Type 2 diabetes",
+        "definition": "A disorder in which the body cells no longer respond to insulin produced by the pancreas."
+      },
+      {
+        "term": "Risk factor",
+        "definition": "Something that increases the chance of developing a disease, for example obesity for type 2 diabetes."
+      },
+      {
+        "term": "Negative feedback",
+        "definition": "(HT) A control mechanism in which a change from normal triggers a response that reverses the change."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Reading data on blood glucose",
+        "question": "A person's blood glucose concentration was 5.0 mmol/dm³ before a meal and peaked at 8.2 mmol/dm³ after it. Calculate the percentage increase.",
+        "steps": [
+          "Increase = 8.2 − 5.0 = 3.2 mmol/dm³.",
+          "Percentage increase = increase ÷ original × 100.",
+          "3.2 ÷ 5.0 × 100 = 64%."
+        ],
+        "answer": "64% increase."
+      },
+      {
+        "title": "Calculating a rate of change",
+        "question": "After a meal, a person's blood glucose fell from 8.2 mmol/dm³ to 5.0 mmol/dm³ in 80 minutes. Calculate the mean rate of decrease.",
+        "steps": [
+          "Change = 8.2 − 5.0 = 3.2 mmol/dm³.",
+          "Rate = change ÷ time = 3.2 ÷ 80.",
+          "= 0.04 mmol/dm³ per minute."
+        ],
+        "answer": "0.04 mmol/dm³ per minute. This fall is caused by insulin causing glucose to move into cells."
+      },
+      {
+        "title": "Interpreting a graph for diabetes",
+        "question": "After the same meal, person A's blood glucose rises from 5 to 8 mmol/dm³ and returns to 5 within 2 hours. Person B's rises from 8 to 15 mmol/dm³ and is still 12.5 mmol/dm³ after 3 hours. Person B produces very little insulin. Explain the difference.",
+        "steps": [
+          "Person A: the rise is detected by the pancreas, which secretes insulin.",
+          "Insulin causes glucose to move into cells, and liver and muscle cells store it as glycogen, so the level returns to normal.",
+          "Person B produces too little insulin (type 1 diabetes), so glucose is not moved into cells.",
+          "Blood glucose rises higher and stays high (uncontrolled high blood glucose)."
+        ],
+        "answer": "Person B has type 1 diabetes: without enough insulin, glucose is not taken up by cells, so blood glucose rises higher and stays high. They would need insulin injections."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Control of blood glucose by the pancreas",
+        "caption": "A rise in blood glucose triggers insulin; glucose moves into cells and is stored as glycogen. (HT) A fall triggers glucagon; the liver converts glycogen into glucose and releases it into the blood.",
+        "svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"b5g-ar\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs>\n<text x=\"260\" y=\"16\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Controlling blood glucose concentration</text>\n<rect x=\"10\" y=\"32\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"80\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">blood glucose too high</text><text x=\"80\" y=\"64\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">(for example after</text><text x=\"80\" y=\"78\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">a meal)</text>\n<rect x=\"175\" y=\"32\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"245\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">pancreas detects it</text><text x=\"245\" y=\"64\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">and secretes insulin</text><text x=\"245\" y=\"78\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">into the blood</text>\n<rect x=\"340\" y=\"32\" width=\"170\" height=\"60\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"425\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">glucose moves from blood</text><text x=\"425\" y=\"64\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">into cells; liver and muscle</text><text x=\"425\" y=\"78\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">cells store it as glycogen</text>\n<rect x=\"200\" y=\"135\" width=\"120\" height=\"55\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"260\" y=\"153\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">normal blood</text><text x=\"260\" y=\"167\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">glucose</text><text x=\"260\" y=\"181\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">concentration</text>\n<rect x=\"10\" y=\"238\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"80\" y=\"256\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">blood glucose too low</text><text x=\"80\" y=\"270\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">(for example after</text><text x=\"80\" y=\"284\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">exercise)</text>\n<rect x=\"175\" y=\"238\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"245\" y=\"256\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">pancreas detects it</text><text x=\"245\" y=\"270\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">and secretes glucagon</text><text x=\"245\" y=\"284\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">into the blood</text>\n<rect x=\"340\" y=\"238\" width=\"170\" height=\"60\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"425\" y=\"256\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">liver converts glycogen</text><text x=\"425\" y=\"270\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">into glucose, which is</text><text x=\"425\" y=\"284\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">released into the blood</text>\n<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#b5g-ar)\">\n<path d=\"M150,62 L173,62\"/><path d=\"M315,62 L338,62\"/><path d=\"M150,268 L173,268\"/><path d=\"M315,268 L338,268\"/>\n<path d=\"M200,152 L60,152 L60,94\"/><path d=\"M470,94 L470,148 L322,148\"/>\n<path d=\"M200,176 L90,176 L90,236\"/><path d=\"M440,236 L440,178 L322,178\"/></g>\n<text x=\"395\" y=\"142\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">level falls</text><text x=\"345\" y=\"192\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">level rises</text>\n<text x=\"130\" y=\"147\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">rise</text><text x=\"130\" y=\"190\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">fall</text>\n<text x=\"260\" y=\"320\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Bottom loop (glucagon) is Higher tier only</text>\n</svg>"
+      },
+      {
+        "title": "Blood glucose with and without diabetes",
+        "caption": "In a person without diabetes, insulin returns blood glucose to normal within about two hours. In untreated type 1 diabetes, blood glucose rises higher and stays high.",
+        "svg": "<svg viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\">\n<text x=\"260\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Blood glucose after a meal containing glucose</text>\n<line x1=\"60\" y1=\"240\" x2=\"465\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"240\" x2=\"60\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<line x1=\"55\" y1=\"240.0\" x2=\"60\" y2=\"240.0\" stroke=\"currentColor\"/><text x=\"50\" y=\"244\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"55\" y1=\"190.0\" x2=\"60\" y2=\"190.0\" stroke=\"currentColor\"/><text x=\"50\" y=\"194\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">4</text><line x1=\"55\" y1=\"140.0\" x2=\"60\" y2=\"140.0\" stroke=\"currentColor\"/><text x=\"50\" y=\"144\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">8</text><line x1=\"55\" y1=\"90.0\" x2=\"60\" y2=\"90.0\" stroke=\"currentColor\"/><text x=\"50\" y=\"94\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">12</text><line x1=\"55\" y1=\"40.0\" x2=\"60\" y2=\"40.0\" stroke=\"currentColor\"/><text x=\"50\" y=\"44\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">16</text>\n<line x1=\"60.0\" y1=\"240\" x2=\"60.0\" y2=\"245\" stroke=\"currentColor\"/><text x=\"60.0\" y=\"258\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"193.3\" y1=\"240\" x2=\"193.3\" y2=\"245\" stroke=\"currentColor\"/><text x=\"193.3\" y=\"258\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">60</text><line x1=\"326.7\" y1=\"240\" x2=\"326.7\" y2=\"245\" stroke=\"currentColor\"/><text x=\"326.7\" y=\"258\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">120</text><line x1=\"460.0\" y1=\"240\" x2=\"460.0\" y2=\"245\" stroke=\"currentColor\"/><text x=\"460.0\" y=\"258\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">180</text>\n<text x=\"262\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time after meal in minutes</text>\n<text x=\"18\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 140)\">Blood glucose in mmol/dm³</text>\n<polyline points=\"60.0,177.5 126.7,146.3 160.0,140.0 193.3,147.5 260.0,167.5 326.7,177.5 460.0,177.5\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2.5\"/>\n<polyline points=\"60.0,140.0 126.7,90.0 193.3,52.5 260.0,58.8 326.7,67.5 460.0,83.8\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/>\n<text x=\"340\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">person without diabetes</text>\n<text x=\"340\" y=\"98\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">person with untreated</text><text x=\"340\" y=\"111\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">type 1 diabetes</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often confuse glucagon and glycogen.",
+        "right": "Glucagon is a hormone (HT). Glycogen is the storage carbohydrate in liver and muscle cells. Glucagon causes glycogen to be converted into glucose."
+      },
+      {
+        "wrong": "Students often write that insulin converts glucose to glycogen itself.",
+        "right": "In fact insulin is a hormone that causes glucose to move from the blood into cells, where excess glucose is converted to glycogen."
+      },
+      {
+        "wrong": "Students often think people with type 2 diabetes do not produce insulin.",
+        "right": "In fact in type 2 diabetes the pancreas still produces insulin, but the body cells no longer respond to it."
+      },
+      {
+        "wrong": "Students often think diabetes is caused by eating sugar.",
+        "right": "In fact type 1 is caused by the pancreas failing to produce enough insulin. Obesity is a risk factor for type 2, but sugar alone does not cause diabetes."
+      },
+      {
+        "wrong": "Students often think the liver controls blood glucose.",
+        "right": "In fact the pancreas monitors and controls blood glucose. The liver is the target organ that stores or releases glucose."
+      }
+    ],
+    "realWorld": [
+      "People with type 1 diabetes use glucose meters or continuous glucose monitors and inject insulin, or use insulin pumps, to keep their blood glucose within a safe range.",
+      "Diabetes UK estimates that around 90% of people with diabetes in the UK have type 2, and rising rates of obesity are linked to its increase.",
+      "The NHS runs a Diabetes Prevention Programme offering diet and exercise support to people at high risk of type 2 diabetes.",
+      "Insulin for injections is now made by genetically modified bacteria, replacing insulin extracted from pigs and cattle."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "If the blood glucose concentration is too low, the pancreas produces the hormone glucagon.",
+      "Glucagon causes glycogen to be converted into glucose and released into the blood.",
+      "Explain how glucagon interacts with insulin in a negative feedback cycle to control blood glucose (sugar) levels in the body."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Spell glucagon and glycogen carefully: one letter wrong can cost the mark. Glucagon is the hormone; glycogen is the store.",
+      "Say insulin \"causes glucose to move from the blood into cells\", using the AQA wording.",
+      "When comparing type 1 and type 2 diabetes, give the cause AND the treatment for each.",
+      "On graphs, describe the pattern with data: give the starting value, peak, time of peak and final value, with units.",
+      "(HT) For negative feedback answers, describe both directions: rise → insulin → fall, and fall → glucagon → rise."
+    ],
+    "summary": [
+      "The pancreas monitors and controls blood glucose concentration.",
+      "High blood glucose → insulin → glucose moves into cells and is stored as glycogen in liver and muscle.",
+      "Type 1 diabetes: too little insulin; treated with insulin injections.",
+      "Type 2 diabetes: cells do not respond to insulin; treated with diet and exercise; obesity is a risk factor.",
+      "(HT) Low blood glucose → glucagon → glycogen converted to glucose and released.",
+      "(HT) Insulin and glucagon form a negative feedback cycle."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Which organ monitors and controls blood glucose concentration?",
+      "back": "The pancreas."
+    },
+    {
+      "front": "What does the pancreas produce when blood glucose is too high?",
+      "back": "Insulin."
+    },
+    {
+      "front": "What does insulin do?",
+      "back": "Causes glucose to move from the blood into cells."
+    },
+    {
+      "front": "What happens to excess glucose in liver and muscle cells?",
+      "back": "It is converted to glycogen for storage."
+    },
+    {
+      "front": "What causes type 1 diabetes?",
+      "back": "The pancreas fails to produce sufficient insulin."
+    },
+    {
+      "front": "How is type 1 diabetes treated?",
+      "back": "Insulin injections."
+    },
+    {
+      "front": "What causes type 2 diabetes?",
+      "back": "Body cells no longer respond to the insulin produced by the pancreas."
+    },
+    {
+      "front": "How is type 2 diabetes treated?",
+      "back": "A carbohydrate-controlled diet and an exercise regime."
+    },
+    {
+      "front": "What is a risk factor for type 2 diabetes?",
+      "back": "Obesity."
+    },
+    {
+      "front": "(HT) What does the pancreas produce when blood glucose is too low?",
+      "back": "Glucagon."
+    },
+    {
+      "front": "(HT) What does glucagon do?",
+      "back": "Causes glycogen to be converted into glucose and released into the blood."
+    },
+    {
+      "front": "Glucagon or glycogen: which is the hormone?",
+      "back": "Glucagon is the hormone; glycogen is the storage carbohydrate."
+    },
+    {
+      "front": "(HT) How do insulin and glucagon work together?",
+      "back": "In a negative feedback cycle: insulin lowers high blood glucose; glucagon raises low blood glucose."
+    }
+  ],
+  "questions": [
+    {
+      "id": "b5-control-of-blood-glucose-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which organ monitors and controls blood glucose concentration?",
+      "options": [
+        "Liver",
+        "Stomach",
+        "Kidney",
+        "Pancreas"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: pancreas"
+      ],
+      "explanation": "The pancreas monitors and controls blood glucose. The liver is a target organ that stores glucose as glycogen."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which hormone does the pancreas produce when blood glucose concentration is too high?",
+      "options": [
+        "Insulin",
+        "Adrenaline",
+        "Glucagon",
+        "Oestrogen"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: insulin"
+      ],
+      "explanation": "Insulin is released when blood glucose is too high. Glucagon (Higher) is released when it is too low."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In liver and muscle cells, excess glucose is converted to which substance for storage?",
+      "options": [
+        "Starch",
+        "Glucagon",
+        "Glycogen",
+        "Protein"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: glycogen"
+      ],
+      "explanation": "Excess glucose is stored as glycogen in animals. Starch is the plant storage carbohydrate, and glucagon is a hormone."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the cause of type 1 diabetes?",
+      "options": [
+        "Body cells no longer respond to insulin",
+        "The pancreas fails to produce sufficient insulin",
+        "The liver produces too much glycogen",
+        "Eating too much sugar"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: pancreas fails to produce sufficient insulin"
+      ],
+      "explanation": "In type 1 diabetes the pancreas does not produce enough insulin. Cells not responding to insulin is type 2."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the cause of type 2 diabetes?",
+      "options": [
+        "The pancreas stops making all hormones",
+        "The liver cannot store glucose because it lacks glucagon",
+        "Too much insulin is produced",
+        "Body cells no longer respond to the insulin produced by the pancreas"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: body cells no longer respond to insulin"
+      ],
+      "explanation": "In type 2 diabetes insulin is still produced, but cells no longer respond to it."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these is a risk factor for type 2 diabetes?",
+      "options": [
+        "Obesity",
+        "Being underweight",
+        "Having blue eyes",
+        "Drinking plenty of water"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: obesity"
+      ],
+      "explanation": "AQA states that obesity is a risk factor for type 2 diabetes."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How is type 1 diabetes normally treated?",
+      "options": [
+        "Antibiotics",
+        "Glucagon tablets",
+        "Insulin injections",
+        "A high-sugar diet"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: insulin injections"
+      ],
+      "explanation": "The pancreas does not make enough insulin, so insulin is injected. Antibiotics treat bacterial infections, not diabetes."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the effect of insulin on blood glucose?",
+      "options": [
+        "It causes glycogen to be broken down, so blood glucose rises",
+        "It causes glucose to move from the blood into cells, so blood glucose falls",
+        "It causes glucose to be excreted by the lungs",
+        "It stops glucose being absorbed in the stomach"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: glucose moves into cells, so blood glucose falls"
+      ],
+      "explanation": "Insulin causes glucose to move from the blood into cells, where excess is stored as glycogen."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "(Higher) When is glucagon produced by the pancreas?",
+      "options": [
+        "When blood glucose concentration is too high",
+        "Only during sleep",
+        "Only after eating a meal",
+        "When blood glucose concentration is too low"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: when blood glucose is too low"
+      ],
+      "explanation": "Glucagon is produced when blood glucose falls too low, for example after exercise or a long time without food."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "(Higher) What is the effect of glucagon?",
+      "options": [
+        "It causes glycogen to be converted into glucose and released into the blood",
+        "It causes glucose to be converted into glycogen",
+        "It causes cells to stop respiring",
+        "It causes the pancreas to make more insulin"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: glycogen converted into glucose and released into the blood"
+      ],
+      "explanation": "Glucagon has the opposite effect to insulin: stored glycogen is converted back into glucose, raising blood glucose."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does a carbohydrate-controlled diet help a person with type 2 diabetes?",
+      "options": [
+        "It makes the pancreas produce glucagon",
+        "It cures the disease immediately",
+        "It reduces the amount of glucose entering the blood after meals",
+        "It increases the amount of glycogen in the blood"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: less glucose enters the blood"
+      ],
+      "explanation": "Carbohydrates are digested to glucose. Eating fewer (or slower-releasing) carbohydrates means smaller rises in blood glucose. Glycogen is stored in cells, not the blood."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q12",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) Which statement best describes how insulin and glucagon control blood glucose?",
+      "options": [
+        "Both hormones lower blood glucose",
+        "They act in a negative feedback cycle: a rise triggers insulin to lower it, a fall triggers glucagon to raise it",
+        "Insulin is released when glucose is low and glucagon when it is high",
+        "Glucagon is only needed by people with diabetes"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: negative feedback; insulin lowers a high level, glucagon raises a low level"
+      ],
+      "explanation": "Each change from normal triggers a hormone that reverses the change, which is negative feedback."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q13",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "After a meal, a person has high blood glucose that stays high for several hours, even though their blood contains a normal concentration of insulin. Which is the most likely explanation?",
+      "options": [
+        "They have type 1 diabetes",
+        "They have eaten no carbohydrate",
+        "Their pancreas is producing too much glucagon only",
+        "Their body cells do not respond to insulin, so they have type 2 diabetes"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: cells do not respond to insulin (type 2 diabetes)"
+      ],
+      "explanation": "Insulin is present, so the pancreas is producing it. Glucose stays high because cells are not responding: type 2 diabetes. In type 1, insulin would be low."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Before a meal, a person's blood glucose concentration was 5.0 mmol/dm³. One hour later it was 8.2 mmol/dm³. Calculate the increase in blood glucose concentration.",
+      "numericAnswer": 3.2,
+      "tolerance": 0.02,
+      "unit": "mmol/dm³",
+      "markScheme": [
+        "1 mark: 8.2 − 5.0 = 3.2 mmol/dm³"
+      ],
+      "explanation": "Increase = 8.2 − 5.0 = 3.2 mmol/dm³."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A person's blood glucose concentration rose from 5.0 mmol/dm³ to 8.2 mmol/dm³ after a meal. Calculate the percentage increase.",
+      "numericAnswer": 64,
+      "tolerance": 0.02,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (8.2 − 5.0) ÷ 5.0 × 100",
+        "1 mark: 64%"
+      ],
+      "explanation": "3.2 ÷ 5.0 × 100 = 64%. Always divide the change by the starting value."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "After reaching a peak of 8.2 mmol/dm³, a person's blood glucose fell to 5.0 mmol/dm³ over 80 minutes. Calculate the mean rate of decrease in mmol/dm³ per minute.",
+      "numericAnswer": 0.04,
+      "tolerance": 0.02,
+      "unit": "mmol/dm³ per minute",
+      "markScheme": [
+        "1 mark: (8.2 − 5.0) ÷ 80",
+        "1 mark: 0.04 mmol/dm³ per minute"
+      ],
+      "explanation": "Rate = change ÷ time = 3.2 ÷ 80 = 0.04 mmol/dm³ per minute. The fall is caused by insulin causing glucose to move into cells."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "After the same meal, the peak blood glucose of a person with untreated type 1 diabetes was 14.5 mmol/dm³, and the peak of a person without diabetes was 8.2 mmol/dm³. Calculate how much higher, as a percentage, the peak of the person with diabetes was. Give your answer to 2 significant figures.",
+      "numericAnswer": 77,
+      "tolerance": 0.02,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (14.5 − 8.2) ÷ 8.2 × 100",
+        "1 mark: 77% (to 2 significant figures)"
+      ],
+      "explanation": "Difference = 6.3 mmol/dm³; 6.3 ÷ 8.2 × 100 = 76.8%, which is 77% to 2 significant figures. Divide by the value you are comparing against (the person without diabetes)."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q18",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A person with type 1 diabetes injects 1 unit of insulin for every 10 g of carbohydrate they eat. Their lunch contains 75 g of carbohydrate. Calculate how many units of insulin they should inject.",
+      "numericAnswer": 7.5,
+      "tolerance": 0.01,
+      "unit": "units",
+      "markScheme": [
+        "1 mark: 75 ÷ 10",
+        "1 mark: 7.5 units"
+      ],
+      "explanation": "75 g ÷ 10 g per unit = 7.5 units. Matching insulin to carbohydrate intake helps keep blood glucose within a safe range."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the storage substance that excess glucose is converted to in liver and muscle cells.",
+      "acceptedAnswers": [
+        "glycogen"
+      ],
+      "markScheme": [
+        "1 mark: glycogen"
+      ],
+      "explanation": "Excess glucose is converted to glycogen for storage. Do not confuse it with glucagon."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe what happens when blood glucose concentration becomes too high.",
+      "acceptedAnswers": [
+        "pancreas produces insulin",
+        "glucose moves into cells",
+        "converted to glycogen",
+        "liver and muscle"
+      ],
+      "markScheme": [
+        "1 mark: the pancreas produces / secretes insulin",
+        "1 mark: insulin causes glucose to move from the blood into cells / excess glucose is converted to glycogen in liver and muscle cells"
+      ],
+      "explanation": "The pancreas detects the rise and releases insulin, which lowers blood glucose."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two common treatments for type 2 diabetes.",
+      "acceptedAnswers": [
+        "carbohydrate-controlled diet",
+        "exercise",
+        "lose weight"
+      ],
+      "markScheme": [
+        "1 mark: carbohydrate-controlled diet",
+        "1 mark: exercise regime"
+      ],
+      "explanation": "AQA names a carbohydrate-controlled diet and an exercise regime as common treatments for type 2 diabetes."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a person with untreated type 1 diabetes has a high blood glucose concentration.",
+      "acceptedAnswers": [
+        "pancreas does not produce enough insulin",
+        "glucose not moved into cells",
+        "not stored as glycogen"
+      ],
+      "markScheme": [
+        "1 mark: the pancreas does not produce (sufficient) insulin",
+        "1 mark: so glucose is not moved from the blood into cells / not converted to glycogen"
+      ],
+      "explanation": "Without enough insulin, glucose stays in the blood, giving uncontrolled high blood glucose."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why people with type 1 diabetes need to monitor their blood glucose concentration.",
+      "acceptedAnswers": [
+        "adjust insulin dose",
+        "avoid too high",
+        "avoid too low",
+        "match insulin to food and exercise"
+      ],
+      "markScheme": [
+        "1 mark: to know how much insulin to inject / when to inject",
+        "1 mark: so blood glucose does not go too high or too low (which is dangerous)"
+      ],
+      "explanation": "Insulin needs change with food eaten and exercise taken, so monitoring helps match the dose and avoid dangerous highs or lows."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A person has not eaten for several hours and has just done a lot of exercise. Explain how their blood glucose concentration is returned to normal.",
+      "acceptedAnswers": [
+        "pancreas produces glucagon",
+        "glycogen converted to glucose",
+        "released into blood",
+        "liver"
+      ],
+      "markScheme": [
+        "1 mark: the pancreas detects the low blood glucose and produces glucagon",
+        "1 mark: glucagon causes glycogen (in the liver) to be converted into glucose, which is released into the blood"
+      ],
+      "explanation": "Exercise uses glucose in respiration, so blood glucose falls. Glucagon raises it again by releasing glucose from glycogen stores."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why type 2 diabetes can often be controlled by diet and exercise, but type 1 diabetes cannot.",
+      "acceptedAnswers": [
+        "type 1 no insulin produced",
+        "must inject insulin",
+        "type 2 cells do not respond",
+        "diet reduces glucose intake",
+        "exercise uses glucose",
+        "weight loss"
+      ],
+      "markScheme": [
+        "1 mark: in type 1 the pancreas does not produce enough insulin, so insulin must be injected / diet cannot replace insulin",
+        "1 mark: in type 2 insulin is still produced (but cells respond poorly)",
+        "1 mark: controlling carbohydrate intake reduces rises in blood glucose and exercise uses glucose in respiration / helps weight loss"
+      ],
+      "explanation": "In type 1 the missing insulin must be replaced. In type 2 some control remains, so reducing glucose intake and increasing glucose use can be enough."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why a person with type 1 diabetes usually injects insulin shortly before a meal rather than several hours afterwards.",
+      "acceptedAnswers": [
+        "blood glucose rises after meal",
+        "insulin needed when glucose absorbed",
+        "prevent high blood glucose"
+      ],
+      "markScheme": [
+        "1 mark: blood glucose rises soon after a meal (as glucose is absorbed)",
+        "1 mark: insulin needs to be present at that time to move glucose into cells and prevent a dangerously high level"
+      ],
+      "explanation": "The timing of the injection matches the rise in blood glucose after eating."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how regular exercise helps people with type 2 diabetes to control their blood glucose.",
+      "acceptedAnswers": [
+        "muscles use glucose",
+        "respiration",
+        "lowers blood glucose",
+        "weight loss",
+        "reduce obesity"
+      ],
+      "markScheme": [
+        "1 mark: muscles use more glucose for respiration, which lowers blood glucose",
+        "1 mark: exercise helps reduce body mass / obesity, which is a risk factor"
+      ],
+      "explanation": "Exercise removes glucose from the blood for respiration and helps reduce obesity."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare type 1 and type 2 diabetes. Include the causes and treatments in your answer.",
+      "markScheme": [
+        "Indicative content: both result in high blood glucose concentration; type 1: pancreas fails to produce sufficient insulin; characterised by uncontrolled high blood glucose; treated with insulin injections; blood glucose monitoring; type 2: body cells no longer respond to insulin produced by the pancreas; insulin is still produced; treated with a carbohydrate-controlled diet and exercise regime; obesity is a risk factor for type 2.",
+        "Level 2 (3 to 4 marks): the correct cause and treatment for both types, with at least one clear comparison (for example, insulin is produced in type 2 but not enough in type 1).",
+        "Level 1 (1 to 2 marks): a correct cause or treatment for one type, or limited comparison.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A comparison should link the cause to the treatment: no insulin means it must be injected; cells not responding means reducing glucose intake and increasing glucose use."
+    },
+    {
+      "id": "b5-control-of-blood-glucose-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "(Higher) Explain how insulin and glucagon interact to control blood glucose concentration. Use the examples of a person eating a meal and the same person exercising later in the day.",
+      "markScheme": [
+        "Indicative content: blood glucose monitored by the pancreas; after a meal carbohydrates are digested and glucose absorbed, so blood glucose rises; pancreas secretes insulin into the blood; insulin causes glucose to move from the blood into cells; in liver and muscle cells excess glucose converted to glycogen for storage; blood glucose falls back to normal; during exercise muscles use glucose for respiration, so blood glucose falls; pancreas secretes glucagon; glucagon causes glycogen (in the liver) to be converted into glucose; glucose released into the blood, so blood glucose rises back to normal; this is negative feedback: any change from normal triggers a response that reverses it; the two hormones have opposite effects and keep blood glucose within a narrow range.",
+        "Level 3 (5 to 6 marks): a detailed, logically sequenced explanation of both the insulin and the glucagon responses applied to both contexts, with the idea of negative feedback clearly explained.",
+        "Level 2 (3 to 4 marks): both hormones described with some correct effects, but detail or the feedback link is limited.",
+        "Level 1 (1 to 2 marks): one hormone described simply, or confusion between glucagon and glycogen.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers describe both directions of change, name the correct hormone for each, state what happens to glycogen, and explain that this is a negative feedback cycle."
+    }
+  ]
+}

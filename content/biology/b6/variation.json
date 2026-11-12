@@ -1,0 +1,466 @@
+{
+  "id": "b6-variation",
+  "science": "biology",
+  "topicId": "b6",
+  "slug": "variation",
+  "specRef": "4.6.2.1",
+  "title": "Variation",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Variation is the differences in the characteristics of individuals in a population. It may be caused by the genes inherited (genetic causes), the conditions in which the organism developed (environmental causes), or a combination of both.",
+    "explanation": [
+      "No two individuals in a population are exactly the same. These differences are called variation. Some variation is caused by genes: the alleles an organism inherits from its parents. Examples include blood group in humans, eye colour and the shape of a pea pod. Other variation is caused by the environment, meaning the conditions in which the organism developed. Examples include a scar, a tattoo, a language spoken or the size of a plant grown in poor light. Most characteristics, such as height, body mass and the yield of a crop, are affected by a combination of genes and the environment.",
+      "Identical twins are useful for studying causes of variation, because they have exactly the same genes. Any differences between them, such as a difference in body mass, must be caused by the environment. Similarly, plants grown from cuttings of one parent plant are genetically identical, so if they are grown in different conditions, differences in their height or leaf size show the effect of the environment. A characteristic that differs between people even when they share the same environment is likely to be at least partly genetic.",
+      "There is usually extensive genetic variation within a population of a species. All of this genetic variation, every different version of a gene (variant), originally arose from mutations. A mutation is a change in the DNA. Mutations occur continuously, for example when DNA is copied before cell division. Most mutations have no effect on the phenotype (the characteristics an organism shows). Some mutations influence the phenotype a little. Very few mutations determine the phenotype on their own.",
+      "Very rarely a mutation leads to a completely new phenotype. Usually a new phenotype gives no advantage, or is harmful. However, if the new phenotype happens to be suited to a change in the environment, individuals with it are more likely to survive and reproduce, passing the mutation on. In this case it can lead to a relatively rapid change in the species. This is the link between variation and evolution by natural selection, and it explains, for example, how bacteria can quickly become resistant to an antibiotic.",
+      "When you collect data about variation you need to handle it carefully. Characteristics that can take any value within a range, such as height or mass, are usually plotted as a histogram and often show a bell-shaped (normal) distribution: most individuals are near the mean and few are at the extremes. This pattern is typical of characteristics affected by many genes and by the environment. Characteristics that fall into a few distinct groups, such as blood group, are plotted as a bar chart. You should be able to calculate means, ranges and percentages from variation data."
+    ],
+    "keyFacts": [
+      "Variation is differences in the characteristics of individuals in a population.",
+      "Variation can have genetic causes, environmental causes, or a combination of both.",
+      "Most characteristics, such as height and mass, are affected by both genes and the environment.",
+      "There is usually extensive genetic variation within a population of a species.",
+      "All genetic variants arise from mutations; mutations occur continuously.",
+      "Most mutations have no effect on the phenotype; some influence it; very few determine it.",
+      "Very rarely a mutation produces a new phenotype.",
+      "If a new phenotype suits an environmental change, it can lead to a relatively rapid change in the species.",
+      "Identical twins have the same genes, so differences between them are caused by the environment."
+    ],
+    "keyTerms": [
+      { "term": "Variation", "definition": "Differences in the characteristics of individuals in a population." },
+      { "term": "Genetic variation", "definition": "Variation caused by differences in the genes (alleles) individuals have inherited." },
+      { "term": "Environmental variation", "definition": "Variation caused by the conditions in which an organism has developed, such as diet, light, climate or injury." },
+      { "term": "Mutation", "definition": "A change in DNA. Mutations occur continuously and are the source of all genetic variants." },
+      { "term": "Phenotype", "definition": "The characteristics an organism shows, which result from its genes and their interaction with the environment." },
+      { "term": "Variant", "definition": "A different version of a gene or DNA sequence, produced originally by a mutation." },
+      { "term": "Population", "definition": "All the individuals of one species living in the same area." }
+    ],
+    "equations": [
+      { "name": "Mean", "formula": "mean = sum of all values ÷ number of values", "symbols": "", "units": "same units as the data", "recall": true },
+      { "name": "Range", "formula": "range = largest value − smallest value", "symbols": "", "units": "same units as the data", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Classifying the causes of variation",
+        "question": "Classify each characteristic as genetic, environmental or a combination: (a) blood group, (b) a scar on the knee, (c) adult height.",
+        "steps": [
+          "Blood group is controlled only by the alleles inherited, and diet or lifestyle cannot change it: genetic.",
+          "A scar is caused by an injury during life and is not inherited: environmental.",
+          "Height depends on inherited genes but also on diet and health while growing: a combination."
+        ],
+        "answer": "(a) genetic, (b) environmental, (c) combination of genetic and environmental."
+      },
+      {
+        "title": "Calculating a mean and range",
+        "question": "Five sunflowers grown from seeds in the same field reached heights of 182 cm, 175 cm, 190 cm, 168 cm and 185 cm. Calculate the mean height and the range.",
+        "steps": [
+          "Add the values: 182 + 175 + 190 + 168 + 185 = 900 cm.",
+          "Divide by the number of plants: 900 ÷ 5 = 180 cm.",
+          "Range = largest − smallest = 190 − 168 = 22 cm."
+        ],
+        "answer": "Mean = 180 cm; range = 22 cm."
+      },
+      {
+        "title": "Using identical twins",
+        "question": "Identical twins were separated at birth. At age 30 one twin has a mass of 68 kg and the other 81 kg. Explain what this shows about the cause of the difference.",
+        "steps": [
+          "Identical twins come from the same fertilised egg, so they have identical genes.",
+          "The difference in mass cannot therefore be caused by genes.",
+          "It must be caused by differences in their environment, such as diet and exercise."
+        ],
+        "answer": "The 13 kg difference is environmental, because the twins' genes are identical."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Causes of variation",
+        "caption": "Variation can be caused by genes, by the environment, or by both. Most characteristics fall into the overlap.",
+        "svg": "<svg viewBox='0 0 440 260' xmlns='http://www.w3.org/2000/svg'><circle cx='160' cy='130' r='100' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><circle cx='280' cy='130' r='100' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='80' y='22' font-size='12' fill='currentColor'>genetic causes</text><text x='290' y='22' font-size='12' fill='currentColor'>environmental causes</text><text x='75' y='110' font-size='12' fill='currentColor'>blood group</text><text x='75' y='130' font-size='12' fill='currentColor'>natural eye</text><text x='75' y='145' font-size='12' fill='currentColor'>colour</text><text x='310' y='110' font-size='12' fill='currentColor'>scars</text><text x='310' y='130' font-size='12' fill='currentColor'>language</text><text x='310' y='150' font-size='12' fill='currentColor'>tattoos</text><text x='198' y='105' font-size='12' fill='currentColor'>both:</text><text x='198' y='125' font-size='12' fill='currentColor'>height</text><text x='198' y='145' font-size='12' fill='currentColor'>mass</text><text x='198' y='165' font-size='12' fill='currentColor'>crop yield</text><text x='95' y='252' font-size='12' fill='currentColor'>most characteristics are in the overlap</text></svg>"
+      },
+      {
+        "title": "What mutations do to the phenotype",
+        "caption": "Mutations occur continuously. Most have no effect on the phenotype, some influence it, and very few determine it. Very rarely a new phenotype appears; if it suits an environmental change, the species can change relatively rapidly.",
+        "svg": "<svg viewBox='0 0 440 250' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='400' height='40' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='130' y='45' font-size='12' fill='currentColor'>mutations (changes in DNA) occur continuously</text><path d='M60 60 L380 60 L340 110 L100 110 Z' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='145' y='90' font-size='12' fill='currentColor'>MOST: no effect on phenotype</text><path d='M100 110 L340 110 L300 155 L140 155 Z' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='158' y='137' font-size='12' fill='currentColor'>SOME: influence phenotype</text><path d='M140 155 L300 155 L260 200 L180 200 Z' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='168' y='182' font-size='12' fill='currentColor'>VERY FEW: determine</text><line x1='220' y1='200' x2='220' y2='220' stroke='currentColor' stroke-width='2'/><path d='M220 226 L215 216 L225 216 Z' fill='currentColor'/><text x='40' y='244' font-size='12' fill='currentColor'>rarely a new phenotype: if suited to a change, rapid change in species</text></svg>"
+      },
+      {
+        "title": "A characteristic affected by genes and the environment",
+        "caption": "Heights of people in a population plotted as a histogram show a bell-shaped (normal) distribution: most are near the mean and few are very short or very tall.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><line x1='50' y1='210' x2='400' y2='210' stroke='currentColor' stroke-width='2'/><line x1='50' y1='210' x2='50' y2='20' stroke='currentColor' stroke-width='2'/><g fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'><rect x='60' y='195' width='40' height='15'/><rect x='100' y='165' width='40' height='45'/><rect x='140' y='110' width='40' height='100'/><rect x='180' y='50' width='40' height='160'/><rect x='220' y='60' width='40' height='150'/><rect x='260' y='115' width='40' height='95'/><rect x='300' y='170' width='40' height='40'/><rect x='340' y='198' width='40' height='12'/></g><g font-size='12' fill='currentColor'><text x='55' y='226'>150</text><text x='135' y='226'>160</text><text x='215' y='226'>170</text><text x='295' y='226'>180</text><text x='370' y='226'>190</text><text x='160' y='250'>height in cm</text><text x='8' y='120' transform='rotate(-90 20 120)'>frequency</text><text x='230' y='40'>most people near the mean</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think every characteristic is caused either by genes or by the environment.", "right": "In fact most characteristics, such as height and body mass, are caused by a combination of genes and the environment." },
+      { "wrong": "Students often think that mutations are always harmful.", "right": "In fact most mutations have no effect on the phenotype. Some influence it slightly and very few determine it; a rare few can even be beneficial." },
+      { "wrong": "Students often think mutations are rare events that only happen because of radiation or chemicals.", "right": "In fact mutations occur continuously, for example when DNA is copied. Radiation and some chemicals simply increase the rate." },
+      { "wrong": "Students often think identical twins are completely identical in every characteristic.", "right": "In fact identical twins have identical genes, but differences in their environment cause differences such as mass, scars and skills." },
+      { "wrong": "Students often think characteristics gained during life, such as big muscles from training, are passed to the offspring.", "right": "In fact only genetic variation is inherited. Environmental variation is not passed on in the DNA of gametes." }
+    ],
+    "realWorld": [
+      "Twin studies help scientists judge how much a disease risk, such as for type 2 diabetes, depends on genes and how much on lifestyle.",
+      "Farmers know crop yield depends on both the variety of seed (genes) and the soil, water and fertiliser (environment), so they choose good varieties and good growing conditions.",
+      "Rapid evolution of antibiotic resistance in bacteria and warfarin resistance in rats both started with rare mutations that suited a change in the environment."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the three outcomes of mutations in the exact AQA order: most have no effect, some influence, very few determine the phenotype.",
+      "When explaining why identical twins differ, say they have the same genes, so the difference must be environmental.",
+      "When asked if a characteristic is genetic or environmental, look for clues: could it change during life (environmental), or is it fixed from birth and inherited (genetic)? Many are both.",
+      "Show your working for means and ranges; the range is one number (largest minus smallest), not two values.",
+      "Link variation to evolution: a rare new phenotype suited to an environmental change can cause relatively rapid change in a species."
+    ],
+    "summary": [
+      "Variation is differences in characteristics between individuals in a population.",
+      "Causes: genes, environment, or a combination (the most common).",
+      "There is extensive genetic variation in most populations.",
+      "All genetic variants arise from mutations, which occur continuously.",
+      "Most mutations have no effect on phenotype, some influence it, very few determine it.",
+      "A rare new phenotype suited to an environmental change can cause rapid change in a species."
+    ]
+  },
+  "flashcards": [
+    { "front": "What is variation?", "back": "Differences in the characteristics of individuals in a population." },
+    { "front": "What are the three possible causes of variation?", "back": "Genes inherited (genetic), the conditions in which the organism developed (environmental), or a combination of both." },
+    { "front": "Give an example of purely genetic variation in humans.", "back": "Blood group (also natural eye colour)." },
+    { "front": "Give an example of purely environmental variation in humans.", "back": "A scar, a tattoo or the language a person speaks." },
+    { "front": "Give an example of a characteristic affected by both genes and the environment.", "back": "Height, body mass or crop yield." },
+    { "front": "Where do all genetic variants come from?", "back": "Mutations (changes in DNA)." },
+    { "front": "How often do mutations occur?", "back": "Continuously." },
+    { "front": "What effect do most mutations have on the phenotype?", "back": "None." },
+    { "front": "Complete: most mutations have no effect, some ... , very few ... the phenotype.", "back": "Some influence the phenotype; very few determine it." },
+    { "front": "When can a new phenotype lead to a relatively rapid change in a species?", "back": "When the new phenotype is suited to an environmental change." },
+    { "front": "Why are identical twins useful for studying variation?", "back": "They have identical genes, so any differences between them are caused by the environment." },
+    { "front": "What does phenotype mean?", "back": "The characteristics an organism shows." },
+    { "front": "What shape of graph is typical for a characteristic like height?", "back": "A bell-shaped (normal) distribution on a histogram." }
+  ],
+  "questions": [
+    {
+      "id": "b6-variation-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by variation?",
+      "options": ["Differences in the characteristics of individuals in a population", "The process by which new species form", "A change in the DNA of a cell", "The passing of genes from parents to offspring"],
+      "answer": 0,
+      "markScheme": ["1 mark: differences in the characteristics of individuals in a population"],
+      "explanation": "Variation means differences between individuals. Speciation is how new species form, a mutation is a change in DNA, and inheritance is passing genes to offspring."
+    },
+    {
+      "id": "b6-variation-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which characteristic is caused only by the environment?",
+      "options": ["Blood group", "Natural eye colour", "A scar", "Height"],
+      "answer": 2,
+      "markScheme": ["1 mark: a scar"],
+      "explanation": "A scar results from an injury during life. Blood group and natural eye colour are genetic. Height is affected by both genes and the environment."
+    },
+    {
+      "id": "b6-variation-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which characteristic is affected by both genes and the environment?",
+      "options": ["Blood group", "Body mass", "Language spoken", "A tattoo"],
+      "answer": 1,
+      "markScheme": ["1 mark: body mass"],
+      "explanation": "Body mass depends on inherited genes and on diet and exercise. Blood group is genetic only; language and tattoos are environmental only."
+    },
+    {
+      "id": "b6-variation-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the original source of all genetic variants?",
+      "options": ["Diet", "Fertilisation", "Mitosis", "Mutation"],
+      "answer": 3,
+      "markScheme": ["1 mark: mutation"],
+      "explanation": "Every new version of a gene arose from a mutation, a change in DNA. Fertilisation mixes existing alleles but does not create new ones. Diet causes environmental variation."
+    },
+    {
+      "id": "b6-variation-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What effect do most mutations have on the phenotype?",
+      "options": ["They are always harmful", "They have no effect", "They always produce a new phenotype", "They are always beneficial"],
+      "answer": 1,
+      "markScheme": ["1 mark: no effect"],
+      "explanation": "Most mutations have no effect on the phenotype. Some influence it and very few determine it. They are not always harmful or beneficial."
+    },
+    {
+      "id": "b6-variation-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about mutations is correct?",
+      "options": ["Mutations only happen when cells are exposed to radiation", "Most mutations determine the phenotype", "Mutations occur continuously", "Mutations never affect the phenotype"],
+      "answer": 2,
+      "markScheme": ["1 mark: mutations occur continuously"],
+      "explanation": "Mutations occur continuously, for example as DNA is copied. Radiation can increase the rate, but it is not the only cause. Most mutations have no effect, and only very few determine the phenotype."
+    },
+    {
+      "id": "b6-variation-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Identical twins raised apart have different body masses. What is the most likely cause of this difference?",
+      "options": ["Different genes inherited from their parents", "Mutations in their gametes", "Differences in their environment, such as diet", "The twins have different numbers of chromosomes"],
+      "answer": 2,
+      "markScheme": ["1 mark: differences in their environment"],
+      "explanation": "Identical twins develop from one fertilised egg, so they have identical genes and the same number of chromosomes. The difference must be caused by environmental factors such as diet and exercise."
+    },
+    {
+      "id": "b6-variation-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which type of graph is most suitable for showing the heights of 100 students?",
+      "options": ["Pie chart", "Line graph against time", "Bar chart with gaps", "Histogram"],
+      "answer": 3,
+      "markScheme": ["1 mark: histogram"],
+      "explanation": "Height can take any value in a range (continuous data), so it is grouped into classes and plotted as a histogram with no gaps. Bar charts suit distinct groups such as blood group."
+    },
+    {
+      "id": "b6-variation-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Under which circumstance is a new mutation most likely to lead to a relatively rapid change in a species?",
+      "options": ["When the new phenotype is suited to a change in the environment", "When the mutation has no effect on the phenotype", "When the mutation happens in a skin cell", "When the environment stays exactly the same"],
+      "answer": 0,
+      "markScheme": ["1 mark: new phenotype suited to an environmental change"],
+      "explanation": "Individuals with a phenotype suited to the new conditions survive and reproduce more, so the mutation spreads quickly. A mutation with no effect gives no advantage, and a mutation in a body cell such as a skin cell is not passed to offspring."
+    },
+    {
+      "id": "b6-variation-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Cuttings from one geranium plant are grown in different amounts of light. The plants grow to different heights. Which conclusion is best supported?",
+      "options": ["Height in geraniums is controlled only by genes", "The differences in height are caused by the environment", "The cuttings had different mutations", "Light causes genetic variation"],
+      "answer": 1,
+      "markScheme": ["1 mark: the differences in height are caused by the environment"],
+      "explanation": "Cuttings from one plant are genetically identical, so differences between them must be environmental. This does not show height is only environmental in general, and light does not cause genetic variation."
+    },
+    {
+      "id": "b6-variation-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Four pea pods contained 6, 8, 7 and 7 peas. Calculate the mean number of peas per pod.",
+      "numericAnswer": 7,
+      "tolerance": 0,
+      "unit": "peas",
+      "markScheme": ["1 mark: 7"],
+      "explanation": "Sum = 6 + 8 + 7 + 7 = 28. Mean = 28 ÷ 4 = 7 peas per pod."
+    },
+    {
+      "id": "b6-variation-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The hand spans of a group of students ranged from a smallest value of 16.5 cm to a largest value of 22.0 cm. Calculate the range.",
+      "numericAnswer": 5.5,
+      "tolerance": 0,
+      "unit": "cm",
+      "markScheme": ["1 mark: 5.5 (cm)"],
+      "explanation": "Range = largest − smallest = 22.0 − 16.5 = 5.5 cm."
+    },
+    {
+      "id": "b6-variation-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a class of 30 students, 12 have blood group O. Calculate the percentage of students with blood group O.",
+      "numericAnswer": 40,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": ["1 mark: 12 ÷ 30", "1 mark: × 100 = 40(%)"],
+      "explanation": "12 ÷ 30 = 0.4; 0.4 × 100 = 40%."
+    },
+    {
+      "id": "b6-variation-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The masses of five adult mice of the same species were 21.4 g, 19.8 g, 23.1 g, 20.6 g and 22.1 g. Calculate the mean mass. Give your answer to 1 decimal place.",
+      "numericAnswer": 21.4,
+      "tolerance": 0.003,
+      "unit": "g",
+      "markScheme": ["1 mark: sum = 107.0 g", "1 mark: 107.0 ÷ 5 = 21.4 g"],
+      "explanation": "21.4 + 19.8 + 23.1 + 20.6 + 22.1 = 107.0 g. Mean = 107.0 ÷ 5 = 21.4 g."
+    },
+    {
+      "id": "b6-variation-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A pair of identical twins were separated at birth. At age 40, twin A had a mass of 72 kg and twin B had a mass of 81 kg. Calculate the difference in mass as a percentage of twin A's mass.",
+      "numericAnswer": 12.5,
+      "tolerance": 0.004,
+      "unit": "%",
+      "markScheme": ["1 mark: difference = 81 − 72 = 9 kg", "1 mark: 9 ÷ 72 × 100 = 12.5(%)"],
+      "explanation": "Difference = 9 kg. 9 ÷ 72 = 0.125, so 12.5%. Because the twins share identical genes, this whole difference is caused by the environment."
+    },
+    {
+      "id": "b6-variation-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "In a population of 2000 moths, 1840 are pale and the rest are dark because of a mutation. Calculate the percentage of moths that are dark.",
+      "numericAnswer": 8,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": ["1 mark: dark = 2000 − 1840 = 160", "1 mark: 160 ÷ 2000 × 100 = 8(%)"],
+      "explanation": "Number of dark moths = 160. 160 ÷ 2000 = 0.08 = 8%."
+    },
+    {
+      "id": "b6-variation-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one example of a human characteristic caused only by genes and one caused only by the environment.",
+      "acceptedAnswers": ["blood group", "eye colour", "scar", "tattoo", "language", "dyed hair", "pierced ears"],
+      "markScheme": ["1 mark: genetic example, e.g. blood group or natural eye colour", "1 mark: environmental example, e.g. scar, tattoo, language spoken"],
+      "explanation": "Genetic characteristics are inherited and cannot be changed by lifestyle. Environmental characteristics are acquired during life and are not inherited."
+    },
+    {
+      "id": "b6-variation-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what a mutation is.",
+      "acceptedAnswers": ["change in DNA", "change in a gene", "change in the base sequence"],
+      "markScheme": ["1 mark: a change in DNA (or in a gene)"],
+      "explanation": "A mutation is a change in the DNA. Mutations are the source of all genetic variants."
+    },
+    {
+      "id": "b6-variation-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the three types of cause of variation.",
+      "acceptedAnswers": ["genetic", "environmental", "combination", "genes and environment"],
+      "markScheme": ["1 mark: genetic, environmental and a combination of both (all three needed)"],
+      "explanation": "Differences can be due to genes inherited, the conditions of development, or both together."
+    },
+    {
+      "id": "b6-variation-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe the possible effects of a mutation on the phenotype of an organism.",
+      "acceptedAnswers": ["most have no effect", "some influence phenotype", "very few determine phenotype", "rarely a new phenotype"],
+      "markScheme": ["1 mark: most mutations have no effect on the phenotype", "1 mark: some mutations influence the phenotype", "1 mark: very few mutations determine the phenotype"],
+      "explanation": "The AQA wording is: most have no effect, some influence, very few determine the phenotype. Very rarely a mutation produces a new phenotype."
+    },
+    {
+      "id": "b6-variation-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why scientists study identical twins to find out whether a characteristic is affected by the environment.",
+      "acceptedAnswers": ["same genes", "identical genes", "differences must be environmental", "differences caused by environment"],
+      "markScheme": ["1 mark: identical twins have identical genes", "1 mark: so any differences between them must be caused by the environment"],
+      "explanation": "Because genes are the same, genetic causes are ruled out. Comparing twins raised apart is especially useful because their environments differ more."
+    },
+    {
+      "id": "b6-variation-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A gardener says: 'My tomato plants are bigger than my neighbour's, so they must have better genes.' Suggest two other explanations.",
+      "acceptedAnswers": ["more light", "more water", "better soil", "fertiliser", "more minerals", "warmer", "less disease", "environment"],
+      "markScheme": ["1 mark each for any two environmental factors, e.g. more light, more water, more fertiliser or mineral ions, warmer temperature, fewer pests or diseases (max 2)"],
+      "explanation": "Plant size is affected by both genes and the environment. Differences in growing conditions could explain the size difference even if the plants are genetically similar."
+    },
+    {
+      "id": "b6-variation-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how a rare mutation could lead to a relatively rapid change in a species after the environment changes.",
+      "acceptedAnswers": ["new phenotype", "suited to the new environment", "more likely to survive", "reproduce", "pass on the allele", "frequency increases"],
+      "markScheme": ["1 mark: the mutation produces a new phenotype that is suited to (gives an advantage in) the changed environment", "1 mark: individuals with it are more likely to survive and reproduce (breed)", "1 mark: they pass on the mutated gene/allele, so it becomes more common over a few generations"],
+      "explanation": "This is natural selection acting on a new variant. A good example is a bacterium with a mutation giving antibiotic resistance: when the antibiotic is used, resistant bacteria survive and multiply quickly."
+    },
+    {
+      "id": "b6-variation-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A man builds large muscles by weight training. Explain why his children will not inherit large muscles because of his training.",
+      "acceptedAnswers": ["environmental variation", "not genetic", "does not change DNA", "does not change genes in gametes", "acquired characteristic not inherited"],
+      "markScheme": ["1 mark: the muscle growth is environmental variation (caused by training, not genes)", "1 mark: it does not change the DNA/genes in his sperm (gametes), so cannot be passed on"],
+      "explanation": "Only characteristics coded for in the DNA of gametes are inherited. Changes acquired during life do not alter the genes passed on."
+    },
+    {
+      "id": "b6-variation-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The heights of 500 adults are plotted as a histogram, giving a bell-shaped curve. Suggest why height shows this pattern rather than a few distinct groups.",
+      "acceptedAnswers": ["many genes", "genes and environment", "combination", "continuous", "any value in a range"],
+      "markScheme": ["1 mark: height is controlled by many genes / is continuous (can take any value in a range)", "1 mark: and is also affected by the environment (e.g. diet), giving a spread around the mean"],
+      "explanation": "Characteristics affected by several genes and by the environment vary smoothly, with most people near the mean. A characteristic controlled by a single gene, such as blood group, falls into distinct groups."
+    },
+    {
+      "id": "b6-variation-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Hydrangea plants grown in acidic soil have blue flowers, and in alkaline soil they have pink flowers. A student takes cuttings from one plant and grows them in soils of different pH.\nDescribe how the student could use this to show that flower colour is affected by the environment, and explain what the results would show.",
+      "markScheme": [
+        "Indicative content: cuttings from one plant are genetically identical (same genes); grow them in soils of different pH; keep other conditions the same (light, water, temperature, pot size); compare flower colour; if colour differs with soil pH, the difference must be caused by the environment because genes are identical; use several cuttings per soil type for repeatability.",
+        "Level 2 (3 to 4 marks): a clear method that controls variables and explains that, because the cuttings are genetically identical, differences must be environmental.",
+        "Level 1 (1 to 2 marks): simple description of growing plants in different soils, or states the colour depends on soil, with little explanation."
+      ],
+      "explanation": "The key idea is removing genetic differences by using clones (cuttings), then changing only one environmental factor. Any difference can then be put down to that factor."
+    },
+    {
+      "id": "b6-variation-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain the causes of variation within a population and how genetic variation arises. Include the role of mutations and how they can lead to change in a species.",
+      "markScheme": [
+        "Indicative content: variation is differences in characteristics of individuals in a population; caused by genes inherited, environmental conditions during development, or a combination; examples of each (blood group; scar; height or mass); there is usually extensive genetic variation in a population; all genetic variants arise from mutations; mutations occur continuously; most have no effect on phenotype, some influence it, very few determine it; very rarely a mutation produces a new phenotype; if the new phenotype suits an environmental change, individuals survive and reproduce more and pass on the allele; this can lead to relatively rapid change in the species.",
+        "Level 3 (5 to 6 marks): a detailed, coherent explanation covering genetic and environmental causes with examples, the origin of variants in continuous mutation with the three possible effects, and a clear link to rapid change when a new phenotype suits an environmental change.",
+        "Level 2 (3 to 4 marks): describes causes of variation and states that mutations create genetic variation, with some description of their effects, but the link to change in a species is weak or missing.",
+        "Level 1 (1 to 2 marks): simple statements, for example that variation can be genetic or environmental, with few links."
+      ],
+      "explanation": "A top answer covers both genetic and environmental causes, explains that mutations are the source of all variants and that most have no effect, and finishes with how a rare suitable mutation can spread when the environment changes."
+    }
+  ]
+}
