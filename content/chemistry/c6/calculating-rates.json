@@ -1,0 +1,737 @@
+{
+  "id": "c6-calculating-rates",
+  "science": "chemistry",
+  "topicId": "c6",
+  "slug": "calculating-rates",
+  "specRef": "4.6.1.1",
+  "title": "Calculating rates of reactions",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The rate of a chemical reaction is how quickly reactants are used up or products are formed. The mean rate is the quantity of reactant used, or product formed, divided by the time taken.",
+    "explanation": [
+      "The rate of a chemical reaction can be found by measuring the quantity of a reactant used or the quantity of a product formed over time. The quantity can be measured as a mass in grams (g) or a volume of gas in cubic centimetres (cm³). Common methods include collecting a gas in a gas syringe (or an upturned measuring cylinder), measuring the loss in mass as a gas escapes from a flask on a balance, and timing how long a solution takes to turn cloudy or change colour.",
+      "Mean rate of reaction = quantity of reactant used ÷ time taken, or mean rate of reaction = quantity of product formed ÷ time taken. The units depend on the quantity measured: g/s for mass and cm³/s for gas volume. For example, if 48 cm³ of hydrogen is collected in 60 seconds, the mean rate is 48 ÷ 60 = 0.80 cm³/s. Always convert minutes to seconds if the unit asked for is per second.",
+      "Results are plotted on a graph with time on the x-axis and the quantity of product formed (or reactant used) on the y-axis. The gradient (slope) of the curve shows the rate. The curve is steepest at the start, when the reaction is fastest. It becomes less steep as the reactants are used up, and finally becomes horizontal when the reaction has stopped because one of the reactants has been used up. A graph of reactant mass against time slopes downwards and levels off in the same way.",
+      "When comparing two reactions on the same axes, the steeper curve shows the faster reaction. If the same amounts of reactants are used, both curves level off at the same final quantity of product, even though one reaches it sooner. A mean rate over the whole reaction can be found by dividing the total quantity by the time taken for the reaction to finish, and mean rates over shorter intervals can be found from readings at two times.",
+      "Higher tier students also need to calculate rates in mol/s, for example by converting a mass of product into moles using moles = mass ÷ Mr, then dividing by the time. Higher tier students also draw a tangent to the curve at a particular time and calculate its gradient to find the rate at that instant. Gradient = change in y ÷ change in x, using two points far apart on the tangent line. The units are the y-axis unit divided by the x-axis unit, such as cm³/s."
+    ],
+    "keyFacts": [
+      "Rate can be measured from the quantity of reactant used or product formed over time.",
+      "Mean rate = quantity of reactant used ÷ time taken.",
+      "Mean rate = quantity of product formed ÷ time taken.",
+      "Units: g/s (mass) or cm³/s (gas volume); Higher: mol/s.",
+      "On a quantity against time graph, the steeper the gradient, the faster the rate.",
+      "The rate is fastest at the start and the curve levels off when the reaction stops.",
+      "Higher: the rate at a given time is the gradient of the tangent to the curve at that time.",
+      "Gradient = change in y ÷ change in x.",
+      "Convert minutes to seconds before calculating a rate in per second units."
+    ],
+    "keyTerms": [
+      {
+        "term": "Rate of reaction",
+        "definition": "How quickly a reactant is used up or a product is formed."
+      },
+      {
+        "term": "Mean rate",
+        "definition": "The quantity of reactant used or product formed divided by the time taken."
+      },
+      {
+        "term": "Gas syringe",
+        "definition": "Apparatus used to collect and measure the volume of a gas produced in a reaction."
+      },
+      {
+        "term": "Gradient",
+        "definition": "The slope of a line or curve: change in y ÷ change in x. On a quantity against time graph it represents the rate."
+      },
+      {
+        "term": "Tangent",
+        "definition": "A straight line that touches a curve at one point and has the same gradient as the curve at that point (Higher)."
+      },
+      {
+        "term": "mol/s",
+        "definition": "A unit of rate when the quantity is measured in moles (Higher)."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Mean rate (reactant)",
+        "formula": "mean rate of reaction = quantity of reactant used ÷ time taken",
+        "symbols": "",
+        "units": "g/s, cm³/s or mol/s (Higher)",
+        "recall": true
+      },
+      {
+        "name": "Mean rate (product)",
+        "formula": "mean rate of reaction = quantity of product formed ÷ time taken",
+        "symbols": "",
+        "units": "g/s, cm³/s or mol/s (Higher)",
+        "recall": true
+      },
+      {
+        "name": "Gradient of a tangent (Higher)",
+        "formula": "gradient = change in y ÷ change in x",
+        "symbols": "",
+        "units": "y unit ÷ x unit, e.g. cm³/s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Mean rate from gas volume",
+        "question": "Magnesium reacts with hydrochloric acid. 90 cm³ of hydrogen is collected in 2 minutes. Calculate the mean rate in cm³/s.",
+        "steps": [
+          "Convert the time: 2 minutes = 2 × 60 = 120 s.",
+          "Mean rate = quantity of product formed ÷ time = 90 ÷ 120.",
+          "= 0.75 cm³/s."
+        ],
+        "answer": "0.75 cm³/s"
+      },
+      {
+        "title": "Mean rate from mass loss",
+        "question": "Marble chips react with acid in a flask on a balance. The mass falls from 80.50 g to 78.10 g in 120 s. Calculate the mean rate of reaction.",
+        "steps": [
+          "Mass of carbon dioxide lost = 80.50 − 78.10 = 2.40 g.",
+          "Mean rate = 2.40 ÷ 120.",
+          "= 0.020 g/s."
+        ],
+        "answer": "0.020 g/s"
+      },
+      {
+        "title": "Rate in mol/s (Higher)",
+        "question": "0.88 g of carbon dioxide (Mr = 44) is given off in 40 s. Calculate the mean rate in mol/s.",
+        "steps": [
+          "Moles of CO₂ = mass ÷ Mr = 0.88 ÷ 44 = 0.020 mol.",
+          "Mean rate = 0.020 ÷ 40.",
+          "= 0.00050 mol/s (5.0 × 10⁻⁴ mol/s)."
+        ],
+        "answer": "5.0 × 10⁻⁴ mol/s"
+      },
+      {
+        "title": "Rate from a tangent (Higher)",
+        "question": "A tangent is drawn to a volume of gas against time curve at 20 s. It passes through (0 s, 19 cm³) and (40 s, 54 cm³). Calculate the rate at 20 s.",
+        "steps": [
+          "Change in y = 54 − 19 = 35 cm³.",
+          "Change in x = 40 − 0 = 40 s.",
+          "Gradient = 35 ÷ 40 = 0.875 cm³/s."
+        ],
+        "answer": "About 0.88 cm³/s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Volume of gas against time, with a tangent",
+        "caption": "The curve is steepest at the start and levels off as the reaction stops. The tangent at 20 s has a gradient of about 0.88 cm³/s, which is the rate at that moment (Higher).",
+        "svg": "<svg viewBox=\"0 0 440 270\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"50\" y1=\"220\" x2=\"420\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"220\" x2=\"50\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"220\" x2=\"50\" y2=\"225\" stroke=\"currentColor\"/><text x=\"50\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"45\" y1=\"220\" x2=\"50\" y2=\"220\" stroke=\"currentColor\"/><text x=\"40\" y=\"224\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"110\" y1=\"220\" x2=\"110\" y2=\"225\" stroke=\"currentColor\"/><text x=\"110\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">10</text><line x1=\"45\" y1=\"190\" x2=\"50\" y2=\"190\" stroke=\"currentColor\"/><text x=\"40\" y=\"194\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"170\" y1=\"220\" x2=\"170\" y2=\"225\" stroke=\"currentColor\"/><text x=\"170\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">20</text><line x1=\"45\" y1=\"160\" x2=\"50\" y2=\"160\" stroke=\"currentColor\"/><text x=\"40\" y=\"164\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"230\" y1=\"220\" x2=\"230\" y2=\"225\" stroke=\"currentColor\"/><text x=\"230\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">30</text><line x1=\"45\" y1=\"130\" x2=\"50\" y2=\"130\" stroke=\"currentColor\"/><text x=\"40\" y=\"134\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"290\" y1=\"220\" x2=\"290\" y2=\"225\" stroke=\"currentColor\"/><text x=\"290\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">40</text><line x1=\"45\" y1=\"100\" x2=\"50\" y2=\"100\" stroke=\"currentColor\"/><text x=\"40\" y=\"104\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"350\" y1=\"220\" x2=\"350\" y2=\"225\" stroke=\"currentColor\"/><text x=\"350\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">50</text><line x1=\"45\" y1=\"70\" x2=\"50\" y2=\"70\" stroke=\"currentColor\"/><text x=\"40\" y=\"74\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"410\" y1=\"220\" x2=\"410\" y2=\"225\" stroke=\"currentColor\"/><text x=\"410\" y=\"238\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">60</text><line x1=\"45\" y1=\"40\" x2=\"50\" y2=\"40\" stroke=\"currentColor\"/><text x=\"40\" y=\"44\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">60</text>\n<text x=\"235\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time (s)</text>\n<text x=\"14\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 125)\">Volume of gas (cm³)</text>\n<polyline points=\"50,220.0 62,201.3 74,184.9 86,170.5 98,158.0 110,147.0 122,137.4 134,129.0 146,121.6 158,115.2 170,109.5 182,104.6 194,100.3 206,96.5 218,93.2 230,90.3 242,87.8 254,85.5 266,83.6 278,81.9 290,80.4 302,79.1 314,78.0 326,77.0 338,76.1 350,75.4 362,74.7 374,74.1 386,73.6 398,73.1 410,72.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/>\n<line x1=\"50\" y1=\"162.4\" x2=\"290\" y2=\"56.8\" stroke=\"#fca5a5\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"162.4\" x2=\"290\" y2=\"162.4\" stroke=\"#93c5fd\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n<line x1=\"290\" y1=\"162.4\" x2=\"290\" y2=\"56.8\" stroke=\"#93c5fd\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n<circle cx=\"170\" cy=\"109.5\" r=\"4\" fill=\"currentColor\"/>\n<text x=\"120\" y=\"178\" font-size=\"11\" fill=\"currentColor\">change in time = 40 s</text>\n<text x=\"296\" y=\"110\" font-size=\"11\" fill=\"currentColor\">change in volume</text>\n<text x=\"296\" y=\"124\" font-size=\"11\" fill=\"currentColor\">= 54 − 19 = 35 cm³</text>\n<text x=\"300\" y=\"45\" font-size=\"11\" fill=\"currentColor\">Tangent at 20 s</text>\n<text x=\"296\" y=\"195\" font-size=\"11\" fill=\"currentColor\">Gradient = 35 ÷ 40</text>\n<text x=\"296\" y=\"209\" font-size=\"11\" fill=\"currentColor\">≈ 0.88 cm³/s</text>\n</svg>"
+      },
+      {
+        "title": "Two ways to measure the rate",
+        "caption": "A: a gas syringe collects the gas produced. B: the mass of the flask falls as carbon dioxide escapes; the cotton wool lets gas out but stops acid spray escaping.",
+        "svg": "<svg viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\">\n<text x=\"115\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">A: Measuring volume of gas</text>\n<path d=\"M70 120 L35 200 L125 200 L90 120 L90 100 M70 100 L70 120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<polygon points=\"50,165 110,165 125,200 35,200\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<rect x=\"68\" y=\"90\" width=\"24\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<rect x=\"70\" y=\"190\" width=\"22\" height=\"4\" fill=\"currentColor\"/>\n<polyline points=\"80,90 80,60 150,60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"150\" y=\"50\" width=\"70\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"176\" y=\"52\" width=\"4\" height=\"16\" fill=\"currentColor\"/>\n<line x1=\"180\" y1=\"60\" x2=\"235\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"235\" y1=\"50\" x2=\"235\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"56\" stroke=\"currentColor\"/><line x1=\"170\" y1=\"50\" x2=\"170\" y2=\"56\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"50\" x2=\"190\" y2=\"56\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"50\" x2=\"200\" y2=\"56\" stroke=\"currentColor\"/><line x1=\"210\" y1=\"50\" x2=\"210\" y2=\"56\" stroke=\"currentColor\"/>\n<text x=\"150\" y=\"88\" font-size=\"12\" fill=\"currentColor\">Gas syringe</text>\n<line x1=\"92\" y1=\"190\" x2=\"140\" y2=\"215\" stroke=\"currentColor\"/>\n<text x=\"130\" y=\"228\" font-size=\"12\" fill=\"currentColor\">Magnesium</text>\n<text x=\"10\" y=\"218\" font-size=\"12\" fill=\"currentColor\">Dilute acid</text>\n<text x=\"2\" y=\"98\" font-size=\"12\" fill=\"currentColor\">Bung</text>\n<line x1=\"30\" y1=\"95\" x2=\"67\" y2=\"95\" stroke=\"currentColor\"/>\n<text x=\"350\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">B: Measuring loss in mass</text>\n<path d=\"M335 110 L335 140 L300 198 L390 198 L355 140 L355 110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<polygon points=\"317,170 373,170 390,198 300,198\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<ellipse cx=\"345\" cy=\"106\" rx=\"14\" ry=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\"/>\n<circle cx=\"325\" cy=\"192\" r=\"5\" fill=\"#e5e7eb\" stroke=\"currentColor\"/><circle cx=\"345\" cy=\"190\" r=\"6\" fill=\"#e5e7eb\" stroke=\"currentColor\"/><circle cx=\"365\" cy=\"192\" r=\"5\" fill=\"#e5e7eb\" stroke=\"currentColor\"/>\n<rect x=\"270\" y=\"200\" width=\"150\" height=\"28\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"345\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80.50 g</text>\n<text x=\"368\" y=\"86\" font-size=\"12\" fill=\"currentColor\">Cotton wool</text>\n<line x1=\"358\" y1=\"102\" x2=\"375\" y2=\"90\" stroke=\"currentColor\"/>\n<text x=\"395\" y=\"160\" font-size=\"12\" fill=\"currentColor\">Marble</text>\n<text x=\"395\" y=\"174\" font-size=\"12\" fill=\"currentColor\">chips + acid</text>\n<line x1=\"393\" y1=\"168\" x2=\"370\" y2=\"188\" stroke=\"currentColor\"/>\n<text x=\"425\" y=\"245\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Balance</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the rate is the same throughout a reaction.",
+        "right": "In fact the rate is fastest at the start and decreases as the reactants are used up."
+      },
+      {
+        "wrong": "Students often think a curve levelling off means the reaction is going at a steady rate.",
+        "right": "In fact a horizontal line means no more product is being made: the reaction has stopped."
+      },
+      {
+        "wrong": "Students often divide time by quantity.",
+        "right": "In fact rate = quantity ÷ time, which gives units such as cm³/s or g/s."
+      },
+      {
+        "wrong": "Students often think a faster reaction makes more product.",
+        "right": "In fact with the same amounts of reactants the same amount of product forms; a faster reaction just makes it sooner."
+      }
+    ],
+    "realWorld": [
+      "Chemical engineers measure reaction rates to design processes that make products quickly and safely.",
+      "Food scientists measure the rate at which food goes off so they can set use-by dates.",
+      "The rate at which an antacid tablet fizzes in water can be followed by measuring the loss in mass as carbon dioxide escapes."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Calculate the mean rate of reaction in mol/s (convert mass to moles with moles = mass ÷ Mr).",
+      "Draw a tangent to the curve on a quantity against time graph and use its gradient as the rate at that time.",
+      "Calculate the gradient of a tangent: change in y ÷ change in x, with units such as cm³/s or g/s."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Show your working: write the formula, substitute the numbers and give the unit.",
+      "Check the time unit: convert minutes to seconds if the answer must be per second.",
+      "When reading values from a graph, use the gridlines carefully and state the values you read.",
+      "For a tangent, choose two points far apart on the tangent line (not on the curve) to reduce error.",
+      "Describe a curve in stages: steep at first (fast), gets less steep (slowing down), then horizontal (stopped)."
+    ],
+    "summary": [
+      "Rate is how fast a reactant is used up or a product is formed.",
+      "Mean rate = quantity ÷ time; units g/s or cm³/s (mol/s Higher).",
+      "Steeper graph means faster reaction.",
+      "Rate is fastest at the start; the curve levels off when the reaction stops.",
+      "Higher: rate at an instant = gradient of the tangent."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Formula for mean rate of reaction?",
+      "back": "Quantity of reactant used (or product formed) ÷ time taken."
+    },
+    {
+      "front": "Units of rate when measuring gas volume?",
+      "back": "cm³/s"
+    },
+    {
+      "front": "Units of rate when measuring mass?",
+      "back": "g/s"
+    },
+    {
+      "front": "Units of rate when measuring moles (Higher)?",
+      "back": "mol/s"
+    },
+    {
+      "front": "Name two methods for measuring the rate of a reaction that gives off a gas.",
+      "back": "Collect the gas in a gas syringe; measure the loss in mass on a balance."
+    },
+    {
+      "front": "What does the gradient of a product against time graph show?",
+      "back": "The rate of reaction."
+    },
+    {
+      "front": "When is the rate fastest?",
+      "back": "At the start, when the curve is steepest."
+    },
+    {
+      "front": "Why does the graph level off?",
+      "back": "The reaction has stopped because one of the reactants has been used up."
+    },
+    {
+      "front": "How do you find the rate at a particular time (Higher)?",
+      "back": "Draw a tangent to the curve at that time and calculate its gradient."
+    },
+    {
+      "front": "Gradient formula?",
+      "back": "Change in y ÷ change in x."
+    },
+    {
+      "front": "Why use cotton wool in the mass loss method?",
+      "back": "It lets the gas escape but stops acid spray (and liquid) being lost."
+    },
+    {
+      "front": "48 cm³ in 60 s: mean rate?",
+      "back": "0.80 cm³/s"
+    }
+  ],
+  "questions": [
+    {
+      "id": "c6-calculating-rates-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student measures the volume of gas produced in a reaction. Which is a correct unit for the rate of reaction?",
+      "options": [
+        "cm³",
+        "s/cm³",
+        "cm³/s",
+        "g"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: cm³/s"
+      ],
+      "explanation": "Rate = volume ÷ time, so the unit is cm³ divided by s, written cm³/s. cm³ and g are quantities, not rates."
+    },
+    {
+      "id": "c6-calculating-rates-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation is correct?",
+      "options": [
+        "Mean rate = quantity of product formed ÷ time taken",
+        "Mean rate = time taken ÷ quantity of product formed",
+        "Mean rate = quantity of product formed × time taken",
+        "Mean rate = quantity of reactant at the start ÷ time taken"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: quantity of product formed ÷ time taken"
+      ],
+      "explanation": "Rate is a quantity per unit time. Dividing time by quantity gives the reciprocal, and the starting quantity is not the amount used."
+    },
+    {
+      "id": "c6-calculating-rates-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a graph of volume of gas produced against time, when is the rate of reaction fastest?",
+      "options": [
+        "When the curve is horizontal",
+        "In the middle of the reaction",
+        "At the end of the reaction",
+        "At the start, where the curve is steepest"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: at the start where the curve is steepest"
+      ],
+      "explanation": "The gradient shows the rate. It is greatest at the start, when the concentration of reactants is highest."
+    },
+    {
+      "id": "c6-calculating-rates-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does a graph of volume of gas against time eventually become horizontal?",
+      "options": [
+        "The reaction is going at a constant rate",
+        "The reaction has stopped because a reactant has been used up",
+        "The gas syringe is broken",
+        "The reaction has become endothermic"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: reaction stopped because a reactant is used up"
+      ],
+      "explanation": "A horizontal line means no more gas is being produced. This happens when one reactant (the limiting reactant) has been used up."
+    },
+    {
+      "id": "c6-calculating-rates-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which piece of apparatus is best for measuring the volume of hydrogen produced when magnesium reacts with acid?",
+      "options": [
+        "Burette",
+        "Thermometer",
+        "Pipette",
+        "Gas syringe"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: gas syringe"
+      ],
+      "explanation": "A gas syringe collects the gas and shows its volume. A burette and pipette measure volumes of liquids, and a thermometer measures temperature."
+    },
+    {
+      "id": "c6-calculating-rates-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Marble chips react with hydrochloric acid in a conical flask on a balance. Why does the reading on the balance decrease?",
+      "options": [
+        "Carbon dioxide gas escapes from the flask",
+        "The marble chips dissolve and lose their mass",
+        "Water evaporates because the reaction is endothermic",
+        "The acid is converted into hydrogen"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: carbon dioxide escapes"
+      ],
+      "explanation": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Mass is conserved, but the carbon dioxide gas leaves the flask, so the measured mass falls."
+    },
+    {
+      "id": "c6-calculating-rates-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In the loss in mass method, why is a loose cotton wool plug put in the neck of the flask?",
+      "options": [
+        "To stop the gas escaping",
+        "To act as a catalyst",
+        "To let the gas escape but stop acid spray escaping",
+        "To keep the flask warm"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: lets gas escape but stops acid spray"
+      ],
+      "explanation": "The gas must escape for the mass to fall, but liquid droplets thrown up by the fizzing would also be lost and give a falsely high mass loss."
+    },
+    {
+      "id": "c6-calculating-rates-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student converts the mass of carbon dioxide produced into moles and divides by the time. Which unit should be used for the rate?",
+      "options": [
+        "g/s",
+        "mol/s",
+        "mol/dm³",
+        "cm³/s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: mol/s"
+      ],
+      "explanation": "Moles ÷ seconds gives mol/s. mol/dm³ is a unit of concentration, not rate."
+    },
+    {
+      "id": "c6-calculating-rates-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A tangent is drawn to a curve of volume of gas against time at t = 30 s. What does the gradient of the tangent represent?",
+      "options": [
+        "The mean rate over the first 30 s",
+        "The rate of reaction at 30 s",
+        "The total volume of gas produced",
+        "The time taken for the reaction to finish"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: the rate at 30 s"
+      ],
+      "explanation": "The gradient of a tangent gives the rate at that instant. The mean rate over 30 s is found by dividing the volume at 30 s by 30."
+    },
+    {
+      "id": "c6-calculating-rates-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two experiments use the same amounts of reactants. Curve P is steeper at the start than curve Q, and both level off at 60 cm³. Which statement is correct?",
+      "options": [
+        "The reaction for P is faster, and both make the same volume of gas",
+        "The reaction for P is faster, and P makes more gas",
+        "The reaction for Q is faster because it takes longer",
+        "Both reactions have the same rate because they make the same volume"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: P is faster, same volume"
+      ],
+      "explanation": "The steeper initial gradient shows P is faster. Because the amounts of reactants are the same, the final volume of gas is the same."
+    },
+    {
+      "id": "c6-calculating-rates-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "60 cm³ of gas is produced in 30 s. Calculate the mean rate of reaction.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "cm³/s",
+      "markScheme": [
+        "1 mark: 60 ÷ 30 = 2.0 cm³/s"
+      ],
+      "explanation": "Mean rate = quantity of product formed ÷ time = 60 ÷ 30 = 2.0 cm³/s."
+    },
+    {
+      "id": "c6-calculating-rates-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The mass of a flask containing marble chips and acid falls from 80.50 g to 78.10 g in 120 s. Calculate the mean rate of reaction in g/s.",
+      "numericAnswer": 0.02,
+      "tolerance": 0.02,
+      "unit": "g/s",
+      "markScheme": [
+        "1 mark: mass lost = 80.50 − 78.10 = 2.40 g",
+        "1 mark: 2.40 ÷ 120 = 0.020 g/s"
+      ],
+      "explanation": "First find the mass of carbon dioxide lost (2.40 g), then divide by the time: 2.40 ÷ 120 = 0.020 g/s."
+    },
+    {
+      "id": "c6-calculating-rates-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "90 cm³ of hydrogen is collected in 2 minutes. Calculate the mean rate of reaction in cm³/s.",
+      "numericAnswer": 0.75,
+      "tolerance": 0.01,
+      "unit": "cm³/s",
+      "markScheme": [
+        "1 mark: 2 minutes = 120 s",
+        "1 mark: 90 ÷ 120 = 0.75 cm³/s"
+      ],
+      "explanation": "The time must be in seconds: 2 × 60 = 120 s. 90 ÷ 120 = 0.75 cm³/s. Using 2 instead of 120 gives 45, which is the rate in cm³/min."
+    },
+    {
+      "id": "c6-calculating-rates-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a reaction, 32 cm³ of gas has been collected after 20 s and 56 cm³ after 50 s. Calculate the mean rate of reaction between 20 s and 50 s.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "cm³/s",
+      "markScheme": [
+        "1 mark: volume produced = 56 − 32 = 24 cm³ in 50 − 20 = 30 s",
+        "1 mark: 24 ÷ 30 = 0.80 cm³/s"
+      ],
+      "explanation": "Use the change in volume and the change in time over the interval: 24 cm³ ÷ 30 s = 0.80 cm³/s."
+    },
+    {
+      "id": "c6-calculating-rates-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A 0.12 g piece of magnesium ribbon is completely used up in 40 s when it reacts with excess acid. Calculate the mean rate of reaction in g/s.",
+      "numericAnswer": 0.003,
+      "tolerance": 0.02,
+      "unit": "g/s",
+      "markScheme": [
+        "1 mark: 0.12 ÷ 40 = 0.003 g/s"
+      ],
+      "explanation": "Mean rate = quantity of reactant used ÷ time = 0.12 ÷ 40 = 0.003 g/s (3 × 10⁻³ g/s)."
+    },
+    {
+      "id": "c6-calculating-rates-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A reaction produces gas at a mean rate of 0.50 cm³/s. Calculate how long it takes to produce 45 cm³ of gas.",
+      "numericAnswer": 90,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: time = quantity ÷ mean rate",
+        "1 mark: 45 ÷ 0.50 = 90 s"
+      ],
+      "explanation": "Rearrange mean rate = quantity ÷ time to give time = quantity ÷ rate = 45 ÷ 0.50 = 90 s."
+    },
+    {
+      "id": "c6-calculating-rates-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "In a reaction, 0.050 mol of carbon dioxide is produced in 125 s. Calculate the mean rate of reaction in mol/s.",
+      "numericAnswer": 0.0004,
+      "tolerance": 0.02,
+      "unit": "mol/s",
+      "markScheme": [
+        "1 mark: 0.050 ÷ 125",
+        "1 mark: = 0.00040 mol/s (4.0 × 10⁻⁴ mol/s)"
+      ],
+      "explanation": "Mean rate = 0.050 ÷ 125 = 0.00040 mol/s. Writing it in standard form, 4.0 × 10⁻⁴ mol/s, helps avoid mistakes with zeros."
+    },
+    {
+      "id": "c6-calculating-rates-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "0.88 g of carbon dioxide (Mr = 44) is given off in 40 s. Calculate the mean rate of reaction in mol/s.",
+      "numericAnswer": 0.0005,
+      "tolerance": 0.02,
+      "unit": "mol/s",
+      "markScheme": [
+        "1 mark: moles = 0.88 ÷ 44 = 0.020 mol",
+        "1 mark: rate = 0.020 ÷ 40",
+        "1 mark: = 0.00050 mol/s (5.0 × 10⁻⁴ mol/s)"
+      ],
+      "explanation": "Convert mass to moles first: 0.88 ÷ 44 = 0.020 mol. Then divide by time: 0.020 ÷ 40 = 5.0 × 10⁻⁴ mol/s."
+    },
+    {
+      "id": "c6-calculating-rates-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A tangent is drawn to a curve of volume of gas against time at 30 s. The tangent passes through the points (10 s, 12 cm³) and (50 s, 60 cm³). Calculate the rate of reaction at 30 s.",
+      "numericAnswer": 1.2,
+      "tolerance": 0.02,
+      "unit": "cm³/s",
+      "markScheme": [
+        "1 mark: change in y = 60 − 12 = 48 cm³ and change in x = 50 − 10 = 40 s",
+        "1 mark: gradient = 48 ÷ 40 = 1.2 cm³/s"
+      ],
+      "explanation": "The rate at 30 s equals the gradient of the tangent: 48 ÷ 40 = 1.2 cm³/s."
+    },
+    {
+      "id": "c6-calculating-rates-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A graph shows the mass of a flask decreasing as carbon dioxide escapes. A tangent drawn at 60 s passes through (0 s, 80.50 g) and (100 s, 79.90 g). Calculate the rate of reaction at 60 s in g/s.",
+      "numericAnswer": 0.006,
+      "tolerance": 0.02,
+      "unit": "g/s",
+      "markScheme": [
+        "1 mark: change in mass = 80.50 − 79.90 = 0.60 g over 100 s",
+        "1 mark: rate = 0.60 ÷ 100 = 0.006 g/s"
+      ],
+      "explanation": "The gradient of the tangent is −0.006 g/s; the negative sign just shows the mass is decreasing. The rate of reaction is 0.006 g/s."
+    },
+    {
+      "id": "c6-calculating-rates-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Calcium carbonate reacts with hydrochloric acid to produce carbon dioxide gas. Give two ways of measuring the rate of this reaction.",
+      "acceptedAnswers": [
+        "measure volume of gas with gas syringe",
+        "measure loss in mass on a balance",
+        "upturned measuring cylinder"
+      ],
+      "markScheme": [
+        "1 mark: measure the volume of gas produced over time (gas syringe or upturned measuring cylinder)",
+        "1 mark: measure the loss in mass over time using a balance"
+      ],
+      "explanation": "Both methods follow the amount of carbon dioxide formed over time."
+    },
+    {
+      "id": "c6-calculating-rates-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write the equation for the mean rate of reaction in terms of the quantity of reactant used.",
+      "acceptedAnswers": [
+        "quantity of reactant used ÷ time taken"
+      ],
+      "markScheme": [
+        "1 mark: mean rate = quantity of reactant used ÷ time taken"
+      ],
+      "explanation": "This is one of the two forms of the mean rate equation; the other uses the quantity of product formed."
+    },
+    {
+      "id": "c6-calculating-rates-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the gradient of a volume of gas against time graph decreases as the reaction goes on.",
+      "acceptedAnswers": [
+        "reactants used up",
+        "concentration decreases",
+        "fewer reacting particles",
+        "fewer collisions",
+        "rate decreases"
+      ],
+      "markScheme": [
+        "1 mark: reactants are being used up / concentration of reactants decreases",
+        "1 mark: so the rate of reaction decreases (fewer successful collisions per second)"
+      ],
+      "explanation": "As reactants are used up there are fewer reactant particles to collide, so less gas is produced each second and the curve gets less steep."
+    },
+    {
+      "id": "c6-calculating-rates-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe how a student can use a gas syringe to collect data to find the rate of a reaction between zinc and acid.",
+      "acceptedAnswers": [
+        "connect flask to gas syringe",
+        "start timer when zinc added",
+        "record volume at regular intervals",
+        "insert bung quickly"
+      ],
+      "markScheme": [
+        "1 mark: add zinc to the acid in a flask, quickly put in a bung connected to a gas syringe and start a timer",
+        "1 mark: record the volume of gas in the syringe at regular time intervals (for example every 10 s)"
+      ],
+      "explanation": "Readings at regular intervals let you plot a graph of volume against time and calculate rates."
+    },
+    {
+      "id": "c6-calculating-rates-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Suggest one reason why the volume of gas collected in a gas syringe may be less than expected.",
+      "acceptedAnswers": [
+        "gas escapes before bung inserted",
+        "leaking connections",
+        "gas dissolves in the solution",
+        "syringe plunger sticks"
+      ],
+      "markScheme": [
+        "1 mark: gas escapes before the bung is put in / leaks from joints / some gas dissolves in the solution / plunger sticks"
+      ],
+      "explanation": "Any loss of gas before or during collection means the measured volume is lower than the true volume."
+    },
+    {
+      "id": "c6-calculating-rates-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Describe how to use a graph of volume of gas against time to find the rate of reaction at exactly 30 s.",
+      "acceptedAnswers": [
+        "draw a tangent at 30 s",
+        "gradient = change in y ÷ change in x",
+        "use two points far apart on tangent",
+        "units cm³/s"
+      ],
+      "markScheme": [
+        "1 mark: draw a tangent to the curve at 30 s (a straight line touching the curve at that point)",
+        "1 mark: choose two points far apart on the tangent and find the change in y and change in x",
+        "1 mark: rate = gradient = change in y ÷ change in x, in cm³/s"
+      ],
+      "explanation": "The rate at an instant is the gradient of the curve at that point, found from the tangent."
+    },
+    {
+      "id": "c6-calculating-rates-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student recorded these results:\nTime (s): 0, 10, 20, 30, 40, 50, 60\nVolume of gas (cm³): 0, 22, 36, 45, 50, 52, 52\nCalculate the mean rate in the first 10 s and between 40 s and 50 s, and explain the difference.",
+      "acceptedAnswers": [
+        "2.2 cm³/s",
+        "0.2 cm³/s",
+        "reactants used up",
+        "concentration decreases"
+      ],
+      "markScheme": [
+        "1 mark: first 10 s: 22 ÷ 10 = 2.2 cm³/s; 40 to 50 s: (52 − 50) ÷ 10 = 0.2 cm³/s",
+        "1 mark: rate is lower later because reactants have been used up / concentration of reactants is lower"
+      ],
+      "explanation": "The rate falls from 2.2 cm³/s to 0.2 cm³/s because there are fewer reactant particles left to react."
+    },
+    {
+      "id": "c6-calculating-rates-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to measure the rate of reaction between marble chips (calcium carbonate) and dilute hydrochloric acid by measuring the loss in mass. Explain how you would use your results to find the mean rate of reaction.",
+      "markScheme": [
+        "Indicative content: measure a known volume of hydrochloric acid with a measuring cylinder into a conical flask; weigh a known mass of marble chips; place the flask on a balance (with the chips beside it or in the flask); add the marble chips to the acid; put a loose cotton wool plug in the neck to let carbon dioxide out but stop acid spray escaping; start a timer straight away; record the mass at regular intervals (for example every 30 s) until the mass stops changing; calculate the mass lost at each time (starting mass − mass at that time); plot mass lost (or mass) against time and draw a curve of best fit; mean rate = total mass lost ÷ time taken, in g/s; the gradient is steepest at the start; repeat and take means; keep temperature, acid concentration and chip size the same.",
+        "Level 3 (5 to 6 marks): a clear, logically ordered method with appropriate apparatus, measurements at regular times, and a correct explanation of how to calculate the mean rate with units.",
+        "Level 2 (3 to 4 marks): a method with the main steps and some idea of how to calculate rate, but some detail missing.",
+        "Level 1 (1 to 2 marks): some relevant steps, for example using a balance and timer, with little or no processing of results."
+      ],
+      "explanation": "The key points are recording the mass at regular time intervals, explaining why the mass falls (carbon dioxide escapes), and calculating mean rate = mass lost ÷ time with the unit g/s."
+    },
+    {
+      "id": "c6-calculating-rates-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Use the results below to describe how the rate of reaction changes during the reaction. Calculate the mean rate for the first 30 s and explain the shape of the graph you would get.\nTime (s): 0, 10, 20, 30, 40, 50, 60\nVolume of gas (cm³): 0, 22, 36, 45, 50, 52, 52",
+      "markScheme": [
+        "Indicative content: the rate is fastest at the start (22 cm³ in the first 10 s); the rate decreases with time (14 cm³ in the next 10 s, then 9, 5, 2, 0); the reaction stops at about 50 s, when no more gas is produced; mean rate for the first 30 s = 45 ÷ 30 = 1.5 cm³/s; the graph is a curve that is steep at the start, gets less steep and then becomes horizontal at 52 cm³; the rate decreases because reactants are used up so the concentration of reactants falls and there are fewer collisions per second; the line becomes horizontal because one reactant has been completely used up.",
+        "Level 2 (3 to 4 marks): correct description of the change in rate using the data, correct mean rate of 1.5 cm³/s, and a clear explanation of the shape.",
+        "Level 1 (1 to 2 marks): a simple description (for example the reaction slows down) or a correct calculation with little explanation."
+      ],
+      "explanation": "The volume collected in each 10 s interval decreases, showing the rate falls. Mean rate over the first 30 s = 45 ÷ 30 = 1.5 cm³/s."
+    }
+  ]
+}
