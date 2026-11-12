@@ -1,0 +1,499 @@
+{
+  "id": "b7-transfer-of-biomass",
+  "science": "biology",
+  "topicId": "b7",
+  "slug": "transfer-of-biomass",
+  "specRef": "4.7.4.3",
+  "title": "Transfer of biomass",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Producers transfer only about 1% of the incident energy from light into biomass by photosynthesis, and only about 10% of the biomass at each trophic level is transferred to the level above. The rest is lost through egestion, excretion and respiration.",
+    "explanation": [
+      "Food chains start with producers, which are mostly plants and algae. Producers use light for photosynthesis, but they transfer only about 1% of the incident energy from light to the glucose and other substances that make up their biomass. This small amount of biomass made by producers is all that is available to every other organism in the food chain.",
+      "Only approximately 10% of the biomass from each trophic level is transferred to the level above it. For example, if the grass in a field has 10 000 g/m² of biomass, the rabbits feeding on it might have about 1000 g/m², and the foxes feeding on the rabbits about 100 g/m². This explains why pyramids of biomass are pyramid shaped.",
+      "Biomass is lost between trophic levels in several ways. First, not all the ingested material is absorbed: some cannot be digested and is egested (passed out) as faeces. Second, some absorbed material is lost as waste. Carbon dioxide and water are produced in respiration and released into the environment, and water and urea are lost in urine. Third, large amounts of the glucose absorbed are used in respiration to release energy for movement, keeping warm and other life processes, so this glucose does not become new body tissue. Not all parts of an organism are eaten either, for example roots or bones.",
+      "The efficiency of biomass transfer between trophic levels can be calculated: efficiency = biomass transferred to the next level ÷ biomass available at the previous level × 100. For example, if producers have 2000 g/m² and herbivores 150 g/m², the efficiency is 150 ÷ 2000 × 100 = 7.5%. Efficiency can also be given as a fraction of the mass, for example 150/2000 = 3/40.",
+      "Because so much biomass is lost at each step, there is less biomass available at each higher trophic level. This means each level can support fewer organisms (a smaller total mass of organisms) than the level below. It also explains why food chains rarely have more than four or five trophic levels: by then there is too little biomass left to support another population."
+    ],
+    "keyFacts": [
+      "Producers transfer about 1% of the incident light energy for photosynthesis.",
+      "About 10% of the biomass at each trophic level is transferred to the level above.",
+      "Not all ingested material is absorbed: some is egested as faeces.",
+      "Some absorbed material is lost as waste: carbon dioxide and water from respiration, water and urea in urine.",
+      "Large amounts of glucose are used in respiration, so they do not become new biomass.",
+      "Efficiency = biomass transferred ÷ biomass available × 100.",
+      "Efficiency can be given as a percentage or as a fraction of the mass.",
+      "Less biomass at each level means fewer organisms can be supported at higher trophic levels."
+    ],
+    "keyTerms": [
+      { "term": "Biomass", "definition": "The mass of living material in an organism or group of organisms." },
+      { "term": "Incident light energy", "definition": "The light energy falling on a producer, of which only about 1% is transferred by photosynthesis." },
+      { "term": "Ingestion", "definition": "Taking food into the body (eating)." },
+      { "term": "Egestion", "definition": "Passing out undigested, unabsorbed food from the gut as faeces." },
+      { "term": "Excretion", "definition": "Removal of waste products made in the body, such as urea in urine and carbon dioxide from respiration." },
+      { "term": "Efficiency of biomass transfer", "definition": "The percentage (or fraction) of the biomass at one trophic level that is transferred to the next level." }
+    ],
+    "equations": [
+      { "name": "Efficiency of biomass transfer", "formula": "efficiency (%) = biomass transferred to the next level ÷ biomass available at the previous level × 100", "symbols": "efficiency = (biomass in higher level ÷ biomass in lower level) × 100", "units": "percentage (%), or a fraction with no units", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating efficiency of transfer",
+        "question": "A field of grass has a biomass of 12 000 kg. The rabbits feeding on it have a biomass of 1080 kg. Calculate the efficiency of biomass transfer.",
+        "steps": [
+          "efficiency = biomass transferred ÷ biomass available × 100",
+          "= 1080 ÷ 12 000 × 100",
+          "= 0.09 × 100 = 9%"
+        ],
+        "answer": "9%"
+      },
+      {
+        "title": "Efficiency as a fraction",
+        "question": "Producers have 2000 g/m² of biomass and herbivores have 80 g/m². Give the efficiency of transfer as a fraction in its simplest form and as a percentage.",
+        "steps": [
+          "Fraction = 80/2000.",
+          "Divide top and bottom by 80: 1/25.",
+          "As a percentage: 1 ÷ 25 × 100 = 4%."
+        ],
+        "answer": "1/25, which is 4%"
+      },
+      {
+        "title": "Working back through several levels",
+        "question": "Producers in an ecosystem have a biomass of 20 000 kg. Assuming 10% is transferred at each step, calculate the biomass at trophic level 4.",
+        "steps": [
+          "Level 2: 20 000 × 0.1 = 2000 kg.",
+          "Level 3: 2000 × 0.1 = 200 kg.",
+          "Level 4: 200 × 0.1 = 20 kg.",
+          "Check in one step: 20 000 × 0.1³ = 20 kg."
+        ],
+        "answer": "20 kg"
+      },
+      {
+        "title": "Where the biomass goes",
+        "question": "A caterpillar eats 200 g of leaves. It egests 110 g as faeces and uses 70 g in respiration and other waste. Calculate the percentage of the ingested biomass that becomes new caterpillar biomass.",
+        "steps": [
+          "Biomass left for growth = 200 − 110 − 70 = 20 g.",
+          "Percentage = 20 ÷ 200 × 100 = 10%."
+        ],
+        "answer": "10%"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "What happens to the biomass a rabbit eats",
+        "caption": "Of the grass a rabbit ingests, some is egested as faeces, some is lost as waste (carbon dioxide and water from respiration, water and urea in urine), and large amounts of glucose are used in respiration. Only about 10% becomes new rabbit biomass available to a fox.",
+        "svg": "<svg viewBox='0 0 520 250' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='20' width='140' height='44' rx='6' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='20' y='38' font-size='12' fill='currentColor'>grass ingested</text><text x='20' y='54' font-size='12' fill='currentColor'>(eaten) by rabbit</text><line x1='80' y1='64' x2='80' y2='170' stroke='currentColor' stroke-width='2'/><path d='M80 178 L74 166 L86 166 Z' fill='currentColor'/><rect x='10' y='180' width='150' height='44' rx='6' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='18' y='198' font-size='12' fill='currentColor'>not absorbed: egested</text><text x='18' y='214' font-size='12' fill='currentColor'>as faeces</text><line x1='150' y1='42' x2='200' y2='42' stroke='currentColor' stroke-width='2'/><path d='M208 42 L196 36 L196 48 Z' fill='currentColor'/><text x='152' y='34' font-size='12' fill='currentColor'>absorbed</text><rect x='210' y='20' width='120' height='44' rx='6' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='220' y='38' font-size='12' fill='currentColor'>absorbed into</text><text x='220' y='54' font-size='12' fill='currentColor'>rabbit's body</text><g stroke='currentColor' stroke-width='2'><line x1='330' y1='42' x2='352' y2='42'/><line x1='352' y1='42' x2='352' y2='200'/><line x1='352' y1='42' x2='372' y2='42'/><line x1='352' y1='120' x2='372' y2='120'/><line x1='352' y1='200' x2='372' y2='200'/></g><g fill='currentColor'><path d='M380 42 L368 36 L368 48 Z'/><path d='M380 120 L368 114 L368 126 Z'/><path d='M380 200 L368 194 L368 206 Z'/></g><rect x='382' y='18' width='132' height='52' rx='6' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='388' y='36' font-size='12' fill='currentColor'>respiration uses</text><text x='388' y='50' font-size='12' fill='currentColor'>lots of glucose;</text><text x='388' y='64' font-size='12' fill='currentColor'>CO₂ and water lost</text><rect x='382' y='98' width='132' height='44' rx='6' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='388' y='116' font-size='12' fill='currentColor'>water and urea</text><text x='388' y='132' font-size='12' fill='currentColor'>lost in urine</text><rect x='382' y='178' width='132' height='44' rx='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='388' y='196' font-size='12' fill='currentColor'>new biomass</text><text x='388' y='212' font-size='12' fill='currentColor'>(about 10%) for fox</text></svg>"
+      },
+      {
+        "title": "Biomass shrinks along a food chain",
+        "caption": "Producers transfer about 1% of the incident light energy by photosynthesis. Then only about 10% of the biomass passes from each trophic level to the next, so each level has roughly one tenth of the biomass of the level below.",
+        "svg": "<svg viewBox='0 0 520 200' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='60' r='22' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='12' y='105' font-size='12' fill='currentColor'>incident light</text><line x1='64' y1='60' x2='92' y2='60' stroke='currentColor' stroke-width='2'/><path d='M100 60 L88 54 L88 66 Z' fill='currentColor'/><text x='12' y='121' font-size='12' fill='currentColor'>(about 1% transferred)</text><rect x='102' y='20' width='120' height='80' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='110' y='55' font-size='12' fill='currentColor'>grass</text><text x='110' y='72' font-size='12' fill='currentColor'>10 000 g/m²</text><line x1='222' y1='60' x2='262' y2='60' stroke='currentColor' stroke-width='2'/><path d='M270 60 L258 54 L258 66 Z' fill='currentColor'/><text x='224' y='34' font-size='12' fill='currentColor'>about 10%</text><rect x='272' y='40' width='80' height='40' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='278' y='56' font-size='12' fill='currentColor'>rabbits</text><text x='278' y='72' font-size='12' fill='currentColor'>1000 g/m²</text><line x1='352' y1='60' x2='392' y2='60' stroke='currentColor' stroke-width='2'/><path d='M400 60 L388 54 L388 66 Z' fill='currentColor'/><text x='354' y='34' font-size='12' fill='currentColor'>about 10%</text><rect x='402' y='48' width='60' height='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='408' y='64' font-size='12' fill='currentColor'>foxes</text><text x='402' y='90' font-size='12' fill='currentColor'>100 g/m²</text><text x='12' y='150' font-size='12' fill='currentColor'>At each step about 90% is lost: parts not eaten, egestion (faeces),</text><text x='12' y='168' font-size='12' fill='currentColor'>excretion (urea in urine) and respiration (CO₂ and water).</text><text x='12' y='186' font-size='12' fill='currentColor'>Box sizes are illustrative: each level has less biomass than the one below.</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think that the 90% of biomass not transferred is 'used up' or destroyed.", "right": "In fact it leaves the food chain as specific losses: undigested material egested as faeces, carbon dioxide and water from respiration, water and urea in urine, and parts of organisms that are not eaten." },
+      { "wrong": "Students often confuse the 1% and 10% figures.", "right": "In fact about 1% is the proportion of incident light energy producers transfer by photosynthesis, while about 10% is the proportion of biomass passed from one trophic level to the next." },
+      { "wrong": "Students often think egestion and excretion mean the same thing.", "right": "In fact egestion is passing out undigested food that was never absorbed (faeces), while excretion removes waste made inside the body, such as urea in urine and carbon dioxide from respiration." },
+      { "wrong": "Students often divide the wrong way round when calculating efficiency and get answers over 100%.", "right": "In fact efficiency = biomass at the higher level ÷ biomass at the lower level × 100. It must always be less than 100%." }
+    ],
+    "realWorld": [
+      "Eating crops directly feeds more people per hectare than feeding the crops to animals and eating the meat, because a whole trophic level of biomass loss is avoided.",
+      "Livestock farmers try to improve the efficiency of biomass transfer to their animals, for example by keeping them warm and limiting movement so less glucose is used in respiration.",
+      "Conservation of large predators such as tigers needs very large areas, because so little biomass reaches the top of the food chain."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic (the 1% and 10% figures, causes of biomass loss and efficiency calculations) is in separate Biology (8461) only. It is not assessed in Combined Science Trilogy (8464)."
+    ],
+    "examTips": [
+      "Always write the efficiency equation, substitute numbers, then give the answer with a % sign. Check the answer is below 100%.",
+      "Name specific losses for full marks: faeces (egestion), urea and water in urine, carbon dioxide and water from respiration. 'Energy is lost' alone usually scores nothing.",
+      "Make sure both biomass values are in the same units (g or kg) before dividing.",
+      "When asked how biomass loss affects numbers of organisms, link it: less biomass at each level, so fewer organisms can be supported at higher levels."
+    ],
+    "summary": [
+      "Producers transfer about 1% of incident light energy by photosynthesis.",
+      "About 10% of biomass passes from each trophic level to the next.",
+      "Some ingested material is egested as faeces; it is never absorbed.",
+      "Absorbed material is lost as carbon dioxide and water (respiration) and water and urea (urine).",
+      "Large amounts of glucose are used in respiration instead of making new biomass.",
+      "Efficiency = biomass transferred ÷ biomass available × 100.",
+      "Less biomass at higher levels means fewer organisms can be supported there."
+    ]
+  },
+  "flashcards": [
+    { "front": "About what percentage of incident light energy do producers transfer by photosynthesis?", "back": "About 1%." },
+    { "front": "About what percentage of biomass passes from one trophic level to the next?", "back": "About 10%." },
+    { "front": "What happens to ingested material that is not absorbed?", "back": "It is egested as faeces." },
+    { "front": "Which waste products of respiration are lost from organisms?", "back": "Carbon dioxide and water." },
+    { "front": "Which waste products are lost in urine?", "back": "Water and urea." },
+    { "front": "Why does much absorbed glucose not become new biomass?", "back": "Large amounts are used in respiration to release energy." },
+    { "front": "Equation for efficiency of biomass transfer?", "back": "Biomass transferred to the next level ÷ biomass available at the previous level × 100." },
+    { "front": "Difference between egestion and excretion?", "back": "Egestion removes undigested food (faeces); excretion removes waste made in the body (e.g. urea, carbon dioxide)." },
+    { "front": "How does biomass loss affect the number of organisms at higher trophic levels?", "back": "Less biomass is available, so fewer organisms can be supported at each higher level." },
+    { "front": "Why do food chains rarely have more than five trophic levels?", "back": "So much biomass is lost at each step that too little remains to support another level." },
+    { "front": "Producers 2000 g/m², herbivores 150 g/m². Efficiency?", "back": "150 ÷ 2000 × 100 = 7.5%." }
+  ],
+  "questions": [
+    {
+      "id": "b7-transfer-of-biomass-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Approximately what percentage of the biomass at one trophic level is transferred to the level above?",
+      "options": ["1%", "50%", "10%", "90%"],
+      "answer": 2,
+      "markScheme": ["1 mark: 10%"],
+      "explanation": "Only about 10% of the biomass passes to the next level. About 1% is the proportion of incident light energy transferred by producers, and 90% is roughly the amount lost."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Approximately what percentage of the incident energy from light do producers transfer for photosynthesis?",
+      "options": ["1%", "10%", "25%", "100%"],
+      "answer": 0,
+      "markScheme": ["1 mark: 1%"],
+      "explanation": "Producers transfer only about 1% of the incident light energy. The 10% figure refers to biomass transferred between trophic levels."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Material that is eaten but not absorbed leaves an animal's body as:",
+      "options": ["urine", "faeces", "carbon dioxide", "sweat"],
+      "answer": 1,
+      "markScheme": ["1 mark: faeces"],
+      "explanation": "Undigested, unabsorbed food is egested as faeces. Urine and carbon dioxide are waste products made after absorption."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which waste products of respiration are lost from an animal, reducing the biomass passed on?",
+      "options": ["Urea and water", "Glucose and oxygen", "Carbon dioxide and water", "Faeces and urea"],
+      "answer": 2,
+      "markScheme": ["1 mark: carbon dioxide and water"],
+      "explanation": "Aerobic respiration produces carbon dioxide and water. Urea is lost in urine, glucose and oxygen are reactants, and faeces are egested."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Some absorbed material is lost from an animal in its urine. Which substances are lost in this way?",
+      "options": ["Carbon dioxide only", "Glucose and starch", "Undigested cellulose", "Water and urea"],
+      "answer": 3,
+      "markScheme": ["1 mark: water and urea"],
+      "explanation": "Urine contains water and urea. Undigested cellulose is egested in faeces, and carbon dioxide is breathed out."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Large amounts of the glucose absorbed by an animal do not become new biomass. Which process uses this glucose?",
+      "options": ["Respiration", "Photosynthesis", "Egestion", "Digestion"],
+      "answer": 0,
+      "markScheme": ["1 mark: respiration"],
+      "explanation": "Glucose is used in respiration to release energy for life processes. Animals do not photosynthesise, and egestion and digestion do not use up absorbed glucose."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement best explains why there are usually fewer organisms at higher trophic levels?",
+      "options": ["Organisms at higher levels are always larger", "Less biomass is available at each higher level, so fewer organisms can be supported", "Organisms at higher levels reproduce more slowly", "Organisms at higher levels are eaten by decomposers"],
+      "answer": 1,
+      "markScheme": ["1 mark: less biomass is available at each higher level, so fewer organisms can be supported"],
+      "explanation": "Only about 10% of biomass passes up each level, so higher levels have much less biomass to support a population. Body size and reproduction rate do not explain the general pattern."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these is NOT a way biomass is lost between trophic levels?",
+      "options": ["Egestion of faeces", "Respiration releasing carbon dioxide", "Excretion of urea in urine", "Photosynthesis by producers"],
+      "answer": 3,
+      "markScheme": ["1 mark: photosynthesis by producers"],
+      "explanation": "Photosynthesis makes biomass rather than losing it. Egestion, respiration and excretion of urea all remove material that could otherwise have been passed on."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why can a hectare of wheat feed more people if they eat the wheat directly than if the wheat is fed to cattle and people eat the beef?",
+      "options": ["Wheat contains more protein than beef", "Eating the wheat removes a trophic level, so less biomass is lost", "Cattle photosynthesise less than wheat", "Beef is digested less efficiently by humans"],
+      "answer": 1,
+      "markScheme": ["1 mark: eating the wheat removes a trophic level, so less biomass is lost"],
+      "explanation": "Only about 10% of the wheat biomass becomes cattle biomass. Eating wheat directly avoids that loss. Cattle do not photosynthesise at all, and the protein content is not the reason."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q10",
+      "type": "numeric",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The producers in a habitat have a biomass of 5000 g/m². The primary consumers have a biomass of 500 g/m².\nCalculate the efficiency of biomass transfer from producers to primary consumers.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 500 ÷ 5000 × 100", "1 mark: 10%"],
+      "explanation": "Efficiency = biomass transferred ÷ biomass available × 100 = 500 ÷ 5000 × 100 = 10%."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A field of grass has a biomass of 12 000 kg. The rabbits that feed on it have a biomass of 1080 kg.\nCalculate the efficiency of biomass transfer from grass to rabbits.",
+      "numericAnswer": 9,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 1080 ÷ 12 000 × 100", "1 mark: 9%"],
+      "explanation": "1080 ÷ 12 000 = 0.09, and 0.09 × 100 = 9%."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A young cow eats 8 kg of grass in a day. Its body mass increases by 0.32 kg that day.\nCalculate the efficiency of biomass transfer from grass to cow.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 0.32 ÷ 8 × 100", "1 mark: 4%"],
+      "explanation": "0.32 ÷ 8 = 0.04, so the efficiency is 4%. Much of the grass is egested or used in respiration."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sheep eats 8 kg of grass. It egests 3.6 kg of this as faeces.\nCalculate the percentage of the grass eaten that is egested.",
+      "numericAnswer": 45,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 3.6 ÷ 8 × 100", "1 mark: 45%"],
+      "explanation": "3.6 ÷ 8 = 0.45, which is 45%. This material was never absorbed, so it cannot become sheep biomass."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The producers in an ecosystem have a biomass of 20 000 kg. Assume that 10% of the biomass is transferred at each step of the food chain.\nCalculate the biomass at trophic level 4.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": ["1 mark: 20 000 × 0.1 × 0.1 × 0.1 (or 2000 then 200)", "1 mark: 20 kg"],
+      "explanation": "Level 2 = 2000 kg, level 3 = 200 kg, level 4 = 20 kg. There are three transfers between level 1 and level 4, not four."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The incident light energy falling on a field each year is 2 000 000 kJ per m². The plants transfer 1% of this energy by photosynthesis.\nCalculate the energy transferred by the plants per m² each year.",
+      "numericAnswer": 20000,
+      "tolerance": 0.01,
+      "unit": "kJ per m²",
+      "markScheme": ["1 mark: 2 000 000 × 1 ÷ 100", "1 mark: 20 000 kJ per m²"],
+      "explanation": "1% of 2 000 000 = 2 000 000 ÷ 100 = 20 000 kJ per m². The other 99% is not transferred into the plants' biomass."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A caterpillar eats 200 g of leaves. It egests 110 g as faeces. A further 70 g is used in respiration and lost as other waste.\nCalculate the percentage of the ingested biomass that becomes new caterpillar biomass.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 200 − 110 − 70 = 20 g", "1 mark: 20 ÷ 200 × 100", "1 mark: 10%"],
+      "explanation": "First find the biomass left: 200 − 110 − 70 = 20 g. Then 20 ÷ 200 × 100 = 10%, matching the typical figure."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The producers in a pond have a biomass of 4000 g/m². The secondary consumers have a biomass of 30 g/m².\nCalculate the overall efficiency of biomass transfer from producers to secondary consumers.",
+      "numericAnswer": 0.75,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": ["1 mark: 30 ÷ 4000 × 100", "1 mark: 0.75%"],
+      "explanation": "30 ÷ 4000 × 100 = 0.75%. This is two transfers, so it is much lower than the 10% for a single step."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q18",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the approximate percentage of biomass transferred from one trophic level to the next.",
+      "acceptedAnswers": ["10%", "10 percent", "about 10"],
+      "markScheme": ["1 mark: about 10%"],
+      "explanation": "Approximately 10% of the biomass from each trophic level is transferred to the level above."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q19",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two ways in which biomass is lost between one trophic level and the next.",
+      "acceptedAnswers": ["egested as faeces", "respiration", "carbon dioxide", "urea in urine", "not all eaten"],
+      "markScheme": ["1 mark each for any two: not all material is absorbed / egested as faeces; used in respiration / lost as carbon dioxide and water; lost as water and urea in urine; not all parts of the organism are eaten"],
+      "explanation": "Each named loss is a reason why only about 10% of biomass reaches the next level."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the biomass in a rabbit's faeces is not transferred to the rabbit's body.",
+      "acceptedAnswers": ["not absorbed", "not digested", "egested", "leaves the body"],
+      "markScheme": ["1 mark: the material in faeces was not digested / absorbed into the blood", "1 mark: it is egested / passed out of the gut, so it cannot become rabbit tissue"],
+      "explanation": "Faeces contain food that passed through the gut without being absorbed, so it never became part of the rabbit."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how respiration in a herbivore reduces the biomass available to a carnivore that eats it.",
+      "acceptedAnswers": ["glucose used in respiration", "carbon dioxide and water released", "not used for growth"],
+      "markScheme": ["1 mark: large amounts of glucose are used in respiration (instead of making new tissue)", "1 mark: the products, carbon dioxide and water, are lost to the environment"],
+      "explanation": "Glucose that is respired is broken down to carbon dioxide and water, which leave the body, so that mass never becomes herbivore biomass for the carnivore to eat."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Producers have a biomass of 2000 g/m² and herbivores have a biomass of 80 g/m².\nGive the efficiency of biomass transfer as a fraction in its simplest form.",
+      "acceptedAnswers": ["1/25", "1 / 25", "one twenty-fifth"],
+      "markScheme": ["1 mark: 1/25 (from 80/2000)"],
+      "explanation": "80/2000: divide top and bottom by 80 to get 1/25. As a percentage this is 4%."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how the loss of biomass between trophic levels affects the number of organisms at each trophic level.",
+      "acceptedAnswers": ["only 10% transferred", "less biomass at each level", "fewer organisms supported", "food chains limited in length"],
+      "markScheme": ["1 mark: only about 10% of biomass is transferred to each level", "1 mark: so there is less biomass available at each higher trophic level", "1 mark: so fewer organisms / a smaller total mass of organisms can be supported at higher levels (or the chain cannot support many levels)"],
+      "explanation": "The chain of reasoning is: losses, so less biomass, so fewer organisms. Missing the middle link loses a mark."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Biomass in a food chain: grass 2000 g/m², rabbits 150 g/m², foxes 18 g/m².\nUse calculations to show which transfer is more efficient: grass to rabbits, or rabbits to foxes.",
+      "acceptedAnswers": ["7.5%", "12%", "rabbits to foxes more efficient"],
+      "markScheme": ["1 mark: grass to rabbits = 150 ÷ 2000 × 100 = 7.5%", "1 mark: rabbits to foxes = 18 ÷ 150 × 100 = 12%", "1 mark: rabbits to foxes is more efficient"],
+      "explanation": "Always divide by the biomass of the lower level for each step. Herbivores often transfer less efficiently because plant material is harder to digest, so more is egested."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q25",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the process producers use to transfer energy from light into biomass.",
+      "acceptedAnswers": ["photosynthesis"],
+      "markScheme": ["1 mark: photosynthesis"],
+      "explanation": "Producers use about 1% of the incident light energy for photosynthesis, making glucose that becomes biomass."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q26",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by egestion?",
+      "acceptedAnswers": ["passing out faeces", "removal of undigested food", "unabsorbed food leaving the gut"],
+      "markScheme": ["1 mark: passing out undigested / unabsorbed food (from the gut) as faeces"],
+      "explanation": "Egestion removes food that was never absorbed. It is different from excretion, which removes waste made inside the body."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain why only about 10% of the biomass at one trophic level is transferred to the next, and explain how this affects the number of organisms and the number of trophic levels in a food chain.",
+      "markScheme": [
+        "Indicative content:",
+        "not all of each organism is eaten (e.g. roots, bones, shells)",
+        "not all ingested material is absorbed; some is egested as faeces",
+        "some absorbed material is lost as waste",
+        "carbon dioxide and water lost from respiration",
+        "water and urea lost in urine",
+        "large amounts of glucose used in respiration to release energy (movement, keeping warm), so not used for growth",
+        "so less biomass is available at each higher trophic level",
+        "so fewer organisms / smaller total mass can be supported at higher levels",
+        "pyramids of biomass get narrower towards the top",
+        "after four or five levels too little biomass remains to support another population, so food chains are short",
+        "Level 3 (5 to 6 marks): several specific losses explained, clearly linked to less biomass and fewer organisms, and to the length of food chains.",
+        "Level 2 (3 to 4 marks): some specific losses with a link to fewer organisms at higher levels.",
+        "Level 1 (1 to 2 marks): one or two losses or a simple statement that biomass decreases.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The best answers use precise terms (egested, urea, respiration) and complete the logical chain from losses to fewer organisms to limited food chain length."
+    },
+    {
+      "id": "b7-transfer-of-biomass-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A rabbit eats grass. Describe what happens to the biomass in the grass the rabbit eats.",
+      "markScheme": [
+        "Indicative content:",
+        "some is not absorbed and is egested as faeces",
+        "the rest is absorbed into the rabbit's body",
+        "large amounts of glucose are used in respiration",
+        "producing carbon dioxide and water, which are lost",
+        "some is lost as water and urea in urine",
+        "a small amount (about 10%) becomes new rabbit biomass / growth",
+        "Level 2 (3 to 4 marks): clear account of egestion, respiration and excretion losses and the small proportion becoming new biomass.",
+        "Level 1 (1 to 2 marks): one or two fates of the biomass described.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Follow the biomass in order: ingested, then either egested or absorbed; absorbed material is respired, excreted or becomes new tissue."
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "id": "b6-genetic-inheritance",
+  "science": "biology",
+  "topicId": "b6",
+  "slug": "genetic-inheritance",
+  "specRef": "4.6.1.6",
+  "title": "Genetic inheritance",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Genetic inheritance is the passing on of alleles from parents to offspring in gametes. Some characteristics are controlled by a single gene with dominant and recessive alleles, and the outcome of a cross can be predicted using Punnett squares, ratios and probability.",
+    "explanation": [
+      "You need to be able to use these terms. A gamete is a sex cell with one set of chromosomes. A chromosome is a long DNA molecule carrying many genes. A gene is a section of DNA that codes for a protein. Each gene may have different forms called alleles. Body cells have two copies of each chromosome, so they have two alleles of each gene, one inherited from each parent. The alleles an organism has make up its genotype (for example Bb). The characteristic that is expressed, such as black fur, is its phenotype. The genotype operates at a molecular level (through the proteins coded for) to produce the phenotype.",
+      "A dominant allele is always expressed, even if only one copy is present. It is shown by a capital letter, such as B. A recessive allele is only expressed if two copies are present, so there is no dominant allele. It is shown by the lower case letter, such as b. If the two alleles are the same (BB or bb) the organism is homozygous for that characteristic. If the alleles are different (Bb) it is heterozygous. So BB and Bb both give the dominant phenotype, and only bb gives the recessive phenotype.",
+      "Some characteristics are controlled by a single gene, for example fur colour in mice and red-green colour blindness in humans. However, most characteristics are the result of multiple genes interacting, rather than a single gene, so they cannot be predicted with a simple cross. Height and skin colour are examples affected by many genes (and by the environment).",
+      "A Punnett square shows the possible outcomes of a single gene cross. Write the alleles in one parent's gametes along the top and the other parent's gametes down the side, then fill in each box with one allele from each. Each box is an equally likely outcome. For Bb × Bb you get 1 BB : 2 Bb : 1 bb, giving a phenotype ratio of 3 dominant : 1 recessive. For Bb × bb you get 1 Bb : 1 bb, a ratio of 1 : 1. You must be able to express outcomes as a ratio, a fraction, a percentage or a probability (for example 1 in 4 = 1/4 = 0.25 = 25%). (Higher tier) You must also be able to construct the whole genetic cross yourself, from the parental genotypes to the gametes and the offspring, and use it to make predictions using probability.",
+      "Probabilities from a cross are predictions, not guarantees. Each fertilisation is a separate chance event, so a couple whose cross gives a 1 in 4 chance of a recessive child could have several children all with the dominant phenotype. Real results only match the predicted ratio closely when there are large numbers of offspring. Family trees (pedigrees) show how a characteristic is passed through a family. If two parents without a characteristic have a child with it, the characteristic must be caused by a recessive allele and both parents must be heterozygous."
+    ],
+    "keyFacts": [
+      "Alleles are different forms of the same gene.",
+      "Genotype: the alleles present (for example Bb). Phenotype: the characteristic expressed (for example black fur).",
+      "A dominant allele is expressed even if only one copy is present.",
+      "A recessive allele is only expressed if two copies are present.",
+      "Homozygous: two identical alleles (BB or bb). Heterozygous: two different alleles (Bb).",
+      "Single gene examples: fur colour in mice; red-green colour blindness in humans.",
+      "Most characteristics are controlled by multiple genes interacting.",
+      "Bb × Bb gives a 3 : 1 phenotype ratio (25% chance of recessive).",
+      "Bb × bb gives a 1 : 1 ratio (50% chance of recessive).",
+      "Each offspring is an independent chance event; ratios are only predictions."
+    ],
+    "keyTerms": [
+      {
+        "term": "Gamete",
+        "definition": "A sex cell (sperm or egg) containing one set of chromosomes, so one allele of each gene."
+      },
+      {
+        "term": "Chromosome",
+        "definition": "A long, coiled DNA molecule in the nucleus carrying many genes."
+      },
+      {
+        "term": "Gene",
+        "definition": "A small section of DNA on a chromosome that codes for a particular sequence of amino acids, to make a specific protein."
+      },
+      {
+        "term": "Allele",
+        "definition": "A different form (version) of the same gene."
+      },
+      {
+        "term": "Dominant",
+        "definition": "An allele that is always expressed, even if only one copy is present."
+      },
+      {
+        "term": "Recessive",
+        "definition": "An allele that is only expressed if two copies are present (no dominant allele)."
+      },
+      {
+        "term": "Homozygous",
+        "definition": "Having two identical alleles of a gene (for example BB or bb)."
+      },
+      {
+        "term": "Heterozygous",
+        "definition": "Having two different alleles of a gene (for example Bb)."
+      },
+      {
+        "term": "Genotype",
+        "definition": "The combination of alleles an organism has for a characteristic."
+      },
+      {
+        "term": "Phenotype",
+        "definition": "The characteristic that is expressed (observed), resulting from the genotype (and sometimes the environment)."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Probability as a percentage",
+        "formula": "percentage = (number of outcomes of that type ÷ total number of outcomes) × 100",
+        "symbols": "",
+        "units": "%",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Completing a Punnett square for two heterozygous mice",
+        "question": "In mice the allele for black fur (B) is dominant to the allele for brown fur (b). Two heterozygous black mice are crossed. What is the probability that an offspring has brown fur?",
+        "steps": [
+          "Parental genotypes: Bb × Bb.",
+          "Gametes from each parent: B or b.",
+          "Punnett square boxes: BB, Bb, Bb, bb.",
+          "Only bb gives brown fur: 1 out of 4 boxes.",
+          "Probability = 1/4 = 0.25 = 25%. Phenotype ratio 3 black : 1 brown."
+        ],
+        "answer": "1/4 (0.25 or 25%)"
+      },
+      {
+        "title": "Test cross ratio",
+        "question": "A heterozygous black mouse (Bb) is crossed with a brown mouse (bb). They have 12 offspring. How many would you expect to be brown?",
+        "steps": [
+          "Gametes: Bb parent gives B or b; bb parent gives only b.",
+          "Offspring: Bb, Bb, bb, bb, so 2 out of 4 are brown.",
+          "Probability of brown = 1/2.",
+          "Expected number = 1/2 × 12 = 6."
+        ],
+        "answer": "6 brown (ratio 1 : 1)"
+      },
+      {
+        "title": "(HT) Constructing a cross from scratch",
+        "question": "In guinea pigs the allele for a rough coat (R) is dominant to the allele for a smooth coat (r). A heterozygous rough-coated guinea pig is crossed with a smooth-coated guinea pig. Construct a Punnett square and give the percentage chance that an offspring has a smooth coat.",
+        "steps": [
+          "Parental genotypes: the rough parent is heterozygous, so Rr; the smooth parent shows the recessive phenotype, so rr.",
+          "Gametes: Rr gives R or r; rr gives r only.",
+          "Draw a 2 × 2 grid: top R, r; side r, r.",
+          "Fill in: Rr, rr, Rr, rr.",
+          "2 of the 4 outcomes are rr (smooth): 2 ÷ 4 × 100 = 50%."
+        ],
+        "answer": "50%"
+      },
+      {
+        "title": "Interpreting real results",
+        "question": "A pea plant cross produced 705 purple-flowered and 224 white-flowered plants. Express this as a ratio and say which cross is most likely.",
+        "steps": [
+          "Divide both numbers by the smaller one: 705 ÷ 224 = 3.15 and 224 ÷ 224 = 1.",
+          "Ratio is about 3.1 : 1, close to 3 : 1.",
+          "A 3 : 1 ratio comes from crossing two heterozygous parents (Pp × Pp)."
+        ],
+        "answer": "About 3.1 : 1 (approximately 3 : 1), so both parents were most likely heterozygous."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Punnett square for Bb × Bb",
+        "caption": "Gametes from each parent are written outside the grid. Each of the four boxes is an equally likely offspring genotype. The shaded box (bb) is the only one with the recessive phenotype, giving a 3 : 1 ratio.",
+        "svg": "<svg viewBox='0 0 480 270' xmlns='http://www.w3.org/2000/svg'><text x='10' y='14' font-size='12' fill='currentColor' font-weight='bold'>Parents: Bb (black) × Bb (black)</text><text x='172' y='44' font-size='12' fill='currentColor'>B</text><text x='232' y='44' font-size='12' fill='currentColor'>b</text><text x='126' y='105' font-size='12' fill='currentColor'>B</text><text x='126' y='165' font-size='12' fill='currentColor'>b</text><text x='170' y='28' font-size='12' fill='currentColor'>gametes from parent 1</text><text x='10' y='136' font-size='12' fill='currentColor'>gametes from</text><text x='10' y='150' font-size='12' fill='currentColor'>parent 2</text><rect x='150' y='70' width='60' height='60' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='170' y='105' font-size='12' fill='currentColor'>BB</text><rect x='210' y='70' width='60' height='60' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='230' y='105' font-size='12' fill='currentColor'>Bb</text><rect x='150' y='130' width='60' height='60' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='170' y='165' font-size='12' fill='currentColor'>Bb</text><rect x='210' y='130' width='60' height='60' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='230' y='165' font-size='12' fill='currentColor'>bb</text><text x='290' y='80' font-size='12' fill='currentColor'>BB: homozygous, black</text><text x='290' y='98' font-size='12' fill='currentColor'>Bb: heterozygous, black</text><text x='290' y='116' font-size='12' fill='currentColor'>bb: homozygous, brown</text><text x='290' y='152' font-size='12' fill='currentColor'>Genotypes 1 BB : 2 Bb : 1 bb</text><text x='290' y='170' font-size='12' fill='currentColor'>Phenotypes 3 black : 1 brown</text><text x='290' y='188' font-size='12' fill='currentColor'>P(brown) = 1/4 = 25%</text><text x='10' y='224' font-size='12' fill='currentColor'>B = dominant allele for black fur, b = recessive allele for brown fur</text><text x='10' y='244' font-size='12' fill='currentColor'>Each box shows one possible offspring genotype; each is equally likely.</text></svg>"
+      },
+      {
+        "title": "Punnett square for Bb × bb",
+        "caption": "Crossing a heterozygous organism with a homozygous recessive one gives a 1 : 1 ratio of dominant to recessive phenotypes.",
+        "svg": "<svg viewBox='0 0 480 200' xmlns='http://www.w3.org/2000/svg'><text x='10' y='18' font-size='12' fill='currentColor' font-weight='bold'>Test cross: Bb (black) × bb (brown)</text><text x='132' y='48' font-size='12' fill='currentColor'>B</text><text x='188' y='48' font-size='12' fill='currentColor'>b</text><text x='90' y='93' font-size='12' fill='currentColor'>b</text><text x='90' y='149' font-size='12' fill='currentColor'>b</text><rect x='110' y='60' width='56' height='56' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='128' y='93' font-size='12' fill='currentColor'>Bb</text><rect x='166' y='60' width='56' height='56' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='184' y='93' font-size='12' fill='currentColor'>bb</text><rect x='110' y='116' width='56' height='56' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='128' y='149' font-size='12' fill='currentColor'>Bb</text><rect x='166' y='116' width='56' height='56' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='184' y='149' font-size='12' fill='currentColor'>bb</text><text x='270' y='80' font-size='12' fill='currentColor'>2 Bb : 2 bb = 1 : 1</text><text x='270' y='100' font-size='12' fill='currentColor'>50% black (Bb)</text><text x='270' y='120' font-size='12' fill='currentColor'>50% brown (bb)</text><text x='270' y='140' font-size='12' fill='currentColor'>probability of brown = 0.5</text><text x='10' y='190' font-size='12' fill='currentColor'>Top: gametes of the Bb parent. Side: gametes of the bb parent.</text></svg>"
+      },
+      {
+        "title": "Using a family tree",
+        "caption": "Squares are males and circles are females. Shaded symbols are affected. Two unaffected parents with an affected child shows the condition is recessive and both parents are heterozygous.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><rect x='88' y='38' width='24' height='24' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><circle cx='200' cy='50' r='12' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><line x1='112' y1='50' x2='188' y2='50' stroke='currentColor' stroke-width='2'/><text x='94' y='30' font-size='12' fill='currentColor'>1</text><text x='196' y='30' font-size='12' fill='currentColor'>2</text><line x1='150' y1='50' x2='150' y2='90' stroke='currentColor' stroke-width='2'/><line x1='70' y1='90' x2='230' y2='90' stroke='currentColor' stroke-width='2'/><line x1='70' y1='90' x2='70' y2='108' stroke='currentColor' stroke-width='2'/><line x1='150' y1='90' x2='150' y2='108' stroke='currentColor' stroke-width='2'/><line x1='230' y1='90' x2='230' y2='108' stroke='currentColor' stroke-width='2'/><rect x='58' y='108' width='24' height='24' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><circle cx='150' cy='120' r='12' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><rect x='218' y='108' width='24' height='24' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><text x='66' y='150' font-size='12' fill='currentColor'>3</text><text x='146' y='150' font-size='12' fill='currentColor'>4</text><text x='226' y='150' font-size='12' fill='currentColor'>5</text><rect x='278' y='28' width='24' height='24' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><text x='310' y='44' font-size='12' fill='currentColor'>unaffected male</text><circle cx='290' cy='72' r='12' fill='none' fill-opacity='0' stroke='currentColor' stroke-width='2'/><text x='310' y='76' font-size='12' fill='currentColor'>unaffected female</text><rect x='278' y='92' width='24' height='24' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='310' y='108' font-size='12' fill='currentColor'>affected male</text><circle cx='290' cy='136' r='12' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='310' y='140' font-size='12' fill='currentColor'>affected female</text><text x='10' y='182' font-size='12' fill='currentColor'>Persons 1 and 2 are unaffected but their daughter (4) is affected.</text><text x='10' y='202' font-size='12' fill='currentColor'>So the condition must be caused by a recessive allele (f).</text><text x='10' y='222' font-size='12' fill='currentColor'>Person 4 is ff; persons 1 and 2 must both be Ff (carriers).</text><text x='10' y='242' font-size='12' fill='currentColor'>Persons 3 and 5 could be FF or Ff.</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a 3 : 1 ratio means that if a couple has four children, exactly one will show the recessive phenotype.",
+        "right": "In fact each child is an independent chance event with a 1 in 4 probability. Any number of the four children could be affected."
+      },
+      {
+        "wrong": "Students often think dominant alleles are more common in the population or 'better'.",
+        "right": "In fact dominant just means the allele is expressed when only one copy is present. Dominant alleles can be rare and can cause disorders (such as polydactyly)."
+      },
+      {
+        "wrong": "Students often think a person with a dominant phenotype must be homozygous.",
+        "right": "In fact both BB and Bb give the dominant phenotype, so the genotype cannot be known from the phenotype alone."
+      },
+      {
+        "wrong": "Students often think genotype and phenotype mean the same thing.",
+        "right": "In fact genotype is the alleles present (for example Bb); phenotype is the characteristic that is expressed (for example black fur)."
+      },
+      {
+        "wrong": "Students often think most characteristics are controlled by one gene.",
+        "right": "In fact most characteristics are the result of multiple genes interacting; single gene characteristics are the exception."
+      }
+    ],
+    "realWorld": [
+      "Genetic counsellors use family trees and Punnett squares to tell couples the probability that a child will inherit a disorder such as cystic fibrosis.",
+      "Animal breeders use test crosses (crossing an animal with a homozygous recessive one) to find out whether an animal with the dominant phenotype is homozygous or heterozygous.",
+      "Red-green colour blindness is a single gene characteristic; knowing how it is inherited helps families understand why it appears in some children and not others."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Construct a genetic cross by Punnett square diagram from the parental genotypes, and use it to make predictions using the theory of probability (Foundation tier students only need to complete a Punnett square that has been started for them)."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always set out a cross fully: parental phenotypes, parental genotypes, gametes (circle them), Punnett square, offspring genotypes, offspring phenotypes and ratio or probability.",
+      "Use the same letter for both alleles, a capital for dominant and lower case for recessive (B and b, not B and w). Choose letters whose capital and lower case look different.",
+      "Read the question for the format needed: ratio (3 : 1), fraction (1/4), percentage (25%) or probability (0.25). Do not give a ratio when a probability is asked for.",
+      "When a family tree shows two unaffected parents with an affected child, state that the allele is recessive and both parents are heterozygous.",
+      "Remember 'probability' means the chance for each child; it does not change with previous children."
+    ],
+    "summary": [
+      "Alleles are versions of a gene; you inherit one from each parent.",
+      "Genotype = alleles present; phenotype = characteristic expressed.",
+      "Dominant is expressed with one copy; recessive needs two copies.",
+      "Homozygous = same alleles; heterozygous = different alleles.",
+      "Fur colour in mice and red-green colour blindness are single gene characteristics; most features involve many genes.",
+      "Punnett squares predict outcomes as ratios, fractions, percentages or probabilities.",
+      "Bb × Bb gives 3 : 1; Bb × bb gives 1 : 1.",
+      "(HT) Construct crosses from scratch and use probability to make predictions."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is an allele?",
+      "back": "A different form of the same gene."
+    },
+    {
+      "front": "Define genotype.",
+      "back": "The alleles an organism has, for example Bb."
+    },
+    {
+      "front": "Define phenotype.",
+      "back": "The characteristic that is expressed, for example black fur."
+    },
+    {
+      "front": "What is a dominant allele?",
+      "back": "An allele that is always expressed, even if only one copy is present."
+    },
+    {
+      "front": "What is a recessive allele?",
+      "back": "An allele that is only expressed if two copies are present."
+    },
+    {
+      "front": "What does homozygous mean?",
+      "back": "Having two identical alleles (BB or bb)."
+    },
+    {
+      "front": "What does heterozygous mean?",
+      "back": "Having two different alleles (Bb)."
+    },
+    {
+      "front": "Name two characteristics controlled by a single gene.",
+      "back": "Fur colour in mice; red-green colour blindness in humans."
+    },
+    {
+      "front": "Are most characteristics controlled by one gene?",
+      "back": "No. Most result from multiple genes interacting."
+    },
+    {
+      "front": "Phenotype ratio from Bb × Bb?",
+      "back": "3 dominant : 1 recessive (25% chance of recessive)."
+    },
+    {
+      "front": "Phenotype ratio from Bb × bb?",
+      "back": "1 : 1 (50% chance of recessive)."
+    },
+    {
+      "front": "Probability of a recessive phenotype from BB × bb?",
+      "back": "0 (all offspring are Bb)."
+    },
+    {
+      "front": "Two unaffected parents have an affected child. What does this tell you?",
+      "back": "The condition is caused by a recessive allele and both parents are heterozygous."
+    },
+    {
+      "front": "Express 1 in 4 as a fraction, decimal and percentage.",
+      "back": "1/4, 0.25, 25%."
+    }
+  ],
+  "questions": [
+    {
+      "id": "b6-genetic-inheritance-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is an allele?",
+      "options": [
+        "A section of a chromosome made of protein",
+        "A different form of the same gene",
+        "A pair of chromosomes",
+        "A type of gamete"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: a different form of the same gene"
+      ],
+      "explanation": "Alleles are different versions of a gene, for example the allele for black fur and the allele for brown fur."
+    },
+    {
+      "id": "b6-genetic-inheritance-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which genotype is heterozygous?",
+      "options": [
+        "BB",
+        "bb",
+        "BBbb",
+        "Bb"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Bb"
+      ],
+      "explanation": "Heterozygous means two different alleles. BB and bb are homozygous, and an organism has only two alleles of each gene."
+    },
+    {
+      "id": "b6-genetic-inheritance-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does 'phenotype' mean?",
+      "options": [
+        "The characteristic that is expressed",
+        "The alleles an organism has",
+        "The number of chromosomes",
+        "A dominant allele"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: the characteristic that is expressed"
+      ],
+      "explanation": "Phenotype is the observed characteristic. The alleles present are the genotype."
+    },
+    {
+      "id": "b6-genetic-inheritance-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When is a recessive allele expressed?",
+      "options": [
+        "Always",
+        "Only if one copy is present",
+        "Only if two copies are present",
+        "Only in males"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: only if two copies are present"
+      ],
+      "explanation": "A recessive allele is masked by a dominant allele, so it is only expressed in a homozygous recessive organism."
+    },
+    {
+      "id": "b6-genetic-inheritance-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is controlled by a single gene?",
+      "options": [
+        "Height in humans",
+        "Body mass in humans",
+        "Red-green colour blindness in humans",
+        "Intelligence in humans"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: red-green colour blindness"
+      ],
+      "explanation": "Red-green colour blindness is a single gene characteristic. Height, body mass and intelligence are controlled by many genes and affected by the environment."
+    },
+    {
+      "id": "b6-genetic-inheritance-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two heterozygous mice (Bb × Bb) are crossed. What is the expected ratio of black (dominant) to brown (recessive) offspring?",
+      "options": [
+        "3 : 1",
+        "1 : 2 : 1",
+        "1 : 1",
+        "All black"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 3 : 1"
+      ],
+      "explanation": "The genotypes are 1 BB : 2 Bb : 1 bb. BB and Bb are black, so 3 black : 1 brown. 1 : 2 : 1 is the genotype ratio, not the phenotype ratio."
+    },
+    {
+      "id": "b6-genetic-inheritance-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A black mouse could have which genotype(s), if black (B) is dominant to brown (b)?",
+      "options": [
+        "BB only",
+        "Bb only",
+        "bb",
+        "BB or Bb"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: BB or Bb"
+      ],
+      "explanation": "One dominant allele is enough to give black fur, so both BB and Bb mice are black. bb mice are brown."
+    },
+    {
+      "id": "b6-genetic-inheritance-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A heterozygous plant (Tt) is crossed with a homozygous recessive plant (tt). What is the probability that an offspring is homozygous recessive?",
+      "options": [
+        "0",
+        "0.25",
+        "0.5",
+        "0.75"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0.5"
+      ],
+      "explanation": "Gametes: T or t from the first parent, t only from the second. Offspring Tt, Tt, tt, tt: 2 out of 4 are tt, so 0.5."
+    },
+    {
+      "id": "b6-genetic-inheritance-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A couple are both heterozygous for a recessive condition. Their first three children do not have the condition. What is the probability that their fourth child will have it?",
+      "options": [
+        "0",
+        "1/4",
+        "1/2",
+        "1"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 1/4"
+      ],
+      "explanation": "Each fertilisation is independent, so the probability is 1/4 for every child, regardless of previous children."
+    },
+    {
+      "id": "b6-genetic-inheritance-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a cross, 50% of offspring show the recessive phenotype. What were the most likely parental genotypes?",
+      "options": [
+        "AA × aa",
+        "Aa × aa",
+        "Aa × Aa",
+        "AA × Aa"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Aa × aa"
+      ],
+      "explanation": "Aa × aa gives Aa, Aa, aa, aa: 50% recessive. Aa × Aa gives 25%, and the other two crosses give 0%."
+    },
+    {
+      "id": "b6-genetic-inheritance-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why do the numbers of offspring in a real cross rarely match the predicted ratio exactly?",
+      "options": [
+        "Fertilisation is random, so results only approach the ratio with large numbers of offspring",
+        "Punnett squares are always wrong",
+        "Dominant alleles are lost in meiosis",
+        "The environment changes the genotype"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: fertilisation is random, so results only approach the ratio with large numbers"
+      ],
+      "explanation": "Which gametes fuse is down to chance. With small numbers, chance variation is large. The environment can affect phenotype, but not genotype."
+    },
+    {
+      "id": "b6-genetic-inheritance-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain the difference between the terms homozygous and heterozygous.",
+      "acceptedAnswers": [
+        "homozygous two identical alleles",
+        "heterozygous two different alleles",
+        "BB or bb",
+        "Bb"
+      ],
+      "markScheme": [
+        "1 mark: homozygous: two alleles the same (for example BB or bb)",
+        "1 mark: heterozygous: two alleles different (for example Bb)"
+      ],
+      "explanation": "The prefixes help: homo means same, hetero means different."
+    },
+    {
+      "id": "b6-genetic-inheritance-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define the terms genotype and phenotype.",
+      "acceptedAnswers": [
+        "genotype alleles present",
+        "phenotype characteristic expressed or observed"
+      ],
+      "markScheme": [
+        "1 mark: genotype: the alleles present (combination of alleles)",
+        "1 mark: phenotype: the characteristic that is expressed / physical appearance"
+      ],
+      "explanation": "Genotype is written as letters (for example Bb); phenotype is described in words (for example black fur)."
+    },
+    {
+      "id": "b6-genetic-inheritance-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In pea plants the allele for tall stems (T) is dominant to the allele for short stems (t). A pea plant is short. State its genotype and explain your answer.",
+      "acceptedAnswers": [
+        "tt",
+        "recessive",
+        "two copies",
+        "no dominant allele"
+      ],
+      "markScheme": [
+        "1 mark: tt",
+        "1 mark: short is the recessive phenotype, which is only expressed if two recessive alleles are present (no dominant allele)"
+      ],
+      "explanation": "A tall plant could be TT or Tt, but a short plant must be tt."
+    },
+    {
+      "id": "b6-genetic-inheritance-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student says: 'Most human characteristics, such as height, are controlled by a single gene.' Explain why the student is wrong.",
+      "acceptedAnswers": [
+        "multiple genes",
+        "many genes interacting",
+        "environment"
+      ],
+      "markScheme": [
+        "1 mark: most characteristics are the result of multiple genes interacting",
+        "1 mark: so they cannot be predicted by a single gene cross / height is also affected by the environment (for example diet)"
+      ],
+      "explanation": "Single gene characteristics such as red-green colour blindness are the exception, not the rule."
+    },
+    {
+      "id": "b6-genetic-inheritance-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Look at the family tree diagram in this topic. Persons 1 and 2 are unaffected but person 4 is affected. Explain how this shows the condition is caused by a recessive allele.",
+      "acceptedAnswers": [
+        "parents unaffected",
+        "child affected",
+        "parents must carry allele",
+        "heterozygous",
+        "recessive allele hidden"
+      ],
+      "markScheme": [
+        "1 mark: neither parent has the condition but they passed the allele to their child",
+        "1 mark: so both parents must carry the allele without expressing it, which is only possible if it is recessive (parents heterozygous)"
+      ],
+      "explanation": "If the allele were dominant, any parent carrying it would be affected. Unaffected parents with an affected child must both be heterozygous carriers of a recessive allele."
+    },
+    {
+      "id": "b6-genetic-inheritance-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A breeder has a black mouse. Black (B) is dominant to brown (b). Explain how she could find out whether the black mouse is homozygous or heterozygous by breeding it.",
+      "acceptedAnswers": [
+        "cross with brown mouse",
+        "bb",
+        "if any brown offspring heterozygous",
+        "all black homozygous"
+      ],
+      "markScheme": [
+        "1 mark: cross the black mouse with a brown (bb) mouse",
+        "1 mark: if any offspring are brown, the black mouse is heterozygous (Bb)",
+        "1 mark: if all (a large number of) offspring are black, it is likely to be homozygous (BB)"
+      ],
+      "explanation": "A bb partner can only give b. Brown offspring (bb) need a b from the black parent too, which proves it is Bb. Many offspring are needed before concluding it is BB."
+    },
+    {
+      "id": "b6-genetic-inheritance-q18",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Two parents, Bb and Bb, have offspring. What is the percentage chance that an offspring has the genotype bb?",
+      "numericAnswer": 25,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 25%"
+      ],
+      "explanation": "The Punnett square gives BB, Bb, Bb, bb. One of the four outcomes is bb: 1 ÷ 4 × 100 = 25%."
+    },
+    {
+      "id": "b6-genetic-inheritance-q19",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A mouse with genotype Bb is crossed with a mouse with genotype bb. They produce 18 offspring. Calculate the number of offspring expected to have brown fur (bb).",
+      "numericAnswer": 9,
+      "tolerance": 0,
+      "unit": "offspring",
+      "markScheme": [
+        "1 mark: probability of bb = 1/2",
+        "1 mark: 1/2 × 18 = 9"
+      ],
+      "explanation": "The cross gives 1 Bb : 1 bb. Half of 18 is 9."
+    },
+    {
+      "id": "b6-genetic-inheritance-q20",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Two heterozygous pea plants (Tt × Tt) produce 840 seeds. Calculate how many of the plants grown from these seeds are expected to be tall (dominant).",
+      "numericAnswer": 630,
+      "tolerance": 0,
+      "unit": "plants",
+      "markScheme": [
+        "1 mark: 3/4 are tall (TT or Tt)",
+        "1 mark: 3/4 × 840 = 630"
+      ],
+      "explanation": "The phenotype ratio is 3 tall : 1 short. 840 ÷ 4 = 210, and 210 × 3 = 630."
+    },
+    {
+      "id": "b6-genetic-inheritance-q21",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A cross between two plants gave 459 plants with purple flowers and 151 plants with white flowers. Calculate the ratio of purple to white flowers in the form x : 1. Give x to 1 decimal place.",
+      "numericAnswer": 3.0,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 459 ÷ 151",
+        "1 mark: 3.0 (ratio 3.0 : 1)"
+      ],
+      "explanation": "459 ÷ 151 = 3.04, which is 3.0 to 1 decimal place. This is very close to the 3 : 1 ratio expected from two heterozygous parents."
+    },
+    {
+      "id": "b6-genetic-inheritance-q22",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Two heterozygous black mice (Bb × Bb) are crossed. Of the offspring that have black fur, what percentage would you expect to be heterozygous? Give your answer to 1 decimal place.",
+      "numericAnswer": 66.7,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: black offspring are 1 BB and 2 Bb (3 in total)",
+        "1 mark: 2 ÷ 3 × 100 = 66.7%"
+      ],
+      "explanation": "Only the black offspring are counted: BB, Bb, Bb. Two of these three are heterozygous: 2/3 = 66.7%. A common mistake is to use all four boxes and get 50%."
+    },
+    {
+      "id": "b6-genetic-inheritance-q23",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A woman is heterozygous (Rr) and her partner is homozygous dominant (RR). Construct a Punnett square and calculate the probability that their child will be heterozygous. Give your answer as a decimal.",
+      "numericAnswer": 0.5,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: correct Punnett square: gametes R and r × R and R, giving RR, RR, Rr, Rr",
+        "1 mark: 2/4 = 0.5"
+      ],
+      "explanation": "Gametes: R or r from the woman, R only from the man. Offspring: RR, RR, Rr, Rr. Two out of four are Rr, so 0.5."
+    },
+    {
+      "id": "b6-genetic-inheritance-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "In mice, black fur (B) is dominant to brown fur (b). A heterozygous black mouse is crossed with a brown mouse. Use a Punnett square to show the possible offspring and give the expected ratio of black to brown offspring.",
+      "markScheme": [
+        "Indicative content: parental genotypes Bb and bb; gametes B and b from black parent, b and b from brown parent; Punnett square with Bb, Bb, bb, bb; offspring genotypes Bb and bb; phenotypes black (Bb) and brown (bb); ratio 1 black : 1 brown (50% brown, probability 0.5).",
+        "Level 2 (3 to 4 marks): correct genotypes, gametes and Punnett square with correctly identified phenotypes and ratio 1 : 1.",
+        "Level 1 (1 to 2 marks): some correct elements, for example correct parental genotypes or a partly correct square, but incomplete or incorrect ratio.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Set out the cross step by step. The brown parent must be bb because brown is recessive; the black parent is Bb as stated. Half of the boxes are bb, so the ratio is 1 : 1."
+    },
+    {
+      "id": "b6-genetic-inheritance-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "(Higher) In guinea pigs the allele for a rough coat (R) is dominant to the allele for a smooth coat (r). Two guinea pigs both have rough coats, but their first offspring has a smooth coat.\nExplain what this shows about the parents' genotypes. Construct a genetic cross to show the probability that their next offspring has a rough coat, and explain why the actual offspring might not show the predicted ratio.",
+      "markScheme": [
+        "Indicative content: the smooth offspring is rr; it received an r allele from each parent; both parents have rough coats so each has at least one R; so both parents are Rr (heterozygous); gametes R and r from each parent; Punnett square RR, Rr, Rr, rr; 3 rough : 1 smooth; probability next offspring is rough = 3/4 = 0.75 = 75%; each fertilisation is random and independent; previous offspring do not affect the probability; small numbers of offspring mean actual numbers may differ from the ratio; ratio only reliable with large numbers.",
+        "Level 3 (5 to 6 marks): correct deduction that both parents are Rr with reasoning, a fully correct cross with gametes and offspring, correct probability (3/4 or 75%) and a clear explanation of why actual offspring may not show the ratio.",
+        "Level 2 (3 to 4 marks): parents identified as Rr with some reasoning and a mostly correct cross; probability may be given; limited explanation of chance.",
+        "Level 1 (1 to 2 marks): some correct genetic terms or a partly correct cross with little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The key deduction: an rr offspring must receive r from both parents, and the parents show the dominant phenotype, so they must be Rr. The cross then predicts 3/4 rough-coated offspring, but every fertilisation is an independent chance event."
+    },
+    {
+      "id": "b6-genetic-inheritance-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What letter case is used to show a dominant allele?",
+      "acceptedAnswers": [
+        "capital letter",
+        "upper case"
+      ],
+      "markScheme": [
+        "1 mark: a capital (upper case) letter"
+      ],
+      "explanation": "Dominant alleles are shown with a capital letter (B) and recessive alleles with the lower case of the same letter (b)."
+    },
+    {
+      "id": "b6-genetic-inheritance-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) Two parents, AA and aa, have children. State the genotype and phenotype of all their children and explain why.",
+      "acceptedAnswers": [
+        "all Aa",
+        "heterozygous",
+        "dominant phenotype",
+        "only A from one parent",
+        "only a from other"
+      ],
+      "markScheme": [
+        "1 mark: all children Aa (heterozygous) with the dominant phenotype",
+        "1 mark: one parent can only give A and the other can only give a"
+      ],
+      "explanation": "The Punnett square has Aa in every box, so the probability of the recessive phenotype is 0."
+    },
+    {
+      "id": "b6-genetic-inheritance-q28",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A Punnett square has been completed. Three of the four boxes contain the dominant allele. What is the probability that an offspring shows the dominant phenotype?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 75%"
+      ],
+      "explanation": "Any genotype with at least one dominant allele shows the dominant phenotype, so 3 out of 4 = 75%."
+    }
+  ]
+}

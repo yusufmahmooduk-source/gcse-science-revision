@@ -1,0 +1,473 @@
+{
+  "id": "b7-trophic-levels",
+  "science": "biology",
+  "topicId": "b7",
+  "slug": "trophic-levels",
+  "specRef": "4.7.4.1",
+  "title": "Trophic levels",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A trophic level is the position an organism occupies in a food chain. Trophic levels are numbered, starting with level 1 for producers (plants and algae), then level 2 for herbivores, level 3 for carnivores that eat herbivores and level 4 for carnivores that eat other carnivores.",
+    "explanation": [
+      "Every food chain begins with a producer. Producers are plants and algae, and they make their own food by photosynthesis using energy from light. Because they do not need to eat other organisms, producers are always placed at trophic level 1. All the biomass in the rest of the food chain comes, in the end, from the glucose and other substances that producers make.",
+      "Level 2 is made up of primary consumers. These are herbivores: animals that eat plants or algae. Level 3 contains secondary consumers, which are carnivores that eat herbivores. Level 4 contains tertiary consumers, which are carnivores that eat other carnivores. In the food chain oak leaves → caterpillar → blue tit → sparrowhawk, the oak is level 1, the caterpillar level 2, the blue tit level 3 and the sparrowhawk level 4.",
+      "An apex predator is a carnivore with no predators. It sits at the top of its food chain. Examples include sparrowhawks in a woodland, killer whales in the ocean and lions on the savanna. Being an apex predator does not mean the animal is always at the same numbered level: a killer whale that eats herbivorous fish is at level 3, but when it eats a seal that ate fish it is at level 4 or higher.",
+      "Real animals often eat food from more than one trophic level. A fox that eats blackberries is feeding at level 2, but when it eats a rabbit it is feeding at level 3. This is one reason why food webs are more realistic than single food chains. In each food chain, the arrows always point from the organism that is eaten to the organism that eats it, because they show the direction in which biomass (and the energy stored in it) is transferred.",
+      "Decomposers are not given a single trophic level, but they are essential to every ecosystem. Decomposers are mainly bacteria and fungi. They break down dead plant and animal matter, and the waste of other organisms, by secreting enzymes into the environment around them. The enzymes digest large insoluble molecules into small soluble food molecules, which then diffuse into the microorganism. This is digestion outside the body, unlike animals, which digest food inside their gut."
+    ],
+    "keyFacts": [
+      "Trophic levels are numbered, starting with level 1 at the start of the food chain.",
+      "Level 1: producers (plants and algae) make their own food using energy from light.",
+      "Level 2: primary consumers are herbivores that eat plants or algae.",
+      "Level 3: secondary consumers are carnivores that eat herbivores.",
+      "Level 4: tertiary consumers are carnivores that eat other carnivores.",
+      "Apex predators are carnivores with no predators.",
+      "Arrows in a food chain point from the organism eaten to the organism that eats it.",
+      "Decomposers are mainly bacteria and fungi.",
+      "Decomposers secrete enzymes into the environment to break down dead plant and animal matter.",
+      "The small soluble food molecules produced then diffuse into the decomposer."
+    ],
+    "keyTerms": [
+      { "term": "Trophic level", "definition": "The feeding position of an organism in a food chain, numbered from level 1 (producers) upwards." },
+      { "term": "Producer", "definition": "An organism, such as a plant or alga, that makes its own food by photosynthesis using energy from light. Always trophic level 1." },
+      { "term": "Primary consumer", "definition": "A herbivore that eats producers. Trophic level 2." },
+      { "term": "Secondary consumer", "definition": "A carnivore that eats herbivores. Trophic level 3." },
+      { "term": "Tertiary consumer", "definition": "A carnivore that eats other carnivores. Trophic level 4." },
+      { "term": "Apex predator", "definition": "A carnivore with no predators, found at the top of a food chain." },
+      { "term": "Decomposer", "definition": "A microorganism (mainly bacteria and fungi) that breaks down dead plant and animal matter by secreting enzymes into the environment and absorbing the small soluble molecules produced." },
+      { "term": "Herbivore", "definition": "An animal that eats only plants or algae." },
+      { "term": "Carnivore", "definition": "An animal that eats other animals." }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Assigning trophic levels in a food chain",
+        "question": "Phytoplankton → zooplankton → herring → seal → killer whale. Give the trophic level of each organism and identify the apex predator.",
+        "steps": [
+          "The producer starts the chain: phytoplankton (algae) are level 1.",
+          "Zooplankton eat the phytoplankton, so they are primary consumers at level 2.",
+          "Herring eat zooplankton, so they are carnivores at level 3.",
+          "Seals eat herring, so they are carnivores at level 4.",
+          "Killer whales eat seals, so they are at level 5. Nothing eats the killer whale, so it is the apex predator."
+        ],
+        "answer": "Phytoplankton 1, zooplankton 2, herring 3, seal 4, killer whale 5. The killer whale is the apex predator."
+      },
+      {
+        "title": "An animal feeding at two trophic levels",
+        "question": "In a woodland, foxes eat blackberries and also eat rabbits, which eat grass. State the trophic levels at which the fox feeds.",
+        "steps": [
+          "Blackberries are part of a plant, so they are at level 1. A fox eating blackberries is a primary consumer: level 2.",
+          "Grass is level 1 and rabbits (herbivores) are level 2.",
+          "A fox eating rabbits is a carnivore eating a herbivore: level 3."
+        ],
+        "answer": "The fox feeds at level 2 (eating blackberries) and level 3 (eating rabbits)."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Trophic levels in a woodland food chain",
+        "caption": "Light energy is used by the producer at level 1. Each arrow shows biomass being transferred from the organism eaten to the organism that eats it. The sparrowhawk has no predators, so it is the apex predator.",
+        "svg": "<svg viewBox='0 0 520 240' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='28' r='16' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='84' y='32' font-size='12' fill='currentColor'>light from the Sun</text><line x1='60' y1='46' x2='60' y2='70' stroke='currentColor' stroke-width='2'/><path d='M60 76 L55 66 L65 66 Z' fill='currentColor'/><rect x='10' y='78' width='100' height='40' rx='6' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='28' y='103' font-size='12' fill='currentColor'>oak leaves</text><rect x='135' y='78' width='100' height='40' rx='6' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='150' y='103' font-size='12' fill='currentColor'>caterpillar</text><rect x='260' y='78' width='100' height='40' rx='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='285' y='103' font-size='12' fill='currentColor'>blue tit</text><rect x='385' y='78' width='100' height='40' rx='6' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='395' y='103' font-size='12' fill='currentColor'>sparrowhawk</text><g stroke='currentColor' stroke-width='2'><line x1='110' y1='98' x2='127' y2='98'/><line x1='235' y1='98' x2='252' y2='98'/><line x1='360' y1='98' x2='377' y2='98'/></g><g fill='currentColor'><path d='M134 98 L125 93 L125 103 Z'/><path d='M259 98 L250 93 L250 103 Z'/><path d='M384 98 L375 93 L375 103 Z'/></g><g font-size='12' fill='currentColor'><text x='20' y='140'>Level 1</text><text x='20' y='156'>producer</text><text x='145' y='140'>Level 2</text><text x='145' y='156'>primary consumer</text><text x='145' y='172'>(herbivore)</text><text x='270' y='140'>Level 3</text><text x='270' y='156'>secondary</text><text x='270' y='172'>consumer</text><text x='270' y='188'>(carnivore)</text><text x='395' y='140'>Level 4</text><text x='395' y='156'>tertiary consumer</text><text x='395' y='172'>(carnivore)</text><text x='395' y='188'>apex predator</text><text x='10' y='225'>Arrows: biomass transferred from the organism eaten to the organism that eats it</text></g></svg>"
+      },
+      {
+        "title": "How decomposers feed",
+        "caption": "A fungal hypha growing on a dead leaf secretes enzymes into its surroundings. The enzymes digest large insoluble molecules into small soluble molecules, which diffuse into the hypha.",
+        "svg": "<svg viewBox='0 0 480 240' xmlns='http://www.w3.org/2000/svg'><path d='M20 170 Q120 140 240 160 T460 165 L460 215 L20 215 Z' fill='#86efac' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='150' y='200' font-size='12' fill='currentColor'>dead leaf (large insoluble molecules)</text><rect x='60' y='100' width='360' height='26' rx='13' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='170' y='118' font-size='12' fill='currentColor'>fungal hypha (decomposer)</text><g stroke='currentColor' stroke-width='1.5'><line x1='110' y1='126' x2='110' y2='150'/><line x1='200' y1='126' x2='200' y2='150'/></g><g fill='currentColor'><path d='M110 156 L105 147 L115 147 Z'/><path d='M200 156 L195 147 L205 147 Z'/></g><text x='40' y='86' font-size='12' fill='currentColor'>1. enzymes secreted out of the hypha</text><line x1='100' y1='90' x2='110' y2='128' stroke='currentColor' stroke-dasharray='3 3'/><g fill='#fde68a' fill-opacity='0.5' stroke='currentColor'><circle cx='300' cy='150' r='4'/><circle cx='320' cy='146' r='4'/><circle cx='360' cy='150' r='4'/><circle cx='380' cy='145' r='4'/></g><g stroke='currentColor' stroke-width='1.5'><line x1='320' y1='140' x2='320' y2='132'/><line x1='380' y1='139' x2='380' y2='132'/></g><g fill='currentColor'><path d='M320 127 L315 135 L325 135 Z'/><path d='M380 127 L375 135 L385 135 Z'/></g><text x='250' y='40' font-size='12' fill='currentColor'>2. enzymes digest large molecules</text><text x='250' y='56' font-size='12' fill='currentColor'>into small soluble molecules</text><text x='250' y='72' font-size='12' fill='currentColor'>3. these diffuse into the hypha</text><line x1='340' y1='76' x2='350' y2='100' stroke='currentColor' stroke-dasharray='3 3'/></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think the arrows in a food chain mean 'eats', so they draw them from the predator to the prey.", "right": "In fact the arrows show the direction biomass is transferred, so they point from the organism that is eaten to the organism that eats it (grass → rabbit)." },
+      { "wrong": "Students often think an apex predator is always at trophic level 4.", "right": "In fact an apex predator is any carnivore with no predators. Its numbered level depends on the food chain: it could be level 3, 4, 5 or higher." },
+      { "wrong": "Students often think decomposers eat dead material and digest it inside their bodies like animals do.", "right": "In fact decomposers secrete enzymes into the environment, digest the material outside their cells and then absorb the small soluble molecules by diffusion." },
+      { "wrong": "Students often think every animal belongs to just one trophic level.", "right": "In fact many animals feed at more than one level. A fox eating berries is at level 2, but a fox eating rabbits is at level 3." }
+    ],
+    "realWorld": [
+      "Conservationists protect apex predators such as wolves and sharks because removing them can cause herbivore numbers to rise and damage the producers at level 1.",
+      "Garden compost heaps rely on decomposers (bacteria and fungi) secreting enzymes to break down dead plant material into compost.",
+      "Marine biologists study the trophic level of fish such as tuna so they can understand how changes in plankton affect fish stocks."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic (numbering trophic levels, apex predators and how decomposers feed) is in separate Biology (8461) only. Combined Science students still learn about producers, consumers and food chains in levels of organisation."
+    ],
+    "examTips": [
+      "Always start counting trophic levels at the producer, which is level 1. Do not start at 0.",
+      "When describing decomposers, use three ideas for full marks: secrete enzymes, break down into small soluble molecules, molecules diffuse into the microorganism.",
+      "Name the producer as 'plants and algae' rather than 'plants' only, since aquatic food chains often start with algae.",
+      "If asked to identify an apex predator, look for the carnivore at the end of the chain that nothing eats."
+    ],
+    "summary": [
+      "Trophic levels are numbered from level 1 (producers) at the start of the food chain.",
+      "Producers (plants and algae) make their own food using light energy.",
+      "Herbivores are level 2; carnivores eating herbivores are level 3; carnivores eating carnivores are level 4.",
+      "Apex predators are carnivores with no predators.",
+      "Decomposers (bacteria and fungi) secrete enzymes and absorb the small soluble molecules by diffusion.",
+      "Food chain arrows point in the direction biomass is transferred."
+    ]
+  },
+  "flashcards": [
+    { "front": "What is a trophic level?", "back": "The feeding position of an organism in a food chain, numbered from level 1." },
+    { "front": "Which organisms are at trophic level 1?", "back": "Producers: plants and algae, which make their own food using energy from light." },
+    { "front": "What feeds at trophic level 2?", "back": "Primary consumers: herbivores that eat plants or algae." },
+    { "front": "What feeds at trophic level 3?", "back": "Secondary consumers: carnivores that eat herbivores." },
+    { "front": "What feeds at trophic level 4?", "back": "Tertiary consumers: carnivores that eat other carnivores." },
+    { "front": "Define apex predator.", "back": "A carnivore with no predators." },
+    { "front": "Which types of organism are the main decomposers?", "back": "Bacteria and fungi." },
+    { "front": "How do decomposers break down dead matter?", "back": "They secrete enzymes into the environment, which digest it into small soluble molecules." },
+    { "front": "How do the products of digestion get into a decomposer?", "back": "The small soluble food molecules diffuse into the microorganism." },
+    { "front": "Which way do arrows point in a food chain?", "back": "From the organism eaten to the organism that eats it, showing the direction of biomass transfer." },
+    { "front": "Where does the energy for every food chain come from?", "back": "Light from the Sun, captured by producers in photosynthesis." },
+    { "front": "Can an animal feed at more than one trophic level?", "back": "Yes. For example a fox is at level 2 when eating berries and level 3 when eating rabbits." }
+  ],
+  "questions": [
+    {
+      "id": "b7-trophic-levels-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which organisms are found at trophic level 1?",
+      "options": ["Herbivores", "Producers such as plants and algae", "Decomposers such as fungi", "Apex predators"],
+      "answer": 1,
+      "markScheme": ["1 mark: producers such as plants and algae"],
+      "explanation": "Level 1 is always the producers, which make their own food by photosynthesis. Herbivores are level 2, apex predators are at the top of the chain and decomposers are not given a single trophic level."
+    },
+    {
+      "id": "b7-trophic-levels-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which description best fits a primary consumer?",
+      "options": ["A herbivore that eats plants or algae", "A carnivore that eats herbivores", "An organism that makes its own food", "An organism that breaks down dead material"],
+      "answer": 0,
+      "markScheme": ["1 mark: a herbivore that eats plants or algae"],
+      "explanation": "Primary consumers are at level 2 and eat producers, so they are herbivores. A carnivore eating herbivores is a secondary consumer, a producer makes its own food and a decomposer breaks down dead material."
+    },
+    {
+      "id": "b7-trophic-levels-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by an apex predator?",
+      "options": ["The largest herbivore in a habitat", "Any animal that eats meat", "The organism at trophic level 1", "A carnivore with no predators"],
+      "answer": 3,
+      "markScheme": ["1 mark: a carnivore with no predators"],
+      "explanation": "An apex predator is a carnivore that nothing preys on, so it sits at the top of its food chain. Not every meat-eater is an apex predator, because many carnivores are themselves eaten."
+    },
+    {
+      "id": "b7-trophic-levels-q04",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Where do producers get the energy they need to make their own food?",
+      "options": ["From the soil", "From eating other organisms", "From light from the Sun", "From decomposers"],
+      "answer": 2,
+      "markScheme": ["1 mark: from light (from the Sun)"],
+      "explanation": "Producers use light energy for photosynthesis. Soil supplies water and mineral ions, not energy. Producers do not eat other organisms."
+    },
+    {
+      "id": "b7-trophic-levels-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Algae → mayfly larva → trout → otter\nAt which trophic level is the trout?",
+      "options": ["Level 1", "Level 2", "Level 3", "Level 4"],
+      "answer": 2,
+      "markScheme": ["1 mark: level 3"],
+      "explanation": "Count from the producer: algae are level 1, the mayfly larva level 2 and the trout level 3. A common mistake is to start counting from the herbivore."
+    },
+    {
+      "id": "b7-trophic-levels-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Oak leaves → caterpillar → blue tit → sparrowhawk\nWhich organism is a carnivore that eats other carnivores?",
+      "options": ["Oak", "Caterpillar", "Blue tit", "Sparrowhawk"],
+      "answer": 3,
+      "markScheme": ["1 mark: sparrowhawk"],
+      "explanation": "The sparrowhawk eats blue tits, and blue tits are carnivores because they eat caterpillars. So the sparrowhawk is at level 4. The blue tit is a carnivore that eats a herbivore (level 3)."
+    },
+    {
+      "id": "b7-trophic-levels-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement correctly describes how a decomposer obtains food from a dead leaf?",
+      "options": ["It secretes enzymes onto the leaf, then absorbs the small soluble molecules by diffusion", "It swallows pieces of leaf and digests them in a gut", "It photosynthesises using chlorophyll taken from the leaf", "It absorbs whole starch molecules directly by osmosis"],
+      "answer": 0,
+      "markScheme": ["1 mark: secretes enzymes onto the leaf, then absorbs small soluble molecules by diffusion"],
+      "explanation": "Decomposers digest food outside their cells by secreting enzymes into the environment. Starch molecules are too large to be absorbed, and osmosis refers only to water movement."
+    },
+    {
+      "id": "b7-trophic-levels-q08",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which pair of organisms are the main decomposers?",
+      "options": ["Earthworms and woodlice", "Bacteria and fungi", "Algae and mosses", "Viruses and protists"],
+      "answer": 1,
+      "markScheme": ["1 mark: bacteria and fungi"],
+      "explanation": "The decomposers named in the specification are bacteria and fungi. Earthworms and woodlice feed on dead material but are detritus feeders, algae and mosses are producers, and viruses are not decomposers."
+    },
+    {
+      "id": "b7-trophic-levels-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What do the arrows in a food chain show?",
+      "options": ["The transfer of biomass from the organism eaten to the organism that eats it", "Which organism hunts which", "The direction in which predators move", "The transfer of biomass from the predator to the prey"],
+      "answer": 0,
+      "markScheme": ["1 mark: transfer of biomass from the organism eaten to the organism that eats it"],
+      "explanation": "Arrows point in the direction biomass (and the energy stored in it) moves. In grass → rabbit, biomass moves from the grass into the rabbit. Drawing the arrow from predator to prey is a very common error."
+    },
+    {
+      "id": "b7-trophic-levels-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A person eats a meal of potatoes and beef. Cows eat grass. At which trophic levels is the person feeding?",
+      "options": ["Level 1 only", "Levels 2 and 3", "Level 3 only", "Levels 3 and 4"],
+      "answer": 1,
+      "markScheme": ["1 mark: levels 2 and 3"],
+      "explanation": "Potatoes are a producer (level 1), so eating them makes the person a primary consumer at level 2. Cows are level 2, so eating beef puts the person at level 3. Humans are never level 1 because they do not photosynthesise."
+    },
+    {
+      "id": "b7-trophic-levels-q11",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a secondary consumer?",
+      "options": ["A rabbit eating grass", "A seaweed in a rock pool", "A frog eating insects that feed on leaves", "A mushroom growing on a log"],
+      "answer": 2,
+      "markScheme": ["1 mark: a frog eating insects that feed on leaves"],
+      "explanation": "The insects are herbivores (level 2), so a frog eating them is a carnivore eating herbivores: a secondary consumer at level 3. The rabbit is a primary consumer, seaweed is a producer and the mushroom is a decomposer."
+    },
+    {
+      "id": "b7-trophic-levels-q12",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give the name for an organism that makes its own food using energy from light.",
+      "acceptedAnswers": ["producer", "plant", "alga"],
+      "markScheme": ["1 mark: producer (allow plant or alga)"],
+      "explanation": "Producers make their own food by photosynthesis, so they are always at trophic level 1."
+    },
+    {
+      "id": "b7-trophic-levels-q13",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two types of microorganism that act as decomposers.",
+      "acceptedAnswers": ["bacteria", "fungi"],
+      "markScheme": ["1 mark: bacteria", "1 mark: fungi"],
+      "explanation": "Bacteria and fungi are the main decomposers. Do not name viruses: they are not decomposers."
+    },
+    {
+      "id": "b7-trophic-levels-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why producers are always placed at trophic level 1.",
+      "acceptedAnswers": ["make their own food", "photosynthesis", "do not eat other organisms", "source of biomass for the food chain"],
+      "markScheme": ["1 mark: producers make their own food by photosynthesis / using light energy", "1 mark: so they do not feed on other organisms / they are the source of biomass for all other levels"],
+      "explanation": "Trophic levels describe feeding position. Producers do not feed on anything, because they make glucose by photosynthesis, so all the other organisms in the chain depend on them."
+    },
+    {
+      "id": "b7-trophic-levels-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe how a fungus breaks down a dead leaf and obtains food from it.",
+      "acceptedAnswers": ["secretes enzymes", "into the environment", "small soluble molecules", "diffuse into the fungus"],
+      "markScheme": ["1 mark: the fungus secretes enzymes into the environment / onto the leaf", "1 mark: enzymes break down large (insoluble) molecules into small soluble molecules", "1 mark: the small soluble molecules diffuse into the fungus"],
+      "explanation": "Decomposers digest outside their bodies. The enzymes break the dead material into molecules small enough to be absorbed, which then move in by diffusion."
+    },
+    {
+      "id": "b7-trophic-levels-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a grassland, mice eat seeds. Snakes eat mice. Hawks eat both mice and snakes.\nGive the two trophic levels at which the hawk feeds.",
+      "acceptedAnswers": ["3", "4", "level 3 and level 4"],
+      "markScheme": ["1 mark: level 3 (when eating mice)", "1 mark: level 4 (when eating snakes)"],
+      "explanation": "Seeds are level 1 and mice level 2, so a hawk eating mice is at level 3. Snakes eating mice are level 3, so a hawk eating snakes is at level 4."
+    },
+    {
+      "id": "b7-trophic-levels-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why the biomass of an apex predator depends on light from the Sun, even though the apex predator never eats a plant.",
+      "acceptedAnswers": ["producers use light for photosynthesis", "producers make biomass", "biomass passed along the food chain", "herbivores eat producers", "carnivores eat herbivores"],
+      "markScheme": ["1 mark: producers use light energy for photosynthesis", "1 mark: to make glucose / biomass", "1 mark: biomass is transferred along the food chain to herbivores, then to carnivores, then to the apex predator"],
+      "explanation": "Every food chain begins with a producer. The biomass at each higher level comes from eating organisms at the level below, so it all traces back to biomass made in photosynthesis."
+    },
+    {
+      "id": "b7-trophic-levels-q18",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "State the difference between a herbivore and a carnivore, giving the trophic level of a herbivore.",
+      "acceptedAnswers": ["herbivore eats plants", "carnivore eats animals", "herbivore level 2"],
+      "markScheme": ["1 mark: herbivores eat plants or algae, carnivores eat other animals", "1 mark: herbivores are at trophic level 2"],
+      "explanation": "Herbivores are primary consumers (level 2). Carnivores are at level 3 or above, depending on what they eat."
+    },
+    {
+      "id": "b7-trophic-levels-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student writes: 'Killer whales are apex predators, so they are always at trophic level 4.'\nKiller whales eat herbivorous fish and also eat seals that feed on fish.\nExplain why the student is wrong.",
+      "acceptedAnswers": ["apex predator means no predators", "level depends on what it eats", "level 3 when eating herbivorous fish", "level 4 or higher when eating seals"],
+      "markScheme": ["1 mark: an apex predator is a carnivore with no predators, not a fixed level", "1 mark: eating herbivorous fish puts it at level 3, but eating seals puts it at level 4 or higher"],
+      "explanation": "The numbered level depends on the food chain. Apex predator describes having no predators, not a particular number."
+    },
+    {
+      "id": "b7-trophic-levels-q20",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what an apex predator does not have.",
+      "acceptedAnswers": ["predators", "no predators", "nothing eats it"],
+      "markScheme": ["1 mark: predators (nothing eats it)"],
+      "explanation": "Apex predators are carnivores with no predators of their own."
+    },
+    {
+      "id": "b7-trophic-levels-q21",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A woodland food chain is:\noak leaves → caterpillar → blue tit → sparrowhawk\nFungi and bacteria also live in the woodland soil.\nDescribe the differences between the organisms at each trophic level in this food chain, and explain the role of the fungi and bacteria.",
+      "markScheme": [
+        "Indicative content:",
+        "oak is the producer at trophic level 1",
+        "producers make their own food by photosynthesis using light energy",
+        "caterpillar is a primary consumer / herbivore at level 2, eating plant material",
+        "blue tit is a secondary consumer at level 3, a carnivore that eats herbivores",
+        "sparrowhawk is at level 4, a carnivore that eats other carnivores",
+        "sparrowhawk has no predators so it is the apex predator",
+        "biomass is transferred along the chain in the direction of the arrows",
+        "fungi and bacteria are decomposers",
+        "they break down dead leaves, dead animals and waste",
+        "by secreting enzymes into the environment",
+        "large molecules broken into small soluble molecules that diffuse into the microorganism",
+        "Level 3 (5 to 6 marks): every trophic level correctly described with feeding type, apex predator identified, and a clear account of how decomposers feed.",
+        "Level 2 (3 to 4 marks): most levels correctly identified and some description of decomposers.",
+        "Level 1 (1 to 2 marks): some correct labels such as producer or herbivore, little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers name the level number and the feeding role of each organism, use the term apex predator for the sparrowhawk, and give the full decomposer sequence: secrete enzymes, small soluble molecules, diffusion."
+    },
+    {
+      "id": "b7-trophic-levels-q22",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how decomposers break down dead plant and animal matter. In your answer, name the main groups of decomposers.",
+      "markScheme": [
+        "Indicative content:",
+        "decomposers are bacteria and fungi",
+        "they secrete enzymes into the environment / onto the dead matter",
+        "the enzymes digest large insoluble molecules (such as proteins, starch, cellulose)",
+        "into small soluble food molecules",
+        "these molecules diffuse into the microorganism",
+        "digestion happens outside the decomposer's cells",
+        "Level 2 (3 to 4 marks): names both groups and gives a clear sequence from enzyme secretion to diffusion.",
+        "Level 1 (1 to 2 marks): names a decomposer or mentions enzymes, without a clear sequence.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The key idea is extracellular digestion: decomposers release enzymes and absorb the products, rather than eating the material."
+    },
+    {
+      "id": "b7-trophic-levels-q23",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Phytoplankton → krill → penguin → leopard seal\nName the producer and the apex predator in this food chain.",
+      "acceptedAnswers": ["phytoplankton", "leopard seal"],
+      "markScheme": ["1 mark: producer is phytoplankton", "1 mark: apex predator is the leopard seal"],
+      "explanation": "Phytoplankton are algae, which photosynthesise. The leopard seal is at the end of the chain and nothing in this chain eats it."
+    },
+    {
+      "id": "b7-trophic-levels-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In the food chain grass → rabbit → fox, explain why the arrow points from the rabbit to the fox.",
+      "acceptedAnswers": ["biomass transferred", "from rabbit to fox", "fox eats the rabbit", "direction of energy transfer"],
+      "markScheme": ["1 mark: the fox eats the rabbit", "1 mark: the arrow shows biomass / energy being transferred from the rabbit to the fox"],
+      "explanation": "Arrows show the direction of transfer of biomass, from the organism eaten into the organism that eats it."
+    },
+    {
+      "id": "b7-trophic-levels-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a pond, mosquito larvae eat algae. Dragonfly nymphs eat mosquito larvae. Herons eat dragonfly nymphs, and also eat fish that feed on dragonfly nymphs.\nAt which trophic levels does the heron feed?",
+      "options": ["Level 3 only", "Levels 3 and 4", "Levels 4 and 5", "Level 4 only"],
+      "answer": 2,
+      "markScheme": ["1 mark: levels 4 and 5"],
+      "explanation": "Algae (1) → mosquito larva (2) → dragonfly nymph (3) → heron (4). Also algae (1) → larva (2) → nymph (3) → fish (4) → heron (5). So the heron feeds at levels 4 and 5."
+    },
+    {
+      "id": "b7-trophic-levels-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A gardener puts whole dead leaves in one compost bin and shredded dead leaves in another. The shredded leaves break down faster.\nUse your knowledge of how decomposers feed to explain why.",
+      "acceptedAnswers": ["larger surface area", "more contact with enzymes", "enzymes secreted onto leaves", "faster digestion", "more soluble molecules diffuse in"],
+      "markScheme": ["1 mark: shredded leaves have a larger surface area", "1 mark: so more enzymes secreted by decomposers can act on the leaf at once", "1 mark: so small soluble molecules are produced and absorbed (by diffusion) faster"],
+      "explanation": "Decomposers digest outside their cells, so the rate depends on how much of the material is in contact with the secreted enzymes. More surface area means faster digestion."
+    },
+    {
+      "id": "b7-trophic-levels-q27",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the type of organism found at trophic level 2.",
+      "acceptedAnswers": ["herbivore", "primary consumer"],
+      "markScheme": ["1 mark: herbivore / primary consumer"],
+      "explanation": "Level 2 organisms eat the producers at level 1, so they are herbivores."
+    },
+    {
+      "id": "b7-trophic-levels-q28",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these organisms would be found at trophic level 1 in a seashore food chain?",
+      "options": ["Limpet", "Crab", "Seagull", "Seaweed"],
+      "answer": 3,
+      "markScheme": ["1 mark: seaweed"],
+      "explanation": "Seaweeds are algae, so they photosynthesise and are producers. Limpets graze on algae (level 2), and crabs and seagulls are carnivores."
+    }
+  ]
+}

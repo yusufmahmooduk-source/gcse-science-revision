@@ -1,0 +1,334 @@
+{
+  "id": "bio-rp2",
+  "science": "biology",
+  "number": 2,
+  "title": "Microbiology: effect of antiseptics or antibiotics on bacterial growth",
+  "combined": false,
+  "topicId": "b1",
+  "subtopic": "culturing-microorganisms",
+  "aim": "To investigate the effect of different antiseptics on the growth of bacteria by measuring the area of the clear zone (zone of inhibition) around paper discs on an agar plate.",
+  "background": [
+    "Bacteria can be grown (cultured) on a nutrient agar plate in a Petri dish. If a liquid culture of bacteria is spread evenly over the agar, the bacteria grow and divide to form a 'lawn' that covers the surface. Bacteria reproduce by binary fission and, in good conditions, can divide as often as once every 20 minutes.",
+    "Antiseptics and antibiotics kill bacteria or stop them growing. If a paper disc soaked in an antiseptic is placed on a lawn of bacteria, the antiseptic diffuses out into the agar. Where it is concentrated enough, bacteria cannot grow, so a clear zone called the zone of inhibition forms around the disc. The bigger the clear zone, the more effective the antiseptic is against that bacterium.",
+    "Uncontaminated cultures are needed so that only the bacterium being tested grows. This is achieved by aseptic technique: sterilising equipment and agar, working near a Bunsen burner flame, and opening the lid as little as possible. In school laboratories cultures are incubated at a maximum of 25 °C, because higher temperatures, closer to human body temperature (37 °C), increase the chance of growing pathogens that could harm people."
+  ],
+  "hypothesis": "Different antiseptics will produce clear zones of different areas, and the antiseptic that produces the largest zone of inhibition will be the most effective at killing or stopping the growth of the bacteria. The water control disc will produce no clear zone.",
+  "variables": {
+    "independent": "Type of antiseptic soaked into the paper disc (antiseptic A, B, C, and sterile water as a control).",
+    "dependent": "Area of the clear zone of inhibition around each disc (mm²), calculated from its diameter.",
+    "control": [
+      "Same species and volume of bacterial culture spread on each plate",
+      "Same volume and type of nutrient agar in each Petri dish",
+      "Same size of paper disc, soaked in antiseptic for the same length of time",
+      "Same concentration of each antiseptic",
+      "Same incubation temperature (25 °C) and time (48 hours)"
+    ]
+  },
+  "equipment": [
+    "Sterile Petri dish containing set nutrient agar",
+    "Liquid culture of a non-pathogenic bacterium (for example Micrococcus luteus or E. coli K12)",
+    "Sterile pipette and sterile plastic spreader",
+    "Sterile filter paper discs (about 6 mm diameter)",
+    "Three different antiseptics (for example mouthwash, antiseptic liquid and hand wash) and sterile water",
+    "Sterile forceps",
+    "Bunsen burner and heatproof mat",
+    "Clear adhesive tape",
+    "Marker pen",
+    "Incubator set to 25 °C",
+    "Ruler marked in mm",
+    "Disinfectant for wiping the bench, and a container for used equipment to be autoclaved"
+  ],
+  "method": [
+    "Wash your hands and wipe the bench with disinfectant. Light a Bunsen burner and work close to the flame, which produces an upward air current that carries airborne microorganisms away from the plate.",
+    "Use a marker pen to label the underside (base) of an agar plate with your name, date and the bacterium. Divide the base into four sections and label them A, B, C and W (water).",
+    "Lift the lid of the Petri dish only slightly. Use a sterile pipette to add a few drops of the bacterial culture onto the agar, then close the lid.",
+    "Lift the lid slightly again and use a sterile spreader to spread the culture evenly over the whole surface of the agar, so a uniform lawn will grow. Close the lid and put used equipment into disinfectant.",
+    "Using sterile forceps, dip a paper disc into antiseptic A so it is fully soaked, then drain off the excess on the side of the container.",
+    "Lift the lid slightly and place the disc on the agar in the centre of section A. Close the lid. Flame or re-sterilise the forceps.",
+    "Repeat for antiseptics B and C, placing each disc in its labelled section, and place a disc soaked in sterile water in section W as a control.",
+    "Secure the lid with two short strips of adhesive tape. Do not seal the lid all the way round, so that oxygen can enter and anaerobic bacteria (which include some harmful pathogens) are not encouraged to grow.",
+    "Incubate the plate upside down at 25 °C for 48 hours, so drops of condensation do not fall onto the agar.",
+    "Without opening the dish, measure the diameter of the clear zone around each disc with a ruler through the base. Measure twice at right angles and take the mean.",
+    "Calculate the radius of each clear zone (diameter ÷ 2) and then its area using area = πr².",
+    "Repeat the investigation with two more plates and calculate the mean area for each antiseptic. Return all plates to the teacher for sterilisation by autoclaving before disposal."
+  ],
+  "safety": [
+    {
+      "hazard": "Bacterial cultures",
+      "risk": "Contamination could allow pathogenic bacteria to grow, which could cause infection if spread to people.",
+      "precaution": "Use aseptic technique, incubate at no more than 25 °C, tape the lid, never open the plate after incubation, wash hands and disinfect the bench, and autoclave all used plates before disposal."
+    },
+    {
+      "hazard": "Bunsen burner flame",
+      "risk": "Burns, or setting fire to hair, paper or flammable antiseptics such as alcohol hand gel.",
+      "precaution": "Tie hair back, use a heatproof mat, keep flammable liquids away from the flame and turn the burner to the safety flame when not in use."
+    },
+    {
+      "hazard": "Antiseptic solutions",
+      "risk": "Some antiseptics irritate the skin and eyes.",
+      "precaution": "Wear eye protection, handle discs with forceps rather than fingers, and wash off any splashes with plenty of water."
+    }
+  ],
+  "results": {
+    "headers": [
+      "Disc",
+      "Diameter of clear zone, plate 1 (mm)",
+      "Diameter of clear zone, plate 2 (mm)",
+      "Diameter of clear zone, plate 3 (mm)",
+      "Mean diameter (mm)",
+      "Mean radius (mm)",
+      "Area of clear zone (mm²)"
+    ],
+    "rows": [
+      ["Antiseptic A", "13", "15", "14", "14", "7", "154"],
+      ["Antiseptic B", "22", "21", "23", "22", "11", "380"],
+      ["Antiseptic C", "18", "19", "17", "18", "9", "254"],
+      ["Sterile water (control)", "0", "0", "0", "0", "0", "0"]
+    ],
+    "notes": "A diameter of 0 means there was no clear zone: bacteria grew right up to the edge of the disc. Area = πr², using the mean radius, given to 3 significant figures. For example, for antiseptic B: π × 11² = 380 mm². Plot the results as a bar chart (antiseptic type is a categoric variable) with area of clear zone on the y-axis."
+  },
+  "analysis": [
+    "Antiseptic B produced the largest mean clear zone (380 mm²), followed by C (254 mm²) and A (154 mm²). So antiseptic B was the most effective at stopping the growth of this bacterium, and A was the least effective.",
+    "The water control produced no clear zone. This shows that the clear zones were caused by the antiseptics and not by the paper disc itself or by handling.",
+    "The three repeat diameters for each antiseptic were close together (within 2 mm), so the results are repeatable. A difference in area between B and A of more than double is much larger than the spread of the repeats, so the difference is likely to be real.",
+    "Area increases with the square of the radius, so a small increase in diameter gives a large increase in area. Always use the radius (half the diameter) in πr².",
+    "The results only apply to this bacterium, at this temperature and concentration. A different species may respond differently, and the effect on a living wound or skin could also differ."
+  ],
+  "errors": [
+    {
+      "error": "Clear zones are not perfect circles, so a single diameter measurement may not represent the zone.",
+      "improvement": "Measure the diameter at right angles in two directions and use the mean, or use a grid or image software to measure the area directly."
+    },
+    {
+      "error": "Discs may absorb different volumes of antiseptic, so different amounts diffuse into the agar.",
+      "improvement": "Use discs of identical size, soak each for the same time and drain off the excess in the same way, or add a measured volume with a micropipette."
+    },
+    {
+      "error": "Contamination by other microorganisms from the air or equipment can produce unexpected colonies and affect the lawn.",
+      "improvement": "Use strict aseptic technique: sterile equipment, work near a Bunsen flame, lift the lid only slightly and for as short a time as possible."
+    },
+    {
+      "error": "The bacterial lawn may be uneven, so bacteria are denser in some areas than others.",
+      "improvement": "Spread the culture carefully over the whole agar surface with a sterile spreader, and repeat with three plates to calculate a mean."
+    }
+  ],
+  "diagram": {
+    "title": "Agar plate with antiseptic discs after incubation",
+    "caption": "Top view of a Petri dish after 48 hours at 25 °C. Bacteria have grown as a lawn over the agar except in the clear zones around discs soaked in antiseptic. The water control disc has no clear zone. Area of each clear zone = πr².",
+    "svg": "<svg viewBox=\"0 0 510 260\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"130\" r=\"115\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"130\" r=\"108\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"150\" y1=\"22\" x2=\"150\" y2=\"238\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><line x1=\"42\" y1=\"130\" x2=\"258\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><circle cx=\"105\" cy=\"85\" r=\"17\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><circle cx=\"195\" cy=\"85\" r=\"27\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><circle cx=\"105\" cy=\"175\" r=\"22\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"><circle cx=\"105\" cy=\"85\" r=\"7\"/><circle cx=\"195\" cy=\"85\" r=\"7\"/><circle cx=\"105\" cy=\"175\" r=\"7\"/><circle cx=\"195\" cy=\"175\" r=\"7\"/></g><g font-size=\"10\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"105\" y=\"88\">A</text><text x=\"195\" y=\"88\">B</text><text x=\"105\" y=\"178\">C</text><text x=\"195\" y=\"178\">W</text></g><line x1=\"168\" y1=\"118\" x2=\"222\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"168\" y1=\"114\" x2=\"168\" y2=\"122\" stroke=\"currentColor\"/><line x1=\"222\" y1=\"114\" x2=\"222\" y2=\"122\" stroke=\"currentColor\"/><rect x=\"28\" y=\"122\" width=\"14\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"258\" y=\"122\" width=\"14\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"240\" y1=\"60\" x2=\"290\" y2=\"30\"/><line x1=\"222\" y1=\"92\" x2=\"290\" y2=\"70\"/><line x1=\"202\" y1=\"118\" x2=\"290\" y2=\"108\"/><line x1=\"112\" y1=\"175\" x2=\"290\" y2=\"150\"/><line x1=\"202\" y1=\"175\" x2=\"290\" y2=\"190\"/><line x1=\"272\" y1=\"132\" x2=\"290\" y2=\"230\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"294\" y=\"28\">Agar with lawn of bacteria</text><text x=\"294\" y=\"68\">Clear zone (zone of inhibition)</text><text x=\"294\" y=\"106\">Measure diameter; r = d ÷ 2</text><text x=\"294\" y=\"148\">Paper disc soaked in antiseptic</text><text x=\"294\" y=\"188\">Control disc (sterile water):</text><text x=\"294\" y=\"202\">no clear zone</text><text x=\"294\" y=\"228\">Tape: two strips only,</text><text x=\"294\" y=\"242\">lid not fully sealed</text></g></svg>"
+  },
+  "examTips": [
+    "Learn the reasons for each aseptic step: sterilise equipment and agar to kill unwanted microorganisms; tape the lid with two strips to stop microorganisms getting in while letting oxygen in; incubate upside down so condensation does not drip on the agar.",
+    "Remember why school incubation is at 25 °C maximum: it reduces the chance of growing pathogens that thrive at human body temperature (37 °C).",
+    "Area of a clear zone = πr². Halve the diameter first. Squaring the diameter by mistake gives an answer four times too big.",
+    "A bigger clear zone means a more effective antiseptic or antibiotic against that bacterium.",
+    "Always mention the control disc (sterile water) and what it shows: that any clear zone is caused by the antiseptic, not the disc."
+  ],
+  "questions": [
+    {
+      "id": "bio-rp2-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why are cultures in school laboratories incubated at a maximum temperature of 25 °C?",
+      "options": [
+        "Bacteria cannot grow at temperatures above 25 °C",
+        "To reduce the chance of growing pathogens that could harm humans",
+        "Antiseptics stop working at temperatures above 25 °C",
+        "To make the bacteria grow as fast as possible"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: to reduce the likelihood of growing pathogens (harmful to humans)"],
+      "explanation": "Many human pathogens grow best near body temperature (37 °C). Keeping cultures at 25 °C or below makes it less likely that harmful bacteria will grow. Bacteria can grow above 25 °C, and many grow faster at higher temperatures, which is why industrial labs use higher temperatures."
+    },
+    {
+      "id": "bio-rp2-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is the lid of the Petri dish secured with two strips of tape rather than being sealed all the way round?",
+      "options": [
+        "So the lid can be removed easily to measure the clear zones",
+        "So the antiseptic can evaporate",
+        "So oxygen can get in, which prevents harmful anaerobic bacteria growing",
+        "So condensation can escape from the dish"
+      ],
+      "answer": 2,
+      "markScheme": ["1 mark: allows oxygen in so that anaerobic bacteria (which include harmful pathogens) do not grow"],
+      "explanation": "Sealing the dish completely would create anaerobic conditions inside, which favour some dangerous pathogens. The tape stops the lid coming off and stops microorganisms from the air getting in. Plates must never be opened after incubation, so clear zones are measured through the base."
+    },
+    {
+      "id": "bio-rp2-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why is the agar plate incubated upside down?",
+      "options": [
+        "So that drops of condensation do not fall onto the agar surface",
+        "So that light cannot reach the bacteria",
+        "So that the bacteria grow towards the lid",
+        "So that the antiseptic diffuses faster"
+      ],
+      "answer": 0,
+      "markScheme": ["1 mark: stops condensation dripping onto the agar (and disrupting the colonies)"],
+      "explanation": "Water vapour condenses on the lid. If the dish were the right way up, the drops would fall onto the agar and could spread bacteria across the surface, ruining the lawn and the clear zones."
+    },
+    {
+      "id": "bio-rp2-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The clear zone around a disc has a diameter of 16 mm.\nCalculate the area of the clear zone. Use π = 3.14.\nGive your answer to 3 significant figures.",
+      "numericAnswer": 201,
+      "tolerance": 0.01,
+      "unit": "mm²",
+      "markScheme": ["1 mark: radius = 16 ÷ 2 = 8 mm", "1 mark: area = 3.14 × 8² = 201 mm²"],
+      "explanation": "First halve the diameter to get the radius (8 mm), then use area = πr² = 3.14 × 64 = 200.96, which is 201 mm² to 3 significant figures. Using the diameter instead of the radius gives 804 mm², four times too big."
+    },
+    {
+      "id": "bio-rp2-q05",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The area of a clear zone is 314 mm².\nCalculate the diameter of the clear zone. Use π = 3.14.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "mm",
+      "markScheme": ["1 mark: r² = 314 ÷ 3.14 = 100", "1 mark: r = √100 = 10 mm", "1 mark: diameter = 2 × 10 = 20 mm"],
+      "explanation": "Rearrange area = πr² to r = √(area ÷ π). 314 ÷ 3.14 = 100, and √100 = 10 mm. The question asks for the diameter, so double the radius: 20 mm."
+    },
+    {
+      "id": "bio-rp2-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A disc soaked in sterile water was also placed on the agar plate. Explain why.",
+      "acceptedAnswers": ["control", "shows the disc alone does not stop growth", "clear zone caused by antiseptic", "for comparison"],
+      "markScheme": ["1 mark: it is a control", "1 mark: to show that any clear zone is caused by the antiseptic and not by the paper disc (or handling)"],
+      "explanation": "If the water disc has no clear zone, then the clear zones around the other discs must be due to the antiseptics. Without a control you could not be sure the disc itself was not affecting growth."
+    },
+    {
+      "id": "bio-rp2-q07",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the Petri dish and nutrient agar must be sterilised before use.",
+      "acceptedAnswers": ["kill microorganisms", "kill bacteria already present", "prevent contamination", "only the bacterium being tested grows"],
+      "markScheme": ["1 mark: to kill any (unwanted) microorganisms present", "1 mark: so the culture is not contaminated and only the bacterium being investigated grows"],
+      "explanation": "Agar and dishes could contain other bacteria or fungal spores. Contaminants would compete with the test bacterium and could even be pathogens. Autoclaving uses steam under pressure to kill them."
+    },
+    {
+      "id": "bio-rp2-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The mean areas of the clear zones were: antiseptic A 154 mm², antiseptic B 380 mm², antiseptic C 254 mm², water 0 mm².\nWhich antiseptic was most effective against the bacterium?",
+      "options": ["Antiseptic A", "Antiseptic C", "Water", "Antiseptic B"],
+      "answer": 3,
+      "markScheme": ["1 mark: antiseptic B"],
+      "explanation": "The larger the clear zone, the more bacteria were killed or prevented from growing, so B (380 mm²) was most effective. Water is the control and had no effect."
+    },
+    {
+      "id": "bio-rp2-q09",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A bacterium divides once every 20 minutes.\nStarting with one bacterium, calculate how many bacteria there would be after 4 hours, assuming none die.",
+      "numericAnswer": 4096,
+      "tolerance": 0,
+      "unit": "bacteria",
+      "markScheme": ["1 mark: number of divisions = (4 × 60) ÷ 20 = 12", "1 mark: 2¹² = 4096"],
+      "explanation": "In 4 hours (240 minutes) there are 240 ÷ 20 = 12 divisions. The population doubles each time, so the number is 2¹² = 4096. Multiplying 12 by 2 (giving 24) is a common error: growth is doubling, not adding."
+    },
+    {
+      "id": "bio-rp2-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why should a student work close to a lit Bunsen burner when spreading bacteria onto the agar?",
+      "options": [
+        "The heat helps the bacteria to grow",
+        "The flame sterilises the agar",
+        "The flame creates an upward air current that carries airborne microorganisms away from the plate",
+        "The light from the flame helps the student see the bacteria"
+      ],
+      "answer": 2,
+      "markScheme": ["1 mark: upward convection current carries microorganisms in the air away (so they do not fall onto the agar)"],
+      "explanation": "Hot air rising from the flame draws air upwards, so airborne bacteria and spores are less likely to settle on the open plate. The flame does not sterilise the agar, which is not heated."
+    },
+    {
+      "id": "bio-rp2-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why all the paper discs must be the same size and soaked in antiseptic for the same length of time.",
+      "acceptedAnswers": ["same volume of antiseptic", "control variable", "fair test", "amount of antiseptic affects size of clear zone"],
+      "markScheme": ["1 mark: so each disc holds the same volume (amount) of antiseptic", "1 mark: because the amount of antiseptic affects the size of the clear zone, so only the type of antiseptic changes (fair test)"],
+      "explanation": "A larger disc, or one soaked for longer, would release more antiseptic into the agar and produce a bigger clear zone even if the antiseptic was no more effective."
+    },
+    {
+      "id": "bio-rp2-q12",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The clear zones were not perfect circles. Suggest how the student could obtain a more accurate value for the area of each zone.",
+      "acceptedAnswers": ["measure diameter in two directions at right angles", "mean diameter", "count squares on graph paper", "image analysis software"],
+      "markScheme": ["1 mark: measure the diameter at right angles (in two or more directions)", "1 mark: calculate the mean diameter and use half of it as r in πr² (or place the dish over graph paper and count squares)"],
+      "explanation": "One measurement of an irregular zone may be too large or too small. Averaging several diameters, or counting squares on a grid, gives a better estimate of the true area."
+    },
+    {
+      "id": "bio-rp2-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how the inoculating loop or forceps are sterilised before use, and give the reason.",
+      "acceptedAnswers": ["pass through a Bunsen flame", "heat until red hot", "kill microorganisms", "prevent contamination"],
+      "markScheme": ["1 mark: pass through a hot Bunsen flame (until red hot) and allow to cool", "1 mark: to kill any microorganisms on it (so the culture is not contaminated)"],
+      "explanation": "Heating to red hot kills microorganisms. The loop must cool before use, otherwise it would kill the bacteria being transferred."
+    },
+    {
+      "id": "bio-rp2-q14",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to compare how effective three different antiseptics are at killing bacteria. Your method should produce valid results and use aseptic technique.",
+      "markScheme": [
+        "Indicative content: sterilise Petri dishes and agar (autoclave); disinfect bench, work near a Bunsen flame; label base of dish; lift lid slightly; add bacterial culture with sterile pipette and spread evenly with sterile spreader; soak same-sized paper discs in each antiseptic for same time, using sterile forceps; include a disc soaked in sterile water as a control; place discs evenly spaced on agar; tape lid with two strips (not sealed); incubate upside down at 25 °C for about 48 hours; measure diameter of clear zone; calculate area = πr²; repeat and calculate mean; control variables: same bacterium, same volume of culture, same agar, same concentration of antiseptic, same temperature and time",
+        "Level 3 (5 to 6 marks): a coherent, logically ordered method that would give valid results, including aseptic steps, a control disc, measurement of the clear zone and calculation of area, and at least two control variables.",
+        "Level 2 (3 to 4 marks): a method with most of the main steps; some aseptic technique or measurement detail is missing.",
+        "Level 1 (1 to 2 marks): simple, relevant statements such as placing discs of antiseptic on agar and looking at clear zones, with little detail.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "High-scoring answers combine a valid comparison (same disc size, same bacterium, control disc) with safe aseptic technique and a clear way of measuring the outcome (diameter, then area using πr²)."
+    },
+    {
+      "id": "bio-rp2-q15",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student concluded from the results that 'antiseptic B is the best antiseptic to use for cleaning a wound'.\nEvaluate this conclusion.",
+      "markScheme": [
+        "Indicative content: supporting: B gave the largest mean clear zone (380 mm²) so it was most effective against this bacterium in this test; repeats were close so results are repeatable; water control showed no effect. Against: only one species of bacterium tested, others may respond differently; tested on agar at 25 °C, not on human tissue at 37 °C; B may irritate or damage skin cells; concentration used may differ from that used on a wound; only three plates; antiseptic may diffuse at different rates so clear zone size may depend on diffusion as well as effectiveness",
+        "Level 2 (3 to 4 marks): a balanced evaluation that uses the data to support part of the conclusion and gives clear limitations, reaching a judgement (for example: B was most effective in this test, but more evidence is needed before saying it is best for wounds).",
+        "Level 1 (1 to 2 marks): a one-sided answer, either simply agreeing that B had the biggest zone or giving a single limitation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "'Evaluate' needs points for and against plus a judgement. The data support B being most effective against this bacterium on agar, but the conclusion goes beyond the evidence because wounds involve different bacteria, temperatures and living tissue."
+    }
+  ]
+}
