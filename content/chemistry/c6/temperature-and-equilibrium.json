@@ -1,0 +1,691 @@
+{
+  "id": "c6-temperature-and-equilibrium",
+  "science": "chemistry",
+  "topicId": "c6",
+  "slug": "temperature-and-equilibrium",
+  "specRef": "4.6.2.6",
+  "title": "The effect of temperature changes on equilibrium",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "If the temperature of a system at equilibrium is increased, the relative amount of products increases for an endothermic forward reaction and decreases for an exothermic forward reaction. If the temperature is decreased, the opposite happens.",
+    "explanation": [
+      "Every reversible reaction is exothermic in one direction and endothermic in the other, with the same amount of energy transferred each way. Changing the temperature of a system at equilibrium affects these two directions differently, so the position of equilibrium shifts and the relative amounts of reactants and products change.",
+      "Using Le Chatelier's principle, if the temperature is increased, the system responds to counteract the change by trying to lower the temperature. It does this by favouring the endothermic direction, which takes in energy. If the temperature is decreased, the system responds by trying to raise the temperature, so it favours the exothermic direction, which releases energy.",
+      "This gives four rules you must apply carefully. If the forward reaction is endothermic: increasing the temperature increases the relative amount of products, and decreasing the temperature decreases it. If the forward reaction is exothermic: increasing the temperature decreases the relative amount of products, and decreasing the temperature increases it. Always start by deciding which direction is endothermic.",
+      "A good demonstration uses sealed tubes of nitrogen dioxide gas: 2NO₂(g) ⇌ N₂O₄(g). Nitrogen dioxide is brown and dinitrogen tetroxide is colourless, and the forward reaction is exothermic. In hot water the gas becomes darker brown, because the endothermic reverse reaction is favoured and more NO₂ forms. In ice water the gas becomes paler, because the exothermic forward reaction is favoured and more N₂O₄ forms.",
+      "You may be given data showing how the yield of a reaction changes with temperature and asked to interpret it. If the yield falls as the temperature rises, the forward reaction must be exothermic; if the yield rises as the temperature rises, the forward reaction must be endothermic. For example, in the Haber process (N₂ + 3H₂ ⇌ 2NH₃, forward exothermic) the yield of ammonia is higher at lower temperatures, but a very low temperature would make the reaction too slow, so a compromise temperature is used."
+    ],
+    "keyFacts": [
+      "Increasing the temperature shifts the equilibrium in the endothermic direction.",
+      "Decreasing the temperature shifts the equilibrium in the exothermic direction.",
+      "Endothermic forward reaction: higher temperature gives more products.",
+      "Exothermic forward reaction: higher temperature gives fewer products.",
+      "Exothermic forward reaction: lower temperature gives more products.",
+      "Endothermic forward reaction: lower temperature gives fewer products.",
+      "2NO₂ (brown) ⇌ N₂O₄ (colourless) is exothermic forwards: hot gas is darker, cold gas is paler.",
+      "If yield falls as temperature rises, the forward reaction is exothermic.",
+      "In the Haber process, lower temperature gives a higher yield of ammonia but a slower rate.",
+      "Temperature is the only condition that changes the position of equilibrium by favouring the endothermic or exothermic direction."
+    ],
+    "keyTerms": [
+      {
+        "term": "Exothermic direction",
+        "definition": "The direction of a reversible reaction that transfers energy to the surroundings; it is favoured by decreasing the temperature."
+      },
+      {
+        "term": "Endothermic direction",
+        "definition": "The direction of a reversible reaction that takes in energy from the surroundings; it is favoured by increasing the temperature."
+      },
+      {
+        "term": "Le Chatelier's principle",
+        "definition": "If a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change."
+      },
+      {
+        "term": "Relative amount of products",
+        "definition": "The proportion of the equilibrium mixture that is product, which changes when the position of equilibrium shifts."
+      },
+      {
+        "term": "Yield",
+        "definition": "The amount of product at equilibrium, often given as a percentage of the maximum possible."
+      },
+      {
+        "term": "Compromise temperature",
+        "definition": "A temperature chosen to give a reasonable yield at a reasonable rate when the best temperature for yield would make the reaction too slow."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Predicting the effect of temperature",
+        "question": "Dinitrogen tetroxide decomposes: N₂O₄(g) ⇌ 2NO₂(g). The forward reaction is endothermic. Predict the effect of increasing the temperature on the amount of NO₂.",
+        "steps": [
+          "Increasing the temperature favours the endothermic direction.",
+          "The forward reaction is endothermic, so the position shifts right.",
+          "More NO₂ forms, so the gas becomes darker brown."
+        ],
+        "answer": "The amount of NO₂ increases."
+      },
+      {
+        "title": "Deducing the energy change from data",
+        "question": "The yield of methanol (CO + 2H₂ ⇌ CH₃OH) at 50 atm is 80% at 200 °C, 55% at 250 °C, 25% at 300 °C and 8% at 350 °C. Is the forward reaction exothermic or endothermic?",
+        "steps": [
+          "As the temperature increases, the yield of methanol decreases.",
+          "Increasing the temperature favours the endothermic direction, and here that is the reverse direction (less product).",
+          "So the reverse reaction is endothermic and the forward reaction is exothermic."
+        ],
+        "answer": "Exothermic forward reaction."
+      },
+      {
+        "title": "Using yield data",
+        "question": "At 200 atm the yield of ammonia is 53% at 350 °C and 13% at 550 °C. The maximum possible mass of ammonia from a batch is 340 kg. Calculate the mass of ammonia at equilibrium at each temperature.",
+        "steps": [
+          "At 350 °C: 53 ÷ 100 × 340 = 180.2 kg.",
+          "At 550 °C: 13 ÷ 100 × 340 = 44.2 kg.",
+          "Difference = 180.2 − 44.2 = 136 kg, showing the large effect of temperature on an exothermic reaction."
+        ],
+        "answer": "180.2 kg at 350 °C; 44.2 kg at 550 °C."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Yield against temperature",
+        "caption": "For an exothermic forward reaction, the yield of product falls as temperature rises. For an endothermic forward reaction, the yield rises as temperature rises.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"te1\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#te1)\"/><line x1=\"60\" y1=\"220\" x2=\"440\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#te1)\"/><text x=\"35\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 35 120)\">Yield of product at equilibrium</text><text x=\"250\" y=\"245\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Temperature</text><path d=\"M70 50 C150 70 250 150 420 195\" fill=\"none\" stroke=\"#93c5fd\" stroke-width=\"3\"/><path d=\"M70 195 C150 180 250 110 420 55\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"3\" stroke-dasharray=\"7 4\"/><text x=\"75\" y=\"32\" font-size=\"12\" fill=\"currentColor\">Exothermic forward reaction:</text><text x=\"75\" y=\"46\" font-size=\"12\" fill=\"currentColor\">yield falls</text><text x=\"430\" y=\"80\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Endothermic forward</text><text x=\"430\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">reaction: yield rises</text></svg>"
+      },
+      {
+        "title": "Nitrogen dioxide at different temperatures",
+        "caption": "Sealed tubes of NO₂ and N₂O₄. In hot water the endothermic reverse reaction is favoured, giving more brown NO₂. In ice water the exothermic forward reaction is favoured, giving more colourless N₂O₄.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 50 L62 150 A18 18 0 0 0 98 150 L98 50\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"59\" y=\"40\" width=\"42\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"80\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">ice water</text><text x=\"80\" y=\"207\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pale: more N₂O₄</text><path d=\"M212 50 L212 150 A18 18 0 0 0 248 150 L248 50\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"209\" y=\"40\" width=\"42\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"230\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">room temp.</text><text x=\"230\" y=\"207\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">brown</text><path d=\"M362 50 L362 150 A18 18 0 0 0 398 150 L398 50\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"359\" y=\"40\" width=\"42\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"380\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">hot water</text><text x=\"380\" y=\"207\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dark brown: more NO₂</text><text x=\"230\" y=\"25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2NO₂ (brown) ⇌ N₂O₄ (colourless)    forward exothermic</text><text x=\"230\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Higher temperature favours the endothermic (reverse) reaction</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think increasing the temperature always increases the yield.",
+        "right": "In fact it increases the yield only if the forward reaction is endothermic. For an exothermic forward reaction, the yield falls."
+      },
+      {
+        "wrong": "Students often think increasing temperature shifts the equilibrium to the right because reactions go faster.",
+        "right": "In fact a higher temperature speeds up both the forward and reverse reactions; the position shifts in the endothermic direction."
+      },
+      {
+        "wrong": "Students often think that lowering the temperature favours the endothermic direction because endothermic reactions 'feel cold'.",
+        "right": "In fact lowering the temperature favours the exothermic direction, which releases energy and counteracts the fall in temperature."
+      },
+      {
+        "wrong": "Students often think the best temperature for yield is always used in industry.",
+        "right": "In fact for an exothermic reaction a low temperature gives a high yield but a slow rate, so a compromise temperature is chosen."
+      }
+    ],
+    "realWorld": [
+      "In the Haber process the forward reaction is exothermic, so a lower temperature gives more ammonia, but about 450 °C is used so that the rate is fast enough.",
+      "In the Contact process, 2SO₂ + O₂ ⇌ 2SO₃ is exothermic, so a moderate temperature of about 450 °C is chosen to balance yield and rate.",
+      "Making hydrogen from methane and steam (CH₄ + H₂O ⇌ CO + 3H₂) is endothermic, so it is carried out at a high temperature to give a high yield."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "All of this subtopic is Higher tier only: predicting and explaining the effect of temperature changes on a system at equilibrium, and interpreting data."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "First write down which direction is exothermic and which is endothermic, then apply the rule: higher temperature favours endothermic.",
+      "Say 'the relative amount of products increases or decreases', or 'the yield increases or decreases', and give the direction of shift.",
+      "In data questions, describe the trend with figures (for example 'falls from 53% to 13%') before explaining it.",
+      "Do not confuse rate and yield: temperature affects both, but in different ways."
+    ],
+    "summary": [
+      "Higher temperature favours the endothermic direction.",
+      "Lower temperature favours the exothermic direction.",
+      "Endothermic forward: more products at higher temperature.",
+      "Exothermic forward: fewer products at higher temperature.",
+      "Yield data tell you whether the forward reaction is exothermic or endothermic.",
+      "Industrial processes may use a compromise temperature to balance yield and rate."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Which direction is favoured when the temperature is increased?",
+      "back": "The endothermic direction."
+    },
+    {
+      "front": "Which direction is favoured when the temperature is decreased?",
+      "back": "The exothermic direction."
+    },
+    {
+      "front": "Endothermic forward reaction: effect of increasing temperature on products?",
+      "back": "The relative amount of products increases."
+    },
+    {
+      "front": "Exothermic forward reaction: effect of increasing temperature on products?",
+      "back": "The relative amount of products decreases."
+    },
+    {
+      "front": "Exothermic forward reaction: effect of decreasing temperature on products?",
+      "back": "The relative amount of products increases."
+    },
+    {
+      "front": "Endothermic forward reaction: effect of decreasing temperature on products?",
+      "back": "The relative amount of products decreases."
+    },
+    {
+      "front": "Why does a higher temperature favour the endothermic direction?",
+      "back": "The system counteracts the change by taking in energy, which tends to lower the temperature."
+    },
+    {
+      "front": "2NO₂ ⇌ N₂O₄ (forward exothermic): what happens in hot water?",
+      "back": "Darker brown: equilibrium shifts left, more NO₂."
+    },
+    {
+      "front": "2NO₂ ⇌ N₂O₄ (forward exothermic): what happens in ice water?",
+      "back": "Paler: equilibrium shifts right, more colourless N₂O₄."
+    },
+    {
+      "front": "Yield falls as temperature rises. Is the forward reaction exothermic or endothermic?",
+      "back": "Exothermic."
+    },
+    {
+      "front": "Why is a low temperature not used in the Haber process even though yield is higher?",
+      "back": "The rate would be too slow; a compromise temperature is used."
+    },
+    {
+      "front": "Does temperature change the position of equilibrium?",
+      "back": "Yes. (A catalyst does not.)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "c6-temperature-and-equilibrium-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The temperature of a system at equilibrium is increased. The forward reaction is endothermic. What happens to the relative amount of products?",
+      "markScheme": [
+        "1 mark: it increases"
+      ],
+      "explanation": "Increasing the temperature favours the endothermic direction. Here that is the forward direction, so more products form.",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It falls to zero"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The temperature of a system at equilibrium is increased. The forward reaction is exothermic. What happens to the relative amount of products?",
+      "markScheme": [
+        "1 mark: it decreases"
+      ],
+      "explanation": "Increasing the temperature favours the endothermic direction, which is the reverse reaction here, so the amount of products decreases.",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It decreases",
+        "It doubles"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which direction of a reversible reaction is favoured when the temperature is decreased?",
+      "markScheme": [
+        "1 mark: the exothermic direction"
+      ],
+      "explanation": "The system counteracts the fall in temperature by favouring the direction that releases energy.",
+      "options": [
+        "The endothermic direction",
+        "The exothermic direction",
+        "The direction with fewer molecules",
+        "Neither direction"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What information do you need to predict the effect of a temperature change on the position of an equilibrium?",
+      "markScheme": [
+        "1 mark: whether the forward reaction is exothermic or endothermic"
+      ],
+      "explanation": "Temperature changes favour the endothermic or exothermic direction, so you need to know which is which. Gas molecule numbers matter for pressure, not temperature.",
+      "options": [
+        "The number of gas molecules on each side",
+        "The mass of catalyst used",
+        "The colour of the products",
+        "Whether the forward reaction is exothermic or endothermic"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A sealed tube contains an equilibrium mixture: 2NO₂(g, brown) ⇌ N₂O₄(g, colourless). The forward reaction is exothermic. The tube is placed in hot water. What is seen?",
+      "markScheme": [
+        "1 mark: the gas becomes darker brown"
+      ],
+      "explanation": "Higher temperature favours the endothermic reverse reaction, producing more brown NO₂.",
+      "options": [
+        "The gas becomes darker brown",
+        "The gas becomes paler",
+        "The gas becomes colourless immediately",
+        "No change is seen"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In the Haber process, N₂ + 3H₂ ⇌ 2NH₃, the forward reaction is exothermic. What is the effect of decreasing the temperature on the yield of ammonia at equilibrium?",
+      "markScheme": [
+        "1 mark: the yield increases"
+      ],
+      "explanation": "Lowering the temperature favours the exothermic forward reaction, so more ammonia is present at equilibrium (although it is reached more slowly).",
+      "options": [
+        "The yield decreases",
+        "The yield is unchanged",
+        "The yield increases",
+        "The reaction stops"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The yield of a product at equilibrium increases when the temperature is increased. What does this tell you?",
+      "markScheme": [
+        "1 mark: the forward reaction is endothermic"
+      ],
+      "explanation": "Increasing the temperature favours the endothermic direction. Because more product forms, the forward direction must be endothermic.",
+      "options": [
+        "The forward reaction is exothermic",
+        "The forward reaction is endothermic",
+        "The reaction has a catalyst",
+        "The product is a gas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does increasing the temperature of a system at equilibrium favour the endothermic direction?",
+      "markScheme": [
+        "1 mark: the system takes in energy to counteract the change"
+      ],
+      "explanation": "Le Chatelier's principle: the endothermic direction takes in energy, which opposes the rise in temperature. Energy is not destroyed.",
+      "options": [
+        "Endothermic reactions are always faster",
+        "The system responds to counteract the change by taking in energy",
+        "Energy is destroyed in the endothermic direction",
+        "Endothermic reactions produce more molecules"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Dinitrogen tetroxide decomposes: N₂O₄(g, colourless) ⇌ 2NO₂(g, brown). The forward reaction is endothermic. The equilibrium mixture is cooled. Which statement is correct?",
+      "markScheme": [
+        "1 mark: more N₂O₄ forms and the gas gets paler"
+      ],
+      "explanation": "Cooling favours the exothermic direction, which here is the reverse reaction (2NO₂ → N₂O₄), so there is less brown NO₂.",
+      "options": [
+        "More NO₂ forms and the gas gets darker",
+        "The position does not change",
+        "More N₂O₄ forms and the gas gets paler",
+        "The forward reaction becomes exothermic"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "For the Haber process (forward exothermic), a low temperature gives the highest yield of ammonia. Why is a very low temperature not used?",
+      "markScheme": [
+        "1 mark: the rate would be too slow"
+      ],
+      "explanation": "At low temperature particles collide less often and with less energy, so equilibrium is reached too slowly. A compromise temperature is used.",
+      "options": [
+        "The yield would be too high",
+        "Ammonia would decompose",
+        "The equilibrium would shift left",
+        "The rate of reaction would be too slow"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Hydrogen is made by the reaction CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g). The forward reaction is endothermic. At which temperature would the equilibrium yield of hydrogen be highest?",
+      "markScheme": [
+        "1 mark: 900 °C"
+      ],
+      "explanation": "For an endothermic forward reaction, the yield increases as the temperature increases, so the highest temperature gives the highest yield.",
+      "options": [
+        "200 °C",
+        "900 °C",
+        "500 °C",
+        "It is the same at all temperatures"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "At 200 atm, the percentage yield of ammonia at equilibrium is 53% at 350 °C and 13% at 550 °C.\nBy how many percentage points does the yield fall between 350 °C and 550 °C?",
+      "markScheme": [
+        "1 mark: 53 − 13 = 40"
+      ],
+      "explanation": "Subtract the two values: 53 − 13 = 40 percentage points. The large fall shows the forward reaction is exothermic.",
+      "numericAnswer": 40,
+      "tolerance": 0.01,
+      "unit": "percentage points"
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "At 450 °C and 200 atm, the yield of ammonia at equilibrium is 28%. The maximum possible mass of ammonia from a batch of reactants is 340 kg.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "markScheme": [
+        "1 mark: 28 ÷ 100 × 340",
+        "1 mark: 95.2 kg"
+      ],
+      "explanation": "Mass = 0.28 × 340 = 95.2 kg. Check: 95.2 ÷ 340 = 0.28.",
+      "numericAnswer": 95.2,
+      "tolerance": 0.01,
+      "unit": "kg"
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Using the data in the first question, calculate how many times greater the yield of ammonia is at 350 °C than at 550 °C. Give your answer to 2 significant figures.",
+      "markScheme": [
+        "1 mark: 53 ÷ 13",
+        "1 mark: 4.1"
+      ],
+      "explanation": "53 ÷ 13 = 4.077…, which is 4.1 to 2 significant figures.",
+      "numericAnswer": 4.1,
+      "tolerance": 0.02,
+      "unit": ""
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "In the Haber process, N₂ + 3H₂ ⇌ 2NH₃, forming 2 moles of ammonia gives out 92 kJ.\nWhen the temperature of an equilibrium mixture is raised, 0.50 mol of ammonia decomposes before a new equilibrium is reached. Calculate the energy taken in.",
+      "markScheme": [
+        "1 mark: 92 ÷ 2 = 46 kJ per mole of NH₃ decomposed",
+        "1 mark: 0.50 × 46 = 23 kJ"
+      ],
+      "explanation": "The reverse reaction is endothermic and takes in 46 kJ per mole of ammonia. For 0.50 mol: 0.50 × 46 = 23 kJ. This energy is taken in as the system counteracts the temperature rise.",
+      "numericAnswer": 23,
+      "tolerance": 0.01,
+      "unit": "kJ"
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Methanol yields at 50 atm are: 200 °C, 80%; 250 °C, 55%; 300 °C, 25%; 350 °C, 8%.\nCalculate the mean decrease in yield per °C between 200 °C and 300 °C.",
+      "markScheme": [
+        "1 mark: (80 − 25) ÷ (300 − 200)",
+        "1 mark: 0.55"
+      ],
+      "explanation": "Change in yield = 80 − 25 = 55 percentage points over 100 °C, so 55 ÷ 100 = 0.55 percentage points per °C.",
+      "numericAnswer": 0.55,
+      "tolerance": 0.01,
+      "unit": "percentage points per °C"
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The forward reaction of a system at equilibrium is exothermic. State the effect of increasing the temperature on the amount of products.",
+      "markScheme": [
+        "1 mark: the amount (relative amount) of products decreases"
+      ],
+      "explanation": "The higher temperature favours the endothermic reverse reaction.",
+      "acceptedAnswers": [
+        "decreases",
+        "fewer products",
+        "less product"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A sealed tube of brown NO₂ and colourless N₂O₄ is at equilibrium: 2NO₂ ⇌ N₂O₄ (forward exothermic). The tube is placed in ice water.\nState the colour change and explain it.",
+      "markScheme": [
+        "1 mark: the gas becomes paler (less brown)",
+        "1 mark: lower temperature favours the exothermic (forward) direction, so more colourless N₂O₄ forms"
+      ],
+      "explanation": "Decreasing the temperature favours the exothermic direction, which is the forward reaction here.",
+      "acceptedAnswers": [
+        "paler",
+        "lighter",
+        "forward reaction favoured",
+        "exothermic direction",
+        "more N₂O₄"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Use Le Chatelier's principle to explain why increasing the temperature decreases the yield of a reaction with an exothermic forward reaction.",
+      "markScheme": [
+        "1 mark: the system responds to counteract the increase in temperature by favouring the endothermic direction",
+        "1 mark: the reverse reaction is endothermic, so the position shifts left (less product)"
+      ],
+      "explanation": "The endothermic direction takes in energy, which opposes the rise in temperature.",
+      "acceptedAnswers": [
+        "counteract the change",
+        "endothermic direction favoured",
+        "reverse reaction is endothermic",
+        "shifts left"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The forward reaction of a system at equilibrium is endothermic. State and explain the effect of decreasing the temperature on the yield of product.",
+      "markScheme": [
+        "1 mark: the yield decreases",
+        "1 mark: lower temperature favours the exothermic direction, which is the reverse reaction"
+      ],
+      "explanation": "With an endothermic forward reaction, cooling shifts the position to the left.",
+      "acceptedAnswers": [
+        "yield decreases",
+        "exothermic direction favoured",
+        "reverse reaction"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The yield of a reaction at equilibrium is 70% at 300 °C and 45% at 400 °C. Deduce whether the forward reaction is exothermic or endothermic.",
+      "markScheme": [
+        "1 mark: exothermic"
+      ],
+      "explanation": "The yield falls as temperature rises, so increasing temperature shifts the position left. The reverse reaction is endothermic, so the forward reaction is exothermic.",
+      "acceptedAnswers": [
+        "exothermic"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Pink [Co(H₂O)₆]²⁺ ions and blue CoCl₄²⁻ ions are in equilibrium:\n[Co(H₂O)₆]²⁺ (pink) + 4Cl⁻ ⇌ CoCl₄²⁻ (blue) + 6H₂O\nWhen the solution is heated it turns blue. Deduce whether the forward reaction is exothermic or endothermic. Explain your answer.",
+      "markScheme": [
+        "1 mark: endothermic",
+        "1 mark: increasing temperature favours the endothermic direction, and the position shifted right (more blue CoCl₄²⁻)"
+      ],
+      "explanation": "Heating shifted the equilibrium to the right, so the forward direction must be the endothermic one.",
+      "acceptedAnswers": [
+        "endothermic",
+        "heating favours endothermic direction",
+        "shifts right"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'Increasing the temperature always increases the amount of product, because particles collide more often.'\nExplain why the student is wrong.",
+      "markScheme": [
+        "1 mark: higher temperature increases the rate of both forward and reverse reactions (rate is not the same as yield)",
+        "1 mark: the position shifts in the endothermic direction, so for an exothermic forward reaction the amount of product decreases"
+      ],
+      "explanation": "Collision frequency explains rate, not the position of equilibrium.",
+      "acceptedAnswers": [
+        "depends on whether forward is exothermic or endothermic",
+        "both rates increase",
+        "endothermic direction favoured",
+        "exothermic yield decreases"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The Haber process reaction is N₂ + 3H₂ ⇌ 2NH₃ and the forward reaction is exothermic.\nExplain why a temperature of about 450 °C is used instead of a much lower temperature.",
+      "markScheme": [
+        "1 mark: a lower temperature would give a higher yield because the exothermic forward reaction is favoured",
+        "1 mark: but at a lower temperature the rate of reaction would be too slow",
+        "1 mark: 450 °C is a compromise giving a reasonable yield at a reasonable rate"
+      ],
+      "explanation": "Industry must balance the equilibrium yield against the time taken to make the product.",
+      "acceptedAnswers": [
+        "low temperature higher yield",
+        "rate too slow",
+        "compromise"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Sulfur trioxide is made by 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). The forward reaction is exothermic.\nPredict the effect of increasing the temperature on the yield of SO₃ and give a reason.",
+      "markScheme": [
+        "1 mark: the yield of SO₃ decreases",
+        "1 mark: the endothermic (reverse) direction is favoured, so the position shifts left"
+      ],
+      "explanation": "Exothermic forward reaction, so higher temperature reduces the yield.",
+      "acceptedAnswers": [
+        "yield decreases",
+        "reverse is endothermic",
+        "shifts left"
+      ]
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Three sealed tubes contain the same equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). The forward reaction is exothermic.\nOne tube is placed in ice water, one is left at room temperature and one is placed in hot water.\nDescribe and explain the colours of the three tubes.",
+      "markScheme": [
+        "Indicative content: room temperature tube is the reference, a medium brown; hot water tube becomes darker brown; increasing temperature favours the endothermic direction; the reverse reaction is endothermic; position shifts left; more brown NO₂; ice water tube becomes paler; decreasing temperature favours the exothermic direction; the forward reaction; position shifts right; more colourless N₂O₄; Le Chatelier: the system responds to counteract the temperature change.",
+        "Level 2 (3 to 4 marks): correct colours for the hot and cold tubes, each explained in terms of the exothermic or endothermic direction and the shift in position.",
+        "Level 1 (1 to 2 marks): correct colour for one or both tubes with little explanation."
+      ],
+      "explanation": "Link each colour to the amount of brown NO₂, then explain the shift using the endothermic and exothermic directions."
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Methanol is made by the reaction CO(g) + 2H₂(g) ⇌ CH₃OH(g). The percentage yield of methanol at equilibrium at 50 atm is:\n200 °C: 80%; 250 °C: 55%; 300 °C: 25%; 350 °C: 8%\nUse the data to deduce whether the forward reaction is exothermic or endothermic, and explain your reasoning using Le Chatelier's principle.",
+      "markScheme": [
+        "Indicative content: the yield decreases as temperature increases, for example from 80% at 200 °C to 8% at 350 °C; increasing temperature shifts the position in the endothermic direction (Le Chatelier: the system takes in energy to counteract the rise); the position is shifting left (towards CO and H₂); so the reverse reaction is endothermic; therefore the forward reaction is exothermic; the same amount of energy is transferred in each direction.",
+        "Level 2 (3 to 4 marks): correct deduction (exothermic) supported by the trend in the data and a clear Le Chatelier explanation.",
+        "Level 1 (1 to 2 marks): correct trend described or correct deduction with limited reasoning."
+      ],
+      "explanation": "Describe the trend with figures, link to the endothermic direction being favoured at higher temperature, then deduce the forward energy change."
+    },
+    {
+      "id": "c6-temperature-and-equilibrium-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Ammonia is made in the Haber process: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic.\nAt 200 atm, the percentage yield of ammonia at equilibrium is 53% at 350 °C, 28% at 450 °C and 13% at 550 °C.\nExplain the effect of temperature on the yield of ammonia and evaluate the choice of 450 °C for the process.",
+      "markScheme": [
+        "Indicative content: the yield decreases as the temperature increases, from 53% at 350 °C to 13% at 550 °C; Le Chatelier's principle: increasing temperature makes the system counteract the change by favouring the endothermic direction; the forward reaction is exothermic, so the reverse reaction is endothermic; position shifts left; less ammonia at equilibrium; a lower temperature such as 350 °C would give a higher yield; but at lower temperature the rate is slower because particles have less energy and collide less often with energy above the activation energy; equilibrium would take longer to reach; 450 °C gives a lower yield (28%) but a faster rate; this is a compromise between yield and rate; an iron catalyst is used to increase rate without changing yield; unreacted gases are recycled so a low yield per pass is acceptable.",
+        "Level 3 (5 to 6 marks): the trend described with data, fully explained using Le Chatelier's principle, and a balanced evaluation of 450 °C considering both yield and rate, with a conclusion.",
+        "Level 2 (3 to 4 marks): the trend described and explained, with some reference to rate as a reason for not using a low temperature.",
+        "Level 1 (1 to 2 marks): simple statements about temperature and yield, with little explanation or evaluation."
+      ],
+      "explanation": "A top answer uses the data, explains the shift with Le Chatelier's principle, and weighs yield against rate to justify the compromise temperature."
+    }
+  ]
+}
