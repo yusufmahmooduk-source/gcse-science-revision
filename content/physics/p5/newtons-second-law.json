@@ -1,0 +1,751 @@
+{
+  "id": "p5-newtons-second-law",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "newtons-second-law",
+  "specRef": "4.5.6.2.2",
+  "title": "Newton's Second Law",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Newton's Second Law states that the acceleration of an object is directly proportional to the resultant force acting on it and inversely proportional to its mass. This is summarised by the equation resultant force = mass × acceleration (F = m a).",
+    "explanation": [
+      "Newton's First Law tells you that a resultant force is needed to change an object's velocity. Newton's Second Law tells you how big the change is. The acceleration of an object is directly proportional to the resultant force acting on it: double the resultant force and the acceleration doubles. The acceleration is inversely proportional to the mass of the object: double the mass and, for the same resultant force, the acceleration halves.",
+      "These ideas combine into the equation resultant force = mass × acceleration, F = m a, with force in newtons (N), mass in kilograms (kg) and acceleration in metres per second squared (m/s²). You must recall and apply this equation. One newton is the resultant force that gives a 1 kg mass an acceleration of 1 m/s². Always use the resultant force: if a car has a driving force of 3000 N and resistive forces of 1000 N, use F = 2000 N.",
+      "F = m a is often combined with a = Δv ÷ t. For example, to find the braking force on a car, first find its deceleration from the change in velocity and the time, then multiply by the mass. The direction of the acceleration is always the same as the direction of the resultant force. A resultant force opposite to the motion produces a deceleration.",
+      "You should be able to estimate the speeds, accelerations and forces involved in large accelerations of everyday road transport. A typical family car has a mass of about 1000 to 1500 kg and can accelerate at around 3 m/s², needing a resultant force of about 1500 kg × 3 m/s² ≈ 4500 N. In an emergency stop from 30 m/s, a car decelerates at around 6 m/s², so the braking force is about 9000 N. The symbol ~ means \"approximately equal to\", for example F ~ 5000 N.",
+      "(Higher) Mass appears in F = m a as a measure of how hard it is to change an object's velocity. This is called inertial mass: it is a measure of how difficult it is to change the velocity of an object, and it is defined as the ratio of force over acceleration, m = F ÷ a. A loaded lorry has a large inertial mass, so it needs a much larger force than a car to speed it up or slow it down at the same rate.",
+      "Required practical 7 investigates Newton's Second Law. A trolley on a horizontal runway is pulled by a string passing over a pulley to a set of hanging masses; the weight of the hanging masses provides the accelerating force. The acceleration is found using light gates and a card on the trolley (or a ticker timer, or a stopwatch and marked distances). To vary the force with constant mass, masses are moved from the trolley to the hanger so the total mass of the system stays the same. To vary the mass with constant force, masses are added to the trolley while the hanging mass stays the same. Results show a ∝ F (a straight line through the origin) and that a decreases as mass increases."
+    ],
+    "keyFacts": [
+      "Acceleration is directly proportional to the resultant force: a ∝ F.",
+      "Acceleration is inversely proportional to mass: a ∝ 1/m.",
+      "resultant force = mass × acceleration, F = m a (recall this).",
+      "F in newtons (N), m in kilograms (kg), a in m/s².",
+      "The acceleration is in the same direction as the resultant force.",
+      "Always use the resultant force, not just one of the forces.",
+      "Typical car: mass ~1000 to 1500 kg, acceleration ~3 m/s², hard braking ~6 m/s².",
+      "The symbol ~ means approximately.",
+      "(Higher) Inertial mass is a measure of how difficult it is to change an object's velocity; inertial mass = force ÷ acceleration.",
+      "Required practical 7: vary force (constant mass) or vary mass (constant force) and measure acceleration of a trolley."
+    ],
+    "keyTerms": [
+      {
+        "term": "Newton's Second Law",
+        "definition": "The acceleration of an object is directly proportional to the resultant force on it and inversely proportional to its mass (F = m a)."
+      },
+      {
+        "term": "Resultant force",
+        "definition": "The single force that has the same effect as all the forces acting on an object combined."
+      },
+      {
+        "term": "Directly proportional",
+        "definition": "When one quantity doubles, the other doubles; the graph is a straight line through the origin."
+      },
+      {
+        "term": "Inversely proportional",
+        "definition": "When one quantity doubles, the other halves."
+      },
+      {
+        "term": "Newton (N)",
+        "definition": "The unit of force: 1 N gives a mass of 1 kg an acceleration of 1 m/s²."
+      },
+      {
+        "term": "Inertial mass (Higher)",
+        "definition": "A measure of how difficult it is to change the velocity of an object; defined as force ÷ acceleration."
+      },
+      {
+        "term": "Light gate",
+        "definition": "A sensor that times how long a card on a moving object blocks an infrared beam, used to calculate velocity and acceleration."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Newton's Second Law",
+        "formula": "resultant force = mass × acceleration",
+        "symbols": "F = m a",
+        "units": "F in newtons (N), m in kilograms (kg), a in metres per second squared (m/s²)",
+        "recall": true
+      },
+      {
+        "name": "Acceleration",
+        "formula": "acceleration = change in velocity ÷ time taken",
+        "symbols": "a = Δv ÷ t",
+        "units": "a in m/s², Δv in m/s, t in s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating a force",
+        "question": "A car of mass 1200 kg accelerates at 2.5 m/s². Calculate the resultant force on the car.",
+        "steps": [
+          "F = m a.",
+          "F = 1200 × 2.5.",
+          "F = 3000 N."
+        ],
+        "answer": "3000 N"
+      },
+      {
+        "title": "Resultant force first, then rearranging",
+        "question": "A cyclist and bicycle have a total mass of 80 kg. The cyclist produces a forward force of 260 N and the resistive forces are 100 N. Calculate the acceleration.",
+        "steps": [
+          "Resultant force = 260 − 100 = 160 N forwards.",
+          "Rearrange F = m a to a = F ÷ m.",
+          "a = 160 ÷ 80 = 2.0 m/s²."
+        ],
+        "answer": "2.0 m/s²"
+      },
+      {
+        "title": "Combining with a = Δv ÷ t and converting km/h",
+        "question": "A car of mass 1500 kg brakes from 108 km/h to rest in 5.0 s. Calculate the average braking force.",
+        "steps": [
+          "Convert the speed: 108 × 1000 ÷ 3600 = 30 m/s.",
+          "Deceleration: a = Δv ÷ t = 30 ÷ 5.0 = 6.0 m/s².",
+          "F = m a = 1500 × 6.0 = 9000 N (acting backwards)."
+        ],
+        "answer": "9000 N"
+      },
+      {
+        "title": "(Higher) Inertial mass",
+        "question": "A force of 18 N gives a block an acceleration of 4.5 m/s². Calculate the inertial mass of the block.",
+        "steps": [
+          "Inertial mass = force ÷ acceleration.",
+          "m = 18 ÷ 4.5.",
+          "m = 4.0 kg."
+        ],
+        "answer": "4.0 kg"
+      },
+      {
+        "title": "Required practical 7: speed from a light gate",
+        "question": "A card of length 5.0 cm on a trolley blocks a light gate for 0.040 s. It blocks a second light gate 0.50 s later for 0.020 s. Calculate the acceleration of the trolley.",
+        "steps": [
+          "Card length = 5.0 cm = 0.050 m.",
+          "Velocity at gate 1 = 0.050 ÷ 0.040 = 1.25 m/s; velocity at gate 2 = 0.050 ÷ 0.020 = 2.5 m/s.",
+          "a = Δv ÷ t = (2.5 − 1.25) ÷ 0.50 = 1.25 ÷ 0.50 = 2.5 m/s²."
+        ],
+        "answer": "2.5 m/s²"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Required practical 7 apparatus",
+        "caption": "The hanging masses pull the trolley along the runway. Light gates measure the velocity of the card at two points so the acceleration can be calculated.",
+        "svg": "<svg viewBox=\"0 0 420 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"150\" width=\"320\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"30\" y=\"176\" font-size=\"12\" fill=\"currentColor\">bench / runway</text><rect x=\"50\" y=\"122\" width=\"80\" height=\"22\" rx=\"3\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"66\" cy=\"146\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"114\" cy=\"146\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"86\" y=\"100\" width=\"8\" height=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"70\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">card</text><text x=\"90\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">trolley</text><path d=\"M186 150 L186 88 L214 88 L214 150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"186\" y1=\"108\" x2=\"214\" y2=\"108\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><path d=\"M266 150 L266 88 L294 88 L294 150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"266\" y1=\"108\" x2=\"294\" y2=\"108\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><text x=\"200\" y=\"82\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">light gate 1</text><text x=\"280\" y=\"70\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">light gate 2</text><line x1=\"130\" y1=\"133\" x2=\"350\" y2=\"133\" stroke=\"currentColor\"/><circle cx=\"350\" cy=\"145\" r=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"362\" y1=\"145\" x2=\"362\" y2=\"200\" stroke=\"currentColor\"/><text x=\"368\" y=\"130\" font-size=\"12\" fill=\"currentColor\">pulley</text><text x=\"300\" y=\"128\" font-size=\"12\" fill=\"currentColor\">string</text><rect x=\"352\" y=\"200\" width=\"20\" height=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"352\" y=\"210\" width=\"20\" height=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"352\" y=\"220\" width=\"20\" height=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"415\" y=\"250\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">hanging masses</text><text x=\"415\" y=\"266\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">(accelerating force = weight)</text><rect x=\"150\" y=\"200\" width=\"100\" height=\"34\" rx=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"200\" y=\"221\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">data logger</text><line x1=\"200\" y1=\"160\" x2=\"200\" y2=\"200\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><line x1=\"280\" y1=\"160\" x2=\"280\" y2=\"190\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><line x1=\"280\" y1=\"190\" x2=\"250\" y2=\"210\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"20\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Required practical 7: investigating acceleration</text></svg>"
+      },
+      {
+        "title": "Expected results",
+        "caption": "Left: with mass constant, acceleration is directly proportional to force (straight line through the origin). Right: with force constant, acceleration decreases as mass increases (inversely proportional).",
+        "svg": "<svg viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"170\" x2=\"190\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"170\" x2=\"40\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"170\" x2=\"180\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M64 141 L72 149 M64 149 L72 141\" stroke=\"currentColor\"/><path d=\"M92 116 L100 124 M92 124 L100 116\" stroke=\"currentColor\"/><path d=\"M120 91 L128 99 M120 99 L128 91\" stroke=\"currentColor\"/><path d=\"M148 66 L156 74 M148 74 L156 66\" stroke=\"currentColor\"/><text x=\"115\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">resultant force (N)</text><text x=\"22\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 22 100)\">acceleration (m/s²)</text><text x=\"115\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mass constant: a ∝ F</text><line x1=\"250\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"250\" y1=\"170\" x2=\"250\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"275.0,50.0 287.5,90.0 300.0,110.0 312.5,122.0 325.0,130.0 337.5,135.7 350.0,140.0 362.5,143.3 375.0,146.0 387.5,148.2 400.0,150.0 412.5,151.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"325\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mass (kg)</text><text x=\"232\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 232 100)\">acceleration (m/s²)</text><text x=\"325\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">force constant: a ∝ 1/m</text></svg>"
+      },
+      {
+        "title": "Formula triangle for F = m a",
+        "caption": "Cover the quantity you want: F = m × a, a = F ÷ m, m = F ÷ a. F must be the resultant force.",
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"200,20 330,200 70,200\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"115\" y1=\"130\" x2=\"285\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"130\" x2=\"200\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"200\" y=\"100\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">F</text><text x=\"155\" y=\"175\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">m</text><text x=\"245\" y=\"175\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">a</text><text x=\"200\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">resultant force (N)</text><text x=\"150\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mass (kg)</text><text x=\"248\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">accel. (m/s²)</text><text x=\"345\" y=\"60\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">F = m × a</text><text x=\"345\" y=\"80\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">a = F ÷ m</text><text x=\"345\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">m = F ÷ a</text><text x=\"200\" y=\"222\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Use the RESULTANT force</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use the driving force in F = m a, ignoring friction and air resistance.",
+        "right": "In fact F is the resultant force. Subtract opposing forces first."
+      },
+      {
+        "wrong": "Students often think a larger force always means a larger acceleration, whatever the mass.",
+        "right": "In fact acceleration depends on force and mass together: a = F ÷ m. A large force on a very large mass can give a small acceleration."
+      },
+      {
+        "wrong": "Students often think an object must move in the direction of the resultant force.",
+        "right": "In fact the acceleration is in the direction of the resultant force. A car moving forwards with a backward resultant force is decelerating."
+      },
+      {
+        "wrong": "Students often think that in required practical 7, adding masses to the hanger only changes the force.",
+        "right": "In fact it also changes the total mass being accelerated, unless the masses are moved from the trolley to the hanger to keep the total mass constant."
+      }
+    ],
+    "realWorld": [
+      "Lorries take much longer than cars to speed up and stop because their mass (and inertial mass) is much greater, so the same force gives a smaller acceleration.",
+      "Racing cars are built to be light with powerful engines, so a large resultant force acts on a small mass, giving a large acceleration.",
+      "Car safety engineers use F = m a to estimate the forces on passengers during collisions and design crumple zones and seat belts.",
+      "Rocket designers use F = m a to work out the thrust needed for a launch: the thrust must exceed the rocket's weight to give an upward resultant force."
+    ],
+    "practicals": [
+      "phys-rp7"
+    ],
+    "higherTier": [
+      "Inertial mass is a measure of how difficult it is to change the velocity of an object.",
+      "Inertial mass is defined as the ratio of force over acceleration: inertial mass = F ÷ a."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write F = m a, substitute values with units, then calculate. Always check you have used the resultant force.",
+      "In two-step questions, find the acceleration first using a = Δv ÷ t, then use F = m a.",
+      "Convert grams to kilograms (÷ 1000) before using F = m a; hanging masses in required practical 7 are often given in grams.",
+      "For required practical 7, say how the independent variable is changed, how acceleration is measured, and what is kept constant (total mass when varying force, hanging mass when varying trolley mass).",
+      "(Higher) Define inertial mass as how difficult it is to change an object's velocity, equal to force ÷ acceleration."
+    ],
+    "summary": [
+      "a ∝ resultant force and a ∝ 1/mass.",
+      "F = m a (recall); use the resultant force.",
+      "Acceleration is in the direction of the resultant force.",
+      "Estimate road-transport forces: car ~1000 kg, ~3 m/s², ~3000 N; ~ means approximately.",
+      "(Higher) Inertial mass = F ÷ a: how hard it is to change velocity.",
+      "Required practical 7: trolley, pulley, hanging masses and light gates; vary force or mass."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State Newton's Second Law.",
+      "back": "The acceleration of an object is directly proportional to the resultant force and inversely proportional to its mass."
+    },
+    {
+      "front": "Equation for Newton's Second Law",
+      "back": "resultant force = mass × acceleration, F = m a"
+    },
+    {
+      "front": "Units in F = m a",
+      "back": "F in N, m in kg, a in m/s²"
+    },
+    {
+      "front": "Define 1 newton.",
+      "back": "The force that gives a 1 kg mass an acceleration of 1 m/s²."
+    },
+    {
+      "front": "What happens to acceleration if the resultant force doubles (same mass)?",
+      "back": "It doubles."
+    },
+    {
+      "front": "What happens to acceleration if the mass doubles (same force)?",
+      "back": "It halves."
+    },
+    {
+      "front": "(Higher) What is inertial mass?",
+      "back": "A measure of how difficult it is to change the velocity of an object; inertial mass = force ÷ acceleration."
+    },
+    {
+      "front": "What does ~ mean?",
+      "back": "Approximately equal to."
+    },
+    {
+      "front": "RP7: what provides the accelerating force on the trolley?",
+      "back": "The weight of the hanging masses on the string over the pulley."
+    },
+    {
+      "front": "RP7: how do you keep the total mass constant when varying the force?",
+      "back": "Move masses from the trolley onto the hanger."
+    },
+    {
+      "front": "RP7: how is velocity found with a light gate?",
+      "back": "Length of card ÷ time the card blocks the beam."
+    },
+    {
+      "front": "RP7: shape of the acceleration against force graph",
+      "back": "A straight line through the origin (directly proportional)."
+    },
+    {
+      "front": "Estimate the resultant force on a car accelerating hard.",
+      "back": "~1000 kg × ~3 m/s² ≈ 3000 N (a few thousand newtons)."
+    },
+    {
+      "front": "Which direction is the acceleration?",
+      "back": "The same direction as the resultant force."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-newtons-second-law-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation correctly links resultant force, mass and acceleration?",
+      "options": [
+        "F = m ÷ a",
+        "F = a ÷ m",
+        "F = m + a",
+        "F = m × a"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Newton's Second Law: resultant force = mass × acceleration."
+    },
+    {
+      "id": "p5-newtons-second-law-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of force?",
+      "options": [
+        "kilogram (kg)",
+        "newton (N)",
+        "joule (J)",
+        "metre per second squared (m/s²)"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Force is measured in newtons. kg is mass, J is energy and m/s² is acceleration."
+    },
+    {
+      "id": "p5-newtons-second-law-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The resultant force on a trolley is doubled. Its mass stays the same. What happens to its acceleration?",
+      "options": [
+        "It doubles",
+        "It halves",
+        "It stays the same",
+        "It quadruples"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Acceleration is directly proportional to the resultant force when mass is constant."
+    },
+    {
+      "id": "p5-newtons-second-law-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The same resultant force acts on two objects. Object Q has three times the mass of object P. How does the acceleration of Q compare with P?",
+      "options": [
+        "Three times larger",
+        "The same",
+        "One third as large",
+        "Nine times smaller"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "a = F ÷ m: with F fixed, tripling m makes a one third as big. Acceleration is inversely proportional to mass."
+    },
+    {
+      "id": "p5-newtons-second-law-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A 1000 kg car has a driving force of 2500 N and resistive forces of 500 N. What is its acceleration?",
+      "options": [
+        "2.5 m/s²",
+        "3.0 m/s²",
+        "0.5 m/s²",
+        "2.0 m/s²"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Resultant force = 2500 − 500 = 2000 N, so a = 2000 ÷ 1000 = 2.0 m/s². 2.5 m/s² ignores the resistive forces; 3.0 m/s² adds them."
+    },
+    {
+      "id": "p5-newtons-second-law-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In required practical 7, which is the best way to measure the trolley's velocity at a point?",
+      "options": [
+        "Use a ruler and a stopwatch to time the trolley over 1 cm",
+        "Measure the time a card of known length blocks a light gate",
+        "Measure the height of the hanging masses",
+        "Weigh the trolley on a balance"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Velocity = card length ÷ time the beam is blocked. Timing 1 cm with a stopwatch would be swamped by reaction time."
+    },
+    {
+      "id": "p5-newtons-second-law-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In required practical 7, a student investigates the effect of force on acceleration. Why should she move masses from the trolley to the hanger, rather than adding new masses to the hanger?",
+      "options": [
+        "To keep the total mass being accelerated constant",
+        "To reduce friction on the runway",
+        "To make the string tighter",
+        "To make the light gates more accurate"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Mass is a control variable when force is the independent variable. Adding new masses would increase the total mass as well as the force."
+    },
+    {
+      "id": "p5-newtons-second-law-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) Which statement best describes inertial mass?",
+      "options": [
+        "The force of gravity on an object",
+        "The amount of matter that is attracted by the Earth",
+        "A measure of how difficult it is to change an object's velocity",
+        "The resultant force needed to keep an object moving"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Inertial mass is defined by m = F ÷ a: a measure of how hard it is to change velocity. A is weight; D reflects the misconception that a force is needed to keep moving."
+    },
+    {
+      "id": "p5-newtons-second-law-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which is the best estimate of the resultant force needed to give a family car an acceleration of about 3 m/s²?",
+      "options": [
+        "~30 N",
+        "~300 N",
+        "~3000 N",
+        "~300 000 N"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "A car has a mass of about 1000 kg, so F ≈ 1000 × 3 = 3000 N. The other answers are wrong by factors of 10 or more."
+    },
+    {
+      "id": "p5-newtons-second-law-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A trolley of mass 2.0 kg accelerates at 3.0 m/s². Calculate the resultant force on it.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 2.0 × 3.0",
+        "1 mark: 6.0 N"
+      ],
+      "explanation": "F = m a = 2.0 × 3.0 = 6.0 N."
+    },
+    {
+      "id": "p5-newtons-second-law-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A resultant force of 150 N acts on a cyclist and bicycle of total mass 75 kg. Calculate the acceleration.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: a = F ÷ m = 150 ÷ 75",
+        "1 mark: 2.0 m/s²"
+      ],
+      "explanation": "Rearranging F = m a gives a = F ÷ m = 2.0 m/s²."
+    },
+    {
+      "id": "p5-newtons-second-law-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A resultant force of 4500 N gives a van an acceleration of 1.5 m/s². Calculate the mass of the van.",
+      "numericAnswer": 3000,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: m = F ÷ a = 4500 ÷ 1.5",
+        "1 mark: 3000 kg"
+      ],
+      "explanation": "Rearranging F = m a gives m = F ÷ a."
+    },
+    {
+      "id": "p5-newtons-second-law-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car of mass 1200 kg has a driving force of 3500 N. The resistive forces are 1100 N. Calculate the acceleration of the car.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: resultant force = 3500 − 1100 = 2400 N",
+        "1 mark: a = 2400 ÷ 1200",
+        "1 mark: 2.0 m/s²"
+      ],
+      "explanation": "Always find the resultant force first."
+    },
+    {
+      "id": "p5-newtons-second-law-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A motorbike and rider of total mass 250 kg accelerate from rest to 18 m/s in 6.0 s. Calculate the resultant force.",
+      "numericAnswer": 750,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: a = 18 ÷ 6.0 = 3.0 m/s²",
+        "1 mark: F = 250 × 3.0",
+        "1 mark: 750 N"
+      ],
+      "explanation": "Use a = Δv ÷ t first, then F = m a."
+    },
+    {
+      "id": "p5-newtons-second-law-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A car of mass 1400 kg is travelling at 72 km/h. It brakes and stops in 4.0 s. Calculate the average braking force.",
+      "numericAnswer": 7000,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 72 km/h = 20 m/s",
+        "1 mark: a = 20 ÷ 4.0 = 5.0 m/s²",
+        "1 mark: F = 1400 × 5.0",
+        "1 mark: 7000 N"
+      ],
+      "explanation": "Convert to m/s, find the deceleration, then F = m a. Using 72 instead of 20 gives a value 3.6 times too large."
+    },
+    {
+      "id": "p5-newtons-second-law-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "In required practical 7, a hanging mass of 50 g provides the accelerating force. The total mass being accelerated is 0.70 kg. Gravitational field strength is 9.8 N/kg. Calculate the acceleration.",
+      "numericAnswer": 0.7,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: force = weight = 0.050 × 9.8 = 0.49 N",
+        "1 mark: a = 0.49 ÷ 0.70",
+        "1 mark: 0.70 m/s²"
+      ],
+      "explanation": "Convert 50 g to 0.050 kg, find the weight W = m g, then a = F ÷ m using the total mass."
+    },
+    {
+      "id": "p5-newtons-second-law-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In required practical 7, a 4.0 cm card blocks a light gate for 0.025 s. Calculate the velocity of the trolley at the light gate.",
+      "numericAnswer": 1.6,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: v = 0.040 ÷ 0.025",
+        "1 mark: 1.6 m/s"
+      ],
+      "explanation": "Convert 4.0 cm to 0.040 m, then velocity = length of card ÷ time."
+    },
+    {
+      "id": "p5-newtons-second-law-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A force of 12 N gives a box an acceleration of 4.0 m/s². Calculate the inertial mass of the box.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: inertial mass = F ÷ a = 12 ÷ 4.0",
+        "1 mark: 3.0 kg"
+      ],
+      "explanation": "Inertial mass is defined as the ratio of force to acceleration."
+    },
+    {
+      "id": "p5-newtons-second-law-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State how the acceleration of an object depends on (a) the resultant force and (b) the mass.",
+      "acceptedAnswers": [
+        "directly proportional to force",
+        "inversely proportional to mass"
+      ],
+      "markScheme": [
+        "1 mark: directly proportional to the resultant force",
+        "1 mark: inversely proportional to the mass"
+      ],
+      "explanation": "This is Newton's Second Law in words."
+    },
+    {
+      "id": "p5-newtons-second-law-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the independent variable when a student investigates how the mass of a trolley affects its acceleration.",
+      "acceptedAnswers": [
+        "mass",
+        "mass of the trolley"
+      ],
+      "markScheme": [
+        "1 mark: mass (of the trolley)"
+      ],
+      "explanation": "The independent variable is the one the student changes."
+    },
+    {
+      "id": "p5-newtons-second-law-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In required practical 7, a student investigates the effect of mass on acceleration. Name two control variables.",
+      "acceptedAnswers": [
+        "accelerating force",
+        "hanging mass",
+        "runway angle",
+        "same runway surface",
+        "distance between light gates",
+        "same card"
+      ],
+      "markScheme": [
+        "1 mark each for any two: accelerating force / hanging mass; slope of runway; surface of runway; distance between light gates; length of card"
+      ],
+      "explanation": "Only the mass on the trolley should change."
+    },
+    {
+      "id": "p5-newtons-second-law-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In required practical 7, the runway is often tilted slightly so the trolley rolls at a constant speed when given a small push. Explain why.",
+      "acceptedAnswers": [
+        "compensate for friction",
+        "friction balanced",
+        "resultant force is the hanging weight"
+      ],
+      "markScheme": [
+        "1 mark: to compensate for (balance) friction",
+        "1 mark: so the resultant force on the trolley is equal to the weight of the hanging masses"
+      ],
+      "explanation": "This removes the effect of friction, so the accelerating force is known accurately."
+    },
+    {
+      "id": "p5-newtons-second-law-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe the expected results of required practical 7 when force is varied with mass constant, and how they would be shown on a graph.",
+      "acceptedAnswers": [
+        "acceleration increases with force",
+        "directly proportional",
+        "straight line through origin"
+      ],
+      "markScheme": [
+        "1 mark: acceleration increases as force increases",
+        "1 mark: acceleration is directly proportional to force",
+        "1 mark: plot acceleration (y) against force (x): straight line through the origin"
+      ],
+      "explanation": "Newton's Second Law predicts a ∝ F for constant mass."
+    },
+    {
+      "id": "p5-newtons-second-law-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Estimate the braking force needed to stop a lorry of mass about 20 000 kg travelling at about 25 m/s in about 10 s. Show your working.",
+      "acceptedAnswers": [
+        "2.5 m/s²",
+        "50 000 N",
+        "5 × 10⁴ N",
+        "~50 000 N"
+      ],
+      "markScheme": [
+        "1 mark: a = 25 ÷ 10 = 2.5 m/s²",
+        "1 mark: F = 20 000 × 2.5",
+        "1 mark: ~50 000 N"
+      ],
+      "explanation": "This shows why large vehicles need powerful brakes and long stopping distances."
+    },
+    {
+      "id": "p5-newtons-second-law-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A shopping trolley full of bottles is harder to push into motion than an empty one. Explain this using the idea of inertial mass.",
+      "acceptedAnswers": [
+        "greater inertial mass",
+        "more difficult to change velocity",
+        "smaller acceleration for same force",
+        "a = F ÷ m"
+      ],
+      "markScheme": [
+        "1 mark: the full trolley has a greater inertial mass",
+        "1 mark: so it is harder to change its velocity: the same force gives a smaller acceleration (a = F ÷ m)"
+      ],
+      "explanation": "Inertial mass measures how difficult it is to change velocity."
+    },
+    {
+      "id": "p5-newtons-second-law-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A car and a lorry both have the same driving force. Explain, using Newton's Second Law, why the car accelerates faster than the lorry, and describe what would happen to the car's acceleration if it was carrying a heavy load.",
+      "markScheme": [
+        "Indicative content:",
+        "Newton's Second Law: a = F ÷ m; acceleration inversely proportional to mass",
+        "The lorry has a much larger mass than the car",
+        "Same force on a larger mass gives a smaller acceleration",
+        "Resistive forces (air resistance) also reduce the resultant force",
+        "With a heavy load the car's mass increases",
+        "So for the same resultant force, its acceleration decreases",
+        "Level 2 (3 to 4 marks): clear explanation using F = m a for both situations",
+        "Level 1 (1 to 2 marks): simple statement, for example heavier things accelerate slower",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Acceleration depends on mass as well as force."
+    },
+    {
+      "id": "p5-newtons-second-law-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method for required practical 7 to investigate how the acceleration of a trolley depends on the resultant force acting on it. Include how you would measure the acceleration, the control variables, and how you would process the results.",
+      "markScheme": [
+        "Indicative content:",
+        "Set up a trolley on a horizontal runway (tilted slightly to compensate for friction) with a string over a pulley to a mass hanger",
+        "Accelerating force = weight of hanging masses (W = m g)",
+        "Fix a card of known length on the trolley; two light gates connected to a data logger (or use a ticker timer)",
+        "Velocity at each gate = card length ÷ time beam is blocked; acceleration = change in velocity ÷ time between gates",
+        "Release the trolley from the same position each time",
+        "Increase the force by moving masses one at a time from the trolley to the hanger, keeping total mass constant",
+        "Control variables: total mass, runway slope and surface, distance between gates, card length",
+        "Repeat each force and calculate a mean acceleration",
+        "Plot acceleration against force: expect a straight line through the origin (a ∝ F)",
+        "Safety: place something soft to catch the trolley and keep feet clear of falling masses",
+        "Level 3 (5 to 6 marks): coherent, detailed method allowing valid results; acceleration measurement and constant total mass explained; results processing described",
+        "Level 2 (3 to 4 marks): method with some detail about measuring acceleration or controlling variables",
+        "Level 1 (1 to 2 marks): basic steps, for example add masses and time the trolley",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Key marks: how force is varied while total mass is kept constant, how acceleration is measured, and the a against F graph."
+    }
+  ]
+}

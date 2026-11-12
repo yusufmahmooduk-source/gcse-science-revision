@@ -1,0 +1,664 @@
+{
+  "id": "p4-uses-of-nuclear-radiation",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "uses-of-nuclear-radiation",
+  "specRef": "4.4.3.3",
+  "title": "Uses of nuclear radiation",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Nuclear radiations are used in medicine for the exploration of internal organs (using radioactive tracers) and for the control or destruction of unwanted tissue such as cancer tumours (radiotherapy).",
+    "explanation": [
+      "Nuclear radiation is used in medicine for two main purposes: to explore internal organs, and to control or destroy unwanted tissue. In both cases the benefits must be weighed against the risks, because ionising radiation can damage healthy cells and increase the risk of cancer.",
+      "To explore internal organs, a doctor injects or gives a patient a radioactive tracer: a substance containing a radioactive isotope that is carried to the organ being studied. A gamma camera outside the body detects the radiation and builds up an image of where the tracer has collected, showing how well the organ is working. A good tracer emits gamma rays, because gamma can pass out of the body to the detector and is the least ionising, so it causes the least damage on the way. It should have a short half-life (a few hours), long enough for the scan but short enough that it does not keep irradiating the patient. Technetium-99m (half-life about 6 hours) is widely used, and iodine-123 is used to study the thyroid.",
+      "To destroy unwanted tissue, radiotherapy uses radiation to kill cancer cells. In external radiotherapy, beams of gamma rays (or high-energy X-rays) are aimed at the tumour from several different directions. The beams overlap only at the tumour, so it receives a large dose while the surrounding healthy tissue receives a much smaller dose. In internal radiotherapy, a radioactive source is placed inside the body next to or inside the tumour. Beta emitters are often used, because beta has a short range in tissue, so the damage is concentrated in the tumour. For example, iodine-131, a beta emitter, is taken up by the thyroid gland and is used to treat thyroid cancer.",
+      "Every use of nuclear radiation carries some risk. Radiation can damage DNA in healthy cells, which might cause cancer years later, and high doses can cause radiation sickness. Doctors and patients evaluate perceived risks using data such as the dose in millisieverts and the estimated risk of harm, compared with the benefit of diagnosing or treating a serious illness. A scan that gives a dose similar to a year of background radiation is usually judged worthwhile if it can detect a life-threatening disease.",
+      "Hospital staff also take precautions: they keep sources shielded, use tongs, limit their exposure time and wear dosimeters. Patients may be advised to avoid close contact with others, particularly pregnant women and young children, for a short time after receiving a radioactive substance."
+    ],
+    "keyFacts": [
+      "Nuclear radiation is used in medicine to explore internal organs and to control or destroy unwanted tissue.",
+      "A tracer is a radioactive isotope taken into the body so that its path can be followed.",
+      "Tracers should be gamma emitters so the radiation can leave the body and be detected.",
+      "Tracers should have a short half-life (hours) to limit the dose to the patient.",
+      "Technetium-99m (half-life about 6 hours) is a common tracer.",
+      "External radiotherapy: gamma beams from several directions overlap at the tumour.",
+      "Internal radiotherapy: a source (often a beta emitter) is placed in or near the tumour.",
+      "Iodine-131 is a beta emitter used to treat thyroid cancer.",
+      "Benefits must be weighed against risks, using data such as dose (mSv) and risk of harm."
+    ],
+    "keyTerms": [
+      {
+        "term": "Radioactive tracer",
+        "definition": "A radioactive isotope taken into the body so that its movement or where it collects can be detected from outside."
+      },
+      {
+        "term": "Gamma camera",
+        "definition": "A detector placed outside the body that forms an image from gamma rays emitted by a tracer."
+      },
+      {
+        "term": "Radiotherapy",
+        "definition": "Treatment that uses ionising radiation to control or destroy unwanted tissue such as cancer cells."
+      },
+      {
+        "term": "External radiotherapy",
+        "definition": "Radiotherapy using beams of radiation from outside the body aimed at the tumour."
+      },
+      {
+        "term": "Internal radiotherapy",
+        "definition": "Radiotherapy in which a radioactive source is placed inside the body, next to or inside the tumour."
+      },
+      {
+        "term": "Perceived risk",
+        "definition": "How dangerous people believe something to be, which may differ from the actual risk shown by data."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Tracer activity after a scan",
+        "question": "A patient is given technetium-99m with an activity of 600 MBq. Its half-life is 6 hours. Calculate the activity 24 hours later.",
+        "steps": [
+          "Number of half-lives = 24 ÷ 6 = 4.",
+          "600 ÷ 2⁴ = 600 ÷ 16.",
+          "= 37.5 MBq."
+        ],
+        "answer": "37.5 MBq"
+      },
+      {
+        "title": "Choosing a tracer",
+        "question": "Which is the best tracer: P (alpha, 6 hours), Q (gamma, 6 hours), R (gamma, 20 years) or S (beta, 2 minutes)?",
+        "steps": [
+          "Alpha (P) cannot leave the body and is very damaging inside it.",
+          "R has too long a half-life: it would irradiate the patient for years.",
+          "S decays too quickly to complete a scan, and beta is absorbed by tissue.",
+          "Q emits gamma, which leaves the body, and lasts long enough for a scan."
+        ],
+        "answer": "Q"
+      },
+      {
+        "title": "Using risk data",
+        "question": "A scan gives a dose of 5 mSv. The estimated extra risk of developing cancer is 1 in 20 000 for each mSv. Calculate the risk from the scan.",
+        "steps": [
+          "Risk = 5 × (1 ÷ 20 000).",
+          "= 5 ÷ 20 000 = 1 ÷ 4000."
+        ],
+        "answer": "About 1 in 4000"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Using a tracer and a gamma camera",
+        "caption": "A gamma-emitting tracer collects in the organ. Gamma rays pass out of the body to the gamma camera, which forms an image.",
+        "svg": "<svg viewBox='0 0 440 240' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='40' width='320' height='40' rx='4' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><ellipse cx='220' cy='160' rx='170' ry='36' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><ellipse cx='200' cy='155' rx='34' ry='16' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><g fill='#c4b5fd' fill-opacity='0.9' stroke='currentColor'><circle cx='190' cy='152' r='3'/><circle cx='205' cy='158' r='3'/><circle cx='214' cy='150' r='3'/></g><g stroke='currentColor' stroke-width='1.5' fill='none'><path d='M190 148 q4 -8 0 -16 t0 -16 t0 -16 t0 -16 t0 -14'/><path d='M214 146 q4 -8 0 -16 t0 -16 t0 -16 t0 -16 t0 -12'/></g><g fill='currentColor'><polygon points='186,82 194,82 190,74'/><polygon points='210,82 218,82 214,74'/></g><g stroke='currentColor'><line x1='380' y1='60' x2='400' y2='60'/><line x1='234' y1='155' x2='300' y2='215'/><line x1='60' y1='150' x2='30' y2='120'/></g><g font-size='12' fill='currentColor'><text x='150' y='30'>gamma camera (detector)</text><text x='300' y='228'>organ containing tracer</text><text x='10' y='112'>patient</text><text x='230' y='110'>gamma rays</text><text x='230' y='124'>pass out of body</text><text x='80' y='64'>image shows where the tracer collects</text></g></svg>"
+      },
+      {
+        "title": "External radiotherapy",
+        "caption": "Gamma beams from several directions overlap at the tumour, giving it a high dose while each path through healthy tissue gets a lower dose.",
+        "svg": "<svg viewBox='0 0 440 250' xmlns='http://www.w3.org/2000/svg'><ellipse cx='220' cy='125' rx='120' ry='80' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='220' cy='125' r='14' fill='#fca5a5' fill-opacity='0.7' stroke='currentColor'/><g stroke='currentColor' stroke-width='2'><line x1='220' y1='20' x2='220' y2='110'/><line x1='50' y1='120' x2='196' y2='124'/><line x1='390' y1='120' x2='244' y2='124'/><line x1='120' y1='220' x2='206' y2='138'/><line x1='320' y1='220' x2='234' y2='138'/></g><g fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'><circle cx='220' cy='20' r='7'/><circle cx='50' cy='120' r='7'/><circle cx='390' cy='120' r='7'/><circle cx='120' cy='220' r='7'/><circle cx='320' cy='220' r='7'/></g><g stroke='currentColor'><line x1='234' y1='125' x2='300' y2='60'/><line x1='330' y1='160' x2='380' y2='190'/></g><g font-size='12' fill='currentColor'><text x='300' y='54'>tumour receives</text><text x='300' y='40'>beams cross here:</text><text x='300' y='68'>a high dose</text><text x='340' y='206'>healthy tissue gets</text><text x='340' y='220'>a lower dose</text><text x='10' y='20'>gamma sources</text><text x='10' y='245'>Beams from different directions overlap only at the tumour.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think tracers should be alpha emitters because alpha is easy to stop.",
+        "right": "In fact alpha cannot get out of the body to be detected, and it is very damaging inside the body. Tracers use gamma emitters."
+      },
+      {
+        "wrong": "Students often think a tracer should have a long half-life so it lasts a long time.",
+        "right": "In fact a short half-life (hours) is used, so the patient is not exposed to radiation for longer than needed."
+      },
+      {
+        "wrong": "Students often think radiotherapy only damages cancer cells.",
+        "right": "In fact radiation also damages healthy cells; techniques such as using several beams aim to reduce the dose to healthy tissue."
+      },
+      {
+        "wrong": "Students often think patients become permanently radioactive after a scan.",
+        "right": "In fact the tracer decays (and is excreted) within a day or two because of its short half-life."
+      }
+    ],
+    "realWorld": [
+      "Technetium-99m scans are used millions of times a year worldwide to check bones, the heart and kidneys.",
+      "Radioactive iodine-131 treatment is used to treat an overactive thyroid and thyroid cancer.",
+      "Small radioactive seeds implanted in the prostate (brachytherapy) are used to treat prostate cancer."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only. It is not assessed in Combined Science Trilogy (8464)."
+    ],
+    "examTips": [
+      "For tracer questions, justify the choice with two properties: type of radiation (gamma, to leave the body) and half-life (short, but long enough for the test).",
+      "For radiotherapy, explain why beams are aimed from different directions: the tumour gets a high dose and healthy tissue a lower dose.",
+      "When asked to evaluate risks, use the numbers given, compare with the benefit, and give a conclusion.",
+      "Do not confuse tracers (diagnosis, low dose) with radiotherapy (treatment, high dose to kill cells)."
+    ],
+    "summary": [
+      "Medical uses: exploring internal organs and destroying unwanted tissue.",
+      "Tracers: gamma emitters with short half-lives, detected by a gamma camera.",
+      "Radiotherapy: gamma beams from several directions, or internal beta sources.",
+      "Benefits must be weighed against risks using data such as dose.",
+      "Precautions protect both patients and staff."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Two main medical uses of nuclear radiation?",
+      "back": "Exploring internal organs (tracers) and controlling or destroying unwanted tissue (radiotherapy)."
+    },
+    {
+      "front": "What is a medical tracer?",
+      "back": "A radioactive isotope taken into the body so that it can be detected from outside."
+    },
+    {
+      "front": "Which radiation should a tracer emit and why?",
+      "back": "Gamma: it passes out of the body to the detector and is weakly ionising."
+    },
+    {
+      "front": "What half-life should a tracer have?",
+      "back": "Short (a few hours): long enough for the scan, short enough to limit the dose."
+    },
+    {
+      "front": "Name a common medical tracer.",
+      "back": "Technetium-99m (half-life about 6 hours)."
+    },
+    {
+      "front": "What detects a tracer outside the body?",
+      "back": "A gamma camera."
+    },
+    {
+      "front": "Why are radiotherapy beams aimed from several directions?",
+      "back": "They overlap at the tumour (high dose) while healthy tissue gets a lower dose."
+    },
+    {
+      "front": "Why are beta emitters used for internal radiotherapy?",
+      "back": "Short range in tissue, so damage is concentrated in the tumour."
+    },
+    {
+      "front": "What is iodine-131 used for?",
+      "back": "Treating thyroid cancer (it is taken up by the thyroid)."
+    },
+    {
+      "front": "Main risk of medical radiation?",
+      "back": "Damage to healthy cells (DNA), increasing cancer risk."
+    },
+    {
+      "front": "Why is alpha not used as a tracer?",
+      "back": "It cannot leave the body and is highly ionising inside it."
+    },
+    {
+      "front": "What must be balanced when using radiation in medicine?",
+      "back": "The benefits (diagnosis or treatment) against the risks (harm from radiation)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-uses-of-nuclear-radiation-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of radiation should a medical tracer emit?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Neutrons"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Gamma"
+      ],
+      "explanation": "Gamma rays can pass out of the body to be detected and are the least ionising. Alpha and beta would be absorbed in the body."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the purpose of a medical tracer?",
+      "options": [
+        "To destroy cancer cells",
+        "To explore internal organs",
+        "To sterilise equipment",
+        "To measure background radiation"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: To explore internal organs"
+      ],
+      "explanation": "Tracers are used to explore internal organs and check how they are working. Destroying cancer cells is radiotherapy."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is radiotherapy used for?",
+      "options": [
+        "Destroying unwanted tissue such as tumours",
+        "Making images of bones",
+        "Measuring blood flow",
+        "Sterilising food"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Destroying unwanted tissue such as tumours"
+      ],
+      "explanation": "Radiotherapy uses radiation to control or destroy unwanted tissue."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which half-life is most suitable for a tracer injected into a patient?",
+      "options": [
+        "10 seconds",
+        "6 hours",
+        "10 years",
+        "10 000 years"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 6 hours"
+      ],
+      "explanation": "6 hours gives enough time to do the scan, and the activity then falls quickly. Seconds is too short; years would irradiate the patient for too long."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In external radiotherapy, why are beams of gamma rays aimed at a tumour from several directions?",
+      "options": [
+        "To make the treatment quicker",
+        "So the beams cancel out in healthy tissue",
+        "So that the tumour gets a high dose while healthy tissue gets a lower dose",
+        "Because gamma rays cannot travel in straight lines"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: So that the tumour gets a high dose while healthy tissue gets a lower dose"
+      ],
+      "explanation": "Each beam passes through different healthy tissue, but all overlap at the tumour, concentrating the dose there."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is a beta emitter often used for internal radiotherapy?",
+      "options": [
+        "Beta has a short range in tissue, so the damage is concentrated near the source",
+        "Beta passes straight out of the body",
+        "Beta is not ionising",
+        "Beta has no charge"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Beta has a short range in tissue, so the damage is concentrated near the source"
+      ],
+      "explanation": "Beta travels only a short distance in tissue, so its energy is deposited in and near the tumour."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is an alpha emitter not used as a tracer?",
+      "options": [
+        "Its half-life is always too long",
+        "It is not detected by any instrument",
+        "It is the most penetrating radiation",
+        "It cannot pass out of the body and is very damaging inside it"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It cannot pass out of the body and is very damaging inside it"
+      ],
+      "explanation": "Alpha is absorbed within a few cells, so it would not reach a detector outside the body, and it is strongly ionising."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A patient is given a tracer with an activity of 800 MBq and a half-life of 6 hours. What is its activity 18 hours later?",
+      "options": [
+        "400 MBq",
+        "266 MBq",
+        "100 MBq",
+        "200 MBq"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 100 MBq"
+      ],
+      "explanation": "18 ÷ 6 = 3 half-lives: 800 → 400 → 200 → 100 MBq. 266 MBq comes from dividing by 3."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Iodine-131 is used to treat thyroid cancer. Why is it effective?",
+      "options": [
+        "It emits only gamma rays that pass through the thyroid",
+        "It is taken up by the thyroid and emits beta radiation that kills nearby cells",
+        "It is an alpha emitter that stays outside the body",
+        "It has a half-life of several thousand years"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It is taken up by the thyroid and emits beta radiation that kills nearby cells"
+      ],
+      "explanation": "The thyroid absorbs iodine, so the isotope collects there. Its beta radiation is absorbed by thyroid tissue, killing cancer cells."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A patient is given technetium-99m with an activity of 480 MBq. Its half-life is 6 hours.\nCalculate the activity after 24 hours.",
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "MBq",
+      "markScheme": [
+        "1 mark: 24 ÷ 6 = 4 half-lives",
+        "1 mark: 480 ÷ 16 = 30 MBq"
+      ],
+      "explanation": "Four halvings: 480 → 240 → 120 → 60 → 30 MBq."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Iodine-131 has a half-life of 8 days. A patient is treated with 3200 MBq.\nCalculate how many days it takes for the activity in the patient to fall to 400 MBq (ignore any iodine leaving the body).",
+      "numericAnswer": 24,
+      "tolerance": 0.01,
+      "unit": "days",
+      "markScheme": [
+        "1 mark: 3200 → 1600 → 800 → 400 is 3 half-lives",
+        "1 mark: 3 × 8 = 24 days"
+      ],
+      "explanation": "3200 ÷ 400 = 8 = 2³, so 3 half-lives."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A CT scan gives a dose of 0.006 Sv. The average annual UK background dose is 2.7 mSv.\nCalculate how many years of background radiation give the same dose as the scan. Give your answer to 2 significant figures.",
+      "numericAnswer": 2.2,
+      "tolerance": 0.02,
+      "unit": "years",
+      "markScheme": [
+        "1 mark: 0.006 Sv = 6 mSv",
+        "1 mark: 6 ÷ 2.7 = 2.2 years"
+      ],
+      "explanation": "Convert to the same units first: 6 ÷ 2.7 = 2.22, so about 2.2 years."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The estimated extra risk of developing cancer from radiation is 1 in 20 000 for each mSv received. A patient has a scan giving a dose of 8 mSv.\nCalculate the risk as '1 in N'. Give the value of N.",
+      "numericAnswer": 2500,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: risk = 8 × 1/20 000 = 8/20 000",
+        "1 mark: = 1/2500, so N = 2500"
+      ],
+      "explanation": "8 ÷ 20 000 = 0.0004 = 1/2500."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A hospital has two possible tracers, each with a starting activity of 640 MBq. Tracer X has a half-life of 2 hours and tracer Y has a half-life of 8 hours.\nCalculate how many times greater the activity of Y is than the activity of X after 8 hours.",
+      "numericAnswer": 8,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: X: 4 half-lives, 640 ÷ 16 = 40 MBq",
+        "1 mark: Y: 1 half-life, 640 ÷ 2 = 320 MBq",
+        "1 mark: 320 ÷ 40 = 8 times"
+      ],
+      "explanation": "Y decays much more slowly, so it continues to irradiate the patient for longer."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q15",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give the two main uses of nuclear radiation in medicine.",
+      "acceptedAnswers": [
+        "exploring internal organs",
+        "tracers",
+        "destroying unwanted tissue",
+        "radiotherapy",
+        "treating cancer"
+      ],
+      "markScheme": [
+        "1 mark: exploration of internal organs (tracers)",
+        "1 mark: control or destruction of unwanted tissue (radiotherapy)"
+      ],
+      "explanation": "These are the two uses named in the specification."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the device used to detect gamma rays from a tracer inside a patient.",
+      "acceptedAnswers": [
+        "gamma camera"
+      ],
+      "markScheme": [
+        "1 mark: gamma camera"
+      ],
+      "explanation": "A gamma camera builds up an image from gamma rays leaving the body."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a medical tracer should have a short half-life.",
+      "acceptedAnswers": [
+        "less time irradiating patient",
+        "lower dose",
+        "activity falls quickly",
+        "less damage to cells"
+      ],
+      "markScheme": [
+        "1 mark: its activity falls quickly after the scan",
+        "1 mark: so the patient receives a smaller dose / less damage to healthy cells"
+      ],
+      "explanation": "Long half-life tracers would keep irradiating the patient after the test."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a tracer must not have a half-life that is too short.",
+      "acceptedAnswers": [
+        "decays before scan",
+        "not enough time",
+        "activity too low to detect"
+      ],
+      "markScheme": [
+        "1 mark: it would decay before it reached the organ / before the scan is complete",
+        "1 mark: so the activity would be too low to detect / produce an image"
+      ],
+      "explanation": "The tracer has to last long enough for the procedure."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the risks to a patient of being treated with radiotherapy.",
+      "acceptedAnswers": [
+        "damage to healthy cells",
+        "radiation sickness",
+        "cancer risk",
+        "DNA damage"
+      ],
+      "markScheme": [
+        "1 mark: radiation can damage (kill) healthy cells as well as cancer cells",
+        "1 mark: may cause side effects such as radiation sickness / increased risk of another cancer later"
+      ],
+      "explanation": "The aim is to make the benefit greater than these risks."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A patient is worried about having a tracer scan that gives a dose of 4 mSv. Suggest how a doctor could use data to reassure the patient.",
+      "acceptedAnswers": [
+        "compare with background",
+        "about 1.5 years background",
+        "small risk",
+        "benefit outweighs risk"
+      ],
+      "markScheme": [
+        "1 mark: compare the dose with background radiation (about 2.7 mSv per year, so about 1.5 years' worth)",
+        "1 mark: the extra risk of harm is very small (e.g. 1 in 5000)",
+        "1 mark: the benefit of diagnosing the illness is greater than the small risk"
+      ],
+      "explanation": "Using data helps match perceived risk to actual risk."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why patients who have been given a radioactive tracer are advised to avoid close contact with pregnant women for a day or two.",
+      "acceptedAnswers": [
+        "patient emits radiation",
+        "gamma passes out of body",
+        "fetus sensitive",
+        "irradiation"
+      ],
+      "markScheme": [
+        "1 mark: the patient emits gamma radiation, which can irradiate people nearby",
+        "1 mark: a developing baby's cells are especially sensitive to radiation damage (and after a day or two the tracer has decayed)"
+      ],
+      "explanation": "The short half-life means the advice is only needed briefly."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a gamma camera produce?",
+      "options": [
+        "A beam to destroy tumours",
+        "An image showing where a tracer has collected",
+        "A measurement of the patient's temperature",
+        "A reading of background radiation"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: An image showing where a tracer has collected"
+      ],
+      "explanation": "The gamma camera detects gamma rays from the tracer and forms an image of the organ."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which property makes technetium-99m a good medical tracer?",
+      "options": [
+        "It emits alpha particles and has a half-life of 6 years",
+        "It emits beta particles and has a half-life of 6 seconds",
+        "It emits alpha particles and has a half-life of 6 hours",
+        "It emits gamma rays and has a half-life of about 6 hours"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It emits gamma rays and has a half-life of about 6 hours"
+      ],
+      "explanation": "Gamma leaves the body to be detected, and a 6-hour half-life is long enough for a scan but short enough to limit the dose."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State why ionising radiation can be used to destroy cancer cells.",
+      "acceptedAnswers": [
+        "damages cells",
+        "kills cells",
+        "damages DNA",
+        "ionises"
+      ],
+      "markScheme": [
+        "1 mark: ionising radiation damages (kills) cells / damages their DNA"
+      ],
+      "explanation": "The same property that makes radiation hazardous is used to kill unwanted cells."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a radioactive tracer is used to explore an internal organ, and explain the properties the tracer should have.",
+      "markScheme": [
+        "Indicative content: tracer is injected, swallowed or inhaled; carried to and collects in the organ; gamma camera outside body detects radiation and forms image; shows how organ is working or blockages; should emit gamma so radiation passes out of the body and is weakly ionising; short half-life (hours) so dose is low but long enough for the test; e.g. technetium-99m.",
+        "Level 2 (3 to 4 marks): clear description of the process and both properties explained.",
+        "Level 1 (1 to 2 marks): basic description or one property given.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Both properties (gamma and short half-life) need a reason."
+    },
+    {
+      "id": "p4-uses-of-nuclear-radiation-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Radiation is used in medicine both to explore internal organs and to destroy cancer tumours.\nCompare these two uses, including the type of radiation, the half-life of the sources and the dose involved, and evaluate the risks and benefits to the patient.",
+      "markScheme": [
+        "Indicative content: tracers: gamma emitter so it leaves body; short half-life (hours); low dose; benefit is diagnosis; risk small (small increase in cancer risk); radiotherapy: external gamma beams from several directions overlap at tumour, or internal beta sources placed in/near tumour (short range, damage concentrated), e.g. iodine-131 for thyroid; high dose deliberately to kill cells; risk of damage to healthy tissue, side effects, radiation sickness, later cancers; benefit is treating a life-threatening disease; evaluation: benefits normally outweigh risks, use of data such as dose in mSv; precautions for staff and patients.",
+        "Level 3 (5 to 6 marks): detailed comparison of both uses with correct radiation types, half-lives and doses, and a reasoned evaluation of risks and benefits with a conclusion.",
+        "Level 2 (3 to 4 marks): describes both uses with some correct properties and some evaluation.",
+        "Level 1 (1 to 2 marks): simple statements about one or both uses.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Compare like with like: radiation type, half-life, dose and purpose. Finish with a judgement about benefits versus risks."
+    }
+  ]
+}

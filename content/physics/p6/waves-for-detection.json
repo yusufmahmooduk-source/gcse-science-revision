@@ -1,0 +1,725 @@
+{
+  "id": "p6-waves-for-detection",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "waves-for-detection",
+  "specRef": "4.6.1.5",
+  "title": "Waves for detection and exploration",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Ultrasound (sound above 20 kHz) is partially reflected at boundaries between different media, and the time taken for each echo to return gives the distance to the boundary. Seismic waves from earthquakes (longitudinal P-waves and transverse S-waves) and echo sounding in water use the same ideas of reflection, refraction and differences in speed and absorption to explore structures that cannot be seen directly.",
+    "explanation": [
+      "Ultrasound waves have a frequency higher than the upper limit of human hearing, 20 kHz. When ultrasound reaches a boundary between two different media, part of the wave is reflected and the rest is transmitted. A probe sends short pulses of ultrasound and detects the echoes. The time for each echo to return tells you how far away the boundary is: distance = speed × time ÷ 2, because the pulse travels to the boundary and back. A computer uses many echoes to build an image.",
+      "Ultrasound is used for medical imaging, for example scanning a fetus during pregnancy, because it is not ionising and is safe for the mother and baby. It shows boundaries between soft tissues and fluids. In industry, ultrasound is used to find hidden cracks or flaws inside metal objects such as pipes, rails or welds: an early echo shows a crack before the back wall of the metal is reached.",
+      "Earthquakes produce seismic waves that travel through the Earth. P-waves are longitudinal and can travel through both solids and liquids, at different speeds in each. S-waves are transverse and cannot travel through liquids. P-waves travel faster than S-waves, so they arrive at seismometers first. Seismometers all over the world record which waves arrive, and when.",
+      "Seismic waves provide evidence for the structure and size of the Earth's core. S-waves are not detected on the far side of the Earth from an earthquake: there is a large S-wave shadow zone. This shows that part of the core (the outer core) is liquid, because S-waves cannot travel through it. P-waves are refracted as they enter and leave the core because their speed changes, which produces two P-wave shadow zones where no P-waves arrive. The size and position of these shadow zones allow scientists to work out the size of the core.",
+      "Echo sounding (sonar) uses high-frequency sound waves to detect objects in deep water and to measure the depth of water. A pulse is sent down from a ship and the time for the echo from the seabed or a shoal of fish is measured. In all these methods, the differences in velocity, absorption and reflection of different types of wave in solids and liquids let us detect and explore structures hidden from direct observation."
+    ],
+    "keyFacts": [
+      "Ultrasound has a frequency above 20 kHz.",
+      "Ultrasound is partially reflected at a boundary between two different media.",
+      "distance to boundary = speed × time ÷ 2 (the echo travels there and back).",
+      "Uses of ultrasound: medical imaging (pre-natal scans) and industrial imaging (finding flaws in metals).",
+      "P-waves: longitudinal, travel through solids and liquids, faster than S-waves.",
+      "S-waves: transverse, cannot travel through liquids.",
+      "The S-wave shadow zone shows the outer core is liquid.",
+      "P-waves refract at the core boundaries, producing P-wave shadow zones that reveal the core's size.",
+      "Echo sounding uses high-frequency sound to measure water depth and detect objects."
+    ],
+    "keyTerms": [
+      {
+        "term": "Ultrasound",
+        "definition": "Sound waves with a frequency higher than 20 kHz, above the range of human hearing."
+      },
+      {
+        "term": "Echo",
+        "definition": "A reflected sound wave (or pulse) that returns to the detector."
+      },
+      {
+        "term": "P-wave",
+        "definition": "A primary seismic wave: longitudinal, travels through solids and liquids, and arrives first."
+      },
+      {
+        "term": "S-wave",
+        "definition": "A secondary seismic wave: transverse and cannot travel through liquids."
+      },
+      {
+        "term": "Seismometer",
+        "definition": "An instrument that detects and records seismic waves."
+      },
+      {
+        "term": "Shadow zone",
+        "definition": "A region of the Earth's surface where a particular type of seismic wave is not detected after an earthquake."
+      },
+      {
+        "term": "Echo sounding",
+        "definition": "Using pulses of high-frequency sound and timing their echoes to find the depth of water or detect underwater objects."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Distance travelled at constant speed",
+        "formula": "distance travelled = speed × time",
+        "symbols": "s = v t",
+        "units": "s in m, v in m/s, t in s",
+        "recall": true
+      },
+      {
+        "name": "Wave speed",
+        "formula": "wave speed = frequency × wavelength",
+        "symbols": "v = f λ",
+        "units": "v in m/s, f in Hz, λ in m",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Echo sounding depth",
+        "question": "A ship sends a pulse of high-frequency sound straight down. The echo from the seabed returns after 0.80 s. Sound travels at 1500 m/s in sea water. Calculate the depth of the water.",
+        "steps": [
+          "Total distance travelled = speed × time = 1500 × 0.80 = 1200 m.",
+          "This is there and back, so divide by 2.",
+          "Depth = 1200 ÷ 2 = 600 m."
+        ],
+        "answer": "600 m"
+      },
+      {
+        "title": "Ultrasound in the body (microseconds and MHz)",
+        "question": "An ultrasound pulse of frequency 2.0 MHz travels at 1500 m/s in soft tissue. An echo from a boundary returns 80 μs after the pulse was sent. Calculate (a) the wavelength of the ultrasound and (b) the depth of the boundary.",
+        "steps": [
+          "(a) 2.0 MHz = 2.0 × 10⁶ Hz. λ = v ÷ f = 1500 ÷ 2.0 × 10⁶ = 7.5 × 10⁻⁴ m (0.75 mm).",
+          "(b) 80 μs = 80 × 10⁻⁶ s = 8.0 × 10⁻⁵ s.",
+          "Distance there and back = 1500 × 8.0 × 10⁻⁵ = 0.12 m.",
+          "Depth = 0.12 ÷ 2 = 0.06 m (6 cm)."
+        ],
+        "answer": "(a) 7.5 × 10⁻⁴ m (b) 0.06 m"
+      },
+      {
+        "title": "Finding the echo time (rearranging)",
+        "question": "The sea is 3000 m deep. Sound travels at 1500 m/s in sea water. How long after a pulse is sent will its echo return?",
+        "steps": [
+          "Total distance = 2 × 3000 = 6000 m.",
+          "Rearrange s = v t to give t = s ÷ v.",
+          "t = 6000 ÷ 1500 = 4.0 s."
+        ],
+        "answer": "4.0 s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Ultrasound echoes from boundaries",
+        "caption": "A pulse from the probe is partly reflected at each boundary between different media. Echoes from deeper boundaries take longer to return, so their timing gives the depth of each boundary.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='60' height='40' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><rect x='80' y='30' width='120' height='170' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='200' y='30' width='100' height='170' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><rect x='300' y='30' width='100' height='170' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='2'><line x1='80' y1='60' x2='200' y2='60'/><line x1='200' y1='90' x2='80' y2='90'/><line x1='200' y1='60' x2='300' y2='60'/><line x1='300' y1='120' x2='80' y2='120'/></g><path d='M160.0 60.0 L151.0 64.5 L151.0 55.5 Z' fill='currentColor'/><path d='M260.0 60.0 L251.0 64.5 L251.0 55.5 Z' fill='currentColor'/><path d='M140.0 90.0 L149.0 85.5 L149.0 94.5 Z' fill='currentColor'/><path d='M150.0 120.0 L159.0 115.5 L159.0 124.5 Z' fill='currentColor'/><line x1='200' y1='60' x2='200' y2='90' stroke='currentColor' stroke-dasharray='2 2'/><line x1='300' y1='60' x2='300' y2='120' stroke='currentColor' stroke-dasharray='2 2'/><g font-size='12' fill='currentColor'><text x='26' y='54'>probe</text><text x='86' y='190'>medium 1</text><text x='206' y='190'>medium 2</text><text x='306' y='190'>medium 3</text><text x='86' y='52'>pulse sent</text><text x='86' y='108'>echo 1</text><text x='86' y='138'>echo 2 (later)</text><text x='150' y='222'>boundary 1</text><text x='270' y='222'>boundary 2</text></g><g stroke='currentColor'><line x1='190' y1='210' x2='200' y2='200'/><line x1='310' y1='210' x2='300' y2='200'/></g></svg>"
+      },
+      {
+        "title": "Seismic waves and shadow zones",
+        "caption": "S-waves cannot pass through the liquid outer core, giving a large S-wave shadow zone. P-waves are refracted at the core boundaries, producing P-wave shadow zones. Together these show the core's size and that the outer core is liquid.",
+        "svg": "<svg viewBox='0 0 480 290' xmlns='http://www.w3.org/2000/svg'><circle cx='170' cy='140' r='110' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='170' cy='140' r='60.50000000000001' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><circle cx='170' cy='140' r='20.9' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='1.2'><line x1='170.0' y1='30.0' x2='247.8' y2='62.2'/><line x1='170.0' y1='30.0' x2='278.3' y2='120.9'/><line x1='170.0' y1='30.0' x2='276.7' y2='166.6'/><line x1='170.0' y1='30.0' x2='92.2' y2='62.2'/><line x1='170.0' y1='30.0' x2='61.7' y2='120.9'/><line x1='170.0' y1='30.0' x2='63.3' y2='166.6'/></g><g stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'><polyline points='170.0,30.0 192.7,83.9 200.3,192.4 207.6,243.4' fill='none'/><polyline points='170.0,30.0 147.3,83.9 139.8,192.4 132.4,243.4' fill='none'/></g><path d='M284.5 168.5 A118 118 0 0 1 55.5 168.5' fill='none' stroke='#93c5fd' stroke-width='6' stroke-opacity='0.8'/><path d='M292.3 170.5 A126 126 0 0 1 251.0 236.5' fill='none' stroke='#86efac' stroke-width='6' stroke-opacity='0.8'/><path d='M89.0 236.5 A126 126 0 0 1 47.7 170.5' fill='none' stroke='#86efac' stroke-width='6' stroke-opacity='0.8'/><circle cx='170.0' cy='30.0' r='4' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='140' y='20'>earthquake</text><text x='150' y='144'>inner</text><text x='144' y='102'>outer core</text><text x='146' y='114'>(liquid)</text><text x='225' y='202'>mantle</text><text x='310' y='60'>solid lines: P and S waves</text><text x='310' y='76'>dashed: P waves refracted</text><text x='310' y='92'>through the core</text><text x='310' y='196'>blue band: S-wave shadow</text><text x='310' y='212'>zone (no S waves: they</text><text x='310' y='228'>cannot cross liquid core)</text><text x='310' y='252'>green bands: P-wave</text><text x='310' y='268'>shadow zones</text><text x='10' y='284'>Paths drawn straight for simplicity (real paths curve).</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use the full echo time to calculate the distance to a boundary.",
+        "right": "In fact the pulse travels there and back, so distance = speed × time ÷ 2."
+      },
+      {
+        "wrong": "Students often think S-waves stop at the core because the core is solid or too hot.",
+        "right": "In fact S-waves are transverse and cannot travel through liquids, so their absence shows the outer core is liquid."
+      },
+      {
+        "wrong": "Students often think ultrasound is completely reflected at a boundary.",
+        "right": "In fact it is partially reflected and partially transmitted, which is why echoes from several deeper boundaries can be detected."
+      },
+      {
+        "wrong": "Students often think P-waves are transverse because 'P' sounds like 'perpendicular'.",
+        "right": "In fact P-waves are longitudinal (think 'pressure' or 'push'); S-waves are transverse ('shake')."
+      }
+    ],
+    "realWorld": [
+      "Pre-natal ultrasound scans let doctors check the growth of a fetus without using ionising radiation.",
+      "Rail and pipeline engineers use ultrasound to find internal cracks before they cause failures.",
+      "Fishing boats use echo sounders to find shoals of fish and measure the depth of the seabed.",
+      "A worldwide network of seismometers records earthquakes and has revealed the layered structure of the Earth."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The whole of this subtopic is Higher tier only (separate Physics).",
+      "Ultrasound: partial reflection at boundaries and timing of echoes to find distances; medical and industrial imaging.",
+      "Seismic P-waves and S-waves as evidence for the structure and size of the Earth's core.",
+      "Echo sounding to detect objects in deep water and measure water depth.",
+      "Explain in qualitative terms how differences in velocity, absorption and reflection between different types of wave in solids and liquids can be used for detection and exploration."
+    ],
+    "separateOnlyContent": [
+      "Ultrasound, seismic waves and echo sounding are in separate Physics only."
+    ],
+    "examTips": [
+      "In echo calculations, always halve the total distance (or double the depth) because the pulse goes there and back.",
+      "Convert MHz to Hz (× 10⁶) and μs to s (× 10⁻⁶) before calculating.",
+      "Remember: P-waves are longitudinal and travel through solids and liquids; S-waves are transverse and only travel through solids.",
+      "When explaining the evidence for a liquid outer core, link the S-wave shadow zone to the fact that S-waves cannot travel through liquids.",
+      "Explain P-wave shadow zones using refraction: P-waves change speed and direction at the core boundaries."
+    ],
+    "summary": [
+      "Ultrasound is above 20 kHz and is partially reflected at boundaries.",
+      "Echo timing gives distance: d = v × t ÷ 2.",
+      "Medical scans and industrial flaw detection use ultrasound.",
+      "P-waves are longitudinal; S-waves are transverse and cannot pass through liquids.",
+      "Shadow zones show the outer core is liquid and reveal the size of the core.",
+      "Echo sounding finds water depth and underwater objects."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is ultrasound?",
+      "back": "Sound with a frequency above 20 kHz."
+    },
+    {
+      "front": "What happens to ultrasound at a boundary between two media?",
+      "back": "It is partially reflected; the rest is transmitted."
+    },
+    {
+      "front": "How is the distance to a boundary found from an echo?",
+      "back": "distance = speed × time ÷ 2 (the pulse travels there and back)."
+    },
+    {
+      "front": "Two uses of ultrasound imaging?",
+      "back": "Medical imaging (e.g. pre-natal scans) and industrial imaging (finding flaws in metal)."
+    },
+    {
+      "front": "Are P-waves transverse or longitudinal?",
+      "back": "Longitudinal."
+    },
+    {
+      "front": "Are S-waves transverse or longitudinal?",
+      "back": "Transverse."
+    },
+    {
+      "front": "Which seismic waves can travel through liquids?",
+      "back": "P-waves only."
+    },
+    {
+      "front": "Which seismic waves arrive first at a seismometer?",
+      "back": "P-waves (they travel faster)."
+    },
+    {
+      "front": "What does the S-wave shadow zone show?",
+      "back": "That the Earth's outer core is liquid."
+    },
+    {
+      "front": "Why are there P-wave shadow zones?",
+      "back": "P-waves are refracted when they enter and leave the core because their speed changes."
+    },
+    {
+      "front": "What is echo sounding?",
+      "back": "Using high-frequency sound pulses and their echoes to measure water depth or detect objects underwater."
+    },
+    {
+      "front": "Why is ultrasound used for pre-natal scans instead of X-rays?",
+      "back": "Ultrasound is not ionising, so it does not damage cells of the fetus."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-waves-for-detection-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the minimum frequency of ultrasound?",
+      "options": [
+        "20 Hz",
+        "2 kHz",
+        "20 kHz",
+        "20 MHz"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 20 kHz"
+      ],
+      "explanation": "Ultrasound is sound above the upper limit of human hearing, which is 20 kHz."
+    },
+    {
+      "id": "p6-waves-for-detection-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which seismic waves cannot travel through liquids?",
+      "options": [
+        "S-waves",
+        "P-waves",
+        "Both P-waves and S-waves",
+        "Neither P-waves nor S-waves"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: S-waves"
+      ],
+      "explanation": "S-waves are transverse and cannot travel through liquids. P-waves are longitudinal and travel through both solids and liquids."
+    },
+    {
+      "id": "p6-waves-for-detection-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of wave is a P-wave?",
+      "options": [
+        "Transverse",
+        "Electromagnetic",
+        "Ultrasound",
+        "Longitudinal"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Longitudinal"
+      ],
+      "explanation": "P-waves are longitudinal seismic waves, like sound. S-waves are transverse."
+    },
+    {
+      "id": "p6-waves-for-detection-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is ultrasound useful for medical imaging?",
+      "options": [
+        "It is completely absorbed by bones",
+        "It is partially reflected at boundaries between different tissues",
+        "It travels at the speed of light",
+        "It is ionising and kills harmful cells"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It is partially reflected at boundaries between different tissues"
+      ],
+      "explanation": "Partial reflection at each tissue boundary produces echoes that build up an image. Ultrasound is not ionising, which is why it is safe for scans."
+    },
+    {
+      "id": "p6-waves-for-detection-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Seismometers on the opposite side of the Earth from an earthquake detect P-waves but no S-waves. What does this suggest?",
+      "options": [
+        "The Earth's core is completely solid",
+        "Part of the Earth's core is liquid",
+        "S-waves travel too slowly to reach the far side",
+        "S-waves are absorbed by the crust"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Part of the Earth's core is liquid"
+      ],
+      "explanation": "S-waves cannot travel through liquids, so their absence on the far side is evidence that the outer core is liquid."
+    },
+    {
+      "id": "p6-waves-for-detection-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why are there zones on the Earth's surface where no P-waves are detected after an earthquake?",
+      "options": [
+        "P-waves cannot travel through liquids",
+        "P-waves are absorbed completely by the mantle",
+        "P-waves travel too fast to be detected there",
+        "P-waves are refracted at the boundaries of the core"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: P-waves are refracted at the boundaries of the core"
+      ],
+      "explanation": "P-waves change speed at the core boundaries, so they change direction (refract). This bends them away from certain regions, creating P-wave shadow zones."
+    },
+    {
+      "id": "p6-waves-for-detection-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An ultrasound scan of a metal rail shows an echo arriving earlier than the echo from the back wall of the rail. What is the most likely explanation?",
+      "options": [
+        "There is a crack or flaw inside the rail",
+        "The ultrasound has been absorbed by the metal",
+        "The rail is thinner than expected everywhere",
+        "The ultrasound has travelled faster than usual"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: There is a crack or flaw inside the rail"
+      ],
+      "explanation": "An extra, earlier echo means a boundary closer to the probe than the back wall: a crack or flaw inside the metal."
+    },
+    {
+      "id": "p6-waves-for-detection-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement explains why P-waves arrive at a seismometer before S-waves from the same earthquake?",
+      "options": [
+        "P-waves have a higher amplitude",
+        "P-waves take a shorter route through the core",
+        "P-waves travel faster than S-waves",
+        "S-waves are reflected by the crust first"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: P-waves travel faster than S-waves"
+      ],
+      "explanation": "P-waves are faster in rock, so over the same distance they arrive first. The time gap between them increases with distance from the earthquake."
+    },
+    {
+      "id": "p6-waves-for-detection-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In echo sounding, what is measured to find the depth of water?",
+      "options": [
+        "The amplitude of the echo",
+        "The frequency of the echo",
+        "The wavelength of the pulse",
+        "The time between sending a pulse and receiving its echo"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The time between sending a pulse and receiving its echo"
+      ],
+      "explanation": "The echo time, combined with the speed of sound in water, gives the total distance; halving it gives the depth."
+    },
+    {
+      "id": "p6-waves-for-detection-q10",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A ship's echo sounder sends a pulse down. The echo returns after 0.80 s. Sound travels at 1500 m/s in sea water. Calculate the depth of the sea.",
+      "numericAnswer": 600,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: distance = 1500 × 0.80 = 1200 m",
+        "1 mark: depth = 1200 ÷ 2 = 600 m"
+      ],
+      "explanation": "The pulse travels to the seabed and back, so depth = 1500 × 0.80 ÷ 2 = 600 m. Forgetting to halve gives 1200 m."
+    },
+    {
+      "id": "p6-waves-for-detection-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Ultrasound travels at 1500 m/s in soft tissue. An echo from an organ returns 80 μs after the pulse is sent. Calculate the depth of the organ in metres.",
+      "numericAnswer": 0.06,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 80 μs = 8.0 × 10⁻⁵ s",
+        "1 mark: distance = 1500 × 8.0 × 10⁻⁵ = 0.12 m",
+        "1 mark: depth = 0.06 m"
+      ],
+      "explanation": "1500 × 0.00008 = 0.12 m there and back, so the organ is 0.06 m (6 cm) deep."
+    },
+    {
+      "id": "p6-waves-for-detection-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Calculate the wavelength of 2.0 MHz ultrasound travelling at 1500 m/s in soft tissue.",
+      "numericAnswer": 0.00075,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 2.0 MHz = 2.0 × 10⁶ Hz",
+        "1 mark: λ = 1500 ÷ 2.0 × 10⁶",
+        "1 mark: 7.5 × 10⁻⁴ m (0.00075 m)"
+      ],
+      "explanation": "λ = v ÷ f = 1500 ÷ 2 000 000 = 0.00075 m = 7.5 × 10⁻⁴ m."
+    },
+    {
+      "id": "p6-waves-for-detection-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The sea is 3000 m deep. Sound travels at 1500 m/s in sea water. Calculate the time for an echo from the seabed to return.",
+      "numericAnswer": 4,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: distance = 2 × 3000 = 6000 m",
+        "1 mark: t = 6000 ÷ 1500 = 4.0 s"
+      ],
+      "explanation": "The total path is 6000 m, so t = s ÷ v = 6000 ÷ 1500 = 4.0 s."
+    },
+    {
+      "id": "p6-waves-for-detection-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A P-wave travels at 8000 m/s. Calculate how long it takes to travel 2400 km.",
+      "numericAnswer": 300,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 2400 km = 2 400 000 m; t = 2 400 000 ÷ 8000",
+        "1 mark: 300 s"
+      ],
+      "explanation": "Convert km to m: 2.4 × 10⁶ m. t = s ÷ v = 2.4 × 10⁶ ÷ 8000 = 300 s."
+    },
+    {
+      "id": "p6-waves-for-detection-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Ultrasound travels at 6000 m/s in steel. An echo from a crack returns 10 μs after the pulse is sent. Calculate the depth of the crack below the surface in centimetres.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: 10 μs = 1.0 × 10⁻⁵ s; distance = 6000 × 1.0 × 10⁻⁵ = 0.06 m",
+        "1 mark: depth = 0.06 ÷ 2 = 0.03 m",
+        "1 mark: 3 cm"
+      ],
+      "explanation": "6000 × 0.00001 = 0.06 m there and back, so the crack is 0.03 m = 3 cm deep."
+    },
+    {
+      "id": "p6-waves-for-detection-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A seismometer is 900 km from an earthquake. P-waves travel at 8.0 km/s and S-waves at 4.5 km/s. Calculate the time between the arrival of the P-waves and the S-waves.",
+      "numericAnswer": 87.5,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: P time = 900 ÷ 8.0 = 112.5 s",
+        "1 mark: S time = 900 ÷ 4.5 = 200 s",
+        "1 mark: difference = 87.5 s"
+      ],
+      "explanation": "The S-waves take 200 s and the P-waves 112.5 s, so the S-waves arrive 87.5 s later. Larger gaps mean the earthquake is further away."
+    },
+    {
+      "id": "p6-waves-for-detection-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two uses of ultrasound.",
+      "acceptedAnswers": [
+        "pre-natal scans",
+        "medical imaging",
+        "detecting flaws in metal",
+        "industrial imaging",
+        "echo sounding"
+      ],
+      "markScheme": [
+        "1 mark: medical imaging, e.g. scanning a fetus",
+        "1 mark: industrial imaging, e.g. detecting cracks / flaws in metal"
+      ],
+      "explanation": "The spec names medical and industrial imaging as uses of ultrasound."
+    },
+    {
+      "id": "p6-waves-for-detection-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why ultrasound, rather than X-rays, is used to scan an unborn baby.",
+      "acceptedAnswers": [
+        "ultrasound not ionising",
+        "X-rays ionising",
+        "X-rays damage cells",
+        "mutation cancer"
+      ],
+      "markScheme": [
+        "1 mark: X-rays are ionising and could damage cells / cause mutations in the developing baby",
+        "1 mark: ultrasound is not ionising so is safe"
+      ],
+      "explanation": "Ultrasound images soft tissue without the risk of ionising radiation."
+    },
+    {
+      "id": "p6-waves-for-detection-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare P-waves and S-waves.",
+      "acceptedAnswers": [
+        "P longitudinal",
+        "S transverse",
+        "P travel through solids and liquids",
+        "S only solids",
+        "P faster"
+      ],
+      "markScheme": [
+        "1 mark: P-waves are longitudinal, S-waves are transverse",
+        "1 mark: P-waves travel through solids and liquids but S-waves cannot travel through liquids (or P-waves are faster)"
+      ],
+      "explanation": "A comparison needs a statement about both types of wave."
+    },
+    {
+      "id": "p6-waves-for-detection-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how the S-wave shadow zone provides evidence for the structure of the Earth.",
+      "acceptedAnswers": [
+        "S-waves transverse",
+        "cannot travel through liquid",
+        "not detected on far side",
+        "outer core liquid",
+        "size of shadow zone gives size of core"
+      ],
+      "markScheme": [
+        "1 mark: S-waves are not detected over a large region on the opposite side of the Earth from the earthquake",
+        "1 mark: S-waves cannot travel through liquids",
+        "1 mark: so (part of) the core must be liquid; the size of the shadow zone indicates the size of the core"
+      ],
+      "explanation": "The large shadow zone means S-waves are blocked by a liquid layer: the outer core."
+    },
+    {
+      "id": "p6-waves-for-detection-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a doctor measures the time taken for ultrasound echoes to return.",
+      "acceptedAnswers": [
+        "time gives distance to boundary",
+        "distance = speed × time ÷ 2",
+        "find depth"
+      ],
+      "markScheme": [
+        "1 mark: the time is used with the speed of ultrasound to calculate the distance / depth",
+        "1 mark: of the boundary (organ, tissue) from the probe, so an image can be built up"
+      ],
+      "explanation": "Echo time × speed ÷ 2 gives the depth of each boundary."
+    },
+    {
+      "id": "p6-waves-for-detection-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why a fishing boat's echo sounder can detect a shoal of fish as well as the seabed.",
+      "acceptedAnswers": [
+        "fish are a boundary",
+        "different medium reflects sound",
+        "partial reflection",
+        "echo returns sooner"
+      ],
+      "markScheme": [
+        "1 mark: sound is partially reflected by the fish because they are a different medium (boundary)",
+        "1 mark: the echo from the fish returns sooner than the echo from the seabed"
+      ],
+      "explanation": "Any boundary between different media reflects part of the wave. Shallower objects give earlier echoes."
+    },
+    {
+      "id": "p6-waves-for-detection-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how ultrasound is used to detect a flaw inside a metal pipe.",
+      "markScheme": [
+        "Indicative content:",
+        "a probe sends pulses of ultrasound into the metal",
+        "ultrasound is partially reflected at boundaries between different media",
+        "the probe detects the echoes and the time for each is measured",
+        "echo from the back wall of the pipe takes a fixed time",
+        "a flaw (crack) is a boundary, so it gives an extra echo that returns earlier",
+        "depth of flaw = speed × time ÷ 2",
+        "Level 2 (3 to 4 marks): clear description including partial reflection, timing of echoes and how the flaw is identified.",
+        "Level 1 (1 to 2 marks): simple statement that ultrasound reflects off cracks."
+      ],
+      "explanation": "The key ideas are partial reflection and using echo times to locate boundaries."
+    },
+    {
+      "id": "p6-waves-for-detection-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how scientists use seismic waves to find out about the structure of the Earth. Include the properties of P-waves and S-waves in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "earthquakes produce P-waves and S-waves, detected by seismometers around the world",
+        "P-waves: longitudinal, travel through solids and liquids, faster",
+        "S-waves: transverse, travel only through solids",
+        "S-waves are not detected in a large region opposite the earthquake (S-wave shadow zone)",
+        "so the outer core must be liquid",
+        "P-waves change speed at the boundaries of the core, so they are refracted",
+        "this produces P-wave shadow zones where no waves are detected",
+        "positions/sizes of shadow zones allow the size of the core to be calculated",
+        "wave paths curve because speed changes with depth / density",
+        "Level 3 (5 to 6 marks): detailed explanation linking both wave types' properties to the shadow zones and conclusions about the core's state and size.",
+        "Level 2 (3 to 4 marks): describes wave properties and at least one shadow zone with a conclusion.",
+        "Level 1 (1 to 2 marks): simple statements about P- and S-waves with little link to Earth's structure."
+      ],
+      "explanation": "Shadow zones are the key evidence: S-waves reveal the liquid outer core; P-wave refraction reveals the core's size."
+    },
+    {
+      "id": "p6-waves-for-detection-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is echo sounding used for?",
+      "options": [
+        "Measuring the temperature of the sea",
+        "Detecting earthquakes on land",
+        "Measuring the depth of water",
+        "Producing images of bones"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Measuring the depth of water"
+      ],
+      "explanation": "Echo sounding times echoes of high-frequency sound pulses to measure water depth and detect objects such as shipwrecks or fish."
+    },
+    {
+      "id": "p6-waves-for-detection-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the instrument used to detect seismic waves.",
+      "acceptedAnswers": [
+        "seismometer",
+        "seismograph"
+      ],
+      "markScheme": [
+        "1 mark: seismometer (allow seismograph)"
+      ],
+      "explanation": "Seismometers record the arrival times and sizes of P-waves and S-waves."
+    },
+    {
+      "id": "p6-waves-for-detection-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "An echo sounder's pulse returns after 0.40 s over one area of seabed and after 0.30 s a few metres further on. Suggest what this shows and explain your reasoning.",
+      "acceptedAnswers": [
+        "seabed shallower",
+        "object on seabed",
+        "shorter time shorter distance"
+      ],
+      "markScheme": [
+        "1 mark: the water is shallower there / there is an object (e.g. a wreck or rock) on the seabed",
+        "1 mark: because a shorter echo time means the reflecting boundary is closer"
+      ],
+      "explanation": "With constant speed of sound, a shorter echo time means a shorter distance to the reflecting surface."
+    }
+  ]
+}

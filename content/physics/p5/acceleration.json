@@ -1,0 +1,728 @@
+{
+  "id": "p5-acceleration",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "acceleration",
+  "specRef": "4.5.6.1.5",
+  "title": "Acceleration",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Acceleration is the rate of change of velocity: the change in velocity divided by the time taken for the change. It is a vector quantity measured in metres per second squared (m/s²).",
+    "explanation": [
+      "An object accelerates whenever its velocity changes. The average acceleration is calculated with a = Δv ÷ t, where Δv is the change in velocity in m/s (final velocity minus initial velocity) and t is the time taken in s. You must recall this equation. An acceleration of 2 m/s² means the velocity increases by 2 m/s every second. If an object slows down, the change in velocity is negative, so the acceleration is negative: the object is decelerating.",
+      "You should be able to estimate the size of everyday accelerations. A bus pulling away accelerates at roughly 1 m/s², a family car speeding up from 0 to 27 m/s (60 mph) in about 10 s has an acceleration of about 3 m/s², and a sprinter leaving the blocks reaches around 5 m/s². A car braking hard decelerates at roughly 5 to 7 m/s². The symbol ~ means \"approximately\", for example a ~ 3 m/s².",
+      "Motion can be shown on a velocity–time graph, with velocity on the y-axis and time on the x-axis. The gradient of a velocity–time graph equals the acceleration. A straight line sloping up shows constant acceleration; a horizontal line shows constant velocity (zero acceleration); a line sloping down shows deceleration. A steeper line means a larger acceleration, and a curve shows the acceleration is changing. (Higher) The area under a velocity–time graph equals the distance travelled (or displacement). Split the area into triangles and rectangles, or count the squares under the line and multiply by the distance each square represents.",
+      "For uniform (constant) acceleration, the equation v² − u² = 2 a s links final velocity v, initial velocity u, acceleration a and distance s. This equation is given on the equation sheet, so you do not need to recall it, but you must be able to select and apply it. It is useful when no time is given, for example to find the speed of an object after falling a certain height.",
+      "Near the Earth's surface, any object falling freely under gravity (with no air resistance) accelerates at about 9.8 m/s². An object falling through a fluid such as air or water initially accelerates at this rate because of its weight. As its speed increases, the frictional force (air resistance or drag) on it increases. Eventually the resistive force equals the weight, the resultant force is zero, and the object moves at a steady speed called its terminal velocity.",
+      "(Physics only) On a velocity–time graph for an object reaching terminal velocity, the line starts steep (gradient about 9.8 m/s²), then curves and becomes less steep as air resistance grows, and finally becomes horizontal at the terminal velocity. For a skydiver who opens a parachute, the larger surface area greatly increases air resistance, so there is a large upward resultant force and the skydiver decelerates until a new, lower terminal velocity is reached."
+    ],
+    "keyFacts": [
+      "acceleration = change in velocity ÷ time taken, a = Δv ÷ t (recall this).",
+      "Acceleration is measured in m/s² and is a vector quantity.",
+      "Δv = final velocity − initial velocity (v − u).",
+      "An object that slows down is decelerating (negative acceleration).",
+      "Gradient of a velocity–time graph = acceleration.",
+      "Horizontal line on a velocity–time graph = constant velocity (zero acceleration).",
+      "(Higher) Area under a velocity–time graph = distance travelled (displacement).",
+      "v² − u² = 2 a s for uniform acceleration (given on the equation sheet).",
+      "Free fall acceleration near Earth's surface is about 9.8 m/s².",
+      "An object falling through a fluid eventually reaches terminal velocity when the resultant force is zero.",
+      "Typical everyday accelerations: bus ~1 m/s², car ~3 m/s², hard braking ~ −5 to −7 m/s²."
+    ],
+    "keyTerms": [
+      {
+        "term": "Acceleration",
+        "definition": "The rate of change of velocity: change in velocity ÷ time taken. Unit m/s²."
+      },
+      {
+        "term": "Deceleration",
+        "definition": "Slowing down; a negative acceleration."
+      },
+      {
+        "term": "Uniform acceleration",
+        "definition": "Acceleration that stays constant; a straight sloping line on a velocity–time graph."
+      },
+      {
+        "term": "Velocity–time graph",
+        "definition": "A graph of velocity (y-axis) against time (x-axis); gradient gives acceleration and area gives distance."
+      },
+      {
+        "term": "Free fall",
+        "definition": "Falling under gravity alone, with no air resistance; acceleration about 9.8 m/s² near the Earth."
+      },
+      {
+        "term": "Terminal velocity",
+        "definition": "The constant maximum velocity reached by a falling object when the resistive force equals its weight, so the resultant force is zero."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Acceleration",
+        "formula": "acceleration = change in velocity ÷ time taken",
+        "symbols": "a = Δv ÷ t",
+        "units": "a in m/s², Δv in m/s, t in s",
+        "recall": true
+      },
+      {
+        "name": "Uniform acceleration",
+        "formula": "(final velocity)² − (initial velocity)² = 2 × acceleration × distance",
+        "symbols": "v² − u² = 2 a s",
+        "units": "v and u in m/s, a in m/s², s in m",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating acceleration",
+        "question": "A car speeds up from 8 m/s to 23 m/s in 5.0 s. Calculate its acceleration.",
+        "steps": [
+          "Δv = 23 − 8 = 15 m/s.",
+          "a = Δv ÷ t = 15 ÷ 5.0.",
+          "a = 3.0 m/s²."
+        ],
+        "answer": "3.0 m/s²"
+      },
+      {
+        "title": "Converting km/h and rearranging",
+        "question": "A train accelerates uniformly at 0.50 m/s² from rest to 90 km/h. Calculate how long this takes.",
+        "steps": [
+          "Convert 90 km/h to m/s: 90 × 1000 ÷ 3600 = 25 m/s.",
+          "Δv = 25 − 0 = 25 m/s.",
+          "Rearrange a = Δv ÷ t to t = Δv ÷ a.",
+          "t = 25 ÷ 0.50 = 50 s."
+        ],
+        "answer": "50 s"
+      },
+      {
+        "title": "Using v² − u² = 2as",
+        "question": "A stone is dropped from rest down a well and falls 20 m. Calculate its speed when it hits the water. (g = 9.8 m/s², ignore air resistance)",
+        "steps": [
+          "u = 0, a = 9.8 m/s², s = 20 m.",
+          "v² − 0² = 2 × 9.8 × 20 = 392.",
+          "v = √392 = 19.8 m/s."
+        ],
+        "answer": "19.8 m/s (about 20 m/s)"
+      },
+      {
+        "title": "(Higher) Distance from the area under a graph",
+        "question": "Use Diagram 1: a car accelerates from 0 to 12 m/s in 6 s, travels at 12 m/s for 10 s, then decelerates to rest in 4 s. Calculate the total distance travelled.",
+        "steps": [
+          "Triangle (0 to 6 s): ½ × 6 × 12 = 36 m.",
+          "Rectangle (6 to 16 s): 10 × 12 = 120 m.",
+          "Triangle (16 to 20 s): ½ × 4 × 12 = 24 m.",
+          "Total distance = 36 + 120 + 24 = 180 m."
+        ],
+        "answer": "180 m"
+      },
+      {
+        "title": "Deceleration with minutes",
+        "question": "A ferry slows from 9.0 m/s to 3.0 m/s in 2.0 minutes. Calculate its deceleration.",
+        "steps": [
+          "t = 2.0 × 60 = 120 s.",
+          "Δv = 3.0 − 9.0 = −6.0 m/s.",
+          "a = −6.0 ÷ 120 = −0.050 m/s², so the deceleration is 0.050 m/s²."
+        ],
+        "answer": "0.050 m/s²"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Velocity–time graph of a car journey",
+        "caption": "The gradient gives the acceleration: 2 m/s² while speeding up, 0 at constant velocity, −3 m/s² while slowing down. (Higher) The shaded area gives the distance travelled, 180 m.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"60\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"120\" y1=\"60\" x2=\"120\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"120\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"180\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><line x1=\"240\" y1=\"60\" x2=\"240\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"240\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><line x1=\"300\" y1=\"60\" x2=\"300\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"300\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">16</text><line x1=\"360\" y1=\"60\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"360\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><line x1=\"60\" y1=\"200\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"60\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"164\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><line x1=\"60\" y1=\"120\" x2=\"360\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"124\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><line x1=\"60\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">12</text><polygon points=\"60,200 150,80 300,80 360,200\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"60\" y1=\"200\" x2=\"370\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"60,200 150,80 300,80 360,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"64\" y=\"58\" font-size=\"12\" fill=\"currentColor\">accelerating: a = 12 ÷ 6 = 2 m/s²</text><text x=\"225\" y=\"96\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">constant velocity 12 m/s</text><text x=\"335\" y=\"110\" font-size=\"12\" fill=\"currentColor\">decelerating</text><text x=\"335\" y=\"124\" font-size=\"12\" fill=\"currentColor\">−3 m/s²</text><text x=\"225\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">shaded area = distance</text><text x=\"225\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">36 + 120 + 24 = 180 m (Higher)</text><text x=\"210\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time (s)</text><text x=\"16\" y=\"130\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 130)\">velocity (m/s)</text></svg>"
+      },
+      {
+        "title": "(Physics only) Velocity–time graph for terminal velocity",
+        "caption": "A falling object starts with an acceleration of about 9.8 m/s². As drag increases, the gradient decreases until the line is horizontal at terminal velocity.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"60\" y1=\"200\" x2=\"370\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"160\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"260\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"360\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"54\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"54\" y=\"129\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25</text><text x=\"54\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"60\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"currentColor\" stroke-dasharray=\"6 4\"/><text x=\"360\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">terminal velocity</text><polyline points=\"60,200.0 70,172.8 80,150.5 90,132.3 100,117.4 110,105.2 120,95.2 130,87.0 140,80.3 150,74.8 160,70.3 170,66.6 180,63.6 190,61.1 200,59.1 210,57.5 220,56.1 230,55.0 240,54.1 250,53.4 260,52.7 270,52.2 280,51.8 290,51.5 300,51.2 310,51.0 320,50.8 330,50.7 340,50.6 350,50.5 360,50.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"84\" y=\"158\" font-size=\"12\" fill=\"currentColor\">1. steep: weight</text><text x=\"84\" y=\"173\" font-size=\"12\" fill=\"currentColor\">much bigger than drag,</text><text x=\"84\" y=\"188\" font-size=\"12\" fill=\"currentColor\">a ≈ 9.8 m/s²</text><text x=\"170\" y=\"110\" font-size=\"12\" fill=\"currentColor\">2. drag increases, gradient</text><text x=\"170\" y=\"125\" font-size=\"12\" fill=\"currentColor\">(acceleration) decreases</text><text x=\"220\" y=\"74\" font-size=\"12\" fill=\"currentColor\">3. drag = weight, a = 0</text><text x=\"210\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time (s)</text><text x=\"16\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 125)\">velocity (m/s)</text></svg>"
+      },
+      {
+        "title": "Forces on a falling object",
+        "caption": "Weight stays the same. Air resistance grows with speed until it equals the weight; then the resultant force is zero and the object falls at terminal velocity.",
+        "svg": "<svg viewBox=\"0 0 420 230\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"fa\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><circle cx=\"60\" cy=\"110\" r=\"16\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"126\" x2=\"60\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#fa)\"/><text x=\"66\" y=\"180\" font-size=\"12\" fill=\"currentColor\">weight</text><text x=\"60\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">just released</text><text x=\"60\" y=\"225\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">a = 9.8 m/s²</text><circle cx=\"180\" cy=\"110\" r=\"16\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"126\" x2=\"180\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#fa)\"/><text x=\"186\" y=\"180\" font-size=\"12\" fill=\"currentColor\">weight</text><line x1=\"180\" y1=\"94\" x2=\"180\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#fa)\"/><text x=\"186\" y=\"68\" font-size=\"12\" fill=\"currentColor\">air resistance</text><text x=\"180\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speeding up</text><text x=\"180\" y=\"225\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">a decreasing</text><circle cx=\"300\" cy=\"110\" r=\"16\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"300\" y1=\"126\" x2=\"300\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#fa)\"/><text x=\"306\" y=\"180\" font-size=\"12\" fill=\"currentColor\">weight</text><line x1=\"300\" y1=\"94\" x2=\"300\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#fa)\"/><text x=\"306\" y=\"38\" font-size=\"12\" fill=\"currentColor\">air resistance</text><text x=\"300\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">terminal velocity</text><text x=\"300\" y=\"225\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">a = 0</text><text x=\"210\" y=\"16\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Forces on a falling object (arrow length shows size of force)</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think acceleration and velocity are the same thing, so a fast object has a large acceleration.",
+        "right": "In fact acceleration is how quickly velocity changes. A plane cruising at a steady 250 m/s has zero acceleration."
+      },
+      {
+        "wrong": "Students often think a horizontal line on a velocity–time graph means the object is stationary.",
+        "right": "In fact a horizontal line on a velocity–time graph means constant velocity. Stationary is a horizontal line along the time axis (v = 0)."
+      },
+      {
+        "wrong": "Students often think that at terminal velocity there are no forces acting on the falling object.",
+        "right": "In fact weight and air resistance still act; they are equal and opposite, so the resultant force is zero and the velocity is constant."
+      },
+      {
+        "wrong": "Students often think heavier objects always accelerate faster in free fall.",
+        "right": "In fact without air resistance all objects near the Earth accelerate at about 9.8 m/s², whatever their mass."
+      },
+      {
+        "wrong": "Students often use the final velocity instead of the change in velocity in a = Δv ÷ t.",
+        "right": "In fact you must subtract: Δv = final velocity − initial velocity."
+      }
+    ],
+    "realWorld": [
+      "Car makers quote 0 to 60 mph times; a time of 10 s corresponds to an acceleration of about 2.7 m/s².",
+      "Skydivers reach a terminal velocity of about 55 m/s; opening a parachute reduces this to about 5 m/s so they can land safely.",
+      "Rollercoaster and aircraft designers limit accelerations so that riders and passengers are not harmed.",
+      "Traffic engineers use typical braking decelerations to work out safe stopping distances and speed limits."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The distance travelled (or displacement) by an object can be calculated from the area under a velocity–time graph.",
+      "Interpret enclosed areas in velocity–time graphs to determine distance travelled, splitting the area into rectangles and triangles.",
+      "Measure the area under a velocity–time graph by counting squares, when appropriate (for example for a curved line), and multiply by the distance each square represents."
+    ],
+    "separateOnlyContent": [
+      "Draw and interpret velocity–time graphs for objects that reach terminal velocity: a steep start (about 9.8 m/s²), a curve of decreasing gradient, then a horizontal line at terminal velocity.",
+      "Interpret the changes in motion in terms of the forces acting: weight greater than air resistance gives acceleration; as speed rises air resistance increases so acceleration falls; when they are equal the resultant force is zero (terminal velocity). Opening a parachute increases air resistance, causing deceleration to a lower terminal velocity."
+    ],
+    "examTips": [
+      "Always calculate the change in velocity first (final − initial) before dividing by time.",
+      "Give the unit of acceleration as m/s². Writing m/s is a common error that loses the mark.",
+      "v² − u² = 2as is on the equation sheet: use it when no time is given. Remember to square root at the end to find v.",
+      "(Higher) For area questions, split the area into rectangles and triangles; for curves, count squares (including those more than half filled) and work out what one square represents.",
+      "For terminal velocity questions, describe the forces at each stage and link them to the resultant force and the acceleration."
+    ],
+    "summary": [
+      "a = Δv ÷ t (recall); unit m/s²; acceleration is a vector.",
+      "Deceleration = slowing down (negative acceleration).",
+      "Gradient of a velocity–time graph = acceleration.",
+      "(Higher) Area under a velocity–time graph = distance travelled.",
+      "v² − u² = 2as for uniform acceleration (equation sheet).",
+      "Free-fall acceleration near Earth ≈ 9.8 m/s²; falling objects in a fluid reach terminal velocity."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define acceleration.",
+      "back": "The rate of change of velocity: change in velocity ÷ time taken."
+    },
+    {
+      "front": "Equation for acceleration",
+      "back": "a = Δv ÷ t"
+    },
+    {
+      "front": "Unit of acceleration",
+      "back": "m/s² (metres per second squared)"
+    },
+    {
+      "front": "What is deceleration?",
+      "back": "Slowing down; negative acceleration."
+    },
+    {
+      "front": "Gradient of a velocity–time graph",
+      "back": "Acceleration"
+    },
+    {
+      "front": "(Higher) Area under a velocity–time graph",
+      "back": "Distance travelled (displacement)"
+    },
+    {
+      "front": "Horizontal line on a velocity–time graph",
+      "back": "Constant velocity (zero acceleration)"
+    },
+    {
+      "front": "Equation linking v, u, a and s (equation sheet)",
+      "back": "v² − u² = 2 a s"
+    },
+    {
+      "front": "Acceleration of free fall near Earth's surface",
+      "back": "About 9.8 m/s²"
+    },
+    {
+      "front": "What is terminal velocity?",
+      "back": "The constant velocity reached when the resistive force equals the weight, so the resultant force is zero."
+    },
+    {
+      "front": "Typical acceleration of a car speeding up",
+      "back": "About 3 m/s²"
+    },
+    {
+      "front": "What does the symbol ~ mean?",
+      "back": "Approximately"
+    },
+    {
+      "front": "Why does a skydiver slow down when the parachute opens?",
+      "back": "Air resistance increases and becomes greater than weight, so there is an upward resultant force."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-acceleration-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of acceleration?",
+      "options": [
+        "m/s",
+        "m/s²",
+        "m²/s",
+        "N/s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Acceleration is change in velocity (m/s) per second, so m/s ÷ s = m/s²."
+    },
+    {
+      "id": "p5-acceleration-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does the gradient of a velocity–time graph represent?",
+      "options": [
+        "Distance travelled",
+        "Speed",
+        "Acceleration",
+        "Time taken"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Gradient = change in velocity ÷ change in time = acceleration."
+    },
+    {
+      "id": "p5-acceleration-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Approximately what is the acceleration of an object falling freely near the Earth's surface?",
+      "options": [
+        "9.8 m/s²",
+        "0.98 m/s²",
+        "98 m/s²",
+        "9.8 m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Free-fall acceleration is about 9.8 m/s². D has the wrong unit."
+    },
+    {
+      "id": "p5-acceleration-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A velocity–time graph shows a horizontal line at 15 m/s. What is the object doing?",
+      "options": [
+        "Stationary",
+        "Accelerating at 15 m/s²",
+        "Decelerating",
+        "Moving at a constant velocity of 15 m/s"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "A horizontal line on a velocity–time graph means the velocity is not changing: zero acceleration at 15 m/s."
+    },
+    {
+      "id": "p5-acceleration-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A cyclist speeds up from 2 m/s to 8 m/s in 3 s. What is her acceleration?",
+      "options": [
+        "2.7 m/s²",
+        "2.0 m/s²",
+        "3.3 m/s²",
+        "18 m/s²"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "a = (8 − 2) ÷ 3 = 6 ÷ 3 = 2.0 m/s². 2.7 comes from 8 ÷ 3; 3.3 from 10 ÷ 3."
+    },
+    {
+      "id": "p5-acceleration-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is the best estimate of the acceleration of a family car speeding up from rest on a main road?",
+      "options": [
+        "~0.03 m/s²",
+        "~30 m/s²",
+        "~3 m/s²",
+        "~300 m/s²"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "A car reaching about 27 m/s in about 10 s has a ≈ 2.7 m/s², so ~3 m/s². 30 m/s² is three times free-fall acceleration."
+    },
+    {
+      "id": "p5-acceleration-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A skydiver is falling at terminal velocity. Which statement is correct?",
+      "options": [
+        "Air resistance equals her weight",
+        "There are no forces acting on her",
+        "Her weight is greater than the air resistance",
+        "She is accelerating at 9.8 m/s²"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "At terminal velocity the forces are balanced, so the resultant force is zero and her velocity is constant. Both forces still act."
+    },
+    {
+      "id": "p5-acceleration-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) A velocity–time graph is a straight line from (0 s, 4 m/s) to (10 s, 14 m/s). What distance is travelled in the 10 s?",
+      "options": [
+        "140 m",
+        "50 m",
+        "100 m",
+        "90 m"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Area = rectangle (10 × 4 = 40 m) + triangle (½ × 10 × 10 = 50 m) = 90 m. 140 m uses 14 × 10; 50 m is only the triangle; 100 m uses 10 × 10."
+    },
+    {
+      "id": "p5-acceleration-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Physics only) A skydiver falling at terminal velocity opens her parachute. What happens immediately afterwards?",
+      "options": [
+        "She accelerates downwards because her weight increases",
+        "She decelerates because air resistance becomes greater than her weight",
+        "She moves upwards because the resultant force is upwards",
+        "Her velocity stays the same because the forces are still balanced"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "The parachute increases the surface area, so air resistance increases above weight. The upward resultant force causes deceleration, but she is still moving downwards, just more slowly, until a lower terminal velocity is reached."
+    },
+    {
+      "id": "p5-acceleration-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A car accelerates from rest to 20 m/s in 8.0 s. Calculate its acceleration.",
+      "numericAnswer": 2.5,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: a = 20 ÷ 8.0",
+        "1 mark: 2.5 m/s²"
+      ],
+      "explanation": "Δv = 20 − 0 = 20 m/s; a = 20 ÷ 8.0 = 2.5 m/s²."
+    },
+    {
+      "id": "p5-acceleration-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A train slows down from 30 m/s to rest in 60 s. Calculate the deceleration of the train.",
+      "numericAnswer": 0.5,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: a = (0 − 30) ÷ 60 = −0.5",
+        "1 mark: deceleration = 0.50 m/s²"
+      ],
+      "explanation": "The acceleration is −0.50 m/s²; the deceleration (the size of the slowing) is 0.50 m/s²."
+    },
+    {
+      "id": "p5-acceleration-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A motorbike travelling at 5.0 m/s accelerates at 3.0 m/s² for 4.0 s. Calculate its final velocity.",
+      "numericAnswer": 17,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: Δv = a × t = 3.0 × 4.0 = 12 m/s",
+        "1 mark: v = 5.0 + 12",
+        "1 mark: 17 m/s"
+      ],
+      "explanation": "Rearrange a = Δv ÷ t to Δv = a t = 12 m/s, then add this to the initial velocity: 5.0 + 12 = 17 m/s."
+    },
+    {
+      "id": "p5-acceleration-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lift accelerates at 1.5 m/s². Calculate the time it takes to change its velocity by 4.5 m/s.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: t = Δv ÷ a = 4.5 ÷ 1.5",
+        "1 mark: 3.0 s"
+      ],
+      "explanation": "Rearranging a = Δv ÷ t gives t = Δv ÷ a = 3.0 s."
+    },
+    {
+      "id": "p5-acceleration-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car accelerates from rest to 72 km/h in 10 s. Calculate its acceleration in m/s².",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: 72 km/h = 72 000 ÷ 3600 = 20 m/s",
+        "1 mark: a = 20 ÷ 10",
+        "1 mark: 2.0 m/s²"
+      ],
+      "explanation": "Convert km/h to m/s before using a = Δv ÷ t. Using 72 directly gives the wrong answer of 7.2."
+    },
+    {
+      "id": "p5-acceleration-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A ball is dropped from rest and falls 5.0 m. Ignore air resistance. Calculate its speed just before it hits the ground. Use g = 9.8 m/s² and the equation v² − u² = 2as.",
+      "numericAnswer": 9.9,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: v² − 0 = 2 × 9.8 × 5.0",
+        "1 mark: v² = 98",
+        "1 mark: v = 9.9 m/s"
+      ],
+      "explanation": "u = 0, so v² = 2as = 98, and v = √98 = 9.9 m/s."
+    },
+    {
+      "id": "p5-acceleration-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car travelling at 25 m/s brakes uniformly and stops in a distance of 50 m. Calculate its deceleration using v² − u² = 2as.",
+      "numericAnswer": 6.25,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: 0² − 25² = 2 × a × 50",
+        "1 mark: a = −625 ÷ 100 = −6.25 m/s²",
+        "1 mark: deceleration = 6.25 m/s² (accept 6.3)"
+      ],
+      "explanation": "Rearranging gives a = (v² − u²) ÷ 2s = −625 ÷ 100 = −6.25 m/s², a typical hard-braking value."
+    },
+    {
+      "id": "p5-acceleration-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Higher) A velocity–time graph for a runner shows her accelerating uniformly from rest to 8.0 m/s in 4.0 s, then running at a constant 8.0 m/s for a further 6.0 s. Calculate the total distance she runs.",
+      "numericAnswer": 64,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: triangle area = ½ × 4.0 × 8.0 = 16 m",
+        "1 mark: rectangle area = 6.0 × 8.0 = 48 m",
+        "1 mark: total = 64 m"
+      ],
+      "explanation": "Distance = area under the velocity–time graph = 16 + 48 = 64 m."
+    },
+    {
+      "id": "p5-acceleration-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A velocity–time graph for a falling leaf is curved. A student counts 43 squares under the line. Each square represents 0.5 m/s on the velocity axis and 2 s on the time axis. Calculate the distance fallen.",
+      "numericAnswer": 43,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: each square = 0.5 × 2 = 1 m",
+        "1 mark: distance = 43 × 1 = 43 m"
+      ],
+      "explanation": "Each square has an area of 0.5 m/s × 2 s = 1 m, so 43 squares represent 43 m."
+    },
+    {
+      "id": "p5-acceleration-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the equation that links acceleration, change in velocity and time taken.",
+      "acceptedAnswers": [
+        "a = Δv ÷ t",
+        "acceleration = change in velocity ÷ time",
+        "a = (v − u) ÷ t"
+      ],
+      "markScheme": [
+        "1 mark: acceleration = change in velocity ÷ time taken"
+      ],
+      "explanation": "This equation must be recalled; it is not on the equation sheet."
+    },
+    {
+      "id": "p5-acceleration-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by deceleration.",
+      "acceptedAnswers": [
+        "slowing down",
+        "negative acceleration",
+        "velocity decreasing"
+      ],
+      "markScheme": [
+        "1 mark: slowing down / negative acceleration"
+      ],
+      "explanation": "A decelerating object has a decreasing speed."
+    },
+    {
+      "id": "p5-acceleration-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A velocity–time graph has two straight sloping lines, X and Y. Line X is steeper than line Y. Compare the motion shown by X and Y.",
+      "acceptedAnswers": [
+        "X has greater acceleration",
+        "both constant acceleration",
+        "steeper gradient",
+        "X speeds up faster"
+      ],
+      "markScheme": [
+        "1 mark: both show constant (uniform) acceleration",
+        "1 mark: X has a greater acceleration because it has a steeper gradient"
+      ],
+      "explanation": "The gradient of a velocity–time graph is the acceleration."
+    },
+    {
+      "id": "p5-acceleration-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain why an object dropped from a tall building eventually stops accelerating, even though gravity is still acting on it.",
+      "acceptedAnswers": [
+        "air resistance increases with speed",
+        "air resistance equals weight",
+        "resultant force zero",
+        "terminal velocity"
+      ],
+      "markScheme": [
+        "1 mark: as speed increases, air resistance increases",
+        "1 mark: eventually air resistance equals weight",
+        "1 mark: resultant force is zero, so acceleration is zero (terminal velocity)"
+      ],
+      "explanation": "Weight does not change, but the resistive force increases with speed until the forces balance."
+    },
+    {
+      "id": "p5-acceleration-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) Explain how to find the distance travelled from a velocity–time graph with a curved line.",
+      "acceptedAnswers": [
+        "area under the graph",
+        "count squares",
+        "distance per square",
+        "multiply"
+      ],
+      "markScheme": [
+        "1 mark: distance = area under the graph",
+        "1 mark: count the squares under the curve (counting squares more than half covered) and multiply by the distance one square represents"
+      ],
+      "explanation": "When a line is curved, the area cannot be split exactly into rectangles and triangles, so counting squares gives an estimate."
+    },
+    {
+      "id": "p5-acceleration-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Estimate the deceleration of a car that stops in an emergency from about 30 m/s in about 5 s. Use the symbol ~ in your answer.",
+      "acceptedAnswers": [
+        "~6 m/s²",
+        "6 m/s²",
+        "about 6 m/s²"
+      ],
+      "markScheme": [
+        "1 mark: a = 30 ÷ 5",
+        "1 mark: ~6 m/s²"
+      ],
+      "explanation": "a ≈ 30 ÷ 5 = 6 m/s², which is a typical value for hard braking, about two thirds of g."
+    },
+    {
+      "id": "p5-acceleration-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A velocity–time graph for a bus shows: a straight line from (0 s, 0 m/s) to (10 s, 10 m/s); a horizontal line from 10 s to 40 s; then a straight line down to (50 s, 0 m/s).\nDescribe the motion of the bus in each section and calculate the acceleration in each section.",
+      "markScheme": [
+        "Indicative content:",
+        "0 to 10 s: uniform acceleration from rest; a = 10 ÷ 10 = 1.0 m/s²",
+        "10 to 40 s: constant velocity of 10 m/s; acceleration = 0",
+        "40 to 50 s: uniform deceleration to rest; a = −10 ÷ 10 = −1.0 m/s² (deceleration 1.0 m/s²)",
+        "Gradient of a velocity–time graph gives acceleration",
+        "Level 2 (3 to 4 marks): all three sections correctly described with correct accelerations",
+        "Level 1 (1 to 2 marks): some sections correctly described or one correct calculation",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Using gradients gives +1.0, 0 and −1.0 m/s². (Higher) The area, 50 + 300 + 50 = 400 m, is the total distance."
+    },
+    {
+      "id": "p5-acceleration-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "(Physics only) A skydiver jumps from a plane. After some time she reaches terminal velocity. She then opens her parachute and later reaches a new, lower terminal velocity before landing.\nDescribe and explain the shape of the velocity–time graph for her fall, in terms of the forces acting on her.",
+      "markScheme": [
+        "Indicative content:",
+        "At the start, velocity is zero so air resistance is zero; resultant force = weight; acceleration ≈ 9.8 m/s²; graph starts steep",
+        "As velocity increases, air resistance increases; resultant force decreases; acceleration decreases; gradient decreases (curve)",
+        "Air resistance = weight; resultant force zero; constant velocity: first terminal velocity; graph horizontal",
+        "Parachute opens: surface area increases, air resistance increases suddenly and is greater than weight",
+        "Resultant force upwards; she decelerates; graph slopes down steeply",
+        "As velocity falls, air resistance decreases until it equals weight again",
+        "New, lower terminal velocity; graph horizontal again at a lower value",
+        "Level 3 (5 to 6 marks): full graph shape described with forces explained at every stage, including the parachute",
+        "Level 2 (3 to 4 marks): graph shape for the first terminal velocity explained with forces, or full shape with limited force explanation",
+        "Level 1 (1 to 2 marks): basic description, for example she speeds up then moves at a steady speed",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Link the gradient (acceleration) at each stage to the size and direction of the resultant force."
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "phys-rp1",
+  "science": "physics",
+  "number": 1,
+  "title": "Specific heat capacity",
+  "combined": true,
+  "topicId": "p1",
+  "subtopic": "specific-heat-capacity",
+  "aim": "To determine the specific heat capacity of aluminium by heating a 1.00 kg aluminium block with an electric immersion heater and measuring the energy transferred and the temperature rise.",
+  "background": [
+    "The specific heat capacity of a substance is the amount of energy needed to raise the temperature of 1 kg of the substance by 1 °C. It is linked to the energy transferred by the equation change in thermal energy = mass × specific heat capacity × temperature change, or ΔE = m c Δθ. This equation is given on the AQA equation sheet. The unit of specific heat capacity is J/kg °C.",
+    "In this practical an immersion heater is placed in a hole in a metal block and a thermometer is placed in a second hole. The energy supplied by the heater is measured with a joulemeter, or worked out from the potential difference across the heater and the current through it: power = potential difference × current (P = V I) and energy = power × time (E = P t).",
+    "If the temperature of the block is plotted against the energy supplied, the graph is a straight line once the block has started to warm up evenly. Rearranging ΔE = m c Δθ gives Δθ = ΔE ÷ (m c), so the gradient of the graph is 1 ÷ (m c). The specific heat capacity is therefore c = 1 ÷ (m × gradient).",
+    "Some of the energy supplied heats the surroundings rather than the block, so the temperature rise is smaller than it would be with no losses. This makes the calculated value of c larger than the accepted value for aluminium (about 900 J/kg °C). Insulating the block reduces this error."
+  ],
+  "hypothesis": "The temperature of the aluminium block will increase in proportion to the energy supplied, and the specific heat capacity calculated from the gradient will be close to, but slightly higher than, 900 J/kg °C because some energy is transferred to the surroundings.",
+  "variables": {
+    "independent": "Energy transferred to the block by the heater (J), measured with a joulemeter or from V × I × t.",
+    "dependent": "Temperature of the block (°C), read from the thermometer.",
+    "control": [
+      "Mass of the aluminium block (1.00 kg)",
+      "Material of the block (aluminium)",
+      "Thickness and type of insulation around the block",
+      "Power of the heater (same supply setting, about 50 W)",
+      "Position of the thermometer in its hole"
+    ]
+  },
+  "equipment": [
+    "1.00 kg aluminium block with two holes (one for the heater, one for the thermometer)",
+    "12 V immersion heater (about 50 W)",
+    "Low voltage d.c. power supply",
+    "Joulemeter, or an ammeter and a voltmeter",
+    "Stopclock",
+    "Thermometer (−10 °C to 110 °C) or temperature probe and data logger",
+    "Insulating material (for example cotton wool or bubble wrap) to wrap the block",
+    "Pipette and a few drops of water or oil for the thermometer hole",
+    "Heatproof mat",
+    "Connecting leads",
+    "Top pan balance (to check the mass of the block)"
+  ],
+  "method": [
+    "Measure the mass of the aluminium block on a top pan balance and record it (1.00 kg).",
+    "Wrap the block in a layer of insulation, leaving the two holes uncovered, and stand it on a heatproof mat.",
+    "Place the immersion heater in the larger hole in the block.",
+    "Use a pipette to put a few drops of water (or oil) into the smaller hole, then place the thermometer in it. The liquid improves thermal contact between the block and the thermometer bulb.",
+    "Connect the heater to the power supply through a joulemeter. If no joulemeter is available, connect an ammeter in series with the heater and a voltmeter in parallel across it.",
+    "Read the starting temperature of the block and record it. Set the joulemeter to zero.",
+    "Switch on the power supply and start the stopclock at the same moment.",
+    "Every 60 seconds, record the joulemeter reading and the temperature. If using an ammeter and voltmeter, record the current and potential difference as well; they should stay almost constant.",
+    "Continue for 10 minutes, then switch off the power supply. Do not touch the heater or block until they have cooled.",
+    "If using an ammeter and voltmeter, calculate the energy at each time using E = V × I × t.",
+    "Plot a graph of temperature (y-axis) against energy transferred (x-axis) and draw a line of best fit through the straight part of the graph.",
+    "Calculate the gradient of the straight part of the line and use c = 1 ÷ (m × gradient) to find the specific heat capacity of aluminium."
+  ],
+  "safety": [
+    {
+      "hazard": "Hot immersion heater and hot block",
+      "risk": "Burns to the skin if touched during or just after heating.",
+      "precaution": "Stand the block on a heatproof mat, do not touch the heater or block while heating, and allow them to cool before handling."
+    },
+    {
+      "hazard": "Heater switched on when not in the block",
+      "risk": "The heater overheats and can cause burns or a fire, or damage itself.",
+      "precaution": "Only switch on the power supply when the heater is fully inside the block, and switch off as soon as readings are finished."
+    },
+    {
+      "hazard": "Glass thermometer",
+      "risk": "Cuts if the thermometer breaks.",
+      "precaution": "Place the thermometer carefully in the hole and do not leave it where it can roll off the bench; tell the teacher about any breakage."
+    },
+    {
+      "hazard": "Water near electrical equipment",
+      "risk": "Electric shock or short circuit.",
+      "precaution": "Use only a few drops of water in the thermometer hole, keep the power supply away from any liquid, and use a low voltage supply."
+    }
+  ],
+  "results": {
+    "headers": ["Time (s)", "Energy transferred (J)", "Temperature (°C)"],
+    "rows": [
+      ["0", "0", "20.0"],
+      ["60", "3000", "22.6"],
+      ["120", "6000", "25.7"],
+      ["180", "9000", "28.6"],
+      ["240", "12000", "31.7"],
+      ["300", "15000", "34.6"],
+      ["360", "18000", "37.6"],
+      ["420", "21000", "40.7"],
+      ["480", "24000", "43.6"],
+      ["540", "27000", "46.6"],
+      ["600", "30000", "49.6"]
+    ],
+    "notes": "The heater power was about 50 W (12.0 V × 4.2 A), so about 3000 J was transferred each minute. Plot temperature (°C) on the y-axis against energy transferred (J) on the x-axis. The first reading is slightly low because the block and thermometer take time to warm up, so draw the line of best fit through the straight part (3000 J to 30000 J). Gradient = (49.6 − 22.6) ÷ (30000 − 3000) = 27.0 ÷ 27000 = 0.0010 °C/J."
+  },
+  "analysis": [
+    "The graph of temperature against energy is a straight line after the first minute, showing that the temperature rise is directly proportional to the energy transferred, as ΔE = m c Δθ predicts.",
+    "Gradient = 27.0 ÷ 27000 = 0.0010 °C/J. Since gradient = 1 ÷ (m c), c = 1 ÷ (m × gradient) = 1 ÷ (1.00 × 0.0010) = 1000 J/kg °C.",
+    "The same result can be found from two points: between 3000 J and 30000 J, ΔE = 27000 J and Δθ = 27.0 °C, so c = ΔE ÷ (m Δθ) = 27000 ÷ (1.00 × 27.0) = 1000 J/kg °C.",
+    "The accepted value for aluminium is about 900 J/kg °C, so the experimental value is about 11% too high. This is expected: some of the energy supplied heats the surroundings (through the insulation and from the exposed top of the block and heater), so the block warms up less than it would with no losses. Using a smaller temperature rise in c = ΔE ÷ (m Δθ) gives a larger value of c.",
+    "The temperature at the start rises more slowly than later on because the heater has to warm up itself before energy is transferred to the block, and energy takes time to be conducted through the block to the thermometer."
+  ],
+  "errors": [
+    {
+      "error": "Energy is transferred from the block to the surroundings, so the measured temperature rise is too small and c is too large.",
+      "improvement": "Wrap the block in thicker insulation, including the top surface, and keep the temperature rise small so the block is not much hotter than the room."
+    },
+    {
+      "error": "Poor thermal contact between the thermometer bulb and the block, so the thermometer reads lower than the block temperature.",
+      "improvement": "Put a few drops of water or oil in the thermometer hole so energy is conducted to the bulb."
+    },
+    {
+      "error": "The heater and block take time to warm up, so the first readings do not lie on the straight line.",
+      "improvement": "Use the gradient of the straight part of the graph rather than just the start and end values."
+    },
+    {
+      "error": "The temperature continues to rise after the heater is switched off, as the hot heater still transfers energy to the block.",
+      "improvement": "Record the highest temperature reached after switching off, or use the gradient of the graph taken while the heater was on."
+    },
+    {
+      "error": "Reading the thermometer at an angle (parallax error), or the thermometer has a resolution of only 1 °C.",
+      "improvement": "Read the thermometer at eye level, or use a temperature probe and data logger with a resolution of 0.1 °C."
+    }
+  ],
+  "diagram": {
+    "title": "Specific heat capacity apparatus",
+    "caption": "An immersion heater and a thermometer sit in holes in an insulated aluminium block. The heater is connected to a d.c. supply with an ammeter in series and a voltmeter in parallel across the heater (a joulemeter can be used instead).",
+    "svg": "<svg viewBox=\"0 0 480 310\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"135\" y=\"135\" width=\"150\" height=\"150\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><rect x=\"150\" y=\"150\" width=\"120\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"175\" y=\"120\" width=\"16\" height=\"110\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"232\" y=\"110\" width=\"8\" height=\"118\" rx=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"236\" cy=\"232\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M179 120 V100 H60 V82 M60 58 V40 H176 M184 40 H300 V100 H187 V120\"/><line x1=\"176\" y1=\"30\" x2=\"176\" y2=\"50\"/><line x1=\"184\" y1=\"34\" x2=\"184\" y2=\"46\" stroke-width=\"4\"/><path d=\"M130 100 V70 H173 M197 70 H240 V100\"/><circle cx=\"60\" cy=\"70\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><circle cx=\"185\" cy=\"70\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/></g><g fill=\"currentColor\"><circle cx=\"130\" cy=\"100\" r=\"2.5\"/><circle cx=\"240\" cy=\"100\" r=\"2.5\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"60\" y=\"74\">A</text><text x=\"185\" y=\"74\">V</text></g><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"240\" y1=\"125\" x2=\"325\" y2=\"118\"/><line x1=\"270\" y1=\"200\" x2=\"325\" y2=\"197\"/><line x1=\"285\" y1=\"275\" x2=\"325\" y2=\"277\"/><line x1=\"175\" y1=\"190\" x2=\"122\" y2=\"196\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"150\" y=\"22\">d.c. power supply</text><text x=\"76\" y=\"64\">Ammeter</text><text x=\"200\" y=\"58\">Voltmeter</text><text x=\"330\" y=\"116\">Thermometer in hole</text><text x=\"330\" y=\"130\">with drop of water</text><text x=\"330\" y=\"195\">Aluminium block</text><text x=\"330\" y=\"209\">(mass 1.00 kg)</text><text x=\"330\" y=\"275\">Insulation</text><text x=\"10\" y=\"192\">Immersion</text><text x=\"10\" y=\"206\">heater</text></g></svg>"
+  },
+  "examTips": [
+    "Remember that the gradient of a temperature against energy graph is 1 ÷ (m c), so c = 1 ÷ (m × gradient). If the axes are the other way round (energy on the y-axis), the gradient is m c and c = gradient ÷ m.",
+    "Always explain why the experimental value is too high: energy is lost to the surroundings, so the temperature rise is smaller than expected, which gives a larger value of c.",
+    "Know how to find the energy without a joulemeter: E = V × I × t, with time in seconds.",
+    "State the purpose of each step: insulation reduces energy transfer to the surroundings; water in the thermometer hole improves thermal contact.",
+    "The unit of specific heat capacity is J/kg °C. Check the mass is in kg, not g, before calculating."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp1-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why is the metal block wrapped in insulation when measuring its specific heat capacity?",
+      "options": [
+        "To make the block heat up more slowly so readings are easier to take",
+        "To reduce the energy transferred from the block to the surroundings",
+        "To stop the thermometer from breaking",
+        "To increase the power of the heater"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: to reduce energy transfer (heat loss) to the surroundings"],
+      "explanation": "Insulation reduces energy transfer by conduction and convection from the block to the air, so more of the energy supplied raises the temperature of the block. It does not change the heater power."
+    },
+    {
+      "id": "phys-rp1-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of specific heat capacity?",
+      "options": ["J/kg", "J/°C", "J/kg °C", "W/kg °C"],
+      "answer": 2,
+      "markScheme": ["1 mark: J/kg °C"],
+      "explanation": "Specific heat capacity is the energy (J) needed to raise the temperature of 1 kg by 1 °C, so its unit is J/kg °C. J/kg is the unit of specific latent heat, which students often confuse with it."
+    },
+    {
+      "id": "phys-rp1-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "An immersion heater has a power of 50 W. It is switched on for 10 minutes.\nCalculate the energy transferred by the heater.",
+      "numericAnswer": 30000,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": ["1 mark: time = 10 × 60 = 600 s", "1 mark: E = P × t = 50 × 600 = 30000 J"],
+      "explanation": "Energy = power × time, with time in seconds. Using 10 instead of 600 gives 500 J, which is far too small."
+    },
+    {
+      "id": "phys-rp1-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A student supplied 24000 J of energy to a 1.00 kg metal block. The temperature of the block rose from 21.0 °C to 46.0 °C.\nCalculate the specific heat capacity of the metal.",
+      "numericAnswer": 960,
+      "tolerance": 0.01,
+      "unit": "J/kg °C",
+      "markScheme": ["1 mark: Δθ = 46.0 − 21.0 = 25.0 °C", "1 mark: c = ΔE ÷ (m Δθ) = 24000 ÷ (1.00 × 25.0)", "1 mark: 960 J/kg °C"],
+      "explanation": "Rearrange ΔE = m c Δθ to c = ΔE ÷ (m Δθ). Use the temperature change, not the final temperature: dividing by 46.0 gives 522 J/kg °C, which is wrong."
+    },
+    {
+      "id": "phys-rp1-q05",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A heater in a metal block has a potential difference of 12.0 V across it and a current of 4.2 A through it. It is switched on for 300 s.\nCalculate the energy transferred by the heater.",
+      "numericAnswer": 15120,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": ["1 mark: P = V × I = 12.0 × 4.2 = 50.4 W (or E = V I t)", "1 mark: E = 50.4 × 300 = 15120 J (accept 15000 J)"],
+      "explanation": "Power = potential difference × current, then energy = power × time. Combining these gives E = V I t = 12.0 × 4.2 × 300 = 15120 J."
+    },
+    {
+      "id": "phys-rp1-q06",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student plotted temperature (°C) on the y-axis against energy transferred (J) on the x-axis for a 1.00 kg metal block. The gradient of the straight line was 0.0011 °C/J.\nCalculate the specific heat capacity of the metal. Give your answer to 2 significant figures.",
+      "numericAnswer": 910,
+      "tolerance": 0.01,
+      "unit": "J/kg °C",
+      "markScheme": ["1 mark: gradient = Δθ ÷ ΔE = 1 ÷ (m c)", "1 mark: c = 1 ÷ (m × gradient) = 1 ÷ (1.00 × 0.0011) = 909", "1 mark: 910 J/kg °C (2 s.f.)"],
+      "explanation": "From ΔE = m c Δθ, Δθ = ΔE ÷ (m c), so the gradient of temperature against energy is 1 ÷ (m c). Multiplying gradient by mass instead of dividing gives a nonsense value."
+    },
+    {
+      "id": "phys-rp1-q07",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "9000 J of energy is supplied to a 0.50 kg aluminium block. The specific heat capacity of aluminium is 900 J/kg °C. Assume no energy is lost to the surroundings.\nCalculate the temperature rise of the block.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "°C",
+      "markScheme": ["1 mark: Δθ = ΔE ÷ (m c) = 9000 ÷ (0.50 × 900)", "1 mark: 20 °C"],
+      "explanation": "Rearrange ΔE = m c Δθ to Δθ = ΔE ÷ (m c). 0.50 × 900 = 450, and 9000 ÷ 450 = 20 °C."
+    },
+    {
+      "id": "phys-rp1-q08",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A student measured the specific heat capacity of aluminium as 1000 J/kg °C. The accepted value is 900 J/kg °C.\nExplain why the student's value is higher than the accepted value.",
+      "acceptedAnswers": ["energy lost to surroundings", "heat lost", "temperature rise smaller", "not all energy heats the block", "c = E ÷ (m Δθ) so smaller Δθ gives larger c"],
+      "markScheme": ["1 mark: some energy is transferred to the surroundings (not all heats the block)", "1 mark: so the temperature rise of the block is smaller than expected", "1 mark: c = ΔE ÷ (m Δθ), so a smaller Δθ for the measured energy gives a larger value of c"],
+      "explanation": "The joulemeter measures all the energy supplied, but some of it heats the air and the bench. The block warms up less, so dividing the energy by a smaller temperature change gives a value of c that is too big."
+    },
+    {
+      "id": "phys-rp1-q09",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A few drops of water are put into the hole in a metal block before the thermometer is placed in it.\nGive the reason for this.",
+      "acceptedAnswers": ["improve thermal contact", "better conduction to the thermometer", "air is a poor conductor"],
+      "markScheme": ["1 mark: to improve thermal contact between the block and the thermometer (water conducts better than air)"],
+      "explanation": "Without water, there is air around the bulb. Air is a poor thermal conductor, so the thermometer would read lower than the true temperature of the block."
+    },
+    {
+      "id": "phys-rp1-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In an experiment to find the specific heat capacity of an aluminium block, which is the dependent variable?",
+      "options": ["The energy supplied by the heater", "The mass of the block", "The temperature of the block", "The thickness of the insulation"],
+      "answer": 2,
+      "markScheme": ["1 mark: the temperature of the block"],
+      "explanation": "The energy supplied is changed (by heating for longer) and the temperature is measured as a result, so temperature is the dependent variable. The mass and insulation are control variables."
+    },
+    {
+      "id": "phys-rp1-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "When heating a metal block with an immersion heater, the temperature rises slowly during the first minute and then rises steadily.\nExplain why the temperature rises slowly at first.",
+      "acceptedAnswers": ["heater warms up first", "energy takes time to conduct through the block", "thermometer takes time to respond"],
+      "markScheme": ["1 mark: the heater itself has to warm up first / energy is stored in the heater", "1 mark: energy takes time to be conducted through the block to the thermometer"],
+      "explanation": "There is a delay before energy reaches the thermometer. This is why the gradient should be taken from the straight part of the graph, not from the very first readings."
+    },
+    {
+      "id": "phys-rp1-q12",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student plots temperature on the y-axis against energy supplied on the x-axis for a block of mass m. Which expression gives the specific heat capacity, c?",
+      "options": ["c = gradient × m", "c = gradient ÷ m", "c = m ÷ gradient", "c = 1 ÷ (m × gradient)"],
+      "answer": 3,
+      "markScheme": ["1 mark: c = 1 ÷ (m × gradient)"],
+      "explanation": "Δθ = ΔE ÷ (m c), so the gradient Δθ ÷ ΔE equals 1 ÷ (m c). Rearranging gives c = 1 ÷ (m × gradient). c = gradient ÷ m would be correct only if energy were on the y-axis."
+    },
+    {
+      "id": "phys-rp1-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "7800 J of energy raises the temperature of a copper block by 20 °C. The specific heat capacity of copper is 390 J/kg °C. Assume no energy is lost.\nCalculate the mass of the copper block.",
+      "numericAnswer": 1,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": ["1 mark: m = ΔE ÷ (c Δθ) = 7800 ÷ (390 × 20)", "1 mark: 1.0 kg"],
+      "explanation": "Rearrange ΔE = m c Δθ to make m the subject. 390 × 20 = 7800, so m = 7800 ÷ 7800 = 1.0 kg."
+    },
+    {
+      "id": "phys-rp1-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student uses an ammeter and a voltmeter instead of a joulemeter to find the energy supplied to a heater in a metal block.\nDescribe how the ammeter and voltmeter should be connected in the circuit.",
+      "acceptedAnswers": ["ammeter in series with the heater", "voltmeter in parallel with the heater", "voltmeter across the heater"],
+      "markScheme": ["1 mark: ammeter in series with the heater", "1 mark: voltmeter in parallel across the heater"],
+      "explanation": "An ammeter measures the current through a component, so it goes in series. A voltmeter measures the potential difference across a component, so it is connected in parallel with it."
+    },
+    {
+      "id": "phys-rp1-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method a student could use to determine the specific heat capacity of an aluminium block.\nIn your answer, describe the measurements the student should take and how they should use them to find the specific heat capacity.",
+      "markScheme": [
+        "Indicative content: measure the mass of the block with a balance; wrap the block in insulation; put the immersion heater in one hole and a thermometer in the other, with a drop of water to improve thermal contact; connect the heater to a power supply and a joulemeter (or ammeter in series and voltmeter in parallel); record the starting temperature; switch on and start a stopclock; record the joulemeter reading (or V and I) and temperature every minute for about 10 minutes; calculate energy using E = V I t if needed; plot temperature against energy; find the gradient of the straight part; c = 1 ÷ (m × gradient), or use c = ΔE ÷ (m Δθ); safety: do not touch the hot heater, use a heatproof mat",
+        "Level 3 (5 to 6 marks): a coherent, logically ordered method that would allow valid results, including the measurements of mass, energy and temperature, and a clear explanation of how c is calculated from the data or graph.",
+        "Level 2 (3 to 4 marks): a method with the main steps (heater, thermometer, energy and temperature measured) but with some omissions, such as no insulation or an incomplete calculation.",
+        "Level 1 (1 to 2 marks): simple statements about heating the block and measuring temperature, with little detail of the calculation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers list every measurement (mass, energy or V, I and t, start and later temperatures), give a sensible order, mention insulation and thermal contact, and state how c is calculated, either from ΔE = m c Δθ or from the gradient of a graph."
+    }
+  ]
+}

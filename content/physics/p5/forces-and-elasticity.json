@@ -1,0 +1,785 @@
+{
+  "id": "p5-forces-and-elasticity",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "forces-and-elasticity",
+  "specRef": "4.5.3",
+  "title": "Forces and elasticity",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "To change the shape of a stationary object by stretching, bending or compressing it, more than one force must act on it. For an elastic object such as a spring, the extension is directly proportional to the force applied (F = ke), provided the limit of proportionality is not exceeded.",
+    "explanation": [
+      "To stretch, bend or compress a stationary object you need at least two forces acting on it. If only one force acted, the object would simply move (accelerate) rather than change shape. A spring hanging from a clamp is stretched by the weight of the masses pulling down and the clamp pulling up. A diving board bends because the diver pushes down on the end while the fixing at the other end holds it in place. A car's suspension spring is compressed by the weight of the car above and the push of the axle below.",
+      "If an object returns to its original shape and size when the forces are removed, it has been elastically deformed. If it does not return to its original shape, it has been inelastically deformed (permanently stretched or bent). A spring that is stretched too far becomes inelastically deformed: it stays longer than before when the masses are taken off.",
+      "For a spring, the extension e (the increase in length from its original, unstretched length) is directly proportional to the force F applied, provided the limit of proportionality is not exceeded. This is written F = k e, where k is the spring constant in newtons per metre (N/m). A stiff spring has a large spring constant. The same equation applies to compression, where e is the decrease in length. On a graph of force against extension, the proportional part is a straight line through the origin (a linear relationship) and its gradient equals k. Beyond the limit of proportionality the line curves (a non-linear relationship).",
+      "A force that stretches or compresses a spring does work on it, and elastic potential energy is stored in the spring. Provided the spring is not inelastically deformed, the work done on the spring equals the elastic potential energy stored. This energy can be calculated using Ee = ½ k e², which is given on the equation sheet. Because extension is squared, doubling the extension stores four times as much energy. Remember to convert extension from centimetres to metres before using either equation.",
+      "In Required Practical 6, a spring is hung from a clamp stand next to a vertical metre rule, with a pointer fixed to the bottom of the spring. The original pointer position is recorded, then masses are added in steps (e.g. 100 g, giving about 1 N each). After each addition the new pointer position is read at eye level and the extension is calculated (new length minus original length). The weight of the masses is the force (W = mg). A graph of force against extension shows the linear region, the spring constant (gradient) and the limit of proportionality."
+    ],
+    "keyFacts": [
+      "Changing the shape of a stationary object needs more than one force.",
+      "Elastic deformation: the object returns to its original shape when the forces are removed.",
+      "Inelastic deformation: the object does not return to its original shape.",
+      "Extension = stretched length − original length.",
+      "F = k e: force (N) = spring constant (N/m) × extension (m).",
+      "Extension is directly proportional to force up to the limit of proportionality.",
+      "F = ke also applies to compression, with e as the compression.",
+      "Work done stretching a spring = elastic potential energy stored (if not inelastically deformed).",
+      "Ee = ½ k e² (on the equation sheet); extension must be in metres.",
+      "On a force against extension graph, the gradient of the straight section is k."
+    ],
+    "keyTerms": [
+      {
+        "term": "Elastic deformation",
+        "definition": "A change of shape in which the object returns to its original shape and size when the forces are removed."
+      },
+      {
+        "term": "Inelastic deformation",
+        "definition": "A change of shape in which the object does not return to its original shape when the forces are removed."
+      },
+      {
+        "term": "Extension",
+        "definition": "The increase in length of a spring or elastic object from its original length."
+      },
+      {
+        "term": "Spring constant (k)",
+        "definition": "The force needed per metre of extension for a spring; a measure of stiffness, in N/m."
+      },
+      {
+        "term": "Limit of proportionality",
+        "definition": "The point beyond which extension is no longer directly proportional to force."
+      },
+      {
+        "term": "Elastic potential energy",
+        "definition": "The energy stored in a stretched or compressed elastic object."
+      },
+      {
+        "term": "Linear relationship",
+        "definition": "A relationship that gives a straight-line graph; if it passes through the origin, the quantities are directly proportional."
+      },
+      {
+        "term": "Compression",
+        "definition": "The decrease in length of a spring or elastic object when it is squashed."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Force on a spring",
+        "formula": "force = spring constant × extension",
+        "symbols": "F = k e",
+        "units": "F in newtons (N), k in newtons per metre (N/m), e in metres (m)",
+        "recall": true
+      },
+      {
+        "name": "Elastic potential energy",
+        "formula": "elastic potential energy = 0.5 × spring constant × (extension)²",
+        "symbols": "Ee = ½ k e²",
+        "units": "Ee in joules (J), k in N/m, e in metres (m)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Using F = ke",
+        "question": "A spring has a spring constant of 40 N/m. Calculate the force needed to stretch it by 0.050 m.",
+        "steps": [
+          "F = k e.",
+          "F = 40 × 0.050.",
+          "F = 2.0 N."
+        ],
+        "answer": "2.0 N"
+      },
+      {
+        "title": "Finding k with extension in centimetres",
+        "question": "A force of 6.0 N stretches a spring by 12 cm. Calculate the spring constant.",
+        "steps": [
+          "Convert the extension: 12 cm ÷ 100 = 0.12 m.",
+          "Rearrange F = k e to k = F ÷ e.",
+          "k = 6.0 ÷ 0.12 = 50 N/m."
+        ],
+        "answer": "50 N/m"
+      },
+      {
+        "title": "Elastic potential energy",
+        "question": "A spring with a spring constant of 200 N/m is stretched by 15 cm (within its limit of proportionality). Calculate the elastic potential energy stored.",
+        "steps": [
+          "Convert: 15 cm = 0.15 m.",
+          "Ee = ½ k e² = 0.5 × 200 × 0.15².",
+          "0.15² = 0.0225, so Ee = 0.5 × 200 × 0.0225 = 2.25 J."
+        ],
+        "answer": "2.25 J (2.3 J to 2 s.f.)"
+      },
+      {
+        "title": "Mass in grams to spring constant",
+        "question": "A 300 g mass hangs from a spring and the extension is 6.0 cm. Calculate the spring constant. (g = 9.8 N/kg)",
+        "steps": [
+          "Convert mass: 300 g = 0.30 kg.",
+          "Force = weight = m g = 0.30 × 9.8 = 2.94 N.",
+          "Convert extension: 6.0 cm = 0.060 m.",
+          "k = F ÷ e = 2.94 ÷ 0.060 = 49 N/m."
+        ],
+        "answer": "49 N/m"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Required Practical 6 apparatus",
+        "caption": "A spring hangs from a clamp stand beside a vertical metre rule. A pointer on the bottom of the spring is read at eye level as masses are added to the hanger.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='230' width='120' height='14' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='50' y1='230' x2='50' y2='20' stroke='currentColor' stroke-width='4'/><line x1='50' y1='30' x2='185' y2='30' stroke='currentColor' stroke-width='4'/><rect x='40' y='24' width='22' height='14' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><polyline points='180,30 180,40 170,46 190,52 170,58 190,64 170,70 190,76 170,82 190,88 170,94 190,100 180,106 180,112' fill='none' stroke='currentColor' stroke-width='2'/><line x1='180' y1='112' x2='255' y2='112' stroke='currentColor' stroke-width='2'/><path d='M260 112 L250 108 L250 116 Z' fill='currentColor'/><line x1='180' y1='112' x2='180' y2='130' stroke='currentColor' stroke-width='2'/><rect x='160' y='130' width='40' height='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='160' y='140' width='40' height='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='160' y='150' width='40' height='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='180' y1='160' x2='180' y2='170' stroke='currentColor' stroke-width='2'/><rect x='165' y='170' width='30' height='5' fill='currentColor'/><rect x='262' y='20' width='22' height='210' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor'><line x1='262' y1='40' x2='272' y2='40'/><line x1='262' y1='60' x2='272' y2='60'/><line x1='262' y1='80' x2='272' y2='80'/><line x1='262' y1='100' x2='272' y2='100'/><line x1='262' y1='120' x2='272' y2='120'/><line x1='262' y1='140' x2='272' y2='140'/><line x1='262' y1='160' x2='272' y2='160'/><line x1='262' y1='180' x2='272' y2='180'/><line x1='262' y1='200' x2='272' y2='200'/></g><g font-size='12' fill='currentColor'><text x='70' y='20'>clamp</text><text x='60' y='130'>clamp</text><text x='60' y='145'>stand</text><text x='105' y='75'>spring</text><text x='200' y='105'>pointer</text><text x='95' y='160'>masses</text><text x='95' y='175'>on hanger</text><text x='292' y='60'>metre rule</text><text x='292' y='75'>(vertical,</text><text x='292' y='90'>clamped)</text><text x='292' y='150'>read pointer</text><text x='292' y='165'>at eye level</text><text x='20' y='258'>Heavy weight or G-clamp on the base stops the stand toppling.</text></g></svg>"
+      },
+      {
+        "title": "Force against extension for a spring",
+        "caption": "The graph is a straight line through the origin up to the limit of proportionality (F = ke, gradient = k = 4 N ÷ 0.10 m = 40 N/m). Beyond it, the graph curves and extension is no longer proportional to force.",
+        "svg": "<svg viewBox='0 0 420 270' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-opacity='0.25'><line x1='135' y1='210' x2='135' y2='30'/><line x1='210' y1='210' x2='210' y2='30'/><line x1='285' y1='210' x2='285' y2='30'/><line x1='360' y1='210' x2='360' y2='30'/><line x1='60' y1='150' x2='360' y2='150'/><line x1='60' y1='90' x2='360' y2='90'/><line x1='60' y1='30' x2='360' y2='30'/></g><g stroke='currentColor'><line x1='60' y1='210' x2='370' y2='210'/><line x1='60' y1='210' x2='60' y2='20'/></g><line x1='60' y1='210' x2='210' y2='90' stroke='currentColor' stroke-width='2.5'/><path d='M210 90 C235 70 270 45 322.5 30' fill='none' stroke='currentColor' stroke-width='2.5'/><g fill='currentColor'><circle cx='97.5' cy='180' r='3'/><circle cx='135' cy='150' r='3'/><circle cx='172.5' cy='120' r='3'/><circle cx='210' cy='90' r='3'/><circle cx='255' cy='60' r='3'/><circle cx='322.5' cy='30' r='3'/></g><circle cx='210' cy='90' r='8' fill='none' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='55' y='226' text-anchor='middle'>0</text><text x='135' y='226' text-anchor='middle'>5</text><text x='210' y='226' text-anchor='middle'>10</text><text x='285' y='226' text-anchor='middle'>15</text><text x='360' y='226' text-anchor='middle'>20</text><text x='210' y='248' text-anchor='middle'>extension in cm</text><text x='48' y='214' text-anchor='end'>0</text><text x='48' y='154' text-anchor='end'>2</text><text x='48' y='94' text-anchor='end'>4</text><text x='48' y='34' text-anchor='end'>6</text><text x='16' y='130' transform='rotate(-90 16 130)' text-anchor='middle'>force in N</text><text x='218' y='115'>limit of proportionality</text><text x='268' y='76'>beyond the limit:</text><text x='268' y='91'>not proportional</text><text x='150' y='175'>linear: F = ke</text><text x='150' y='190'>gradient = k = 40 N/m</text></g></svg>"
+      },
+      {
+        "title": "More than one force is needed to stretch a spring",
+        "caption": "A spring is stretched by two equal and opposite forces. With a single force, the spring would move instead of changing shape.",
+        "svg": "<svg viewBox='0 0 420 150' xmlns='http://www.w3.org/2000/svg'><polyline points='120,70 130,70 138,55 154,85 170,55 186,85 202,55 218,85 234,55 250,85 266,55 282,85 290,70 300,70' fill='none' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='3'><line x1='120' y1='70' x2='50' y2='70'/><line x1='300' y1='70' x2='370' y2='70'/></g><g fill='currentColor'><path d='M40 70 L52 64 L52 76 Z'/><path d='M380 70 L368 64 L368 76 Z'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='80' y='55'>pull 5 N</text><text x='340' y='55'>pull 5 N</text><text x='210' y='30'>Stretching: two forces in opposite directions</text><text x='210' y='120'>One force alone would make the spring move, not stretch.</text><text x='210' y='138'>(A hanging spring: weight pulls down, clamp pulls up.)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use the stretched length of the spring as the extension.",
+        "right": "In fact extension = stretched length − original length."
+      },
+      {
+        "wrong": "Students often think the limit of proportionality is the point where the spring breaks.",
+        "right": "In fact it is the point beyond which force and extension are no longer proportional; the spring may still stretch a lot before breaking."
+      },
+      {
+        "wrong": "Students often think one force is enough to stretch a spring.",
+        "right": "In fact at least two forces are needed to change the shape of a stationary object; a single force would make it move."
+      },
+      {
+        "wrong": "Students often think that doubling the extension doubles the elastic potential energy.",
+        "right": "In fact Ee = ½ke², so doubling the extension multiplies the stored energy by four."
+      }
+    ],
+    "realWorld": [
+      "Car and bicycle suspension springs compress elastically to absorb bumps in the road.",
+      "Newtonmeters and kitchen spring scales work because extension is proportional to force below the limit of proportionality.",
+      "Bungee cords and trampolines store elastic potential energy when stretched and transfer it back to kinetic energy.",
+      "Engineers make sure that steel in bridges and buildings stays well below its limit of proportionality so that it deforms elastically."
+    ],
+    "practicals": [
+      "phys-rp6"
+    ],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "F = ke must be recalled; Ee = ½ke² is on the equation sheet.",
+      "Always convert extension from cm or mm to metres before calculating k or Ee.",
+      "Calculate extension as new length minus original length: never use the total length.",
+      "To find k from a graph, use the gradient of the straight-line section only (force ÷ extension).",
+      "In RP6 answers, mention reading the pointer at eye level to avoid parallax, and using a heavy weight or G-clamp to stop the stand toppling.",
+      "Use 'directly proportional' only when the graph is a straight line through the origin."
+    ],
+    "summary": [
+      "Stretching, bending or compressing a stationary object needs more than one force.",
+      "Elastic deformation is reversible; inelastic deformation is permanent.",
+      "F = ke up to the limit of proportionality.",
+      "A force against extension graph is linear (gradient k) up to the limit, then non-linear.",
+      "Work done on a spring is stored as elastic potential energy: Ee = ½ke².",
+      "RP6: add masses, measure extension with a pointer and metre rule, plot force against extension."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Why is more than one force needed to stretch a spring?",
+      "back": "With only one force the object would move rather than change shape."
+    },
+    {
+      "front": "What is elastic deformation?",
+      "back": "A change of shape that is reversed when the forces are removed."
+    },
+    {
+      "front": "What is inelastic deformation?",
+      "back": "A permanent change of shape: the object does not return to its original shape."
+    },
+    {
+      "front": "Equation linking force, spring constant and extension?",
+      "back": "F = ke."
+    },
+    {
+      "front": "Unit of spring constant?",
+      "back": "N/m."
+    },
+    {
+      "front": "What is the limit of proportionality?",
+      "back": "The point beyond which extension is no longer directly proportional to force."
+    },
+    {
+      "front": "How do you calculate extension?",
+      "back": "Stretched length − original length."
+    },
+    {
+      "front": "Equation for elastic potential energy?",
+      "back": "Ee = ½ke² (on the equation sheet)."
+    },
+    {
+      "front": "What does the gradient of a force against extension graph give?",
+      "back": "The spring constant, k (straight-line part)."
+    },
+    {
+      "front": "Work done stretching a spring equals what?",
+      "back": "The elastic potential energy stored (if not inelastically deformed)."
+    },
+    {
+      "front": "RP6: how is force varied?",
+      "back": "By adding masses to the hanger; force = weight = mg."
+    },
+    {
+      "front": "RP6: why read the pointer at eye level?",
+      "back": "To avoid parallax error."
+    },
+    {
+      "front": "Linear vs non-linear relationship?",
+      "back": "Linear: straight-line graph. Non-linear: curved graph."
+    },
+    {
+      "front": "Doubling extension changes Ee by what factor?",
+      "back": "×4."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-forces-and-elasticity-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In the equation F = ke, what does k represent?",
+      "options": [
+        "The extension",
+        "The kinetic energy",
+        "The spring constant",
+        "The elastic potential energy"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The spring constant"
+      ],
+      "explanation": "k is the spring constant, a measure of how stiff the spring is. e is the extension."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of spring constant?",
+      "options": [
+        "N/m",
+        "N m",
+        "J",
+        "m/N"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: N/m"
+      ],
+      "explanation": "k = F ÷ e, so its unit is newtons divided by metres: N/m. N m is the unit of moment."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does it mean if a spring has been elastically deformed?",
+      "options": [
+        "It has broken",
+        "It returns to its original shape when the force is removed",
+        "It stays permanently stretched",
+        "It cannot be stretched again"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It returns to its original shape when the force is removed"
+      ],
+      "explanation": "Elastic deformation is reversible. A permanent change of shape is inelastic deformation."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why must more than one force act on a stationary spring to stretch it?",
+      "options": [
+        "One force would make the spring move rather than change shape",
+        "Springs only respond to forces in pairs of equal mass",
+        "A single force always compresses a spring",
+        "One force would exceed the limit of proportionality"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: One force would make the spring move rather than change shape"
+      ],
+      "explanation": "If only one force acted, there would be an unbalanced force and the spring would move (accelerate) instead of stretching. Two opposite forces are needed to change its shape."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is meant by the limit of proportionality of a spring?",
+      "options": [
+        "The point where the spring breaks",
+        "The largest force the spring can ever support",
+        "The point beyond which extension is no longer directly proportional to force",
+        "The length of the spring with no force applied"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The point beyond which extension is no longer directly proportional to force"
+      ],
+      "explanation": "Up to the limit of proportionality, F = ke applies. Beyond it the force against extension graph curves. The spring usually breaks much later."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In Required Practical 6, which is the independent variable?",
+      "options": [
+        "The extension of the spring",
+        "The original length of the spring",
+        "The type of spring",
+        "The force applied by the masses"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The force applied by the masses"
+      ],
+      "explanation": "The student chooses the force by adding masses, so force is the independent variable. Extension is measured, so it is the dependent variable. The spring itself is kept the same (control)."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A spring has an original length of 4.0 cm. When a force is applied, its length is 7.0 cm. What is its extension?",
+      "options": [
+        "11.0 cm",
+        "3.0 cm",
+        "7.0 cm",
+        "1.75 cm"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 3.0 cm"
+      ],
+      "explanation": "Extension = stretched length − original length = 7.0 − 4.0 = 3.0 cm. 7.0 cm is the total length, not the extension."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Spring A has a larger spring constant than spring B. The same force is applied to each, within the limit of proportionality. Which statement is correct?",
+      "options": [
+        "Spring A extends less than spring B",
+        "Spring A extends more than spring B",
+        "Both springs extend by the same amount",
+        "Spring A stores more elastic potential energy than B"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Spring A extends less than spring B"
+      ],
+      "explanation": "e = F ÷ k, so a larger k gives a smaller extension. A stiffer spring stretches less and, with smaller e, stores less energy (Ee = ½Fe)."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student plots force on the y-axis against extension on the x-axis for a spring. What does the gradient of the straight-line section represent?",
+      "options": [
+        "The elastic potential energy",
+        "The extension",
+        "1 ÷ spring constant",
+        "The spring constant"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The spring constant"
+      ],
+      "explanation": "Gradient = change in force ÷ change in extension = F ÷ e = k. If the axes were the other way round, the gradient would be 1 ÷ k."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The extension of a spring is doubled, staying within the limit of proportionality. What happens to the elastic potential energy stored?",
+      "options": [
+        "It doubles",
+        "It stays the same",
+        "It halves",
+        "It increases four times"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It increases four times"
+      ],
+      "explanation": "Ee = ½ke². Doubling e multiplies e² by 4, so the energy stored is four times larger."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is an example of compression?",
+      "options": [
+        "Pulling a rubber band",
+        "Hanging a mass from a spring",
+        "Squashing a car's suspension spring",
+        "Bending a ruler"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Squashing a car's suspension spring"
+      ],
+      "explanation": "Compression means squashing an object so its length decreases. Pulling and hanging stretch; a ruler being bent is bending."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A spring has a spring constant of 25 N/m. Calculate the force needed to stretch it by 0.04 m.",
+      "numericAnswer": 1,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 25 × 0.04",
+        "1 mark: 1 N"
+      ],
+      "explanation": "F = k e = 25 × 0.04 = 1.0 N."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A spring is 20 cm long. When a mass is hung from it, its length is 25 cm. Calculate the extension in cm.",
+      "numericAnswer": 5,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: 5 cm"
+      ],
+      "explanation": "Extension = 25 − 20 = 5 cm."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 6.0 N stretches a spring by 12 cm. Calculate the spring constant.",
+      "numericAnswer": 50,
+      "tolerance": 0.02,
+      "unit": "N/m",
+      "markScheme": [
+        "1 mark: 12 cm = 0.12 m",
+        "1 mark: k = 6.0 ÷ 0.12",
+        "1 mark: 50 N/m"
+      ],
+      "explanation": "Convert to metres first: 0.12 m. k = F ÷ e = 6.0 ÷ 0.12 = 50 N/m. Using 12 gives 0.5 N/m, which is 100 times too small."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A spring has a spring constant of 40 N/m. Calculate the extension when a force of 2.0 N is applied. Give your answer in metres.",
+      "numericAnswer": 0.05,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: e = F ÷ k",
+        "1 mark: e = 2.0 ÷ 40",
+        "1 mark: 0.05 m"
+      ],
+      "explanation": "Rearrange F = ke to e = F ÷ k = 2.0 ÷ 40 = 0.05 m (5 cm)."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A spring with a spring constant of 80 N/m is stretched by 0.10 m. Calculate the elastic potential energy stored. Use Ee = ½ke².",
+      "numericAnswer": 0.4,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: Ee = 0.5 × 80 × 0.10²",
+        "1 mark: 0.4 J"
+      ],
+      "explanation": "Ee = 0.5 × 80 × 0.01 = 0.4 J. Forgetting to square the extension gives 4 J."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A spring with a spring constant of 200 N/m is stretched by 15 cm. Calculate the elastic potential energy stored. Use Ee = ½ke².",
+      "numericAnswer": 2.25,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: 15 cm = 0.15 m",
+        "1 mark: Ee = 0.5 × 200 × 0.15²",
+        "1 mark: 2.25 J (accept 2.3 J)"
+      ],
+      "explanation": "0.15² = 0.0225. Ee = 0.5 × 200 × 0.0225 = 2.25 J."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A spring with a spring constant of 500 N/m stores 0.90 J of elastic potential energy. Calculate its extension in metres. Use Ee = ½ke².",
+      "numericAnswer": 0.06,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: e² = 2Ee ÷ k",
+        "1 mark: e² = 2 × 0.90 ÷ 500 = 0.0036",
+        "1 mark: e = 0.06 m"
+      ],
+      "explanation": "Rearrange: e² = 2 × 0.90 ÷ 500 = 0.0036, so e = √0.0036 = 0.06 m (6 cm)."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A spring has an original length of 8.0 cm. A force of 1.4 N stretches it to a length of 11.5 cm. Calculate the spring constant.",
+      "numericAnswer": 40,
+      "tolerance": 0.02,
+      "unit": "N/m",
+      "markScheme": [
+        "1 mark: extension = 11.5 − 8.0 = 3.5 cm = 0.035 m",
+        "1 mark: k = 1.4 ÷ 0.035",
+        "1 mark: 40 N/m"
+      ],
+      "explanation": "Find the extension first (3.5 cm), convert it to metres (0.035 m), then k = F ÷ e = 1.4 ÷ 0.035 = 40 N/m."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A mass of 300 g is hung from a spring. The extension is 6.0 cm. Calculate the spring constant. (g = 9.8 N/kg)",
+      "numericAnswer": 49,
+      "tolerance": 0.02,
+      "unit": "N/m",
+      "markScheme": [
+        "1 mark: F = 0.30 × 9.8 = 2.94 N",
+        "1 mark: e = 0.060 m",
+        "1 mark: k = 2.94 ÷ 0.060",
+        "1 mark: 49 N/m"
+      ],
+      "explanation": "The force is the weight: 0.30 kg × 9.8 = 2.94 N. k = 2.94 ÷ 0.060 = 49 N/m."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe the difference between elastic deformation and inelastic deformation.",
+      "acceptedAnswers": [
+        "returns to original shape",
+        "does not return to original shape",
+        "permanent"
+      ],
+      "markScheme": [
+        "1 mark: elastic: the object returns to its original shape (and size) when the forces are removed",
+        "1 mark: inelastic: the object does not return to its original shape / is permanently deformed"
+      ],
+      "explanation": "The test is what happens when the forces are removed."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A spring hangs from a clamp with a mass on the end. Name the two forces that stretch the spring.",
+      "acceptedAnswers": [
+        "weight of the mass",
+        "pulls down",
+        "clamp pulls up",
+        "support force",
+        "tension"
+      ],
+      "markScheme": [
+        "1 mark: the weight of the mass pulling down",
+        "1 mark: the clamp (support) pulling up on the top of the spring"
+      ],
+      "explanation": "Two opposite forces act on the spring: one at each end. Together they stretch it without it moving."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In Required Practical 6, a pointer is attached to the bottom of the spring and read against a vertical ruler. Explain why the student should read the pointer at eye level.",
+      "acceptedAnswers": [
+        "parallax",
+        "eye level",
+        "more accurate",
+        "reading not too high or low"
+      ],
+      "markScheme": [
+        "1 mark: to avoid parallax error",
+        "1 mark: so the reading (and extension) is accurate / not too high or too low"
+      ],
+      "explanation": "Looking from above or below makes the pointer appear against the wrong mark. Reading at eye level gives an accurate length."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the difference between a linear relationship and a non-linear relationship between force and extension.",
+      "acceptedAnswers": [
+        "straight line",
+        "curve",
+        "proportional",
+        "constant gradient"
+      ],
+      "markScheme": [
+        "1 mark: linear: graph is a straight line (extension increases by equal amounts for equal increases in force)",
+        "1 mark: non-linear: graph is a curve (equal increases in force do not give equal increases in extension)"
+      ],
+      "explanation": "A linear relationship has a constant gradient. Beyond the limit of proportionality the spring's graph becomes non-linear."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Name the type of energy stored in a stretched spring.",
+      "acceptedAnswers": [
+        "elastic potential energy",
+        "elastic potential",
+        "elastic"
+      ],
+      "markScheme": [
+        "1 mark: elastic potential energy"
+      ],
+      "explanation": "Work done stretching the spring is stored as elastic potential energy."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "In Required Practical 6, a student records force and extension. Explain how she could use a graph of her results to find the spring constant and the limit of proportionality.",
+      "acceptedAnswers": [
+        "plot force against extension",
+        "straight line through origin",
+        "gradient = k",
+        "where line starts to curve",
+        "limit of proportionality"
+      ],
+      "markScheme": [
+        "1 mark: plot force (y) against extension (x) and draw a line of best fit",
+        "1 mark: the gradient of the straight-line section is the spring constant (force ÷ extension, extension in m)",
+        "1 mark: the limit of proportionality is where the graph stops being a straight line / starts to curve"
+      ],
+      "explanation": "The straight section obeys F = ke, so its gradient is k. The point where it curves marks the limit of proportionality."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A spring is stretched beyond its limit of proportionality and becomes inelastically deformed. Explain why the elastic potential energy stored is no longer equal to the work done on the spring.",
+      "acceptedAnswers": [
+        "permanently deformed",
+        "some work done changes shape",
+        "not all energy stored",
+        "energy transferred to thermal"
+      ],
+      "markScheme": [
+        "1 mark: some of the work done permanently deforms the spring / is not stored elastically",
+        "1 mark: so the elastic potential energy stored is less than the work done (Ee = ½ke² no longer applies)"
+      ],
+      "explanation": "Work done equals elastic potential energy only if the spring is not inelastically deformed. Beyond that, some of the work goes into permanently changing its shape (and is dissipated)."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the extension of a spring depends on the force applied to it (Required Practical 6). Include how the results should be processed.",
+      "markScheme": [
+        "Indicative content:",
+        "Hang the spring from a clamp and boss on a clamp stand; secure the stand with a G-clamp or heavy weight.",
+        "Clamp a metre rule vertically beside the spring, with zero level with the top of the spring (or note the starting reading).",
+        "Attach a pointer to the bottom of the spring.",
+        "Record the original position of the pointer (unstretched length).",
+        "Hang a mass hanger and add masses in equal steps (e.g. 100 g = 0.98 N).",
+        "After each addition, wait for the spring to stop moving and read the pointer position at eye level.",
+        "Calculate extension = new reading − original reading.",
+        "Calculate force = weight = mass (kg) × 9.8 N/kg.",
+        "Repeat with increasing masses (at least 5 or 6 values); repeat the whole experiment and calculate means.",
+        "Plot force against extension; draw a line of best fit.",
+        "Straight line through origin shows extension ∝ force; gradient gives k; curve shows limit of proportionality.",
+        "Safety: wear eye protection in case the spring snaps; keep feet clear of falling masses.",
+        "Level 3 (5 to 6 marks): coherent, detailed method allowing valid results, including measuring extension correctly, calculating force, and plotting/interpreting the graph.",
+        "Level 2 (3 to 4 marks): method with key steps but some omissions, e.g. no repeat or limited processing.",
+        "Level 1 (1 to 2 marks): basic statements such as add masses and measure the spring."
+      ],
+      "explanation": "A valid method measures the original length, adds known forces in steps, measures each new length to find extension, and plots force against extension."
+    },
+    {
+      "id": "p5-forces-and-elasticity-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student obtained these results for a spring:\nForce (N): 0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0\nExtension (cm): 0, 2.5, 5.0, 7.5, 10.0, 13.0, 17.5\nUse the data to calculate the spring constant and to identify the limit of proportionality. Explain your answers.",
+      "markScheme": [
+        "Indicative content:",
+        "Up to 4.0 N, each 1.0 N increase gives an extra 2.5 cm: extension is directly proportional to force.",
+        "k = F ÷ e = 4.0 ÷ 0.10 = 40 N/m (any pair in the linear region, extension converted to m).",
+        "At 5.0 N the extension is 13.0 cm, not the 12.5 cm that proportionality predicts.",
+        "So the limit of proportionality is reached at about 4.0 N (between 4.0 N and 5.0 N).",
+        "Beyond this the relationship is non-linear; extensions increase by larger amounts (3.0 cm, then 4.5 cm).",
+        "Level 2 (3 to 4 marks): correct k with unit and correct identification of the limit with a reason from the data.",
+        "Level 1 (1 to 2 marks): either a correct k or correct identification of the limit, with little explanation."
+      ],
+      "explanation": "The pattern of +2.5 cm per newton holds only up to 4.0 N, so k = 4.0 ÷ 0.10 = 40 N/m. After 4.0 N the extension grows faster than proportionally, so the limit of proportionality is about 4.0 N."
+    }
+  ]
+}

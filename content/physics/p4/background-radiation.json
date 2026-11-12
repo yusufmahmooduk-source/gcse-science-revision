@@ -1,0 +1,673 @@
+{
+  "id": "p4-background-radiation",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "background-radiation",
+  "specRef": "4.4.3.1",
+  "title": "Background radiation",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Background radiation is the ionising radiation that is around us all of the time, from natural sources such as rocks and cosmic rays and from man-made sources such as fallout from nuclear weapons testing and nuclear accidents.",
+    "explanation": [
+      "Background radiation is around us all of the time. Most of it comes from natural sources. Some rocks, such as granite, contain radioactive isotopes of uranium, thorium and potassium. The uranium decays to radon, a radioactive gas that seeps out of the ground and can collect in buildings; in the UK radon is the largest single source of background radiation. Cosmic rays from space (from the Sun and beyond) also reach the Earth. Small amounts of radioactive isotopes are also in our food and drink, and therefore in our bodies.",
+      "Some background radiation comes from man-made sources. These include fallout from nuclear weapons testing carried out in the past, and radioactive material released in nuclear accidents such as Chernobyl and Fukushima. Medical procedures such as X-rays and CT scans also add to the dose of an average person.",
+      "The level of background radiation and the radiation dose a person receives depend on their location and occupation. People living in areas with granite rocks, such as parts of Cornwall and Scotland, receive a higher dose from radon and gamma rays from the ground. Aircrew and frequent flyers receive more cosmic radiation, because there is less atmosphere above them to absorb it. Workers in nuclear power stations, hospitals and some mines may receive a higher dose from their jobs.",
+      "Radiation dose measures the risk of harm from the radiation that a person's body absorbs. It is measured in sieverts (Sv). One sievert is a large dose, so doses are usually given in millisieverts (mSv): 1000 mSv = 1 Sv. A typical person in the UK receives about 2 to 3 mSv per year from background radiation.",
+      "When measuring the count rate from a radioactive source in the laboratory, background radiation is always detected too. Scientists measure the background count rate with no source present, then subtract it from each reading, to find the count rate due to the source alone."
+    ],
+    "keyFacts": [
+      "Background radiation is around us all of the time.",
+      "Natural sources include rocks (and the radon gas they release) and cosmic rays from space.",
+      "Man-made sources include fallout from nuclear weapons testing and nuclear accidents.",
+      "Radon gas is the biggest single source of background radiation in the UK.",
+      "Background radiation level and dose depend on location and occupation.",
+      "Radiation dose is measured in sieverts (Sv).",
+      "1000 millisieverts (mSv) = 1 sievert (Sv).",
+      "A typical UK annual background dose is about 2 to 3 mSv.",
+      "Subtract the background count rate from measured count rates to find the source's count rate."
+    ],
+    "keyTerms": [
+      {
+        "term": "Background radiation",
+        "definition": "Ionising radiation that is present around us all of the time, from natural and man-made sources."
+      },
+      {
+        "term": "Cosmic rays",
+        "definition": "High-energy radiation from space that reaches the Earth's atmosphere and surface."
+      },
+      {
+        "term": "Radon",
+        "definition": "A radioactive gas produced in the decay of uranium in rocks; it can build up in buildings."
+      },
+      {
+        "term": "Fallout",
+        "definition": "Radioactive material spread through the atmosphere after nuclear weapons tests or nuclear accidents."
+      },
+      {
+        "term": "Radiation dose",
+        "definition": "A measure of the risk of harm from the radiation absorbed by the body, measured in sieverts (Sv)."
+      },
+      {
+        "term": "Sievert (Sv)",
+        "definition": "The unit of radiation dose; 1 Sv = 1000 mSv."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Dose unit conversion",
+        "formula": "1 sievert (Sv) = 1000 millisieverts (mSv)",
+        "symbols": "1 Sv = 1000 mSv",
+        "units": "Sv and mSv",
+        "recall": false
+      },
+      {
+        "name": "Corrected count rate",
+        "formula": "count rate from source = measured count rate − background count rate",
+        "symbols": "corrected = measured − background",
+        "units": "counts per second or per minute",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting dose units",
+        "question": "A CT scan gives a dose of 0.008 Sv. Convert this to millisieverts.",
+        "steps": [
+          "1 Sv = 1000 mSv.",
+          "0.008 × 1000 = 8 mSv."
+        ],
+        "answer": "8 mSv"
+      },
+      {
+        "title": "Extra dose from flying",
+        "question": "A pilot receives an extra 0.004 mSv per hour of flying from cosmic rays. She flies 700 hours a year. Calculate her extra annual dose.",
+        "steps": [
+          "Extra dose = 0.004 × 700.",
+          "= 2.8 mSv."
+        ],
+        "answer": "2.8 mSv per year"
+      },
+      {
+        "title": "Correcting for background",
+        "question": "A Geiger-Muller tube records 600 counts in 10 minutes near a source. With the source removed it records 250 counts in 10 minutes. Calculate the count rate due to the source in counts per minute.",
+        "steps": [
+          "Measured count rate = 600 ÷ 10 = 60 counts/min.",
+          "Background = 250 ÷ 10 = 25 counts/min.",
+          "Source = 60 − 25 = 35 counts/min."
+        ],
+        "answer": "35 counts/min"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Sources of background radiation in the UK",
+        "caption": "Approximate share of the average UK annual dose. Natural sources (radon, rocks and buildings, cosmic rays, food) make up most of it.",
+        "svg": "<svg viewBox='0 0 450 250' xmlns='http://www.w3.org/2000/svg'><path d='M120 125 L120.0 30.0 A95 95 0 0 1 131.9 219.3 Z' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><path d='M120 125 L131.9 219.3 A95 95 0 0 1 50.7 190.0 Z' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><path d='M120 125 L50.7 190.0 A95 95 0 0 1 25.2 119.0 Z' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><path d='M120 125 L25.2 119.0 A95 95 0 0 1 55.0 55.7 Z' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><path d='M120 125 L55.0 55.7 A95 95 0 0 1 114.0 30.2 Z' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><path d='M120 125 L114.0 30.2 A95 95 0 0 1 120.0 30.0 Z' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor'><rect x='240' y='40' width='14' height='14' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='52'>radon gas from rocks: 48%</text><rect x='240' y='66' width='14' height='14' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='78'>medical (X-rays, scans): 15%</text><rect x='240' y='92' width='14' height='14' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='104'>ground and buildings: 13%</text><rect x='240' y='118' width='14' height='14' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='130'>cosmic rays: 12%</text><rect x='240' y='144' width='14' height='14' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='156'>food and drink: 11%</text><rect x='240' y='170' width='14' height='14' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='260' y='182'>fallout, accidents, jobs: 1%</text><text x='240' y='22'>Approximate UK average sources</text><text x='240' y='212'>Total about 2.7 mSv per year</text><text x='240' y='228'>(man-made sources shown include</text><text x='240' y='244'>medical, fallout and accidents)</text></g></svg>"
+      },
+      {
+        "title": "How location and occupation affect dose",
+        "caption": "Illustrative annual doses: people in granite areas and aircrew receive more than the UK average.",
+        "svg": "<svg viewBox='0 0 420 230' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='1.5'><line x1='70' y1='190' x2='400' y2='190'/><line x1='70' y1='190' x2='70' y2='30'/></g><rect x='100' y='136' width='60' height='54' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='130' y='130' font-size='12' fill='currentColor' text-anchor='middle'>2.7</text><text x='130' y='206' font-size='12' fill='currentColor' text-anchor='middle'>UK average</text><rect x='200' y='96' width='60' height='94' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='230' y='90' font-size='12' fill='currentColor' text-anchor='middle'>4.7</text><text x='230' y='206' font-size='12' fill='currentColor' text-anchor='middle'>aircrew</text><rect x='300' y='50' width='60' height='140' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='330' y='44' font-size='12' fill='currentColor' text-anchor='middle'>7</text><text x='330' y='206' font-size='12' fill='currentColor' text-anchor='middle'>granite area</text><g font-size='12' fill='currentColor' text-anchor='end'><text x='64' y='194'>0</text><text x='64' y='154'>2</text><text x='64' y='114'>4</text><text x='64' y='74'>6</text><text x='64' y='34'>8</text></g><g font-size='12' fill='currentColor'><text x='10' y='20'>annual dose in mSv (illustrative values)</text><text x='70' y='226'>Dose depends on location and occupation</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think most background radiation comes from nuclear power stations.",
+        "right": "In fact most comes from natural sources such as radon from rocks and cosmic rays. Nuclear power contributes a tiny fraction."
+      },
+      {
+        "wrong": "Students often think background radiation can be switched off or removed in an experiment.",
+        "right": "In fact it is always present, so it must be measured and subtracted from readings."
+      },
+      {
+        "wrong": "Students often think everyone receives the same background dose.",
+        "right": "In fact dose depends on where you live (e.g. granite areas) and your job (e.g. aircrew)."
+      },
+      {
+        "wrong": "Students often think 1 mSv is bigger than 1 Sv.",
+        "right": "In fact milli means one thousandth: 1 mSv = 0.001 Sv."
+      }
+    ],
+    "realWorld": [
+      "Homes in high-radon areas can be fitted with underfloor fans and sealed floors to stop radon building up indoors.",
+      "Airline crew are classed as radiation workers in some countries and their cosmic ray doses are monitored.",
+      "Radioactive fallout from 1950s and 1960s weapons tests can still be detected in soils and in tree rings."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only. It is not assessed in Combined Science Trilogy (8464). Students do not need to recall the unit of radiation dose (the sievert), but must be able to use it and convert between Sv and mSv."
+    ],
+    "examTips": [
+      "Give named examples of sources: natural (rocks, radon, cosmic rays) and man-made (weapons test fallout, nuclear accidents).",
+      "When explaining a different dose, link it clearly to location (e.g. granite rocks) or occupation (e.g. aircrew, radiographers).",
+      "To convert Sv to mSv multiply by 1000; mSv to Sv divide by 1000.",
+      "In practical questions, always subtract background count rate before using the data."
+    ],
+    "summary": [
+      "Background radiation is always present.",
+      "Natural sources: rocks (radon) and cosmic rays; man-made: weapons fallout and nuclear accidents.",
+      "Dose depends on location and occupation.",
+      "Radiation dose is measured in sieverts; 1000 mSv = 1 Sv.",
+      "Subtract background from measured count rates."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is background radiation?",
+      "back": "Radiation that is around us all of the time from natural and man-made sources."
+    },
+    {
+      "front": "Name two natural sources of background radiation.",
+      "back": "Rocks (including radon gas) and cosmic rays from space."
+    },
+    {
+      "front": "Name two man-made sources of background radiation.",
+      "back": "Fallout from nuclear weapons testing and nuclear accidents."
+    },
+    {
+      "front": "Largest single source of background radiation in the UK?",
+      "back": "Radon gas."
+    },
+    {
+      "front": "Two factors that affect a person's background dose?",
+      "back": "Location and occupation."
+    },
+    {
+      "front": "Unit of radiation dose?",
+      "back": "Sievert (Sv)."
+    },
+    {
+      "front": "How many mSv in 1 Sv?",
+      "back": "1000"
+    },
+    {
+      "front": "Typical UK annual background dose?",
+      "back": "About 2 to 3 mSv (about 2.7 mSv)."
+    },
+    {
+      "front": "Why do pilots get a higher dose?",
+      "back": "Less atmosphere above them absorbs cosmic rays."
+    },
+    {
+      "front": "Why do people in granite areas get a higher dose?",
+      "back": "Granite contains uranium, which produces radon gas and gamma radiation."
+    },
+    {
+      "front": "How do you correct a count rate for background?",
+      "back": "Subtract the background count rate from the measured count rate."
+    },
+    {
+      "front": "Convert 0.5 Sv to mSv.",
+      "back": "500 mSv"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-background-radiation-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a natural source of background radiation?",
+      "options": [
+        "Fallout from weapons testing",
+        "Cosmic rays from space",
+        "Nuclear accidents",
+        "Nuclear power station waste"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Cosmic rays from space"
+      ],
+      "explanation": "Cosmic rays come from space naturally. The other options are man-made."
+    },
+    {
+      "id": "p4-background-radiation-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which is a man-made source of background radiation?",
+      "options": [
+        "Rocks",
+        "Radon gas",
+        "Cosmic rays",
+        "Fallout from nuclear weapons testing"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Fallout from nuclear weapons testing"
+      ],
+      "explanation": "Weapons test fallout was produced by people. Rocks, radon and cosmic rays are natural."
+    },
+    {
+      "id": "p4-background-radiation-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of radiation dose?",
+      "options": [
+        "Sievert",
+        "Becquerel",
+        "Joule",
+        "Gray per second"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Sievert"
+      ],
+      "explanation": "Radiation dose is measured in sieverts (Sv). The becquerel is the unit of activity."
+    },
+    {
+      "id": "p4-background-radiation-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the largest single source of background radiation for most people in the UK?",
+      "options": [
+        "Nuclear power stations",
+        "Cosmic rays",
+        "Food and drink",
+        "Radon gas"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Radon gas"
+      ],
+      "explanation": "Radon gas, released from rocks such as granite, gives the largest share of the average UK dose."
+    },
+    {
+      "id": "p4-background-radiation-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do airline pilots receive a higher background radiation dose than most people?",
+      "options": [
+        "Aircraft engines are radioactive",
+        "They spend more time near radon",
+        "There is less atmosphere above them to absorb cosmic rays",
+        "Airports use X-ray scanners"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: There is less atmosphere above them to absorb cosmic rays"
+      ],
+      "explanation": "At high altitude there is less air to absorb cosmic rays, so pilots receive more cosmic radiation."
+    },
+    {
+      "id": "p4-background-radiation-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many millisieverts are there in 2.5 Sv?",
+      "options": [
+        "2500 mSv",
+        "0.0025 mSv",
+        "250 mSv",
+        "25 mSv"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 2500 mSv"
+      ],
+      "explanation": "Multiply by 1000: 2.5 × 1000 = 2500 mSv."
+    },
+    {
+      "id": "p4-background-radiation-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student measures count rates from a source. Why must the background count rate be measured?",
+      "options": [
+        "To find the half-life of the background",
+        "To make the source more active",
+        "To calibrate the clock",
+        "So it can be subtracted to find the count rate from the source alone"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: So it can be subtracted to find the count rate from the source alone"
+      ],
+      "explanation": "Background is always detected too, so it is subtracted to leave only the source's contribution."
+    },
+    {
+      "id": "p4-background-radiation-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Person A lives in a granite area. Person B works as a radiographer in a hospital. Which statement is correct?",
+      "options": [
+        "A's dose is affected by location and B's by occupation",
+        "Only A's dose is affected by background radiation",
+        "Neither dose is affected by location or occupation",
+        "Both doses are only affected by cosmic rays"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A's dose is affected by location and B's by occupation"
+      ],
+      "explanation": "Location (granite rocks) affects A's dose, and occupation (working with X-rays and sources) affects B's dose."
+    },
+    {
+      "id": "p4-background-radiation-q09",
+      "type": "numeric",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Convert 0.003 Sv into millisieverts.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "mSv",
+      "markScheme": [
+        "1 mark: 3 mSv"
+      ],
+      "explanation": "0.003 × 1000 = 3 mSv."
+    },
+    {
+      "id": "p4-background-radiation-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Convert 450 mSv into sieverts.",
+      "numericAnswer": 0.45,
+      "tolerance": 0.01,
+      "unit": "Sv",
+      "markScheme": [
+        "1 mark: 0.45 Sv"
+      ],
+      "explanation": "Divide by 1000: 450 ÷ 1000 = 0.45 Sv."
+    },
+    {
+      "id": "p4-background-radiation-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A Geiger-Muller tube records a count rate of 54 counts per minute from a source. The background count rate is 18 counts per minute.\nCalculate the count rate due to the source.",
+      "numericAnswer": 36,
+      "tolerance": 0.01,
+      "unit": "counts/min",
+      "markScheme": [
+        "1 mark: 54 − 18",
+        "1 mark: 36 counts/min"
+      ],
+      "explanation": "Subtract background: 54 − 18 = 36 counts/min."
+    },
+    {
+      "id": "p4-background-radiation-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The average annual background dose in the UK is 2.7 mSv. About 48% of this comes from radon.\nCalculate the annual dose from radon.",
+      "numericAnswer": 1.296,
+      "tolerance": 0.02,
+      "unit": "mSv",
+      "markScheme": [
+        "1 mark: 0.48 × 2.7",
+        "1 mark: 1.3 mSv (1.296)"
+      ],
+      "explanation": "48% of 2.7 = 0.48 × 2.7 = 1.296 mSv, about 1.3 mSv."
+    },
+    {
+      "id": "p4-background-radiation-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A pilot receives an extra dose of 0.005 mSv for each hour of flying. She flies 600 hours a year. Her dose from other background sources is 2.7 mSv per year.\nCalculate her total annual dose in sieverts.",
+      "numericAnswer": 0.0057,
+      "tolerance": 0.01,
+      "unit": "Sv",
+      "markScheme": [
+        "1 mark: extra dose = 0.005 × 600 = 3.0 mSv",
+        "1 mark: total = 3.0 + 2.7 = 5.7 mSv",
+        "1 mark: 5.7 ÷ 1000 = 0.0057 Sv (5.7 × 10⁻³ Sv)"
+      ],
+      "explanation": "Calculate in mSv first, then convert. Her dose is more than double the UK average because of her job."
+    },
+    {
+      "id": "p4-background-radiation-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A detector records 1500 counts in 5 minutes near a source. With the source removed, it records 120 counts in 4 minutes.\nCalculate the count rate due to the source in counts per minute.",
+      "numericAnswer": 270,
+      "tolerance": 0.01,
+      "unit": "counts/min",
+      "markScheme": [
+        "1 mark: measured count rate = 1500 ÷ 5 = 300 counts/min",
+        "1 mark: background = 120 ÷ 4 = 30 counts/min",
+        "1 mark: 300 − 30 = 270 counts/min"
+      ],
+      "explanation": "The two readings are over different times, so convert both to rates before subtracting."
+    },
+    {
+      "id": "p4-background-radiation-q15",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by background radiation.",
+      "acceptedAnswers": [
+        "radiation around us all the time",
+        "always present",
+        "from natural and man-made sources"
+      ],
+      "markScheme": [
+        "1 mark: radiation that is around us all of the time (from natural and man-made sources)"
+      ],
+      "explanation": "Background radiation is always present, wherever you are."
+    },
+    {
+      "id": "p4-background-radiation-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two natural sources of background radiation.",
+      "acceptedAnswers": [
+        "rocks",
+        "radon",
+        "cosmic rays",
+        "food",
+        "ground",
+        "buildings"
+      ],
+      "markScheme": [
+        "1 mark each for any two: rocks/ground/buildings; radon gas; cosmic rays; food and drink"
+      ],
+      "explanation": "Rocks and cosmic rays are the ones named in the specification."
+    },
+    {
+      "id": "p4-background-radiation-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two man-made sources of background radiation.",
+      "acceptedAnswers": [
+        "fallout from nuclear weapons testing",
+        "nuclear accidents",
+        "medical X-rays",
+        "nuclear power"
+      ],
+      "markScheme": [
+        "1 mark each for any two: fallout from nuclear weapons testing; nuclear accidents (e.g. Chernobyl); medical procedures"
+      ],
+      "explanation": "Weapons fallout and nuclear accidents are the key examples."
+    },
+    {
+      "id": "p4-background-radiation-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why people living in some parts of Cornwall receive a higher background radiation dose than people in most other parts of the UK.",
+      "acceptedAnswers": [
+        "granite",
+        "uranium",
+        "radon gas",
+        "higher radon levels"
+      ],
+      "markScheme": [
+        "1 mark: the rocks there (granite) contain radioactive uranium",
+        "1 mark: which produces radon gas that builds up in homes / gives off more radiation"
+      ],
+      "explanation": "Location affects dose because of the local geology."
+    },
+    {
+      "id": "p4-background-radiation-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest two jobs that may lead to a higher radiation dose than average, and give a reason for each.",
+      "acceptedAnswers": [
+        "pilot cosmic rays",
+        "aircrew",
+        "radiographer",
+        "nuclear power station worker",
+        "miner radon"
+      ],
+      "markScheme": [
+        "1 mark: pilot/aircrew, more cosmic rays at high altitude",
+        "1 mark: radiographer/nuclear worker/miner, works near sources/X-rays or radon underground"
+      ],
+      "explanation": "Each job must be linked to a source of radiation."
+    },
+    {
+      "id": "p4-background-radiation-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why radon gas in homes is a health concern even though it comes from a natural source.",
+      "acceptedAnswers": [
+        "breathed in",
+        "alpha emitter",
+        "inside lungs",
+        "ionising",
+        "damages cells"
+      ],
+      "markScheme": [
+        "1 mark: radon is breathed in so the radioactive material is inside the lungs",
+        "1 mark: it emits alpha particles, which are strongly ionising and damage lung cells (increasing cancer risk)"
+      ],
+      "explanation": "Natural does not mean safe: radon is an internal contamination hazard."
+    },
+    {
+      "id": "p4-background-radiation-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Scientists measure the background count rate three times: 21, 18 and 24 counts per minute. Explain why the readings are different and how the scientists should use them.",
+      "acceptedAnswers": [
+        "random",
+        "radioactive decay is random",
+        "take a mean",
+        "21 counts per minute"
+      ],
+      "markScheme": [
+        "1 mark: radioactive decay is random, so the number of counts varies",
+        "1 mark: calculate the mean (21 counts per minute) and subtract it from the readings"
+      ],
+      "explanation": "Repeating and averaging reduces the effect of random variation: (21 + 18 + 24) ÷ 3 = 21."
+    },
+    {
+      "id": "p4-background-radiation-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement about background radiation is correct?",
+      "options": [
+        "It is only found near nuclear power stations",
+        "It can be switched off",
+        "It is around us all of the time",
+        "It only comes from space"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It is around us all of the time"
+      ],
+      "explanation": "Background radiation is always present, from many natural and man-made sources."
+    },
+    {
+      "id": "p4-background-radiation-q23",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A person has a background dose of 2.7 mSv per year. In one year she also has two scans of 4 mSv each. What is her total dose for the year?",
+      "options": [
+        "6.7 mSv",
+        "10.7 mSv",
+        "0.0107 mSv",
+        "8 mSv"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 10.7 mSv"
+      ],
+      "explanation": "Total = 2.7 + 2 × 4 = 10.7 mSv. 6.7 mSv counts only one scan."
+    },
+    {
+      "id": "p4-background-radiation-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State how many millisieverts (mSv) are equal to one sievert (Sv).",
+      "acceptedAnswers": [
+        "1000"
+      ],
+      "markScheme": [
+        "1 mark: 1000"
+      ],
+      "explanation": "Milli means one thousandth, so 1000 mSv = 1 Sv."
+    },
+    {
+      "id": "p4-background-radiation-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the sources of background radiation and explain why the radiation dose received can be different for different people.",
+      "markScheme": [
+        "Indicative content: natural sources: rocks (granite), radon gas, cosmic rays, food and drink; man-made: fallout from weapons testing, nuclear accidents, medical procedures; dose depends on location, e.g. granite areas have more radon, high altitude more cosmic rays; dose depends on occupation, e.g. pilots, radiographers, nuclear workers, miners.",
+        "Level 2 (3 to 4 marks): natural and man-made sources named, and differences in dose clearly linked to both location and occupation.",
+        "Level 1 (1 to 2 marks): some sources named or one factor given with little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Name sources from both categories and link differences to location and occupation with examples."
+    },
+    {
+      "id": "p4-background-radiation-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A family lives in a granite area. The mother is an airline pilot and the father works in a hospital X-ray department. The child is at school all day.\nEvaluate which family member is likely to receive the highest annual radiation dose. Refer to sources of background radiation, location, occupation and units of dose in your answer.",
+      "markScheme": [
+        "Indicative content: all three receive natural background, increased by living in a granite area (radon and gamma from rocks), so all above UK average of about 2 to 3 mSv; the pilot receives extra cosmic radiation at altitude, depending on flying hours; the father works with X-rays but hospital workers are shielded and monitored with dosimeters, so extra dose may be small; the child has only the location effect; pilot is likely highest, as extra cosmic dose can be several mSv per year; doses measured in sieverts, usually mSv (1000 mSv = 1 Sv); conclusion depends on hours flown and precautions; radon indoors depends on time spent at home and ventilation.",
+        "Level 3 (5 to 6 marks): a reasoned evaluation comparing all three people, linking location and occupation to specific sources, using dose units correctly and reaching a justified conclusion.",
+        "Level 2 (3 to 4 marks): compares at least two people with some correct reasoning about sources.",
+        "Level 1 (1 to 2 marks): simple statements about sources or doses.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A good evaluation says what is common to all (location) and what is extra (occupation), then reaches a justified conclusion."
+    }
+  ]
+}

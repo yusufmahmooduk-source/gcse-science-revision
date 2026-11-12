@@ -1,0 +1,682 @@
+{
+  "id": "p7-electromagnetism",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "electromagnetism",
+  "specRef": "4.7.2.1",
+  "title": "Electromagnetism",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Electromagnetism is the magnetic effect of an electric current: when a current flows through a wire, a magnetic field is produced around the wire. A solenoid with an iron core is an electromagnet.",
+    "explanation": [
+      "When a current flows through a conducting wire, a magnetic field is produced around the wire. This can be demonstrated by placing a plotting compass next to a wire connected to a power supply: when the current is switched on the needle turns, and when the current is reversed the needle points the opposite way. Iron filings sprinkled on a card around a vertical current-carrying wire form circles around the wire.",
+      "The magnetic field around a straight wire is a set of concentric circles centred on the wire, in planes at right angles to the wire. The direction of the field depends on the direction of the current and can be found with the right-hand grip rule: grip the wire with your right hand with your thumb pointing in the direction of the current, and your fingers curl in the direction of the field. Reversing the current reverses the field.",
+      "The strength of the magnetic field depends on the current through the wire and the distance from the wire. A larger current gives a stronger field. The field is strongest close to the wire and gets weaker further away, which is why the circles on a field diagram are drawn further apart as the distance from the wire increases.",
+      "Shaping a wire to form a coil called a solenoid increases the strength of the magnetic field, because the fields from each turn add together. The magnetic field inside a solenoid is strong and uniform: the field lines are straight, parallel and evenly spaced. Outside the solenoid, the field has a similar shape to the field of a bar magnet, with a north pole at one end and a south pole at the other. Using more turns or a larger current makes the field stronger.",
+      "Adding an iron core inside a solenoid greatly increases the strength of the magnetic field, because the iron becomes an induced magnet. A solenoid with an iron core is called an electromagnet. Its key advantage is that it can be switched on and off, and its strength can be changed by changing the current. When the current is switched off, the soft iron core loses its magnetism quickly."
+    ],
+    "keyFacts": [
+      "A current in a wire produces a magnetic field around the wire.",
+      "The field around a straight wire is concentric circles centred on the wire.",
+      "Field direction depends on current direction (right-hand grip rule); reversing the current reverses the field.",
+      "Field strength increases with current and decreases with distance from the wire.",
+      "A solenoid is a coil of wire; coiling the wire makes the field stronger.",
+      "Inside a solenoid the field is strong and uniform.",
+      "Outside a solenoid the field is like that of a bar magnet.",
+      "An iron core inside a solenoid increases the field strength.",
+      "An electromagnet is a solenoid with an iron core; it can be switched on and off.",
+      "A compass placed near a current-carrying wire deflects, demonstrating the magnetic effect of a current."
+    ],
+    "keyTerms": [
+      {
+        "term": "Electromagnetism",
+        "definition": "The production of a magnetic field by an electric current."
+      },
+      {
+        "term": "Solenoid",
+        "definition": "A long coil of wire; when a current flows it produces a strong, uniform field inside it."
+      },
+      {
+        "term": "Electromagnet",
+        "definition": "A solenoid with an iron core, which gives a strong magnetic field that can be switched on and off."
+      },
+      {
+        "term": "Uniform field",
+        "definition": "A magnetic field with the same strength and direction everywhere, shown by straight, parallel, equally spaced lines."
+      },
+      {
+        "term": "Right-hand grip rule",
+        "definition": "Grip the wire with the right thumb along the current; the curled fingers give the direction of the magnetic field."
+      },
+      {
+        "term": "Iron core",
+        "definition": "A piece of soft iron placed inside a coil; it becomes an induced magnet and strengthens the field."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Direction of the field around a wire",
+        "question": "A vertical wire carries a current upwards. Viewed from above, is the magnetic field clockwise or anticlockwise?",
+        "steps": [
+          "Use the right-hand grip rule: point your right thumb upwards (the current direction).",
+          "Your fingers curl anticlockwise when viewed from above."
+        ],
+        "answer": "Anticlockwise when viewed from above."
+      },
+      {
+        "title": "Making an electromagnet stronger",
+        "question": "State three ways of increasing the strength of the magnetic field of a solenoid.",
+        "steps": [
+          "The field comes from the current, so a larger current gives a stronger field.",
+          "Each turn adds its field, so more turns of wire give a stronger field.",
+          "An iron core becomes an induced magnet and adds to the field."
+        ],
+        "answer": "Increase the current, increase the number of turns, add an iron core."
+      },
+      {
+        "title": "Finding the poles of a solenoid",
+        "question": "Looking at one end of a solenoid, the current flows anticlockwise. Which pole is this end?",
+        "steps": [
+          "Use the right-hand grip rule: curl your right fingers in the direction of the current (anticlockwise).",
+          "Your thumb points towards you, out of that end of the coil, which is the direction of the field inside.",
+          "Field lines leave a north pole, so this end is the north pole."
+        ],
+        "answer": "This end is a north pole."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Magnetic field around a straight wire",
+        "caption": "A wire carrying current out of the page, seen end-on. The field lines are concentric circles centred on the wire, anticlockwise for current out of the page. The circles get further apart with distance because the field weakens.",
+        "svg": "<svg viewBox='0 0 440 260' xmlns='http://www.w3.org/2000/svg'><circle cx='130' cy='130' r='28' fill='none' stroke='currentColor'/><polygon points='125.8,102.0 134.2,97.8 134.2,106.2' fill='currentColor'/><polygon points='134.2,158.0 125.8,162.2 125.8,153.8' fill='currentColor'/><polygon points='158.0,125.8 162.2,134.2 153.8,134.2' fill='currentColor'/><polygon points='102.0,134.2 97.8,125.8 106.2,125.8' fill='currentColor'/><circle cx='130' cy='130' r='52' fill='none' stroke='currentColor'/><polygon points='125.8,78.0 134.2,73.8 134.2,82.2' fill='currentColor'/><polygon points='134.2,182.0 125.8,186.2 125.8,177.8' fill='currentColor'/><polygon points='182.0,125.8 186.2,134.2 177.8,134.2' fill='currentColor'/><polygon points='78.0,134.2 73.8,125.8 82.2,125.8' fill='currentColor'/><circle cx='130' cy='130' r='84' fill='none' stroke='currentColor'/><polygon points='125.8,46.0 134.2,41.8 134.2,50.2' fill='currentColor'/><polygon points='134.2,214.0 125.8,218.2 125.8,209.8' fill='currentColor'/><polygon points='214.0,125.8 218.2,134.2 209.8,134.2' fill='currentColor'/><polygon points='46.0,134.2 41.8,125.8 50.2,125.8' fill='currentColor'/><circle cx='130' cy='130' r='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='130' cy='130' r='2.5' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='240' y='40'>Wire seen end-on</text><text x='240' y='56'>• = current out of the page</text><text x='240' y='90'>Field lines are circles</text><text x='240' y='106'>centred on the wire</text><text x='240' y='140'>Here the field is anticlockwise</text><text x='240' y='156'>(right-hand grip rule)</text><text x='240' y='190'>Circles further apart with</text><text x='240' y='206'>distance: field gets weaker</text><text x='240' y='240'>Reverse current: field reverses</text></g></svg>"
+      },
+      {
+        "title": "Magnetic field of a solenoid",
+        "caption": "Cross-section through a solenoid. The current goes into the page along the top and out of the page along the bottom. Inside, the field is strong and uniform and points left, so the left end is a north pole. Outside, the field is like that of a bar magnet.",
+        "svg": "<svg viewBox='0 0 450 260' xmlns='http://www.w3.org/2000/svg'><path d='M90 105 C40 30, 410 30, 360 105' fill='none' stroke='currentColor'/><path d='M90 155 C40 230, 410 230, 360 155' fill='none' stroke='currentColor'/><polygon points='229.2,49.0 220.8,53.2 220.8,44.8' fill='currentColor'/><polygon points='229.2,211.0 220.8,215.2 220.8,206.8' fill='currentColor'/><line x1='90' y1='105' x2='360' y2='105' stroke='currentColor'/><polygon points='220.8,105.0 229.2,100.8 229.2,109.2' fill='currentColor'/><line x1='90' y1='130' x2='360' y2='130' stroke='currentColor'/><polygon points='220.8,130.0 229.2,125.8 229.2,134.2' fill='currentColor'/><line x1='90' y1='155' x2='360' y2='155' stroke='currentColor'/><polygon points='220.8,155.0 229.2,150.8 229.2,159.2' fill='currentColor'/><circle cx='150' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='145' y1='75' x2='155' y2='85' stroke='currentColor'/><line x1='145' y1='85' x2='155' y2='75' stroke='currentColor'/><circle cx='150' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='150' cy='180' r='2.5' fill='currentColor'/><circle cx='180' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='175' y1='75' x2='185' y2='85' stroke='currentColor'/><line x1='175' y1='85' x2='185' y2='75' stroke='currentColor'/><circle cx='180' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='180' cy='180' r='2.5' fill='currentColor'/><circle cx='210' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='205' y1='75' x2='215' y2='85' stroke='currentColor'/><line x1='205' y1='85' x2='215' y2='75' stroke='currentColor'/><circle cx='210' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='210' cy='180' r='2.5' fill='currentColor'/><circle cx='240' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='235' y1='75' x2='245' y2='85' stroke='currentColor'/><line x1='235' y1='85' x2='245' y2='75' stroke='currentColor'/><circle cx='240' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='240' cy='180' r='2.5' fill='currentColor'/><circle cx='270' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='265' y1='75' x2='275' y2='85' stroke='currentColor'/><line x1='265' y1='85' x2='275' y2='75' stroke='currentColor'/><circle cx='270' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='270' cy='180' r='2.5' fill='currentColor'/><circle cx='300' cy='80' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><line x1='295' y1='75' x2='305' y2='85' stroke='currentColor'/><line x1='295' y1='85' x2='305' y2='75' stroke='currentColor'/><circle cx='300' cy='180' r='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='300' cy='180' r='2.5' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='60' y='134'>N</text><text x='378' y='134'>S</text><text x='10' y='20'>× current into page (top of coil)</text><text x='250' y='20'>• current out of page (bottom)</text><text x='110' y='250'>Inside: strong, uniform field (parallel lines)</text><text x='140' y='42'>Outside: like the field of a bar magnet</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the field around a straight wire runs along the wire, parallel to the current.",
+        "right": "In fact the field lines are circles around the wire, at right angles to the current."
+      },
+      {
+        "wrong": "Students often think the field around a wire has the same strength everywhere.",
+        "right": "In fact the field is strongest close to the wire and weakens with distance, and it is stronger for a larger current."
+      },
+      {
+        "wrong": "Students often think the iron core of an electromagnet produces the magnetic field on its own.",
+        "right": "In fact the current produces the field; the soft iron core becomes an induced magnet and makes the field much stronger, and it loses its magnetism when the current is switched off."
+      },
+      {
+        "wrong": "Students often think the field inside a solenoid is weakest because it is surrounded by wire.",
+        "right": "In fact the field inside a solenoid is strong and uniform, because the fields from all the turns add together there."
+      }
+    ],
+    "realWorld": [
+      "Scrapyard cranes use large electromagnets to lift steel cars and drop them by switching the current off.",
+      "Electric door locks, doorbells and relays use electromagnets that can be switched on and off.",
+      "MRI scanners in hospitals use very strong electromagnets (made from coils of wire) to produce detailed images of the body.",
+      "Circuit breakers use an electromagnet that pulls a switch open when the current becomes too large."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "Separate Physics students should be able to interpret diagrams of electromagnetic devices in order to explain how they work.",
+      "Relay: a small current in one circuit flows through an electromagnet, which attracts an iron armature and closes switch contacts in a second circuit. This lets a small, safe current switch on a large current (for example the starter motor in a car).",
+      "Electric bell: closing the switch magnetises the electromagnet, which attracts the iron armature so the hammer hits the gong; this breaks the circuit at the contact screw, the electromagnet switches off, the springy strip pulls the armature back, the circuit is completed again and the cycle repeats.",
+      "Circuit breaker: if the current becomes too large, the electromagnet becomes strong enough to pull an iron catch, which opens the switch and breaks the circuit. It can be reset once the fault is fixed."
+    ],
+    "examTips": [
+      "When drawing the field around a straight wire, draw circles centred on the wire, getting further apart with distance, with arrows all going the same way round.",
+      "State the two factors for the strength of the field around a wire: the size of the current and the distance from the wire.",
+      "Describe the field inside a solenoid as 'strong and uniform' and outside as 'like a bar magnet'. These exact phrases score marks.",
+      "For a device diagram (separate Physics), explain in sequence: current flows, the iron core is magnetised, it attracts the iron armature, which causes the next event."
+    ],
+    "summary": [
+      "A current in a wire produces a magnetic field.",
+      "Around a straight wire the field is concentric circles; direction set by the current.",
+      "The field is stronger for a larger current and closer to the wire.",
+      "A solenoid gives a strong, uniform field inside and a bar-magnet field outside.",
+      "An iron core makes an electromagnet much stronger.",
+      "Electromagnets can be switched on and off and their strength can be varied."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is produced around a wire carrying a current?",
+      "back": "A magnetic field."
+    },
+    {
+      "front": "What shape is the field around a straight current-carrying wire?",
+      "back": "Concentric circles centred on the wire."
+    },
+    {
+      "front": "What two factors affect the field strength around a wire?",
+      "back": "The size of the current and the distance from the wire."
+    },
+    {
+      "front": "What happens to the field if the current is reversed?",
+      "back": "The field direction reverses."
+    },
+    {
+      "front": "What is a solenoid?",
+      "back": "A coil of wire."
+    },
+    {
+      "front": "Describe the field inside a solenoid.",
+      "back": "Strong and uniform (straight, parallel, evenly spaced lines)."
+    },
+    {
+      "front": "Describe the field outside a solenoid.",
+      "back": "Similar to the field of a bar magnet."
+    },
+    {
+      "front": "What is an electromagnet?",
+      "back": "A solenoid with an iron core."
+    },
+    {
+      "front": "Why is an iron core added to a solenoid?",
+      "back": "It becomes an induced magnet and greatly increases the field strength."
+    },
+    {
+      "front": "Give three ways to make an electromagnet stronger.",
+      "back": "Increase the current, add more turns, use an iron core."
+    },
+    {
+      "front": "How can you show a wire has a magnetic field?",
+      "back": "Place a compass next to it; the needle deflects when current flows."
+    },
+    {
+      "front": "State the right-hand grip rule.",
+      "back": "Thumb points along the current; curled fingers show the field direction."
+    },
+    {
+      "front": "What is the main advantage of an electromagnet?",
+      "back": "It can be switched on and off, and its strength can be changed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-electromagnetism-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is produced around a wire when an electric current flows through it?",
+      "options": [
+        "An electric field only",
+        "A gravitational field",
+        "A magnetic field",
+        "Nothing"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A magnetic field"
+      ],
+      "explanation": "A current always produces a magnetic field around the wire. This is the magnetic effect of a current."
+    },
+    {
+      "id": "p7-electromagnetism-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What shape are the magnetic field lines around a long straight wire carrying a current?",
+      "options": [
+        "Concentric circles centred on the wire",
+        "Straight lines parallel to the wire",
+        "Lines from one end of the wire to the other",
+        "Like a bar magnet"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Concentric circles centred on the wire"
+      ],
+      "explanation": "The field lines form circles around the wire, in planes at right angles to it."
+    },
+    {
+      "id": "p7-electromagnetism-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is an electromagnet?",
+      "options": [
+        "A permanent magnet made of steel",
+        "A straight copper wire",
+        "A battery connected to a bulb",
+        "A solenoid with an iron core"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A solenoid with an iron core"
+      ],
+      "explanation": "An electromagnet is a coil of wire (solenoid) with an iron core, which produces a strong field when current flows."
+    },
+    {
+      "id": "p7-electromagnetism-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which change would make the magnetic field around a wire stronger?",
+      "options": [
+        "Decreasing the current",
+        "Increasing the current",
+        "Using a longer wire with the same current",
+        "Reversing the current"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Increasing the current"
+      ],
+      "explanation": "Field strength depends on the current: a larger current gives a stronger field. Reversing the current only changes the direction."
+    },
+    {
+      "id": "p7-electromagnetism-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the magnetic field like inside a long solenoid carrying a current?",
+      "options": [
+        "Zero",
+        "Weak and circular",
+        "Strong and uniform",
+        "Strongest at the centre of each wire only"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Strong and uniform"
+      ],
+      "explanation": "Inside a solenoid the fields of all the turns add together, giving a strong, uniform field (straight, parallel lines)."
+    },
+    {
+      "id": "p7-electromagnetism-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does the magnetic field outside a solenoid look like?",
+      "options": [
+        "Like the field of a bar magnet",
+        "Concentric circles",
+        "Uniform parallel lines",
+        "There is no field outside"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Like the field of a bar magnet"
+      ],
+      "explanation": "Outside, a solenoid's field has the same shape as a bar magnet's field, with N and S poles at the ends."
+    },
+    {
+      "id": "p7-electromagnetism-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is soft iron used as the core of an electromagnet in a scrapyard crane?",
+      "options": [
+        "It is a good electrical conductor",
+        "It is lighter than steel",
+        "It keeps its magnetism permanently",
+        "It is magnetised easily and loses its magnetism quickly when switched off"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It is magnetised easily and loses its magnetism quickly when switched off"
+      ],
+      "explanation": "Soft iron strengthens the field while the current flows but loses its magnetism when switched off, so the crane can drop the load."
+    },
+    {
+      "id": "p7-electromagnetism-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A plotting compass is placed next to a wire. What happens to the needle when the current is reversed?",
+      "options": [
+        "It stops moving",
+        "It points in the opposite direction",
+        "It stays the same",
+        "It spins continuously"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It points in the opposite direction"
+      ],
+      "explanation": "Reversing the current reverses the magnetic field, so the compass needle turns to point the opposite way."
+    },
+    {
+      "id": "p7-electromagnetism-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A vertical wire carries a current downwards. Viewed from above, what is the direction of the magnetic field?",
+      "options": [
+        "Upwards along the wire",
+        "Anticlockwise",
+        "Clockwise",
+        "Radially outwards"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Clockwise"
+      ],
+      "explanation": "Right-hand grip rule: thumb pointing down; viewed from above, the fingers curl clockwise."
+    },
+    {
+      "id": "p7-electromagnetism-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Viewed from one end of a solenoid, the current flows clockwise. Which pole is that end?",
+      "options": [
+        "South",
+        "North",
+        "There is no pole at the end",
+        "Both poles"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: South"
+      ],
+      "explanation": "Curl your right-hand fingers clockwise (as seen from that end): the thumb points away from you into the solenoid, so the field enters at this end. Field lines enter a south pole."
+    },
+    {
+      "id": "p7-electromagnetism-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "At which point is the magnetic field of a long straight current-carrying wire weakest?",
+      "options": [
+        "1 cm from the wire",
+        "2 cm from the wire",
+        "5 cm from the wire",
+        "10 cm from the wire"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 10 cm from the wire"
+      ],
+      "explanation": "The field gets weaker with distance from the wire, so it is weakest at the greatest distance, 10 cm."
+    },
+    {
+      "id": "p7-electromagnetism-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how you could show that there is a magnetic field around a wire carrying a current.",
+      "acceptedAnswers": [
+        "compass",
+        "needle deflects",
+        "iron filings"
+      ],
+      "markScheme": [
+        "1 mark: place a plotting compass near the wire (or sprinkle iron filings on a card around the wire)",
+        "1 mark: the needle deflects (or the filings form circles) when the current is switched on"
+      ],
+      "explanation": "The compass needle responds to the magnetic field produced by the current; with no current it points north."
+    },
+    {
+      "id": "p7-electromagnetism-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two factors that affect the strength of the magnetic field around a straight wire.",
+      "acceptedAnswers": [
+        "current",
+        "distance from the wire"
+      ],
+      "markScheme": [
+        "1 mark: the size of the current",
+        "1 mark: the distance from the wire"
+      ],
+      "explanation": "A bigger current gives a stronger field; the field weakens further from the wire."
+    },
+    {
+      "id": "p7-electromagnetism-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "State three ways of increasing the strength of an electromagnet.",
+      "acceptedAnswers": [
+        "increase the current",
+        "more turns",
+        "iron core"
+      ],
+      "markScheme": [
+        "1 mark: increase the current",
+        "1 mark: increase the number of turns (coils)",
+        "1 mark: add (or use) an iron core"
+      ],
+      "explanation": "Each of these increases the total magnetic field produced by the coil."
+    },
+    {
+      "id": "p7-electromagnetism-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why an electromagnet is more useful than a permanent magnet for lifting and moving scrap steel.",
+      "acceptedAnswers": [
+        "switched off",
+        "drop the load",
+        "strength can be changed"
+      ],
+      "markScheme": [
+        "1 mark: an electromagnet can be switched on and off",
+        "1 mark: so the steel can be released (dropped) where it is needed (or its strength can be varied)"
+      ],
+      "explanation": "A permanent magnet cannot be switched off, so it would be very hard to release the steel."
+    },
+    {
+      "id": "p7-electromagnetism-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why adding an iron core to a solenoid increases the strength of the magnetic field.",
+      "acceptedAnswers": [
+        "induced magnet",
+        "iron becomes magnetised",
+        "adds to the field"
+      ],
+      "markScheme": [
+        "1 mark: the iron core becomes magnetised (an induced magnet) in the field of the coil",
+        "1 mark: its field adds to the field of the coil"
+      ],
+      "explanation": "Iron is a magnetic material, so the solenoid's field induces magnetism in it, greatly strengthening the overall field."
+    },
+    {
+      "id": "p7-electromagnetism-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the shape of the magnetic field inside and outside a solenoid.",
+      "acceptedAnswers": [
+        "uniform inside",
+        "parallel lines",
+        "bar magnet outside"
+      ],
+      "markScheme": [
+        "1 mark: inside: strong and uniform (straight, parallel, evenly spaced lines)",
+        "1 mark: outside: similar to the field of a bar magnet"
+      ],
+      "explanation": "These two phrases summarise the solenoid field pattern."
+    },
+    {
+      "id": "p7-electromagnetism-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A vertical wire passes through a horizontal card. The current flows upwards. A compass is placed on the card directly to the east of the wire. Ignoring the Earth's field, state which way the compass needle points and explain how you know.",
+      "acceptedAnswers": [
+        "north",
+        "anticlockwise",
+        "right-hand grip"
+      ],
+      "markScheme": [
+        "1 mark: north",
+        "1 mark: right-hand grip rule gives an anticlockwise field viewed from above, so on the east side the field points north"
+      ],
+      "explanation": "Thumb up, fingers curl anticlockwise from above. Moving anticlockwise, a point to the east of the centre moves north."
+    },
+    {
+      "id": "p7-electromagnetism-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why the magnetic field inside a solenoid is much stronger than the field around a single straight wire carrying the same current.",
+      "acceptedAnswers": [
+        "fields from each turn add",
+        "combine",
+        "same direction inside"
+      ],
+      "markScheme": [
+        "1 mark: the magnetic fields from each turn of the coil point in the same direction inside the solenoid",
+        "1 mark: so the fields add together (combine) to give a stronger field"
+      ],
+      "explanation": "Coiling the wire lines up the fields of all the turns inside the coil, so they reinforce each other."
+    },
+    {
+      "id": "p7-electromagnetism-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one use of an electromagnet.",
+      "acceptedAnswers": [
+        "crane",
+        "relay",
+        "door lock",
+        "electric bell",
+        "circuit breaker",
+        "MRI"
+      ],
+      "markScheme": [
+        "1 mark: any valid use, such as scrapyard crane, relay, electric bell, door lock, circuit breaker, MRI scanner, loudspeaker"
+      ],
+      "explanation": "Electromagnets are used wherever a magnetic field must be switched or controlled."
+    },
+    {
+      "id": "p7-electromagnetism-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Separate Physics) A relay uses a small current in circuit 1 to switch on a large current in circuit 2. Circuit 1 contains a coil wound on an iron core. Explain how the relay switches on circuit 2.",
+      "acceptedAnswers": [
+        "coil magnetised",
+        "attracts iron armature",
+        "contacts close",
+        "circuit 2 completed"
+      ],
+      "markScheme": [
+        "1 mark: current in circuit 1 magnetises the coil and iron core (electromagnet switches on)",
+        "1 mark: the electromagnet attracts the iron armature (switch arm)",
+        "1 mark: the armature pushes the contacts together, completing circuit 2"
+      ],
+      "explanation": "This lets a low-current switch safely control a high-current device such as a starter motor."
+    },
+    {
+      "id": "p7-electromagnetism-q22",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the magnetic field pattern around a long straight wire carrying a current. Include how the pattern changes if the current is increased or reversed.",
+      "markScheme": [
+        "Indicative content: concentric circles centred on the wire; in planes perpendicular to the wire; direction given by the right-hand grip rule; circles further apart further from the wire because the field is weaker; increasing the current makes the field stronger (lines closer together at each distance); reversing the current reverses the field direction (arrows reverse) but not the shape.",
+        "Level 2 (3 to 4 marks): describes shape and direction or strength variation and both changes correctly.",
+        "Level 1 (1 to 2 marks): basic description such as circles around the wire.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Shape (circles), variation with distance, and effects of current size and direction are the key ideas."
+    },
+    {
+      "id": "p7-electromagnetism-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A student makes an electromagnet by wrapping insulated wire around an iron nail and connecting it to a variable power supply. She investigates how the number of paper clips it can pick up depends on the current. Describe how she should carry out the investigation and explain the results she should expect.",
+      "markScheme": [
+        "Indicative content: connect the coil in series with an ammeter and variable power supply (or variable resistor); keep number of turns, nail and type of paper clip the same (control variables); set a current, read the ammeter, dip the nail into a pile of clips and count how many it lifts; repeat for a range of currents (for example 0.5 A to 2.5 A); repeat each reading and calculate a mean; switch off between readings so the wire does not overheat; expect more clips lifted for larger current because the magnetic field of the solenoid is stronger; the iron core is magnetised more; at high currents the effect may level off; when switched off the clips drop because the soft iron loses its magnetism.",
+        "Level 3 (5 to 6 marks): a coherent method with control variables, measurement and repeats, and a clear explanation of the expected result.",
+        "Level 2 (3 to 4 marks): a workable method with some control or explanation.",
+        "Level 1 (1 to 2 marks): simple steps or a simple prediction.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The current is the independent variable; the number of clips measures field strength. A larger current produces a stronger field, so more clips are lifted."
+    },
+    {
+      "id": "p7-electromagnetism-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "(Separate Physics) An electric bell contains an electromagnet, an iron armature on a springy metal strip, a hammer and a gong, and a contact screw that touches the springy strip. Explain how the bell rings continuously when the switch is closed.",
+      "markScheme": [
+        "Indicative content: switch closed, current flows through the coil and through the contact screw and springy strip; the electromagnet (iron core) becomes magnetised; it attracts the iron armature; the hammer strikes the gong; as the armature moves, the strip leaves the contact screw so the circuit is broken; current stops and the electromagnet loses its magnetism (soft iron); the springy strip returns the armature to its original position; contact is made again so the current flows again; the cycle repeats rapidly, so the bell rings continuously.",
+        "Level 3 (5 to 6 marks): a full, correctly sequenced explanation including breaking and remaking of the circuit and the role of soft iron.",
+        "Level 2 (3 to 4 marks): explains attraction of the armature and hammer hitting the gong, with some idea of the circuit breaking.",
+        "Level 1 (1 to 2 marks): simple statements such as the electromagnet attracts the hammer.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The key is the self-breaking circuit: attraction breaks the contact, which switches off the electromagnet, which lets the spring restore the contact."
+    },
+    {
+      "id": "p7-electromagnetism-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is a solenoid?",
+      "options": [
+        "A type of battery",
+        "A coil of wire",
+        "A permanent magnet",
+        "A straight piece of iron"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A coil of wire"
+      ],
+      "explanation": "A solenoid is a long coil of wire. With a current, it produces a magnetic field like a bar magnet."
+    },
+    {
+      "id": "p7-electromagnetism-q26",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two long straight wires each carry a current. Wire X carries 2 A and wire Y carries 6 A. At which point is the magnetic field strongest?",
+      "options": [
+        "1 cm from wire X",
+        "5 cm from wire X",
+        "1 cm from wire Y",
+        "5 cm from wire Y"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 1 cm from wire Y"
+      ],
+      "explanation": "Field strength increases with current and decreases with distance, so the strongest field is close to the wire with the larger current."
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "id": "p5-momentum",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "momentum",
+  "specRef": "4.5.7.1",
+  "title": "Momentum is a property of moving objects",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Momentum is a property of all moving objects. It is defined as mass multiplied by velocity (p = m v) and is measured in kilogram metres per second (kg m/s).",
+    "explanation": [
+      "Every moving object has momentum. The momentum of an object depends on two things: its mass and its velocity. The equation is momentum = mass × velocity, or p = m v, where p is momentum in kilogram metres per second (kg m/s), m is mass in kilograms (kg) and v is velocity in metres per second (m/s). You must be able to recall this equation and apply it, including rearranging it to find mass (m = p ÷ v) or velocity (v = p ÷ m).",
+      "Momentum is a vector quantity: it has both a size (magnitude) and a direction. The direction of an object's momentum is the same as the direction of its velocity. In calculations, choose one direction as positive (for example, to the right). An object moving in the opposite direction then has a negative velocity and a negative momentum. A 2.0 kg trolley moving at 3.0 m/s to the right has a momentum of +6.0 kg m/s, while the same trolley moving at 3.0 m/s to the left has a momentum of −6.0 kg m/s.",
+      "An object that is not moving has zero velocity, so its momentum is zero. A large momentum can come from a large mass, a large velocity, or both. A slow-moving lorry can have the same momentum as a fast car: an 18 000 kg lorry at 1.0 m/s and a 900 kg car at 20 m/s both have a momentum of 18 000 kg m/s. Because momentum is directly proportional to both mass and velocity, doubling the velocity doubles the momentum, and doubling the mass also doubles the momentum.",
+      "Take care with units. Mass must be in kilograms, so convert grams by dividing by 1000 and tonnes by multiplying by 1000. Velocity must be in m/s, so convert km/h by dividing by 3.6. For example, a 12 tonne lorry at 54 km/h has m = 12 000 kg and v = 15 m/s, so p = 12 000 × 15 = 180 000 kg m/s.",
+      "To find the total momentum of several objects, add their momenta, taking account of direction. Two identical cars moving towards each other at the same speed have a total momentum of zero, even though each car is moving, because their momenta are equal in size but opposite in direction. This idea is used in the next topic, conservation of momentum."
+    ],
+    "keyFacts": [
+      "Momentum = mass × velocity (p = m v); you must recall this equation.",
+      "Momentum is measured in kg m/s.",
+      "Momentum is a vector quantity: it has magnitude and direction.",
+      "The direction of momentum is the same as the direction of velocity.",
+      "Choose a positive direction; motion the opposite way gives negative momentum.",
+      "A stationary object has zero momentum.",
+      "Momentum is directly proportional to both mass and velocity.",
+      "Mass must be in kg and velocity in m/s before calculating momentum.",
+      "Total momentum is found by adding momenta with their signs."
+    ],
+    "keyTerms": [
+      {
+        "term": "Momentum",
+        "definition": "The product of an object's mass and velocity; a vector quantity measured in kg m/s."
+      },
+      {
+        "term": "Velocity",
+        "definition": "Speed in a given direction; a vector quantity measured in m/s."
+      },
+      {
+        "term": "Vector quantity",
+        "definition": "A quantity with both magnitude and direction, such as velocity, force and momentum."
+      },
+      {
+        "term": "Scalar quantity",
+        "definition": "A quantity with magnitude only, such as mass, speed and energy."
+      },
+      {
+        "term": "Mass",
+        "definition": "The amount of matter in an object, measured in kilograms (kg)."
+      },
+      {
+        "term": "Total momentum",
+        "definition": "The sum of the momenta of all objects in a system, taking direction into account."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Momentum",
+        "formula": "momentum = mass × velocity",
+        "symbols": "p = m v",
+        "units": "p in kg m/s, m in kg, v in m/s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating momentum",
+        "question": "A sprinter of mass 70 kg runs at 9.0 m/s. Calculate the sprinter's momentum.",
+        "steps": [
+          "p = m v.",
+          "p = 70 × 9.0.",
+          "p = 630 kg m/s (in the direction the sprinter is running)."
+        ],
+        "answer": "630 kg m/s"
+      },
+      {
+        "title": "Converting tonnes and km/h",
+        "question": "A lorry of mass 12 tonnes travels at 54 km/h. Calculate its momentum.",
+        "steps": [
+          "Convert mass: 12 tonnes = 12 × 1000 = 12 000 kg.",
+          "Convert velocity: 54 ÷ 3.6 = 15 m/s.",
+          "p = m v = 12 000 × 15 = 180 000 kg m/s."
+        ],
+        "answer": "180 000 kg m/s"
+      },
+      {
+        "title": "Total momentum with directions",
+        "question": "Car A (1200 kg) travels east at 20 m/s. Car B (1500 kg) travels west at 16 m/s. Taking east as positive, calculate the total momentum of the two cars.",
+        "steps": [
+          "Momentum of A = 1200 × (+20) = +24 000 kg m/s.",
+          "Momentum of B = 1500 × (−16) = −24 000 kg m/s.",
+          "Total = (+24 000) + (−24 000) = 0 kg m/s."
+        ],
+        "answer": "0 kg m/s (the momenta are equal in size and opposite in direction)"
+      },
+      {
+        "title": "Rearranging to find velocity",
+        "question": "A tennis ball of mass 58 g has a momentum of 2.9 kg m/s. Calculate its velocity.",
+        "steps": [
+          "Convert mass: 58 g = 58 ÷ 1000 = 0.058 kg.",
+          "v = p ÷ m = 2.9 ÷ 0.058.",
+          "v = 50 m/s."
+        ],
+        "answer": "50 m/s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Momentum is a vector",
+        "caption": "Taking right as positive, trolley A has momentum +6.0 kg m/s and trolley B, moving left, has momentum −3.0 kg m/s. The total momentum is found by adding with signs.",
+        "svg": "<svg viewBox='0 0 460 250' xmlns='http://www.w3.org/2000/svg'><line x1='150' y1='25' x2='298' y2='25' stroke='currentColor' stroke-width='3'/><path d='M310 25 L296 18 L296 32 Z' fill='currentColor'/><text x='230' y='18' font-size='12' fill='currentColor' text-anchor='middle'>positive direction</text><line x1='20' y1='120' x2='440' y2='120' stroke='currentColor' stroke-width='2'/><rect x='60' y='80' width='70' height='40' rx='4' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><rect x='320' y='80' width='70' height='40' rx='4' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><line x1='135' y1='100' x2='193' y2='100' stroke='currentColor' stroke-width='3'/><path d='M205 100 L191 93 L191 107 Z' fill='currentColor'/><line x1='315' y1='100' x2='257' y2='100' stroke='currentColor' stroke-width='3'/><path d='M245 100 L259 93 L259 107 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='95' y='104'>A</text><text x='355' y='104'>B</text><text x='170' y='88'>3.0 m/s</text><text x='280' y='88'>2.0 m/s</text><text x='95' y='145'>mass 2.0 kg</text><text x='355' y='145'>mass 1.5 kg</text><text x='95' y='170'>p = 2.0 × (+3.0)</text><text x='95' y='188'>= +6.0 kg m/s</text><text x='355' y='170'>p = 1.5 × (−2.0)</text><text x='355' y='188'>= −3.0 kg m/s</text><text x='230' y='225'>Total momentum = (+6.0) + (−3.0) = +3.0 kg m/s</text><text x='230' y='242'>(3.0 kg m/s in the positive direction)</text></g></svg>"
+      },
+      {
+        "title": "Same momentum, different mass and velocity",
+        "caption": "A heavy, slow lorry and a light, fast car can have exactly the same momentum, because p = m v.",
+        "svg": "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='80' x2='440' y2='80' stroke='currentColor' stroke-width='2'/><line x1='20' y1='180' x2='440' y2='180' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='2'><rect x='40' y='30' width='150' height='40' rx='4' fill='#fde68a' fill-opacity='0.5'/><circle cx='70' cy='72' r='8' fill='none'/><circle cx='160' cy='72' r='8' fill='none'/><rect x='60' y='145' width='70' height='28' rx='6' fill='#86efac' fill-opacity='0.5'/><circle cx='78' cy='173' r='7' fill='none'/><circle cx='112' cy='173' r='7' fill='none'/></g><line x1='200' y1='52' x2='238' y2='52' stroke='currentColor' stroke-width='3'/><path d='M250 52 L236 45 L236 59 Z' fill='currentColor'/><line x1='140' y1='159' x2='328' y2='159' stroke='currentColor' stroke-width='3'/><path d='M340 159 L326 152 L326 166 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='260' y='40'>lorry: 18 000 kg at 1.0 m/s</text><text x='260' y='56'>p = 18 000 × 1.0</text><text x='260' y='72'>= 18 000 kg m/s</text><text x='225' y='140'>car: 900 kg at 20 m/s</text><text x='350' y='156'>p = 900 × 20</text><text x='350' y='172'>= 18 000 kg m/s</text><text x='230' y='208' text-anchor='middle'>Same momentum: large mass and small velocity, or small mass and large velocity</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think momentum is a scalar, so a ball moving left or right has the same momentum.",
+        "right": "In fact momentum is a vector. Moving in opposite directions gives momenta of opposite signs."
+      },
+      {
+        "wrong": "Students often think the faster object always has more momentum.",
+        "right": "In fact momentum depends on mass as well as velocity; a slow lorry can have more momentum than a fast car."
+      },
+      {
+        "wrong": "Students often think that if each object is moving, the total momentum cannot be zero.",
+        "right": "In fact equal and opposite momenta add to zero, so a system of moving objects can have zero total momentum."
+      },
+      {
+        "wrong": "Students often use grams or km/h directly in p = m v.",
+        "right": "In fact mass must be in kg and velocity in m/s, so convert units first."
+      }
+    ],
+    "realWorld": [
+      "Crash investigators use the momentum of vehicles to work out their speeds before a collision.",
+      "Heavy freight trains and oil tankers have huge momentum even at low speeds, so they take a very long distance to stop.",
+      "In rugby, a heavy player running at speed has a large momentum and is difficult to stop in a tackle.",
+      "Snooker and pool players control the momentum of the cue ball to decide how the balls move after a collision."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The whole of this topic is Higher tier only: recall and apply p = m v, including direction (sign) and unit conversions."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn p = m v: it is not given on the equation sheet.",
+      "Always give the unit kg m/s (or N s), and state a direction when asked for momentum as a vector.",
+      "Before calculating, convert g to kg (÷ 1000), tonnes to kg (× 1000) and km/h to m/s (÷ 3.6).",
+      "In questions with objects moving in opposite directions, write down which direction you take as positive and use negative signs for the other direction.",
+      "When comparing momenta, calculate each value; do not judge by speed alone."
+    ],
+    "summary": [
+      "Momentum p = m v, measured in kg m/s.",
+      "Momentum is a vector; its direction is the direction of motion.",
+      "Use + and − signs for opposite directions.",
+      "A stationary object has zero momentum.",
+      "Large mass or large velocity gives large momentum.",
+      "Convert to kg and m/s before calculating."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Equation for momentum?",
+      "back": "Momentum = mass × velocity (p = m v)."
+    },
+    {
+      "front": "Unit of momentum?",
+      "back": "kg m/s (kilogram metres per second)."
+    },
+    {
+      "front": "Is momentum a scalar or a vector?",
+      "back": "A vector: it has magnitude and direction."
+    },
+    {
+      "front": "What is the direction of an object's momentum?",
+      "back": "The same as the direction of its velocity."
+    },
+    {
+      "front": "What is the momentum of a stationary object?",
+      "back": "Zero."
+    },
+    {
+      "front": "Momentum of a 2 kg ball at 3 m/s to the left (right positive)?",
+      "back": "−6 kg m/s."
+    },
+    {
+      "front": "Rearrange p = m v to find velocity.",
+      "back": "v = p ÷ m."
+    },
+    {
+      "front": "Rearrange p = m v to find mass.",
+      "back": "m = p ÷ v."
+    },
+    {
+      "front": "What happens to momentum if velocity doubles (same mass)?",
+      "back": "It doubles."
+    },
+    {
+      "front": "How can a slow lorry have more momentum than a fast car?",
+      "back": "Its mass is much larger, so m × v is larger."
+    },
+    {
+      "front": "Convert 54 km/h to m/s.",
+      "back": "54 ÷ 3.6 = 15 m/s."
+    },
+    {
+      "front": "Two identical cars move towards each other at the same speed. Total momentum?",
+      "back": "Zero: equal size, opposite directions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-momentum-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation correctly gives momentum?",
+      "options": [
+        "momentum = mass ÷ velocity",
+        "momentum = ½ × mass × velocity²",
+        "momentum = mass × velocity",
+        "momentum = mass × acceleration"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: momentum = mass × velocity"
+      ],
+      "explanation": "p = m v. ½mv² is kinetic energy and m × a is resultant force."
+    },
+    {
+      "id": "p5-momentum-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of momentum?",
+      "options": [
+        "kg m/s",
+        "kg m/s²",
+        "N",
+        "J"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: kg m/s"
+      ],
+      "explanation": "Momentum = mass (kg) × velocity (m/s), so the unit is kg m/s. kg m/s² is the newton, the unit of force; J is the unit of energy."
+    },
+    {
+      "id": "p5-momentum-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement about momentum is correct?",
+      "options": [
+        "Momentum is a scalar, so it has no direction.",
+        "Momentum always acts in the opposite direction to velocity.",
+        "Momentum depends only on velocity, not on mass.",
+        "Momentum is a vector in the same direction as the velocity."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Momentum is a vector in the same direction as the velocity."
+      ],
+      "explanation": "Momentum = mass × velocity. Mass is a positive scalar, so momentum has the same direction as velocity."
+    },
+    {
+      "id": "p5-momentum-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these has the greatest momentum?",
+      "options": [
+        "A 1000 kg car moving at 10 m/s",
+        "A 20 000 kg lorry moving at 1.0 m/s",
+        "A 60 kg sprinter moving at 10 m/s",
+        "A 0.15 kg cricket ball moving at 40 m/s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A 20 000 kg lorry moving at 1.0 m/s"
+      ],
+      "explanation": "Momenta: car 10 000, lorry 20 000, sprinter 600, ball 6 kg m/s. The slowest object has the largest momentum because of its huge mass."
+    },
+    {
+      "id": "p5-momentum-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A 1500 kg car is parked on a road. What is its momentum?",
+      "options": [
+        "1500 kg m/s",
+        "14 700 kg m/s",
+        "0 kg m/s",
+        "It cannot be calculated without its speed limit."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0 kg m/s"
+      ],
+      "explanation": "The car is stationary, so v = 0 and p = m v = 0. 14 700 is its weight in newtons, not its momentum."
+    },
+    {
+      "id": "p5-momentum-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object's mass is halved and its velocity is doubled. What happens to its momentum?",
+      "options": [
+        "It stays the same.",
+        "It doubles.",
+        "It halves.",
+        "It increases four times."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It stays the same."
+      ],
+      "explanation": "p = m v. New momentum = (½m) × (2v) = m v, so the momentum is unchanged."
+    },
+    {
+      "id": "p5-momentum-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Taking right as positive, what is the momentum of a 2.0 kg ball moving to the left at 5.0 m/s?",
+      "options": [
+        "+10 kg m/s",
+        "+2.5 kg m/s",
+        "−2.5 kg m/s",
+        "−10 kg m/s"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: −10 kg m/s"
+      ],
+      "explanation": "p = 2.0 × (−5.0) = −10 kg m/s. The negative sign shows the momentum is to the left. 2.5 comes from dividing instead of multiplying."
+    },
+    {
+      "id": "p5-momentum-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A 1000 kg car travels at 20 m/s. A 5000 kg van has the same momentum. What is the velocity of the van?",
+      "options": [
+        "2.0 m/s",
+        "4.0 m/s",
+        "20 m/s",
+        "100 m/s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 4.0 m/s"
+      ],
+      "explanation": "Car momentum = 1000 × 20 = 20 000 kg m/s. Van velocity = 20 000 ÷ 5000 = 4.0 m/s. 100 m/s comes from multiplying by 5 instead of dividing."
+    },
+    {
+      "id": "p5-momentum-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two identical trolleys move towards each other, each at 2 m/s. What is the total momentum of the two trolleys?",
+      "options": [
+        "It depends on which trolley is heavier.",
+        "Twice the momentum of one trolley",
+        "Zero",
+        "Four times the momentum of one trolley"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Zero"
+      ],
+      "explanation": "The momenta are equal in size but opposite in direction, so they add to zero. Momentum is a vector, so you cannot simply add the sizes."
+    },
+    {
+      "id": "p5-momentum-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A ball is thrown straight up. What is its momentum at the very top of its flight?",
+      "options": [
+        "Zero, because its velocity is momentarily zero",
+        "Its maximum value, because it is highest",
+        "Equal to its weight",
+        "The same as when it was thrown"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Zero, because its velocity is momentarily zero"
+      ],
+      "explanation": "At the top the ball stops for an instant, so v = 0 and p = 0. Height affects gravitational potential energy, not momentum."
+    },
+    {
+      "id": "p5-momentum-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A cricket ball of mass 0.16 kg travels at 25 m/s.\nCalculate its momentum.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: p = 0.16 × 25",
+        "1 mark: 4.0 kg m/s"
+      ],
+      "explanation": "p = m v = 0.16 × 25 = 4.0 kg m/s."
+    },
+    {
+      "id": "p5-momentum-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A runner of mass 70 kg runs at 9.0 m/s.\nCalculate the runner's momentum.",
+      "numericAnswer": 630,
+      "tolerance": 0.01,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: p = 70 × 9.0",
+        "1 mark: 630 kg m/s"
+      ],
+      "explanation": "p = m v = 70 × 9.0 = 630 kg m/s."
+    },
+    {
+      "id": "p5-momentum-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car has a momentum of 12 000 kg m/s when travelling at 15 m/s.\nCalculate the mass of the car.",
+      "numericAnswer": 800,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: m = p ÷ v",
+        "1 mark: m = 12 000 ÷ 15",
+        "1 mark: 800 kg"
+      ],
+      "explanation": "Rearranging p = m v gives m = p ÷ v = 12 000 ÷ 15 = 800 kg."
+    },
+    {
+      "id": "p5-momentum-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A tennis ball of mass 0.058 kg has a momentum of 2.9 kg m/s.\nCalculate the velocity of the ball.",
+      "numericAnswer": 50,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: v = p ÷ m",
+        "1 mark: v = 2.9 ÷ 0.058",
+        "1 mark: 50 m/s"
+      ],
+      "explanation": "v = p ÷ m = 2.9 ÷ 0.058 = 50 m/s."
+    },
+    {
+      "id": "p5-momentum-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A lorry of mass 12 tonnes travels at 54 km/h.\nCalculate the momentum of the lorry. (1 tonne = 1000 kg)",
+      "numericAnswer": 180000,
+      "tolerance": 0.01,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: m = 12 000 kg",
+        "1 mark: v = 54 ÷ 3.6 = 15 m/s",
+        "1 mark: p = 12 000 × 15 = 180 000 kg m/s"
+      ],
+      "explanation": "Both units must be converted before using p = m v."
+    },
+    {
+      "id": "p5-momentum-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A golf ball of mass 45 g leaves the club at 70 m/s.\nCalculate the momentum of the golf ball.",
+      "numericAnswer": 3.15,
+      "tolerance": 0.02,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: m = 45 ÷ 1000 = 0.045 kg",
+        "1 mark: p = 0.045 × 70",
+        "1 mark: 3.15 kg m/s (accept 3.2 kg m/s)"
+      ],
+      "explanation": "Using 45 g directly gives 3150, which is 1000 times too large."
+    },
+    {
+      "id": "p5-momentum-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Car A (mass 1200 kg) travels east at 20 m/s. Car B (mass 1500 kg) travels west at 16 m/s.\nTaking east as positive, calculate the total momentum of the two cars.",
+      "numericAnswer": 0,
+      "tolerance": 0,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: momentum of A = +24 000 kg m/s",
+        "1 mark: momentum of B = −24 000 kg m/s",
+        "1 mark: total = 0 kg m/s"
+      ],
+      "explanation": "The momenta are equal in size and opposite in direction, so they cancel. Adding the sizes (48 000 kg m/s) ignores direction."
+    },
+    {
+      "id": "p5-momentum-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A train of mass 30 000 kg moves at 0.60 m/s.\nCalculate the velocity at which a 900 kg car would have the same momentum.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: momentum of train = 30 000 × 0.60 = 18 000 kg m/s",
+        "1 mark: v = 18 000 ÷ 900",
+        "1 mark: 20 m/s"
+      ],
+      "explanation": "A slow train has the same momentum as a car travelling at 20 m/s (about 45 mph)."
+    },
+    {
+      "id": "p5-momentum-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links momentum, mass and velocity.",
+      "acceptedAnswers": [
+        "p = m v",
+        "momentum = mass × velocity"
+      ],
+      "markScheme": [
+        "1 mark: momentum = mass × velocity (p = m v)"
+      ],
+      "explanation": "This equation must be recalled; it is not given on the equation sheet."
+    },
+    {
+      "id": "p5-momentum-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give the unit of momentum.",
+      "acceptedAnswers": [
+        "kg m/s",
+        "kilogram metres per second",
+        "N s"
+      ],
+      "markScheme": [
+        "1 mark: kg m/s (accept N s)"
+      ],
+      "explanation": "kg × m/s = kg m/s. N s is an equivalent unit."
+    },
+    {
+      "id": "p5-momentum-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain why momentum is a vector quantity.",
+      "acceptedAnswers": [
+        "magnitude and direction",
+        "velocity is a vector",
+        "direction of motion"
+      ],
+      "markScheme": [
+        "1 mark: it has both magnitude (size) and direction",
+        "1 mark: because it depends on velocity, which is a vector (direction of momentum = direction of velocity)"
+      ],
+      "explanation": "Mass is a scalar but velocity is a vector, so their product is a vector."
+    },
+    {
+      "id": "p5-momentum-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Two cars have the same mass. Car X has more momentum than car Y.\nExplain what this tells you about the cars.",
+      "acceptedAnswers": [
+        "greater velocity",
+        "faster",
+        "p = m v",
+        "same mass"
+      ],
+      "markScheme": [
+        "1 mark: momentum = mass × velocity",
+        "1 mark: so car X has a greater velocity (is moving faster) than car Y"
+      ],
+      "explanation": "With the same mass, momentum is directly proportional to velocity."
+    },
+    {
+      "id": "p5-momentum-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a lorry moving slowly can have a greater momentum than a car moving quickly.",
+      "acceptedAnswers": [
+        "much greater mass",
+        "p = m v",
+        "mass × velocity"
+      ],
+      "markScheme": [
+        "1 mark: momentum depends on mass and velocity (p = m v)",
+        "1 mark: the lorry's mass is so much larger that m × v is larger even though v is smaller"
+      ],
+      "explanation": "For example, an 18 000 kg lorry at 2 m/s (36 000 kg m/s) has more momentum than a 900 kg car at 20 m/s (18 000 kg m/s)."
+    },
+    {
+      "id": "p5-momentum-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Two identical snooker balls roll directly towards each other at the same speed.\nExplain why their total momentum is zero even though both balls are moving.",
+      "acceptedAnswers": [
+        "equal size",
+        "opposite direction",
+        "vector",
+        "add to zero",
+        "cancel"
+      ],
+      "markScheme": [
+        "1 mark: each ball has momentum of the same size",
+        "1 mark: in opposite directions (one positive, one negative), so as vectors they add to zero"
+      ],
+      "explanation": "Momentum is a vector, so direction must be included when adding."
+    },
+    {
+      "id": "p5-momentum-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A ball of mass 0.40 kg moves at 5.0 m/s to the right. It bounces off a wall and moves at 5.0 m/s to the left.\nA student says: \"The momentum of the ball has not changed, because its speed is the same.\"\nExplain why the student is wrong.",
+      "acceptedAnswers": [
+        "vector",
+        "direction changed",
+        "+2.0 kg m/s",
+        "−2.0 kg m/s",
+        "momentum has changed"
+      ],
+      "markScheme": [
+        "1 mark: momentum is a vector, so a change in direction is a change in momentum",
+        "1 mark: before: +2.0 kg m/s; after: −2.0 kg m/s (taking right as positive)",
+        "1 mark: so the momentum has changed (by 4.0 kg m/s)"
+      ],
+      "explanation": "Speed is a scalar, but momentum depends on velocity, which includes direction."
+    },
+    {
+      "id": "p5-momentum-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Three road users are on a straight road.\nBus: mass 12 000 kg, moving east at 9.0 m/s\nCar: mass 1500 kg, moving west at 25 m/s\nCyclist (with bicycle): mass 80 kg, moving east at 10 m/s\nTaking east as positive, calculate the momentum of each road user. Use your answers to explain how momentum depends on mass and velocity, and why direction matters.",
+      "markScheme": [
+        "Indicative content: bus p = 12 000 × 9.0 = +108 000 kg m/s; car p = 1500 × (−25) = −37 500 kg m/s; cyclist p = 80 × 10 = +800 kg m/s; the bus is the slowest but has the largest momentum because its mass is much greater; the car has more momentum than the cyclist because it has a larger mass and a larger velocity; the car's momentum is negative because it moves west, opposite to the chosen positive direction; momentum is a vector so its sign shows direction; momentum is proportional to both mass and velocity.",
+        "Level 3 (5 to 6 marks): all three momenta correct with correct signs and units, and a clear explanation of the roles of mass, velocity and direction.",
+        "Level 2 (3 to 4 marks): at least two momenta correct (sign may be missing), with some explanation linking momentum to mass and velocity.",
+        "Level 1 (1 to 2 marks): one momentum correct or a correct statement of p = m v."
+      ],
+      "explanation": "Show each calculation clearly with its sign and unit, then refer to the numbers in the explanation."
+    },
+    {
+      "id": "p5-momentum-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a student could determine the momentum of a trolley moving along a runway in the laboratory.",
+      "markScheme": [
+        "Indicative content: measure the mass of the trolley using a top-pan balance (in kg); measure the velocity: use a light gate and a card of known length on the trolley (velocity = length of card ÷ time to pass through the gate), or measure a distance with a metre rule and time it with a stopwatch (velocity = distance ÷ time); make the runway friction-compensated so the velocity is constant; repeat the velocity measurement and calculate a mean; calculate momentum = mass × velocity, in kg m/s.",
+        "Level 2 (3 to 4 marks): describes measuring mass and velocity with suitable equipment and calculating p = m v with correct units.",
+        "Level 1 (1 to 2 marks): states that mass and velocity are needed, with little detail of the method."
+      ],
+      "explanation": "Light gates reduce human reaction time errors compared with stopwatches."
+    }
+  ]
+}

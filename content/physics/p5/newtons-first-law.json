@@ -1,0 +1,702 @@
+{
+  "id": "p5-newtons-first-law",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "newtons-first-law",
+  "specRef": "4.5.6.2.1",
+  "title": "Newton's First Law",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Newton's First Law states that if the resultant force acting on an object is zero, a stationary object remains stationary, and a moving object continues to move at the same speed in the same direction (the same velocity).",
+    "explanation": [
+      "Newton's First Law describes what happens when the forces on an object are balanced, so the resultant force is zero. If the object is stationary, it stays stationary. If it is moving, it keeps moving at the same speed and in the same direction: its velocity does not change. A zero resultant force does not mean the object must stop. A moving object only slows down if there is a resultant force acting against its motion.",
+      "This explains the motion of vehicles at a steady speed. When a car travels along a straight road at a constant speed, the driving force from the engine is exactly balanced by the resistive forces (air resistance and friction). The resultant force is zero, so the velocity stays the same. If the driver presses harder on the accelerator, the driving force becomes greater than the resistive forces and there is a resultant force forwards, so the car speeds up.",
+      "The law also works the other way round: the velocity (speed or direction) of an object will only change if a resultant force is acting on it. Speeding up, slowing down and changing direction all need a resultant force. When a car brakes, the resultant force acts backwards and the car decelerates. When a car goes round a bend at a steady speed, there must be a resultant force (from friction between the tyres and the road) acting towards the centre of the bend to change the direction.",
+      "In everyday life it can seem that moving objects naturally stop. A ball rolling across grass slows down, but this is because friction and air resistance provide a resultant force opposing the motion. In deep space, far from any planets, a spacecraft with its engines switched off continues at a constant velocity because there is no resultant force to change its motion.",
+      "(Higher) The tendency of objects to continue in their state of rest or of uniform motion is called inertia. All objects have inertia. When a bus brakes suddenly, the passengers tend to continue moving forwards at the same speed because of their inertia: they lurch forwards until a force (from a seat belt, a seat or a handrail) acts on them. Objects with a larger mass have more inertia and are harder to start, stop or turn."
+    ],
+    "keyFacts": [
+      "Newton's First Law: if the resultant force on an object is zero, its velocity does not change.",
+      "With zero resultant force, a stationary object remains stationary.",
+      "With zero resultant force, a moving object continues at the same speed in the same direction.",
+      "A vehicle travelling at a steady speed has its driving force balanced by resistive forces.",
+      "The velocity of an object only changes if a resultant force acts on it.",
+      "A change in velocity can be a change in speed, a change in direction, or both.",
+      "Objects do not need a resultant force to keep moving; they need one to change their motion.",
+      "(Higher) Inertia is the tendency of objects to continue in their state of rest or of uniform motion."
+    ],
+    "keyTerms": [
+      {
+        "term": "Resultant force",
+        "definition": "The single force that has the same effect as all the forces acting on an object added together."
+      },
+      {
+        "term": "Balanced forces",
+        "definition": "Forces whose resultant is zero, so the object's velocity does not change."
+      },
+      {
+        "term": "Driving force",
+        "definition": "The forward force on a vehicle, provided by the engine through the wheels."
+      },
+      {
+        "term": "Resistive forces",
+        "definition": "Forces that oppose motion, such as friction and air resistance (drag)."
+      },
+      {
+        "term": "Uniform motion",
+        "definition": "Moving at a constant speed in a straight line (constant velocity)."
+      },
+      {
+        "term": "Inertia (Higher)",
+        "definition": "The tendency of an object to continue in its state of rest or of uniform motion."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Driving force at a steady speed",
+        "question": "A lorry travels along a straight, level motorway at a steady 25 m/s. The total resistive force on the lorry is 4500 N. State the driving force and explain your answer.",
+        "steps": [
+          "The lorry moves at a steady speed in a straight line, so its velocity is constant.",
+          "By Newton's First Law, the resultant force must be zero.",
+          "So the driving force must equal the resistive force: 4500 N forwards."
+        ],
+        "answer": "4500 N"
+      },
+      {
+        "title": "Deciding whether forces are balanced",
+        "question": "A cyclist pedals with a forward force of 180 N. Air resistance and friction total 150 N. Describe what happens to the cyclist's motion.",
+        "steps": [
+          "Resultant force = 180 − 150 = 30 N forwards.",
+          "The resultant force is not zero, so the velocity must change.",
+          "The resultant force acts in the direction of motion, so the cyclist speeds up (accelerates)."
+        ],
+        "answer": "Resultant force 30 N forwards, so the cyclist accelerates."
+      },
+      {
+        "title": "A falling object",
+        "question": "A raindrop of weight 0.0004 N falls at a constant velocity. Calculate the air resistance on the raindrop.",
+        "steps": [
+          "Constant velocity means zero resultant force (Newton's First Law).",
+          "So the upward air resistance balances the downward weight.",
+          "Air resistance = 0.0004 N upwards."
+        ],
+        "answer": "0.0004 N upwards"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Car at a steady speed",
+        "caption": "The driving force (2000 N forwards) is balanced by air resistance and friction (2000 N backwards). The resultant force is zero, so the car continues at constant velocity.",
+        "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"n1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><line x1=\"10\" y1=\"150\" x2=\"410\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M150 130 L150 100 L185 100 L205 75 L255 75 L275 100 L290 100 L290 130 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"135\" r=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"262\" cy=\"135\" r=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"292\" y1=\"112\" x2=\"392\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"3\" marker-end=\"url(#n1)\"/><text x=\"300\" y=\"100\" font-size=\"12\" fill=\"currentColor\">driving force</text><text x=\"300\" y=\"130\" font-size=\"12\" fill=\"currentColor\">2000 N</text><line x1=\"148\" y1=\"112\" x2=\"48\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"3\" marker-end=\"url(#n1)\"/><text x=\"40\" y=\"92\" font-size=\"12\" fill=\"currentColor\">air resistance</text><text x=\"40\" y=\"104\" font-size=\"12\" fill=\"currentColor\">+ friction</text><text x=\"70\" y=\"130\" font-size=\"12\" fill=\"currentColor\">2000 N</text><text x=\"210\" y=\"25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Forces balanced: resultant force = 0</text><text x=\"210\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">so the car moves at a steady speed in a straight line</text><text x=\"210\" y=\"180\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">direction of motion →</text></svg>"
+      },
+      {
+        "title": "Using Newton's First Law",
+        "caption": "If the resultant force is zero, the velocity stays the same (stationary objects stay still; moving objects keep the same speed and direction). If not, the velocity changes.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"n2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><rect x=\"130\" y=\"10\" width=\"160\" height=\"30\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"210\" y=\"28\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Is the resultant force zero?</text><line x1=\"170\" y1=\"40\" x2=\"100\" y2=\"78\" stroke=\"currentColor\" marker-end=\"url(#n2)\"/><line x1=\"250\" y1=\"40\" x2=\"320\" y2=\"78\" stroke=\"currentColor\" marker-end=\"url(#n2)\"/><text x=\"115\" y=\"58\" font-size=\"12\" fill=\"currentColor\">YES</text><text x=\"290\" y=\"58\" font-size=\"12\" fill=\"currentColor\">NO</text><rect x=\"10\" y=\"80\" width=\"190\" height=\"50\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"105\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">velocity does NOT change</text><text x=\"105\" y=\"113\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">(no acceleration)</text><rect x=\"220\" y=\"80\" width=\"190\" height=\"50\" rx=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"315\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">velocity changes:</text><text x=\"315\" y=\"113\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speed and/or direction</text><line x1=\"60\" y1=\"130\" x2=\"60\" y2=\"158\" stroke=\"currentColor\" marker-end=\"url(#n2)\"/><line x1=\"150\" y1=\"130\" x2=\"150\" y2=\"158\" stroke=\"currentColor\" marker-end=\"url(#n2)\"/><rect x=\"10\" y=\"160\" width=\"95\" height=\"50\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"57.5\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">at rest:</text><text x=\"57.5\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">stays at rest</text><rect x=\"110\" y=\"160\" width=\"95\" height=\"50\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"157.5\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">moving: keeps</text><text x=\"157.5\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">same velocity</text><line x1=\"315\" y1=\"130\" x2=\"315\" y2=\"158\" stroke=\"currentColor\" marker-end=\"url(#n2)\"/><rect x=\"220\" y=\"160\" width=\"190\" height=\"50\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"315\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speeds up, slows down</text><text x=\"315\" y=\"193\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">or changes direction</text><text x=\"210\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Newton's First Law</text></svg>"
+      },
+      {
+        "title": "(Higher) Inertia of a passenger",
+        "caption": "When a bus brakes, the passenger tends to keep moving forwards at the original speed because of inertia, until a force from a seat belt or handrail slows them down.",
+        "svg": "<svg viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"n3\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><rect x=\"40\" y=\"70\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"90\" cy=\"150\" r=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"290\" cy=\"150\" r=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"190\" y=\"62\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">bus braking</text><line x1=\"330\" y1=\"40\" x2=\"250\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#n3)\"/><text x=\"245\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">braking force on bus</text><circle cx=\"200\" cy=\"88\" r=\"9\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"97\" x2=\"200\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"215\" y1=\"100\" x2=\"265\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#n3)\"/><text x=\"215\" y=\"118\" font-size=\"12\" fill=\"currentColor\">passenger keeps moving</text><text x=\"215\" y=\"132\" font-size=\"12\" fill=\"currentColor\">forward (inertia)</text><line x1=\"40\" y1=\"182\" x2=\"140\" y2=\"182\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#n3)\"/><text x=\"150\" y=\"186\" font-size=\"12\" fill=\"currentColor\">direction of motion</text><text x=\"210\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Seat belt or handrail gives the force that slows the passenger</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a moving object needs a resultant force to keep moving.",
+        "right": "In fact an object with zero resultant force keeps moving at constant velocity. A resultant force is needed to change the velocity, not to maintain it."
+      },
+      {
+        "wrong": "Students often think that if a car is moving forwards at a steady speed, the driving force must be bigger than the resistive forces.",
+        "right": "In fact at a steady speed the driving force equals the resistive forces. If the driving force were bigger, the car would accelerate."
+      },
+      {
+        "wrong": "Students often think that balanced forces mean the object is stationary.",
+        "right": "In fact balanced forces mean the velocity is constant; the object could be stationary or moving at a steady speed in a straight line."
+      },
+      {
+        "wrong": "Students often think an object moving in a circle at a steady speed has balanced forces.",
+        "right": "In fact its direction keeps changing, so its velocity changes, so there must be a resultant force (towards the centre)."
+      }
+    ],
+    "realWorld": [
+      "Seat belts and airbags are needed because a passenger's body keeps moving forwards when a car stops suddenly.",
+      "Spacecraft such as Voyager 1 travel through space for decades without using engines, because almost no resultant force acts on them.",
+      "Cruise control in a car adjusts the driving force to match the resistive forces, keeping the resultant force zero and the speed constant.",
+      "Loose objects in a car boot slide forwards when braking, which is why heavy luggage should be secured."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The tendency of objects to continue in their state of rest or of uniform motion is called inertia. Use the idea of inertia to explain, for example, why passengers lurch forwards when a vehicle brakes suddenly."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the law precisely: \"If the resultant force on an object is zero, a stationary object stays stationary and a moving object continues at the same speed in the same direction.\"",
+      "In steady-speed questions, always state that the driving force equals the resistive force, so the resultant force is zero.",
+      "When explaining a change in motion, say there is a resultant force, give its direction, and link it to speeding up, slowing down or changing direction.",
+      "(Higher) If a question mentions inertia, define it as the tendency to continue in a state of rest or uniform motion."
+    ],
+    "summary": [
+      "Zero resultant force: velocity stays constant.",
+      "Stationary objects stay stationary; moving objects keep the same speed and direction.",
+      "At a steady speed, driving force = resistive forces.",
+      "Velocity only changes (speed or direction) if a resultant force acts.",
+      "Changing direction needs a resultant force, even at constant speed.",
+      "(Higher) Inertia: the tendency to stay at rest or in uniform motion."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State Newton's First Law.",
+      "back": "If the resultant force on an object is zero, a stationary object stays stationary and a moving object continues at the same speed in the same direction."
+    },
+    {
+      "front": "Resultant force on a car moving at a steady speed in a straight line?",
+      "back": "Zero"
+    },
+    {
+      "front": "Car at steady speed: how does the driving force compare with the resistive forces?",
+      "back": "They are equal."
+    },
+    {
+      "front": "What is needed to change an object's velocity?",
+      "back": "A resultant force."
+    },
+    {
+      "front": "Three ways velocity can change",
+      "back": "Speeding up, slowing down, changing direction."
+    },
+    {
+      "front": "What does a forward resultant force do to a moving car?",
+      "back": "Makes it speed up (accelerate)."
+    },
+    {
+      "front": "What does a backward resultant force do to a moving car?",
+      "back": "Makes it slow down (decelerate)."
+    },
+    {
+      "front": "(Higher) Define inertia.",
+      "back": "The tendency of objects to continue in their state of rest or of uniform motion."
+    },
+    {
+      "front": "Why do passengers lurch forwards when a bus brakes?",
+      "back": "Their bodies tend to keep moving at the original velocity (inertia) until a force acts on them."
+    },
+    {
+      "front": "Name two resistive forces on a car.",
+      "back": "Air resistance (drag) and friction."
+    },
+    {
+      "front": "Does a moving object need a resultant force to keep moving?",
+      "back": "No; it only needs one to change its velocity."
+    },
+    {
+      "front": "A parachutist falls at constant speed. Compare weight and air resistance.",
+      "back": "They are equal; the resultant force is zero."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-newtons-first-law-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement is Newton's First Law?",
+      "options": [
+        "The acceleration of an object is proportional to the resultant force on it",
+        "If the resultant force on an object is zero, its velocity does not change",
+        "Every action has an equal and opposite reaction",
+        "An object's weight is proportional to its mass"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "A paraphrases the Second Law; C is the Third Law; D describes weight and gravitational field strength."
+    },
+    {
+      "id": "p5-newtons-first-law-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A book rests on a table. The resultant force on it is zero. What happens to the book?",
+      "options": [
+        "It stays at rest",
+        "It starts to move slowly",
+        "It accelerates downwards",
+        "It moves at a constant speed"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "A stationary object with zero resultant force stays stationary."
+    },
+    {
+      "id": "p5-newtons-first-law-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A car travels at a steady speed along a straight, level road. How does the driving force compare with the resistive forces?",
+      "options": [
+        "The driving force is larger",
+        "The driving force is smaller",
+        "The driving force is equal to the resistive forces",
+        "There is no driving force"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "At constant velocity the resultant force is zero, so the forward and backward forces are equal."
+    },
+    {
+      "id": "p5-newtons-first-law-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these situations must involve a resultant force?",
+      "options": [
+        "A train moving at a steady 40 m/s on a straight track",
+        "A parachutist falling at a constant speed",
+        "A car parked on a level road",
+        "A cyclist going round a corner at a steady speed"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Going round a corner changes the direction, so the velocity changes and a resultant force is needed. In A, B and C the velocity is constant."
+    },
+    {
+      "id": "p5-newtons-first-law-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A spacecraft in deep space, far from any planets or stars, switches off its engines. What happens?",
+      "options": [
+        "It gradually slows down and stops",
+        "It continues at a constant velocity",
+        "It speeds up",
+        "It starts to move in a circle"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "With no resultant force, the spacecraft's velocity does not change. Objects only slow down when a resistive force acts."
+    },
+    {
+      "id": "p5-newtons-first-law-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A boat has a forward thrust of 1200 N and a total resistive force of 900 N. What is its motion?",
+      "options": [
+        "It accelerates forwards",
+        "It moves at a constant velocity",
+        "It slows down",
+        "It stays stationary"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Resultant force = 1200 − 900 = 300 N forwards. A resultant force in the direction of motion makes the boat speed up."
+    },
+    {
+      "id": "p5-newtons-first-law-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student says \"a ball rolling across a field stops because it runs out of force\". Which is the correct explanation?",
+      "options": [
+        "The ball's weight increases as it rolls",
+        "Friction and air resistance give a resultant force opposite to its motion",
+        "Objects always stop when no force acts on them",
+        "The ball's inertia decreases until it reaches zero"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Moving objects slow down only because a resultant force (here friction and air resistance) acts against the motion."
+    },
+    {
+      "id": "p5-newtons-first-law-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) What is meant by inertia?",
+      "options": [
+        "The force needed to keep an object moving",
+        "The resistive force acting on a moving object",
+        "The tendency of an object to continue in its state of rest or uniform motion",
+        "The rate at which an object's velocity changes"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "This is the AQA definition. A reflects a misconception; B is friction or drag; D is acceleration."
+    },
+    {
+      "id": "p5-newtons-first-law-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) A tablecloth is pulled very quickly from under a plate. The plate stays almost where it was. Which idea best explains this?",
+      "options": [
+        "The plate has inertia, so it tends to stay at rest",
+        "The plate's weight increases when the cloth moves",
+        "There is no friction between the plate and the cloth",
+        "The table pushes the plate upwards harder"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "The plate tends to stay at rest. Friction from the cloth acts for only a very short time, so it barely changes the plate's velocity."
+    },
+    {
+      "id": "p5-newtons-first-law-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A hot-air balloon is rising at a constant velocity. Which statement about the forces on it is correct?",
+      "options": [
+        "The upward force is greater than its weight",
+        "The upward force is less than its weight",
+        "There are no forces acting on it",
+        "The upward force is equal to its weight (plus any drag)"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Constant velocity means zero resultant force, so upward and downward forces balance. An upward resultant force would make it accelerate upwards."
+    },
+    {
+      "id": "p5-newtons-first-law-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A puck slides across smooth ice at 6 m/s. Friction is very small. A student wants to keep it moving at exactly 6 m/s in a straight line. What is needed?",
+      "options": [
+        "A large forward force, much greater than friction",
+        "A forward force equal in size to the friction",
+        "No force at all, because friction always stops objects",
+        "A sideways force at right angles to the motion"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "To keep velocity constant, the resultant force must be zero, so a forward force exactly balancing friction is needed. A larger force would accelerate the puck; a sideways force would change its direction."
+    },
+    {
+      "id": "p5-newtons-first-law-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A van travels at a constant velocity. The total resistive force on it is 3200 N. State the driving force.",
+      "numericAnswer": 3200,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 3200 N"
+      ],
+      "explanation": "Constant velocity means zero resultant force, so driving force = resistive force = 3200 N."
+    },
+    {
+      "id": "p5-newtons-first-law-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A skydiver of weight 750 N falls at a constant speed. State the size of the air resistance acting on her.",
+      "numericAnswer": 750,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 750 N"
+      ],
+      "explanation": "Constant velocity, so the forces are balanced: air resistance = weight = 750 N."
+    },
+    {
+      "id": "p5-newtons-first-law-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car's engine provides a driving force of 2800 N. The resistive forces total 2300 N. Calculate the resultant force on the car.",
+      "numericAnswer": 500,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 2800 − 2300",
+        "1 mark: 500 N (forwards)"
+      ],
+      "explanation": "The forces act in opposite directions, so subtract: 500 N forwards. The car speeds up."
+    },
+    {
+      "id": "p5-newtons-first-law-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A swimmer moves at a steady 1.2 m/s. The water exerts a drag force of 55 N on her. Calculate the forward force she must produce.",
+      "numericAnswer": 55,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: steady speed so forces balanced",
+        "1 mark: 55 N"
+      ],
+      "explanation": "Speed is irrelevant: at any constant velocity the forward force equals the resistive force, 55 N."
+    },
+    {
+      "id": "p5-newtons-first-law-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A truck moves at a constant velocity on a level road. The air resistance is 1800 N and the rolling friction is 950 N. The driver then increases the driving force by 400 N. Calculate the new resultant force on the truck.",
+      "numericAnswer": 400,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: initial driving force = 1800 + 950 = 2750 N",
+        "1 mark: new driving force = 3150 N",
+        "1 mark: resultant = 3150 − 2750 = 400 N (forwards)"
+      ],
+      "explanation": "At first the forces balance (2750 N each way). Increasing the driving force by 400 N makes a 400 N forward resultant force, assuming the resistive forces have not yet changed."
+    },
+    {
+      "id": "p5-newtons-first-law-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State Newton's First Law.",
+      "acceptedAnswers": [
+        "resultant force is zero",
+        "stationary object remains stationary",
+        "moving object continues at same speed in same direction",
+        "velocity stays the same"
+      ],
+      "markScheme": [
+        "1 mark: if the resultant force on an object is zero",
+        "1 mark: a stationary object stays stationary and a moving object continues at the same speed and in the same direction"
+      ],
+      "explanation": "Both parts are needed for full marks."
+    },
+    {
+      "id": "p5-newtons-first-law-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one resistive force that acts on a moving car.",
+      "acceptedAnswers": [
+        "air resistance",
+        "drag",
+        "friction"
+      ],
+      "markScheme": [
+        "1 mark: air resistance / drag / friction"
+      ],
+      "explanation": "Resistive forces oppose motion."
+    },
+    {
+      "id": "p5-newtons-first-law-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what must act on an object for its velocity to change.",
+      "acceptedAnswers": [
+        "resultant force",
+        "unbalanced force"
+      ],
+      "markScheme": [
+        "1 mark: a resultant force / unbalanced force"
+      ],
+      "explanation": "Newton's First Law: velocity only changes if there is a resultant force."
+    },
+    {
+      "id": "p5-newtons-first-law-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car travels round a roundabout at a constant speed of 10 m/s. Explain why there must be a resultant force on the car.",
+      "acceptedAnswers": [
+        "direction changes",
+        "velocity changes",
+        "resultant force needed to change velocity"
+      ],
+      "markScheme": [
+        "1 mark: the direction of motion changes, so the velocity changes",
+        "1 mark: a change in velocity requires a resultant force (Newton's First Law)"
+      ],
+      "explanation": "Constant speed does not mean constant velocity; a change of direction needs a resultant force."
+    },
+    {
+      "id": "p5-newtons-first-law-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A cyclist stops pedalling on a flat road. Explain why she slows down.",
+      "acceptedAnswers": [
+        "friction",
+        "air resistance",
+        "resultant force backwards",
+        "opposite to motion"
+      ],
+      "markScheme": [
+        "1 mark: friction / air resistance still act (no forward force)",
+        "1 mark: so there is a resultant force opposite to the motion, which causes deceleration"
+      ],
+      "explanation": "Without the forward force, the resistive forces are unbalanced."
+    },
+    {
+      "id": "p5-newtons-first-law-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A lift is moving upwards at a constant speed. Describe the forces acting on the lift and explain how they are related.",
+      "acceptedAnswers": [
+        "weight downwards",
+        "tension upwards",
+        "equal",
+        "resultant force zero",
+        "constant velocity"
+      ],
+      "markScheme": [
+        "1 mark: weight acts downwards and tension in the cable acts upwards",
+        "1 mark: the lift moves at constant velocity",
+        "1 mark: so the resultant force is zero and tension = weight"
+      ],
+      "explanation": "Moving at a constant velocity upwards needs no resultant force, only balanced forces."
+    },
+    {
+      "id": "p5-newtons-first-law-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Higher) Use the idea of inertia to explain why passengers in a car need seat belts.",
+      "acceptedAnswers": [
+        "inertia",
+        "continue moving forward",
+        "when car stops suddenly",
+        "seat belt provides force"
+      ],
+      "markScheme": [
+        "1 mark: in a crash or sudden stop, the car slows down quickly",
+        "1 mark: because of inertia, passengers tend to continue moving forwards at the original speed",
+        "1 mark: the seat belt provides the force needed to slow them down with the car (stopping them hitting the windscreen)"
+      ],
+      "explanation": "Inertia is the tendency to continue in uniform motion; a force is needed to change the passenger's velocity."
+    },
+    {
+      "id": "p5-newtons-first-law-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A shopping trolley is pushed at a constant velocity. State the resultant force on the trolley.",
+      "acceptedAnswers": [
+        "zero",
+        "0 N",
+        "0"
+      ],
+      "markScheme": [
+        "1 mark: zero / 0 N"
+      ],
+      "explanation": "Constant velocity means the forces are balanced (Newton's First Law)."
+    },
+    {
+      "id": "p5-newtons-first-law-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how the forces on a car change as it starts from rest, speeds up and then travels at a steady speed along a straight road. Use Newton's First Law in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "At rest, the resultant force is zero (for example the brakes are on or no driving force), so it stays at rest",
+        "To start moving, the driving force must be larger than the resistive forces, giving a forward resultant force",
+        "The car accelerates while there is a forward resultant force",
+        "As speed increases, air resistance increases",
+        "Eventually driving force = resistive forces; resultant force is zero",
+        "The car then travels at a constant velocity (Newton's First Law)",
+        "Level 2 (3 to 4 marks): clear sequence with correct force comparisons at each stage linked to Newton's First Law",
+        "Level 1 (1 to 2 marks): some correct statements about forces or motion",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "The key link is: resultant force ≠ 0 gives a change in velocity; resultant force = 0 gives constant velocity."
+    },
+    {
+      "id": "p5-newtons-first-law-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student says: \"If there are no forces on a moving object, it will slow down and stop. To keep moving, it needs a forward force bigger than the backward forces.\"\nEvaluate the student's statement using Newton's First Law.",
+      "markScheme": [
+        "Indicative content:",
+        "The statement is incorrect",
+        "Newton's First Law: with zero resultant force, a moving object keeps moving at the same speed and direction",
+        "Objects on Earth slow down because friction and air resistance act, giving a backward resultant force",
+        "To keep moving at constant speed the forward force must EQUAL (not exceed) the backward forces",
+        "A forward force bigger than the backward forces would make the object accelerate",
+        "Example: a spacecraft in deep space keeps moving with engines off",
+        "Level 2 (3 to 4 marks): both parts of the statement evaluated correctly with reasoning",
+        "Level 1 (1 to 2 marks): identifies one error",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "A common misconception is that motion needs a force; in fact a change of motion needs a resultant force."
+    },
+    {
+      "id": "p5-newtons-first-law-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A bus carrying standing passengers travels along a straight road. The driver accelerates away from a bus stop, travels at a constant speed, and then brakes suddenly at a junction.\nUsing Newton's First Law and (Higher) the idea of inertia, explain the forces on the bus and what the standing passengers experience during each stage.",
+      "markScheme": [
+        "Indicative content:",
+        "Accelerating: driving force greater than resistive forces; forward resultant force; velocity increases",
+        "Passengers tend to stay at rest (inertia), so they seem to fall backwards until the floor/handrail pushes them forwards",
+        "Constant speed: driving force = resistive forces; resultant force zero; velocity constant (First Law)",
+        "Passengers also move at constant velocity and need no resultant force, so they can stand easily",
+        "Braking: braking force gives a large backward resultant force; the bus decelerates",
+        "Passengers tend to continue moving forwards at the original speed (inertia), so they lurch forwards",
+        "A force from handrails or seats is needed to slow the passengers down",
+        "Inertia: tendency of objects to continue in their state of rest or uniform motion",
+        "Level 3 (5 to 6 marks): all three stages explained with correct force comparisons and inertia applied to passengers",
+        "Level 2 (3 to 4 marks): at least two stages explained correctly, some reference to inertia or First Law",
+        "Level 1 (1 to 2 marks): simple statements about the motion or forces",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "This links forces on the bus (First Law) with the inertia of passengers (Higher)."
+    }
+  ]
+}

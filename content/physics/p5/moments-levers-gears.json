@@ -1,0 +1,766 @@
+{
+  "id": "p5-moments-levers-gears",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "moments-levers-gears",
+  "specRef": "4.5.4",
+  "title": "Moments, levers and gears",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A force, or a system of forces, can cause an object to rotate about a pivot. The turning effect of a force is called its moment: moment = force × perpendicular distance from the pivot to the line of action of the force (M = Fd).",
+    "explanation": [
+      "Forces do not only make objects move in straight lines: they can also make them turn. Opening a door, undoing a nut with a spanner, pushing down on a bicycle pedal and sitting on a seesaw are all examples where a force causes rotation about a fixed point called the pivot (or fulcrum). The turning effect of a force is called the moment of the force.",
+      "The size of a moment is given by M = F d, where M is the moment in newton-metres (N m), F is the force in newtons (N) and d is the perpendicular distance from the pivot to the line of action of the force, in metres (m). This means you get a larger turning effect by using a larger force or by applying the force further from the pivot. That is why door handles are placed far from the hinges and why a long spanner makes a tight nut easier to undo. The force has the biggest effect when it acts at right angles to the spanner or door.",
+      "If an object is balanced (not turning), the total clockwise moment about the pivot is equal to the total anticlockwise moment about the same pivot. This is the principle of moments. On a balanced seesaw, a 300 N child sitting 2.0 m from the pivot (anticlockwise moment 600 N m) is balanced by a 400 N child 1.5 m on the other side (clockwise moment 600 N m). You can use the principle to calculate an unknown force or an unknown distance: set clockwise moments equal to anticlockwise moments and rearrange.",
+      "A simple lever transmits the rotational effect of a force. A small effort applied a long way from the pivot produces the same moment as a large force close to the pivot, so a lever such as a crowbar, wheelbarrow or pair of pliers lets a small force move a large load. The trade-off is that the effort must move through a larger distance than the load.",
+      "Gears are toothed wheels that mesh together, so that one gear turning makes the other turn. Meshing gears turn in opposite directions. When a small gear drives a larger gear, the larger gear turns more slowly but with a larger moment, because the force between the teeth acts at a larger distance from its axle. When a large gear drives a small one, the small gear turns faster with a smaller moment. Gear systems in bicycles, cars and clocks use this to change speed and turning effect."
+    ],
+    "keyFacts": [
+      "The turning effect of a force is called its moment.",
+      "Moment (N m) = force (N) × perpendicular distance from pivot (m): M = Fd.",
+      "d is the perpendicular distance from the pivot to the line of action of the force.",
+      "Larger force or larger distance gives a larger moment.",
+      "For a balanced object: total clockwise moment = total anticlockwise moment.",
+      "Levers let a small effort far from the pivot move a large load near the pivot.",
+      "Gears and levers transmit the rotational effects of forces.",
+      "Meshing gears rotate in opposite directions.",
+      "Small gear driving a large gear: large gear turns slower with a larger moment.",
+      "Convert cm to m before calculating moments in N m."
+    ],
+    "keyTerms": [
+      {
+        "term": "Moment",
+        "definition": "The turning effect of a force about a pivot; M = Fd, measured in N m."
+      },
+      {
+        "term": "Pivot",
+        "definition": "The fixed point about which an object turns (also called the fulcrum)."
+      },
+      {
+        "term": "Perpendicular distance",
+        "definition": "The shortest distance from the pivot to the line of action of the force, at right angles to the force."
+      },
+      {
+        "term": "Principle of moments",
+        "definition": "For a balanced object, the total clockwise moment equals the total anticlockwise moment about any pivot."
+      },
+      {
+        "term": "Lever",
+        "definition": "A rigid bar that turns about a pivot, used to transmit the turning effect of a force (often to move a large load with a small effort)."
+      },
+      {
+        "term": "Gear",
+        "definition": "A toothed wheel that meshes with another to transmit rotation and turning effect."
+      },
+      {
+        "term": "Line of action",
+        "definition": "The line along which a force acts."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Moment of a force",
+        "formula": "moment of a force = force × distance (perpendicular distance from the pivot to the line of action of the force)",
+        "symbols": "M = F d",
+        "units": "M in newton-metres (N m), F in newtons (N), d in metres (m)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Moment with distance in centimetres",
+        "question": "A mechanic applies a force of 60 N at right angles to a spanner, 40 cm from the centre of a nut. Calculate the moment.",
+        "steps": [
+          "Convert the distance: 40 cm ÷ 100 = 0.40 m.",
+          "M = F d = 60 × 0.40.",
+          "M = 24 N m."
+        ],
+        "answer": "24 N m"
+      },
+      {
+        "title": "Balanced seesaw: finding a force",
+        "question": "A child of weight 300 N sits 2.0 m from the pivot of a seesaw. Where the seesaw balances, a second child sits 1.5 m from the pivot on the other side. Calculate the weight of the second child.",
+        "steps": [
+          "Anticlockwise moment = 300 × 2.0 = 600 N m.",
+          "Balanced, so clockwise moment = 600 N m.",
+          "Rearrange M = F d: F = M ÷ d = 600 ÷ 1.5.",
+          "F = 400 N."
+        ],
+        "answer": "400 N"
+      },
+      {
+        "title": "Finding a distance on a metre rule",
+        "question": "A metre rule is balanced at its centre (50 cm mark). A 2.0 N weight hangs at the 10 cm mark. Where must a 5.0 N weight hang to balance it?",
+        "steps": [
+          "Distance of 2.0 N from pivot = 50 − 10 = 40 cm = 0.40 m.",
+          "Anticlockwise moment = 2.0 × 0.40 = 0.80 N m.",
+          "Clockwise moment must be 0.80 N m, so d = 0.80 ÷ 5.0 = 0.16 m = 16 cm.",
+          "Position = 50 + 16 = 66 cm mark."
+        ],
+        "answer": "16 cm from the pivot, at the 66 cm mark"
+      },
+      {
+        "title": "Wheelbarrow as a lever",
+        "question": "A wheelbarrow carries a load of 600 N acting 0.40 m from the wheel axle (the pivot). The handles are 1.5 m from the axle. Calculate the upward force needed at the handles to just lift the load.",
+        "steps": [
+          "Moment of load about axle = 600 × 0.40 = 240 N m.",
+          "For balance, effort moment = 240 N m.",
+          "Effort = 240 ÷ 1.5 = 160 N."
+        ],
+        "answer": "160 N (much less than the 600 N load)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "The principle of moments on a balanced beam",
+        "caption": "The 300 N force 2.0 m to the left of the pivot gives an anticlockwise moment of 600 N m. The 400 N force 1.5 m to the right gives a clockwise moment of 600 N m, so the beam balances.",
+        "svg": "<svg viewBox='0 0 420 250' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='104' width='340' height='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><path d='M210 114 L194 144 L226 144 Z' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='50' y1='114' x2='50' y2='150'/><line x1='330' y1='114' x2='330' y2='165'/></g><g fill='currentColor'><path d='M50 160 L44 148 L56 148 Z'/><path d='M330 175 L324 163 L336 163 Z'/></g><g stroke='currentColor'><line x1='50' y1='80' x2='210' y2='80'/><line x1='210' y1='80' x2='330' y2='80'/><line x1='50' y1='74' x2='50' y2='98'/><line x1='210' y1='74' x2='210' y2='98'/><line x1='330' y1='74' x2='330' y2='98'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='130' y='72'>2.0 m</text><text x='270' y='72'>1.5 m</text><text x='50' y='178'>300 N</text><text x='330' y='192'>400 N</text><text x='210' y='160'>pivot</text><text x='210' y='30'>Balanced: anticlockwise moment = clockwise moment</text><text x='110' y='218'>anticlockwise moment</text><text x='110' y='234'>300 × 2.0 = 600 N m</text><text x='310' y='218'>clockwise moment</text><text x='310' y='234'>400 × 1.5 = 600 N m</text></g></svg>"
+      },
+      {
+        "title": "The moment of a force on a spanner",
+        "caption": "The moment is the force multiplied by the perpendicular distance from the pivot (the centre of the nut) to the line of action of the force.",
+        "svg": "<svg viewBox='0 0 420 230' xmlns='http://www.w3.org/2000/svg'><polygon points='80,105 95,113.7 95,131 80,139.7 65,131 65,113.7' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><circle cx='80' cy='122' r='3' fill='currentColor'/><rect x='100' y='114' width='240' height='16' rx='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><path d='M60 100 Q55 122 60 144 L100 130 L100 114 Z' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='320' y1='60' x2='320' y2='102' stroke='currentColor' stroke-width='3'/><path d='M320 114 L314 102 L326 102 Z' fill='currentColor'/><line x1='320' y1='130' x2='320' y2='190' stroke='currentColor' stroke-dasharray='4 3'/><g stroke='currentColor'><line x1='80' y1='175' x2='320' y2='175'/><line x1='80' y1='145' x2='80' y2='190'/></g><path d='M80 175 L90 170 L90 180 Z' fill='currentColor'/><path d='M320 175 L310 170 L310 180 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='330' y='70'>force F</text><text x='330' y='85'>(at right angles</text><text x='330' y='100'>to the spanner)</text><text x='25' y='90'>pivot (centre of nut)</text><text x='130' y='195'>perpendicular distance d</text><text x='130' y='210'>from pivot to line of action</text><text x='150' y='40'>Moment M = F × d (clockwise here)</text></g></svg>"
+      },
+      {
+        "title": "Gears transmit rotation",
+        "caption": "A small gear (10 teeth) drives a large gear (20 teeth). The gears turn in opposite directions; the large gear turns more slowly but with a larger moment.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><circle cx='120' cy='120' r='36' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><circle cx='120' cy='120' r='40' fill='none' stroke='currentColor' stroke-width='8' stroke-dasharray='12.57 12.57'/><circle cx='240' cy='120' r='76' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='240' cy='120' r='80' fill='none' stroke='currentColor' stroke-width='8' stroke-dasharray='12.57 12.57'/><circle cx='120' cy='120' r='4' fill='currentColor'/><circle cx='240' cy='120' r='4' fill='currentColor'/><path d='M84.6 77.9 A55 55 0 0 1 155.4 77.9' fill='none' stroke='currentColor' stroke-width='2'/><path d='M161.5 83 L152.2 81.7 L158.6 74.1 Z' fill='currentColor'/><path d='M301.1 47.2 A95 95 0 0 0 178.9 47.2' fill='none' stroke='currentColor' stroke-width='2'/><path d='M172.8 52.3 L175.7 43.4 L182.1 51 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='120' y='124'>driver</text><text x='240' y='124'>driven gear</text><text x='60' y='40'>clockwise</text><text x='350' y='35'>anticlockwise</text><text x='100' y='222'>small gear (10 teeth):</text><text x='100' y='238'>turns faster, smaller moment</text><text x='300' y='222'>large gear (20 teeth):</text><text x='300' y='238'>turns slower, larger moment</text><text x='210' y='256'>Meshing gears turn in opposite directions.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use the distance along the spanner even when the force is at an angle.",
+        "right": "In fact d must be the perpendicular distance from the pivot to the line of action of the force; a force at an angle has a smaller perpendicular distance and so a smaller moment."
+      },
+      {
+        "wrong": "Students often think that a balanced seesaw needs equal weights on each side.",
+        "right": "In fact it needs equal moments; a heavier person can balance a lighter one by sitting closer to the pivot."
+      },
+      {
+        "wrong": "Students often think a lever reduces the work needed.",
+        "right": "In fact a lever reduces the force needed, but the effort moves through a larger distance."
+      },
+      {
+        "wrong": "Students often think meshing gears turn in the same direction.",
+        "right": "In fact two meshing gears always turn in opposite directions."
+      },
+      {
+        "wrong": "Students often give moments in N/m or J.",
+        "right": "In fact moments are measured in newton-metres, N m."
+      }
+    ],
+    "realWorld": [
+      "Door handles are fitted on the side furthest from the hinges so a small push gives a large moment.",
+      "Wheelbarrows, crowbars, pliers, scissors and bottle openers are levers that let a small effort overcome a large load.",
+      "Tower cranes use a concrete counterweight on the short arm so that the moments balance when lifting heavy loads.",
+      "Bicycle gears let a cyclist change the moment on the back wheel: low gears make climbing hills easier.",
+      "Mechanics use torque wrenches to tighten wheel nuts to a precise moment."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "The whole of this subtopic (moments, levers and gears, 4.5.4) is in separate Physics (8463) only and is not assessed in Combined Science Trilogy.",
+      "Recall and apply M = Fd, including calculating a force or a distance for a balanced object using the principle of moments.",
+      "Explain how levers and gears transmit the rotational effects of forces."
+    ],
+    "examTips": [
+      "M = Fd must be recalled; it is not on the equation sheet.",
+      "Always convert distances in cm to m if the answer is needed in N m.",
+      "In balance questions write: total clockwise moment = total anticlockwise moment, then substitute; this earns method marks.",
+      "When several forces act on one side, calculate each moment separately and add them.",
+      "For gear questions, mention direction (opposite), speed (larger gear slower) and moment (larger gear bigger moment).",
+      "Use the perpendicular distance from the pivot to the line of action of the force, not just any distance."
+    ],
+    "summary": [
+      "The turning effect of a force is its moment: M = Fd.",
+      "d is the perpendicular distance from the pivot to the line of action.",
+      "Balanced object: total clockwise moment = total anticlockwise moment.",
+      "Levers let a small force far from the pivot move a large load.",
+      "Gears transmit rotation; meshing gears turn in opposite directions.",
+      "A large driven gear turns slower with a larger moment."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a moment?",
+      "back": "The turning effect of a force."
+    },
+    {
+      "front": "Equation for a moment?",
+      "back": "moment = force × perpendicular distance from pivot (M = Fd)."
+    },
+    {
+      "front": "Unit of moment?",
+      "back": "Newton-metre (N m)."
+    },
+    {
+      "front": "What distance is used in M = Fd?",
+      "back": "The perpendicular distance from the pivot to the line of action of the force."
+    },
+    {
+      "front": "State the principle of moments.",
+      "back": "For a balanced object, total clockwise moment = total anticlockwise moment about the pivot."
+    },
+    {
+      "front": "How can you increase a moment?",
+      "back": "Use a larger force or apply it further from the pivot (at right angles)."
+    },
+    {
+      "front": "Why is a long spanner useful?",
+      "back": "Larger distance gives a larger moment for the same force, so less force is needed."
+    },
+    {
+      "front": "How does a lever help lift a heavy load?",
+      "back": "A small effort far from the pivot gives the same moment as the large load close to the pivot."
+    },
+    {
+      "front": "Which way do meshing gears turn?",
+      "back": "In opposite directions."
+    },
+    {
+      "front": "Small gear drives large gear: what happens?",
+      "back": "Large gear turns slower with a larger moment."
+    },
+    {
+      "front": "Large gear drives small gear: what happens?",
+      "back": "Small gear turns faster with a smaller moment."
+    },
+    {
+      "front": "Moment of 50 N at 0.3 m?",
+      "back": "15 N m."
+    },
+    {
+      "front": "Give two examples of forces causing rotation.",
+      "back": "Any two: opening a door, spanner on a nut, seesaw, pedalling a bike, wheelbarrow, scissors."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-moments-levers-gears-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the turning effect of a force called?",
+      "options": [
+        "Its weight",
+        "Its momentum",
+        "Its moment",
+        "Its pressure"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Its moment"
+      ],
+      "explanation": "The turning effect of a force about a pivot is its moment. Weight, momentum and pressure are different quantities."
+    },
+    {
+      "id": "p5-moments-levers-gears-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of a moment?",
+      "options": [
+        "N m",
+        "N/m",
+        "J/s",
+        "N/m²"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: N m"
+      ],
+      "explanation": "M = F × d, so the unit is newtons × metres: N m. N/m is spring constant and N/m² is pressure."
+    },
+    {
+      "id": "p5-moments-levers-gears-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation is used to calculate the moment of a force?",
+      "options": [
+        "M = F ÷ d",
+        "M = F + d",
+        "M = d ÷ F",
+        "M = F × d"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: M = F × d"
+      ],
+      "explanation": "Moment = force × perpendicular distance from the pivot."
+    },
+    {
+      "id": "p5-moments-levers-gears-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In the equation M = Fd, what is d?",
+      "options": [
+        "The length of the object",
+        "The perpendicular distance from the pivot to the line of action of the force",
+        "The distance the object moves",
+        "The distance from the pivot to the centre of mass"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The perpendicular distance from the pivot to the line of action of the force"
+      ],
+      "explanation": "d is the perpendicular distance between the pivot and the line of action of the force. The distance moved is used for work done, not moments."
+    },
+    {
+      "id": "p5-moments-levers-gears-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A plank is balanced on a pivot. Which statement must be true?",
+      "options": [
+        "The total clockwise moment equals the total anticlockwise moment.",
+        "The forces on each side are equal.",
+        "The distances on each side are equal.",
+        "There are no forces on the plank."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The total clockwise moment equals the total anticlockwise moment."
+      ],
+      "explanation": "For balance, the moments are equal. Unequal forces can balance if their distances from the pivot are different."
+    },
+    {
+      "id": "p5-moments-levers-gears-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why are door handles placed as far as possible from the hinges?",
+      "options": [
+        "To make the door lighter",
+        "To reduce the moment on the door",
+        "So a smaller force gives the moment needed to open the door",
+        "So the door turns in the opposite direction"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: So a smaller force gives the moment needed to open the door"
+      ],
+      "explanation": "Moment = force × distance. A larger distance means a smaller force is needed to produce the same turning effect."
+    },
+    {
+      "id": "p5-moments-levers-gears-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A small gear drives a large gear. Compared with the small gear, the large gear turns:",
+      "options": [
+        "faster, with a smaller moment, in the same direction",
+        "slower, with a larger moment, in the opposite direction",
+        "faster, with a larger moment, in the opposite direction",
+        "slower, with a smaller moment, in the same direction"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: slower, with a larger moment, in the opposite direction"
+      ],
+      "explanation": "The large gear turns more slowly but the force between the teeth acts further from its axle, giving a larger moment. Meshing gears turn in opposite directions."
+    },
+    {
+      "id": "p5-moments-levers-gears-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A force is applied to the end of a spanner at an angle instead of at right angles. What happens to the moment, compared with the same force at right angles?",
+      "options": [
+        "It is larger, because the force acts further away",
+        "It is the same, because the force is the same",
+        "It is zero",
+        "It is smaller, because the perpendicular distance to the line of action is smaller"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It is smaller, because the perpendicular distance to the line of action is smaller"
+      ],
+      "explanation": "The moment depends on the perpendicular distance to the line of action of the force. At an angle this distance is shorter, so the moment is smaller."
+    },
+    {
+      "id": "p5-moments-levers-gears-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Two gears are meshed together. The first gear turns clockwise. In which direction does the second gear turn?",
+      "options": [
+        "Clockwise",
+        "It does not turn",
+        "Anticlockwise",
+        "It depends on the number of teeth"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Anticlockwise"
+      ],
+      "explanation": "The teeth push each other in opposite senses, so meshing gears always turn in opposite directions, whatever their sizes."
+    },
+    {
+      "id": "p5-moments-levers-gears-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A metre rule is pivoted at its centre. A 4.0 N weight hangs 30 cm to the left of the pivot. Which of these, placed to the right of the pivot, would balance the rule?",
+      "options": [
+        "4.0 N at 20 cm",
+        "6.0 N at 20 cm",
+        "3.0 N at 30 cm",
+        "2.0 N at 40 cm"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 6.0 N at 20 cm"
+      ],
+      "explanation": "Anticlockwise moment = 4.0 × 30 = 120 N cm. Only 6.0 × 20 = 120 N cm matches. The others give 80, 90 and 80 N cm."
+    },
+    {
+      "id": "p5-moments-levers-gears-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A builder uses a long crowbar to lift a heavy paving slab. Where should the pivot and the effort be placed to lift the slab with the smallest effort?",
+      "options": [
+        "Pivot close to the slab, effort far from the pivot",
+        "Pivot far from the slab, effort close to the pivot",
+        "Pivot in the middle, effort at the end",
+        "Pivot and effort both close to the slab"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Pivot close to the slab, effort far from the pivot"
+      ],
+      "explanation": "The load acts close to the pivot, giving a small moment. Applying the effort a long way from the pivot means a small force can produce an equal moment."
+    },
+    {
+      "id": "p5-moments-levers-gears-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A force of 20 N acts at a perpendicular distance of 0.5 m from a pivot. Calculate the moment.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "N m",
+      "markScheme": [
+        "1 mark: M = 20 × 0.5",
+        "1 mark: 10 N m"
+      ],
+      "explanation": "M = F d = 20 × 0.5 = 10 N m."
+    },
+    {
+      "id": "p5-moments-levers-gears-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A mechanic pushes at right angles on a spanner with a force of 60 N, 40 cm from the centre of the nut. Calculate the moment.",
+      "numericAnswer": 24,
+      "tolerance": 0.02,
+      "unit": "N m",
+      "markScheme": [
+        "1 mark: 40 cm = 0.40 m",
+        "1 mark: M = 60 × 0.40",
+        "1 mark: 24 N m"
+      ],
+      "explanation": "Convert to metres: 0.40 m. M = 60 × 0.40 = 24 N m. Using 40 gives 2400, which would be in N cm, not N m."
+    },
+    {
+      "id": "p5-moments-levers-gears-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A child of weight 300 N sits 2.0 m from the pivot of a balanced seesaw. A second child sits 1.5 m from the pivot on the other side. Calculate the weight of the second child.",
+      "numericAnswer": 400,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: anticlockwise moment = 300 × 2.0 = 600 N m",
+        "1 mark: clockwise moment = anticlockwise moment, so F × 1.5 = 600",
+        "1 mark: F = 400 N"
+      ],
+      "explanation": "Balanced, so moments are equal: F = 600 ÷ 1.5 = 400 N. The heavier child sits closer to the pivot."
+    },
+    {
+      "id": "p5-moments-levers-gears-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A force of 45 N produces a moment of 18 N m. Calculate the perpendicular distance from the pivot to the line of action of the force.",
+      "numericAnswer": 0.4,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: d = M ÷ F = 18 ÷ 45",
+        "1 mark: 0.4 m"
+      ],
+      "explanation": "Rearrange M = F d: d = 18 ÷ 45 = 0.4 m."
+    },
+    {
+      "id": "p5-moments-levers-gears-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A wheelbarrow carries a load of 600 N acting 0.40 m from the wheel axle. The handles are lifted 1.5 m from the axle. Calculate the upward force needed at the handles to just lift the load.",
+      "numericAnswer": 160,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: moment of load = 600 × 0.40 = 240 N m",
+        "1 mark: F × 1.5 = 240",
+        "1 mark: F = 160 N"
+      ],
+      "explanation": "The wheel axle is the pivot. Effort × 1.5 = 600 × 0.40, so effort = 240 ÷ 1.5 = 160 N."
+    },
+    {
+      "id": "p5-moments-levers-gears-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A child of mass 30 kg sits 1.6 m from the pivot of a seesaw. Another child sits 1.2 m from the pivot on the other side, and the seesaw balances. Calculate the weight of the second child. (g = 9.8 N/kg)",
+      "numericAnswer": 392,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: weight of first child = 30 × 9.8 = 294 N",
+        "1 mark: moment = 294 × 1.6 = 470.4 N m",
+        "1 mark: W × 1.2 = 470.4",
+        "1 mark: W = 392 N"
+      ],
+      "explanation": "First find the weight of the first child (294 N). Equal moments give W = 294 × 1.6 ÷ 1.2 = 392 N (a 40 kg child)."
+    },
+    {
+      "id": "p5-moments-levers-gears-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A metre rule is balanced at its centre. A 2.0 N weight hangs 40 cm to the left of the pivot. Calculate the distance from the pivot, in cm, at which a 5.0 N weight must hang on the right to balance the rule.",
+      "numericAnswer": 16,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: anticlockwise moment = 2.0 × 0.40 = 0.80 N m",
+        "1 mark: d = 0.80 ÷ 5.0 = 0.16 m",
+        "1 mark: 16 cm"
+      ],
+      "explanation": "Equal moments: 5.0 × d = 2.0 × 0.40, so d = 0.16 m = 16 cm."
+    },
+    {
+      "id": "p5-moments-levers-gears-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A beam is pivoted at its centre. On the left, a 200 N force acts 1.5 m from the pivot and a 100 N force acts 0.5 m from the pivot. Calculate the force needed 2.0 m to the right of the pivot to balance the beam.",
+      "numericAnswer": 175,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 200 × 1.5 = 300 N m",
+        "1 mark: 100 × 0.5 = 50 N m; total anticlockwise = 350 N m",
+        "1 mark: F × 2.0 = 350",
+        "1 mark: F = 175 N"
+      ],
+      "explanation": "Add the moments on the left: 300 + 50 = 350 N m. For balance, F = 350 ÷ 2.0 = 175 N."
+    },
+    {
+      "id": "p5-moments-levers-gears-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two examples of a force causing an object to rotate.",
+      "acceptedAnswers": [
+        "opening a door",
+        "spanner",
+        "seesaw",
+        "pedal",
+        "wheelbarrow",
+        "scissors",
+        "steering wheel",
+        "tap"
+      ],
+      "markScheme": [
+        "1 mark each for any two valid examples: e.g. opening a door, turning a nut with a spanner, a seesaw, pushing a bike pedal, turning a tap or steering wheel"
+      ],
+      "explanation": "In each example a force acts at a distance from a pivot, producing a moment."
+    },
+    {
+      "id": "p5-moments-levers-gears-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the principle of moments.",
+      "acceptedAnswers": [
+        "clockwise moment equals anticlockwise moment",
+        "balanced"
+      ],
+      "markScheme": [
+        "1 mark: for a balanced object, the total clockwise moment about a pivot equals the total anticlockwise moment about that pivot"
+      ],
+      "explanation": "This is the condition for an object not to turn."
+    },
+    {
+      "id": "p5-moments-levers-gears-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why it is easier to undo a tight nut with a long spanner than with a short one.",
+      "acceptedAnswers": [
+        "greater distance",
+        "larger moment",
+        "less force needed",
+        "M = Fd"
+      ],
+      "markScheme": [
+        "1 mark: the force acts at a greater (perpendicular) distance from the pivot",
+        "1 mark: so a larger moment is produced for the same force / less force is needed for the same moment"
+      ],
+      "explanation": "M = Fd. Increasing d increases the moment, so the same force has a bigger turning effect."
+    },
+    {
+      "id": "p5-moments-levers-gears-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a lever, such as a crowbar, allows a small force to lift a large load.",
+      "acceptedAnswers": [
+        "effort far from pivot",
+        "load close to pivot",
+        "equal moments",
+        "small force large distance"
+      ],
+      "markScheme": [
+        "1 mark: the effort acts a long distance from the pivot and the load acts close to the pivot",
+        "1 mark: so a small effort produces a moment equal to the moment of the large load"
+      ],
+      "explanation": "Moments, not forces, must balance. A large distance multiplies the effect of the small force."
+    },
+    {
+      "id": "p5-moments-levers-gears-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Explain why two meshing gears turn in opposite directions.",
+      "acceptedAnswers": [
+        "teeth push",
+        "opposite direction",
+        "contact point moves same way"
+      ],
+      "markScheme": [
+        "1 mark: the teeth of one gear push the teeth of the other in the same direction at the point of contact, which turns the second gear the opposite way about its axle"
+      ],
+      "explanation": "At the contact point both gears' teeth move the same way, so the gears rotate in opposite senses."
+    },
+    {
+      "id": "p5-moments-levers-gears-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A small gear with 10 teeth drives a large gear with 30 teeth. Explain how the speed of rotation and the moment of the large gear compare with those of the small gear.",
+      "acceptedAnswers": [
+        "slower",
+        "larger moment",
+        "force acts further from axle",
+        "larger radius",
+        "opposite direction"
+      ],
+      "markScheme": [
+        "1 mark: the large gear turns more slowly (one turn for every three turns of the small gear)",
+        "1 mark: the force between the teeth acts at a larger distance from the axle of the large gear",
+        "1 mark: so the moment of the large gear is larger (and it turns in the opposite direction)"
+      ],
+      "explanation": "The same force is passed between the teeth, but on the larger gear it acts at a greater distance from the axle, giving a larger moment. The large gear has more teeth so it turns more slowly."
+    },
+    {
+      "id": "p5-moments-levers-gears-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Two children balance a seesaw. One child then moves further from the pivot. Explain why the seesaw tilts.",
+      "acceptedAnswers": [
+        "moment increases",
+        "distance increases",
+        "moments no longer equal",
+        "unbalanced",
+        "resultant moment"
+      ],
+      "markScheme": [
+        "1 mark: that child's moment increases because the distance from the pivot increases (M = Fd, weight unchanged)",
+        "1 mark: the clockwise and anticlockwise moments are no longer equal",
+        "1 mark: so there is a resultant moment and the seesaw turns towards that child's side"
+      ],
+      "explanation": "Moving away from the pivot increases the moment of the same weight. The moments become unbalanced, so the seesaw rotates."
+    },
+    {
+      "id": "p5-moments-levers-gears-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student has a metre rule, a pivot, a known 1.0 N weight and a stone of unknown weight. Describe how she could use the principle of moments to find the weight of the stone.",
+      "markScheme": [
+        "Indicative content:",
+        "Balance the metre rule on the pivot at its centre (50 cm mark) so its own weight has no moment.",
+        "Hang the stone at a fixed distance on one side, e.g. 10 cm mark (40 cm from pivot).",
+        "Hang the 1.0 N weight on the other side and move it until the rule balances.",
+        "Measure the distances of each from the pivot in metres.",
+        "Use clockwise moment = anticlockwise moment: W(stone) × d(stone) = 1.0 × d(weight).",
+        "Calculate W(stone) = 1.0 × d(weight) ÷ d(stone).",
+        "Repeat for different positions and take a mean.",
+        "Level 2 (3 to 4 marks): clear method including balancing, measuring distances and the correct calculation using the principle of moments.",
+        "Level 1 (1 to 2 marks): some relevant steps, e.g. balance the rule or measure distances, without a full calculation."
+      ],
+      "explanation": "When the rule is balanced, the moments on each side are equal, so the unknown weight can be found from the known weight and the measured distances."
+    },
+    {
+      "id": "p5-moments-levers-gears-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how levers and gears are used to transmit the rotational effects of forces. Use examples and refer to the equation for the moment of a force in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "A moment is the turning effect of a force: M = Fd, d = perpendicular distance from pivot to line of action.",
+        "Levers: a rigid bar turning about a pivot.",
+        "A small effort applied far from the pivot gives the same moment as a large load close to the pivot.",
+        "Examples: crowbar, wheelbarrow, scissors, pliers, spanner, bottle opener.",
+        "So levers act as force multipliers; the effort moves a greater distance than the load.",
+        "Gears: toothed wheels that mesh; one gear turning turns the other.",
+        "Meshing gears turn in opposite directions.",
+        "Force between teeth is transmitted; on a larger gear it acts at a larger distance from the axle, so the moment is larger.",
+        "A small gear driving a large gear: the output turns slower with a larger moment (e.g. low gear on a bike, car gearbox).",
+        "A large gear driving a small gear: output turns faster with a smaller moment (e.g. a clock mechanism, high gear).",
+        "Level 3 (5 to 6 marks): clear explanation of both levers and gears linked to M = Fd, with correct examples and comparisons of speed/moment.",
+        "Level 2 (3 to 4 marks): explanation of levers or gears with some correct links to moments; some examples.",
+        "Level 1 (1 to 2 marks): simple statements, e.g. levers make lifting easier, gears turn each other."
+      ],
+      "explanation": "Both devices use M = Fd. Levers increase the distance from the pivot so a small force gives a big moment. Gears pass a force between teeth to a wheel of different radius, changing the moment and the speed of rotation."
+    }
+  ]
+}

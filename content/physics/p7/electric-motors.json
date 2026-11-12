@@ -1,0 +1,675 @@
+{
+  "id": "p7-electric-motors",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "electric-motors",
+  "specRef": "4.7.2.3",
+  "title": "Electric motors",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "A coil of wire carrying a current in a magnetic field tends to rotate. This is the basis of an electric motor: the motor effect produces forces in opposite directions on the two sides of the coil, which turn it.",
+    "explanation": [
+      "An electric motor uses the motor effect. A rectangular coil of wire sits between the poles of a magnet, with its two long sides at right angles to the magnetic field. When a current flows in the coil, it flows in opposite directions along the two sides. By Fleming's left-hand rule, one side experiences a force in one direction (for example upwards) and the other side experiences a force in the opposite direction (downwards). These two forces produce a turning effect, so the coil rotates about its axle.",
+      "If the coil were connected directly to a d.c. supply, it would only turn until it was at right angles to the field (vertical), then rock back and forth and stop. To keep the coil turning in the same direction, a d.c. motor uses a split-ring commutator. This is a ring split into two halves, each connected to one end of the coil. Carbon brushes press against the commutator and connect it to the supply. Every half turn, the commutator swaps the connections, reversing the current in the coil. This means the side of the coil on the left always has the force in the same direction, so the coil keeps rotating the same way.",
+      "The speed of rotation, and the turning effect of the motor, can be increased by increasing the current, using a stronger magnet (greater magnetic flux density), or using a coil with more turns of wire. Using more turns gives a larger total force on each side of the coil. The force on each side of a single turn can be calculated with F = B I l, where l is the length of the side inside the field.",
+      "The direction of rotation can be reversed by reversing the direction of the current (swapping the connections to the supply) or by reversing the magnetic field (swapping the poles of the magnet). Reversing both would leave the direction of rotation unchanged.",
+      "Real motors often use several coils at different angles, wound on a soft iron core (the armature), and curved pole pieces. This produces a smoother, larger turning effect. Electric motors are found in a huge range of devices, from fans, drills and food mixers to electric cars and trains, wherever electrical energy needs to be transferred to a kinetic store."
+    ],
+    "keyFacts": [
+      "A current-carrying coil in a magnetic field tends to rotate: this is the basis of an electric motor.",
+      "The current flows in opposite directions in the two sides of the coil, so the forces on them are in opposite directions.",
+      "The opposite forces produce a turning effect (moment) about the axle.",
+      "Fleming's left-hand rule gives the direction of the force on each side.",
+      "A split-ring commutator reverses the current in the coil every half turn, so a d.c. motor keeps turning the same way.",
+      "Brushes make electrical contact with the rotating commutator.",
+      "Speed increases with larger current, stronger magnet or more turns on the coil.",
+      "Reversing the current or the field reverses the direction of rotation.",
+      "Force on each side of a single turn: F = B I l (equation sheet)."
+    ],
+    "keyTerms": [
+      {
+        "term": "Electric motor",
+        "definition": "A device that uses the motor effect to transfer energy electrically to a kinetic store by making a coil rotate."
+      },
+      {
+        "term": "Coil",
+        "definition": "Many turns of insulated wire wound together; in a motor it rotates in the magnetic field."
+      },
+      {
+        "term": "Split-ring commutator",
+        "definition": "A ring split into two halves attached to the coil; it reverses the current in the coil every half turn."
+      },
+      {
+        "term": "Brushes",
+        "definition": "Carbon or metal contacts that press on the rotating commutator to connect the coil to the supply."
+      },
+      {
+        "term": "Armature",
+        "definition": "The rotating part of a motor: the coil wound on a soft iron core."
+      },
+      {
+        "term": "Motor effect",
+        "definition": "The force on a current-carrying conductor in a magnetic field."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Force on a conductor in a magnetic field",
+        "formula": "force = magnetic flux density × current × length",
+        "symbols": "F = B I l",
+        "units": "F in N, B in T, I in A, l in m",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Force on one side of a motor coil",
+        "question": "One side of a single-turn motor coil is 5.0 cm long and lies at right angles to a magnetic field of 0.30 T. The current is 2.0 A. Calculate the force on that side.",
+        "steps": [
+          "Convert: l = 5.0 cm = 0.050 m.",
+          "F = B I l = 0.30 × 2.0 × 0.050.",
+          "F = 0.030 N."
+        ],
+        "answer": "0.030 N (the other side has an equal force in the opposite direction)."
+      },
+      {
+        "title": "Finding the current",
+        "question": "A force of 0.045 N acts on a 6.0 cm side of a coil in a field of 0.25 T. Calculate the current.",
+        "steps": [
+          "Rearrange: I = F ÷ (B l).",
+          "l = 0.060 m, so B l = 0.25 × 0.060 = 0.015.",
+          "I = 0.045 ÷ 0.015 = 3.0 A."
+        ],
+        "answer": "3.0 A"
+      },
+      {
+        "title": "Predicting the direction of rotation",
+        "question": "A coil lies horizontally between a north pole on the left and a south pole on the right. Current flows into the page in the left side of the coil and out of the page in the right side. Which way does the coil turn?",
+        "steps": [
+          "Field points left to right.",
+          "Left side: current into page, Fleming's left-hand rule gives a downward force.",
+          "Right side: current out of page gives an upward force.",
+          "Left side down and right side up means the coil rotates anticlockwise."
+        ],
+        "answer": "Anticlockwise (as viewed)."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A simple d.c. electric motor",
+        "caption": "The coil sits in the field between N and S. Current flows up the left side and down the right side, so the forces on the two sides are in opposite directions (into and out of the page) and the coil turns about a vertical axis. The split-ring commutator reverses the current every half turn.",
+        "svg": "<svg viewBox='0 0 440 330' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='40' width='60' height='130' fill='#fca5a5' fill-opacity='0.5'/><rect x='320' y='40' width='60' height='130' fill='#93c5fd' fill-opacity='0.5'/></g><line x1='100' y1='60' x2='320' y2='60' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,60.0 114.5,63.5 114.5,56.5' fill='currentColor'/><line x1='100' y1='105' x2='320' y2='105' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,105.0 114.5,108.5 114.5,101.5' fill='currentColor'/><line x1='100' y1='150' x2='320' y2='150' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,150.0 114.5,153.5 114.5,146.5' fill='currentColor'/><g stroke='currentColor' stroke-width='3' fill='none'><polyline points='200,190 150,190 150,40 270,40 270,190 220,190'/><line x1='200' y1='190' x2='200' y2='232'/><line x1='220' y1='190' x2='220' y2='232'/></g><polygon points='150.0,113.7 156.3,126.3 143.7,126.3' fill='currentColor'/><polygon points='216.3,40.0 203.7,46.3 203.7,33.7' fill='currentColor'/><polygon points='270.0,126.3 263.7,113.7 276.3,113.7' fill='currentColor'/><g stroke='currentColor' stroke-width='3' fill='#fde68a' fill-opacity='0.5'><path d='M205 228 A22 22 0 0 0 205 272'/><path d='M215 228 A22 22 0 0 1 215 272'/></g><g stroke='currentColor'><rect x='170' y='243' width='12' height='14' fill='#e5e7eb'/><rect x='238' y='243' width='12' height='14' fill='#e5e7eb'/><polyline points='170,250 120,250 120,300 195,300' fill='none'/><polyline points='250,250 300,250 300,300 225,300' fill='none'/><line x1='195' y1='288' x2='195' y2='312' stroke-width='2'/><line x1='205' y1='294' x2='205' y2='306' stroke-width='4'/><line x1='205' y1='300' x2='225' y2='300'/></g><circle cx='124' cy='75' r='9' fill='none' stroke='currentColor'/><line x1='118' y1='69' x2='130' y2='81' stroke='currentColor'/><line x1='118' y1='81' x2='130' y2='69' stroke='currentColor'/><circle cx='296' cy='75' r='9' fill='none' stroke='currentColor'/><circle cx='296' cy='75' r='2.5' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='65' y='110'>N</text><text x='345' y='110'>S</text><text x='160' y='20'>field: N to S</text><text x='10' y='200'>force on left side:</text><text x='10' y='214'>into page (×)</text><text x='290' y='200'>force on right side:</text><text x='290' y='214'>out of page (•)</text><text x='176' y='130'>coil</text><text x='128' y='238'>brush</text><text x='256' y='240'>brush</text><text x='260' y='275'>split-ring commutator</text><text x='130' y='325'>d.c. supply (+ on left)</text></g></svg>"
+      },
+      {
+        "title": "Forces on a motor coil seen end-on",
+        "caption": "The coil is seen end-on. The current flows into the page on the left side and out of the page on the right side. Fleming's left-hand rule gives a downward force on the left side and an upward force on the right side, so the coil turns anticlockwise.",
+        "svg": "<svg viewBox='0 0 420 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='20' y='50' width='60' height='130' fill='#fca5a5' fill-opacity='0.5'/><rect x='340' y='50' width='60' height='130' fill='#93c5fd' fill-opacity='0.5'/></g><line x1='80' y1='80' x2='340' y2='80' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='99.5,80.0 92.5,83.5 92.5,76.5' fill='currentColor'/><line x1='80' y1='115' x2='340' y2='115' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='99.5,115.0 92.5,118.5 92.5,111.5' fill='currentColor'/><line x1='80' y1='150' x2='340' y2='150' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='99.5,150.0 92.5,153.5 92.5,146.5' fill='currentColor'/><line x1='140' y1='115' x2='280' y2='115' stroke='currentColor' stroke-width='2'/><circle cx='140' cy='115' r='12' fill='#fde68a' stroke='currentColor'/><line x1='132' y1='107' x2='148' y2='123' stroke='currentColor' stroke-width='2'/><line x1='132' y1='123' x2='148' y2='107' stroke='currentColor' stroke-width='2'/><circle cx='280' cy='115' r='12' fill='#fde68a' stroke='currentColor'/><circle cx='280' cy='115' r='3' fill='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='140' y1='130' x2='140' y2='190'/><line x1='280' y1='100' x2='280' y2='40'/></g><polygon points='140.0,200.3 133.7,187.7 146.3,187.7' fill='currentColor'/><polygon points='280.0,29.7 286.3,42.3 273.7,42.3' fill='currentColor'/><path d='M185 198 Q210 214 235 198' fill='none' stroke='currentColor' stroke-dasharray='3 3'/><polygon points='238.6,195.8 233.7,203.8 229.2,196.7' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='45' y='120'>N</text><text x='365' y='120'>S</text><text x='150' y='225'>coil turns anticlockwise</text><text x='150' y='175'>force down</text><text x='290' y='45'>force up</text><text x='100' y='95'>current in</text><text x='292' y='140'>current out</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think both sides of the coil are pushed in the same direction.",
+        "right": "In fact the current flows in opposite directions in the two sides, so the forces are in opposite directions and produce a turning effect."
+      },
+      {
+        "wrong": "Students often think the commutator changes the direction of the current from the supply.",
+        "right": "In fact the supply still gives d.c.; the commutator reverses the current in the coil every half turn so that the coil keeps turning the same way."
+      },
+      {
+        "wrong": "Students often think a bigger voltage is the only way to make a motor spin faster.",
+        "right": "In fact the speed can also be increased with a stronger magnet or more turns of wire on the coil."
+      },
+      {
+        "wrong": "Students often think the coil turns because it is attracted to the magnet like a piece of iron.",
+        "right": "In fact the coil turns because of the motor effect: forces on current-carrying wires in a magnetic field."
+      }
+    ],
+    "realWorld": [
+      "Electric cars and trains use large electric motors to turn the wheels.",
+      "Household devices such as fans, washing machines, drills and hair dryers all contain electric motors.",
+      "Computer hard drives and cooling fans use small motors to spin discs and blades."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only (both separate Physics and Combined Science).",
+      "Explain how the force on a conductor in a magnetic field causes the rotation of the coil in an electric motor.",
+      "Use Fleming's left-hand rule to find the direction of the forces on each side of the coil and so the direction of rotation."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always say that the current in the two sides of the coil is in opposite directions, so the forces are in opposite directions.",
+      "Explain the commutator's job: it reverses the current in the coil every half turn so the coil keeps rotating in the same direction.",
+      "For 'how could the motor turn faster', give three answers: more current, stronger magnet, more turns.",
+      "When asked to reverse the direction, say reverse the current OR reverse the magnetic field, not both."
+    ],
+    "summary": [
+      "A current-carrying coil in a magnetic field tends to rotate.",
+      "Opposite currents in the two sides give opposite forces, producing a turning effect.",
+      "Fleming's left-hand rule gives the force on each side.",
+      "A split-ring commutator keeps a d.c. motor turning one way.",
+      "More current, stronger magnet or more turns make the motor turn faster.",
+      "Reversing current or field reverses the rotation."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the basis of an electric motor?",
+      "back": "A current-carrying coil in a magnetic field tends to rotate (the motor effect)."
+    },
+    {
+      "front": "Why do the two sides of a motor coil experience forces in opposite directions?",
+      "back": "The current flows in opposite directions in the two sides."
+    },
+    {
+      "front": "Which rule gives the direction of the force on each side of the coil?",
+      "back": "Fleming's left-hand rule."
+    },
+    {
+      "front": "What does a split-ring commutator do?",
+      "back": "Reverses the current in the coil every half turn so it keeps rotating the same way."
+    },
+    {
+      "front": "What do the brushes do?",
+      "back": "Make electrical contact between the supply and the rotating commutator."
+    },
+    {
+      "front": "Three ways to make a motor spin faster",
+      "back": "Increase the current, use a stronger magnet, use more turns on the coil."
+    },
+    {
+      "front": "Two ways to reverse a motor's direction",
+      "back": "Reverse the current or reverse the magnetic field."
+    },
+    {
+      "front": "What would happen without a commutator on a d.c. motor?",
+      "back": "The coil would turn until vertical, then rock back and forth and stop."
+    },
+    {
+      "front": "Energy transfer in a motor",
+      "back": "Electrical work to a kinetic store (with some wasted to thermal stores)."
+    },
+    {
+      "front": "Equation for the force on one side of a single-turn coil",
+      "back": "F = B I l."
+    },
+    {
+      "front": "Is the electric motor topic Higher only?",
+      "back": "Yes, it is Higher tier only."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-electric-motors-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the basic principle of an electric motor?",
+      "options": [
+        "A moving magnet induces a current",
+        "Like charges repel",
+        "A current-carrying coil in a magnetic field tends to rotate",
+        "A coil heats up when current flows"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A current-carrying coil in a magnetic field tends to rotate"
+      ],
+      "explanation": "The motor effect produces forces on the coil which make it rotate."
+    },
+    {
+      "id": "p7-electric-motors-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the purpose of the split-ring commutator in a d.c. motor?",
+      "options": [
+        "To reverse the current in the coil every half turn",
+        "To increase the current",
+        "To make the magnet stronger",
+        "To convert d.c. to a.c. at the supply"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To reverse the current in the coil every half turn"
+      ],
+      "explanation": "The commutator swaps the connections every half turn so the coil keeps turning in the same direction."
+    },
+    {
+      "id": "p7-electric-motors-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which change would make a motor turn faster?",
+      "options": [
+        "Using a weaker magnet",
+        "Decreasing the current",
+        "Reversing the current",
+        "Using more turns of wire on the coil"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Using more turns of wire on the coil"
+      ],
+      "explanation": "More turns give a larger total force on each side of the coil. Reversing the current only changes the direction."
+    },
+    {
+      "id": "p7-electric-motors-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What useful energy transfer happens in an electric motor?",
+      "options": [
+        "Kinetic to electrical",
+        "Electrical to kinetic",
+        "Chemical to thermal",
+        "Thermal to electrical"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Electrical to kinetic"
+      ],
+      "explanation": "A motor transfers energy electrically to the kinetic store of the coil and its load. A generator does the reverse."
+    },
+    {
+      "id": "p7-electric-motors-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do the two sides of a motor coil move in opposite directions?",
+      "options": [
+        "The magnet's field reverses across the coil",
+        "One side is made of a different metal",
+        "The current flows in opposite directions in the two sides",
+        "The brushes push the sides apart"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The current flows in opposite directions in the two sides"
+      ],
+      "explanation": "The field is the same direction on both sides, but the current goes one way along one side and back the other way along the other side, so Fleming's left-hand rule gives opposite forces."
+    },
+    {
+      "id": "p7-electric-motors-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the job of the carbon brushes in a d.c. motor?",
+      "options": [
+        "To make electrical contact with the rotating commutator",
+        "To clean the coil",
+        "To slow the coil down",
+        "To produce the magnetic field"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To make electrical contact with the rotating commutator"
+      ],
+      "explanation": "The brushes press against the commutator and connect the rotating coil to the stationary supply."
+    },
+    {
+      "id": "p7-electric-motors-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The connections to the battery of a d.c. motor are swapped round. What happens?",
+      "options": [
+        "The motor stops",
+        "The motor turns faster",
+        "Nothing changes",
+        "The motor turns in the opposite direction"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The motor turns in the opposite direction"
+      ],
+      "explanation": "Swapping the connections reverses the current, which reverses the forces, so the coil rotates the opposite way."
+    },
+    {
+      "id": "p7-electric-motors-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Both the battery connections and the magnetic poles of a d.c. motor are reversed at the same time. What happens to the direction of rotation?",
+      "options": [
+        "It reverses",
+        "It stays the same",
+        "The motor stops",
+        "It rocks back and forth"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It stays the same"
+      ],
+      "explanation": "Each change alone reverses the force; doing both reverses it twice, so the direction is unchanged."
+    },
+    {
+      "id": "p7-electric-motors-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A simple motor coil is connected directly to a d.c. supply without a commutator. What happens?",
+      "options": [
+        "It turns continuously",
+        "It does not move at all",
+        "It turns until it is at right angles to the field, then oscillates and stops",
+        "It turns faster and faster"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It turns until it is at right angles to the field, then oscillates and stops"
+      ],
+      "explanation": "Without a commutator, after the coil passes the vertical position the forces try to turn it back, so it rocks and settles at right angles to the field."
+    },
+    {
+      "id": "p7-electric-motors-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A coil lies horizontally between a north pole on the left and a south pole on the right. Current flows out of the page in the left side and into the page in the right side. Viewed this way, which way does the coil turn?",
+      "options": [
+        "Clockwise",
+        "Anticlockwise",
+        "It does not turn",
+        "It moves to the right without turning"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Clockwise"
+      ],
+      "explanation": "Field left to right. Left side, current out of page: force up. Right side, current into page: force down. Left up and right down is a clockwise rotation."
+    },
+    {
+      "id": "p7-electric-motors-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "One side of a motor coil is 0.10 m long and lies at right angles to a magnetic field of 0.20 T. The current is 1.5 A. Calculate the force on this side.",
+      "numericAnswer": 0.03,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 0.20 × 1.5 × 0.10",
+        "1 mark: F = 0.030 N"
+      ],
+      "explanation": "F = BIl = 0.20 × 1.5 × 0.10 = 0.030 N."
+    },
+    {
+      "id": "p7-electric-motors-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "One side of a single-turn coil is 5.0 cm long and is at right angles to a field of 0.30 T. The current is 2.0 A. Calculate the force on this side.",
+      "numericAnswer": 0.03,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: l = 0.050 m",
+        "1 mark: F = 0.30 × 2.0 × 0.050",
+        "1 mark: F = 0.030 N"
+      ],
+      "explanation": "Convert 5.0 cm to 0.050 m, then F = BIl = 0.30 × 2.0 × 0.050 = 0.030 N."
+    },
+    {
+      "id": "p7-electric-motors-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 0.045 N acts on a 6.0 cm side of a motor coil at right angles to a field of 0.25 T. Calculate the current.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "A",
+      "markScheme": [
+        "1 mark: I = F ÷ (B l)",
+        "1 mark: I = 0.045 ÷ (0.25 × 0.060)",
+        "1 mark: I = 3.0 A"
+      ],
+      "explanation": "B l = 0.25 × 0.060 = 0.015, so I = 0.045 ÷ 0.015 = 3.0 A."
+    },
+    {
+      "id": "p7-electric-motors-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "One side of a motor coil is 4.0 cm long and carries a current of 750 mA at right angles to a magnetic field. The force on the side is 0.0045 N. Calculate the magnetic flux density in millitesla (mT).",
+      "numericAnswer": 150,
+      "tolerance": 0.02,
+      "unit": "mT",
+      "markScheme": [
+        "1 mark: B = F ÷ (I l)",
+        "1 mark: B = 0.0045 ÷ (0.75 × 0.040) = 0.15 T",
+        "1 mark: 150 mT"
+      ],
+      "explanation": "I = 0.75 A and l = 0.040 m, so I l = 0.030. B = 0.0045 ÷ 0.030 = 0.15 T = 150 mT."
+    },
+    {
+      "id": "p7-electric-motors-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The current in a motor coil is increased from 1.2 A to 3.0 A. The force on one side of the coil was 0.024 N. Calculate the new force, assuming nothing else changes.",
+      "numericAnswer": 0.06,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: force is proportional to current, so F = 0.024 × (3.0 ÷ 1.2)",
+        "1 mark: F = 0.060 N"
+      ],
+      "explanation": "F = BIl, so with B and l constant, F is directly proportional to I. The current increases by a factor of 2.5, so F = 0.024 × 2.5 = 0.060 N."
+    },
+    {
+      "id": "p7-electric-motors-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "State three ways to increase the speed of rotation of a simple d.c. motor.",
+      "acceptedAnswers": [
+        "increase the current",
+        "stronger magnet",
+        "more turns"
+      ],
+      "markScheme": [
+        "1 mark: increase the current (or p.d.)",
+        "1 mark: use a stronger magnet (greater flux density)",
+        "1 mark: increase the number of turns on the coil"
+      ],
+      "explanation": "Each change increases the forces on the sides of the coil."
+    },
+    {
+      "id": "p7-electric-motors-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two ways to reverse the direction of rotation of a d.c. motor.",
+      "acceptedAnswers": [
+        "reverse the current",
+        "swap the battery connections",
+        "reverse the field",
+        "swap the poles"
+      ],
+      "markScheme": [
+        "1 mark: reverse the current (swap the connections to the supply)",
+        "1 mark: reverse the magnetic field (swap the magnetic poles)"
+      ],
+      "explanation": "Either change reverses the forces on the coil."
+    },
+    {
+      "id": "p7-electric-motors-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the coil in an electric motor rotates rather than moving sideways.",
+      "acceptedAnswers": [
+        "opposite directions",
+        "opposite forces",
+        "turning effect",
+        "moment"
+      ],
+      "markScheme": [
+        "1 mark: the forces on the two sides of the coil are in opposite directions (because the current is in opposite directions)",
+        "1 mark: so they produce a turning effect (moment) about the axle"
+      ],
+      "explanation": "Equal and opposite forces on opposite sides of an axle form a couple that turns the coil."
+    },
+    {
+      "id": "p7-electric-motors-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a split-ring commutator is needed to keep a d.c. motor turning in the same direction.",
+      "acceptedAnswers": [
+        "reverses the current every half turn",
+        "forces stay in the same direction"
+      ],
+      "markScheme": [
+        "1 mark: it reverses the current in the coil every half turn",
+        "1 mark: so the side of the coil on each side of the axle always has a force in the same direction, keeping the rotation going the same way"
+      ],
+      "explanation": "Without the commutator, the forces would reverse their turning effect after half a turn and the coil would stop."
+    },
+    {
+      "id": "p7-electric-motors-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the role of the brushes in a d.c. motor and suggest why they are made of carbon.",
+      "acceptedAnswers": [
+        "contact",
+        "commutator",
+        "conducts",
+        "low friction",
+        "soft"
+      ],
+      "markScheme": [
+        "1 mark: they make (sliding) electrical contact between the supply and the rotating commutator",
+        "1 mark: carbon conducts electricity and is slippery or soft, so causes little friction or wear"
+      ],
+      "explanation": "The brushes allow the coil to rotate while still connected to the supply."
+    },
+    {
+      "id": "p7-electric-motors-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A motor coil has its plane parallel to the magnetic field. Explain why this is the position in which the turning effect is greatest, and why the turning effect is zero when the plane of the coil is at right angles to the field.",
+      "acceptedAnswers": [
+        "forces perpendicular to coil",
+        "line of action through the axle",
+        "perpendicular distance",
+        "moment"
+      ],
+      "markScheme": [
+        "1 mark: the forces on the sides are always at right angles to the field (up and down)",
+        "1 mark: when the coil is parallel to the field the forces act at the maximum perpendicular distance from the axle, giving the greatest moment",
+        "1 mark: when the coil is at right angles to the field the forces act along lines through the axle, so the moment is zero"
+      ],
+      "explanation": "The forces stay vertical; the turning effect depends on how far their lines of action are from the axle."
+    },
+    {
+      "id": "p7-electric-motors-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A motor is used to lift a load. Suggest why the motor's efficiency is less than 100%.",
+      "acceptedAnswers": [
+        "resistance",
+        "heating",
+        "friction",
+        "sound"
+      ],
+      "markScheme": [
+        "1 mark: the coil has resistance so energy is dissipated by heating",
+        "1 mark: friction at the axle and brushes (or sound) also wastes energy"
+      ],
+      "explanation": "Electrical heating of the wires and friction both transfer energy to thermal stores of the motor and surroundings."
+    },
+    {
+      "id": "p7-electric-motors-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain how a simple d.c. electric motor works.",
+      "markScheme": [
+        "Indicative content: coil of wire between poles of a magnet, on an axle; current flows through the coil from a d.c. supply via brushes and commutator; the current produces a magnetic field that interacts with the magnet's field (motor effect); current in opposite directions in the two sides gives forces in opposite directions (Fleming's left-hand rule); this causes a turning effect, so the coil rotates; split-ring commutator reverses the current every half turn so it keeps turning the same way.",
+        "Level 2 (3 to 4 marks): coherent explanation linking opposite currents to opposite forces and rotation, with the role of the commutator.",
+        "Level 1 (1 to 2 marks): simple statements such as the coil spins in the magnet.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Key points: motor effect on each side, opposite forces give rotation, commutator maintains direction."
+    },
+    {
+      "id": "p7-electric-motors-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "An engineer is designing a small motor for a toy car. Explain how the motor produces rotation and evaluate different ways the engineer could make the motor more powerful and able to turn the wheels faster.",
+      "markScheme": [
+        "Indicative content: motor effect: current in coil within magnetic field; forces on the two sides in opposite directions by Fleming's left-hand rule; turning effect; split-ring commutator reverses current every half turn; F = BIl on each side; increase current (higher p.d. battery, but battery runs down faster, coil may overheat); stronger magnet (greater B, but heavier or more expensive); more turns (larger total force, but more resistance and heavier coil); longer sides in the field (larger l, but bigger motor); soft iron armature core to strengthen field; reduce friction with lubrication; evaluation: weigh up each change against mass, cost, battery life and heating; judgement on the best option.",
+        "Level 3 (5 to 6 marks): clear explanation of how rotation is produced and a balanced evaluation of at least three improvements with a reasoned conclusion.",
+        "Level 2 (3 to 4 marks): explanation of rotation with some improvements, limited evaluation.",
+        "Level 1 (1 to 2 marks): simple statements about improvements or rotation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A high-level answer links each improvement to F = BIl and considers drawbacks such as mass, heating and cost."
+    },
+    {
+      "id": "p7-electric-motors-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the part of a d.c. motor that reverses the current in the coil every half turn.",
+      "acceptedAnswers": [
+        "split-ring commutator",
+        "commutator"
+      ],
+      "markScheme": [
+        "1 mark: split-ring commutator"
+      ],
+      "explanation": "The split-ring commutator swaps the connections between the coil and the brushes every half turn."
+    },
+    {
+      "id": "p7-electric-motors-q26",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A motor's coil is replaced with a coil that has twice as many turns, with the same current. What happens to the forces on each side?",
+      "options": [
+        "They halve",
+        "They stay the same",
+        "They become zero",
+        "They double"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: They double"
+      ],
+      "explanation": "Each turn contributes the same force, so twice as many turns gives twice the total force on each side."
+    }
+  ]
+}

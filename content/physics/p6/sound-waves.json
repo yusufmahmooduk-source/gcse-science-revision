@@ -1,0 +1,711 @@
+{
+  "id": "p6-sound-waves",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "sound-waves",
+  "specRef": "4.6.1.4",
+  "title": "Sound waves",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Sound waves are longitudinal waves that can travel through solids, liquids and gases. When sound waves hit a solid they can make it vibrate, and the ear works by converting sound waves into vibrations of the eardrum and small bones. These conversions only work over a limited range of frequencies, so humans hear only from about 20 Hz to 20 kHz.",
+    "explanation": [
+      "Sound is a longitudinal wave made of compressions and rarefactions. It can travel through solids, liquids and gases because the particles pass on the vibrations to their neighbours. When a sound wave meets a solid object it can make the solid vibrate, and the vibrations travel through the solid as a sound wave. This is why you can hear a train coming by listening to the rails, or hear music through a wall.",
+      "In the ear, sound waves travel down the ear canal and make the eardrum vibrate. The eardrum is a thin, stretched membrane: compressions push it in and rarefactions let it move out. The vibrations of the eardrum are passed to three small bones (the ossicles), which vibrate and pass the vibrations on to the cochlea. In the cochlea the vibrations are turned into electrical signals that travel along a nerve to the brain, which interprets them as sound.",
+      "This conversion from sound waves in air to vibrations of solids only works over a limited range of frequencies. The eardrum and small bones have mass and stiffness, so they cannot vibrate in response to very high frequencies, and very low frequencies are not converted effectively either. As a result, the normal range of human hearing is from about 20 Hz to 20 000 Hz (20 kHz). Sounds above 20 kHz are called ultrasound and sounds below 20 Hz are called infrasound. The upper limit falls with age and can be reduced by damage from loud noise.",
+      "When sound passes from one medium into another, its speed changes, but its frequency stays the same, because the frequency is set by the source that made the sound. Since v = f λ, the wavelength changes in proportion to the speed. Sound travels at about 340 m/s in air, about 1500 m/s in water and around 5000 m/s in steel, so the wavelength of a given sound is longer in water and longer still in steel. Sound generally travels faster in solids and liquids than in gases because the particles are closer together and strongly linked.",
+      "Higher frequency sounds have a higher pitch; larger amplitude sounds are louder. A microphone works in a similar way to the ear: a diaphragm vibrates when sound waves hit it, and the vibrations are converted into an electrical signal. A loudspeaker does the reverse, making a cone vibrate to produce sound waves in the air."
+    ],
+    "keyFacts": [
+      "Sound is a longitudinal wave and needs a medium; it cannot travel through a vacuum.",
+      "Sound waves can travel through solids, causing vibrations in the solid.",
+      "In the ear, sound makes the eardrum vibrate; small bones pass the vibrations to the cochlea.",
+      "The cochlea converts vibrations into electrical signals sent to the brain.",
+      "The conversion only works over a limited frequency range.",
+      "Normal human hearing range: about 20 Hz to 20 kHz.",
+      "Sound above 20 kHz is ultrasound; below 20 Hz is infrasound.",
+      "When sound changes medium, frequency stays the same; speed and wavelength change.",
+      "Approximate speeds: air 340 m/s, water 1500 m/s, steel 5000 m/s."
+    ],
+    "keyTerms": [
+      {
+        "term": "Eardrum",
+        "definition": "A thin membrane in the ear that vibrates when sound waves reach it."
+      },
+      {
+        "term": "Ossicles",
+        "definition": "Three small bones in the middle ear that pass vibrations from the eardrum to the cochlea."
+      },
+      {
+        "term": "Cochlea",
+        "definition": "The part of the inner ear that converts vibrations into electrical signals for the brain."
+      },
+      {
+        "term": "Range of hearing",
+        "definition": "The range of frequencies a person can hear, about 20 Hz to 20 kHz for a healthy young human."
+      },
+      {
+        "term": "Ultrasound",
+        "definition": "Sound waves with a frequency above 20 kHz, too high for humans to hear."
+      },
+      {
+        "term": "Infrasound",
+        "definition": "Sound waves with a frequency below 20 Hz, too low for humans to hear."
+      },
+      {
+        "term": "Pitch",
+        "definition": "How high or low a sound seems; it depends on the frequency."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Wave speed",
+        "formula": "wave speed = frequency × wavelength",
+        "symbols": "v = f λ",
+        "units": "v in m/s, f in Hz, λ in m",
+        "recall": true
+      },
+      {
+        "name": "Period",
+        "formula": "period = 1 ÷ frequency",
+        "symbols": "T = 1 / f",
+        "units": "T in s, f in Hz",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Wavelengths at the limits of hearing",
+        "question": "The speed of sound in air is 340 m/s. Calculate the wavelengths of sounds at the lower (20 Hz) and upper (20 kHz) limits of human hearing.",
+        "steps": [
+          "Rearrange v = f λ to λ = v ÷ f.",
+          "At 20 Hz: λ = 340 ÷ 20 = 17 m.",
+          "Convert 20 kHz to Hz: 20 × 1000 = 20 000 Hz.",
+          "At 20 000 Hz: λ = 340 ÷ 20 000 = 0.017 m (1.7 cm)."
+        ],
+        "answer": "17 m and 0.017 m"
+      },
+      {
+        "title": "Sound crossing from air into water",
+        "question": "A 500 Hz sound passes from air (340 m/s) into water (1500 m/s). Calculate its wavelength in water.",
+        "steps": [
+          "The frequency does not change at the boundary: f = 500 Hz in water.",
+          "λ = v ÷ f = 1500 ÷ 500.",
+          "λ = 3.0 m."
+        ],
+        "answer": "3.0 m"
+      },
+      {
+        "title": "Sound in a steel rail (kHz conversion)",
+        "question": "A hammer blow makes a 2.5 kHz sound in a steel rail where sound travels at 5000 m/s. Calculate the wavelength.",
+        "steps": [
+          "2.5 kHz = 2500 Hz.",
+          "λ = v ÷ f = 5000 ÷ 2500.",
+          "λ = 2.0 m."
+        ],
+        "answer": "2.0 m"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "How the ear detects sound",
+        "caption": "Sound waves (compressions and rarefactions) make the eardrum vibrate. The small bones pass the vibrations to the cochlea, which sends electrical signals to the brain.",
+        "svg": "<svg viewBox='0 0 500 225' xmlns='http://www.w3.org/2000/svg'><path d='M30 80 Q42 120 30 160' fill='none' stroke='currentColor'/><path d='M50 80 Q62 120 50 160' fill='none' stroke='currentColor'/><path d='M70 80 Q82 120 70 160' fill='none' stroke='currentColor'/><path d='M90 80 Q102 120 90 160' fill='none' stroke='currentColor'/><path d='M118.0 120.0 L109.0 124.5 L109.0 115.5 Z' fill='currentColor'/><line x1='100' y1='120' x2='110' y2='120' stroke='currentColor'/><path d='M120 60 Q100 120 120 180 L140 140 L240 140 L240 100 L140 100 Z' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><ellipse cx='244' cy='120' rx='5' ry='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><g fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'><rect x='252' y='112' width='22' height='8'/><rect x='274' y='106' width='22' height='8'/><rect x='296' y='112' width='18' height='8'/></g><path d='M316 116 C340 90 380 90 380 120 C380 150 345 150 345 125 C345 110 365 110 362 124' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><line x1='380' y1='120' x2='440' y2='120' stroke='currentColor' stroke-width='2'/><g font-size='12' fill='currentColor'><text x='20' y='60'>sound wave</text><text x='20' y='74'>(compressions)</text><text x='140' y='160'>ear canal</text><text x='200' y='88'>eardrum</text><text x='250' y='96'>small bones</text><text x='250' y='138'>(ossicles)</text><text x='330' y='170'>cochlea</text><text x='420' y='110'>nerve to</text><text x='420' y='140'>brain</text><text x='20' y='210'>Human hearing range: about 20 Hz to 20 kHz</text></g></svg>"
+      },
+      {
+        "title": "Sound passing from air into water",
+        "caption": "Wavefronts are further apart in water because sound travels faster there. The frequency is unchanged, so the wavelength increases in proportion to the speed.",
+        "svg": "<svg viewBox='0 0 500 210' xmlns='http://www.w3.org/2000/svg'><rect x='240' y='30' width='240' height='130' fill='#93c5fd' fill-opacity='0.5'/><line x1='240' y1='30' x2='240' y2='160' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><line x1='40' y1='40' x2='40' y2='150'/><line x1='70' y1='40' x2='70' y2='150'/><line x1='100' y1='40' x2='100' y2='150'/><line x1='130' y1='40' x2='130' y2='150'/><line x1='160' y1='40' x2='160' y2='150'/><line x1='190' y1='40' x2='190' y2='150'/><line x1='220' y1='40' x2='220' y2='150'/><line x1='250' y1='40' x2='250' y2='150'/><line x1='320' y1='40' x2='320' y2='150'/><line x1='390' y1='40' x2='390' y2='150'/><line x1='460' y1='40' x2='460' y2='150'/></g><g font-size='12' fill='currentColor'><text x='80' y='22'>air: v = 340 m/s</text><text x='310' y='22'>water: v = 1500 m/s</text><text x='40' y='176'>short wavelength</text><text x='300' y='176'>longer wavelength</text><text x='40' y='200'>Same frequency: speed and wavelength increase in water</text><text x='242' y='46'>boundary</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the frequency of a sound changes when it enters a new medium.",
+        "right": "In fact the frequency is fixed by the source. The speed and wavelength change; the frequency stays the same."
+      },
+      {
+        "wrong": "Students often think sound travels fastest in air because air is 'thin'.",
+        "right": "In fact sound usually travels faster in liquids and solids, where particles are closer together and strongly linked."
+      },
+      {
+        "wrong": "Students often think humans can hear any frequency if it is loud enough.",
+        "right": "In fact the eardrum and small bones only convert sound to vibrations over about 20 Hz to 20 kHz, however loud the sound."
+      },
+      {
+        "wrong": "Students often think air travels down the ear canal to the brain.",
+        "right": "In fact the air only vibrates; the energy is passed on as vibrations of solids and then as electrical signals in nerves."
+      }
+    ],
+    "realWorld": [
+      "Dog whistles produce sound above 20 kHz that dogs can hear but humans cannot.",
+      "Hearing tests measure the range of frequencies and the quietest sounds a person can hear; the upper limit drops with age.",
+      "Doctors use a stethoscope to hear sounds travelling through the solids and liquids of the body."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The whole of this subtopic is Higher tier only (separate Physics).",
+      "Describe the processes that convert wave disturbances between sound waves and vibrations in solids, for example the effect of sound waves on the eardrum.",
+      "Explain why such processes only work over a limited frequency range, and the relevance of this to human hearing (about 20 Hz to 20 kHz)."
+    ],
+    "separateOnlyContent": [
+      "Sound waves in solids and the ear, and the human range of hearing, are in separate Physics only."
+    ],
+    "examTips": [
+      "When describing hearing, give the sequence: sound wave → eardrum vibrates → small bones vibrate → cochlea → electrical signal → brain.",
+      "State the human hearing range with units: 20 Hz to 20 kHz (20 000 Hz).",
+      "If a sound changes medium, say clearly that frequency stays the same, and use v = f λ to explain why the wavelength changes.",
+      "Convert kHz to Hz before using v = f λ.",
+      "Explain the limited range by saying the eardrum and bones cannot vibrate (respond) at frequencies outside the range."
+    ],
+    "summary": [
+      "Sound is longitudinal and can travel through solids, liquids and gases.",
+      "Sound waves can make solids vibrate, such as the eardrum.",
+      "Eardrum → small bones → cochlea → electrical signals → brain.",
+      "Conversion only works over a limited frequency range.",
+      "Human hearing: about 20 Hz to 20 kHz.",
+      "Changing medium: frequency constant; speed and wavelength change."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the range of normal human hearing?",
+      "back": "About 20 Hz to 20 kHz (20 000 Hz)."
+    },
+    {
+      "front": "What happens to the eardrum when sound waves reach it?",
+      "back": "It vibrates (pushed in by compressions, moves out at rarefactions)."
+    },
+    {
+      "front": "What do the small bones (ossicles) do?",
+      "back": "Pass the vibrations from the eardrum to the cochlea."
+    },
+    {
+      "front": "What does the cochlea do?",
+      "back": "Converts vibrations into electrical signals that travel to the brain."
+    },
+    {
+      "front": "Why can humans only hear a limited range of frequencies?",
+      "back": "The eardrum and small bones can only vibrate in response to (convert) sound over a limited frequency range."
+    },
+    {
+      "front": "Name for sound above 20 kHz?",
+      "back": "Ultrasound."
+    },
+    {
+      "front": "Name for sound below 20 Hz?",
+      "back": "Infrasound."
+    },
+    {
+      "front": "What stays the same when sound passes from air into water?",
+      "back": "The frequency."
+    },
+    {
+      "front": "What happens to the wavelength of sound going from air into water?",
+      "back": "It increases, because the speed increases and the frequency is constant."
+    },
+    {
+      "front": "Speed of sound in air, water and steel (approx.)?",
+      "back": "About 340 m/s, 1500 m/s and 5000 m/s."
+    },
+    {
+      "front": "Can sound travel through solids?",
+      "back": "Yes. Sound waves cause vibrations in the solid, which pass the wave on."
+    },
+    {
+      "front": "What property of a sound determines its pitch?",
+      "back": "Its frequency (higher frequency = higher pitch)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-sound-waves-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the normal range of human hearing?",
+      "options": [
+        "20 Hz to 2 kHz",
+        "2 Hz to 200 Hz",
+        "20 Hz to 20 kHz",
+        "200 Hz to 200 kHz"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 20 Hz to 20 kHz"
+      ],
+      "explanation": "Healthy young people hear from about 20 Hz to 20 000 Hz (20 kHz). The upper limit falls with age."
+    },
+    {
+      "id": "p6-sound-waves-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which part of the ear vibrates first when sound waves arrive?",
+      "options": [
+        "The eardrum",
+        "The cochlea",
+        "The auditory nerve",
+        "The small bones"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The eardrum"
+      ],
+      "explanation": "Sound travels down the ear canal and makes the eardrum vibrate first; the small bones then pass the vibrations to the cochlea."
+    },
+    {
+      "id": "p6-sound-waves-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is ultrasound?",
+      "options": [
+        "Sound with a frequency below 20 Hz",
+        "Very loud sound",
+        "Sound that travels faster than normal",
+        "Sound with a frequency above 20 kHz"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Sound with a frequency above 20 kHz"
+      ],
+      "explanation": "Ultrasound is sound above the upper limit of human hearing, 20 kHz. It is not defined by loudness or speed."
+    },
+    {
+      "id": "p6-sound-waves-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A sound wave passes from air into water. Which quantity stays the same?",
+      "options": [
+        "Speed",
+        "Frequency",
+        "Wavelength",
+        "Both speed and wavelength"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Frequency"
+      ],
+      "explanation": "The frequency is set by the source and cannot change at a boundary. Speed increases in water, so wavelength increases too."
+    },
+    {
+      "id": "p6-sound-waves-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why can't humans hear a sound of 30 kHz, however loud it is?",
+      "options": [
+        "Sound of that frequency cannot travel through air",
+        "The eardrum and small bones cannot vibrate in response to such a high frequency",
+        "The sound is reflected by the ear canal",
+        "Its amplitude is always too small"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The eardrum and small bones cannot vibrate in response to such a high frequency"
+      ],
+      "explanation": "The conversion of sound waves into vibrations of the eardrum and bones only works over a limited range. 30 kHz sound travels through air perfectly well; the ear just cannot respond to it."
+    },
+    {
+      "id": "p6-sound-waves-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In which medium does sound usually travel fastest?",
+      "options": [
+        "Water",
+        "Air",
+        "A vacuum",
+        "Steel"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Steel"
+      ],
+      "explanation": "Sound travels fastest in solids such as steel (about 5000 m/s), slower in water (about 1500 m/s) and slowest in air (about 340 m/s). It cannot travel through a vacuum."
+    },
+    {
+      "id": "p6-sound-waves-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sound travels from steel (5000 m/s) into air (340 m/s). What happens to its wavelength?",
+      "options": [
+        "It decreases to about 1/15 of its value in steel",
+        "It increases by about 15 times",
+        "It stays the same",
+        "It decreases to about 1/5 of its value in steel"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It decreases to about 1/15 of its value in steel"
+      ],
+      "explanation": "Frequency is constant, so wavelength is proportional to speed. 340 ÷ 5000 ≈ 1/15, so the wavelength becomes about 15 times smaller."
+    },
+    {
+      "id": "p6-sound-waves-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement best explains how you can hear a conversation through a closed wooden door?",
+      "options": [
+        "Air passes through tiny holes in the door carrying the sound",
+        "Sound is a transverse wave that passes through solids unchanged",
+        "Sound waves in the air make the door vibrate, and the door's vibrations produce sound waves on the other side",
+        "The door absorbs the sound and re-emits it as infrared"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Sound waves in the air make the door vibrate, and the door's vibrations produce sound waves on the other side"
+      ],
+      "explanation": "Sound waves can cause vibrations in solids. The vibrating door then makes the air on the far side vibrate, producing sound waves you can hear."
+    },
+    {
+      "id": "p6-sound-waves-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which sequence correctly describes how sound is detected?",
+      "options": [
+        "Eardrum → small bones → cochlea → nerve → brain",
+        "Cochlea → eardrum → small bones → brain",
+        "Small bones → eardrum → nerve → cochlea",
+        "Eardrum → cochlea → small bones → brain"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Eardrum → small bones → cochlea → nerve → brain"
+      ],
+      "explanation": "Vibrations pass from the eardrum to the small bones, then to the cochlea, which sends electrical signals along the nerve to the brain."
+    },
+    {
+      "id": "p6-sound-waves-q10",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The speed of sound in air is 340 m/s. Calculate the wavelength of a 20 Hz sound, the lowest frequency most humans can hear.",
+      "numericAnswer": 17,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: λ = 340 ÷ 20",
+        "1 mark: 17 m"
+      ],
+      "explanation": "λ = v ÷ f = 340 ÷ 20 = 17 m."
+    },
+    {
+      "id": "p6-sound-waves-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Calculate the wavelength in air (speed 340 m/s) of a 20 kHz sound.",
+      "numericAnswer": 0.017,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 20 kHz = 20 000 Hz",
+        "1 mark: λ = 340 ÷ 20 000",
+        "1 mark: 0.017 m"
+      ],
+      "explanation": "Converting 20 kHz to 20 000 Hz, λ = 340 ÷ 20 000 = 0.017 m (1.7 cm)."
+    },
+    {
+      "id": "p6-sound-waves-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A 500 Hz sound wave enters water, where sound travels at 1500 m/s. Calculate its wavelength in water.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: λ = 1500 ÷ 500",
+        "1 mark: 3.0 m"
+      ],
+      "explanation": "The frequency stays at 500 Hz, so λ = v ÷ f = 1500 ÷ 500 = 3.0 m."
+    },
+    {
+      "id": "p6-sound-waves-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Sound travels at 5000 m/s in steel. Calculate the wavelength of a 2.5 kHz sound in a steel rail.",
+      "numericAnswer": 2,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 2.5 kHz = 2500 Hz",
+        "1 mark: λ = 5000 ÷ 2500",
+        "1 mark: 2.0 m"
+      ],
+      "explanation": "Convert 2.5 kHz to 2500 Hz. λ = 5000 ÷ 2500 = 2.0 m."
+    },
+    {
+      "id": "p6-sound-waves-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A sound in air (340 m/s) has a wavelength of 0.68 m. Calculate its frequency.",
+      "numericAnswer": 500,
+      "tolerance": 0.02,
+      "unit": "Hz",
+      "markScheme": [
+        "1 mark: f = 340 ÷ 0.68",
+        "1 mark: 500 Hz"
+      ],
+      "explanation": "f = v ÷ λ = 340 ÷ 0.68 = 500 Hz."
+    },
+    {
+      "id": "p6-sound-waves-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A sound has a wavelength of 0.85 m in air, where its speed is 340 m/s. It passes into water, where its speed is 1500 m/s. Calculate its wavelength in water.",
+      "numericAnswer": 3.75,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: f = 340 ÷ 0.85 = 400 Hz",
+        "1 mark: frequency unchanged in water",
+        "1 mark: λ = 1500 ÷ 400 = 3.75 m"
+      ],
+      "explanation": "The frequency is 400 Hz in both media. λ in water = 1500 ÷ 400 = 3.75 m. A common error is to keep the wavelength the same."
+    },
+    {
+      "id": "p6-sound-waves-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Calculate the period of a sound wave at the upper limit of human hearing, 20 kHz. Give your answer in seconds.",
+      "numericAnswer": 0.00005,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: T = 1 ÷ 20 000",
+        "1 mark: 0.00005 s (5 × 10⁻⁵ s)"
+      ],
+      "explanation": "T = 1/f = 1 ÷ 20 000 = 0.00005 s = 5 × 10⁻⁵ s."
+    },
+    {
+      "id": "p6-sound-waves-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the part of the ear that converts vibrations into electrical signals.",
+      "acceptedAnswers": [
+        "cochlea"
+      ],
+      "markScheme": [
+        "1 mark: cochlea"
+      ],
+      "explanation": "The cochlea in the inner ear produces electrical signals that travel along the auditory nerve to the brain."
+    },
+    {
+      "id": "p6-sound-waves-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe what happens to the eardrum when a sound wave reaches it.",
+      "acceptedAnswers": [
+        "eardrum vibrates",
+        "compressions push it in",
+        "rarefactions it moves out",
+        "same frequency as sound"
+      ],
+      "markScheme": [
+        "1 mark: the eardrum vibrates",
+        "1 mark: at the same frequency as the sound wave / pushed in by compressions and moves out at rarefactions"
+      ],
+      "explanation": "The pressure changes of the sound wave make the thin eardrum vibrate back and forth at the frequency of the sound."
+    },
+    {
+      "id": "p6-sound-waves-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a sound wave changes wavelength when it passes from air into water.",
+      "acceptedAnswers": [
+        "speed increases",
+        "frequency stays the same",
+        "v = f λ",
+        "wavelength increases"
+      ],
+      "markScheme": [
+        "1 mark: the speed of sound changes (increases) in water while the frequency stays the same",
+        "1 mark: since v = f λ, the wavelength must change (increase) in proportion"
+      ],
+      "explanation": "Wavelength is proportional to speed when frequency is constant."
+    },
+    {
+      "id": "p6-sound-waves-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why older people often cannot hear high-pitched sounds that teenagers can hear.",
+      "acceptedAnswers": [
+        "upper limit of hearing decreases with age",
+        "parts of ear less able to vibrate at high frequency",
+        "conversion only works over limited range",
+        "damage from loud noise"
+      ],
+      "markScheme": [
+        "1 mark: hearing depends on the eardrum / bones / cochlea converting sound into vibrations",
+        "1 mark: this only works over a limited frequency range",
+        "1 mark: with age (or noise damage) the ear becomes less able to respond to high frequencies, so the upper limit falls"
+      ],
+      "explanation": "The range of hearing narrows with age, mostly at the high-frequency end."
+    },
+    {
+      "id": "p6-sound-waves-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student puts her ear against a long metal rail and hears a tap from the far end before she hears the same tap through the air. Explain why.",
+      "acceptedAnswers": [
+        "sound travels faster in solids",
+        "faster in metal than air",
+        "particles closer"
+      ],
+      "markScheme": [
+        "1 mark: sound travels faster in metal (a solid) than in air",
+        "1 mark: so the sound through the rail arrives first"
+      ],
+      "explanation": "Sound travels about 15 times faster in steel than in air, so the sound in the rail arrives first."
+    },
+    {
+      "id": "p6-sound-waves-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "State the name given to sounds with a frequency lower than 20 Hz.",
+      "acceptedAnswers": [
+        "infrasound"
+      ],
+      "markScheme": [
+        "1 mark: infrasound"
+      ],
+      "explanation": "Infrasound is below the lower limit of human hearing. Some animals, such as elephants, use it to communicate."
+    },
+    {
+      "id": "p6-sound-waves-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how sound waves in the air are detected by the human ear and turned into a signal for the brain.",
+      "markScheme": [
+        "Indicative content:",
+        "sound waves (compressions and rarefactions) travel down the ear canal",
+        "they make the eardrum vibrate",
+        "the eardrum's vibrations are passed to the small bones (ossicles), which vibrate",
+        "the bones pass vibrations to the cochlea",
+        "the cochlea converts the vibrations into electrical signals",
+        "signals travel along a nerve to the brain",
+        "Level 2 (3 to 4 marks): clear, correct sequence from sound wave to brain including the eardrum and conversion to electrical signals.",
+        "Level 1 (1 to 2 marks): one or two correct steps, sequence incomplete."
+      ],
+      "explanation": "The key idea is the conversion of sound waves into vibrations of solids (eardrum and bones), then into electrical signals."
+    },
+    {
+      "id": "p6-sound-waves-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how sound waves can travel through air and solids, and why humans can only hear sounds within a limited range of frequencies. Use the ear as an example in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "sound is a longitudinal wave of compressions and rarefactions; particles vibrate parallel to the direction of travel",
+        "needs a medium; travels through solids, liquids and gases",
+        "sound waves hitting a solid cause the solid to vibrate (e.g. a door, the eardrum)",
+        "frequency unchanged at a boundary; speed and wavelength change",
+        "in the ear, the eardrum vibrates, the small bones pass vibrations to the cochlea",
+        "cochlea converts vibrations to electrical signals sent to the brain",
+        "the eardrum and bones can only vibrate in response to (convert) a limited range of frequencies",
+        "human range about 20 Hz to 20 kHz; ultrasound above, infrasound below",
+        "range decreases with age / damage",
+        "Level 3 (5 to 6 marks): detailed, linked explanation of sound in air and solids and why the ear has a limited range, with correct values.",
+        "Level 2 (3 to 4 marks): describes how the ear works and states the range, with some explanation.",
+        "Level 1 (1 to 2 marks): simple statements about sound or hearing, little explanation."
+      ],
+      "explanation": "The best answers connect the idea of sound causing vibrations in solids with the limited frequency response of the eardrum and bones."
+    },
+    {
+      "id": "p6-sound-waves-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of wave is a sound wave?",
+      "options": [
+        "Transverse",
+        "Electromagnetic",
+        "Both transverse and electromagnetic",
+        "Longitudinal"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Longitudinal"
+      ],
+      "explanation": "Sound is a longitudinal mechanical wave: the particles vibrate parallel to the direction of energy transfer."
+    },
+    {
+      "id": "p6-sound-waves-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the pitch of a sound when its frequency increases.",
+      "acceptedAnswers": [
+        "pitch increases",
+        "higher pitch"
+      ],
+      "markScheme": [
+        "1 mark: the pitch gets higher"
+      ],
+      "explanation": "Pitch depends on frequency: a higher frequency sounds higher pitched."
+    },
+    {
+      "id": "p6-sound-waves-q27",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A microphone contains a thin diaphragm that converts sound into an electrical signal. Why would a microphone also be expected to work well only over a limited range of frequencies?",
+      "options": [
+        "Microphones only detect transverse waves",
+        "Electrical signals cannot have frequencies above 20 Hz",
+        "Like the eardrum, the diaphragm can only vibrate in response to sound over a limited range of frequencies",
+        "Sound waves lose their frequency when they hit a solid"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Like the eardrum, the diaphragm can only vibrate in response to sound over a limited range of frequencies"
+      ],
+      "explanation": "The diaphragm is a solid with mass and stiffness, just like the eardrum. Converting sound waves into vibrations of a solid only works well over a limited frequency range."
+    }
+  ]
+}

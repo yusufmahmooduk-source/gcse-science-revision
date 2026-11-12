@@ -1,0 +1,754 @@
+{
+  "id": "p5-work-done",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "work-done",
+  "specRef": "4.5.2",
+  "title": "Work done and energy transfer",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Work is done when a force causes an object to move through a distance. The work done equals the force multiplied by the distance moved along the line of action of the force (W = Fs), and it equals the energy transferred.",
+    "explanation": [
+      "When a force makes an object move, the force does work on the object. Pushing a trolley along a corridor, lifting a box onto a shelf and a car's brakes slowing it down are all examples of work being done. Doing work is one way of transferring energy: the work done is equal to the energy transferred. If you push hard against a wall and it does not move, no work is done on the wall, because there is no displacement.",
+      "The work done is calculated using W = F s, where W is the work done in joules (J), F is the force in newtons (N) and s is the distance in metres (m). The distance must be the distance moved along the line of action of the force, that is, in the same direction as the force. When lifting an object at a steady speed, the force needed equals its weight and the distance is the vertical height it is raised, even if it is carried up a ramp.",
+      "One joule of work is done when a force of one newton causes a displacement of one metre. This means that 1 joule = 1 newton-metre (1 J = 1 N m), so a value such as 250 N m is the same as 250 J. Watch the units given in questions: distances in centimetres must be converted to metres by dividing by 100, and work in kilojoules must be converted to joules by multiplying by 1000.",
+      "When work is done, energy is transferred from one store to another. When a person pushes a box across a floor, energy is transferred from the chemical store of the person. When a car brakes, the friction force between the brake pads and the discs does work, transferring energy from the kinetic energy store of the car to the thermal energy store of the brakes, which then heat the surroundings.",
+      "Work done against frictional forces causes a rise in the temperature of an object. Rubbing your hands together warms them; a drill bit gets hot when drilling; a meteor glows as it moves through the atmosphere. In each case a force acts while the surfaces move past each other, so work is done, and the energy transferred increases the thermal energy store, raising the temperature."
+    ],
+    "keyFacts": [
+      "Work is done when a force causes an object to move through a distance.",
+      "Work done = force × distance moved along the line of action of the force: W = Fs.",
+      "Work done is measured in joules (J); force in newtons (N); distance in metres (m).",
+      "1 joule is the work done when a force of 1 N causes a displacement of 1 m.",
+      "1 J = 1 N m (newton-metre).",
+      "Work done = energy transferred.",
+      "Work done against friction causes a rise in the temperature of the object.",
+      "No displacement means no work done, however large the force.",
+      "Convert cm to m (÷ 100) and kJ to J (× 1000) before using W = Fs."
+    ],
+    "keyTerms": [
+      {
+        "term": "Work done",
+        "definition": "The energy transferred when a force moves an object through a distance; W = Fs."
+      },
+      {
+        "term": "Joule (J)",
+        "definition": "The unit of work and energy; the work done when a force of 1 N moves an object 1 m."
+      },
+      {
+        "term": "Newton-metre (N m)",
+        "definition": "A unit equal to the joule when used for work done: 1 N m = 1 J."
+      },
+      {
+        "term": "Displacement",
+        "definition": "The distance moved in a particular direction."
+      },
+      {
+        "term": "Line of action",
+        "definition": "The straight line along which a force acts; only distance along this line counts in W = Fs."
+      },
+      {
+        "term": "Friction",
+        "definition": "A force that opposes motion between surfaces; doing work against it raises the temperature."
+      },
+      {
+        "term": "Energy transfer",
+        "definition": "The movement of energy from one store to another, for example by a force doing work."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Work done",
+        "formula": "work done = force × distance (moved along the line of action of the force)",
+        "symbols": "W = F s",
+        "units": "W in joules (J), F in newtons (N), s in metres (m)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating work done",
+        "question": "A student pushes a trolley with a force of 20 N for a distance of 5.0 m. Calculate the work done.",
+        "steps": [
+          "W = F s.",
+          "W = 20 × 5.0.",
+          "W = 100 J."
+        ],
+        "answer": "100 J"
+      },
+      {
+        "title": "Converting centimetres to metres",
+        "question": "A drawer is pulled open with a force of 150 N through a distance of 80 cm. Calculate the work done.",
+        "steps": [
+          "Convert the distance: 80 cm ÷ 100 = 0.80 m.",
+          "W = F s = 150 × 0.80.",
+          "W = 120 J."
+        ],
+        "answer": "120 J"
+      },
+      {
+        "title": "Rearranging to find distance",
+        "question": "A horse does 2400 J of work pulling a cart with a constant force of 300 N. Calculate how far the cart moves.",
+        "steps": [
+          "Rearrange W = F s to s = W ÷ F.",
+          "s = 2400 ÷ 300.",
+          "s = 8.0 m."
+        ],
+        "answer": "8.0 m"
+      },
+      {
+        "title": "Two-step: lifting a mass given in grams",
+        "question": "A 2500 g box is lifted at a steady speed onto a shelf 1.2 m higher. Calculate the work done. (g = 9.8 N/kg)",
+        "steps": [
+          "Convert the mass: 2500 g = 2.5 kg.",
+          "Force needed = weight = m g = 2.5 × 9.8 = 24.5 N.",
+          "Distance along the line of action of the force = vertical height = 1.2 m.",
+          "W = F s = 24.5 × 1.2 = 29.4 J."
+        ],
+        "answer": "29.4 J"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Work done by a force",
+        "caption": "The push F moves the box a distance s in the direction of the force. The work done is F × s, and this equals the energy transferred.",
+        "svg": "<svg viewBox='0 0 420 220' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='140' x2='410' y2='140' stroke='currentColor' stroke-width='2'/><rect x='40' y='90' width='60' height='50' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-dasharray='5 3'/><rect x='290' y='90' width='60' height='50' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='230' y1='115' x2='278' y2='115'/></g><path d='M290 115 L278 109 L278 121 Z' fill='currentColor'/><g stroke='currentColor'><line x1='70' y1='160' x2='70' y2='180'/><line x1='320' y1='160' x2='320' y2='180'/><line x1='70' y1='170' x2='310' y2='170'/></g><path d='M320 170 L310 165 L310 175 Z' fill='currentColor'/><path d='M70 170 L80 165 L80 175 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='45' y='82'>start</text><text x='295' y='82'>finish</text><text x='196' y='104'>force F (push)</text><text x='150' y='195'>distance s moved along the</text><text x='150' y='210'>line of action of the force</text><text x='20' y='30'>Work done W = F × s</text><text x='20' y='48'>e.g. F = 20 N, s = 5 m: W = 20 × 5 = 100 J</text></g></svg>"
+      },
+      {
+        "title": "Energy transfer when a car brakes",
+        "caption": "Friction in the brakes does work on the car. Energy is transferred from the car's kinetic energy store to the thermal energy store of the brakes, raising their temperature.",
+        "svg": "<svg viewBox='0 0 420 200' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='70' width='120' height='60' rx='10' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='280' y='70' width='120' height='60' rx='10' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><line x1='140' y1='100' x2='268' y2='100' stroke='currentColor' stroke-width='3'/><path d='M280 100 L268 94 L268 106 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='80' y='97'>kinetic energy</text><text x='80' y='113'>store of car</text><text x='340' y='97'>thermal energy store</text><text x='340' y='113'>of brakes and air</text><text x='210' y='88'>work done by friction</text><text x='210' y='125'>(brakes and discs)</text><text x='210' y='30'>Braking: work done against friction</text><text x='210' y='170'>The brakes get hotter: their temperature rises.</text><text x='210' y='188'>Energy is dissipated to the surroundings.</text></g></svg>"
+      },
+      {
+        "title": "Work done lifting a box",
+        "caption": "When a box is lifted at steady speed, the force equals its weight and the distance is the vertical height, the distance moved along the line of action of the force.",
+        "svg": "<svg viewBox='0 0 420 240' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='210' x2='400' y2='210' stroke='currentColor' stroke-width='2'/><rect x='240' y='80' width='160' height='12' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><rect x='60' y='170' width='40' height='40' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-dasharray='5 3'/><rect x='300' y='40' width='40' height='40' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='320' y1='60' x2='320' y2='20'/></g><path d='M320 10 L314 22 L326 22 Z' fill='currentColor'/><g stroke='currentColor'><line x1='220' y1='92' x2='220' y2='200'/></g><path d='M220 210 L214 198 L226 198 Z' fill='currentColor'/><path d='M220 80 L214 92 L226 92 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='60' y='160'>box on floor</text><text x='300' y='105'>shelf</text><text x='345' y='30'>lifting force</text><text x='345' y='45'>= weight</text><text x='130' y='145'>height h</text><text x='20' y='30'>Work done lifting = weight × height</text><text x='20' y='48'>Only the vertical distance is along the</text><text x='20' y='64'>line of action of the weight.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that holding a heavy object still is doing work on it.",
+        "right": "In fact no work is done on the object because it does not move; work needs a displacement in the direction of the force."
+      },
+      {
+        "wrong": "Students often use any distance in W = Fs.",
+        "right": "In fact only the distance moved along the line of action of the force counts, e.g. the vertical height when lifting against gravity."
+      },
+      {
+        "wrong": "Students often think newton-metres and joules are different quantities when describing work.",
+        "right": "In fact for work done, 1 N m = 1 J; they are the same unit."
+      },
+      {
+        "wrong": "Students often think energy is 'used up' or destroyed by friction.",
+        "right": "In fact the work done against friction transfers energy to the thermal energy store, raising the temperature; the energy is dissipated, not destroyed."
+      }
+    ],
+    "realWorld": [
+      "Car and bicycle brakes rely on friction doing work to transfer kinetic energy to thermal energy; racing car brake discs can glow red hot.",
+      "Spacecraft need heat shields because work done against air resistance on re-entry raises their surface temperature enormously.",
+      "Engineers calculate the work done by lifts and cranes to choose motors with the right energy and power ratings.",
+      "Machinists use coolant on drills and lathes because work done against friction would otherwise overheat the tool."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "W = Fs must be recalled; it is not on the equation sheet.",
+      "Check the units before substituting: cm to m (÷ 100), kJ to J (× 1000), g to kg (÷ 1000) for weight.",
+      "When describing energy transfers, name both stores (e.g. kinetic store to thermal store) and the process (work done by friction).",
+      "If asked why something gets hot when rubbed, say work is done against friction, which increases the thermal energy store and the temperature.",
+      "Remember that 'newton-metre' and 'joule' are interchangeable for work done; you may be asked to convert."
+    ],
+    "summary": [
+      "Work is done when a force moves an object through a distance.",
+      "W = F s, with W in J, F in N and s in m.",
+      "1 J = 1 N m.",
+      "Work done equals energy transferred.",
+      "Work done against friction raises the temperature of the object.",
+      "Only distance along the line of action of the force counts."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "When is work done on an object?",
+      "back": "When a force causes the object to move through a distance."
+    },
+    {
+      "front": "Equation for work done?",
+      "back": "work done = force × distance (W = Fs)."
+    },
+    {
+      "front": "Unit of work done?",
+      "back": "The joule (J)."
+    },
+    {
+      "front": "Define one joule.",
+      "back": "The work done when a force of 1 N causes a displacement of 1 m."
+    },
+    {
+      "front": "1 newton-metre equals how many joules?",
+      "back": "1 joule."
+    },
+    {
+      "front": "What is work done equal to?",
+      "back": "The energy transferred."
+    },
+    {
+      "front": "What does work done against friction cause?",
+      "back": "A rise in the temperature of the object."
+    },
+    {
+      "front": "Which distance is used in W = Fs?",
+      "back": "The distance moved along the line of action of the force."
+    },
+    {
+      "front": "Work done: 50 N over 4 m?",
+      "back": "200 J."
+    },
+    {
+      "front": "Convert 35 cm to metres.",
+      "back": "0.35 m."
+    },
+    {
+      "front": "Is work done when you push a wall that does not move?",
+      "back": "No: there is no displacement."
+    },
+    {
+      "front": "Braking car: energy transfer?",
+      "back": "Kinetic energy store of car → thermal energy store of brakes (and surroundings)."
+    },
+    {
+      "front": "Rearrange W = Fs for force.",
+      "back": "F = W ÷ s."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-work-done-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation is used to calculate work done?",
+      "options": [
+        "W = F ÷ s",
+        "W = F × s",
+        "W = m × g",
+        "W = F + s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: W = F × s"
+      ],
+      "explanation": "Work done = force × distance moved along the line of action of the force. W = mg is the weight equation."
+    },
+    {
+      "id": "p5-work-done-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of work done?",
+      "options": [
+        "Newton (N)",
+        "Watt (W)",
+        "Joule (J)",
+        "Newton per metre (N/m)"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Joule (J)"
+      ],
+      "explanation": "Work done is energy transferred, so it is measured in joules. Watts measure power and N/m is the unit of spring constant."
+    },
+    {
+      "id": "p5-work-done-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is equal to 1 joule?",
+      "options": [
+        "1 newton-metre",
+        "1 newton per metre",
+        "1 watt per second",
+        "1 newton per kilogram"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 1 newton-metre"
+      ],
+      "explanation": "One joule is the work done when 1 N moves an object 1 m, so 1 J = 1 N m."
+    },
+    {
+      "id": "p5-work-done-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A wooden block is pushed along a rough bench. What effect does the work done against friction have on the block?",
+      "options": [
+        "Its mass increases",
+        "Its temperature rises",
+        "Its weight decreases",
+        "Its gravitational potential energy increases"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Its temperature rises"
+      ],
+      "explanation": "Work done against friction transfers energy to the thermal energy store, so the temperature of the block (and bench) rises."
+    },
+    {
+      "id": "p5-work-done-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In which situation is no work done on the object?",
+      "options": [
+        "A man lifts a suitcase onto a rack",
+        "A horse pulls a cart along a road",
+        "A student pushes hard against a wall that does not move",
+        "A car's brakes slow it down"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A student pushes hard against a wall that does not move"
+      ],
+      "explanation": "Work needs the force to cause a displacement. The wall does not move, so no work is done on it, however hard the student pushes."
+    },
+    {
+      "id": "p5-work-done-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A force of 20 N moves a box 3 m in the direction of the force. How much work is done?",
+      "options": [
+        "6.7 J",
+        "23 J",
+        "0.15 J",
+        "60 J"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 60 J"
+      ],
+      "explanation": "W = F s = 20 × 3 = 60 J. Dividing or adding the values gives the other answers."
+    },
+    {
+      "id": "p5-work-done-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The force pushing a trolley is doubled and the trolley is pushed the same distance. What happens to the work done?",
+      "options": [
+        "It doubles",
+        "It halves",
+        "It stays the same",
+        "It quadruples"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It doubles"
+      ],
+      "explanation": "W = F s. With s unchanged, work done is directly proportional to force, so it doubles."
+    },
+    {
+      "id": "p5-work-done-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A box with a weight of 100 N is pushed at a steady speed up a ramp 5 m long onto a platform 2 m high. Ignoring friction, how much work is done against gravity?",
+      "options": [
+        "500 J",
+        "200 J",
+        "700 J",
+        "50 J"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 200 J"
+      ],
+      "explanation": "Work done against gravity uses the distance along the line of action of the weight, which is vertical: 100 × 2 = 200 J. The 5 m ramp length is not in the direction of the weight."
+    },
+    {
+      "id": "p5-work-done-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A car brakes and stops. Which describes the main energy transfer?",
+      "options": [
+        "Thermal energy store of brakes → kinetic energy store of car",
+        "Chemical energy store of fuel → kinetic energy store of car",
+        "Kinetic energy store of car → gravitational potential energy store",
+        "Kinetic energy store of car → thermal energy store of brakes and surroundings"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Kinetic energy store of car → thermal energy store of brakes and surroundings"
+      ],
+      "explanation": "Friction in the brakes does work on the car, transferring energy from its kinetic store to the thermal store of the brakes, which then heat the surroundings."
+    },
+    {
+      "id": "p5-work-done-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A force does 75 N m of work. What is this in joules?",
+      "options": [
+        "0.75 J",
+        "7.5 J",
+        "75 J",
+        "7500 J"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 75 J"
+      ],
+      "explanation": "1 N m = 1 J, so 75 N m = 75 J. No conversion factor is needed."
+    },
+    {
+      "id": "p5-work-done-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In W = Fs, which unit must the distance be in to give work done in joules?",
+      "options": [
+        "Centimetres",
+        "Metres",
+        "Kilometres",
+        "Millimetres"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Metres"
+      ],
+      "explanation": "With force in newtons and distance in metres, work done is in joules. Other distance units must be converted to metres first."
+    },
+    {
+      "id": "p5-work-done-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A force of 20 N pushes a trolley a distance of 5 m. Calculate the work done.",
+      "numericAnswer": 100,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: W = 20 × 5",
+        "1 mark: 100 J"
+      ],
+      "explanation": "W = F s = 20 × 5 = 100 J."
+    },
+    {
+      "id": "p5-work-done-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 150 N is used to pull a drawer open a distance of 80 cm. Calculate the work done.",
+      "numericAnswer": 120,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: 80 cm = 0.80 m",
+        "1 mark: W = 150 × 0.80",
+        "1 mark: 120 J"
+      ],
+      "explanation": "Convert to metres first: 80 ÷ 100 = 0.80 m. W = 150 × 0.80 = 120 J. Using 80 directly gives 12 000 J, which is 100 times too big."
+    },
+    {
+      "id": "p5-work-done-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A horse does 2400 J of work pulling a cart with a force of 300 N. Calculate the distance the cart moves.",
+      "numericAnswer": 8,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: s = W ÷ F",
+        "1 mark: s = 2400 ÷ 300",
+        "1 mark: 8 m"
+      ],
+      "explanation": "Rearrange W = F s to s = W ÷ F = 2400 ÷ 300 = 8 m."
+    },
+    {
+      "id": "p5-work-done-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A student does 4.5 kJ of work pushing a car 15 m. Calculate the force the student applies.",
+      "numericAnswer": 300,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 4.5 kJ = 4500 J",
+        "1 mark: F = 4500 ÷ 15",
+        "1 mark: 300 N"
+      ],
+      "explanation": "Convert kilojoules to joules: 4.5 × 1000 = 4500 J. F = W ÷ s = 4500 ÷ 15 = 300 N."
+    },
+    {
+      "id": "p5-work-done-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A box of mass 2.5 kg is lifted at a steady speed through a height of 1.2 m. Calculate the work done on the box. (g = 9.8 N/kg)",
+      "numericAnswer": 29.4,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: weight = 2.5 × 9.8",
+        "1 mark: = 24.5 N",
+        "1 mark: W = 24.5 × 1.2",
+        "1 mark: 29.4 J"
+      ],
+      "explanation": "The lifting force equals the weight, 24.5 N. The distance along the line of action is the height, 1.2 m. W = 24.5 × 1.2 = 29.4 J."
+    },
+    {
+      "id": "p5-work-done-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A car's brakes exert a constant force of 6000 N. The car travels 35 m while braking. Calculate the work done by the brakes.",
+      "numericAnswer": 210000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: W = 6000 × 35",
+        "1 mark: 210 000 J (210 kJ)"
+      ],
+      "explanation": "W = F s = 6000 × 35 = 210 000 J. This energy is transferred from the car's kinetic store to the thermal store of the brakes."
+    },
+    {
+      "id": "p5-work-done-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A shopper does 540 J of work pushing a trolley a distance of 450 cm. Calculate the force applied.",
+      "numericAnswer": 120,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 450 cm = 4.5 m",
+        "1 mark: F = 540 ÷ 4.5",
+        "1 mark: 120 N"
+      ],
+      "explanation": "Convert: 450 ÷ 100 = 4.5 m. F = W ÷ s = 540 ÷ 4.5 = 120 N."
+    },
+    {
+      "id": "p5-work-done-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A crane lifts a 600 kg load at a steady speed. The crane does 35 280 J of work on the load. Calculate the height through which the load is lifted. (g = 9.8 N/kg)",
+      "numericAnswer": 6,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: weight = 600 × 9.8 = 5880 N",
+        "1 mark: s = W ÷ F",
+        "1 mark: s = 35 280 ÷ 5880",
+        "1 mark: 6.0 m"
+      ],
+      "explanation": "The lifting force equals the weight: 600 × 9.8 = 5880 N. Then s = W ÷ F = 35 280 ÷ 5880 = 6.0 m."
+    },
+    {
+      "id": "p5-work-done-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by work done.",
+      "acceptedAnswers": [
+        "force moves object through a distance",
+        "energy transferred",
+        "force causes displacement"
+      ],
+      "markScheme": [
+        "1 mark: work is done when a force causes an object to move through a distance (accept energy transferred by a force)"
+      ],
+      "explanation": "Work done is the energy transferred when a force moves an object."
+    },
+    {
+      "id": "p5-work-done-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Write down the equation that links work done, force and distance, and give the unit of work done.",
+      "acceptedAnswers": [
+        "W = Fs",
+        "work done = force × distance",
+        "joule",
+        "J"
+      ],
+      "markScheme": [
+        "1 mark: work done = force × distance (W = Fs)",
+        "1 mark: joules (J) (accept newton-metres)"
+      ],
+      "explanation": "W = F s is a recall equation; work done is measured in joules."
+    },
+    {
+      "id": "p5-work-done-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define one joule in terms of force and distance.",
+      "acceptedAnswers": [
+        "1 N",
+        "1 m",
+        "force of one newton",
+        "displacement of one metre"
+      ],
+      "markScheme": [
+        "1 mark: work done when a force of 1 newton",
+        "1 mark: causes a displacement of 1 metre (in the direction of the force)"
+      ],
+      "explanation": "This definition is why 1 J = 1 N m."
+    },
+    {
+      "id": "p5-work-done-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A cyclist brakes hard to stop. Explain why the brake pads become hot.",
+      "acceptedAnswers": [
+        "friction",
+        "work done against friction",
+        "kinetic energy store",
+        "thermal energy store",
+        "temperature rises"
+      ],
+      "markScheme": [
+        "1 mark: friction between the brake pads and the wheel/disc does work",
+        "1 mark: energy is transferred from the kinetic energy store of the bike (and cyclist)",
+        "1 mark: to the thermal energy store of the brake pads, so their temperature rises"
+      ],
+      "explanation": "Braking is work done against friction. The work done transfers the bike's kinetic energy to the thermal store of the brakes."
+    },
+    {
+      "id": "p5-work-done-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A person pushes a heavy shopping trolley along a flat floor at a steady speed. Describe the energy transfer involved.",
+      "acceptedAnswers": [
+        "chemical energy store",
+        "person",
+        "work done",
+        "thermal energy store",
+        "surroundings",
+        "friction"
+      ],
+      "markScheme": [
+        "1 mark: energy transferred from the chemical energy store of the person (by work done by the push)",
+        "1 mark: to the thermal energy store of the trolley wheels / floor / surroundings (work done against friction)"
+      ],
+      "explanation": "At steady speed the trolley's kinetic store does not change, so the work done by the person is transferred to thermal energy through friction."
+    },
+    {
+      "id": "p5-work-done-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "On a cold day, a girl rubs her hands together to warm them. Explain, in terms of work done, why her hands get warmer.",
+      "acceptedAnswers": [
+        "force",
+        "hands move",
+        "work done against friction",
+        "thermal energy store",
+        "temperature rises"
+      ],
+      "markScheme": [
+        "1 mark: a force is applied and the hands move a distance against friction",
+        "1 mark: so work is done (against friction)",
+        "1 mark: energy is transferred to the thermal energy store of the hands, increasing their temperature"
+      ],
+      "explanation": "Moving surfaces against friction means a force acts through a distance, so work is done and the thermal store of the hands increases."
+    },
+    {
+      "id": "p5-work-done-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A weightlifter holds a heavy bar still above his head for 3 seconds. Explain why he does no work on the bar during this time.",
+      "acceptedAnswers": [
+        "no movement",
+        "no displacement",
+        "distance is zero",
+        "W = F × 0"
+      ],
+      "markScheme": [
+        "1 mark: the bar does not move / there is no displacement",
+        "1 mark: so W = F × s = F × 0 = 0"
+      ],
+      "explanation": "He exerts a large force, and his muscles get tired, but the bar does not move, so the work done on the bar is zero."
+    },
+    {
+      "id": "p5-work-done-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a student could measure the work done in pulling a wooden block across a bench at a steady speed.",
+      "markScheme": [
+        "Indicative content:",
+        "Attach a newtonmeter to the block.",
+        "Pull the block horizontally at a steady speed so the reading is constant.",
+        "Read the force from the newtonmeter (in N).",
+        "Mark a start and finish point; measure the distance moved with a metre rule (in m).",
+        "Convert distance to metres if measured in cm.",
+        "Calculate work done using W = F × s.",
+        "Repeat and take a mean to improve accuracy.",
+        "Level 2 (3 to 4 marks): clear method measuring force and distance, with W = Fs used to calculate work done.",
+        "Level 1 (1 to 2 marks): some relevant steps, e.g. use a newtonmeter or measure distance."
+      ],
+      "explanation": "Work done needs two measurements: the force (newtonmeter) and the distance moved along the line of the force (metre rule). Then W = F s."
+    },
+    {
+      "id": "p5-work-done-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A car of mass 1200 kg is travelling along a level road when the driver brakes. The brakes exert a constant force of 6000 N and the car stops in 35 m.\nExplain the energy transfers that take place as the car stops, in terms of work done. Include a calculation of the work done by the brakes.",
+      "markScheme": [
+        "Indicative content:",
+        "The brakes apply a frictional force opposing the motion.",
+        "The force acts over a distance, so work is done (by friction / against the car's motion).",
+        "W = F s = 6000 × 35 = 210 000 J (210 kJ).",
+        "Energy is transferred from the kinetic energy store of the car.",
+        "The kinetic energy store decreases to zero as the car stops.",
+        "Energy is transferred to the thermal energy store of the brakes (pads and discs), raising their temperature.",
+        "Energy is then dissipated to the thermal store of the surroundings (air), and a little by sound.",
+        "The work done equals the energy transferred, so about 210 kJ is transferred from the kinetic store.",
+        "Level 3 (5 to 6 marks): correct calculation with unit, plus a clear, linked explanation of work done by friction and the transfer from kinetic to thermal stores with temperature rise.",
+        "Level 2 (3 to 4 marks): correct calculation or a good explanation of the energy transfer, with some links.",
+        "Level 1 (1 to 2 marks): simple statements, e.g. brakes get hot, or a partly correct calculation."
+      ],
+      "explanation": "Braking is work done by friction. W = F s = 210 000 J, which is the energy transferred from the car's kinetic store to the thermal store of the brakes and then the surroundings."
+    }
+  ]
+}

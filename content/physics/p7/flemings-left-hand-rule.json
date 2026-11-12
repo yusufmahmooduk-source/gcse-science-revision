@@ -1,0 +1,708 @@
+{
+  "id": "p7-flemings-left-hand-rule",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "flemings-left-hand-rule",
+  "specRef": "4.7.2.2",
+  "title": "Fleming's left-hand rule",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "When a conductor carrying a current is placed in a magnetic field, the magnet and the conductor exert a force on each other (the motor effect). Fleming's left-hand rule gives the direction of the force, and its size is F = BIl for a conductor at right angles to the field.",
+    "explanation": [
+      "When a conductor carrying a current is placed in a magnetic field, the magnet producing the field and the conductor exert a force on each other. This is called the motor effect. It happens because the current produces its own magnetic field around the wire, and this field interacts with the field of the magnet. The force is greatest when the conductor is at right angles to the magnetic field, and there is no force if the conductor is parallel to the field.",
+      "Fleming's left-hand rule shows the relative directions of the force, the current and the magnetic field. Hold the thumb, first finger and second finger of your left hand at right angles to each other. Point the First finger in the direction of the Field (north to south) and the seCond finger in the direction of the Current (conventional current, positive to negative). The thuMb then points in the direction of the force, which causes Motion. Reversing either the current or the field reverses the force; reversing both leaves the force unchanged.",
+      "The size of the force on the conductor depends on three factors: the magnetic flux density (the strength of the magnetic field), the size of the current in the conductor, and the length of the conductor that is inside the magnetic field. Increasing any of these increases the force.",
+      "For a conductor at right angles to a magnetic field, the force is calculated using F = B I l, where F is the force in newtons (N), B is the magnetic flux density in tesla (T), I is the current in amperes (A) and l is the length of conductor in the field in metres (m). This equation is given on the equation sheet, but you must be able to select it and apply it. Lengths are often given in centimetres and flux densities in millitesla, so convert to metres and tesla first.",
+      "Magnetic flux density is a measure of the strength of a magnetic field: how concentrated the field lines are. A strong laboratory magnet might have a flux density of about 0.1 T to 1 T, while the Earth's field is only about 0.00005 T (50 μT). Because B appears in F = BIl, rearranging gives B = F ÷ (I l), so one tesla is the flux density that produces a force of 1 N on 1 m of wire carrying 1 A at right angles to the field."
+    ],
+    "keyFacts": [
+      "Motor effect: a current-carrying conductor in a magnetic field experiences a force.",
+      "The magnet and the conductor exert equal and opposite forces on each other.",
+      "Fleming's left-hand rule: First finger = Field, seCond finger = Current, thuMb = Motion (force).",
+      "The field direction is north to south; the current direction is conventional (+ to −).",
+      "Reversing the current or the field reverses the force.",
+      "Force increases with magnetic flux density, current and length of conductor in the field.",
+      "F = B I l (conductor at right angles to the field); given on the equation sheet.",
+      "Magnetic flux density is measured in tesla (T); 1 mT = 0.001 T.",
+      "No force acts if the conductor is parallel to the magnetic field."
+    ],
+    "keyTerms": [
+      {
+        "term": "Motor effect",
+        "definition": "The force produced when a current-carrying conductor is placed in a magnetic field."
+      },
+      {
+        "term": "Fleming's left-hand rule",
+        "definition": "A rule using the left hand to find the direction of the force on a current-carrying conductor in a magnetic field."
+      },
+      {
+        "term": "Magnetic flux density (B)",
+        "definition": "A measure of the strength of a magnetic field, measured in tesla (T)."
+      },
+      {
+        "term": "Tesla (T)",
+        "definition": "The unit of magnetic flux density."
+      },
+      {
+        "term": "Conventional current",
+        "definition": "The direction of current from the positive terminal to the negative terminal of a supply."
+      },
+      {
+        "term": "Conductor",
+        "definition": "A material, such as a copper wire, that allows an electric current to flow through it."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Force on a conductor in a magnetic field",
+        "formula": "force = magnetic flux density × current × length",
+        "symbols": "F = B I l",
+        "units": "F in newtons (N), B in tesla (T), I in amperes (A), l in metres (m)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating the force",
+        "question": "A wire 0.50 m long carries a current of 3.0 A at right angles to a magnetic field of flux density 0.20 T. Calculate the force on the wire.",
+        "steps": [
+          "Write the equation: F = B I l.",
+          "Substitute: F = 0.20 × 3.0 × 0.50.",
+          "F = 0.30 N."
+        ],
+        "answer": "0.30 N"
+      },
+      {
+        "title": "Converting centimetres and millitesla",
+        "question": "A 12 cm length of wire in a field of 40 mT carries a current of 2.5 A at right angles to the field. Calculate the force.",
+        "steps": [
+          "Convert: l = 12 cm = 0.12 m; B = 40 mT = 0.040 T.",
+          "F = B I l = 0.040 × 2.5 × 0.12.",
+          "F = 0.012 N."
+        ],
+        "answer": "0.012 N"
+      },
+      {
+        "title": "Rearranging to find the current",
+        "question": "A force of 0.060 N acts on a wire 8.0 cm long at right angles to a field of 0.15 T. Calculate the current.",
+        "steps": [
+          "Rearrange: I = F ÷ (B l).",
+          "Convert: l = 8.0 cm = 0.080 m.",
+          "I = 0.060 ÷ (0.15 × 0.080) = 0.060 ÷ 0.012 = 5.0 A."
+        ],
+        "answer": "5.0 A"
+      },
+      {
+        "title": "Rearranging to find flux density",
+        "question": "A wire 6.0 cm long carrying 1.5 A at right angles to a magnetic field experiences a force of 0.018 N. Calculate the magnetic flux density.",
+        "steps": [
+          "Rearrange: B = F ÷ (I l).",
+          "l = 0.060 m, so I l = 1.5 × 0.060 = 0.090.",
+          "B = 0.018 ÷ 0.090 = 0.20 T."
+        ],
+        "answer": "0.20 T"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Fleming's left-hand rule",
+        "caption": "Hold the thumb and first two fingers of the left hand at right angles. First finger: Field (N to S). seCond finger: Current (conventional, + to −). thuMb: Motion (the direction of the force). The current arrow is drawn coming out of the page towards you.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2'><line x1='160' y1='150' x2='160' y2='40'/><line x1='160' y1='150' x2='310' y2='150'/><line x1='160' y1='150' x2='80' y2='225'/></g><polygon points='160.0,33.7 166.3,46.3 153.7,46.3' fill='currentColor'/><polygon points='316.3,150.0 303.7,156.3 303.7,143.7' fill='currentColor'/><polygon points='75.4,229.3 80.3,216.1 88.9,225.3' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='170' y='40'>thuMb: Motion (force)</text><text x='200' y='140'>First finger: Field (N to S)</text><text x='20' y='248'>seCond finger: Current (+ to −)</text><text x='260' y='215'>Left hand: all three</text><text x='260' y='231'>at right angles</text></g></svg>"
+      },
+      {
+        "title": "Force on a wire between two magnetic poles",
+        "caption": "The field points from N (left) to S (right). The current flows into the page. Fleming's left-hand rule gives a downward force on the wire.",
+        "svg": "<svg viewBox='0 0 420 280' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='80' width='70' height='130' fill='#fca5a5' fill-opacity='0.5'/><rect x='290' y='80' width='70' height='130' fill='#93c5fd' fill-opacity='0.5'/></g><line x1='110' y1='95' x2='290' y2='95' stroke='currentColor' stroke-dasharray='5 4'/><polygon points='144.2,95.0 135.8,99.2 135.8,90.8' fill='currentColor'/><line x1='110' y1='120' x2='290' y2='120' stroke='currentColor' stroke-dasharray='5 4'/><polygon points='144.2,120.0 135.8,124.2 135.8,115.8' fill='currentColor'/><line x1='110' y1='145' x2='290' y2='145' stroke='currentColor' stroke-dasharray='5 4'/><polygon points='144.2,145.0 135.8,149.2 135.8,140.8' fill='currentColor'/><line x1='110' y1='170' x2='290' y2='170' stroke='currentColor' stroke-dasharray='5 4'/><polygon points='144.2,170.0 135.8,174.2 135.8,165.8' fill='currentColor'/><line x1='110' y1='195' x2='290' y2='195' stroke='currentColor' stroke-dasharray='5 4'/><polygon points='144.2,195.0 135.8,199.2 135.8,190.8' fill='currentColor'/><circle cx='200' cy='145' r='14' fill='#fde68a' stroke='currentColor'/><line x1='190' y1='135' x2='210' y2='155' stroke='currentColor' stroke-width='2'/><line x1='190' y1='155' x2='210' y2='135' stroke='currentColor' stroke-width='2'/><line x1='200' y1='162' x2='200' y2='240' stroke='currentColor' stroke-width='3'/><polygon points='200.0,251.0 193.0,237.0 207.0,237.0' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='68' y='150'>N</text><text x='318' y='150'>S</text><text x='120' y='70'>magnetic field: N to S</text><text x='120' y='45'>wire in the centre: current into page (×)</text><text x='212' y='240'>force on wire: downwards</text><text x='20' y='270'>Reverse the current or the field and the force reverses (upwards).</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use their right hand for the motor effect.",
+        "right": "In fact the motor effect uses Fleming's LEFT-hand rule (the right-hand grip rule is for the field around a wire)."
+      },
+      {
+        "wrong": "Students often point the first finger from south to north.",
+        "right": "In fact the field direction is from north to south, and the current is conventional current, from + to −."
+      },
+      {
+        "wrong": "Students often think there is a force whatever the angle between the wire and the field.",
+        "right": "In fact the force is greatest at right angles and zero when the wire is parallel to the field; F = BIl applies only at right angles."
+      },
+      {
+        "wrong": "Students often substitute the length in centimetres or B in millitesla straight into F = BIl.",
+        "right": "In fact l must be in metres and B in tesla to give the force in newtons."
+      },
+      {
+        "wrong": "Students often think reversing both the current and the field reverses the force.",
+        "right": "In fact reversing both cancels out, so the force stays in the same direction."
+      }
+    ],
+    "realWorld": [
+      "Electric motors in cars, fans, drills and washing machines use the motor effect to produce rotation.",
+      "Moving-coil loudspeakers and headphones use the force on a coil in a magnetic field to move a cone.",
+      "Railguns and some experimental magnetic launch systems use the force on a large current in a strong field."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only (both separate Physics and Combined Science).",
+      "Show that Fleming's left-hand rule represents the relative orientation of the force, the current and the magnetic field.",
+      "Recall the factors that affect the size of the force: magnetic flux density, current and length of conductor in the field.",
+      "Apply F = B I l (given on the equation sheet) for a conductor at right angles to a magnetic field, with B in tesla."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always write F = BIl, then substitute with units converted (cm to m, mT to T) before calculating.",
+      "Practise Fleming's left-hand rule physically; in the exam, label the field (N to S) and current (+ to −) on the diagram before rotating your hand.",
+      "When asked how to increase the force, name the three factors: stronger magnet (greater flux density), larger current, longer length of wire in the field.",
+      "If asked how to reverse the force, say reverse the current OR reverse the magnetic field (swap the poles), not both."
+    ],
+    "summary": [
+      "A current-carrying wire in a magnetic field feels a force: the motor effect.",
+      "Fleming's left-hand rule: First finger Field, seCond finger Current, thuMb Motion.",
+      "Reversing current or field reverses the force.",
+      "F = B I l, with B in T, I in A, l in m and F in N.",
+      "Force increases with flux density, current and length in the field.",
+      "No force when the wire is parallel to the field."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the motor effect?",
+      "back": "The force on a current-carrying conductor placed in a magnetic field."
+    },
+    {
+      "front": "In Fleming's left-hand rule, what does the first finger represent?",
+      "back": "The magnetic field (N to S)."
+    },
+    {
+      "front": "In Fleming's left-hand rule, what does the second finger represent?",
+      "back": "The current (conventional, + to −)."
+    },
+    {
+      "front": "In Fleming's left-hand rule, what does the thumb represent?",
+      "back": "The force (motion)."
+    },
+    {
+      "front": "Equation for the force on a conductor in a magnetic field",
+      "back": "F = B I l (force = magnetic flux density × current × length)."
+    },
+    {
+      "front": "Unit of magnetic flux density",
+      "back": "Tesla (T)."
+    },
+    {
+      "front": "Three factors that affect the size of the motor effect force",
+      "back": "Magnetic flux density, current, length of conductor in the field."
+    },
+    {
+      "front": "How can the direction of the force be reversed?",
+      "back": "Reverse the current or reverse the magnetic field."
+    },
+    {
+      "front": "What happens if both current and field are reversed?",
+      "back": "The force stays in the same direction."
+    },
+    {
+      "front": "When is the force on a wire in a field zero?",
+      "back": "When the wire is parallel to the field (no current)."
+    },
+    {
+      "front": "Convert 25 mT to tesla.",
+      "back": "0.025 T."
+    },
+    {
+      "front": "Rearrange F = BIl for I.",
+      "back": "I = F ÷ (B l)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-flemings-left-hand-rule-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What name is given to the force on a current-carrying wire in a magnetic field?",
+      "options": [
+        "The generator effect",
+        "Induced magnetism",
+        "The motor effect",
+        "Static electricity"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The motor effect"
+      ],
+      "explanation": "The motor effect is the force on a current-carrying conductor in a magnetic field. The generator effect is when a p.d. is induced by movement."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In Fleming's left-hand rule, which finger points in the direction of the magnetic field?",
+      "options": [
+        "First finger",
+        "Thumb",
+        "Second finger",
+        "Little finger"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: First finger"
+      ],
+      "explanation": "First finger = Field. seCond finger = Current. thuMb = Motion (force)."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of magnetic flux density?",
+      "options": [
+        "Newton (N)",
+        "Ampere (A)",
+        "Weber per amp",
+        "Tesla (T)"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Tesla (T)"
+      ],
+      "explanation": "Magnetic flux density B is measured in tesla, T."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which change would NOT increase the force on a current-carrying wire in a magnetic field?",
+      "options": [
+        "Using a stronger magnet",
+        "Reversing the direction of the current",
+        "Increasing the length of wire in the field",
+        "Increasing the current"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Reversing the direction of the current"
+      ],
+      "explanation": "Reversing the current reverses the direction of the force but does not change its size."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A wire carries a current at right angles to a magnetic field and experiences an upward force. Both the current and the magnetic field are reversed. What is the force now?",
+      "options": [
+        "Downwards",
+        "Zero",
+        "Upwards",
+        "Sideways"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Upwards"
+      ],
+      "explanation": "Reversing one reverses the force; reversing both reverses it twice, so it is still upwards."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A wire lies parallel to the magnetic field lines between two poles and carries a current. What is the force on the wire?",
+      "options": [
+        "Zero",
+        "Maximum",
+        "Half the maximum",
+        "It depends on the direction of the current"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Zero"
+      ],
+      "explanation": "There is no force when the current is parallel to the field. The force is greatest when the wire is at right angles to the field."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The field between two poles points from left to right across the page. A wire carries current into the page. In which direction is the force on the wire?",
+      "options": [
+        "Up the page",
+        "Out of the page",
+        "To the left",
+        "Down the page"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Down the page"
+      ],
+      "explanation": "First finger right (field), second finger into the page (current): the thumb points down the page."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The field points into the page and the current in a wire flows from left to right across the page. What is the direction of the force on the wire?",
+      "options": [
+        "Down the page",
+        "Up the page",
+        "Into the page",
+        "To the right"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Up the page"
+      ],
+      "explanation": "First finger into the page, second finger to the right: the thumb points up the page. The force is always at right angles to both the field and the current."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A wire in a magnetic field experiences a force of 0.20 N. The current is doubled and the length of wire in the field is halved. What is the new force?",
+      "options": [
+        "0.10 N",
+        "0.40 N",
+        "0.20 N",
+        "0.80 N"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0.20 N"
+      ],
+      "explanation": "F = BIl: doubling I doubles F, halving l halves F, so the overall force is unchanged at 0.20 N."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A wire carrying a current is in a magnetic field. Which statement about the forces is correct?",
+      "options": [
+        "The wire and the magnet exert equal and opposite forces on each other",
+        "Only the magnet experiences a force",
+        "Only the wire experiences a force",
+        "The force on the magnet is larger because it is bigger"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The wire and the magnet exert equal and opposite forces on each other"
+      ],
+      "explanation": "The magnet and the conductor exert a force on each other. By Newton's third law these forces are equal in size and opposite in direction."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A wire 0.50 m long carries a current of 3.0 A at right angles to a magnetic field of flux density 0.20 T. Calculate the force on the wire.",
+      "numericAnswer": 0.3,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 0.20 × 3.0 × 0.50",
+        "1 mark: F = 0.30 N"
+      ],
+      "explanation": "F = BIl = 0.20 × 3.0 × 0.50 = 0.30 N."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 12 cm length of wire carrying a current of 2.5 A is placed at right angles to a magnetic field of flux density 0.40 T. Calculate the force on the wire.",
+      "numericAnswer": 0.12,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: l = 0.12 m",
+        "1 mark: F = 0.40 × 2.5 × 0.12",
+        "1 mark: F = 0.12 N"
+      ],
+      "explanation": "Convert 12 cm to 0.12 m, then F = BIl = 0.40 × 2.5 × 0.12 = 0.12 N. Using 12 instead of 0.12 gives 12 N, which is 100 times too big."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A wire 25 cm long carries a current of 4.0 A at right angles to a magnetic field of flux density 50 mT. Calculate the force on the wire.",
+      "numericAnswer": 0.05,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: B = 0.050 T and l = 0.25 m",
+        "1 mark: F = 0.050 × 4.0 × 0.25",
+        "1 mark: F = 0.050 N"
+      ],
+      "explanation": "Convert both units first: 50 mT = 0.050 T, 25 cm = 0.25 m. F = 0.050 × 4.0 × 0.25 = 0.050 N."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 0.060 N acts on a wire 8.0 cm long at right angles to a magnetic field of flux density 0.15 T. Calculate the current in the wire.",
+      "numericAnswer": 5,
+      "tolerance": 0.02,
+      "unit": "A",
+      "markScheme": [
+        "1 mark: I = F ÷ (B l)",
+        "1 mark: I = 0.060 ÷ (0.15 × 0.080)",
+        "1 mark: I = 5.0 A"
+      ],
+      "explanation": "Rearrange F = BIl to I = F ÷ (Bl). Bl = 0.15 × 0.080 = 0.012, so I = 0.060 ÷ 0.012 = 5.0 A."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A wire 6.0 cm long carrying a current of 1.5 A at right angles to a magnetic field experiences a force of 0.018 N. Calculate the magnetic flux density.",
+      "numericAnswer": 0.2,
+      "tolerance": 0.02,
+      "unit": "T",
+      "markScheme": [
+        "1 mark: B = F ÷ (I l)",
+        "1 mark: B = 0.018 ÷ (1.5 × 0.060)",
+        "1 mark: B = 0.20 T"
+      ],
+      "explanation": "Rearrange: B = F ÷ (Il) = 0.018 ÷ 0.090 = 0.20 T. Remember to convert 6.0 cm to 0.060 m."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A wire carrying a current of 0.60 A is placed at right angles to a magnetic field of flux density 0.80 T. The force on the wire is 0.24 N. Calculate the length of wire in the field in centimetres.",
+      "numericAnswer": 50,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: l = F ÷ (B I)",
+        "1 mark: l = 0.24 ÷ (0.80 × 0.60) = 0.50 m",
+        "1 mark: 50 cm"
+      ],
+      "explanation": "l = F ÷ (BI) = 0.24 ÷ 0.48 = 0.50 m, which is 50 cm."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 5.0 cm length of wire carries a current of 400 mA at right angles to a magnetic field of 0.25 T. Calculate the force on the wire in millinewtons (mN).",
+      "numericAnswer": 5,
+      "tolerance": 0.02,
+      "unit": "mN",
+      "markScheme": [
+        "1 mark: I = 0.40 A and l = 0.050 m",
+        "1 mark: F = 0.25 × 0.40 × 0.050 = 0.0050 N",
+        "1 mark: 5.0 mN"
+      ],
+      "explanation": "F = BIl = 0.25 × 0.40 × 0.050 = 0.0050 N. Multiply by 1000 to convert to mN: 5.0 mN."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "State three factors that affect the size of the force on a current-carrying conductor in a magnetic field.",
+      "acceptedAnswers": [
+        "magnetic flux density",
+        "strength of the magnet",
+        "current",
+        "length"
+      ],
+      "markScheme": [
+        "1 mark: magnetic flux density (strength of the magnetic field)",
+        "1 mark: size of the current",
+        "1 mark: length of the conductor in the field"
+      ],
+      "explanation": "These are the three quantities in F = BIl."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two ways of reversing the direction of the force on a current-carrying wire in a magnetic field.",
+      "acceptedAnswers": [
+        "reverse the current",
+        "reverse the field",
+        "swap the poles"
+      ],
+      "markScheme": [
+        "1 mark: reverse the direction of the current",
+        "1 mark: reverse the direction of the magnetic field (swap the poles round)"
+      ],
+      "explanation": "Either change on its own reverses the force; doing both leaves the force unchanged."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a current-carrying wire placed in a magnetic field experiences a force.",
+      "acceptedAnswers": [
+        "current produces a magnetic field",
+        "fields interact"
+      ],
+      "markScheme": [
+        "1 mark: the current produces a magnetic field around the wire",
+        "1 mark: this field interacts with the field of the magnet, producing a force"
+      ],
+      "explanation": "The motor effect is the interaction between the field of the current and the field of the permanent magnet."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe how to use Fleming's left-hand rule to find the direction of the force on a wire.",
+      "acceptedAnswers": [
+        "first finger field",
+        "second finger current",
+        "thumb force",
+        "left hand",
+        "right angles"
+      ],
+      "markScheme": [
+        "1 mark: hold the thumb, first and second fingers of the left hand at right angles; first finger along the field (N to S)",
+        "1 mark: second finger along the current (+ to −); the thumb gives the direction of the force (motion)"
+      ],
+      "explanation": "The rule uses the left hand. Each digit is at right angles to the other two."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student says that a 2 cm length of wire carrying 3 A in a field of 0.5 T experiences a force of 3 N. Identify the mistake and give the correct force.",
+      "acceptedAnswers": [
+        "length in cm",
+        "convert to metres",
+        "0.03 N"
+      ],
+      "markScheme": [
+        "1 mark: the length was not converted to metres (2 cm = 0.02 m)",
+        "1 mark: F = 0.5 × 3 × 0.02 = 0.03 N"
+      ],
+      "explanation": "Using l = 2 gives 3 N. With l = 0.02 m, F = 0.03 N."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A horizontal wire between two magnetic poles experiences a force of 0.15 N when it is at right angles to the field. The wire is rotated in the horizontal plane until it is parallel to the field lines. Describe how the force changes as it rotates.",
+      "acceptedAnswers": [
+        "decreases",
+        "zero when parallel"
+      ],
+      "markScheme": [
+        "1 mark: the force decreases as the wire rotates",
+        "1 mark: the force is zero when the wire is parallel to the field"
+      ],
+      "explanation": "The force is greatest at right angles to the field and falls to zero when the current is parallel to the field."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A wire carrying a current is placed between the poles of a magnet resting on a top-pan balance. When the current is switched on, the reading on the balance increases. Explain why.",
+      "acceptedAnswers": [
+        "force on the wire",
+        "equal and opposite force on the magnet",
+        "Newton's third law",
+        "downward force on magnet"
+      ],
+      "markScheme": [
+        "1 mark: there is a force on the wire due to the motor effect (upwards)",
+        "1 mark: the wire exerts an equal and opposite force on the magnet (Newton's third law)",
+        "1 mark: so there is an extra downward force on the magnet, increasing the reading"
+      ],
+      "explanation": "The magnet and conductor exert forces on each other. If the wire is pushed up, the magnet is pushed down, so the balance reading increases."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain how the size and direction of the force on a current-carrying wire in a magnetic field can be changed.",
+      "markScheme": [
+        "Indicative content: size: increase the current; increase the magnetic flux density (stronger magnet, poles closer); increase the length of wire in the field; F = BIl; force greatest at right angles to the field, zero when parallel; direction: reverse the current, or reverse the field (swap the poles); reversing both gives no change; direction found using Fleming's left-hand rule.",
+        "Level 2 (3 to 4 marks): clear explanation of both size and direction, referring to F = BIl or Fleming's left-hand rule.",
+        "Level 1 (1 to 2 marks): one or two relevant factors stated.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Size depends on B, I and l; direction depends on the directions of the current and field, given by Fleming's left-hand rule."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A student investigates the force on a wire in a magnetic field. A copper rod rests across two horizontal metal rails between the poles of a U-shaped magnet, so it is at right angles to the field. When the current is switched on, the rod rolls along the rails. Explain why the rod moves, how its direction is predicted, and how the student could make it accelerate more quickly. A calculation using F = BIl with B = 0.12 T, I = 5.0 A and l = 4.0 cm should be included.",
+      "markScheme": [
+        "Indicative content: current flows through the rod at right angles to the magnetic field; the current produces its own magnetic field, which interacts with the magnet's field (motor effect); a resultant force acts on the rod; direction by Fleming's left-hand rule (first finger field N to S, second finger current, thumb force along the rails); reversing current or field reverses the direction; F = BIl = 0.12 × 5.0 × 0.040 = 0.024 N; to accelerate faster: increase current, use stronger magnet, increase length of rod in the field (wider magnet), use a lighter rod (F = ma), reduce friction.",
+        "Level 3 (5 to 6 marks): full explanation of the motor effect and direction, correct calculation (0.024 N) and at least two valid ways to increase acceleration linked to F = BIl or F = ma.",
+        "Level 2 (3 to 4 marks): explains the motion with some detail and either a correct calculation or valid improvements.",
+        "Level 1 (1 to 2 marks): simple statements, such as magnets push the rod.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "F = BIl = 0.12 × 5.0 × 0.040 = 0.024 N. A bigger force (larger B, I or l) or a smaller mass gives a greater acceleration."
+    },
+    {
+      "id": "p7-flemings-left-hand-rule-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give the meaning of each symbol in F = BIl.",
+      "acceptedAnswers": [
+        "force",
+        "magnetic flux density",
+        "current",
+        "length"
+      ],
+      "markScheme": [
+        "1 mark: F = force, B = magnetic flux density, I = current, l = length (all four correct)"
+      ],
+      "explanation": "F is in N, B in T, I in A and l in m."
+    }
+  ]
+}

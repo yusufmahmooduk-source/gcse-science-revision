@@ -1,0 +1,716 @@
+{
+  "id": "p5-conservation-of-momentum",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "conservation-of-momentum",
+  "specRef": "4.5.7.2",
+  "title": "Conservation of momentum",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Conservation of momentum: in a closed system, the total momentum before an event (such as a collision or an explosion) is equal to the total momentum after the event.",
+    "explanation": [
+      "A closed system is one where no external forces act, so the objects interact only with each other. In a closed system, momentum is conserved: the total momentum before an event is equal to the total momentum after it. The event could be a collision (two objects hitting each other) or an explosion (objects pushed apart from rest, such as a gun firing or two skaters pushing off each other). Individual objects can gain or lose momentum, but any momentum lost by one object is gained by another.",
+      "To use conservation of momentum, first choose a positive direction. Calculate the momentum of each object before the event using p = m v, giving a negative sign to any object moving in the negative direction. Add these to find the total momentum before. This must equal the total momentum after. Write an equation for the total momentum after the event and solve it for the unknown mass or velocity. If the answer is negative, the object moves in the negative direction.",
+      "When two objects collide and stick together, they move off with the same velocity. The total momentum after is (m₁ + m₂) × v. For example, a 2.0 kg trolley moving at 3.0 m/s hits a stationary 1.0 kg trolley and they stick together. Total momentum before = 2.0 × 3.0 + 1.0 × 0 = 6.0 kg m/s. After: 3.0 × v = 6.0, so v = 2.0 m/s. The combined trolleys move more slowly because the same momentum is shared by a larger mass.",
+      "In an explosion, the objects start at rest, so the total momentum before is zero. The total momentum afterwards must also be zero. This means the objects move apart in opposite directions with momenta that are equal in size: m₁v₁ = m₂v₂ in size. This explains why a gun recoils when a bullet is fired. The bullet gains forward momentum and the gun gains an equal amount of backward momentum. The gun moves much more slowly than the bullet because it has a much larger mass.",
+      "Momentum can be used as a model to explain everyday events. In a head-on collision between two vehicles with equal and opposite momenta, the total momentum is zero, so if they stick together they stop. In a game of snooker, when a moving ball hits a stationary ball head-on and stops, the second ball moves off with all the momentum. In real situations, external forces such as friction act, so momentum is only approximately conserved. Experiments use low-friction trolleys or air tracks to make the system as close to closed as possible."
+    ],
+    "keyFacts": [
+      "In a closed system, total momentum before an event = total momentum after the event.",
+      "A closed system has no external forces acting on it.",
+      "Events include collisions and explosions.",
+      "Momentum lost by one object is gained by another.",
+      "Always choose a positive direction and use negative signs for the opposite direction.",
+      "Objects that stick together after a collision share the same final velocity.",
+      "In an explosion from rest, total momentum is zero before and after.",
+      "In an explosion, the objects move apart with equal and opposite momenta; the lighter object moves faster.",
+      "A gun recoils because the bullet's forward momentum equals the gun's backward momentum."
+    ],
+    "keyTerms": [
+      {
+        "term": "Conservation of momentum",
+        "definition": "In a closed system, the total momentum before an event equals the total momentum after it."
+      },
+      {
+        "term": "Closed system",
+        "definition": "A system of objects on which no external forces act."
+      },
+      {
+        "term": "Collision",
+        "definition": "An event in which two or more objects hit each other and exert forces on each other."
+      },
+      {
+        "term": "Explosion",
+        "definition": "An event in which objects initially at rest are pushed apart, such as a gun firing."
+      },
+      {
+        "term": "Recoil",
+        "definition": "The backward movement of an object (such as a gun) when it pushes another object forwards."
+      },
+      {
+        "term": "Momentum",
+        "definition": "Mass × velocity; a vector quantity measured in kg m/s."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Momentum",
+        "formula": "momentum = mass × velocity",
+        "symbols": "p = m v",
+        "units": "p in kg m/s, m in kg, v in m/s",
+        "recall": true
+      },
+      {
+        "name": "Conservation of momentum",
+        "formula": "total momentum before = total momentum after",
+        "symbols": "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂",
+        "units": "all momenta in kg m/s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Collision where vehicles stick together",
+        "question": "A car of mass 1200 kg travelling at 15 m/s crashes into the back of a stationary car of mass 800 kg. The cars lock together. Calculate their velocity just after the collision.",
+        "steps": [
+          "Total momentum before = (1200 × 15) + (800 × 0) = 18 000 kg m/s.",
+          "Total momentum after = (1200 + 800) × v = 2000 v.",
+          "Momentum is conserved: 2000 v = 18 000.",
+          "v = 18 000 ÷ 2000 = 9.0 m/s in the original direction of the moving car."
+        ],
+        "answer": "9.0 m/s"
+      },
+      {
+        "title": "Head-on collision with signs for direction",
+        "question": "Trolley A (3.0 kg) moves right at 4.0 m/s. Trolley B (2.0 kg) moves left at 3.0 m/s. They collide head-on and stick together. Calculate their velocity after the collision.",
+        "steps": [
+          "Take right as positive. Momentum of A = 3.0 × (+4.0) = +12 kg m/s.",
+          "Momentum of B = 2.0 × (−3.0) = −6.0 kg m/s.",
+          "Total momentum before = +12 + (−6.0) = +6.0 kg m/s.",
+          "After: (3.0 + 2.0) × v = 6.0, so v = 6.0 ÷ 5.0 = +1.2 m/s.",
+          "The positive sign means they move to the right."
+        ],
+        "answer": "1.2 m/s to the right"
+      },
+      {
+        "title": "Explosion: rifle recoil",
+        "question": "A rifle of mass 4.0 kg fires a bullet of mass 0.020 kg at 400 m/s. Calculate the recoil velocity of the rifle.",
+        "steps": [
+          "Before firing, both are at rest, so total momentum = 0.",
+          "Take the bullet's direction as positive. Bullet momentum = 0.020 × 400 = +8.0 kg m/s.",
+          "Total after = 0, so rifle momentum = −8.0 kg m/s.",
+          "Rifle velocity = −8.0 ÷ 4.0 = −2.0 m/s."
+        ],
+        "answer": "2.0 m/s in the opposite direction to the bullet"
+      },
+      {
+        "title": "Converting km/h in a collision",
+        "question": "A lorry of mass 10 000 kg travelling at 36 km/h hits a stationary car of mass 1000 kg and they move off together. Calculate their speed after the collision in m/s and in km/h.",
+        "steps": [
+          "Convert: 36 ÷ 3.6 = 10 m/s.",
+          "Total momentum before = 10 000 × 10 = 100 000 kg m/s.",
+          "After: 11 000 × v = 100 000, so v = 9.1 m/s (9.09 m/s).",
+          "In km/h: 9.09 × 3.6 = 33 km/h."
+        ],
+        "answer": "9.1 m/s (about 33 km/h)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A collision where the trolleys stick together",
+        "caption": "The total momentum before the collision (6.0 kg m/s) equals the total momentum after. The combined 3.0 kg moves at 2.0 m/s.",
+        "svg": "<svg viewBox='0 0 460 270' xmlns='http://www.w3.org/2000/svg'><g font-size='12' fill='currentColor'><text x='20' y='20'>BEFORE</text><text x='20' y='150'>AFTER (trolleys stick together)</text></g><line x1='20' y1='90' x2='440' y2='90' stroke='currentColor' stroke-width='2'/><line x1='20' y1='220' x2='440' y2='220' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='2'><rect x='40' y='50' width='70' height='40' rx='4' fill='#93c5fd' fill-opacity='0.5'/><rect x='300' y='50' width='60' height='40' rx='4' fill='#c4b5fd' fill-opacity='0.5'/><rect x='170' y='180' width='70' height='40' rx='4' fill='#93c5fd' fill-opacity='0.5'/><rect x='240' y='180' width='60' height='40' rx='4' fill='#c4b5fd' fill-opacity='0.5'/></g><line x1='115' y1='70' x2='188' y2='70' stroke='currentColor' stroke-width='3'/><path d='M200 70 L186 63 L186 77 Z' fill='currentColor'/><line x1='305' y1='200' x2='353' y2='200' stroke='currentColor' stroke-width='3'/><path d='M365 200 L351 193 L351 207 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='75' y='74'>A 2.0 kg</text><text x='330' y='74'>B 1.0 kg</text><text x='158' y='60'>3.0 m/s</text><text x='330' y='42'>at rest</text><text x='240' y='118'>total momentum = (2.0 × 3.0) + (1.0 × 0) = 6.0 kg m/s</text><text x='205' y='204'>A</text><text x='270' y='204'>B</text><text x='335' y='185'>v = ?</text><text x='240' y='245'>total momentum after = 3.0 × v = 6.0 kg m/s</text><text x='240' y='262'>so v = 6.0 ÷ 3.0 = 2.0 m/s to the right</text></g></svg>"
+      },
+      {
+        "title": "An explosion from rest",
+        "caption": "Both trolleys start at rest, so the total momentum is zero before and after. They move apart with equal and opposite momenta; the lighter trolley moves faster.",
+        "svg": "<svg viewBox='0 0 460 250' xmlns='http://www.w3.org/2000/svg'><g font-size='12' fill='currentColor'><text x='20' y='20'>BEFORE: both at rest, total momentum = 0</text><text x='20' y='140'>AFTER: spring released, trolleys pushed apart</text></g><line x1='20' y1='90' x2='440' y2='90' stroke='currentColor' stroke-width='2'/><line x1='20' y1='210' x2='440' y2='210' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='2'><rect x='130' y='50' width='80' height='40' rx='4' fill='#93c5fd' fill-opacity='0.5'/><rect x='250' y='50' width='60' height='40' rx='4' fill='#c4b5fd' fill-opacity='0.5'/><polyline points='210,70 215,62 222,78 229,62 236,78 243,62 250,70' fill='none'/><rect x='60' y='170' width='80' height='40' rx='4' fill='#93c5fd' fill-opacity='0.5'/><rect x='320' y='170' width='60' height='40' rx='4' fill='#c4b5fd' fill-opacity='0.5'/></g><line x1='55' y1='190' x2='27' y2='190' stroke='currentColor' stroke-width='3'/><path d='M15 190 L29 183 L29 197 Z' fill='currentColor'/><line x1='385' y1='190' x2='433' y2='190' stroke='currentColor' stroke-width='3'/><path d='M445 190 L431 183 L431 197 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='170' y='74'>A 1.5 kg</text><text x='280' y='74'>B 1.0 kg</text><text x='230' y='45'>compressed spring</text><text x='100' y='194'>A</text><text x='350' y='194'>B</text><text x='40' y='170'>2.0 m/s</text><text x='415' y='170'>3.0 m/s</text><text x='230' y='230'>A: 1.5 × (−2.0) = −3.0 kg m/s    B: 1.0 × (+3.0) = +3.0 kg m/s</text><text x='230' y='246'>total after = −3.0 + 3.0 = 0 (momentum conserved)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think momentum is conserved for each object separately.",
+        "right": "In fact it is the total momentum of the closed system that is conserved; one object loses momentum and the other gains the same amount."
+      },
+      {
+        "wrong": "Students often add the sizes of momenta when objects move in opposite directions.",
+        "right": "In fact momentum is a vector, so objects moving in opposite directions have opposite signs and partly or fully cancel."
+      },
+      {
+        "wrong": "Students often think that if the total momentum is zero, nothing can be moving.",
+        "right": "In fact after an explosion from rest, both objects move, but in opposite directions with equal and opposite momenta."
+      },
+      {
+        "wrong": "Students often think momentum is conserved even when friction or other external forces act.",
+        "right": "In fact momentum is only conserved in a closed system; external forces change the total momentum."
+      }
+    ],
+    "realWorld": [
+      "Police crash investigators use conservation of momentum, the masses of vehicles and skid marks to work out vehicle speeds before a collision.",
+      "Rifles and cannons recoil when they fire; shooters press the rifle stock into the shoulder to spread the recoil.",
+      "Rockets and jet engines work because exhaust gases gain backward momentum and the vehicle gains forward momentum.",
+      "Snooker, pool and Newton's cradle show momentum being transferred from one ball to another in collisions."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The whole of this topic is Higher tier only: the principle of conservation of momentum in a closed system and calculations for collisions and explosions, including direction."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Start every calculation by stating which direction is positive.",
+      "Write 'total momentum before = total momentum after' as your first line; examiners give credit for this.",
+      "If objects stick together, use the combined mass (m₁ + m₂) after the collision.",
+      "For explosions from rest, total momentum is zero, so the two momenta afterwards are equal in size and opposite in direction.",
+      "Give the direction as well as the size of a final velocity, and check that your answer is sensible (combined objects move more slowly)."
+    ],
+    "summary": [
+      "In a closed system, total momentum before = total momentum after.",
+      "Closed system means no external forces.",
+      "Use + and − signs for opposite directions.",
+      "Objects that stick together share a common velocity.",
+      "Explosions from rest give equal and opposite momenta.",
+      "Momentum is used to explain collisions, recoil and rocket motion."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State the principle of conservation of momentum.",
+      "back": "In a closed system, the total momentum before an event equals the total momentum after the event."
+    },
+    {
+      "front": "What is a closed system?",
+      "back": "A system on which no external forces act."
+    },
+    {
+      "front": "Give two types of event where momentum is conserved.",
+      "back": "Collisions and explosions."
+    },
+    {
+      "front": "Total momentum of two trolleys at rest before an explosion?",
+      "back": "Zero."
+    },
+    {
+      "front": "Total momentum after an explosion from rest?",
+      "back": "Zero: the objects have equal and opposite momenta."
+    },
+    {
+      "front": "Why does a gun recoil?",
+      "back": "Bullet gains forward momentum; gun gains equal backward momentum so total stays zero."
+    },
+    {
+      "front": "Why does a gun move much slower than the bullet?",
+      "back": "It has a much larger mass, so a smaller velocity gives the same size of momentum."
+    },
+    {
+      "front": "Two objects stick together after colliding. What mass do you use afterwards?",
+      "back": "The combined mass (m₁ + m₂)."
+    },
+    {
+      "front": "First step in a momentum calculation with directions?",
+      "back": "Choose a positive direction."
+    },
+    {
+      "front": "2 kg at 3 m/s hits a stationary 1 kg trolley; they stick. Final velocity?",
+      "back": "6 ÷ 3 = 2 m/s."
+    },
+    {
+      "front": "Why is momentum not perfectly conserved on a real runway?",
+      "back": "Friction (an external force) acts, so the system is not closed."
+    },
+    {
+      "front": "Equal masses at equal speeds collide head-on and stick. Final velocity?",
+      "back": "Zero."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-conservation-of-momentum-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes the conservation of momentum?",
+      "options": [
+        "In a closed system, the total momentum before an event equals the total momentum after the event.",
+        "The momentum of every object stays the same during a collision.",
+        "Momentum is always converted into kinetic energy in a collision.",
+        "The total momentum of a system always increases after an explosion."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: In a closed system, the total momentum before an event equals the total momentum after the event."
+      ],
+      "explanation": "It is the total momentum of the system that is conserved. Individual objects can gain or lose momentum."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by a closed system?",
+      "options": [
+        "A system where all the objects are stationary",
+        "A system inside a sealed container",
+        "A system on which no external forces act",
+        "A system where the objects never collide"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A system on which no external forces act"
+      ],
+      "explanation": "Momentum is conserved only when no external forces (such as friction from outside the system) act on the objects."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Before two trolleys collide, their total momentum is 10 kg m/s to the right. The system is closed. What is their total momentum after the collision?",
+      "options": [
+        "0 kg m/s",
+        "5 kg m/s to the right",
+        "20 kg m/s to the right",
+        "10 kg m/s to the right"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 10 kg m/s to the right"
+      ],
+      "explanation": "In a closed system the total momentum does not change, so it is still 10 kg m/s to the right."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A gun fires a bullet. Which statement is correct immediately after firing?",
+      "options": [
+        "The gun and the bullet have the same velocity.",
+        "The bullet's momentum is equal in size and opposite in direction to the gun's momentum.",
+        "The bullet has momentum but the gun does not.",
+        "The total momentum of the gun and bullet is greater than before firing."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The bullet's momentum is equal in size and opposite in direction to the gun's momentum."
+      ],
+      "explanation": "The total momentum is zero before firing, so it must be zero afterwards. The gun recoils with momentum equal and opposite to the bullet's."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two skaters stand still on ice and then push each other apart. What is their total momentum after they separate?",
+      "options": [
+        "Equal to the momentum of the heavier skater",
+        "Equal to the sum of their speeds multiplied by their masses",
+        "Zero",
+        "It depends on how hard they push."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Zero"
+      ],
+      "explanation": "They start at rest, so total momentum is zero. Afterwards they move in opposite directions with equal and opposite momenta, which still add to zero."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A 1.0 kg trolley moving at 4.0 m/s collides with a stationary 1.0 kg trolley. They stick together. What is their velocity after the collision?",
+      "options": [
+        "2.0 m/s",
+        "4.0 m/s",
+        "8.0 m/s",
+        "1.0 m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 2.0 m/s"
+      ],
+      "explanation": "Total momentum = 1.0 × 4.0 = 4.0 kg m/s. Combined mass 2.0 kg, so v = 4.0 ÷ 2.0 = 2.0 m/s. The same momentum shared by double the mass gives half the velocity."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two identical cars travel towards each other at the same speed. They collide head-on and lock together. What is their velocity immediately after the collision?",
+      "options": [
+        "Twice the speed of one car",
+        "The same as the speed of one car",
+        "Half the speed of one car",
+        "Zero"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Zero"
+      ],
+      "explanation": "Their momenta are equal and opposite, so the total momentum before is zero. After locking together, (2m) × v = 0, so v = 0."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In which situation is the momentum of the named object or system NOT conserved?",
+      "options": [
+        "Two trolleys colliding on a frictionless air track",
+        "A ball rolling down a ramp and speeding up",
+        "Two magnets on frictionless trolleys repelling each other",
+        "A bullet fired from a rifle (rifle and bullet together)"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A ball rolling down a ramp and speeding up"
+      ],
+      "explanation": "An external force (the ball's weight from the Earth) acts on the ball, so its momentum increases. In the other cases the forces are internal to the system."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In a collision between two objects A and B in a closed system, A loses 5 kg m/s of momentum. What happens to the momentum of B?",
+      "options": [
+        "B loses 5 kg m/s of momentum.",
+        "B's momentum does not change.",
+        "B gains 5 kg m/s of momentum.",
+        "B gains 10 kg m/s of momentum."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: B gains 5 kg m/s of momentum."
+      ],
+      "explanation": "Total momentum is constant, so any momentum lost by A must be gained by B."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Trolley A (2.0 kg) moving right at 5.0 m/s hits stationary trolley B (3.0 kg). After the collision A moves left at 1.0 m/s. What is the velocity of B?",
+      "options": [
+        "2.7 m/s to the right",
+        "4.0 m/s to the right",
+        "3.3 m/s to the left",
+        "1.3 m/s to the right"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 4.0 m/s to the right"
+      ],
+      "explanation": "Take right as positive. Before: 2.0 × 5.0 = 10 kg m/s. After: 2.0 × (−1.0) + 3.0 v = 10, so 3.0 v = 12 and v = +4.0 m/s. Forgetting the minus sign gives 2.7 m/s."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A 2.0 kg trolley moving at 3.0 m/s collides with a stationary trolley. The system is closed.\nState the total momentum of the two trolleys after the collision.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: momentum before = 2.0 × 3.0 = 6.0 kg m/s",
+        "1 mark: momentum after = 6.0 kg m/s (conserved)"
+      ],
+      "explanation": "The stationary trolley has no momentum, so total before = 6.0 kg m/s, which is the same after."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 2.0 kg trolley moving at 3.0 m/s collides with a stationary 1.0 kg trolley. They stick together.\nCalculate their velocity after the collision.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: momentum before = 6.0 kg m/s",
+        "1 mark: (2.0 + 1.0) × v = 6.0",
+        "1 mark: v = 2.0 m/s"
+      ],
+      "explanation": "The combined mass is 3.0 kg, so v = 6.0 ÷ 3.0 = 2.0 m/s."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car of mass 1200 kg travelling at 15 m/s collides with the back of a stationary car of mass 800 kg. The cars lock together.\nCalculate the velocity of the cars immediately after the collision.",
+      "numericAnswer": 9,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: momentum before = 1200 × 15 = 18 000 kg m/s",
+        "1 mark: 2000 × v = 18 000",
+        "1 mark: v = 9.0 m/s"
+      ],
+      "explanation": "Total momentum is conserved and shared by the combined mass of 2000 kg."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A rifle of mass 4.0 kg fires a bullet of mass 0.020 kg at 400 m/s.\nCalculate the speed at which the rifle recoils.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: bullet momentum = 0.020 × 400 = 8.0 kg m/s",
+        "1 mark: rifle momentum = 8.0 kg m/s in the opposite direction (total momentum is zero)",
+        "1 mark: v = 8.0 ÷ 4.0 = 2.0 m/s"
+      ],
+      "explanation": "Total momentum before is zero, so the rifle's momentum after is equal and opposite to the bullet's."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Trolley A (mass 3.0 kg) moves to the right at 4.0 m/s. Trolley B (mass 2.0 kg) moves to the left at 3.0 m/s. They collide head-on and stick together.\nCalculate their velocity after the collision. Take right as positive.",
+      "numericAnswer": 1.2,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: momentum of A = +12 kg m/s",
+        "1 mark: momentum of B = −6.0 kg m/s",
+        "1 mark: total = +6.0 kg m/s, so 5.0 v = 6.0",
+        "1 mark: v = +1.2 m/s (to the right)"
+      ],
+      "explanation": "Ignoring the direction of B gives (12 + 6) ÷ 5 = 3.6 m/s, which is wrong."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A ball A of mass 0.50 kg moving at 6.0 m/s hits a stationary ball B of mass 0.30 kg. After the collision, A continues in the same direction at 2.0 m/s.\nCalculate the velocity of ball B after the collision.",
+      "numericAnswer": 6.67,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: momentum before = 0.50 × 6.0 = 3.0 kg m/s",
+        "1 mark: momentum of A after = 0.50 × 2.0 = 1.0 kg m/s",
+        "1 mark: momentum of B after = 3.0 − 1.0 = 2.0 kg m/s",
+        "1 mark: v = 2.0 ÷ 0.30 = 6.7 m/s"
+      ],
+      "explanation": "The momentum lost by A (2.0 kg m/s) is gained by B. B moves faster than A did because it has less mass."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A lorry of mass 10 000 kg travelling at 36 km/h hits a stationary car of mass 1000 kg. They move off together.\nCalculate their velocity just after the collision, in m/s.",
+      "numericAnswer": 9.09,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 36 ÷ 3.6 = 10 m/s",
+        "1 mark: momentum before = 10 000 × 10 = 100 000 kg m/s",
+        "1 mark: 11 000 × v = 100 000",
+        "1 mark: v = 9.1 m/s"
+      ],
+      "explanation": "The car's mass is small compared with the lorry's, so the lorry slows only a little."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Two skaters, of masses 60 kg and 40 kg, stand at rest on ice and push each other apart. The 60 kg skater moves backwards at 1.5 m/s.\nCalculate the speed of the 40 kg skater.",
+      "numericAnswer": 2.25,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: total momentum = 0 before and after",
+        "1 mark: 60 × 1.5 = 90 kg m/s, so 40 × v = 90",
+        "1 mark: v = 2.25 m/s (in the opposite direction)"
+      ],
+      "explanation": "The lighter skater moves faster because the momenta must be equal in size."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the principle of conservation of momentum.",
+      "acceptedAnswers": [
+        "closed system",
+        "total momentum before equals total momentum after"
+      ],
+      "markScheme": [
+        "1 mark: in a closed system, the total momentum before an event is equal to the total momentum after the event"
+      ],
+      "explanation": "Include 'closed system' and 'total'."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Two skaters at rest push each other apart.\nExplain why their total momentum after they separate is zero.",
+      "acceptedAnswers": [
+        "momentum before is zero",
+        "momentum is conserved",
+        "equal and opposite"
+      ],
+      "markScheme": [
+        "1 mark: the total momentum before is zero (they are at rest)",
+        "1 mark: momentum is conserved, so after they move with equal and opposite momenta (total zero)"
+      ],
+      "explanation": "Both skaters move, but in opposite directions, so the vector sum is still zero."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Use the idea of momentum to explain why a cannon moves backwards when it fires a cannonball.",
+      "acceptedAnswers": [
+        "total momentum zero",
+        "cannonball forward momentum",
+        "cannon equal backward momentum",
+        "conserved"
+      ],
+      "markScheme": [
+        "1 mark: total momentum before firing is zero",
+        "1 mark: the cannonball gains forward momentum, so the cannon gains an equal amount of momentum backwards (to keep the total zero)"
+      ],
+      "explanation": "The cannon moves slowly backwards because its mass is much larger than that of the cannonball."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why momentum is only conserved in a closed system.",
+      "acceptedAnswers": [
+        "external force",
+        "changes total momentum",
+        "no external forces"
+      ],
+      "markScheme": [
+        "1 mark: in a closed system no external forces act",
+        "1 mark: an external force (such as friction) would change the total momentum of the system"
+      ],
+      "explanation": "Forces between objects inside the system are equal and opposite, so they do not change the total momentum."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student uses light gates to measure momentum before and after a collision between two trolleys on a runway. The total momentum after is always slightly less than before.\nSuggest a reason for this and an improvement to the experiment.",
+      "acceptedAnswers": [
+        "friction",
+        "external force",
+        "not a closed system",
+        "friction-compensated runway",
+        "air track"
+      ],
+      "markScheme": [
+        "1 mark: friction (or air resistance) acts on the trolleys",
+        "1 mark: this is an external force, so the system is not closed and momentum is lost from it",
+        "1 mark: tilt the runway to compensate for friction, or use an air track"
+      ],
+      "explanation": "Compensating for friction makes the system closer to a closed system."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A trolley collides with a stationary trolley of equal mass and they stick together.\nExplain why their speed after the collision is half the speed of the first trolley before the collision.",
+      "acceptedAnswers": [
+        "momentum conserved",
+        "mass doubles",
+        "same momentum",
+        "velocity halves"
+      ],
+      "markScheme": [
+        "1 mark: momentum is conserved, so total momentum after equals momentum of the first trolley before",
+        "1 mark: the same momentum is now shared by twice the mass, so the velocity is halved"
+      ],
+      "explanation": "m × u = 2m × v, so v = u ÷ 2."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Car A is stationary at traffic lights when car B crashes into the back of it. The two cars lock together.\nExplain how an investigator could use conservation of momentum to find the speed of car B before the crash.",
+      "acceptedAnswers": [
+        "masses of both cars",
+        "velocity after collision",
+        "momentum before = momentum after",
+        "m_B u = (m_A + m_B) v"
+      ],
+      "markScheme": [
+        "1 mark: find the masses of both cars and the velocity of the combined cars just after the crash (for example, from skid marks)",
+        "1 mark: total momentum before (m_B × u, since A is stationary) = total momentum after ((m_A + m_B) × v)",
+        "1 mark: so u = (m_A + m_B) × v ÷ m_B"
+      ],
+      "explanation": "This is how crash investigators estimate speeds from evidence collected after a collision."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how a student could carry out an experiment, using two trolleys on a runway, to show that momentum is conserved in a collision.",
+      "markScheme": [
+        "Indicative content: measure the mass of each trolley with a balance; tilt the runway slightly to compensate for friction (trolley rolls at constant speed when pushed); place trolley B at rest; fit trolleys with Velcro or a pin and cork so they stick together; push trolley A so it moves towards B; measure A's velocity before the collision using a light gate and a card of known length (velocity = card length ÷ time); measure the velocity of the combined trolleys after the collision with a second light gate; calculate total momentum before (m_A × u) and after ((m_A + m_B) × v); compare: they should be equal (within experimental error); repeat with different masses or starting speeds.",
+        "Level 3 (5 to 6 marks): a clear, logical method that measures masses and velocities before and after, with friction compensation and a correct comparison of total momenta.",
+        "Level 2 (3 to 4 marks): measures masses and velocities and calculates momentum, but with some steps missing or unclear.",
+        "Level 1 (1 to 2 marks): simple statements such as 'crash the trolleys and measure speed'."
+      ],
+      "explanation": "Reducing friction makes the system closer to a closed system, so momentum is more nearly conserved."
+    },
+    {
+      "id": "p5-conservation-of-momentum-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A railway wagon of mass 20 000 kg rolls at 3.0 m/s and collides with a stationary wagon of mass 10 000 kg. The wagons couple together.\nCalculate the velocity of the wagons after the collision and use the idea of momentum to explain why they move more slowly than the first wagon did.",
+      "markScheme": [
+        "Indicative content: momentum before = 20 000 × 3.0 = 60 000 kg m/s; stationary wagon has zero momentum; momentum is conserved in the collision (closed system); after: 30 000 × v = 60 000; v = 2.0 m/s in the original direction; the same total momentum is shared by a larger mass, so the velocity is smaller; the first wagon loses momentum and the second gains the same amount.",
+        "Level 2 (3 to 4 marks): correct velocity of 2.0 m/s with working and a clear explanation using conservation of momentum and the larger combined mass.",
+        "Level 1 (1 to 2 marks): momentum before calculated correctly, or a statement that momentum is conserved."
+      ],
+      "explanation": "Always state the principle before applying it: total momentum before = total momentum after."
+    }
+  ]
+}

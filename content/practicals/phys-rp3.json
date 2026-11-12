@@ -1,0 +1,325 @@
+{
+  "id": "phys-rp3",
+  "science": "physics",
+  "number": 3,
+  "title": "Resistance",
+  "combined": true,
+  "topicId": "p2",
+  "subtopic": "current-resistance-pd",
+  "aim": "To investigate how the length of a wire at constant temperature affects its resistance, and to compare the total resistance of resistors connected in series and in parallel.",
+  "background": [
+    "Resistance is a measure of how much a component opposes the flow of current. It is found by measuring the potential difference across the component with a voltmeter and the current through it with an ammeter, then using potential difference = current × resistance (V = I R), so R = V ÷ I. Resistance is measured in ohms (Ω).",
+    "For a metal wire at constant temperature, the resistance is directly proportional to its length. A longer wire means the electrons collide with more ions in the metal lattice as they pass through, so there is more resistance. A graph of resistance against length is a straight line through the origin, and its gradient is the resistance per metre.",
+    "Current heats the wire, and the resistance of a metal increases as its temperature rises. To keep the temperature constant the current is kept small and the circuit is switched off between readings.",
+    "When resistors are connected in series, the total resistance is the sum of the individual resistances: R total = R₁ + R₂. When resistors are connected in parallel, the total resistance is less than the resistance of the smallest individual resistor, because adding another branch gives the charge an extra path. Students can test both of these rules by measuring V and I for each combination."
+  ],
+  "hypothesis": "The resistance of the wire will be directly proportional to its length; resistors in series will have a total resistance equal to the sum of their resistances, and resistors in parallel will have a total resistance smaller than the smallest resistor.",
+  "variables": {
+    "independent": "Length of the wire between the crocodile clips (cm). In the second part, the way the resistors are connected (single, series or parallel).",
+    "dependent": "Resistance of the wire (Ω), calculated from the potential difference across it and the current through it using R = V ÷ I.",
+    "control": [
+      "Material of the wire (constantan)",
+      "Diameter (thickness) of the wire",
+      "Temperature of the wire (low current and switching off between readings)",
+      "Setting of the power supply",
+      "Same ammeter and voltmeter"
+    ]
+  },
+  "equipment": [
+    "1 m length of constantan wire (about 0.38 mm diameter) taped to a metre ruler",
+    "Two crocodile clips",
+    "Low voltage d.c. power supply or battery pack (1.5 V)",
+    "Ammeter (0 to 1 A)",
+    "Voltmeter (0 to 5 V)",
+    "Switch",
+    "Connecting leads",
+    "Two resistors (10 Ω and 22 Ω) for the series and parallel part",
+    "Sticky tape"
+  ],
+  "method": [
+    "Tape the resistance wire to a metre ruler so it is straight and not kinked, with one end at the 0 cm mark.",
+    "Set up the circuit: battery, switch, ammeter and the wire in series, using one crocodile clip fixed at 0 cm and a second crocodile clip that can be moved along the wire.",
+    "Connect the voltmeter in parallel across the length of wire between the two crocodile clips.",
+    "Place the movable crocodile clip at 10 cm, so the length of wire in the circuit is 10 cm.",
+    "Close the switch, quickly read the ammeter and voltmeter, then open the switch again so the wire does not heat up.",
+    "Move the crocodile clip to 20 cm and repeat. Continue in steps of 10 cm up to 100 cm.",
+    "Repeat the whole set of readings and calculate a mean resistance for each length using R = V ÷ I.",
+    "Plot a graph of resistance (y-axis) against length (x-axis) and draw a line of best fit.",
+    "For the second part, replace the wire with a single 10 Ω resistor. Measure V and I and calculate its resistance. Repeat with the 22 Ω resistor.",
+    "Connect the two resistors in series, measure V across the pair and the current I from the supply, and calculate the total resistance.",
+    "Connect the two resistors in parallel, measure V across them and the total current from the supply, and calculate the total resistance.",
+    "Compare the measured total resistances with the values predicted by R total = R₁ + R₂ for series, and check that the parallel total is smaller than 10 Ω."
+  ],
+  "safety": [
+    {
+      "hazard": "Wire heating up when current flows, especially at short lengths",
+      "risk": "Burns to the fingers if the wire is touched.",
+      "precaution": "Use a low voltage supply, switch off between readings, and do not touch the wire while current is flowing."
+    },
+    {
+      "hazard": "Short circuit if the crocodile clips touch each other",
+      "risk": "Very large current, which overheats the leads and can damage equipment or cause burns.",
+      "precaution": "Do not use lengths shorter than 10 cm and keep the clips apart; switch off immediately if anything gets hot."
+    },
+    {
+      "hazard": "Mains powered power supply",
+      "risk": "Electric shock if water is spilled on it or the lead is damaged.",
+      "precaution": "Check leads for damage before use and keep liquids away from the bench."
+    }
+  ],
+  "results": {
+    "headers": ["Length of wire (cm)", "Potential difference (V)", "Current (A)", "Resistance (Ω)"],
+    "rows": [
+      ["10", "0.20", "0.50", "0.40"],
+      ["20", "0.34", "0.44", "0.77"],
+      ["30", "0.48", "0.39", "1.23"],
+      ["40", "0.58", "0.35", "1.66"],
+      ["50", "0.64", "0.33", "1.94"],
+      ["60", "0.72", "0.30", "2.40"],
+      ["70", "0.77", "0.28", "2.75"],
+      ["80", "0.83", "0.26", "3.19"],
+      ["90", "0.86", "0.25", "3.44"],
+      ["100", "0.91", "0.23", "3.96"]
+    ],
+    "notes": "Resistance = potential difference ÷ current, given to 2 decimal places. Plot resistance (Ω) on the y-axis against length (cm or m) on the x-axis and draw a straight line of best fit; it should pass through or very close to the origin. Gradient ≈ (3.96 − 0.40) ÷ (1.00 − 0.10) ≈ 4.0 Ω per metre. Series and parallel part (supply about 6 V): 10 Ω and 22 Ω in series, V = 6.0 V, I = 0.19 A, R = 31.6 Ω (predicted 32 Ω). 10 Ω and 22 Ω in parallel, V = 6.0 V, I = 0.87 A, R = 6.9 Ω (less than 10 Ω)."
+  },
+  "analysis": [
+    "The graph of resistance against length is a straight line through the origin, so the resistance of the wire is directly proportional to its length. Doubling the length from 40 cm to 80 cm roughly doubles the resistance, from 1.66 Ω to 3.19 Ω.",
+    "The gradient of the line is about 4.0 Ω/m, which is the resistance of 1 m of this wire. It can be used to predict resistance: for example, 75 cm of the wire would have a resistance of about 4.0 × 0.75 = 3.0 Ω.",
+    "As the length increases, the current decreases, because there is more resistance in the circuit. The potential difference across the wire increases, because a bigger share of the battery's potential difference is across the longer wire.",
+    "The measured series resistance (31.6 Ω) is very close to 10 + 22 = 32 Ω, which supports R total = R₁ + R₂. The measured parallel resistance (6.9 Ω) is smaller than either resistor, as expected, because the charge has two paths so the total current is larger for the same potential difference.",
+    "If the line of best fit does not pass through the origin, there is a systematic error, such as extra resistance at the crocodile clip contacts or the fixed clip not being exactly at 0 cm."
+  ],
+  "errors": [
+    {
+      "error": "The wire heats up when current flows, which increases its resistance, especially at short lengths where the current is large.",
+      "improvement": "Keep the current low (use a low voltage supply or add a series resistor) and switch off between readings."
+    },
+    {
+      "error": "Measuring the length inaccurately because the crocodile clips are wide and it is hard to tell where the contact is.",
+      "improvement": "Use the same edge of the clip each time, keep the wire straight along the ruler, and read the ruler at eye level."
+    },
+    {
+      "error": "Contact resistance at the crocodile clips, or the fixed clip not at exactly 0 cm, gives a systematic error so the line does not pass through the origin.",
+      "improvement": "Clean the wire and clips, check the fixed clip is at 0 cm, and use the gradient of the graph rather than individual values."
+    },
+    {
+      "error": "Meter readings fluctuate or have a low resolution.",
+      "improvement": "Use digital meters with a suitable range, repeat the readings and calculate a mean resistance for each length."
+    },
+    {
+      "error": "Kinks in the wire mean the true length is different from the ruler reading.",
+      "improvement": "Stretch the wire straight and tape it firmly to the ruler before starting."
+    }
+  ],
+  "diagram": {
+    "title": "Circuit for resistance of a wire",
+    "caption": "A cell, switch and ammeter are connected in series with a length of resistance wire held by two crocodile clips. A voltmeter is connected in parallel across the wire between the clips. The length is read from the metre ruler.",
+    "svg": "<svg viewBox=\"0 0 480 270\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"60\" y=\"200\" width=\"360\" height=\"24\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"96\" y1=\"200\" x2=\"96\" y2=\"208\"/><line x1=\"132\" y1=\"200\" x2=\"132\" y2=\"208\"/><line x1=\"168\" y1=\"200\" x2=\"168\" y2=\"208\"/><line x1=\"204\" y1=\"200\" x2=\"204\" y2=\"208\"/><line x1=\"240\" y1=\"200\" x2=\"240\" y2=\"212\"/><line x1=\"276\" y1=\"200\" x2=\"276\" y2=\"208\"/><line x1=\"312\" y1=\"200\" x2=\"312\" y2=\"208\"/><line x1=\"348\" y1=\"200\" x2=\"348\" y2=\"208\"/><line x1=\"384\" y1=\"200\" x2=\"384\" y2=\"208\"/></g><line x1=\"60\" y1=\"196\" x2=\"420\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M60 190 V60 H110 M118 60 H160 M190 60 H218 M242 60 H276 V190\"/><line x1=\"110\" y1=\"48\" x2=\"110\" y2=\"72\"/><line x1=\"118\" y1=\"53\" x2=\"118\" y2=\"67\" stroke-width=\"4\"/><line x1=\"160\" y1=\"60\" x2=\"187\" y2=\"46\"/><path d=\"M60 150 H156 M180 150 H276\"/><circle cx=\"230\" cy=\"60\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><circle cx=\"168\" cy=\"150\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/></g><g fill=\"currentColor\"><circle cx=\"160\" cy=\"60\" r=\"2.5\"/><circle cx=\"190\" cy=\"60\" r=\"2.5\"/><circle cx=\"60\" cy=\"150\" r=\"2.5\"/><circle cx=\"276\" cy=\"150\" r=\"2.5\"/></g><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"><rect x=\"54\" y=\"186\" width=\"12\" height=\"10\"/><rect x=\"270\" y=\"186\" width=\"12\" height=\"10\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"230\" y=\"64\">A</text><text x=\"168\" y=\"154\">V</text><text x=\"64\" y=\"220\">0</text><text x=\"240\" y=\"222\">50</text><text x=\"404\" y=\"220\">100</text></g><path d=\"M60 238 H276 M66 234 L60 238 L66 242 M270 234 L276 238 L270 242\" fill=\"none\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"310\" y1=\"132\" x2=\"281\" y2=\"187\"/><line x1=\"380\" y1=\"178\" x2=\"380\" y2=\"194\"/><line x1=\"360\" y1=\"240\" x2=\"360\" y2=\"225\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"96\" y=\"38\">Cell</text><text x=\"156\" y=\"38\">Switch</text><text x=\"218\" y=\"38\">Ammeter</text><text x=\"140\" y=\"178\">Voltmeter</text><text x=\"292\" y=\"126\">Crocodile clip</text><text x=\"340\" y=\"174\">Resistance wire</text><text x=\"130\" y=\"256\">Length, l</text><text x=\"330\" y=\"256\">Metre ruler</text></g></svg>"
+  },
+  "examTips": [
+    "Ammeters go in series with the component; voltmeters go in parallel across it. Be ready to draw the circuit with correct symbols.",
+    "Resistance = potential difference ÷ current. Keep the current low and switch off between readings so the temperature of the wire stays constant.",
+    "A straight line through the origin on a graph of resistance against length shows direct proportionality. A line that misses the origin suggests a systematic error such as contact resistance or a zero error.",
+    "Series: R total = R₁ + R₂. Parallel: the total resistance is less than the smallest individual resistance.",
+    "When asked for an improvement, link it to the error: for example, heating is reduced by switching off between readings, not by repeating."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp3-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How should the voltmeter be connected to measure the potential difference across a length of resistance wire?",
+      "options": [
+        "In series with the wire",
+        "In parallel across the wire",
+        "In series with the ammeter only",
+        "Between the battery and the switch"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: in parallel across the wire"],
+      "explanation": "A voltmeter measures the potential difference between two points, so it is connected across (in parallel with) the component. Ammeters are connected in series."
+    },
+    {
+      "id": "phys-rp3-q02",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The potential difference across a length of wire is 1.20 V and the current through it is 0.30 A.\nCalculate the resistance of the wire.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: R = V ÷ I = 1.20 ÷ 0.30", "1 mark: 4.0 Ω"],
+      "explanation": "Rearrange V = I R to R = V ÷ I. Multiplying instead (1.20 × 0.30 = 0.36) is a common error."
+    },
+    {
+      "id": "phys-rp3-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A current of 0.25 A flows through a 4.0 Ω resistor.\nCalculate the potential difference across the resistor.",
+      "numericAnswer": 1,
+      "tolerance": 0.01,
+      "unit": "V",
+      "markScheme": ["1 mark: V = I R = 0.25 × 4.0", "1 mark: 1.0 V"],
+      "explanation": "Potential difference = current × resistance. 0.25 × 4.0 = 1.0 V."
+    },
+    {
+      "id": "phys-rp3-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A graph of resistance against length for a metal wire at constant temperature is a straight line through the origin. What does this show?",
+      "options": [
+        "Resistance is inversely proportional to length",
+        "Resistance does not depend on length",
+        "Resistance decreases as length increases",
+        "Resistance is directly proportional to length"
+      ],
+      "answer": 3,
+      "markScheme": ["1 mark: resistance is directly proportional to length"],
+      "explanation": "A straight line through the origin means that if one quantity doubles, the other doubles. Inverse proportion would give a curve that gets closer to the axes."
+    },
+    {
+      "id": "phys-rp3-q05",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "When investigating how the length of a wire affects its resistance, a student switches off the circuit between readings.\nExplain why.",
+      "acceptedAnswers": ["stop the wire heating up", "temperature affects resistance", "keep temperature constant", "resistance increases when hot"],
+      "markScheme": ["1 mark: the current heats the wire / keeps the temperature of the wire constant", "1 mark: the resistance of a metal increases as its temperature increases (so temperature is a control variable)"],
+      "explanation": "If the wire warms up, its resistance changes for a reason other than length, so the test is no longer fair. Short lengths carry the largest current and heat most."
+    },
+    {
+      "id": "phys-rp3-q06",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A type of resistance wire has a resistance of 4.0 Ω per metre.\nCalculate the resistance of 75 cm of this wire.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: 75 cm = 0.75 m", "1 mark: 4.0 × 0.75 = 3.0 Ω"],
+      "explanation": "Resistance is proportional to length, so multiply the resistance per metre by the length in metres. Using 75 instead of 0.75 gives 300 Ω."
+    },
+    {
+      "id": "phys-rp3-q07",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A 10 Ω resistor and a 22 Ω resistor are connected in series.\nCalculate their total resistance.",
+      "numericAnswer": 32,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: 10 + 22 = 32 Ω"],
+      "explanation": "In series, the total resistance is the sum of the individual resistances: R total = R₁ + R₂."
+    },
+    {
+      "id": "phys-rp3-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A 10 Ω resistor and a 22 Ω resistor are connected in parallel. Which value could be their total resistance?",
+      "options": ["32 Ω", "16 Ω", "6.9 Ω", "12 Ω"],
+      "answer": 2,
+      "markScheme": ["1 mark: 6.9 Ω"],
+      "explanation": "The total resistance of resistors in parallel is always less than the smallest individual resistance (10 Ω). 32 Ω is the series total and 16 Ω is the mean."
+    },
+    {
+      "id": "phys-rp3-q09",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Two resistors are connected in parallel to a supply. The potential difference across them is 6.0 V and the total current from the supply is 0.87 A.\nCalculate the total resistance of the two resistors. Give your answer to 2 significant figures.",
+      "numericAnswer": 6.9,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: R = V ÷ I = 6.0 ÷ 0.87", "1 mark: 6.9 Ω"],
+      "explanation": "6.0 ÷ 0.87 = 6.897, which rounds to 6.9 Ω. This is less than either resistor, as expected for a parallel combination."
+    },
+    {
+      "id": "phys-rp3-q10",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student plots a graph of resistance against length for a wire. The line of best fit is straight but crosses the resistance axis at 0.2 Ω instead of passing through the origin.\nSuggest a reason for this and state what type of error it is.",
+      "acceptedAnswers": ["systematic error", "contact resistance", "resistance of crocodile clips", "zero error", "clip not at 0 cm"],
+      "markScheme": ["1 mark: systematic error (or zero error)", "1 mark: extra resistance of the crocodile clips / contacts / leads, or the fixed clip was not at 0 cm"],
+      "explanation": "Every reading is too high by the same amount, which shifts the whole line up without changing its gradient. This is typical of a systematic error, not a random one."
+    },
+    {
+      "id": "phys-rp3-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The gradient of a graph of resistance against length for a wire is 4.0 Ω/m.\nCalculate the length of the same wire that has a resistance of 2.6 Ω. Give your answer in cm.",
+      "numericAnswer": 65,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "markScheme": ["1 mark: length = 2.6 ÷ 4.0 = 0.65 m", "1 mark: 65 cm"],
+      "explanation": "Length = resistance ÷ resistance per metre = 0.65 m. Converting to centimetres: 0.65 × 100 = 65 cm."
+    },
+    {
+      "id": "phys-rp3-q12",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student investigates how the length of a wire affects its resistance. Which of these is a control variable?",
+      "options": ["The diameter of the wire", "The length of the wire", "The current through the wire", "The resistance of the wire"],
+      "answer": 0,
+      "markScheme": ["1 mark: the diameter of the wire"],
+      "explanation": "Thickness affects resistance, so it must be kept the same. Length is the independent variable, resistance is the dependent variable, and current is measured to calculate resistance."
+    },
+    {
+      "id": "phys-rp3-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one hazard when investigating the resistance of a wire and a precaution to reduce the risk.",
+      "acceptedAnswers": ["wire gets hot", "burns", "switch off between readings", "low voltage", "do not touch the wire", "short circuit"],
+      "markScheme": ["1 mark: hazard: the wire gets hot (could burn) / short circuit if clips touch", "1 mark: precaution: switch off between readings / use a low potential difference / do not touch the wire / keep clips apart"],
+      "explanation": "The precaution must match the hazard. A large current in a short length of wire can make it hot enough to burn the skin."
+    },
+    {
+      "id": "phys-rp3-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In an investigation of resistance, the current through a 10 cm length of wire was 0.50 A and the current through a 100 cm length was 0.23 A, using the same battery.\nExplain why the current is smaller for the longer wire.",
+      "acceptedAnswers": ["longer wire has more resistance", "more collisions with ions", "greater resistance so smaller current"],
+      "markScheme": ["1 mark: the longer wire has a greater resistance", "1 mark: so for the same supply, less current flows (electrons collide with more ions)"],
+      "explanation": "Electrons travel past more ions in a longer wire, so there are more collisions and the resistance is higher. A higher resistance in the circuit means a smaller current."
+    },
+    {
+      "id": "phys-rp3-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the resistance of a wire depends on its length.\nInclude a description of the circuit and how the results should be processed.",
+      "markScheme": [
+        "Indicative content: tape a wire to a metre ruler; connect a battery or power supply, switch and ammeter in series with the wire using crocodile clips; connect a voltmeter in parallel across the wire between the clips; set the length to 10 cm; switch on, read V and I, then switch off; move the clip in 10 cm steps up to 100 cm; calculate R = V ÷ I for each length; repeat and calculate means; keep the current low and switch off between readings so the temperature stays constant; control the material and diameter of the wire; plot resistance against length; a straight line through the origin shows resistance is directly proportional to length",
+        "Level 3 (5 to 6 marks): a coherent method with a correct circuit (ammeter in series, voltmeter in parallel), a range of lengths, how resistance is calculated, a control of temperature and how the graph is used.",
+        "Level 2 (3 to 4 marks): a method that includes measuring V and I for different lengths and calculating resistance, but with some detail missing, such as the meter positions or temperature control.",
+        "Level 1 (1 to 2 marks): simple statements about changing the length and measuring something, without a workable method.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Strong answers describe exactly where the meters go, give a range and interval of lengths, use R = V ÷ I, mention keeping the temperature constant, and say what graph to plot and what it should show."
+    }
+  ]
+}

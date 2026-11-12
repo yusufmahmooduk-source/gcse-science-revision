@@ -1,0 +1,771 @@
+{
+  "id": "p5-braking-distance",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "braking-distance",
+  "specRef": "4.5.6.3.3",
+  "title": "Factors affecting braking distance",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Braking distance is the distance a vehicle travels under the braking force, from the moment the brakes are applied until it stops. It increases with speed, wet or icy roads and poor condition of the brakes or tyres.",
+    "explanation": [
+      "When the driver presses the brake pedal, brake pads are pushed against a disc (or drum) attached to each wheel. The friction force between the brakes and the wheel does work on the vehicle. This work reduces the kinetic energy of the vehicle and transfers energy to the thermal energy store of the brakes, so the temperature of the brakes increases. The energy is then dissipated to the surroundings.",
+      "The braking force can only slow the car effectively if there is enough friction (grip) between the tyres and the road. On a wet or icy road there is less friction between the tyres and the road, so the maximum braking force before the tyres skid is smaller, the deceleration is smaller and the braking distance is longer. On wet roads braking distances can double, and on icy roads they can be up to ten times longer. Loose gravel, leaves and oil on the road have a similar effect.",
+      "The condition of the vehicle also matters. Worn brake pads or poorly maintained brakes produce a smaller braking force. Worn tyres with shallow tread cannot push water out from under the tyre, so they lose grip on wet roads. Under-inflated tyres also reduce grip. A heavier load increases the mass of the vehicle, so for the same braking force the deceleration is smaller (a = F ÷ m) and the braking distance is longer.",
+      "Speed has the biggest effect. The greater the speed of a vehicle, the greater the braking force needed to stop it in a certain distance. For a given braking force, a higher speed means a longer braking distance. Because kinetic energy depends on speed squared, doubling the speed makes the braking distance about four times longer if the braking force stays the same.",
+      "The greater the braking force, the greater the deceleration of the vehicle. Very large decelerations are dangerous. The brakes may overheat, which reduces their effectiveness (brake fade), and the tyres may skid so the driver loses control of the vehicle. Large decelerations also mean large forces on the people inside, which can cause injury. This is why stopping distances must be kept short by driving at safe speeds, rather than relying on very hard braking."
+    ],
+    "keyFacts": [
+      "Braking distance is the distance travelled under the braking force until the vehicle stops.",
+      "Wet or icy roads reduce friction between the tyres and the road, increasing braking distance.",
+      "Worn brakes or worn tyres increase braking distance.",
+      "A greater mass (heavier load) increases braking distance for the same braking force.",
+      "Work done by friction between the brakes and the wheel reduces the vehicle's kinetic energy.",
+      "Braking transfers energy to the thermal energy store of the brakes, so their temperature rises.",
+      "The greater the speed, the greater the braking force needed to stop in a certain distance.",
+      "The greater the braking force, the greater the deceleration.",
+      "Large decelerations can cause brakes to overheat and the driver to lose control.",
+      "Driver factors (tiredness, alcohol, distractions) do not affect braking distance."
+    ],
+    "keyTerms": [
+      {
+        "term": "Braking distance",
+        "definition": "The distance a vehicle travels under the braking force before it stops."
+      },
+      {
+        "term": "Braking force",
+        "definition": "The friction force between the brakes and the wheels that decelerates a vehicle."
+      },
+      {
+        "term": "Friction",
+        "definition": "A force that opposes motion between two surfaces in contact."
+      },
+      {
+        "term": "Deceleration",
+        "definition": "Negative acceleration: the rate of decrease of velocity, in m/s²."
+      },
+      {
+        "term": "Kinetic energy",
+        "definition": "The energy in the store of a moving object; Ek = ½mv²."
+      },
+      {
+        "term": "Work done",
+        "definition": "The energy transferred when a force moves an object through a distance; W = F s."
+      },
+      {
+        "term": "Skid",
+        "definition": "When a tyre slides over the road instead of rolling, so the driver loses control."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Work done",
+        "formula": "work done = force × distance (along the line of action of the force)",
+        "symbols": "W = F s",
+        "units": "W in J, F in N, s in m",
+        "recall": true
+      },
+      {
+        "name": "Kinetic energy",
+        "formula": "kinetic energy = 0.5 × mass × (speed)²",
+        "symbols": "Ek = ½ m v²",
+        "units": "Ek in J, m in kg, v in m/s",
+        "recall": true
+      },
+      {
+        "name": "Newton's Second Law",
+        "formula": "resultant force = mass × acceleration",
+        "symbols": "F = m a",
+        "units": "F in N, m in kg, a in m/s²",
+        "recall": true
+      },
+      {
+        "name": "Uniform acceleration",
+        "formula": "(final velocity)² − (initial velocity)² = 2 × acceleration × distance",
+        "symbols": "v² − u² = 2 a s",
+        "units": "v and u in m/s, a in m/s², s in m",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Kinetic energy to remove (with km/h conversion)",
+        "question": "A car of mass 1200 kg travels at 54 km/h. Calculate the kinetic energy the brakes must transfer to stop the car.",
+        "steps": [
+          "Convert the speed: 54 ÷ 3.6 = 15 m/s.",
+          "Ek = ½ m v² = 0.5 × 1200 × 15².",
+          "Ek = 0.5 × 1200 × 225 = 135 000 J."
+        ],
+        "answer": "135 000 J (135 kJ)"
+      },
+      {
+        "title": "Braking force from braking distance (Higher)",
+        "question": "The car in the previous example stops in a braking distance of 18 m. Calculate the average braking force.",
+        "steps": [
+          "Work done by the brakes = kinetic energy lost, so F × s = 135 000 J.",
+          "F = 135 000 ÷ 18.",
+          "F = 7500 N."
+        ],
+        "answer": "7500 N"
+      },
+      {
+        "title": "Estimating deceleration and force (Higher)",
+        "question": "A car of mass 1100 kg brakes from 25 m/s to rest in 40 m. Estimate the deceleration and the braking force.",
+        "steps": [
+          "Use v² − u² = 2as with v = 0, u = 25 m/s, s = 40 m: 0 − 625 = 2 × a × 40.",
+          "a = −625 ÷ 80 = −7.8 m/s², so the deceleration is about 7.8 m/s².",
+          "F = m a = 1100 × 7.8 ≈ 8600 N."
+        ],
+        "answer": "Deceleration ≈ 7.8 m/s²; braking force ≈ 8600 N"
+      },
+      {
+        "title": "Effect of speed on braking distance (Higher)",
+        "question": "With a constant braking force, a car's braking distance at 13 m/s is 14 m. Estimate the braking distance at 26 m/s.",
+        "steps": [
+          "F × s = ½mv², so with constant F, s is proportional to v².",
+          "The speed doubles, so v² increases by 2² = 4.",
+          "Braking distance = 4 × 14 = 56 m."
+        ],
+        "answer": "56 m"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Energy transfer during braking",
+        "caption": "Friction between the brake pads and the disc does work, transferring energy from the car's kinetic energy store to the thermal energy store of the brakes.",
+        "svg": "<svg viewBox='0 0 460 270' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2'><circle cx='120' cy='140' r='90' fill='#e5e7eb' fill-opacity='0.5'/><circle cx='120' cy='140' r='55' fill='#fde68a' fill-opacity='0.5'/><circle cx='120' cy='140' r='12' fill='none'/><rect x='98' y='72' width='44' height='30' rx='4' fill='#c4b5fd' fill-opacity='0.5'/></g><g stroke='currentColor' stroke-width='2' fill='none'><path d='M40 215 A110 110 0 0 0 200 215'/></g><path d='M207 208 L204 219 L196 211 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='2'><rect x='255' y='30' width='190' height='44' rx='6' fill='#93c5fd' fill-opacity='0.5'/><rect x='255' y='180' width='190' height='44' rx='6' fill='#fca5a5' fill-opacity='0.5'/><line x1='350' y1='74' x2='350' y2='166'/></g><path d='M350 180 L343 166 L357 166 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='145' y='66'>brake pads press</text><text x='145' y='52'>on the disc</text><text x='60' y='145'>disc</text><text x='20' y='60'>tyre</text><text x='120' y='266' text-anchor='middle'>wheel turning</text><text x='350' y='50' text-anchor='middle'>kinetic energy store</text><text x='350' y='65' text-anchor='middle'>of the moving car</text><text x='358' y='112'>work done by</text><text x='358' y='127'>friction between</text><text x='358' y='142'>pads and disc</text><text x='350' y='200' text-anchor='middle'>thermal energy store of</text><text x='350' y='215' text-anchor='middle'>the brakes (they get hot)</text></g></svg>"
+      },
+      {
+        "title": "Braking distance on dry and wet roads",
+        "caption": "Braking distance increases with the square of the speed. On a wet road there is less friction between the tyres and road, so the braking distance at every speed is roughly doubled.",
+        "svg": "<svg viewBox='0 0 460 280' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none'><line x1='60' y1='230' x2='430' y2='230'/><line x1='60' y1='230' x2='60' y2='20'/><polyline points='60.0,230.0 96.0,229.0 132.0,226.1 168.0,221.2 204.0,214.4 240.0,205.6 276.0,194.8 312.0,182.1 348.0,167.5 384.0,150.9 420.0,132.3'/><polyline points='60.0,230.0 96.0,228.0 132.0,222.2 168.0,212.4 204.0,198.8 240.0,181.2 276.0,159.7 312.0,134.3 348.0,105.0 384.0,71.8 420.0,34.7' stroke-dasharray='7 4'/></g><g font-size='12' fill='currentColor'><text x='60' y='246' text-anchor='middle'>0</text><text x='204' y='246' text-anchor='middle'>10</text><text x='348' y='246' text-anchor='middle'>20</text><text x='54' y='234' text-anchor='end'>0</text><text x='54' y='134' text-anchor='end'>50</text><text x='54' y='34' text-anchor='end'>100</text><text x='245' y='268' text-anchor='middle'>speed in m/s</text><text x='16' y='130' transform='rotate(-90 16 130)' text-anchor='middle'>braking distance in m</text><text x='360' y='75' text-anchor='end'>wet road (dashed)</text><text x='390' y='172'>dry road</text><text x='90' y='60'>Same car, same brakes:</text><text x='90' y='75'>a wet road roughly doubles</text><text x='90' y='90'>the braking distance</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think braking transfers kinetic energy into 'heat' that is used up.",
+        "right": "In fact work done by friction transfers energy to the thermal energy store of the brakes; it is then dissipated to the surroundings. Energy is conserved."
+      },
+      {
+        "wrong": "Students often think tiredness or alcohol increases braking distance.",
+        "right": "In fact driver factors increase thinking distance. Braking distance depends on speed, road conditions, mass and the condition of the brakes and tyres."
+      },
+      {
+        "wrong": "Students often think braking as hard as possible is always safest.",
+        "right": "In fact very large decelerations can make the brakes overheat or the tyres skid, so the driver loses control."
+      },
+      {
+        "wrong": "Students often think doubling the speed doubles the braking distance.",
+        "right": "In fact kinetic energy depends on v², so doubling the speed roughly quadruples the braking distance for the same braking force."
+      }
+    ],
+    "realWorld": [
+      "The legal minimum tyre tread depth for cars in the UK is 1.6 mm, because worn tread reduces grip on wet roads.",
+      "Speed limits are often reduced on motorways in heavy rain or fog to allow for longer braking distances.",
+      "Racing cars and lorries use cooled or ventilated brake discs to stop the brakes overheating.",
+      "Gritting lorries spread salt and grit on icy roads to increase friction between tyres and the road."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Estimating the forces involved in decelerating road vehicles: braking force × braking distance = kinetic energy lost, so F = ½mv² ÷ s.",
+      "Estimating decelerations using v² − u² = 2as and then F = ma. Typical emergency braking decelerations for a car are about 5 to 10 m/s², so braking forces for a 1000 kg car are a few thousand newtons up to about 10 000 N.",
+      "In a collision, a car stops in a very short distance (such as 0.5 m), so the deceleration and the forces involved are very large, often over 100 000 N.",
+      "For a constant braking force, braking distance is proportional to speed squared (doubling the speed gives four times the braking distance)."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Say exactly how a factor works: 'icy road reduces friction between the tyres and the road', not just 'the road is slippery'.",
+      "Name the energy stores: kinetic energy store of the car to the thermal energy store of the brakes.",
+      "For Higher calculations, set work done by brakes equal to kinetic energy: F × s = ½mv².",
+      "Square the speed before multiplying when calculating kinetic energy, and convert km/h to m/s first.",
+      "When asked about the dangers of large decelerations, mention brakes overheating and loss of control (skidding)."
+    ],
+    "summary": [
+      "Braking distance is increased by greater speed, wet or icy roads, worn brakes, worn tyres and greater mass.",
+      "Friction between the brakes and the wheels does work to reduce the car's kinetic energy.",
+      "Braking transfers energy to the thermal energy store of the brakes, heating them.",
+      "Greater speed needs a greater braking force to stop in the same distance.",
+      "Greater braking force gives greater deceleration; very large decelerations are dangerous.",
+      "Higher: F × s = ½mv² lets you estimate braking forces and distances."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is braking distance?",
+      "back": "The distance travelled under the braking force until the vehicle stops."
+    },
+    {
+      "front": "Name two road conditions that increase braking distance.",
+      "back": "Wet roads and icy roads (also gravel, leaves or oil)."
+    },
+    {
+      "front": "Name two vehicle conditions that increase braking distance.",
+      "back": "Worn brakes and worn (or under-inflated) tyres; also a heavier load."
+    },
+    {
+      "front": "What force does work to slow a car when it brakes?",
+      "back": "Friction between the brakes (pads) and the wheel (disc)."
+    },
+    {
+      "front": "Which energy store decreases when a car brakes?",
+      "back": "The kinetic energy store of the car."
+    },
+    {
+      "front": "Which energy store increases when a car brakes?",
+      "back": "The thermal energy store of the brakes (their temperature rises)."
+    },
+    {
+      "front": "How does speed affect the braking force needed to stop in a given distance?",
+      "back": "Greater speed needs a greater braking force."
+    },
+    {
+      "front": "What is the link between braking force and deceleration?",
+      "back": "The greater the braking force, the greater the deceleration (F = ma)."
+    },
+    {
+      "front": "Two dangers of large decelerations?",
+      "back": "Brakes overheating and loss of control (skidding); also large forces on passengers."
+    },
+    {
+      "front": "Higher: equation linking braking force, braking distance and speed?",
+      "back": "F × s = ½mv² (work done by brakes = kinetic energy lost)."
+    },
+    {
+      "front": "Effect on braking distance of doubling speed (same force)?",
+      "back": "About four times longer."
+    },
+    {
+      "front": "Why do worn tyres increase braking distance on wet roads?",
+      "back": "Shallow tread cannot clear water, so there is less grip (friction) between tyres and road."
+    },
+    {
+      "front": "Higher: typical emergency braking deceleration of a car?",
+      "back": "About 5 to 10 m/s²."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-braking-distance-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these increases the braking distance of a car?",
+      "options": [
+        "An alert driver",
+        "An icy road",
+        "New tyres with deep tread",
+        "A dry road"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: An icy road"
+      ],
+      "explanation": "Ice reduces friction between the tyres and the road, so the car decelerates less and travels further while braking. The other options would not increase braking distance."
+    },
+    {
+      "id": "p5-braking-distance-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When a moving car brakes, where is most of its kinetic energy transferred to?",
+      "options": [
+        "The chemical energy store of the fuel",
+        "The gravitational potential energy store of the car",
+        "The elastic potential energy store of the tyres",
+        "The thermal energy store of the brakes"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The thermal energy store of the brakes"
+      ],
+      "explanation": "Work done by friction in the brakes transfers energy to their thermal energy store, so the brakes heat up. The energy is then dissipated to the surroundings."
+    },
+    {
+      "id": "p5-braking-distance-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which force does the work that reduces the kinetic energy of a car when the driver brakes?",
+      "options": [
+        "Friction between the brakes and the wheel",
+        "Air resistance on the car",
+        "The weight of the car",
+        "The driving force of the engine"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Friction between the brakes and the wheel"
+      ],
+      "explanation": "The AQA specification describes braking as work done by the friction force between the brakes and the wheel. Air resistance helps a little but is not the braking force."
+    },
+    {
+      "id": "p5-braking-distance-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do worn tyres increase braking distance on a wet road?",
+      "options": [
+        "They make the car heavier.",
+        "They increase the driver's reaction time.",
+        "Shallow tread cannot clear water, so there is less friction between the tyres and the road.",
+        "They increase the speed of the car."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Shallow tread cannot clear water, so there is less friction between the tyres and the road."
+      ],
+      "explanation": "Tread channels water away from the contact area. With worn tread a layer of water reduces grip, so the maximum braking force before skidding is smaller."
+    },
+    {
+      "id": "p5-braking-distance-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to the deceleration of a car if the braking force increases?",
+      "options": [
+        "It decreases.",
+        "It increases.",
+        "It stays the same.",
+        "It becomes zero."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It increases."
+      ],
+      "explanation": "From F = ma, for the same mass a greater force gives a greater deceleration."
+    },
+    {
+      "id": "p5-braking-distance-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is a danger of a very large deceleration when braking?",
+      "options": [
+        "The brakes may overheat and the driver may lose control.",
+        "The thinking distance increases.",
+        "The kinetic energy of the car increases.",
+        "The car's mass decreases."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The brakes may overheat and the driver may lose control."
+      ],
+      "explanation": "Large decelerations need large braking forces, which can overheat the brakes and make the tyres skid, so the car cannot be steered."
+    },
+    {
+      "id": "p5-braking-distance-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A car must stop within the same distance from a higher speed. What must change?",
+      "options": [
+        "A smaller braking force is needed.",
+        "The driver's reaction time must increase.",
+        "The braking force is not important.",
+        "A greater braking force is needed."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A greater braking force is needed."
+      ],
+      "explanation": "At a higher speed the car has more kinetic energy. To transfer more energy over the same distance, the brakes must do more work, so the force must be greater (W = F s)."
+    },
+    {
+      "id": "p5-braking-distance-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The braking force on a car stays constant. The car's speed is tripled. By what factor does the braking distance increase?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "27"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 9"
+      ],
+      "explanation": "Kinetic energy ∝ v², so tripling the speed gives 3² = 9 times the kinetic energy. With a constant force, F × s = Ek, so the braking distance is 9 times longer."
+    },
+    {
+      "id": "p5-braking-distance-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which is the best estimate of the braking force on a family car (mass about 1000 kg) during an emergency stop on a dry road?",
+      "options": [
+        "80 N",
+        "800 N",
+        "8000 N",
+        "800 000 N"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 8000 N"
+      ],
+      "explanation": "Typical emergency decelerations are about 5 to 10 m/s². F = ma ≈ 1000 × 8 = 8000 N. 800 000 N would be a deceleration of 800 m/s², far beyond what brakes can provide."
+    },
+    {
+      "id": "p5-braking-distance-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which pair of factors would both increase a car's braking distance?",
+      "options": [
+        "A tired driver and a wet road",
+        "A wet road and worn brakes",
+        "Worn brakes and a driver using a phone",
+        "A tired driver and a driver using a phone"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A wet road and worn brakes"
+      ],
+      "explanation": "Tiredness and phone use affect thinking distance, not braking distance. A wet road reduces grip and worn brakes give a smaller braking force, so both increase braking distance."
+    },
+    {
+      "id": "p5-braking-distance-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A braking force of 4000 N acts on a car over a distance of 25 m.\nCalculate the work done by the braking force.",
+      "numericAnswer": 100000,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: W = 4000 × 25",
+        "1 mark: 100 000 J"
+      ],
+      "explanation": "W = F s = 4000 × 25 = 100 000 J. This equals the kinetic energy removed from the car."
+    },
+    {
+      "id": "p5-braking-distance-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car of mass 800 kg travels at 15 m/s.\nCalculate the kinetic energy that must be transferred by the brakes to stop the car.",
+      "numericAnswer": 90000,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: Ek = 0.5 × 800 × 15²",
+        "1 mark: 90 000 J"
+      ],
+      "explanation": "Ek = ½ × 800 × 225 = 90 000 J. A common error is forgetting to square the speed (which gives 6000 J)."
+    },
+    {
+      "id": "p5-braking-distance-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car of mass 1000 kg travels at 72 km/h.\nCalculate the kinetic energy of the car.",
+      "numericAnswer": 200000,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: 72 ÷ 3.6 = 20 m/s",
+        "1 mark: Ek = 0.5 × 1000 × 20²",
+        "1 mark: 200 000 J"
+      ],
+      "explanation": "Convert to m/s first. Using 72 directly gives 2 592 000 J, which is far too large."
+    },
+    {
+      "id": "p5-braking-distance-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car of mass 1200 kg travels at 25 m/s. The driver applies a constant braking force of 7500 N.\nCalculate the braking distance.",
+      "numericAnswer": 50,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: Ek = 0.5 × 1200 × 25² = 375 000 J",
+        "1 mark: F × s = Ek, so s = 375 000 ÷ 7500",
+        "1 mark: 50 m"
+      ],
+      "explanation": "The work done by the braking force equals the kinetic energy lost: s = 375 000 ÷ 7500 = 50 m."
+    },
+    {
+      "id": "p5-braking-distance-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car of mass 900 kg travelling at 20 m/s stops in a braking distance of 30 m.\nCalculate the average braking force.",
+      "numericAnswer": 6000,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: Ek = 0.5 × 900 × 20² = 180 000 J",
+        "1 mark: F = 180 000 ÷ 30",
+        "1 mark: 6000 N"
+      ],
+      "explanation": "F × s = ½mv², so F = 180 000 ÷ 30 = 6000 N."
+    },
+    {
+      "id": "p5-braking-distance-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car brakes from 30 m/s to rest in a distance of 45 m.\nCalculate the deceleration of the car.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": [
+        "1 mark: v² − u² = 2as, so 0 − 30² = 2 × a × 45",
+        "1 mark: a = −900 ÷ 90",
+        "1 mark: deceleration = 10 m/s²"
+      ],
+      "explanation": "a = −10 m/s²; the negative sign shows the car is slowing down, so the deceleration is 10 m/s². This is about the largest deceleration a car can achieve on a dry road."
+    },
+    {
+      "id": "p5-braking-distance-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car of mass 1500 kg decelerates at 10 m/s².\nCalculate the braking force on the car.",
+      "numericAnswer": 15000,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 1500 × 10",
+        "1 mark: 15 000 N"
+      ],
+      "explanation": "F = ma = 1500 × 10 = 15 000 N."
+    },
+    {
+      "id": "p5-braking-distance-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "In a crash test, a car of mass 1000 kg travelling at 13 m/s hits a solid barrier. The front of the car crumples and the car stops in 0.50 m.\nEstimate the average force on the car.",
+      "numericAnswer": 169000,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: Ek = 0.5 × 1000 × 13² = 84 500 J",
+        "1 mark: F × s = Ek",
+        "1 mark: F = 84 500 ÷ 0.50",
+        "1 mark: 169 000 N (accept 170 000 N)"
+      ],
+      "explanation": "The car stops in a tiny distance, so the force is enormous: about 20 times greater than the braking force in an emergency stop. This shows why large decelerations are dangerous."
+    },
+    {
+      "id": "p5-braking-distance-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two factors relating to the condition of a vehicle that can increase its braking distance.",
+      "acceptedAnswers": [
+        "worn brakes",
+        "worn tyres",
+        "bald tyres",
+        "under-inflated tyres",
+        "poorly maintained brakes",
+        "heavy load"
+      ],
+      "markScheme": [
+        "1 mark each, any two: worn or poorly maintained brakes; worn tyres (shallow tread); under-inflated tyres; heavy load (greater mass)"
+      ],
+      "explanation": "These reduce the braking force or grip, or increase the mass, so the deceleration is smaller."
+    },
+    {
+      "id": "p5-braking-distance-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the energy store that increases when a car's brakes are applied.",
+      "acceptedAnswers": [
+        "thermal energy store of the brakes",
+        "thermal",
+        "internal energy of the brakes"
+      ],
+      "markScheme": [
+        "1 mark: thermal energy store (of the brakes)"
+      ],
+      "explanation": "The brakes get hot because work done by friction transfers energy to their thermal store."
+    },
+    {
+      "id": "p5-braking-distance-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the braking distance of a car is longer on an icy road.",
+      "acceptedAnswers": [
+        "less friction",
+        "tyres and road",
+        "smaller deceleration",
+        "skid"
+      ],
+      "markScheme": [
+        "1 mark: there is less friction (grip) between the tyres and the road",
+        "1 mark: so the braking force (before skidding) is smaller, the deceleration is smaller and the car travels further"
+      ],
+      "explanation": "If the driver brakes too hard on ice, the wheels lock and the car skids, so the braking force is limited by the friction between tyres and road."
+    },
+    {
+      "id": "p5-braking-distance-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe what happens to the energy of a car when the driver applies the brakes.",
+      "acceptedAnswers": [
+        "work done by friction",
+        "kinetic energy decreases",
+        "thermal energy store of brakes increases",
+        "temperature of brakes increases",
+        "dissipated to surroundings"
+      ],
+      "markScheme": [
+        "1 mark: friction between the brakes and the wheel does work",
+        "1 mark: the kinetic energy (store) of the car decreases",
+        "1 mark: energy is transferred to the thermal energy store of the brakes, so their temperature increases (then it is dissipated to the surroundings)"
+      ],
+      "explanation": "This is the energy description of braking required by the AQA specification."
+    },
+    {
+      "id": "p5-braking-distance-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain the dangers of very large decelerations of a vehicle.",
+      "acceptedAnswers": [
+        "brakes overheat",
+        "loss of control",
+        "skid",
+        "large forces on passengers",
+        "injury"
+      ],
+      "markScheme": [
+        "1 mark: the brakes may overheat (and become less effective)",
+        "1 mark: the tyres may skid so the driver loses control, or large forces act on the occupants causing injury"
+      ],
+      "explanation": "Large decelerations need large forces; F = ma applies to the passengers as well as the car."
+    },
+    {
+      "id": "p5-braking-distance-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why a greater braking force is needed to stop a car in a certain distance when the car is travelling faster.",
+      "acceptedAnswers": [
+        "more kinetic energy",
+        "work done = force × distance",
+        "same distance",
+        "greater force"
+      ],
+      "markScheme": [
+        "1 mark: a faster car has more kinetic energy (Ek = ½mv²)",
+        "1 mark: the brakes must do more work over the same distance; W = F s, so the force must be greater"
+      ],
+      "explanation": "Because Ek depends on v², the required force rises steeply with speed: twice the speed needs four times the force for the same distance."
+    },
+    {
+      "id": "p5-braking-distance-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car of mass 1000 kg travels at 13 m/s (about 30 mph). Its braking distance is 14 m.\nEstimate the average braking force. Show your working.",
+      "acceptedAnswers": [
+        "84 500 J",
+        "6000 N",
+        "6036 N",
+        "F = Ek ÷ s"
+      ],
+      "markScheme": [
+        "1 mark: Ek = 0.5 × 1000 × 13² = 84 500 J",
+        "1 mark: F = Ek ÷ s = 84 500 ÷ 14",
+        "1 mark: about 6000 N (6036 N)"
+      ],
+      "explanation": "This is a typical braking force for a car on a public road: a few thousand newtons, giving a deceleration of about 6 m/s²."
+    },
+    {
+      "id": "p5-braking-distance-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why drivers should leave a bigger gap to the car in front when the road is wet.",
+      "acceptedAnswers": [
+        "braking distance increases",
+        "less friction",
+        "stopping distance longer",
+        "may not stop in time"
+      ],
+      "markScheme": [
+        "1 mark: a wet road reduces friction between the tyres and the road, so braking distance (and stopping distance) increases",
+        "1 mark: with a small gap the driver may not be able to stop before hitting the car in front"
+      ],
+      "explanation": "The Highway Code advises at least doubling the gap on wet roads."
+    },
+    {
+      "id": "p5-braking-distance-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Explain the factors that affect the braking distance of a car, and the implications for road safety.",
+      "markScheme": [
+        "Indicative content: speed: greater speed means more kinetic energy, so a longer braking distance for the same braking force; road conditions: wet or icy roads (also leaves, gravel, oil) reduce friction between the tyres and the road, so the deceleration is smaller and the car may skid; vehicle condition: worn brakes give a smaller braking force; worn or under-inflated tyres give less grip; mass: a heavier load gives a smaller deceleration for the same force; braking works by friction between brakes and wheel doing work that reduces kinetic energy, heating the brakes; safety implications: drive more slowly in bad conditions, leave bigger gaps, maintain brakes and tyres (legal tread depth), do not overload vehicles, lower speed limits in some areas; large decelerations can overheat brakes or cause loss of control.",
+        "Level 3 (5 to 6 marks): several factors (speed, road, vehicle) clearly explained in terms of friction, braking force, deceleration or energy, with linked safety implications.",
+        "Level 2 (3 to 4 marks): some factors explained, with at least one safety implication.",
+        "Level 1 (1 to 2 marks): factors listed with little explanation."
+      ],
+      "explanation": "Strong answers explain how each factor works (friction, force, energy) and connect it to a safety measure."
+    },
+    {
+      "id": "p5-braking-distance-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A car of mass 1200 kg travels at 25 m/s. The driver brakes and the car stops in a braking distance of 40 m.\nCalculate the average braking force. Then explain what would happen to the braking distance if the car were travelling at 50 m/s with the same braking force.",
+      "markScheme": [
+        "Indicative content: Ek = 0.5 × 1200 × 25² = 375 000 J; F = Ek ÷ s = 375 000 ÷ 40 = 9375 N (about 9400 N); at 50 m/s the speed doubles, so kinetic energy increases by 2² = 4 times (1 500 000 J); with the same force the braking distance would be 4 × 40 = 160 m; this is much longer than the driver might expect, so it is dangerous.",
+        "Level 2 (3 to 4 marks): correct braking force calculated and a correct explanation that the distance increases four times to 160 m because Ek depends on v².",
+        "Level 1 (1 to 2 marks): kinetic energy calculated correctly, or a statement that braking distance increases with speed."
+      ],
+      "explanation": "Work done by brakes equals kinetic energy lost. Since Ek ∝ v², doubling speed quadruples braking distance."
+    },
+    {
+      "id": "p5-braking-distance-q29",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A lorry driver keeps the brakes on for a long time while driving down a long, steep hill.\nExplain why the brakes may overheat and why this is dangerous.",
+      "markScheme": [
+        "Indicative content: braking uses friction between the brakes and the wheels; work done by friction transfers energy to the thermal energy store of the brakes; on a long hill the brakes are used continuously, so energy is transferred faster than it can be dissipated to the surroundings; the temperature of the brakes rises a lot; overheated brakes become less effective, so the braking force decreases; the braking distance increases and the driver may not be able to stop or may lose control.",
+        "Level 2 (3 to 4 marks): explains energy transfer to the thermal store of the brakes and links overheating to reduced braking force and danger.",
+        "Level 1 (1 to 2 marks): states that brakes get hot due to friction, with little explanation of the danger."
+      ],
+      "explanation": "Heavy vehicles use lower gears on hills to reduce how much energy the brakes must transfer."
+    }
+  ]
+}

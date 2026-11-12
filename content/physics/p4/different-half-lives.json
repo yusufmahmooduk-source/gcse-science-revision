@@ -1,0 +1,659 @@
+{
+  "id": "p4-different-half-lives",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "different-half-lives",
+  "specRef": "4.4.3.2",
+  "title": "Different half-lives of radioactive isotopes",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Radioactive isotopes have a very wide range of half-lives, from fractions of a second to billions of years. The hazard from a radioactive material depends on its half-life as well as on the type of radiation it emits.",
+    "explanation": [
+      "Every radioactive isotope has its own half-life, and the values cover an enormous range. Polonium-214 has a half-life of less than a thousandth of a second, technetium-99m about 6 hours, iodine-131 about 8 days, caesium-137 about 30 years, carbon-14 about 5700 years and uranium-238 about 4.5 billion years.",
+      "An isotope with a short half-life decays quickly. If two samples contain the same number of unstable nuclei, the one with the shorter half-life has the higher activity, because its nuclei are decaying faster. So a short half-life isotope can be very hazardous at first, but its activity falls rapidly. After a few days or weeks it may have decayed to a safe level, so any contamination does not last long.",
+      "An isotope with a long half-life decays slowly. Its activity at any moment is relatively low, but it stays radioactive for a very long time. Contamination by a long half-life isotope is a long-term hazard: land, buildings or waste can remain dangerous for hundreds or thousands of years. This is why some nuclear waste must be stored securely, deep underground, for thousands of years.",
+      "When deciding how hazardous a radioactive material is, scientists consider the half-life, the activity, the type of radiation emitted (alpha, beta or gamma) and whether the material is outside or inside the body. For example, isotopes used inside the body for medical diagnosis are chosen to have short half-lives (hours), so the patient is not exposed for long. Isotopes that last for decades, such as strontium-90 or caesium-137 released after a nuclear accident, can enter food chains and remain a hazard for many years.",
+      "To compare isotopes numerically, work out how many half-lives pass in a given time. For example, after 24 hours a sample of technetium-99m (half-life 6 hours) has gone through 4 half-lives, so only 1/16 of it is left, whereas a sample of cobalt-60 (half-life 5.3 years) has hardly changed."
+    ],
+    "keyFacts": [
+      "Radioactive isotopes have a very wide range of half-life values.",
+      "Half-lives range from fractions of a second to billions of years.",
+      "Short half-life: decays quickly, high initial activity, hazard does not last long.",
+      "Long half-life: decays slowly, lower activity, remains hazardous for a long time.",
+      "For the same number of nuclei, the shorter the half-life, the higher the activity.",
+      "Long half-life contamination (e.g. caesium-137, plutonium-239) can last for many years.",
+      "Medical tracers used inside the body have short half-lives.",
+      "Hazard also depends on the type of radiation and whether the source is inside or outside the body."
+    ],
+    "keyTerms": [
+      {
+        "term": "Half-life",
+        "definition": "The time for the number of unstable nuclei in a sample, or its activity, to halve."
+      },
+      {
+        "term": "Short half-life",
+        "definition": "A half-life of seconds, hours or days; the isotope decays quickly and its activity falls rapidly."
+      },
+      {
+        "term": "Long half-life",
+        "definition": "A half-life of many years or more; the isotope remains radioactive for a long time."
+      },
+      {
+        "term": "Activity",
+        "definition": "The rate at which a source of unstable nuclei decays, in becquerels (Bq)."
+      },
+      {
+        "term": "Radioactive waste",
+        "definition": "Unwanted radioactive material, for example used fuel from nuclear reactors, which must be stored safely."
+      },
+      {
+        "term": "Hazard",
+        "definition": "Something that could cause harm; for radioactive materials it depends on activity, half-life and type of radiation."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Comparing two isotopes after the same time",
+        "question": "Two samples each start with an activity of 1600 Bq. Isotope X has a half-life of 2 hours and isotope Y has a half-life of 8 hours. Find each activity after 8 hours.",
+        "steps": [
+          "X: 8 ÷ 2 = 4 half-lives, so 1600 ÷ 16 = 100 Bq.",
+          "Y: 8 ÷ 8 = 1 half-life, so 1600 ÷ 2 = 800 Bq."
+        ],
+        "answer": "X: 100 Bq; Y: 800 Bq"
+      },
+      {
+        "title": "Time to reach a safe level",
+        "question": "Contaminated soil has an activity of 3200 Bq per kg from caesium-137 (half-life 30 years). The safe level is 200 Bq per kg. How long until it is safe?",
+        "steps": [
+          "3200 → 1600 → 800 → 400 → 200 is 4 half-lives.",
+          "Time = 4 × 30 = 120 years."
+        ],
+        "answer": "120 years"
+      },
+      {
+        "title": "Choosing an isotope for use in the body",
+        "question": "A doctor can choose a tracer with a half-life of 6 hours or one with a half-life of 6 years. Which should be used, and why?",
+        "steps": [
+          "The tracer must be active long enough to take images (a few hours).",
+          "A 6-year half-life would keep irradiating the patient for years after the test.",
+          "The 6-hour tracer decays to a low level within a day or two."
+        ],
+        "answer": "The 6-hour tracer: long enough for the test, but it does not remain in the body as a long-term hazard."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Short and long half-lives compared",
+        "caption": "Two sources with the same starting activity. Source A (half-life 1 day) quickly falls to a low activity; source B (half-life 5 days) stays active for much longer.",
+        "svg": "<svg viewBox='0 0 460 250' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='1.5'><line x1='60' y1='200' x2='430' y2='200'/><line x1='60' y1='200' x2='60' y2='30'/></g><polyline fill='none' stroke='currentColor' stroke-width='2' points='60.0,40.0 69.0,65.5 78.0,86.9 87.0,104.9 96.0,120.0 105.0,132.7 114.0,143.4 123.0,152.4 132.0,160.0 141.0,166.4 150.0,171.7 159.0,176.2 168.0,180.0 177.0,183.2 186.0,185.9 195.0,188.1 204.0,190.0 213.0,191.6 222.0,192.9 231.0,194.1 240.0,195.0 249.0,195.8 258.0,196.5 267.0,197.0 276.0,197.5 285.0,197.9 294.0,198.2 303.0,198.5 312.0,198.8 321.0,198.9 330.0,199.1 339.0,199.3 348.0,199.4 357.0,199.5 366.0,199.6 375.0,199.6 384.0,199.7 393.0,199.7 402.0,199.8 411.0,199.8 420.0,199.8'/><polyline fill='none' stroke='currentColor' stroke-width='2' stroke-dasharray='6 4' points='60.0,40.0 69.0,45.5 78.0,50.7 87.0,55.8 96.0,60.7 105.0,65.5 114.0,70.0 123.0,74.5 132.0,78.7 141.0,82.9 150.0,86.9 159.0,90.7 168.0,94.4 177.0,98.0 186.0,101.5 195.0,104.9 204.0,108.1 213.0,111.2 222.0,114.3 231.0,117.2 240.0,120.0 249.0,122.7 258.0,125.4 267.0,127.9 276.0,130.4 285.0,132.7 294.0,135.0 303.0,137.2 312.0,139.4 321.0,141.4 330.0,143.4 339.0,145.4 348.0,147.2 357.0,149.0 366.0,150.8 375.0,152.4 384.0,154.1 393.0,155.6 402.0,157.1 411.0,158.6 420.0,160.0'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='60' y='215'>0</text><text x='132' y='215'>2</text><text x='204' y='215'>4</text><text x='276' y='215'>6</text><text x='348' y='215'>8</text><text x='420' y='215'>10</text><text x='245' y='235'>time in days</text></g><g font-size='12' fill='currentColor' text-anchor='end'><text x='55' y='204'>0</text><text x='55' y='164'>250</text><text x='55' y='124'>500</text><text x='55' y='84'>750</text><text x='55' y='44'>1000</text></g><g font-size='12' fill='currentColor'><text x='10' y='22'>activity in Bq</text><text x='110.4' y='132.8'>A: half-life 1 day</text><text x='276' y='110.39999999999999'>B: half-life 5 days</text><text x='222' y='184'>A is soon low; B lasts longer</text></g></svg>"
+      },
+      {
+        "title": "The range of half-lives",
+        "caption": "Examples of isotopes ordered from shortest to longest half-life (approximate values).",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><g fill='currentColor' stroke='currentColor'><line x1='40' y1='40' x2='40' y2='235' stroke-width='2'/><polygon points='34,235 46,235 40,247'/></g><circle cx='40' cy='45' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='49' font-size='12' fill='currentColor'>polonium-214</text><text x='220' y='49' font-size='12' fill='currentColor'>0.00016 s</text><circle cx='40' cy='70' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='74' font-size='12' fill='currentColor'>technetium-99m</text><text x='220' y='74' font-size='12' fill='currentColor'>6 hours</text><circle cx='40' cy='95' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='99' font-size='12' fill='currentColor'>iodine-131</text><text x='220' y='99' font-size='12' fill='currentColor'>8 days</text><circle cx='40' cy='120' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='124' font-size='12' fill='currentColor'>cobalt-60</text><text x='220' y='124' font-size='12' fill='currentColor'>5.3 years</text><circle cx='40' cy='145' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='149' font-size='12' fill='currentColor'>strontium-90</text><text x='220' y='149' font-size='12' fill='currentColor'>29 years</text><circle cx='40' cy='170' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='174' font-size='12' fill='currentColor'>carbon-14</text><text x='220' y='174' font-size='12' fill='currentColor'>5700 years</text><circle cx='40' cy='195' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='199' font-size='12' fill='currentColor'>plutonium-239</text><text x='220' y='199' font-size='12' fill='currentColor'>24 000 years</text><circle cx='40' cy='220' r='5' fill='#c4b5fd' fill-opacity='0.8' stroke='currentColor'/><text x='60' y='224' font-size='12' fill='currentColor'>uranium-238</text><text x='220' y='224' font-size='12' fill='currentColor'>4.5 billion years</text><g font-size='12' fill='currentColor'><text x='10' y='20'>Half-lives range from fractions of a second to billions of years</text><text x='60' y='258'>longer half-life</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think an isotope with a long half-life is always more dangerous.",
+        "right": "In fact a long half-life means a lower activity at any moment. It is more of a long-term hazard, while a short half-life gives a more intense short-term hazard."
+      },
+      {
+        "wrong": "Students often think a short half-life isotope is safe because it decays quickly.",
+        "right": "In fact its high initial activity can make it very hazardous until it has decayed."
+      },
+      {
+        "wrong": "Students often think half-life only depends on how much material there is.",
+        "right": "In fact half-life is a fixed property of each isotope, regardless of the amount."
+      },
+      {
+        "wrong": "Students often think radioactive waste only needs storing for one half-life.",
+        "right": "In fact it must be stored for many half-lives until its activity has fallen to a safe level."
+      }
+    ],
+    "realWorld": [
+      "Areas around Chernobyl remain restricted decades after the 1986 accident because caesium-137 and strontium-90 have half-lives of about 30 years.",
+      "High-level nuclear waste containing plutonium-239 (half-life about 24 000 years) is planned to be stored in deep geological repositories.",
+      "Technetium-99m (half-life about 6 hours) is the most widely used medical tracer because it decays quickly after a scan."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only. It is not assessed in Combined Science Trilogy (8464)."
+    ],
+    "examTips": [
+      "When explaining a hazard, link the half-life to both how active the source is and how long the hazard lasts.",
+      "Compare isotopes after the same time by working out the number of half-lives for each.",
+      "Always consider the type of radiation as well as the half-life when evaluating a hazard.",
+      "For waste and contamination questions, mention that storage or exclusion must last for many half-lives."
+    ],
+    "summary": [
+      "Half-lives range from fractions of a second to billions of years.",
+      "Short half-life: high activity, but the hazard falls quickly.",
+      "Long half-life: lower activity, but the hazard lasts a long time.",
+      "Same number of nuclei: shorter half-life gives higher activity.",
+      "Choose isotopes and plan waste storage with half-life in mind."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "How wide is the range of half-lives?",
+      "back": "From fractions of a second to billions of years."
+    },
+    {
+      "front": "Hazard from a short half-life isotope?",
+      "back": "High activity at first, but it decays quickly, so the hazard does not last long."
+    },
+    {
+      "front": "Hazard from a long half-life isotope?",
+      "back": "Lower activity, but it stays radioactive (and hazardous) for a long time."
+    },
+    {
+      "front": "Same number of nuclei: which has higher activity, short or long half-life?",
+      "back": "Short half-life."
+    },
+    {
+      "front": "Why are medical tracers chosen with short half-lives?",
+      "back": "So they do not keep irradiating the patient for long after the test."
+    },
+    {
+      "front": "Why must some nuclear waste be stored for thousands of years?",
+      "back": "It contains isotopes with very long half-lives."
+    },
+    {
+      "front": "Approximate half-life of uranium-238?",
+      "back": "4.5 billion years."
+    },
+    {
+      "front": "Approximate half-life of technetium-99m?",
+      "back": "6 hours."
+    },
+    {
+      "front": "Why does Chernobyl contamination still matter?",
+      "back": "Caesium-137 and strontium-90 have half-lives of about 30 years."
+    },
+    {
+      "front": "Besides half-life, what else affects the hazard?",
+      "back": "Type of radiation, activity, and whether it is inside or outside the body."
+    },
+    {
+      "front": "Fraction of a 6-hour isotope left after 1 day?",
+      "back": "1/16 (4 half-lives)."
+    },
+    {
+      "front": "Does a long half-life mean high activity?",
+      "back": "No, it means low activity for a given number of nuclei."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-different-half-lives-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement about the half-lives of radioactive isotopes is correct?",
+      "options": [
+        "All isotopes have a half-life of about one day",
+        "Half-lives range from fractions of a second to billions of years",
+        "Half-lives are always between 1 and 100 years",
+        "Only man-made isotopes have half-lives"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Half-lives range from fractions of a second to billions of years"
+      ],
+      "explanation": "Half-lives vary enormously between isotopes, from tiny fractions of a second to billions of years."
+    },
+    {
+      "id": "p4-different-half-lives-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "An isotope has a very short half-life. What happens to its activity?",
+      "options": [
+        "It stays constant for a long time",
+        "It increases over time",
+        "It falls quickly",
+        "It falls very slowly"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It falls quickly"
+      ],
+      "explanation": "A short half-life means the activity halves in a short time, so it falls quickly."
+    },
+    {
+      "id": "p4-different-half-lives-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two samples contain the same number of unstable nuclei. Sample P has a half-life of 2 hours and sample Q has a half-life of 2 years. Which statement is correct?",
+      "options": [
+        "P has the higher activity",
+        "Q has the higher activity",
+        "They have the same activity",
+        "Neither sample is radioactive"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: P has the higher activity"
+      ],
+      "explanation": "With the same number of nuclei, the isotope that decays faster (shorter half-life) has more decays per second."
+    },
+    {
+      "id": "p4-different-half-lives-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do doctors choose isotopes with short half-lives as tracers inside the body?",
+      "options": [
+        "They emit only alpha radiation",
+        "They are cheaper",
+        "They become stable after one half-life",
+        "They do not stay radioactive in the body for long"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: They do not stay radioactive in the body for long"
+      ],
+      "explanation": "A short half-life means the activity falls to a low level soon after the scan, reducing the patient's dose."
+    },
+    {
+      "id": "p4-different-half-lives-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is contamination by caesium-137 (half-life 30 years) a long-term problem?",
+      "options": [
+        "It emits only gamma rays",
+        "It remains radioactive for many years",
+        "Its activity increases over time",
+        "It cannot be detected"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It remains radioactive for many years"
+      ],
+      "explanation": "With a 30-year half-life, it takes many decades for the activity to fall to a safe level."
+    },
+    {
+      "id": "p4-different-half-lives-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which isotope would remain hazardous for the longest time after release, if all emit the same type of radiation?",
+      "options": [
+        "Iodine-131 (8 days)",
+        "Radon-222 (3.8 days)",
+        "Plutonium-239 (24 000 years)",
+        "Cobalt-60 (5.3 years)"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Plutonium-239 (24 000 years)"
+      ],
+      "explanation": "The longest half-life means the material stays radioactive for the longest time."
+    },
+    {
+      "id": "p4-different-half-lives-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two sources have the same initial activity. Source A has a half-life of 1 day and source B has a half-life of 4 days. What is the ratio of activity A : B after 4 days?",
+      "options": [
+        "1 : 8",
+        "1 : 4",
+        "4 : 1",
+        "1 : 2"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 1 : 8"
+      ],
+      "explanation": "A: 4 half-lives, so 1/16 remains. B: 1 half-life, so 1/2 remains. Ratio = 1/16 : 1/2 = 1 : 8."
+    },
+    {
+      "id": "p4-different-half-lives-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which combination makes a radioactive material the greatest long-term hazard if it gets into food chains?",
+      "options": [
+        "Short half-life and gamma emitter",
+        "Long half-life and gamma emitter that passes out of the body",
+        "Short half-life and alpha emitter",
+        "Long half-life and alpha or beta emitter absorbed in the body"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Long half-life and alpha or beta emitter absorbed in the body"
+      ],
+      "explanation": "A long half-life keeps it radioactive for years, and alpha or beta radiation emitted inside the body is absorbed by tissue, causing damage."
+    },
+    {
+      "id": "p4-different-half-lives-q09",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sample of technetium-99m has an activity of 400 MBq. Its half-life is 6 hours.\nCalculate its activity after 24 hours.",
+      "numericAnswer": 25,
+      "tolerance": 0.01,
+      "unit": "MBq",
+      "markScheme": [
+        "1 mark: 24 ÷ 6 = 4 half-lives",
+        "1 mark: 400 ÷ 16 = 25 MBq"
+      ],
+      "explanation": "400 → 200 → 100 → 50 → 25 MBq."
+    },
+    {
+      "id": "p4-different-half-lives-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Iodine-131 has a half-life of 8 days. A sample has an activity of 2400 Bq.\nCalculate the activity after 24 days.",
+      "numericAnswer": 300,
+      "tolerance": 0.01,
+      "unit": "Bq",
+      "markScheme": [
+        "1 mark: 24 ÷ 8 = 3 half-lives",
+        "1 mark: 2400 ÷ 8 = 300 Bq"
+      ],
+      "explanation": "Three halvings: 2400 → 1200 → 600 → 300 Bq."
+    },
+    {
+      "id": "p4-different-half-lives-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Waste containing strontium-90 (half-life 29 years) has an activity of 8000 Bq. Calculate how many years it takes for its activity to fall to 500 Bq.",
+      "numericAnswer": 116,
+      "tolerance": 0.01,
+      "unit": "years",
+      "markScheme": [
+        "1 mark: 8000 → 4000 → 2000 → 1000 → 500 is 4 half-lives",
+        "1 mark: 4 × 29 = 116 years"
+      ],
+      "explanation": "8000 ÷ 500 = 16 = 2⁴, so 4 half-lives: 116 years."
+    },
+    {
+      "id": "p4-different-half-lives-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Isotope X (half-life 3 hours) and isotope Y (half-life 12 hours) both start with an activity of 1280 Bq.\nCalculate the difference between their activities after 12 hours.",
+      "numericAnswer": 560,
+      "tolerance": 0.01,
+      "unit": "Bq",
+      "markScheme": [
+        "1 mark: X: 4 half-lives, 1280 ÷ 16 = 80 Bq",
+        "1 mark: Y: 1 half-life, 1280 ÷ 2 = 640 Bq",
+        "1 mark: difference = 640 − 80 = 560 Bq"
+      ],
+      "explanation": "The shorter half-life source falls much faster: after 12 hours it is only an eighth of the other."
+    },
+    {
+      "id": "p4-different-half-lives-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A hospital stores waste containing an isotope with a half-life of 5 days until its activity has fallen to 1/32 of its original value.\nCalculate the minimum storage time in days.",
+      "numericAnswer": 25,
+      "tolerance": 0.01,
+      "unit": "days",
+      "markScheme": [
+        "1 mark: 1/32 = (½)⁵, so 5 half-lives",
+        "1 mark: 5 × 5 = 25 days"
+      ],
+      "explanation": "Halving 5 times gives 1/32."
+    },
+    {
+      "id": "p4-different-half-lives-q14",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the approximate range of half-lives of radioactive isotopes.",
+      "acceptedAnswers": [
+        "fractions of a second to billions of years",
+        "very wide range"
+      ],
+      "markScheme": [
+        "1 mark: from fractions of a second to billions of years"
+      ],
+      "explanation": "The spread of values is enormous."
+    },
+    {
+      "id": "p4-different-half-lives-q15",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State one advantage and one disadvantage of a radioactive isotope having a short half-life.",
+      "acceptedAnswers": [
+        "decays quickly",
+        "does not last long",
+        "high activity",
+        "must be used quickly",
+        "cannot be stored"
+      ],
+      "markScheme": [
+        "1 mark: advantage: its activity falls quickly so the hazard does not last long",
+        "1 mark: disadvantage: high activity at first / must be used quickly / cannot be stored for long"
+      ],
+      "explanation": "A short half-life is good for safety afterwards but means the material decays before it can be stored."
+    },
+    {
+      "id": "p4-different-half-lives-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why waste containing isotopes with very long half-lives must be stored securely for a very long time.",
+      "acceptedAnswers": [
+        "remains radioactive",
+        "activity falls slowly",
+        "many half-lives",
+        "hazard for thousands of years"
+      ],
+      "markScheme": [
+        "1 mark: the activity falls very slowly / it remains radioactive for a long time",
+        "1 mark: so it remains hazardous for many years (it takes many half-lives to reach a safe level)"
+      ],
+      "explanation": "Long half-life waste stays radioactive for thousands of years."
+    },
+    {
+      "id": "p4-different-half-lives-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why, for the same number of unstable nuclei, an isotope with a short half-life has a higher activity than one with a long half-life.",
+      "acceptedAnswers": [
+        "decays faster",
+        "more decays per second",
+        "greater chance of decay"
+      ],
+      "markScheme": [
+        "1 mark: each nucleus of the short half-life isotope has a greater chance of decaying in a given time",
+        "1 mark: so there are more decays per second (higher activity)"
+      ],
+      "explanation": "Activity is decays per second, and short half-life nuclei decay more readily."
+    },
+    {
+      "id": "p4-different-half-lives-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one reason why isotopes used as medical tracers have short half-lives.",
+      "acceptedAnswers": [
+        "patient not exposed for long",
+        "decays quickly",
+        "less dose"
+      ],
+      "markScheme": [
+        "1 mark: so the patient is not exposed to radiation for long / lower dose"
+      ],
+      "explanation": "The tracer only needs to be active during the test."
+    },
+    {
+      "id": "p4-different-half-lives-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "After a nuclear accident, iodine-131 (half-life 8 days) and caesium-137 (half-life 30 years) were released. Compare the hazards from these two isotopes in the months and years after the accident.",
+      "acceptedAnswers": [
+        "iodine high activity at first",
+        "iodine decays within months",
+        "caesium lasts decades",
+        "caesium long-term contamination"
+      ],
+      "markScheme": [
+        "1 mark: iodine-131 has a high activity at first so is a major short-term hazard",
+        "1 mark: iodine-131 decays to a very low level within a few months (many half-lives)",
+        "1 mark: caesium-137 remains radioactive for decades, so it is the main long-term hazard"
+      ],
+      "explanation": "Short and long half-lives cause different patterns of hazard over time."
+    },
+    {
+      "id": "p4-different-half-lives-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: \"Radioactive materials with long half-lives are always the most dangerous.\" Evaluate this statement.",
+      "acceptedAnswers": [
+        "long half-life low activity",
+        "short half-life high activity",
+        "depends on time and type of radiation"
+      ],
+      "markScheme": [
+        "1 mark: long half-life gives lower activity so less intense radiation at any time / short half-life gives more intense short-term hazard",
+        "1 mark: so it depends on the timescale (and type of radiation); long half-life is more of a long-term hazard"
+      ],
+      "explanation": "An evaluation should consider both sides and reach a judgement."
+    },
+    {
+      "id": "p4-different-half-lives-q21",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these has the longest half-life?",
+      "options": [
+        "Iodine-131",
+        "Technetium-99m",
+        "Carbon-14",
+        "Uranium-238"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Uranium-238"
+      ],
+      "explanation": "Uranium-238 has a half-life of about 4.5 billion years, much longer than carbon-14 (5700 years)."
+    },
+    {
+      "id": "p4-different-half-lives-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A source has an activity of 6400 Bq. After 30 days its activity is 400 Bq. What is its half-life?",
+      "options": [
+        "7.5 days",
+        "10 days",
+        "15 days",
+        "4 days"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 7.5 days"
+      ],
+      "explanation": "6400 → 3200 → 1600 → 800 → 400 is 4 half-lives; 30 ÷ 4 = 7.5 days."
+    },
+    {
+      "id": "p4-different-half-lives-q23",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one isotope that has a half-life of many thousands of years or more.",
+      "acceptedAnswers": [
+        "uranium-238",
+        "plutonium-239",
+        "carbon-14",
+        "uranium-235"
+      ],
+      "markScheme": [
+        "1 mark: e.g. uranium-238, plutonium-239, carbon-14"
+      ],
+      "explanation": "These isotopes remain radioactive for very long times, which matters for waste storage."
+    },
+    {
+      "id": "p4-different-half-lives-q24",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which isotope would be most suitable as a tracer injected into a patient, considering half-life only?",
+      "options": [
+        "An isotope with a half-life of 5 seconds",
+        "An isotope with a half-life of 6 hours",
+        "An isotope with a half-life of 30 years",
+        "An isotope with a half-life of 5000 years"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: An isotope with a half-life of 6 hours"
+      ],
+      "explanation": "6 hours is long enough to carry out a scan but short enough that the activity soon falls. 5 seconds would decay before the scan; years would irradiate the patient for too long."
+    },
+    {
+      "id": "p4-different-half-lives-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain how the half-life of a radioactive isotope affects the hazard it presents.",
+      "markScheme": [
+        "Indicative content: half-lives vary from fractions of a second to billions of years; short half-life gives high activity at first; but activity falls quickly so hazard is short-lived; long half-life gives lower activity; but stays radioactive for a long time; long-term hazard for contamination and waste; hazard also depends on type of radiation.",
+        "Level 2 (3 to 4 marks): clearly explains hazards for both short and long half-lives, linking to activity and duration.",
+        "Level 1 (1 to 2 marks): simple statements about half-life and hazard.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Contrast intensity (activity) with duration for short and long half-lives."
+    },
+    {
+      "id": "p4-different-half-lives-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Some isotopes that could be used as a tracer to study the flow of water in an underground pipe are shown.\nIsotope A: beta emitter, half-life 15 hours\nIsotope B: alpha emitter, half-life 4 days\nIsotope C: gamma emitter, half-life 6 hours\nIsotope D: gamma emitter, half-life 30 years\nThe tracer is added to the water and detected above ground. Evaluate which isotope is most suitable.",
+      "markScheme": [
+        "Indicative content: radiation must pass through soil and pipe to reach the detector above ground, so gamma needed; alpha (B) would be absorbed by water and pipe; beta (A) absorbed by soil/pipe; D has a very long half-life so it would contaminate the water supply for decades; C has a short half-life: long enough to carry out the test (hours) but decays to a low level within a few days; so C is best; precautions still needed.",
+        "Level 3 (5 to 6 marks): evaluates all four isotopes using both type of radiation and half-life, reaching a justified choice of C.",
+        "Level 2 (3 to 4 marks): chooses C with reasons based on either radiation type or half-life, with some evaluation of the others.",
+        "Level 1 (1 to 2 marks): simple statements about one or two isotopes.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A good answer uses two criteria: penetration (needs gamma) and half-life (long enough for the test, short enough not to persist)."
+    }
+  ]
+}
