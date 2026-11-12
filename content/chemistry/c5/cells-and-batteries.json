@@ -1,0 +1,685 @@
+{
+  "id": "c5-cells-and-batteries",
+  "science": "chemistry",
+  "topicId": "c5",
+  "slug": "cells-and-batteries",
+  "specRef": "4.5.2.1",
+  "title": "Cells and batteries",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A cell contains chemicals that react to produce electricity. A battery consists of two or more cells connected together in series to provide a greater voltage.",
+    "explanation": [
+      "Cells contain chemicals which react to produce electricity. A simple cell can be made by putting two different metals into an electrolyte (a solution containing ions, such as salt solution or dilute acid) and connecting them with a wire. A voltmeter connected between the two metals shows the potential difference (voltage). The chemical reaction transfers energy in a store of chemical energy into an electric current in the circuit.",
+      "The voltage of a cell depends on a number of factors, including the type of electrode and the electrolyte used. The bigger the difference in reactivity between the two metals, the bigger the voltage. The more reactive metal forms the negative electrode because it loses electrons more readily; electrons flow from it through the wire to the less reactive metal. If both electrodes are the same metal, there is no difference in reactivity and the voltage is zero.",
+      "This means you can use cell voltages to compare the reactivity of metals. For example, if magnesium and copper give 2.7 V, zinc and copper give 1.1 V and iron and copper give 0.8 V, then the order of reactivity is magnesium > zinc > iron > copper. You can also estimate the voltage for a new pair: a magnesium and zinc cell would give about 2.7 − 1.1 = 1.6 V.",
+      "A battery is two or more cells connected in series. The voltages of the cells add up, so three 1.5 V cells in series give a 4.5 V battery. In non-rechargeable cells and batteries the chemical reactions stop when one of the reactants has been used up, and then the battery is 'flat'. Alkaline batteries are non-rechargeable. Rechargeable cells and batteries can be recharged because the chemical reactions are reversed when an external electrical current is supplied.",
+      "When evaluating the use of cells, consider cost, convenience and the environment. Non-rechargeable batteries are cheaper to buy and suit low-power devices used occasionally, such as TV remote controls or smoke alarms, but they are thrown away when the reactants are used up, which wastes resources and some contain harmful metals. Rechargeable batteries cost more and need a charger, but can be reused many times, so they produce less waste and are cheaper over time for high-use devices such as mobile phones and laptops."
+    ],
+    "keyFacts": [
+      "Cells contain chemicals that react to produce electricity.",
+      "A simple cell is two different metals in contact with an electrolyte.",
+      "Cell voltage depends on the type of electrodes and the electrolyte.",
+      "The greater the difference in reactivity of the two metals, the greater the voltage.",
+      "The more reactive metal is the negative electrode.",
+      "Two electrodes of the same metal give a voltage of zero.",
+      "A battery is two or more cells connected in series; the voltages add up.",
+      "Non-rechargeable cells stop working when one reactant is used up; alkaline batteries are non-rechargeable.",
+      "Rechargeable cells are recharged because an external current reverses the chemical reactions."
+    ],
+    "keyTerms": [
+      {
+        "term": "Cell",
+        "definition": "A device containing chemicals which react to produce electricity."
+      },
+      {
+        "term": "Battery",
+        "definition": "Two or more cells connected together in series to provide a greater voltage."
+      },
+      {
+        "term": "Electrolyte",
+        "definition": "A liquid or solution containing ions that can conduct electricity, used in a cell between the electrodes."
+      },
+      {
+        "term": "Electrode",
+        "definition": "A conductor (in a simple cell, a metal) in contact with the electrolyte."
+      },
+      {
+        "term": "Non-rechargeable cell",
+        "definition": "A cell in which the chemical reactions stop when one of the reactants has been used up, for example an alkaline battery."
+      },
+      {
+        "term": "Rechargeable cell",
+        "definition": "A cell in which the chemical reactions can be reversed by supplying an external electrical current."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Voltage of a battery (cells in series)",
+        "formula": "total voltage = sum of the voltages of the cells in series",
+        "symbols": "",
+        "units": "V",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Ordering metals using cell voltages",
+        "question": "Cells are made using copper and another metal. Voltages: magnesium 2.7 V, iron 0.8 V, zinc 1.1 V. Put the four metals in order of reactivity.",
+        "steps": [
+          "A bigger voltage means a bigger difference in reactivity from copper.",
+          "Magnesium (2.7 V) is the most different from copper, then zinc (1.1 V), then iron (0.8 V).",
+          "All three give a voltage with copper, so all are more reactive than copper."
+        ],
+        "answer": "Magnesium > zinc > iron > copper (most to least reactive)."
+      },
+      {
+        "title": "Predicting the voltage for a new pair",
+        "question": "Using the data above, predict the voltage of a cell made from magnesium and zinc.",
+        "steps": [
+          "Both are measured against copper.",
+          "Difference = 2.7 − 1.1 = 1.6 V.",
+          "Magnesium is more reactive, so it is the negative electrode."
+        ],
+        "answer": "About 1.6 V, with magnesium as the negative electrode."
+      },
+      {
+        "title": "Cells in series",
+        "question": "A torch needs 6.0 V. How many 1.5 V cells must be connected in series?",
+        "steps": [
+          "Voltages add in series.",
+          "Number of cells = 6.0 ÷ 1.5 = 4."
+        ],
+        "answer": "4 cells"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A simple cell",
+        "caption": "Two different metals dip into an electrolyte. The more reactive zinc is the negative electrode; electrons flow through the wire to the copper. The voltmeter measures the voltage.",
+        "svg": "<svg viewBox=\"0 0 440 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"cbA\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs>\n<text x=\"210\" y=\"16\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Electrons flow through the wire from zinc to copper</text>\n<line x1=\"165\" y1=\"28\" x2=\"255\" y2=\"28\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#cbA)\"/>\n<polyline points=\"157,75 157,55 194,55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<polyline points=\"226,55 263,55 263,75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<circle cx=\"210\" cy=\"55\" r=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<text x=\"210\" y=\"60\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">V</text>\n<rect x=\"121\" y=\"140\" width=\"178\" height=\"99\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M120 110 L120 240 L300 240 L300 110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"150\" y=\"75\" width=\"14\" height=\"145\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<rect x=\"256\" y=\"75\" width=\"14\" height=\"145\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"150\" y1=\"100\" x2=\"100\" y2=\"100\" stroke=\"currentColor\"/>\n<text x=\"10\" y=\"92\" font-size=\"12\" fill=\"currentColor\">Zinc electrode</text>\n<text x=\"10\" y=\"106\" font-size=\"12\" fill=\"currentColor\">(more reactive,</text>\n<text x=\"10\" y=\"120\" font-size=\"12\" fill=\"currentColor\">negative)</text>\n<line x1=\"270\" y1=\"100\" x2=\"315\" y2=\"100\" stroke=\"currentColor\"/>\n<text x=\"320\" y=\"92\" font-size=\"12\" fill=\"currentColor\">Copper electrode</text>\n<text x=\"320\" y=\"106\" font-size=\"12\" fill=\"currentColor\">(less reactive,</text>\n<text x=\"320\" y=\"120\" font-size=\"12\" fill=\"currentColor\">positive)</text>\n<line x1=\"224\" y1=\"47\" x2=\"300\" y2=\"40\" stroke=\"currentColor\"/>\n<text x=\"304\" y=\"44\" font-size=\"12\" fill=\"currentColor\">Voltmeter</text>\n<line x1=\"290\" y1=\"200\" x2=\"315\" y2=\"200\" stroke=\"currentColor\"/>\n<text x=\"320\" y=\"197\" font-size=\"12\" fill=\"currentColor\">Electrolyte</text>\n<text x=\"320\" y=\"211\" font-size=\"12\" fill=\"currentColor\">(e.g. salt solution)</text>\n</svg>"
+      },
+      {
+        "title": "A battery of cells in series",
+        "caption": "Connecting cells in series, positive terminal to negative terminal, adds their voltages together.",
+        "svg": "<svg viewBox=\"0 0 440 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"95\" y=\"40\" width=\"250\" height=\"95\" rx=\"8\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"5 4\"/>\n<line x1=\"40\" y1=\"80\" x2=\"140\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"140\" y1=\"60\" x2=\"140\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"150\" y1=\"70\" x2=\"150\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"5\"/><text x=\"145\" y=\"122\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.5 V</text>\n<line x1=\"150\" y1=\"80\" x2=\"210\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"60\" x2=\"210\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"220\" y1=\"70\" x2=\"220\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"5\"/><text x=\"215\" y=\"122\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.5 V</text>\n<line x1=\"220\" y1=\"80\" x2=\"280\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"280\" y1=\"60\" x2=\"280\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"5\"/><text x=\"285\" y=\"122\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.5 V</text>\n<line x1=\"290\" y1=\"80\" x2=\"400\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<text x=\"30\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">+</text>\n<text x=\"412\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">−</text>\n<text x=\"220\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Battery: three cells connected in series</text>\n<text x=\"220\" y=\"165\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Total voltage = 1.5 V + 1.5 V + 1.5 V = 4.5 V</text>\n<text x=\"220\" y=\"185\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">(long thin line = positive terminal of each cell)</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think any two pieces of metal in an electrolyte make a cell.",
+        "right": "In fact the two metals must be different. Two identical metals give zero voltage."
+      },
+      {
+        "wrong": "Students often think 'battery' and 'cell' mean the same thing.",
+        "right": "In fact a battery is two or more cells connected in series."
+      },
+      {
+        "wrong": "Students often think a battery stores electricity or electrons.",
+        "right": "In fact it stores chemicals, which react to produce electricity; when a reactant runs out the reaction stops."
+      },
+      {
+        "wrong": "Students often think the less reactive metal is the negative electrode.",
+        "right": "In fact the more reactive metal loses electrons more readily, so it is the negative electrode."
+      }
+    ],
+    "realWorld": [
+      "Alkaline batteries (non-rechargeable) are used in low-power devices such as TV remote controls, clocks and smoke alarms.",
+      "Rechargeable lithium-ion batteries are used in mobile phones, laptops and electric cars.",
+      "Rechargeable batteries help reduce the number of batteries sent to landfill, although they still need to be recycled at the end of their life."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Chemistry (8462) only, not Combined Science.",
+      "Cells contain chemicals which react to produce electricity; voltage depends on the electrodes and electrolyte.",
+      "Batteries are two or more cells in series; non-rechargeable versus rechargeable cells.",
+      "Interpret data for the relative reactivity of metals and evaluate the use of cells."
+    ],
+    "examTips": [
+      "Link voltage to the difference in reactivity: 'the bigger the difference in reactivity, the bigger the voltage'.",
+      "For rechargeable cells, say 'the chemical reactions are reversed when an external electrical current is supplied'.",
+      "For non-rechargeable cells, say 'the reactions stop when one of the reactants has been used up'.",
+      "In 'evaluate' questions, give advantages and disadvantages of both options, then a justified conclusion.",
+      "When predicting a voltage from data measured against the same metal, subtract the two values."
+    ],
+    "summary": [
+      "Cells use chemical reactions to produce electricity.",
+      "Simple cell: two different metals in an electrolyte.",
+      "Bigger difference in reactivity gives a bigger voltage.",
+      "Battery: two or more cells in series; voltages add.",
+      "Non-rechargeable (alkaline): stops when a reactant is used up.",
+      "Rechargeable: reactions reversed by an external current."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a cell?",
+      "back": "A device containing chemicals which react to produce electricity."
+    },
+    {
+      "front": "What is a battery?",
+      "back": "Two or more cells connected in series to give a greater voltage."
+    },
+    {
+      "front": "How do you make a simple cell?",
+      "back": "Put two different metals in contact with an electrolyte and connect them with a wire."
+    },
+    {
+      "front": "Name two factors that affect the voltage of a cell.",
+      "back": "The type of electrodes (metals) and the electrolyte."
+    },
+    {
+      "front": "How does the choice of metals affect the voltage?",
+      "back": "The bigger the difference in reactivity, the bigger the voltage."
+    },
+    {
+      "front": "Which metal is the negative electrode?",
+      "back": "The more reactive metal."
+    },
+    {
+      "front": "What voltage do two copper electrodes give?",
+      "back": "Zero."
+    },
+    {
+      "front": "Why does a non-rechargeable battery stop working?",
+      "back": "One of the reactants has been used up, so the reactions stop."
+    },
+    {
+      "front": "Give an example of a non-rechargeable battery.",
+      "back": "An alkaline battery."
+    },
+    {
+      "front": "How is a rechargeable cell recharged?",
+      "back": "An external electrical current reverses the chemical reactions."
+    },
+    {
+      "front": "Voltage of three 1.5 V cells in series?",
+      "back": "4.5 V"
+    },
+    {
+      "front": "One advantage of rechargeable batteries?",
+      "back": "They can be reused many times, so less waste and cheaper over time."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c5-cells-and-batteries-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is needed to make a simple chemical cell?",
+      "options": [
+        "Two identical metals in water",
+        "Two different metals in contact with an electrolyte",
+        "One metal in an electrolyte",
+        "Two different metals joined in air"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: two different metals in contact with an electrolyte"
+      ],
+      "explanation": "A simple cell needs two different metals and an electrolyte. Identical metals give no voltage, and an electrolyte is needed for the reaction."
+    },
+    {
+      "id": "c5-cells-and-batteries-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is a battery?",
+      "options": [
+        "A single cell with a large voltage",
+        "A cell that can be recharged",
+        "A cell that contains an alkali",
+        "Two or more cells connected in series"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: two or more cells connected in series"
+      ],
+      "explanation": "A battery is made of two or more cells connected in series, which gives a greater voltage than one cell."
+    },
+    {
+      "id": "c5-cells-and-batteries-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does a non-rechargeable cell eventually stop producing electricity?",
+      "options": [
+        "One of the reactants has been used up",
+        "The electrolyte has turned into an alkali",
+        "The electrons have all left the cell",
+        "The voltage has been reversed"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: one of the reactants has been used up"
+      ],
+      "explanation": "The chemical reactions stop when one of the reactants runs out, so no more electricity is produced."
+    },
+    {
+      "id": "c5-cells-and-batteries-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of battery is non-rechargeable?",
+      "options": [
+        "Lithium-ion phone battery",
+        "Car battery",
+        "Alkaline battery",
+        "Laptop battery"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: alkaline battery"
+      ],
+      "explanation": "Alkaline batteries are non-rechargeable. Phone, laptop and car batteries are rechargeable."
+    },
+    {
+      "id": "c5-cells-and-batteries-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How can a rechargeable cell be recharged?",
+      "options": [
+        "By adding more electrolyte",
+        "By replacing the electrodes",
+        "By heating it",
+        "By supplying an external electrical current to reverse the reactions"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: external current reverses the reactions"
+      ],
+      "explanation": "In a rechargeable cell the reactions can be reversed by an external electrical current, which re-forms the original reactants."
+    },
+    {
+      "id": "c5-cells-and-batteries-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Cells are made by placing two metals in salt solution. Which pair of metals will give the greatest voltage?",
+      "options": [
+        "Magnesium and copper",
+        "Zinc and copper",
+        "Iron and copper",
+        "Copper and copper"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: magnesium and copper"
+      ],
+      "explanation": "Magnesium and copper have the largest difference in reactivity, so they give the greatest voltage. Copper with copper gives zero."
+    },
+    {
+      "id": "c5-cells-and-batteries-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student puts two copper strips into dilute sulfuric acid and connects them to a voltmeter. What reading will the voltmeter show?",
+      "options": [
+        "1.1 V",
+        "0 V",
+        "A negative value",
+        "2.7 V"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 0 V"
+      ],
+      "explanation": "There is no difference in reactivity between two identical metals, so the voltage is zero."
+    },
+    {
+      "id": "c5-cells-and-batteries-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In a simple cell made from zinc and copper, which statement is correct?",
+      "options": [
+        "Copper is the negative electrode because it is more reactive",
+        "Zinc is the positive electrode because it is more reactive",
+        "Zinc is the negative electrode because it is more reactive",
+        "Both electrodes have the same charge"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: zinc is the negative electrode because it is more reactive"
+      ],
+      "explanation": "The more reactive metal (zinc) loses electrons more readily. Electrons flow from the zinc through the wire to the copper, so zinc is negative."
+    },
+    {
+      "id": "c5-cells-and-batteries-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Cells are made using copper and another metal in the same electrolyte. Magnesium gives 2.7 V, zinc gives 1.1 V and metal X gives 2.0 V. Where does X come in the reactivity series?",
+      "options": [
+        "More reactive than magnesium",
+        "Between magnesium and zinc",
+        "Between zinc and copper",
+        "Less reactive than copper"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: between magnesium and zinc"
+      ],
+      "explanation": "A bigger voltage against copper means a more reactive metal. 2.0 V is between 2.7 V and 1.1 V, so X is less reactive than magnesium but more reactive than zinc."
+    },
+    {
+      "id": "c5-cells-and-batteries-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A cell is made from zinc and copper in salt solution. The zinc is replaced by iron, which is less reactive than zinc but more reactive than copper. What happens to the voltage, and why?",
+      "options": [
+        "It increases, because iron is a transition metal",
+        "It stays the same, because the electrolyte is the same",
+        "It becomes zero, because iron does not react",
+        "It decreases, because the difference in reactivity is smaller"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: decreases because the difference in reactivity is smaller"
+      ],
+      "explanation": "Iron is closer to copper in the reactivity series than zinc is, so the difference in reactivity is smaller and the voltage falls."
+    },
+    {
+      "id": "c5-cells-and-batteries-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A torch powered by a non-rechargeable battery gets dimmer over several weeks of use. What is the best explanation?",
+      "options": [
+        "The reactants in the cells are being used up",
+        "The cells are being recharged by the torch",
+        "The electrolyte is turning into a metal",
+        "The cells are connected in parallel"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: the reactants are being used up"
+      ],
+      "explanation": "As the reactants are used up, the chemical reactions slow and stop, so less electricity is produced."
+    },
+    {
+      "id": "c5-cells-and-batteries-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Three cells, each of voltage 1.5 V, are connected in series to make a battery. Calculate the voltage of the battery.",
+      "numericAnswer": 4.5,
+      "tolerance": 0.01,
+      "unit": "V",
+      "markScheme": [
+        "1 mark: 1.5 × 3 = 4.5 V"
+      ],
+      "explanation": "In series, the voltages of the cells add: 1.5 + 1.5 + 1.5 = 4.5 V."
+    },
+    {
+      "id": "c5-cells-and-batteries-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A device needs a 9.0 V battery. How many 1.5 V cells must be connected in series?",
+      "numericAnswer": 6,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 9.0 ÷ 1.5 = 6"
+      ],
+      "explanation": "Each cell adds 1.5 V, so 9.0 ÷ 1.5 = 6 cells are needed."
+    },
+    {
+      "id": "c5-cells-and-batteries-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A rechargeable battery contains four cells in series. Each cell has a voltage of 1.2 V. Calculate the voltage of the battery.",
+      "numericAnswer": 4.8,
+      "tolerance": 0.01,
+      "unit": "V",
+      "markScheme": [
+        "1 mark: voltages add in series",
+        "1 mark: 4 × 1.2 = 4.8 V"
+      ],
+      "explanation": "4 × 1.2 = 4.8 V. Rechargeable cells often have a slightly lower voltage per cell than alkaline cells (1.5 V)."
+    },
+    {
+      "id": "c5-cells-and-batteries-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A magnesium and copper cell gives 2.7 V. A zinc and copper cell gives 1.1 V (same electrolyte). Predict the voltage of a cell made from magnesium and zinc.",
+      "numericAnswer": 1.6,
+      "tolerance": 0.01,
+      "unit": "V",
+      "markScheme": [
+        "1 mark: subtracts the two values",
+        "1 mark: 2.7 − 1.1 = 1.6 V"
+      ],
+      "explanation": "Both voltages are measured against copper, so the difference between magnesium and zinc is 2.7 − 1.1 = 1.6 V."
+    },
+    {
+      "id": "c5-cells-and-batteries-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A zinc and copper cell gives 1.10 V, with zinc as the negative electrode. A copper and silver cell gives 0.46 V, with copper as the negative electrode (same conditions). Predict the voltage of a zinc and silver cell.",
+      "numericAnswer": 1.56,
+      "tolerance": 0.01,
+      "unit": "V",
+      "markScheme": [
+        "1 mark: recognises silver is less reactive than copper, so the voltages add",
+        "1 mark: 1.10 + 0.46 = 1.56 V"
+      ],
+      "explanation": "Zinc is more reactive than copper, and copper is more reactive than silver. The difference in reactivity between zinc and silver is the sum of the two gaps: 1.10 + 0.46 = 1.56 V."
+    },
+    {
+      "id": "c5-cells-and-batteries-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what a chemical cell contains that allows it to produce electricity.",
+      "acceptedAnswers": [
+        "chemicals that react"
+      ],
+      "markScheme": [
+        "1 mark: chemicals which react (to produce electricity)"
+      ],
+      "explanation": "A cell contains reactants. Their chemical reaction produces the electric current."
+    },
+    {
+      "id": "c5-cells-and-batteries-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two factors that affect the voltage of a simple cell.",
+      "acceptedAnswers": [
+        "type of electrodes",
+        "type of metals",
+        "electrolyte",
+        "concentration of electrolyte"
+      ],
+      "markScheme": [
+        "1 mark: the type of electrodes (metals) used",
+        "1 mark: the electrolyte used"
+      ],
+      "explanation": "The specification states that voltage depends on factors including the type of electrode and the electrolyte."
+    },
+    {
+      "id": "c5-cells-and-batteries-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Two identical 1.5 V cells are connected in series. State what happens to the total voltage compared with one cell.",
+      "acceptedAnswers": [
+        "doubles",
+        "3.0 V",
+        "3 V"
+      ],
+      "markScheme": [
+        "1 mark: it doubles (to 3.0 V)"
+      ],
+      "explanation": "Cell voltages add when connected in series, so 1.5 + 1.5 = 3.0 V."
+    },
+    {
+      "id": "c5-cells-and-batteries-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a rechargeable cell can be used many times.",
+      "acceptedAnswers": [
+        "reactions are reversed",
+        "external electrical current",
+        "reactants re-formed"
+      ],
+      "markScheme": [
+        "1 mark: an external electrical current is supplied",
+        "1 mark: which reverses the chemical reactions (re-forming the reactants)"
+      ],
+      "explanation": "Recharging reverses the reactions, so the reactants are made again and the cell can produce electricity again."
+    },
+    {
+      "id": "c5-cells-and-batteries-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why an alkaline battery eventually stops working and is then thrown away.",
+      "acceptedAnswers": [
+        "reactant used up",
+        "reactions stop",
+        "non-rechargeable",
+        "cannot be reversed"
+      ],
+      "markScheme": [
+        "1 mark: one of the reactants is used up so the reactions stop",
+        "1 mark: it is non-rechargeable / the reactions cannot be reversed"
+      ],
+      "explanation": "Alkaline batteries are non-rechargeable: once a reactant has been used up, the reaction cannot be reversed by recharging."
+    },
+    {
+      "id": "c5-cells-and-batteries-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student has several zinc and copper cells, each giving 1.1 V. Suggest how they could produce a voltage of about 3.3 V.",
+      "acceptedAnswers": [
+        "three cells in series",
+        "connect in series"
+      ],
+      "markScheme": [
+        "1 mark: connect three cells in series"
+      ],
+      "explanation": "Voltages add in series: 3 × 1.1 = 3.3 V."
+    },
+    {
+      "id": "c5-cells-and-batteries-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give one advantage and one disadvantage of using rechargeable batteries instead of non-rechargeable batteries.",
+      "acceptedAnswers": [
+        "reused many times",
+        "less waste",
+        "cheaper in the long run",
+        "more expensive to buy",
+        "need a charger",
+        "lower voltage per cell"
+      ],
+      "markScheme": [
+        "1 mark: advantage: can be reused many times / less waste / cheaper over time",
+        "1 mark: disadvantage: higher initial cost / need a charger or electricity supply / need recharging, so can run out at inconvenient times"
+      ],
+      "explanation": "Rechargeable batteries cost more to start with but can be recharged hundreds of times, which saves money and reduces waste."
+    },
+    {
+      "id": "c5-cells-and-batteries-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "In a cell made from magnesium and copper, magnesium is the negative electrode. Explain why.",
+      "acceptedAnswers": [
+        "magnesium is more reactive",
+        "loses electrons more readily",
+        "electrons flow from magnesium to copper"
+      ],
+      "markScheme": [
+        "1 mark: magnesium is more reactive than copper / loses electrons more easily",
+        "1 mark: so electrons build up on the magnesium and flow through the wire from magnesium to copper"
+      ],
+      "explanation": "The more reactive metal is oxidised more readily, losing electrons. These electrons make the magnesium negative and flow through the external circuit to the copper."
+    },
+    {
+      "id": "c5-cells-and-batteries-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student made cells from different pairs of metals P, Q and R in the same electrolyte.\nP and Q: 0.9 V (Q negative)\nP and R: 1.5 V (R negative)\nQ and R: 0.6 V (R negative)\nIdentify the most reactive metal and the least reactive metal. Explain your answer.",
+      "acceptedAnswers": [
+        "R most reactive",
+        "P least reactive",
+        "negative electrode is more reactive",
+        "largest voltage between P and R"
+      ],
+      "markScheme": [
+        "1 mark: R is most reactive and P is least reactive",
+        "1 mark: R is the negative electrode in both of its cells (the more reactive metal is negative), and P is never negative / P and R give the largest voltage, so they are furthest apart in reactivity"
+      ],
+      "explanation": "The negative electrode is always the more reactive metal. R is negative against both P and Q; Q is negative against P. So the order is R > Q > P, and the biggest voltage (1.5 V) is between the two extremes."
+    },
+    {
+      "id": "c5-cells-and-batteries-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A family uses batteries in a TV remote control, a smoke alarm and two mobile phones. Evaluate the use of rechargeable batteries compared with non-rechargeable alkaline batteries for these devices.",
+      "markScheme": [
+        "Indicative content: non-rechargeable (alkaline): reactions stop when a reactant is used up; cheaper to buy; no charger needed; last a long time in low-power devices such as remote controls and smoke alarms; but must be thrown away, creating waste; resources (metals) are used up; some contain substances harmful to the environment; must be replaced, so cost adds up over time. Rechargeable: reactions reversed by an external current; can be reused many times; less waste and fewer resources used; cheaper over the lifetime; suit high-use devices such as mobile phones; but cost more to buy; need a charger and electricity (which may come from fossil fuels); may lose charge and need regular recharging; still need recycling at the end of their life. Conclusion: for example, rechargeable batteries are better for mobile phones because they are used heavily every day; alkaline batteries are reasonable for low-power devices like remote controls and smoke alarms because they last a long time and a smoke alarm must not run flat unexpectedly.",
+        "Level 3 (5 to 6 marks): advantages and disadvantages of both types, linked to the devices, with a justified conclusion.",
+        "Level 2 (3 to 4 marks): some advantages and disadvantages of both types, with limited links to the devices or an unsupported conclusion.",
+        "Level 1 (1 to 2 marks): simple points about one type of battery."
+      ],
+      "explanation": "An evaluation needs points for and against both options and a conclusion. The best answers match the battery type to how the device is used."
+    },
+    {
+      "id": "c5-cells-and-batteries-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student made cells with copper as one electrode and a second metal in the same salt solution.\nMagnesium: 2.7 V; Zinc: 1.1 V; Iron: 0.8 V; Copper: 0.0 V\nExplain what these results show about the reactivity of the metals, and predict, with a reason, the voltage of a cell made from magnesium and iron.",
+      "markScheme": [
+        "Indicative content: the bigger the voltage, the bigger the difference in reactivity between the metal and copper; so the order of reactivity is magnesium > zinc > iron > copper; copper with copper gives 0 V because there is no difference in reactivity; the other metal is the negative electrode in each cell because it is more reactive than copper; magnesium and iron cell: 2.7 − 0.8 = 1.9 V; because both were measured against copper; magnesium would be the negative electrode.",
+        "Level 2 (3 to 4 marks): correct order of reactivity linked to voltage, with a correct prediction of about 1.9 V and a reason.",
+        "Level 1 (1 to 2 marks): correct order of reactivity or a correct prediction, with limited explanation."
+      ],
+      "explanation": "Voltage measures the difference in reactivity from copper. Subtracting values measured against the same reference metal gives the voltage for a new pair."
+    }
+  ]
+}
