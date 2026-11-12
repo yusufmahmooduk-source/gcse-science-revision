@@ -1,0 +1,752 @@
+{
+  "id": "p5-reaction-time",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "reaction-time",
+  "specRef": "4.5.6.3.2",
+  "title": "Reaction time",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Reaction time is the time between a person detecting a stimulus (such as a hazard on the road) and responding to it. Typical human reaction times range from 0.2 s to 0.9 s.",
+    "explanation": [
+      "Reaction times vary from person to person, and the same person's reaction time can vary from moment to moment. Typical values range from about 0.2 s to 0.9 s. For a driver, reaction time is the time between seeing a hazard and starting to press the brake pedal. During this time the car continues at a constant speed, so a longer reaction time means a longer thinking distance, since thinking distance = speed × reaction time.",
+      "A driver's reaction time is increased by tiredness, alcohol and drugs (including some prescription medicines). Distractions such as using a mobile phone, adjusting a sat nav, eating or talking to passengers also affect a driver's ability to react, because the driver may take longer to notice the hazard. Age and experience can also make a difference. All of these factors increase the thinking distance, and so the stopping distance, but they do not change the braking distance.",
+      "A simple way to measure reaction time is the ruler drop test. A partner holds a ruler vertically with the zero mark level with the gap between the catcher's thumb and first finger. Without warning, the partner lets go and the catcher closes their fingers to catch the ruler as quickly as possible. The distance the ruler falls before it is caught is read from the scale. The further the ruler falls, the longer the reaction time. The distance can be converted to a time using a conversion table or graph, because the ruler accelerates at a known rate (9.8 m/s²) as it falls.",
+      "To get valid results, repeat the test several times, ignore any anomalous results and calculate a mean. Control variables such as which hand is used, the starting position of the fingers and the person dropping the ruler. Problems with the ruler drop test include the catcher anticipating the drop from the partner's movements, difficulty reading the scale exactly at the fingers, and results improving with practice.",
+      "Reaction times can also be measured with a computer program: the person clicks a mouse or presses a key as soon as the screen changes colour, and the computer records the time. This removes the need to convert a distance to a time and gives a better resolution, and the moment the stimulus appears can be made random. Both tests usually give reaction times of around 0.2 s, which is shorter than a driver's reaction time in an emergency. In a test you are concentrating and expecting the signal, whereas a driver has to notice an unexpected hazard, decide what to do and move their foot to the brake."
+    ],
+    "keyFacts": [
+      "Reaction time is the time between seeing a stimulus and responding to it.",
+      "Typical reaction times range from 0.2 s to 0.9 s.",
+      "Reaction times vary from person to person.",
+      "Tiredness, alcohol and drugs increase reaction time.",
+      "Distractions, such as using a mobile phone, affect a driver's ability to react.",
+      "A longer reaction time gives a longer thinking distance (thinking distance = speed × reaction time).",
+      "Reaction time does not affect braking distance.",
+      "In the ruler drop test, a greater distance fallen means a longer reaction time.",
+      "Repeat measurements and calculate a mean to improve the reliability of reaction time results."
+    ],
+    "keyTerms": [
+      {
+        "term": "Reaction time",
+        "definition": "The time between detecting a stimulus and responding to it; typically 0.2 s to 0.9 s."
+      },
+      {
+        "term": "Thinking distance",
+        "definition": "The distance a vehicle travels during the driver's reaction time."
+      },
+      {
+        "term": "Ruler drop test",
+        "definition": "A method of measuring reaction time by catching a falling ruler and measuring how far it falls."
+      },
+      {
+        "term": "Stimulus",
+        "definition": "A change that a person detects and responds to, such as a ruler being released or a hazard appearing."
+      },
+      {
+        "term": "Mean",
+        "definition": "The sum of repeat measurements divided by the number of measurements, used to reduce the effect of random errors."
+      },
+      {
+        "term": "Anomalous result",
+        "definition": "A result that does not fit the pattern of the others, often caused by an error; it is left out of the mean."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Thinking distance",
+        "formula": "thinking distance = speed × reaction time",
+        "symbols": "s = v t",
+        "units": "s in m, v in m/s, t in s",
+        "recall": true
+      },
+      {
+        "name": "Uniform acceleration (used to convert ruler drop distance to time)",
+        "formula": "(final velocity)² − (initial velocity)² = 2 × acceleration × distance",
+        "symbols": "v² − u² = 2 a s",
+        "units": "v and u in m/s, a in m/s², s in m",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Processing ruler drop results",
+        "question": "A student's ruler drop results are 16 cm, 18 cm, 31 cm and 17 cm. Identify the anomalous result and calculate the mean distance.",
+        "steps": [
+          "31 cm is much larger than the other three results, so it is anomalous (perhaps the student was not concentrating).",
+          "Leave it out: mean = (16 + 18 + 17) ÷ 3 = 51 ÷ 3.",
+          "Mean = 17 cm."
+        ],
+        "answer": "Anomalous result: 31 cm; mean = 17 cm"
+      },
+      {
+        "title": "Effect of reaction time on thinking distance (with km/h conversion)",
+        "question": "A tired driver has a reaction time of 0.9 s and is travelling at 54 km/h. Calculate the thinking distance.",
+        "steps": [
+          "Convert the speed: 54 ÷ 3.6 = 15 m/s.",
+          "Thinking distance = speed × reaction time = 15 × 0.9.",
+          "Thinking distance = 13.5 m."
+        ],
+        "answer": "13.5 m"
+      },
+      {
+        "title": "Comparing alert and distracted reaction times",
+        "question": "A driver travelling at 30 m/s has a reaction time of 0.5 s when alert and 0.9 s when using a phone. Calculate the extra thinking distance caused by the phone.",
+        "steps": [
+          "Alert: 30 × 0.5 = 15 m.",
+          "Using a phone: 30 × 0.9 = 27 m.",
+          "Extra distance = 27 − 15 = 12 m (or 30 × 0.4 = 12 m)."
+        ],
+        "answer": "12 m further before braking even starts"
+      },
+      {
+        "title": "Converting a ruler drop distance to a time (Higher)",
+        "question": "A ruler falls 20 cm before it is caught. g = 9.8 m/s². Calculate the reaction time.",
+        "steps": [
+          "The ruler starts at rest (u = 0) and falls s = 0.20 m with a = 9.8 m/s².",
+          "v² = u² + 2as = 0 + 2 × 9.8 × 0.20 = 3.92, so v = 1.98 m/s.",
+          "a = Δv ÷ t, so t = Δv ÷ a = 1.98 ÷ 9.8.",
+          "t = 0.20 s."
+        ],
+        "answer": "0.20 s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "The ruler drop test",
+        "caption": "The partner releases the ruler without warning. The catcher's fingers start level with 0 cm; the distance fallen is read where the ruler is caught. A longer distance means a longer reaction time.",
+        "svg": "<svg viewBox='0 0 440 280' xmlns='http://www.w3.org/2000/svg'><rect x='180' y='25' width='34' height='212' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><line x1='180' y1='230.0' x2='192' y2='230.0' stroke='currentColor'/><text x='194' y='234.0' font-size='12' fill='currentColor'>0</text><line x1='180' y1='196.7' x2='192' y2='196.7' stroke='currentColor'/><text x='194' y='200.7' font-size='12' fill='currentColor'>5</text><line x1='180' y1='163.3' x2='192' y2='163.3' stroke='currentColor'/><text x='194' y='167.3' font-size='12' fill='currentColor'>10</text><line x1='180' y1='130.0' x2='192' y2='130.0' stroke='currentColor'/><text x='194' y='134.0' font-size='12' fill='currentColor'>15</text><line x1='180' y1='96.7' x2='192' y2='96.7' stroke='currentColor'/><text x='194' y='100.7' font-size='12' fill='currentColor'>20</text><line x1='180' y1='63.3' x2='192' y2='63.3' stroke='currentColor'/><text x='194' y='67.3' font-size='12' fill='currentColor'>25</text><line x1='180' y1='30.0' x2='192' y2='30.0' stroke='currentColor'/><text x='194' y='34.0' font-size='12' fill='currentColor'>30</text><ellipse cx='197' cy='20' rx='26' ry='9' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><ellipse cx='166' cy='232' rx='13' ry='8' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><ellipse cx='228' cy='232' rx='13' ry='8' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='250' y1='90' x2='250' y2='150' stroke='currentColor' stroke-width='3'/><path d='M250 162 L243 148 L257 148 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='262' y='115'>ruler falls when</text><text x='262' y='130'>partner lets go</text><text x='232' y='16'>partner holds top of ruler</text><text x='20' y='255'>catcher's thumb and finger start</text><text x='20' y='270'>level with 0 cm, with a small gap</text><text x='20' y='120'>distance fallen (cm)</text><text x='20' y='135'>is read where the</text><text x='20' y='150'>ruler is caught</text><text x='262' y='232'>longer distance =</text><text x='262' y='247'>longer reaction time</text></g></svg>"
+      },
+      {
+        "title": "Typical reaction times",
+        "caption": "Most people's reaction times lie between 0.2 s and 0.9 s. Tiredness, distractions, alcohol and drugs push reaction times towards the top of the range, increasing thinking distance.",
+        "svg": "<svg viewBox='0 0 440 200' xmlns='http://www.w3.org/2000/svg'><line x1='40' y1='110' x2='400' y2='110' stroke='currentColor' stroke-width='2'/><line x1='40' y1='104' x2='40' y2='116' stroke='currentColor'/><text x='40' y='132' font-size='12' fill='currentColor' text-anchor='middle'>0.0</text><line x1='112' y1='104' x2='112' y2='116' stroke='currentColor'/><text x='112' y='132' font-size='12' fill='currentColor' text-anchor='middle'>0.2</text><line x1='184' y1='104' x2='184' y2='116' stroke='currentColor'/><text x='184' y='132' font-size='12' fill='currentColor' text-anchor='middle'>0.4</text><line x1='256' y1='104' x2='256' y2='116' stroke='currentColor'/><text x='256' y='132' font-size='12' fill='currentColor' text-anchor='middle'>0.6</text><line x1='328' y1='104' x2='328' y2='116' stroke='currentColor'/><text x='328' y='132' font-size='12' fill='currentColor' text-anchor='middle'>0.8</text><line x1='400' y1='104' x2='400' y2='116' stroke='currentColor'/><text x='400' y='132' font-size='12' fill='currentColor' text-anchor='middle'>1.0</text><rect x='112' y='80' width='252' height='24' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><text x='238' y='96' font-size='12' fill='currentColor' text-anchor='middle'>typical range 0.2 s to 0.9 s</text><text x='220' y='152' font-size='12' fill='currentColor' text-anchor='middle'>reaction time in s</text><g font-size='12' fill='currentColor'><line x1='112' y1='80' x2='112' y2='50' stroke='currentColor' stroke-dasharray='4 3'/><text x='112' y='44' text-anchor='middle'>alert, expecting it</text><line x1='364' y1='80' x2='364' y2='50' stroke='currentColor' stroke-dasharray='4 3'/><text x='364' y='30' text-anchor='middle'>tired, distracted,</text><text x='364' y='44' text-anchor='middle'>alcohol or drugs</text><text x='220' y='180' text-anchor='middle'>Longer reaction time → longer thinking distance</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think alcohol or tiredness increases braking distance.",
+        "right": "In fact they increase reaction time, so they increase thinking distance. Braking distance depends on speed, the road and the vehicle."
+      },
+      {
+        "wrong": "Students often think a bigger number on the ruler means faster reactions.",
+        "right": "In fact a greater distance fallen means the ruler was falling for longer, so the reaction time was longer."
+      },
+      {
+        "wrong": "Students often think a reaction time measured with a ruler drop is the same as a driver's reaction time.",
+        "right": "In fact a driver must notice an unexpected hazard, decide and move a foot to the brake, so driving reaction times are usually longer."
+      },
+      {
+        "wrong": "Students often think everyone has the same reaction time.",
+        "right": "In fact reaction times vary between people and for the same person, typically from 0.2 s to 0.9 s."
+      }
+    ],
+    "realWorld": [
+      "Drink-driving and drug-driving laws exist because these substances increase reaction time and thinking distance.",
+      "It is illegal to hold a mobile phone while driving in the UK because distraction slows a driver's reactions.",
+      "Motorway service stations and road signs encourage tired drivers to take a break every two hours.",
+      "Sprinters who react to the starting gun in less than 0.1 s are judged to have false-started, because this is faster than human reaction allows."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Converting a ruler drop distance into a reaction time using v² − u² = 2as (with u = 0 and a = 9.8 m/s²) and then t = v ÷ a."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the typical range: 0.2 s to 0.9 s. Answers such as 2 s or 0.02 s are not sensible.",
+      "Link reaction time to thinking distance only, never to braking distance.",
+      "When describing the ruler drop test, include: the zero mark level with the fingers, release without warning, read where caught, repeat and take a mean.",
+      "When evaluating results, comment on repeatability (spread of results), anomalies and whether the difference between means is bigger than the spread.",
+      "Use thinking distance = speed × reaction time, and convert km/h to m/s first."
+    ],
+    "summary": [
+      "Reaction time is typically 0.2 s to 0.9 s and varies between people.",
+      "Tiredness, drugs, alcohol and distractions increase reaction time.",
+      "Longer reaction time means longer thinking distance and stopping distance.",
+      "The ruler drop test measures reaction time from the distance a ruler falls.",
+      "Repeat tests, remove anomalies and calculate a mean for reliable results.",
+      "Computer tests remove the conversion step and give better resolution."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is reaction time?",
+      "back": "The time between detecting a stimulus (such as a hazard) and responding to it."
+    },
+    {
+      "front": "Typical range of human reaction times?",
+      "back": "0.2 s to 0.9 s."
+    },
+    {
+      "front": "Name three things that increase a driver's reaction time.",
+      "back": "Tiredness, alcohol and drugs (also distractions)."
+    },
+    {
+      "front": "Which part of stopping distance does reaction time affect?",
+      "back": "Thinking distance only."
+    },
+    {
+      "front": "Equation linking thinking distance and reaction time?",
+      "back": "Thinking distance = speed × reaction time."
+    },
+    {
+      "front": "In the ruler drop test, what does a longer distance fallen mean?",
+      "back": "A longer reaction time."
+    },
+    {
+      "front": "Where should the catcher's fingers start in the ruler drop test?",
+      "back": "Level with the zero mark on the ruler."
+    },
+    {
+      "front": "Why repeat the ruler drop test?",
+      "back": "To spot anomalies and calculate a mean, reducing the effect of random errors."
+    },
+    {
+      "front": "Give one problem with the ruler drop test.",
+      "back": "The catcher may anticipate the drop from the partner's movement (or results improve with practice)."
+    },
+    {
+      "front": "Give one advantage of a computer reaction test.",
+      "back": "Measures time directly with better resolution, and the stimulus can be timed randomly."
+    },
+    {
+      "front": "Why is a driver's emergency reaction time often longer than a ruler drop result?",
+      "back": "The hazard is unexpected; the driver must notice it, decide and move a foot to the brake."
+    },
+    {
+      "front": "Name two distractions that affect a driver.",
+      "back": "Any two: using a phone, sat nav, eating, talking to passengers, loud music."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-reaction-time-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the typical range of human reaction times?",
+      "options": [
+        "0.002 s to 0.009 s",
+        "2 s to 9 s",
+        "0.2 s to 0.9 s",
+        "20 s to 90 s"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0.2 s to 0.9 s"
+      ],
+      "explanation": "Typical reaction times are 0.2 s to 0.9 s. A few thousandths of a second is far too quick for a person, and 2 s or more would be extremely slow."
+    },
+    {
+      "id": "p5-reaction-time-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these would NOT increase a driver's reaction time?",
+      "options": [
+        "Being tired",
+        "Having drunk alcohol",
+        "Using a mobile phone",
+        "Being well rested and concentrating"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Being well rested and concentrating"
+      ],
+      "explanation": "Tiredness, alcohol and distractions such as a phone all increase reaction time. A rested, focused driver reacts fastest."
+    },
+    {
+      "id": "p5-reaction-time-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A driver's reaction time increases. Which distance increases as a direct result?",
+      "options": [
+        "The thinking distance",
+        "The braking distance",
+        "The distance to the hazard",
+        "Neither the thinking distance nor the braking distance"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The thinking distance"
+      ],
+      "explanation": "Thinking distance = speed × reaction time, so a longer reaction time gives a longer thinking distance. Braking distance does not depend on reaction time."
+    },
+    {
+      "id": "p5-reaction-time-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In a ruler drop test, student X catches the ruler at 12 cm and student Y catches it at 18 cm. What can you conclude?",
+      "options": [
+        "Student Y has the shorter reaction time.",
+        "Student X has the shorter reaction time.",
+        "Both students have the same reaction time.",
+        "Student X's ruler fell faster."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Student X has the shorter reaction time."
+      ],
+      "explanation": "The ruler falls further the longer it takes to catch it, so the smaller distance (12 cm) means the shorter reaction time. Both rulers fall with the same acceleration."
+    },
+    {
+      "id": "p5-reaction-time-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why should a student repeat the ruler drop test several times and calculate a mean?",
+      "options": [
+        "To make the ruler fall faster",
+        "To remove the need to convert distance to time",
+        "To reduce the effect of random errors and identify anomalies",
+        "To make sure the reaction time is exactly 0.2 s"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: To reduce the effect of random errors and identify anomalies"
+      ],
+      "explanation": "Individual reaction times vary. Repeating lets you spot anomalous results and the mean is a better estimate of the true value."
+    },
+    {
+      "id": "p5-reaction-time-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two students compare their reaction times using a ruler drop test. Which is the most important control variable?",
+      "options": [
+        "The height of each student",
+        "The mass of the ruler",
+        "The colour of the ruler",
+        "The starting position of the catcher's fingers (level with zero)"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The starting position of the catcher's fingers (level with zero)"
+      ],
+      "explanation": "If the fingers start at different positions, the distance read from the scale would not be the distance fallen. The mass and colour of the ruler do not affect how fast it falls or the measurement."
+    },
+    {
+      "id": "p5-reaction-time-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is an advantage of using a computer test (clicking when the screen changes colour) rather than a ruler drop test?",
+      "options": [
+        "It records the time directly with a better resolution, and the stimulus can appear at random times.",
+        "It always gives a reaction time of 0.9 s.",
+        "It does not need repeat measurements.",
+        "It measures the braking distance of a car."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It records the time directly with a better resolution, and the stimulus can appear at random times."
+      ],
+      "explanation": "The computer measures time to the nearest millisecond and cannot give clues about when the stimulus appears. Repeats are still needed because reaction times vary."
+    },
+    {
+      "id": "p5-reaction-time-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A car's speed doubles and the driver's reaction time also doubles because the driver is tired. By what factor does the thinking distance change?",
+      "options": [
+        "It stays the same.",
+        "It doubles.",
+        "It halves.",
+        "It increases four times."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It increases four times."
+      ],
+      "explanation": "Thinking distance = speed × reaction time. Doubling both gives 2 × 2 = 4 times the thinking distance."
+    },
+    {
+      "id": "p5-reaction-time-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which value is the most sensible estimate of a typical driver's reaction time in an emergency?",
+      "options": [
+        "0.007 s",
+        "0.07 s",
+        "0.7 s",
+        "7 s"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0.7 s"
+      ],
+      "explanation": "0.7 s is within the typical range of 0.2 s to 0.9 s. The Highway Code thinking distances assume a reaction time of about 0.7 s."
+    },
+    {
+      "id": "p5-reaction-time-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student's ruler drop results are 12 cm, 13 cm, 25 cm and 12 cm. What is the best value to use for the mean distance?",
+      "options": [
+        "15.5 cm",
+        "12.3 cm",
+        "25 cm",
+        "12 cm"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 12.3 cm"
+      ],
+      "explanation": "25 cm is anomalous, so it is left out. Mean = (12 + 13 + 12) ÷ 3 = 12.3 cm. 15.5 cm includes the anomaly; 12 cm is the mode, not the mean."
+    },
+    {
+      "id": "p5-reaction-time-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A student's three ruler drop results are 18 cm, 22 cm and 20 cm.\nCalculate the mean distance fallen.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: (18 + 22 + 20) ÷ 3",
+        "1 mark: 20 cm"
+      ],
+      "explanation": "Mean = 60 ÷ 3 = 20 cm."
+    },
+    {
+      "id": "p5-reaction-time-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A driver travelling at 13 m/s has a reaction time of 0.5 s.\nCalculate the thinking distance.",
+      "numericAnswer": 6.5,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 13 × 0.5",
+        "1 mark: 6.5 m"
+      ],
+      "explanation": "Thinking distance = speed × reaction time = 13 × 0.5 = 6.5 m."
+    },
+    {
+      "id": "p5-reaction-time-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A computer reaction test gives three results: 0.25 s, 0.27 s and 0.29 s.\nCalculate the mean reaction time.",
+      "numericAnswer": 0.27,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: (0.25 + 0.27 + 0.29) ÷ 3",
+        "1 mark: 0.27 s"
+      ],
+      "explanation": "Mean = 0.81 ÷ 3 = 0.27 s."
+    },
+    {
+      "id": "p5-reaction-time-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A driver travels at 30 m/s. When alert, her reaction time is 0.5 s. When she uses a phone, her reaction time is 0.9 s.\nCalculate how much further the car travels before braking when she is using the phone.",
+      "numericAnswer": 12,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: alert thinking distance = 30 × 0.5 = 15 m",
+        "1 mark: distracted thinking distance = 30 × 0.9 = 27 m",
+        "1 mark: difference = 12 m"
+      ],
+      "explanation": "27 − 15 = 12 m, or 30 × (0.9 − 0.5) = 12 m. That is about three car lengths further before braking even starts."
+    },
+    {
+      "id": "p5-reaction-time-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A ruler is released from rest and falls 20 cm before it is caught. The acceleration of the ruler is 9.8 m/s².\nCalculate the reaction time of the person catching it.",
+      "numericAnswer": 0.2,
+      "tolerance": 0.03,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: s = 0.20 m and v² = 2 × 9.8 × 0.20 = 3.92",
+        "1 mark: v = 1.98 m/s",
+        "1 mark: t = v ÷ a = 1.98 ÷ 9.8",
+        "1 mark: t = 0.20 s"
+      ],
+      "explanation": "Use v² − u² = 2as with u = 0 to find the final speed, then a = Δv ÷ t to find the time. Remember to convert 20 cm to 0.20 m."
+    },
+    {
+      "id": "p5-reaction-time-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A metre rule is released from rest and falls 45 cm before it is caught. The acceleration of the rule is 9.8 m/s².\nCalculate the reaction time.",
+      "numericAnswer": 0.303,
+      "tolerance": 0.03,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: v² = 2 × 9.8 × 0.45 = 8.82",
+        "1 mark: v = 2.97 m/s",
+        "1 mark: t = 2.97 ÷ 9.8",
+        "1 mark: t = 0.30 s"
+      ],
+      "explanation": "v = √8.82 = 2.97 m/s; t = 2.97 ÷ 9.8 = 0.30 s. This is longer than the 20 cm result, as expected for a greater distance fallen."
+    },
+    {
+      "id": "p5-reaction-time-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A driver has a reaction time of 0.9 s and is travelling at 54 km/h.\nCalculate the thinking distance.",
+      "numericAnswer": 13.5,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 54 ÷ 3.6 = 15 m/s",
+        "1 mark: 15 × 0.9",
+        "1 mark: 13.5 m"
+      ],
+      "explanation": "Convert first: 54 km/h = 15 m/s. Thinking distance = 15 × 0.9 = 13.5 m."
+    },
+    {
+      "id": "p5-reaction-time-q18",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A driver's reaction time is 0.4 s when alert and 0.8 s when tired. The car travels at 27 m/s.\nCalculate the extra thinking distance when the driver is tired.",
+      "numericAnswer": 10.8,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: alert: 27 × 0.4 = 10.8 m",
+        "1 mark: tired: 27 × 0.8 = 21.6 m",
+        "1 mark: extra = 10.8 m"
+      ],
+      "explanation": "Doubling the reaction time doubles the thinking distance, from 10.8 m to 21.6 m, an extra 10.8 m."
+    },
+    {
+      "id": "p5-reaction-time-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the typical range of human reaction times.",
+      "acceptedAnswers": [
+        "0.2 s to 0.9 s",
+        "0.2 to 0.9 seconds"
+      ],
+      "markScheme": [
+        "1 mark: 0.2 s to 0.9 s"
+      ],
+      "explanation": "This range is given in the AQA specification and should be learned."
+    },
+    {
+      "id": "p5-reaction-time-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two factors that can increase a driver's reaction time.",
+      "acceptedAnswers": [
+        "tiredness",
+        "alcohol",
+        "drugs",
+        "distraction",
+        "mobile phone",
+        "medicines"
+      ],
+      "markScheme": [
+        "1 mark each, any two: tiredness; alcohol; drugs (including some medicines); distractions (such as using a phone)"
+      ],
+      "explanation": "These factors slow the brain's processing or reduce attention, so the driver responds later."
+    },
+    {
+      "id": "p5-reaction-time-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe how a ruler drop test can be used to measure a person's reaction time.",
+      "acceptedAnswers": [
+        "zero mark level with fingers",
+        "drop without warning",
+        "catch",
+        "read distance",
+        "repeat",
+        "mean",
+        "conversion table"
+      ],
+      "markScheme": [
+        "1 mark: partner holds ruler vertically with the zero mark level with the catcher's open thumb and finger",
+        "1 mark: partner releases the ruler without warning and the catcher catches it; read the distance fallen at the fingers",
+        "1 mark: repeat several times, calculate a mean and convert distance to time using a table or graph"
+      ],
+      "explanation": "A longer distance fallen means a longer reaction time. Repeating improves the reliability of the result."
+    },
+    {
+      "id": "p5-reaction-time-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why using a mobile phone while driving increases the stopping distance of a car.",
+      "acceptedAnswers": [
+        "distraction",
+        "reaction time increases",
+        "thinking distance increases"
+      ],
+      "markScheme": [
+        "1 mark: the driver is distracted, so reaction time increases",
+        "1 mark: so the thinking distance increases (stopping distance = thinking + braking distance)"
+      ],
+      "explanation": "The car travels further at full speed before the brakes are applied. The braking distance is unchanged."
+    },
+    {
+      "id": "p5-reaction-time-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why reaction times measured with a ruler drop test are usually shorter than a driver's reaction time in an emergency.",
+      "acceptedAnswers": [
+        "expecting the stimulus",
+        "concentrating",
+        "unexpected hazard",
+        "decide",
+        "move foot to brake"
+      ],
+      "markScheme": [
+        "1 mark: in the test the person is concentrating and expecting the stimulus",
+        "1 mark: a driver must notice an unexpected hazard, decide what to do and move a foot to the brake pedal"
+      ],
+      "explanation": "The ruler test measures a simple, expected response using the fingers. Driving involves more steps."
+    },
+    {
+      "id": "p5-reaction-time-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: \"Drinking alcohol increases a car's braking distance.\"\nEvaluate this statement.",
+      "acceptedAnswers": [
+        "reaction time",
+        "thinking distance",
+        "braking distance not affected",
+        "statement is wrong"
+      ],
+      "markScheme": [
+        "1 mark: alcohol increases reaction time, so it increases thinking distance",
+        "1 mark: braking distance depends on speed, road and vehicle conditions, so it is not affected; the statement is incorrect (although stopping distance does increase)"
+      ],
+      "explanation": "Alcohol does make stopping distance longer, but through thinking distance, not braking distance."
+    },
+    {
+      "id": "p5-reaction-time-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Evaluate the ruler drop test as a method of measuring reaction time. Give one strength, one weakness and one improvement.",
+      "acceptedAnswers": [
+        "simple",
+        "cheap",
+        "anticipate",
+        "practice",
+        "reading the scale",
+        "computer",
+        "same person drops",
+        "repeat and mean"
+      ],
+      "markScheme": [
+        "1 mark: strength: simple, quick and cheap, using everyday equipment",
+        "1 mark: weakness: catcher may anticipate the release from the partner's movement; or hard to read the scale exactly at the fingers; or results improve with practice",
+        "1 mark: improvement: repeat and take a mean; same person drops each time with random delays; or use a computer-based test"
+      ],
+      "explanation": "A good evaluation links each weakness to how it affects the result and suggests a specific improvement."
+    },
+    {
+      "id": "p5-reaction-time-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student does ten ruler drop tests. Her results get steadily smaller during the ten attempts.\nSuggest a reason for this and how the method could be improved.",
+      "acceptedAnswers": [
+        "practice",
+        "learning",
+        "getting used to it",
+        "practice attempts first",
+        "anticipate"
+      ],
+      "markScheme": [
+        "1 mark: she is learning or getting used to the test (practice effect), or learning to anticipate the release",
+        "1 mark: allow some practice attempts before recording, or vary the delay before release randomly"
+      ],
+      "explanation": "A trend in repeat results suggests a systematic change, not just random variation, so the method should be adjusted."
+    },
+    {
+      "id": "p5-reaction-time-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Plan an investigation to find out whether listening to loud music affects a person's reaction time, using a ruler drop test.\nInclude the variables and how you would make the results valid.",
+      "markScheme": [
+        "Indicative content: independent variable is music on or off (or volume); dependent variable is reaction time (distance fallen converted to time); control variables: same person catching, same hand, same ruler, same person dropping, fingers start level with zero, same gap between thumb and finger, same seating position; method: partner holds ruler with zero at catcher's fingers, releases without warning, record distance where caught, repeat at least 5 times without music and 5 times with music; remove anomalies, calculate means, convert to time using a conversion table; allow practice attempts first; compare means and spread; a longer mean time with music shows that distraction increases reaction time.",
+        "Level 3 (5 to 6 marks): a coherent, detailed method that would produce valid results, with correct independent, dependent and several control variables and repeats with a mean.",
+        "Level 2 (3 to 4 marks): a method with some detail and some correct variables; repeats may be missing.",
+        "Level 1 (1 to 2 marks): simple statements about catching a ruler with and without music."
+      ],
+      "explanation": "Include clear variables, a fair test (only the music changes), repeats and a way of processing the data."
+    },
+    {
+      "id": "p5-reaction-time-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain how tiredness, alcohol and distractions can affect the stopping distance of a car.",
+      "markScheme": [
+        "Indicative content: each factor increases the driver's reaction time (tiredness slows responses; alcohol and drugs slow the brain's processing; distractions mean the hazard is noticed later); thinking distance = speed × reaction time, so thinking distance increases; braking distance is not affected by these factors; stopping distance = thinking + braking distance, so stopping distance increases; the effect is greater at higher speeds.",
+        "Level 2 (3 to 4 marks): links the factors to increased reaction time and thinking distance, and so increased stopping distance, noting that braking distance is unchanged.",
+        "Level 1 (1 to 2 marks): states that the factors make it take longer to stop, with limited explanation."
+      ],
+      "explanation": "The chain is: factor → longer reaction time → longer thinking distance → longer stopping distance."
+    },
+    {
+      "id": "p5-reaction-time-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Two students each did three computer reaction tests.\nStudent A: 0.21 s, 0.23 s, 0.22 s\nStudent B: 0.18 s, 0.31 s, 0.20 s\nStudent A says: \"I have a faster reaction time than Student B.\"\nEvaluate this conclusion using the data.",
+      "markScheme": [
+        "Indicative content: mean for A = 0.22 s; mean for B including all results = 0.23 s, which would support the claim; but B's results have a large spread and 0.31 s looks anomalous; mean for B without the anomaly = 0.19 s, which is faster than A; A's results are more repeatable; the difference between the means is small compared with the spread, so the conclusion is not secure; more repeats are needed for both students.",
+        "Level 2 (3 to 4 marks): calculates means, identifies the anomaly and its effect, and gives a justified judgement about the conclusion.",
+        "Level 1 (1 to 2 marks): compares some values or calculates one mean, with a simple judgement."
+      ],
+      "explanation": "Whether a conclusion is valid depends on the spread of the data and on how anomalies are treated, not just on comparing two means."
+    }
+  ]
+}

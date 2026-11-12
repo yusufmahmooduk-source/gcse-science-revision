@@ -1,0 +1,708 @@
+{
+  "id": "p5-distance-time-graphs",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "distance-time-graphs",
+  "specRef": "4.5.6.1.4",
+  "title": "The distance–time relationship",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A distance–time graph shows how the distance travelled by an object moving in a straight line changes with time. The gradient (slope) of a distance–time graph equals the speed of the object.",
+    "explanation": [
+      "When an object moves along a straight line, its motion can be shown on a distance–time graph, with time on the horizontal axis and distance on the vertical axis. The shape of the line tells you how the object is moving. A horizontal line means the distance is not changing, so the object is stationary. A straight sloping line means equal distances are covered in equal times, so the object is moving at a constant speed.",
+      "The gradient of a distance–time graph is equal to the speed. To find it, pick two points on a straight section, far apart, and calculate gradient = change in distance ÷ change in time (\"rise over run\"). For example, if the distance increases from 20 m to 80 m between 4 s and 16 s, the speed is (80 − 20) ÷ (16 − 4) = 60 ÷ 12 = 5 m/s. A steeper line means a greater speed. A line sloping downwards (on a graph of distance from a fixed point) shows the object moving back towards its starting point.",
+      "If the line is curved, the speed is changing. A curve that gets steeper shows the object speeding up (accelerating). A curve that gets less steep shows the object slowing down (decelerating). You can calculate the average speed over any interval as total distance ÷ total time, using the values read from the graph.",
+      "(Higher) For an accelerating object the speed at a particular instant can be found by drawing a tangent to the curve at that time. A tangent is a straight line that just touches the curve at that point, with the same slope as the curve there. Make the tangent long, then draw a large right-angled triangle on it and calculate its gradient: speed = change in distance ÷ change in time for the triangle.",
+      "You should be able to draw a distance–time graph from measurements. Put time (the independent variable) on the x-axis and distance on the y-axis, choose scales that use most of the grid, label axes with quantities and units, plot points accurately and draw a line of best fit (straight or a smooth curve). You should also be able to translate between graphs and numbers: read off distances and times, calculate speeds from gradients, and sketch a graph from a description of a journey."
+    ],
+    "keyFacts": [
+      "On a distance–time graph, time goes on the x-axis and distance on the y-axis.",
+      "Gradient of a distance–time graph = speed.",
+      "Gradient = change in distance ÷ change in time.",
+      "Horizontal line: stationary (speed is zero).",
+      "Straight sloping line: constant speed.",
+      "Steeper line: faster speed.",
+      "Curve getting steeper: accelerating; curve getting less steep: decelerating.",
+      "Average speed = total distance ÷ total time, read from the graph.",
+      "(Higher) Speed at an instant on a curved graph = gradient of the tangent at that time."
+    ],
+    "keyTerms": [
+      {
+        "term": "Distance–time graph",
+        "definition": "A graph of distance travelled (y-axis) against time (x-axis) for an object moving in a straight line."
+      },
+      {
+        "term": "Gradient",
+        "definition": "The steepness of a line: change in y-value ÷ change in x-value. On a distance–time graph it gives speed."
+      },
+      {
+        "term": "Tangent",
+        "definition": "A straight line that touches a curve at one point and has the same gradient as the curve at that point."
+      },
+      {
+        "term": "Stationary",
+        "definition": "Not moving: the distance does not change with time, so the line is horizontal."
+      },
+      {
+        "term": "Constant speed",
+        "definition": "Equal distances travelled in equal times; shown by a straight, sloping line."
+      },
+      {
+        "term": "Line of best fit",
+        "definition": "A straight line or smooth curve drawn through or close to plotted points to show the trend."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Distance travelled at constant speed",
+        "formula": "distance travelled = speed × time",
+        "symbols": "s = v t",
+        "units": "s in m, v in m/s, t in s",
+        "recall": true
+      },
+      {
+        "name": "Speed from a distance–time graph",
+        "formula": "speed = gradient = change in distance ÷ change in time",
+        "symbols": "v = Δs ÷ Δt",
+        "units": "v in m/s, Δs in m, Δt in s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Speed from a straight section",
+        "question": "A distance–time graph for a jogger is a straight line from (0 s, 0 m) to (50 s, 150 m). Calculate her speed.",
+        "steps": [
+          "Speed = gradient = change in distance ÷ change in time.",
+          "Change in distance = 150 − 0 = 150 m; change in time = 50 − 0 = 50 s.",
+          "Speed = 150 ÷ 50 = 3.0 m/s."
+        ],
+        "answer": "3.0 m/s"
+      },
+      {
+        "title": "Reading a multi-stage journey",
+        "question": "The graph in Diagram 1 shows a cyclist's journey: 0 to 100 m in the first 20 s, no change from 20 s to 40 s, then 100 m to 200 m from 40 s to 50 s. Calculate the speed in each stage and the average speed.",
+        "steps": [
+          "Stage A: 100 ÷ 20 = 5 m/s.",
+          "Stage B: horizontal line, so the speed is 0 m/s (stationary for 20 s).",
+          "Stage C: (200 − 100) ÷ (50 − 40) = 100 ÷ 10 = 10 m/s.",
+          "Average speed = total distance ÷ total time = 200 ÷ 50 = 4 m/s."
+        ],
+        "answer": "5 m/s, 0 m/s, 10 m/s; average 4 m/s"
+      },
+      {
+        "title": "(Higher) Tangent to a curve",
+        "question": "A car accelerates from rest. Its distance–time graph is a curve. A tangent drawn at t = 6 s passes through (3 s, 0 m) and (10 s, 42 m). Calculate the speed of the car at 6 s.",
+        "steps": [
+          "The speed at an instant is the gradient of the tangent at that time.",
+          "Change in distance = 42 − 0 = 42 m; change in time = 10 − 3 = 7 s.",
+          "Speed = 42 ÷ 7 = 6.0 m/s."
+        ],
+        "answer": "6.0 m/s"
+      },
+      {
+        "title": "Converting units from a graph",
+        "question": "A distance–time graph for a walker shows 1.8 km travelled in 20 minutes at a constant speed. Calculate the speed in m/s.",
+        "steps": [
+          "Convert distance: 1.8 km = 1800 m.",
+          "Convert time: 20 minutes × 60 = 1200 s.",
+          "Speed = 1800 ÷ 1200 = 1.5 m/s (a typical walking speed)."
+        ],
+        "answer": "1.5 m/s"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A three-stage journey",
+        "caption": "Stage A: constant speed of 5 m/s. Stage B: horizontal line, stationary. Stage C: steeper line, constant speed of 10 m/s.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"60\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"120\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"180\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"240\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"300\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><line x1=\"360\" y1=\"40\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"360\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><line x1=\"60\" y1=\"200\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"60\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"164\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"60\" y1=\"120\" x2=\"360\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"124\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"60\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">150</text><line x1=\"60\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"60\" y1=\"200\" x2=\"370\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"60,200 180,120 300,120 360,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"210\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time (s)</text><text x=\"16\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 120)\">distance (m)</text><text x=\"96\" y=\"152\" font-size=\"12\" fill=\"currentColor\">A: 5 m/s</text><text x=\"198\" y=\"113.6\" font-size=\"12\" fill=\"currentColor\">B: stationary</text><text x=\"252\" y=\"64\" font-size=\"12\" fill=\"currentColor\">C: 10 m/s</text><text x=\"252\" y=\"52\" font-size=\"12\" fill=\"currentColor\">(steeper, faster)</text></svg>"
+      },
+      {
+        "title": "(Higher) Tangent on a curved distance–time graph",
+        "caption": "The curve gets steeper, so the object is accelerating. The dashed tangent at t = 6 s has gradient 42 m ÷ 7 s = 6 m/s, which is the speed at that instant.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"60\" y1=\"50\" x2=\"60\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"60\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"120\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><line x1=\"180\" y1=\"50\" x2=\"180\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"180\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"240\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><line x1=\"300\" y1=\"50\" x2=\"300\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"300\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><line x1=\"360\" y1=\"50\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"360\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><line x1=\"60\" y1=\"200\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"60\" y1=\"170\" x2=\"360\" y2=\"170\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"60\" y1=\"140\" x2=\"360\" y2=\"140\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"60\" y1=\"110\" x2=\"360\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"114\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"60\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"60\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/><text x=\"54\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"60\" y1=\"200\" x2=\"370\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"60.0,200.0 75.0,199.6 90.0,198.5 105.0,196.6 120.0,194.0 135.0,190.6 150.0,186.5 165.0,181.6 180.0,176.0 195.0,169.6 210.0,162.5 225.0,154.6 240.0,146.0 255.0,136.6 270.0,126.5 285.0,115.6 300.0,104.0 315.0,91.6 330.0,78.5 345.0,64.6 360.0,50.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"150\" y1=\"200\" x2=\"360\" y2=\"74\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 3\"/><line x1=\"150\" y1=\"200\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"360\" y1=\"200\" x2=\"360\" y2=\"74\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"240\" cy=\"146\" r=\"4\" fill=\"#fca5a5\" stroke=\"currentColor\"/><text x=\"232\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">t = 6 s</text><text x=\"364\" y=\"137\" font-size=\"12\" fill=\"currentColor\">42 m</text><text x=\"255\" y=\"194\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7 s</text><text x=\"90\" y=\"62\" font-size=\"12\" fill=\"currentColor\">tangent gradient = 42 ÷ 7 = 6 m/s</text><text x=\"210\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time (s)</text><text x=\"16\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 125)\">distance (m)</text></svg>"
+      },
+      {
+        "title": "Shapes of distance–time graphs",
+        "caption": "Horizontal: stationary. Straight slope: constant speed. Curve getting steeper: speeding up. Curve levelling off: slowing down.",
+        "svg": "<svg viewBox=\"0 0 420 140\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(15,20)\"><line x1=\"0\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"currentColor\"/><line x1=\"0\" y1=\"75\" x2=\"0\" y2=\"0\" stroke=\"currentColor\"/><path d=\"M0,40 L80,40\" transform=\"translate(2,0)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"42\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">stationary</text></g><g transform=\"translate(117,20)\"><line x1=\"0\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"currentColor\"/><line x1=\"0\" y1=\"75\" x2=\"0\" y2=\"0\" stroke=\"currentColor\"/><path d=\"M0,70 L80,10\" transform=\"translate(2,0)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"42\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">constant speed</text></g><g transform=\"translate(219,20)\"><line x1=\"0\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"currentColor\"/><line x1=\"0\" y1=\"75\" x2=\"0\" y2=\"0\" stroke=\"currentColor\"/><path d=\"M0,70 Q60,70 80,5\" transform=\"translate(2,0)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"42\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speeding up</text></g><g transform=\"translate(321,20)\"><line x1=\"0\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"currentColor\"/><line x1=\"0\" y1=\"75\" x2=\"0\" y2=\"0\" stroke=\"currentColor\"/><path d=\"M0,70 Q20,5 80,5\" transform=\"translate(2,0)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"42\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">slowing down</text></g><text x=\"210\" y=\"132\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Each sketch: distance (up) against time (across). Gradient = speed.</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a horizontal line on a distance–time graph means the object is moving at a constant speed.",
+        "right": "In fact a horizontal line means the distance is not changing, so the object is stationary. Constant speed is a straight sloping line."
+      },
+      {
+        "wrong": "Students often read the speed straight off the y-axis of a distance–time graph.",
+        "right": "In fact the y-axis shows distance. Speed is the gradient: change in distance ÷ change in time."
+      },
+      {
+        "wrong": "Students often think a steep line means the object has travelled a long way.",
+        "right": "In fact steepness shows speed, not total distance. A short, steep section means fast motion over a short time."
+      },
+      {
+        "wrong": "(Higher) Students often find the speed at an instant on a curve by dividing the distance at that point by the time.",
+        "right": "In fact distance ÷ time gives the average speed from the start. The instantaneous speed is the gradient of the tangent at that point."
+      }
+    ],
+    "realWorld": [
+      "Running and cycling apps plot distance against time; steeper sections show where you were moving fastest.",
+      "Train timetables can be turned into distance–time graphs, where flat sections show the train stopped at stations.",
+      "Police and accident investigators use distance–time data from dashcams to work out vehicle speeds.",
+      "Data loggers with motion sensors produce distance–time graphs directly in school experiments."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "If an object is accelerating, its speed at any particular time is found by drawing a tangent to the distance–time graph at that time and measuring the gradient of the tangent."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "When calculating a gradient, use a large triangle and read values carefully from the grid. Show the numbers you read off, as method marks are awarded for them.",
+      "Check the axis units: if time is in minutes or distance in km, convert to s and m to get m/s.",
+      "Describe each section of a graph in words: \"horizontal so stationary\", \"straight slope so constant speed\", \"steeper so faster\".",
+      "(Higher) Draw tangents with a ruler, touching the curve at one point only, and extend them well beyond the point so the gradient triangle is large.",
+      "When plotting a graph, label both axes with quantity and unit, use more than half the grid, and draw a single smooth line of best fit."
+    ],
+    "summary": [
+      "Distance–time graphs show distance travelled against time for straight-line motion.",
+      "Gradient = speed = change in distance ÷ change in time.",
+      "Horizontal = stationary; straight slope = constant speed; steeper = faster.",
+      "Curves show changing speed: getting steeper = accelerating.",
+      "Average speed = total distance ÷ total time.",
+      "(Higher) Instantaneous speed = gradient of a tangent to the curve."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What does the gradient of a distance–time graph represent?",
+      "back": "Speed"
+    },
+    {
+      "front": "What does a horizontal line on a distance–time graph show?",
+      "back": "The object is stationary."
+    },
+    {
+      "front": "What does a straight sloping line show?",
+      "back": "Constant speed."
+    },
+    {
+      "front": "What does a steeper straight line show?",
+      "back": "A greater (faster) speed."
+    },
+    {
+      "front": "How do you calculate gradient?",
+      "back": "Change in distance (y) ÷ change in time (x)"
+    },
+    {
+      "front": "What does a curve getting steeper show on a distance–time graph?",
+      "back": "The object is accelerating (speeding up)."
+    },
+    {
+      "front": "What does a curve getting less steep show?",
+      "back": "The object is decelerating (slowing down)."
+    },
+    {
+      "front": "(Higher) How do you find the speed at one instant on a curved distance–time graph?",
+      "back": "Draw a tangent at that time and calculate its gradient."
+    },
+    {
+      "front": "Which axis is time plotted on?",
+      "back": "The horizontal (x) axis."
+    },
+    {
+      "front": "Average speed from a distance–time graph",
+      "back": "Total distance ÷ total time"
+    },
+    {
+      "front": "Distance rises from 30 m to 90 m between 10 s and 25 s. Speed?",
+      "back": "60 ÷ 15 = 4 m/s"
+    },
+    {
+      "front": "Why use a large triangle when finding a gradient?",
+      "back": "It reduces the percentage error in reading values from the graph."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-distance-time-graphs-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does the gradient of a distance–time graph represent?",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Distance travelled",
+        "Time taken"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Gradient = change in distance ÷ change in time = speed. The gradient of a velocity–time graph gives acceleration."
+    },
+    {
+      "id": "p5-distance-time-graphs-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A section of a distance–time graph is a horizontal line. What is the object doing?",
+      "options": [
+        "Moving at a constant speed",
+        "Accelerating",
+        "Stationary",
+        "Decelerating"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "A horizontal line means the distance is not changing, so the object is not moving."
+    },
+    {
+      "id": "p5-distance-time-graphs-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which shape of distance–time graph shows an object moving at a constant speed?",
+      "options": [
+        "A straight line sloping upwards",
+        "A curve getting steeper",
+        "A horizontal line",
+        "A curve getting less steep"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "A straight line has a constant gradient, so the speed is constant."
+    },
+    {
+      "id": "p5-distance-time-graphs-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two straight lines, P and Q, are drawn on the same distance–time graph. Line P is steeper than line Q. What can you conclude?",
+      "options": [
+        "P has travelled further than Q",
+        "P is moving faster than Q",
+        "P is accelerating and Q is not",
+        "P started later than Q"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "A steeper gradient means a greater speed. Both are straight lines, so neither is accelerating, and steepness says nothing about total distance."
+    },
+    {
+      "id": "p5-distance-time-graphs-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "On a distance–time graph the line passes through (5 s, 10 m) and (15 s, 50 m). What is the speed?",
+      "options": [
+        "3.3 m/s",
+        "5.0 m/s",
+        "2.0 m/s",
+        "4.0 m/s"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Speed = (50 − 10) ÷ (15 − 5) = 40 ÷ 10 = 4.0 m/s. 3.3 m/s comes from 50 ÷ 15 (average from the start, not the gradient) and 5.0 m/s from 50 ÷ 10."
+    },
+    {
+      "id": "p5-distance-time-graphs-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The distance–time graph of a ball rolling across a floor is a curve that gets less steep with time. What is happening to the ball?",
+      "options": [
+        "It is speeding up",
+        "It is moving at constant speed",
+        "It is stationary",
+        "It is slowing down"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "A decreasing gradient means a decreasing speed: the ball is decelerating, for example due to friction."
+    },
+    {
+      "id": "p5-distance-time-graphs-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student plots a distance–time graph for a toy car. Which variable should go on the x-axis?",
+      "options": [
+        "Time",
+        "Distance",
+        "Speed",
+        "Mass of the car"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Time is the independent variable, so it is plotted on the horizontal (x) axis. Distance goes on the y-axis."
+    },
+    {
+      "id": "p5-distance-time-graphs-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) A runner's distance–time graph is curved. How should you find her speed at exactly t = 8 s?",
+      "options": [
+        "Divide the distance at 8 s by 8 s",
+        "Draw a tangent at 8 s and find its gradient",
+        "Find the area under the graph up to 8 s",
+        "Read the value on the y-axis at 8 s"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "On a curve, the instantaneous speed is the gradient of the tangent. A gives the average speed from the start; C has no meaning for a distance–time graph; D gives the distance, not the speed."
+    },
+    {
+      "id": "p5-distance-time-graphs-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "(Higher) A tangent is drawn to a curved distance–time graph at t = 4 s. It passes through (2 s, 0 m) and (10 s, 20 m). What is the speed at 4 s?",
+      "options": [
+        "2.5 m/s",
+        "2.0 m/s",
+        "5.0 m/s",
+        "20 m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Gradient of tangent = (20 − 0) ÷ (10 − 2) = 20 ÷ 8 = 2.5 m/s. 2.0 m/s comes from 20 ÷ 10 and 5.0 m/s from 20 ÷ 4."
+    },
+    {
+      "id": "p5-distance-time-graphs-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A distance–time graph for a cyclist is a straight line from (0 s, 0 m) to (40 s, 240 m). Calculate the speed of the cyclist.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 240 ÷ 40",
+        "1 mark: 6.0 m/s"
+      ],
+      "explanation": "Gradient = 240 ÷ 40 = 6.0 m/s, a typical cycling speed."
+    },
+    {
+      "id": "p5-distance-time-graphs-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A distance–time graph for a bus is horizontal between t = 120 s and t = 165 s. State how long the bus was stationary, in seconds.",
+      "numericAnswer": 45,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 165 − 120 = 45 s"
+      ],
+      "explanation": "The horizontal section lasts from 120 s to 165 s: 45 s."
+    },
+    {
+      "id": "p5-distance-time-graphs-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A straight line on a distance–time graph passes through (20 s, 60 m) and (80 s, 240 m). Calculate the speed.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: (240 − 60) ÷ (80 − 20) = 180 ÷ 60",
+        "1 mark: 3.0 m/s"
+      ],
+      "explanation": "Use the changes in distance and time between the two points, not the coordinates themselves."
+    },
+    {
+      "id": "p5-distance-time-graphs-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A train's journey is shown on a distance–time graph. It travels 12 km in the first 6 minutes, stops at a station for 2 minutes, then travels a further 8 km in 4 minutes. Calculate the average speed of the train for the whole journey in m/s.",
+      "numericAnswer": 27.78,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: total distance 20 000 m and total time 12 min = 720 s",
+        "1 mark: 20 000 ÷ 720 = 27.8 m/s"
+      ],
+      "explanation": "Average speed = total distance ÷ total time, including the 2 minutes stopped: 20 000 ÷ 720 = 27.8 m/s."
+    },
+    {
+      "id": "p5-distance-time-graphs-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student walks at a constant speed of 1.4 m/s. Her distance–time graph starts at the origin. Calculate the distance shown on the graph at t = 45 s.",
+      "numericAnswer": 63,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: s = v t = 1.4 × 45",
+        "1 mark: 63 m"
+      ],
+      "explanation": "For a straight line through the origin, distance = speed × time = 1.4 × 45 = 63 m."
+    },
+    {
+      "id": "p5-distance-time-graphs-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Higher) A ball rolls down a slope from rest. A tangent to its distance–time graph at t = 2.0 s passes through the points (1.0 s, 0.0 m) and (3.0 s, 1.6 m). Calculate the speed of the ball at 2.0 s.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: speed = gradient of tangent",
+        "1 mark: (1.6 − 0.0) ÷ (3.0 − 1.0)",
+        "1 mark: 0.80 m/s"
+      ],
+      "explanation": "The instantaneous speed equals the gradient of the tangent: 1.6 ÷ 2.0 = 0.80 m/s."
+    },
+    {
+      "id": "p5-distance-time-graphs-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A distance–time graph has time in minutes on the x-axis and distance in km on the y-axis. A straight section rises from 2.0 km to 5.0 km between 4 minutes and 9 minutes. Calculate the speed in m/s.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: change in distance = 3.0 km = 3000 m",
+        "1 mark: change in time = 5 min = 300 s",
+        "1 mark: 3000 ÷ 300 = 10 m/s"
+      ],
+      "explanation": "Gradient in km per minute is 0.6; converting to SI units gives 3000 m ÷ 300 s = 10 m/s."
+    },
+    {
+      "id": "p5-distance-time-graphs-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what a horizontal line on a distance–time graph tells you about the motion of an object.",
+      "acceptedAnswers": [
+        "stationary",
+        "not moving",
+        "at rest",
+        "speed is zero"
+      ],
+      "markScheme": [
+        "1 mark: the object is stationary / not moving"
+      ],
+      "explanation": "No change in distance means no movement."
+    },
+    {
+      "id": "p5-distance-time-graphs-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how to calculate the speed of an object from a straight line on its distance–time graph.",
+      "acceptedAnswers": [
+        "gradient",
+        "change in distance ÷ change in time",
+        "rise over run"
+      ],
+      "markScheme": [
+        "1 mark: find the gradient of the line",
+        "1 mark: gradient = change in distance ÷ change in time (using two points on the line)"
+      ],
+      "explanation": "Speed is the gradient of a distance–time graph."
+    },
+    {
+      "id": "p5-distance-time-graphs-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the motion shown by a distance–time graph that is a curve getting steeper.",
+      "acceptedAnswers": [
+        "speeding up",
+        "accelerating",
+        "speed increasing",
+        "gradient increasing"
+      ],
+      "markScheme": [
+        "1 mark: gradient increases",
+        "1 mark: so the speed is increasing / the object is accelerating"
+      ],
+      "explanation": "The gradient is the speed, so an increasing gradient means increasing speed."
+    },
+    {
+      "id": "p5-distance-time-graphs-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A student times a toy car and records: 0 s, 0 m; 2 s, 0.8 m; 4 s, 1.6 m; 6 s, 2.4 m. Describe the shape of the distance–time graph and calculate the car's speed.",
+      "acceptedAnswers": [
+        "straight line",
+        "through the origin",
+        "constant speed",
+        "0.4 m/s"
+      ],
+      "markScheme": [
+        "1 mark: straight line through the origin",
+        "1 mark: so constant speed",
+        "1 mark: speed = 2.4 ÷ 6 = 0.4 m/s"
+      ],
+      "explanation": "Equal distances (0.8 m) in equal times (2 s) means a constant speed of 0.4 m/s."
+    },
+    {
+      "id": "p5-distance-time-graphs-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two things a student should do when drawing a distance–time graph from measurements.",
+      "acceptedAnswers": [
+        "label axes with units",
+        "time on x-axis",
+        "sensible scale",
+        "use more than half the grid",
+        "plot accurately",
+        "line of best fit"
+      ],
+      "markScheme": [
+        "1 mark each for any two: time on x-axis and distance on y-axis; label axes with quantity and unit; choose a scale using more than half the grid; plot points accurately; draw a line of best fit (straight or smooth curve)"
+      ],
+      "explanation": "Good graph-drawing technique is assessed in AQA exams."
+    },
+    {
+      "id": "p5-distance-time-graphs-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Higher) Explain how to use a distance–time graph to find the speed of an accelerating car at a time of 5 s.",
+      "acceptedAnswers": [
+        "tangent",
+        "at 5 s",
+        "gradient of tangent",
+        "large triangle"
+      ],
+      "markScheme": [
+        "1 mark: draw a tangent to the curve at t = 5 s",
+        "1 mark: draw a large right-angled triangle on the tangent",
+        "1 mark: speed = change in distance ÷ change in time for the triangle (gradient of the tangent)"
+      ],
+      "explanation": "Because the car is accelerating, the graph is curved, so only the tangent gives the speed at one instant."
+    },
+    {
+      "id": "p5-distance-time-graphs-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) A student calculates the speed of an accelerating object at 10 s by dividing the distance at 10 s by 10 s. Explain why this does not give the speed at 10 s.",
+      "acceptedAnswers": [
+        "average speed",
+        "speed is changing",
+        "need tangent",
+        "gradient of tangent"
+      ],
+      "markScheme": [
+        "1 mark: this gives the average speed from 0 to 10 s",
+        "1 mark: the speed at 10 s is the gradient of a tangent at 10 s (it is greater than the average because the object is accelerating)"
+      ],
+      "explanation": "Distance ÷ time from the origin is an average; instantaneous speed needs a tangent."
+    },
+    {
+      "id": "p5-distance-time-graphs-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Sketch and describe the distance–time graph for this journey: a girl walks to a bus stop at a constant speed, waits at the bus stop, and then travels on a bus at a higher constant speed in the same direction.",
+      "markScheme": [
+        "Indicative content:",
+        "Axes: time on x-axis, distance on y-axis",
+        "First section: straight line with a shallow positive gradient (walking at constant speed)",
+        "Second section: horizontal line (stationary while waiting)",
+        "Third section: straight line with a steeper positive gradient (bus faster)",
+        "Gradient represents speed so steeper means faster",
+        "Level 2 (3 to 4 marks): all three sections correctly described with reference to gradient",
+        "Level 1 (1 to 2 marks): one or two sections correctly described",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Each stage of motion has a characteristic shape: shallow slope, flat, steeper slope."
+    },
+    {
+      "id": "p5-distance-time-graphs-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A distance–time graph for a runner is a straight line from (0 s, 0 m) to (60 s, 180 m), then a straight line from (60 s, 180 m) to (100 s, 260 m).\nDescribe the motion of the runner in each part and calculate the speeds and the average speed.",
+      "markScheme": [
+        "Indicative content:",
+        "First part: constant speed; 180 ÷ 60 = 3.0 m/s",
+        "Second part: constant but lower speed; (260 − 180) ÷ (100 − 60) = 80 ÷ 40 = 2.0 m/s",
+        "Second line is less steep, showing the runner slowed down at 60 s",
+        "Average speed = 260 ÷ 100 = 2.6 m/s",
+        "Level 2 (3 to 4 marks): both speeds and average speed correct with descriptions",
+        "Level 1 (1 to 2 marks): one correct speed or a correct description",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Each straight section has a constant speed equal to its gradient; the average uses total distance and total time."
+    },
+    {
+      "id": "p5-distance-time-graphs-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A student uses a motion sensor to record the distance of a trolley from a starting line as it is released from rest and rolls down a ramp. The distance–time graph produced is a curve that gets steeper.\nExplain what the graph shows about the trolley's motion. Describe how the student could use the graph to find (a) the average speed over the first 2 seconds and (b) the speed of the trolley at exactly 2 seconds, and explain why the two values are different.",
+      "markScheme": [
+        "Indicative content:",
+        "Curve getting steeper shows the gradient increasing, so the speed increases: the trolley is accelerating",
+        "(a) read distance at 2 s from the graph; average speed = distance ÷ 2 s",
+        "(b) draw a tangent to the curve at t = 2 s with a ruler",
+        "Draw a large triangle on the tangent; speed = change in distance ÷ change in time",
+        "The instantaneous speed at 2 s is greater than the average over 0 to 2 s",
+        "because the trolley started from rest and was speeding up, so it was slower for most of the 2 s",
+        "Level 3 (5 to 6 marks): correct interpretation, both methods described clearly, and a correct explanation of the difference",
+        "Level 2 (3 to 4 marks): correct interpretation and one method, or both methods without explanation",
+        "Level 1 (1 to 2 marks): simple statements, for example the trolley is speeding up",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "This question tests the difference between average speed (total distance ÷ total time) and instantaneous speed (tangent gradient, Higher)."
+    }
+  ]
+}

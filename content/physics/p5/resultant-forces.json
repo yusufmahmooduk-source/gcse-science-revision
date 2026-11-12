@@ -1,0 +1,758 @@
+{
+  "id": "p5-resultant-forces",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "resultant-forces",
+  "specRef": "4.5.1.4",
+  "title": "Resultant forces",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "When several forces act on an object, they can be replaced by a single force that has the same effect as all the original forces acting together. This single force is called the resultant force.",
+    "explanation": [
+      "Most objects have more than one force acting on them. A car moving along a road has a driving force pushing it forwards, air resistance and friction acting backwards, its weight acting downwards and the normal contact force from the road acting upwards. Rather than think about every force separately, we can work out the single resultant force that would have exactly the same effect.",
+      "For forces acting along the same straight line, finding the resultant is simple. If the forces act in the same direction, add them: 20 N right and 15 N right give a resultant of 35 N right. If they act in opposite directions, subtract the smaller from the larger, and the resultant acts in the direction of the larger force: 50 N right and 30 N left give 20 N right. Always state the direction as well as the size, because force is a vector.",
+      "If the forces on an object cancel out, the resultant force is zero and the forces are balanced. A book resting on a table has a weight of 4 N downwards and a normal contact force of 4 N upwards, so the resultant force is zero. If the resultant is not zero, the forces are unbalanced. A resultant force changes the motion of an object: it can make the object speed up, slow down or change direction.",
+      "A free body diagram shows a single object (often drawn as a box or a dot) with every force acting on it drawn as an arrow starting on the object. The length of each arrow represents the size of the force and the arrow points in the direction of the force. Only forces acting on that object are drawn, not forces the object exerts on other things. Free body diagrams make it easy to see whether the forces are balanced and to work out the resultant in each direction.",
+      "For Higher tier, forces that are not in a straight line are combined using a scale drawing. Draw the first force to scale, then draw the second force starting from the tip of the first (tip to tail). The resultant is the arrow from the start of the first force to the end of the second; measure its length to find the size and use a protractor to find its direction. In the reverse process, a single force can be resolved into two components at right angles, which together have the same effect as the original force."
+    ],
+    "keyFacts": [
+      "The resultant force is the single force that has the same effect as all the forces acting on an object.",
+      "Forces in the same direction: add them.",
+      "Forces in opposite directions: subtract, and the resultant acts in the direction of the larger force.",
+      "If the resultant force is zero, the forces are balanced.",
+      "A non-zero resultant force changes an object's speed or direction.",
+      "A free body diagram shows all the forces acting on one object as arrows starting on the object.",
+      "Arrow length represents the size of a force; arrow direction shows its direction.",
+      "(HT) A single force can be resolved into two components at right angles to each other.",
+      "(HT) Non-parallel forces are combined using a scale drawing, placing vectors tip to tail."
+    ],
+    "keyTerms": [
+      {
+        "term": "Resultant force",
+        "definition": "The single force that has the same effect as all the forces acting on an object together."
+      },
+      {
+        "term": "Balanced forces",
+        "definition": "Forces whose resultant is zero."
+      },
+      {
+        "term": "Unbalanced forces",
+        "definition": "Forces with a non-zero resultant; they change the motion of the object."
+      },
+      {
+        "term": "Free body diagram",
+        "definition": "A diagram of a single object showing all the forces acting on it as labelled arrows."
+      },
+      {
+        "term": "Equilibrium",
+        "definition": "The state of an object when the resultant force on it is zero."
+      },
+      {
+        "term": "Component (HT)",
+        "definition": "One of two forces at right angles that together have the same effect as a single force."
+      },
+      {
+        "term": "Resolving a force (HT)",
+        "definition": "Splitting a single force into two components at right angles to each other."
+      },
+      {
+        "term": "Scale drawing (HT)",
+        "definition": "An accurate drawing in which each length represents a quantity using a stated scale, e.g. 1 cm = 10 N."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Forces in opposite directions",
+        "question": "A car has a driving force of 2400 N forwards. Air resistance is 900 N and friction is 300 N, both acting backwards. Calculate the resultant force on the car.",
+        "steps": [
+          "Add the backward forces: 900 + 300 = 1200 N.",
+          "Subtract from the forward force: 2400 − 1200 = 1200 N.",
+          "The forward force is bigger, so the resultant is forwards."
+        ],
+        "answer": "1200 N forwards"
+      },
+      {
+        "title": "Finding an unknown force when the forces are balanced",
+        "question": "A box is pushed across a floor with a force of 45 N and moves at a steady speed, so the resultant force on it is zero. What is the friction force?",
+        "steps": [
+          "Resultant force = 0, so the forces along the floor are balanced.",
+          "Forward push = backward friction.",
+          "Friction = 45 N, acting in the opposite direction to the push."
+        ],
+        "answer": "45 N backwards (opposite to the push)"
+      },
+      {
+        "title": "(HT) Resultant of two forces at right angles by scale drawing",
+        "question": "A boat is pulled by two ropes: 30 N east and 40 N north. Use a scale drawing to find the resultant force.",
+        "steps": [
+          "Choose a scale: 1 cm = 10 N.",
+          "Draw a 3.0 cm arrow pointing east.",
+          "From its tip, draw a 4.0 cm arrow pointing north.",
+          "Draw the resultant from the start of the first arrow to the end of the second.",
+          "Measure it: 5.0 cm, so the resultant is 5.0 × 10 = 50 N.",
+          "Measure the angle from east with a protractor: about 53°."
+        ],
+        "answer": "50 N at 53° north of east"
+      },
+      {
+        "title": "(HT) Resolving a force into components",
+        "question": "A child pulls a sledge with a force of 100 N along a rope at 30° above the horizontal. Use a scale drawing to find the horizontal and vertical components.",
+        "steps": [
+          "Choose a scale: 1 cm = 20 N, so draw a 5.0 cm line at 30° above the horizontal.",
+          "Draw a horizontal line from the start and a vertical line down from the end of the force to make a right-angled triangle.",
+          "Measure the horizontal side: about 4.3 cm, so 4.3 × 20 = 87 N (86.6 N).",
+          "Measure the vertical side: 2.5 cm, so 2.5 × 20 = 50 N."
+        ],
+        "answer": "Horizontal component ≈ 87 N; vertical component = 50 N"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Free body diagram of a car",
+        "caption": "All the forces acting on the car are drawn from its centre. The vertical forces are balanced. Horizontally, the driving force is larger than the resistive forces, so there is a resultant force of 1200 N forwards.",
+        "svg": "<svg viewBox='0 0 420 270' xmlns='http://www.w3.org/2000/svg'><rect x='170' y='105' width='70' height='40' rx='6' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='205' cy='125' r='3' fill='currentColor'/><g stroke='currentColor' stroke-width='3'><line x1='205' y1='125' x2='325' y2='125'/><line x1='205' y1='125' x2='145' y2='125'/><line x1='205' y1='125' x2='205' y2='45'/><line x1='205' y1='125' x2='205' y2='205'/></g><g fill='currentColor'><path d='M337 125 L325 119 L325 131 Z'/><path d='M133 125 L145 119 L145 131 Z'/><path d='M205 33 L199 45 L211 45 Z'/><path d='M205 217 L199 205 L211 205 Z'/></g><g font-size='12' fill='currentColor'><text x='280' y='112'>driving force</text><text x='280' y='145'>2400 N</text><text x='20' y='112'>resistive forces</text><text x='20' y='145'>1200 N</text><text x='215' y='40'>normal contact force</text><text x='215' y='215'>weight</text><text x='20' y='245'>Vertical: forces equal and opposite, so they cancel.</text><text x='20' y='262'>Horizontal: resultant = 2400 − 1200 = 1200 N forwards.</text></g></svg>"
+      },
+      {
+        "title": "(HT) Scale drawing for two forces at right angles",
+        "caption": "The 30 N and 40 N forces are drawn tip to tail to scale. The resultant (dashed) joins the start to the finish: 5 squares = 50 N, at 53° north of east.",
+        "svg": "<svg viewBox='0 0 420 270' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='rf-grid' width='40' height='40' patternUnits='userSpaceOnUse'><path d='M40 0H0V40' fill='none' stroke='currentColor' stroke-opacity='0.2'/></pattern></defs><rect x='20' y='20' width='240' height='240' fill='url(#rf-grid)'/><g stroke='currentColor' stroke-width='3'><line x1='60' y1='220' x2='170' y2='220'/><line x1='180' y1='220' x2='180' y2='70'/></g><line x1='60' y1='220' x2='174' y2='68' stroke='currentColor' stroke-width='3' stroke-dasharray='8 4'/><g fill='currentColor'><path d='M180 220 L168 214 L168 226 Z'/><path d='M180 60 L174 72 L186 72 Z'/><path d='M180 60 L169 66 L178 73 Z'/></g><path d='M100 220 A40 40 0 0 0 84 188' fill='none' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='90' y='240'>30 N east</text><text x='188' y='150'>40 N north</text><text x='62' y='130'>resultant</text><text x='62' y='145'>50 N</text><text x='104' y='206'>53°</text><text x='275' y='60'>Scale: 1 square = 10 N</text><text x='275' y='90'>1. Draw 30 N east to scale.</text><text x='275' y='108'>2. From its tip, draw</text><text x='275' y='124'>40 N north (tip to tail).</text><text x='275' y='142'>3. Join start to finish.</text><text x='275' y='160'>4. Measure: 5 squares</text><text x='275' y='176'>= 50 N.</text><text x='275' y='194'>5. Measure angle with</text><text x='275' y='210'>a protractor: 53°</text><text x='275' y='226'>north of east.</text></g></svg>"
+      },
+      {
+        "title": "(HT) Resolving a force into two components",
+        "caption": "A 100 N force at 30° to the horizontal is equivalent to a horizontal component of about 87 N and a vertical component of 50 N acting together.",
+        "svg": "<svg viewBox='0 0 420 250' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='3'><line x1='60' y1='200' x2='225' y2='105'/></g><g stroke='currentColor' stroke-width='2' stroke-dasharray='6 4'><line x1='60' y1='200' x2='222' y2='200'/><line x1='233' y1='200' x2='233' y2='112'/></g><g fill='currentColor'><path d='M233 100 L220 101 L226 112 Z'/><path d='M233 200 L221 194 L221 206 Z'/><path d='M233 100 L227 112 L239 112 Z'/></g><path d='M110 200 A50 50 0 0 0 103 175' fill='none' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='112' y='190'>30°</text><text x='90' y='130'>100 N force</text><text x='90' y='222'>horizontal component 87 N</text><text x='240' y='150'>vertical component</text><text x='240' y='166'>50 N</text><text x='20' y='30'>Scale: 1 cm = 20 N (measure each component)</text><text x='20' y='245'>The two components together have the same effect as the 100 N force.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that if an object is moving there must be a resultant force in the direction of motion.",
+        "right": "In fact an object can move at a steady speed in a straight line with a resultant force of zero; a resultant force is needed only to change the motion."
+      },
+      {
+        "wrong": "Students often add all the forces on an object regardless of direction.",
+        "right": "In fact forces in opposite directions must be subtracted, because force is a vector."
+      },
+      {
+        "wrong": "Students often think balanced forces mean the object has no forces acting on it.",
+        "right": "In fact balanced forces may be large; they simply cancel, giving a resultant of zero."
+      },
+      {
+        "wrong": "(HT) Students often think the resultant of 30 N and 40 N at right angles is 70 N.",
+        "right": "In fact it is 50 N; forces at an angle must be combined with a scale drawing, not simply added."
+      }
+    ],
+    "realWorld": [
+      "Tugboats pull large ships with ropes at different angles; the resultant of their forces steers the ship into harbour.",
+      "Engineers check that the resultant force on bridges and buildings is zero so that they stay in equilibrium.",
+      "Aircraft designers balance thrust, drag, lift and weight; changing one creates a resultant force that makes the plane climb, speed up or slow down.",
+      "Climbing ropes and hanging signs are analysed by resolving forces to find the tension in each rope or cable."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Describe examples of the forces acting on an isolated object or system, and use free body diagrams to describe qualitatively how several forces lead to a resultant force, including balanced forces when the resultant force is zero.",
+      "A single force can be resolved into two components acting at right angles to each other. The two components together have the same effect as the single force.",
+      "Use vector diagrams (scale drawings) to show the resolution of a force into components.",
+      "Use vector diagrams to show equilibrium: if three forces act on an object in equilibrium, the force arrows drawn tip to tail form a closed triangle (the resultant is zero).",
+      "Use a scale drawing to find the resultant of two forces that are not in a straight line, giving both magnitude and direction: draw the forces tip to tail (or as a parallelogram), draw the resultant, measure its length and angle."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always give the direction of a resultant force (e.g. 1200 N forwards), not just its size.",
+      "For forces at right angles (HT), the method marks are for an accurate scale drawing: state your scale, use a sharp pencil, ruler and protractor.",
+      "On a free body diagram, start every arrow on the object, label each force, and draw balanced forces with equal lengths.",
+      "If a question says the object moves at a steady speed or is stationary, the resultant force is zero: use this to find an unknown force.",
+      "Do not draw forces that the object exerts on something else on its free body diagram."
+    ],
+    "summary": [
+      "The resultant force is the single force with the same effect as all the forces together.",
+      "Add forces in the same direction; subtract forces in opposite directions.",
+      "Zero resultant: balanced forces. Non-zero resultant: motion changes.",
+      "Free body diagrams show all forces on one object as arrows.",
+      "(HT) Forces at an angle are combined by scale drawing, tip to tail.",
+      "(HT) A force can be resolved into two perpendicular components."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a resultant force?",
+      "back": "The single force that has the same effect as all the forces acting on an object together."
+    },
+    {
+      "front": "How do you find the resultant of two forces in the same direction?",
+      "back": "Add them."
+    },
+    {
+      "front": "How do you find the resultant of two forces in opposite directions?",
+      "back": "Subtract the smaller from the larger; it acts in the direction of the larger."
+    },
+    {
+      "front": "What does it mean if the forces are balanced?",
+      "back": "The resultant force is zero."
+    },
+    {
+      "front": "What is a free body diagram?",
+      "back": "A diagram of one object showing all the forces acting on it as arrows."
+    },
+    {
+      "front": "What does the length of a force arrow show?",
+      "back": "The size (magnitude) of the force."
+    },
+    {
+      "front": "Resultant of 80 N right and 30 N left?",
+      "back": "50 N to the right."
+    },
+    {
+      "front": "(HT) What does resolving a force mean?",
+      "back": "Splitting it into two components at right angles that together have the same effect."
+    },
+    {
+      "front": "(HT) How do you find the resultant of two forces at an angle?",
+      "back": "Scale drawing: draw them tip to tail, join start to finish, measure length and angle."
+    },
+    {
+      "front": "(HT) Resultant of 30 N east and 40 N north?",
+      "back": "50 N at about 53° north of east."
+    },
+    {
+      "front": "(HT) What does a closed triangle of forces show?",
+      "back": "Three forces in equilibrium: the resultant force is zero."
+    },
+    {
+      "front": "What is equilibrium?",
+      "back": "The state when the resultant force on an object is zero."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-resultant-forces-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the resultant force on an object?",
+      "options": [
+        "The largest force acting on the object",
+        "The single force that has the same effect as all the forces acting together",
+        "The force that acts downwards on the object",
+        "The total of all the forces added together, ignoring direction"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The single force that has the same effect as all the forces acting together"
+      ],
+      "explanation": "The resultant is the one force that could replace all the forces with the same effect. Directions matter, so forces cannot just be added."
+    },
+    {
+      "id": "p5-resultant-forces-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Two forces of 8 N and 5 N act to the right on the same object. What is the resultant force?",
+      "options": [
+        "3 N to the right",
+        "3 N to the left",
+        "13 N to the left",
+        "13 N to the right"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 13 N to the right"
+      ],
+      "explanation": "Forces in the same direction add: 8 + 5 = 13 N, acting to the right."
+    },
+    {
+      "id": "p5-resultant-forces-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A force of 6 N acts to the left and a force of 6 N acts to the right on a box. What is the resultant force?",
+      "options": [
+        "0 N",
+        "6 N to the left",
+        "12 N to the right",
+        "12 N to the left"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 0 N"
+      ],
+      "explanation": "The forces are equal and opposite, so they cancel: the resultant is 0 N and the forces are balanced."
+    },
+    {
+      "id": "p5-resultant-forces-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The resultant force on an object is zero. Which word describes the forces acting on it?",
+      "options": [
+        "Unbalanced",
+        "Resolved",
+        "Balanced",
+        "Components"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Balanced"
+      ],
+      "explanation": "Forces that cancel out to give a zero resultant are balanced."
+    },
+    {
+      "id": "p5-resultant-forces-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A parachutist has a weight of 700 N. The air resistance on her is 700 N. What is the resultant force on her?",
+      "options": [
+        "1400 N downwards",
+        "0 N",
+        "700 N downwards",
+        "700 N upwards"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 0 N"
+      ],
+      "explanation": "Weight acts down and air resistance acts up. They are equal and opposite, so the resultant is zero."
+    },
+    {
+      "id": "p5-resultant-forces-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A car has a forward driving force of 3000 N. The total resistive force on it is 3500 N. What is the resultant force?",
+      "options": [
+        "500 N forwards",
+        "6500 N forwards",
+        "500 N backwards",
+        "6500 N backwards"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 500 N backwards"
+      ],
+      "explanation": "3500 − 3000 = 500 N. The backward force is larger, so the resultant acts backwards and the car slows down."
+    },
+    {
+      "id": "p5-resultant-forces-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement describes a free body diagram?",
+      "options": [
+        "A diagram of a single object showing all the forces acting on it as arrows",
+        "A diagram showing all the forces in a system, including those the object exerts on other objects",
+        "A graph of force against time",
+        "A diagram that shows only the resultant force"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A diagram of a single object showing all the forces acting on it as arrows"
+      ],
+      "explanation": "A free body diagram isolates one object and shows every force acting on it. Forces that the object exerts on other objects are not included."
+    },
+    {
+      "id": "p5-resultant-forces-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement about resolving a force into two components is correct?",
+      "options": [
+        "The components always add up to the original force numerically.",
+        "The two components act in the same direction as each other.",
+        "The components are always equal in size.",
+        "The two components act at right angles and together have the same effect as the original force."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The two components act at right angles and together have the same effect as the original force."
+      ],
+      "explanation": "A force is resolved into two perpendicular components that together are equivalent to the original force. Their sizes do not simply add to the original (for 100 N at 30°, they are about 87 N and 50 N)."
+    },
+    {
+      "id": "p5-resultant-forces-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Three forces act on an object in equilibrium. They are drawn to scale, tip to tail. What shape do they make?",
+      "options": [
+        "A straight line",
+        "A closed triangle",
+        "An open triangle with a gap",
+        "A right angle only"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A closed triangle"
+      ],
+      "explanation": "In equilibrium the resultant is zero, so the arrows drawn tip to tail end where they started, forming a closed triangle."
+    },
+    {
+      "id": "p5-resultant-forces-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two forces of 3 N and 4 N act on an object at right angles to each other. What is the size of the resultant force?",
+      "options": [
+        "1 N",
+        "5 N",
+        "7 N",
+        "12 N"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 5 N"
+      ],
+      "explanation": "A scale drawing gives a resultant of 5 N (a 3, 4, 5 triangle). 7 N would only be correct if the forces acted in the same direction, and 1 N if they were opposite."
+    },
+    {
+      "id": "p5-resultant-forces-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which pair of forces acting on a trolley gives the largest resultant force?",
+      "options": [
+        "10 N left and 10 N right",
+        "20 N left and 5 N right",
+        "15 N right and 15 N right",
+        "25 N right and 20 N left"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 15 N right and 15 N right"
+      ],
+      "explanation": "15 + 15 = 30 N right. The others give 0 N, 15 N and 5 N."
+    },
+    {
+      "id": "p5-resultant-forces-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Two forces act on a box in the same direction: 20 N and 15 N. Calculate the size of the resultant force.",
+      "numericAnswer": 35,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 35 N"
+      ],
+      "explanation": "Same direction, so add: 20 + 15 = 35 N."
+    },
+    {
+      "id": "p5-resultant-forces-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A trolley is pulled with a force of 50 N to the right and a force of 30 N to the left. Calculate the size of the resultant force.",
+      "numericAnswer": 20,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 20 N (to the right)"
+      ],
+      "explanation": "Opposite directions, so subtract: 50 − 30 = 20 N, acting to the right."
+    },
+    {
+      "id": "p5-resultant-forces-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car has a driving force of 2400 N. The air resistance is 900 N and the friction is 300 N. Calculate the size of the resultant force on the car.",
+      "numericAnswer": 1200,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: total resistive force = 900 + 300 = 1200 N",
+        "1 mark: resultant = 2400 − 1200 = 1200 N (forwards)"
+      ],
+      "explanation": "Combine the backward forces first, then subtract from the forward force: 2400 − 1200 = 1200 N forwards."
+    },
+    {
+      "id": "p5-resultant-forces-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a tug of war, team A pulls with a force of 1250 N to the left and team B pulls with a force of 1180 N to the right. Calculate the size of the resultant force on the rope.",
+      "numericAnswer": 70,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 1250 − 1180",
+        "1 mark: 70 N (to the left)"
+      ],
+      "explanation": "The forces are opposite, so the resultant is 1250 − 1180 = 70 N towards team A (left)."
+    },
+    {
+      "id": "p5-resultant-forces-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A crate is pushed along the floor with a force of 45 N. The resultant force on the crate is zero. Calculate the size of the friction force on the crate.",
+      "numericAnswer": 45,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: resultant zero so friction = push",
+        "1 mark: 45 N"
+      ],
+      "explanation": "A zero resultant means the forces along the floor are balanced, so friction equals the push: 45 N in the opposite direction."
+    },
+    {
+      "id": "p5-resultant-forces-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A rocket has a thrust of 32 000 N upwards. Its weight is 25 000 N and the air resistance on it is 2000 N. Calculate the size of the resultant force on the rocket.",
+      "numericAnswer": 5000,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 32 000 − 25 000 − 2000",
+        "1 mark: 5000 N (upwards)"
+      ],
+      "explanation": "Weight and air resistance both act downwards on a rising rocket: 25 000 + 2000 = 27 000 N. Resultant = 32 000 − 27 000 = 5000 N upwards."
+    },
+    {
+      "id": "p5-resultant-forces-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A force of 30 N acts east and a force of 40 N acts north on the same object. Use a scale drawing to determine the size of the resultant force.",
+      "numericAnswer": 50,
+      "tolerance": 0.04,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: forces drawn to scale at right angles, tip to tail",
+        "1 mark: resultant drawn from start to finish",
+        "1 mark: 50 N (accept 48 N to 52 N)"
+      ],
+      "explanation": "Drawn to scale (e.g. 1 cm = 10 N), the 3 cm and 4 cm arrows give a resultant 5 cm long: 50 N, about 53° north of east."
+    },
+    {
+      "id": "p5-resultant-forces-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A force of 100 N acts at 30° above the horizontal. Use a scale drawing to determine the horizontal component of the force.",
+      "numericAnswer": 86.6,
+      "tolerance": 0.04,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 100 N force drawn to scale at 30°",
+        "1 mark: right-angled triangle completed with horizontal and vertical sides",
+        "1 mark: horizontal component 87 N (accept 84 N to 90 N)"
+      ],
+      "explanation": "Drawing the 100 N force at 30° and completing the right-angled triangle gives a horizontal side of about 87 N and a vertical side of 50 N."
+    },
+    {
+      "id": "p5-resultant-forces-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A force of 5 N acts east and a force of 12 N acts north on the same object. Use a scale drawing to determine the size of the resultant force.",
+      "numericAnswer": 13,
+      "tolerance": 0.04,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: accurate scale drawing tip to tail",
+        "1 mark: 13 N (accept 12.5 N to 13.5 N)"
+      ],
+      "explanation": "With 1 cm = 2 N, the arrows are 2.5 cm and 6.0 cm long and the resultant measures 6.5 cm: 13 N."
+    },
+    {
+      "id": "p5-resultant-forces-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Define the term resultant force.",
+      "acceptedAnswers": [
+        "single force",
+        "same effect as all the forces"
+      ],
+      "markScheme": [
+        "1 mark: a single force that has the same effect as all the original forces acting together"
+      ],
+      "explanation": "The resultant replaces all the forces acting on an object with one equivalent force."
+    },
+    {
+      "id": "p5-resultant-forces-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain how to find the resultant of two forces acting along the same straight line.",
+      "acceptedAnswers": [
+        "add if same direction",
+        "subtract if opposite",
+        "direction of larger force"
+      ],
+      "markScheme": [
+        "1 mark: if they act in the same direction, add them",
+        "1 mark: if they act in opposite directions, subtract the smaller from the larger (resultant in the direction of the larger force)"
+      ],
+      "explanation": "Force is a vector, so direction decides whether forces add or partly cancel."
+    },
+    {
+      "id": "p5-resultant-forces-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A book rests on a table. Explain why the resultant force on the book is zero.",
+      "acceptedAnswers": [
+        "weight down",
+        "normal contact force up",
+        "equal",
+        "opposite",
+        "balanced"
+      ],
+      "markScheme": [
+        "1 mark: weight acts downwards and the normal contact force acts upwards",
+        "1 mark: the forces are equal in size and opposite in direction, so they cancel (balanced)"
+      ],
+      "explanation": "The book's weight is matched by the push of the table. Because they are equal and opposite, the resultant is zero."
+    },
+    {
+      "id": "p5-resultant-forces-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lift has a total weight of 8000 N. The tension in its cable is 8000 N. State the resultant force on the lift and explain your answer.",
+      "acceptedAnswers": [
+        "0 N",
+        "zero",
+        "balanced",
+        "equal and opposite"
+      ],
+      "markScheme": [
+        "1 mark: resultant force = 0 N",
+        "1 mark: tension (up) and weight (down) are equal and opposite / balanced"
+      ],
+      "explanation": "The upward tension exactly cancels the downward weight, so there is no resultant force."
+    },
+    {
+      "id": "p5-resultant-forces-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A ball is falling through the air. Its weight is larger than the air resistance on it. Describe the free body diagram for the ball.",
+      "acceptedAnswers": [
+        "weight arrow down",
+        "air resistance arrow up",
+        "weight arrow longer",
+        "arrows start on ball",
+        "resultant downwards"
+      ],
+      "markScheme": [
+        "1 mark: a downward arrow labelled weight and an upward arrow labelled air resistance, both starting on the ball",
+        "1 mark: the weight arrow is longer than the air resistance arrow",
+        "1 mark: so the resultant force is downwards"
+      ],
+      "explanation": "A free body diagram shows only forces acting on the ball. Arrow lengths show relative sizes, so the longer weight arrow shows a resultant force downwards."
+    },
+    {
+      "id": "p5-resultant-forces-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "What is meant by resolving a force into components?",
+      "acceptedAnswers": [
+        "two components",
+        "right angles",
+        "same effect as single force"
+      ],
+      "markScheme": [
+        "1 mark: replacing one force by two forces (components) at right angles to each other",
+        "1 mark: which together have the same effect as the original force"
+      ],
+      "explanation": "Resolving is the reverse of finding a resultant: one force becomes two perpendicular forces that are equivalent to it."
+    },
+    {
+      "id": "p5-resultant-forces-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Describe how to use a scale drawing to find the resultant of two forces that act at right angles to each other.",
+      "acceptedAnswers": [
+        "choose a scale",
+        "draw tip to tail",
+        "join start to end",
+        "measure length",
+        "measure angle with protractor"
+      ],
+      "markScheme": [
+        "1 mark: choose a suitable scale and draw the first force to scale",
+        "1 mark: draw the second force from the tip of the first, at right angles (tip to tail)",
+        "1 mark: draw the resultant from the start to the end, measure its length to find magnitude (using the scale) and the angle with a protractor for direction"
+      ],
+      "explanation": "The resultant is the vector from the start of the first arrow to the end of the second. Its length gives the size and its angle gives the direction."
+    },
+    {
+      "id": "p5-resultant-forces-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "In a tug of war, team A pulls the rope to the left with a force of 1500 N and team B pulls to the right with a force of 1500 N. Team B then increases its pull to 1650 N while team A stays the same.\nDescribe and explain the resultant force on the rope before and after the change, and its effect.",
+      "markScheme": [
+        "Indicative content:",
+        "Before: forces are equal in size and opposite in direction.",
+        "Before: resultant force = 1500 − 1500 = 0 N; forces are balanced.",
+        "The rope does not start to move (its motion does not change).",
+        "After: forces are unbalanced.",
+        "After: resultant = 1650 − 1500 = 150 N to the right (towards team B).",
+        "The resultant force makes the rope start to move towards team B / changes its motion.",
+        "Level 2 (3 to 4 marks): correct resultant before and after with directions, plus effect on motion.",
+        "Level 1 (1 to 2 marks): states forces balanced at first or unbalanced later, or one correct calculation."
+      ],
+      "explanation": "Equal opposite forces cancel to zero. When team B pulls harder, the forces become unbalanced with a 150 N resultant towards team B, which changes the motion of the rope."
+    },
+    {
+      "id": "p5-resultant-forces-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Two ropes pull on a box. One rope pulls with a force of 6 N due east and the other pulls with a force of 8 N due north.\nExplain how a scale drawing can be used to determine the magnitude and direction of the resultant force on the box, and state the values you would expect to find.",
+      "markScheme": [
+        "Indicative content:",
+        "Choose a suitable scale, e.g. 1 cm = 1 N, and state it.",
+        "Use a ruler and sharp pencil; draw 6 cm arrow pointing east.",
+        "From the tip of the first arrow draw an 8 cm arrow pointing north (tip to tail), using a protractor to make a right angle.",
+        "(Alternatively draw both from the same point and complete a parallelogram/rectangle.)",
+        "Draw the resultant from the start of the first arrow to the tip of the second.",
+        "Measure its length (10 cm) and convert with the scale: 10 N.",
+        "Measure the angle between the resultant and east with a protractor: about 53° north of east (bearing about 037°).",
+        "The resultant has the same effect on the box as the two forces together.",
+        "Level 3 (5 to 6 marks): clear, logically ordered method including scale, tip-to-tail drawing, measurement of length and angle, and correct values.",
+        "Level 2 (3 to 4 marks): method mostly correct, may omit scale or angle, or gives correct magnitude only.",
+        "Level 1 (1 to 2 marks): basic idea, e.g. draw the forces and measure, or states 10 N without method."
+      ],
+      "explanation": "The forces form a right-angled triangle when drawn tip to tail. The resultant measures 10 N at about 53° north of east. Adding 6 + 8 = 14 N would be wrong because the forces are not in the same direction."
+    }
+  ]
+}
