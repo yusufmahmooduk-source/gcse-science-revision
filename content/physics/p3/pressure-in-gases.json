@@ -1,0 +1,718 @@
+{
+  "id": "p3-pressure-in-gases",
+  "science": "physics",
+  "topicId": "p3",
+  "slug": "pressure-in-gases",
+  "specRef": "4.3.3.2",
+  "title": "Pressure in gases",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A gas exerts a pressure that produces a net force at right angles to the walls of its container (or any surface). For a fixed mass of gas at constant temperature, pressure × volume = constant, so increasing the volume decreases the pressure.",
+    "explanation": [
+      "A gas can be compressed (squashed into a smaller volume) or allowed to expand by changing the pressure on it. The molecules of the gas are constantly colliding with the walls of the container. Each collision pushes on the wall, and the combined effect of all the collisions is a net force at right angles (perpendicular) to the wall. The same is true for any surface in contact with the gas. Pressure is this force per unit area.",
+      "If a fixed mass of gas is allowed to expand into a larger volume while its temperature stays the same, its pressure decreases. The temperature is constant, so the molecules have the same average kinetic energy and hit the walls just as hard. But in a larger volume the molecules have further to travel between collisions with the walls and there is more wall area, so there are fewer collisions per second on each square metre of wall. The force on each unit area falls, so the pressure falls. Compressing the gas into a smaller volume does the opposite and increases the pressure.",
+      "For a fixed mass of gas held at constant temperature, the pressure multiplied by the volume stays the same: pV = constant. Pressure is measured in pascals (Pa) and volume in metres cubed (m³). This equation is on the equation sheet. It means that pressure and volume are inversely proportional: if the volume halves, the pressure doubles; if the volume triples, the pressure falls to a third.",
+      "To calculate a change, use p₁V₁ = p₂V₂, where p₁ and V₁ are the starting pressure and volume and p₂ and V₂ are the final values. Because the same constant is on both sides, you can use any units as long as they are the same on both sides: for example kPa on both sides, or cm³ on both sides. Always check your answer makes sense: a smaller volume must give a larger pressure.",
+      "A graph of pressure against volume for a fixed mass of gas at constant temperature is a curve that gets less steep as volume increases. Multiplying the pressure and volume at any point on the curve gives the same value. This explains, for example, why bubbles of air released by a diver get bigger as they rise: the water pressure on them decreases, so their volume increases."
+    ],
+    "keyFacts": [
+      "Gas pressure produces a net force at right angles to the container walls (or any surface).",
+      "A gas can be compressed or expanded by pressure changes.",
+      "At constant temperature, increasing the volume of a gas decreases its pressure.",
+      "pV = constant for a fixed mass of gas at constant temperature (on the equation sheet).",
+      "p in pascals (Pa), V in m³. 1 kPa = 1000 Pa.",
+      "p₁V₁ = p₂V₂ is used to calculate a change in pressure or volume.",
+      "Halving the volume doubles the pressure (pressure and volume are inversely proportional).",
+      "Larger volume at the same temperature: fewer collisions per second with each unit area of wall, so lower pressure.",
+      "At constant temperature, the average kinetic energy (speed) of the molecules does not change."
+    ],
+    "keyTerms": [
+      {
+        "term": "Pressure",
+        "definition": "The force per unit area acting at right angles to a surface, measured in pascals (Pa)."
+      },
+      {
+        "term": "Pascal (Pa)",
+        "definition": "The unit of pressure: 1 Pa = 1 N/m²."
+      },
+      {
+        "term": "Compress",
+        "definition": "To squash a gas into a smaller volume."
+      },
+      {
+        "term": "Fixed mass of gas",
+        "definition": "A sealed amount of gas, so the number of molecules does not change."
+      },
+      {
+        "term": "Constant temperature",
+        "definition": "The temperature does not change, so the average kinetic energy of the molecules stays the same."
+      },
+      {
+        "term": "Inversely proportional",
+        "definition": "When one quantity doubles the other halves, so their product is constant."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Pressure and volume of a gas",
+        "formula": "pressure × volume = constant (for a fixed mass of gas at constant temperature)",
+        "symbols": "p V = constant, so p₁V₁ = p₂V₂",
+        "units": "p in pascals (Pa), V in metres cubed (m³)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Compressing a gas",
+        "question": "A fixed mass of gas has a volume of 0.0030 m³ at a pressure of 100 000 Pa. It is compressed at constant temperature to 0.0010 m³. Calculate the new pressure.",
+        "steps": [
+          "p₁V₁ = p₂V₂.",
+          "100 000 × 0.0030 = p₂ × 0.0010.",
+          "p₂ = 300 ÷ 0.0010 = 300 000 Pa."
+        ],
+        "answer": "300 000 Pa (the volume became a third, so the pressure tripled)"
+      },
+      {
+        "title": "Using cm³ and kPa",
+        "question": "Air in a sealed syringe has a volume of 60 cm³ at 100 kPa. The plunger is pushed in slowly so the temperature stays constant, until the volume is 40 cm³. Calculate the new pressure.",
+        "steps": [
+          "The units are the same on both sides, so no conversion is needed.",
+          "p₂ = p₁V₁ ÷ V₂ = (100 × 60) ÷ 40.",
+          "p₂ = 6000 ÷ 40 = 150 kPa."
+        ],
+        "answer": "150 kPa"
+      },
+      {
+        "title": "Finding a new volume",
+        "question": "A gas at a pressure of 150 000 Pa occupies 0.020 m³. The pressure is reduced to 100 000 Pa at constant temperature. Calculate the new volume.",
+        "steps": [
+          "V₂ = p₁V₁ ÷ p₂.",
+          "V₂ = (150 000 × 0.020) ÷ 100 000.",
+          "V₂ = 3000 ÷ 100 000 = 0.030 m³."
+        ],
+        "answer": "0.030 m³ (lower pressure, larger volume)"
+      },
+      {
+        "title": "A diver's bubble",
+        "question": "A diver releases a bubble of volume 2.0 cm³ where the total pressure is 300 kPa. Calculate its volume at the surface, where the pressure is 100 kPa. Assume the temperature is constant.",
+        "steps": [
+          "V₂ = p₁V₁ ÷ p₂ = (300 × 2.0) ÷ 100.",
+          "V₂ = 600 ÷ 100 = 6.0 cm³."
+        ],
+        "answer": "6.0 cm³"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Volume and pressure at constant temperature",
+        "caption": "The same molecules in a cylinder with a movable piston. In the smaller volume the molecules hit each part of the wall more often, so the pressure is higher. The gas pushes at right angles to every surface it touches.",
+        "svg": "<svg viewBox='0 0 480 260' xmlns='http://www.w3.org/2000/svg'><path d='M160 60 H30 V180 H160' fill='none' stroke='currentColor' stroke-width='2.5'/><rect x='120' y='62' width='14' height='116' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='134' y1='120' x2='170' y2='120' stroke='currentColor' stroke-width='3'/><circle cx='43.5' cy='80' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='66' cy='95' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='93' cy='75' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='106.5' cy='110' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='52.5' cy='130' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='79.5' cy='140' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='102' cy='160' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='48' cy='165' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='75' cy='110' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='61.5' cy='75' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='75' y='205'>small volume:</text><text x='75' y='220'>high pressure</text></g><path d='M460 60 H260 V180 H460' fill='none' stroke='currentColor' stroke-width='2.5'/><rect x='420' y='62' width='14' height='116' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='434' y1='120' x2='470' y2='120' stroke='currentColor' stroke-width='3'/><circle cx='284' cy='80' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='324' cy='95' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='372' cy='75' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='396' cy='110' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='300' cy='130' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='348' cy='140' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='388' cy='160' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='292' cy='165' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='340' cy='110' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='316' cy='75' r='5' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='340' y='205'>large volume:</text><text x='340' y='220'>lower pressure</text></g><line x1='75' y1='62' x2='75' y2='47' stroke='currentColor' stroke-width='1.5'/><path d='M75 40 L71.5 47 L78.5 47 Z' fill='currentColor'/><line x1='30' y1='100' x2='17' y2='100' stroke='currentColor' stroke-width='1.5'/><path d='M10 100 L17 103.5 L17 96.5 Z' fill='currentColor'/><line x1='340' y1='62' x2='340' y2='50' stroke='currentColor' stroke-width='1.2'/><path d='M340 44 L337 50 L343 50 Z' fill='currentColor'/><line x1='260' y1='100' x2='250' y2='100' stroke='currentColor' stroke-width='1.2'/><path d='M244 100 L250 103 L250 97 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='240' y='250' text-anchor='middle'>Same mass of gas, same temperature. Forces from the gas act at right angles to the walls.</text><text x='86' y='36'>force</text><text x='350' y='40'>force</text><text x='150' y='112'>piston</text></g></svg>"
+      },
+      {
+        "title": "Pressure against volume",
+        "caption": "For a fixed mass of gas at constant temperature, pressure falls as volume increases. The product p × V is the same at every point on the curve.",
+        "svg": "<svg viewBox='0 0 480 280' xmlns='http://www.w3.org/2000/svg'><line x1='70' y1='230' x2='70' y2='26' stroke='currentColor' stroke-width='1.5'/><path d='M70 18 L66 26 L74 26 Z' fill='currentColor'/><line x1='70' y1='230' x2='452' y2='230' stroke='currentColor' stroke-width='1.5'/><path d='M460 230 L452 226 L452 234 Z' fill='currentColor'/><polyline points='130,32.0 142,65.0 154,88.6 166,106.3 178,120.0 190,131.0 202,140.0 214,147.5 226,153.8 238,159.3 250,164.0 262,168.1 274,171.8 286,175.0 298,177.9 310,180.5 322,182.9 334,185.0 346,187.0 358,188.8 370,190.4 382,191.9 394,193.3 406,194.6 418,195.9 430,197.0' fill='none' stroke='currentColor' stroke-width='2.5'/><g fill='currentColor'><circle cx='130' cy='32.0' r='3.5'/><circle cx='190' cy='131.0' r='3.5'/><circle cx='250' cy='164.0' r='3.5'/><circle cx='310' cy='180.5' r='3.5'/><circle cx='430' cy='197.0' r='3.5'/></g><g font-size='12' fill='currentColor'><line x1='70' y1='230' x2='70' y2='235' stroke='currentColor'/><text x='70' y='248' text-anchor='middle'>0</text><line x1='130' y1='230' x2='130' y2='235' stroke='currentColor'/><text x='130' y='248' text-anchor='middle'>10</text><line x1='190' y1='230' x2='190' y2='235' stroke='currentColor'/><text x='190' y='248' text-anchor='middle'>20</text><line x1='250' y1='230' x2='250' y2='235' stroke='currentColor'/><text x='250' y='248' text-anchor='middle'>30</text><line x1='310' y1='230' x2='310' y2='235' stroke='currentColor'/><text x='310' y='248' text-anchor='middle'>40</text><line x1='370' y1='230' x2='370' y2='235' stroke='currentColor'/><text x='370' y='248' text-anchor='middle'>50</text><line x1='430' y1='230' x2='430' y2='235' stroke='currentColor'/><text x='430' y='248' text-anchor='middle'>60</text><line x1='65' y1='230' x2='70' y2='230' stroke='currentColor'/><text x='60' y='234' text-anchor='end'>0</text><line x1='65' y1='197' x2='70' y2='197' stroke='currentColor'/><text x='60' y='201' text-anchor='end'>100</text><line x1='65' y1='164' x2='70' y2='164' stroke='currentColor'/><text x='60' y='168' text-anchor='end'>200</text><line x1='65' y1='131' x2='70' y2='131' stroke='currentColor'/><text x='60' y='135' text-anchor='end'>300</text><line x1='65' y1='98' x2='70' y2='98' stroke='currentColor'/><text x='60' y='102' text-anchor='end'>400</text><line x1='65' y1='65' x2='70' y2='65' stroke='currentColor'/><text x='60' y='69' text-anchor='end'>500</text><line x1='65' y1='32' x2='70' y2='32' stroke='currentColor'/><text x='60' y='36' text-anchor='end'>600</text><text x='265' y='272' text-anchor='middle'>volume (cm³)</text><text x='18' y='125' text-anchor='middle' transform='rotate(-90 18 125)'>pressure (kPa)</text><text x='190' y='70'>pV = constant</text><text x='190' y='86'>10 cm³ × 600 kPa = 6000</text><text x='190' y='102'>20 cm³ × 300 kPa = 6000</text><text x='190' y='118'>60 cm³ × 100 kPa = 6000</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the molecules move more slowly when a gas expands at constant temperature.",
+        "right": "In fact the temperature is constant, so the average speed is the same. The pressure drops because collisions with each unit area of wall happen less often."
+      },
+      {
+        "wrong": "Students often think pressure and volume are directly proportional.",
+        "right": "In fact they are inversely proportional at constant temperature: if one doubles, the other halves."
+      },
+      {
+        "wrong": "Students often think the force from a gas acts in one direction only, such as downwards.",
+        "right": "In fact the gas pushes at right angles on every surface it touches, in all directions."
+      },
+      {
+        "wrong": "Students often think pV = constant applies whatever happens to the gas.",
+        "right": "In fact it only applies to a fixed mass of gas at constant temperature."
+      }
+    ],
+    "realWorld": [
+      "Bubbles from a diver grow as they rise because the water pressure on them decreases.",
+      "A bicycle pump or syringe compresses air into a smaller volume, increasing its pressure so it can be pushed into a tyre.",
+      "Sealed crisp packets puff up on an aeroplane or at high altitude, because the air pressure outside is lower so the gas inside expands."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science Trilogy (8464): the force from gas pressure acting at right angles to a surface, explaining why increasing volume at constant temperature decreases pressure, and calculations using pV = constant."
+    ],
+    "examTips": [
+      "Write p₁V₁ = p₂V₂ and substitute; then check: did the volume go down? Then the pressure must go up.",
+      "Units only need to match on both sides. If the question gives cm³ and kPa, you can answer in cm³ and kPa unless it asks for Pa or m³.",
+      "In particle explanations at constant temperature, say the molecules' speed is unchanged but collisions with the walls are less frequent per unit area.",
+      "Always state the conditions: fixed mass of gas and constant temperature.",
+      "Describe the force from gas pressure as acting 'at right angles to the surface'."
+    ],
+    "summary": [
+      "Gas pressure gives a net force at right angles to any surface.",
+      "Increasing volume at constant temperature decreases pressure.",
+      "Larger volume means fewer collisions per second with each unit area of wall.",
+      "pV = constant for a fixed mass of gas at constant temperature.",
+      "Use p₁V₁ = p₂V₂ for calculations.",
+      "Pressure and volume are inversely proportional."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Direction of the force from gas pressure on a surface",
+      "back": "At right angles (perpendicular) to the surface."
+    },
+    {
+      "front": "Equation for a fixed mass of gas at constant temperature",
+      "back": "pV = constant (p₁V₁ = p₂V₂)"
+    },
+    {
+      "front": "Unit of pressure",
+      "back": "Pascal (Pa); 1 Pa = 1 N/m²"
+    },
+    {
+      "front": "Conditions for pV = constant",
+      "back": "Fixed mass of gas and constant temperature."
+    },
+    {
+      "front": "Volume halves at constant temperature: pressure?",
+      "back": "Doubles"
+    },
+    {
+      "front": "Why does increasing volume (constant temperature) reduce pressure?",
+      "back": "Molecules hit each unit area of wall less often, so the force per unit area falls."
+    },
+    {
+      "front": "Does molecular speed change when a gas expands at constant temperature?",
+      "back": "No: the average kinetic energy stays the same."
+    },
+    {
+      "front": "Shape of a pressure against volume graph",
+      "back": "A curve: pressure falls as volume rises, less steeply at large volume."
+    },
+    {
+      "front": "Why do a diver's bubbles grow as they rise?",
+      "back": "Water pressure decreases, so the gas volume increases (pV = constant)."
+    },
+    {
+      "front": "Rearrange p₁V₁ = p₂V₂ for V₂",
+      "back": "V₂ = p₁V₁ ÷ p₂"
+    },
+    {
+      "front": "Are pressure and volume directly or inversely proportional?",
+      "back": "Inversely proportional (at constant temperature)."
+    },
+    {
+      "front": "Is pV = constant on the equation sheet?",
+      "back": "Yes"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-pressure-in-gases-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which direction does the net force from a gas act on the wall of its container?",
+      "options": [
+        "Parallel to the wall",
+        "Always downwards",
+        "At right angles to the wall",
+        "Always upwards"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: At right angles to the wall"
+      ],
+      "explanation": "Gas pressure produces a net force at right angles to any surface. It acts on all walls, not just the bottom or top."
+    },
+    {
+      "id": "p3-pressure-in-gases-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A fixed mass of gas is allowed to expand into a larger volume at constant temperature. What happens to its pressure?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It decreases"
+      ],
+      "explanation": "At constant temperature, pV = constant, so a larger volume means a smaller pressure."
+    },
+    {
+      "id": "p3-pressure-in-gases-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of pressure?",
+      "options": [
+        "Newton (N)",
+        "Joule (J)",
+        "Kilogram per metre cubed (kg/m³)",
+        "Pascal (Pa)"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Pascal (Pa)"
+      ],
+      "explanation": "Pressure is force per unit area, measured in pascals. 1 Pa = 1 N/m²."
+    },
+    {
+      "id": "p3-pressure-in-gases-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The equation pV = constant applies to a gas only when:",
+      "options": [
+        "the mass of gas is fixed and the temperature is constant",
+        "the volume is constant",
+        "the gas is being heated",
+        "the pressure is constant"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: the mass of gas is fixed and the temperature is constant"
+      ],
+      "explanation": "The relationship holds for a fixed mass of gas at constant temperature. If the gas were heated, pV would increase."
+    },
+    {
+      "id": "p3-pressure-in-gases-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A fixed mass of gas at constant temperature has its volume halved. What happens to the pressure?",
+      "options": [
+        "It halves",
+        "It stays the same",
+        "It doubles",
+        "It quadruples"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It doubles"
+      ],
+      "explanation": "p₁V₁ = p₂V₂, so if V is halved, p must double to keep the product the same."
+    },
+    {
+      "id": "p3-pressure-in-gases-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A gas expands at constant temperature. Which statement explains why its pressure decreases?",
+      "options": [
+        "The molecules move more slowly",
+        "The molecules collide with each unit area of the walls less often",
+        "The molecules become smaller",
+        "The molecules lose mass"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The molecules collide with each unit area of the walls less often"
+      ],
+      "explanation": "The temperature is constant, so the molecules' average speed is unchanged. In the larger volume they hit each square metre of wall less often, so the force per unit area falls."
+    },
+    {
+      "id": "p3-pressure-in-gases-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A gas at 200 kPa is allowed to expand at constant temperature until its volume is three times larger. What is the new pressure?",
+      "options": [
+        "600 kPa",
+        "203 kPa",
+        "100 kPa",
+        "67 kPa"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 67 kPa"
+      ],
+      "explanation": "p₂ = p₁V₁ ÷ V₂ = 200 × 1 ÷ 3 = 67 kPa (to 2 s.f.). Multiplying by 3 is the common mistake of treating p and V as directly proportional."
+    },
+    {
+      "id": "p3-pressure-in-gases-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A diver releases an air bubble deep under water. What happens to the bubble as it rises to the surface? (Assume the temperature is constant.)",
+      "options": [
+        "Its volume increases because the water pressure on it decreases",
+        "Its volume decreases because the water pressure on it decreases",
+        "Its volume stays the same because its mass is fixed",
+        "Its volume increases because the molecules speed up"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Its volume increases because the water pressure on it decreases"
+      ],
+      "explanation": "Pressure falls as the bubble rises, so its volume increases (pV = constant). The molecules' speed does not change at constant temperature."
+    },
+    {
+      "id": "p3-pressure-in-gases-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A fixed mass of gas at constant temperature has a pressure of 100 kPa and a volume of 30 cm³. Which other pair of values could it have?",
+      "options": [
+        "50 kPa and 15 cm³",
+        "150 kPa and 45 cm³",
+        "60 kPa and 50 cm³",
+        "200 kPa and 60 cm³"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 60 kPa and 50 cm³"
+      ],
+      "explanation": "pV must stay at 100 × 30 = 3000. Only 60 × 50 = 3000. The other pairs give 750, 6750 and 12 000."
+    },
+    {
+      "id": "p3-pressure-in-gases-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A gas is compressed slowly at constant temperature. What happens to the average kinetic energy of its molecules?",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It decreases",
+        "It becomes zero"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It stays the same"
+      ],
+      "explanation": "Average kinetic energy is related to temperature, which is constant. The pressure rises because collisions with the walls become more frequent, not harder."
+    },
+    {
+      "id": "p3-pressure-in-gases-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A fixed mass of gas has a pressure of 100 kPa and a volume of 60 cm³. It is compressed at constant temperature to 40 cm³. Calculate the new pressure.",
+      "numericAnswer": 150,
+      "tolerance": 0.02,
+      "unit": "kPa",
+      "markScheme": [
+        "1 mark: p₂ = (100 × 60) ÷ 40",
+        "1 mark: 150 kPa"
+      ],
+      "explanation": "p₁V₁ = p₂V₂ so p₂ = 6000 ÷ 40 = 150 kPa. The units match on both sides, so no conversion is needed."
+    },
+    {
+      "id": "p3-pressure-in-gases-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A fixed mass of gas has a volume of 0.0030 m³ at a pressure of 100 000 Pa. It is compressed at constant temperature to 0.0010 m³. Calculate the new pressure in pascals.",
+      "numericAnswer": 300000,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p₁V₁ = p₂V₂",
+        "1 mark: 100 000 × 0.0030 = p₂ × 0.0010",
+        "1 mark: 300 000 Pa"
+      ],
+      "explanation": "The volume becomes a third of its original value, so the pressure triples."
+    },
+    {
+      "id": "p3-pressure-in-gases-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A gas at 150 000 Pa occupies 0.020 m³. The pressure is reduced to 100 000 Pa at constant temperature. Calculate the new volume.",
+      "numericAnswer": 0.03,
+      "tolerance": 0.02,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: V₂ = p₁V₁ ÷ p₂",
+        "1 mark: V₂ = (150 000 × 0.020) ÷ 100 000",
+        "1 mark: 0.030 m³"
+      ],
+      "explanation": "Lower pressure means larger volume: 3000 ÷ 100 000 = 0.030 m³."
+    },
+    {
+      "id": "p3-pressure-in-gases-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sample of gas has a volume of 2.5 × 10⁻³ m³ at 120 kPa. The pressure falls to 60 kPa at constant temperature. Calculate the new volume.",
+      "numericAnswer": 0.005,
+      "tolerance": 0.02,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: V₂ = (120 × 2.5 × 10⁻³) ÷ 60",
+        "1 mark: 5.0 × 10⁻³ m³"
+      ],
+      "explanation": "The pressure halves, so the volume doubles: 5.0 × 10⁻³ m³ = 0.0050 m³."
+    },
+    {
+      "id": "p3-pressure-in-gases-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A diver releases a bubble of volume 2.0 cm³ at a depth where the pressure is 300 kPa. Calculate its volume at the surface where the pressure is 100 kPa. Assume constant temperature.",
+      "numericAnswer": 6,
+      "tolerance": 0.02,
+      "unit": "cm³",
+      "markScheme": [
+        "1 mark: V₂ = (300 × 2.0) ÷ 100",
+        "1 mark: 6.0 cm³"
+      ],
+      "explanation": "The pressure falls to a third, so the volume triples."
+    },
+    {
+      "id": "p3-pressure-in-gases-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A balloon contains 0.012 m³ of helium at 101 000 Pa. It rises to a height where the pressure is 80 000 Pa. Assuming the temperature and mass of gas stay constant, calculate the new volume of the balloon. Give your answer to 3 significant figures.",
+      "numericAnswer": 0.0152,
+      "tolerance": 0.02,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: V₂ = p₁V₁ ÷ p₂",
+        "1 mark: V₂ = (101 000 × 0.012) ÷ 80 000",
+        "1 mark: 0.0152 m³ (0.01515)"
+      ],
+      "explanation": "1212 ÷ 80 000 = 0.01515 m³, which is 0.0152 m³ to 3 significant figures."
+    },
+    {
+      "id": "p3-pressure-in-gases-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A gas occupies 750 cm³ at 1.0 × 10⁵ Pa. Calculate the pressure needed to compress it to 250 cm³ at constant temperature.",
+      "numericAnswer": 300000,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p₂ = p₁V₁ ÷ V₂",
+        "1 mark: p₂ = (1.0 × 10⁵ × 750) ÷ 250",
+        "1 mark: 3.0 × 10⁵ Pa"
+      ],
+      "explanation": "The volume is divided by 3, so the pressure is multiplied by 3. The volume units cancel, so cm³ can be used."
+    },
+    {
+      "id": "p3-pressure-in-gases-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A fixed mass of gas has a volume of 0.50 m³ at 100 kPa. The pressure is increased to 125 kPa at constant temperature. Calculate the decrease in volume.",
+      "numericAnswer": 0.1,
+      "tolerance": 0.02,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: V₂ = (100 × 0.50) ÷ 125",
+        "1 mark: V₂ = 0.40 m³",
+        "1 mark: decrease = 0.50 − 0.40 = 0.10 m³"
+      ],
+      "explanation": "Find the new volume first, then subtract it from the original. Giving 0.40 m³ answers a different question."
+    },
+    {
+      "id": "p3-pressure-in-gases-q19",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Gas at 4.0 × 10⁵ Pa in a 250 cm³ container is released into a 1000 cm³ container at the same temperature. Calculate its new pressure.",
+      "numericAnswer": 100000,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p₂ = p₁V₁ ÷ V₂",
+        "1 mark: p₂ = (4.0 × 10⁵ × 250) ÷ 1000",
+        "1 mark: 1.0 × 10⁵ Pa"
+      ],
+      "explanation": "The volume becomes four times larger, so the pressure becomes a quarter."
+    },
+    {
+      "id": "p3-pressure-in-gases-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links pressure and volume for a fixed mass of gas at constant temperature.",
+      "acceptedAnswers": [
+        "pV = constant",
+        "p × V = constant",
+        "p₁V₁ = p₂V₂",
+        "pressure × volume = constant"
+      ],
+      "markScheme": [
+        "1 mark: pV = constant (or p₁V₁ = p₂V₂)"
+      ],
+      "explanation": "This equation is on the equation sheet; you need to select and use it."
+    },
+    {
+      "id": "p3-pressure-in-gases-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the two conditions needed for pressure × volume to stay constant for a gas.",
+      "acceptedAnswers": [
+        "fixed mass",
+        "constant temperature",
+        "sealed",
+        "same amount of gas"
+      ],
+      "markScheme": [
+        "1 mark: fixed mass of gas (sealed)",
+        "1 mark: constant temperature"
+      ],
+      "explanation": "If gas escaped or the temperature changed, pV would not be constant."
+    },
+    {
+      "id": "p3-pressure-in-gases-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Describe the direction of the force that a gas exerts on a surface.",
+      "acceptedAnswers": [
+        "at right angles",
+        "perpendicular",
+        "90°",
+        "normal to the surface"
+      ],
+      "markScheme": [
+        "1 mark: at right angles (perpendicular) to the surface"
+      ],
+      "explanation": "The net force from gas pressure is always perpendicular to the surface it acts on."
+    },
+    {
+      "id": "p3-pressure-in-gases-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Use the particle model to explain why the pressure of a gas decreases when its volume is increased at constant temperature.",
+      "acceptedAnswers": [
+        "temperature constant so same speed",
+        "same average kinetic energy",
+        "fewer collisions per second",
+        "with each unit area",
+        "smaller force per unit area"
+      ],
+      "markScheme": [
+        "1 mark: temperature is constant so the molecules have the same average kinetic energy / speed",
+        "1 mark: in a larger volume the molecules collide with the walls less often (fewer collisions per second per unit area)",
+        "1 mark: so the force on each unit area of wall is smaller, and the pressure decreases"
+      ],
+      "explanation": "The key is that collision frequency per unit area falls, not the force of each collision."
+    },
+    {
+      "id": "p3-pressure-in-gases-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A weather balloon gets bigger as it rises through the atmosphere. Explain why.",
+      "acceptedAnswers": [
+        "atmospheric pressure decreases",
+        "gas expands",
+        "pV = constant",
+        "pressure inside greater than outside"
+      ],
+      "markScheme": [
+        "1 mark: atmospheric pressure decreases with height",
+        "1 mark: so the gas in the balloon expands until its pressure matches the lower outside pressure (pV = constant, so lower p means larger V)"
+      ],
+      "explanation": "As the outside pressure falls, the balloon's volume increases to lower the pressure inside."
+    },
+    {
+      "id": "p3-pressure-in-gases-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student seals the end of a syringe containing air and pushes the plunger in. When the plunger is released it moves back out. Explain why.",
+      "acceptedAnswers": [
+        "volume decreased",
+        "pressure inside increased",
+        "greater than atmospheric",
+        "net force outwards"
+      ],
+      "markScheme": [
+        "1 mark: pushing the plunger in reduces the volume, so the pressure of the air inside increases",
+        "1 mark: the pressure inside is greater than atmospheric pressure outside, so there is a net outward force on the plunger"
+      ],
+      "explanation": "The plunger moves until the pressure inside equals the pressure outside."
+    },
+    {
+      "id": "p3-pressure-in-gases-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student investigates pV = constant by slowly pushing in the plunger of a sealed syringe. Suggest why the plunger should be moved slowly and the student should wait before each reading.",
+      "acceptedAnswers": [
+        "temperature stays constant",
+        "gas returns to room temperature",
+        "energy transferred",
+        "pV = constant needs constant temperature"
+      ],
+      "markScheme": [
+        "1 mark: compressing the gas quickly could raise its temperature",
+        "1 mark: moving slowly / waiting lets the gas return to room temperature, so the temperature is constant, which is a condition for pV = constant"
+      ],
+      "explanation": "Changing the temperature would also change the pressure, making the results invalid."
+    },
+    {
+      "id": "p3-pressure-in-gases-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe an experiment to investigate how the pressure of a fixed mass of gas depends on its volume at constant temperature. Explain how the results could be used to show that pV = constant.",
+      "markScheme": [
+        "Indicative content: use a sealed syringe (or a column of air trapped by oil) connected to a pressure gauge; record the starting volume from the scale and the pressure from the gauge; push the plunger in (or pump to increase the pressure) in steps; change the volume slowly and wait between readings so the temperature stays constant; record pressure and volume for at least five values; check the seal so the mass of gas is fixed; repeat readings; calculate p × V for each pair; values should be approximately the same; or plot p against V (a curve) or p against 1/V (a straight line through the origin); conclusion: pressure is inversely proportional to volume.",
+        "Level 3 (5 to 6 marks): a clear, logical method that would give valid results, with control of temperature and mass, a range of readings, and a correct way of analysing them to show pV is constant.",
+        "Level 2 (3 to 4 marks): a method with measurements of pressure and volume and some control, with some attempt at analysis.",
+        "Level 1 (1 to 2 marks): one or two relevant steps, for example squash a gas and measure the pressure.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "Top answers include both a workable method and how to process the data (calculate pV, or plot p against 1/V)."
+    },
+    {
+      "id": "p3-pressure-in-gases-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A scuba diver at depth breathes air from a tank. The total pressure on the diver's lungs there is 250 kPa. The diver holds their breath with 4.0 litres of air in their lungs and swims quickly to the surface, where the pressure is 100 kPa.\nCalculate the volume the air would expand to and use the particle model to explain why divers are told to breathe out as they rise.",
+      "markScheme": [
+        "Indicative content: V₂ = p₁V₁ ÷ p₂ = (250 × 4.0) ÷ 100 = 10 litres (assuming constant temperature); the air would expand to 2.5 times its volume, which the lungs cannot hold, so they could be damaged; particle explanation: as the outside pressure falls, the air in the lungs expands; at constant temperature the molecules' speed is unchanged; in a larger volume they hit each unit area less often, so pressure falls to match outside; if the volume cannot increase, the pressure inside the lungs stays higher than outside, giving a large outward force; breathing out lets gas escape and reduces the mass of gas.",
+        "Level 2 (3 to 4 marks): correct calculation of 10 litres and a clear explanation linking the pressure decrease to expansion and the danger to the lungs, using particle ideas.",
+        "Level 1 (1 to 2 marks): correct calculation only, or a simple explanation that the air expands.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "This combines pV = constant with the particle explanation. The volume units (litres) are the same on both sides, so they cancel."
+    }
+  ]
+}

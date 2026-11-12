@@ -104,6 +104,7 @@ for (const file of files) {
     else diff[q.difficulty]++;
     if (!(Number.isInteger(q.marks) && q.marks >= 1 && q.marks <= 6)) errs.push(`${tag}: bad marks`);
     if (!q.question || q.question.length < 12) errs.push(`${tag}: question text missing`);
+    if (/(previous|first|last|above|earlier|next) (question|part)|in question \d/i.test(q.question ?? "")) errs.push(`${tag}: refers to another question; make it stand alone`);
     if (!Array.isArray(q.markScheme) || !q.markScheme.length) errs.push(`${tag}: markScheme missing`);
     if (!q.explanation || q.explanation.length < 20) errs.push(`${tag}: explanation missing/short`);
     if (q.type === "mcq") {

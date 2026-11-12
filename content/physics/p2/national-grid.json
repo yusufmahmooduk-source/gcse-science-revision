@@ -1,0 +1,660 @@
+{
+  "id": "p2-national-grid",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "national-grid",
+  "specRef": "4.2.4.3",
+  "title": "The National Grid",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The National Grid is a system of cables and transformers linking power stations to consumers. Step-up transformers increase the potential difference for transmission, which reduces the current and so the energy wasted heating the cables; step-down transformers then reduce the potential difference to a safer level for homes.",
+    "explanation": [
+      "Electrical power is transferred from power stations to consumers (homes, schools, factories and offices) using the National Grid. This is a nationwide network of overhead and underground cables joined by transformers. Because it connects all the power stations together, electricity generated anywhere in the country can be supplied to consumers anywhere, and supply can be matched to demand.",
+      "A power station's generators produce a potential difference of around 25 000 V. A step-up transformer increases the potential difference to a very high value, as much as 400 000 V, before the electricity is sent along the transmission cables. Near the consumers, step-down transformers decrease the potential difference in stages to a much lower value: about 230 V for domestic use, which is much safer.",
+      "The reason for using such a high potential difference is efficiency. The power transmitted is P = V I. For the same power, increasing the potential difference reduces the current: sending 100 MW at 400 000 V needs only 250 A, but at 25 000 V it needs 4000 A. The current heats the cables, wasting energy to the surroundings, and the rate of this heating is P = I² R. Because the wasted power depends on the current squared, reducing the current by a factor of 16 reduces the energy wasted by a factor of 256.",
+      "Lower energy losses mean less fuel has to be burned and less money is spent to supply the same amount of energy to consumers. A lower current also means thinner, lighter, cheaper cables can be used, and pylons can be spaced further apart. The drawback is that very high potential differences are extremely dangerous, so transmission cables are carried high on pylons or buried and well insulated, and the potential difference must be stepped down before it reaches homes.",
+      "In summary, the National Grid is an efficient way to transfer energy because transmitting at a high potential difference and low current greatly reduces the energy wasted by heating in the transmission cables."
+    ],
+    "keyFacts": [
+      "The National Grid is a system of cables and transformers linking power stations to consumers.",
+      "Step-up transformers increase the potential difference from the power station to the transmission cables.",
+      "Step-down transformers decrease the potential difference to about 230 V for domestic use.",
+      "For a given power (P = V I), a higher potential difference means a lower current.",
+      "A lower current means less energy is wasted heating the cables (P = I² R).",
+      "Halving the current reduces heating losses to a quarter.",
+      "Transmission potential differences can be as high as 400 000 V.",
+      "High potential differences are dangerous, so they are stepped down before reaching homes."
+    ],
+    "keyTerms": [
+      {
+        "term": "National Grid",
+        "definition": "The system of cables and transformers linking power stations to consumers across the country."
+      },
+      {
+        "term": "Step-up transformer",
+        "definition": "A transformer that increases the potential difference (and decreases the current)."
+      },
+      {
+        "term": "Step-down transformer",
+        "definition": "A transformer that decreases the potential difference (and increases the current)."
+      },
+      {
+        "term": "Transmission cables",
+        "definition": "The overhead or underground cables that carry electricity at very high potential difference across the country."
+      },
+      {
+        "term": "Consumer",
+        "definition": "A user of electricity, such as a home, school, office or factory."
+      },
+      {
+        "term": "Efficiency",
+        "definition": "The proportion of input energy that is usefully transferred; the grid is efficient because little energy is wasted heating cables."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Power from potential difference and current",
+        "formula": "power = potential difference × current",
+        "symbols": "P = V I",
+        "units": "P in watts (W), V in volts (V), I in amperes (A)",
+        "recall": true
+      },
+      {
+        "name": "Power wasted heating a cable",
+        "formula": "power = (current)² × resistance",
+        "symbols": "P = I² R",
+        "units": "P in watts (W), I in amperes (A), R in ohms (Ω)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Current needed at different potential differences",
+        "question": "A power station sends 100 MW of power along the grid. Calculate the current in the cables at 25 kV and at 400 kV.",
+        "steps": [
+          "Convert: 100 MW = 100 000 000 W; 25 kV = 25 000 V; 400 kV = 400 000 V.",
+          "Rearrange P = V I to I = P ÷ V.",
+          "At 25 kV: I = 100 000 000 ÷ 25 000 = 4000 A.",
+          "At 400 kV: I = 100 000 000 ÷ 400 000 = 250 A."
+        ],
+        "answer": "4000 A at 25 kV; 250 A at 400 kV"
+      },
+      {
+        "title": "Comparing energy wasted in the cables",
+        "question": "The cables in the previous example have a total resistance of 2.0 Ω. Calculate the power wasted by heating at each potential difference.",
+        "steps": [
+          "Use P = I² R.",
+          "At 4000 A: P = 4000² × 2.0 = 32 000 000 W (32 MW).",
+          "At 250 A: P = 250² × 2.0 = 125 000 W (0.125 MW).",
+          "The current is 16 times smaller, so the wasted power is 16² = 256 times smaller."
+        ],
+        "answer": "32 MW wasted at 25 kV; 0.125 MW wasted at 400 kV"
+      },
+      {
+        "title": "Current in a house",
+        "question": "A house uses 9.2 kW of power from the 230 V supply. Calculate the current.",
+        "steps": [
+          "Convert: 9.2 kW = 9200 W.",
+          "I = P ÷ V = 9200 ÷ 230.",
+          "I = 40 A."
+        ],
+        "answer": "40 A"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "The National Grid",
+        "caption": "A step-up transformer raises the potential difference from the power station for transmission. Step-down transformers lower it to 230 V for consumers.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><rect x='5' y='110' width='70' height='50' rx='6' fill='#e5e7eb' fill-opacity='0.5'/><text x='40.0' y='133.0' font-size='11' fill='currentColor' stroke='none'>power</text><text x='40.0' y='147.0' font-size='11' fill='currentColor' stroke='none'>station</text><rect x='95' y='110' width='70' height='50' rx='6' fill='#fde68a' fill-opacity='0.5'/><text x='130.0' y='133.0' font-size='11' fill='currentColor' stroke='none'>step-up</text><text x='130.0' y='147.0' font-size='11' fill='currentColor' stroke='none'>transformer</text><rect x='315' y='110' width='70' height='50' rx='6' fill='#fde68a' fill-opacity='0.5'/><text x='350.0' y='133.0' font-size='11' fill='currentColor' stroke='none'>step-down</text><text x='350.0' y='147.0' font-size='11' fill='currentColor' stroke='none'>transformer</text><rect x='405' y='110' width='70' height='50' rx='6' fill='#86efac' fill-opacity='0.5'/><text x='440.0' y='133.0' font-size='11' fill='currentColor' stroke='none'>homes and</text><text x='440.0' y='147.0' font-size='11' fill='currentColor' stroke='none'>businesses</text><line x1='75' y1='135' x2='93' y2='135' stroke-width='1.5'/><path d='M93 135 L87 138 L87 132 Z' fill='currentColor' stroke='none'/><line x1='385' y1='135' x2='403' y2='135' stroke-width='1.5'/><path d='M403 135 L397 138 L397 132 Z' fill='currentColor' stroke='none'/><path d='M193 150 L205 70 L217 150 M189 86 L221 86 M193 100 L217 100 M198 118 L212 118' stroke-width='1.5'/><path d='M263 150 L275 70 L287 150 M259 86 L291 86 M263 100 L287 100 M268 118 L282 118' stroke-width='1.5'/><path d='M165 120 Q185 92 193 86 M217 86 Q240 100 263 86 M287 86 Q300 92 315 120' stroke-width='1.5'/><text x='240' y='40' font-size='12' fill='currentColor' stroke='none'>transmission cables</text><text x='240' y='56' font-size='11' fill='currentColor' stroke='none'>very high pd (e.g. 400 kV), low current</text><text x='40' y='185' font-size='11' fill='currentColor' stroke='none'>about 25 kV</text><text x='130' y='185' font-size='11' fill='currentColor' stroke='none'>pd increased</text><text x='350' y='185' font-size='11' fill='currentColor' stroke='none'>pd decreased</text><text x='440' y='185' font-size='11' fill='currentColor' stroke='none'>230 V</text><text x='240' y='215' font-size='12' fill='currentColor' stroke='none'>High pd means low current, so less energy is wasted heating the cables.</text></g></svg>"
+      },
+      {
+        "title": "Why a high potential difference is used",
+        "caption": "The same 100 MW sent through cables of total resistance 2.0 Ω. At 25 kV the current is 4000 A and 32 MW is wasted; at 400 kV the current is 250 A and only 0.125 MW is wasted.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='70' y1='200' x2='450' y2='200' stroke-width='1.5'/><path d='M450 200 L444 203 L444 197 Z' fill='currentColor' stroke='none'/><line x1='70' y1='200' x2='70' y2='10' stroke-width='1.5'/><path d='M70 10 L73 16 L67 16 Z' fill='currentColor' stroke='none'/><text x='448' y='232' font-size='12' fill='currentColor' stroke='none' text-anchor='end'></text><text x='76' y='14' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>power wasted in cables / MW</text><rect x='130' y='50' width='90' height='150' fill='#fca5a5' fill-opacity='0.5'/><rect x='300' y='199' width='90' height='1' fill='#86efac' fill-opacity='0.5'/><line x1='300' y1='198' x2='390' y2='198' stroke-width='3'/><text x='175' y='72' font-size='12' fill='currentColor' stroke='none'>32 MW</text><text x='345' y='188' font-size='12' fill='currentColor' stroke='none'>0.125 MW</text><text x='175' y='218' font-size='12' fill='currentColor' stroke='none'>sent at 25 kV (4000 A)</text><text x='345' y='218' font-size='12' fill='currentColor' stroke='none'>sent at 400 kV (250 A)</text><text x='62' y='204' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>0</text><text x='62' y='54' font-size='10' fill='currentColor' stroke='none' text-anchor='end'>32</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a high potential difference means a high current in the cables.",
+        "right": "In fact, for the same power (P = V I), increasing the potential difference decreases the current."
+      },
+      {
+        "wrong": "Students often think step-up transformers increase the power.",
+        "right": "In fact transformers do not increase power: stepping up the potential difference steps down the current."
+      },
+      {
+        "wrong": "Students often say a high potential difference reduces resistance.",
+        "right": "In fact the resistance of the cables does not change; it is the smaller current that reduces the heating losses."
+      },
+      {
+        "wrong": "Students often think energy is lost because electricity 'leaks out' of the cables.",
+        "right": "In fact energy is wasted because the current heats the cables, transferring energy to the surroundings."
+      }
+    ],
+    "realWorld": [
+      "Pylons across the UK carry transmission cables at 275 000 V or 400 000 V.",
+      "Local substations contain step-down transformers that supply neighbourhoods; the final step gives 230 V to homes.",
+      "Because the grid links all power stations, the output of wind farms in Scotland can be used by homes in the south of England."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the chain for 'explain why the grid is efficient': step-up transformer, high potential difference, low current, less heating of cables, less energy wasted.",
+      "Do not say 'less resistance': the resistance of the cables is unchanged; the current is lower.",
+      "Name both types of transformer and say where each is used: step-up at the power station end, step-down near consumers.",
+      "Use P = V I and P = I² R to support your explanation with numbers if the question gives data."
+    ],
+    "summary": [
+      "The National Grid links power stations to consumers with cables and transformers.",
+      "Step-up transformers increase the pd for transmission.",
+      "Step-down transformers decrease the pd to 230 V for homes.",
+      "High pd means low current for the same power.",
+      "Low current means less energy wasted heating the cables, so the grid is efficient."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the National Grid?",
+      "back": "A system of cables and transformers linking power stations to consumers."
+    },
+    {
+      "front": "What does a step-up transformer do?",
+      "back": "Increases the potential difference (and decreases the current)."
+    },
+    {
+      "front": "What does a step-down transformer do?",
+      "back": "Decreases the potential difference (and increases the current)."
+    },
+    {
+      "front": "Where are step-up transformers used?",
+      "back": "Between the power station and the transmission cables."
+    },
+    {
+      "front": "Where are step-down transformers used?",
+      "back": "Between the transmission cables and consumers."
+    },
+    {
+      "front": "Why is electricity transmitted at a high potential difference?",
+      "back": "For the same power the current is lower, so less energy is wasted heating the cables."
+    },
+    {
+      "front": "Which equation shows that higher pd means lower current for the same power?",
+      "back": "P = V I"
+    },
+    {
+      "front": "Which equation shows heating losses depend on current squared?",
+      "back": "P = I² R"
+    },
+    {
+      "front": "Effect on cable heating losses of halving the current?",
+      "back": "Losses fall to a quarter."
+    },
+    {
+      "front": "Typical transmission potential difference?",
+      "back": "Up to 400 000 V (400 kV)."
+    },
+    {
+      "front": "Why is the pd stepped down before reaching homes?",
+      "back": "Very high potential differences are dangerous; 230 V is safer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-national-grid-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the National Grid?",
+      "markScheme": [
+        "1 mark: A system of cables and transformers linking power stations to consumers"
+      ],
+      "explanation": "The National Grid connects power stations to consumers using cables and transformers.",
+      "options": [
+        "A network of gas pipes",
+        "A set of batteries that store electricity",
+        "A system of cables and transformers linking power stations to consumers",
+        "The wiring inside a house"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-national-grid-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a step-up transformer do?",
+      "markScheme": [
+        "1 mark: Increases the potential difference"
+      ],
+      "explanation": "A step-up transformer increases the potential difference. It does not create extra power.",
+      "options": [
+        "Increases the potential difference",
+        "Decreases the potential difference",
+        "Increases the power",
+        "Changes a.c. into d.c."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-national-grid-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Where are step-down transformers used in the National Grid?",
+      "markScheme": [
+        "1 mark: Between the transmission cables and consumers"
+      ],
+      "explanation": "Step-down transformers reduce the potential difference near consumers so it is safer for homes.",
+      "options": [
+        "Inside power stations before the generator",
+        "Inside appliances only",
+        "Between the generator and the transmission cables",
+        "Between the transmission cables and consumers"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-national-grid-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Approximately what potential difference is supplied to homes?",
+      "markScheme": [
+        "1 mark: 230 V"
+      ],
+      "explanation": "Homes receive about 230 V after step-down transformers.",
+      "options": [
+        "25 V",
+        "230 V",
+        "25 000 V",
+        "400 000 V"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-national-grid-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "For the same power, what happens to the current in the transmission cables when the potential difference is increased?",
+      "markScheme": [
+        "1 mark: It decreases."
+      ],
+      "explanation": "P = V I. With P fixed, a larger V gives a smaller I.",
+      "options": [
+        "It increases.",
+        "It stays the same.",
+        "It decreases.",
+        "It becomes zero."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-national-grid-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does a smaller current in the transmission cables make the National Grid more efficient?",
+      "markScheme": [
+        "1 mark: Less energy is wasted heating the cables."
+      ],
+      "explanation": "A smaller current produces less heating (P = I² R), so less energy is wasted. The resistance of the cables is unchanged.",
+      "options": [
+        "Less energy is wasted heating the cables.",
+        "The cables have less resistance.",
+        "The power stations produce more energy.",
+        "The electricity travels faster."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-national-grid-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The current in a transmission cable is halved. What happens to the power wasted heating the cable?",
+      "markScheme": [
+        "1 mark: It falls to a quarter."
+      ],
+      "explanation": "P = I² R, so halving I makes I² a quarter as large.",
+      "options": [
+        "It halves.",
+        "It doubles.",
+        "It stays the same.",
+        "It falls to a quarter."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-national-grid-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which is the correct order of the stages in the National Grid?",
+      "markScheme": [
+        "1 mark: Power station, step-up transformer, transmission cables, step-down transformer, homes"
+      ],
+      "explanation": "The pd is stepped up for transmission and stepped down for consumers.",
+      "options": [
+        "Power station, step-down transformer, transmission cables, step-up transformer, homes",
+        "Power station, step-up transformer, transmission cables, step-down transformer, homes",
+        "Homes, step-up transformer, transmission cables, power station",
+        "Power station, transmission cables, homes, step-down transformer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-national-grid-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student says 'step-up transformers increase the power sent along the cables.' Which is the correct response?",
+      "markScheme": [
+        "1 mark: Incorrect: they increase potential difference but decrease the current, so the power is not increased."
+      ],
+      "explanation": "A transformer cannot create energy. If it steps up the pd, the current is stepped down so the power stays (almost) the same.",
+      "options": [
+        "Correct: they increase potential difference and current.",
+        "Incorrect: they increase potential difference but decrease the current, so the power is not increased.",
+        "Correct: they increase the resistance of the cables.",
+        "Incorrect: they decrease the potential difference."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-national-grid-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A power station sends 100 MW along the grid at 400 kV. Calculate the current in the cables.",
+      "markScheme": [
+        "1 mark: I = P ÷ V = 100 000 000 ÷ 400 000",
+        "1 mark: 250 A"
+      ],
+      "explanation": "Convert MW and kV to W and V, then I = P ÷ V.",
+      "numericAnswer": 250,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-national-grid-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The same 100 MW is sent at 25 kV. Calculate the current in the cables.",
+      "markScheme": [
+        "1 mark: I = 100 000 000 ÷ 25 000",
+        "1 mark: 4000 A"
+      ],
+      "explanation": "I = P ÷ V = 4000 A, sixteen times the current at 400 kV.",
+      "numericAnswer": 4000,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-national-grid-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A transmission cable has a resistance of 2.0 Ω and carries a current of 250 A. Calculate the power wasted heating the cable.",
+      "markScheme": [
+        "1 mark: P = 250² × 2.0",
+        "1 mark: 125 000 W"
+      ],
+      "explanation": "P = I² R = 62 500 × 2.0 = 125 000 W.",
+      "numericAnswer": 125000,
+      "tolerance": 0.02,
+      "unit": "W"
+    },
+    {
+      "id": "p2-national-grid-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The same 2.0 Ω cable carries 4000 A. Calculate the power wasted heating it. Give your answer in MW.",
+      "markScheme": [
+        "1 mark: P = 4000² × 2.0 = 32 000 000 W",
+        "1 mark: 32 MW"
+      ],
+      "explanation": "P = I² R = 16 000 000 × 2.0 = 32 000 000 W = 32 MW. Compare with 0.125 MW at 250 A.",
+      "numericAnswer": 32,
+      "tolerance": 0.02,
+      "unit": "MW"
+    },
+    {
+      "id": "p2-national-grid-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A house uses 9.2 kW of power from the 230 V mains. Calculate the current supplied to the house.",
+      "markScheme": [
+        "1 mark: 9.2 kW = 9200 W",
+        "1 mark: I = 9200 ÷ 230 = 40 A"
+      ],
+      "explanation": "I = P ÷ V = 9200 ÷ 230 = 40 A.",
+      "numericAnswer": 40,
+      "tolerance": 0.02,
+      "unit": "A"
+    },
+    {
+      "id": "p2-national-grid-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State what the National Grid is.",
+      "markScheme": [
+        "1 mark: a system of cables and transformers",
+        "1 mark: linking power stations to consumers"
+      ],
+      "explanation": "Both parts are needed: what it is made of and what it connects.",
+      "acceptedAnswers": [
+        "system of cables and transformers",
+        "links power stations to consumers"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the purpose of a step-down transformer in the National Grid.",
+      "markScheme": [
+        "1 mark: to decrease the potential difference (to about 230 V)",
+        "1 mark: so it is safe for domestic use"
+      ],
+      "explanation": "Very high pds are dangerous, so they are reduced before reaching consumers.",
+      "acceptedAnswers": [
+        "decrease potential difference",
+        "safer for homes"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain why the National Grid is an efficient way to transfer energy.",
+      "markScheme": [
+        "1 mark: step-up transformers increase the potential difference for transmission",
+        "1 mark: this decreases the current (for the same power)",
+        "1 mark: so less energy is wasted heating the cables / less energy is transferred to the surroundings"
+      ],
+      "explanation": "The key chain is high pd, low current, less heating loss.",
+      "acceptedAnswers": [
+        "step-up transformer",
+        "high potential difference",
+        "low current",
+        "less heating",
+        "less energy wasted"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain, using an equation, why transmitting at a high potential difference reduces the current in the cables.",
+      "markScheme": [
+        "1 mark: P = V I",
+        "1 mark: for the same power, a larger V means a smaller I"
+      ],
+      "explanation": "Because power is fixed by demand, V and I are inversely related.",
+      "acceptedAnswers": [
+        "P = V I",
+        "same power",
+        "larger V smaller I"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Give one advantage, other than reduced energy loss, of transmitting electricity at a lower current.",
+      "markScheme": [
+        "1 mark: thinner/lighter/cheaper cables can be used (so pylons can be further apart)"
+      ],
+      "explanation": "Cables only need to carry a small current, so they can be thinner.",
+      "acceptedAnswers": [
+        "thinner cables",
+        "cheaper cables",
+        "lighter cables"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Suggest why electricity is not supplied to homes at 400 000 V.",
+      "markScheme": [
+        "1 mark: it would be extremely dangerous (fatal electric shock / arcing)",
+        "1 mark: appliances are designed to work at 230 V"
+      ],
+      "explanation": "Very high pds can drive lethal currents and would need extreme insulation, so they are stepped down.",
+      "acceptedAnswers": [
+        "dangerous",
+        "risk of fatal shock",
+        "appliances designed for 230 V"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says the National Grid uses high potential differences because this reduces the resistance of the cables. Explain why the student is wrong.",
+      "markScheme": [
+        "1 mark: the resistance of the cables does not change",
+        "1 mark: the high pd reduces the current, which reduces the heating (P = I² R)"
+      ],
+      "explanation": "Resistance depends on the cable (length, material, thickness), not on the potential difference. The losses fall because I falls.",
+      "acceptedAnswers": [
+        "resistance unchanged",
+        "current reduced"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q22",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how electricity is transferred from a power station to homes using the National Grid, and explain why this system is an efficient way to transfer energy.",
+      "markScheme": [
+        "Indicative content: power station generates at about 25 kV; step-up transformer increases the pd (up to 400 kV); transmission cables (overhead on pylons or underground) carry electricity across the country; step-down transformers (at substations) reduce the pd in stages to 230 V for homes; the grid links all power stations to all consumers. Efficiency: P = V I, so for the same power a higher pd means a lower current; the current heats the cables, wasting energy to the surroundings; power wasted = I² R, so reducing the current greatly reduces losses; less fuel needed / lower costs; step-down needed for safety.",
+        "Level 3 (5 to 6 marks): clear sequence of stages with both transformers, and a full explanation of efficiency linking high pd to low current to less heating.",
+        "Level 2 (3 to 4 marks): most stages described with a partial explanation of efficiency.",
+        "Level 1 (1 to 2 marks): simple statements about transformers or cables."
+      ],
+      "explanation": "The top band needs both the description (stages) and the explanation (high pd, low current, less heating, less wasted energy)."
+    },
+    {
+      "id": "p2-national-grid-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A power station sends 100 MW to a city through cables of total resistance 2.0 Ω. An engineer compares transmitting at 25 kV and at 400 kV.\nUse calculations to evaluate which potential difference should be used.",
+      "markScheme": [
+        "Indicative content: I = P ÷ V: at 25 kV, I = 4000 A; at 400 kV, I = 250 A. Power wasted = I² R: at 25 kV, 4000² × 2.0 = 32 MW (32% of the power); at 400 kV, 250² × 2.0 = 125 000 W = 0.125 MW (0.125%). 400 kV wastes 256 times less energy; better choice for efficiency and cost of fuel; but needs a step-up transformer, taller pylons/better insulation for safety, and must be stepped down for consumers. Conclusion: 400 kV is better.",
+        "Level 2 (3 to 4 marks): correct currents and losses at both potential differences with a justified conclusion.",
+        "Level 1 (1 to 2 marks): one correct calculation or a correct conclusion with partial support."
+      ],
+      "explanation": "The calculation shows clearly why high transmission pds are used: the loss at 25 kV would be almost a third of the power generated."
+    },
+    {
+      "id": "p2-national-grid-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Approximately what potential difference is produced by a power station's generators before it is stepped up?",
+      "markScheme": [
+        "1 mark: 25 000 V"
+      ],
+      "explanation": "Generators produce around 25 kV. This is stepped up to as much as 400 kV for transmission and finally stepped down to 230 V.",
+      "options": [
+        "230 V",
+        "400 000 V",
+        "25 000 V",
+        "50 V"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-national-grid-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the type of transformer used between a power station and the transmission cables.",
+      "markScheme": [
+        "1 mark: step-up (transformer)"
+      ],
+      "explanation": "It increases the pd so that the current in the transmission cables is low.",
+      "acceptedAnswers": [
+        "step-up"
+      ]
+    },
+    {
+      "id": "p2-national-grid-q26",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A transmission line operates at 400 kV and carries a current of 500 A. Calculate the power transmitted. Give your answer in MW.",
+      "markScheme": [
+        "1 mark: P = 400 000 × 500 = 200 000 000 W",
+        "1 mark: 200 MW"
+      ],
+      "explanation": "P = V I = 400 000 × 500 = 2.0 × 10⁸ W = 200 MW.",
+      "numericAnswer": 200,
+      "tolerance": 0.02,
+      "unit": "MW"
+    }
+  ]
+}

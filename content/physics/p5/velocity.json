@@ -1,0 +1,694 @@
+{
+  "id": "p5-velocity",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "velocity",
+  "specRef": "4.5.6.1.3",
+  "title": "Velocity",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The velocity of an object is its speed in a given direction. Velocity is a vector quantity: it has both magnitude (the speed) and direction, and is measured in m/s.",
+    "explanation": [
+      "Speed tells you how fast something is moving. Velocity tells you how fast it is moving and in which direction. For example, \"15 m/s\" is a speed, but \"15 m/s north\" is a velocity. Because velocity has both magnitude and direction it is a vector quantity, whereas speed is a scalar. Both are measured in metres per second (m/s).",
+      "The scalar and vector pairs fit together: distance (scalar) and displacement (vector), speed (scalar) and velocity (vector). Speed is distance travelled per second; velocity is displacement per second. For motion along a straight line, it helps to choose one direction as positive. Then a velocity of +4 m/s means 4 m/s in the positive direction and −4 m/s means 4 m/s in the opposite direction. The speed is 4 m/s in both cases.",
+      "Two objects can have the same speed but different velocities. Two cars travelling at 20 m/s on opposite sides of a motorway have the same speed, but one has a velocity of 20 m/s north and the other 20 m/s south. Velocity can therefore change in two ways: the speed can change, the direction can change, or both can change together.",
+      "Because velocity depends on displacement, average speed and average velocity can be very different. A runner who completes one 400 m lap in 80 s has an average speed of 400 ÷ 80 = 5 m/s. But she ends where she started, so her displacement is zero and her average velocity is zero. For a journey in one direction along a straight line, the average speed and the size of the average velocity are the same.",
+      "(Higher) An object moving in a circle at a constant speed has a changing velocity. At every point its velocity is directed along the tangent to the circle, and as it goes round the direction is continuously changing. Examples include a satellite orbiting the Earth, a car driving round a roundabout at a steady speed, the tip of a clock hand, or a ball whirled on a string. Since the velocity changes, the object is accelerating, even though its speed stays the same."
+    ],
+    "keyFacts": [
+      "Velocity is speed in a given direction.",
+      "Velocity is a vector quantity; speed is a scalar quantity.",
+      "Velocity is measured in metres per second (m/s), the same unit as speed.",
+      "A velocity must always be stated with a direction, for example 12 m/s east, or a sign once a positive direction is chosen.",
+      "Two objects with the same speed have different velocities if they move in different directions.",
+      "Velocity changes if the speed changes, the direction changes, or both.",
+      "Average velocity uses displacement; average speed uses distance.",
+      "An object that returns to its starting point has an average velocity of zero.",
+      "(Higher) Motion in a circle at constant speed involves a continuously changing velocity."
+    ],
+    "keyTerms": [
+      {
+        "term": "Velocity",
+        "definition": "The speed of an object in a given direction. A vector quantity measured in m/s."
+      },
+      {
+        "term": "Speed",
+        "definition": "The distance travelled per unit time, with no direction. A scalar quantity measured in m/s."
+      },
+      {
+        "term": "Vector quantity",
+        "definition": "A quantity with both magnitude and direction, for example velocity, displacement, force."
+      },
+      {
+        "term": "Scalar quantity",
+        "definition": "A quantity with magnitude only, for example speed, distance, time."
+      },
+      {
+        "term": "Magnitude",
+        "definition": "The size of a vector, ignoring direction. The magnitude of a velocity is the speed."
+      },
+      {
+        "term": "Uniform velocity",
+        "definition": "Velocity that does not change: constant speed in a straight line in one direction."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Distance travelled at constant speed (used with displacement for velocity)",
+        "formula": "distance travelled = speed × time",
+        "symbols": "s = v t",
+        "units": "s in metres (m), v in metres per second (m/s), t in seconds (s)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating a velocity",
+        "question": "A cyclist travels 450 m due south along a straight road in 75 s. Calculate her velocity.",
+        "steps": [
+          "v = s ÷ t, using the displacement.",
+          "v = 450 ÷ 75 = 6.0 m/s.",
+          "Give the direction: the velocity is 6.0 m/s south."
+        ],
+        "answer": "6.0 m/s south"
+      },
+      {
+        "title": "Average speed and average velocity",
+        "question": "A man walks 90 m east in 60 s, then turns and walks 30 m west in 20 s. Calculate (a) his average speed and (b) his average velocity.",
+        "steps": [
+          "Total distance = 90 + 30 = 120 m; total time = 60 + 20 = 80 s.",
+          "Average speed = 120 ÷ 80 = 1.5 m/s.",
+          "Displacement (east positive) = +90 − 30 = +60 m, so 60 m east.",
+          "Average velocity = 60 ÷ 80 = 0.75 m/s east."
+        ],
+        "answer": "(a) 1.5 m/s  (b) 0.75 m/s east"
+      },
+      {
+        "title": "Converting km/h and rearranging",
+        "question": "An aircraft flies due west at a constant velocity of 900 km/h. Calculate its displacement after 4.0 minutes in metres.",
+        "steps": [
+          "Convert the velocity to m/s: 900 × 1000 ÷ 3600 = 250 m/s.",
+          "Convert the time to seconds: 4.0 × 60 = 240 s.",
+          "Displacement = velocity × time = 250 × 240 = 60 000 m.",
+          "Include the direction: 60 000 m (60 km) west."
+        ],
+        "answer": "60 000 m west"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Same speed, different velocity",
+        "caption": "Car A and car B both travel at 20 m/s, so they have the same speed, but their velocities are different because they move in opposite directions.",
+        "svg": "<svg viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"va\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><rect x=\"40\" y=\"40\" width=\"80\" height=\"34\" rx=\"8\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"78\" r=\"8\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"78\" r=\"8\" fill=\"none\" stroke=\"currentColor\"/><text x=\"80\" y=\"62\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">car A</text><line x1=\"130\" y1=\"57\" x2=\"230\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#va)\"/><text x=\"140\" y=\"45\" font-size=\"12\" fill=\"currentColor\">20 m/s east</text><rect x=\"300\" y=\"120\" width=\"80\" height=\"34\" rx=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"158\" r=\"8\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"360\" cy=\"158\" r=\"8\" fill=\"none\" stroke=\"currentColor\"/><text x=\"340\" y=\"142\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">car B</text><line x1=\"290\" y1=\"137\" x2=\"190\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#va)\"/><text x=\"200\" y=\"125\" font-size=\"12\" fill=\"currentColor\">20 m/s west</text><line x1=\"20\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"currentColor\" stroke-dasharray=\"8 6\"/><text x=\"210\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Same speed (20 m/s), different velocities (opposite directions)</text><text x=\"380\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">east is positive →</text></svg>"
+      },
+      {
+        "title": "Circular motion (Higher)",
+        "caption": "An object moving in a circle at constant speed. The velocity arrows are the same length (same speed) but point in different directions, so the velocity is changing.",
+        "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"vb\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs><circle cx=\"200\" cy=\"130\" r=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"5 4\"/><circle cx=\"200\" cy=\"130\" r=\"3\" fill=\"currentColor\"/><text x=\"208\" y=\"134\" font-size=\"12\" fill=\"currentColor\">centre</text><circle cx=\"200\" cy=\"50\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#vb)\"/><circle cx=\"280\" cy=\"130\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"280\" y1=\"130\" x2=\"280\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#vb)\"/><circle cx=\"200\" cy=\"210\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"210\" x2=\"150\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#vb)\"/><circle cx=\"120\" cy=\"130\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"120\" y1=\"130\" x2=\"120\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2.5\" marker-end=\"url(#vb)\"/><text x=\"255\" y=\"45\" font-size=\"12\" fill=\"currentColor\">velocity</text><text x=\"288\" y=\"160\" font-size=\"12\" fill=\"currentColor\">velocity</text><text x=\"90\" y=\"228\" font-size=\"12\" fill=\"currentColor\">velocity</text><text x=\"62\" y=\"75\" font-size=\"12\" fill=\"currentColor\">velocity</text><text x=\"200\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Object moving clockwise in a circle at constant speed</text><text x=\"200\" y=\"250\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Arrows equal length (same speed) but direction keeps changing</text></svg>"
+      },
+      {
+        "title": "Scalar and vector pairs",
+        "caption": "Each scalar on the left has a matching vector on the right. Velocity is the vector partner of speed.",
+        "svg": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"15\" width=\"150\" height=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"210\" y=\"15\" width=\"150\" height=\"30\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"115\" y=\"35\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">SCALAR (size only)</text><text x=\"285\" y=\"35\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">VECTOR (size + direction)</text><rect x=\"40\" y=\"50\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"210\" y=\"50\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"70\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">distance</text><text x=\"285\" y=\"70\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">displacement</text><rect x=\"40\" y=\"86\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"210\" y=\"86\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"106\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">speed</text><text x=\"285\" y=\"106\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">velocity</text><rect x=\"40\" y=\"122\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"210\" y=\"122\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"142\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mass</text><text x=\"285\" y=\"142\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">force</text><rect x=\"40\" y=\"158\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"210\" y=\"158\" width=\"150\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">time</text><text x=\"285\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">acceleration</text><text x=\"200\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">velocity = speed in a given direction</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think speed and velocity mean exactly the same thing.",
+        "right": "In fact velocity is speed in a given direction. Speed is a scalar; velocity is a vector, so a velocity must include a direction."
+      },
+      {
+        "wrong": "Students often think that if an object's speed is constant, its velocity must be constant too.",
+        "right": "In fact velocity also changes if the direction changes. An object going round a circle at constant speed has a changing velocity."
+      },
+      {
+        "wrong": "Students often think a negative velocity means the object is slowing down.",
+        "right": "In fact a negative velocity only means the object is moving in the direction chosen as negative. It could be speeding up in that direction."
+      },
+      {
+        "wrong": "Students often think average velocity is always the same as average speed.",
+        "right": "In fact average velocity uses displacement, so if an object changes direction or returns to its start, the average velocity is smaller than the average speed (or zero)."
+      }
+    ],
+    "realWorld": [
+      "Air traffic controllers need each aircraft's velocity (speed and heading), not just its speed, to keep planes safely apart.",
+      "Weather forecasts give wind velocity as a speed and a direction, for example 8 m/s from the south west.",
+      "Satellites in circular orbits move at a steady speed but their velocity is constantly changing direction as they go round the Earth.",
+      "In football analysis, a ball's velocity (speed and direction) determines where a pass or shot will go."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Explain qualitatively, with examples, that motion in a circle involves constant speed but changing velocity: the direction of motion (along the tangent) changes continuously, so the velocity changes even though the speed does not."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "When a question asks for a velocity, always include a direction (north, left, up, or a sign) as well as the number and unit m/s.",
+      "In explain-the-difference questions, say: speed is a scalar (magnitude only); velocity is a vector (magnitude and direction); velocity is speed in a given direction.",
+      "For circular motion questions (Higher), state that the speed is constant but the direction changes, so the velocity changes. Saying only \"it is moving in a circle\" will not score.",
+      "Use displacement for velocity calculations and distance for speed calculations, and watch for journeys that return to the start."
+    ],
+    "summary": [
+      "Velocity is speed in a given direction.",
+      "Velocity is a vector; speed is a scalar; both are in m/s.",
+      "Same speed in different directions means different velocities.",
+      "Velocity changes when speed or direction (or both) change.",
+      "Average velocity = displacement ÷ time; it can be zero when average speed is not.",
+      "(Higher) Circular motion at constant speed has a changing velocity."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define velocity.",
+      "back": "Speed in a given direction."
+    },
+    {
+      "front": "Is velocity a scalar or a vector?",
+      "back": "A vector: it has magnitude and direction."
+    },
+    {
+      "front": "Unit of velocity",
+      "back": "m/s (metres per second)"
+    },
+    {
+      "front": "Which vector quantity pairs with distance?",
+      "back": "Displacement"
+    },
+    {
+      "front": "Which vector quantity pairs with speed?",
+      "back": "Velocity"
+    },
+    {
+      "front": "Two ways a velocity can change",
+      "back": "The speed changes or the direction changes (or both)."
+    },
+    {
+      "front": "Car X: 15 m/s north. Car Y: 15 m/s south. Same speed?",
+      "back": "Yes, both 15 m/s."
+    },
+    {
+      "front": "Car X: 15 m/s north. Car Y: 15 m/s south. Same velocity?",
+      "back": "No, they move in different directions."
+    },
+    {
+      "front": "(Higher) Why does an object moving in a circle at constant speed have a changing velocity?",
+      "back": "Its direction of motion is continuously changing."
+    },
+    {
+      "front": "Average velocity of a runner after one complete lap",
+      "back": "Zero, because the displacement is zero."
+    },
+    {
+      "front": "What does a negative velocity mean?",
+      "back": "Moving in the direction chosen as negative (opposite to the positive direction)."
+    },
+    {
+      "front": "Give an example of motion at constant speed but changing velocity.",
+      "back": "A satellite in a circular orbit, a car on a roundabout at steady speed, the tip of a clock hand."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-velocity-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement best defines velocity?",
+      "options": [
+        "The distance travelled per second",
+        "Speed in a given direction",
+        "The rate of change of speed",
+        "Distance in a given direction"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Velocity is speed in a given direction. A is speed; C describes acceleration; D describes displacement."
+    },
+    {
+      "id": "p5-velocity-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a velocity?",
+      "options": [
+        "30 m/s",
+        "30 m north",
+        "30 m/s north",
+        "30 m/s²"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "A velocity needs a speed unit and a direction. 30 m/s has no direction; 30 m north is a displacement; m/s² is the unit of acceleration."
+    },
+    {
+      "id": "p5-velocity-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which pair shows a scalar quantity followed by its matching vector quantity?",
+      "options": [
+        "speed, velocity",
+        "velocity, speed",
+        "displacement, distance",
+        "velocity, displacement"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Speed (scalar) pairs with velocity (vector). B and C have them the wrong way round; D gives two vectors."
+    },
+    {
+      "id": "p5-velocity-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two trains pass each other on parallel tracks, each moving at 40 m/s in opposite directions. Which statement is correct?",
+      "options": [
+        "They have the same velocity and the same speed",
+        "They have different speeds but the same velocity",
+        "They have the same speed but different velocities",
+        "They have different speeds and different velocities"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Both have a speed of 40 m/s, but because they move in opposite directions their velocities are different (+40 m/s and −40 m/s)."
+    },
+    {
+      "id": "p5-velocity-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Right is taken as the positive direction. A trolley has a velocity of −2.5 m/s. What does this tell you?",
+      "options": [
+        "The trolley is slowing down",
+        "The trolley is moving at 2.5 m/s to the left",
+        "The trolley is moving at 2.5 m/s to the right",
+        "The trolley is stationary"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "The negative sign shows direction only: the trolley is moving to the left at a speed of 2.5 m/s. It does not mean it is slowing down."
+    },
+    {
+      "id": "p5-velocity-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these changes would NOT change the velocity of a car?",
+      "options": [
+        "Speeding up on a straight road",
+        "Turning a corner at a steady speed",
+        "Braking on a straight road",
+        "Driving at a steady speed in a straight line"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Velocity only stays constant if both speed and direction stay the same. A and C change speed; B changes direction."
+    },
+    {
+      "id": "p5-velocity-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A swimmer swims 2 lengths of a 50 m pool in 80 s, finishing where she started. What is her average velocity?",
+      "options": [
+        "0 m/s",
+        "1.25 m/s",
+        "0.625 m/s",
+        "2.5 m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Her displacement is zero because she returns to her start, so her average velocity is zero. Her average speed is 100 ÷ 80 = 1.25 m/s."
+    },
+    {
+      "id": "p5-velocity-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A satellite orbits the Earth in a circle at a constant speed. Which statement is correct?",
+      "options": [
+        "Its velocity is constant because its speed is constant",
+        "It is not accelerating because its speed does not change",
+        "Its velocity is changing because its direction is changing",
+        "Its velocity is zero because it returns to the same point"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "In circular motion the direction of motion changes continuously, so the velocity changes even though the speed is constant. A changing velocity means the satellite is accelerating."
+    },
+    {
+      "id": "p5-velocity-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A car drives round a roundabout at a steady 8 m/s. It enters heading north and leaves heading east. Which describes the change in its motion?",
+      "options": [
+        "Speed changed, velocity unchanged",
+        "Speed unchanged, velocity changed",
+        "Speed and velocity both unchanged",
+        "Speed and velocity both changed"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "The speed stays at 8 m/s, but the direction changed from north to east, so the velocity changed."
+    },
+    {
+      "id": "p5-velocity-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A runner moves 200 m due east along a straight path in 40 s. Calculate the size of her velocity.",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: v = 200 ÷ 40",
+        "1 mark: 5.0 m/s (east)"
+      ],
+      "explanation": "v = s ÷ t = 200 ÷ 40 = 5.0 m/s. As a velocity, this is 5.0 m/s east."
+    },
+    {
+      "id": "p5-velocity-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car travels north at a constant velocity of 25 m/s for 2.0 minutes. Calculate its displacement in metres.",
+      "numericAnswer": 3000,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: t = 2.0 × 60 = 120 s",
+        "1 mark: s = 25 × 120",
+        "1 mark: 3000 m (north)"
+      ],
+      "explanation": "Convert minutes to seconds, then s = v t = 25 × 120 = 3000 m north."
+    },
+    {
+      "id": "p5-velocity-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lorry travels south at 72 km/h. Calculate the size of its velocity in m/s.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 72 × 1000 ÷ 3600",
+        "1 mark: 20 m/s (south)"
+      ],
+      "explanation": "72 km/h = 72 000 m ÷ 3600 s = 20 m/s, so the velocity is 20 m/s south."
+    },
+    {
+      "id": "p5-velocity-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A boat sails due west at a constant 4.0 m/s. Calculate how long it takes to reach a buoy 1.2 km due west of it.",
+      "numericAnswer": 300,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 1.2 km = 1200 m; t = 1200 ÷ 4.0",
+        "1 mark: 300 s"
+      ],
+      "explanation": "t = s ÷ v = 1200 ÷ 4.0 = 300 s (5 minutes)."
+    },
+    {
+      "id": "p5-velocity-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A dog runs 75 m north in 15 s, then 45 m south in 9 s. Calculate the size of the dog's average velocity for the whole 24 s.",
+      "numericAnswer": 1.25,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: displacement = 75 − 45 = 30 m north",
+        "1 mark: average velocity = 30 ÷ 24",
+        "1 mark: 1.25 m/s (north)"
+      ],
+      "explanation": "Average velocity uses displacement: 30 m north in 24 s gives 1.25 m/s north. Using the distance (120 m) gives the average speed, 5.0 m/s."
+    },
+    {
+      "id": "p5-velocity-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A dog runs 75 m north in 15 s, then 45 m south in 9 s. Calculate its average speed for the whole 24 s.",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: total distance = 75 + 45 = 120 m",
+        "1 mark: average speed = 120 ÷ 24 = 5.0 m/s"
+      ],
+      "explanation": "Average speed uses total distance: 120 ÷ 24 = 5.0 m/s, four times the size of the average velocity because the dog doubled back."
+    },
+    {
+      "id": "p5-velocity-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State whether velocity is a scalar or a vector quantity.",
+      "acceptedAnswers": [
+        "vector"
+      ],
+      "markScheme": [
+        "1 mark: vector"
+      ],
+      "explanation": "Velocity has both magnitude and direction."
+    },
+    {
+      "id": "p5-velocity-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain the difference between speed and velocity.",
+      "acceptedAnswers": [
+        "velocity has direction",
+        "speed is scalar",
+        "velocity is vector",
+        "velocity is speed in a given direction"
+      ],
+      "markScheme": [
+        "1 mark: speed is a scalar / has magnitude only",
+        "1 mark: velocity is a vector / is speed in a given direction"
+      ],
+      "explanation": "The single difference is direction: velocity includes it, speed does not."
+    },
+    {
+      "id": "p5-velocity-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give the unit of velocity.",
+      "acceptedAnswers": [
+        "m/s",
+        "metres per second"
+      ],
+      "markScheme": [
+        "1 mark: m/s"
+      ],
+      "explanation": "Velocity has the same unit as speed."
+    },
+    {
+      "id": "p5-velocity-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A ball is thrown straight up at 12 m/s and later falls back down past the same point at 12 m/s. Compare its velocity at these two moments.",
+      "acceptedAnswers": [
+        "same speed",
+        "opposite direction",
+        "12 m/s upwards",
+        "12 m/s downwards",
+        "velocity different"
+      ],
+      "markScheme": [
+        "1 mark: same speed / magnitude of 12 m/s",
+        "1 mark: velocity is different because the direction is opposite (12 m/s up compared with 12 m/s down)"
+      ],
+      "explanation": "The magnitudes are equal but the directions are opposite, so the velocities are different."
+    },
+    {
+      "id": "p5-velocity-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two ways in which the velocity of a cyclist can change.",
+      "acceptedAnswers": [
+        "speed changes",
+        "direction changes",
+        "speeds up",
+        "slows down",
+        "turns"
+      ],
+      "markScheme": [
+        "1 mark: change in speed (speeding up or slowing down)",
+        "1 mark: change in direction (turning)"
+      ],
+      "explanation": "Velocity has magnitude and direction, so changing either changes the velocity."
+    },
+    {
+      "id": "p5-velocity-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car's speedometer shows a constant reading of 30 mph while the car goes round a bend. State and explain whether the car's velocity is constant.",
+      "acceptedAnswers": [
+        "not constant",
+        "direction changing",
+        "velocity changes"
+      ],
+      "markScheme": [
+        "1 mark: the velocity is not constant / changes",
+        "1 mark: because the direction of motion changes (even though the speed is constant)"
+      ],
+      "explanation": "A speedometer shows speed only. Going round a bend changes the direction, so the velocity changes."
+    },
+    {
+      "id": "p5-velocity-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "(Higher) Explain, with an example, why an object can be accelerating even though its speed is constant.",
+      "acceptedAnswers": [
+        "circular motion",
+        "direction changes",
+        "velocity changes",
+        "acceleration is change in velocity",
+        "orbit",
+        "roundabout"
+      ],
+      "markScheme": [
+        "1 mark: example of circular motion at constant speed (for example satellite in orbit, car on a roundabout, ball on a string)",
+        "1 mark: its direction is continuously changing, so its velocity changes",
+        "1 mark: acceleration is a change in velocity (per second), so the object is accelerating"
+      ],
+      "explanation": "Velocity is a vector, so a change in direction alone is a change in velocity, and therefore an acceleration."
+    },
+    {
+      "id": "p5-velocity-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "(Higher) The Moon moves in a nearly circular orbit around the Earth at a nearly constant speed of about 1000 m/s. Describe the direction of the Moon's velocity at any instant.",
+      "acceptedAnswers": [
+        "along the tangent",
+        "at right angles to the radius",
+        "perpendicular to line to Earth",
+        "tangent to orbit"
+      ],
+      "markScheme": [
+        "1 mark: along the tangent to its orbit",
+        "1 mark: at right angles to the line joining it to the centre of the Earth (direction continually changing)"
+      ],
+      "explanation": "In circular motion the velocity points along the tangent, perpendicular to the radius, and so it changes direction all the time."
+    },
+    {
+      "id": "p5-velocity-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Using the examples of a car on a straight motorway and the same car on a roundabout, explain the difference between speed and velocity.",
+      "markScheme": [
+        "Indicative content:",
+        "Speed is a scalar: it has magnitude only",
+        "Velocity is a vector: speed in a given direction",
+        "On a straight motorway at a constant speed, the direction does not change, so velocity is constant",
+        "If the car speeds up or slows down on the motorway, both speed and velocity change",
+        "On a roundabout at constant speed, the direction changes, so the velocity changes but the speed does not",
+        "Level 2 (3 to 4 marks): clear definitions linked correctly to both examples",
+        "Level 1 (1 to 2 marks): a correct definition or one correct example",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "The motorway shows a case where speed and velocity behave alike; the roundabout shows that velocity can change while speed stays constant."
+    },
+    {
+      "id": "p5-velocity-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student walks 400 m east to a shop in 5 minutes, spends 2 minutes in the shop, then walks 400 m back home in 5 minutes.\nCompare her average speed and her average velocity for the whole trip. Use calculations in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "Total distance = 800 m",
+        "Total time = 12 minutes = 720 s (includes time in the shop)",
+        "Average speed = 800 ÷ 720 = 1.1 m/s",
+        "Displacement = 0 because she returns home",
+        "Average velocity = 0",
+        "Velocity uses displacement (vector); speed uses distance (scalar)",
+        "Level 2 (3 to 4 marks): correct calculations of both with a clear reason for the difference",
+        "Level 1 (1 to 2 marks): one correct value or a correct statement about displacement",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "Average speed = 800 ÷ 720 = 1.1 m/s, but the average velocity is zero because the displacement is zero."
+    },
+    {
+      "id": "p5-velocity-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "(Higher) A child sits on a roundabout in a playground that rotates at a constant rate.\nExplain how the child's speed, velocity and direction of motion change as the roundabout turns. Explain why the child is accelerating, and what this tells you about the force on the child.",
+      "markScheme": [
+        "Indicative content:",
+        "The child moves in a circle at a constant speed",
+        "At every instant the child's velocity is along the tangent to the circle",
+        "The direction of motion is continuously changing",
+        "Velocity is a vector, so a change in direction is a change in velocity",
+        "The magnitude of the velocity (the speed) stays the same",
+        "Acceleration is a change in velocity, so the child is accelerating even though the speed is constant",
+        "A changing velocity needs a resultant force (Newton's first law), which acts towards the centre of the circle, provided by the child gripping the roundabout",
+        "Level 3 (5 to 6 marks): detailed, coherent explanation covering constant speed, changing direction, changing velocity, acceleration and the need for a resultant force",
+        "Level 2 (3 to 4 marks): explains constant speed but changing velocity with some reference to acceleration or force",
+        "Level 1 (1 to 2 marks): simple relevant statements, for example the child goes round in a circle at constant speed",
+        "0 marks: no relevant content"
+      ],
+      "explanation": "This is the Higher-tier idea that circular motion at constant speed involves a changing velocity, linked to acceleration and to the need for a resultant force."
+    }
+  ]
+}

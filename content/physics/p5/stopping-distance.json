@@ -1,0 +1,737 @@
+{
+  "id": "p5-stopping-distance",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "stopping-distance",
+  "specRef": "4.5.6.3.1",
+  "title": "Stopping distance",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The stopping distance of a vehicle is the total distance it travels from the moment the driver sees a hazard until the vehicle stops: stopping distance = thinking distance + braking distance.",
+    "explanation": [
+      "When a driver sees a hazard, the vehicle does not stop instantly. First the driver has to react. During the driver's reaction time the vehicle keeps moving at the same speed. The distance travelled in this time is called the thinking distance. Once the brakes are applied, the vehicle decelerates. The distance travelled while the braking force acts is called the braking distance. The stopping distance is the sum of these two distances.",
+      "Thinking distance can be calculated using distance = speed × time, where the time is the driver's reaction time. Because the vehicle travels at a constant speed during the reaction time, thinking distance is directly proportional to speed for a given reaction time. If the speed doubles, the thinking distance doubles. Thinking distance also increases if the driver's reaction time increases, for example because of tiredness, alcohol, drugs or distractions such as a mobile phone.",
+      "Braking distance depends on the speed of the vehicle and on how quickly it can decelerate. For a given braking force, the greater the speed, the greater the braking distance. Braking distance increases much more steeply than thinking distance as speed rises. Braking distance is also increased by wet or icy roads, worn tyres, worn or poorly maintained brakes and a heavier load in the vehicle.",
+      "You should be able to estimate typical stopping distances. In the UK Highway Code, a car travelling at 30 mph (about 13 m/s) has a stopping distance of about 23 m (9 m thinking plus 14 m braking). At 70 mph (about 31 m/s) the stopping distance is about 96 m (21 m thinking plus 75 m braking), roughly the length of a football pitch or 24 car lengths. These figures assume an alert driver, a dry road and a car in good condition.",
+      "Exam questions often show graphs or tables of stopping distance against speed for different vehicles. The thinking distance line is straight and passes through the origin. The braking distance line is a curve that gets steeper as speed increases. A heavy lorry has a longer braking distance than a car at the same speed, because the same braking force gives a smaller deceleration for a larger mass. Always read values carefully from the axes and add the thinking and braking distances to find the stopping distance.",
+      "Speeds are often given in km/h or mph, but calculations use metres per second. To convert km/h to m/s, divide by 3.6 (because 1 km/h = 1000 m ÷ 3600 s). For example, 72 km/h = 72 ÷ 3.6 = 20 m/s."
+    ],
+    "keyFacts": [
+      "Stopping distance = thinking distance + braking distance.",
+      "Thinking distance is the distance travelled during the driver's reaction time.",
+      "Braking distance is the distance travelled while the braking force acts.",
+      "Thinking distance = speed × reaction time.",
+      "For a given braking force, the greater the speed, the greater the stopping distance.",
+      "Doubling the speed doubles the thinking distance but roughly quadruples the braking distance.",
+      "Typical stopping distance: about 23 m at 30 mph (13 m/s) and about 96 m at 70 mph (31 m/s).",
+      "Tiredness, alcohol, drugs and distractions increase thinking distance.",
+      "Wet or icy roads, worn tyres, worn brakes and a heavier load increase braking distance.",
+      "To convert km/h to m/s, divide by 3.6."
+    ],
+    "keyTerms": [
+      {
+        "term": "Stopping distance",
+        "definition": "The total distance travelled from seeing a hazard to the vehicle stopping; thinking distance plus braking distance."
+      },
+      {
+        "term": "Thinking distance",
+        "definition": "The distance a vehicle travels during the driver's reaction time, before the brakes are applied."
+      },
+      {
+        "term": "Braking distance",
+        "definition": "The distance a vehicle travels under the braking force, from applying the brakes until it stops."
+      },
+      {
+        "term": "Reaction time",
+        "definition": "The time between a driver seeing a hazard and starting to apply the brakes."
+      },
+      {
+        "term": "Braking force",
+        "definition": "The force that decelerates a vehicle when the brakes are applied, provided by friction."
+      },
+      {
+        "term": "Deceleration",
+        "definition": "A negative acceleration: the rate at which an object slows down."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Stopping distance",
+        "formula": "stopping distance = thinking distance + braking distance",
+        "symbols": "",
+        "units": "all distances in metres, m",
+        "recall": true
+      },
+      {
+        "name": "Distance travelled at constant speed (thinking distance)",
+        "formula": "distance travelled = speed × time",
+        "symbols": "s = v t",
+        "units": "s in m, v in m/s, t in s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting km/h and finding thinking distance",
+        "question": "A car travels at 90 km/h. The driver's reaction time is 0.6 s. Calculate the thinking distance.",
+        "steps": [
+          "Convert the speed to m/s: 90 ÷ 3.6 = 25 m/s.",
+          "Thinking distance = speed × reaction time.",
+          "Thinking distance = 25 × 0.6 = 15 m."
+        ],
+        "answer": "15 m"
+      },
+      {
+        "title": "Adding the two parts",
+        "question": "The car in the previous example has a braking distance of 48 m at 25 m/s. Calculate its stopping distance.",
+        "steps": [
+          "Stopping distance = thinking distance + braking distance.",
+          "Stopping distance = 15 + 48 = 63 m."
+        ],
+        "answer": "63 m"
+      },
+      {
+        "title": "Effect of doubling the speed",
+        "question": "At 15 m/s a car has a thinking distance of 9 m and a braking distance of 18 m. Estimate its stopping distance at 30 m/s, with the same driver and braking force.",
+        "steps": [
+          "Speed doubles, so thinking distance doubles: 2 × 9 = 18 m.",
+          "Braking distance depends on speed squared, so it increases by 2² = 4 times: 4 × 18 = 72 m.",
+          "Stopping distance = 18 + 72 = 90 m."
+        ],
+        "answer": "90 m (more than three times the stopping distance at 15 m/s, which was 27 m)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Typical stopping distances",
+        "caption": "Typical car stopping distances for an alert driver on a dry road (Highway Code values). Braking distance grows much faster than thinking distance as speed increases.",
+        "svg": "<svg viewBox='0 0 460 270' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='45' width='33.75' height='24' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='93.75' y='45' width='52.5' height='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='60' y='39' font-size='12' fill='currentColor'>30 mph (13 m/s): 9 m + 14 m = 23 m</text><rect x='60' y='105' width='56.25' height='24' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='116.25' y='105' width='142.5' height='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='60' y='99' font-size='12' fill='currentColor'>50 mph (22 m/s): 15 m + 38 m = 53 m</text><rect x='60' y='165' width='78.75' height='24' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='138.75' y='165' width='281.25' height='24' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='60' y='159' font-size='12' fill='currentColor'>70 mph (31 m/s): 21 m + 75 m = 96 m</text><rect x='60' y='225' width='16' height='12' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='82' y='235' font-size='12' fill='currentColor'>thinking distance</text><rect x='220' y='225' width='16' height='12' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='242' y='235' font-size='12' fill='currentColor'>braking distance</text><text x='60' y='260' font-size='12' fill='currentColor'>Stopping distance = thinking distance + braking distance</text></svg>"
+      },
+      {
+        "title": "Stopping distance against speed",
+        "caption": "Thinking distance (dashed) is a straight line through the origin. Braking distance is a curve that gets steeper. Stopping distance (thick line) is the sum of the two. Plotted for a reaction time of 0.7 s.",
+        "svg": "<svg viewBox='0 0 460 280' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none'><line x1='60' y1='230' x2='430' y2='230'/><line x1='60' y1='230' x2='60' y2='20'/></g><g stroke='currentColor' fill='none' stroke-width='2'><polyline points='60.0,230.0 84.0,227.2 108.0,224.4 132.0,221.6 156.0,218.8 180.0,216.0 204.0,213.2 228.0,210.4 252.0,207.6 276.0,204.8 300.0,202.0 324.0,199.2 348.0,196.4 372.0,193.6 396.0,190.8 420.0,188.0' stroke-dasharray='6 4'/><polyline points='60.0,230.0 84.0,229.4 108.0,227.5 132.0,224.4 156.0,220.0 180.0,214.4 204.0,207.5 228.0,199.4 252.0,190.0 276.0,179.4 300.0,167.5 324.0,154.4 348.0,140.0 372.0,124.4 396.0,107.5 420.0,89.4'/><polyline points='60.0,230.0 84.0,226.6 108.0,221.9 132.0,216.0 156.0,208.8 180.0,200.4 204.0,190.7 228.0,179.8 252.0,167.6 276.0,154.2 300.0,139.5 324.0,123.6 348.0,106.4 372.0,88.0 396.0,68.3 420.0,47.4' stroke-width='3'/></g><g font-size='12' fill='currentColor'><text x='60' y='246' text-anchor='middle'>0</text><text x='180' y='246' text-anchor='middle'>10</text><text x='300' y='246' text-anchor='middle'>20</text><text x='420' y='246' text-anchor='middle'>30</text><text x='54' y='234' text-anchor='end'>0</text><text x='54' y='134' text-anchor='end'>50</text><text x='54' y='34' text-anchor='end'>100</text><text x='240' y='268' text-anchor='middle'>speed in m/s</text><text x='16' y='130' transform='rotate(-90 16 130)' text-anchor='middle'>distance in m</text><text x='345' y='40'>stopping distance</text><text x='400' y='135'>braking</text><text x='400' y='149'>distance</text><text x='330' y='182'>thinking distance</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the car starts slowing down as soon as the driver sees the hazard.",
+        "right": "In fact the car travels at a constant speed during the reaction time; it only slows down once the brakes are applied."
+      },
+      {
+        "wrong": "Students often think that doubling the speed doubles the stopping distance.",
+        "right": "In fact thinking distance doubles but braking distance increases about four times, so the stopping distance more than doubles."
+      },
+      {
+        "wrong": "Students often think tiredness or alcohol increases braking distance.",
+        "right": "In fact these affect the driver's reaction time, so they increase thinking distance. Braking distance depends on the vehicle, road and speed."
+      },
+      {
+        "wrong": "Students often think icy roads increase thinking distance.",
+        "right": "In fact icy roads reduce friction between the tyres and the road, which increases braking distance only."
+      }
+    ],
+    "realWorld": [
+      "The Highway Code uses typical stopping distances to recommend safe following distances, such as the two-second rule.",
+      "Lower speed limits (for example 20 mph) near schools greatly reduce stopping distances and the risk of injury.",
+      "Road safety campaigns warn about phone use while driving because distraction increases thinking distance.",
+      "Lorries and buses are given lower speed limits on some roads partly because their braking distances are longer."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Explaining why braking distance increases with the square of speed: for a constant braking force F, the work done F × d must equal the kinetic energy ½mv², so d is proportional to v².",
+      "Using this relationship to estimate braking distances at new speeds, for example tripling the speed makes the braking distance nine times larger."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always say which part of stopping distance a factor affects: driver factors affect thinking distance, vehicle and road factors affect braking distance, speed affects both.",
+      "Convert km/h to m/s by dividing by 3.6 before multiplying by reaction time.",
+      "When reading graphs, find the thinking and braking distances at the same speed and add them.",
+      "Avoid vague answers like 'the road is bad'. Say 'wet or icy road reduces friction, so braking distance increases'.",
+      "If a question asks whether a car can stop in time, calculate the stopping distance and compare it with the distance to the hazard, then state a clear conclusion."
+    ],
+    "summary": [
+      "Stopping distance = thinking distance + braking distance.",
+      "Thinking distance = speed × reaction time, so it is proportional to speed.",
+      "Braking distance increases steeply with speed (about four times when speed doubles).",
+      "Driver factors increase thinking distance; road and vehicle factors increase braking distance.",
+      "Typical car stopping distance is about 23 m at 30 mph and 96 m at 70 mph.",
+      "Convert km/h to m/s by dividing by 3.6."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is stopping distance?",
+      "back": "Thinking distance + braking distance."
+    },
+    {
+      "front": "Define thinking distance.",
+      "back": "The distance travelled during the driver's reaction time."
+    },
+    {
+      "front": "Define braking distance.",
+      "back": "The distance travelled under the braking force until the vehicle stops."
+    },
+    {
+      "front": "How do you calculate thinking distance?",
+      "back": "Speed (m/s) × reaction time (s)."
+    },
+    {
+      "front": "What happens to thinking distance if speed doubles?",
+      "back": "It doubles (it is proportional to speed)."
+    },
+    {
+      "front": "What happens to braking distance if speed doubles?",
+      "back": "It increases about four times."
+    },
+    {
+      "front": "Name two factors that increase thinking distance.",
+      "back": "Any two: tiredness, alcohol, drugs, distractions (such as a phone)."
+    },
+    {
+      "front": "Name two factors that increase braking distance.",
+      "back": "Any two: wet or icy road, worn tyres, worn brakes, heavier load, higher speed."
+    },
+    {
+      "front": "Which factor affects both thinking and braking distance?",
+      "back": "Speed."
+    },
+    {
+      "front": "Typical stopping distance at 30 mph (13 m/s)?",
+      "back": "About 23 m (9 m thinking + 14 m braking)."
+    },
+    {
+      "front": "Typical stopping distance at 70 mph (31 m/s)?",
+      "back": "About 96 m (21 m thinking + 75 m braking)."
+    },
+    {
+      "front": "How do you convert km/h to m/s?",
+      "back": "Divide by 3.6."
+    },
+    {
+      "front": "Shape of a thinking distance against speed graph?",
+      "back": "A straight line through the origin."
+    },
+    {
+      "front": "Shape of a braking distance against speed graph?",
+      "back": "A curve that gets steeper as speed increases."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-stopping-distance-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation gives the stopping distance of a vehicle?",
+      "options": [
+        "stopping distance = thinking distance − braking distance",
+        "stopping distance = thinking distance + braking distance",
+        "stopping distance = thinking distance × braking distance",
+        "stopping distance = braking distance ÷ thinking distance"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: stopping distance = thinking distance + braking distance"
+      ],
+      "explanation": "The vehicle travels the thinking distance first, then the braking distance, so the two distances are added."
+    },
+    {
+      "id": "p5-stopping-distance-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by thinking distance?",
+      "options": [
+        "The distance travelled while the brakes are applied",
+        "The distance between the car and the hazard",
+        "The total distance needed to stop the car",
+        "The distance travelled during the driver's reaction time"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The distance travelled during the driver's reaction time"
+      ],
+      "explanation": "Thinking distance is covered between seeing the hazard and applying the brakes. The distance while braking is the braking distance; the total is the stopping distance."
+    },
+    {
+      "id": "p5-stopping-distance-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by braking distance?",
+      "options": [
+        "The distance travelled under the braking force until the vehicle stops",
+        "The distance travelled during the driver's reaction time",
+        "The distance from the driver to the brake pedal",
+        "The distance travelled before the driver sees the hazard"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The distance travelled under the braking force until the vehicle stops"
+      ],
+      "explanation": "Braking distance starts when the brakes are applied and ends when the vehicle stops."
+    },
+    {
+      "id": "p5-stopping-distance-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which factor increases the thinking distance but does not affect the braking distance?",
+      "options": [
+        "The driver being tired",
+        "An icy road surface",
+        "Worn tyres",
+        "Worn brake pads"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The driver being tired"
+      ],
+      "explanation": "Tiredness increases reaction time, so the car travels further before braking. Ice, worn tyres and worn brakes reduce the braking force or grip, which affects braking distance."
+    },
+    {
+      "id": "p5-stopping-distance-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which factor increases the braking distance but does not affect the thinking distance?",
+      "options": [
+        "The driver using a mobile phone",
+        "The driver having drunk alcohol",
+        "A wet road surface",
+        "The driver being distracted by passengers"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A wet road surface"
+      ],
+      "explanation": "A wet road reduces friction between the tyres and the road, so the car takes further to stop once braking. The other three are driver factors that increase reaction time."
+    },
+    {
+      "id": "p5-stopping-distance-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which factor increases both the thinking distance and the braking distance?",
+      "options": [
+        "Tiredness of the driver",
+        "A higher speed",
+        "An icy road",
+        "Worn tyres"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A higher speed"
+      ],
+      "explanation": "At a higher speed the car covers more distance during the reaction time and has more kinetic energy to remove while braking, so both distances increase."
+    },
+    {
+      "id": "p5-stopping-distance-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A driver's reaction time stays the same. The speed of the car doubles. What happens to the thinking distance?",
+      "options": [
+        "It stays the same.",
+        "It halves.",
+        "It increases four times.",
+        "It doubles."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It doubles."
+      ],
+      "explanation": "Thinking distance = speed × reaction time. With the same reaction time, doubling the speed doubles the distance. The fourfold increase applies to braking distance."
+    },
+    {
+      "id": "p5-stopping-distance-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The braking force on a car stays the same. The speed of the car doubles. What happens to the braking distance?",
+      "options": [
+        "It stays the same.",
+        "It doubles.",
+        "It increases four times.",
+        "It halves."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It increases four times."
+      ],
+      "explanation": "Work done by braking (F × d) equals the kinetic energy ½mv². Doubling v makes the kinetic energy 2² = 4 times bigger, so with the same force the braking distance is 4 times bigger."
+    },
+    {
+      "id": "p5-stopping-distance-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is the best estimate of the stopping distance of a car travelling at 70 mph (about 31 m/s) on a dry road?",
+      "options": [
+        "10 m",
+        "30 m",
+        "100 m",
+        "300 m"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 100 m"
+      ],
+      "explanation": "The Highway Code gives about 96 m at 70 mph (21 m thinking plus 75 m braking). 30 m is closer to the stopping distance at 30 mph."
+    },
+    {
+      "id": "p5-stopping-distance-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student plots braking distance (y-axis) against speed (x-axis) for a car. Which description of the graph is correct?",
+      "options": [
+        "A straight line through the origin",
+        "A curve through the origin that gets steeper as speed increases",
+        "A horizontal straight line",
+        "A curve that gets less steep as speed increases"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A curve through the origin that gets steeper as speed increases"
+      ],
+      "explanation": "Braking distance is proportional to speed squared, so the graph curves upwards. A straight line through the origin describes thinking distance."
+    },
+    {
+      "id": "p5-stopping-distance-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A car has a thinking distance of 9 m and a braking distance of 14 m.\nCalculate the stopping distance.",
+      "numericAnswer": 23,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 23 m"
+      ],
+      "explanation": "Stopping distance = 9 + 14 = 23 m."
+    },
+    {
+      "id": "p5-stopping-distance-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A car has a stopping distance of 53 m. Its thinking distance is 15 m.\nCalculate the braking distance.",
+      "numericAnswer": 38,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 38 m"
+      ],
+      "explanation": "Braking distance = stopping distance − thinking distance = 53 − 15 = 38 m."
+    },
+    {
+      "id": "p5-stopping-distance-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car travels at 20 m/s. The driver's reaction time is 0.7 s.\nCalculate the thinking distance.",
+      "numericAnswer": 14,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: thinking distance = 20 × 0.7",
+        "1 mark: 14 m"
+      ],
+      "explanation": "During the reaction time the car moves at constant speed, so distance = speed × time = 20 × 0.7 = 14 m."
+    },
+    {
+      "id": "p5-stopping-distance-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car travels at 72 km/h. The driver's reaction time is 0.5 s and the braking distance is 30 m.\nCalculate the stopping distance.",
+      "numericAnswer": 40,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 72 ÷ 3.6 = 20 m/s",
+        "1 mark: thinking distance = 20 × 0.5 = 10 m",
+        "1 mark: stopping distance = 10 + 30 = 40 m"
+      ],
+      "explanation": "Convert to m/s first: 72 ÷ 3.6 = 20 m/s. Thinking distance = 20 × 0.5 = 10 m. Stopping distance = 10 + 30 = 40 m. Using 72 directly gives 36 m of thinking distance, which is wrong."
+    },
+    {
+      "id": "p5-stopping-distance-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A car travels at 108 km/h on a motorway. Calculate this speed in m/s.",
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 108 ÷ 3.6 = 30 m/s"
+      ],
+      "explanation": "1 km/h = 1000 m ÷ 3600 s, so divide by 3.6: 108 ÷ 3.6 = 30 m/s."
+    },
+    {
+      "id": "p5-stopping-distance-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "At 15 m/s a car has a thinking distance of 9 m and a braking distance of 18 m.\nEstimate the stopping distance of the car at 30 m/s, assuming the driver's reaction time and the braking force do not change.",
+      "numericAnswer": 90,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: thinking distance doubles to 18 m",
+        "1 mark: braking distance increases four times to 72 m",
+        "1 mark: stopping distance = 90 m"
+      ],
+      "explanation": "Thinking distance is proportional to speed (2 × 9 = 18 m). Braking distance is proportional to speed squared (4 × 18 = 72 m). Total = 18 + 72 = 90 m. Simply doubling 27 m gives 54 m, which underestimates it."
+    },
+    {
+      "id": "p5-stopping-distance-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car travels at 90 km/h. The driver's reaction time is 0.75 s. The braking distance is 48 m.\nCalculate the stopping distance.",
+      "numericAnswer": 66.75,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: 90 ÷ 3.6 = 25 m/s",
+        "1 mark: thinking distance = 25 × 0.75 = 18.75 m",
+        "1 mark: stopping distance = 18.75 + 48 = 66.75 m (accept 67 m)"
+      ],
+      "explanation": "25 m/s × 0.75 s = 18.75 m of thinking distance. Adding the braking distance gives 66.75 m, about 67 m."
+    },
+    {
+      "id": "p5-stopping-distance-q18",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car travels at 15 m/s. The driver's thinking distance is 12 m.\nCalculate the driver's reaction time.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: reaction time = thinking distance ÷ speed = 12 ÷ 15",
+        "1 mark: 0.8 s"
+      ],
+      "explanation": "Rearrange distance = speed × time: time = 12 ÷ 15 = 0.8 s, which is within the typical range of 0.2 s to 0.9 s."
+    },
+    {
+      "id": "p5-stopping-distance-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links braking distance, stopping distance and thinking distance.",
+      "acceptedAnswers": [
+        "stopping distance = thinking distance + braking distance"
+      ],
+      "markScheme": [
+        "1 mark: stopping distance = thinking distance + braking distance"
+      ],
+      "explanation": "Any correct rearrangement is accepted, such as braking distance = stopping distance − thinking distance."
+    },
+    {
+      "id": "p5-stopping-distance-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two factors that could increase a driver's thinking distance.",
+      "acceptedAnswers": [
+        "tiredness",
+        "alcohol",
+        "drugs",
+        "distraction",
+        "mobile phone",
+        "greater speed"
+      ],
+      "markScheme": [
+        "1 mark each, any two: tiredness; alcohol; drugs (including some medicines); distractions such as using a phone; higher speed"
+      ],
+      "explanation": "Driver factors increase reaction time. Speed also increases thinking distance because the car covers more distance in the same reaction time."
+    },
+    {
+      "id": "p5-stopping-distance-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two factors, other than speed, that could increase the braking distance of a car.",
+      "acceptedAnswers": [
+        "wet road",
+        "icy road",
+        "worn tyres",
+        "worn brakes",
+        "heavier load",
+        "greater mass"
+      ],
+      "markScheme": [
+        "1 mark each, any two: wet or icy road; worn tyres (bald tread); worn or poorly maintained brakes; heavier load or greater mass of the car"
+      ],
+      "explanation": "These reduce the friction (grip) or the braking force, or increase the mass, so the car decelerates less and travels further while braking."
+    },
+    {
+      "id": "p5-stopping-distance-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the stopping distance of a car increases when its speed increases.",
+      "acceptedAnswers": [
+        "thinking distance increases",
+        "more distance in reaction time",
+        "braking distance increases",
+        "more kinetic energy"
+      ],
+      "markScheme": [
+        "1 mark: the car travels further during the reaction time, so thinking distance increases",
+        "1 mark: braking distance increases (more kinetic energy to transfer, or a greater speed to lose with the same braking force)"
+      ],
+      "explanation": "Speed affects both parts of stopping distance. Mentioning only one part scores only one mark."
+    },
+    {
+      "id": "p5-stopping-distance-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car and a fully loaded lorry travel at the same speed. The same braking force acts on each.\nExplain why the lorry has a longer braking distance.",
+      "acceptedAnswers": [
+        "greater mass",
+        "smaller deceleration",
+        "a = F ÷ m",
+        "more kinetic energy"
+      ],
+      "markScheme": [
+        "1 mark: the lorry has a greater mass",
+        "1 mark: so the same force gives a smaller deceleration (or it has more kinetic energy to transfer), so it travels further before stopping"
+      ],
+      "explanation": "From Newton's Second Law, a = F ÷ m. A larger mass with the same braking force decelerates less, so the braking distance is longer."
+    },
+    {
+      "id": "p5-stopping-distance-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why braking distance increases much more than thinking distance when the speed of a car increases.",
+      "acceptedAnswers": [
+        "thinking distance proportional to speed",
+        "reaction time constant",
+        "kinetic energy",
+        "speed squared",
+        "work done = force × distance"
+      ],
+      "markScheme": [
+        "1 mark: thinking distance = speed × reaction time, so it is directly proportional to speed",
+        "1 mark: kinetic energy = ½mv², which increases with speed squared",
+        "1 mark: braking force × braking distance = kinetic energy, so for a constant braking force braking distance is proportional to speed squared"
+      ],
+      "explanation": "Doubling the speed doubles the thinking distance but quadruples the kinetic energy, so the braking distance increases four times."
+    },
+    {
+      "id": "p5-stopping-distance-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why the speed limit outside many schools is 20 mph rather than 30 mph.",
+      "acceptedAnswers": [
+        "shorter stopping distance",
+        "children may run into the road",
+        "less likely to hit",
+        "lower speed"
+      ],
+      "markScheme": [
+        "1 mark: a lower speed gives a shorter stopping distance (both thinking and braking distances are shorter)",
+        "1 mark: so a driver is more likely to stop in time if a child steps into the road (or any collision is at a lower speed, causing less injury)"
+      ],
+      "explanation": "At 20 mph the typical stopping distance is about 12 m, compared with about 23 m at 30 mph."
+    },
+    {
+      "id": "p5-stopping-distance-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car travels at 25 m/s. The driver sees a fallen tree 50 m ahead. The driver's reaction time is 0.8 s and the braking distance is 40 m.\nDetermine whether the car stops before reaching the tree. Show your working.",
+      "acceptedAnswers": [
+        "thinking distance 20 m",
+        "stopping distance 60 m",
+        "does not stop in time",
+        "hits the tree"
+      ],
+      "markScheme": [
+        "1 mark: thinking distance = 25 × 0.8 = 20 m",
+        "1 mark: stopping distance = 20 + 40 = 60 m",
+        "1 mark: 60 m is greater than 50 m, so the car does not stop in time (it hits the tree)"
+      ],
+      "explanation": "Always compare the total stopping distance with the distance to the hazard and give a clear conclusion."
+    },
+    {
+      "id": "p5-stopping-distance-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe the factors that affect the stopping distance of a car. For each factor, explain whether it affects the thinking distance, the braking distance or both.",
+      "markScheme": [
+        "Indicative content: stopping distance = thinking distance + braking distance; speed affects both (further travelled in reaction time; more kinetic energy so longer braking); tiredness, alcohol, drugs and distractions (phone, passengers) increase reaction time and so thinking distance; wet or icy roads reduce friction between tyres and road, so increase braking distance; worn tyres reduce grip, increasing braking distance; worn or faulty brakes reduce braking force, increasing braking distance; heavier load (greater mass) gives smaller deceleration, increasing braking distance.",
+        "Level 3 (5 to 6 marks): several driver, road and vehicle factors described, each correctly linked to thinking or braking distance with a reason, plus speed affecting both.",
+        "Level 2 (3 to 4 marks): some factors correctly linked to thinking or braking distance, with limited reasons.",
+        "Level 1 (1 to 2 marks): one or two factors named with little or no correct link to thinking or braking distance."
+      ],
+      "explanation": "Group the factors: driver (thinking distance), road and vehicle (braking distance) and speed (both)."
+    },
+    {
+      "id": "p5-stopping-distance-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "The table shows thinking and braking distances for a car.\nSpeed 10 m/s: thinking distance 7 m, braking distance 8 m\nSpeed 20 m/s: thinking distance 14 m, braking distance 32 m\nSpeed 30 m/s: thinking distance 21 m, braking distance 72 m\nDescribe and explain the patterns shown in the data.",
+      "markScheme": [
+        "Indicative content: thinking distance is directly proportional to speed (doubles from 7 m to 14 m when speed doubles; triples to 21 m); this is because the reaction time is constant (0.7 s) and thinking distance = speed × reaction time; braking distance increases four times when speed doubles (8 m to 32 m) and nine times when speed triples (72 m); braking distance is proportional to speed squared because kinetic energy = ½mv² and braking force × distance = kinetic energy; so braking distance becomes the larger part of stopping distance at high speed.",
+        "Level 2 (3 to 4 marks): both patterns described using the data and explained (constant reaction time; kinetic energy depends on v²).",
+        "Level 1 (1 to 2 marks): states that both distances increase with speed, or describes one pattern only."
+      ],
+      "explanation": "Use numbers from the table to support each pattern: 7 → 14 → 21 is proportional; 8 → 32 → 72 is ×4 and ×9."
+    },
+    {
+      "id": "p5-stopping-distance-q29",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A driver has been driving for many hours at night. It starts to rain heavily.\nExplain how these conditions affect the stopping distance of the car and suggest what the driver should do to drive safely.",
+      "markScheme": [
+        "Indicative content: tiredness increases the driver's reaction time, so thinking distance increases; a wet road reduces friction between tyres and road, so braking distance increases; darkness and heavy rain may make hazards harder to see, so the driver reacts later; overall stopping distance increases; the driver should slow down (reducing both thinking and braking distance), leave a larger gap to the car in front, and take a rest break.",
+        "Level 2 (3 to 4 marks): explains effect of tiredness on thinking distance and rain on braking distance, with a sensible suggestion linked to stopping distance.",
+        "Level 1 (1 to 2 marks): states that stopping distance increases, with limited explanation."
+      ],
+      "explanation": "Link each condition to the correct part of stopping distance, then suggest an action that reduces stopping distance or increases the gap."
+    }
+  ]
+}

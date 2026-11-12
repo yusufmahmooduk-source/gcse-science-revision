@@ -1,0 +1,747 @@
+{
+  "id": "p5-gravity",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "gravity",
+  "specRef": "4.5.1.3",
+  "title": "Gravity",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Weight is the force acting on an object due to gravity. It depends on the object's mass and the gravitational field strength where the object is: weight = mass × gravitational field strength (W = mg).",
+    "explanation": [
+      "Every object with mass is surrounded by a gravitational field. The Earth has a strong gravitational field, and the force of gravity on an object close to the Earth is caused by this field. The force that the Earth's gravity exerts on an object is called its weight. Weight is a force, so it is measured in newtons (N) and it is a vector: it always points towards the centre of the Earth, which we usually call 'downwards'.",
+      "Mass and weight are different. Mass is the amount of matter in an object, measured in kilograms (kg); it is a scalar and it is the same wherever the object is. Weight depends on the gravitational field strength, g, at the point where the object is. Near the Earth's surface g = 9.8 N/kg, meaning each kilogram of mass has a weight of 9.8 N. On the Moon g is about 1.6 N/kg, so the same object weighs much less on the Moon even though its mass is unchanged.",
+      "Weight is calculated with W = m g, where W is weight in newtons, m is mass in kilograms and g is gravitational field strength in newtons per kilogram. You must learn this equation. It can be rearranged to m = W ÷ g or g = W ÷ m. Masses are often given in grams, so divide by 1000 to convert to kilograms before you substitute: 250 g = 0.25 kg.",
+      "Because g is constant at a particular place, weight is directly proportional to mass (W ∝ m). Doubling the mass doubles the weight. A graph of weight against mass is a straight line through the origin, and its gradient is equal to g.",
+      "Although gravity pulls on every part of an object, we can treat the whole weight as acting at a single point called the centre of mass. On force diagrams, the weight arrow is drawn starting from the centre of mass and pointing downwards. Weight is measured using a calibrated spring balance, called a newtonmeter: the spring stretches more when a heavier object hangs from it, and the scale is marked in newtons."
+    ],
+    "keyFacts": [
+      "Weight is the force acting on an object due to gravity.",
+      "The force of gravity near the Earth is due to the Earth's gravitational field.",
+      "Weight (N) = mass (kg) × gravitational field strength (N/kg): W = mg.",
+      "On Earth, g = 9.8 N/kg.",
+      "Weight depends on the gravitational field strength where the object is; mass does not change.",
+      "Weight is directly proportional to mass (W ∝ m).",
+      "Weight acts at a single point called the centre of mass.",
+      "Weight is measured with a calibrated spring balance (newtonmeter).",
+      "Convert grams to kilograms (÷ 1000) before using W = mg."
+    ],
+    "keyTerms": [
+      {
+        "term": "Weight",
+        "definition": "The force acting on an object due to gravity, measured in newtons (N)."
+      },
+      {
+        "term": "Mass",
+        "definition": "The amount of matter in an object, measured in kilograms (kg); it does not depend on location."
+      },
+      {
+        "term": "Gravitational field strength (g)",
+        "definition": "The force of gravity on each kilogram of mass, measured in N/kg (9.8 N/kg on Earth)."
+      },
+      {
+        "term": "Gravitational field",
+        "definition": "The region around a mass in which another mass experiences a force."
+      },
+      {
+        "term": "Centre of mass",
+        "definition": "The single point at which the weight of an object can be considered to act."
+      },
+      {
+        "term": "Newtonmeter",
+        "definition": "A calibrated spring balance used to measure force, including weight, in newtons."
+      },
+      {
+        "term": "Directly proportional",
+        "definition": "Two quantities are directly proportional if doubling one doubles the other; the graph is a straight line through the origin."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Weight",
+        "formula": "weight = mass × gravitational field strength",
+        "symbols": "W = m g",
+        "units": "W in newtons (N), m in kilograms (kg), g in newtons per kilogram (N/kg)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating weight",
+        "question": "Calculate the weight of a 5.0 kg bag of potatoes on Earth. (g = 9.8 N/kg)",
+        "steps": [
+          "Write the equation: W = m g.",
+          "Substitute: W = 5.0 × 9.8.",
+          "W = 49 N."
+        ],
+        "answer": "49 N"
+      },
+      {
+        "title": "Converting grams to kilograms",
+        "question": "A smartphone has a mass of 180 g. Calculate its weight on Earth. (g = 9.8 N/kg)",
+        "steps": [
+          "Convert the mass to kg: 180 g ÷ 1000 = 0.18 kg.",
+          "W = m g = 0.18 × 9.8.",
+          "W = 1.764 N, which is 1.8 N to 2 significant figures."
+        ],
+        "answer": "1.8 N (1.764 N)"
+      },
+      {
+        "title": "Rearranging to find mass",
+        "question": "A student has a weight of 539 N on Earth. Calculate the student's mass. (g = 9.8 N/kg)",
+        "steps": [
+          "Rearrange W = m g to give m = W ÷ g.",
+          "m = 539 ÷ 9.8.",
+          "m = 55 kg."
+        ],
+        "answer": "55 kg"
+      },
+      {
+        "title": "Comparing weight on the Moon",
+        "question": "An astronaut has a mass of 80 kg. Calculate her weight on the Moon, where g = 1.6 N/kg, and state her mass on the Moon.",
+        "steps": [
+          "W = m g = 80 × 1.6 = 128 N.",
+          "Mass is the amount of matter, so it does not change: still 80 kg."
+        ],
+        "answer": "Weight = 128 N; mass = 80 kg"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "The Earth's gravitational field and weight",
+        "caption": "Field lines point towards the centre of the Earth. The weight of an object acts from its centre of mass, towards the centre of the Earth.",
+        "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg'><circle cx='200' cy='140' r='70' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-opacity='0.6'><line x1='200' y1='20' x2='200' y2='62'/><line x1='320' y1='140' x2='278' y2='140'/><line x1='80' y1='140' x2='122' y2='140'/><line x1='200' y1='255' x2='200' y2='218'/><line x1='285' y1='55' x2='255' y2='85'/><line x1='115' y1='55' x2='145' y2='85'/><line x1='285' y1='225' x2='255' y2='195'/><line x1='115' y1='225' x2='145' y2='195'/></g><g fill='currentColor' fill-opacity='0.6'><path d='M200 70 L195 60 L205 60 Z'/><path d='M270 140 L280 135 L280 145 Z'/><path d='M130 140 L120 135 L120 145 Z'/><path d='M200 210 L195 220 L205 220 Z'/><path d='M250 90 L252 79 L261 88 Z'/><path d='M150 90 L139 88 L148 79 Z'/><path d='M250 190 L261 192 L252 201 Z'/><path d='M150 190 L148 201 L139 192 Z'/></g><rect x='340' y='125' width='30' height='30' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='355' cy='140' r='3' fill='currentColor'/><line x1='355' y1='140' x2='335' y2='140' stroke='currentColor' stroke-width='3'/><path d='M326 140 L337 134 L337 146 Z' fill='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='200' y='145'>Earth</text><text x='355' y='118'>object</text><text x='335' y='60'>weight acts from</text><text x='335' y='75'>centre of mass,</text><text x='335' y='90'>towards Earth's centre</text><text x='70' y='30'>field lines point</text><text x='70' y='45'>towards the centre</text></g></svg>"
+      },
+      {
+        "title": "Measuring weight with a newtonmeter",
+        "caption": "A newtonmeter is a calibrated spring balance. A larger weight stretches the spring further, moving the pointer down the scale marked in newtons.",
+        "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg'><line x1='120' y1='10' x2='120' y2='30' stroke='currentColor' stroke-width='2'/><rect x='100' y='30' width='40' height='140' rx='6' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><polyline points='120,40 110,48 130,56 110,64 130,72 110,80 130,88 110,96 130,104 120,110' fill='none' stroke='currentColor'/><line x1='120' y1='110' x2='120' y2='185' stroke='currentColor' stroke-width='2'/><line x1='104' y1='110' x2='136' y2='110' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><line x1='140' y1='50' x2='148' y2='50'/><line x1='140' y1='70' x2='148' y2='70'/><line x1='140' y1='90' x2='148' y2='90'/><line x1='140' y1='110' x2='148' y2='110'/><line x1='140' y1='130' x2='148' y2='130'/><line x1='140' y1='150' x2='148' y2='150'/></g><rect x='95' y='185' width='50' height='40' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='152' y='54'>0 N</text><text x='152' y='74'>1 N</text><text x='152' y='94'>2 N</text><text x='152' y='114'>3 N</text><text x='152' y='134'>4 N</text><text x='152' y='154'>5 N</text><text x='105' y='210'>mass</text><text x='200' y='70'>spring stretches more</text><text x='200' y='85'>for a larger weight</text><text x='200' y='115'>pointer reads 3 N</text><text x='200' y='205'>hanging mass about 0.3 kg</text><text x='200' y='220'>(W = 0.3 × 9.8 = 2.94 N, about 3 N)</text></g><line x1='196' y1='111' x2='140' y2='111' stroke='currentColor' stroke-dasharray='4 3'/></svg>"
+      },
+      {
+        "title": "Weight is directly proportional to mass",
+        "caption": "A graph of weight against mass on Earth is a straight line through the origin. The gradient (weight ÷ mass) equals g, 9.8 N/kg.",
+        "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><line x1='60' y1='210' x2='370' y2='210'/><line x1='60' y1='210' x2='60' y2='20'/></g><g stroke='currentColor' stroke-opacity='0.3'><line x1='120' y1='210' x2='120' y2='30'/><line x1='180' y1='210' x2='180' y2='30'/><line x1='240' y1='210' x2='240' y2='30'/><line x1='300' y1='210' x2='300' y2='30'/><line x1='360' y1='210' x2='360' y2='30'/><line x1='60' y1='176' x2='360' y2='176'/><line x1='60' y1='142' x2='360' y2='142'/><line x1='60' y1='108' x2='360' y2='108'/><line x1='60' y1='74' x2='360' y2='74'/><line x1='60' y1='40' x2='360' y2='40'/></g><line x1='60' y1='210' x2='360' y2='43.4' stroke='currentColor' stroke-width='2.5'/><g fill='currentColor'><circle cx='120' cy='176.7' r='3'/><circle cx='180' cy='143.4' r='3'/><circle cx='240' cy='110' r='3'/><circle cx='300' cy='76.7' r='3'/><circle cx='360' cy='43.4' r='3'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='60' y='226'>0</text><text x='120' y='226'>1</text><text x='180' y='226'>2</text><text x='240' y='226'>3</text><text x='300' y='226'>4</text><text x='360' y='226'>5</text><text x='215' y='248'>mass in kg</text><text x='45' y='214'>0</text><text x='45' y='180'>10</text><text x='45' y='146'>20</text><text x='45' y='112'>30</text><text x='45' y='78'>40</text><text x='45' y='44'>50</text><text x='18' y='120' transform='rotate(-90 18 120)'>weight in N</text><text x='225' y='160' text-anchor='start'>straight line through origin</text><text x='225' y='175' text-anchor='start'>weight ∝ mass</text><text x='225' y='190' text-anchor='start'>gradient = g = 9.8 N/kg</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think mass and weight are the same thing, measured in kilograms.",
+        "right": "In fact mass is the amount of matter in kg, while weight is a force in newtons. Bathroom scales showing kg are really measuring weight and converting it."
+      },
+      {
+        "wrong": "Students often think an astronaut's mass is smaller on the Moon.",
+        "right": "In fact mass stays the same everywhere. Only weight changes, because the Moon's gravitational field strength is smaller."
+      },
+      {
+        "wrong": "Students often think there is no gravity in space or on the Moon.",
+        "right": "In fact gravitational fields extend into space; the Moon's g is about 1.6 N/kg, not zero."
+      },
+      {
+        "wrong": "Students often substitute the mass in grams into W = mg.",
+        "right": "In fact mass must be in kilograms. 500 g must become 0.5 kg first."
+      }
+    ],
+    "realWorld": [
+      "Lifts and bridges display a maximum load; engineers use W = mg to work out the force the cables or supports must withstand.",
+      "Space agencies design Moon and Mars rovers knowing they will weigh far less there than on Earth, which affects wheels and suspension.",
+      "Luggage scales at airports are spring balances that measure weight and are calibrated to show mass using g = 9.8 N/kg.",
+      "Placing heavy items low in a lorry or a boat keeps the centre of mass low, making it more stable."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "W = mg must be recalled: it is not on the equation sheet.",
+      "Always check that mass is in kg; convert from g by dividing by 1000.",
+      "Give weight in newtons (N), not kilograms. A unit mark is often lost here.",
+      "If asked about an astronaut on the Moon, state clearly that mass is unchanged but weight is smaller because g is smaller.",
+      "Use g = 9.8 N/kg unless the question gives a different value."
+    ],
+    "summary": [
+      "Weight is the force on an object due to gravity, in newtons.",
+      "W = m g, with g = 9.8 N/kg on Earth.",
+      "Weight depends on gravitational field strength; mass does not.",
+      "Weight is directly proportional to mass.",
+      "Weight acts at the centre of mass.",
+      "Weight is measured with a newtonmeter (calibrated spring balance)."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is weight?",
+      "back": "The force acting on an object due to gravity."
+    },
+    {
+      "front": "What is the equation for weight?",
+      "back": "weight = mass × gravitational field strength (W = mg)."
+    },
+    {
+      "front": "Units of weight, mass and g?",
+      "back": "N, kg, N/kg."
+    },
+    {
+      "front": "Value of g on Earth?",
+      "back": "9.8 N/kg."
+    },
+    {
+      "front": "What is the centre of mass?",
+      "back": "The point at which the weight of an object can be considered to act."
+    },
+    {
+      "front": "How is weight measured?",
+      "back": "With a calibrated spring balance (newtonmeter)."
+    },
+    {
+      "front": "How are weight and mass related?",
+      "back": "Weight is directly proportional to mass."
+    },
+    {
+      "front": "What happens to mass and weight on the Moon?",
+      "back": "Mass is unchanged; weight is smaller because g is smaller."
+    },
+    {
+      "front": "What does g = 9.8 N/kg mean?",
+      "back": "Each kilogram of mass experiences a gravitational force of 9.8 N."
+    },
+    {
+      "front": "Weight of a 2 kg object on Earth?",
+      "back": "19.6 N."
+    },
+    {
+      "front": "Convert 350 g to kg.",
+      "back": "0.35 kg."
+    },
+    {
+      "front": "Rearrange W = mg for mass.",
+      "back": "m = W ÷ g."
+    },
+    {
+      "front": "What is the gradient of a weight against mass graph?",
+      "back": "The gravitational field strength, g."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-gravity-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement defines weight?",
+      "options": [
+        "The amount of matter in an object",
+        "The force acting on an object due to gravity",
+        "The energy stored in an object raised above the ground",
+        "The mass of an object in kilograms"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The force acting on an object due to gravity"
+      ],
+      "explanation": "Weight is a force caused by gravity. The amount of matter is mass, and gravitational potential energy is energy, not force."
+    },
+    {
+      "id": "p5-gravity-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of weight?",
+      "options": [
+        "kg",
+        "N/kg",
+        "N",
+        "J"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: N"
+      ],
+      "explanation": "Weight is a force, so it is measured in newtons (N). Mass is measured in kg and gravitational field strength in N/kg."
+    },
+    {
+      "id": "p5-gravity-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of gravitational field strength?",
+      "options": [
+        "N/kg",
+        "kg/N",
+        "N",
+        "m/s"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: N/kg"
+      ],
+      "explanation": "g tells you the force (N) on each kilogram (kg), so its unit is N/kg."
+    },
+    {
+      "id": "p5-gravity-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which piece of equipment is used to measure weight directly?",
+      "options": [
+        "A ruler",
+        "A stopwatch",
+        "A thermometer",
+        "A newtonmeter"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A newtonmeter"
+      ],
+      "explanation": "A newtonmeter is a calibrated spring balance which reads force in newtons."
+    },
+    {
+      "id": "p5-gravity-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An astronaut travels from the Earth to the Moon. Which row is correct?",
+      "options": [
+        "Mass decreases, weight decreases",
+        "Mass stays the same, weight decreases",
+        "Mass stays the same, weight stays the same",
+        "Mass decreases, weight stays the same"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Mass stays the same, weight decreases"
+      ],
+      "explanation": "Mass is the amount of matter and does not depend on location. The Moon's gravitational field strength is smaller, so weight is smaller."
+    },
+    {
+      "id": "p5-gravity-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "At which point can the whole weight of an object be considered to act?",
+      "options": [
+        "The centre of mass",
+        "The bottom surface",
+        "The highest point",
+        "The point where it is held"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The centre of mass"
+      ],
+      "explanation": "Gravity acts on every part of an object, but the total effect is the same as one force acting at the centre of mass."
+    },
+    {
+      "id": "p5-gravity-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The mass of an object is doubled. What happens to its weight at the same place?",
+      "options": [
+        "It halves",
+        "It stays the same",
+        "It doubles",
+        "It quadruples"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It doubles"
+      ],
+      "explanation": "W = mg and g is constant at one place, so weight is directly proportional to mass: double the mass gives double the weight."
+    },
+    {
+      "id": "p5-gravity-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which equation gives mass from weight and gravitational field strength?",
+      "options": [
+        "m = W × g",
+        "m = W ÷ g",
+        "m = g ÷ W",
+        "m = W − g"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: m = W ÷ g"
+      ],
+      "explanation": "Rearranging W = m g by dividing both sides by g gives m = W ÷ g."
+    },
+    {
+      "id": "p5-gravity-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student plots a graph of weight (y-axis) against mass (x-axis) for objects on Earth. What does the gradient represent?",
+      "options": [
+        "The mass of each object",
+        "The weight of 1 N",
+        "The centre of mass",
+        "The gravitational field strength"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The gravitational field strength"
+      ],
+      "explanation": "Gradient = change in weight ÷ change in mass = W ÷ m = g, which is 9.8 N/kg on Earth."
+    },
+    {
+      "id": "p5-gravity-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An object weighs 20 N on Earth (g = 9.8 N/kg). What would it weigh on a planet where g = 24.5 N/kg?",
+      "options": [
+        "8.2 N",
+        "20 N",
+        "50 N",
+        "490 N"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 50 N"
+      ],
+      "explanation": "Mass = 20 ÷ 9.8 = 2.04 kg. Weight on the planet = 2.04 × 24.5 = 50 N. Equivalently, weight scales by 24.5 ÷ 9.8 = 2.5, so 20 × 2.5 = 50 N."
+    },
+    {
+      "id": "p5-gravity-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Calculate the weight of a 5.0 kg mass on Earth. (g = 9.8 N/kg)",
+      "numericAnswer": 49,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: W = 5.0 × 9.8",
+        "1 mark: 49 N"
+      ],
+      "explanation": "W = m g = 5.0 × 9.8 = 49 N."
+    },
+    {
+      "id": "p5-gravity-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "An apple has a mass of 250 g. Calculate its weight on Earth. (g = 9.8 N/kg)",
+      "numericAnswer": 2.45,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 250 g = 0.25 kg",
+        "1 mark: W = 0.25 × 9.8",
+        "1 mark: 2.45 N (accept 2.5 N)"
+      ],
+      "explanation": "Convert to kilograms first: 250 ÷ 1000 = 0.25 kg. W = 0.25 × 9.8 = 2.45 N. Using 250 directly gives 2450 N, which is far too big for an apple."
+    },
+    {
+      "id": "p5-gravity-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A man has a weight of 686 N on Earth. Calculate his mass. (g = 9.8 N/kg)",
+      "numericAnswer": 70,
+      "tolerance": 0.02,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: m = W ÷ g",
+        "1 mark: m = 686 ÷ 9.8",
+        "1 mark: 70 kg"
+      ],
+      "explanation": "Rearrange W = mg to m = W ÷ g = 686 ÷ 9.8 = 70 kg."
+    },
+    {
+      "id": "p5-gravity-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "An astronaut has a mass of 80 kg. Calculate her weight on the Moon, where g = 1.6 N/kg.",
+      "numericAnswer": 128,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: W = 80 × 1.6",
+        "1 mark: 128 N"
+      ],
+      "explanation": "W = m g = 80 × 1.6 = 128 N. Her mass is still 80 kg."
+    },
+    {
+      "id": "p5-gravity-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A bag of flour has a mass of 750 g. Calculate its weight on Earth. (g = 9.8 N/kg)",
+      "numericAnswer": 7.35,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 750 g = 0.75 kg",
+        "1 mark: W = 0.75 × 9.8",
+        "1 mark: 7.35 N (accept 7.4 N)"
+      ],
+      "explanation": "0.75 × 9.8 = 7.35 N. The conversion from grams to kilograms is the step most often missed."
+    },
+    {
+      "id": "p5-gravity-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A rover has a weight of 8820 N on Earth (g = 9.8 N/kg). Calculate its weight on Mars, where g = 3.7 N/kg.",
+      "numericAnswer": 3330,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: m = 8820 ÷ 9.8",
+        "1 mark: m = 900 kg",
+        "1 mark: W = 900 × 3.7",
+        "1 mark: 3330 N"
+      ],
+      "explanation": "First find the mass, which does not change: 8820 ÷ 9.8 = 900 kg. Then W on Mars = 900 × 3.7 = 3330 N."
+    },
+    {
+      "id": "p5-gravity-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 12 kg object is taken to a planet, where a newtonmeter shows it has a weight of 300 N. Calculate the gravitational field strength on the planet.",
+      "numericAnswer": 25,
+      "tolerance": 0.02,
+      "unit": "N/kg",
+      "markScheme": [
+        "1 mark: g = W ÷ m",
+        "1 mark: g = 300 ÷ 12",
+        "1 mark: 25 N/kg"
+      ],
+      "explanation": "Rearrange W = mg to g = W ÷ m = 300 ÷ 12 = 25 N/kg."
+    },
+    {
+      "id": "p5-gravity-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 60 kg astronaut travels from the Earth (g = 9.8 N/kg) to the Moon (g = 1.6 N/kg). Calculate the decrease in her weight.",
+      "numericAnswer": 492,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: weight on Earth = 60 × 9.8 = 588 N",
+        "1 mark: weight on Moon = 60 × 1.6 = 96 N",
+        "1 mark: decrease = 588 − 96 = 492 N"
+      ],
+      "explanation": "Weight on Earth is 588 N and on the Moon 96 N, so the decrease is 492 N. A quicker route is 60 × (9.8 − 1.6) = 60 × 8.2 = 492 N."
+    },
+    {
+      "id": "p5-gravity-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links weight, mass and gravitational field strength.",
+      "acceptedAnswers": [
+        "W = mg",
+        "weight = mass × gravitational field strength"
+      ],
+      "markScheme": [
+        "1 mark: weight = mass × gravitational field strength (W = mg)"
+      ],
+      "explanation": "This equation must be recalled; it is not given on the equation sheet."
+    },
+    {
+      "id": "p5-gravity-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two differences between mass and weight.",
+      "acceptedAnswers": [
+        "mass in kg",
+        "weight in N",
+        "weight is a force",
+        "mass is amount of matter",
+        "weight changes with g",
+        "mass is constant",
+        "weight is vector"
+      ],
+      "markScheme": [
+        "1 mark: mass is the amount of matter, weight is a force (due to gravity)",
+        "1 mark: mass in kg, weight in N / weight depends on g but mass does not / weight is a vector, mass is a scalar"
+      ],
+      "explanation": "Mass measures how much matter there is and stays the same anywhere; weight is the gravitational force on that mass and changes with location."
+    },
+    {
+      "id": "p5-gravity-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why an object weighs less on the Moon than on the Earth.",
+      "acceptedAnswers": [
+        "gravitational field strength is smaller",
+        "g is lower",
+        "weaker gravitational field",
+        "mass same"
+      ],
+      "markScheme": [
+        "1 mark: the gravitational field strength on the Moon is smaller (1.6 N/kg compared with 9.8 N/kg)",
+        "1 mark: the mass is the same, and W = mg, so the weight is smaller"
+      ],
+      "explanation": "Weight depends on both mass and g. The mass does not change, but the Moon's weaker field gives a smaller g, so a smaller weight."
+    },
+    {
+      "id": "p5-gravity-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is meant by the centre of mass of an object?",
+      "acceptedAnswers": [
+        "point where weight acts",
+        "single point weight considered to act"
+      ],
+      "markScheme": [
+        "1 mark: the single point at which the weight of the object can be considered to act"
+      ],
+      "explanation": "Gravity acts on every particle, but the overall effect is as if all the weight acts at this one point."
+    },
+    {
+      "id": "p5-gravity-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The gravitational field strength at the Earth's surface is 9.8 N/kg. Explain what this means.",
+      "acceptedAnswers": [
+        "each kilogram",
+        "force of 9.8 N",
+        "per kilogram of mass"
+      ],
+      "markScheme": [
+        "1 mark: each kilogram of mass",
+        "1 mark: experiences a (gravitational) force / weight of 9.8 N"
+      ],
+      "explanation": "N/kg means newtons per kilogram: a 1 kg mass has a weight of 9.8 N on Earth."
+    },
+    {
+      "id": "p5-gravity-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student hangs different masses from a newtonmeter and records the weight of each. Describe how the student could use the results to show that weight is directly proportional to mass.",
+      "acceptedAnswers": [
+        "plot a graph",
+        "weight against mass",
+        "straight line",
+        "through the origin",
+        "W ÷ m constant"
+      ],
+      "markScheme": [
+        "1 mark: plot a graph of weight against mass",
+        "1 mark: the graph is a straight line",
+        "1 mark: that passes through the origin (or W ÷ m is the same for every result)"
+      ],
+      "explanation": "Direct proportion shows as a straight line through the origin. Checking that weight ÷ mass is constant (about 9.8 N/kg) is an equivalent test."
+    },
+    {
+      "id": "p5-gravity-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Some luggage scales contain a spring and show readings in kilograms. Explain why these scales would show the wrong mass if used on the Moon.",
+      "acceptedAnswers": [
+        "measures weight",
+        "spring stretched by weight",
+        "calibrated with g = 9.8",
+        "Moon g smaller",
+        "reading too low"
+      ],
+      "markScheme": [
+        "1 mark: the spring is stretched by weight, which is converted to mass using Earth's g (9.8 N/kg)",
+        "1 mark: on the Moon g is smaller so the weight is smaller, giving a reading that is too low"
+      ],
+      "explanation": "A spring balance actually responds to weight. Its kilogram scale assumes g = 9.8 N/kg, so in a weaker field it under-reads the mass."
+    },
+    {
+      "id": "p5-gravity-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a student could use a newtonmeter and a set of slotted masses to find the gravitational field strength in the laboratory.",
+      "markScheme": [
+        "Indicative content:",
+        "Check the newtonmeter reads zero with nothing attached (zero it).",
+        "Hang a known mass from the newtonmeter, e.g. 100 g.",
+        "Wait until it is still; read the scale at eye level.",
+        "Record the weight in newtons.",
+        "Convert the mass to kilograms.",
+        "Repeat for several different masses (e.g. 100 g to 500 g).",
+        "Calculate g = W ÷ m for each, or plot weight against mass and find the gradient.",
+        "Take a mean; the value should be close to 9.8 N/kg.",
+        "Level 2 (3 to 4 marks): clear method with repeated masses and a correct way to calculate g.",
+        "Level 1 (1 to 2 marks): some relevant steps, e.g. hang mass and read newtonmeter."
+      ],
+      "explanation": "The method links measured weight to known mass. Since W = mg, g is weight ÷ mass, and using many masses with a graph gives a more reliable value."
+    },
+    {
+      "id": "p5-gravity-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "An astronaut has a mass of 75 kg. She travels from the Earth (g = 9.8 N/kg) to the Moon (g = 1.6 N/kg).\nCompare her mass and weight on the Earth and on the Moon. Include calculations and explain your answers.",
+      "markScheme": [
+        "Indicative content:",
+        "Mass is the amount of matter; it does not depend on location.",
+        "Mass on Earth = mass on Moon = 75 kg.",
+        "Weight is the force due to gravity: W = mg.",
+        "Weight on Earth = 75 × 9.8 = 735 N.",
+        "Weight on Moon = 75 × 1.6 = 120 N.",
+        "The Moon's gravitational field strength is smaller (the Moon has much less mass than the Earth), so her weight is smaller.",
+        "Her weight on the Moon is about one sixth of her weight on Earth.",
+        "Weight acts towards the centre of the Earth or Moon, from her centre of mass.",
+        "Level 3 (5 to 6 marks): both weights calculated correctly, mass correctly stated as unchanged, with a clear explanation linked to g.",
+        "Level 2 (3 to 4 marks): one or two correct calculations with some explanation of why weight changes.",
+        "Level 1 (1 to 2 marks): a simple statement, e.g. weight is less on the Moon, or one correct weight."
+      ],
+      "explanation": "Her mass stays 75 kg. Her weight falls from 735 N to 120 N because the Moon's gravitational field strength is lower."
+    },
+    {
+      "id": "p5-gravity-q28",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which quantity is measured in kilograms?",
+      "options": [
+        "Mass",
+        "Weight",
+        "Gravitational field strength",
+        "Force"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Mass"
+      ],
+      "explanation": "Mass is measured in kg. Weight and force are in newtons and gravitational field strength is in N/kg."
+    }
+  ]
+}

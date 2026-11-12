@@ -1,0 +1,654 @@
+{
+  "id": "p4-nuclear-equations",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "nuclear-equations",
+  "specRef": "4.4.2.2",
+  "title": "Nuclear equations",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A nuclear equation shows a radioactive decay using nuclide symbols. The mass numbers (top) and the atomic numbers (bottom) must balance on both sides of the arrow.",
+    "explanation": [
+      "Nuclear equations are used to represent radioactive decay. Each nucleus or particle is written with its mass number at the top left and its atomic number at the bottom left of its symbol. In a correct nuclear equation the total of the mass numbers on the left equals the total on the right, and the total of the atomic numbers on the left equals the total on the right.",
+      "An alpha particle is written as ⁴₂He, because it is two protons and two neutrons: mass number 4 and atomic number 2. When a nucleus emits an alpha particle, its mass number decreases by 4 and its atomic number decreases by 2. The mass and charge of the nucleus both decrease, and the nucleus becomes a different element. For example: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Check: 238 = 234 + 4 and 92 = 90 + 2.",
+      "A beta particle is written as ⁰₋₁e. It has a mass number of 0 because an electron has a tiny mass compared with a proton or neutron, and an atomic number of −1 because it has the opposite charge to a proton. In beta decay a neutron in the nucleus changes into a proton and an electron, and the electron is emitted. So the mass number stays the same and the atomic number increases by 1: the charge of the nucleus increases. For example: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e.",
+      "The emission of a gamma ray does not change the mass or the charge of the nucleus. Gamma rays carry away energy, so the nucleus just becomes more stable. Gamma emission often happens straight after alpha or beta decay. If a nucleus emits a neutron (¹₀n), its mass number falls by 1 but its atomic number stays the same, so it becomes a different isotope of the same element.",
+      "To complete an equation with a missing number, use subtraction or addition so the tops and bottoms balance. You will be given the symbols of the elements, so you do not need to work out which element is formed. You may be asked to follow several decays in a row: apply each change in turn, or add up the total changes."
+    ],
+    "keyFacts": [
+      "In a nuclear equation, mass numbers and atomic numbers must balance on both sides.",
+      "Alpha particle: ⁴₂He.",
+      "Beta particle: ⁰₋₁e.",
+      "Neutron: ¹₀n.",
+      "Alpha decay: mass number − 4, atomic number − 2 (mass and charge decrease).",
+      "Beta decay: mass number unchanged, atomic number + 1 (a neutron turns into a proton; charge increases).",
+      "Gamma emission: no change to mass number or atomic number.",
+      "Neutron emission: mass number − 1, atomic number unchanged (a new isotope of the same element).",
+      "Alpha and beta decay change the nucleus into a different element."
+    ],
+    "keyTerms": [
+      {
+        "term": "Nuclear equation",
+        "definition": "An equation showing a nuclear change using nuclide symbols, in which mass numbers and atomic numbers balance."
+      },
+      {
+        "term": "Alpha decay",
+        "definition": "Emission of an alpha particle (⁴₂He); mass number falls by 4 and atomic number falls by 2."
+      },
+      {
+        "term": "Beta decay",
+        "definition": "A neutron turns into a proton and an electron (⁰₋₁e) is emitted; atomic number rises by 1, mass number unchanged."
+      },
+      {
+        "term": "Gamma emission",
+        "definition": "Emission of electromagnetic radiation from the nucleus; no change in mass number or atomic number."
+      },
+      {
+        "term": "Daughter nucleus",
+        "definition": "The nucleus left after a radioactive decay."
+      },
+      {
+        "term": "Parent nucleus",
+        "definition": "The original unstable nucleus before it decays."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Completing an alpha decay equation",
+        "question": "Radium-226 (²²⁶₈₈Ra) emits an alpha particle and becomes radon (Rn). Write the balanced equation.",
+        "steps": [
+          "Alpha particle = ⁴₂He.",
+          "Mass number of Rn = 226 − 4 = 222.",
+          "Atomic number of Rn = 88 − 2 = 86.",
+          "²²⁶₈₈Ra → ²²²₈₆Rn + ⁴₂He. Check: 226 = 222 + 4; 88 = 86 + 2."
+        ],
+        "answer": "²²⁶₈₈Ra → ²²²₈₆Rn + ⁴₂He"
+      },
+      {
+        "title": "Completing a beta decay equation",
+        "question": "Strontium-90 (⁹⁰₃₈Sr) decays by beta emission to yttrium (Y). Write the balanced equation.",
+        "steps": [
+          "Beta particle = ⁰₋₁e.",
+          "Mass number of Y = 90 − 0 = 90.",
+          "Atomic number of Y: 38 = Z + (−1), so Z = 39.",
+          "⁹⁰₃₈Sr → ⁹⁰₃₉Y + ⁰₋₁e."
+        ],
+        "answer": "⁹⁰₃₈Sr → ⁹⁰₃₉Y + ⁰₋₁e"
+      },
+      {
+        "title": "A decay series",
+        "question": "Thorium-232 (atomic number 90) emits an alpha particle, then two beta particles. Find the final mass number and atomic number.",
+        "steps": [
+          "Alpha: 232 − 4 = 228; 90 − 2 = 88.",
+          "First beta: 228; 88 + 1 = 89.",
+          "Second beta: 228; 89 + 1 = 90."
+        ],
+        "answer": "Mass number 228, atomic number 90 (thorium-228, an isotope of the original element)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Balancing an alpha decay equation",
+        "caption": "Uranium-238 decays to thorium-234 by emitting an alpha particle. The top numbers and the bottom numbers each balance.",
+        "svg": "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg'><g font-size='14' fill='currentColor' text-anchor='middle'><text x='60' y='70'>238</text><text x='60' y='120'>92</text><text x='100' y='100' font-size='30'>U</text><text x='160' y='100' font-size='24'>→</text><text x='220' y='70'>234</text><text x='220' y='120'>90</text><text x='265' y='100' font-size='30'>Th</text><text x='320' y='100' font-size='24'>+</text><text x='370' y='70'>4</text><text x='370' y='120'>2</text><text x='400' y='100' font-size='30'>He</text></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><rect x='40' y='52' width='360' height='24' rx='4'/><rect x='40' y='104' width='360' height='22' rx='4'/></g><g font-size='12' fill='currentColor'><text x='40' y='30'>mass numbers (top): 238 = 234 + 4</text><text x='40' y='150'>atomic numbers (bottom): 92 = 90 + 2</text><text x='40' y='180'>Alpha decay: mass number falls by 4, atomic number falls by 2.</text><text x='345' y='30'>alpha particle</text></g><line x1='380' y1='35' x2='380' y2='50' stroke='currentColor'/></svg>"
+      },
+      {
+        "title": "Balancing a beta decay equation",
+        "caption": "Carbon-14 decays to nitrogen-14 by emitting a beta particle. The atomic number rises by 1 and the mass number is unchanged.",
+        "svg": "<svg viewBox='0 0 460 220' xmlns='http://www.w3.org/2000/svg'><g font-size='14' fill='currentColor' text-anchor='middle'><text x='60' y='70'>14</text><text x='60' y='120'>6</text><text x='95' y='100' font-size='30'>C</text><text x='155' y='100' font-size='24'>→</text><text x='215' y='70'>14</text><text x='215' y='120'>7</text><text x='250' y='100' font-size='30'>N</text><text x='305' y='100' font-size='24'>+</text><text x='355' y='70'>0</text><text x='355' y='120'>−1</text><text x='385' y='100' font-size='30'>e</text></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><rect x='40' y='52' width='360' height='24' rx='4'/><rect x='40' y='104' width='360' height='22' rx='4'/></g><g font-size='12' fill='currentColor'><text x='40' y='30'>mass numbers (top): 14 = 14 + 0</text><text x='40' y='150'>atomic numbers (bottom): 6 = 7 + (−1)</text><text x='40' y='180'>Beta decay: a neutron turns into a proton.</text><text x='40' y='196'>Mass number unchanged, atomic number rises by 1.</text><text x='330' y='30'>beta particle</text></g><line x1='365' y1='35' x2='365' y2='50' stroke='currentColor'/></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think beta decay reduces the atomic number because an electron is lost.",
+        "right": "In fact the atomic number goes up by 1, because a neutron in the nucleus turns into a proton."
+      },
+      {
+        "wrong": "Students often write the alpha particle as ²₄He.",
+        "right": "In fact the mass number 4 goes at the top and the atomic number 2 at the bottom: ⁴₂He."
+      },
+      {
+        "wrong": "Students often think gamma emission changes the element.",
+        "right": "In fact gamma emission changes neither the mass number nor the atomic number; only energy is released."
+      },
+      {
+        "wrong": "Students often think mass number falls in beta decay because a particle is emitted.",
+        "right": "In fact a beta particle has mass number 0, so the mass number stays the same."
+      }
+    ],
+    "realWorld": [
+      "Radon-222, formed by the alpha decay of radium-226 in rocks, is the biggest source of natural background radiation in many homes.",
+      "Carbon-14 decays by beta emission to nitrogen-14; measuring how much carbon-14 is left is used to date archaeological remains.",
+      "Nuclear engineers use decay equations to predict which isotopes will build up in used nuclear fuel."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always check your equation by adding the top numbers on each side and then the bottom numbers.",
+      "Write the beta particle with a −1 at the bottom: ⁰₋₁e. Missing the minus sign is a common lost mark.",
+      "You will be given element symbols, so concentrate on getting the numbers right.",
+      "For decay series, apply one decay at a time and keep a running total."
+    ],
+    "summary": [
+      "Mass numbers and atomic numbers balance in every nuclear equation.",
+      "Alpha (⁴₂He): mass number −4, atomic number −2.",
+      "Beta (⁰₋₁e): mass number unchanged, atomic number +1.",
+      "Gamma: no change in mass number or atomic number.",
+      "Neutron emission: mass number −1, same element."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Symbol for an alpha particle in nuclear equations?",
+      "back": "⁴₂He"
+    },
+    {
+      "front": "Symbol for a beta particle in nuclear equations?",
+      "back": "⁰₋₁e"
+    },
+    {
+      "front": "What must balance in a nuclear equation?",
+      "back": "Mass numbers (top) and atomic numbers (bottom)."
+    },
+    {
+      "front": "Effect of alpha decay on mass number and atomic number?",
+      "back": "Mass number falls by 4, atomic number falls by 2."
+    },
+    {
+      "front": "Effect of beta decay on mass number and atomic number?",
+      "back": "Mass number unchanged, atomic number rises by 1."
+    },
+    {
+      "front": "Effect of gamma emission on the nucleus?",
+      "back": "No change to mass number or atomic number (energy is released)."
+    },
+    {
+      "front": "What happens inside the nucleus in beta decay?",
+      "back": "A neutron turns into a proton and an electron; the electron is emitted."
+    },
+    {
+      "front": "Effect of neutron emission?",
+      "back": "Mass number falls by 1; atomic number unchanged."
+    },
+    {
+      "front": "Complete: ²³⁸₉₂U → ?Th + ⁴₂He",
+      "back": "²³⁴₉₀Th"
+    },
+    {
+      "front": "Complete: ¹⁴₆C → ?N + ⁰₋₁e",
+      "back": "¹⁴₇N"
+    },
+    {
+      "front": "Does alpha decay change the charge of the nucleus?",
+      "back": "Yes, it decreases (by 2 units)."
+    },
+    {
+      "front": "Why is the beta particle's mass number 0?",
+      "back": "An electron's mass is tiny compared with a proton or neutron."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-nuclear-equations-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which symbol represents an alpha particle in a nuclear equation?",
+      "options": [
+        "²₄He",
+        "⁴₂He",
+        "⁰₋₁e",
+        "¹₀n"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: ⁴₂He"
+      ],
+      "explanation": "An alpha particle has mass number 4 (top) and atomic number 2 (bottom). ⁰₋₁e is a beta particle and ¹₀n is a neutron."
+    },
+    {
+      "id": "p4-nuclear-equations-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which symbol represents a beta particle in a nuclear equation?",
+      "options": [
+        "⁰₋₁e",
+        "⁴₂He",
+        "¹₁p",
+        "⁰₁e"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: ⁰₋₁e"
+      ],
+      "explanation": "A beta particle is an electron: mass number 0 and charge −1, so ⁰₋₁e."
+    },
+    {
+      "id": "p4-nuclear-equations-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens to the mass number of a nucleus when it emits a gamma ray?",
+      "options": [
+        "It increases by 1",
+        "It decreases by 4",
+        "It decreases by 1",
+        "It does not change"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It does not change"
+      ],
+      "explanation": "Gamma rays are electromagnetic radiation with no mass and no charge, so the nucleus keeps the same mass number and atomic number."
+    },
+    {
+      "id": "p4-nuclear-equations-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to a nucleus when it emits an alpha particle?",
+      "options": [
+        "Mass number −4, atomic number −2",
+        "Mass number −2, atomic number −4",
+        "Mass number unchanged, atomic number +1",
+        "Mass number −4, atomic number unchanged"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Mass number −4, atomic number −2"
+      ],
+      "explanation": "The alpha particle takes away 2 protons and 2 neutrons, so the mass number falls by 4 and atomic number by 2."
+    },
+    {
+      "id": "p4-nuclear-equations-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to a nucleus when it emits a beta particle?",
+      "options": [
+        "Mass number −1, atomic number unchanged",
+        "Mass number unchanged, atomic number −1",
+        "Mass number unchanged, atomic number +1",
+        "Mass number +1, atomic number +1"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Mass number unchanged, atomic number +1"
+      ],
+      "explanation": "A neutron changes into a proton, so the number of protons goes up by 1 while the total number of nucleons stays the same."
+    },
+    {
+      "id": "p4-nuclear-equations-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Complete the equation: ²¹⁰₈₄Po → X + ⁴₂He. What is X?",
+      "options": [
+        "²¹⁰₈₂Pb",
+        "²⁰⁶₈₂Pb",
+        "²⁰⁶₈₆Pb",
+        "²⁰⁸₈₃Pb"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: ²⁰⁶₈₂Pb"
+      ],
+      "explanation": "210 − 4 = 206 and 84 − 2 = 82, so X is ²⁰⁶₈₂Pb. Option ²⁰⁶₈₆Pb adds 2 to the atomic number instead of subtracting."
+    },
+    {
+      "id": "p4-nuclear-equations-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Complete the equation: ¹³¹₅₃I → ¹³¹₅₄Xe + Y. What is Y?",
+      "options": [
+        "⁴₂He",
+        "¹₀n",
+        "γ",
+        "⁰₋₁e"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: ⁰₋₁e"
+      ],
+      "explanation": "The mass number is unchanged and the atomic number rises by 1, which is beta decay. Check: 53 = 54 + (−1)."
+    },
+    {
+      "id": "p4-nuclear-equations-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which type of decay produces an isotope of the same element?",
+      "options": [
+        "Alpha emission",
+        "Neutron emission",
+        "Beta emission",
+        "None of these"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Neutron emission"
+      ],
+      "explanation": "Neutron emission lowers the mass number by 1 but leaves the atomic number the same, so the element is unchanged. Alpha and beta change the atomic number."
+    },
+    {
+      "id": "p4-nuclear-equations-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A nucleus with mass number A and atomic number Z decays by emitting one alpha particle and then one beta particle. Which describes the final nucleus?",
+      "options": [
+        "Mass number A − 4, atomic number Z − 1",
+        "Mass number A − 4, atomic number Z − 3",
+        "Mass number A − 3, atomic number Z − 1",
+        "Mass number A, atomic number Z − 1"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Mass number A − 4, atomic number Z − 1"
+      ],
+      "explanation": "Alpha: A − 4, Z − 2. Beta: no change to mass, atomic number + 1. Total: A − 4 and Z − 1."
+    },
+    {
+      "id": "p4-nuclear-equations-q10",
+      "type": "numeric",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Uranium-238 emits an alpha particle. State the mass number of the nucleus formed.",
+      "numericAnswer": 234,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 234"
+      ],
+      "explanation": "238 − 4 = 234. The alpha particle carries away 4 nucleons."
+    },
+    {
+      "id": "p4-nuclear-equations-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Cobalt (atomic number 27) decays by beta emission to nickel. State the atomic number of nickel.",
+      "numericAnswer": 28,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 28"
+      ],
+      "explanation": "Beta decay increases the atomic number by 1: 27 + 1 = 28."
+    },
+    {
+      "id": "p4-nuclear-equations-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Americium-241 (atomic number 95) decays by alpha emission to neptunium (Np). State the atomic number of the neptunium nucleus.",
+      "numericAnswer": 93,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 93"
+      ],
+      "explanation": "Alpha decay reduces the atomic number by 2: 95 − 2 = 93. The mass number becomes 237."
+    },
+    {
+      "id": "p4-nuclear-equations-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A nucleus with mass number 222 and atomic number 86 emits two alpha particles.\nCalculate the mass number of the nucleus formed.",
+      "numericAnswer": 214,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: each alpha reduces mass number by 4 (total 8)",
+        "1 mark: 222 − 8 = 214"
+      ],
+      "explanation": "Two alpha particles remove 2 × 4 = 8 nucleons."
+    },
+    {
+      "id": "p4-nuclear-equations-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A nucleus of bismuth-212 (atomic number 83) emits a beta particle and then an alpha particle.\nCalculate the atomic number of the final nucleus.",
+      "numericAnswer": 82,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: after beta: 83 + 1 = 84",
+        "1 mark: after alpha: 84 − 2 = 82"
+      ],
+      "explanation": "Apply each step: beta raises Z by 1, alpha lowers it by 2. Net change −1, so 82."
+    },
+    {
+      "id": "p4-nuclear-equations-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Uranium-238 (atomic number 92) decays through a series of alpha and beta decays to lead-206 (atomic number 82).\nCalculate the number of beta decays in the series.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: mass number falls by 32, so 32 ÷ 4 = 8 alpha decays",
+        "1 mark: 8 alpha decays reduce atomic number by 16, to 76",
+        "1 mark: 82 − 76 = 6 beta decays"
+      ],
+      "explanation": "Only alpha decay changes the mass number, so find the alpha decays first (8). They lower Z by 16, but Z only fell by 10, so 6 beta decays each raised Z by 1."
+    },
+    {
+      "id": "p4-nuclear-equations-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the atomic number of a nucleus when it emits a gamma ray.",
+      "acceptedAnswers": [
+        "no change",
+        "stays the same",
+        "unchanged"
+      ],
+      "markScheme": [
+        "1 mark: it does not change"
+      ],
+      "explanation": "Gamma rays have no charge, so the number of protons is unchanged."
+    },
+    {
+      "id": "p4-nuclear-equations-q17",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A nucleus emits a neutron. State what happens to its mass number and its atomic number.",
+      "acceptedAnswers": [
+        "mass number decreases by 1",
+        "atomic number unchanged",
+        "same element"
+      ],
+      "markScheme": [
+        "1 mark: mass number decreases by 1",
+        "1 mark: atomic number does not change"
+      ],
+      "explanation": "A neutron (¹₀n) has mass number 1 and no charge, so only the mass number changes. The nucleus becomes a different isotope of the same element."
+    },
+    {
+      "id": "p4-nuclear-equations-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Complete the nuclear equation: ²²⁶₈₈Ra → Rn + ⁴₂He\nGive the mass number and atomic number of the radon nucleus.",
+      "acceptedAnswers": [
+        "222",
+        "86",
+        "²²²₈₆Rn"
+      ],
+      "markScheme": [
+        "1 mark: mass number 222",
+        "1 mark: atomic number 86"
+      ],
+      "explanation": "226 − 4 = 222 and 88 − 2 = 86."
+    },
+    {
+      "id": "p4-nuclear-equations-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Complete the nuclear equation: ⁶⁰₂₇Co → Ni + ⁰₋₁e\nGive the mass number and atomic number of the nickel nucleus.",
+      "acceptedAnswers": [
+        "60",
+        "28",
+        "⁶⁰₂₈Ni"
+      ],
+      "markScheme": [
+        "1 mark: mass number 60",
+        "1 mark: atomic number 28"
+      ],
+      "explanation": "Mass number unchanged (60). 27 = Z − 1, so Z = 28."
+    },
+    {
+      "id": "p4-nuclear-equations-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the atomic number increases by 1 in beta decay.",
+      "acceptedAnswers": [
+        "neutron turns into proton",
+        "one more proton",
+        "electron emitted"
+      ],
+      "markScheme": [
+        "1 mark: a neutron (in the nucleus) changes into a proton (and an electron)",
+        "1 mark: so the nucleus has one more proton"
+      ],
+      "explanation": "Atomic number counts protons. Converting a neutron into a proton adds one."
+    },
+    {
+      "id": "p4-nuclear-equations-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the mass number does not change in beta decay.",
+      "acceptedAnswers": [
+        "total number of protons and neutrons stays the same",
+        "electron has negligible mass",
+        "mass number 0"
+      ],
+      "markScheme": [
+        "1 mark: a neutron becomes a proton so the total number of nucleons (protons + neutrons) is unchanged",
+        "1 mark: the electron emitted has a mass number of 0 / negligible mass"
+      ],
+      "explanation": "Nucleons are rearranged, not lost."
+    },
+    {
+      "id": "p4-nuclear-equations-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Write a balanced equation for the beta decay of thorium-234 (²³⁴₉₀Th) into protactinium (Pa).",
+      "acceptedAnswers": [
+        "²³⁴₉₀Th → ²³⁴₉₁Pa + ⁰₋₁e",
+        "234 91 Pa",
+        "beta particle ⁰₋₁e"
+      ],
+      "markScheme": [
+        "1 mark: ²³⁴₉₁Pa",
+        "1 mark: + ⁰₋₁e shown correctly"
+      ],
+      "explanation": "The product keeps mass number 234 and the atomic number rises to 91."
+    },
+    {
+      "id": "p4-nuclear-equations-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A nucleus emits an alpha particle followed by a gamma ray. Describe the overall change to the nucleus.",
+      "acceptedAnswers": [
+        "mass number decreases by 4",
+        "atomic number decreases by 2",
+        "gamma no further change",
+        "new element"
+      ],
+      "markScheme": [
+        "1 mark: mass number decreases by 4 and atomic number by 2 / becomes a different element",
+        "1 mark: the gamma ray causes no further change in mass number or atomic number (only energy lost)"
+      ],
+      "explanation": "Only the alpha emission changes the numbers; gamma just removes energy."
+    },
+    {
+      "id": "p4-nuclear-equations-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which equation is correctly balanced?",
+      "options": [
+        "²³⁸₉₂U → ²³⁴₉₂Th + ⁴₂He",
+        "¹⁴₆C → ¹⁴₅N + ⁰₋₁e",
+        "²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He",
+        "¹⁴₆C → ¹³₇N + ⁰₋₁e"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He"
+      ],
+      "explanation": "238 = 234 + 4 and 92 = 90 + 2. The beta equations here have atomic numbers 5 or mass number 13, which do not balance."
+    },
+    {
+      "id": "p4-nuclear-equations-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the changes that happen to a nucleus when it emits alpha, beta and gamma radiation. Use nuclear equations or symbols to support your answer.",
+      "markScheme": [
+        "Indicative content: alpha particle ⁴₂He; mass number falls by 4, atomic number by 2; mass and charge decrease; new element, e.g. ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He; beta particle ⁰₋₁e; neutron becomes proton; mass number unchanged, atomic number up by 1; charge increases, e.g. ¹⁴₆C → ¹⁴₇N + ⁰₋₁e; gamma: no change in mass number or atomic number.",
+        "Level 2 (3 to 4 marks): correct changes for all three, with correct symbols or an example equation.",
+        "Level 1 (1 to 2 marks): correct change for one or two types of radiation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "State the change in both numbers for each radiation and back it up with a balanced example."
+    },
+    {
+      "id": "p4-nuclear-equations-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Radon-220 (²²⁰₈₆Rn) decays by alpha emission to polonium (Po). The polonium then decays by alpha emission to lead (Pb). The lead then decays by beta emission to bismuth (Bi).\nWrite a balanced nuclear equation for each decay and explain how you checked each equation is balanced. Describe how the mass and charge of the nucleus change overall.",
+      "markScheme": [
+        "Indicative content: ²²⁰₈₆Rn → ²¹⁶₈₄Po + ⁴₂He; ²¹⁶₈₄Po → ²¹²₈₂Pb + ⁴₂He; ²¹²₈₂Pb → ²¹²₈₃Bi + ⁰₋₁e; checking: top numbers sum equally each side, bottom numbers sum equally each side (e.g. 220 = 216 + 4, 86 = 84 + 2; 82 = 83 + (−1)); overall mass number falls from 220 to 212 (by 8); atomic number falls from 86 to 83 (by 3), so charge of nucleus decreases overall; each alpha reduces mass and charge; beta increases charge, mass unchanged.",
+        "Level 3 (5 to 6 marks): all three equations correct, a clear explanation of balancing, and a correct overall description of mass and charge changes.",
+        "Level 2 (3 to 4 marks): two equations correct with some explanation, or all three with minor errors.",
+        "Level 1 (1 to 2 marks): one equation correct or correct statements about alpha/beta changes.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Work step by step: 220 → 216 → 212 → 212 for mass number and 86 → 84 → 82 → 83 for atomic number."
+    }
+  ]
+}

@@ -142,3 +142,8 @@ e.g. `bio-rp1`):
 ```
 Sample data must be realistic and consistent with the expected result.
 Run `node scripts/validate-practicals.mjs` after writing.
+
+## Every question must stand alone
+Quizzes shuffle questions, so never refer to another question ("the previous
+question", "the first question", "the circuit above"). Repeat the data instead.
+The validator rejects these references.
