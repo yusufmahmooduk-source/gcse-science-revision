@@ -1,0 +1,765 @@
+{
+  "id": "p3-specific-latent-heat",
+  "science": "physics",
+  "topicId": "p3",
+  "slug": "specific-latent-heat",
+  "specRef": "4.3.2.3",
+  "title": "Changes of state and specific latent heat",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The specific latent heat of a substance is the amount of energy required to change the state of one kilogram of the substance with no change in temperature. The energy for a change of state is calculated with E = m L.",
+    "explanation": [
+      "When a substance changes state, the energy supplied changes the internal energy of the substance but not its temperature. During melting or boiling, the energy is used to change the arrangement of the particles and to separate them against the forces between them. This increases the potential energy of the particles, while their average kinetic energy, and therefore the temperature, stays the same. When a substance condenses or freezes, the same amount of energy is released to the surroundings, again at constant temperature.",
+      "The specific latent heat, L, is the energy needed to change the state of 1 kg of a substance with no change in temperature. It is measured in joules per kilogram (J/kg). There are two values for each substance. The specific latent heat of fusion is for changing between solid and liquid (melting or freezing). The specific latent heat of vaporisation is for changing between liquid and vapour (boiling, evaporating or condensing). For water, the latent heat of fusion is about 334 000 J/kg and the latent heat of vaporisation is about 2 260 000 J/kg.",
+      "The energy needed is given by energy for a change of state = mass × specific latent heat, E = m L. This equation is on the equation sheet. Make sure the mass is in kilograms and the energy in joules, and pick the correct value of L for the change that is happening (fusion or vaporisation).",
+      "A heating curve is a graph of temperature against time for a substance heated at a constant rate. Sloping sections show the temperature of a single state rising. Flat sections show changes of state: the first flat section is melting (at the melting point) and the second is boiling (at the boiling point). The boiling section is usually much longer than the melting section, because the latent heat of vaporisation is much larger than the latent heat of fusion: the particles have to be separated completely to form a gas. A cooling curve is the reverse, with flat sections where the substance condenses or freezes.",
+      "Do not confuse specific heat capacity with specific latent heat. Specific heat capacity (c, in J/kg °C) is the energy needed to change the temperature of 1 kg by 1 °C, used with ΔE = m c Δθ when the state does not change. Specific latent heat (L, in J/kg) is the energy needed to change the state of 1 kg with no temperature change, used with E = m L. When a problem involves both a temperature change and a change of state, calculate each stage separately and add the energies."
+    ],
+    "keyFacts": [
+      "During a change of state the temperature stays constant.",
+      "Energy supplied during a change of state increases internal energy (potential energy of particles), not temperature.",
+      "Specific latent heat: energy to change the state of 1 kg with no change in temperature.",
+      "E = m L (given on the equation sheet). Unit of L: J/kg.",
+      "Specific latent heat of fusion: solid ↔ liquid.",
+      "Specific latent heat of vaporisation: liquid ↔ vapour.",
+      "Water: L(fusion) ≈ 334 000 J/kg; L(vaporisation) ≈ 2 260 000 J/kg.",
+      "Flat sections on heating and cooling curves show changes of state.",
+      "Specific heat capacity (J/kg °C) is for temperature change; specific latent heat (J/kg) is for change of state.",
+      "Freezing and condensing release energy to the surroundings."
+    ],
+    "keyTerms": [
+      {
+        "term": "Latent heat",
+        "definition": "The energy needed for a substance to change state, which changes internal energy but not temperature."
+      },
+      {
+        "term": "Specific latent heat (L)",
+        "definition": "The amount of energy required to change the state of one kilogram of a substance with no change in temperature (J/kg)."
+      },
+      {
+        "term": "Specific latent heat of fusion",
+        "definition": "The energy required to change 1 kg of a substance from solid to liquid with no change in temperature."
+      },
+      {
+        "term": "Specific latent heat of vaporisation",
+        "definition": "The energy required to change 1 kg of a substance from liquid to vapour with no change in temperature."
+      },
+      {
+        "term": "Heating curve",
+        "definition": "A graph of temperature against time for a substance being heated; flat sections show changes of state."
+      },
+      {
+        "term": "Cooling curve",
+        "definition": "A graph of temperature against time for a substance cooling; flat sections show condensing or freezing."
+      },
+      {
+        "term": "Melting point",
+        "definition": "The temperature at which a solid melts (and its liquid freezes)."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Energy for a change of state",
+        "formula": "energy for a change of state = mass × specific latent heat",
+        "symbols": "E = m L",
+        "units": "E in J, m in kg, L in J/kg",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Energy to melt ice",
+        "question": "Calculate the energy needed to melt 0.30 kg of ice at 0 °C. (Specific latent heat of fusion of ice = 334 000 J/kg)",
+        "steps": [
+          "E = m L.",
+          "E = 0.30 × 334 000.",
+          "E = 100 200 J (about 100 kJ)."
+        ],
+        "answer": "100 200 J"
+      },
+      {
+        "title": "Finding specific latent heat (g and kJ)",
+        "question": "45.2 kJ of energy is needed to boil away 20 g of water at 100 °C. Calculate the specific latent heat of vaporisation of water.",
+        "steps": [
+          "Convert: 45.2 kJ = 45 200 J and 20 g = 0.020 kg.",
+          "Rearrange: L = E ÷ m.",
+          "L = 45 200 ÷ 0.020 = 2 260 000 J/kg."
+        ],
+        "answer": "2 260 000 J/kg (2.26 × 10⁶ J/kg)"
+      },
+      {
+        "title": "Heating with a change of state",
+        "question": "Calculate the total energy needed to turn 0.20 kg of ice at −10 °C into water at 25 °C. (c of ice = 2100 J/kg °C; c of water = 4200 J/kg °C; L fusion = 334 000 J/kg)",
+        "steps": [
+          "Warm the ice to 0 °C: ΔE = m c Δθ = 0.20 × 2100 × 10 = 4200 J.",
+          "Melt the ice: E = m L = 0.20 × 334 000 = 66 800 J.",
+          "Warm the water to 25 °C: ΔE = 0.20 × 4200 × 25 = 21 000 J.",
+          "Total = 4200 + 66 800 + 21 000 = 92 000 J."
+        ],
+        "answer": "92 000 J"
+      },
+      {
+        "title": "Using a heating curve",
+        "question": "A 50 W heater melts 0.080 kg of wax. The flat section of the heating curve lasts 400 s. Calculate the specific latent heat of fusion of the wax.",
+        "steps": [
+          "Energy supplied during melting: E = P t = 50 × 400 = 20 000 J.",
+          "L = E ÷ m = 20 000 ÷ 0.080.",
+          "L = 250 000 J/kg."
+        ],
+        "answer": "250 000 J/kg"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Heating curve for water",
+        "caption": "Water heated at a constant rate from −20 °C (not to scale). Sloping sections A, C and E are single states warming up. Flat sections B (melting at 0 °C) and D (boiling at 100 °C) are changes of state, where energy is absorbed with no temperature rise. D is longer than B because the latent heat of vaporisation is larger.",
+        "svg": "<svg viewBox='0 0 480 290' xmlns='http://www.w3.org/2000/svg'><line x1='60' y1='255' x2='60' y2='23' stroke='currentColor' stroke-width='1.5'/><path d='M60 15 L56 23 L64 23 Z' fill='currentColor'/><line x1='55' y1='255' x2='457' y2='255' stroke='currentColor' stroke-width='1.5'/><path d='M465 255 L457 251 L457 259 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='0.7' stroke-dasharray='3 3'><line x1='60' y1='197' x2='100' y2='197'/><line x1='60' y1='57' x2='250' y2='57'/></g><polyline points='60,225 100,197 170,197 250,57 400,57 440,29' fill='none' stroke='currentColor' stroke-width='2.5'/><g font-size='12' fill='currentColor'><text x='52' y='229' text-anchor='end'>−20</text><text x='52' y='201' text-anchor='end'>0</text><text x='52' y='61' text-anchor='end'>100</text><text x='260' y='280' text-anchor='middle'>time (heated at constant power)</text><text x='16' y='140' text-anchor='middle' transform='rotate(-90 16 140)'>temperature (°C)</text><text x='64' y='186'>A: solid</text><text x='162' y='213' text-anchor='middle'>B: melting (solid + liquid)</text><text x='162' y='227' text-anchor='middle'>temperature constant:</text><text x='162' y='241' text-anchor='middle'>latent heat of fusion</text><text x='222' y='140'>C: liquid</text><text x='325' y='48' text-anchor='middle'>D: boiling (liquid + gas)</text><text x='325' y='76' text-anchor='middle'>temperature constant:</text><text x='325' y='91' text-anchor='middle'>latent heat of vaporisation</text><text x='400' y='26' text-anchor='end'>E: gas</text></g></svg>"
+      },
+      {
+        "title": "Cooling curve for stearic acid",
+        "caption": "Liquid stearic acid cools until it reaches 69 °C, then the temperature stays constant while it freezes and releases latent heat. Once it is all solid, the temperature falls again.",
+        "svg": "<svg viewBox='0 0 480 290' xmlns='http://www.w3.org/2000/svg'><line x1='60' y1='255' x2='60' y2='23' stroke='currentColor' stroke-width='1.5'/><path d='M60 15 L56 23 L64 23 Z' fill='currentColor'/><line x1='55' y1='255' x2='457' y2='255' stroke='currentColor' stroke-width='1.5'/><path d='M465 255 L457 251 L457 259 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='0.5' stroke-dasharray='2 3'><line x1='60' y1='210' x2='450' y2='210'/><line x1='60' y1='150' x2='450' y2='150'/><line x1='60' y1='90' x2='450' y2='90'/><line x1='60' y1='30' x2='450' y2='30'/></g><path d='M60 30 Q90 84 130 93 L300 93 Q330 135 450 204' fill='none' stroke='currentColor' stroke-width='2.5'/><g font-size='12' fill='currentColor'><text x='52' y='214' text-anchor='end'>30</text><text x='52' y='154' text-anchor='end'>50</text><text x='52' y='94' text-anchor='end'>70</text><text x='52' y='34' text-anchor='end'>90</text><text x='260' y='280' text-anchor='middle'>time</text><text x='16' y='140' text-anchor='middle' transform='rotate(-90 16 140)'>temperature (°C)</text><text x='92' y='45'>liquid cooling</text><text x='215' y='115' text-anchor='middle'>freezing at 69 °C (liquid + solid)</text><text x='215' y='130' text-anchor='middle'>energy released, temperature constant</text><text x='300' y='192'>solid cooling</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that if a substance is being heated, its temperature must be rising.",
+        "right": "In fact during a change of state the energy increases the potential energy of the particles and the temperature stays constant."
+      },
+      {
+        "wrong": "Students often think specific latent heat and specific heat capacity are the same thing.",
+        "right": "In fact specific heat capacity (J/kg °C) is for changing temperature, while specific latent heat (J/kg) is for changing state at constant temperature."
+      },
+      {
+        "wrong": "Students often think freezing needs energy to be supplied.",
+        "right": "In fact freezing and condensing release energy to the surroundings; melting and boiling absorb energy."
+      },
+      {
+        "wrong": "Students often think the melting and boiling sections of a heating curve should be the same length.",
+        "right": "In fact the boiling section is longer because separating particles completely into a gas needs far more energy per kilogram."
+      }
+    ],
+    "realWorld": [
+      "Steam at 100 °C causes worse burns than water at 100 °C because it releases its latent heat of vaporisation as it condenses on the skin.",
+      "Sweating cools the body: evaporating sweat takes energy from the skin.",
+      "Ice in drinks absorbs energy from the drink as it melts, keeping the drink near 0 °C.",
+      "Fridges and heat pumps use a refrigerant that evaporates inside (absorbing energy) and condenses outside (releasing energy)."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Choose the right equation: temperature changing means ΔE = m c Δθ; state changing at constant temperature means E = m L.",
+      "Check which latent heat you need: fusion for melting or freezing, vaporisation for boiling or condensing.",
+      "For multi-stage problems, set out each stage on its own line, then add.",
+      "On heating curves, label flat sections as changes of state and give the temperature (melting or boiling point).",
+      "Explain the flat section using particles: energy increases the potential energy of the particles, not their kinetic energy."
+    ],
+    "summary": [
+      "Changing state changes internal energy but not temperature.",
+      "Specific latent heat: energy to change the state of 1 kg at constant temperature.",
+      "E = m L, L in J/kg.",
+      "Fusion is solid ↔ liquid; vaporisation is liquid ↔ vapour.",
+      "Flat sections of heating and cooling curves are changes of state.",
+      "Use c for temperature changes and L for state changes."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define specific latent heat",
+      "back": "The energy required to change the state of 1 kg of a substance with no change in temperature."
+    },
+    {
+      "front": "Unit of specific latent heat",
+      "back": "J/kg"
+    },
+    {
+      "front": "Equation for energy needed to change state",
+      "back": "E = m L"
+    },
+    {
+      "front": "Specific latent heat of fusion",
+      "back": "Energy to change 1 kg from solid to liquid at constant temperature."
+    },
+    {
+      "front": "Specific latent heat of vaporisation",
+      "back": "Energy to change 1 kg from liquid to vapour at constant temperature."
+    },
+    {
+      "front": "What happens to temperature during a change of state?",
+      "back": "It stays constant."
+    },
+    {
+      "front": "What do flat sections on a heating curve show?",
+      "back": "Changes of state (melting or boiling)."
+    },
+    {
+      "front": "Why is the boiling section of a heating curve longer than the melting section?",
+      "back": "The latent heat of vaporisation is larger than the latent heat of fusion."
+    },
+    {
+      "front": "Which particle energy increases during melting?",
+      "back": "Potential energy"
+    },
+    {
+      "front": "Difference between c and L",
+      "back": "c: energy per kg per °C for a temperature change. L: energy per kg for a change of state at constant temperature."
+    },
+    {
+      "front": "Is energy absorbed or released when water freezes?",
+      "back": "Released to the surroundings."
+    },
+    {
+      "front": "Rearrange E = m L for L",
+      "back": "L = E ÷ m"
+    },
+    {
+      "front": "Why does steam scald worse than boiling water?",
+      "back": "It releases its latent heat of vaporisation as it condenses on the skin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-specific-latent-heat-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the specific latent heat of a substance?",
+      "options": [
+        "The energy needed to raise the temperature of 1 kg by 1 °C",
+        "The energy needed to change the state of 1 kg with no change in temperature",
+        "The temperature at which the substance changes state",
+        "The energy stored in 1 kg of the substance"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The energy needed to change the state of 1 kg with no change in temperature"
+      ],
+      "explanation": "This is the AQA definition. The first option defines specific heat capacity."
+    },
+    {
+      "id": "p3-specific-latent-heat-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of specific latent heat?",
+      "options": [
+        "J/kg °C",
+        "J/°C",
+        "J/kg",
+        "kg/J"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: J/kg"
+      ],
+      "explanation": "L = E ÷ m, so its unit is J/kg. J/kg °C is the unit of specific heat capacity, which involves a temperature change."
+    },
+    {
+      "id": "p3-specific-latent-heat-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens to the temperature of a substance while it is melting?",
+      "options": [
+        "It stays the same",
+        "It rises steadily",
+        "It falls",
+        "It rises then falls"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It stays the same"
+      ],
+      "explanation": "During a change of state the energy supplied changes the internal energy but not the temperature."
+    },
+    {
+      "id": "p3-specific-latent-heat-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The specific latent heat of fusion is used for which change of state?",
+      "options": [
+        "Liquid to gas",
+        "Gas to liquid",
+        "Solid to gas",
+        "Solid to liquid"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Solid to liquid"
+      ],
+      "explanation": "Fusion refers to melting (solid to liquid) or freezing. Liquid to gas uses the specific latent heat of vaporisation."
+    },
+    {
+      "id": "p3-specific-latent-heat-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "On a heating curve, what does a horizontal (flat) section show?",
+      "options": [
+        "The substance is cooling",
+        "The substance is changing state",
+        "The heater has been switched off",
+        "The substance has stopped absorbing energy"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The substance is changing state"
+      ],
+      "explanation": "The heater is still supplying energy, but it is being used to change state, so the temperature does not change."
+    },
+    {
+      "id": "p3-specific-latent-heat-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the temperature of ice stay at 0 °C while it melts, even though it is being heated?",
+      "options": [
+        "The energy increases the potential energy of the particles, not their kinetic energy",
+        "The ice is losing energy as fast as it gains it",
+        "The thermometer cannot measure temperature during melting",
+        "The particles stop moving while the ice melts"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The energy increases the potential energy of the particles, not their kinetic energy"
+      ],
+      "explanation": "The energy breaks down the regular arrangement of the particles, increasing their potential energy. Their average kinetic energy, and so the temperature, is unchanged."
+    },
+    {
+      "id": "p3-specific-latent-heat-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which quantity is needed to calculate the energy required to turn 0.5 kg of water at 100 °C into steam at 100 °C?",
+      "options": [
+        "Specific heat capacity of water",
+        "Specific latent heat of fusion of water",
+        "Specific latent heat of vaporisation of water",
+        "Density of water"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Specific latent heat of vaporisation of water"
+      ],
+      "explanation": "There is no temperature change, only a change of state from liquid to gas, so E = m L with L for vaporisation."
+    },
+    {
+      "id": "p3-specific-latent-heat-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A cooling curve for a liquid has a flat section at 69 °C. What does this show?",
+      "options": [
+        "The liquid boils at 69 °C",
+        "The substance freezes at 69 °C",
+        "The substance has stopped cooling",
+        "The thermometer is broken"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The substance freezes at 69 °C"
+      ],
+      "explanation": "On a cooling curve the flat section is where the liquid freezes. The temperature stays constant while energy is released."
+    },
+    {
+      "id": "p3-specific-latent-heat-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "When steam condenses to water, what happens to energy?",
+      "options": [
+        "Energy is absorbed from the surroundings",
+        "No energy is transferred",
+        "Energy is destroyed",
+        "Energy is released to the surroundings"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Energy is released to the surroundings"
+      ],
+      "explanation": "Condensing is the reverse of boiling, so the latent heat of vaporisation is released to the surroundings."
+    },
+    {
+      "id": "p3-specific-latent-heat-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A substance is heated at constant power. On its heating curve, the second flat section is much longer than the first. What does this show?",
+      "options": [
+        "Its specific latent heat of vaporisation is greater than its specific latent heat of fusion",
+        "Its boiling point is higher than its melting point",
+        "Its specific heat capacity as a liquid is very large",
+        "The mass of the substance increased during heating"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Its specific latent heat of vaporisation is greater than its specific latent heat of fusion"
+      ],
+      "explanation": "At constant power, the time on a flat section is proportional to the energy absorbed. A longer boiling section means more energy per kilogram is needed for vaporisation than for fusion."
+    },
+    {
+      "id": "p3-specific-latent-heat-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A solid is heated at constant power. The sloping section for the liquid is less steep than the sloping section for the solid. What does this show?",
+      "options": [
+        "The liquid has a lower specific heat capacity than the solid",
+        "The liquid has a higher specific heat capacity than the solid",
+        "The liquid has a higher latent heat than the solid",
+        "The liquid has less mass than the solid"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The liquid has a higher specific heat capacity than the solid"
+      ],
+      "explanation": "A less steep slope means a smaller temperature rise for the same energy. Since the mass is unchanged, the liquid must have the higher specific heat capacity. Latent heat only affects the flat sections."
+    },
+    {
+      "id": "p3-specific-latent-heat-q12",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is the specific latent heat of vaporisation of water much greater than its specific latent heat of fusion?",
+      "options": [
+        "Boiling happens at a higher temperature",
+        "Water molecules are heavier in a liquid",
+        "Particles must be separated completely when a liquid becomes a gas",
+        "Melting needs no energy"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Particles must be separated completely when a liquid becomes a gas"
+      ],
+      "explanation": "Melting only loosens the arrangement, and particles stay close together. Boiling separates them completely against the forces between them, which needs far more energy per kilogram."
+    },
+    {
+      "id": "p3-specific-latent-heat-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Calculate the energy needed to melt 0.50 kg of ice at 0 °C. (Specific latent heat of fusion of ice = 334 000 J/kg)",
+      "numericAnswer": 167000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: E = 0.50 × 334 000",
+        "1 mark: 167 000 J"
+      ],
+      "explanation": "E = m L = 0.50 × 334 000 = 167 000 J."
+    },
+    {
+      "id": "p3-specific-latent-heat-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Calculate the energy needed to turn 0.20 kg of water at 100 °C into steam. (Specific latent heat of vaporisation of water = 2 260 000 J/kg)",
+      "numericAnswer": 452000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: E = 0.20 × 2 260 000",
+        "1 mark: 452 000 J"
+      ],
+      "explanation": "E = m L = 0.20 × 2 260 000 = 452 000 J."
+    },
+    {
+      "id": "p3-specific-latent-heat-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "0.25 kg of a solid at its melting point needs 50 000 J to melt completely. Calculate its specific latent heat of fusion.",
+      "numericAnswer": 200000,
+      "tolerance": 0.02,
+      "unit": "J/kg",
+      "markScheme": [
+        "1 mark: L = E ÷ m",
+        "1 mark: L = 50 000 ÷ 0.25",
+        "1 mark: 200 000 J/kg"
+      ],
+      "explanation": "Rearranging E = m L gives L = E ÷ m = 200 000 J/kg."
+    },
+    {
+      "id": "p3-specific-latent-heat-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "66.8 kJ of energy is supplied to ice at 0 °C. Calculate the mass of ice that melts. (Specific latent heat of fusion of ice = 334 000 J/kg)",
+      "numericAnswer": 0.2,
+      "tolerance": 0.02,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: 66.8 kJ = 66 800 J",
+        "1 mark: m = E ÷ L = 66 800 ÷ 334 000",
+        "1 mark: 0.20 kg"
+      ],
+      "explanation": "Convert kJ to J first, then m = E ÷ L = 0.20 kg."
+    },
+    {
+      "id": "p3-specific-latent-heat-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Calculate the energy, in kJ, needed to boil away 150 g of water at 100 °C. (Specific latent heat of vaporisation of water = 2 260 000 J/kg)",
+      "numericAnswer": 339,
+      "tolerance": 0.02,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: m = 0.150 kg",
+        "1 mark: E = 0.150 × 2 260 000 = 339 000 J",
+        "1 mark: 339 kJ"
+      ],
+      "explanation": "Convert g to kg, calculate in joules, then divide by 1000 for kJ."
+    },
+    {
+      "id": "p3-specific-latent-heat-q18",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "2.0 kg of water at 0 °C freezes to ice at 0 °C. Calculate the energy released to the surroundings. (Specific latent heat of fusion of water = 334 000 J/kg)",
+      "numericAnswer": 668000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: E = 2.0 × 334 000",
+        "1 mark: 668 000 J"
+      ],
+      "explanation": "Freezing releases the same energy per kilogram as melting absorbs: E = m L = 668 000 J."
+    },
+    {
+      "id": "p3-specific-latent-heat-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Calculate the total energy needed to change 0.50 kg of ice at 0 °C into water at 20 °C. (Specific latent heat of fusion of ice = 334 000 J/kg; c of water = 4200 J/kg °C)",
+      "numericAnswer": 209000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: melting: E = 0.50 × 334 000 = 167 000 J",
+        "1 mark: heating: ΔE = 0.50 × 4200 × 20",
+        "1 mark: = 42 000 J",
+        "1 mark: total = 209 000 J"
+      ],
+      "explanation": "Two stages: melt (E = m L), then warm the water (ΔE = m c Δθ). Add the energies."
+    },
+    {
+      "id": "p3-specific-latent-heat-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A 2000 W kettle keeps water boiling at 100 °C. Calculate the time it takes to boil away 0.40 kg of water. Assume all the energy goes into the water. (Specific latent heat of vaporisation of water = 2 260 000 J/kg; energy = power × time)",
+      "numericAnswer": 452,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: E = 0.40 × 2 260 000",
+        "1 mark: E = 904 000 J",
+        "1 mark: t = E ÷ P = 904 000 ÷ 2000",
+        "1 mark: 452 s"
+      ],
+      "explanation": "Find the energy with E = m L, then rearrange E = P t to give t = E ÷ P."
+    },
+    {
+      "id": "p3-specific-latent-heat-q21",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A 50 W heater is used to melt 0.080 kg of wax. The flat section of the heating curve lasts 400 s. Calculate the specific latent heat of fusion of the wax. (energy = power × time)",
+      "numericAnswer": 250000,
+      "tolerance": 0.02,
+      "unit": "J/kg",
+      "markScheme": [
+        "1 mark: E = 50 × 400 = 20 000 J",
+        "1 mark: L = 20 000 ÷ 0.080",
+        "1 mark: 250 000 J/kg"
+      ],
+      "explanation": "The flat section is when the wax is melting, so the energy supplied in that time is the latent heat for 0.080 kg."
+    },
+    {
+      "id": "p3-specific-latent-heat-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define the specific latent heat of vaporisation.",
+      "acceptedAnswers": [
+        "energy required",
+        "change 1 kg",
+        "liquid to vapour",
+        "liquid to gas",
+        "no change in temperature"
+      ],
+      "markScheme": [
+        "1 mark: the energy required to change 1 kg of a substance from liquid to vapour (gas)",
+        "1 mark: with no change in temperature"
+      ],
+      "explanation": "Both '1 kg' and 'no change in temperature' are needed."
+    },
+    {
+      "id": "p3-specific-latent-heat-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the internal energy of a substance while it melts.",
+      "acceptedAnswers": [
+        "increases"
+      ],
+      "markScheme": [
+        "1 mark: it increases"
+      ],
+      "explanation": "Energy is being supplied, so internal energy increases even though the temperature is constant."
+    },
+    {
+      "id": "p3-specific-latent-heat-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two differences between specific heat capacity and specific latent heat.",
+      "acceptedAnswers": [
+        "temperature change vs change of state",
+        "J/kg °C vs J/kg",
+        "per degree",
+        "constant temperature"
+      ],
+      "markScheme": [
+        "1 mark: specific heat capacity is about changing temperature; specific latent heat is about changing state at constant temperature",
+        "1 mark: specific heat capacity is in J/kg °C; specific latent heat is in J/kg"
+      ],
+      "explanation": "Both are 'energy per kilogram', but c is also per degree Celsius."
+    },
+    {
+      "id": "p3-specific-latent-heat-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain, in terms of particles, why the temperature of boiling water does not rise even though the kettle keeps supplying energy.",
+      "acceptedAnswers": [
+        "potential energy increases",
+        "particles separate",
+        "kinetic energy unchanged",
+        "overcome forces"
+      ],
+      "markScheme": [
+        "1 mark: the energy is used to separate the particles / overcome the forces between them so they become a gas, increasing their potential energy",
+        "1 mark: the kinetic energy of the particles does not increase, so the temperature stays at 100 °C"
+      ],
+      "explanation": "Temperature depends on kinetic energy; during boiling the energy goes into potential energy."
+    },
+    {
+      "id": "p3-specific-latent-heat-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why sweating helps to cool the body.",
+      "acceptedAnswers": [
+        "evaporation",
+        "energy taken from skin",
+        "latent heat",
+        "liquid to gas needs energy"
+      ],
+      "markScheme": [
+        "1 mark: sweat evaporates (changes from liquid to gas), which needs energy (latent heat of vaporisation)",
+        "1 mark: this energy is transferred from the skin, so the skin cools"
+      ],
+      "explanation": "Changing state from liquid to gas absorbs energy; the skin is the source of that energy."
+    },
+    {
+      "id": "p3-specific-latent-heat-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why a scald from steam at 100 °C is usually more serious than a scald from the same mass of water at 100 °C.",
+      "acceptedAnswers": [
+        "condenses on skin",
+        "releases latent heat",
+        "extra energy",
+        "then cools as water"
+      ],
+      "markScheme": [
+        "1 mark: steam condenses on the skin and releases its latent heat of vaporisation",
+        "1 mark: so it transfers much more energy to the skin than water, which only transfers energy as it cools"
+      ],
+      "explanation": "1 kg of steam releases 2 260 000 J just by condensing, far more than water cooling by a few tens of degrees."
+    },
+    {
+      "id": "p3-specific-latent-heat-q28",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Liquid wax is cooling in a room. While it freezes, energy is still being transferred to the room, but the temperature of the wax stays constant. Explain why.",
+      "acceptedAnswers": [
+        "energy released by freezing",
+        "potential energy decreases",
+        "latent heat released",
+        "balances energy lost"
+      ],
+      "markScheme": [
+        "1 mark: as the wax freezes, the particles move closer into a fixed arrangement and their potential energy decreases, releasing energy (latent heat)",
+        "1 mark: the energy transferred to the room comes from this released latent heat, so the kinetic energy of the particles (temperature) does not fall until all the wax is solid"
+      ],
+      "explanation": "This is why cooling curves have a flat section at the freezing point."
+    },
+    {
+      "id": "p3-specific-latent-heat-q29",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "A block of ice at −20 °C is heated at a constant rate until it becomes steam at 120 °C.\nDescribe the shape of the temperature against time graph and explain each section in terms of energy and particles.",
+      "markScheme": [
+        "Indicative content: graph starts at −20 °C and slopes upwards as the ice warms (particles vibrate faster, kinetic energy increases); flat section at 0 °C while ice melts; energy increases potential energy of particles, latent heat of fusion absorbed, temperature constant; slope upwards from 0 °C to 100 °C as water warms (particles move faster); flat section at 100 °C while water boils; latent heat of vaporisation absorbed, particles separated completely; boiling section longer than melting section because latent heat of vaporisation is much larger; final upward slope as steam is heated above 100 °C; internal energy increases throughout.",
+        "Level 3 (5 to 6 marks): all five sections described in order with correct temperatures, each explained in terms of kinetic or potential energy of particles, and the different lengths of the flat sections explained.",
+        "Level 2 (3 to 4 marks): most sections described with correct temperatures, and some correct explanation of why flat sections occur.",
+        "Level 1 (1 to 2 marks): some features of the graph described, such as flat sections at 0 °C and 100 °C, with little explanation.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "Organise your answer section by section. Sloping sections are kinetic energy increasing; flat sections are potential energy increasing at constant temperature."
+    },
+    {
+      "id": "p3-specific-latent-heat-q30",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Describe how a student could measure the specific latent heat of fusion of ice using an immersion heater with a joulemeter, a funnel of crushed ice, a beaker and a balance. Explain how the result is calculated.",
+      "markScheme": [
+        "Indicative content: place the immersion heater in a funnel packed with crushed ice at 0 °C, with a beaker underneath; set up an identical control funnel with no heater to measure ice melted by the room; wait until water drips at a steady rate, then empty the beakers; switch on the heater for a measured time and record the energy from the joulemeter; measure the mass of water collected in each beaker with a balance; mass melted by heater = mass from heater funnel − mass from control funnel; L = E ÷ m.",
+        "Level 2 (3 to 4 marks): a workable method including measurement of energy and mass melted, use of L = E ÷ m, and a control or a reason for using crushed ice at 0 °C.",
+        "Level 1 (1 to 2 marks): some relevant steps, such as heating ice and measuring the mass of water, without a complete method or calculation.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "The control funnel accounts for ice melted by energy from the room, so the calculated L is not too low."
+    }
+  ]
+}

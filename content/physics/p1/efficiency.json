@@ -1,0 +1,405 @@
+{
+  "id": "p1-efficiency",
+  "science": "physics",
+  "topicId": "p1",
+  "slug": "efficiency",
+  "specRef": "4.1.2.2",
+  "title": "Efficiency",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Efficiency is the proportion of the total input energy (or power) that is transferred usefully: efficiency = useful output energy transfer ÷ total input energy transfer.",
+    "explanation": [
+      "The energy efficiency of any energy transfer can be calculated with efficiency = useful output energy transfer ÷ total input energy transfer. Because power is the rate of energy transfer, efficiency can also be calculated as efficiency = useful power output ÷ total power input. You must recall both forms. Efficiency has no units: it is a ratio of two energies (or two powers), so it is written as a decimal (such as 0.25) or as a percentage (25%) by multiplying the decimal by 100.",
+      "No real device is 100% efficient. In every energy transfer some energy is dissipated, usually by heating the device and its surroundings, or as sound. Energy is conserved, so the total input energy = useful output energy + wasted energy. This means efficiency can never be greater than 1 (100%); a calculated value above 1 shows a mistake, such as dividing the wrong way round.",
+      "You need to rearrange the efficiency equation confidently. Useful output = efficiency × total input, and total input = useful output ÷ efficiency. If a question gives a percentage, convert it to a decimal (divide by 100) before using it in the equation. Make sure both energies are in the same units, for example both in J (not one in kJ), and if you are given power and time, calculate energy using E = P × t with time in seconds.",
+      "Higher tier students should be able to describe ways to increase the efficiency of an intended energy transfer. The general idea is to reduce the energy that is dissipated. Lubricating moving parts reduces friction; thermal insulation reduces unwanted energy transfer by heating; using wires or components with lower resistance reduces electrical heating; streamlining reduces air resistance; and tightening loose parts reduces vibration and sound. Replacing a filament lamp with an LED is a common example: the LED transfers far less energy to the thermal store of the surroundings for the same light output.",
+      "Diagrams called Sankey diagrams are often used to show efficiency. The width of each arrow is proportional to the amount of energy, with the useful output going straight on and the wasted energy bending away. Reading values from these diagrams lets you calculate efficiency quickly."
+    ],
+    "keyFacts": [
+      "efficiency = useful output energy transfer ÷ total input energy transfer (recall).",
+      "efficiency = useful power output ÷ total power input (recall).",
+      "Efficiency has no units; it can be a decimal or a percentage (× 100).",
+      "No device is 100% efficient because some energy is always dissipated.",
+      "Total input energy = useful output energy + wasted energy.",
+      "Efficiency can never be greater than 1 (100%).",
+      "Rearranged: useful output = efficiency × total input; total input = useful output ÷ efficiency.",
+      "Convert a percentage to a decimal (÷ 100) before using it in a calculation.",
+      "(HT) Efficiency is increased by reducing wasted energy: lubrication, insulation, lower resistance, streamlining."
+    ],
+    "keyTerms": [
+      { "term": "Efficiency", "definition": "The proportion of total input energy or power that is transferred usefully." },
+      { "term": "Useful output energy", "definition": "The energy transferred to the store you want, such as light from a lamp or kinetic energy from a motor." },
+      { "term": "Total input energy", "definition": "All the energy supplied to a device." },
+      { "term": "Wasted energy", "definition": "Energy that is dissipated to stores that are not useful, usually thermal stores of the surroundings." },
+      { "term": "Sankey diagram", "definition": "A diagram where arrow widths are proportional to the energy transferred, showing useful and wasted energy." },
+      { "term": "Power input", "definition": "The rate at which energy is supplied to a device, in watts." }
+    ],
+    "equations": [
+      { "name": "Efficiency (energy)", "formula": "efficiency = useful output energy transfer ÷ total input energy transfer", "symbols": "efficiency = E(useful out) ÷ E(total in)", "units": "both energies in the same unit, usually joules (J); efficiency has no unit (decimal or %)", "recall": true },
+      { "name": "Efficiency (power)", "formula": "efficiency = useful power output ÷ total power input", "symbols": "efficiency = P(useful out) ÷ P(total in)", "units": "both powers in the same unit, usually watts (W); efficiency has no unit (decimal or %)", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Efficiency from energies",
+        "question": "A lamp is supplied with 200 J of energy and gives out 50 J of light. Calculate its efficiency as a decimal and as a percentage.",
+        "steps": [
+          "efficiency = useful output energy ÷ total input energy.",
+          "= 50 ÷ 200 = 0.25.",
+          "As a percentage: 0.25 × 100 = 25%."
+        ],
+        "answer": "0.25 (25%)"
+      },
+      {
+        "title": "Efficiency from powers with kW",
+        "question": "A motor has an input power of 1.5 kW and a useful power output of 1200 W. Calculate its efficiency.",
+        "steps": [
+          "Convert to the same unit: 1.5 kW = 1500 W.",
+          "efficiency = useful power output ÷ total power input = 1200 ÷ 1500.",
+          "= 0.80 (80%)."
+        ],
+        "answer": "0.80 (80%)"
+      },
+      {
+        "title": "Rearranging to find the input energy",
+        "question": "A kettle is 85% efficient. It must transfer 340 kJ of energy to the water. Calculate the total input energy in kJ.",
+        "steps": [
+          "Convert the percentage to a decimal: 85% = 0.85.",
+          "Rearrange: total input = useful output ÷ efficiency.",
+          "= 340 ÷ 0.85 = 400 kJ."
+        ],
+        "answer": "400 kJ"
+      },
+      {
+        "title": "Using power and time in minutes",
+        "question": "A motor with an input power of 250 W runs for 2.0 minutes. It transfers 18 kJ of useful energy. Calculate its efficiency.",
+        "steps": [
+          "Convert: t = 2.0 × 60 = 120 s; useful energy = 18 000 J.",
+          "Total input energy = P × t = 250 × 120 = 30 000 J.",
+          "efficiency = 18 000 ÷ 30 000 = 0.60 (60%)."
+        ],
+        "answer": "0.60 (60%)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Sankey diagram for a filament lamp",
+        "caption": "Arrow widths are proportional to energy. Of every 100 J supplied, only 10 J is transferred usefully as light; 90 J is wasted heating the surroundings. Efficiency = 10 ÷ 100 = 0.10 (10%).",
+        "svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='20' y='60' width='190' height='100' fill='#93c5fd' fill-opacity='0.5'/><path d='M210 60 L400 60 L400 54 L425 65 L400 76 L400 70 L210 70 Z' fill='#fde68a' fill-opacity='0.5'/><path d='M210 70 L300 70 L300 205 L312 205 L255 240 L198 205 L210 205 Z' fill='#fca5a5' fill-opacity='0.5'/></g><g font-size='12' fill='currentColor'><text x='30' y='100'>Electrical energy</text><text x='30' y='116'>input 100 J</text><text x='250' y='48'>Light 10 J (useful)</text><text x='310' y='130'>Thermal energy 90 J</text><text x='310' y='146'>(wasted, dissipated</text><text x='310' y='162'>to surroundings)</text><text x='20' y='200'>efficiency =</text><text x='20' y='216'>10 ÷ 100 = 0.10</text><text x='20' y='232'>= 10%</text></g></svg>"
+      },
+      {
+        "title": "Sankey diagram for an electric motor",
+        "caption": "An electric motor supplied with 1000 J transfers 750 J usefully to the kinetic store of its load. 250 J is wasted by heating (friction and resistance) and as sound. Efficiency = 750 ÷ 1000 = 0.75 (75%).",
+        "svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='20' y='60' width='190' height='100' fill='#93c5fd' fill-opacity='0.5'/><path d='M210 60 L400 60 L400 50 L430 97 L400 145 L400 135 L210 135 Z' fill='#86efac' fill-opacity='0.5'/><path d='M210 135 L235 135 L235 210 L245 210 L222 240 L200 210 L210 210 Z' fill='#fca5a5' fill-opacity='0.5'/></g><g font-size='12' fill='currentColor'><text x='30' y='100'>Electrical energy</text><text x='30' y='116'>input 1000 J</text><text x='260' y='93'>Kinetic energy</text><text x='260' y='109'>750 J (useful)</text><text x='250' y='190'>Thermal energy and sound</text><text x='250' y='206'>250 J (wasted)</text><text x='20' y='190'>efficiency =</text><text x='20' y='206'>750 ÷ 1000 = 0.75</text><text x='20' y='222'>= 75%</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often divide total input by useful output, getting an efficiency greater than 1.", "right": "In fact efficiency = useful output ÷ total input, so it is always less than 1 (less than 100%)." },
+      { "wrong": "Students often give efficiency a unit such as J or W.", "right": "In fact efficiency is a ratio of two energies or two powers, so it has no unit." },
+      { "wrong": "Students often think a more powerful device is more efficient.", "right": "In fact power is the rate of energy transfer; efficiency is the fraction that is useful. A high-power device can be very inefficient." },
+      { "wrong": "Students often think wasted energy is destroyed.", "right": "In fact wasted energy is dissipated, usually to the thermal store of the surroundings; total energy is conserved." }
+    ],
+    "realWorld": [
+      "Energy labels on fridges and washing machines rate appliances by how efficiently they use energy, helping buyers reduce bills.",
+      "Replacing filament lamps with LEDs greatly increases lighting efficiency, so far less electrical energy is wasted heating rooms.",
+      "Power stations recover some wasted thermal energy in combined heat and power schemes, using it to heat nearby homes."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Describe ways to increase the efficiency of an intended energy transfer: reduce friction by lubrication, reduce unwanted heating with thermal insulation, use lower resistance wires and components to reduce electrical heating, streamline vehicles to reduce air resistance, and tighten or cushion parts to reduce vibration and sound.",
+      "Explain that each method increases efficiency because it reduces the energy dissipated, so a greater proportion of the input energy is transferred usefully."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn both forms of the efficiency equation; they are not on the equation sheet.",
+      "Check your answer: an efficiency above 1 or above 100% means you divided the wrong way.",
+      "Only give a % sign if you multiplied by 100; 0.6 and 60% are both correct, but 0.6% is wrong.",
+      "Make sure both energies (or both powers) are in the same unit before dividing.",
+      "For 'describe how to increase efficiency' questions, always say what wasted transfer is reduced and how."
+    ],
+    "summary": [
+      "efficiency = useful output ÷ total input (energy or power).",
+      "Efficiency has no units: decimal or percentage.",
+      "No device is 100% efficient; some energy is always dissipated.",
+      "Total input = useful output + wasted energy.",
+      "Rearrange to find input or useful output; convert % to a decimal first.",
+      "(HT) Increase efficiency by reducing wasted energy transfers."
+    ]
+  },
+  "flashcards": [
+    { "front": "Efficiency equation (energy)", "back": "efficiency = useful output energy transfer ÷ total input energy transfer" },
+    { "front": "Efficiency equation (power)", "back": "efficiency = useful power output ÷ total power input" },
+    { "front": "Unit of efficiency", "back": "None: it is a ratio, given as a decimal or percentage." },
+    { "front": "Convert 0.35 to a percentage", "back": "35%" },
+    { "front": "Why can no device be 100% efficient?", "back": "Some energy is always dissipated, for example by heating the surroundings." },
+    { "front": "Can efficiency be more than 100%?", "back": "No: energy cannot be created, so useful output cannot exceed input." },
+    { "front": "Rearrange for useful output", "back": "useful output = efficiency × total input" },
+    { "front": "Rearrange for total input", "back": "total input = useful output ÷ efficiency" },
+    { "front": "What does a Sankey diagram show?", "back": "Energy transfers, with arrow widths proportional to the amount of energy; useful output straight on, wasted energy bending away." },
+    { "front": "(HT) Two ways to increase the efficiency of a motor", "back": "Lubricate moving parts to reduce friction; use lower resistance wires to reduce electrical heating." },
+    { "front": "A device wastes 70% of its input energy. What is its efficiency?", "back": "30% (0.30)" },
+    { "front": "Why are LEDs more efficient than filament lamps?", "back": "They waste far less energy heating the surroundings for the same light output." }
+  ],
+  "questions": [
+    {
+      "id": "p1-efficiency-q01",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Which equation is used to calculate efficiency?",
+      "options": ["efficiency = total input energy ÷ useful output energy", "efficiency = useful output energy × total input energy", "efficiency = useful output energy ÷ total input energy", "efficiency = total input energy − useful output energy"],
+      "answer": 2,
+      "markScheme": ["1 mark: efficiency = useful output energy ÷ total input energy"],
+      "explanation": "Efficiency is the fraction of the input that is useful, so useful output goes on top. Dividing the other way gives a value above 1, which is impossible. Subtracting gives the wasted energy."
+    },
+    {
+      "id": "p1-efficiency-q02",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A device has an efficiency of 0.65. What is this as a percentage?",
+      "options": ["65%", "6.5%", "0.65%", "650%"],
+      "answer": 0,
+      "markScheme": ["1 mark: 65%"],
+      "explanation": "Multiply the decimal by 100: 0.65 × 100 = 65%."
+    },
+    {
+      "id": "p1-efficiency-q03",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "What is the unit of efficiency?",
+      "options": ["joule (J)", "watt (W)", "joule per second (J/s)", "It has no unit"],
+      "answer": 3,
+      "markScheme": ["1 mark: It has no unit"],
+      "explanation": "Efficiency is energy ÷ energy (or power ÷ power), so the units cancel. It is a pure number or percentage."
+    },
+    {
+      "id": "p1-efficiency-q04",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Why can the efficiency of a device never be greater than 100%?",
+      "options": ["Devices always get hot", "Energy cannot be created, so the useful output cannot be more than the input", "Efficiency is measured in joules", "The input power is always greater than 100 W"],
+      "answer": 1,
+      "markScheme": ["1 mark: Energy cannot be created, so the useful output cannot be more than the input"],
+      "explanation": "By conservation of energy, useful output plus wasted energy equals input, so useful output is at most equal to input."
+    },
+    {
+      "id": "p1-efficiency-q05",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Which device is the most efficient?",
+      "options": ["Input 200 J, useful output 100 J", "Input 500 J, useful output 300 J", "Input 80 J, useful output 60 J", "Input 1000 J, useful output 450 J"],
+      "answer": 2,
+      "markScheme": ["1 mark: Input 80 J, useful output 60 J"],
+      "explanation": "Efficiencies: 0.50, 0.60, 0.75 and 0.45. The device with the largest useful output (450 J) is not the most efficient; what matters is the fraction of input that is useful."
+    },
+    {
+      "id": "p1-efficiency-q06",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "A device is 30% efficient. It is supplied with 600 J. How much energy is wasted?",
+      "options": ["420 J", "180 J", "570 J", "30 J"],
+      "answer": 0,
+      "markScheme": ["1 mark: 420 J"],
+      "explanation": "Useful output = 0.30 × 600 = 180 J, so wasted = 600 − 180 = 420 J. 180 J is the useful energy, not the wasted energy."
+    },
+    {
+      "id": "p1-efficiency-q07",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Which change would increase the efficiency of an electric motor?",
+      "options": ["Increasing the input power", "Lubricating the bearings to reduce friction", "Running the motor for a longer time", "Using thinner wires with a higher resistance"],
+      "answer": 1,
+      "markScheme": ["1 mark: Lubricating the bearings to reduce friction"],
+      "explanation": "Lubrication reduces energy dissipated by friction, so a larger fraction of the input is useful. More power or longer running does not change the fraction; higher resistance wires waste more energy by heating."
+    },
+    {
+      "id": "p1-efficiency-q08",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "A gas-fired power station has an efficiency of 35%. Which statement is correct?",
+      "options": ["35% of the energy is destroyed", "65% of the input energy is transferred as electricity", "The power station creates 35% more energy than it uses", "65% of the input energy is dissipated, mostly to the thermal store of the surroundings"],
+      "answer": 3,
+      "markScheme": ["1 mark: 65% of the input energy is dissipated, mostly to the thermal store of the surroundings"],
+      "explanation": "35% is transferred usefully as electricity; the remaining 65% is wasted, much of it heating the surroundings via the cooling towers. Energy is never destroyed or created."
+    },
+    {
+      "id": "p1-efficiency-q09",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Which change would most increase the efficiency of an electric kettle at heating water?",
+      "options": ["Surrounding the kettle body with a layer of thermal insulation", "Using a metal body with a higher thermal conductivity", "Leaving the lid open while it boils", "Using a heating element with a higher power"],
+      "answer": 0,
+      "markScheme": ["1 mark: Surrounding the kettle body with a layer of thermal insulation"],
+      "explanation": "Insulation reduces energy transferred from the water and kettle to the surroundings, so more of the input goes into the water. A metal body or open lid increases losses; higher power heats faster but does not by itself change the fraction wasted."
+    },
+    {
+      "id": "p1-efficiency-q10",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "An LED lamp and a filament lamp give the same amount of light. Why is the LED lamp more efficient?",
+      "options": ["It has a higher power input", "It wastes less energy heating the surroundings", "It transfers more energy as light per second than it takes in", "It does not need electricity"],
+      "answer": 1,
+      "markScheme": ["1 mark: It wastes less energy heating the surroundings"],
+      "explanation": "For the same useful light output, the LED needs a smaller input because less energy is dissipated as thermal energy. No lamp can give out more energy than it takes in."
+    },
+    {
+      "id": "p1-efficiency-q11",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A device is supplied with 100 J of energy and transfers 30 J usefully. Calculate its efficiency as a decimal.",
+      "numericAnswer": 0.3, "tolerance": 0.01, "unit": "",
+      "markScheme": ["1 mark: efficiency = 30 ÷ 100", "1 mark: 0.30"],
+      "explanation": "efficiency = useful output ÷ total input = 30 ÷ 100 = 0.30 (equivalent to 30%)."
+    },
+    {
+      "id": "p1-efficiency-q12",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
+      "question": "A pulley system is given 400 J of energy and transfers 300 J usefully. Calculate its percentage efficiency.",
+      "numericAnswer": 75, "tolerance": 0.01, "unit": "%",
+      "markScheme": ["1 mark: 300 ÷ 400 = 0.75", "1 mark: 75%"],
+      "explanation": "0.75 × 100 = 75%. The remaining 100 J is dissipated, mainly by friction in the pulleys."
+    },
+    {
+      "id": "p1-efficiency-q13",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A television has a total power input of 120 W. Its useful power output is 84 W. Calculate its percentage efficiency.",
+      "numericAnswer": 70, "tolerance": 0.01, "unit": "%",
+      "markScheme": ["1 mark: 84 ÷ 120 = 0.70", "1 mark: 70%"],
+      "explanation": "Use the power form: efficiency = useful power output ÷ total power input = 84 ÷ 120 = 0.70 = 70%."
+    },
+    {
+      "id": "p1-efficiency-q14",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
+      "question": "A motor is supplied with 2.5 kJ of energy and does 2000 J of useful work. Calculate its percentage efficiency.",
+      "numericAnswer": 80, "tolerance": 0.01, "unit": "%",
+      "markScheme": ["1 mark: 2.5 kJ = 2500 J", "1 mark: 2000 ÷ 2500 = 0.80", "1 mark: 80%"],
+      "explanation": "Convert to the same unit first. Dividing 2000 by 2.5 gives 800, an impossible efficiency, which shows the units were not matched."
+    },
+    {
+      "id": "p1-efficiency-q15",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A device is 40% efficient. It is supplied with 1500 J of energy. Calculate the useful energy output.",
+      "numericAnswer": 600, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: useful output = 0.40 × 1500", "1 mark: 600 J"],
+      "explanation": "Convert 40% to 0.40 and rearrange: useful output = efficiency × total input = 0.40 × 1500 = 600 J."
+    },
+    {
+      "id": "p1-efficiency-q16",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "An LED lamp is 40% efficient. Its useful light output is 12 W. Calculate its total power input.",
+      "numericAnswer": 30, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: efficiency = 0.40", "1 mark: total input = 12 ÷ 0.40", "1 mark: 30 W"],
+      "explanation": "Rearrange: total power input = useful power output ÷ efficiency = 12 ÷ 0.40 = 30 W. Multiplying instead gives 4.8 W, which is less than the output and therefore impossible."
+    },
+    {
+      "id": "p1-efficiency-q17",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A 2.0 kW kettle is switched on for 3.0 minutes. It is 90% efficient. Calculate the energy wasted, in kJ.",
+      "numericAnswer": 36, "tolerance": 0.01, "unit": "kJ",
+      "markScheme": ["1 mark: t = 180 s", "1 mark: total input = 2000 × 180 = 360 000 J", "1 mark: useful = 0.90 × 360 000 = 324 000 J (or wasted fraction = 0.10)", "1 mark: wasted = 36 000 J = 36 kJ"],
+      "explanation": "Input energy = P × t = 360 kJ. 90% is useful, so 10% is wasted: 0.10 × 360 = 36 kJ."
+    },
+    {
+      "id": "p1-efficiency-q18",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "An electric winch is supplied with 2.5 kJ of energy. It lifts a 50 kg load through a height of 4.0 m. Calculate the percentage efficiency of the winch. Give your answer to 2 significant figures. (g = 9.8 N/kg)",
+      "numericAnswer": 78, "tolerance": 0.02, "unit": "%",
+      "markScheme": ["1 mark: useful output = mgh = 50 × 9.8 × 4.0 = 1960 J", "1 mark: input = 2500 J", "1 mark: 1960 ÷ 2500 = 0.784", "1 mark: 78%"],
+      "explanation": "The useful output is the gain in gravitational potential energy, 1960 J. Efficiency = 1960 ÷ 2500 = 0.784, which is 78% to 2 s.f."
+    },
+    {
+      "id": "p1-efficiency-q19",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A 60 W filament lamp has an efficiency of 5%. Calculate the power wasted by the lamp.",
+      "numericAnswer": 57, "tolerance": 0.01, "unit": "W",
+      "markScheme": ["1 mark: useful power = 0.05 × 60 = 3 W (or wasted fraction 0.95)", "1 mark: wasted power = 57 W"],
+      "explanation": "Only 5% (3 W) is useful light, so 60 − 3 = 57 W is wasted heating the surroundings."
+    },
+    {
+      "id": "p1-efficiency-q20",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Write down the equation that links efficiency, useful output energy transfer and total input energy transfer.",
+      "acceptedAnswers": ["efficiency = useful output energy transfer ÷ total input energy transfer", "efficiency = useful output ÷ total input"],
+      "markScheme": ["1 mark: efficiency = useful output energy transfer ÷ total input energy transfer"],
+      "explanation": "This must be recalled. The useful output is always on the top."
+    },
+    {
+      "id": "p1-efficiency-q21",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Write down the equation that links efficiency, useful power output and total power input.",
+      "acceptedAnswers": ["efficiency = useful power output ÷ total power input", "efficiency = useful power out ÷ total power in"],
+      "markScheme": ["1 mark: efficiency = useful power output ÷ total power input"],
+      "explanation": "The power form is used when you are given powers in watts rather than energies in joules."
+    },
+    {
+      "id": "p1-efficiency-q22",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A machine has an efficiency of 0.25. State the percentage of the input energy that is wasted.",
+      "acceptedAnswers": ["75%", "75 percent", "0.75"],
+      "markScheme": ["1 mark: 75%"],
+      "explanation": "0.25 = 25% useful, so 100 − 25 = 75% is wasted."
+    },
+    {
+      "id": "p1-efficiency-q23",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Explain why no real device can be 100% efficient.",
+      "acceptedAnswers": ["energy is always dissipated", "some energy wasted", "friction", "resistance causes heating", "energy transferred to thermal store of surroundings"],
+      "markScheme": ["1 mark: in every energy transfer some energy is dissipated (wasted)", "1 mark: for example by heating due to friction or electrical resistance, or as sound, so the useful output is less than the input"],
+      "explanation": "There is always some unwanted transfer, usually heating, so useful output is always less than total input."
+    },
+    {
+      "id": "p1-efficiency-q24",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "An advert claims a new motor is 120% efficient. Explain why this claim must be false.",
+      "acceptedAnswers": ["energy cannot be created", "useful output cannot exceed input", "conservation of energy", "efficiency cannot exceed 100%"],
+      "markScheme": ["1 mark: 120% would mean the useful output is greater than the input", "1 mark: energy cannot be created (conservation of energy), so efficiency cannot exceed 100%"],
+      "explanation": "Since total input = useful output + wasted, the useful output can never exceed the input."
+    },
+    {
+      "id": "p1-efficiency-q25",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "An LED lamp and a filament lamp give out the same amount of light. Explain why the LED lamp is cheaper to run.",
+      "acceptedAnswers": ["LED more efficient", "less energy wasted as heat", "lower power input", "less energy input needed for same light"],
+      "markScheme": ["1 mark: the LED is more efficient, wasting less energy heating the surroundings", "1 mark: so it needs a smaller input power (less energy from the supply) for the same light, so it costs less"],
+      "explanation": "Same useful output with higher efficiency means less total input energy, and you pay for input energy."
+    },
+    {
+      "id": "p1-efficiency-q26",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Describe two ways of increasing the efficiency of a car.",
+      "acceptedAnswers": ["lubricate engine", "reduce friction", "streamline", "reduce air resistance", "reduce mass", "insulate engine", "low rolling resistance tyres"],
+      "markScheme": ["1 mark each for any two: lubricate moving parts to reduce friction; streamline the body to reduce air resistance; insulate the engine to reduce unwanted heating; tighten loose parts to reduce vibration and sound"],
+      "explanation": "Each method reduces the energy dissipated, so more of the chemical energy from the fuel ends up in the kinetic store."
+    },
+    {
+      "id": "p1-efficiency-q27",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "Explain how adding thermal insulation around the body of an electric kettle increases its efficiency.",
+      "acceptedAnswers": ["reduces energy transferred to surroundings", "less energy wasted", "more energy goes into the water", "lower rate of energy transfer by heating"],
+      "markScheme": ["1 mark: insulation reduces the rate of energy transfer by heating from the kettle and water to the surroundings", "1 mark: so less energy is wasted (dissipated)", "1 mark: so a greater proportion of the input energy goes into the thermal store of the water, increasing efficiency"],
+      "explanation": "The useful output is the energy in the water. Reducing losses means more of the same input is useful, so useful output ÷ total input rises."
+    },
+    {
+      "id": "p1-efficiency-q28",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "An engineer wants to increase the efficiency of an electric motor that drives a lift.\nDescribe and explain the changes she could make, and why each one increases efficiency.",
+      "markScheme": [
+        "Indicative content: efficiency = useful output ÷ total input, so reducing wasted energy increases efficiency; lubricate the bearings and moving parts to reduce friction so less energy is dissipated by heating; use thicker copper wires (lower resistance) in the motor and cables so less energy is dissipated by electrical heating; reduce vibration by tightening or balancing parts so less energy is wasted as sound; use a counterweight so less energy is needed to lift the lift car; streamline or reduce air resistance in the lift shaft; regular maintenance to keep parts clean and aligned; total energy is conserved, so energy saved from waste becomes useful output or reduces input needed.",
+        "Level 3 (5 to 6 marks): at least three relevant changes, each linked clearly to the specific wasted energy transfer it reduces and to efficiency.",
+        "Level 2 (3 to 4 marks): two relevant changes with some explanation of how they reduce wasted energy.",
+        "Level 1 (1 to 2 marks): one or two changes stated with little explanation."
+      ],
+      "explanation": "Every improvement works the same way: it cuts a wasted energy transfer (friction, electrical heating, sound), so a larger share of the input is useful."
+    },
+    {
+      "id": "p1-efficiency-q29",
+      "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "question": "Two kettles each transfer 336 kJ of energy to the water inside them.\nKettle A has a power of 2.0 kW and takes 3.5 minutes. Kettle B has a power of 2.4 kW and takes 3.0 minutes.\nCalculate the efficiency of each kettle and state which is more efficient.",
+      "markScheme": [
+        "Indicative content: Kettle A: t = 210 s, input = 2000 × 210 = 420 000 J, efficiency = 336 000 ÷ 420 000 = 0.80 (80%); Kettle B: t = 180 s, input = 2400 × 180 = 432 000 J, efficiency = 336 000 ÷ 432 000 = 0.78 (78%); kettle A is more efficient (although B is faster).",
+        "Level 2 (3 to 4 marks): both efficiencies correct with units converted and the correct kettle identified.",
+        "Level 1 (1 to 2 marks): one input energy or one efficiency correct."
+      ],
+      "explanation": "Convert minutes to seconds and kW to W, find each input with E = P × t, then divide the useful 336 000 J by each input. The faster kettle is not the more efficient one."
+    },
+    {
+      "id": "p1-efficiency-q30",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A small electric motor with an input power of 40 W runs for 6.0 s. In this time it lifts a 2.0 kg mass through a height of 9.0 m.\nCalculate the efficiency of the motor and explain what happens to the energy that is not transferred usefully. (g = 9.8 N/kg)",
+      "markScheme": [
+        "Indicative content: input energy = 40 × 6.0 = 240 J; useful output = mgh = 2.0 × 9.8 × 9.0 = 176.4 J; efficiency = 176.4 ÷ 240 = 0.735 (73.5%, accept 74%); the remaining 63.6 J is dissipated, by heating due to friction in the motor and pulley and resistance in the wires, and as sound, ending up in the thermal store of the surroundings.",
+        "Level 2 (3 to 4 marks): correct efficiency with clear working and a correct description of the wasted energy.",
+        "Level 1 (1 to 2 marks): input or useful energy calculated correctly, or wasted energy described."
+      ],
+      "explanation": "Input = Pt = 240 J; useful = mgh = 176.4 J; efficiency = 0.735. The difference is wasted mainly as thermal energy."
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "id": "p5-scalars-and-vectors",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "scalars-and-vectors",
+  "specRef": "4.5.1.1",
+  "title": "Scalar and vector quantities",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A scalar quantity has magnitude (size) only. A vector quantity has magnitude and an associated direction, and can be represented by an arrow whose length shows the magnitude and whose direction shows the direction of the quantity.",
+    "explanation": [
+      "Every physical quantity is either a scalar or a vector. A scalar is described completely by a number and a unit, for example a mass of 5 kg, a time of 20 s or a temperature of 18 °C. Adding a direction to these makes no sense: there is no such thing as 5 kg to the north. A vector needs a number, a unit and a direction to describe it fully, for example a force of 12 N downwards or a velocity of 20 m/s east.",
+      "Several quantities come in pairs, one scalar and one vector. Distance (how far something travels along its path) is a scalar, while displacement (how far it ends up from its starting point in a straight line, and in which direction) is a vector. Speed is a scalar, while velocity is speed in a given direction, so it is a vector. Two cars travelling at 30 m/s in opposite directions have the same speed but different velocities.",
+      "All forces are vectors, because a push or a pull always acts in a particular direction. Weight is a force, so it is a vector that acts downwards towards the centre of the Earth. Mass, which is the amount of matter in an object, is a scalar. Acceleration is also a vector, because it describes how velocity changes and velocity has a direction.",
+      "Vectors can be drawn as arrows. The length of the arrow represents the magnitude of the vector, drawn to a chosen scale such as 1 cm = 5 N, and the arrow points in the direction of the vector. A 20 N force to the right would be a 4 cm arrow pointing right at this scale. A 10 N force would be half as long. Drawing arrows to scale lets you compare vectors and, later, combine them to find a resultant.",
+      "A negative sign does not always mean direction. A temperature of −5 °C is still a scalar: the minus sign just shows it is below zero on the scale. For vectors that act along a line, a minus sign is often used to show the opposite direction, so a velocity of −3 m/s means 3 m/s in the opposite direction to the one chosen as positive."
+    ],
+    "keyFacts": [
+      "Scalar quantities have magnitude only.",
+      "Vector quantities have magnitude and direction.",
+      "Examples of scalars: distance, speed, mass, time, energy, temperature.",
+      "Examples of vectors: displacement, velocity, force, weight, acceleration, momentum.",
+      "Speed is the scalar partner of velocity; distance is the scalar partner of displacement.",
+      "A vector can be shown by an arrow: length = magnitude, arrowhead = direction.",
+      "Arrows must be drawn to a stated scale, e.g. 1 cm = 10 N.",
+      "An object moving in a circle at constant speed has a changing velocity, because its direction keeps changing.",
+      "Two vectors are only equal if both their magnitude and direction are the same."
+    ],
+    "keyTerms": [
+      {
+        "term": "Scalar quantity",
+        "definition": "A quantity that has magnitude (size) only, such as mass or speed."
+      },
+      {
+        "term": "Vector quantity",
+        "definition": "A quantity that has both magnitude and direction, such as force or velocity."
+      },
+      {
+        "term": "Magnitude",
+        "definition": "The size of a quantity, given by a number and a unit."
+      },
+      {
+        "term": "Displacement",
+        "definition": "The distance travelled in a straight line from start to finish, in a stated direction (a vector)."
+      },
+      {
+        "term": "Velocity",
+        "definition": "Speed in a given direction (a vector)."
+      },
+      {
+        "term": "Scale (for a vector diagram)",
+        "definition": "The rule linking arrow length to magnitude, for example 1 cm represents 5 N."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Reading a vector arrow drawn to scale",
+        "question": "A force arrow is drawn 3.5 cm long, pointing vertically downwards. The scale is 1 cm = 20 N. Describe the force fully.",
+        "steps": [
+          "Magnitude = arrow length × scale value = 3.5 × 20.",
+          "= 70 N.",
+          "Direction comes from the arrow: vertically downwards.",
+          "A full description needs both parts."
+        ],
+        "answer": "70 N vertically downwards"
+      },
+      {
+        "title": "Drawing an arrow for a vector",
+        "question": "A student wants to draw a 45 N force acting to the left using a scale of 1 cm = 5 N. How long should the arrow be?",
+        "steps": [
+          "Arrow length = magnitude ÷ value of 1 cm.",
+          "= 45 ÷ 5.",
+          "= 9 cm.",
+          "Draw a 9 cm line with the arrowhead pointing left."
+        ],
+        "answer": "A 9 cm arrow pointing to the left"
+      },
+      {
+        "title": "Distance and displacement",
+        "question": "A dog runs 30 m east to fetch a ball and then 12 m west back towards its owner. Give the total distance travelled and the displacement.",
+        "steps": [
+          "Distance is a scalar, so add the lengths of the path: 30 + 12 = 42 m.",
+          "Displacement is a vector: take east as positive. 30 m east + 12 m west = 30 − 12 = 18 m.",
+          "The dog finishes east of its starting point."
+        ],
+        "answer": "Distance = 42 m; displacement = 18 m east"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Vectors drawn as arrows to scale",
+        "caption": "Each arrow represents a force. The length gives the magnitude (1 square = 5 N) and the arrowhead gives the direction. Arrow C is the longest because it is the largest force.",
+        "svg": "<svg viewBox='0 0 420 250' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='sv-grid' width='20' height='20' patternUnits='userSpaceOnUse'><path d='M20 0H0V20' fill='none' stroke='currentColor' stroke-opacity='0.2'/></pattern></defs><rect x='0' y='0' width='420' height='200' fill='url(#sv-grid)' stroke='currentColor' stroke-opacity='0.4'/><g stroke='currentColor' stroke-width='3'><line x1='40' y1='60' x2='110' y2='60'/><line x1='80' y1='180' x2='80' y2='150'/><line x1='380' y1='120' x2='270' y2='120'/></g><g fill='currentColor'><path d='M120 60 L108 54 L108 66 Z'/><path d='M80 140 L74 152 L86 152 Z'/><path d='M260 120 L272 114 L272 126 Z'/></g><g font-size='12' fill='currentColor'><text x='40' y='50'>A: 20 N to the right (4 squares)</text><text x='92' y='168'>B: 10 N upwards (2 squares)</text><text x='250' y='110'>C: 30 N to the left (6 squares)</text><text x='10' y='222'>Scale: 1 square = 5 N</text><text x='10' y='242'>Length of arrow = magnitude. Arrowhead = direction.</text></g></svg>"
+      },
+      {
+        "title": "Scalar and vector quantities",
+        "caption": "Scalars have magnitude only; vectors have magnitude and direction. The dashed lines link scalar and vector partners: distance and displacement, speed and velocity.",
+        "svg": "<svg viewBox='0 0 420 230' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='190' height='210' rx='8' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='220' y='10' width='190' height='210' rx='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='105' y='32' font-weight='bold'>SCALAR</text><text x='105' y='50'>magnitude only</text><text x='315' y='32' font-weight='bold'>VECTOR</text><text x='315' y='50'>magnitude and direction</text><text x='105' y='80'>distance</text><text x='105' y='102'>speed</text><text x='105' y='124'>mass</text><text x='105' y='146'>time</text><text x='105' y='168'>energy</text><text x='105' y='190'>temperature</text><text x='315' y='80'>displacement</text><text x='315' y='102'>velocity</text><text x='315' y='124'>force (including weight)</text><text x='315' y='146'>acceleration</text><text x='315' y='168'>momentum</text><text x='315' y='190'>e.g. 12 N downwards</text></g><g stroke='currentColor' stroke-dasharray='4 3'><line x1='150' y1='76' x2='255' y2='76'/><line x1='140' y1='98' x2='270' y2='98'/></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think speed and velocity are the same thing.",
+        "right": "In fact velocity is speed in a given direction. Two objects with the same speed have different velocities if they move in different directions."
+      },
+      {
+        "wrong": "Students often think a negative value always means a quantity is a vector.",
+        "right": "In fact a temperature of −10 °C is a scalar; the minus sign only means below zero. A minus sign shows direction only for vectors along a line."
+      },
+      {
+        "wrong": "Students often think an object moving at a constant speed must have a constant velocity.",
+        "right": "In fact if the direction changes (for example moving in a circle), the velocity changes even though the speed does not."
+      },
+      {
+        "wrong": "Students often think mass and weight are both vectors because they are linked.",
+        "right": "In fact mass is a scalar (amount of matter) while weight is a force, so it is a vector acting downwards."
+      }
+    ],
+    "realWorld": [
+      "Air traffic controllers and pilots give aircraft velocities (speed and heading), not just speeds, so planes do not collide.",
+      "Weather forecasts describe wind as a vector, for example 20 mph from the south-west, because direction matters as much as strength.",
+      "Sat-nav apps show both the distance along the roads (scalar) and the straight-line displacement to a destination.",
+      "Engineers draw force arrows to scale on diagrams of bridges and cranes to check the structure can cope with each force."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "When asked for a vector, always give a direction as well as a number and a unit (e.g. 15 m/s north), or you may lose a mark.",
+      "When drawing a vector arrow, state the scale and use a ruler; measure the length carefully to the nearest mm.",
+      "Learn the pairs: distance/displacement and speed/velocity. Questions often ask you to explain the difference using one pair.",
+      "If asked why velocity changes when speed is constant, say the direction is changing and velocity is a vector."
+    ],
+    "summary": [
+      "Scalars have magnitude only; vectors have magnitude and direction.",
+      "Force, weight, velocity, displacement and acceleration are vectors.",
+      "Mass, speed, distance, time, energy and temperature are scalars.",
+      "Vectors are shown as arrows: length for magnitude, arrowhead for direction.",
+      "Arrow diagrams must be drawn to a stated scale.",
+      "Changing direction changes velocity, even at constant speed."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a scalar quantity?",
+      "back": "A quantity with magnitude (size) only."
+    },
+    {
+      "front": "What is a vector quantity?",
+      "back": "A quantity with magnitude and direction."
+    },
+    {
+      "front": "Is force a scalar or a vector?",
+      "back": "A vector: it always acts in a direction."
+    },
+    {
+      "front": "Is mass a scalar or a vector?",
+      "back": "A scalar."
+    },
+    {
+      "front": "Vector partner of speed?",
+      "back": "Velocity."
+    },
+    {
+      "front": "Vector partner of distance?",
+      "back": "Displacement."
+    },
+    {
+      "front": "What does the length of a vector arrow show?",
+      "back": "The magnitude of the vector (drawn to scale)."
+    },
+    {
+      "front": "What does the direction of a vector arrow show?",
+      "back": "The direction of the vector quantity."
+    },
+    {
+      "front": "Is temperature a scalar or a vector?",
+      "back": "A scalar, even when negative."
+    },
+    {
+      "front": "Scale 1 cm = 10 N: how long is the arrow for 35 N?",
+      "back": "3.5 cm."
+    },
+    {
+      "front": "Why does an object moving in a circle at constant speed have a changing velocity?",
+      "back": "Its direction is constantly changing, and velocity includes direction."
+    },
+    {
+      "front": "Give three examples of scalars.",
+      "back": "Any three from: mass, distance, speed, time, energy, temperature."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-scalars-and-vectors-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a vector quantity?",
+      "options": [
+        "Mass",
+        "Speed",
+        "Force",
+        "Energy"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Force"
+      ],
+      "explanation": "Force always acts in a particular direction, so it is a vector. Mass, speed and energy have size only, so they are scalars."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a scalar quantity?",
+      "options": [
+        "Velocity",
+        "Displacement",
+        "Weight",
+        "Temperature"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Temperature"
+      ],
+      "explanation": "Temperature has magnitude only. Velocity, displacement and weight all need a direction, so they are vectors."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes a scalar quantity?",
+      "options": [
+        "It has magnitude only.",
+        "It has direction only.",
+        "It has magnitude and direction.",
+        "It is always a force."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It has magnitude only."
+      ],
+      "explanation": "A scalar has size (magnitude) only. A vector has magnitude and direction. Many scalars, such as mass, are not forces."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a vector diagram, what does the length of an arrow represent?",
+      "options": [
+        "The direction of the vector",
+        "The magnitude of the vector",
+        "The time the vector acts for",
+        "The type of vector"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The magnitude of the vector"
+      ],
+      "explanation": "The length of the arrow, drawn to scale, shows the magnitude. The way the arrow points shows the direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which pair shows a scalar quantity followed by its matching vector quantity?",
+      "options": [
+        "Velocity and speed",
+        "Displacement and distance",
+        "Speed and velocity",
+        "Mass and energy"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Speed and velocity"
+      ],
+      "explanation": "Speed is the scalar; velocity is speed in a given direction, so it is the matching vector. The first two pairs are the wrong way round, and mass and energy are both scalars."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Car X travels north at 25 m/s. Car Y travels south at 25 m/s. Which statement is correct?",
+      "options": [
+        "They have the same speed and the same velocity.",
+        "They have different speeds and different velocities.",
+        "They have different speeds but the same velocity.",
+        "They have the same speed but different velocities."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: They have the same speed but different velocities."
+      ],
+      "explanation": "Both move at 25 m/s so their speeds are equal. Velocity includes direction, and they move in opposite directions, so their velocities are different."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which list contains only vector quantities?",
+      "options": [
+        "Force, acceleration, displacement",
+        "Force, mass, velocity",
+        "Speed, weight, acceleration",
+        "Distance, displacement, velocity"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Force, acceleration, displacement"
+      ],
+      "explanation": "Force, acceleration and displacement all have direction. Mass, speed and distance are scalars, so each of the other lists contains at least one scalar."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A force arrow is drawn 6.0 cm long. The scale is 1 cm = 2 N. What force does the arrow represent?",
+      "options": [
+        "3 N",
+        "8 N",
+        "12 N",
+        "4 N"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 12 N"
+      ],
+      "explanation": "Magnitude = 6.0 × 2 = 12 N. Dividing 6 by 2 to get 3 N, or adding to get 8 N, are common slips."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An athlete runs exactly one lap of a 400 m track and finishes where she started. Which row is correct?",
+      "options": [
+        "Distance = 0 m, displacement = 400 m",
+        "Distance = 400 m, displacement = 400 m",
+        "Distance = 0 m, displacement = 0 m",
+        "Distance = 400 m, displacement = 0 m"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Distance = 400 m, displacement = 0 m"
+      ],
+      "explanation": "Distance is the length of the path, 400 m. Displacement is the straight-line change in position from start to finish, which is zero because she ends at the start."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A ball on a string is whirled in a horizontal circle at a constant speed. Which statement is correct?",
+      "options": [
+        "Its velocity is constant because its speed is constant.",
+        "Its velocity is changing because its direction is changing.",
+        "Its speed is changing because its direction is changing.",
+        "Its velocity is zero because it returns to the same point."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Its velocity is changing because its direction is changing."
+      ],
+      "explanation": "Velocity is a vector, so a change of direction is a change of velocity, even though the speed (a scalar) stays the same."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A force arrow is 3.5 cm long. The scale is 1 cm = 10 N. Calculate the size of the force.",
+      "numericAnswer": 35,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 35 N"
+      ],
+      "explanation": "Force = 3.5 × 10 = 35 N. Each centimetre of arrow represents 10 N."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student draws a 45 N force using a scale of 1 cm = 5 N. Calculate the length of the arrow she should draw.",
+      "numericAnswer": 9,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: length = 45 ÷ 5",
+        "1 mark: 9 cm"
+      ],
+      "explanation": "Length = magnitude ÷ value of 1 cm = 45 ÷ 5 = 9 cm. Multiplying (45 × 5) gives a far too long arrow."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A velocity arrow is 2.4 cm long. The scale is 1 cm = 20 m/s. Calculate the speed it represents.",
+      "numericAnswer": 48,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: 2.4 × 20",
+        "1 mark: 48 m/s"
+      ],
+      "explanation": "Speed = 2.4 × 20 = 48 m/s. The arrow direction would give the direction of the velocity."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "On a diagram, a 300 N force is represented by an arrow 7.5 cm long. Calculate the force represented by an arrow 4.2 cm long on the same diagram.",
+      "numericAnswer": 168,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: scale = 300 ÷ 7.5 = 40 N per cm",
+        "1 mark: 4.2 × 40 = 168 N"
+      ],
+      "explanation": "First find the scale: 300 ÷ 7.5 = 40 N per cm. Then 4.2 × 40 = 168 N."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the difference between a scalar quantity and a vector quantity.",
+      "acceptedAnswers": [
+        "vector has direction",
+        "scalar has magnitude only",
+        "vector has magnitude and direction"
+      ],
+      "markScheme": [
+        "1 mark: a vector has direction as well as magnitude, a scalar has magnitude only"
+      ],
+      "explanation": "Both have a size (magnitude). Only a vector also has a direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two vector quantities.",
+      "acceptedAnswers": [
+        "force",
+        "velocity",
+        "displacement",
+        "acceleration",
+        "weight",
+        "momentum"
+      ],
+      "markScheme": [
+        "1 mark each for any two: force, weight, velocity, displacement, acceleration, momentum"
+      ],
+      "explanation": "These all need a direction to describe them. Speed, distance and mass are scalars, so they would not score."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how an arrow can be used to represent a vector quantity.",
+      "acceptedAnswers": [
+        "length represents magnitude",
+        "arrow points in direction",
+        "drawn to scale"
+      ],
+      "markScheme": [
+        "1 mark: length of arrow represents the magnitude (to scale)",
+        "1 mark: arrow points in the direction of the vector"
+      ],
+      "explanation": "An arrow carries both pieces of information: its length (to a scale) gives the size and the way it points gives the direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A car's speedometer reads 30 m/s. Explain why this reading is a speed and not a velocity.",
+      "acceptedAnswers": [
+        "no direction given",
+        "velocity needs direction",
+        "speed is scalar"
+      ],
+      "markScheme": [
+        "1 mark: the speedometer gives only the magnitude / no direction",
+        "1 mark: velocity is a vector so needs a direction"
+      ],
+      "explanation": "The speedometer reads the same whichever way the car is heading, so it measures speed, a scalar. A velocity would need a direction such as north."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why weight is a vector quantity but mass is a scalar quantity.",
+      "acceptedAnswers": [
+        "weight is a force",
+        "weight acts downwards",
+        "weight has direction",
+        "mass has no direction",
+        "mass has magnitude only"
+      ],
+      "markScheme": [
+        "1 mark: weight is a force which acts in a direction (downwards / towards centre of Earth)",
+        "1 mark: mass is amount of matter, magnitude only, no direction"
+      ],
+      "explanation": "Weight is the force of gravity, which pulls towards the centre of the Earth. Mass is only an amount of matter, so it has no direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student walks 50 m north and then 50 m south. State the total distance walked and the student's displacement.",
+      "acceptedAnswers": [
+        "100 m",
+        "0 m",
+        "zero"
+      ],
+      "markScheme": [
+        "1 mark: distance = 100 m",
+        "1 mark: displacement = 0 (m)"
+      ],
+      "explanation": "Distance adds up the whole path: 50 + 50 = 100 m. Displacement measures the change in position: the student ends where they started, so it is zero."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A sprinter runs 100 m in a straight line along a track and then jogs 40 m back along the same line. Calculate the total distance and the displacement, and explain why they are different.",
+      "acceptedAnswers": [
+        "140 m",
+        "60 m",
+        "direction of the race",
+        "displacement is a vector",
+        "distance is scalar"
+      ],
+      "markScheme": [
+        "1 mark: distance = 140 m",
+        "1 mark: displacement = 60 m in the direction of the race",
+        "1 mark: displacement is a vector so the backwards 40 m is subtracted / distance is a scalar so all of the path is added"
+      ],
+      "explanation": "Distance is a scalar, so all the motion counts: 100 + 40 = 140 m. Displacement is a vector, so the 40 m back cancels part of the 100 m forward: 100 − 40 = 60 m forward."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A satellite orbits the Earth in a circle at a constant speed. Explain why the velocity of the satellite is not constant.",
+      "acceptedAnswers": [
+        "direction changes",
+        "velocity is a vector",
+        "velocity includes direction"
+      ],
+      "markScheme": [
+        "1 mark: velocity is a vector / includes direction",
+        "1 mark: the direction of motion is continually changing"
+      ],
+      "explanation": "The speed stays the same, but in a circular path the direction changes all the time. Since velocity includes direction, the velocity changes."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: \"Temperature must be a vector because it can be negative, like −5 °C.\" Explain why the student is wrong.",
+      "acceptedAnswers": [
+        "no direction",
+        "minus means below zero",
+        "magnitude only",
+        "scalar"
+      ],
+      "markScheme": [
+        "1 mark: the minus sign shows a value below zero on the temperature scale, not a direction",
+        "1 mark: temperature has magnitude only so it is a scalar"
+      ],
+      "explanation": "A negative sign only shows direction for vectors along a line. For temperature it means colder than 0 °C, and temperature never has a direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the vector quantity that is the matching partner of distance.",
+      "acceptedAnswers": [
+        "displacement"
+      ],
+      "markScheme": [
+        "1 mark: displacement"
+      ],
+      "explanation": "Displacement is distance in a straight line in a given direction."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student writes: \"A force of 20 N acts on the box.\" Explain why this does not fully describe the force, and describe how the student could represent the force on a diagram drawn to scale.",
+      "markScheme": [
+        "Indicative content:",
+        "Force is a vector quantity.",
+        "A vector has magnitude and direction; the student has given only the magnitude (20 N).",
+        "A direction is needed, e.g. 20 N to the right / horizontally / upwards.",
+        "Choose a scale, e.g. 1 cm = 5 N.",
+        "Draw an arrow 4 cm long with a ruler.",
+        "Arrow starts on the box and points in the direction of the force.",
+        "Level 2 (3 to 4 marks): clear explanation that force is a vector needing direction AND a correct description of a scaled arrow.",
+        "Level 1 (1 to 2 marks): states that a direction is needed OR describes drawing an arrow, with little detail."
+      ],
+      "explanation": "Force is a vector, so a full description needs a direction. On a diagram, the arrow's length (to scale) gives 20 N and its direction shows which way the force acts."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A plane flies 300 km due east from airport A to airport B in 1 hour. It then flies 300 km due west back to airport A in 1 hour.\nCompare the distance and displacement, and the speed and velocity, of the plane for each leg and for the whole journey.",
+      "markScheme": [
+        "Indicative content:",
+        "Distance is a scalar; displacement is a vector.",
+        "Each leg: distance 300 km; displacement 300 km east then 300 km west.",
+        "Whole journey: distance 600 km; displacement 0 (returns to start).",
+        "Speed is a scalar: 300 km/h on each leg (300 km in 1 h).",
+        "Velocity is a vector: 300 km/h east on the first leg, 300 km/h west on the second leg.",
+        "The speeds are equal but the velocities are different because the directions are opposite.",
+        "Average speed for whole trip 300 km/h; overall displacement zero so average velocity zero.",
+        "Level 3 (5 to 6 marks): detailed, correct comparison of all four quantities with values and directions, explaining scalar/vector difference.",
+        "Level 2 (3 to 4 marks): correct values for distance and displacement or for speed and velocity, with some explanation.",
+        "Level 1 (1 to 2 marks): simple statements such as distance is 600 km or velocity has direction."
+      ],
+      "explanation": "The key idea is that direction matters only for vectors. The plane covers 600 km in total (distance, scalar), but ends where it started, so its displacement is zero. Its speed is the same each way while its velocity reverses."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q27",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a complete description of a velocity?",
+      "options": [
+        "15 m/s",
+        "15 m/s north",
+        "15 m north",
+        "north"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 15 m/s north"
+      ],
+      "explanation": "A velocity needs a magnitude with the correct unit (15 m/s) and a direction (north). 15 m north is a displacement, not a velocity."
+    },
+    {
+      "id": "p5-scalars-and-vectors-q28",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two forces each have a magnitude of 5 N. Which statement must be true?",
+      "options": [
+        "They are equal forces.",
+        "They act in the same direction.",
+        "They have the same magnitude but may act in different directions.",
+        "They cancel each other out."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: They have the same magnitude but may act in different directions."
+      ],
+      "explanation": "Being equal in magnitude says nothing about direction. They are only equal vectors if they also act in the same direction, and they only cancel if they act in opposite directions along the same line."
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "id": "p4-isotopes",
+  "science": "physics",
+  "topicId": "p4",
+  "slug": "isotopes",
+  "specRef": "4.4.1.2",
+  "title": "Mass number, atomic number and isotopes",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The atomic number is the number of protons in an atom, and the mass number is the total number of protons and neutrons. Isotopes are atoms of the same element (same number of protons) with different numbers of neutrons.",
+    "explanation": [
+      "In an atom, the number of electrons is equal to the number of protons in the nucleus. Each proton has a positive charge and each electron has an equal negative charge, so the charges cancel. This is why atoms have no overall electrical charge.",
+      "The number of protons in an atom is called its atomic number (symbol Z). Every atom of a particular element has the same number of protons, so the atomic number identifies the element. All carbon atoms have 6 protons and all sodium atoms have 11. If the number of protons changed, the atom would become a different element.",
+      "The total number of protons and neutrons in an atom is called its mass number (symbol A). To find the number of neutrons, subtract the atomic number from the mass number: neutrons = A − Z. Atoms are written in symbol notation with the mass number at the top left and the atomic number at the bottom left of the chemical symbol, for example ²³₁₁Na. This sodium atom has 11 protons, 11 electrons and 23 − 11 = 12 neutrons.",
+      "Atoms of the same element can have different numbers of neutrons. These atoms are called isotopes of that element. Isotopes have the same atomic number but different mass numbers. For example, carbon-12 (¹²₆C) has 6 neutrons and carbon-14 (¹⁴₆C) has 8 neutrons. The number after the name is the mass number. Some isotopes are stable and others are unstable (radioactive).",
+      "Atoms can lose electrons. If an atom loses one or more of its outer electrons it has more protons than electrons, so it becomes a positive ion. Losing one electron gives a charge of +1, losing two gives +2, and so on. The nucleus does not change, so it is still the same element."
+    ],
+    "keyFacts": [
+      "In an atom, number of electrons = number of protons, so atoms have no overall charge.",
+      "Atomic number = number of protons.",
+      "All atoms of the same element have the same number of protons.",
+      "Mass number = number of protons + number of neutrons.",
+      "Number of neutrons = mass number − atomic number.",
+      "In symbol notation, mass number is written at the top and atomic number at the bottom, e.g. ²³₁₁Na.",
+      "Isotopes are atoms of the same element with different numbers of neutrons.",
+      "Isotopes have the same atomic number but different mass numbers.",
+      "An atom that loses one or more outer electrons becomes a positive ion."
+    ],
+    "keyTerms": [
+      {
+        "term": "Atomic number",
+        "definition": "The number of protons in the nucleus of an atom (symbol Z)."
+      },
+      {
+        "term": "Mass number",
+        "definition": "The total number of protons and neutrons in the nucleus of an atom (symbol A)."
+      },
+      {
+        "term": "Isotopes",
+        "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons."
+      },
+      {
+        "term": "Positive ion",
+        "definition": "An atom that has lost one or more outer electrons, so it has more protons than electrons."
+      },
+      {
+        "term": "Element",
+        "definition": "A substance made of atoms that all have the same atomic number."
+      },
+      {
+        "term": "Nuclide notation",
+        "definition": "Writing an atom as its symbol with mass number at the top left and atomic number at the bottom left, e.g. ¹⁴₆C."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Number of neutrons",
+        "formula": "number of neutrons = mass number − atomic number",
+        "symbols": "neutrons = A − Z",
+        "units": "no units (counts of particles)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Particles in an atom",
+        "question": "How many protons, neutrons and electrons are in an atom of ³⁵₁₇Cl?",
+        "steps": [
+          "Atomic number = 17, so there are 17 protons.",
+          "The atom is neutral, so electrons = protons = 17.",
+          "Neutrons = mass number − atomic number = 35 − 17 = 18."
+        ],
+        "answer": "17 protons, 18 neutrons, 17 electrons"
+      },
+      {
+        "title": "Comparing isotopes",
+        "question": "Uranium-235 and uranium-238 both have atomic number 92. How many more neutrons does uranium-238 have?",
+        "steps": [
+          "Neutrons in U-235 = 235 − 92 = 143.",
+          "Neutrons in U-238 = 238 − 92 = 146.",
+          "Difference = 146 − 143 = 3."
+        ],
+        "answer": "3 more neutrons"
+      },
+      {
+        "title": "Forming an ion",
+        "question": "A magnesium atom (atomic number 12) loses its two outer electrons. State the number of electrons left and the charge of the ion.",
+        "steps": [
+          "The neutral atom has 12 electrons.",
+          "It loses 2, leaving 10 electrons.",
+          "Charge = protons − electrons = 12 − 10 = +2."
+        ],
+        "answer": "10 electrons, charge +2"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Reading nuclide notation",
+        "caption": "Sodium-23 has mass number 23 (top) and atomic number 11 (bottom), so it contains 11 protons and 12 neutrons.",
+        "svg": "<svg viewBox='0 0 420 200' xmlns='http://www.w3.org/2000/svg'><rect x='150' y='50' width='110' height='100' rx='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g fill='currentColor'><text x='166' y='82' font-size='22'>23</text><text x='170' y='134' font-size='22'>11</text><text x='200' y='118' font-size='48'>Na</text></g><g stroke='currentColor' stroke-width='1'><line x1='164' y1='74' x2='100' y2='50'/><line x1='166' y1='128' x2='100' y2='150'/><line x1='252' y1='100' x2='300' y2='100'/></g><g font-size='12' fill='currentColor'><text x='10' y='38'>mass number (A)</text><text x='10' y='52'>protons + neutrons</text><text x='10' y='164'>atomic number (Z)</text><text x='10' y='178'>number of protons</text><text x='304' y='96'>chemical</text><text x='304' y='110'>symbol</text><text x='130' y='194'>neutrons = 23 − 11 = 12</text></g></svg>"
+      },
+      {
+        "title": "Isotopes of hydrogen",
+        "caption": "The three isotopes of hydrogen all have one proton but have 0, 1 or 2 neutrons, so their mass numbers are 1, 2 and 3.",
+        "svg": "<svg viewBox='0 0 420 220' xmlns='http://www.w3.org/2000/svg'><circle cx='62' cy='84' r='9' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='62' y='88' font-size='12' fill='currentColor' text-anchor='middle'>+</text><circle cx='202' cy='84' r='9' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='202' y='88' font-size='12' fill='currentColor' text-anchor='middle'>+</text><circle cx='218' cy='84' r='9' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><circle cx='342' cy='84' r='9' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='342' y='88' font-size='12' fill='currentColor' text-anchor='middle'>+</text><circle cx='358' cy='84' r='9' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><circle cx='350' cy='98' r='9' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='70' y='30'>hydrogen-1</text><text x='210' y='30'>hydrogen-2</text><text x='350' y='30'>hydrogen-3</text><text x='70' y='135'>¹₁H</text><text x='210' y='135'>²₁H</text><text x='350' y='135'>³₁H</text><text x='70' y='160'>1 proton</text><text x='70' y='176'>0 neutrons</text><text x='210' y='160'>1 proton</text><text x='210' y='176'>1 neutron</text><text x='350' y='160'>1 proton</text><text x='350' y='176'>2 neutrons</text><text x='210' y='208'>Same atomic number (1), different mass numbers: isotopes</text></g><g font-size='12' fill='currentColor'><circle cx='10' cy='54' r='5' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='20' y='58'>proton</text><circle cx='330' cy='54' r='5' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='340' y='58'>neutron</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think isotopes are different elements because they have different masses.",
+        "right": "In fact isotopes are the same element, because they have the same number of protons. Only the number of neutrons is different."
+      },
+      {
+        "wrong": "Students often think the mass number is the number of neutrons.",
+        "right": "In fact the mass number is protons plus neutrons. Subtract the atomic number to get the neutrons."
+      },
+      {
+        "wrong": "Students often think an atom becomes positive by gaining protons.",
+        "right": "In fact the nucleus does not change. An atom becomes a positive ion by losing one or more outer electrons."
+      },
+      {
+        "wrong": "Students often think the bigger number in nuclide notation is always the atomic number.",
+        "right": "In fact the bigger number (at the top) is the mass number; the smaller number (at the bottom) is the atomic number."
+      }
+    ],
+    "realWorld": [
+      "Carbon-14, a radioactive isotope of carbon, is used to date ancient wood, bone and cloth.",
+      "Nuclear power stations use uranium-235, an isotope that makes up less than 1% of natural uranium, so the fuel has to be enriched.",
+      "Hydrogen-2 (deuterium) and hydrogen-3 (tritium) are isotopes that can be used as fuel in experimental fusion reactors."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always find neutrons by subtracting: mass number − atomic number. Write the subtraction down to secure the method mark.",
+      "In a definition of isotopes, mention both the same number of protons AND a different number of neutrons.",
+      "Electrons only equal protons in a neutral atom. For an ion, adjust the number of electrons to match the charge.",
+      "Learn the layout of nuclide notation: mass number on top, atomic number below."
+    ],
+    "summary": [
+      "Atoms are neutral because electrons = protons.",
+      "Atomic number = protons; it identifies the element.",
+      "Mass number = protons + neutrons; neutrons = A − Z.",
+      "Isotopes: same protons, different neutrons, different mass numbers.",
+      "Losing outer electrons turns an atom into a positive ion."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the atomic number?",
+      "back": "The number of protons in an atom."
+    },
+    {
+      "front": "What is the mass number?",
+      "back": "The total number of protons and neutrons in an atom."
+    },
+    {
+      "front": "How do you find the number of neutrons?",
+      "back": "Mass number − atomic number."
+    },
+    {
+      "front": "Why do atoms have no overall charge?",
+      "back": "They have equal numbers of protons (positive) and electrons (negative)."
+    },
+    {
+      "front": "What are isotopes?",
+      "back": "Atoms of the same element with the same number of protons but different numbers of neutrons."
+    },
+    {
+      "front": "In ²³₁₁Na, which number is the mass number?",
+      "back": "23 (the top number)."
+    },
+    {
+      "front": "What do all atoms of one element have in common?",
+      "back": "The same number of protons (same atomic number)."
+    },
+    {
+      "front": "How does an atom become a positive ion?",
+      "back": "By losing one or more outer electrons."
+    },
+    {
+      "front": "How many neutrons in carbon-14 (atomic number 6)?",
+      "back": "14 − 6 = 8."
+    },
+    {
+      "front": "Do isotopes have the same mass number?",
+      "back": "No: same atomic number, different mass numbers."
+    },
+    {
+      "front": "Charge on an atom that has lost 3 electrons?",
+      "back": "+3"
+    },
+    {
+      "front": "Number of electrons in a neutral atom of ¹⁶₈O?",
+      "back": "8"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-isotopes-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does the atomic number of an atom tell you?",
+      "options": [
+        "The number of neutrons",
+        "The number of protons",
+        "The number of protons plus neutrons",
+        "The number of energy levels"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The number of protons"
+      ],
+      "explanation": "Atomic number is the number of protons. Protons plus neutrons is the mass number."
+    },
+    {
+      "id": "p4-isotopes-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the mass number of an atom?",
+      "options": [
+        "The number of protons plus neutrons",
+        "The number of protons plus electrons",
+        "The number of neutrons only",
+        "The mass of the atom in grams"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The number of protons plus neutrons"
+      ],
+      "explanation": "Mass number is the total of protons and neutrons in the nucleus. Electrons have very little mass and are not counted."
+    },
+    {
+      "id": "p4-isotopes-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does an atom have no overall charge?",
+      "options": [
+        "It has equal numbers of protons and neutrons",
+        "Neutrons cancel the charge of the protons",
+        "It has equal numbers of protons and electrons",
+        "Electrons have no charge"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It has equal numbers of protons and electrons"
+      ],
+      "explanation": "Each proton (+) is balanced by an electron (−). Neutrons have no charge so cannot cancel anything."
+    },
+    {
+      "id": "p4-isotopes-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which pair of atoms are isotopes of the same element?",
+      "options": [
+        "¹²₆C and ¹⁴₆C",
+        "¹⁴₆C and ¹⁴₇N",
+        "¹⁶₈O and ³²₁₆S",
+        "²³₁₁Na and ²⁴₁₂Mg"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: ¹²₆C and ¹⁴₆C"
+      ],
+      "explanation": "Isotopes have the same atomic number (bottom number) but different mass numbers. Both carbon atoms have Z = 6. ¹⁴₆C and ¹⁴₇N have the same mass number but are different elements."
+    },
+    {
+      "id": "p4-isotopes-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many neutrons are in an atom of ²⁷₁₃Al?",
+      "options": [
+        "13",
+        "27",
+        "40",
+        "14"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 14"
+      ],
+      "explanation": "Neutrons = 27 − 13 = 14. 13 is the number of protons and 40 comes from adding instead of subtracting."
+    },
+    {
+      "id": "p4-isotopes-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An atom loses one outer electron. What does it become?",
+      "options": [
+        "A negative ion",
+        "A different element",
+        "A positive ion",
+        "An isotope"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A positive ion"
+      ],
+      "explanation": "Losing a negative electron leaves more protons than electrons, so the atom becomes a positive ion. The nucleus is unchanged, so it is the same element."
+    },
+    {
+      "id": "p4-isotopes-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two isotopes of an element are compared. Which statement is correct?",
+      "options": [
+        "They have different numbers of protons",
+        "They have the same mass number",
+        "They have different numbers of neutrons",
+        "They have different numbers of electrons in the neutral atom"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: They have different numbers of neutrons"
+      ],
+      "explanation": "Isotopes differ only in the number of neutrons. Neutral atoms of both isotopes have the same numbers of protons and electrons."
+    },
+    {
+      "id": "p4-isotopes-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An atom has 19 protons, 20 neutrons and 19 electrons. Which is its correct symbol? (K is potassium)",
+      "options": [
+        "²⁰₁₉K",
+        "³⁹₁₉K",
+        "³⁹₂₀K",
+        "¹⁹₃₉K"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: ³⁹₁₉K"
+      ],
+      "explanation": "Mass number = 19 + 20 = 39 goes on top, and atomic number = 19 goes at the bottom. The mass number is always the larger number."
+    },
+    {
+      "id": "p4-isotopes-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Atom X has 26 protons and 30 neutrons. Atom Y has 26 protons and 32 neutrons. Atom Z has 27 protons and 30 neutrons. Which statement is correct?",
+      "options": [
+        "X and Z are isotopes",
+        "Y and Z are the same element",
+        "X and Y are isotopes",
+        "All three are isotopes of one element"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: X and Y are isotopes"
+      ],
+      "explanation": "Only X and Y have the same number of protons (26), so they are the same element with different neutron numbers: isotopes. Z has 27 protons, so it is a different element."
+    },
+    {
+      "id": "p4-isotopes-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Calculate the number of neutrons in an atom of ¹⁹₉F.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 19 − 9 = 10"
+      ],
+      "explanation": "Neutrons = mass number − atomic number = 19 − 9 = 10."
+    },
+    {
+      "id": "p4-isotopes-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Uranium has atomic number 92. Calculate the number of neutrons in uranium-238.",
+      "numericAnswer": 146,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 238 − 92 = 146"
+      ],
+      "explanation": "The 238 is the mass number. 238 − 92 = 146 neutrons."
+    },
+    {
+      "id": "p4-isotopes-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Chlorine has two common isotopes, chlorine-35 and chlorine-37. The atomic number of chlorine is 17.\nCalculate how many neutrons there are in an atom of chlorine-37.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 37 − 17",
+        "1 mark: 20"
+      ],
+      "explanation": "Chlorine-37 has mass number 37. 37 − 17 = 20 neutrons. Chlorine-35 has 18 neutrons."
+    },
+    {
+      "id": "p4-isotopes-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "An iron atom has 26 protons and 30 neutrons. It loses 3 outer electrons.\nCalculate the number of electrons in the ion.",
+      "numericAnswer": 23,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: neutral atom has 26 electrons",
+        "1 mark: 26 − 3 = 23"
+      ],
+      "explanation": "A neutral atom has as many electrons as protons (26). Losing 3 leaves 23. The neutrons are irrelevant here."
+    },
+    {
+      "id": "p4-isotopes-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Isotope P of lead has atomic number 82 and mass number 208. Isotope Q of lead has 4 fewer neutrons than isotope P.\nCalculate the mass number of isotope Q.",
+      "numericAnswer": 204,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: neutrons in P = 208 − 82 = 126, so Q has 122",
+        "1 mark: mass number of Q = 82 + 122 = 204"
+      ],
+      "explanation": "Isotope Q has the same 82 protons but 122 neutrons, so its mass number is 204. Shortcut: 4 fewer neutrons means mass number 4 smaller."
+    },
+    {
+      "id": "p4-isotopes-q15",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define the term isotopes.",
+      "acceptedAnswers": [
+        "same number of protons",
+        "different number of neutrons",
+        "same element"
+      ],
+      "markScheme": [
+        "1 mark: atoms of the same element / same number of protons",
+        "1 mark: with different numbers of neutrons"
+      ],
+      "explanation": "Both parts are needed: same protons and different neutrons."
+    },
+    {
+      "id": "p4-isotopes-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the mass number of an atom.",
+      "acceptedAnswers": [
+        "protons plus neutrons",
+        "total number of protons and neutrons"
+      ],
+      "markScheme": [
+        "1 mark: total number of protons and neutrons (in the nucleus)"
+      ],
+      "explanation": "Mass number counts all particles in the nucleus."
+    },
+    {
+      "id": "p4-isotopes-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "An atom is written as ⁵⁶₂₆Fe.\nState the number of protons, neutrons and electrons in this atom.",
+      "acceptedAnswers": [
+        "26 protons",
+        "30 neutrons",
+        "26 electrons"
+      ],
+      "markScheme": [
+        "1 mark: 26 protons",
+        "1 mark: 30 neutrons",
+        "1 mark: 26 electrons"
+      ],
+      "explanation": "Protons = atomic number = 26. Neutrons = 56 − 26 = 30. The atom is neutral, so electrons = 26."
+    },
+    {
+      "id": "p4-isotopes-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why carbon-12 and carbon-14 are the same element.",
+      "acceptedAnswers": [
+        "same number of protons",
+        "same atomic number",
+        "6 protons"
+      ],
+      "markScheme": [
+        "1 mark: they have the same number of protons (6) / same atomic number",
+        "1 mark: the number of protons determines the element"
+      ],
+      "explanation": "The element depends only on the number of protons. The different number of neutrons changes the mass, not the element."
+    },
+    {
+      "id": "p4-isotopes-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sodium atom loses one electron. Explain why the particle formed has a charge of +1.",
+      "acceptedAnswers": [
+        "more protons than electrons",
+        "11 protons 10 electrons",
+        "one more proton than electrons"
+      ],
+      "markScheme": [
+        "1 mark: it now has one more proton than electrons (11 protons, 10 electrons)",
+        "1 mark: so one positive charge is not cancelled, giving +1"
+      ],
+      "explanation": "In the atom, 11 positive charges balance 11 negative charges. After losing an electron, one positive charge is left unbalanced."
+    },
+    {
+      "id": "p4-isotopes-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Isotope A has mass number 40 and atomic number 19. Isotope B has mass number 40 and atomic number 20.\nA student says A and B are isotopes because they have the same mass number. Explain why the student is wrong.",
+      "acceptedAnswers": [
+        "different atomic numbers",
+        "different number of protons",
+        "different elements"
+      ],
+      "markScheme": [
+        "1 mark: A and B have different atomic numbers / numbers of protons",
+        "1 mark: so they are different elements, and isotopes must be the same element"
+      ],
+      "explanation": "Isotopes must share an atomic number. Having the same mass number is irrelevant."
+    },
+    {
+      "id": "p4-isotopes-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State where the mass number is written in nuclide notation such as ²³₁₁Na.",
+      "acceptedAnswers": [
+        "top",
+        "top left",
+        "above the atomic number",
+        "superscript"
+      ],
+      "markScheme": [
+        "1 mark: at the top (left) of the symbol"
+      ],
+      "explanation": "Mass number at the top, atomic number at the bottom."
+    },
+    {
+      "id": "p4-isotopes-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Describe how the numbers of protons, neutrons and electrons in a neutral atom of ³⁵₁₇Cl compare with those in a neutral atom of ³⁷₁₇Cl.",
+      "acceptedAnswers": [
+        "same protons 17",
+        "same electrons 17",
+        "chlorine-37 has 2 more neutrons",
+        "18 and 20 neutrons"
+      ],
+      "markScheme": [
+        "1 mark: both have 17 protons",
+        "1 mark: both have 17 electrons",
+        "1 mark: chlorine-35 has 18 neutrons and chlorine-37 has 20 neutrons (2 more)"
+      ],
+      "explanation": "Isotopes share proton and electron numbers in neutral atoms. Only the neutron number differs: 35 − 17 = 18 and 37 − 17 = 20."
+    },
+    {
+      "id": "p4-isotopes-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which change to an atom would make it into a different element?",
+      "options": [
+        "Losing an outer electron",
+        "Gaining a neutron",
+        "Losing a neutron",
+        "Gaining a proton"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Gaining a proton"
+      ],
+      "explanation": "The element depends on the number of protons. Changing neutrons gives a different isotope, and losing electrons gives an ion of the same element."
+    },
+    {
+      "id": "p4-isotopes-q24",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In the name carbon-14, what does the number 14 represent?",
+      "options": [
+        "The atomic number",
+        "The number of neutrons",
+        "The mass number",
+        "The number of electrons"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The mass number"
+      ],
+      "explanation": "The number in an isotope name is the mass number (protons + neutrons). Carbon-14 has 6 protons and 8 neutrons."
+    },
+    {
+      "id": "p4-isotopes-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare the atoms ¹⁶₈O and ¹⁸₈O. Use the terms atomic number, mass number and isotope in your answer.",
+      "markScheme": [
+        "Indicative content: both have atomic number 8, so 8 protons; both are oxygen; both neutral atoms have 8 electrons; mass numbers 16 and 18; neutrons 8 and 10; same element with different numbers of neutrons, so they are isotopes; ¹⁸O has greater mass.",
+        "Level 2 (3 to 4 marks): clear comparison of protons, neutrons and electrons with correct numbers and correct use of all three terms.",
+        "Level 1 (1 to 2 marks): some correct numbers or terms with little comparison.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A good comparison gives similarities and differences with numbers: same protons and electrons, different neutrons, so isotopes."
+    },
+    {
+      "id": "p4-isotopes-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "An element has two isotopes: ⁶³₂₉Cu and ⁶⁵₂₉Cu.\nExplain what the numbers in the symbols tell you, explain why the atoms are isotopes, and describe what happens to the atom and its charge when ⁶³₂₉Cu loses two outer electrons.",
+      "markScheme": [
+        "Indicative content: 29 is the atomic number: 29 protons in both; 63 and 65 are mass numbers: protons + neutrons; neutrons 34 and 36; same number of protons so same element; different neutrons so isotopes; neutral atoms have 29 electrons because electrons = protons; losing two outer electrons leaves 27 electrons; 29 protons and 27 electrons gives a charge of +2; it becomes a positive ion; nucleus unchanged so still copper with mass number 63.",
+        "Level 3 (5 to 6 marks): all three parts explained with correct numbers and clear reasoning.",
+        "Level 2 (3 to 4 marks): two parts explained correctly, or all three with some errors.",
+        "Level 1 (1 to 2 marks): basic statements, e.g. identifies atomic number or mass number, with little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Work through each part with numbers: 63 − 29 = 34, 65 − 29 = 36, and 29 − 27 = +2 for the ion."
+    }
+  ]
+}
