@@ -1,0 +1,704 @@
+{
+  "id": "c5-bond-energies",
+  "science": "chemistry",
+  "topicId": "c5",
+  "slug": "bond-energies",
+  "specRef": "4.5.1.3",
+  "title": "The energy change of reactions (bond energies)",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "During a chemical reaction, energy must be supplied to break bonds in the reactants and energy is released when bonds form in the products. The overall energy change is the difference between the energy needed to break bonds and the energy released by forming bonds, and can be calculated from bond energies.",
+    "explanation": [
+      "During a chemical reaction, bonds in the reactants are broken and new bonds are formed in the products. Breaking a bond needs energy to overcome the attraction between the atoms, so bond breaking is an endothermic process. When a new bond forms, energy is released, so bond making is an exothermic process. Every reaction involves both, and whether the reaction is exothermic or endothermic depends on which is larger.",
+      "A bond energy is the energy needed to break one mole of a particular covalent bond, measured in kJ/mol. The same amount of energy is released when one mole of that bond is formed. Bond energies are given in the question, usually in a table. For example, H–H is about 436 kJ/mol and O=O about 498 kJ/mol.",
+      "To calculate the overall energy change, first write a balanced equation and draw displayed formulae so you can count every bond. Add up the energy needed to break all the bonds in the reactants. Then add up the energy released when all the bonds in the products are formed. Overall energy change = sum of energy needed to break bonds in reactants − sum of energy released forming bonds in products. Remember to multiply each bond energy by the number of those bonds, including the numbers in front of formulae in the equation.",
+      "In an exothermic reaction, the energy released from forming new bonds is greater than the energy needed to break existing bonds, so the overall energy change is negative. In an endothermic reaction, the energy needed to break existing bonds is greater than the energy released from forming new bonds, so the overall energy change is positive. The symbol ΔH is often used for the overall energy change of a reaction.",
+      "Values calculated from bond energies are often slightly different from values measured in experiments. This is because bond energies are average values: for example, a C–H bond in methane does not have exactly the same energy as a C–H bond in ethane. Experimental values also include energy changes from changes of state, and measurements lose energy to the surroundings."
+    ],
+    "keyFacts": [
+      "Breaking bonds needs energy: it is endothermic.",
+      "Forming bonds releases energy: it is exothermic.",
+      "Bond energy is the energy needed to break one mole of a bond, in kJ/mol.",
+      "Overall energy change = bonds broken (reactants) − bonds formed (products).",
+      "Exothermic: energy released forming bonds > energy needed breaking bonds; overall change is negative.",
+      "Endothermic: energy needed breaking bonds > energy released forming bonds; overall change is positive.",
+      "Count every bond using displayed formulae and the balancing numbers in the equation.",
+      "Bond energies are average values, so calculated answers differ slightly from measured values."
+    ],
+    "keyTerms": [
+      {
+        "term": "Bond energy",
+        "definition": "The energy needed to break one mole of a particular covalent bond (the same energy is released when one mole of that bond forms), in kJ/mol."
+      },
+      {
+        "term": "Bond breaking",
+        "definition": "An endothermic process that needs energy to overcome the attraction between bonded atoms."
+      },
+      {
+        "term": "Bond making",
+        "definition": "An exothermic process in which energy is released as a new bond forms."
+      },
+      {
+        "term": "Overall energy change (ΔH)",
+        "definition": "Energy needed to break bonds in the reactants minus energy released forming bonds in the products; negative for exothermic reactions."
+      },
+      {
+        "term": "Displayed formula",
+        "definition": "A diagram showing every atom and every bond in a molecule as a line, used to count bonds."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Overall energy change from bond energies",
+        "formula": "overall energy change = sum of energy needed to break bonds in reactants − sum of energy released forming bonds in products",
+        "symbols": "ΔH = Σ(bonds broken) − Σ(bonds formed)",
+        "units": "kJ/mol",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Hydrogen and chlorine",
+        "question": "Calculate the overall energy change for H₂ + Cl₂ → 2HCl. Bond energies (kJ/mol): H–H 436, Cl–Cl 243, H–Cl 432.",
+        "steps": [
+          "Bonds broken: 1 × H–H + 1 × Cl–Cl = 436 + 243 = 679 kJ/mol.",
+          "Bonds formed: 2 × H–Cl = 2 × 432 = 864 kJ/mol.",
+          "Overall energy change = 679 − 864 = −185 kJ/mol.",
+          "Negative, so the reaction is exothermic."
+        ],
+        "answer": "−185 kJ/mol (exothermic)"
+      },
+      {
+        "title": "Combustion of methane",
+        "question": "Calculate the overall energy change for CH₄ + 2O₂ → CO₂ + 2H₂O. Bond energies (kJ/mol): C–H 413, O=O 498, C=O 805, O–H 464.",
+        "steps": [
+          "Bonds broken: 4 × C–H = 4 × 413 = 1652; 2 × O=O = 2 × 498 = 996; total = 2648 kJ/mol.",
+          "Bonds formed: 2 × C=O = 2 × 805 = 1610; 4 × O–H = 4 × 464 = 1856; total = 3466 kJ/mol.",
+          "Overall energy change = 2648 − 3466 = −818 kJ/mol."
+        ],
+        "answer": "−818 kJ/mol (exothermic)"
+      },
+      {
+        "title": "Finding an unknown bond energy",
+        "question": "For H₂ + Cl₂ → 2HCl the overall energy change is −185 kJ/mol. H–H = 436 kJ/mol and Cl–Cl = 243 kJ/mol. Calculate the H–Cl bond energy.",
+        "steps": [
+          "Overall change = bonds broken − bonds formed, so −185 = (436 + 243) − 2x.",
+          "−185 = 679 − 2x, so 2x = 679 + 185 = 864.",
+          "x = 864 ÷ 2 = 432 kJ/mol."
+        ],
+        "answer": "H–Cl = 432 kJ/mol"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Bond breaking and bond making for H₂ + Cl₂ → 2HCl",
+        "caption": "Energy is taken in to break the H–H and Cl–Cl bonds into separate atoms. More energy is released when two H–Cl bonds form, so overall the reaction is exothermic.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"beA\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs>\n<line x1=\"30\" y1=\"240\" x2=\"30\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#beA)\"/>\n<text x=\"16\" y=\"130\" font-size=\"12\" fill=\"currentColor\" transform=\"rotate(-90 16 130)\" text-anchor=\"middle\">Energy</text>\n<line x1=\"150\" y1=\"40\" x2=\"320\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<text x=\"235\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2H + 2Cl (separate atoms)</text>\n<line x1=\"50\" y1=\"150\" x2=\"200\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<text x=\"55\" y=\"168\" font-size=\"12\" fill=\"currentColor\">H₂ + Cl₂</text>\n<line x1=\"260\" y1=\"180\" x2=\"420\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<text x=\"360\" y=\"198\" font-size=\"12\" fill=\"currentColor\">2HCl</text>\n<line x1=\"170\" y1=\"150\" x2=\"170\" y2=\"43\" stroke=\"#fca5a5\" stroke-width=\"2.5\" marker-end=\"url(#beA)\"/>\n<text x=\"60\" y=\"85\" font-size=\"12\" fill=\"currentColor\">Bonds broken</text>\n<text x=\"60\" y=\"100\" font-size=\"12\" fill=\"currentColor\">679 kJ/mol in</text>\n<line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"177\" stroke=\"#93c5fd\" stroke-width=\"2.5\" marker-end=\"url(#beA)\"/>\n<text x=\"308\" y=\"95\" font-size=\"12\" fill=\"currentColor\">Bonds formed</text>\n<text x=\"308\" y=\"110\" font-size=\"12\" fill=\"currentColor\">864 kJ/mol out</text>\n<line x1=\"200\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"currentColor\" stroke-dasharray=\"4 4\"/>\n<line x1=\"245\" y1=\"150\" x2=\"245\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#beA)\"/>\n<text x=\"150\" y=\"225\" font-size=\"12\" fill=\"currentColor\">Overall: 679 − 864 = −185 kJ/mol (exothermic)</text>\n</svg>"
+      },
+      {
+        "title": "Counting bonds in the combustion of methane",
+        "caption": "Displayed formulae make it easy to count the bonds broken and formed. Remember the 2 in front of O₂ and H₂O.",
+        "svg": "<svg viewBox=\"0 0 470 230\" xmlns=\"http://www.w3.org/2000/svg\">\n<text x=\"60\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"60\" y=\"70\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"60\" y=\"160\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"15\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"105\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text>\n<line x1=\"60\" y1=\"75\" x2=\"60\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"122\" x2=\"60\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"22\" y1=\"110\" x2=\"52\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"68\" y1=\"110\" x2=\"98\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<text x=\"130\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">+</text>\n<text x=\"155\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"163\" y1=\"77\" x2=\"187\" y2=\"77\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"163\" y1=\"83\" x2=\"187\" y2=\"83\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text>\n<text x=\"155\" y=\"145\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"163\" y1=\"137\" x2=\"187\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"163\" y1=\"143\" x2=\"187\" y2=\"143\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"145\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text>\n<text x=\"228\" y=\"116\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">→</text>\n<text x=\"262\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"270\" y1=\"107\" x2=\"292\" y2=\"107\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"113\" x2=\"292\" y2=\"113\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">C</text><line x1=\"308\" y1=\"107\" x2=\"330\" y2=\"107\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"308\" y1=\"113\" x2=\"330\" y2=\"113\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"338\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text>\n<text x=\"365\" y=\"115\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">+</text>\n<text x=\"385\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"392\" y1=\"80\" x2=\"408\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"415\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"422\" y1=\"80\" x2=\"438\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"445\" y=\"85\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"385\" y=\"145\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"392\" y1=\"140\" x2=\"408\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"415\" y=\"145\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"422\" y1=\"140\" x2=\"438\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"445\" y=\"145\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text>\n<rect x=\"10\" y=\"175\" width=\"210\" height=\"45\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"18\" y=\"193\" font-size=\"12\" fill=\"currentColor\">Bonds broken (energy in):</text>\n<text x=\"18\" y=\"210\" font-size=\"12\" fill=\"currentColor\">4 × C–H and 2 × O=O</text>\n<rect x=\"245\" y=\"175\" width=\"215\" height=\"45\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"253\" y=\"193\" font-size=\"12\" fill=\"currentColor\">Bonds formed (energy out):</text>\n<text x=\"253\" y=\"210\" font-size=\"12\" fill=\"currentColor\">2 × C=O and 4 × O–H</text>\n<text x=\"235\" y=\"25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">CH₄ + 2O₂ → CO₂ + 2H₂O</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think breaking bonds releases energy.",
+        "right": "In fact breaking bonds always needs energy (endothermic). Energy is released only when bonds form."
+      },
+      {
+        "wrong": "Students often subtract the other way round: bonds formed − bonds broken.",
+        "right": "In fact the overall energy change is bonds broken − bonds formed, so an exothermic reaction gives a negative answer."
+      },
+      {
+        "wrong": "Students often forget the balancing numbers when counting bonds.",
+        "right": "In fact 2HCl contains two H–Cl bonds and 2H₂O contains four O–H bonds; multiply by the numbers in the equation."
+      },
+      {
+        "wrong": "Students often think a calculated value should exactly match the measured value.",
+        "right": "In fact bond energies are averages, so calculated values are only approximate."
+      }
+    ],
+    "realWorld": [
+      "Chemists use bond energy calculations to estimate how much energy fuels such as hydrogen and methane will release before testing them.",
+      "The very strong N≡N triple bond needs a lot of energy to break, which is one reason why making ammonia from nitrogen in the Haber process needs a catalyst and high temperature."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Calculate the energy transferred in chemical reactions using bond energies supplied.",
+      "Explain that in exothermic reactions the energy released from forming new bonds is greater than the energy needed to break existing bonds, and the reverse for endothermic reactions."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Draw displayed formulae first and tick off each bond as you count it.",
+      "Write two clear totals: 'energy in (bonds broken)' and 'energy out (bonds formed)', then subtract in the order broken − formed.",
+      "Always include the sign (+ or −) and the unit kJ/mol in your final answer.",
+      "If asked to explain, use the comparison: 'more energy is released forming bonds than is needed to break bonds'.",
+      "Check that the number of each type of atom is the same on both sides before counting bonds."
+    ],
+    "summary": [
+      "Bond breaking is endothermic; bond making is exothermic.",
+      "Overall energy change = bonds broken − bonds formed.",
+      "Negative answer: exothermic; positive answer: endothermic.",
+      "Count bonds carefully using displayed formulae and balancing numbers.",
+      "Bond energies are averages, so answers are approximate."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Is bond breaking endothermic or exothermic?",
+      "back": "Endothermic: energy is needed to break bonds."
+    },
+    {
+      "front": "Is bond making endothermic or exothermic?",
+      "back": "Exothermic: energy is released when bonds form."
+    },
+    {
+      "front": "What is a bond energy?",
+      "back": "The energy needed to break one mole of a particular bond, in kJ/mol."
+    },
+    {
+      "front": "Formula for overall energy change from bond energies?",
+      "back": "Sum of bonds broken (reactants) − sum of bonds formed (products)."
+    },
+    {
+      "front": "Why is a reaction exothermic, in terms of bonds?",
+      "back": "The energy released forming new bonds is greater than the energy needed to break existing bonds."
+    },
+    {
+      "front": "Why is a reaction endothermic, in terms of bonds?",
+      "back": "The energy needed to break existing bonds is greater than the energy released forming new bonds."
+    },
+    {
+      "front": "Sign of the overall energy change for an exothermic reaction?",
+      "back": "Negative."
+    },
+    {
+      "front": "How many O–H bonds are formed in 2H₂ + O₂ → 2H₂O?",
+      "back": "Four (each H₂O has two)."
+    },
+    {
+      "front": "How many C–H bonds are broken when one CH₄ molecule burns?",
+      "back": "Four."
+    },
+    {
+      "front": "Overall energy change for H₂ + Cl₂ → 2HCl (H–H 436, Cl–Cl 243, H–Cl 432)?",
+      "back": "679 − 864 = −185 kJ/mol."
+    },
+    {
+      "front": "Why do calculated values differ from measured ones?",
+      "back": "Bond energies are average values; also energy losses and changes of state in experiments."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c5-bond-energies-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement about breaking a chemical bond is correct?",
+      "options": [
+        "It releases energy, so it is exothermic",
+        "It needs energy, so it is endothermic",
+        "It needs no energy",
+        "It releases energy, so it is endothermic"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: it needs energy, so it is endothermic"
+      ],
+      "explanation": "Energy must be supplied to overcome the attraction between bonded atoms, so bond breaking is endothermic."
+    },
+    {
+      "id": "c5-bond-energies-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens when a new chemical bond forms?",
+      "options": [
+        "Energy is taken in from the surroundings",
+        "No energy change happens",
+        "The temperature of the surroundings falls",
+        "Energy is released to the surroundings"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: energy is released"
+      ],
+      "explanation": "Bond making is exothermic: energy is released when atoms bond together."
+    },
+    {
+      "id": "c5-bond-energies-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which expression gives the overall energy change of a reaction from bond energies?",
+      "options": [
+        "Energy to break bonds in reactants − energy released forming bonds in products",
+        "Energy released forming bonds in products − energy to break bonds in reactants",
+        "Energy to break bonds in reactants + energy released forming bonds in products",
+        "Energy released forming bonds in products × energy to break bonds in reactants"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: bonds broken − bonds formed"
+      ],
+      "explanation": "Overall energy change = bonds broken − bonds formed. Doing it the other way round gives the wrong sign."
+    },
+    {
+      "id": "c5-bond-energies-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In an exothermic reaction, which statement is true?",
+      "options": [
+        "Energy needed to break bonds is greater than energy released forming bonds",
+        "No bonds are broken",
+        "Energy released forming bonds is greater than energy needed to break bonds",
+        "Energy needed to break bonds equals energy released forming bonds"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: energy released forming bonds is greater"
+      ],
+      "explanation": "If more energy is released by forming new bonds than is taken in by breaking bonds, the extra energy is transferred to the surroundings."
+    },
+    {
+      "id": "c5-bond-energies-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the sign of the overall energy change calculated for an exothermic reaction?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "It can be either"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: negative"
+      ],
+      "explanation": "Bonds broken − bonds formed gives a negative number when more energy is released forming bonds than is needed to break them."
+    },
+    {
+      "id": "c5-bond-energies-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "When one molecule of methane, CH₄, burns completely, how many C–H bonds are broken?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 4"
+      ],
+      "explanation": "A methane molecule has four C–H bonds, all of which are broken during combustion."
+    },
+    {
+      "id": "c5-bond-energies-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many O–H bonds are formed in the reaction 2H₂ + O₂ → 2H₂O?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "6"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 4"
+      ],
+      "explanation": "Each water molecule contains two O–H bonds, and two water molecules form, so 2 × 2 = 4 O–H bonds."
+    },
+    {
+      "id": "c5-bond-energies-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a reaction, the energy needed to break all the bonds in the reactants is 1500 kJ/mol and the energy released forming all the bonds in the products is 1200 kJ/mol. Which statement is correct?",
+      "options": [
+        "The reaction is exothermic and the overall energy change is −300 kJ/mol",
+        "The reaction is exothermic and the overall energy change is −2700 kJ/mol",
+        "The reaction is endothermic and the overall energy change is +2700 kJ/mol",
+        "The reaction is endothermic and the overall energy change is +300 kJ/mol"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: endothermic, +300 kJ/mol"
+      ],
+      "explanation": "1500 − 1200 = +300 kJ/mol. More energy is needed to break bonds than is released forming them, so the reaction is endothermic."
+    },
+    {
+      "id": "c5-bond-energies-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is meant by the bond energy of a covalent bond?",
+      "options": [
+        "The energy needed to break one mole of that bond",
+        "The energy needed to make one mole of that bond",
+        "The energy released when one molecule reacts",
+        "The activation energy of the reaction"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: energy needed to break one mole of that bond"
+      ],
+      "explanation": "Bond energy is the energy needed to break one mole of a particular bond. The same amount is released when one mole of the bond forms."
+    },
+    {
+      "id": "c5-bond-energies-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The overall energy change for a reaction calculated from bond energies is −818 kJ/mol. The value measured in an experiment is different. Which is the best explanation?",
+      "options": [
+        "Bond breaking releases energy in experiments",
+        "The reaction is endothermic in experiments",
+        "Bond energies are average values for that bond in many different molecules",
+        "The law of conservation of energy does not apply to experiments"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: bond energies are average values"
+      ],
+      "explanation": "A bond such as C–H has slightly different energies in different molecules, so tables give average values. Calculated values are therefore approximate."
+    },
+    {
+      "id": "c5-bond-energies-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In a reaction, the energy needed to break bonds in the reactants is 1200 kJ/mol and the energy released forming bonds in the products is 1450 kJ/mol. Calculate the overall energy change.",
+      "numericAnswer": -250,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: 1200 − 1450 = −250 kJ/mol"
+      ],
+      "explanation": "Overall energy change = bonds broken − bonds formed = 1200 − 1450 = −250 kJ/mol. The negative sign shows it is exothermic."
+    },
+    {
+      "id": "c5-bond-energies-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When ethene reacts with bromine, the energy needed to break bonds is 805 kJ/mol and the energy released forming bonds is 917 kJ/mol. Calculate the overall energy change.",
+      "numericAnswer": -112,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: 805 − 917 = −112 kJ/mol"
+      ],
+      "explanation": "805 − 917 = −112 kJ/mol. More energy is released than taken in, so the reaction is exothermic."
+    },
+    {
+      "id": "c5-bond-energies-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Hydrogen reacts with chlorine: H₂ + Cl₂ → 2HCl\nBond energies (kJ/mol): H–H 436, Cl–Cl 243, H–Cl 432.\nCalculate the overall energy change.",
+      "numericAnswer": -185,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = 436 + 243 = 679",
+        "1 mark: bonds formed = 2 × 432 = 864",
+        "1 mark: 679 − 864 = −185 kJ/mol"
+      ],
+      "explanation": "Two molecules of HCl form, so two H–Cl bonds are made. 679 − 864 = −185 kJ/mol. Using only one H–Cl bond gives the wrong answer of +247 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Hydrogen reacts with bromine: H₂ + Br₂ → 2HBr\nBond energies (kJ/mol): H–H 436, Br–Br 193, H–Br 366.\nCalculate the overall energy change.",
+      "numericAnswer": -103,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = 436 + 193 = 629",
+        "1 mark: bonds formed = 2 × 366 = 732",
+        "1 mark: 629 − 732 = −103 kJ/mol"
+      ],
+      "explanation": "Energy in = 629 kJ/mol, energy out = 732 kJ/mol, so the overall energy change is −103 kJ/mol (exothermic)."
+    },
+    {
+      "id": "c5-bond-energies-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Ammonia is made in the Haber process: N₂ + 3H₂ → 2NH₃\nBond energies (kJ/mol): N≡N 945, H–H 436, N–H 391.\nCalculate the overall energy change.",
+      "numericAnswer": -93,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = 945 + (3 × 436) = 2253",
+        "1 mark: bonds formed = 6 × 391 = 2346",
+        "1 mark: 2253 − 2346 = −93 kJ/mol"
+      ],
+      "explanation": "Each NH₃ has three N–H bonds and two NH₃ form, so six N–H bonds are made. 2253 − 2346 = −93 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Hydrogen chloride decomposes: 2HCl → H₂ + Cl₂\nBond energies (kJ/mol): H–Cl 432, H–H 436, Cl–Cl 243.\nCalculate the overall energy change.",
+      "numericAnswer": 185,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: broken 2 × 432 = 864; formed 436 + 243 = 679",
+        "1 mark: 864 − 679 = +185 kJ/mol"
+      ],
+      "explanation": "This is the reverse of the formation of HCl, so the overall energy change has the same size but opposite sign: +185 kJ/mol (endothermic)."
+    },
+    {
+      "id": "c5-bond-energies-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Methane burns: CH₄ + 2O₂ → CO₂ + 2H₂O\nBond energies (kJ/mol): C–H 413, O=O 498, C=O 805, O–H 464.\nCalculate the overall energy change.",
+      "numericAnswer": -818,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = (4 × 413) + (2 × 498) = 2648",
+        "1 mark: bonds formed = (2 × 805) + (4 × 464) = 3466",
+        "1 mark: 2648 − 3466 = −818 kJ/mol"
+      ],
+      "explanation": "Bonds broken: 1652 + 996 = 2648 kJ/mol. Bonds formed: 1610 + 1856 = 3466 kJ/mol. Overall: −818 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "For the reaction H₂ + Cl₂ → 2HCl, the overall energy change is −185 kJ/mol.\nBond energies (kJ/mol): H–H 436, Cl–Cl 243.\nCalculate the bond energy of the H–Cl bond.",
+      "numericAnswer": 432,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: −185 = (436 + 243) − 2x",
+        "1 mark: 2x = 679 + 185 = 864",
+        "1 mark: x = 432 kJ/mol"
+      ],
+      "explanation": "Rearrange bonds broken − bonds formed = overall change. 2 × (H–Cl) = 679 + 185 = 864, so H–Cl = 432 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Ethene reacts with hydrogen to form ethane: C₂H₄ + H₂ → C₂H₆\nBond energies (kJ/mol): C=C 612, C–C 347, C–H 413, H–H 436.\nCalculate the overall energy change.",
+      "numericAnswer": -125,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = 612 + (4 × 413) + 436 = 2700",
+        "1 mark: bonds formed = 347 + (6 × 413) = 2825",
+        "1 mark: 2700 − 2825 = −125 kJ/mol"
+      ],
+      "explanation": "Ethene has one C=C and four C–H bonds; ethane has one C–C and six C–H bonds. 2700 − 2825 = −125 kJ/mol. (The four C–H bonds that are unchanged cancel out, so 1048 − 1173 gives the same answer.)"
+    },
+    {
+      "id": "c5-bond-energies-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Hydrogen peroxide decomposes: 2H₂O₂ → 2H₂O + O₂\nThe displayed formula of hydrogen peroxide is H–O–O–H.\nBond energies (kJ/mol): O–H 464, O–O 146, O=O 498.\nCalculate the overall energy change.",
+      "numericAnswer": -206,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: bonds broken = 2 × [(2 × 464) + 146] = 2148",
+        "1 mark: bonds formed = (4 × 464) + 498 = 2354",
+        "1 mark: 2148 − 2354 = −206 kJ/mol"
+      ],
+      "explanation": "Each H₂O₂ has two O–H and one O–O bond; there are two molecules. Products: two H₂O (four O–H) and one O=O. 2148 − 2354 = −206 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Explain why energy is needed to break a covalent bond.",
+      "acceptedAnswers": [
+        "overcome the attraction between atoms",
+        "attraction between nuclei and shared electrons"
+      ],
+      "markScheme": [
+        "1 mark: to overcome the (strong) attraction between the bonded atoms / between the nuclei and the shared pair of electrons"
+      ],
+      "explanation": "Bonded atoms are held together by strong attractions. Energy must be supplied to pull them apart."
+    },
+    {
+      "id": "c5-bond-energies-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "The reaction between hydrogen and oxygen is exothermic. Explain why, in terms of bond breaking and bond making.",
+      "acceptedAnswers": [
+        "energy released forming bonds",
+        "greater than",
+        "energy needed to break bonds"
+      ],
+      "markScheme": [
+        "1 mark: energy is needed to break bonds and released when bonds form",
+        "1 mark: more energy is released forming new bonds (O–H) than is needed to break existing bonds (H–H and O=O)"
+      ],
+      "explanation": "The comparison is the key point: energy out from bond making is larger than energy in for bond breaking."
+    },
+    {
+      "id": "c5-bond-energies-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the term bond energy.",
+      "acceptedAnswers": [
+        "energy to break one mole of a bond"
+      ],
+      "markScheme": [
+        "1 mark: the energy needed to break one mole of a particular (covalent) bond"
+      ],
+      "explanation": "Bond energies are given per mole of bonds, in kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The thermal decomposition of calcium carbonate is endothermic. Explain this in terms of the energy changes when bonds are broken and formed.",
+      "acceptedAnswers": [
+        "energy needed to break bonds",
+        "greater than energy released forming bonds",
+        "positive"
+      ],
+      "markScheme": [
+        "1 mark: the energy needed to break bonds in the reactants",
+        "1 mark: is greater than the energy released when bonds form in the products (so the overall energy change is positive)"
+      ],
+      "explanation": "In an endothermic reaction more energy goes in to break bonds than comes out when new bonds form, so energy is taken from the surroundings."
+    },
+    {
+      "id": "c5-bond-energies-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student calculated the overall energy change for H₂ + Cl₂ → 2HCl as +247 kJ/mol (H–H 436, Cl–Cl 243, H–Cl 432). Identify the mistake and give the correct answer.",
+      "acceptedAnswers": [
+        "only counted one H–Cl bond",
+        "two H–Cl bonds formed",
+        "−185"
+      ],
+      "markScheme": [
+        "1 mark: the student only included one H–Cl bond; two molecules of HCl form, so there are two H–Cl bonds",
+        "1 mark: 679 − 864 = −185 kJ/mol"
+      ],
+      "explanation": "679 − 432 = +247, so the student forgot the 2 in front of HCl. The correct energy released is 2 × 432 = 864 kJ/mol."
+    },
+    {
+      "id": "c5-bond-energies-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Methane burns: CH₄ + 2O₂ → CO₂ + 2H₂O. State which bonds are broken and which bonds are formed, including how many of each.",
+      "acceptedAnswers": [
+        "4 C–H broken",
+        "2 O=O broken",
+        "2 C=O formed",
+        "4 O–H formed"
+      ],
+      "markScheme": [
+        "1 mark: broken: 4 C–H and 2 O=O",
+        "1 mark: formed: 2 C=O and 4 O–H"
+      ],
+      "explanation": "Draw displayed formulae: CH₄ has four C–H bonds, each O₂ has one O=O, CO₂ has two C=O, and each H₂O has two O–H."
+    },
+    {
+      "id": "c5-bond-energies-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Give two reasons why the overall energy change for burning methane measured in an experiment is different from the value calculated using bond energies.",
+      "acceptedAnswers": [
+        "bond energies are averages",
+        "energy lost to surroundings",
+        "water may be liquid not gas",
+        "incomplete combustion"
+      ],
+      "markScheme": [
+        "1 mark: bond energies are average values (not exact for the bonds in these molecules)",
+        "1 mark: in the experiment energy is lost to the surroundings / the water formed may condense (change of state) / combustion may be incomplete"
+      ],
+      "explanation": "Bond energies apply to gases and are averaged over many compounds. Real measurements include losses to the surroundings and changes of state."
+    },
+    {
+      "id": "c5-bond-energies-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the energy changes that take place when bonds are broken and formed during a chemical reaction, and explain how these changes decide whether a reaction is exothermic or endothermic.",
+      "markScheme": [
+        "Indicative content: bonds in the reactants are broken; breaking bonds needs energy (is endothermic) to overcome attraction between atoms; new bonds form in the products; forming bonds releases energy (is exothermic); overall energy change = energy needed to break bonds − energy released forming bonds; if more energy is released forming bonds than is needed to break bonds, the reaction is exothermic and the overall change is negative; if more energy is needed to break bonds than is released forming bonds, the reaction is endothermic and the overall change is positive.",
+        "Level 2 (3 to 4 marks): clear description of bond breaking and bond making with the correct energy direction, and a correct comparison for both exothermic and endothermic reactions.",
+        "Level 1 (1 to 2 marks): some correct statements, for example bond breaking needs energy, with little comparison."
+      ],
+      "explanation": "A full answer covers both processes and then compares them. Remember that bond breaking always needs energy, and bond making always releases it."
+    },
+    {
+      "id": "c5-bond-energies-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Hydrogen is being considered as a fuel. It burns in oxygen: 2H₂ + O₂ → 2H₂O\nBond energies (kJ/mol): H–H 436, O=O 498, O–H 464.\nCalculate the overall energy change for this reaction and explain, in terms of bonds, why it releases energy. Use your answer to comment on whether hydrogen is a suitable fuel.",
+      "markScheme": [
+        "Indicative content: bonds broken: 2 × H–H = 872 and 1 × O=O = 498, total 1370 kJ/mol; bonds formed: 4 × O–H = 4 × 464 = 1856 kJ/mol; overall energy change = 1370 − 1856 = −486 kJ/mol; negative so exothermic; breaking bonds needs energy, forming bonds releases energy; more energy is released forming the four O–H bonds than is needed to break the H–H and O=O bonds; the extra energy is transferred to the surroundings; a large amount of energy is released, so hydrogen is a good fuel; the only product is water, so no carbon dioxide is produced.",
+        "Level 3 (5 to 6 marks): correct calculation with working (−486 kJ/mol), a clear explanation in terms of bond breaking and bond making, and a reasoned comment on suitability as a fuel.",
+        "Level 2 (3 to 4 marks): a mostly correct calculation (for example one counting error) with some explanation of bond breaking and making.",
+        "Level 1 (1 to 2 marks): some correct steps, such as identifying the bonds broken or formed, or stating that bond making releases energy."
+      ],
+      "explanation": "The key steps are counting four O–H bonds (two in each of two water molecules), subtracting in the order broken − formed, and linking the negative answer to an exothermic reaction that releases energy for use as a fuel."
+    }
+  ]
+}

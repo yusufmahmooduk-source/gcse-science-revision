@@ -1,0 +1,333 @@
+{
+  "id": "c3-amounts-in-equations",
+  "science": "chemistry",
+  "topicId": "c3",
+  "slug": "amounts-in-equations",
+  "specRef": "4.3.2.2",
+  "title": "Amounts of substances in equations",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "The coefficients in a balanced symbol equation show the ratio of the numbers of moles of each substance that react and are produced. This lets you calculate the masses of reactants and products from the mass of any one reactant or product.",
+    "explanation": [
+      "A balanced equation can be read in moles. For example, Mg + 2HCl → MgCl₂ + H₂ shows that one mole of magnesium atoms reacts with two moles of hydrochloric acid to produce one mole of magnesium chloride and one mole of hydrogen molecules. The coefficients give the mole ratio. Because the ratio is fixed, 0.5 mol of magnesium reacts with 1 mol of HCl, and 3 mol of magnesium would react with 6 mol of HCl.",
+      "You can use a balanced equation to calculate the masses of substances shown in it. Multiply the Mr of each substance by its coefficient to find the mass in grams that reacts or forms. For 2Mg + O₂ → 2MgO: 2 × 24 = 48 g of magnesium reacts with 32 g of oxygen to make 2 × 40 = 80 g of magnesium oxide. The total mass of reactants (80 g) equals the total mass of products (80 g), as conservation of mass requires.",
+      "To calculate the mass of a product from a given mass of a reactant, use three steps. Step 1: convert the known mass into moles, using moles = mass ÷ Mr. Step 2: use the mole ratio from the balanced equation to find the moles of the substance you want. Step 3: convert those moles into a mass, using mass = moles × Mr. The same method works to find the mass of a reactant needed to make a given mass of product.",
+      "For example, what mass of calcium oxide is made when 50 g of calcium carbonate decomposes? CaCO₃ → CaO + CO₂. Moles of CaCO₃ = 50 ÷ 100 = 0.5 mol. The ratio CaCO₃ : CaO is 1 : 1, so 0.5 mol of CaO forms. Mass of CaO = 0.5 × 56 = 28 g.",
+      "Take care to use the correct Mr: use the Mr of the substance itself, not multiplied by its coefficient, when converting between mass and moles. The coefficient is only used in the ratio step. If the masses are given in kilograms or tonnes, you can either convert to grams or work in the same unit throughout, because the ratio of masses stays the same: 160 tonnes of Fe₂O₃ gives 112 tonnes of iron."
+    ],
+    "keyFacts": [
+      "The coefficients in a balanced equation give the ratio of moles of each substance.",
+      "Mg + 2HCl → MgCl₂ + H₂ means 1 mol Mg reacts with 2 mol HCl to make 1 mol MgCl₂ and 1 mol H₂.",
+      "Reacting mass method: mass → moles (÷ Mr), use the mole ratio, moles → mass (× Mr).",
+      "Use the Mr of one formula unit when converting; the coefficient is only used for the ratio.",
+      "Total mass of reactants calculated from an equation equals total mass of products.",
+      "Masses can be scaled: if the mass of a reactant is doubled, the mass of product doubles.",
+      "You can work in kg or tonnes if all masses are in the same unit, because the mass ratio stays the same."
+    ],
+    "keyTerms": [
+      { "term": "Mole ratio", "definition": "The ratio of the numbers of moles of substances in a reaction, given by the coefficients in the balanced equation." },
+      { "term": "Balanced equation", "definition": "A symbol equation with equal numbers of atoms of each element on both sides." },
+      { "term": "Reacting masses", "definition": "The masses of reactants that react together and the masses of products formed." },
+      { "term": "Coefficient", "definition": "The number in front of a formula in an equation, giving the number of moles in the reaction ratio." },
+      { "term": "Mole", "definition": "The amount of substance containing 6.02 × 10²³ particles; its mass in grams equals Mr." },
+      { "term": "Relative formula mass (Mr)", "definition": "The sum of the relative atomic masses of the atoms in a formula; the mass of one mole in grams." }
+    ],
+    "equations": [
+      { "name": "Number of moles", "formula": "number of moles = mass in grams ÷ relative formula mass", "symbols": "n = m ÷ Mr", "units": "n in mol, m in g", "recall": true },
+      { "name": "Mass from moles", "formula": "mass in grams = number of moles × relative formula mass", "symbols": "m = n × Mr", "units": "m in g, n in mol", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Mass of product from mass of reactant",
+        "question": "Calculate the mass of sodium chloride formed when 4.6 g of sodium reacts with excess chlorine. 2Na + Cl₂ → 2NaCl (Ar: Na = 23, Cl = 35.5)",
+        "steps": [
+          "Step 1: moles of Na = 4.6 ÷ 23 = 0.20 mol.",
+          "Step 2: ratio Na : NaCl = 2 : 2 = 1 : 1, so moles of NaCl = 0.20 mol.",
+          "Step 3: Mr of NaCl = 58.5. Mass = 0.20 × 58.5 = 11.7 g."
+        ],
+        "answer": "11.7 g of sodium chloride"
+      },
+      {
+        "title": "Mass of reactant needed",
+        "question": "Calculate the mass of oxygen needed to burn 8.0 g of methane completely. CH₄ + 2O₂ → CO₂ + 2H₂O (Ar: H = 1, C = 12, O = 16)",
+        "steps": [
+          "Step 1: Mr of CH₄ = 16. Moles of CH₄ = 8.0 ÷ 16 = 0.50 mol.",
+          "Step 2: ratio CH₄ : O₂ = 1 : 2, so moles of O₂ = 2 × 0.50 = 1.0 mol.",
+          "Step 3: Mr of O₂ = 32. Mass = 1.0 × 32 = 32 g."
+        ],
+        "answer": "32 g of oxygen"
+      },
+      {
+        "title": "Working with tonnes",
+        "question": "Iron is extracted in a blast furnace: Fe₂O₃ + 3CO → 2Fe + 3CO₂. Calculate the mass of iron that can be made from 1.0 tonne of iron(III) oxide. (Ar: O = 16, Fe = 56)",
+        "steps": [
+          "Convert: 1.0 tonne = 1 000 000 g. Mr of Fe₂O₃ = 160.",
+          "Moles of Fe₂O₃ = 1 000 000 ÷ 160 = 6250 mol.",
+          "Ratio Fe₂O₃ : Fe = 1 : 2, so moles of Fe = 12 500 mol.",
+          "Mass of Fe = 12 500 × 56 = 700 000 g = 0.70 tonnes.",
+          "Check using mass ratio: 160 g of Fe₂O₃ gives 2 × 56 = 112 g Fe, and 112 ÷ 160 = 0.70."
+        ],
+        "answer": "0.70 tonnes (700 kg) of iron"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Three steps for reacting mass calculations",
+        "caption": "Convert the known mass to moles, use the mole ratio from the balanced equation, then convert moles back to mass. The example uses 2Mg + O₂ → 2MgO with 12 g of magnesium.",
+        "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg'><text x='240' y='24' font-size='14' fill='currentColor' text-anchor='middle'>2Mg + O₂ → 2MgO</text><g stroke='currentColor'><rect x='15' y='45' width='130' height='70' rx='8' fill='#fde68a' fill-opacity='0.5'/><rect x='175' y='45' width='130' height='70' rx='8' fill='#86efac' fill-opacity='0.5'/><rect x='335' y='45' width='130' height='70' rx='8' fill='#c4b5fd' fill-opacity='0.5'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='80' y='65'>Step 1</text><text x='80' y='83'>moles of Mg</text><text x='80' y='101'>= 12 ÷ 24 = 0.5 mol</text><text x='240' y='65'>Step 2</text><text x='240' y='83'>ratio Mg : MgO = 2 : 2</text><text x='240' y='101'>MgO = 0.5 mol</text><text x='400' y='65'>Step 3</text><text x='400' y='83'>mass of MgO</text><text x='400' y='101'>= 0.5 × 40 = 20 g</text><text x='80' y='140'>mass ÷ Mr</text><text x='240' y='140'>use coefficients</text><text x='400' y='140'>moles × Mr</text><text x='240' y='185'>Check: 12 g Mg + 8 g O₂ = 20 g MgO</text><text x='240' y='215'>(mass is conserved)</text></g><g stroke='currentColor' stroke-width='2'><line x1='146' y1='80' x2='166' y2='80'/><line x1='306' y1='80' x2='326' y2='80'/></g><g fill='currentColor'><path d='M174 80 L164 75 L164 85 Z'/><path d='M334 80 L324 75 L324 85 Z'/></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think the masses of reactants react in the same ratio as the coefficients, so in 2Mg + O₂ they think 2 g of Mg reacts with 1 g of O₂.", "right": "In fact the coefficients give the ratio of moles, not grams. You must convert masses to moles first." },
+      { "wrong": "Students often multiply the Mr by the coefficient and then also use the mole ratio, counting the coefficient twice.", "right": "In fact use the Mr of one formula unit to convert mass to moles, and use the coefficients only once, in the ratio step." },
+      { "wrong": "Students often think the total number of moles must be the same on both sides of an equation.", "right": "In fact only atoms are conserved. In 2Mg + O₂ → 2MgO there are 3 mol of reactants but only 2 mol of product." },
+      { "wrong": "Students often think they must always convert tonnes into grams.", "right": "In fact, as long as every mass is in the same unit, the mass ratio stays the same, so you can work in tonnes throughout." }
+    ],
+    "realWorld": [
+      "Steel makers calculate how much iron ore, coke and limestone to put into a blast furnace to produce a given mass of iron.",
+      "Fertiliser manufacturers use reacting masses to work out the mass of ammonia needed to make each tonne of ammonium nitrate.",
+      "Car airbag designers calculate the mass of sodium azide needed to release the right amount of nitrogen gas to inflate the bag."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only: interpreting balanced equations in terms of moles and calculating the masses of reactants and products from a balanced equation and the mass of one reactant or product."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Set out reacting mass answers in three clear steps (moles, ratio, mass) so you pick up method marks.",
+      "Write the mole ratio down explicitly, for example 'Na : NaCl = 2 : 2 = 1 : 1'.",
+      "Always check the equation is balanced before using it; if it is not, balance it first.",
+      "Do not round in the middle; keep full values on your calculator and round the final answer to 3 significant figures.",
+      "A quick sanity check: the mass of product should be in proportion to the reactant (double the reactant, double the product)."
+    ],
+    "summary": [
+      "Coefficients in a balanced equation show the mole ratio.",
+      "Convert mass to moles: moles = mass ÷ Mr.",
+      "Use the mole ratio to find moles of the other substance.",
+      "Convert moles to mass: mass = moles × Mr.",
+      "Total calculated mass of reactants = total mass of products.",
+      "Mass ratios scale up, so you can work in kg or tonnes."
+    ]
+  },
+  "flashcards": [
+    { "front": "What do the coefficients in a balanced equation tell you?", "back": "The ratio of moles of each substance that react or form." },
+    { "front": "In Mg + 2HCl → MgCl₂ + H₂, how many moles of HCl react with 1 mol of Mg?", "back": "2 mol" },
+    { "front": "What are the three steps in a reacting mass calculation?", "back": "1. moles = mass ÷ Mr; 2. use the mole ratio; 3. mass = moles × Mr." },
+    { "front": "2Mg + O₂ → 2MgO: what mass of MgO forms from 48 g of Mg? (Mg 24, O 16)", "back": "80 g (2 mol Mg gives 2 mol MgO; 2 × 40 = 80 g)" },
+    { "front": "CaCO₃ → CaO + CO₂: mass of CaO from 100 g of CaCO₃?", "back": "56 g" },
+    { "front": "Is the number of moles conserved in a reaction?", "back": "No. Atoms (and mass) are conserved, but the total number of moles can change." },
+    { "front": "When converting a mass to moles, do you multiply Mr by the coefficient?", "back": "No. Use the Mr of one formula unit; the coefficient is only used in the ratio step." },
+    { "front": "N₂ + 3H₂ → 2NH₃: moles of NH₃ from 1.5 mol of H₂?", "back": "1.0 mol (ratio H₂ : NH₃ = 3 : 2)" },
+    { "front": "CH₄ + 2O₂ → CO₂ + 2H₂O: moles of O₂ to burn 0.25 mol of CH₄?", "back": "0.50 mol" },
+    { "front": "Can you calculate reacting masses in tonnes?", "back": "Yes, if all masses use the same unit, because the mass ratio is the same." },
+    { "front": "Fe₂O₃ + 3CO → 2Fe + 3CO₂: mass of Fe from 160 g of Fe₂O₃? (Fe 56)", "back": "112 g" }
+  ],
+  "questions": [
+    {
+      "id": "c3-amounts-in-equations-q01", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "In the equation Mg + 2HCl → MgCl₂ + H₂, how many moles of HCl react with one mole of Mg?",
+      "options": ["1", "2", "0.5", "4"],
+      "answer": 1,
+      "markScheme": ["1 mark: 2"],
+      "explanation": "The coefficient 2 in front of HCl means 2 mol of HCl react with 1 mol of Mg."
+    },
+    {
+      "id": "c3-amounts-in-equations-q02", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "What does the equation 2H₂ + O₂ → 2H₂O tell you?",
+      "options": ["2 g of hydrogen reacts with 1 g of oxygen", "2 mol of hydrogen reacts with 1 mol of oxygen to give 2 mol of water", "2 atoms of hydrogen react with 1 atom of oxygen", "The total number of moles is the same on both sides"],
+      "answer": 1,
+      "markScheme": ["1 mark: 2 mol of hydrogen reacts with 1 mol of oxygen to give 2 mol of water"],
+      "explanation": "Coefficients give mole (or molecule) ratios, not mass ratios. H₂ and O₂ are molecules, not atoms, and there are 3 mol of reactants but 2 mol of product."
+    },
+    {
+      "id": "c3-amounts-in-equations-q03", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "CaCO₃ → CaO + CO₂. How many moles of CO₂ are produced from 0.4 mol of CaCO₃?",
+      "options": ["0.2 mol", "0.8 mol", "1.0 mol", "0.4 mol"],
+      "answer": 3,
+      "markScheme": ["1 mark: 0.4 mol"],
+      "explanation": "The ratio CaCO₃ : CO₂ is 1 : 1, so 0.4 mol of CaCO₃ gives 0.4 mol of CO₂."
+    },
+    {
+      "id": "c3-amounts-in-equations-q04", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "N₂ + 3H₂ → 2NH₃. How many moles of ammonia are formed from 6 mol of hydrogen?",
+      "options": ["2 mol", "3 mol", "4 mol", "12 mol"],
+      "answer": 2,
+      "markScheme": ["1 mark: 4 mol"],
+      "explanation": "The ratio H₂ : NH₃ is 3 : 2. 6 mol of H₂ gives 6 × 2 ÷ 3 = 4 mol of NH₃."
+    },
+    {
+      "id": "c3-amounts-in-equations-q05", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "2Mg + O₂ → 2MgO. What mass of oxygen reacts with 48 g of magnesium? (Ar: O = 16, Mg = 24)",
+      "options": ["16 g", "32 g", "48 g", "64 g"],
+      "answer": 1,
+      "markScheme": ["1 mark: 32 g"],
+      "explanation": "48 g Mg = 2 mol. Ratio Mg : O₂ = 2 : 1, so 1 mol O₂ = 32 g. 16 g uses Ar of O instead of Mr of O₂."
+    },
+    {
+      "id": "c3-amounts-in-equations-q06", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "Which is the correct first step when calculating the mass of product from a given mass of reactant?",
+      "options": ["Convert the mass of reactant into moles", "Multiply the mass of reactant by the coefficient", "Add the Mr values of the products", "Divide the mass of reactant by the Avogadro constant"],
+      "answer": 0,
+      "markScheme": ["1 mark: convert the mass of reactant into moles"],
+      "explanation": "Equations give mole ratios, so you must convert mass to moles (mass ÷ Mr) before using the ratio."
+    },
+    {
+      "id": "c3-amounts-in-equations-q07", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "CH₄ + 2O₂ → CO₂ + 2H₂O. How many moles of water form when 0.25 mol of methane burns completely?",
+      "options": ["0.125 mol", "0.25 mol", "1.0 mol", "0.50 mol"],
+      "answer": 3,
+      "markScheme": ["1 mark: 0.50 mol"],
+      "explanation": "Ratio CH₄ : H₂O = 1 : 2, so 0.25 × 2 = 0.50 mol of water."
+    },
+    {
+      "id": "c3-amounts-in-equations-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "4Al + 3O₂ → 2Al₂O₃. What mass of aluminium oxide is made from 2.7 g of aluminium? (Ar: O = 16, Al = 27)",
+      "options": ["5.1 g", "10.2 g", "2.55 g", "20.4 g"],
+      "answer": 0,
+      "markScheme": ["1 mark: 5.1 g"],
+      "explanation": "2.7 ÷ 27 = 0.10 mol Al. Ratio Al : Al₂O₃ = 4 : 2, so 0.050 mol Al₂O₃. Mr = 102, so 0.050 × 102 = 5.1 g. 10.2 g forgets the 4 : 2 ratio."
+    },
+    {
+      "id": "c3-amounts-in-equations-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Fe₂O₃ + 3CO → 2Fe + 3CO₂. What mass of iron can be made from 80 tonnes of Fe₂O₃? (Ar: O = 16, Fe = 56)",
+      "options": ["28 tonnes", "56 tonnes", "112 tonnes", "40 tonnes"],
+      "answer": 1,
+      "markScheme": ["1 mark: 56 tonnes"],
+      "explanation": "160 tonnes of Fe₂O₃ gives 112 tonnes of Fe, so 80 tonnes gives half: 56 tonnes. 28 tonnes ignores the 1 : 2 ratio."
+    },
+    {
+      "id": "c3-amounts-in-equations-q10", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Mg + 2HCl → MgCl₂ + H₂. Calculate the number of moles of HCl that react with 0.5 mol of magnesium.",
+      "numericAnswer": 1, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: 0.5 × 2 = 1.0 mol"],
+      "explanation": "The ratio Mg : HCl is 1 : 2, so double the moles of magnesium: 1.0 mol of HCl."
+    },
+    {
+      "id": "c3-amounts-in-equations-q11", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 3,
+      "question": "2Mg + O₂ → 2MgO. Calculate the mass of magnesium oxide formed from 12 g of magnesium. (Ar: O = 16, Mg = 24)",
+      "numericAnswer": 20, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles Mg = 12 ÷ 24 = 0.5 mol", "1 mark: moles MgO = 0.5 mol (ratio 2 : 2)", "1 mark: mass = 0.5 × 40 = 20 g"],
+      "explanation": "Mass to moles, then 1 : 1 ratio, then moles to mass with Mr of MgO = 40."
+    },
+    {
+      "id": "c3-amounts-in-equations-q12", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "CaCO₃ → CaO + CO₂. Calculate the mass of calcium oxide made when 50 g of calcium carbonate is completely decomposed. (Ar: C = 12, O = 16, Ca = 40)",
+      "numericAnswer": 28, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles CaCO₃ = 50 ÷ 100 = 0.50 mol", "1 mark: moles CaO = 0.50 mol", "1 mark: mass CaO = 0.50 × 56 = 28 g"],
+      "explanation": "The ratio is 1 : 1. The remaining 22 g is carbon dioxide, so mass is conserved (28 + 22 = 50)."
+    },
+    {
+      "id": "c3-amounts-in-equations-q13", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "2Na + Cl₂ → 2NaCl. Calculate the mass of sodium chloride made from 4.6 g of sodium. (Ar: Na = 23, Cl = 35.5)",
+      "numericAnswer": 11.7, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles Na = 4.6 ÷ 23 = 0.20 mol", "1 mark: moles NaCl = 0.20 mol", "1 mark: mass = 0.20 × 58.5 = 11.7 g"],
+      "explanation": "Na : NaCl = 2 : 2 = 1 : 1. 0.20 mol × 58.5 = 11.7 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q14", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "CH₄ + 2O₂ → CO₂ + 2H₂O. Calculate the mass of oxygen needed to burn 8.0 g of methane completely. (Ar: H = 1, C = 12, O = 16)",
+      "numericAnswer": 32, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles CH₄ = 8.0 ÷ 16 = 0.50 mol", "1 mark: moles O₂ = 1.0 mol", "1 mark: mass O₂ = 1.0 × 32 = 32 g"],
+      "explanation": "The ratio CH₄ : O₂ = 1 : 2. Use Mr of O₂ = 32, not Ar of O = 16."
+    },
+    {
+      "id": "c3-amounts-in-equations-q15", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Fe₂O₃ + 3CO → 2Fe + 3CO₂. Calculate the mass of iron produced from 320 g of iron(III) oxide. (Ar: O = 16, Fe = 56)",
+      "numericAnswer": 224, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles Fe₂O₃ = 320 ÷ 160 = 2.0 mol", "1 mark: moles Fe = 4.0 mol", "1 mark: mass Fe = 4.0 × 56 = 224 g"],
+      "explanation": "Each Fe₂O₃ gives 2 Fe, so the moles double. 4.0 × 56 = 224 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q16", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "The thermite reaction is 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. Calculate the mass of aluminium needed to react completely with 16 g of iron(III) oxide. (Ar: O = 16, Al = 27, Fe = 56)",
+      "numericAnswer": 5.4, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles Fe₂O₃ = 16 ÷ 160 = 0.10 mol", "1 mark: moles Al = 0.20 mol", "1 mark: mass Al = 0.20 × 27 = 5.4 g"],
+      "explanation": "Ratio Al : Fe₂O₃ = 2 : 1, so double the moles of oxide. 0.20 × 27 = 5.4 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "N₂ + 3H₂ → 2NH₃. Calculate the mass of ammonia that can be made from 6.0 g of hydrogen. (Ar: H = 1, N = 14)",
+      "numericAnswer": 34, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles H₂ = 6.0 ÷ 2 = 3.0 mol", "1 mark: moles NH₃ = 3.0 × 2 ÷ 3 = 2.0 mol", "1 mark: mass NH₃ = 2.0 × 17 = 34 g"],
+      "explanation": "Use Mr of H₂ = 2. The ratio H₂ : NH₃ = 3 : 2, so 3.0 mol of H₂ gives 2.0 mol of NH₃."
+    },
+    {
+      "id": "c3-amounts-in-equations-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "Copper sulfate can be made by reacting copper oxide with sulfuric acid: CuO + H₂SO₄ → CuSO₄ + H₂O. Calculate the mass of copper oxide needed to make 31.9 g of copper sulfate. (Ar: O = 16, S = 32, Cu = 63.5)",
+      "numericAnswer": 15.9, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: Mr CuSO₄ = 159.5 and Mr CuO = 79.5", "1 mark: moles CuSO₄ = 31.9 ÷ 159.5 = 0.20 mol", "1 mark: moles CuO = 0.20 mol", "1 mark: mass CuO = 0.20 × 79.5 = 15.9 g"],
+      "explanation": "Here you work backwards from product to reactant, but the method is the same: mass to moles, ratio (1 : 1), moles to mass."
+    },
+    {
+      "id": "c3-amounts-in-equations-q19", "type": "short", "tier": "higher", "difficulty": 1, "marks": 2,
+      "question": "Describe what the equation Mg + 2HCl → MgCl₂ + H₂ tells you in terms of moles.",
+      "acceptedAnswers": ["1 mol Mg reacts with 2 mol HCl", "1 mol MgCl₂ and 1 mol H₂"],
+      "markScheme": ["1 mark: one mole of magnesium reacts with two moles of hydrochloric acid", "1 mark: to produce one mole of magnesium chloride and one mole of hydrogen"],
+      "explanation": "Read the coefficients as numbers of moles. A missing coefficient means 1."
+    },
+    {
+      "id": "c3-amounts-in-equations-q20", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "2H₂ + O₂ → 2H₂O. State the number of moles of oxygen needed to react with 4 mol of hydrogen.",
+      "acceptedAnswers": ["2 mol", "2"],
+      "markScheme": ["1 mark: 2 mol"],
+      "explanation": "Ratio H₂ : O₂ = 2 : 1, so half as many moles of oxygen are needed: 2 mol."
+    },
+    {
+      "id": "c3-amounts-in-equations-q21", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Explain why 2 g of magnesium does not react with exactly 1 g of oxygen in the reaction 2Mg + O₂ → 2MgO.",
+      "acceptedAnswers": ["coefficients are moles not grams", "different Mr", "mole ratio not mass ratio"],
+      "markScheme": ["1 mark: the coefficients show the ratio of moles (particles), not masses", "1 mark: magnesium atoms and oxygen molecules have different masses (Ar 24, Mr 32), so the mass ratio is 48 : 32"],
+      "explanation": "2 mol of Mg (48 g) react with 1 mol of O₂ (32 g), so the mass ratio is 3 : 2, not 2 : 1."
+    },
+    {
+      "id": "c3-amounts-in-equations-q22", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Use Mr values to show that mass is conserved in the reaction 2Mg + O₂ → 2MgO. (Ar: O = 16, Mg = 24)",
+      "acceptedAnswers": ["80 g = 80 g", "48 + 32 = 80", "2 × 40 = 80"],
+      "markScheme": ["1 mark: reactants: (2 × 24) + 32 = 80", "1 mark: products: 2 × 40 = 80, so equal"],
+      "explanation": "Multiplying each Mr by its coefficient gives the mass in grams for the moles shown. Both sides total 80 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q23", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "A student calculates the mass of MgO from 12 g of Mg in 2Mg + O₂ → 2MgO as: 12 ÷ (2 × 24) = 0.25 mol, then 0.25 × 2 = 0.5 mol of MgO, then 0.5 × 40 = 20 g. Their answer is correct, but explain why their method is risky.",
+      "acceptedAnswers": ["uses the coefficient twice", "should use Mr of one formula unit", "only correct by coincidence"],
+      "markScheme": ["1 mark: they used the coefficient in the Mr step and again in the ratio step", "1 mark: it only worked because the two coefficients (2 and 2) cancelled; with a different ratio it would give the wrong answer"],
+      "explanation": "The safe method is moles = 12 ÷ 24 = 0.5 mol of Mg, ratio 1 : 1, so 0.5 mol of MgO = 20 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q24", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "2KOH + H₂SO₄ → K₂SO₄ + 2H₂O. Calculate the mass of potassium sulfate made from 11.2 g of potassium hydroxide. (Ar: H = 1, O = 16, S = 32, K = 39)",
+      "acceptedAnswers": ["17.4 g", "17.4"],
+      "markScheme": ["1 mark: moles KOH = 11.2 ÷ 56 = 0.20 mol", "1 mark: moles K₂SO₄ = 0.10 mol (ratio 2 : 1)", "1 mark: mass = 0.10 × 174 = 17.4 g"],
+      "explanation": "Mr of KOH = 56 and Mr of K₂SO₄ = 78 + 32 + 64 = 174. Two KOH make one K₂SO₄, so halve the moles."
+    },
+    {
+      "id": "c3-amounts-in-equations-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Calculate the number of moles of carbon dioxide produced when 0.40 mol of oxygen reacts completely with propane.",
+      "acceptedAnswers": ["0.24 mol", "0.24"],
+      "markScheme": ["1 mark: ratio O₂ : CO₂ = 5 : 3", "1 mark: 0.40 × 3 ÷ 5 = 0.24 mol"],
+      "explanation": "Use the ratio of the two substances in the question, not the ratio to propane: 0.40 ÷ 5 × 3 = 0.24 mol."
+    },
+    {
+      "id": "c3-amounts-in-equations-q26", "type": "extended", "tier": "higher", "difficulty": 2, "marks": 4,
+      "question": "Hydrogen peroxide decomposes: 2H₂O₂ → 2H₂O + O₂. A bottle contains 6.8 g of hydrogen peroxide. (Ar: H = 1, O = 16)\nCalculate the mass of oxygen that is produced when all of it decomposes. Show each step and explain how you used the equation.",
+      "markScheme": [
+        "Indicative content: Mr H₂O₂ = 34; moles H₂O₂ = 6.8 ÷ 34 = 0.20 mol; ratio H₂O₂ : O₂ = 2 : 1; moles O₂ = 0.10 mol; Mr O₂ = 32; mass O₂ = 0.10 × 32 = 3.2 g; the coefficients give the mole ratio; check: mass of water = 0.20 × 18 = 3.6 g, 3.6 + 3.2 = 6.8 g so mass is conserved.",
+        "Level 2 (3 to 4 marks): correct answer of 3.2 g with each step shown and the use of the mole ratio explained.",
+        "Level 1 (1 to 2 marks): Mr or moles of H₂O₂ correct but ratio not used correctly."
+      ],
+      "explanation": "Two moles of hydrogen peroxide give one mole of oxygen, so halve the moles: 0.10 mol O₂ = 3.2 g."
+    },
+    {
+      "id": "c3-amounts-in-equations-q27", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "Titanium is extracted from titanium(IV) chloride using sodium: TiCl₄ + 4Na → Ti + 4NaCl. (Ar: Na = 23, Cl = 35.5, Ti = 48)\nA company wants to make 9.6 kg of titanium. Calculate the masses of titanium chloride and sodium needed, and the mass of sodium chloride produced. Use your answers to show that mass is conserved.",
+      "markScheme": [
+        "Indicative content: 9.6 kg = 9600 g; moles Ti = 9600 ÷ 48 = 200 mol; moles TiCl₄ = 200 mol; Mr TiCl₄ = 48 + 142 = 190; mass TiCl₄ = 200 × 190 = 38 000 g = 38 kg; moles Na = 4 × 200 = 800 mol; mass Na = 800 × 23 = 18 400 g = 18.4 kg; moles NaCl = 800 mol; mass NaCl = 800 × 58.5 = 46 800 g = 46.8 kg; reactants 38 + 18.4 = 56.4 kg; products 9.6 + 46.8 = 56.4 kg; equal, so mass conserved.",
+        "Level 3 (5 to 6 marks): all three masses correct with clear working, correct unit handling, and a correct check of conservation of mass.",
+        "Level 2 (3 to 4 marks): moles of titanium and at least one other mass correct, with mostly clear working.",
+        "Level 1 (1 to 2 marks): some correct Mr or moles but little correct use of the ratio."
+      ],
+      "explanation": "Work from titanium (the product whose mass is known): 200 mol. Use ratios 1 : 1 for TiCl₄ and 1 : 4 for Na and NaCl. Both sides total 56.4 kg."
+    }
+  ]
+}

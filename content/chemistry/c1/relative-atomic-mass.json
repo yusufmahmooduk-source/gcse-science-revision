@@ -1,0 +1,711 @@
+{
+  "id": "c1-relative-atomic-mass",
+  "science": "chemistry",
+  "topicId": "c1",
+  "slug": "relative-atomic-mass",
+  "specRef": "4.1.1.6",
+  "title": "Relative atomic mass",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The relative atomic mass (Ar) of an element is an average value that takes account of the abundance of the isotopes of the element.",
+    "explanation": [
+      "Most elements exist naturally as a mixture of isotopes, which are atoms of the same element with different numbers of neutrons and so different mass numbers. Chlorine, for example, is about 75% chlorine-35 and 25% chlorine-37. Because a real sample of an element contains a mixture of isotopes, chemists use an average mass for its atoms. This average is the relative atomic mass, symbol Ar. It is the value shown in the periodic table (usually the larger of the two numbers for each element).",
+      "The relative atomic mass is not a simple average of the mass numbers. It is a weighted average that takes account of how common (abundant) each isotope is. The percentage abundance of an isotope is the percentage of atoms of the element that are that isotope. The more abundant an isotope is, the closer the Ar is to its mass number. Chlorine's Ar is 35.5, much closer to 35 than to 37, because there are three times as many chlorine-35 atoms as chlorine-37 atoms.",
+      "To calculate Ar from percentage abundances: multiply the mass number of each isotope by its percentage abundance, add these together, and divide by 100. For chlorine: Ar = (35 × 75 + 37 × 25) ÷ 100 = (2625 + 925) ÷ 100 = 3550 ÷ 100 = 35.5. The same method works for elements with three or more isotopes: include a term for every isotope. Always check that the percentages add up to 100.",
+      "Relative atomic mass has no units because it is a relative value, comparing the masses of atoms with each other. Because it is an average, Ar is often not a whole number, even though every individual atom has a whole-number mass number. A useful check is that your answer must lie between the smallest and largest mass numbers of the isotopes, and nearer to the most abundant one."
+    ],
+    "keyFacts": [
+      "Relative atomic mass (Ar) is an average value that takes account of the abundance of the isotopes of an element.",
+      "Ar = (sum of mass number × percentage abundance for each isotope) ÷ 100.",
+      "Ar has no units.",
+      "Ar values are often not whole numbers because they are averages.",
+      "Ar is closest to the mass number of the most abundant isotope.",
+      "Chlorine: 75% chlorine-35, 25% chlorine-37, so Ar = 35.5.",
+      "Percentage abundances of all isotopes of an element add up to 100%.",
+      "The Ar of each element is given in the periodic table."
+    ],
+    "keyTerms": [
+      {
+        "term": "Relative atomic mass (Ar)",
+        "definition": "An average value of the mass of an element's atoms that takes account of the abundance of its isotopes."
+      },
+      {
+        "term": "Isotopes",
+        "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons."
+      },
+      {
+        "term": "Percentage abundance",
+        "definition": "The percentage of the atoms of an element that are a particular isotope."
+      },
+      {
+        "term": "Weighted average",
+        "definition": "An average in which each value counts in proportion to how common it is."
+      },
+      {
+        "term": "Mass number",
+        "definition": "The total number of protons and neutrons in an atom of an isotope."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Relative atomic mass from isotope abundances",
+        "formula": "Ar = (mass number of isotope 1 × % abundance of isotope 1 + mass number of isotope 2 × % abundance of isotope 2) ÷ 100, adding a term for every isotope",
+        "symbols": "Ar = Σ(mass number × % abundance) ÷ 100",
+        "units": "no units",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Two isotopes",
+        "question": "Boron has two isotopes: boron-10 (20%) and boron-11 (80%). Calculate the relative atomic mass of boron.",
+        "steps": [
+          "Multiply each mass number by its percentage abundance: 10 × 20 = 200 and 11 × 80 = 880.",
+          "Add them: 200 + 880 = 1080.",
+          "Divide by 100: 1080 ÷ 100 = 10.8.",
+          "Check: 10.8 lies between 10 and 11 and is nearer 11, the more abundant isotope."
+        ],
+        "answer": "Ar of boron = 10.8"
+      },
+      {
+        "title": "Three isotopes",
+        "question": "Magnesium is 79% magnesium-24, 10% magnesium-25 and 11% magnesium-26. Calculate the Ar of magnesium to 1 decimal place.",
+        "steps": [
+          "24 × 79 = 1896",
+          "25 × 10 = 250",
+          "26 × 11 = 286",
+          "Total = 1896 + 250 + 286 = 2432",
+          "Ar = 2432 ÷ 100 = 24.32, which is 24.3 to 1 decimal place."
+        ],
+        "answer": "Ar of magnesium = 24.3"
+      },
+      {
+        "title": "Finding a missing abundance",
+        "question": "Neon is 90.5% neon-20, 9.2% neon-22 and the rest is neon-21. What is the percentage abundance of neon-21?",
+        "steps": [
+          "The abundances must add up to 100%.",
+          "100 − 90.5 − 9.2 = 0.3"
+        ],
+        "answer": "0.3%"
+      },
+      {
+        "title": "Working backwards (Higher demand)",
+        "question": "Copper has isotopes copper-63 and copper-65 and an Ar of 63.5. Calculate the percentage abundance of copper-63.",
+        "steps": [
+          "Let the abundance of copper-63 be x%. Then copper-65 is (100 − x)%.",
+          "63x + 65(100 − x) = 63.5 × 100 = 6350",
+          "63x + 6500 − 65x = 6350, so −2x = −150",
+          "x = 75"
+        ],
+        "answer": "Copper-63 is 75% (and copper-65 is 25%)."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Isotope abundances for chlorine",
+        "caption": "Bar chart of the two isotopes of chlorine. Chlorine-35 makes up 75% and chlorine-37 makes up 25%, so the relative atomic mass, 35.5, is closer to 35.",
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"200\" stroke=\"currentColor\"/>\n<line x1=\"70\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"currentColor\"/>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">\n<text x=\"64\" y=\"204\">0</text><text x=\"64\" y=\"164\">20</text><text x=\"64\" y=\"124\">40</text><text x=\"64\" y=\"84\">60</text><text x=\"64\" y=\"44\">80</text>\n</g>\n<g stroke=\"currentColor\" stroke-dasharray=\"2 3\" opacity=\"0.4\">\n<line x1=\"70\" y1=\"160\" x2=\"400\" y2=\"160\"/><line x1=\"70\" y1=\"120\" x2=\"400\" y2=\"120\"/><line x1=\"70\" y1=\"80\" x2=\"400\" y2=\"80\"/><line x1=\"70\" y1=\"40\" x2=\"400\" y2=\"40\"/>\n</g>\n<rect x=\"125\" y=\"50\" width=\"40\" height=\"150\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<rect x=\"285\" y=\"150\" width=\"40\" height=\"50\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"145\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">75%</text>\n<text x=\"305\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">25%</text>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"145\" y=\"216\">35</text><text x=\"225\" y=\"216\">36</text><text x=\"305\" y=\"216\">37</text>\n<text x=\"235\" y=\"238\">mass number of isotope</text>\n</g>\n<text x=\"20\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 20 120)\">abundance (%)</text>\n<line x1=\"185\" y1=\"200\" x2=\"185\" y2=\"30\" stroke=\"currentColor\" stroke-dasharray=\"5 3\"/>\n<text x=\"190\" y=\"28\" font-size=\"12\" fill=\"currentColor\">Ar = 35.5</text>\n</svg>"
+      },
+      {
+        "title": "Why Ar is a weighted average",
+        "caption": "In every 4 chlorine atoms, on average 3 are chlorine-35 and 1 is chlorine-37. The average mass of these atoms is 35.5.",
+        "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\">\n<g stroke=\"currentColor\">\n<circle cx=\"50\" cy=\"60\" r=\"22\" fill=\"#86efac\" fill-opacity=\"0.5\"/>\n<circle cx=\"110\" cy=\"60\" r=\"22\" fill=\"#86efac\" fill-opacity=\"0.5\"/>\n<circle cx=\"170\" cy=\"60\" r=\"22\" fill=\"#86efac\" fill-opacity=\"0.5\"/>\n<circle cx=\"230\" cy=\"60\" r=\"23\" fill=\"#c4b5fd\" fill-opacity=\"0.5\"/>\n</g>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"50\" y=\"64\">³⁵Cl</text><text x=\"110\" y=\"64\">³⁵Cl</text><text x=\"170\" y=\"64\">³⁵Cl</text><text x=\"230\" y=\"64\">³⁷Cl</text>\n</g>\n<text x=\"270\" y=\"50\" font-size=\"12\" fill=\"currentColor\">3 out of 4 atoms</text>\n<text x=\"270\" y=\"66\" font-size=\"12\" fill=\"currentColor\">are chlorine-35</text>\n<text x=\"270\" y=\"82\" font-size=\"12\" fill=\"currentColor\">(75% and 25%)</text>\n<text x=\"20\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Average mass = (35 + 35 + 35 + 37) ÷ 4 = 142 ÷ 4 = 35.5</text>\n<text x=\"20\" y=\"145\" font-size=\"12\" fill=\"currentColor\">Same as: (35 × 75 + 37 × 25) ÷ 100 = 3550 ÷ 100 = 35.5</text>\n<text x=\"20\" y=\"178\" font-size=\"12\" fill=\"currentColor\">The average is closer to 35 because chlorine-35 is more abundant.</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often find Ar by simply averaging the mass numbers, for example (35 + 37) ÷ 2 = 36 for chlorine.",
+        "right": "In fact Ar is a weighted average: each mass number must be multiplied by its percentage abundance. For chlorine this gives 35.5."
+      },
+      {
+        "wrong": "Students often think an atom can have a mass number of 35.5.",
+        "right": "In fact every individual atom has a whole-number mass number. 35.5 is the average for a large number of chlorine atoms."
+      },
+      {
+        "wrong": "Students often give Ar a unit such as grams.",
+        "right": "In fact Ar is a relative value and has no units."
+      },
+      {
+        "wrong": "Students often forget to divide by 100 and give an answer like 3550.",
+        "right": "In fact the answer must lie between the mass numbers of the isotopes. If it does not, check that you divided by 100."
+      }
+    ],
+    "realWorld": [
+      "Ar values are used in every calculation of relative formula mass, such as working out how much product a chemical plant will make.",
+      "Scientists measure isotope abundances with a mass spectrometer, and small differences in abundance can reveal where a sample of food or a mineral came from.",
+      "Lead from different ore deposits has slightly different isotope abundances, so its Ar varies a little; this helps archaeologists trace ancient metal objects."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Show every multiplication, the total, and the division by 100. Method marks are available even if you make an arithmetic slip.",
+      "Check your answer is between the smallest and largest mass numbers and closest to the most abundant isotope.",
+      "Give answers to the number of decimal places asked for (often 1 decimal place).",
+      "If one percentage is missing, subtract the others from 100 first."
+    ],
+    "summary": [
+      "Ar is an average mass that takes account of the abundance of each isotope.",
+      "Ar = Σ(mass number × % abundance) ÷ 100.",
+      "Ar has no units and is often not a whole number.",
+      "Ar is closest to the mass number of the most abundant isotope.",
+      "Chlorine's Ar is 35.5 because it is 75% chlorine-35 and 25% chlorine-37."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is relative atomic mass (Ar)?",
+      "back": "An average value that takes account of the abundance of the isotopes of an element."
+    },
+    {
+      "front": "Formula for Ar from percentage abundances",
+      "back": "Ar = Σ(mass number × % abundance) ÷ 100"
+    },
+    {
+      "front": "Units of Ar",
+      "back": "None: it is a relative value."
+    },
+    {
+      "front": "Why is Ar often not a whole number?",
+      "back": "It is a weighted average of the masses of different isotopes."
+    },
+    {
+      "front": "Which isotope is Ar closest to?",
+      "back": "The most abundant isotope."
+    },
+    {
+      "front": "Ar of chlorine (75% Cl-35, 25% Cl-37)",
+      "back": "35.5"
+    },
+    {
+      "front": "Ar of boron (20% B-10, 80% B-11)",
+      "back": "10.8"
+    },
+    {
+      "front": "What do all the percentage abundances add up to?",
+      "back": "100%"
+    },
+    {
+      "front": "What is percentage abundance?",
+      "back": "The percentage of an element's atoms that are a particular isotope."
+    },
+    {
+      "front": "Why is (35 + 37) ÷ 2 wrong for chlorine?",
+      "back": "It ignores the different abundances; the isotopes are not equally common."
+    },
+    {
+      "front": "Where can you find Ar values?",
+      "back": "In the periodic table."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c1-relative-atomic-mass-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the relative atomic mass of an element?",
+      "options": [
+        "The number of protons in an atom of the element",
+        "The mass number of the most common isotope",
+        "An average value that takes account of the abundance of the element's isotopes",
+        "The total number of protons, neutrons and electrons"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: an average value that takes account of the abundance of the element's isotopes"
+      ],
+      "explanation": "Ar is a weighted average of the isotopes' masses. The number of protons is the atomic number, and the most common isotope's mass number is only one of the values in the average."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the symbol for relative atomic mass?",
+      "options": [
+        "Mr",
+        "Ar",
+        "Z",
+        "n"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Ar"
+      ],
+      "explanation": "Ar is relative atomic mass. Mr is relative formula mass, used for compounds."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which information is needed to calculate the relative atomic mass of an element?",
+      "options": [
+        "The mass number and percentage abundance of each isotope",
+        "The atomic number and the number of electrons",
+        "The number of neutrons in one atom",
+        "The melting point and density of the element"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: the mass number and percentage abundance of each isotope"
+      ],
+      "explanation": "Ar is calculated from each isotope's mass number weighted by its abundance."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is the relative atomic mass of chlorine 35.5 and not a whole number?",
+      "options": [
+        "Some chlorine atoms have half a neutron",
+        "Chlorine atoms lose electrons easily",
+        "Electrons add 0.5 to the mass",
+        "It is an average of the masses of chlorine's isotopes"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: it is an average of the masses of chlorine's isotopes"
+      ],
+      "explanation": "Individual atoms have whole-number mass numbers (35 or 37). The average of many atoms, weighted by abundance, is 35.5."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Element X has two isotopes, X-79 and X-81, with equal abundance (50% each). What is the relative atomic mass of X?",
+      "options": [
+        "79",
+        "80",
+        "81",
+        "160"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 80"
+      ],
+      "explanation": "(79 × 50 + 81 × 50) ÷ 100 = 80. With equal abundances the weighted average is halfway between the two mass numbers."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Boron has isotopes boron-10 and boron-11. Its relative atomic mass is 10.8. What does this tell you?",
+      "options": [
+        "Boron-11 is more abundant than boron-10",
+        "Boron-10 is more abundant than boron-11",
+        "Both isotopes are equally abundant",
+        "Boron has a third isotope with a mass of 10.8"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: boron-11 is more abundant than boron-10"
+      ],
+      "explanation": "10.8 is closer to 11 than to 10, so there must be more boron-11 atoms. Equal abundance would give 10.5."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What are the units of relative atomic mass?",
+      "options": [
+        "g",
+        "g/mol",
+        "amu per atom",
+        "It has no units"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: it has no units"
+      ],
+      "explanation": "Ar compares the masses of atoms with each other, so it is a ratio with no units."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Lithium is 7.5% lithium-6 and 92.5% lithium-7. What is the relative atomic mass of lithium to 1 decimal place?",
+      "options": [
+        "6.5",
+        "7.0",
+        "6.9",
+        "6.1"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 6.9"
+      ],
+      "explanation": "(6 × 7.5 + 7 × 92.5) ÷ 100 = (45 + 647.5) ÷ 100 = 6.925, which is 6.9 to 1 decimal place. 6.5 is the simple (unweighted) average."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An element has two isotopes with mass numbers 35 and 37. Its relative atomic mass is 35.5. What is the percentage abundance of the isotope with mass number 35?",
+      "options": [
+        "25%",
+        "50%",
+        "35.5%",
+        "75%"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 75%"
+      ],
+      "explanation": "35x + 37(100 − x) = 3550 gives 3700 − 2x = 3550, so x = 75. 25% is the abundance of the mass-37 isotope."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Hydrogen has an isotope, deuterium (²H), but the relative atomic mass of hydrogen is 1.0 to 1 decimal place. What is the best explanation?",
+      "options": [
+        "Deuterium has no neutrons",
+        "Deuterium has a very low percentage abundance",
+        "Ar only counts protons",
+        "Deuterium is a different element"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: deuterium has a very low percentage abundance"
+      ],
+      "explanation": "Almost all hydrogen atoms are ¹H, so the weighted average is very close to 1. Deuterium is hydrogen with one neutron, so it is the same element."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "An element has two isotopes with mass numbers 10 and 12. Each makes up 50% of the atoms. Calculate the relative atomic mass of the element.",
+      "numericAnswer": 11,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 11"
+      ],
+      "explanation": "(10 × 50 + 12 × 50) ÷ 100 = 1100 ÷ 100 = 11."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Chlorine is 75% chlorine-35 and 25% chlorine-37. Calculate the relative atomic mass of chlorine.",
+      "numericAnswer": 35.5,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (35 × 75) + (37 × 25) = 3550",
+        "1 mark: 3550 ÷ 100 = 35.5"
+      ],
+      "explanation": "2625 + 925 = 3550, and 3550 ÷ 100 = 35.5."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Boron is 20% boron-10 and 80% boron-11. Calculate the relative atomic mass of boron.",
+      "numericAnswer": 10.8,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (10 × 20) + (11 × 80) = 1080",
+        "1 mark: 1080 ÷ 100 = 10.8"
+      ],
+      "explanation": "200 + 880 = 1080. Dividing by 100 gives 10.8, which is closer to 11 as expected."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Copper is 69% copper-63 and 31% copper-65. Calculate the relative atomic mass of copper. Give your answer to 1 decimal place.",
+      "numericAnswer": 63.6,
+      "tolerance": 0.002,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (63 × 69) + (65 × 31) = 4347 + 2015 = 6362",
+        "1 mark: 6362 ÷ 100 = 63.62 = 63.6 (1 d.p.)"
+      ],
+      "explanation": "The answer is closer to 63 because copper-63 is more abundant."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Bromine is 50.7% bromine-79 and 49.3% bromine-81. Calculate the relative atomic mass of bromine. Give your answer to 1 decimal place.",
+      "numericAnswer": 80,
+      "tolerance": 0.002,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (79 × 50.7) + (81 × 49.3) = 4005.3 + 3993.3 = 7998.6",
+        "1 mark: 7998.6 ÷ 100 = 79.986 = 80.0 (1 d.p.)"
+      ],
+      "explanation": "The two isotopes are almost equally abundant, so Ar is very close to 80, halfway between 79 and 81."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Neon is 90.5% neon-20 and 9.2% neon-22. The rest is neon-21. Calculate the percentage abundance of neon-21.",
+      "numericAnswer": 0.3,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 100 − 90.5 − 9.2 = 0.3%"
+      ],
+      "explanation": "The percentage abundances of all the isotopes of an element add up to 100%."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Gallium is 60.1% gallium-69 and 39.9% gallium-71. Calculate the relative atomic mass of gallium to 1 decimal place.",
+      "numericAnswer": 69.8,
+      "tolerance": 0.002,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (69 × 60.1) + (71 × 39.9) = 4146.9 + 2832.9 = 6979.8",
+        "1 mark: 6979.8 ÷ 100 = 69.798 = 69.8 (1 d.p.)"
+      ],
+      "explanation": "Multiply, add, divide by 100, then round to 1 decimal place."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Magnesium has three isotopes: magnesium-24 (79%), magnesium-25 (10%) and magnesium-26 (11%). Calculate the relative atomic mass of magnesium to 1 decimal place.",
+      "numericAnswer": 24.3,
+      "tolerance": 0.002,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 24 × 79 = 1896, 25 × 10 = 250, 26 × 11 = 286",
+        "1 mark: total 2432 ÷ 100 = 24.32",
+        "1 mark: 24.3 (1 d.p.)"
+      ],
+      "explanation": "With three isotopes, include a term for each. The answer lies between 24 and 26 and is closest to 24."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Silicon is 92.2% silicon-28, 4.7% silicon-29 and 3.1% silicon-30. Calculate the relative atomic mass of silicon to 1 decimal place.",
+      "numericAnswer": 28.1,
+      "tolerance": 0.002,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 28 × 92.2 = 2581.6, 29 × 4.7 = 136.3, 30 × 3.1 = 93",
+        "1 mark: total 2810.9 ÷ 100 = 28.109",
+        "1 mark: 28.1 (1 d.p.)"
+      ],
+      "explanation": "Most silicon atoms are silicon-28, so Ar is only slightly above 28."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Copper has two isotopes, copper-63 and copper-65. A sample of copper has a relative atomic mass of 63.5.\nCalculate the percentage abundance of copper-63 in this sample.",
+      "numericAnswer": 75,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 63x + 65(100 − x) = 6350",
+        "1 mark: 6500 − 2x = 6350",
+        "1 mark: x = 75%"
+      ],
+      "explanation": "Let x be the percentage of copper-63; the rest, 100 − x, is copper-65. Check: (63 × 75 + 65 × 25) ÷ 100 = (4725 + 1625) ÷ 100 = 63.5."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define the term relative atomic mass.",
+      "acceptedAnswers": [
+        "average",
+        "takes account of abundance",
+        "isotopes",
+        "weighted average"
+      ],
+      "markScheme": [
+        "1 mark: an average value (of the mass of the atoms of an element)",
+        "1 mark: that takes account of the abundance of the isotopes of the element"
+      ],
+      "explanation": "Both ideas are needed: an average, and weighting by the abundance of each isotope."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the percentage abundance of an isotope.",
+      "acceptedAnswers": [
+        "percentage of atoms",
+        "proportion of atoms that are that isotope"
+      ],
+      "markScheme": [
+        "1 mark: the percentage of the atoms of the element that are that isotope"
+      ],
+      "explanation": "For example, 75% of chlorine atoms are chlorine-35."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the relative atomic mass of chlorine (35.5) is closer to 35 than to 37.",
+      "acceptedAnswers": [
+        "chlorine-35 is more abundant",
+        "more chlorine-35 atoms",
+        "higher percentage of chlorine-35",
+        "weighted average"
+      ],
+      "markScheme": [
+        "1 mark: Ar is an average that takes account of abundance",
+        "1 mark: chlorine-35 is more abundant (75%) than chlorine-37 (25%)"
+      ],
+      "explanation": "The more common isotope contributes more to the weighted average."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student calculates the relative atomic mass of boron as (10 + 11) ÷ 2 = 10.5. Boron is 20% boron-10 and 80% boron-11. Explain the student's mistake and give the correct value.",
+      "acceptedAnswers": [
+        "did not take account of abundance",
+        "not a weighted average",
+        "isotopes not equally abundant",
+        "10.8"
+      ],
+      "markScheme": [
+        "1 mark: the student ignored the abundances / used a simple average, but the isotopes are not equally abundant",
+        "1 mark: correct value 10.8"
+      ],
+      "explanation": "Weighted: (10 × 20 + 11 × 80) ÷ 100 = 10.8."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Give one reason why relative atomic masses are often not whole numbers.",
+      "acceptedAnswers": [
+        "average of isotopes",
+        "mixture of isotopes",
+        "weighted average"
+      ],
+      "markScheme": [
+        "1 mark: Ar is an average of the masses of the different isotopes (weighted by abundance)"
+      ],
+      "explanation": "Each atom has a whole-number mass number, but the average of a mixture of isotopes need not be whole."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Potassium has isotopes potassium-39, potassium-40 and potassium-41. Its relative atomic mass is 39.1. Suggest which isotope is the most abundant and explain your answer.",
+      "acceptedAnswers": [
+        "potassium-39",
+        "closest to 39",
+        "Ar is close to 39"
+      ],
+      "markScheme": [
+        "1 mark: potassium-39",
+        "1 mark: the Ar (39.1) is very close to 39, and Ar is closest to the mass number of the most abundant isotope"
+      ],
+      "explanation": "If potassium-40 or potassium-41 were most abundant, the Ar would be well above 39.1."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Copper has isotopes copper-63 and copper-65 and an Ar of 63.5. A student claims that most copper atoms are copper-65. Use the Ar to explain why the student is wrong.",
+      "acceptedAnswers": [
+        "63.5 is closer to 63",
+        "below 64",
+        "copper-63 is more abundant",
+        "more than 50% copper-63"
+      ],
+      "markScheme": [
+        "1 mark: if the isotopes were equally abundant the Ar would be 64",
+        "1 mark: 63.5 is below 64 / closer to 63, so copper-63 must be more abundant"
+      ],
+      "explanation": "Comparing with the halfway value (64) shows which isotope dominates. The actual abundance of copper-63 is about 75%."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how to calculate the relative atomic mass of an element from the percentage abundances of its isotopes. Use chlorine (75% chlorine-35, 25% chlorine-37) as an example.",
+      "markScheme": [
+        "Indicative content: multiply the mass number of each isotope by its percentage abundance (35 × 75 = 2625; 37 × 25 = 925); add the results (3550); divide by 100 (35.5); Ar has no units; answer should be between the mass numbers and closest to the most abundant isotope.",
+        "Level 2 (3 to 4 marks): a clear, correct method in the right order, with a fully worked chlorine example giving 35.5.",
+        "Level 1 (1 to 2 marks): some correct steps or a correct answer without a clear method."
+      ],
+      "explanation": "The method is a weighted average: multiply, add, divide by 100."
+    },
+    {
+      "id": "c1-relative-atomic-mass-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Magnesium has three isotopes, shown below.\nmagnesium-24: 79%\nmagnesium-25: 10%\nmagnesium-26: 11%\nExplain what is meant by isotopes and by relative atomic mass. Calculate the relative atomic mass of magnesium, and explain why the value is not a whole number and why it is closest to 24.",
+      "markScheme": [
+        "Indicative content: isotopes are atoms of the same element with the same number of protons (12 for magnesium) but different numbers of neutrons (12, 13 and 14); relative atomic mass is an average value that takes account of the abundance of the isotopes; calculation: 24 × 79 = 1896, 25 × 10 = 250, 26 × 11 = 286; total 2432; ÷ 100 = 24.32 (24.3); not a whole number because it is an average of different isotope masses; closest to 24 because magnesium-24 is by far the most abundant (79%).",
+        "Level 3 (5 to 6 marks): correct definitions, a fully correct calculation with working, and clear explanations of both features of the answer.",
+        "Level 2 (3 to 4 marks): a mostly correct calculation with at least one correct definition or explanation.",
+        "Level 1 (1 to 2 marks): some relevant statements or a partly correct calculation."
+      ],
+      "explanation": "The weighted average of 24.32 reflects the dominance of magnesium-24."
+    }
+  ]
+}

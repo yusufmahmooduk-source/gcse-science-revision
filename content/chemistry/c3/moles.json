@@ -1,0 +1,351 @@
+{
+  "id": "c3-moles",
+  "science": "chemistry",
+  "topicId": "c3",
+  "slug": "moles",
+  "specRef": "4.3.2.1",
+  "title": "Moles",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Chemical amounts are measured in moles (symbol mol). One mole of a substance contains 6.02 × 10²³ particles (the Avogadro constant) and has a mass in grams equal to its relative formula mass (or relative atomic mass for an element).",
+    "explanation": [
+      "Atoms, molecules and ions are far too small to count one by one, so chemists count them in large groups called moles. One mole of any substance contains the same number of particles: 6.02 × 10²³. This number is called the Avogadro constant. The particles can be atoms, molecules, ions, electrons or formula units, so you must always be clear which particles you are counting.",
+      "The useful thing about the mole is that the mass of one mole of a substance in grams is numerically equal to its relative formula mass (Mr), or its relative atomic mass (Ar) for an element. Carbon has Ar = 12, so one mole of carbon atoms has a mass of 12 g. Carbon dioxide has Mr = 44, so one mole of CO₂ molecules has a mass of 44 g. One mole of carbon atoms contains the same number of particles as one mole of carbon dioxide molecules, even though their masses are different.",
+      "To convert between mass and moles, use: number of moles = mass in grams ÷ Mr. You can rearrange this to mass = moles × Mr, or Mr = mass ÷ moles. A formula triangle with mass at the top and moles and Mr at the bottom can help. Make sure the mass is in grams: convert kilograms to grams by multiplying by 1000.",
+      "To find the number of particles, multiply the number of moles by the Avogadro constant: number of particles = moles × 6.02 × 10²³. To go the other way, divide by 6.02 × 10²³. Take care with molecules containing several atoms. One mole of water, H₂O, contains 6.02 × 10²³ molecules but 3 × 6.02 × 10²³ = 1.806 × 10²⁴ atoms, because each molecule has three atoms.",
+      "The answers to these calculations are often very large, so they are written in standard form. On a calculator, use the ×10ˣ (or EXP) button to enter 6.02 × 10²³. Give final answers to a sensible number of significant figures, usually 3, matching the data in the question."
+    ],
+    "keyFacts": [
+      "Amount of substance is measured in moles, symbol mol.",
+      "One mole of any substance contains 6.02 × 10²³ particles (the Avogadro constant).",
+      "The mass of one mole of a substance in grams equals its Mr (or Ar for an element).",
+      "moles = mass (g) ÷ Mr",
+      "mass (g) = moles × Mr",
+      "number of particles = moles × 6.02 × 10²³",
+      "One mole of carbon atoms contains the same number of particles as one mole of CO₂ molecules.",
+      "Count atoms carefully: 1 mol of H₂O contains 1 mol of molecules but 3 mol of atoms.",
+      "Mass must be in grams before using moles = mass ÷ Mr (1 kg = 1000 g)."
+    ],
+    "keyTerms": [
+      { "term": "Mole", "definition": "The unit for amount of substance; one mole contains 6.02 × 10²³ particles." },
+      { "term": "Avogadro constant", "definition": "The number of particles in one mole of a substance: 6.02 × 10²³ per mole." },
+      { "term": "Molar mass", "definition": "The mass of one mole of a substance in grams; numerically equal to Ar or Mr." },
+      { "term": "Relative formula mass (Mr)", "definition": "The sum of the relative atomic masses of the atoms in a formula." },
+      { "term": "Standard form", "definition": "A way of writing very large or small numbers as A × 10ⁿ, where A is between 1 and 10." },
+      { "term": "Particle", "definition": "An atom, molecule, ion, electron or formula unit, depending on the substance being described." }
+    ],
+    "equations": [
+      { "name": "Number of moles", "formula": "number of moles = mass in grams ÷ relative formula mass", "symbols": "n = m ÷ Mr", "units": "n in mol, m in g, Mr no units", "recall": true },
+      { "name": "Number of particles", "formula": "number of particles = number of moles × Avogadro constant (6.02 × 10²³)", "symbols": "N = n × 6.02 × 10²³", "units": "n in mol", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Mass to moles",
+        "question": "Calculate the number of moles in 22 g of carbon dioxide, CO₂. (Ar: C = 12, O = 16)",
+        "steps": [
+          "Mr of CO₂ = 12 + (2 × 16) = 44.",
+          "moles = mass ÷ Mr = 22 ÷ 44.",
+          "= 0.5 mol."
+        ],
+        "answer": "0.5 mol"
+      },
+      {
+        "title": "Moles to mass (rearranging)",
+        "question": "Calculate the mass of 0.25 mol of calcium carbonate, CaCO₃. (Ar: C = 12, O = 16, Ca = 40)",
+        "steps": [
+          "Mr of CaCO₃ = 40 + 12 + (3 × 16) = 100.",
+          "Rearrange: mass = moles × Mr.",
+          "mass = 0.25 × 100 = 25 g."
+        ],
+        "answer": "25 g"
+      },
+      {
+        "title": "Counting atoms in a mass of a compound",
+        "question": "Calculate the number of atoms in 36 g of water, H₂O. (Ar: H = 1, O = 16; Avogadro constant = 6.02 × 10²³)",
+        "steps": [
+          "Mr of H₂O = (2 × 1) + 16 = 18.",
+          "moles of H₂O = 36 ÷ 18 = 2 mol.",
+          "molecules = 2 × 6.02 × 10²³ = 1.204 × 10²⁴.",
+          "Each molecule has 3 atoms, so atoms = 3 × 1.204 × 10²⁴ = 3.612 × 10²⁴."
+        ],
+        "answer": "3.61 × 10²⁴ atoms (3 s.f.)"
+      },
+      {
+        "title": "Unit conversion: kilograms",
+        "question": "Calculate the number of moles in 1.0 kg of calcium carbonate, CaCO₃ (Mr = 100).",
+        "steps": [
+          "Convert to grams: 1.0 kg = 1000 g.",
+          "moles = 1000 ÷ 100 = 10 mol."
+        ],
+        "answer": "10 mol"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Converting between mass, moles and particles",
+        "caption": "To go from mass to moles divide by Mr; from moles to number of particles multiply by the Avogadro constant. Reverse each step to go the other way.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='70' width='110' height='60' rx='10' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='185' y='70' width='110' height='60' rx='10' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><rect x='350' y='70' width='110' height='60' rx='10' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor' text-anchor='middle'><text x='75' y='98'>MASS</text><text x='75' y='115'>(g)</text><text x='240' y='98'>MOLES</text><text x='240' y='115'>(mol)</text><text x='405' y='98'>NUMBER OF</text><text x='405' y='115'>PARTICLES</text><text x='157' y='50'>÷ Mr</text><text x='157' y='165'>× Mr</text><text x='322' y='50'>× 6.02 × 10²³</text><text x='322' y='165'>÷ 6.02 × 10²³</text><text x='240' y='205'>Example: 44 g CO₂ = 1 mol = 6.02 × 10²³ molecules</text></g><g stroke='currentColor' stroke-width='2'><line x1='132' y1='82' x2='176' y2='82'/><line x1='183' y1='118' x2='139' y2='118'/><line x1='297' y1='82' x2='341' y2='82'/><line x1='348' y1='118' x2='304' y2='118'/></g><g fill='currentColor'><path d='M184 82 L174 77 L174 87 Z'/><path d='M131 118 L141 113 L141 123 Z'/><path d='M349 82 L339 77 L339 87 Z'/><path d='M296 118 L306 113 L306 123 Z'/></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think one mole of a heavy substance contains more particles than one mole of a light substance.", "right": "In fact one mole of anything contains 6.02 × 10²³ particles. Heavier particles simply make the mole heavier." },
+      { "wrong": "Students often think one mole of water contains 6.02 × 10²³ atoms.", "right": "In fact it contains 6.02 × 10²³ molecules. Each molecule has three atoms, so there are 1.806 × 10²⁴ atoms." },
+      { "wrong": "Students often divide Mr by mass when calculating moles.", "right": "In fact moles = mass ÷ Mr. A quick check: 44 g of CO₂ must be 1 mol, and 44 ÷ 44 = 1." },
+      { "wrong": "Students often use a mass in kilograms directly in moles = mass ÷ Mr.", "right": "In fact the mass must be in grams, because the mass of one mole is Mr in grams. Multiply kilograms by 1000 first." }
+    ],
+    "realWorld": [
+      "Pharmacists and drug manufacturers work in moles so that each dose contains the correct number of molecules of the active ingredient.",
+      "Chemical companies order raw materials by mass but plan reactions in moles, so they convert between the two to avoid waste.",
+      "Atmospheric scientists express greenhouse gas emissions in moles to compare the number of molecules of different gases released."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only: the mole, the Avogadro constant (6.02 × 10²³), the mass of one mole being Ar or Mr in grams, and calculations using moles = mass ÷ Mr and number of particles = moles × 6.02 × 10²³."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always calculate Mr first and show it; there is usually a mark for it.",
+      "Check your answer is sensible: if the mass is less than Mr, the number of moles must be less than 1.",
+      "Read carefully whether the question asks for molecules, atoms or ions, and multiply by the number of atoms in the formula if needed.",
+      "Give answers in standard form with 3 significant figures, for example 3.01 × 10²³.",
+      "Convert kilograms or milligrams into grams before you divide by Mr."
+    ],
+    "summary": [
+      "Amount of substance is measured in moles (mol).",
+      "1 mol contains 6.02 × 10²³ particles.",
+      "The mass of 1 mol is Mr in grams.",
+      "moles = mass ÷ Mr; mass = moles × Mr.",
+      "particles = moles × 6.02 × 10²³.",
+      "Be clear whether you are counting atoms, molecules or ions."
+    ]
+  },
+  "flashcards": [
+    { "front": "What is the unit for amount of substance?", "back": "The mole (mol)." },
+    { "front": "What is the Avogadro constant?", "back": "6.02 × 10²³, the number of particles in one mole." },
+    { "front": "What is the mass of one mole of a substance?", "back": "Its Mr (or Ar) in grams." },
+    { "front": "Equation linking moles, mass and Mr?", "back": "moles = mass (g) ÷ Mr" },
+    { "front": "How do you find the number of particles from moles?", "back": "Multiply by 6.02 × 10²³." },
+    { "front": "How many moles in 18 g of water (Mr 18)?", "back": "1 mol" },
+    { "front": "Mass of 2 mol of CO₂ (Mr 44)?", "back": "88 g" },
+    { "front": "How many molecules in 0.5 mol of a substance?", "back": "3.01 × 10²³" },
+    { "front": "How many atoms in 1 mol of CO₂?", "back": "3 × 6.02 × 10²³ = 1.806 × 10²⁴" },
+    { "front": "Does 1 mol of carbon contain the same number of particles as 1 mol of CO₂?", "back": "Yes: 6.02 × 10²³ atoms of C and 6.02 × 10²³ molecules of CO₂." },
+    { "front": "Rearrange moles = mass ÷ Mr to find Mr.", "back": "Mr = mass ÷ moles" },
+    { "front": "What must you do to a mass in kg before calculating moles?", "back": "Multiply by 1000 to convert it to grams." }
+  ],
+  "questions": [
+    {
+      "id": "c3-moles-q01", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "What is the value of the Avogadro constant?",
+      "options": ["6.02 × 10²³", "6.02 × 10⁻²³", "6.02 × 10³²", "2.4 × 10²³"],
+      "answer": 0,
+      "markScheme": ["1 mark: 6.02 × 10²³"],
+      "explanation": "The Avogadro constant is 6.02 × 10²³ particles per mole. A negative power would be a tiny number, which cannot be the number of particles in a mole."
+    },
+    {
+      "id": "c3-moles-q02", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "What is the mass of one mole of carbon dioxide, CO₂? (Ar: C = 12, O = 16)",
+      "options": ["28 g", "44 g", "6.02 × 10²³ g", "12 g"],
+      "answer": 1,
+      "markScheme": ["1 mark: 44 g"],
+      "explanation": "The mass of one mole is the Mr in grams. Mr of CO₂ = 12 + 32 = 44, so 1 mol = 44 g. 28 g uses only one oxygen atom."
+    },
+    {
+      "id": "c3-moles-q03", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Which equation correctly links moles, mass and Mr?",
+      "options": ["moles = Mr ÷ mass", "moles = mass × Mr", "moles = mass ÷ Mr", "moles = mass − Mr"],
+      "answer": 2,
+      "markScheme": ["1 mark: moles = mass ÷ Mr"],
+      "explanation": "Moles = mass in grams ÷ Mr. Check: 44 g of CO₂ ÷ 44 = 1 mol."
+    },
+    {
+      "id": "c3-moles-q04", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "Which contains the same number of particles as 12 g of carbon atoms? (Ar: H = 1, C = 12, O = 16, Mg = 24)",
+      "options": ["12 g of magnesium atoms", "1 g of hydrogen molecules", "16 g of oxygen molecules", "18 g of water molecules"],
+      "answer": 3,
+      "markScheme": ["1 mark: 18 g of water molecules"],
+      "explanation": "12 g of carbon is 1 mol. 18 g of H₂O (Mr 18) is also 1 mol. 12 g of Mg is 0.5 mol, 1 g of H₂ (Mr 2) is 0.5 mol and 16 g of O₂ (Mr 32) is 0.5 mol."
+    },
+    {
+      "id": "c3-moles-q05", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "How many atoms are there in one mole of ammonia, NH₃?",
+      "options": ["6.02 × 10²³", "1.806 × 10²⁴", "2.408 × 10²⁴", "1.204 × 10²⁴"],
+      "answer": 2,
+      "markScheme": ["1 mark: 2.408 × 10²⁴"],
+      "explanation": "One mole of NH₃ contains 6.02 × 10²³ molecules, and each has 4 atoms (1 N + 3 H): 4 × 6.02 × 10²³ = 2.408 × 10²⁴."
+    },
+    {
+      "id": "c3-moles-q06", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "Which sample contains the greatest number of moles? (Ar: H = 1, C = 12, O = 16, Na = 23)",
+      "options": ["23 g of sodium", "36 g of water", "44 g of carbon dioxide", "16 g of methane, CH₄"],
+      "answer": 1,
+      "markScheme": ["1 mark: 36 g of water"],
+      "explanation": "Na: 23 ÷ 23 = 1 mol. H₂O: 36 ÷ 18 = 2 mol. CO₂: 44 ÷ 44 = 1 mol. CH₄: 16 ÷ 16 = 1 mol. Water has the most moles even though CO₂ has the greatest mass."
+    },
+    {
+      "id": "c3-moles-q07", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "What is the mass of 0.5 mol of magnesium oxide, MgO? (Ar: O = 16, Mg = 24)",
+      "options": ["20 g", "40 g", "80 g", "12 g"],
+      "answer": 0,
+      "markScheme": ["1 mark: 20 g"],
+      "explanation": "Mr of MgO = 40. mass = moles × Mr = 0.5 × 40 = 20 g. 80 g comes from dividing 40 by 0.5 instead of multiplying."
+    },
+    {
+      "id": "c3-moles-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Which sample contains the greatest number of atoms? (Ar: H = 1, C = 12, O = 16)",
+      "options": ["1 mol of carbon atoms", "1 mol of oxygen molecules, O₂", "0.5 mol of methane, CH₄", "0.5 mol of carbon dioxide, CO₂"],
+      "answer": 2,
+      "markScheme": ["1 mark: 0.5 mol of methane, CH₄"],
+      "explanation": "Moles of atoms: C = 1; O₂ = 2 × 1 = 2; CH₄ = 5 × 0.5 = 2.5; CO₂ = 3 × 0.5 = 1.5. Methane has 5 atoms per molecule, so it wins."
+    },
+    {
+      "id": "c3-moles-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "0.20 mol of an element has a mass of 13.0 g. What is the element? (Ar: Mg = 24, Fe = 56, Cu = 63.5, Zn = 65)",
+      "options": ["Magnesium", "Iron", "Copper", "Zinc"],
+      "answer": 3,
+      "markScheme": ["1 mark: zinc"],
+      "explanation": "Ar = mass ÷ moles = 13.0 ÷ 0.20 = 65, which is zinc. Copper (63.5) is close but would give 12.7 g."
+    },
+    {
+      "id": "c3-moles-q10", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 2,
+      "question": "Calculate the number of moles in 88 g of carbon dioxide, CO₂. (Ar: C = 12, O = 16)",
+      "numericAnswer": 2, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: Mr = 44", "1 mark: 88 ÷ 44 = 2 mol"],
+      "explanation": "moles = mass ÷ Mr = 88 ÷ 44 = 2 mol."
+    },
+    {
+      "id": "c3-moles-q11", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Calculate the number of moles of sodium atoms in 4.6 g of sodium. (Ar: Na = 23)",
+      "numericAnswer": 0.2, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: 4.6 ÷ 23 = 0.2 mol"],
+      "explanation": "For an element use Ar: 4.6 ÷ 23 = 0.20 mol. The mass is less than 23 g, so the answer must be less than 1 mol."
+    },
+    {
+      "id": "c3-moles-q12", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 2,
+      "question": "Calculate the mass of 0.25 mol of calcium carbonate, CaCO₃. (Ar: C = 12, O = 16, Ca = 40)",
+      "numericAnswer": 25, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: Mr = 100", "1 mark: 0.25 × 100 = 25 g"],
+      "explanation": "Rearranged: mass = moles × Mr = 0.25 × 100 = 25 g."
+    },
+    {
+      "id": "c3-moles-q13", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Calculate the number of molecules in 0.50 mol of water. Give your answer in standard form. (Avogadro constant = 6.02 × 10²³ per mol)",
+      "numericAnswer": 3.01e23, "tolerance": 0.01, "unit": "molecules",
+      "markScheme": ["1 mark: 0.50 × 6.02 × 10²³", "1 mark: 3.01 × 10²³"],
+      "explanation": "Number of particles = moles × Avogadro constant = 0.50 × 6.02 × 10²³ = 3.01 × 10²³ molecules."
+    },
+    {
+      "id": "c3-moles-q14", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Calculate the number of moles in 9.8 g of sulfuric acid, H₂SO₄. (Ar: H = 1, O = 16, S = 32)",
+      "numericAnswer": 0.1, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: Mr = 98", "1 mark: 9.8 ÷ 98 = 0.10 mol"],
+      "explanation": "Mr = 2 + 32 + 64 = 98. moles = 9.8 ÷ 98 = 0.10 mol."
+    },
+    {
+      "id": "c3-moles-q15", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Calculate the mass of 3.0 mol of sodium chloride, NaCl. (Ar: Na = 23, Cl = 35.5)",
+      "numericAnswer": 175.5, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: Mr = 58.5", "1 mark: 3.0 × 58.5 = 175.5 g"],
+      "explanation": "mass = moles × Mr = 3.0 × 58.5 = 175.5 g (176 g to 3 significant figures)."
+    },
+    {
+      "id": "c3-moles-q16", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Calculate the number of magnesium atoms in 1.2 g of magnesium. Give your answer in standard form. (Ar: Mg = 24; Avogadro constant = 6.02 × 10²³ per mol)",
+      "numericAnswer": 3.01e22, "tolerance": 0.01, "unit": "atoms",
+      "markScheme": ["1 mark: moles = 1.2 ÷ 24 = 0.05 mol", "1 mark: 0.05 × 6.02 × 10²³", "1 mark: 3.01 × 10²²"],
+      "explanation": "First find moles (0.05 mol), then multiply by the Avogadro constant: 3.01 × 10²² atoms."
+    },
+    {
+      "id": "c3-moles-q17", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Calculate the number of moles in 1.5 kg of calcium carbonate, CaCO₃ (Mr = 100).",
+      "numericAnswer": 15, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: 1.5 kg = 1500 g", "1 mark: 1500 ÷ 100 = 15 mol"],
+      "explanation": "Convert to grams first: 1.5 × 1000 = 1500 g. Then 1500 ÷ 100 = 15 mol. Using 1.5 directly would give 0.015 mol, which is wrong."
+    },
+    {
+      "id": "c3-moles-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "Calculate the total number of atoms in 36 g of water, H₂O. Give your answer in standard form to 3 significant figures. (Ar: H = 1, O = 16; Avogadro constant = 6.02 × 10²³ per mol)",
+      "numericAnswer": 3.61e24, "tolerance": 0.01, "unit": "atoms",
+      "markScheme": ["1 mark: moles = 36 ÷ 18 = 2 mol", "1 mark: molecules = 2 × 6.02 × 10²³ = 1.204 × 10²⁴", "1 mark: atoms = 3 × 1.204 × 10²⁴ = 3.61 × 10²⁴"],
+      "explanation": "Each water molecule contains 3 atoms, so the number of atoms is three times the number of molecules."
+    },
+    {
+      "id": "c3-moles-q19", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "0.15 mol of a compound has a mass of 6.0 g. Calculate the relative formula mass of the compound.",
+      "numericAnswer": 40, "tolerance": 0.01, "unit": "",
+      "markScheme": ["1 mark: Mr = mass ÷ moles = 6.0 ÷ 0.15", "1 mark: 40"],
+      "explanation": "Rearrange moles = mass ÷ Mr to Mr = mass ÷ moles. 6.0 ÷ 0.15 = 40 (for example MgO or NaOH)."
+    },
+    {
+      "id": "c3-moles-q20", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "A sample of oxygen gas contains 1.204 × 10²⁴ O₂ molecules. Calculate the mass of the sample. (Ar: O = 16; Avogadro constant = 6.02 × 10²³ per mol)",
+      "numericAnswer": 64, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles = 1.204 × 10²⁴ ÷ 6.02 × 10²³ = 2.0 mol", "1 mark: Mr of O₂ = 32", "1 mark: mass = 2.0 × 32 = 64 g"],
+      "explanation": "Divide the number of molecules by the Avogadro constant to get moles, then multiply by Mr. Using Ar = 16 instead of Mr = 32 gives 32 g, which is wrong."
+    },
+    {
+      "id": "c3-moles-q21", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "State the number of particles in one mole of a substance.",
+      "acceptedAnswers": ["6.02 × 10²³", "6.02 x 10^23", "Avogadro constant"],
+      "markScheme": ["1 mark: 6.02 × 10²³"],
+      "explanation": "One mole of any substance contains 6.02 × 10²³ particles, the Avogadro constant."
+    },
+    {
+      "id": "c3-moles-q22", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "State the mass of one mole of sodium atoms. (Ar: Na = 23)",
+      "acceptedAnswers": ["23 g", "23"],
+      "markScheme": ["1 mark: 23 g (unit required)"],
+      "explanation": "The mass of one mole of an element is its Ar in grams."
+    },
+    {
+      "id": "c3-moles-q23", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Explain why 1 mol of carbon and 1 mol of carbon dioxide have different masses but contain the same number of particles.",
+      "acceptedAnswers": ["both contain 6.02 × 10²³ particles", "CO₂ molecules are heavier than C atoms", "Mr 44 compared with Ar 12"],
+      "markScheme": ["1 mark: one mole of any substance contains 6.02 × 10²³ particles (atoms of C, molecules of CO₂)", "1 mark: each CO₂ molecule is heavier than a C atom (Mr 44 compared with Ar 12), so the mass of 1 mol is greater (44 g compared with 12 g)"],
+      "explanation": "A mole is a fixed number of particles, like a dozen. A dozen melons weighs more than a dozen grapes."
+    },
+    {
+      "id": "c3-moles-q24", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "A student calculates the number of moles in 10 g of calcium carbonate (Mr 100) as 100 ÷ 10 = 10 mol. Explain the mistake and give the correct answer.",
+      "acceptedAnswers": ["divided Mr by mass", "should be mass ÷ Mr", "0.1 mol"],
+      "markScheme": ["1 mark: the student divided Mr by mass; moles = mass ÷ Mr", "1 mark: 10 ÷ 100 = 0.1 mol"],
+      "explanation": "10 g is less than the mass of one mole (100 g), so the answer must be less than 1 mol."
+    },
+    {
+      "id": "c3-moles-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "Calculate how many chloride ions are present in 0.10 mol of magnesium chloride, MgCl₂. Give your answer in standard form. (Avogadro constant = 6.02 × 10²³ per mol)",
+      "acceptedAnswers": ["1.204 × 10²³", "1.20 × 10²³", "0.20 mol of Cl⁻"],
+      "markScheme": ["1 mark: each MgCl₂ contains 2 Cl⁻ ions, so moles of Cl⁻ = 0.20 mol", "1 mark: 0.20 × 6.02 × 10²³", "1 mark: 1.20 × 10²³ chloride ions"],
+      "explanation": "The question asks for ions, not formula units. There are twice as many chloride ions as formula units of MgCl₂."
+    },
+    {
+      "id": "c3-moles-q26", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Show that 3.2 g of oxygen molecules, O₂, contains the same number of molecules as 0.20 g of hydrogen molecules, H₂. (Ar: H = 1, O = 16)",
+      "acceptedAnswers": ["both 0.1 mol", "3.2 ÷ 32 = 0.1", "0.20 ÷ 2 = 0.1"],
+      "markScheme": ["1 mark: O₂: 3.2 ÷ 32 = 0.10 mol; H₂: 0.20 ÷ 2 = 0.10 mol", "1 mark: equal numbers of moles, so equal numbers of molecules (6.02 × 10²² each)"],
+      "explanation": "Equal amounts in moles always contain equal numbers of particles, whatever the masses."
+    },
+    {
+      "id": "c3-moles-q27", "type": "extended", "tier": "higher", "difficulty": 2, "marks": 4,
+      "question": "A student has 8.0 g of sodium hydroxide, NaOH. (Ar: H = 1, O = 16, Na = 23; Avogadro constant = 6.02 × 10²³ per mol)\nCalculate the number of moles of NaOH and the number of sodium ions in the sample. Explain each step.",
+      "markScheme": [
+        "Indicative content: Mr NaOH = 23 + 16 + 1 = 40; moles = mass ÷ Mr = 8.0 ÷ 40 = 0.20 mol; each NaOH contains one Na⁺ ion, so 0.20 mol of Na⁺; number of ions = 0.20 × 6.02 × 10²³ = 1.204 × 10²³ (1.20 × 10²³).",
+        "Level 2 (3 to 4 marks): all steps correct and explained, with the final answer in standard form.",
+        "Level 1 (1 to 2 marks): Mr or moles correct with limited explanation."
+      ],
+      "explanation": "Mass to moles uses Mr, then moles to particles uses the Avogadro constant. One formula unit of NaOH has one Na⁺ ion."
+    },
+    {
+      "id": "c3-moles-q28", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "A chemist has three samples: 6.4 g of sulfur dioxide (SO₂), 3.4 g of ammonia (NH₃) and 4.4 g of propane (C₃H₈). (Ar: H = 1, C = 12, N = 14, O = 16, S = 32)\nCompare the samples in terms of the number of moles, the number of molecules and the number of atoms. Show all your working and state which sample contains the most atoms.",
+      "markScheme": [
+        "Indicative content: SO₂ Mr = 64, moles = 6.4 ÷ 64 = 0.10 mol; NH₃ Mr = 17, moles = 3.4 ÷ 17 = 0.20 mol; C₃H₈ Mr = 44, moles = 4.4 ÷ 44 = 0.10 mol; molecules: SO₂ 6.02 × 10²², NH₃ 1.204 × 10²³, C₃H₈ 6.02 × 10²²; NH₃ has the most molecules; atoms: SO₂ 3 per molecule, 0.30 mol of atoms (1.806 × 10²³); NH₃ 4 per molecule, 0.80 mol (4.816 × 10²³); C₃H₈ 11 per molecule, 1.1 mol (6.622 × 10²³); propane has the most atoms even though it does not have the most molecules.",
+        "Level 3 (5 to 6 marks): all Mr values and moles correct, molecules and atoms compared correctly, with a clear conclusion that propane has the most atoms and ammonia the most molecules.",
+        "Level 2 (3 to 4 marks): most moles correct and some correct comparison of molecules or atoms.",
+        "Level 1 (1 to 2 marks): one or two Mr or mole values correct with little comparison."
+      ],
+      "explanation": "Ammonia has the most molecules (0.20 mol), but propane has 11 atoms per molecule, so its 0.10 mol contains 1.1 mol of atoms, more than ammonia's 0.80 mol of atoms."
+    }
+  ]
+}

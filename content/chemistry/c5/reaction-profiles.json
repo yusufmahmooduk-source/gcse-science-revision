@@ -1,0 +1,656 @@
+{
+  "id": "c5-reaction-profiles",
+  "science": "chemistry",
+  "topicId": "c5",
+  "slug": "reaction-profiles",
+  "specRef": "4.5.1.2",
+  "title": "Reaction profiles",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A reaction profile (energy level diagram) shows the relative energies of the reactants and products, the activation energy and the overall energy change as a reaction proceeds. Activation energy is the minimum amount of energy that particles must have to react.",
+    "explanation": [
+      "Chemical reactions can occur only when reacting particles collide with each other and with sufficient energy. The minimum amount of energy that particles must have to react is called the activation energy. Collisions between particles with less energy than this do not lead to a reaction; the particles just bounce apart. This is why many reactions, even exothermic ones, need energy to get them started, for example a spark, a flame or heating.",
+      "A reaction profile is a diagram that shows how the energy changes as a reaction proceeds. Energy is plotted on the vertical axis and the progress of the reaction on the horizontal axis. The reactants are drawn as a horizontal line on the left and the products as a horizontal line on the right. A curved line joins them, rising to a peak. The difference between the reactant level and the peak is the activation energy. The difference between the reactant and product levels is the overall energy change.",
+      "In an exothermic reaction, the products are at a lower energy than the reactants. The difference in energy is transferred to the surroundings, so the overall energy change arrow points downwards from the reactants to the products. In an endothermic reaction, the products are at a higher energy than the reactants because energy has been taken in from the surroundings. The overall energy change arrow points upwards from the reactants to the products.",
+      "You can use a reaction profile to identify whether a reaction is exothermic or endothermic: just compare the heights of the reactant and product lines. Products lower means exothermic; products higher means endothermic. The size of the activation energy does not tell you which type the reaction is. A reaction with a large activation energy can still be strongly exothermic, such as the combustion of methane, which needs a flame or spark to start.",
+      "When drawing a reaction profile, label both axes (energy and progress of reaction), label the reactants and products, draw a smooth curve that rises above both levels, and draw arrows for the activation energy (from the reactant line up to the peak) and the overall energy change (from the reactant line to the product line). If values are given, you can read off the activation energy and overall energy change by subtraction."
+    ],
+    "keyFacts": [
+      "Reactions only happen when particles collide with sufficient energy.",
+      "Activation energy is the minimum energy particles must have to react.",
+      "A reaction profile plots energy (y-axis) against progress of reaction (x-axis).",
+      "Exothermic profile: products lower in energy than reactants.",
+      "Endothermic profile: products higher in energy than reactants.",
+      "Activation energy is measured from the reactant level up to the peak of the curve.",
+      "Overall energy change is the difference between the reactant and product levels.",
+      "The arrow for overall energy change points down for exothermic and up for endothermic reactions.",
+      "Exothermic reactions can still need energy to start, because of activation energy."
+    ],
+    "keyTerms": [
+      {
+        "term": "Activation energy",
+        "definition": "The minimum amount of energy that particles must have to react."
+      },
+      {
+        "term": "Reaction profile",
+        "definition": "A diagram showing the relative energies of reactants and products, the activation energy and the overall energy change as the reaction proceeds."
+      },
+      {
+        "term": "Overall energy change",
+        "definition": "The difference in energy between the reactants and the products."
+      },
+      {
+        "term": "Collision",
+        "definition": "Particles hitting each other; only collisions with energy equal to or greater than the activation energy lead to a reaction."
+      },
+      {
+        "term": "Progress of reaction",
+        "definition": "The label on the horizontal axis of a reaction profile, showing the reaction moving from reactants to products."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Activation energy from a profile",
+        "formula": "activation energy = energy at the peak − energy of reactants",
+        "symbols": "",
+        "units": "kJ or kJ/mol",
+        "recall": true
+      },
+      {
+        "name": "Overall energy change from a profile",
+        "formula": "overall energy change = energy of products − energy of reactants (negative for exothermic)",
+        "symbols": "",
+        "units": "kJ or kJ/mol",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Reading an exothermic profile",
+        "question": "On a reaction profile the reactants are at 100 kJ, the peak of the curve is at 180 kJ and the products are at 40 kJ. Find the activation energy and the overall energy change.",
+        "steps": [
+          "Activation energy = peak − reactants = 180 − 100 = 80 kJ.",
+          "Overall energy change = products − reactants = 40 − 100 = −60 kJ.",
+          "The products are lower than the reactants, so energy is released."
+        ],
+        "answer": "Activation energy 80 kJ; 60 kJ released (−60 kJ), so the reaction is exothermic."
+      },
+      {
+        "title": "Reading an endothermic profile",
+        "question": "The reactants are at 30 kJ, the peak is at 150 kJ and the products are at 75 kJ. Find the activation energy and the overall energy change.",
+        "steps": [
+          "Activation energy = 150 − 30 = 120 kJ.",
+          "Overall energy change = 75 − 30 = +45 kJ.",
+          "The products are higher than the reactants, so energy is taken in."
+        ],
+        "answer": "Activation energy 120 kJ; 45 kJ taken in (+45 kJ), so the reaction is endothermic."
+      },
+      {
+        "title": "Drawing a profile from a description",
+        "question": "Describe how to draw the reaction profile for the thermal decomposition of calcium carbonate, which is endothermic.",
+        "steps": [
+          "Draw and label the axes: energy (vertical) and progress of reaction (horizontal).",
+          "Draw a short horizontal line on the left labelled CaCO₃ (reactants).",
+          "Draw a higher horizontal line on the right labelled CaO + CO₂ (products).",
+          "Join them with a curve that rises above both lines.",
+          "Add an upward arrow from the reactant line to the peak labelled activation energy, and an upward arrow from the reactant line to the product line labelled energy taken in."
+        ],
+        "answer": "A profile with the products higher than the reactants, a hump above both, and labelled arrows for activation energy and overall energy change."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Reaction profile for an exothermic reaction",
+        "caption": "The products are at a lower energy than the reactants. The difference is released to the surroundings. The activation energy is measured from the reactants to the peak.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"rpA\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs>\n<line x1=\"40\" y1=\"230\" x2=\"40\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#rpA)\"/>\n<line x1=\"40\" y1=\"230\" x2=\"445\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#rpA)\"/>\n<text x=\"22\" y=\"130\" font-size=\"12\" fill=\"currentColor\" transform=\"rotate(-90 22 130)\" text-anchor=\"middle\">Energy</text>\n<text x=\"240\" y=\"250\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text>\n<path d=\"M60 140 L130 140 C170 140 175 50 200 50 C225 50 230 190 270 190 L380 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/>\n<line x1=\"130\" y1=\"140\" x2=\"370\" y2=\"140\" stroke=\"currentColor\" stroke-dasharray=\"4 4\"/>\n<line x1=\"200\" y1=\"140\" x2=\"200\" y2=\"53\" stroke=\"#fca5a5\" stroke-width=\"2\" marker-end=\"url(#rpA)\"/>\n<line x1=\"350\" y1=\"140\" x2=\"350\" y2=\"187\" stroke=\"#93c5fd\" stroke-width=\"2\" marker-end=\"url(#rpA)\"/>\n<text x=\"62\" y=\"132\" font-size=\"12\" fill=\"currentColor\">Reactants</text>\n<text x=\"275\" y=\"182\" font-size=\"12\" fill=\"currentColor\">Products</text>\n<text x=\"207\" y=\"95\" font-size=\"12\" fill=\"currentColor\">Activation</text>\n<text x=\"207\" y=\"109\" font-size=\"12\" fill=\"currentColor\">energy</text>\n<text x=\"356\" y=\"160\" font-size=\"12\" fill=\"currentColor\">Energy</text>\n<text x=\"356\" y=\"174\" font-size=\"12\" fill=\"currentColor\">released</text>\n<text x=\"300\" y=\"30\" font-size=\"13\" fill=\"currentColor\">Exothermic</text>\n</svg>"
+      },
+      {
+        "title": "Reaction profile for an endothermic reaction",
+        "caption": "The products are at a higher energy than the reactants, because energy is taken in from the surroundings.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"rpB\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs>\n<line x1=\"40\" y1=\"230\" x2=\"40\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#rpB)\"/>\n<line x1=\"40\" y1=\"230\" x2=\"445\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#rpB)\"/>\n<text x=\"22\" y=\"130\" font-size=\"12\" fill=\"currentColor\" transform=\"rotate(-90 22 130)\" text-anchor=\"middle\">Energy</text>\n<text x=\"240\" y=\"250\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text>\n<path d=\"M60 190 L130 190 C170 190 175 50 200 50 C225 50 230 110 270 110 L380 110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/>\n<line x1=\"130\" y1=\"190\" x2=\"370\" y2=\"190\" stroke=\"currentColor\" stroke-dasharray=\"4 4\"/>\n<line x1=\"200\" y1=\"190\" x2=\"200\" y2=\"53\" stroke=\"#fca5a5\" stroke-width=\"2\" marker-end=\"url(#rpB)\"/>\n<line x1=\"350\" y1=\"190\" x2=\"350\" y2=\"113\" stroke=\"#93c5fd\" stroke-width=\"2\" marker-end=\"url(#rpB)\"/>\n<text x=\"62\" y=\"182\" font-size=\"12\" fill=\"currentColor\">Reactants</text>\n<text x=\"275\" y=\"102\" font-size=\"12\" fill=\"currentColor\">Products</text>\n<text x=\"207\" y=\"135\" font-size=\"12\" fill=\"currentColor\">Activation</text>\n<text x=\"207\" y=\"149\" font-size=\"12\" fill=\"currentColor\">energy</text>\n<text x=\"356\" y=\"150\" font-size=\"12\" fill=\"currentColor\">Energy</text>\n<text x=\"356\" y=\"164\" font-size=\"12\" fill=\"currentColor\">taken in</text>\n<text x=\"300\" y=\"30\" font-size=\"13\" fill=\"currentColor\">Endothermic</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often measure activation energy from the products to the peak.",
+        "right": "In fact activation energy is measured from the reactant level to the peak of the curve."
+      },
+      {
+        "wrong": "Students often think a reaction that needs heating to start must be endothermic.",
+        "right": "In fact all reactions have an activation energy. Whether a reaction is exothermic depends only on whether the products are lower in energy than the reactants."
+      },
+      {
+        "wrong": "Students often think the overall energy change is the height of the peak.",
+        "right": "In fact the overall energy change is the difference between the reactant and product levels."
+      },
+      {
+        "wrong": "Students often think any collision between particles leads to a reaction.",
+        "right": "In fact particles only react if they collide with energy at least equal to the activation energy."
+      }
+    ],
+    "realWorld": [
+      "Natural gas does not burn in air until a spark or flame supplies the activation energy, which is why gas cookers have igniters.",
+      "Safety matches need friction to supply the activation energy for the reactions in the match head.",
+      "Fuel and air in a car engine are ignited by a spark plug; once started, the exothermic combustion keeps going."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Always label both axes, the reactants, the products, the activation energy and the overall energy change on a reaction profile.",
+      "Draw the activation energy arrow starting at the reactant line, not at the x-axis.",
+      "Make sure the curve rises above both the reactant and product lines.",
+      "To decide exothermic or endothermic, compare reactants and products only; ignore the height of the peak.",
+      "Use subtraction to read values off a profile and give the unit (usually kJ or kJ/mol)."
+    ],
+    "summary": [
+      "Particles react only if they collide with energy at least equal to the activation energy.",
+      "A reaction profile plots energy against progress of reaction.",
+      "Exothermic: products lower than reactants; energy released.",
+      "Endothermic: products higher than reactants; energy taken in.",
+      "Activation energy: reactants up to the peak.",
+      "Overall energy change: difference between reactants and products."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is activation energy?",
+      "back": "The minimum amount of energy that particles must have to react."
+    },
+    {
+      "front": "When can a chemical reaction occur?",
+      "back": "Only when reacting particles collide with each other with sufficient energy (at least the activation energy)."
+    },
+    {
+      "front": "What goes on the axes of a reaction profile?",
+      "back": "Energy on the vertical axis; progress of reaction on the horizontal axis."
+    },
+    {
+      "front": "Where are the products on an exothermic profile?",
+      "back": "Lower in energy than the reactants."
+    },
+    {
+      "front": "Where are the products on an endothermic profile?",
+      "back": "Higher in energy than the reactants."
+    },
+    {
+      "front": "How is activation energy shown on a profile?",
+      "back": "An arrow from the reactant level up to the peak of the curve."
+    },
+    {
+      "front": "How is overall energy change shown on a profile?",
+      "back": "An arrow from the reactant level to the product level."
+    },
+    {
+      "front": "Which way does the overall energy change arrow point for an exothermic reaction?",
+      "back": "Downwards (energy released)."
+    },
+    {
+      "front": "Why does methane need a spark to burn even though combustion is exothermic?",
+      "back": "The spark supplies the activation energy to start the reaction."
+    },
+    {
+      "front": "Does a large activation energy mean a reaction is endothermic?",
+      "back": "No. Exothermic or endothermic depends only on the relative energies of reactants and products."
+    },
+    {
+      "front": "Reactants 100 kJ, peak 180 kJ. What is the activation energy?",
+      "back": "180 − 100 = 80 kJ."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c5-reaction-profiles-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by activation energy?",
+      "options": [
+        "The minimum energy particles must have to react",
+        "The energy released when a reaction finishes",
+        "The energy stored in the products",
+        "The total energy of the reactants"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: the minimum energy particles must have to react"
+      ],
+      "explanation": "Activation energy is the minimum energy needed for colliding particles to react. It is not the energy released or the energy of the products."
+    },
+    {
+      "id": "c5-reaction-profiles-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On the reaction profile for an exothermic reaction, where are the products?",
+      "options": [
+        "Higher in energy than the reactants",
+        "At the same energy as the reactants",
+        "Lower in energy than the reactants",
+        "At the top of the curve"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: lower in energy than the reactants"
+      ],
+      "explanation": "In an exothermic reaction energy is transferred to the surroundings, so the products end up with less energy than the reactants."
+    },
+    {
+      "id": "c5-reaction-profiles-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What label should go on the horizontal axis of a reaction profile?",
+      "options": [
+        "Temperature",
+        "Time in seconds",
+        "Energy",
+        "Progress of reaction"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: progress of reaction"
+      ],
+      "explanation": "Energy goes on the vertical axis. The horizontal axis shows the reaction proceeding from reactants to products, so it is labelled progress of reaction."
+    },
+    {
+      "id": "c5-reaction-profiles-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On the reaction profile for an endothermic reaction, which way does the arrow for the overall energy change point?",
+      "options": [
+        "Downwards from reactants to products",
+        "Upwards from reactants to products",
+        "Upwards from products to the peak",
+        "Downwards from the peak to the products"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: upwards from reactants to products"
+      ],
+      "explanation": "In an endothermic reaction the products have more energy than the reactants, so the arrow goes up from the reactant level to the product level."
+    },
+    {
+      "id": "c5-reaction-profiles-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "On a reaction profile the reactants are at 50 kJ and the products are at 120 kJ. Which statement is correct?",
+      "options": [
+        "The reaction is exothermic and releases 70 kJ",
+        "The reaction is exothermic and releases 120 kJ",
+        "The reaction is endothermic and takes in 70 kJ",
+        "The reaction is endothermic and takes in 170 kJ"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: endothermic, takes in 70 kJ"
+      ],
+      "explanation": "The products are higher than the reactants, so energy is taken in. The amount is 120 − 50 = 70 kJ."
+    },
+    {
+      "id": "c5-reaction-profiles-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which arrow on a reaction profile represents the activation energy?",
+      "options": [
+        "From the products up to the peak",
+        "From the reactants up to the peak",
+        "From the reactants to the products",
+        "From the x-axis up to the peak"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: from the reactants up to the peak"
+      ],
+      "explanation": "The activation energy is the extra energy the reactants need to reach the top of the curve, so it is measured from the reactant level."
+    },
+    {
+      "id": "c5-reaction-profiles-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The combustion of methane is exothermic, but a gas cooker needs a spark to light the gas. Why?",
+      "options": [
+        "Combustion of methane is really endothermic",
+        "The spark makes the products lower in energy",
+        "The spark provides the energy released by the reaction",
+        "The spark gives particles enough energy to overcome the activation energy"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: the spark supplies the activation energy"
+      ],
+      "explanation": "Even exothermic reactions have an activation energy. The spark gives some particles enough energy to react; the energy released then keeps the reaction going."
+    },
+    {
+      "id": "c5-reaction-profiles-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Reaction A has an activation energy of 50 kJ/mol and an overall energy change of −100 kJ/mol. Reaction B has an activation energy of 150 kJ/mol and an overall energy change of −200 kJ/mol. Which statement is correct?",
+      "options": [
+        "Reaction A is more likely to start at room temperature because its activation energy is lower",
+        "Reaction B is more likely to start at room temperature because it releases more energy",
+        "Reaction A is endothermic because it releases less energy",
+        "Both reactions need the same energy to start because both are exothermic"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A is more likely to start because its activation energy is lower"
+      ],
+      "explanation": "Whether a reaction starts easily depends on the activation energy, not on how much energy is released. Both reactions are exothermic because both overall energy changes are negative."
+    },
+    {
+      "id": "c5-reaction-profiles-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student says: 'This reaction has a very large activation energy, so it must be endothermic.' Which statement is correct?",
+      "options": [
+        "The student is right, because energy must be taken in to start the reaction",
+        "The student is right, because the peak is higher than the products",
+        "The student is wrong, because exothermic or endothermic depends on the relative energies of reactants and products",
+        "The student is wrong, because endothermic reactions have no activation energy"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: the student is wrong; it depends on the relative energies of reactants and products"
+      ],
+      "explanation": "All reactions have an activation energy, whether exothermic or endothermic. Only the comparison of reactant and product energy decides the type."
+    },
+    {
+      "id": "c5-reaction-profiles-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "When a reaction takes place in a test tube, the tube feels colder. What would the reaction profile show?",
+      "options": [
+        "Products lower in energy than reactants",
+        "No activation energy",
+        "Reactants and products at the same energy",
+        "Products higher in energy than reactants"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: products higher in energy than reactants"
+      ],
+      "explanation": "The tube feels colder because the reaction takes in energy from the surroundings. This is endothermic, so the products are higher in energy than the reactants."
+    },
+    {
+      "id": "c5-reaction-profiles-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a reaction profile the reactants are at 100 kJ, the peak of the curve is at 180 kJ and the products are at 40 kJ. Calculate the activation energy.",
+      "numericAnswer": 80,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: 180 − 100 = 80 kJ"
+      ],
+      "explanation": "Activation energy is measured from the reactants to the peak: 180 − 100 = 80 kJ. Using the products (180 − 40 = 140 kJ) is a common mistake."
+    },
+    {
+      "id": "c5-reaction-profiles-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a reaction profile the reactants are at 100 kJ and the products are at 40 kJ. Calculate the energy released to the surroundings.",
+      "numericAnswer": 60,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: 100 − 40 = 60 kJ"
+      ],
+      "explanation": "The products have 60 kJ less energy than the reactants, so 60 kJ is released. The overall energy change can be written as −60 kJ."
+    },
+    {
+      "id": "c5-reaction-profiles-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "For an endothermic reaction, the reactants are at 30 kJ/mol, the peak is at 150 kJ/mol and the products are at 75 kJ/mol. Calculate the activation energy.",
+      "numericAnswer": 120,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: 150 − 30 = 120 kJ/mol"
+      ],
+      "explanation": "Activation energy = peak − reactants = 150 − 30 = 120 kJ/mol."
+    },
+    {
+      "id": "c5-reaction-profiles-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "For the same endothermic reaction (reactants 30 kJ/mol, products 75 kJ/mol), calculate the energy taken in from the surroundings.",
+      "numericAnswer": 45,
+      "tolerance": 0.01,
+      "unit": "kJ/mol",
+      "markScheme": [
+        "1 mark: 75 − 30 = 45 kJ/mol"
+      ],
+      "explanation": "The products are 75 − 30 = 45 kJ/mol higher than the reactants, so 45 kJ/mol is taken in."
+    },
+    {
+      "id": "c5-reaction-profiles-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In an exothermic reaction the reactants are at 120 kJ. The products have 85 kJ less energy than the reactants and the activation energy is 35 kJ. Calculate the energy at the peak of the curve.",
+      "numericAnswer": 155,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: peak = reactants + activation energy",
+        "1 mark: 120 + 35 = 155 kJ"
+      ],
+      "explanation": "The peak is the activation energy above the reactant level: 120 + 35 = 155 kJ. The 85 kJ released is not needed for this calculation."
+    },
+    {
+      "id": "c5-reaction-profiles-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "For a reaction, the reactants are at 100 kJ, the peak is at 180 kJ and the products are at 40 kJ. Calculate the activation energy for the reverse reaction (products turning back into reactants).",
+      "numericAnswer": 140,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: reverse reaction starts at the products (40 kJ)",
+        "1 mark: 180 − 40 = 140 kJ"
+      ],
+      "explanation": "For the reverse reaction the starting level is the products, so the activation energy is measured from 40 kJ up to the peak: 180 − 40 = 140 kJ."
+    },
+    {
+      "id": "c5-reaction-profiles-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Define activation energy.",
+      "acceptedAnswers": [
+        "minimum energy",
+        "particles must have to react"
+      ],
+      "markScheme": [
+        "1 mark: the minimum amount of energy that particles must have to react"
+      ],
+      "explanation": "The key word is minimum. Particles with less energy than this bounce apart without reacting."
+    },
+    {
+      "id": "c5-reaction-profiles-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two things that a reaction profile shows.",
+      "acceptedAnswers": [
+        "relative energies of reactants and products",
+        "activation energy",
+        "overall energy change"
+      ],
+      "markScheme": [
+        "1 mark each, any two: relative energies of reactants and products; activation energy; overall energy change (energy released or taken in)"
+      ],
+      "explanation": "A reaction profile shows the energy of the reactants and products, the activation energy and the overall energy change."
+    },
+    {
+      "id": "c5-reaction-profiles-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a reaction profile, the products are drawn higher than the reactants. State whether the reaction is exothermic or endothermic.",
+      "acceptedAnswers": [
+        "endothermic"
+      ],
+      "markScheme": [
+        "1 mark: endothermic"
+      ],
+      "explanation": "Products higher than reactants means energy has been taken in from the surroundings, so the reaction is endothermic."
+    },
+    {
+      "id": "c5-reaction-profiles-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a reaction profile shows that a reaction is exothermic.",
+      "acceptedAnswers": [
+        "products lower than reactants",
+        "energy released to surroundings"
+      ],
+      "markScheme": [
+        "1 mark: the products are at a lower energy than the reactants",
+        "1 mark: so the difference in energy has been transferred (released) to the surroundings"
+      ],
+      "explanation": "The products have less energy than the reactants. The missing energy was transferred to the surroundings."
+    },
+    {
+      "id": "c5-reaction-profiles-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain, in terms of particles, why reactions can only happen when particles collide with sufficient energy.",
+      "acceptedAnswers": [
+        "particles must collide",
+        "energy at least the activation energy",
+        "otherwise bounce apart"
+      ],
+      "markScheme": [
+        "1 mark: particles must collide to react",
+        "1 mark: the collision must have energy equal to or greater than the activation energy; collisions with less energy do not lead to a reaction"
+      ],
+      "explanation": "Only collisions with at least the activation energy result in a reaction. Other collisions do not have enough energy, so the particles simply bounce apart."
+    },
+    {
+      "id": "c5-reaction-profiles-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Calcium carbonate decomposes when heated: CaCO₃ → CaO + CO₂. The reaction is endothermic. Describe the reaction profile for this reaction.",
+      "acceptedAnswers": [
+        "products higher than reactants",
+        "curve rises above both",
+        "activation energy from reactants to peak",
+        "overall energy change arrow upwards",
+        "axes energy and progress of reaction"
+      ],
+      "markScheme": [
+        "1 mark: reactants (CaCO₃) lower and products (CaO + CO₂) higher",
+        "1 mark: a curve that rises to a peak above both levels, with activation energy shown from reactants to peak",
+        "1 mark: overall energy change shown as an upward arrow from reactants to products (energy taken in)"
+      ],
+      "explanation": "For an endothermic reaction the product line is higher than the reactant line. The activation energy and overall energy change arrows both start from the reactant level."
+    },
+    {
+      "id": "c5-reaction-profiles-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Once the combustion of a fuel has started, it continues without any more heating. Explain why.",
+      "acceptedAnswers": [
+        "energy released",
+        "provides activation energy for further particles",
+        "exothermic"
+      ],
+      "markScheme": [
+        "1 mark: the reaction is exothermic and releases energy",
+        "1 mark: this energy gives more reactant particles enough energy to overcome the activation energy, so the reaction keeps going"
+      ],
+      "explanation": "The spark only supplies the activation energy at the start. The energy released by the reaction then supplies the activation energy for more particles."
+    },
+    {
+      "id": "c5-reaction-profiles-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Three reactions have these energy values:\nP: activation energy 20 kJ/mol, overall energy change −90 kJ/mol\nQ: activation energy 200 kJ/mol, overall energy change −95 kJ/mol\nR: activation energy 25 kJ/mol, overall energy change +40 kJ/mol\nSuggest which reaction would be best for a hand warmer. Explain your answer.",
+      "acceptedAnswers": [
+        "P",
+        "exothermic",
+        "low activation energy",
+        "starts easily"
+      ],
+      "markScheme": [
+        "1 mark: P",
+        "1 mark: it is exothermic (releases energy) and has a low activation energy so it starts easily at room temperature; Q needs too much energy to start and R is endothermic"
+      ],
+      "explanation": "A hand warmer must release energy, which rules out R. Q releases a similar amount of energy to P but has a very high activation energy, so it would not start without heating."
+    },
+    {
+      "id": "c5-reaction-profiles-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Compare the reaction profiles of an exothermic reaction and an endothermic reaction. In your answer describe the features of each profile and explain what they show about the energy changes.",
+      "markScheme": [
+        "Indicative content: both profiles have energy on the y-axis and progress of reaction on the x-axis; both show reactants on the left and products on the right; both have a curve that rises to a peak; activation energy is shown in both from the reactant level to the peak; activation energy is the minimum energy particles need to react; exothermic: products lower than reactants; overall energy change arrow points down; energy transferred to the surroundings, so temperature of surroundings increases; endothermic: products higher than reactants; arrow points up; energy taken in from the surroundings, so temperature of surroundings decreases; the height of the peak does not decide whether the reaction is exothermic or endothermic.",
+        "Level 3 (5 to 6 marks): a clear comparison of both profiles with similarities and differences, correct use of activation energy and overall energy change, and links to energy transfer to or from the surroundings.",
+        "Level 2 (3 to 4 marks): describes both profiles with some correct features, with some explanation of energy changes.",
+        "Level 1 (1 to 2 marks): simple statements about one or both profiles, for example products lower for exothermic."
+      ],
+      "explanation": "The key difference is the position of the products relative to the reactants. Both profiles share the same axes and both show an activation energy, which explains why both types of reaction may need energy to start."
+    },
+    {
+      "id": "c5-reaction-profiles-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A mixture of hydrogen and oxygen gases can be kept at room temperature without reacting. When a spark is applied, the mixture explodes and forms water in a strongly exothermic reaction. Explain these observations using ideas about collisions and activation energy. You may refer to a reaction profile.",
+      "markScheme": [
+        "Indicative content: at room temperature the particles collide but very few collisions have energy greater than or equal to the activation energy; so there is no (noticeable) reaction; the activation energy is high; the spark gives some particles enough energy to overcome the activation energy, so they react; the reaction is exothermic and releases a large amount of energy; this energy gives more particles enough energy to react, so the reaction spreads very quickly (explosion); on a reaction profile, the products (water) are much lower than the reactants and the peak is well above the reactants.",
+        "Level 2 (3 to 4 marks): clear explanation linking activation energy to both the lack of reaction at room temperature and the effect of the spark, with the role of the energy released.",
+        "Level 1 (1 to 2 marks): simple statements, for example the spark provides energy, with limited explanation."
+      ],
+      "explanation": "The mixture is stable at room temperature because collisions do not have enough energy to reach the activation energy. The spark starts the reaction, and the large amount of energy released supplies the activation energy for the rest of the mixture."
+    }
+  ]
+}

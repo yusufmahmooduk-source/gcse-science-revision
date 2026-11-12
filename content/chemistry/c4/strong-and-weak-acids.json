@@ -1,0 +1,691 @@
+{
+  "id": "c4-strong-and-weak-acids",
+  "science": "chemistry",
+  "topicId": "c4",
+  "slug": "strong-and-weak-acids",
+  "specRef": "4.4.2.6",
+  "title": "Strong and weak acids",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "A strong acid is completely ionised in aqueous solution, while a weak acid is only partially ionised. Strength (degree of ionisation) is different from concentration (amount of acid in a given volume), and pH is a measure of hydrogen ion concentration: a decrease of one pH unit means the H⁺ ion concentration is 10 times greater.",
+    "explanation": [
+      "Acids produce hydrogen ions, H⁺(aq), when they dissolve in water. How many molecules release their H⁺ ions decides whether an acid is strong or weak. A strong acid is completely ionised in aqueous solution: every molecule splits into ions. Hydrochloric acid, nitric acid and sulfuric acid are strong acids, for example HCl(aq) → H⁺(aq) + Cl⁻(aq).",
+      "A weak acid is only partially ionised in aqueous solution. Most of the acid stays as molecules and only a small fraction releases H⁺ ions. The ionisation is reversible, so it is shown with the ⇌ symbol, for example CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq). Ethanoic acid (in vinegar), citric acid (in citrus fruits) and carbonic acid (formed when carbon dioxide dissolves in water) are weak acids.",
+      "Strength and concentration mean different things. Concentrated and dilute describe the amount of acid (amount of substance) in a given volume of solution: a concentrated acid has a large amount of acid per dm³, and a dilute acid has a small amount. Strong and weak describe the degree of ionisation. So it is possible to have a dilute strong acid (such as 0.01 mol/dm³ hydrochloric acid) or a concentrated weak acid (such as 5 mol/dm³ ethanoic acid).",
+      "pH measures the concentration of hydrogen ions. The higher the H⁺ ion concentration, the lower the pH. A neutral solution has pH 7; acidic solutions have a pH below 7 and alkaline solutions above 7. For solutions of the same concentration, the stronger the acid, the lower the pH, because a strong acid releases more H⁺ ions into the solution than the same amount of a weak acid.",
+      "The pH scale is not linear. As the pH decreases by one unit, the hydrogen ion concentration increases by a factor of 10. So a solution of pH 2 has 10 times the H⁺ concentration of a solution of pH 3, and 100 times (10 × 10) that of a solution of pH 4. To compare two solutions, find the difference in pH and work out 10 to the power of that difference. Diluting a strong acid by a factor of 10 raises its pH by 1."
+    ],
+    "keyFacts": [
+      "Strong acid: completely ionised in aqueous solution.",
+      "Weak acid: only partially ionised in aqueous solution.",
+      "Strong acids: hydrochloric, nitric and sulfuric acid.",
+      "Weak acids: ethanoic, citric and carbonic acid.",
+      "Concentrated/dilute describes the amount of acid in a given volume; strong/weak describes the degree of ionisation.",
+      "For the same concentration, the stronger the acid, the lower the pH.",
+      "A decrease of 1 pH unit means the H⁺ ion concentration is 10 times greater.",
+      "A difference of n pH units means a factor of 10ⁿ in H⁺ ion concentration (for example 2 units = 100 times).",
+      "Neutral solutions have pH 7; the lower the pH, the higher the H⁺ concentration.",
+      "Weak acid ionisation is reversible and is shown with ⇌."
+    ],
+    "keyTerms": [
+      {
+        "term": "Strong acid",
+        "definition": "An acid that is completely ionised in aqueous solution, for example hydrochloric, nitric or sulfuric acid."
+      },
+      {
+        "term": "Weak acid",
+        "definition": "An acid that is only partially ionised in aqueous solution, for example ethanoic, citric or carbonic acid."
+      },
+      {
+        "term": "Ionisation",
+        "definition": "The process in which an acid molecule splits up in water to release a hydrogen ion, H⁺."
+      },
+      {
+        "term": "Concentrated",
+        "definition": "A solution with a large amount of solute (acid) in a given volume."
+      },
+      {
+        "term": "Dilute",
+        "definition": "A solution with a small amount of solute (acid) in a given volume."
+      },
+      {
+        "term": "pH",
+        "definition": "A scale from 0 to 14 that measures the acidity or alkalinity of a solution; it depends on the hydrogen ion concentration."
+      },
+      {
+        "term": "Neutral",
+        "definition": "A solution with pH 7, which is neither acidic nor alkaline."
+      }
+    ],
+    "equations": [
+      {
+        "name": "pH and hydrogen ion concentration",
+        "formula": "a decrease of 1 pH unit = H⁺ ion concentration × 10",
+        "symbols": "factor change in [H⁺] = 10^(difference in pH)",
+        "units": "no units (a factor)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing hydrogen ion concentrations",
+        "question": "Solution X has pH 2 and solution Y has pH 5. How many times greater is the hydrogen ion concentration in X than in Y?",
+        "steps": [
+          "Difference in pH = 5 − 2 = 3 units.",
+          "Each unit is a factor of 10, so the factor is 10 × 10 × 10 = 10³.",
+          "10³ = 1000."
+        ],
+        "answer": "The H⁺ ion concentration in X is 1000 times greater than in Y."
+      },
+      {
+        "title": "Finding a new H⁺ concentration",
+        "question": "A solution of pH 3 has a hydrogen ion concentration of 0.001 mol/dm³. What is the hydrogen ion concentration of a solution of pH 1?",
+        "steps": [
+          "pH decreases by 3 − 1 = 2 units.",
+          "So the H⁺ concentration increases by 10² = 100 times.",
+          "0.001 × 100 = 0.1 mol/dm³."
+        ],
+        "answer": "0.1 mol/dm³"
+      },
+      {
+        "title": "Diluting a strong acid",
+        "question": "10 cm³ of hydrochloric acid with pH 1 is diluted with water to a total volume of 1000 cm³. Calculate the new pH.",
+        "steps": [
+          "The volume increases from 10 cm³ to 1000 cm³, a factor of 100.",
+          "So the H⁺ concentration decreases by a factor of 100 = 10².",
+          "A 100-fold decrease in H⁺ concentration raises the pH by 2 units.",
+          "New pH = 1 + 2 = 3."
+        ],
+        "answer": "pH 3"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Strong and weak acids at the same concentration",
+        "caption": "A strong acid is completely ionised into H⁺ and A⁻ ions. A weak acid at the same concentration is mostly un-ionised HA molecules, so it has fewer H⁺ ions and a higher pH.",
+        "svg": "<svg viewBox='0 0 420 265' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none'><path d='M20 30 L20 205 L190 205 L190 30'/><path d='M225 30 L225 205 L395 205 L395 30'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><circle cx='50' cy='80' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='50' y='84'>H⁺</text><circle cx='110' cy='100' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='110' y='104'>H⁺</text><circle cx='70' cy='150' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='70' y='154'>H⁺</text><circle cx='150' cy='160' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='150' y='164'>H⁺</text><circle cx='130' cy='60' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='130' y='64'>H⁺</text><circle cx='90' cy='60' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='90' y='64'>A⁻</text><circle cx='160' cy='110' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='160' y='114'>A⁻</text><circle cx='45' cy='120' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='45' y='124'>A⁻</text><circle cx='110' cy='140' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='110' y='144'>A⁻</text><circle cx='60' cy='185' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='60' y='189'>A⁻</text><rect x='255' y='59' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='275' y='74'>HA</text><rect x='315' y='79' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='335' y='94'>HA</text><rect x='270' y='109' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='290' y='124'>HA</text><rect x='340' y='129' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='360' y='144'>HA</text><rect x='280' y='164' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='300' y='179'>HA</text><rect x='230' y='149' width='40' height='22' rx='11' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='250' y='164'>HA</text><circle cx='370' cy='60' r='13' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><text x='370' y='64'>H⁺</text><circle cx='345' cy='185' r='13' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='345' y='189'>A⁻</text><text x='105' y='224'>Strong acid, e.g. HCl</text><text x='105' y='239'>Completely ionised</text><text x='105' y='254'>(all H⁺ and A⁻ ions)</text><text x='310' y='224'>Weak acid, e.g. ethanoic</text><text x='310' y='239'>Partially ionised</text><text x='310' y='254'>(mostly HA molecules)</text><text x='210' y='18'>Same concentration of acid in each beaker</text></g></svg>"
+      },
+      {
+        "title": "The pH scale and hydrogen ion concentration",
+        "caption": "Each step down the pH scale is a 10-fold increase in hydrogen ion concentration. Going from pH 6 to pH 4 is a 100-fold increase.",
+        "svg": "<svg viewBox='0 0 440 190' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='60' width='84' height='30' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><rect x='104' y='60' width='98' height='30' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><rect x='202' y='60' width='28' height='30' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><rect x='230' y='60' width='182' height='30' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='1.5' fill='none'><path d='M160 56 Q146 40 132 56'/><path d='M188 56 Q160 18 132 56'/><line x1='30' y1='145' x2='400' y2='145'/><path d='M30 145 L40 140 L40 150 Z' fill='currentColor'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='20' y='105'>0</text><text x='76' y='105'>2</text><text x='132' y='105'>4</text><text x='160' y='105'>5</text><text x='188' y='105'>6</text><text x='216' y='105'>7</text><text x='300' y='105'>10</text><text x='412' y='105'>14</text><text x='146' y='48'>× 10</text><text x='160' y='22'>× 100</text><text x='62' y='80'>Very acidic</text><text x='153' y='80'>Weakly acidic</text><text x='216' y='125'>Neutral</text><text x='321' y='80'>Alkaline</text><text x='215' y='165'>Hydrogen ion concentration increases this way</text><text x='215' y='183'>Each decrease of 1 pH unit = 10 times more H⁺ ions</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think 'strong' means the same as 'concentrated'.",
+        "right": "In fact strong/weak describes how completely the acid ionises; concentrated/dilute describes how much acid is in a given volume."
+      },
+      {
+        "wrong": "Students often think a solution of pH 2 is twice as acidic as one of pH 4.",
+        "right": "In fact the scale is logarithmic: pH 2 has 10 × 10 = 100 times the H⁺ concentration of pH 4."
+      },
+      {
+        "wrong": "Students often think a weak acid always has a higher pH than a strong acid.",
+        "right": "In fact this is only true for the same concentration. A concentrated weak acid can have a lower pH than a very dilute strong acid."
+      },
+      {
+        "wrong": "Students often think a lower pH means fewer hydrogen ions.",
+        "right": "In fact a lower pH means a higher concentration of H⁺ ions."
+      }
+    ],
+    "realWorld": [
+      "Weak acids such as citric acid and ethanoic acid are used in foods and drinks because they are safe to consume, while strong acids would be corrosive.",
+      "Carbonic acid forms when carbon dioxide dissolves in water, making fizzy drinks and rainwater slightly acidic.",
+      "Descalers for kettles often use weak acids (such as citric acid) that remove limescale without damaging the metal as much as a strong acid would."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "The whole of this subtopic (4.4.2.6) is Higher tier only.",
+      "A strong acid is completely ionised in aqueous solution (hydrochloric, nitric and sulfuric acids); a weak acid is only partially ionised (ethanoic, citric and carbonic acids).",
+      "For a given concentration of aqueous solutions, the stronger an acid, the lower the pH.",
+      "As the pH decreases by one unit, the hydrogen ion concentration of the solution increases by a factor of 10.",
+      "Use and explain the terms dilute and concentrated (amount of substance) and weak and strong (degree of ionisation) in relation to acids.",
+      "Describe neutrality and relative acidity in terms of the effect of hydrogen ion concentration on the numerical value of pH (whole numbers only)."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Use the exact wording: strong acids are 'completely ionised' and weak acids are 'partially ionised' in aqueous solution.",
+      "Never use 'strong' when you mean 'concentrated'. Examiners penalise mixing up the terms.",
+      "For pH difference questions, the factor is 10 raised to the difference: 1 unit = 10, 2 units = 100, 3 units = 1000.",
+      "State whether the H⁺ concentration increases or decreases, not just the factor.",
+      "When comparing pH of a strong and weak acid, say 'at the same concentration' and refer to the concentration of H⁺ ions."
+    ],
+    "summary": [
+      "Strong acids are completely ionised; weak acids are partially ionised in water.",
+      "Strong: HCl, HNO₃, H₂SO₄. Weak: ethanoic, citric, carbonic.",
+      "Concentration is about amount of acid per volume; strength is about degree of ionisation.",
+      "The higher the H⁺ concentration, the lower the pH.",
+      "At equal concentration, a strong acid has a lower pH than a weak acid.",
+      "A decrease of 1 pH unit means 10 times more H⁺ ions."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a strong acid?",
+      "back": "An acid that is completely ionised in aqueous solution."
+    },
+    {
+      "front": "What is a weak acid?",
+      "back": "An acid that is only partially ionised in aqueous solution."
+    },
+    {
+      "front": "Name three strong acids",
+      "back": "Hydrochloric acid, nitric acid, sulfuric acid."
+    },
+    {
+      "front": "Name three weak acids",
+      "back": "Ethanoic acid, citric acid, carbonic acid."
+    },
+    {
+      "front": "What does 'concentrated' mean for an acid?",
+      "back": "A large amount of acid in a given volume of solution."
+    },
+    {
+      "front": "What does 'dilute' mean for an acid?",
+      "back": "A small amount of acid in a given volume of solution."
+    },
+    {
+      "front": "Strong vs concentrated",
+      "back": "Strong refers to degree of ionisation; concentrated refers to amount of acid per volume."
+    },
+    {
+      "front": "If pH decreases by 1, what happens to [H⁺]?",
+      "back": "It increases by a factor of 10."
+    },
+    {
+      "front": "How many times more H⁺ at pH 3 than pH 5?",
+      "back": "100 times (10²)."
+    },
+    {
+      "front": "Why does 0.1 mol/dm³ HCl have a lower pH than 0.1 mol/dm³ ethanoic acid?",
+      "back": "HCl is completely ionised so it has a higher H⁺ concentration."
+    },
+    {
+      "front": "Ionisation equation for hydrochloric acid",
+      "back": "HCl(aq) → H⁺(aq) + Cl⁻(aq)"
+    },
+    {
+      "front": "Why is ⇌ used for ethanoic acid ionising?",
+      "back": "Its ionisation is reversible and only partial."
+    },
+    {
+      "front": "What is the pH of a neutral solution?",
+      "back": "7"
+    },
+    {
+      "front": "Effect of diluting a strong acid 10 times on pH",
+      "back": "The pH increases by 1."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c4-strong-and-weak-acids-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a strong acid?",
+      "options": [
+        "Ethanoic acid",
+        "Citric acid",
+        "Carbonic acid",
+        "Nitric acid"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: nitric acid"
+      ],
+      "explanation": "Nitric acid is completely ionised in water, so it is a strong acid. Ethanoic, citric and carbonic acids are weak acids because they only partially ionise."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by a strong acid?",
+      "options": [
+        "An acid with a high concentration",
+        "An acid that is completely ionised in aqueous solution",
+        "An acid that always has a pH of 0",
+        "An acid that reacts with all metals"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: completely ionised in aqueous solution"
+      ],
+      "explanation": "Strength is about the degree of ionisation. A high concentration describes the amount of acid per volume, which is a different idea. The pH of a strong acid depends on its concentration, so it is not always 0."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a weak acid?",
+      "options": [
+        "Ethanoic acid",
+        "Hydrochloric acid",
+        "Sulfuric acid",
+        "Nitric acid"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: ethanoic acid"
+      ],
+      "explanation": "Ethanoic acid (in vinegar) is only partially ionised in water. Hydrochloric, sulfuric and nitric acids are the three strong acids named in the specification."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The pH of a solution decreases by 1 unit. What happens to the hydrogen ion concentration?",
+      "options": [
+        "It decreases by a factor of 10",
+        "It increases by 1 mol/dm³",
+        "It increases by a factor of 10",
+        "It doubles"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: increases by a factor of 10"
+      ],
+      "explanation": "A lower pH means more H⁺ ions, and each pH unit is a factor of 10. It does not double or go up by a fixed amount, and a decrease in pH never means fewer H⁺ ions."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does 'dilute' mean when describing an acid?",
+      "options": [
+        "There is a small amount of acid in a given volume of solution",
+        "The acid is only partially ionised",
+        "The acid has a pH above 7",
+        "The acid has been neutralised"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: small amount of acid in a given volume"
+      ],
+      "explanation": "Dilute and concentrated describe the amount of substance per volume. 'Partially ionised' describes a weak acid, and any acid has a pH below 7."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Hydrochloric acid and ethanoic acid solutions both have a concentration of 0.1 mol/dm³. Which statement is correct?",
+      "options": [
+        "Ethanoic acid has a lower pH because it is a weak acid",
+        "Both solutions have the same pH because they have the same concentration",
+        "Ethanoic acid has a higher concentration of H⁺ ions",
+        "Hydrochloric acid has a lower pH because it has a higher concentration of H⁺ ions"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: hydrochloric acid has a lower pH because it has a higher H⁺ concentration"
+      ],
+      "explanation": "HCl is completely ionised but ethanoic acid is only partially ionised, so at the same concentration HCl releases more H⁺ ions and has a lower pH. Same concentration does not mean same pH."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which of these is a concentrated solution of a weak acid?",
+      "options": [
+        "0.01 mol/dm³ hydrochloric acid",
+        "2.0 mol/dm³ hydrochloric acid",
+        "2.0 mol/dm³ ethanoic acid",
+        "0.01 mol/dm³ ethanoic acid"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 2.0 mol/dm³ ethanoic acid"
+      ],
+      "explanation": "Ethanoic acid is weak, and 2.0 mol/dm³ is a high concentration. 2.0 mol/dm³ HCl is concentrated but strong, 0.01 mol/dm³ HCl is dilute and strong, and 0.01 mol/dm³ ethanoic acid is dilute and weak."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement describes a neutral solution?",
+      "options": [
+        "It contains no ions",
+        "The concentrations of H⁺ ions and OH⁻ ions are equal",
+        "It contains no hydrogen ions at all",
+        "It has a pH of 0"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: concentrations of H⁺ and OH⁻ are equal"
+      ],
+      "explanation": "A neutral solution (pH 7) has equal concentrations of hydrogen and hydroxide ions. Water still contains a very small number of ions, and pH 0 is very acidic."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Solution A has pH 2. Solution B has pH 4. Which statement is correct?",
+      "options": [
+        "A has twice the hydrogen ion concentration of B",
+        "B has 100 times the hydrogen ion concentration of A",
+        "A has 100 times the hydrogen ion concentration of B",
+        "A has 20 times the hydrogen ion concentration of B"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A has 100 times the H⁺ concentration of B"
+      ],
+      "explanation": "The pH difference is 2 units, so the factor is 10² = 100. A has the lower pH, so A has more H⁺ ions. Twice and 20 times wrongly treat the pH scale as linear."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "As the hydrogen ion concentration of a solution increases, what happens to its pH?",
+      "options": [
+        "The pH decreases",
+        "The pH increases",
+        "The pH stays at 7",
+        "The pH becomes greater than 14"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: pH decreases"
+      ],
+      "explanation": "More H⁺ ions means a more acidic solution, which has a lower pH."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Solution P has pH 2 and solution Q has pH 5. How many times greater is the hydrogen ion concentration in P than in Q?",
+      "numericAnswer": 1000,
+      "tolerance": 0.001,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 1000 (10³)"
+      ],
+      "explanation": "Difference = 5 − 2 = 3 pH units. 10³ = 1000, so P has 1000 times the H⁺ ion concentration of Q."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many times greater is the hydrogen ion concentration of a solution with pH 1 than a solution with pH 3?",
+      "numericAnswer": 100,
+      "tolerance": 0.001,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 100"
+      ],
+      "explanation": "Difference = 2 units, so the factor is 10 × 10 = 100. An answer of 2 or 20 treats the scale as linear."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A solution with pH 2 has a hydrogen ion concentration of 0.01 mol/dm³. Calculate the hydrogen ion concentration of a solution with pH 4.",
+      "numericAnswer": 0.0001,
+      "tolerance": 0.01,
+      "unit": "mol/dm³",
+      "markScheme": [
+        "1 mark: pH increases by 2, so H⁺ concentration decreases by a factor of 100",
+        "1 mark: 0.01 ÷ 100 = 0.0001 mol/dm³"
+      ],
+      "explanation": "Going from pH 2 to pH 4 is an increase of 2 units, so the H⁺ concentration is divided by 10² = 100. 0.01 ÷ 100 = 0.0001 mol/dm³ (1 × 10⁻⁴ mol/dm³). Multiplying by 100 instead gives a more acidic solution, which would have a lower pH."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "1 cm³ of hydrochloric acid with pH 2 is diluted with water to a total volume of 1000 cm³. Calculate the pH of the diluted acid.",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: H⁺ concentration decreases by a factor of 1000 (= 10³)",
+        "1 mark: pH increases by 3, so new pH = 5"
+      ],
+      "explanation": "Diluting 1 cm³ to 1000 cm³ divides the H⁺ concentration by 1000. A 1000-fold decrease is 3 pH units, so the pH rises from 2 to 5."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The hydrogen ion concentration of a solution with pH 6 is increased by a factor of 1000. Calculate the new pH.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: factor 1000 = 10³, so a change of 3 pH units",
+        "1 mark: pH decreases, so new pH = 6 − 3 = 3"
+      ],
+      "explanation": "1000 = 10³, so the pH changes by 3 units. More H⁺ ions means a lower pH, so 6 − 3 = 3. An answer of 9 has the direction wrong."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "10 cm³ of hydrochloric acid with pH 1 is diluted with water to a total volume of 100 cm³. Calculate the new pH.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: H⁺ concentration decreases by a factor of 10",
+        "1 mark: new pH = 2"
+      ],
+      "explanation": "The volume increases 10 times, so the H⁺ concentration is 10 times lower. A 10-fold decrease raises the pH by 1, from 1 to 2."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by a weak acid.",
+      "acceptedAnswers": [
+        "partially ionised in aqueous solution",
+        "only some molecules ionise"
+      ],
+      "markScheme": [
+        "1 mark: an acid that is only partially ionised in aqueous solution"
+      ],
+      "explanation": "In a weak acid only a small fraction of the molecules release H⁺ ions. Answers such as 'a dilute acid' are wrong because they describe concentration."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the weak acid formed when carbon dioxide dissolves in water.",
+      "acceptedAnswers": [
+        "carbonic acid",
+        "H₂CO₃"
+      ],
+      "markScheme": [
+        "1 mark: carbonic acid"
+      ],
+      "explanation": "Carbon dioxide reacts with water to form carbonic acid, a weak acid. This is why fizzy drinks and rainwater are slightly acidic."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Write a balanced equation, with state symbols, to show hydrochloric acid ionising in water.",
+      "acceptedAnswers": [
+        "HCl(aq) → H⁺(aq) + Cl⁻(aq)"
+      ],
+      "markScheme": [
+        "1 mark: HCl → H⁺ + Cl⁻",
+        "1 mark: correct state symbols (aq) and a single arrow"
+      ],
+      "explanation": "HCl(aq) → H⁺(aq) + Cl⁻(aq). A single forward arrow is used because a strong acid is completely ionised."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Ethanoic acid, CH₃COOH, is a weak acid. Write an equation to show it ionising in water and explain the arrow you have used.",
+      "acceptedAnswers": [
+        "CH₃COOH ⇌ CH₃COO⁻ + H⁺",
+        "reversible arrow because only partially ionised"
+      ],
+      "markScheme": [
+        "1 mark: CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq)",
+        "1 mark: reversible arrow because the ionisation is partial / reversible, so most molecules remain un-ionised"
+      ],
+      "explanation": "Only some ethanoic acid molecules release H⁺ ions, and the ions can recombine. The ⇌ sign shows this reversible, partial ionisation."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain the difference between a dilute acid and a weak acid.",
+      "acceptedAnswers": [
+        "dilute: small amount of acid per volume",
+        "weak: partially ionised"
+      ],
+      "markScheme": [
+        "1 mark: dilute means there is a small amount of acid in a given volume of solution",
+        "1 mark: weak means the acid is only partially ionised in aqueous solution"
+      ],
+      "explanation": "The two words describe different properties. A weak acid can be concentrated, and a strong acid can be dilute."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why 0.1 mol/dm³ hydrochloric acid has a lower pH than 0.1 mol/dm³ ethanoic acid.",
+      "acceptedAnswers": [
+        "hydrochloric acid completely ionised",
+        "ethanoic acid partially ionised",
+        "higher concentration of H⁺ ions in hydrochloric acid"
+      ],
+      "markScheme": [
+        "1 mark: hydrochloric acid is a strong acid / completely ionised",
+        "1 mark: ethanoic acid is a weak acid / only partially ionised",
+        "1 mark: so hydrochloric acid has a higher concentration of H⁺ ions (at the same acid concentration), giving a lower pH"
+      ],
+      "explanation": "Both solutions contain the same amount of acid per dm³, but HCl releases all its H⁺ ions while ethanoic acid releases only a small fraction. More H⁺ ions means a lower pH."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the pH of a neutral solution.",
+      "acceptedAnswers": [
+        "7",
+        "pH 7"
+      ],
+      "markScheme": [
+        "1 mark: 7"
+      ],
+      "explanation": "A neutral solution has a pH of exactly 7. Acids are below 7 and alkalis are above 7."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'A concentrated acid must be a strong acid.'\nExplain why the student is wrong.",
+      "acceptedAnswers": [
+        "concentrated refers to amount of acid per volume",
+        "strong refers to degree of ionisation",
+        "concentrated weak acid e.g. concentrated ethanoic acid"
+      ],
+      "markScheme": [
+        "1 mark: concentration is the amount of acid in a given volume, but strength is the degree of ionisation (they are independent)",
+        "1 mark: example such as concentrated ethanoic acid, which is concentrated but weak"
+      ],
+      "explanation": "Strength and concentration are independent. You can have a large amount of a weak acid (concentrated ethanoic acid) or a small amount of a strong acid (dilute hydrochloric acid)."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how the pH of a solution is related to its concentration of hydrogen ions.",
+      "acceptedAnswers": [
+        "higher H⁺ concentration lower pH",
+        "more acidic lower pH"
+      ],
+      "markScheme": [
+        "1 mark: the higher the hydrogen ion concentration, the lower the pH",
+        "1 mark: acidic solutions (pH below 7) have a higher H⁺ concentration than neutral solutions (pH 7)"
+      ],
+      "explanation": "pH is a measure of H⁺ ion concentration. As the H⁺ concentration rises, the pH falls, and each 1 unit decrease is a 10-fold increase."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A student measured the pH of four acid solutions.\nSolution 1: 1.0 mol/dm³ hydrochloric acid, pH 0\nSolution 2: 0.1 mol/dm³ hydrochloric acid, pH 1\nSolution 3: 1.0 mol/dm³ ethanoic acid, pH 2.4\nSolution 4: 0.1 mol/dm³ ethanoic acid, pH 2.9\nExplain the differences in pH between these solutions. Use ideas about strength, concentration and hydrogen ions in your answer.",
+      "markScheme": [
+        "Indicative content: hydrochloric acid is a strong acid, completely ionised in aqueous solution; ethanoic acid is a weak acid, only partially ionised; at the same concentration (compare 1 with 3, or 2 with 4) hydrochloric acid has a higher H⁺ concentration so a lower pH; solutions 1 and 3 are more concentrated than 2 and 4 (more acid per dm³); more concentrated solution of the same acid has more H⁺ ions so lower pH; solution 1 has 10 times the H⁺ concentration of solution 2 (pH differs by 1 unit, factor of 10 because HCl fully ionises and is diluted 10 times); for ethanoic acid diluting 10 times changes pH by less than 1 because it is only partially ionised; a decrease of 1 pH unit means a 10-fold increase in H⁺ concentration.",
+        "Level 3 (5 to 6 marks): clear explanation of both strength (degree of ionisation) and concentration, correctly linked to H⁺ concentration and pH, including the factor of 10 for a 1 unit change.",
+        "Level 2 (3 to 4 marks): explains either strength or concentration correctly in terms of H⁺ ions, with some reference to the other.",
+        "Level 1 (1 to 2 marks): simple statements, for example hydrochloric acid is strong or more concentrated acids have a lower pH.",
+        "0 marks: nothing worthy of credit."
+      ],
+      "explanation": "Two factors are at work. Comparing equal concentrations shows the effect of strength (HCl lower pH). Comparing the same acid shows the effect of concentration (more concentrated, lower pH). For HCl, a 10-fold dilution raises pH by exactly 1 unit, matching the factor-of-10 rule."
+    },
+    {
+      "id": "c4-strong-and-weak-acids-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare the meaning of the terms strong, weak, concentrated and dilute when describing acids. Give an example of an acid solution that is strong but dilute and one that is weak but concentrated.",
+      "markScheme": [
+        "Indicative content: strong acid completely ionised in aqueous solution; weak acid partially ionised; concentrated: large amount of acid (amount of substance) per given volume; dilute: small amount per given volume; strength and concentration are independent; strong but dilute example: 0.01 mol/dm³ hydrochloric (or nitric or sulfuric) acid; weak but concentrated example: 2 mol/dm³ (or higher) ethanoic or citric acid.",
+        "Level 2 (3 to 4 marks): all four terms correctly defined and two correct examples given.",
+        "Level 1 (1 to 2 marks): some terms correctly defined, or examples given with limited explanation.",
+        "0 marks: nothing worthy of credit."
+      ],
+      "explanation": "Strength depends on how much the acid ionises; concentration depends on how much acid is present. The examples show the two ideas are independent."
+    }
+  ]
+}
