@@ -35,7 +35,14 @@ export function useBanks(sciences: ScienceId[]) {
   const key = sciences.join(",");
   useEffect(() => {
     let live = true;
-    Promise.all(key.split(",").map((s) => fetchBank(s as ScienceId))).then((b) => {
+    fetch("/data/index.json")
+      .then((r) => (r.ok ? r.json() : []))
+      .catch(() => [])
+      .then((idx: { science: string }[]) => {
+        const have = new Set(idx.map((x) => x.science));
+        return Promise.all(key.split(",").filter((s) => have.has(s)).map((s) => fetchBank(s as ScienceId)));
+      })
+      .then((b) => {
       if (live) setBanks(b.filter((x): x is Bank => !!x));
     });
     return () => {
