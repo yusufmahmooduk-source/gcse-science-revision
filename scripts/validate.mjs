@@ -13,7 +13,7 @@ for (const f of fs.readdirSync(path.join(root, "content/spec"))) {
 
 function walk(p) {
   const st = fs.statSync(p);
-  if (st.isDirectory()) return fs.readdirSync(p).flatMap((x) => (x === "spec" ? [] : walk(path.join(p, x))));
+  if (st.isDirectory()) return fs.readdirSync(p).flatMap((x) => (["spec", "practicals", "equations.json"].includes(x) ? [] : walk(path.join(p, x))));
   return p.endsWith(".json") ? [p] : [];
 }
 
