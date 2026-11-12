@@ -1,12 +1,13 @@
 {
-  "name": "app",
+  "name": "gcse-science-revision",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "node scripts/build-data.mjs && next dev",
+    "build": "node scripts/build-data.mjs && next build",
+    "start": "npx serve@14.2.4 out -l ${PORT:-3000}",
+    "lint": "eslint",
+    "validate": "node scripts/validate.mjs && node scripts/validate-practicals.mjs"
   },
   "dependencies": {
     "react": "19.1.0",

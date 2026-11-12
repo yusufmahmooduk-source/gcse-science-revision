@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bio-magnification", "science": "biology", "topicId": "b1", "subtopic": "microscopy",
+    "name": "Magnification", "formula": "magnification = size of image ÷ size of real object", "recall": true,
+    "form": "quotient", "vars": [
+      { "sym": "M", "name": "magnification", "unit": "", "min": 40, "max": 2000, "dp": 0 },
+      { "sym": "I", "name": "size of image", "unit": "mm", "min": 5, "max": 80, "dp": 0 },
+      { "sym": "A", "name": "size of real object", "unit": "mm" }
+    ],
+    "note": "Make sure image size and real size are in the same units before dividing."
+  },
+  {
+    "id": "bio-mean-rate", "science": "biology", "topicId": "b4", "subtopic": "rate-of-photosynthesis",
+    "name": "Rate of reaction (from a volume or count)", "formula": "rate = amount produced ÷ time taken", "recall": true,
+    "form": "quotient", "vars": [
+      { "sym": "rate", "name": "rate", "unit": "per min", "min": 2, "max": 30, "dp": 1 },
+      { "sym": "amount", "name": "amount produced (e.g. bubbles, cm³)", "unit": "", "min": 10, "max": 120, "dp": 0 },
+      { "sym": "t", "name": "time taken", "unit": "min" }
+    ],
+    "note": "Used in the photosynthesis and enzyme practicals: rate = 1000 ÷ time is also common for time-to-completion data."
+  },
+  {
+    "id": "bio-percentage-change", "science": "biology", "topicId": "b1", "subtopic": "osmosis",
+    "name": "Percentage change in mass", "formula": "% change = (final mass − initial mass) ÷ initial mass × 100", "recall": true,
+    "form": "custom",
+    "note": "A negative answer means the tissue lost mass (water left by osmosis)."
+  },
+  {
+    "id": "bio-sa-volume", "science": "biology", "topicId": "b1", "subtopic": "diffusion",
+    "name": "Surface area to volume ratio (cube)", "formula": "surface area : volume = 6L² : L³", "recall": false,
+    "form": "custom",
+    "note": "Simplify so the volume side is 1, e.g. 6 : 1 for a 1 cm cube, 3 : 1 for a 2 cm cube."
+  },
+  {
+    "id": "bio-population-estimate", "science": "biology", "topicId": "b7", "subtopic": "levels-of-organisation",
+    "name": "Estimating population size from quadrats", "formula": "population = (total organisms counted ÷ total area sampled) × total area", "recall": false,
+    "form": "custom",
+    "note": "Use the mean number per quadrat, then scale up to the whole area."
+  },
+  {
+    "id": "bio-efficiency-biomass", "science": "biology", "topicId": "b7", "subtopic": "transfer-of-biomass",
+    "name": "Efficiency of biomass transfer", "formula": "efficiency = biomass transferred to next level ÷ biomass available at previous level × 100", "recall": true,
+    "form": "quotient", "vars": [
+      { "sym": "eff", "name": "efficiency (as a decimal)", "unit": "", "min": 0.05, "max": 0.2, "dp": 2 },
+      { "sym": "out", "name": "biomass transferred", "unit": "kg", "min": 5, "max": 900, "dp": 0 },
+      { "sym": "in", "name": "biomass available", "unit": "kg" }
+    ],
+    "note": "Multiply the decimal by 100 to give a percentage. Separate Biology only."
+  }
+]
