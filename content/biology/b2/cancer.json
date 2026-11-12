@@ -1,0 +1,674 @@
+{
+  "id": "b2-cancer",
+  "science": "biology",
+  "topicId": "b2",
+  "slug": "cancer",
+  "specRef": "4.2.2.7",
+  "title": "Cancer",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Cancer is the result of changes in cells that lead to uncontrolled growth and division. A mass of abnormal cells is called a tumour; tumours can be benign or malignant.",
+    "explanation": [
+      "Normally, cells divide by mitosis only when the body needs new cells for growth or repair, and the cell cycle is carefully controlled. Changes in a cell (mutations in its DNA) can cause it to lose this control. The cell then grows and divides uncontrollably, producing a mass of abnormal cells called a tumour.",
+      "Benign tumours are growths of abnormal cells which are contained in one area, usually within a membrane. They do not invade other parts of the body. Benign tumours are not cancers, but they can still cause problems if they grow large and press on organs, for example in the brain.",
+      "Malignant tumour cells are cancers. They invade neighbouring tissues and can spread to different parts of the body in the blood, where they form secondary tumours. This spreading makes malignant tumours much more dangerous and harder to treat than benign tumours.",
+      "Scientists have identified lifestyle risk factors for various types of cancer. Examples include smoking (lung, mouth and throat cancers), obesity (bowel, liver and kidney cancers), excess UV exposure from the Sun or sunbeds (skin cancer), drinking alcohol (mouth, throat, liver and breast cancers) and viral infection such as human papillomavirus (cervical cancer). Exposure to carcinogens and ionising radiation also increases risk.",
+      "There are also genetic risk factors for some cancers. Some people inherit faulty alleles that increase their risk; for example, inheriting faulty BRCA genes greatly increases the risk of breast and ovarian cancer. People with a family history of a cancer may be offered screening so that a tumour can be detected early, when treatment is more likely to succeed."
+    ],
+    "keyFacts": [
+      "Cancer is the result of changes in cells that lead to uncontrolled growth and division.",
+      "A tumour is a mass of abnormal cells.",
+      "Benign tumours are contained in one area, usually within a membrane, and do not invade other parts of the body.",
+      "Malignant tumours are cancers: they invade neighbouring tissues.",
+      "Malignant cells spread in the blood to other parts of the body, forming secondary tumours.",
+      "Lifestyle risk factors include smoking, obesity, UV exposure, alcohol and some viral infections.",
+      "Genetic risk factors include inherited faulty alleles such as BRCA genes.",
+      "Carcinogens and ionising radiation increase the risk of cancer."
+    ],
+    "keyTerms": [
+      {
+        "term": "Cancer",
+        "definition": "A disease caused by changes in cells that lead to uncontrolled growth and division."
+      },
+      {
+        "term": "Tumour",
+        "definition": "A mass of abnormal cells produced by uncontrolled cell division."
+      },
+      {
+        "term": "Benign tumour",
+        "definition": "A growth of abnormal cells contained in one area, usually within a membrane, that does not invade other parts of the body."
+      },
+      {
+        "term": "Malignant tumour",
+        "definition": "A cancerous tumour whose cells invade neighbouring tissues and spread in the blood to form secondary tumours."
+      },
+      {
+        "term": "Secondary tumour",
+        "definition": "A tumour formed in a different part of the body by cells that have spread from a malignant tumour."
+      },
+      {
+        "term": "Carcinogen",
+        "definition": "A substance or agent, such as ionising radiation, that increases the risk of cancer."
+      },
+      {
+        "term": "Genetic risk factor",
+        "definition": "An inherited allele that increases a person's chance of developing a disease such as cancer."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Uncontrolled cell division",
+        "question": "A cancer cell divides every 24 hours and all the new cells keep dividing. How many cells will there be after 10 days, starting from one cell?",
+        "steps": [
+          "Each division doubles the number of cells.",
+          "In 10 days there are 10 divisions.",
+          "Number of cells = 2¹⁰ = 1024."
+        ],
+        "answer": "1024 cells"
+      },
+      {
+        "title": "Comparing tumours",
+        "question": "A scan shows a tumour surrounded by a membrane, with no cells in nearby tissue or blood. Is it benign or malignant? Explain.",
+        "steps": [
+          "Benign tumours are contained in one area, usually within a membrane.",
+          "Malignant tumours invade tissues and spread in the blood.",
+          "There is a membrane and no spread, so the evidence points to benign."
+        ],
+        "answer": "Benign, because it is contained within a membrane and has not invaded other tissues."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Benign compared with malignant",
+        "caption": "A benign tumour stays in one area, usually within a membrane. A malignant tumour has no such boundary: its cells invade nearby tissue and can enter blood vessels.",
+        "svg": "<svg viewBox=\"0 0 500 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<text x=\"240\" y=\"16\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Benign and malignant tumours</text>\n<g stroke=\"currentColor\" stroke-width=\"1.5\">\n<rect x=\"10\" y=\"150\" width=\"210\" height=\"60\" fill=\"#fde68a\" fill-opacity=\"0.5\"/>\n<ellipse cx=\"115\" cy=\"120\" rx=\"55\" ry=\"38\" fill=\"none\" stroke-width=\"2.5\"/>\n<rect x=\"260\" y=\"150\" width=\"210\" height=\"60\" fill=\"#fde68a\" fill-opacity=\"0.5\"/>\n<rect x=\"260\" y=\"215\" width=\"210\" height=\"16\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<path d=\"M330 95 C 350 80, 390 85, 400 105 C 410 120, 395 150, 380 165 C 370 180, 345 175, 340 160 C 320 150, 310 110, 330 95 z\" fill=\"none\"/>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"1\" fill=\"#c4b5fd\" fill-opacity=\"0.5\">\n<circle cx=\"95\" cy=\"110\" r=\"9\"/><circle cx=\"115\" cy=\"105\" r=\"9\"/><circle cx=\"135\" cy=\"112\" r=\"9\"/><circle cx=\"100\" cy=\"130\" r=\"9\"/><circle cx=\"122\" cy=\"128\" r=\"9\"/><circle cx=\"142\" cy=\"132\" r=\"8\"/><circle cx=\"82\" cy=\"125\" r=\"8\"/>\n<circle cx=\"345\" cy=\"110\" r=\"9\"/><circle cx=\"368\" cy=\"102\" r=\"9\"/><circle cx=\"388\" cy=\"115\" r=\"9\"/><circle cx=\"355\" cy=\"132\" r=\"9\"/><circle cx=\"378\" cy=\"138\" r=\"9\"/><circle cx=\"360\" cy=\"158\" r=\"8\"/><circle cx=\"372\" cy=\"180\" r=\"7\"/><circle cx=\"352\" cy=\"196\" r=\"7\"/><circle cx=\"400\" cy=\"223\" r=\"6\"/>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"1\">\n<line x1=\"160\" y1=\"98\" x2=\"200\" y2=\"60\"/><line x1=\"372\" y1=\"180\" x2=\"440\" y2=\"170\"/><line x1=\"400\" y1=\"223\" x2=\"440\" y2=\"250\"/><line x1=\"330\" y1=\"95\" x2=\"300\" y2=\"60\"/>\n</g>\n<g font-size=\"12\" fill=\"currentColor\">\n<text x=\"115\" y=\"40\" text-anchor=\"middle\">Benign tumour</text><text x=\"365\" y=\"40\" text-anchor=\"middle\">Malignant tumour</text>\n<text x=\"170\" y=\"56\">membrane</text>\n<text x=\"20\" y=\"200\">normal tissue: tumour</text><text x=\"20\" y=\"214\">cells stay in one area</text>\n<text x=\"230\" y=\"58\">no membrane</text>\n<text x=\"442\" y=\"166\">invades</text><text x=\"442\" y=\"180\">tissue</text>\n<text x=\"300\" y=\"250\">cell enters blood</text><text x=\"270\" y=\"226\">blood vessel</text>\n</g>\n</svg>"
+      },
+      {
+        "title": "Formation of secondary tumours",
+        "caption": "Cells from a malignant primary tumour are carried in the blood to other organs, where they form secondary tumours.",
+        "svg": "<svg viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"a8\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs>\n<text x=\"220\" y=\"16\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">How a malignant tumour spreads</text>\n<g stroke=\"currentColor\" stroke-width=\"1.5\">\n<circle cx=\"60\" cy=\"100\" r=\"30\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<rect x=\"150\" y=\"85\" width=\"140\" height=\"30\" rx=\"15\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<circle cx=\"370\" cy=\"100\" r=\"22\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<circle cx=\"200\" cy=\"100\" r=\"7\" fill=\"#c4b5fd\" fill-opacity=\"0.5\"/>\n<line x1=\"92\" y1=\"100\" x2=\"146\" y2=\"100\" marker-end=\"url(#a8)\"/>\n<line x1=\"292\" y1=\"100\" x2=\"344\" y2=\"100\" marker-end=\"url(#a8)\"/>\n</g>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"60\" y=\"150\">1. Primary tumour</text><text x=\"60\" y=\"164\">invades nearby tissue</text>\n<text x=\"220\" y=\"150\">2. Cancer cells carried</text><text x=\"220\" y=\"164\">in the bloodstream</text>\n<text x=\"370\" y=\"150\">3. Secondary tumour</text><text x=\"370\" y=\"164\">forms in another organ</text>\n<text x=\"220\" y=\"78\">blood vessel</text>\n</g>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think all tumours are cancers.",
+        "right": "In fact only malignant tumours are cancers. Benign tumours do not invade other parts of the body."
+      },
+      {
+        "wrong": "Students often think benign tumours are always harmless.",
+        "right": "In fact benign tumours can still cause damage if they grow large and press on organs such as the brain."
+      },
+      {
+        "wrong": "Students often think cancer is caused only by lifestyle choices.",
+        "right": "In fact there are genetic risk factors too, and many cancers are caused by a combination of genetic and lifestyle factors."
+      },
+      {
+        "wrong": "Students often think cancer is a communicable disease because some are linked to viruses.",
+        "right": "In fact cancer itself cannot be passed on; a virus such as HPV can be passed on and can trigger cancer in an infected person."
+      }
+    ],
+    "realWorld": [
+      "The UK offers cervical screening and the HPV vaccine to reduce deaths from cervical cancer.",
+      "Women who inherit faulty BRCA alleles may be offered extra breast screening or preventative surgery.",
+      "Public health campaigns encourage the use of sunscreen and discourage sunbed use to reduce skin cancer."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Use the exact wording: cancer is 'the result of changes in cells that lead to uncontrolled growth and division'.",
+      "When comparing tumours, say what benign tumours do NOT do (invade other parts) and what malignant tumours DO (invade tissue, spread in the blood, form secondary tumours).",
+      "Distinguish lifestyle risk factors (smoking, diet, UV, alcohol) from genetic risk factors (inherited alleles such as BRCA).",
+      "If asked why malignant tumours are more dangerous, mention secondary tumours forming in other organs."
+    ],
+    "summary": [
+      "Cancer results from changes in cells leading to uncontrolled growth and division.",
+      "Benign tumours are contained, usually within a membrane, and do not invade.",
+      "Malignant tumours invade tissues and spread in the blood to form secondary tumours.",
+      "Lifestyle risk factors include smoking, obesity, UV and alcohol.",
+      "Some cancers have genetic risk factors, such as faulty BRCA alleles."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is cancer?",
+      "back": "The result of changes in cells that lead to uncontrolled growth and division."
+    },
+    {
+      "front": "What is a tumour?",
+      "back": "A mass of abnormal cells formed by uncontrolled cell division."
+    },
+    {
+      "front": "Describe a benign tumour.",
+      "back": "Abnormal cells contained in one area, usually within a membrane; does not invade other parts of the body."
+    },
+    {
+      "front": "Describe a malignant tumour.",
+      "back": "Cancerous cells that invade neighbouring tissues and spread in the blood to form secondary tumours."
+    },
+    {
+      "front": "What is a secondary tumour?",
+      "back": "A tumour formed elsewhere in the body by cells spread from a malignant tumour."
+    },
+    {
+      "front": "How do malignant cells spread?",
+      "back": "In the blood."
+    },
+    {
+      "front": "Give three lifestyle risk factors for cancer.",
+      "back": "Smoking, obesity, UV exposure (also alcohol, viral infection)."
+    },
+    {
+      "front": "Give an example of a genetic risk factor for cancer.",
+      "back": "Inherited faulty BRCA alleles (breast and ovarian cancer)."
+    },
+    {
+      "front": "Which virus is linked to cervical cancer?",
+      "back": "Human papillomavirus (HPV)."
+    },
+    {
+      "front": "Are benign tumours cancers?",
+      "back": "No, only malignant tumours are cancers."
+    },
+    {
+      "front": "Why can benign tumours still be dangerous?",
+      "back": "They can grow large and press on organs, such as in the brain."
+    }
+  ],
+  "questions": [
+    {
+      "id": "b2-cancer-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is cancer?",
+      "options": [
+        "An infection caused by bacteria",
+        "The result of changes in cells that lead to uncontrolled growth and division",
+        "A disease caused only by smoking",
+        "A lack of red blood cells"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Cancer is defined by uncontrolled cell growth and division. It is not caused only by smoking and is not a bacterial infection."
+    },
+    {
+      "id": "b2-cancer-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of tumour is contained in one area, usually within a membrane?",
+      "options": [
+        "Malignant",
+        "Secondary",
+        "Benign",
+        "Primary malignant"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Benign tumours do not invade other parts of the body."
+    },
+    {
+      "id": "b2-cancer-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How do cells from a malignant tumour spread to other parts of the body?",
+      "options": [
+        "In the blood",
+        "Through the air",
+        "By osmosis",
+        "Through the digestive system"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Malignant cells enter blood vessels and are carried to other organs."
+    },
+    {
+      "id": "b2-cancer-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these is a lifestyle risk factor for skin cancer?",
+      "options": [
+        "Inherited BRCA alleles",
+        "Using sunbeds",
+        "Eating fruit",
+        "Drinking water"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "UV radiation from sunbeds and the Sun can damage skin cell DNA. BRCA alleles are a genetic risk factor, not lifestyle."
+    },
+    {
+      "id": "b2-cancer-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is a secondary tumour?",
+      "options": [
+        "A benign tumour that has stopped growing",
+        "The second tumour to form in the same organ",
+        "A tumour formed by cells that have spread from a malignant tumour to another part of the body",
+        "A tumour that is contained in a membrane"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Secondary tumours form where cells carried in the blood settle in a new organ."
+    },
+    {
+      "id": "b2-cancer-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about benign tumours is correct?",
+      "options": [
+        "They are cancers",
+        "They spread in the blood",
+        "They invade neighbouring tissues",
+        "They do not invade other parts of the body"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Benign tumours stay in one place; the other statements describe malignant tumours."
+    },
+    {
+      "id": "b2-cancer-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is a genetic risk factor for cancer?",
+      "options": [
+        "Inheriting a faulty allele such as BRCA",
+        "Smoking",
+        "Obesity",
+        "Drinking alcohol"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Genetic risk factors are inherited. The others are lifestyle risk factors."
+    },
+    {
+      "id": "b2-cancer-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why are malignant tumours generally more dangerous than benign tumours?",
+      "options": [
+        "They grow more slowly",
+        "They are always larger",
+        "They invade tissues and spread to form secondary tumours in other organs",
+        "They are surrounded by a membrane"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Spread to other organs makes malignant cancers harder to remove and more likely to damage vital organs."
+    },
+    {
+      "id": "b2-cancer-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A woman's mother and sister both had breast cancer. What is the most likely reason she is offered extra screening?",
+      "options": [
+        "Breast cancer is communicable",
+        "She may have inherited an allele that increases her risk",
+        "Screening prevents all cancers",
+        "Her lifestyle must be unhealthy"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "A family history suggests an inherited genetic risk factor. Screening detects tumours early but does not prevent them."
+    },
+    {
+      "id": "b2-cancer-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement best explains how ionising radiation can lead to cancer?",
+      "options": [
+        "It damages DNA, causing changes that lead to uncontrolled cell division",
+        "It kills all the cells it reaches",
+        "It is a pathogen that infects cells",
+        "It causes cells to stop dividing permanently"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Changes (mutations) in DNA can disrupt the control of the cell cycle."
+    },
+    {
+      "id": "b2-cancer-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A cancer cell divides every day, and every new cell also divides. Starting with one cell, how many cells will there be after 5 days?",
+      "numericAnswer": 32,
+      "tolerance": 0,
+      "unit": "cells",
+      "markScheme": [
+        "1 mark: 2⁵ = 32"
+      ],
+      "explanation": "The number doubles each day: 1, 2, 4, 8, 16, 32."
+    },
+    {
+      "id": "b2-cancer-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Of 2400 patients with a tumour, 1800 had benign tumours. Calculate the percentage that had malignant tumours.",
+      "numericAnswer": 25,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: malignant = 2400 − 1800 = 600",
+        "1 mark: 600 ÷ 2400 × 100 = 25%"
+      ],
+      "explanation": "Subtract the benign cases first, then find the percentage."
+    },
+    {
+      "id": "b2-cancer-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A tumour cell divides every 12 hours and all daughter cells continue dividing. How many cells will be produced from one cell after 4 days?",
+      "numericAnswer": 256,
+      "tolerance": 0,
+      "unit": "cells",
+      "markScheme": [
+        "1 mark: 4 days = 96 hours, 96 ÷ 12 = 8 divisions",
+        "1 mark: 2⁸ = 256"
+      ],
+      "explanation": "Find the number of divisions first (8), then 2⁸ = 256. Using 4 divisions (one per day) gives the wrong answer, 16."
+    },
+    {
+      "id": "b2-cancer-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The 5-year survival rate for a cancer was 52% in 1990 and 78% in 2020. Calculate the percentage increase in the survival rate.",
+      "numericAnswer": 50,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (78 − 52) ÷ 52 × 100",
+        "1 mark: 50%"
+      ],
+      "explanation": "The rate rose by 26 percentage points. 26 ÷ 52 = 0.5, a 50% increase."
+    },
+    {
+      "id": "b2-cancer-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Women with a faulty BRCA1 allele have about a 72% lifetime risk of breast cancer, compared with about 12% for women without it. How many times greater is the risk with the faulty allele?",
+      "numericAnswer": 6,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 72 ÷ 12",
+        "1 mark: 6"
+      ],
+      "explanation": "72 ÷ 12 = 6 times greater, showing how strong some genetic risk factors are."
+    },
+    {
+      "id": "b2-cancer-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two lifestyle risk factors for cancer.",
+      "acceptedAnswers": [
+        "smoking",
+        "obesity",
+        "UV",
+        "sunbeds",
+        "alcohol",
+        "diet",
+        "radiation"
+      ],
+      "markScheme": [
+        "1 mark each for any two: smoking; obesity / poor diet; UV exposure from the Sun or sunbeds; drinking alcohol"
+      ],
+      "explanation": "These are examples of lifestyle risk factors identified by scientists."
+    },
+    {
+      "id": "b2-cancer-q17",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by a tumour.",
+      "acceptedAnswers": [
+        "mass of abnormal cells",
+        "lump",
+        "uncontrolled division"
+      ],
+      "markScheme": [
+        "1 mark: a mass of abnormal cells (formed by uncontrolled cell division)"
+      ],
+      "explanation": "Tumours can be benign or malignant."
+    },
+    {
+      "id": "b2-cancer-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe two differences between benign and malignant tumours.",
+      "acceptedAnswers": [
+        "benign contained",
+        "membrane",
+        "malignant invades",
+        "spread in blood",
+        "secondary tumours",
+        "cancer"
+      ],
+      "markScheme": [
+        "1 mark: benign tumours are contained in one area / within a membrane, malignant tumours invade neighbouring tissue",
+        "1 mark: malignant cells spread in the blood to form secondary tumours, benign do not / malignant are cancers, benign are not"
+      ],
+      "explanation": "Each difference should mention both types of tumour."
+    },
+    {
+      "id": "b2-cancer-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a benign tumour in the brain can still be dangerous.",
+      "acceptedAnswers": [
+        "presses on",
+        "pressure",
+        "brain tissue",
+        "limited space"
+      ],
+      "markScheme": [
+        "1 mark: the tumour can grow large",
+        "1 mark: and press on surrounding brain tissue, affecting its function"
+      ],
+      "explanation": "Although benign tumours do not invade, their size can damage nearby organs."
+    },
+    {
+      "id": "b2-cancer-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why smoking increases the risk of lung cancer.",
+      "acceptedAnswers": [
+        "carcinogens",
+        "tar",
+        "damage DNA",
+        "mutations",
+        "uncontrolled division"
+      ],
+      "markScheme": [
+        "1 mark: tobacco smoke / tar contains carcinogens",
+        "1 mark: which damage DNA in lung cells, leading to uncontrolled cell division"
+      ],
+      "explanation": "Carcinogens cause the changes in cells that lead to cancer."
+    },
+    {
+      "id": "b2-cancer-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how cancer can develop in one organ and then affect a completely different organ.",
+      "acceptedAnswers": [
+        "uncontrolled division",
+        "malignant",
+        "invade",
+        "enter blood",
+        "secondary tumour"
+      ],
+      "markScheme": [
+        "1 mark: changes in cells cause uncontrolled growth and division, forming a malignant tumour",
+        "1 mark: cells invade neighbouring tissue and enter blood vessels",
+        "1 mark: they are carried in the blood to another organ where they form a secondary tumour"
+      ],
+      "explanation": "This is the sequence from primary to secondary tumour."
+    },
+    {
+      "id": "b2-cancer-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why people with a genetic risk factor for a cancer are encouraged to avoid lifestyle risk factors as well.",
+      "acceptedAnswers": [
+        "interaction",
+        "combined risk",
+        "increase further",
+        "reduce risk"
+      ],
+      "markScheme": [
+        "1 mark: genetic and lifestyle factors interact / add together to increase risk",
+        "1 mark: so avoiding lifestyle risk factors reduces their overall risk even though genes cannot be changed"
+      ],
+      "explanation": "Cancers usually result from a combination of factors; lifestyle factors are the ones a person can control."
+    },
+    {
+      "id": "b2-cancer-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the virus that can trigger cervical cancer.",
+      "acceptedAnswers": [
+        "HPV",
+        "human papillomavirus"
+      ],
+      "markScheme": [
+        "1 mark: human papillomavirus / HPV"
+      ],
+      "explanation": "HPV living in cervical cells can trigger cancer."
+    },
+    {
+      "id": "b2-cancer-q24",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which word describes tumours that are cancers?",
+      "options": [
+        "Benign",
+        "Membrane",
+        "Healthy",
+        "Malignant"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Malignant tumours are cancers."
+    },
+    {
+      "id": "b2-cancer-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A scan shows a tumour in the liver made of the same type of cell as a tumour in the bowel. What is the most likely explanation?",
+      "options": [
+        "The bowel tumour was benign",
+        "Cells from a malignant bowel tumour spread in the blood to the liver",
+        "The liver tumour was caused by bacteria",
+        "Liver cells became bowel cells"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Bowel-type cells in the liver indicate a secondary tumour formed by cells from a malignant bowel tumour."
+    },
+    {
+      "id": "b2-cancer-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare benign and malignant tumours.",
+      "markScheme": [
+        "Indicative content: both are masses of abnormal cells caused by uncontrolled growth and division; benign tumours are contained in one area, usually within a membrane; benign tumours do not invade other parts of the body and are not cancers; malignant tumours are cancers; malignant tumour cells invade neighbouring tissues; malignant cells spread in the blood to other parts of the body and form secondary tumours; malignant tumours are usually more dangerous, though benign tumours can cause harm by pressing on organs.",
+        "Level 2 (3 to 4 marks): a clear comparison with at least one similarity and several differences, each referring to both types.",
+        "Level 1 (1 to 2 marks): simple statements about one or both types with little direct comparison.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Use comparative language: 'whereas', 'unlike', 'both'."
+    },
+    {
+      "id": "b2-cancer-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how cancer develops and spreads, and discuss the roles of lifestyle and genetic risk factors in causing cancer.",
+      "markScheme": [
+        "Indicative content: changes (mutations) in a cell's DNA cause loss of control of cell division; uncontrolled growth and division forms a tumour; benign tumours are contained and do not invade; malignant tumours invade neighbouring tissue and spread in the blood to form secondary tumours; lifestyle risk factors: smoking (carcinogens in tar, lung cancer), obesity, UV exposure (skin cancer), alcohol, viral infection such as HPV (cervical cancer), ionising radiation; genetic risk factors: inherited alleles such as BRCA increase risk of breast cancer; factors interact; a risk factor increases probability but does not guarantee cancer; lifestyle factors can be changed, genetic ones cannot, so screening is offered.",
+        "Level 3 (5 to 6 marks): detailed explanation of development and spread, with well-explained examples of both lifestyle and genetic risk factors and their interaction.",
+        "Level 2 (3 to 4 marks): describes development or spread with some risk factors.",
+        "Level 1 (1 to 2 marks): basic statements such as 'cells grow out of control' or 'smoking causes cancer'.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Link each risk factor to how it causes changes in cells, and distinguish between factors that can and cannot be changed."
+    }
+  ]
+}
