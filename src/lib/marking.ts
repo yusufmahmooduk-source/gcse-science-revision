@@ -4,7 +4,8 @@ import type { Question } from "./types";
 export function parseNumber(input: string): number | null {
   const sup: Record<string, string> = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-", "⁺": "+" };
   let s = input.trim().replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]/g, (c) => sup[c]).replace(/−/g, "-");
-  s = s.replace(/(\d),(\d{3})(?!\d)/g, "$1$2");
+  // thousands separators: 4,600,000 or 4 600 000
+  while (/\d[, ]\d{3}(?!\d)/.test(s)) s = s.replace(/(\d)[, ](\d{3})(?!\d)/, "$1$2");
   const sci = s.match(/^([-+]?\d*\.?\d+)\s*(?:x|×|\*)\s*10\s*\^?\s*\(?([-+]?\d+)\)?/i);
   if (sci) return parseFloat(sci[1]) * Math.pow(10, parseInt(sci[2], 10));
   const plain = s.match(/^([-+]?\d*\.?\d+(?:e[-+]?\d+)?)/i);
