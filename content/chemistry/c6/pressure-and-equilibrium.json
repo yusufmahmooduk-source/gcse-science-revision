@@ -1,0 +1,694 @@
+{
+  "id": "c6-pressure-and-equilibrium",
+  "science": "chemistry",
+  "topicId": "c6",
+  "slug": "pressure-and-equilibrium",
+  "specRef": "4.6.2.7",
+  "title": "The effect of pressure changes on equilibrium",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "For gaseous reactions at equilibrium, an increase in pressure causes the equilibrium position to shift towards the side with the smaller number of molecules, as shown by the symbol equation. A decrease in pressure shifts it towards the side with the larger number of molecules.",
+    "explanation": [
+      "The pressure of a gas is caused by its molecules colliding with the walls of the container. In a fixed volume at a fixed temperature, the more molecules of gas there are, the higher the pressure. This means that a reaction which changes the number of gas molecules also changes the pressure.",
+      "Using Le Chatelier's principle, if the pressure of a gaseous system at equilibrium is increased, the system responds to counteract the change by reducing the pressure. It does this by shifting the position of equilibrium towards the side with fewer molecules. If the pressure is decreased, the system responds by increasing the pressure, so the position shifts towards the side with more molecules.",
+      "To decide which side has fewer molecules, add up the balancing numbers of the gas molecules on each side of the symbol equation. For the Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), there are 1 + 3 = 4 molecules on the left and 2 on the right. Increasing the pressure shifts the position to the right, so the yield of ammonia increases. Decreasing the pressure shifts it to the left.",
+      "If there are the same number of gas molecules on each side, changing the pressure has no effect on the position of equilibrium. For example, in H₂(g) + I₂(g) ⇌ 2HI(g) there are 2 molecules on each side, so neither side reduces the pressure. Pressure also only matters for reactions involving gases.",
+      "You may be asked to interpret data. If the yield of product increases as the pressure increases, the product side must have fewer gas molecules. In industry, high pressures give higher yields for reactions such as the Haber process, but very high pressures need expensive, strong equipment, use a lot of energy for compressing gases and increase safety risks, so a compromise pressure (about 200 atmospheres for the Haber process) is used."
+    ],
+    "keyFacts": [
+      "Pressure changes only affect equilibria involving gases.",
+      "Increasing pressure shifts the position towards the side with fewer molecules of gas.",
+      "Decreasing pressure shifts the position towards the side with more molecules of gas.",
+      "Count molecules using the balancing numbers in the symbol equation.",
+      "N₂ + 3H₂ ⇌ 2NH₃: 4 molecules on the left, 2 on the right, so high pressure increases the yield of ammonia.",
+      "2SO₂ + O₂ ⇌ 2SO₃: 3 molecules on the left, 2 on the right, so high pressure increases the yield of SO₃.",
+      "H₂ + I₂ ⇌ 2HI: 2 molecules on each side, so pressure has no effect on the position.",
+      "N₂O₄ ⇌ 2NO₂: decreasing pressure gives more NO₂ (more molecules).",
+      "Fewer gas molecules in the same volume means a lower pressure, which counteracts an increase in pressure.",
+      "Very high pressures are expensive and hazardous, so industry uses a compromise pressure."
+    ],
+    "keyTerms": [
+      {
+        "term": "Gas pressure",
+        "definition": "The force per unit area caused by gas molecules colliding with the walls of a container; more molecules in the same volume gives a higher pressure."
+      },
+      {
+        "term": "Number of molecules",
+        "definition": "The total of the balancing numbers in front of the gas formulae on one side of a symbol equation."
+      },
+      {
+        "term": "Le Chatelier's principle",
+        "definition": "If a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change."
+      },
+      {
+        "term": "Position of equilibrium",
+        "definition": "The relative amounts of reactants and products in the equilibrium mixture; it shifts right towards products or left towards reactants."
+      },
+      {
+        "term": "Gaseous reaction",
+        "definition": "A reaction in which the reactants and products are gases, shown by the state symbol (g)."
+      },
+      {
+        "term": "Compromise pressure",
+        "definition": "A pressure chosen to balance a good yield against the cost and safety of very high pressure equipment."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Counting molecules and predicting",
+        "question": "Sulfur dioxide reacts with oxygen: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). Predict the effect of increasing the pressure on the yield of sulfur trioxide.",
+        "steps": [
+          "Count molecules on the left: 2 + 1 = 3.",
+          "Count molecules on the right: 2.",
+          "Increasing pressure shifts the position towards the side with fewer molecules: the right.",
+          "More sulfur trioxide forms."
+        ],
+        "answer": "The yield of SO₃ increases."
+      },
+      {
+        "title": "When pressure has no effect",
+        "question": "Predict the effect of increasing the pressure on H₂(g) + I₂(g) ⇌ 2HI(g).",
+        "steps": [
+          "Left: 1 + 1 = 2 molecules. Right: 2 molecules.",
+          "Both sides have the same number of molecules, so shifting the position cannot reduce the pressure."
+        ],
+        "answer": "No effect on the position of equilibrium (the amount of HI is unchanged)."
+      },
+      {
+        "title": "Moles of gas at equilibrium",
+        "question": "A closed vessel starts with 1.0 mol of N₂ and 3.0 mol of H₂. At equilibrium 0.40 mol of N₂ has reacted. Calculate the total number of moles of gas at equilibrium.",
+        "steps": [
+          "N₂ left = 1.0 − 0.40 = 0.60 mol.",
+          "H₂ used = 3 × 0.40 = 1.20 mol, so H₂ left = 3.0 − 1.20 = 1.80 mol.",
+          "NH₃ formed = 2 × 0.40 = 0.80 mol.",
+          "Total = 0.60 + 1.80 + 0.80 = 3.20 mol (fewer than the 4.0 mol at the start)."
+        ],
+        "answer": "3.20 mol of gas."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Counting gas molecules in the Haber process",
+        "caption": "Four molecules of gas (one nitrogen and three hydrogen) form two molecules of ammonia. Increasing the pressure shifts the equilibrium towards the side with fewer molecules, giving more ammonia.",
+        "svg": "<svg viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"pe1\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><rect x=\"20\" y=\"40\" width=\"160\" height=\"120\" rx=\"6\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"50\" cy=\"70\" r=\"11\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"67.6\" cy=\"70\" r=\"11\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"75\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"129.6\" cy=\"75\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"45\" cy=\"125\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"54.6\" cy=\"125\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"130\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"129.6\" cy=\"130\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"280\" y=\"40\" width=\"160\" height=\"120\" rx=\"6\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"85\" r=\"11\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"312\" cy=\"94\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"338\" cy=\"94\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"70\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"395\" cy=\"125\" r=\"11\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"382\" cy=\"134\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"408\" cy=\"134\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"395\" cy=\"110\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"100\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">N₂ + 3H₂</text><text x=\"82\" y=\"74\" font-size=\"12\" fill=\"currentColor\">N₂</text><text x=\"140\" y=\"79\" font-size=\"12\" fill=\"currentColor\">H₂</text><text x=\"342\" y=\"80\" font-size=\"12\" fill=\"currentColor\">NH₃</text><text x=\"360\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">2NH₃</text><text x=\"230\" y=\"104\" font-size=\"22\" fill=\"currentColor\" text-anchor=\"middle\">⇌</text><text x=\"100\" y=\"180\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4 molecules of gas</text><text x=\"360\" y=\"180\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2 molecules of gas</text><line x1=\"140\" y1=\"205\" x2=\"320\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#pe1)\"/><line x1=\"320\" y1=\"232\" x2=\"140\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#pe1)\"/><text x=\"230\" y=\"200\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">increase pressure</text><text x=\"230\" y=\"227\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">decrease pressure</text><text x=\"330\" y=\"210\" font-size=\"12\" fill=\"currentColor\">fewer molecules</text><text x=\"130\" y=\"237\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">more molecules</text></svg>"
+      },
+      {
+        "title": "Effect of pressure on the yield of ammonia",
+        "caption": "At both temperatures the equilibrium yield of ammonia increases with pressure, because the product side has fewer gas molecules. The yield is lower at the higher temperature because the forward reaction is exothermic.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"pe2\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#pe2)\"/><line x1=\"60\" y1=\"220\" x2=\"445\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#pe2)\"/><line x1=\"180.0\" y1=\"220\" x2=\"180.0\" y2=\"225\" stroke=\"currentColor\"/><text x=\"180.0\" y=\"237\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><line x1=\"300.0\" y1=\"220\" x2=\"300.0\" y2=\"225\" stroke=\"currentColor\"/><text x=\"300.0\" y=\"237\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">200</text><line x1=\"420.0\" y1=\"220\" x2=\"420.0\" y2=\"225\" stroke=\"currentColor\"/><text x=\"420.0\" y=\"237\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">300</text><line x1=\"55\" y1=\"162.9\" x2=\"60\" y2=\"162.9\" stroke=\"currentColor\"/><text x=\"52\" y=\"166.85714285714286\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"55\" y1=\"105.7\" x2=\"60\" y2=\"105.7\" stroke=\"currentColor\"/><text x=\"52\" y=\"109.71428571428571\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"55\" y1=\"48.6\" x2=\"60\" y2=\"48.6\" stroke=\"currentColor\"/><text x=\"52\" y=\"52.571428571428584\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"16\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 120)\">Yield of ammonia (%)</text><text x=\"250\" y=\"254\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Pressure (atm)</text><polyline points=\"60.0,220.0 180.0,105.7 300.0,68.6 420.0,42.9\" fill=\"none\" stroke=\"#c4b5fd\" stroke-width=\"3\"/><circle cx=\"180.0\" cy=\"105.7\" r=\"3\" fill=\"currentColor\"/><circle cx=\"300.0\" cy=\"68.6\" r=\"3\" fill=\"currentColor\"/><circle cx=\"420.0\" cy=\"42.9\" r=\"3\" fill=\"currentColor\"/><polyline points=\"60.0,220.0 180.0,174.3 300.0,140.0 420.0,117.1\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"3\" stroke-dasharray=\"7 4\"/><circle cx=\"180.0\" cy=\"174.3\" r=\"3\" fill=\"currentColor\"/><circle cx=\"300.0\" cy=\"140.0\" r=\"3\" fill=\"currentColor\"/><circle cx=\"420.0\" cy=\"117.1\" r=\"3\" fill=\"currentColor\"/><text x=\"330\" y=\"35\" font-size=\"12\" fill=\"currentColor\">350 °C</text><text x=\"330\" y=\"105\" font-size=\"12\" fill=\"currentColor\">450 °C</text><text x=\"80\" y=\"30\" font-size=\"12\" fill=\"currentColor\">N₂ + 3H₂ ⇌ 2NH₃</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think increasing the pressure always increases the yield of products.",
+        "right": "In fact it shifts the position towards the side with fewer gas molecules, which might be the reactant side, or have no effect if both sides are equal."
+      },
+      {
+        "wrong": "Students often count atoms instead of molecules when predicting the effect of pressure.",
+        "right": "In fact you must count molecules using the balancing numbers: N₂ + 3H₂ is 4 molecules, not 8 atoms."
+      },
+      {
+        "wrong": "Students often think pressure affects reactions in solution in the same way.",
+        "right": "In fact the pressure rule applies to gaseous reactions at equilibrium."
+      },
+      {
+        "wrong": "Students often think higher pressure shifts the equilibrium because the reaction goes faster.",
+        "right": "In fact higher pressure speeds up both reactions; the shift happens because fewer molecules reduce the pressure, counteracting the change."
+      }
+    ],
+    "realWorld": [
+      "The Haber process uses about 200 atmospheres: higher pressure increases the yield of ammonia, but even higher pressures would make the plant too expensive and dangerous.",
+      "The Contact process (2SO₂ + O₂ ⇌ 2SO₃) only needs a pressure slightly above atmospheric, because the equilibrium yield is already very high.",
+      "Methanol is manufactured from CO and H₂ (3 molecules forming 1) at high pressure to increase the yield."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "All of this subtopic is Higher tier only: predicting and explaining the effect of pressure changes on gaseous equilibria, and interpreting data."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write down the number of gas molecules on each side before you predict anything: it earns credit and avoids mistakes.",
+      "Use the phrase 'shifts towards the side with fewer molecules' (or more molecules) and then say which side that is.",
+      "If both sides have the same number of molecules, say that pressure has no effect on the position of equilibrium.",
+      "In evaluation questions, balance higher yield against the cost, energy and safety of high pressure."
+    ],
+    "summary": [
+      "Pressure affects the position of equilibrium in gaseous reactions.",
+      "Increasing pressure: shift towards fewer molecules.",
+      "Decreasing pressure: shift towards more molecules.",
+      "Count molecules using balancing numbers.",
+      "Equal numbers of molecules on each side: no effect.",
+      "High pressure increases the yield of ammonia in the Haber process."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Effect of increasing pressure on a gaseous equilibrium?",
+      "back": "Position shifts towards the side with fewer molecules."
+    },
+    {
+      "front": "Effect of decreasing pressure on a gaseous equilibrium?",
+      "back": "Position shifts towards the side with more molecules."
+    },
+    {
+      "front": "How do you count molecules for pressure questions?",
+      "back": "Add the balancing numbers of the gas molecules on each side of the symbol equation."
+    },
+    {
+      "front": "N₂ + 3H₂ ⇌ 2NH₃: molecules on each side?",
+      "back": "4 on the left, 2 on the right."
+    },
+    {
+      "front": "Effect of increasing pressure on the yield of ammonia?",
+      "back": "Yield increases (shift to the side with 2 molecules)."
+    },
+    {
+      "front": "H₂ + I₂ ⇌ 2HI: effect of pressure?",
+      "back": "None: 2 molecules on each side."
+    },
+    {
+      "front": "N₂O₄ ⇌ 2NO₂: effect of decreasing pressure?",
+      "back": "More NO₂ forms (side with more molecules)."
+    },
+    {
+      "front": "Why does a shift to fewer molecules counteract a pressure increase?",
+      "back": "Fewer gas molecules in the same volume produce a lower pressure."
+    },
+    {
+      "front": "2SO₂ + O₂ ⇌ 2SO₃: molecules on each side?",
+      "back": "3 on the left, 2 on the right."
+    },
+    {
+      "front": "Yield increases with pressure. What does this show?",
+      "back": "The product side has fewer gas molecules."
+    },
+    {
+      "front": "Why are very high pressures not used industrially?",
+      "back": "Equipment is expensive, compressing gases uses a lot of energy, and there are safety risks."
+    },
+    {
+      "front": "Which reactions are affected by pressure changes?",
+      "back": "Reactions involving gases (with different numbers of gas molecules on each side)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c6-pressure-and-equilibrium-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The pressure on a gaseous system at equilibrium is increased. Which way does the position of equilibrium shift?",
+      "markScheme": [
+        "1 mark: towards the side with fewer molecules"
+      ],
+      "explanation": "Fewer gas molecules produce a lower pressure, so this shift counteracts the increase.",
+      "options": [
+        "Towards the side with fewer molecules",
+        "Towards the side with more molecules",
+        "Always towards the products",
+        "It does not shift"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The pressure on a gaseous system at equilibrium is decreased. Which way does the position of equilibrium shift?",
+      "markScheme": [
+        "1 mark: towards the side with more molecules"
+      ],
+      "explanation": "More gas molecules produce a higher pressure, counteracting the decrease.",
+      "options": [
+        "Towards the side with fewer molecules",
+        "Always towards the reactants",
+        "Towards the side with more molecules",
+        "Towards the exothermic direction"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Changing the pressure can change the position of equilibrium for reactions involving which state of matter?",
+      "markScheme": [
+        "1 mark: gases"
+      ],
+      "explanation": "The pressure rule applies to gaseous reactions, where the number of gas molecules affects the pressure.",
+      "options": [
+        "Solids",
+        "Gases",
+        "Liquids",
+        "Aqueous solutions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In the Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g). What is the effect of increasing the pressure on the yield of ammonia?",
+      "markScheme": [
+        "1 mark: it increases"
+      ],
+      "explanation": "There are 4 molecules on the left and 2 on the right. Increasing the pressure shifts the position to the right, the side with fewer molecules.",
+      "options": [
+        "It decreases",
+        "It stays the same",
+        "It decreases then increases",
+        "It increases"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Hydrogen and iodine react: H₂(g) + I₂(g) ⇌ 2HI(g). What is the effect of increasing the pressure on the position of equilibrium?",
+      "markScheme": [
+        "1 mark: no effect"
+      ],
+      "explanation": "There are 2 molecules on each side, so a shift in either direction would not change the pressure.",
+      "options": [
+        "It shifts to the right",
+        "It has no effect",
+        "It shifts to the left",
+        "It makes the reaction exothermic"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Dinitrogen tetroxide decomposes: N₂O₄(g) ⇌ 2NO₂(g). The pressure is decreased. What happens?",
+      "markScheme": [
+        "1 mark: more NO₂ forms"
+      ],
+      "explanation": "Decreasing pressure shifts the position towards the side with more molecules: 2 NO₂ compared with 1 N₂O₄.",
+      "options": [
+        "More NO₂ forms",
+        "More N₂O₄ forms",
+        "Nothing happens",
+        "All of the NO₂ turns into N₂O₄"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "For which reaction would increasing the pressure increase the yield of the product?",
+      "markScheme": [
+        "1 mark: CO(g) + 2H₂(g) ⇌ CH₃OH(g)"
+      ],
+      "explanation": "This has 3 molecules on the left and 1 on the right, so high pressure shifts it right. The first has equal numbers; the other two have more molecules on the product side.",
+      "options": [
+        "H₂(g) + Cl₂(g) ⇌ 2HCl(g)",
+        "N₂O₄(g) ⇌ 2NO₂(g)",
+        "CO(g) + 2H₂(g) ⇌ CH₃OH(g)",
+        "CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Hydrogen is made by CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g). What is the effect of increasing the pressure on the equilibrium yield of hydrogen?",
+      "markScheme": [
+        "1 mark: it decreases; position shifts left"
+      ],
+      "explanation": "There are 2 molecules on the left and 4 on the right. Increasing pressure favours the side with fewer molecules, which is the left, so less hydrogen is present.",
+      "options": [
+        "It increases, because there are more molecules on the right",
+        "It is unchanged",
+        "It increases, because the reaction goes faster",
+        "It decreases, because the position shifts to the left (2 molecules) from the right (4 molecules)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why does increasing the pressure on a gas equilibrium shift the position towards the side with fewer molecules?",
+      "markScheme": [
+        "1 mark: fewer molecules give a lower pressure, counteracting the change"
+      ],
+      "explanation": "Le Chatelier's principle: the system responds to reduce the pressure, and fewer molecules collide with the walls less often.",
+      "options": [
+        "Fewer molecules in the same volume produce a lower pressure, counteracting the change",
+        "Smaller molecules move faster",
+        "Fewer molecules take in more energy",
+        "The forward reaction is always exothermic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "For a gaseous reaction, the equilibrium yield of product increases as the pressure increases. What can you conclude?",
+      "markScheme": [
+        "1 mark: the product side has fewer molecules"
+      ],
+      "explanation": "Increasing pressure shifts the position towards fewer molecules. Since more product forms, the product side must have fewer molecules. Pressure data tell you nothing about the energy change.",
+      "options": [
+        "The forward reaction is endothermic",
+        "The product side has more molecules of gas",
+        "The product side has fewer molecules of gas",
+        "The two sides have equal numbers of molecules"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Higher pressures give a higher yield of ammonia, but the Haber process uses about 200 atmospheres rather than 1000 atmospheres. What is the main reason?",
+      "markScheme": [
+        "1 mark: expensive equipment, energy cost and safety"
+      ],
+      "explanation": "The yield would keep increasing with pressure, but the cost and danger of very high pressure outweigh the extra yield, so a compromise is used.",
+      "options": [
+        "The yield would fall above 200 atmospheres",
+        "Very high pressure needs expensive, strong equipment, uses more energy and is more dangerous",
+        "Ammonia cannot exist above 200 atmospheres",
+        "The catalyst only works at 200 atmospheres"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Methanol is made by the reaction CO(g) + 2H₂(g) ⇌ CH₃OH(g).\nHow many molecules of gas are shown on the left-hand side of the equation?",
+      "markScheme": [
+        "1 mark: 3"
+      ],
+      "explanation": "1 CO + 2 H₂ = 3 molecules, compared with 1 molecule of CH₃OH on the right.",
+      "numericAnswer": 3,
+      "tolerance": 0,
+      "unit": ""
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Hydrogen is made by the reaction CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g).\nHow many molecules of gas are shown on the right-hand side of the equation?",
+      "markScheme": [
+        "1 mark: 4"
+      ],
+      "explanation": "1 CO + 3 H₂ = 4 molecules, compared with 2 on the left. High pressure would therefore lower the yield of hydrogen.",
+      "numericAnswer": 4,
+      "tolerance": 0,
+      "unit": ""
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "At 450 °C, the equilibrium yield of ammonia is 16% at 100 atm and 36% at 300 atm.\nBy how many percentage points does the yield increase?",
+      "markScheme": [
+        "1 mark: 36 − 16 = 20"
+      ],
+      "explanation": "36 − 16 = 20 percentage points. The yield increases with pressure because the product side has fewer molecules.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "percentage points"
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "At 450 °C and 300 atm the equilibrium yield of ammonia is 36%. The maximum possible mass of ammonia from a batch is 500 kg.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "markScheme": [
+        "1 mark: 36 ÷ 100 × 500",
+        "1 mark: 180 kg"
+      ],
+      "explanation": "Mass = 0.36 × 500 = 180 kg. Check: 180 ÷ 500 = 0.36.",
+      "numericAnswer": 180,
+      "tolerance": 0.01,
+      "unit": "kg"
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A sealed vessel initially contains 1.0 mol of N₂ and 3.0 mol of H₂. They react: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). At equilibrium, 0.40 mol of N₂ has reacted.\nCalculate the total number of moles of gas in the vessel at equilibrium.",
+      "markScheme": [
+        "1 mark: N₂ = 0.60 mol and H₂ = 3.0 − 1.20 = 1.80 mol",
+        "1 mark: NH₃ = 2 × 0.40 = 0.80 mol",
+        "1 mark: total = 3.20 mol"
+      ],
+      "explanation": "0.60 + 1.80 + 0.80 = 3.20 mol. The total has fallen from 4.0 mol because 4 molecules of reactant form 2 of product, which is why high pressure favours ammonia. Check: the fall is 2 × 0.40 = 0.80 mol, and 4.0 − 0.80 = 3.20 mol.",
+      "numericAnswer": 3.2,
+      "tolerance": 0.01,
+      "unit": "mol"
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the effect of increasing the pressure on the position of a gaseous equilibrium, and what you must look at in the equation to predict it.",
+      "markScheme": [
+        "1 mark: shifts towards the side with fewer molecules (of gas)",
+        "1 mark: the number of molecules on each side of the (balanced symbol) equation"
+      ],
+      "explanation": "Count molecules using the balancing numbers, then apply the rule.",
+      "acceptedAnswers": [
+        "side with fewer molecules",
+        "number of molecules",
+        "balancing numbers"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Explain why changing the pressure has no effect on the position of equilibrium for H₂(g) + Cl₂(g) ⇌ 2HCl(g).",
+      "markScheme": [
+        "1 mark: there are the same number of molecules (2) on each side"
+      ],
+      "explanation": "If both sides have the same number of gas molecules, a shift cannot change the pressure, so the position is unaffected.",
+      "acceptedAnswers": [
+        "same number of molecules on each side",
+        "2 on each side"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Sulfur trioxide is made by 2SO₂(g) + O₂(g) ⇌ 2SO₃(g).\nPredict the effect of increasing the pressure on the yield of SO₃. Explain your answer.",
+      "markScheme": [
+        "1 mark: yield increases (position shifts right)",
+        "1 mark: 3 molecules on the left and 2 on the right, so the right has fewer molecules"
+      ],
+      "explanation": "Increasing pressure favours the side with fewer gas molecules.",
+      "acceptedAnswers": [
+        "increases",
+        "3 molecules on left",
+        "2 on right",
+        "fewer molecules"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Nitrogen monoxide reacts with oxygen: 2NO(g) + O₂(g) ⇌ 2NO₂(g).\nPredict the effect of decreasing the pressure on the amount of NO₂ at equilibrium. Explain your answer.",
+      "markScheme": [
+        "1 mark: amount of NO₂ decreases (position shifts left)",
+        "1 mark: decreasing pressure favours the side with more molecules: 3 on the left, 2 on the right"
+      ],
+      "explanation": "The left-hand side has more gas molecules, so a lower pressure favours the reactants.",
+      "acceptedAnswers": [
+        "decreases",
+        "shifts left",
+        "more molecules on left"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Methanol is made by CO(g) + 2H₂(g) ⇌ CH₃OH(g). Suggest why a high pressure is used, and explain your answer.",
+      "markScheme": [
+        "1 mark: high pressure increases the yield of methanol",
+        "1 mark: 3 molecules on the left form 1 on the right, so high pressure shifts the position to the side with fewer molecules"
+      ],
+      "explanation": "High pressure also increases the rate, but the question focuses on the equilibrium yield.",
+      "acceptedAnswers": [
+        "increase yield",
+        "3 molecules to 1",
+        "fewer molecules on the right"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Use Le Chatelier's principle to explain why increasing the pressure increases the equilibrium yield of ammonia in the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+      "markScheme": [
+        "1 mark: the system responds to counteract the increase in pressure (by reducing the pressure)",
+        "1 mark: there are 4 molecules on the left and 2 on the right",
+        "1 mark: position shifts right, to the side with fewer molecules, so more ammonia"
+      ],
+      "explanation": "Fewer molecules exert a lower pressure, so the system shifts to the ammonia side.",
+      "acceptedAnswers": [
+        "counteract",
+        "reduce pressure",
+        "4 molecules",
+        "2 molecules",
+        "shifts right"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'Increasing the pressure always increases the yield of a reaction involving gases.'\nUse an example to explain why the student is wrong.",
+      "markScheme": [
+        "1 mark: increasing pressure shifts the position towards the side with fewer molecules, which may be the reactant side (or no effect if equal)",
+        "1 mark: a correct example, for example N₂O₄ ⇌ 2NO₂ (yield of NO₂ decreases) or H₂ + I₂ ⇌ 2HI (no effect)"
+      ],
+      "explanation": "The effect depends on the numbers of gas molecules on each side, not on the reaction simply involving gases.",
+      "acceptedAnswers": [
+        "side with fewer molecules",
+        "CH₄ + H₂O ⇌ CO + 3H₂",
+        "N₂O₄ ⇌ 2NO₂",
+        "H₂ + I₂ ⇌ 2HI",
+        "no effect if equal"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Suggest one disadvantage of using a very high pressure in an industrial process.",
+      "markScheme": [
+        "1 mark: any one from: expensive (strong) equipment / large energy cost of compressing gases / greater safety risk"
+      ],
+      "explanation": "These costs and risks are why industrial processes use a compromise pressure.",
+      "acceptedAnswers": [
+        "expensive equipment",
+        "energy cost",
+        "safety",
+        "risk of explosion"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "For a reaction X(g) ⇌ 2Y(g), the percentage of Y at equilibrium is 70% at 1 atm and 30% at 10 atm (same temperature).\nExplain how the data agree with the effect of pressure on equilibrium.",
+      "markScheme": [
+        "1 mark: the right has more molecules (2) than the left (1)",
+        "1 mark: so higher pressure shifts the position left, towards fewer molecules, so less Y (70% falls to 30%)"
+      ],
+      "explanation": "The data show less product at higher pressure, as expected when the product side has more molecules.",
+      "acceptedAnswers": [
+        "more molecules on the right",
+        "higher pressure shifts left",
+        "fewer molecules"
+      ]
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A gas syringe contains an equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide:\n2NO₂(g) ⇌ N₂O₄(g)\nThe plunger is pushed in quickly, increasing the pressure. The mixture first looks darker, then becomes paler.\nExplain these observations.",
+      "markScheme": [
+        "Indicative content: pushing the plunger in reduces the volume, so all gases are more concentrated; the brown colour first looks darker because there is more NO₂ per unit volume; the system is no longer at equilibrium; Le Chatelier: the system responds to counteract the increase in pressure; the left has 2 molecules and the right has 1 molecule; the position shifts towards the side with fewer molecules, the right; more colourless N₂O₄ forms and NO₂ is used up; so the colour becomes paler; a new equilibrium is reached.",
+        "Level 2 (3 to 4 marks): explains both the initial darkening and the later paling, with the shift linked to numbers of molecules and Le Chatelier's principle.",
+        "Level 1 (1 to 2 marks): states that the equilibrium shifts or that more N₂O₄ forms, with little explanation."
+      ],
+      "explanation": "The first darkening is just compression. The paling is the equilibrium shift towards fewer molecules."
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Predict and explain the effect of increasing the pressure on the equilibrium yield of the product in each of these reactions:\nA: N₂(g) + O₂(g) ⇌ 2NO(g)\nB: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)\nC: N₂O₄(g) ⇌ 2NO₂(g)",
+      "markScheme": [
+        "Indicative content: A: 2 molecules on each side, so pressure has no effect on the yield of NO; B: 3 molecules on the left, 2 on the right; increasing pressure shifts the position to the right, side with fewer molecules, so the yield of SO₃ increases; C: 1 molecule on the left, 2 on the right; increasing pressure shifts the position to the left, so the yield of NO₂ decreases; in each case the system responds to counteract the increase in pressure.",
+        "Level 2 (3 to 4 marks): correct predictions for all three reactions with molecule counts.",
+        "Level 1 (1 to 2 marks): correct prediction for one or two reactions, or predictions without molecule counts."
+      ],
+      "explanation": "Count molecules on each side for each reaction before predicting."
+    },
+    {
+      "id": "c6-pressure-and-equilibrium-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Ammonia is made by the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic.\nThe percentage yield of ammonia at equilibrium is:\n350 °C: 100 atm 40%; 200 atm 53%; 300 atm 62%\n450 °C: 100 atm 16%; 200 atm 28%; 300 atm 36%\nUse the data to explain the effect of pressure on the yield of ammonia, and evaluate the use of a pressure of 200 atm in industry.",
+      "markScheme": [
+        "Indicative content: at both temperatures the yield increases as pressure increases, for example at 450 °C from 16% at 100 atm to 36% at 300 atm; there are 4 molecules on the left and 2 on the right; Le Chatelier: increasing pressure makes the system counteract the change by reducing pressure; the position shifts to the side with fewer molecules, the right, so more ammonia; the trend is the same at both temperatures, but yields are lower at 450 °C because the forward reaction is exothermic; higher pressure also increases the rate because gas particles are closer together; evaluation: 300 atm gives a higher yield than 200 atm, but very high pressure requires thicker, more expensive pipes and vessels; compressing gases uses a lot of energy; there is a greater risk of leaks or explosions; 200 atm is a compromise between yield and cost and safety; unreacted gases are recycled so a lower yield per pass is acceptable.",
+        "Level 3 (5 to 6 marks): trend described with data, fully explained using molecule counts and Le Chatelier's principle, and a balanced evaluation of 200 atm with a conclusion.",
+        "Level 2 (3 to 4 marks): trend described and explained, with some reasons why higher pressures are not used.",
+        "Level 1 (1 to 2 marks): simple statements about pressure and yield, with little use of data or explanation."
+      ],
+      "explanation": "Use figures from the table, count gas molecules, and weigh the extra yield against cost and safety."
+    }
+  ]
+}

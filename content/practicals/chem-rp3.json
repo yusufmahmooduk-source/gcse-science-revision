@@ -28,9 +28,9 @@
     ]
   },
   "equipment": [
-    "100 cm³ beaker",
-    "Petri dish lid (or plastic lid) with two holes for the electrodes",
-    "Two graphite rod electrodes",
+    "Wash bottle of distilled water",
+    "Electrolysis cell: a small plastic container with two graphite rod electrodes fixed through a rubber bung in its base",
+    "Two graphite rod electrodes (fitted in the cell)",
     "Low-voltage d.c. power supply (set to 4 V)",
     "Two crocodile clips and connecting leads",
     "Two small test tubes (to collect gases)",
@@ -41,14 +41,14 @@
     "Eye protection"
   ],
   "method": [
-    "Pour about 50 cm³ of copper(II) chloride solution into a beaker.",
-    "Push the two graphite rods through the holes in the lid and place the lid on the beaker so that the rods dip into the solution but do not touch each other.",
-    "Fill two small test tubes with the solution and turn each one upside down over an electrode so that gas given off will collect in the tube.",
+    "Pour about 50 cm³ of copper(II) chloride solution into the electrolysis cell so that both graphite electrodes are well covered. Check that the electrodes do not touch each other.",
+    "Fill two small test tubes completely with the same solution. Put your thumb over the end, turn each one upside down under the surface of the solution, and place it over an electrode so that any gas given off collects in the tube.",
+    "Use leads (and crocodile clips if needed) to connect the electrodes to a low-voltage d.c. power supply. Label which electrode is connected to the negative terminal (cathode) and which to the positive terminal (anode).",
     "Use crocodile clips and leads to connect the rods to the d.c. power supply. Label which rod is connected to the negative terminal (cathode) and which to the positive terminal (anode).",
     "Turn on the power supply at 4 V. Watch both electrodes and record what you see (bubbles, a coating, a colour change).",
     "Hold a piece of damp blue litmus paper near the top of the anode using forceps. If it turns red and then white (is bleached), chlorine is being produced.",
     "When a test tube is about half full of gas, test it. For a gas at the cathode, put a lighted splint near the mouth: a squeaky pop shows hydrogen. For a gas at the anode that does not bleach litmus, put in a glowing splint: if it relights, the gas is oxygen.",
-    "Turn off the power supply after about 5 minutes. Remove the cathode and look for any coating of metal (copper is pink-brown).",
+    "Turn off the power supply after about 5 minutes. Pour away the solution into a waste container and look at the cathode for any coating of metal (copper is pink-brown).",
     "Clean the electrodes (or use new ones) and repeat the experiment with sodium chloride solution, copper(II) sulfate solution and sodium sulfate solution.",
     "Record the product at each electrode for every solution in a results table."
   ],
@@ -75,12 +75,42 @@
     }
   ],
   "results": {
-    "headers": ["Solution", "Observation at cathode (−)", "Product at cathode", "Observation at anode (+)", "Product at anode"],
+    "headers": [
+      "Solution",
+      "Observation at cathode (−)",
+      "Product at cathode",
+      "Observation at anode (+)",
+      "Product at anode"
+    ],
     "rows": [
-      ["Copper(II) chloride, CuCl₂(aq)", "Pink-brown coating forms on the rod", "Copper", "Bubbles; damp blue litmus turns red then white", "Chlorine"],
-      ["Sodium chloride, NaCl(aq)", "Bubbles; gas burns with a squeaky pop", "Hydrogen", "Bubbles; damp blue litmus turns red then white", "Chlorine"],
-      ["Copper(II) sulfate, CuSO₄(aq)", "Pink-brown coating forms on the rod; blue colour of the solution fades slightly", "Copper", "Bubbles; gas relights a glowing splint", "Oxygen"],
-      ["Sodium sulfate, Na₂SO₄(aq)", "Bubbles; gas burns with a squeaky pop", "Hydrogen", "Bubbles; gas relights a glowing splint; about half the volume of gas at the cathode", "Oxygen"]
+      [
+        "Copper(II) chloride, CuCl₂(aq)",
+        "Pink-brown coating forms on the rod",
+        "Copper",
+        "Bubbles; damp blue litmus turns red then white",
+        "Chlorine"
+      ],
+      [
+        "Sodium chloride, NaCl(aq)",
+        "Bubbles; gas burns with a squeaky pop",
+        "Hydrogen",
+        "Bubbles; damp blue litmus turns red then white",
+        "Chlorine"
+      ],
+      [
+        "Copper(II) sulfate, CuSO₄(aq)",
+        "Pink-brown coating forms on the rod; blue colour of the solution fades slightly",
+        "Copper",
+        "Bubbles; gas relights a glowing splint",
+        "Oxygen"
+      ],
+      [
+        "Sodium sulfate, Na₂SO₄(aq)",
+        "Bubbles; gas burns with a squeaky pop",
+        "Hydrogen",
+        "Bubbles; gas relights a glowing splint; about half the volume of gas at the cathode",
+        "Oxygen"
+      ]
     ],
     "notes": "Use the reactivity series to explain the cathode product and the presence or absence of halide ions to explain the anode product. For sodium sulfate, the volume of hydrogen collected is about twice the volume of oxygen because water is being split into H₂ and O₂ in a 2 : 1 ratio."
   },
@@ -106,13 +136,13 @@
     },
     {
       "error": "Electrodes touching each other cause a short circuit and no electrolysis.",
-      "improvement": "Fix the rods firmly through a lid so they stay a fixed distance apart."
+      "improvement": "Use a cell with the rods fixed firmly through the base (or a lid) so they stay a fixed distance apart."
     }
   ],
   "diagram": {
     "title": "Electrolysis of an aqueous solution",
-    "caption": "Two graphite electrodes pass through a lid into the solution. Small test tubes full of solution are inverted over each electrode to collect gases. The cathode is connected to the negative terminal and the anode to the positive terminal of a low-voltage d.c. supply.",
-    "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M90 110 V270 H290 V110\"/><rect x=\"82\" y=\"104\" width=\"216\" height=\"8\"/><rect x=\"140\" y=\"20\" width=\"100\" height=\"40\" rx=\"4\"/><path d=\"M146 180 V115 M146 115 V60\"/><path d=\"M234 180 V60\"/><path d=\"M131 180 V240 a15 15 0 0 0 30 0 V180\" stroke-dasharray=\"0\"/><path d=\"M219 180 V240 a15 15 0 0 0 30 0 V180\"/></g><rect x=\"91\" y=\"140\" width=\"198\" height=\"129\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"141\" y=\"150\" width=\"10\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.6\"/><rect x=\"229\" y=\"150\" width=\"10\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.6\"/><rect x=\"141\" y=\"250\" width=\"10\" height=\"10\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><g fill=\"currentColor\" fill-opacity=\"0.5\"><circle cx=\"138\" cy=\"215\" r=\"2\"/><circle cx=\"154\" cy=\"200\" r=\"2\"/><circle cx=\"226\" cy=\"210\" r=\"2\"/><circle cx=\"242\" cy=\"195\" r=\"2\"/><circle cx=\"238\" cy=\"225\" r=\"2\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"152\" y=\"38\">d.c. supply</text><text x=\"152\" y=\"53\">−  4 V  +</text><text x=\"10\" y=\"170\">Cathode (−)</text><text x=\"10\" y=\"185\">graphite rod</text><text x=\"310\" y=\"170\">Anode (+)</text><text x=\"310\" y=\"185\">graphite rod</text><text x=\"310\" y=\"100\">Lid</text><text x=\"310\" y=\"230\">Electrolyte, e.g.</text><text x=\"310\" y=\"245\">CuCl₂(aq)</text><text x=\"310\" y=\"130\">Test tube to</text><text x=\"310\" y=\"145\">collect gas</text><text x=\"10\" y=\"262\">Coating of</text><text x=\"10\" y=\"277\">copper</text></g><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"88\" y1=\"178\" x2=\"140\" y2=\"178\"/><line x1=\"240\" y1=\"178\" x2=\"306\" y2=\"178\"/><line x1=\"298\" y1=\"104\" x2=\"306\" y2=\"98\"/><line x1=\"249\" y1=\"185\" x2=\"306\" y2=\"140\"/><line x1=\"289\" y1=\"235\" x2=\"306\" y2=\"235\"/><line x1=\"60\" y1=\"262\" x2=\"140\" y2=\"255\"/></g></svg>"
+    "caption": "Two graphite electrodes are fixed through the base of the cell and covered by the electrolyte. A test tube full of solution is inverted over each electrode to collect any gas. The cathode is connected to the negative terminal and the anode to the positive terminal of a low-voltage d.c. supply.",
+    "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"91\" y=\"80\" width=\"198\" height=\"159\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M129 140 V122 a17 17 0 0 1 34 0 V140 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><path d=\"M217 140 V122 a17 17 0 0 1 34 0 V140 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M90 60 V240 H290 V60\"/><path d=\"M128 225 V122 a18 18 0 0 1 36 0 V225\"/><path d=\"M216 225 V122 a18 18 0 0 1 36 0 V225\"/><path d=\"M146 250 V280 H170\"/><path d=\"M234 250 V280 H230\"/><rect x=\"170\" y=\"266\" width=\"60\" height=\"28\" rx=\"3\"/></g><rect x=\"141\" y=\"150\" width=\"10\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.6\"/><rect x=\"229\" y=\"150\" width=\"10\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.6\"/><rect x=\"139\" y=\"150\" width=\"14\" height=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\" stroke-width=\"0.8\"/><g fill=\"currentColor\" fill-opacity=\"0.5\"><circle cx=\"234\" cy=\"170\" r=\"2\"/><circle cx=\"238\" cy=\"158\" r=\"2\"/><circle cx=\"231\" cy=\"146\" r=\"2\"/></g><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"80\" y1=\"190\" x2=\"140\" y2=\"190\"/><line x1=\"240\" y1=\"190\" x2=\"320\" y2=\"190\"/><line x1=\"252\" y1=\"130\" x2=\"320\" y2=\"120\"/><line x1=\"290\" y1=\"225\" x2=\"320\" y2=\"225\"/><line x1=\"70\" y1=\"150\" x2=\"138\" y2=\"154\"/><line x1=\"128\" y1=\"130\" x2=\"70\" y2=\"110\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"10\" y=\"186\">Cathode (−)</text><text x=\"10\" y=\"201\">graphite</text><text x=\"324\" y=\"186\">Anode (+)</text><text x=\"324\" y=\"201\">graphite</text><text x=\"324\" y=\"116\">Gas collects</text><text x=\"324\" y=\"131\">in test tube</text><text x=\"324\" y=\"221\">Electrolyte,</text><text x=\"324\" y=\"236\">e.g. CuCl₂(aq)</text><text x=\"10\" y=\"146\">Copper</text><text x=\"10\" y=\"160\">coating</text><text x=\"10\" y=\"100\">Inverted</text><text x=\"10\" y=\"114\">test tube</text><text x=\"176\" y=\"284\">d.c. 4 V</text><text x=\"134\" y=\"298\">−</text><text x=\"240\" y=\"298\">+</text></g></svg>"
   },
   "examTips": [
     "Learn the two rules. Cathode: metal if less reactive than hydrogen, otherwise hydrogen. Anode: halogen if a halide is present, otherwise oxygen.",
@@ -129,9 +159,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "What is the name of the negative electrode in electrolysis?",
-      "options": ["Anode", "Electrolyte", "Cathode", "Terminal"],
+      "options": [
+        "Anode",
+        "Electrolyte",
+        "Cathode",
+        "Terminal"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: cathode"],
+      "markScheme": [
+        "1 mark: cathode"
+      ],
       "explanation": "The cathode is the negative electrode and attracts positive ions. The anode is the positive electrode. The electrolyte is the liquid or solution that conducts."
     },
     {
@@ -141,9 +178,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which product forms at the cathode when copper(II) sulfate solution is electrolysed with graphite electrodes?",
-      "options": ["Copper", "Hydrogen", "Oxygen", "Sulfur"],
+      "options": [
+        "Copper",
+        "Hydrogen",
+        "Oxygen",
+        "Sulfur"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: copper"],
+      "markScheme": [
+        "1 mark: copper"
+      ],
       "explanation": "Copper is less reactive than hydrogen, so copper ions are discharged at the cathode as a pink-brown coating. Oxygen forms at the anode, not the cathode."
     },
     {
@@ -153,8 +197,15 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Describe the test for chlorine gas and give the positive result.",
-      "acceptedAnswers": ["damp litmus paper", "bleached", "turns white"],
-      "markScheme": ["1 mark: hold damp (blue) litmus paper in the gas", "1 mark: the litmus paper is bleached / turns white"],
+      "acceptedAnswers": [
+        "damp litmus paper",
+        "bleached",
+        "turns white"
+      ],
+      "markScheme": [
+        "1 mark: hold damp (blue) litmus paper in the gas",
+        "1 mark: the litmus paper is bleached / turns white"
+      ],
       "explanation": "Chlorine bleaches damp litmus paper. Blue litmus may turn red first because chlorine forms an acidic solution, then turns white. The paper must be damp."
     },
     {
@@ -171,7 +222,9 @@
         "Cathode: hydrogen; anode: chlorine"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: cathode hydrogen and anode chlorine"],
+      "markScheme": [
+        "1 mark: cathode hydrogen and anode chlorine"
+      ],
       "explanation": "Sodium is more reactive than hydrogen, so hydrogen is produced at the cathode. Chloride ions are present, so chlorine is produced at the anode. Sodium is only produced when molten sodium chloride is electrolysed."
     },
     {
@@ -181,8 +234,15 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Explain why hydrogen, not sodium, is produced at the cathode when sodium sulfate solution is electrolysed.",
-      "acceptedAnswers": ["sodium is more reactive than hydrogen", "hydrogen ions from water", "H⁺ discharged instead"],
-      "markScheme": ["1 mark: sodium is more reactive than hydrogen", "1 mark: so hydrogen ions (from water) are discharged / gain electrons instead of sodium ions"],
+      "acceptedAnswers": [
+        "sodium is more reactive than hydrogen",
+        "hydrogen ions from water",
+        "H⁺ discharged instead"
+      ],
+      "markScheme": [
+        "1 mark: sodium is more reactive than hydrogen",
+        "1 mark: so hydrogen ions (from water) are discharged / gain electrons instead of sodium ions"
+      ],
       "explanation": "Water provides H⁺ ions. At the cathode, the ion of the less reactive element is discharged, and hydrogen is less reactive than sodium."
     },
     {
@@ -192,9 +252,16 @@
       "difficulty": 2,
       "marks": 1,
       "question": "Which gas is produced at the anode when copper(II) sulfate solution is electrolysed with inert electrodes?",
-      "options": ["Sulfur dioxide", "Oxygen", "Hydrogen", "Chlorine"],
+      "options": [
+        "Sulfur dioxide",
+        "Oxygen",
+        "Hydrogen",
+        "Chlorine"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: oxygen"],
+      "markScheme": [
+        "1 mark: oxygen"
+      ],
       "explanation": "There are no halide ions in copper sulfate solution, so hydroxide ions from water are discharged to form oxygen. Sulfate ions are not discharged."
     },
     {
@@ -204,8 +271,16 @@
       "difficulty": 1,
       "marks": 2,
       "question": "A gas collected at the anode relights a glowing splint. Name the gas and suggest a solution that could have been electrolysed to produce it.",
-      "acceptedAnswers": ["oxygen", "copper sulfate", "sodium sulfate", "any sulfate or nitrate solution"],
-      "markScheme": ["1 mark: oxygen", "1 mark: any solution without halide ions, for example copper(II) sulfate, sodium sulfate, or a nitrate solution"],
+      "acceptedAnswers": [
+        "oxygen",
+        "copper sulfate",
+        "sodium sulfate",
+        "any sulfate or nitrate solution"
+      ],
+      "markScheme": [
+        "1 mark: oxygen",
+        "1 mark: any solution without halide ions, for example copper(II) sulfate, sodium sulfate, or a nitrate solution"
+      ],
       "explanation": "Oxygen relights a glowing splint. It forms at the anode when the solution has no chloride, bromide or iodide ions."
     },
     {
@@ -215,8 +290,14 @@
       "difficulty": 2,
       "marks": 1,
       "question": "Explain why graphite is used for the electrodes in this practical.",
-      "acceptedAnswers": ["inert", "does not react", "conducts electricity"],
-      "markScheme": ["1 mark: graphite is inert / unreactive so it does not react with the electrolyte or products (and it conducts electricity)"],
+      "acceptedAnswers": [
+        "inert",
+        "does not react",
+        "conducts electricity"
+      ],
+      "markScheme": [
+        "1 mark: graphite is inert / unreactive so it does not react with the electrolyte or products (and it conducts electricity)"
+      ],
       "explanation": "Inert electrodes take no part in the reaction, so the products depend only on the ions in the solution. A reactive electrode, such as copper, would itself dissolve at the anode."
     },
     {
@@ -229,7 +310,9 @@
       "numericAnswer": 0.27,
       "tolerance": 0.01,
       "unit": "g",
-      "markScheme": ["1 mark: 5.89 − 5.62 = 0.27 g"],
+      "markScheme": [
+        "1 mark: 5.89 − 5.62 = 0.27 g"
+      ],
       "explanation": "The increase in mass of the cathode is the mass of copper deposited on it."
     },
     {
@@ -242,7 +325,10 @@
       "numericAnswer": 9,
       "tolerance": 0.01,
       "unit": "cm³",
-      "markScheme": ["1 mark: ratio H₂ : O₂ = 2 : 1", "1 mark: 18.0 ÷ 2 = 9.0 cm³"],
+      "markScheme": [
+        "1 mark: ratio H₂ : O₂ = 2 : 1",
+        "1 mark: 18.0 ÷ 2 = 9.0 cm³"
+      ],
       "explanation": "Equal volumes of gases contain equal numbers of molecules at the same temperature and pressure, so the volume ratio is the mole ratio, 2 : 1. In practice slightly less oxygen is collected because some dissolves."
     },
     {
@@ -259,7 +345,9 @@
         "SO₄²⁻ → SO₂ + O₂ + 2e⁻"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: 4OH⁻ → O₂ + 2H₂O + 4e⁻"],
+      "markScheme": [
+        "1 mark: 4OH⁻ → O₂ + 2H₂O + 4e⁻"
+      ],
       "explanation": "Hydroxide ions lose electrons (are oxidised) at the anode to form oxygen and water. 2H⁺ + 2e⁻ → H₂ happens at the cathode. Sulfate ions are not discharged."
     },
     {
@@ -269,8 +357,15 @@
       "difficulty": 3,
       "marks": 2,
       "question": "Write the half equation for the reaction at the cathode when copper(II) chloride solution is electrolysed, and state whether this is oxidation or reduction.",
-      "acceptedAnswers": ["Cu²⁺ + 2e⁻ → Cu", "reduction", "gain of electrons"],
-      "markScheme": ["1 mark: Cu²⁺ + 2e⁻ → Cu", "1 mark: reduction, because the copper ions gain electrons"],
+      "acceptedAnswers": [
+        "Cu²⁺ + 2e⁻ → Cu",
+        "reduction",
+        "gain of electrons"
+      ],
+      "markScheme": [
+        "1 mark: Cu²⁺ + 2e⁻ → Cu",
+        "1 mark: reduction, because the copper ions gain electrons"
+      ],
       "explanation": "OIL RIG: oxidation is loss, reduction is gain of electrons. Positive ions gain electrons at the cathode, so reduction always occurs at the cathode."
     },
     {
@@ -287,7 +382,9 @@
         "Colourless bubbles that burn with a squeaky pop"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: solution turns orange-brown (bromine is formed)"],
+      "markScheme": [
+        "1 mark: solution turns orange-brown (bromine is formed)"
+      ],
       "explanation": "Bromide ions are halide ions, so bromine forms at the anode and dissolves to give an orange-brown solution. Hydrogen, not potassium, forms at the cathode."
     },
     {
@@ -297,8 +394,18 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Give two safety precautions needed when electrolysing copper(II) chloride solution, and explain one of them.",
-      "acceptedAnswers": ["well ventilated", "fume cupboard", "chlorine is toxic", "eye protection", "low voltage", "short time"],
-      "markScheme": ["1 mark: any one precaution: work in a well-ventilated room or fume cupboard; run for only a short time; wear eye protection; use a low-voltage supply", "1 mark: matching explanation, for example because chlorine is a toxic gas / copper chloride is harmful and irritant"],
+      "acceptedAnswers": [
+        "well ventilated",
+        "fume cupboard",
+        "chlorine is toxic",
+        "eye protection",
+        "low voltage",
+        "short time"
+      ],
+      "markScheme": [
+        "1 mark: any one precaution: work in a well-ventilated room or fume cupboard; run for only a short time; wear eye protection; use a low-voltage supply",
+        "1 mark: matching explanation, for example because chlorine is a toxic gas / copper chloride is harmful and irritant"
+      ],
       "explanation": "The main hazard is the toxic chlorine produced at the anode, so it should not be allowed to build up in the room."
     },
     {
@@ -309,7 +416,7 @@
       "marks": 6,
       "question": "Describe how a student could electrolyse sodium chloride solution and identify the products at both electrodes.\nInclude the expected results and an explanation of them.",
       "markScheme": [
-        "Indicative content: pour sodium chloride solution into a beaker; use two inert graphite electrodes held apart through a lid; connect to a low-voltage d.c. supply; invert test tubes full of solution over each electrode to collect gases; switch on and observe bubbles at both electrodes; test gas at the cathode with a lighted splint: squeaky pop shows hydrogen; hold damp litmus near the anode: bleached shows chlorine; hydrogen forms because sodium is more reactive than hydrogen so H⁺ ions from water are discharged; chlorine forms because chloride (halide) ions are discharged at the anode; carry out in a well-ventilated room because chlorine is toxic",
+        "Indicative content: pour sodium chloride solution into an electrolysis cell or beaker; use two inert graphite electrodes held apart (fixed through the base or a lid); connect to a low-voltage d.c. supply; invert test tubes full of solution over each electrode to collect gases; switch on and observe bubbles at both electrodes; test gas at the cathode with a lighted splint: squeaky pop shows hydrogen; hold damp litmus near the anode: bleached shows chlorine; hydrogen forms because sodium is more reactive than hydrogen so H⁺ ions from water are discharged; chlorine forms because chloride (halide) ions are discharged at the anode; carry out in a well-ventilated room because chlorine is toxic",
         "Level 3 (5 to 6 marks): a coherent method with correct apparatus and gas collection, both correct gas tests and results, and explanations of both products using reactivity and halide ions.",
         "Level 2 (3 to 4 marks): a workable method with at least one correct test and product, and some explanation.",
         "Level 1 (1 to 2 marks): simple statements, such as pass electricity through salt water and test the gases, with little detail.",
