@@ -1,0 +1,681 @@
+{
+  "id": "c8-instrumental-methods",
+  "science": "chemistry",
+  "topicId": "c8",
+  "slug": "instrumental-methods",
+  "specRef": "4.8.3.6",
+  "title": "Instrumental methods",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Instrumental methods use machines (instruments) to detect and identify elements and compounds. Compared with chemical tests they are accurate, sensitive and rapid, and they are particularly useful when the amount of sample is very small.",
+    "explanation": [
+      "Chemical tests, such as flame tests or adding sodium hydroxide solution, rely on a person observing a colour change, a precipitate or a gas. They are cheap and quick to set up, but they have limitations: the observer has to judge colours by eye, some results mask others in mixtures, fairly large amounts of sample are needed, and they usually only tell you which ion is present, not how much. Instrumental methods use specialised equipment, often linked to a computer, to analyse substances.",
+      "Instrumental methods have three main advantages. They are accurate: the instrument measures the result rather than relying on someone's judgement of colour, so results are reliable and can be compared with reference data. They are sensitive: they can detect and identify substances even when only tiny amounts are present, such as traces of a drug in blood or a pollutant in water. They are rapid: an instrument can analyse a sample in minutes, and many samples can be run one after another automatically.",
+      "Because they are so sensitive, instrumental methods are particularly useful when the sample is very small, for example at a crime scene, in a medical test or when analysing a precious historical object. Many instrumental methods can also measure the concentration of a substance, not just identify it, and some can analyse mixtures that would confuse simple chemical tests. Flame emission spectroscopy, which identifies metal ions in solution and measures their concentrations, is an example you need to know about.",
+      "Instruments also have disadvantages. They are expensive to buy and run, they often need trained technicians to operate them and interpret the results, and the result usually has to be compared with data for known substances (reference data) to identify the sample. For simple tasks, such as a quick check in a school laboratory, chemical tests may still be the better choice. In exams, be ready to compare the two approaches and to state the advantages of instrumental methods: accurate, sensitive and rapid."
+    ],
+    "keyFacts": [
+      "Instrumental methods detect and identify elements and compounds using machines.",
+      "Advantages over chemical tests: accurate, sensitive and rapid.",
+      "Sensitive means they detect very small amounts of a substance.",
+      "Particularly useful when the amount of sample is very small.",
+      "Many can measure concentration as well as identify substances.",
+      "Results are compared with reference data for known substances.",
+      "Disadvantages: expensive, need trained operators.",
+      "Flame emission spectroscopy is an instrumental method for metal ions."
+    ],
+    "keyTerms": [
+      {
+        "term": "Instrumental method",
+        "definition": "A method of chemical analysis that uses an instrument (machine), often linked to a computer, to detect and identify substances."
+      },
+      {
+        "term": "Accurate",
+        "definition": "Gives a result close to the true value; instruments avoid errors from judging colours by eye."
+      },
+      {
+        "term": "Sensitive",
+        "definition": "Able to detect very small amounts of a substance."
+      },
+      {
+        "term": "Rapid",
+        "definition": "Gives results quickly; many samples can be analysed in a short time."
+      },
+      {
+        "term": "Reference data",
+        "definition": "Results from known substances that an unknown sample is compared with to identify it."
+      },
+      {
+        "term": "Chemical test",
+        "definition": "A test in which reagents are added and an observable change (colour, precipitate, gas) identifies a substance."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Choosing a method",
+        "question": "A forensic scientist has a tiny speck of paint from a car. Should she use chemical tests or an instrumental method to analyse it? Explain.",
+        "steps": [
+          "Chemical tests usually need a reasonable amount of sample and use up some of it in each test.",
+          "Instrumental methods are sensitive, so they work with very small samples.",
+          "They are also accurate and give data that can be compared with a database of car paints."
+        ],
+        "answer": "An instrumental method, because the sample is tiny and instruments are sensitive, accurate and rapid."
+      },
+      {
+        "title": "Comparing advantages and disadvantages",
+        "question": "A school wants to identify metal ions in some salts. Give one advantage of using flame tests rather than an instrument, and one advantage of using an instrument.",
+        "steps": [
+          "Flame tests are cheap and need only simple equipment, with no special training.",
+          "An instrument is more accurate and sensitive, does not depend on judging colours, and can identify ions in mixtures."
+        ],
+        "answer": "Flame tests: cheap and simple. Instrument: more accurate and sensitive (and rapid)."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Chemical tests versus instrumental methods",
+        "caption": "Instrumental methods are accurate, sensitive and rapid, but expensive. Chemical tests are cheap and simple but rely on observation.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='220' height='30' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='60' y='30' font-size='12' fill='currentColor'>Chemical tests</text><rect x='250' y='10' width='220' height='30' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='290' y='30' font-size='12' fill='currentColor'>Instrumental methods</text><rect x='10' y='40' width='220' height='180' fill='none' stroke='currentColor'/><rect x='250' y='40' width='220' height='180' fill='none' stroke='currentColor'/><text x='20' y='62' font-size='12' fill='currentColor'>+ cheap, simple equipment</text><text x='20' y='84' font-size='12' fill='currentColor'>+ little training needed</text><text x='20' y='106' font-size='12' fill='currentColor'>− judge colours by eye</text><text x='20' y='128' font-size='12' fill='currentColor'>− need larger samples</text><text x='20' y='150' font-size='12' fill='currentColor'>− colours masked in mixtures</text><text x='20' y='172' font-size='12' fill='currentColor'>− usually no concentration</text><text x='20' y='194' font-size='12' fill='currentColor'>− slower for many samples</text><text x='260' y='62' font-size='12' fill='currentColor'>+ accurate</text><text x='260' y='84' font-size='12' fill='currentColor'>+ sensitive (tiny samples)</text><text x='260' y='106' font-size='12' fill='currentColor'>+ rapid</text><text x='260' y='128' font-size='12' fill='currentColor'>+ can measure concentration</text><text x='260' y='150' font-size='12' fill='currentColor'>− expensive</text><text x='260' y='172' font-size='12' fill='currentColor'>− need trained operators</text><text x='260' y='194' font-size='12' fill='currentColor'>− need reference data</text></svg>"
+      },
+      {
+        "title": "How an instrumental analysis works",
+        "caption": "A small sample goes into the instrument; a detector produces data that a computer compares with reference data for known substances to identify the sample.",
+        "svg": "<svg viewBox='0 0 480 160' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='55' width='80' height='45' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='18' y='75' font-size='12' fill='currentColor'>tiny</text><text x='18' y='90' font-size='12' fill='currentColor'>sample</text><line x1='90' y1='77' x2='120' y2='77' stroke='currentColor' stroke-width='2'/><path d='M128 77 l-10 -6 v12 z' fill='currentColor'/><rect x='130' y='45' width='100' height='65' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='145' y='75' font-size='12' fill='currentColor'>instrument</text><text x='145' y='92' font-size='12' fill='currentColor'>+ detector</text><line x1='230' y1='77' x2='260' y2='77' stroke='currentColor' stroke-width='2'/><path d='M268 77 l-10 -6 v12 z' fill='currentColor'/><rect x='270' y='45' width='90' height='65' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='282' y='75' font-size='12' fill='currentColor'>computer</text><text x='282' y='92' font-size='12' fill='currentColor'>data</text><line x1='360' y1='77' x2='390' y2='77' stroke='currentColor' stroke-width='2'/><path d='M398 77 l-10 -6 v12 z' fill='currentColor'/><rect x='400' y='45' width='72' height='65' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><text x='406' y='70' font-size='12' fill='currentColor'>compare</text><text x='406' y='86' font-size='12' fill='currentColor'>with</text><text x='406' y='102' font-size='12' fill='currentColor'>reference</text><text x='120' y='140' font-size='12' fill='currentColor'>result: identity (and often concentration)</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think instrumental methods are better in every way.",
+        "right": "In fact they are expensive and need trained operators; simple chemical tests can be better for quick, cheap checks."
+      },
+      {
+        "wrong": "Students often think 'sensitive' means the instrument is easily damaged.",
+        "right": "In fact in chemistry 'sensitive' means the method can detect very small amounts of a substance."
+      },
+      {
+        "wrong": "Students often think an instrument identifies a substance on its own.",
+        "right": "In fact the results are usually compared with reference data from known substances."
+      },
+      {
+        "wrong": "Students often give 'easier' or 'more fun' as an advantage.",
+        "right": "In fact the advantages to state are: accurate, sensitive and rapid (and useful for very small samples)."
+      }
+    ],
+    "realWorld": [
+      "Drug testing of athletes uses instruments that can detect tiny amounts of banned substances in urine or blood.",
+      "Environmental agencies monitor rivers for traces of heavy metal ions using instrumental methods.",
+      "Forensic scientists identify fibres, paints and drugs from tiny samples found at crime scenes.",
+      "Hospitals analyse blood samples automatically, running hundreds of tests rapidly."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "Instrumental methods and their advantages over chemical tests are in separate Chemistry only (8462)."
+    ],
+    "examTips": [
+      "Learn the three AQA advantages: accurate, sensitive, rapid. Add 'useful when the sample is very small'.",
+      "If asked for a disadvantage, give 'expensive' or 'needs trained operators', not 'slow'.",
+      "When comparing, give a balanced answer: advantages and disadvantages of both chemical tests and instrumental methods.",
+      "Explain what each word means in context: sensitive (detects tiny amounts), accurate (no judging colours by eye), rapid (quick results, many samples)."
+    ],
+    "summary": [
+      "Instrumental methods use machines to detect and identify substances.",
+      "They are accurate, sensitive and rapid.",
+      "They are especially useful for very small samples.",
+      "They can often measure concentration.",
+      "They are expensive and need trained operators and reference data."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What are instrumental methods?",
+      "back": "Methods that use machines (instruments) to detect and identify elements and compounds."
+    },
+    {
+      "front": "Three advantages of instrumental methods?",
+      "back": "Accurate, sensitive and rapid."
+    },
+    {
+      "front": "What does 'sensitive' mean in analysis?",
+      "back": "Able to detect very small amounts of a substance."
+    },
+    {
+      "front": "When are instrumental methods particularly useful?",
+      "back": "When the amount of sample is very small."
+    },
+    {
+      "front": "Give two disadvantages of instrumental methods.",
+      "back": "Expensive; need trained operators (and reference data)."
+    },
+    {
+      "front": "Why are instruments more accurate than flame tests?",
+      "back": "They do not rely on judging colours by eye, and are less affected by mixtures masking results."
+    },
+    {
+      "front": "Name an instrumental method for metal ions.",
+      "back": "Flame emission spectroscopy."
+    },
+    {
+      "front": "How does an instrument identify a substance?",
+      "back": "Its results are compared with reference data from known substances."
+    },
+    {
+      "front": "Advantage of chemical tests over instruments?",
+      "back": "Cheap, simple equipment, little training needed."
+    },
+    {
+      "front": "Can instrumental methods measure concentration?",
+      "back": "Many can, for example flame emission spectroscopy."
+    },
+    {
+      "front": "What does 'rapid' mean here?",
+      "back": "Results are obtained quickly; many samples can be analysed in a short time."
+    },
+    {
+      "front": "Give one use of instrumental analysis.",
+      "back": "Drug testing in sport, forensic analysis, monitoring pollution or medical blood tests."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c8-instrumental-methods-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is an advantage of instrumental methods compared with chemical tests?",
+      "options": [
+        "They are cheaper",
+        "They are more sensitive",
+        "They need no training",
+        "They need larger samples"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: They are more sensitive"
+      ],
+      "explanation": "Instrumental methods are sensitive, accurate and rapid. They are usually more expensive and need trained operators."
+    },
+    {
+      "id": "c8-instrumental-methods-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In chemical analysis, what does 'sensitive' mean?",
+      "options": [
+        "Easily damaged",
+        "Gives a result immediately",
+        "Affected by temperature",
+        "Able to detect very small amounts of a substance"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Able to detect very small amounts of a substance"
+      ],
+      "explanation": "A sensitive method detects tiny amounts. 'Rapid' means quick."
+    },
+    {
+      "id": "c8-instrumental-methods-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is an instrumental method?",
+      "options": [
+        "Flame emission spectroscopy",
+        "Adding silver nitrate solution",
+        "Flame test with a wire loop",
+        "Testing with limewater"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Flame emission spectroscopy"
+      ],
+      "explanation": "Flame emission spectroscopy uses an instrument (a spectroscope). The others are chemical tests."
+    },
+    {
+      "id": "c8-instrumental-methods-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is a disadvantage of instrumental methods?",
+      "options": [
+        "They are slow",
+        "They are inaccurate",
+        "They are expensive",
+        "They need large samples"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: They are expensive"
+      ],
+      "explanation": "Instruments are costly to buy and run. They are fast, accurate and work with small samples."
+    },
+    {
+      "id": "c8-instrumental-methods-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "When are instrumental methods particularly useful?",
+      "options": [
+        "When a large sample is available and cost is important",
+        "When the amount of sample is very small",
+        "When no reference data are available",
+        "When only a colour change is needed"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: When the amount of sample is very small"
+      ],
+      "explanation": "Their sensitivity makes them ideal for tiny samples."
+    },
+    {
+      "id": "c8-instrumental-methods-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why are instrumental methods more accurate than flame tests?",
+      "options": [
+        "They use a hotter flame",
+        "They use different chemicals",
+        "They use more sample",
+        "They do not depend on someone judging a colour by eye"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: They do not depend on someone judging a colour by eye"
+      ],
+      "explanation": "Human colour judgement varies and colours can be masked; instruments measure the result objectively."
+    },
+    {
+      "id": "c8-instrumental-methods-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A laboratory must test 500 water samples a day for lead ions at very low concentrations. Which statement best justifies using an instrumental method?",
+      "options": [
+        "It is rapid and sensitive enough to detect very low concentrations",
+        "It is cheaper than chemical tests",
+        "It does not need reference data",
+        "It can be done by untrained staff"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It is rapid and sensitive enough to detect very low concentrations"
+      ],
+      "explanation": "Speed (many samples) and sensitivity (low concentrations) are the key advantages here."
+    },
+    {
+      "id": "c8-instrumental-methods-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An instrument gives a result for an unknown sample. What must be done to identify the substance?",
+      "options": [
+        "Repeat the test with a flame test",
+        "Add sodium hydroxide to the sample",
+        "Compare the result with reference data for known substances",
+        "Heat the sample until it melts"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Compare the result with reference data for known substances"
+      ],
+      "explanation": "Instruments produce data that are matched against reference data to identify substances."
+    },
+    {
+      "id": "c8-instrumental-methods-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which phrase lists the advantages of instrumental methods given by AQA?",
+      "options": [
+        "Cheap, simple and safe",
+        "Accurate, sensitive and rapid",
+        "Colourful, quick and easy",
+        "Large, slow and reliable"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Accurate, sensitive and rapid"
+      ],
+      "explanation": "Learn the three key words: accurate, sensitive and rapid."
+    },
+    {
+      "id": "c8-instrumental-methods-q10",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What do instrumental methods use to analyse substances?",
+      "options": [
+        "Only indicators",
+        "Living organisms",
+        "Only the human eye",
+        "Machines (instruments)"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Machines (instruments)"
+      ],
+      "explanation": "Instrumental methods use machines, often linked to computers."
+    },
+    {
+      "id": "c8-instrumental-methods-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "State three advantages of instrumental methods compared with chemical tests.",
+      "acceptedAnswers": [
+        "accurate",
+        "sensitive",
+        "rapid",
+        "quick",
+        "small samples"
+      ],
+      "markScheme": [
+        "1 mark: accurate",
+        "1 mark: sensitive",
+        "1 mark: rapid"
+      ],
+      "explanation": "These are the three advantages named in the specification."
+    },
+    {
+      "id": "c8-instrumental-methods-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one disadvantage of using instrumental methods.",
+      "acceptedAnswers": [
+        "expensive",
+        "trained operators",
+        "need reference data",
+        "costly"
+      ],
+      "markScheme": [
+        "1 mark: expensive / need trained operators / need reference data"
+      ],
+      "explanation": "Cost and training are the main drawbacks."
+    },
+    {
+      "id": "c8-instrumental-methods-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain what is meant by saying that an instrumental method is 'sensitive', and why this is useful in forensic science.",
+      "acceptedAnswers": [
+        "detects small amounts",
+        "tiny samples",
+        "crime scene"
+      ],
+      "markScheme": [
+        "1 mark: it can detect very small amounts of a substance",
+        "1 mark: samples from crime scenes are often tiny"
+      ],
+      "explanation": "Sensitivity allows analysis of traces such as a speck of paint or a fibre."
+    },
+    {
+      "id": "c8-instrumental-methods-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give one advantage of chemical tests over instrumental methods, and explain when this would matter.",
+      "acceptedAnswers": [
+        "cheap",
+        "simple equipment",
+        "no training",
+        "school laboratory",
+        "quick check"
+      ],
+      "markScheme": [
+        "1 mark: cheap / simple equipment / little training needed",
+        "1 mark: matters for a quick, low-cost check, for example in a school lab"
+      ],
+      "explanation": "For simple identification of single compounds, chemical tests are adequate and cheaper."
+    },
+    {
+      "id": "c8-instrumental-methods-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a flame test cannot reliably identify all the metal ions in a mixture, but an instrumental method can.",
+      "acceptedAnswers": [
+        "colours masked",
+        "instrument separates lines",
+        "detects each ion",
+        "spectrum"
+      ],
+      "markScheme": [
+        "1 mark: in a flame test some colours mask others (for example sodium hides potassium)",
+        "1 mark: an instrument (flame emission spectroscopy) detects the light from each ion separately / gives a line spectrum for each"
+      ],
+      "explanation": "Instruments analyse the light rather than relying on the overall colour seen by eye."
+    },
+    {
+      "id": "c8-instrumental-methods-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A hospital uses an automatic analyser to measure ions in thousands of blood samples each day. Suggest two reasons why an instrumental method is used.",
+      "acceptedAnswers": [
+        "rapid",
+        "many samples",
+        "accurate",
+        "sensitive",
+        "small blood samples",
+        "concentration"
+      ],
+      "markScheme": [
+        "1 mark: rapid, so many samples can be processed quickly",
+        "1 mark: accurate / sensitive, so small samples and low concentrations can be measured reliably"
+      ],
+      "explanation": "Medical testing needs speed, accuracy and the ability to measure concentrations from small samples."
+    },
+    {
+      "id": "c8-instrumental-methods-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "An archaeologist wants to find which metals are in an ancient coin without damaging it much. Suggest why an instrumental method is better than chemical tests.",
+      "acceptedAnswers": [
+        "very small sample",
+        "sensitive",
+        "less damage",
+        "chemical tests need more sample"
+      ],
+      "markScheme": [
+        "1 mark: instrumental methods only need a very small sample (they are sensitive)",
+        "1 mark: so less of the coin is damaged/used up than with chemical tests"
+      ],
+      "explanation": "Sensitivity means a tiny scraping is enough."
+    },
+    {
+      "id": "c8-instrumental-methods-q18",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one instrumental method used to identify metal ions.",
+      "acceptedAnswers": [
+        "flame emission spectroscopy"
+      ],
+      "markScheme": [
+        "1 mark: flame emission spectroscopy"
+      ],
+      "explanation": "This is the instrumental method named in the AQA specification."
+    },
+    {
+      "id": "c8-instrumental-methods-q19",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare chemical tests and instrumental methods for identifying ions.",
+      "markScheme": [
+        "Indicative content: chemical tests: cheap, simple equipment, little training",
+        "Chemical tests: rely on observation (colour judgement), can be masked in mixtures, need more sample, usually do not give concentration",
+        "Instrumental: accurate, sensitive, rapid",
+        "Instrumental: work with very small samples; can give concentration",
+        "Instrumental: expensive; need trained operators and reference data",
+        "Level 2 (3 to 4 marks): balanced comparison with points for and against both",
+        "Level 1 (1 to 2 marks): one or two relevant points"
+      ],
+      "explanation": "A comparison must refer to both methods, with similarities or differences."
+    },
+    {
+      "id": "c8-instrumental-methods-q20",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A water company needs to monitor the concentrations of several metal ions in river water every day at many sites. Some ions are present only in very small amounts. Evaluate the use of chemical tests and instrumental methods for this task, and give a justified conclusion.",
+      "markScheme": [
+        "Indicative content: chemical tests (flame tests, NaOH) identify some ions but rely on judging colours",
+        "Chemical tests would struggle with mixtures (masking) and low concentrations",
+        "Chemical tests do not usually measure concentration",
+        "Chemical tests are cheap and need little equipment",
+        "Instrumental methods are accurate, sensitive (detect very low concentrations) and rapid (many samples daily)",
+        "Instrumental methods can analyse mixtures and measure concentrations (for example flame emission spectroscopy with calibration)",
+        "Instrumental methods are expensive and need trained staff",
+        "Conclusion: instrumental methods are better because the task needs sensitivity, concentration data and speed; cost is justified by the number of samples",
+        "Level 3 (5 to 6 marks): detailed evaluation of both with reasons linked to the task and a justified conclusion",
+        "Level 2 (3 to 4 marks): advantages and disadvantages given with some link to the task",
+        "Level 1 (1 to 2 marks): simple statements about either method"
+      ],
+      "explanation": "Strong answers link each advantage to a specific requirement of the task and conclude with reasons."
+    },
+    {
+      "id": "c8-instrumental-methods-q21",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement about instrumental methods is NOT correct?",
+      "options": [
+        "They can detect very small amounts of substances",
+        "They give results quickly",
+        "They are always cheaper than chemical tests",
+        "They can often measure concentration"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: They are always cheaper than chemical tests"
+      ],
+      "explanation": "Instruments are usually expensive. The other statements are correct."
+    },
+    {
+      "id": "c8-instrumental-methods-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is a computer often linked to an analytical instrument?",
+      "options": [
+        "To heat the sample",
+        "To make the sample more concentrated",
+        "To record data and compare it with reference data",
+        "To clean the instrument"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: To record data and compare it with reference data"
+      ],
+      "explanation": "Computers store results and match them with databases of known substances."
+    },
+    {
+      "id": "c8-instrumental-methods-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'Instrumental methods are always better than chemical tests.' Evaluate this statement.",
+      "acceptedAnswers": [
+        "not always",
+        "expensive",
+        "trained operators",
+        "chemical tests cheap",
+        "depends on task",
+        "accurate sensitive rapid"
+      ],
+      "markScheme": [
+        "1 mark: instrumental methods are accurate, sensitive and rapid",
+        "1 mark: but they are expensive and need trained operators, so simple chemical tests may be better for quick cheap checks (statement not always true)"
+      ],
+      "explanation": "The best method depends on what is needed: accuracy and sensitivity, or low cost and simplicity."
+    },
+    {
+      "id": "c8-instrumental-methods-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does 'rapid' mean when describing an instrumental method?",
+      "options": [
+        "It uses a lot of energy",
+        "It gives results quickly",
+        "It is very accurate",
+        "It uses a large sample"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It gives results quickly"
+      ],
+      "explanation": "Rapid means fast; instruments can analyse many samples in a short time."
+    },
+    {
+      "id": "c8-instrumental-methods-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why drug-testing laboratories for sport use instrumental methods.",
+      "acceptedAnswers": [
+        "tiny amounts",
+        "sensitive",
+        "accurate",
+        "results must be reliable",
+        "rapid"
+      ],
+      "markScheme": [
+        "1 mark: banned drugs may be present in tiny amounts, so a sensitive method is needed",
+        "1 mark: results must be accurate/reliable (an athlete's career depends on it) / many samples must be tested quickly"
+      ],
+      "explanation": "Sensitivity and accuracy are essential when results have serious consequences."
+    },
+    {
+      "id": "c8-instrumental-methods-q26",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A flame test gives a yellow colour, but an instrument shows the sample contains sodium, potassium and lithium ions. What is the best explanation?",
+      "options": [
+        "The instrument is faulty",
+        "Flame tests are more sensitive than instruments",
+        "Potassium and lithium give yellow flames",
+        "The yellow colour of sodium masked the other colours in the flame test"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The yellow colour of sodium masked the other colours in the flame test"
+      ],
+      "explanation": "Sodium's intense yellow masks other colours; the instrument detects the light from each ion separately."
+    }
+  ]
+}
