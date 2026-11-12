@@ -1,0 +1,689 @@
+{
+  "id": "c6-changing-conditions-equilibrium",
+  "science": "chemistry",
+  "topicId": "c6",
+  "slug": "changing-conditions-equilibrium",
+  "specRef": "4.6.2.4",
+  "title": "Changing conditions and equilibrium",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "The relative amounts of all the reactants and products at equilibrium depend on the conditions of the reaction. Le Chatelier's principle states that if a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change.",
+    "explanation": [
+      "When a reversible reaction reaches equilibrium in a closed system, the amounts of reactants and products stay constant. However, the actual amounts depend on the conditions: the concentrations of the substances, the temperature and, for reactions involving gases, the pressure. If any of these conditions is changed, the system is no longer at equilibrium. The forward and reverse reactions then run at different rates until a new equilibrium is reached, with different relative amounts of each substance.",
+      "The effect of a change can be predicted using Le Chatelier's principle: if a system at equilibrium is subjected to a change in conditions, the system responds to counteract (oppose) the change. For example, if the temperature is increased, the system responds in a way that takes in energy and lowers the temperature. If the concentration of a reactant is increased, the system responds by using up some of that reactant.",
+      "We describe the response using the position of equilibrium. If the position of equilibrium shifts to the right, the forward reaction is favoured and the equilibrium mixture contains more products (a higher yield). If it shifts to the left, the reverse reaction is favoured and the mixture contains more reactants (a lower yield).",
+      "There are three conditions to consider. Concentration: adding a reactant, or removing a product, shifts the position to the right. Temperature: increasing the temperature shifts the position in the endothermic direction; decreasing it shifts the position in the exothermic direction. Pressure (for gases): increasing the pressure shifts the position towards the side with fewer molecules of gas; decreasing it shifts the position towards the side with more molecules. Each of these is covered in more detail in the next subtopics.",
+      "You need to be able to make qualitative predictions when given information, such as the equation, whether the forward reaction is exothermic or endothermic, and data tables or graphs of yield. Note that a catalyst does not change the position of equilibrium: it speeds up the forward and reverse reactions by the same amount, so equilibrium is reached more quickly but the yield is the same."
+    ],
+    "keyFacts": [
+      "The relative amounts of reactants and products at equilibrium depend on the conditions.",
+      "Le Chatelier's principle: a system at equilibrium responds to counteract any change in conditions.",
+      "Shift to the right means more products; shift to the left means more reactants.",
+      "Increasing a reactant concentration, or removing a product, shifts the equilibrium to the right.",
+      "Increasing temperature shifts the equilibrium in the endothermic direction.",
+      "Decreasing temperature shifts the equilibrium in the exothermic direction.",
+      "Increasing pressure shifts the equilibrium to the side with fewer gas molecules.",
+      "Decreasing pressure shifts the equilibrium to the side with more gas molecules.",
+      "A catalyst does not change the position of equilibrium; equilibrium is reached faster.",
+      "When conditions change, a new equilibrium is reached with different amounts of each substance."
+    ],
+    "keyTerms": [
+      {
+        "term": "Le Chatelier's principle",
+        "definition": "If a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change."
+      },
+      {
+        "term": "Position of equilibrium",
+        "definition": "A description of the relative amounts of reactants and products in an equilibrium mixture; shifting right means more products, shifting left means more reactants."
+      },
+      {
+        "term": "Yield",
+        "definition": "The amount of the desired product obtained; at equilibrium it depends on the position of equilibrium."
+      },
+      {
+        "term": "Counteract",
+        "definition": "To act against or oppose a change, partly reversing its effect."
+      },
+      {
+        "term": "Forward reaction favoured",
+        "definition": "The forward reaction temporarily runs faster than the reverse until a new equilibrium is reached, so more products form."
+      },
+      {
+        "term": "Conditions",
+        "definition": "The factors that can be changed for a reaction at equilibrium: concentration, temperature and (for gases) pressure."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Predicting the effect of two changes",
+        "question": "Sulfur dioxide reacts with oxygen: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). The forward reaction is exothermic. Predict the effect on the yield of SO₃ of (a) increasing the temperature and (b) increasing the pressure.",
+        "steps": [
+          "(a) Increasing the temperature: the system responds to lower the temperature, so the endothermic direction is favoured. The forward reaction is exothermic, so the reverse reaction is endothermic. The position shifts left, so the yield of SO₃ decreases.",
+          "(b) Count gas molecules: left side 2 + 1 = 3; right side 2.",
+          "Increasing the pressure shifts the position to the side with fewer gas molecules, which is the right. The yield of SO₃ increases."
+        ],
+        "answer": "(a) Yield decreases. (b) Yield increases."
+      },
+      {
+        "title": "Using data to deduce the energy change",
+        "question": "For the reaction A(g) ⇌ B(g), the percentage of B at equilibrium is 62% at 200 °C, 48% at 300 °C and 35% at 400 °C. Is the forward reaction exothermic or endothermic?",
+        "steps": [
+          "As the temperature increases, the yield of B decreases, so the position shifts left.",
+          "Increasing temperature shifts the equilibrium in the endothermic direction, so the reverse reaction must be endothermic.",
+          "Therefore the forward reaction is exothermic."
+        ],
+        "answer": "The forward reaction is exothermic."
+      },
+      {
+        "title": "Reading a yield from data",
+        "question": "Using the data in the previous example, the maximum possible mass of B from a sample is 80 g. What mass of B is in the equilibrium mixture at 400 °C?",
+        "steps": [
+          "At 400 °C the yield is 35%.",
+          "Mass of B = 35 ÷ 100 × 80 = 28 g.",
+          "Check: 28 ÷ 80 = 0.35."
+        ],
+        "answer": "28 g of B."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Le Chatelier's principle",
+        "caption": "When a condition is changed, the position of equilibrium shifts to oppose the change until a new equilibrium is reached. A shift to the right gives more products; a shift to the left gives more reactants.",
+        "svg": "<svg viewBox=\"0 0 460 220\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ce1\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><rect x=\"10\" y=\"20\" width=\"95\" height=\"70\" rx=\"8\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"57.5\" y=\"51\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">System at</text><text x=\"57.5\" y=\"66\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">equilibrium</text><line x1=\"107\" y1=\"55\" x2=\"123\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ce1)\"/><rect x=\"125\" y=\"20\" width=\"95\" height=\"70\" rx=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"172.5\" y=\"51\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Condition</text><text x=\"172.5\" y=\"66\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">changed</text><line x1=\"222\" y1=\"55\" x2=\"238\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ce1)\"/><rect x=\"240\" y=\"20\" width=\"95\" height=\"70\" rx=\"8\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"287.5\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Equilibrium</text><text x=\"287.5\" y=\"59\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">shifts to</text><text x=\"287.5\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">oppose change</text><line x1=\"337\" y1=\"55\" x2=\"353\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ce1)\"/><rect x=\"355\" y=\"20\" width=\"95\" height=\"70\" rx=\"8\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"402.5\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">New</text><text x=\"402.5\" y=\"59\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">equilibrium</text><text x=\"402.5\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">reached</text><text x=\"230\" y=\"140\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">A + B  ⇌  C + D</text><line x1=\"200\" y1=\"165\" x2=\"40\" y2=\"165\" stroke=\"#c4b5fd\" stroke-width=\"3\" marker-end=\"url(#ce1)\"/><line x1=\"260\" y1=\"165\" x2=\"420\" y2=\"165\" stroke=\"#86efac\" stroke-width=\"3\" marker-end=\"url(#ce1)\"/><text x=\"40\" y=\"188\" font-size=\"12\" fill=\"currentColor\">Shifts left:</text><text x=\"40\" y=\"204\" font-size=\"12\" fill=\"currentColor\">more reactants</text><text x=\"420\" y=\"188\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Shifts right:</text><text x=\"420\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">more products</text></svg>"
+      },
+      {
+        "title": "Summary of changes",
+        "caption": "How changing concentration, temperature and pressure affects the position of equilibrium. A catalyst does not change the position of equilibrium.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"440\" height=\"30\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"20\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Change made</text><text x=\"225\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Effect on equilibrium position</text><rect x=\"10\" y=\"40\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"60\" font-size=\"12\" fill=\"currentColor\">Add more of a reactant</text><text x=\"225\" y=\"60\" font-size=\"12\" fill=\"currentColor\">Shifts right: more products</text><rect x=\"10\" y=\"70\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"90\" font-size=\"12\" fill=\"currentColor\">Remove some of a product</text><text x=\"225\" y=\"90\" font-size=\"12\" fill=\"currentColor\">Shifts right: more products</text><rect x=\"10\" y=\"100\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Increase temperature</text><text x=\"225\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Shifts in the endothermic direction</text><rect x=\"10\" y=\"130\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"150\" font-size=\"12\" fill=\"currentColor\">Decrease temperature</text><text x=\"225\" y=\"150\" font-size=\"12\" fill=\"currentColor\">Shifts in the exothermic direction</text><rect x=\"10\" y=\"160\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"180\" font-size=\"12\" fill=\"currentColor\">Increase pressure (gases)</text><text x=\"225\" y=\"180\" font-size=\"12\" fill=\"currentColor\">Shifts to side with fewer molecules</text><rect x=\"10\" y=\"190\" width=\"440\" height=\"30\" fill=\"none\" stroke=\"currentColor\"/><text x=\"20\" y=\"210\" font-size=\"12\" fill=\"currentColor\">Decrease pressure (gases)</text><text x=\"225\" y=\"210\" font-size=\"12\" fill=\"currentColor\">Shifts to side with more molecules</text><line x1=\"218\" y1=\"10\" x2=\"218\" y2=\"220\" stroke=\"currentColor\"/><text x=\"230\" y=\"245\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Le Chatelier: the system shifts to counteract the change</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that the system completely cancels out the change.",
+        "right": "In fact the system only counteracts (partly opposes) the change. For example, after increasing the temperature, the new equilibrium is still at a higher temperature than before."
+      },
+      {
+        "wrong": "Students often think a catalyst increases the yield of a reversible reaction.",
+        "right": "In fact a catalyst speeds up the forward and reverse reactions equally, so the position of equilibrium and the yield do not change; equilibrium is just reached faster."
+      },
+      {
+        "wrong": "Students often think 'the equilibrium shifts right' means the forward reaction stops the reverse reaction.",
+        "right": "In fact both reactions continue. The forward reaction runs faster than the reverse for a while, then the rates become equal again at a new equilibrium."
+      },
+      {
+        "wrong": "Students often think increasing the temperature always increases the yield.",
+        "right": "In fact increasing the temperature increases the yield only if the forward reaction is endothermic. For an exothermic forward reaction, the yield decreases."
+      }
+    ],
+    "realWorld": [
+      "In the Haber process (N₂ + 3H₂ ⇌ 2NH₃), engineers choose the temperature and pressure using Le Chatelier's principle together with ideas about rate and cost.",
+      "In the Contact process for making sulfuric acid, 2SO₂ + O₂ ⇌ 2SO₃ is carried out with excess air (oxygen) to shift the equilibrium to the right.",
+      "Removing a product as it forms, such as condensing ammonia out of the gas mixture, keeps shifting the equilibrium towards more product."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "All of this subtopic is Higher tier only: Le Chatelier's principle and qualitative predictions about the effect of changing conditions on a system at equilibrium."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "State Le Chatelier's principle precisely: 'the system responds to counteract the change'. Do not say it 'reverses' or 'cancels' the change.",
+      "Always say which way the position of equilibrium shifts (left or right) and what that means for the amount of product.",
+      "For temperature, first decide which direction is endothermic; for pressure, first count the molecules of gas on each side using the balancing numbers.",
+      "If a question gives yield data, quote figures from the data to support your prediction.",
+      "A catalyst never changes the position of equilibrium or the yield; it only changes how fast equilibrium is reached."
+    ],
+    "summary": [
+      "Amounts at equilibrium depend on concentration, temperature and pressure.",
+      "Le Chatelier: the system responds to counteract a change in conditions.",
+      "Shift right means more products; shift left means more reactants.",
+      "Higher temperature favours the endothermic direction.",
+      "Higher pressure favours the side with fewer gas molecules.",
+      "Adding reactant or removing product shifts the position to the right.",
+      "A catalyst does not change the position of equilibrium."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "State Le Chatelier's principle.",
+      "back": "If a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change."
+    },
+    {
+      "front": "What do the relative amounts of substances at equilibrium depend on?",
+      "back": "The conditions: concentration, temperature and (for gases) pressure."
+    },
+    {
+      "front": "What does 'the position of equilibrium shifts to the right' mean?",
+      "back": "The forward reaction is favoured, so there are more products at the new equilibrium."
+    },
+    {
+      "front": "What does 'the position of equilibrium shifts to the left' mean?",
+      "back": "The reverse reaction is favoured, so there are more reactants at the new equilibrium."
+    },
+    {
+      "front": "Effect of increasing the concentration of a reactant?",
+      "back": "Position shifts right: more products form."
+    },
+    {
+      "front": "Effect of increasing the temperature?",
+      "back": "Position shifts in the endothermic direction."
+    },
+    {
+      "front": "Effect of decreasing the temperature?",
+      "back": "Position shifts in the exothermic direction."
+    },
+    {
+      "front": "Effect of increasing pressure on a gas equilibrium?",
+      "back": "Position shifts to the side with fewer molecules of gas."
+    },
+    {
+      "front": "Effect of decreasing pressure on a gas equilibrium?",
+      "back": "Position shifts to the side with more molecules of gas."
+    },
+    {
+      "front": "Effect of a catalyst on the position of equilibrium?",
+      "back": "None. It only makes equilibrium reached faster."
+    },
+    {
+      "front": "Effect of removing a product as it forms?",
+      "back": "Position shifts right: more product is made."
+    },
+    {
+      "front": "Yield decreases as temperature rises. What does this tell you?",
+      "back": "The forward reaction is exothermic."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c6-changing-conditions-equilibrium-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement is Le Chatelier's principle?",
+      "markScheme": [
+        "1 mark: system responds to counteract the change"
+      ],
+      "explanation": "Le Chatelier's principle is about how a system at equilibrium responds to a change in conditions. The other statements are true but are not Le Chatelier's principle.",
+      "options": [
+        "A catalyst increases the rate of both forward and reverse reactions",
+        "If a system at equilibrium is subjected to a change in conditions, the system responds to counteract the change",
+        "At equilibrium the forward and reverse reactions occur at the same rate",
+        "Energy is conserved in a reversible reaction"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The position of an equilibrium shifts to the right. What does this mean?",
+      "markScheme": [
+        "1 mark: more products"
+      ],
+      "explanation": "A shift to the right favours the forward reaction, so more products are present at the new equilibrium.",
+      "options": [
+        "The equilibrium mixture contains more reactants",
+        "The reaction stops",
+        "The equilibrium mixture contains more products",
+        "The reaction becomes exothermic"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What do the relative amounts of reactants and products at equilibrium depend on?",
+      "markScheme": [
+        "1 mark: the conditions"
+      ],
+      "explanation": "Changing concentration, temperature or pressure changes the relative amounts at equilibrium.",
+      "options": [
+        "Only the size of the container",
+        "Only the mass of catalyst",
+        "Nothing: they are always the same",
+        "The conditions of the reaction"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these changes does NOT change the position of an equilibrium?",
+      "markScheme": [
+        "1 mark: adding a catalyst"
+      ],
+      "explanation": "A catalyst speeds up the forward and reverse reactions equally, so equilibrium is reached faster but the position does not change.",
+      "options": [
+        "Adding a catalyst",
+        "Increasing the temperature",
+        "Adding more of a reactant",
+        "Removing a product"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The temperature of a system at equilibrium is increased. In which direction does the position of equilibrium shift?",
+      "markScheme": [
+        "1 mark: in the endothermic direction"
+      ],
+      "explanation": "The system counteracts the rise in temperature by favouring the direction that takes in energy, which is the endothermic direction.",
+      "options": [
+        "Always to the right",
+        "In the exothermic direction",
+        "In the endothermic direction",
+        "Always to the left"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The pressure on a gaseous system at equilibrium is increased. In which direction does the position of equilibrium shift?",
+      "markScheme": [
+        "1 mark: towards the side with fewer molecules of gas"
+      ],
+      "explanation": "Fewer gas molecules in the same volume produce a lower pressure, so this shift counteracts the increase in pressure.",
+      "options": [
+        "Towards the side with more molecules of gas",
+        "Towards the side with fewer molecules of gas",
+        "Towards the products whatever the equation",
+        "It does not shift"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "More of a reactant is added to a system at equilibrium. What happens?",
+      "markScheme": [
+        "1 mark: position shifts right; more products"
+      ],
+      "explanation": "The system counteracts the extra reactant by using some of it up, which makes more products.",
+      "options": [
+        "The position shifts left and more reactants form",
+        "Nothing, because the system is at equilibrium",
+        "The rate of the reverse reaction increases first",
+        "The position shifts right and more products form"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement correctly describes what happens when the position of equilibrium shifts to the left?",
+      "markScheme": [
+        "1 mark: reverse reaction temporarily faster until a new equilibrium is reached"
+      ],
+      "explanation": "Both reactions keep going. A shift to the left means the reverse reaction runs faster for a while, then the rates become equal again.",
+      "options": [
+        "The reverse reaction is temporarily faster than the forward reaction until a new equilibrium is reached",
+        "The forward reaction stops completely",
+        "The reverse reaction stops completely",
+        "Both reactions stop until conditions change again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "For the reaction A(g) + B(g) ⇌ 2C(g), the forward reaction is exothermic. Which change would increase the yield of C?",
+      "markScheme": [
+        "1 mark: decreasing the temperature"
+      ],
+      "explanation": "Decreasing the temperature favours the exothermic (forward) direction. Pressure has no effect because there are 2 gas molecules on each side, and a catalyst does not change the yield.",
+      "options": [
+        "Increasing the pressure",
+        "Decreasing the temperature",
+        "Adding a catalyst",
+        "Increasing the temperature"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Hydrogen and iodine react: H₂(g) + I₂(g) ⇌ 2HI(g). Which change has no effect on the position of equilibrium?",
+      "markScheme": [
+        "1 mark: changing the pressure"
+      ],
+      "explanation": "There are 2 molecules of gas on each side, so neither side has fewer molecules and pressure has no effect on the position.",
+      "options": [
+        "Adding more hydrogen",
+        "Removing hydrogen iodide",
+        "Changing the pressure",
+        "Changing the temperature"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a reversible reaction, a product is continuously removed from the reaction vessel as it is formed. What is the effect?",
+      "markScheme": [
+        "1 mark: position shifts right, more product made"
+      ],
+      "explanation": "Removing a product lowers its concentration. The system counteracts this by making more product, so the reaction keeps converting reactants into products.",
+      "options": [
+        "The position keeps shifting to the right, so more product is made",
+        "The position shifts to the left, so less product is made",
+        "The reaction stops because equilibrium is lost",
+        "There is no effect because the temperature is unchanged"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Nitrogen reacts with hydrogen: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nHow many molecules of gas are shown on the left-hand side of the equation?",
+      "markScheme": [
+        "1 mark: 4"
+      ],
+      "explanation": "Add the balancing numbers of the gases: 1 N₂ + 3 H₂ = 4 molecules. The right-hand side has 2 molecules.",
+      "numericAnswer": 4,
+      "tolerance": 0,
+      "unit": ""
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Sulfur dioxide reacts with oxygen: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)\nHow many molecules of gas are shown on the left-hand side of the equation?",
+      "markScheme": [
+        "1 mark: 3"
+      ],
+      "explanation": "2 SO₂ + 1 O₂ = 3 molecules of gas on the left, compared with 2 SO₃ on the right.",
+      "numericAnswer": 3,
+      "tolerance": 0,
+      "unit": ""
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The percentage of product at equilibrium for a reaction was measured at different temperatures:\n200 °C: 62%; 300 °C: 48%; 400 °C: 35%; 500 °C: 24%\nBy how many percentage points does the yield fall when the temperature is increased from 200 °C to 400 °C?",
+      "markScheme": [
+        "1 mark: 62 − 35 = 27"
+      ],
+      "explanation": "Read both values from the data and subtract: 62 − 35 = 27 percentage points. The fall in yield with rising temperature shows the forward reaction is exothermic.",
+      "numericAnswer": 27,
+      "tolerance": 0.01,
+      "unit": "percentage points"
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Using the data in the previous question, the maximum possible mass of product from a sample is 80 g.\nCalculate the mass of product in the equilibrium mixture at 400 °C.",
+      "markScheme": [
+        "1 mark: 35 ÷ 100 × 80",
+        "1 mark: 28 g"
+      ],
+      "explanation": "At 400 °C the yield is 35%, so the mass of product is 0.35 × 80 = 28 g. Check: 28 ÷ 80 × 100 = 35%.",
+      "numericAnswer": 28,
+      "tolerance": 0.01,
+      "unit": "g"
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "For a gaseous reaction at constant temperature, the percentage of product at equilibrium is 15% at 50 atm and 40% at 200 atm.\nCalculate how many times greater the yield is at 200 atm than at 50 atm. Give your answer to 3 significant figures.",
+      "markScheme": [
+        "1 mark: 40 ÷ 15",
+        "1 mark: 2.67"
+      ],
+      "explanation": "40 ÷ 15 = 2.666…, which is 2.67 to 3 significant figures. Higher pressure gives a higher yield, so the product side must have fewer molecules of gas.",
+      "numericAnswer": 2.67,
+      "tolerance": 0.01,
+      "unit": ""
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State Le Chatelier's principle.",
+      "markScheme": [
+        "1 mark: if a system at equilibrium is subjected to a change in conditions",
+        "1 mark: the system responds to counteract (oppose) the change"
+      ],
+      "explanation": "Both parts are needed: the change to a system at equilibrium, and the response that counteracts it.",
+      "acceptedAnswers": [
+        "system at equilibrium",
+        "change in conditions",
+        "responds to counteract the change",
+        "opposes the change"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by 'the position of equilibrium shifts to the left'.",
+      "markScheme": [
+        "1 mark: the reverse reaction is favoured / the equilibrium mixture contains more reactants (less product)"
+      ],
+      "explanation": "Left is the reactant side of the equation, so a shift left gives more reactants.",
+      "acceptedAnswers": [
+        "more reactants",
+        "reverse reaction favoured"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Brown nitrogen dioxide forms colourless dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). The forward reaction is exothermic.\nPredict and explain what happens to the colour of the mixture when the temperature is increased.",
+      "markScheme": [
+        "1 mark: the mixture becomes darker brown",
+        "1 mark: position shifts left / in the endothermic (reverse) direction, so more NO₂ forms"
+      ],
+      "explanation": "Increasing the temperature favours the endothermic direction. The reverse reaction is endothermic, so more brown NO₂ forms.",
+      "acceptedAnswers": [
+        "darker brown",
+        "shifts left",
+        "endothermic direction",
+        "more NO₂"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "For the same reaction, 2NO₂(g) ⇌ N₂O₄(g), predict and explain the effect of increasing the pressure on the amount of N₂O₄ at equilibrium.",
+      "markScheme": [
+        "1 mark: amount of N₂O₄ increases / position shifts right",
+        "1 mark: the right-hand side has fewer gas molecules (1 compared with 2)"
+      ],
+      "explanation": "Increasing pressure favours the side with fewer gas molecules, which is the N₂O₄ side.",
+      "acceptedAnswers": [
+        "increases",
+        "shifts right",
+        "fewer molecules",
+        "1 molecule on the right"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Suggest why the yield of a reversible reaction in a closed system is always less than 100%.",
+      "markScheme": [
+        "1 mark: the reaction reaches equilibrium / some products react to reform reactants (reverse reaction), so not all reactants are converted"
+      ],
+      "explanation": "At equilibrium both reactants and products are present, so the reaction cannot go to completion.",
+      "acceptedAnswers": [
+        "reverse reaction",
+        "equilibrium",
+        "products react back to reactants"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "When the conditions of a system at equilibrium are changed, describe how the system reaches a new equilibrium.",
+      "markScheme": [
+        "1 mark: the forward and reverse reactions occur at different rates (one is favoured), so the amounts of substances change",
+        "1 mark: until the rates are equal again (new equilibrium with different amounts)"
+      ],
+      "explanation": "A change in conditions upsets the balance of rates. The amounts change until the rates match again.",
+      "acceptedAnswers": [
+        "one reaction faster than the other",
+        "amounts change",
+        "rates become equal again"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why adding a catalyst to a reversible reaction does not change the yield at equilibrium.",
+      "markScheme": [
+        "1 mark: a catalyst increases the rates of the forward and reverse reactions by the same amount",
+        "1 mark: so the position of equilibrium (and yield) is unchanged; equilibrium is only reached faster"
+      ],
+      "explanation": "Because both rates increase equally, they are still equal to each other at the same composition.",
+      "acceptedAnswers": [
+        "increases rate of forward and reverse reactions equally",
+        "position does not change",
+        "equilibrium reached faster"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "For a reversible reaction, the yield of product at equilibrium increases as the temperature increases.\nDeduce whether the forward reaction is exothermic or endothermic. Explain your answer.",
+      "markScheme": [
+        "1 mark: the forward reaction is endothermic",
+        "1 mark: increasing temperature shifts equilibrium in the endothermic direction, and here it shifts right (more product)"
+      ],
+      "explanation": "Higher temperature favours the endothermic direction. Since more product forms, the forward direction must be endothermic.",
+      "acceptedAnswers": [
+        "endothermic",
+        "increasing temperature favours the endothermic direction"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Methanol is made by the reaction: CO(g) + 2H₂(g) ⇌ CH₃OH(g). The forward reaction is exothermic.\nSuggest two changes in conditions that would increase the yield of methanol at equilibrium.",
+      "markScheme": [
+        "1 mark each, any two: increase the pressure (3 molecules on left, 1 on right); lower the temperature (forward reaction exothermic); increase the concentration of CO or H₂; remove methanol as it forms"
+      ],
+      "explanation": "All of these shift the position to the right. A catalyst would not increase the yield.",
+      "acceptedAnswers": [
+        "increase pressure",
+        "decrease temperature",
+        "add more CO or H₂",
+        "remove methanol"
+      ]
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A reversible reaction involving only gases is at equilibrium.\nDescribe how changing the concentration, the temperature and the pressure affects the position of equilibrium. Use Le Chatelier's principle in your answer.",
+      "markScheme": [
+        "Indicative content: Le Chatelier's principle: the system responds to counteract a change; increasing the concentration of a reactant (or removing a product) shifts the position to the right, making more products; increasing the concentration of a product shifts it to the left; increasing temperature shifts it in the endothermic direction; decreasing temperature shifts it in the exothermic direction; increasing pressure shifts it to the side with fewer molecules of gas; decreasing pressure shifts it to the side with more molecules of gas; a catalyst does not change the position.",
+        "Level 2 (3 to 4 marks): correct effects of all three conditions, linked to Le Chatelier's principle.",
+        "Level 1 (1 to 2 marks): correct effect of one or two conditions, with limited reference to the principle."
+      ],
+      "explanation": "For each condition, say what the system does to oppose the change and which way the position moves."
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Hydrogen is made by reacting methane with steam: CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g). The forward reaction is endothermic.\nPredict and explain the conditions of temperature and pressure that would give the highest yield of hydrogen.",
+      "markScheme": [
+        "Indicative content: high temperature; because the forward reaction is endothermic, increasing temperature shifts the position in the endothermic direction, to the right; low pressure; left side has 2 molecules of gas (1 + 1), right side has 4 (1 + 3); decreasing pressure shifts the position to the side with more molecules, which is the right; both changes increase the yield of hydrogen; removing hydrogen as it forms or adding excess steam would also increase yield.",
+        "Level 2 (3 to 4 marks): correct predictions for both temperature and pressure, with full explanations including counting gas molecules.",
+        "Level 1 (1 to 2 marks): one correct prediction, or both predictions without clear explanation."
+      ],
+      "explanation": "Count gas molecules: 2 on the left and 4 on the right. Endothermic forward means high temperature favours products."
+    },
+    {
+      "id": "c6-changing-conditions-equilibrium-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Ammonia is made by the reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic.\nThe table shows the percentage of ammonia at equilibrium under different conditions.\n350 °C: 100 atm 40%; 200 atm 53%; 300 atm 62%\n450 °C: 100 atm 16%; 200 atm 28%; 300 atm 36%\n550 °C: 100 atm 7%; 200 atm 13%; 300 atm 18%\nUse the data and Le Chatelier's principle to explain the effects of temperature and pressure on the yield of ammonia.",
+      "markScheme": [
+        "Indicative content: Le Chatelier: the system responds to counteract the change; temperature: at any pressure, the yield decreases as temperature increases, for example at 200 atm it falls from 53% at 350 °C to 13% at 550 °C; increasing the temperature favours the endothermic direction; the forward reaction is exothermic, so the reverse reaction is endothermic; the position shifts left, giving less ammonia; pressure: at any temperature, the yield increases as pressure increases, for example at 450 °C it rises from 16% at 100 atm to 36% at 300 atm; left side has 4 molecules of gas, right side has 2; increasing pressure shifts the position to the side with fewer molecules, the right, giving more ammonia; so the highest yield (62%) is at the lowest temperature and highest pressure in the table, 350 °C and 300 atm.",
+        "Level 3 (5 to 6 marks): both trends correctly described using data, and both fully explained using Le Chatelier's principle, energy change and gas molecule counts.",
+        "Level 2 (3 to 4 marks): both trends described, with an explanation for at least one, or one trend fully explained with data.",
+        "Level 1 (1 to 2 marks): simple description of one or both trends with little explanation or use of data."
+      ],
+      "explanation": "Use specific figures from the table to describe each trend, then explain each using Le Chatelier's principle."
+    }
+  ]
+}

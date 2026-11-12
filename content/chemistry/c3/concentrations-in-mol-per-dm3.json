@@ -1,0 +1,350 @@
+{
+  "id": "c3-concentrations-in-mol-per-dm3",
+  "science": "chemistry",
+  "topicId": "c3",
+  "slug": "concentrations-in-mol-per-dm3",
+  "specRef": "4.3.4",
+  "title": "Using concentrations of solutions in mol/dm³",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "The concentration of a solution can be measured in moles of solute per cubic decimetre of solution (mol/dm³). The amount in moles, or the mass in grams, of solute in a given volume can be calculated from the concentration, and the concentration of one solution can be found from the volumes of two solutions that react completely.",
+    "explanation": [
+      "Chemists often need to know how many particles of solute are present in a solution, so they measure concentration in mol/dm³. The equation is: concentration (mol/dm³) = amount of solute (mol) ÷ volume of solution (dm³). For example, 0.50 mol of sodium hydroxide dissolved to make 2.0 dm³ of solution has a concentration of 0.50 ÷ 2.0 = 0.25 mol/dm³. As with g/dm³, the volume must be in dm³, so divide cm³ by 1000.",
+      "Rearranging gives moles = concentration × volume (dm³). So 25.0 cm³ of 0.100 mol/dm³ hydrochloric acid contains 0.100 × 0.0250 = 0.00250 mol of HCl. To find the mass of solute, multiply the moles by Mr. To convert a concentration from mol/dm³ to g/dm³, multiply by Mr; to convert from g/dm³ to mol/dm³, divide by Mr. For example, 0.20 mol/dm³ HCl (Mr 36.5) is 0.20 × 36.5 = 7.3 g/dm³.",
+      "The concentration in mol/dm³ depends on both the mass of solute and the volume of the solution. Dissolving a greater mass of solute (more moles) in the same volume increases the concentration. Dissolving the same mass in a larger volume decreases it. A solute with a larger Mr gives fewer moles for the same mass, so the same mass in the same volume gives a lower concentration in mol/dm³.",
+      "Titration is used to find the volumes of acid and alkali that react exactly. A pipette measures 25.0 cm³ of alkali into a conical flask with a few drops of indicator. Acid is added from a burette, swirling, and dropwise near the end point, until the indicator changes colour. The titration is repeated until concordant titres (within 0.10 cm³ of each other) are obtained, and their mean is used. If the volumes of two solutions that react completely are known, and the concentration of one is known, the concentration of the other can be calculated.",
+      "Titration calculations follow three steps. Step 1: moles of the solution with known concentration = concentration × volume (dm³). Step 2: use the balanced equation to find the moles of the other substance. Step 3: concentration of the other solution = moles ÷ volume (dm³). For NaOH + HCl → NaCl + H₂O the ratio is 1 : 1, but for 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O you need twice as many moles of NaOH as of H₂SO₄. Finally, if asked, convert to g/dm³ by multiplying by Mr."
+    ],
+    "keyFacts": [
+      "Concentration (mol/dm³) = moles of solute ÷ volume of solution (dm³).",
+      "Moles = concentration (mol/dm³) × volume (dm³).",
+      "Convert cm³ to dm³ by dividing by 1000.",
+      "Concentration in g/dm³ = concentration in mol/dm³ × Mr.",
+      "More moles of solute in the same volume gives a higher concentration; the same moles in a larger volume gives a lower concentration.",
+      "In a titration, the volumes of two solutions that react completely are measured.",
+      "Titration calculation: moles of known solution, use mole ratio, then concentration of unknown = moles ÷ volume.",
+      "Use only concordant titres (within 0.10 cm³) to calculate the mean titre.",
+      "Check the mole ratio in the equation: H₂SO₄ reacts with 2NaOH."
+    ],
+    "keyTerms": [
+      { "term": "Concentration (mol/dm³)", "definition": "The number of moles of solute in each cubic decimetre of solution." },
+      { "term": "Titration", "definition": "A technique used to find the exact volumes of two solutions that react completely, using a burette and pipette." },
+      { "term": "Titre", "definition": "The volume of solution added from the burette to reach the end point." },
+      { "term": "End point", "definition": "The point in a titration at which the indicator changes colour, showing the reaction is just complete." },
+      { "term": "Concordant results", "definition": "Titres that are within 0.10 cm³ of each other." },
+      { "term": "Standard solution", "definition": "A solution whose concentration is known accurately." },
+      { "term": "Indicator", "definition": "A substance that changes colour to show whether a solution is acidic or alkaline, used to find the end point." }
+    ],
+    "equations": [
+      { "name": "Concentration in mol/dm³", "formula": "concentration = amount of solute (mol) ÷ volume of solution (dm³)", "symbols": "c = n ÷ V", "units": "c in mol/dm³, n in mol, V in dm³", "recall": true },
+      { "name": "Converting mol/dm³ to g/dm³", "formula": "concentration in g/dm³ = concentration in mol/dm³ × Mr", "symbols": "", "units": "g/dm³", "recall": true },
+      { "name": "Number of moles", "formula": "number of moles = mass in grams ÷ relative formula mass", "symbols": "n = m ÷ Mr", "units": "n in mol, m in g", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Concentration from a mass of solute",
+        "question": "4.0 g of sodium hydroxide, NaOH, is dissolved to make 250 cm³ of solution. Calculate the concentration in mol/dm³. (Ar: H = 1, O = 16, Na = 23)",
+        "steps": [
+          "Mr of NaOH = 23 + 16 + 1 = 40.",
+          "Moles = 4.0 ÷ 40 = 0.10 mol.",
+          "Volume = 250 ÷ 1000 = 0.250 dm³.",
+          "Concentration = 0.10 ÷ 0.250 = 0.40 mol/dm³."
+        ],
+        "answer": "0.40 mol/dm³"
+      },
+      {
+        "title": "Titration with a 1 : 1 ratio",
+        "question": "25.0 cm³ of sodium hydroxide solution is neutralised by 20.0 cm³ of 0.100 mol/dm³ hydrochloric acid. NaOH + HCl → NaCl + H₂O. Calculate the concentration of the sodium hydroxide solution.",
+        "steps": [
+          "Moles of HCl = 0.100 × (20.0 ÷ 1000) = 0.00200 mol.",
+          "Ratio HCl : NaOH = 1 : 1, so moles of NaOH = 0.00200 mol.",
+          "Concentration of NaOH = 0.00200 ÷ (25.0 ÷ 1000) = 0.0800 mol/dm³."
+        ],
+        "answer": "0.0800 mol/dm³"
+      },
+      {
+        "title": "Titration with a 1 : 2 ratio, then g/dm³",
+        "question": "25.0 cm³ of sodium hydroxide solution is neutralised by 12.5 cm³ of 0.100 mol/dm³ sulfuric acid. 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. Calculate the concentration of the sodium hydroxide in mol/dm³ and in g/dm³. (Mr of NaOH = 40)",
+        "steps": [
+          "Moles of H₂SO₄ = 0.100 × 0.0125 = 0.00125 mol.",
+          "Ratio H₂SO₄ : NaOH = 1 : 2, so moles of NaOH = 0.00250 mol.",
+          "Concentration of NaOH = 0.00250 ÷ 0.0250 = 0.100 mol/dm³.",
+          "In g/dm³: 0.100 × 40 = 4.00 g/dm³."
+        ],
+        "answer": "0.100 mol/dm³ (4.00 g/dm³)"
+      },
+      {
+        "title": "Rearranging to find a volume",
+        "question": "What volume of 0.50 mol/dm³ hydrochloric acid contains 0.020 mol of HCl? Give your answer in cm³.",
+        "steps": [
+          "Rearrange: volume = moles ÷ concentration.",
+          "Volume = 0.020 ÷ 0.50 = 0.040 dm³.",
+          "Convert: 0.040 × 1000 = 40 cm³."
+        ],
+        "answer": "40 cm³"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Titration apparatus",
+        "caption": "A burette delivers acid into a measured volume of alkali (from a pipette) in a conical flask containing indicator. The flask stands on a white tile so the colour change at the end point is easy to see.",
+        "svg": "<svg viewBox='0 0 480 300' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='10' height='250' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><rect x='20' y='270' width='120' height='12' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='50' y1='60' x2='190' y2='60' stroke='currentColor' stroke-width='3'/><rect x='190' y='20' width='20' height='150' fill='none' stroke='currentColor'/><rect x='191' y='60' width='18' height='109' fill='#fca5a5' fill-opacity='0.5'/><path d='M190 170 L200 185 L210 170' fill='none' stroke='currentColor'/><rect x='194' y='175' width='12' height='6' fill='currentColor'/><line x1='200' y1='185' x2='200' y2='200' stroke='currentColor'/><g stroke='currentColor'><line x1='190' y1='40' x2='196' y2='40'/><line x1='190' y1='60' x2='196' y2='60'/><line x1='190' y1='80' x2='196' y2='80'/><line x1='190' y1='100' x2='196' y2='100'/><line x1='190' y1='120' x2='196' y2='120'/><line x1='190' y1='140' x2='196' y2='140'/></g><path d='M190 205 L190 225 L160 262 L240 262 L210 225 L210 205' fill='none' stroke='currentColor' stroke-width='2'/><path d='M172 247 L228 247 L240 262 L160 262 Z' fill='#c4b5fd' fill-opacity='0.5'/><rect x='140' y='262' width='120' height='10' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor'><line x1='212' y1='90' x2='280' y2='90' stroke='currentColor'/><text x='285' y='94'>burette containing acid</text><text x='285' y='110'>(read to nearest 0.05 cm³)</text><line x1='208' y1='178' x2='280' y2='178' stroke='currentColor'/><text x='285' y='182'>tap (add dropwise near end point)</text><line x1='225' y1='240' x2='280' y2='225' stroke='currentColor'/><text x='285' y='222'>conical flask: 25.0 cm³ alkali</text><text x='285' y='238'>(from a pipette) + indicator</text><line x1='255' y1='268' x2='280' y2='262' stroke='currentColor'/><text x='285' y='266'>white tile</text><text x='20' y='14'>clamp stand</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often use volumes in cm³ directly in moles = concentration × volume.", "right": "In fact concentration is in mol/dm³, so the volume must be in dm³. Divide cm³ by 1000 first." },
+      { "wrong": "Students often assume every acid reacts with alkali in a 1 : 1 ratio.", "right": "In fact you must use the balanced equation. Sulfuric acid, H₂SO₄, reacts with two moles of NaOH for every mole of acid." },
+      { "wrong": "Students often think mol/dm³ and g/dm³ are the same numbers.", "right": "In fact you multiply mol/dm³ by Mr to get g/dm³. 0.10 mol/dm³ NaOH is 4.0 g/dm³." },
+      { "wrong": "Students often include the rough (trial) titre when calculating the mean titre.", "right": "In fact only concordant titres, within 0.10 cm³ of each other, should be averaged." }
+    ],
+    "realWorld": [
+      "Water companies use titrations to measure the concentration of chlorine compounds and hardness ions in drinking water.",
+      "Food scientists titrate fruit juices and wines with alkali to measure their acidity, which affects taste and quality.",
+      "Hospital laboratories prepare medicines and intravenous solutions with concentrations measured in mol/dm³ (or mmol/dm³) so that patients receive exact doses."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only: calculating amounts in moles and masses of solute from concentrations in mol/dm³, calculating the concentration of a solution from titration results, and explaining how concentration in mol/dm³ relates to the mass of solute and volume of solution."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Chemistry only, not Combined Science Trilogy. It links to the acid and alkali titration required practical (in the Chemical changes topic), where the concentration of one solution is calculated in mol/dm³ and g/dm³."
+    ],
+    "examTips": [
+      "Write out each step of a titration calculation on a separate line: moles of known, ratio, concentration of unknown.",
+      "Always check the equation for the mole ratio before step 2.",
+      "Convert every volume from cm³ to dm³ (÷ 1000) before using it.",
+      "Use only concordant titres for the mean, and say which ones you used.",
+      "Give answers to 3 significant figures and include units: mol/dm³ or g/dm³."
+    ],
+    "summary": [
+      "Concentration (mol/dm³) = moles ÷ volume (dm³).",
+      "Moles = concentration × volume (dm³).",
+      "g/dm³ = mol/dm³ × Mr.",
+      "Titrations find the volumes of two solutions that react completely.",
+      "Titration calculation: moles of known, mole ratio, concentration of unknown.",
+      "Use concordant titres and the balanced equation."
+    ]
+  },
+  "flashcards": [
+    { "front": "Equation for concentration in mol/dm³?", "back": "concentration = moles of solute ÷ volume of solution (dm³)" },
+    { "front": "How do you find moles from concentration and volume?", "back": "moles = concentration (mol/dm³) × volume (dm³)" },
+    { "front": "How do you convert mol/dm³ to g/dm³?", "back": "Multiply by Mr." },
+    { "front": "Moles in 25.0 cm³ of 0.200 mol/dm³ solution?", "back": "0.200 × 0.0250 = 0.00500 mol" },
+    { "front": "What are concordant titres?", "back": "Titres within 0.10 cm³ of each other." },
+    { "front": "Three steps of a titration calculation?", "back": "1. moles of known solution; 2. use mole ratio; 3. concentration of unknown = moles ÷ volume." },
+    { "front": "Ratio of NaOH to H₂SO₄ in neutralisation?", "back": "2 : 1 (2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O)" },
+    { "front": "Which apparatus measures 25.0 cm³ of alkali accurately?", "back": "A volumetric pipette (with pipette filler)." },
+    { "front": "Why is a white tile used in titration?", "back": "So the colour change of the indicator is easy to see." },
+    { "front": "0.1 mol of solute in 500 cm³. Concentration?", "back": "0.20 mol/dm³" },
+    { "front": "What happens to concentration in mol/dm³ if the volume of solution doubles?", "back": "It halves (same moles in twice the volume)." },
+    { "front": "Why add acid dropwise near the end point?", "back": "So you do not overshoot the end point, making the titre accurate." }
+  ],
+  "questions": [
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q01", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Which equation gives concentration in mol/dm³?",
+      "options": ["moles × volume (dm³)", "moles ÷ volume (dm³)", "volume (dm³) ÷ moles", "mass ÷ volume (dm³)"],
+      "answer": 1,
+      "markScheme": ["1 mark: moles ÷ volume (dm³)"],
+      "explanation": "Concentration in mol/dm³ = moles ÷ volume in dm³. Mass ÷ volume gives g/dm³."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q02", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "How many moles of HCl are in 1.0 dm³ of 0.50 mol/dm³ hydrochloric acid?",
+      "options": ["0.50 mol", "1.0 mol", "2.0 mol", "0.25 mol"],
+      "answer": 0,
+      "markScheme": ["1 mark: 0.50 mol"],
+      "explanation": "moles = 0.50 × 1.0 = 0.50 mol. The concentration is the number of moles in each dm³."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q03", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Which piece of apparatus is used to add acid gradually in a titration?",
+      "options": ["Measuring cylinder", "Pipette", "Gas syringe", "Burette"],
+      "answer": 3,
+      "markScheme": ["1 mark: burette"],
+      "explanation": "The burette delivers variable, accurately measured volumes. The pipette measures a fixed volume of the other solution into the flask."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q04", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "A titration gives titres of 24.60, 24.05, 24.10 and 24.00 cm³. Which titres should be used to calculate the mean?",
+      "options": ["All four", "24.60 and 24.05 only", "24.05, 24.10 and 24.00", "24.60 only"],
+      "answer": 2,
+      "markScheme": ["1 mark: 24.05, 24.10 and 24.00"],
+      "explanation": "These three are concordant (within 0.10 cm³). 24.60 cm³ is probably a rough titre that overshot the end point."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q05", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "What is the concentration in g/dm³ of 0.20 mol/dm³ hydrochloric acid? (Mr of HCl = 36.5)",
+      "options": ["0.0055 g/dm³", "36.7 g/dm³", "182.5 g/dm³", "7.3 g/dm³"],
+      "answer": 3,
+      "markScheme": ["1 mark: 7.3 g/dm³"],
+      "explanation": "g/dm³ = mol/dm³ × Mr = 0.20 × 36.5 = 7.3 g/dm³. 182.5 comes from dividing Mr by 0.20."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q06", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. A titration uses 0.0020 mol of H₂SO₄. How many moles of NaOH reacted?",
+      "options": ["0.0010 mol", "0.0020 mol", "0.0040 mol", "0.0080 mol"],
+      "answer": 2,
+      "markScheme": ["1 mark: 0.0040 mol"],
+      "explanation": "The ratio H₂SO₄ : NaOH is 1 : 2, so double the moles of acid: 0.0040 mol."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q07", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "Why is the conical flask swirled during a titration?",
+      "options": ["To mix the solutions so they react fully", "To speed up evaporation", "To dissolve the indicator in the burette", "To cool the solution"],
+      "answer": 0,
+      "markScheme": ["1 mark: to mix the solutions so they react fully"],
+      "explanation": "Swirling mixes the acid into the alkali so the indicator shows the true colour of the whole mixture."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Equal masses of sodium hydroxide (Mr 40) and potassium hydroxide (Mr 56) are each dissolved to make 1.0 dm³ of solution. Which statement is correct?",
+      "options": ["Both have the same concentration in mol/dm³", "The potassium hydroxide solution has the higher concentration in mol/dm³", "The sodium hydroxide solution has the higher concentration in mol/dm³", "Both have different concentrations in g/dm³"],
+      "answer": 2,
+      "markScheme": ["1 mark: the sodium hydroxide solution has the higher concentration in mol/dm³"],
+      "explanation": "Same mass ÷ smaller Mr = more moles, so NaOH has more moles in the same volume. The concentrations in g/dm³ are equal."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "A student forgets to rinse the burette with acid, so it still contains some water. What effect will this have on the calculated concentration of the alkali?",
+      "options": ["It will be too low", "It will be too high", "No effect", "It will be exactly half"],
+      "answer": 1,
+      "markScheme": ["1 mark: it will be too high"],
+      "explanation": "Water dilutes the acid, so a larger titre is needed. The student uses the original acid concentration, so calculates too many moles of acid and therefore too high a concentration of alkali."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q10", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "0.50 mol of sodium chloride is dissolved to make 2.0 dm³ of solution. Calculate the concentration in mol/dm³.",
+      "numericAnswer": 0.25, "tolerance": 0.01, "unit": "mol/dm³",
+      "markScheme": ["1 mark: 0.50 ÷ 2.0 = 0.25 mol/dm³"],
+      "explanation": "Concentration = moles ÷ volume = 0.25 mol/dm³."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q11", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 2,
+      "question": "Calculate the number of moles of HCl in 25.0 cm³ of 0.100 mol/dm³ hydrochloric acid.",
+      "numericAnswer": 0.0025, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: 25.0 ÷ 1000 = 0.0250 dm³", "1 mark: 0.100 × 0.0250 = 0.00250 mol"],
+      "explanation": "Convert to dm³, then multiply by concentration."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q12", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "4.0 g of sodium hydroxide, NaOH, is dissolved to make 250 cm³ of solution. Calculate the concentration in mol/dm³. (Ar: H = 1, O = 16, Na = 23)",
+      "numericAnswer": 0.4, "tolerance": 0.01, "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles = 4.0 ÷ 40 = 0.10 mol", "1 mark: volume = 0.250 dm³", "1 mark: 0.10 ÷ 0.250 = 0.40 mol/dm³"],
+      "explanation": "Convert mass to moles and cm³ to dm³ before dividing."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q13", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Calculate the mass of sodium hydroxide in 500 cm³ of 0.20 mol/dm³ NaOH solution. (Mr of NaOH = 40)",
+      "numericAnswer": 4, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles = 0.20 × 0.500 = 0.10 mol", "1 mark: mass = moles × Mr", "1 mark: 0.10 × 40 = 4.0 g"],
+      "explanation": "Concentration × volume gives moles; multiply by Mr for mass."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q14", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "25.0 cm³ of sodium hydroxide solution is neutralised by 20.0 cm³ of 0.100 mol/dm³ hydrochloric acid. NaOH + HCl → NaCl + H₂O. Calculate the concentration of the sodium hydroxide in mol/dm³.",
+      "numericAnswer": 0.08, "tolerance": 0.01, "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles HCl = 0.100 × 0.0200 = 0.00200", "1 mark: moles NaOH = 0.00200 (1 : 1)", "1 mark: 0.00200 ÷ 0.0250 = 0.0800 mol/dm³"],
+      "explanation": "The ratio is 1 : 1, so the moles of NaOH equal the moles of HCl."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q15", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "25.0 cm³ of sodium hydroxide solution is neutralised by 12.5 cm³ of 0.100 mol/dm³ sulfuric acid. 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. Calculate the concentration of the sodium hydroxide in mol/dm³.",
+      "numericAnswer": 0.1, "tolerance": 0.01, "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles H₂SO₄ = 0.100 × 0.0125 = 0.00125", "1 mark: moles NaOH = 2 × 0.00125 = 0.00250", "1 mark: 0.00250 ÷ 0.0250 = 0.100 mol/dm³"],
+      "explanation": "Forgetting the 1 : 2 ratio would give 0.0500 mol/dm³, half the correct value."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q16", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "A sodium hydroxide solution has a concentration of 0.100 mol/dm³. Calculate its concentration in g/dm³. (Mr of NaOH = 40)",
+      "numericAnswer": 4, "tolerance": 0.01, "unit": "g/dm³",
+      "markScheme": ["1 mark: 0.100 × 40 = 4.00 g/dm³"],
+      "explanation": "Multiply mol/dm³ by Mr to get g/dm³."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "25.0 cm³ of 0.150 mol/dm³ potassium hydroxide is neutralised by 30.0 cm³ of nitric acid. KOH + HNO₃ → KNO₃ + H₂O. Calculate the concentration of the nitric acid in mol/dm³.",
+      "numericAnswer": 0.125, "tolerance": 0.01, "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles KOH = 0.150 × 0.0250 = 0.00375", "1 mark: moles HNO₃ = 0.00375", "1 mark: 0.00375 ÷ 0.0300 = 0.125 mol/dm³"],
+      "explanation": "Here the known concentration is the alkali in the flask and the unknown is the acid in the burette; the method is the same."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Calculate the volume, in cm³, of 0.50 mol/dm³ hydrochloric acid that contains 0.020 mol of HCl.",
+      "numericAnswer": 40, "tolerance": 0.01, "unit": "cm³",
+      "markScheme": ["1 mark: volume = 0.020 ÷ 0.50 = 0.040 dm³", "1 mark: 40 cm³"],
+      "explanation": "Rearrange to volume = moles ÷ concentration, then convert dm³ to cm³ by multiplying by 1000."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q19", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "State the meaning of a concentration of 2.0 mol/dm³.",
+      "acceptedAnswers": ["2.0 mol of solute in each dm³", "2 moles per cubic decimetre"],
+      "markScheme": ["1 mark: there are 2.0 moles of solute in every 1 dm³ of solution"],
+      "explanation": "mol/dm³ is read as moles per cubic decimetre."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q20", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "State what is meant by concordant titres.",
+      "acceptedAnswers": ["within 0.10 cm³ of each other", "close together"],
+      "markScheme": ["1 mark: titres that are within 0.10 cm³ of each other"],
+      "explanation": "Only concordant titres are used to calculate the mean."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q21", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Explain how the concentration in mol/dm³ changes if the same mass of solute is dissolved in a larger volume of solution.",
+      "acceptedAnswers": ["concentration decreases", "same moles in a larger volume", "fewer moles per dm³"],
+      "markScheme": ["1 mark: the number of moles of solute stays the same", "1 mark: but it is in a larger volume, so there are fewer moles per dm³ (concentration decreases)"],
+      "explanation": "Concentration = moles ÷ volume; for fixed moles, a larger volume gives a smaller concentration."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q22", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Calculate the mean titre from these concordant results: 24.10 cm³, 24.00 cm³, 24.05 cm³.",
+      "acceptedAnswers": ["24.05 cm³", "24.05"],
+      "markScheme": ["1 mark: (24.10 + 24.00 + 24.05) ÷ 3", "1 mark: 24.05 cm³"],
+      "explanation": "72.15 ÷ 3 = 24.05 cm³."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q23", "type": "short", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "9.8 g of sulfuric acid, H₂SO₄, is dissolved to make 500 cm³ of solution. Calculate its concentration in mol/dm³ and in g/dm³. (Ar: H = 1, O = 16, S = 32)",
+      "acceptedAnswers": ["0.20 mol/dm³", "19.6 g/dm³"],
+      "markScheme": ["1 mark: moles = 9.8 ÷ 98 = 0.10 mol", "1 mark: 0.10 ÷ 0.500 = 0.20 mol/dm³", "1 mark: 9.8 ÷ 0.500 = 19.6 g/dm³ (or 0.20 × 98)"],
+      "explanation": "You can find g/dm³ either directly from mass ÷ volume or by multiplying mol/dm³ by Mr."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q24", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Suggest why the burette is read at eye level, at the bottom of the meniscus.",
+      "acceptedAnswers": ["avoid parallax error", "accurate reading", "bottom of meniscus"],
+      "markScheme": ["1 mark: reading at eye level avoids parallax error", "1 mark: the scale is designed to be read at the bottom of the meniscus, so the volume is accurate"],
+      "explanation": "Reading from above or below makes the level appear in the wrong place on the scale."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "20.0 cm³ of 0.050 mol/dm³ calcium hydroxide, Ca(OH)₂, is neutralised by hydrochloric acid with a titre of 25.0 cm³. Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O. Calculate the concentration of the hydrochloric acid.",
+      "acceptedAnswers": ["0.080 mol/dm³", "0.08"],
+      "markScheme": ["1 mark: moles Ca(OH)₂ = 0.050 × 0.0200 = 0.0010 mol", "1 mark: moles HCl = 2 × 0.0010 = 0.0020 mol", "1 mark: 0.0020 ÷ 0.0250 = 0.080 mol/dm³"],
+      "explanation": "Calcium hydroxide has two hydroxide ions, so each mole needs 2 mol of HCl."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q26", "type": "extended", "tier": "higher", "difficulty": 2, "marks": 4,
+      "question": "Describe how a student should carry out a titration to find the volume of hydrochloric acid needed to neutralise 25.0 cm³ of sodium hydroxide solution.",
+      "markScheme": [
+        "Indicative content: use a pipette and pipette filler to measure 25.0 cm³ of NaOH into a conical flask; add a few drops of indicator (for example phenolphthalein or methyl orange); fill the burette with acid, record the starting reading at eye level; place the flask on a white tile; add acid while swirling; add dropwise near the end point; stop when the indicator just changes colour permanently; record the final reading; titre = final − initial; repeat until concordant results (within 0.10 cm³); calculate the mean of concordant titres.",
+        "Level 2 (3 to 4 marks): a clear, logically ordered method that would give accurate and repeatable results.",
+        "Level 1 (1 to 2 marks): some correct steps but missing key details, such as the indicator, dropwise addition or repeats."
+      ],
+      "explanation": "Accuracy comes from the pipette, burette, dropwise addition near the end point and repeats to concordant titres."
+    },
+    {
+      "id": "c3-concentrations-in-mol-per-dm3-q27", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "A student titrates 25.0 cm³ of sodium hydroxide solution with 0.100 mol/dm³ sulfuric acid. The titres are: rough 25.30 cm³, then 24.70 cm³, 24.80 cm³ and 24.75 cm³. 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. (Mr of NaOH = 40)\nCalculate the concentration of the sodium hydroxide in mol/dm³ and in g/dm³. Explain each step, including which titres you used.",
+      "markScheme": [
+        "Indicative content: ignore the rough titre (25.30 cm³) because it is not concordant; mean of 24.70, 24.80 and 24.75 = 24.75 cm³; moles H₂SO₄ = 0.100 × 0.02475 = 0.002475 mol; ratio 1 : 2 so moles NaOH = 0.004950 mol; concentration = 0.004950 ÷ 0.0250 = 0.198 mol/dm³; in g/dm³ = 0.198 × 40 = 7.92 g/dm³.",
+        "Level 3 (5 to 6 marks): correct choice of titres with reason, correct mean, correct mol/dm³ and g/dm³ values with clear working and units.",
+        "Level 2 (3 to 4 marks): mostly correct working with one error, for example using the rough titre or omitting the 1 : 2 ratio.",
+        "Level 1 (1 to 2 marks): some correct steps, for example moles of acid, with little further progress."
+      ],
+      "explanation": "Mean titre 24.75 cm³, so 0.002475 mol of acid reacts with 0.004950 mol of NaOH. 0.004950 ÷ 0.0250 = 0.198 mol/dm³, and × 40 = 7.92 g/dm³."
+    }
+  ]
+}

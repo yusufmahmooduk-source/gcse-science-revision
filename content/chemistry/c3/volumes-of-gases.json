@@ -1,0 +1,346 @@
+{
+  "id": "c3-volumes-of-gases",
+  "science": "chemistry",
+  "topicId": "c3",
+  "slug": "volumes-of-gases",
+  "specRef": "4.3.5",
+  "title": "Amounts of substance and volumes of gases",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Equal amounts in moles of different gases occupy the same volume under the same conditions of temperature and pressure. At room temperature and pressure (20 °C and 1 atmosphere), the volume of one mole of any gas is 24 dm³.",
+    "explanation": [
+      "In a gas the particles are very far apart compared with their size. This means the volume a gas takes up depends almost entirely on the number of particles, not on what the particles are. So one mole of hydrogen, one mole of oxygen and one mole of carbon dioxide all occupy the same volume if they are at the same temperature and pressure, even though their masses are very different (2 g, 32 g and 44 g).",
+      "At room temperature and pressure (rtp), which is 20 °C and 1 atmosphere pressure, one mole of any gas occupies 24 dm³ (24 000 cm³). This is called the molar gas volume. It lets you convert between the amount of a gas in moles and its volume: volume of gas (dm³) = moles × 24. Rearranging gives moles = volume (dm³) ÷ 24. If the volume is in cm³, use 24 000 instead: moles = volume (cm³) ÷ 24 000.",
+      "You can combine this with moles = mass ÷ Mr to find the volume of a given mass of gas. For example, 8.8 g of carbon dioxide (Mr 44) is 8.8 ÷ 44 = 0.20 mol, which occupies 0.20 × 24 = 4.8 dm³ at rtp. Going the other way, 1.2 dm³ of CO₂ is 1.2 ÷ 24 = 0.050 mol, which has a mass of 0.050 × 44 = 2.2 g.",
+      "Because equal moles of gases have equal volumes, the volumes of gaseous reactants and products are in the same ratio as the coefficients in the balanced equation. For N₂(g) + 3H₂(g) → 2NH₃(g), 10 dm³ of nitrogen reacts with 30 dm³ of hydrogen to give 20 dm³ of ammonia (all at the same temperature and pressure). This shortcut only works for gases; for solids, liquids or solutions you must use moles and masses.",
+      "These ideas allow chemists to calculate the volume of gas made in a reaction from a mass of solid reactant. For example, heating 10 g of calcium carbonate gives 0.10 mol of carbon dioxide (1 : 1 ratio), which is 2.4 dm³ at rtp. In such questions, you use the balanced equation to find the moles of gas, then multiply by 24. Always check whether the answer should be given in dm³ or cm³."
+    ],
+    "keyFacts": [
+      "Equal moles of any gases occupy equal volumes at the same temperature and pressure.",
+      "At rtp (20 °C and 1 atmosphere), 1 mol of any gas occupies 24 dm³ (24 000 cm³).",
+      "Volume of gas (dm³) = moles × 24.",
+      "Moles of gas = volume (dm³) ÷ 24, or volume (cm³) ÷ 24 000.",
+      "Combine with moles = mass ÷ Mr to convert between mass and volume of a gas.",
+      "For gases, volume ratios equal mole ratios from the balanced equation.",
+      "1 dm³ = 1000 cm³.",
+      "The volume of a gas depends on the number of particles, not on their type, because the particles are far apart."
+    ],
+    "keyTerms": [
+      { "term": "Room temperature and pressure (rtp)", "definition": "Standard conditions of 20 °C and 1 atmosphere pressure." },
+      { "term": "Molar gas volume", "definition": "The volume occupied by one mole of any gas; 24 dm³ at rtp." },
+      { "term": "Mole", "definition": "The amount of substance containing 6.02 × 10²³ particles." },
+      { "term": "Volume ratio", "definition": "The ratio of the volumes of gases in a reaction; equal to the mole ratio for gases at the same temperature and pressure." },
+      { "term": "Cubic decimetre (dm³)", "definition": "A unit of volume equal to 1000 cm³." },
+      { "term": "Relative formula mass (Mr)", "definition": "The sum of the relative atomic masses of the atoms in a formula; the mass of one mole in grams." }
+    ],
+    "equations": [
+      { "name": "Volume of a gas at rtp", "formula": "volume of gas (dm³) = amount of gas (mol) × 24", "symbols": "V = n × 24", "units": "V in dm³, n in mol", "recall": true },
+      { "name": "Number of moles", "formula": "number of moles = mass in grams ÷ relative formula mass", "symbols": "n = m ÷ Mr", "units": "n in mol, m in g", "recall": true }
+    ],
+    "workedExamples": [
+      {
+        "title": "Volume from mass",
+        "question": "Calculate the volume of 8.8 g of carbon dioxide at room temperature and pressure. (Ar: C = 12, O = 16; 1 mol of gas occupies 24 dm³ at rtp)",
+        "steps": [
+          "Mr of CO₂ = 44.",
+          "Moles = 8.8 ÷ 44 = 0.20 mol.",
+          "Volume = 0.20 × 24 = 4.8 dm³."
+        ],
+        "answer": "4.8 dm³"
+      },
+      {
+        "title": "Mass from a volume in cm³",
+        "question": "Calculate the mass of 480 cm³ of oxygen gas, O₂, at rtp. (Ar: O = 16)",
+        "steps": [
+          "Convert: 480 cm³ = 0.480 dm³ (or use 24 000 cm³ per mole).",
+          "Moles = 0.480 ÷ 24 = 0.020 mol.",
+          "Mass = 0.020 × 32 = 0.64 g."
+        ],
+        "answer": "0.64 g"
+      },
+      {
+        "title": "Reacting gas volumes",
+        "question": "Methane burns: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). What volume of oxygen is needed to burn 50 cm³ of methane, and what volume of carbon dioxide forms? (All volumes at rtp.)",
+        "steps": [
+          "For gases, volume ratio = mole ratio.",
+          "CH₄ : O₂ = 1 : 2, so O₂ needed = 2 × 50 = 100 cm³.",
+          "CH₄ : CO₂ = 1 : 1, so CO₂ formed = 50 cm³.",
+          "Water is a liquid at rtp, so it does not have a gas volume of 100 cm³."
+        ],
+        "answer": "100 cm³ of oxygen; 50 cm³ of carbon dioxide"
+      },
+      {
+        "title": "Gas volume from a solid reactant",
+        "question": "Calculate the volume of hydrogen produced at rtp when 0.48 g of magnesium reacts with excess hydrochloric acid. Mg + 2HCl → MgCl₂ + H₂. Give your answer in cm³. (Ar: Mg = 24)",
+        "steps": [
+          "Moles of Mg = 0.48 ÷ 24 = 0.020 mol.",
+          "Ratio Mg : H₂ = 1 : 1, so moles of H₂ = 0.020 mol.",
+          "Volume = 0.020 × 24 = 0.48 dm³.",
+          "In cm³: 0.48 × 1000 = 480 cm³."
+        ],
+        "answer": "480 cm³"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "One mole of any gas occupies 24 dm³ at rtp",
+        "caption": "Each box holds 1 mol (6.02 × 10²³ molecules) of a different gas at 20 °C and 1 atmosphere. The masses are different but the volumes are the same, because gas particles are far apart.",
+        "svg": "<svg viewBox='0 0 480 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='20' y='40' width='130' height='130' fill='#e5e7eb' fill-opacity='0.5'/><rect x='175' y='40' width='130' height='130' fill='#fca5a5' fill-opacity='0.5'/><rect x='330' y='40' width='130' height='130' fill='#c4b5fd' fill-opacity='0.5'/></g><g fill='currentColor'><circle cx='45' cy='70' r='3'/><circle cx='100' cy='60' r='3'/><circle cx='130' cy='100' r='3'/><circle cx='70' cy='120' r='3'/><circle cx='40' cy='150' r='3'/><circle cx='115' cy='150' r='3'/><circle cx='85' cy='90' r='3'/></g><g fill='currentColor'><circle cx='200' cy='70' r='6'/><circle cx='255' cy='60' r='6'/><circle cx='285' cy='100' r='6'/><circle cx='225' cy='120' r='6'/><circle cx='195' cy='150' r='6'/><circle cx='270' cy='150' r='6'/><circle cx='240' cy='90' r='6'/></g><g fill='currentColor'><circle cx='355' cy='70' r='8'/><circle cx='410' cy='60' r='8'/><circle cx='440' cy='100' r='8'/><circle cx='380' cy='120' r='8'/><circle cx='350' cy='150' r='8'/><circle cx='425' cy='150' r='8'/><circle cx='395' cy='92' r='8'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='85' y='30'>1 mol H₂</text><text x='240' y='30'>1 mol O₂</text><text x='395' y='30'>1 mol CO₂</text><text x='85' y='190'>mass 2 g</text><text x='240' y='190'>mass 32 g</text><text x='395' y='190'>mass 44 g</text><text x='85' y='206'>volume 24 dm³</text><text x='240' y='206'>volume 24 dm³</text><text x='395' y='206'>volume 24 dm³</text><text x='240' y='232'>at room temperature and pressure (20 °C, 1 atm)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think heavier gases take up more volume, so 1 mol of CO₂ occupies more space than 1 mol of H₂.", "right": "In fact at the same temperature and pressure, 1 mol of any gas occupies the same volume (24 dm³ at rtp), because the particles are far apart." },
+      { "wrong": "Students often use 24 dm³ for solids, liquids or solutions.", "right": "In fact molar gas volume only applies to gases. Water at rtp is a liquid, so 1 mol of it is only 18 cm³." },
+      { "wrong": "Students often mix up dm³ and cm³ and divide a volume in cm³ by 24.", "right": "In fact use 24 for dm³ and 24 000 for cm³, or convert cm³ to dm³ first by dividing by 1000." },
+      { "wrong": "Students often think volume ratios can be used for every substance in an equation.", "right": "In fact volume ratios equal mole ratios only for gases at the same temperature and pressure." }
+    ],
+    "realWorld": [
+      "Car airbags are designed using gas volume calculations: the mass of solid that decomposes is chosen to release about 60 to 70 dm³ of nitrogen gas.",
+      "Chemical engineers in the Haber process feed nitrogen and hydrogen in a 1 : 3 ratio by volume, matching the 1 : 3 mole ratio in the equation.",
+      "Brewers and bakers estimate the volume of carbon dioxide released by yeast from the mass of sugar fermented."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only: using the molar gas volume of 24 dm³ at rtp to calculate the volume of a gas from its mass or moles, and calculating the volumes of gaseous reactants and products from a balanced equation and a given volume of gas."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Chemistry only, not Combined Science Trilogy."
+    ],
+    "examTips": [
+      "Check the units asked for: dm³ (use 24) or cm³ (use 24 000).",
+      "For reacting gas volumes, you can use the volume ratio directly from the equation without converting to moles.",
+      "Make sure the substance is a gas at rtp before using 24 dm³; check the state symbols.",
+      "Show the moles step clearly: mass → moles → volume, or volume → moles → mass.",
+      "Remember rtp means 20 °C and 1 atmosphere pressure; the 24 dm³ value is usually given in the question, but learn it anyway."
+    ],
+    "summary": [
+      "Equal moles of gases have equal volumes at the same temperature and pressure.",
+      "At rtp, 1 mol of any gas = 24 dm³ = 24 000 cm³.",
+      "Volume (dm³) = moles × 24.",
+      "Moles = mass ÷ Mr links mass to volume.",
+      "Gas volume ratios equal mole ratios in the balanced equation.",
+      "Only use the molar gas volume for gases."
+    ]
+  },
+  "flashcards": [
+    { "front": "Volume of 1 mol of any gas at rtp?", "back": "24 dm³ (24 000 cm³)" },
+    { "front": "What are room temperature and pressure?", "back": "20 °C and 1 atmosphere." },
+    { "front": "Equation linking gas volume and moles at rtp?", "back": "volume (dm³) = moles × 24" },
+    { "front": "Volume of 0.5 mol of O₂ at rtp?", "back": "12 dm³" },
+    { "front": "Moles in 6.0 dm³ of gas at rtp?", "back": "0.25 mol" },
+    { "front": "Moles in 240 cm³ of gas at rtp?", "back": "0.010 mol (240 ÷ 24 000)" },
+    { "front": "Why do equal moles of different gases have the same volume?", "back": "Gas particles are very far apart, so the volume depends on the number of particles, not their type." },
+    { "front": "N₂ + 3H₂ → 2NH₃: volume of H₂ to react with 10 dm³ N₂?", "back": "30 dm³" },
+    { "front": "Volume of 4.4 g of CO₂ at rtp (Mr 44)?", "back": "0.10 mol × 24 = 2.4 dm³" },
+    { "front": "Can you use 24 dm³ for water at rtp?", "back": "No. Water is a liquid at rtp." },
+    { "front": "Do gas volume ratios equal mole ratios?", "back": "Yes, for gases at the same temperature and pressure." }
+  ],
+  "questions": [
+    {
+      "id": "c3-volumes-of-gases-q01", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "What is the volume of one mole of any gas at room temperature and pressure?",
+      "options": ["22.4 dm³", "24 dm³", "24 cm³", "1 dm³"],
+      "answer": 1,
+      "markScheme": ["1 mark: 24 dm³"],
+      "explanation": "At rtp (20 °C, 1 atm) the molar gas volume is 24 dm³ (24 000 cm³). 24 cm³ is a thousand times too small."
+    },
+    {
+      "id": "c3-volumes-of-gases-q02", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "What are the conditions of room temperature and pressure (rtp)?",
+      "options": ["0 °C and 1 atmosphere", "25 °C and 2 atmospheres", "20 °C and 1 atmosphere", "100 °C and 1 atmosphere"],
+      "answer": 2,
+      "markScheme": ["1 mark: 20 °C and 1 atmosphere"],
+      "explanation": "AQA defines rtp as 20 °C and 1 atmosphere pressure."
+    },
+    {
+      "id": "c3-volumes-of-gases-q03", "type": "mcq", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Which sample of gas at rtp has the greatest volume?",
+      "options": ["1 mol of hydrogen", "1 mol of oxygen", "1 mol of carbon dioxide", "They all have the same volume"],
+      "answer": 3,
+      "markScheme": ["1 mark: they all have the same volume"],
+      "explanation": "Equal moles of gases at the same temperature and pressure occupy equal volumes, whatever the gas."
+    },
+    {
+      "id": "c3-volumes-of-gases-q04", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "How many moles are in 120 cm³ of nitrogen gas at rtp?",
+      "options": ["0.0050 mol", "5.0 mol", "0.50 mol", "2880 mol"],
+      "answer": 0,
+      "markScheme": ["1 mark: 0.0050 mol"],
+      "explanation": "120 ÷ 24 000 = 0.0050 mol. Dividing 120 by 24 gives 5.0, which forgets that 24 is in dm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q05", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "N₂(g) + 3H₂(g) → 2NH₃(g). What volume of ammonia is made from 30 dm³ of hydrogen? (Same temperature and pressure.)",
+      "options": ["10 dm³", "20 dm³", "30 dm³", "60 dm³"],
+      "answer": 1,
+      "markScheme": ["1 mark: 20 dm³"],
+      "explanation": "Volume ratio H₂ : NH₃ = 3 : 2. 30 × 2 ÷ 3 = 20 dm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q06", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "What is the volume of 3.2 g of oxygen gas, O₂, at rtp? (Ar: O = 16)",
+      "options": ["4.8 dm³", "0.1 dm³", "2.4 dm³", "76.8 dm³"],
+      "answer": 2,
+      "markScheme": ["1 mark: 2.4 dm³"],
+      "explanation": "3.2 ÷ 32 = 0.10 mol; 0.10 × 24 = 2.4 dm³. 4.8 dm³ uses Ar of O (16) instead of Mr of O₂."
+    },
+    {
+      "id": "c3-volumes-of-gases-q07", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
+      "question": "Why do equal numbers of moles of different gases occupy the same volume at the same temperature and pressure?",
+      "options": ["All gas molecules are the same size", "All gases have the same Mr", "Gas particles have no mass", "Gas particles are very far apart compared with their size"],
+      "answer": 3,
+      "markScheme": ["1 mark: gas particles are very far apart compared with their size"],
+      "explanation": "Most of a gas is empty space, so the size and mass of the particles make almost no difference to the volume."
+    },
+    {
+      "id": "c3-volumes-of-gases-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "2CO(g) + O₂(g) → 2CO₂(g). 40 cm³ of carbon monoxide is mixed with 40 cm³ of oxygen and reacts completely. What is the total volume of gas at the end? (Same temperature and pressure.)",
+      "options": ["40 cm³", "80 cm³", "60 cm³", "120 cm³"],
+      "answer": 2,
+      "markScheme": ["1 mark: 60 cm³"],
+      "explanation": "40 cm³ CO reacts with 20 cm³ O₂ to make 40 cm³ CO₂. 20 cm³ of O₂ is left over. Total = 40 + 20 = 60 cm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "0.64 g of a gas occupies 240 cm³ at rtp. What is its Mr?",
+      "options": ["64", "32", "16", "2.67"],
+      "answer": 0,
+      "markScheme": ["1 mark: 64"],
+      "explanation": "Moles = 240 ÷ 24 000 = 0.010 mol. Mr = 0.64 ÷ 0.010 = 64 (for example SO₂)."
+    },
+    {
+      "id": "c3-volumes-of-gases-q10", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Calculate the volume of 2.0 mol of oxygen gas at rtp. (1 mol of gas occupies 24 dm³ at rtp)",
+      "numericAnswer": 48, "tolerance": 0.01, "unit": "dm³",
+      "markScheme": ["1 mark: 2.0 × 24 = 48 dm³"],
+      "explanation": "Volume = moles × 24 = 48 dm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q11", "type": "numeric", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Calculate the number of moles in 6.0 dm³ of carbon dioxide at rtp.",
+      "numericAnswer": 0.25, "tolerance": 0.01, "unit": "mol",
+      "markScheme": ["1 mark: 6.0 ÷ 24 = 0.25 mol"],
+      "explanation": "Moles = volume (dm³) ÷ 24 = 0.25 mol."
+    },
+    {
+      "id": "c3-volumes-of-gases-q12", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Calculate the volume of 8.8 g of carbon dioxide at rtp. (Ar: C = 12, O = 16)",
+      "numericAnswer": 4.8, "tolerance": 0.01, "unit": "dm³",
+      "markScheme": ["1 mark: Mr = 44", "1 mark: moles = 8.8 ÷ 44 = 0.20", "1 mark: volume = 0.20 × 24 = 4.8 dm³"],
+      "explanation": "Mass to moles, then moles to volume."
+    },
+    {
+      "id": "c3-volumes-of-gases-q13", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Calculate the volume, in cm³, of 0.32 g of oxygen gas, O₂, at rtp. (Ar: O = 16)",
+      "numericAnswer": 240, "tolerance": 0.01, "unit": "cm³",
+      "markScheme": ["1 mark: moles = 0.32 ÷ 32 = 0.010 mol", "1 mark: volume = 0.010 × 24 000", "1 mark: 240 cm³"],
+      "explanation": "Use 24 000 cm³ per mole when the answer is needed in cm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q14", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 3,
+      "question": "Calculate the mass of 1.2 dm³ of carbon dioxide at rtp. (Ar: C = 12, O = 16)",
+      "numericAnswer": 2.2, "tolerance": 0.01, "unit": "g",
+      "markScheme": ["1 mark: moles = 1.2 ÷ 24 = 0.050", "1 mark: Mr = 44", "1 mark: mass = 0.050 × 44 = 2.2 g"],
+      "explanation": "Volume to moles, then moles to mass."
+    },
+    {
+      "id": "c3-volumes-of-gases-q15", "type": "numeric", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Calculate the volume of oxygen needed to burn 50 cm³ of methane completely. (Same temperature and pressure.)",
+      "numericAnswer": 100, "tolerance": 0.01, "unit": "cm³",
+      "markScheme": ["1 mark: volume ratio CH₄ : O₂ = 1 : 2", "1 mark: 2 × 50 = 100 cm³"],
+      "explanation": "For gases, volume ratio = mole ratio, so no conversion to moles is needed."
+    },
+    {
+      "id": "c3-volumes-of-gases-q16", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "CaCO₃(s) → CaO(s) + CO₂(g). Calculate the volume of carbon dioxide at rtp produced when 10 g of calcium carbonate is completely decomposed. (Ar: C = 12, O = 16, Ca = 40)",
+      "numericAnswer": 2.4, "tolerance": 0.01, "unit": "dm³",
+      "markScheme": ["1 mark: moles CaCO₃ = 10 ÷ 100 = 0.10", "1 mark: moles CO₂ = 0.10", "1 mark: volume = 0.10 × 24 = 2.4 dm³"],
+      "explanation": "Use the equation to find moles of gas, then multiply by 24."
+    },
+    {
+      "id": "c3-volumes-of-gases-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g). Calculate the volume of hydrogen, in cm³ at rtp, produced when 0.48 g of magnesium reacts with excess acid. (Ar: Mg = 24)",
+      "numericAnswer": 480, "tolerance": 0.01, "unit": "cm³",
+      "markScheme": ["1 mark: moles Mg = 0.48 ÷ 24 = 0.020", "1 mark: moles H₂ = 0.020 (1 : 1)", "1 mark: volume = 0.020 × 24 = 0.48 dm³", "1 mark: 480 cm³"],
+      "explanation": "Magnesium is limiting because the acid is in excess, so the moles of hydrogen equal the moles of magnesium."
+    },
+    {
+      "id": "c3-volumes-of-gases-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "2H₂O₂(aq) → 2H₂O(l) + O₂(g). Calculate the volume of oxygen, in dm³ at rtp, produced when 3.4 g of hydrogen peroxide decomposes completely. (Ar: H = 1, O = 16)",
+      "numericAnswer": 1.2, "tolerance": 0.01, "unit": "dm³",
+      "markScheme": ["1 mark: Mr H₂O₂ = 34; moles = 0.10", "1 mark: moles O₂ = 0.10 ÷ 2 = 0.050", "1 mark: volume = 0.050 × 24", "1 mark: 1.2 dm³"],
+      "explanation": "The 2 : 1 ratio halves the moles. Water is a liquid, so only the oxygen counts as gas volume."
+    },
+    {
+      "id": "c3-volumes-of-gases-q19", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "State the volume in cm³ occupied by one mole of gas at rtp.",
+      "acceptedAnswers": ["24 000 cm³", "24000"],
+      "markScheme": ["1 mark: 24 000 cm³"],
+      "explanation": "24 dm³ × 1000 = 24 000 cm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q20", "type": "short", "tier": "higher", "difficulty": 1, "marks": 1,
+      "question": "Write the equation linking the volume of a gas at rtp to the number of moles.",
+      "acceptedAnswers": ["volume = moles × 24", "V = n × 24", "volume in dm³ = moles × 24"],
+      "markScheme": ["1 mark: volume (dm³) = moles × 24"],
+      "explanation": "This relies on the molar gas volume of 24 dm³ at rtp."
+    },
+    {
+      "id": "c3-volumes-of-gases-q21", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "Explain why 2 g of hydrogen and 32 g of oxygen occupy the same volume at rtp.",
+      "acceptedAnswers": ["both are 1 mol", "same number of molecules", "gas particles far apart"],
+      "markScheme": ["1 mark: both are 1 mol (2 ÷ 2 = 1; 32 ÷ 32 = 1), so they contain the same number of molecules", "1 mark: equal moles of gases occupy equal volumes (24 dm³) at the same temperature and pressure, because gas particles are far apart"],
+      "explanation": "The volume depends on the number of molecules, not their mass."
+    },
+    {
+      "id": "c3-volumes-of-gases-q22", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "A student says that 1 mol of water at rtp occupies 24 dm³. Explain why the student is wrong.",
+      "acceptedAnswers": ["water is a liquid", "only applies to gases", "particles close together in a liquid"],
+      "markScheme": ["1 mark: water is a liquid at rtp (20 °C)", "1 mark: the molar volume of 24 dm³ only applies to gases; in a liquid the particles are close together, so 1 mol occupies a much smaller volume (about 18 cm³)"],
+      "explanation": "Always check the state symbol before using 24 dm³."
+    },
+    {
+      "id": "c3-volumes-of-gases-q23", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
+      "question": "C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l). Calculate the volume of carbon dioxide formed when 20 cm³ of propane burns completely. (Same temperature and pressure.)",
+      "acceptedAnswers": ["60 cm³", "60"],
+      "markScheme": ["1 mark: volume ratio C₃H₈ : CO₂ = 1 : 3", "1 mark: 3 × 20 = 60 cm³"],
+      "explanation": "Gas volumes are in the same ratio as the coefficients."
+    },
+    {
+      "id": "c3-volumes-of-gases-q24", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "H₂(g) + Cl₂(g) → 2HCl(g). 50 cm³ of hydrogen is mixed with 30 cm³ of chlorine and they react. Calculate the volume of each gas present at the end. (Same temperature and pressure.)",
+      "acceptedAnswers": ["60 cm³ HCl", "20 cm³ hydrogen left", "no chlorine left"],
+      "markScheme": ["1 mark: chlorine is limiting; 30 cm³ Cl₂ reacts with 30 cm³ H₂", "1 mark: 60 cm³ of HCl forms", "1 mark: 20 cm³ of H₂ is left over (0 cm³ of Cl₂)"],
+      "explanation": "Limiting reactant ideas work with gas volumes too, because volume ratio equals mole ratio."
+    },
+    {
+      "id": "c3-volumes-of-gases-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "Calculate the mass of sulfur dioxide, SO₂, in 600 cm³ of the gas at rtp. (Ar: O = 16, S = 32)",
+      "acceptedAnswers": ["1.6 g", "1.6"],
+      "markScheme": ["1 mark: moles = 600 ÷ 24 000 = 0.025 mol", "1 mark: Mr SO₂ = 64", "1 mark: mass = 0.025 × 64 = 1.6 g"],
+      "explanation": "Convert the volume in cm³ using 24 000, then multiply moles by Mr."
+    },
+    {
+      "id": "c3-volumes-of-gases-q26", "type": "extended", "tier": "higher", "difficulty": 2, "marks": 4,
+      "question": "Zinc reacts with excess sulfuric acid: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g). A student uses 1.30 g of zinc. (Ar: Zn = 65)\nCalculate the volume of hydrogen produced at rtp, in cm³. Explain each step.",
+      "markScheme": [
+        "Indicative content: moles Zn = 1.30 ÷ 65 = 0.020 mol; zinc is the limiting reactant because the acid is in excess; ratio Zn : H₂ = 1 : 1 so 0.020 mol of H₂; volume = 0.020 × 24 = 0.48 dm³; = 480 cm³; 1 mol of any gas occupies 24 dm³ at rtp.",
+        "Level 2 (3 to 4 marks): correct answer (480 cm³) with each step shown and explained, including the mole ratio and unit conversion.",
+        "Level 1 (1 to 2 marks): moles of zinc correct with some further working."
+      ],
+      "explanation": "0.020 mol of zinc gives 0.020 mol of hydrogen, which occupies 0.48 dm³ = 480 cm³ at rtp."
+    },
+    {
+      "id": "c3-volumes-of-gases-q27", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "A car airbag contains sodium azide, NaN₃, which decomposes when triggered: 2NaN₃(s) → 2Na(s) + 3N₂(g). The airbag needs 72 dm³ of nitrogen gas at rtp to inflate. (Ar: N = 14, Na = 23)\nCalculate the mass of sodium azide needed. Explain your method, and explain why the volume of nitrogen depends only on the number of moles of gas and not on the type of gas.",
+      "markScheme": [
+        "Indicative content: moles N₂ = 72 ÷ 24 = 3.0 mol; ratio NaN₃ : N₂ = 2 : 3; moles NaN₃ = 3.0 × 2 ÷ 3 = 2.0 mol; Mr NaN₃ = 23 + (3 × 14) = 65; mass = 2.0 × 65 = 130 g; explanation: gas particles are very far apart, so the volume depends on the number of particles; equal moles of any gas occupy the same volume at the same temperature and pressure (24 dm³ per mole at rtp); temperature and pressure must be the same for this to apply.",
+        "Level 3 (5 to 6 marks): correct mass (130 g) with clear, logical working including the mole ratio, plus a clear particle-based explanation of molar gas volume.",
+        "Level 2 (3 to 4 marks): mostly correct working with one error, and some explanation of why gas volume depends on moles.",
+        "Level 1 (1 to 2 marks): moles of nitrogen correct or a simple statement about gas volumes."
+      ],
+      "explanation": "72 dm³ is 3.0 mol of N₂, which needs 2.0 mol of NaN₃ (130 g). The volume depends on the number of gas particles because the space between them is much larger than the particles themselves."
+    }
+  ]
+}

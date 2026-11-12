@@ -1,0 +1,330 @@
+{
+  "id": "chem-rp2",
+  "science": "chemistry",
+  "number": 2,
+  "title": "Neutralisation: titration of a strong acid and strong alkali",
+  "combined": false,
+  "topicId": "c4",
+  "subtopic": "titrations",
+  "aim": "To find the volume of 0.100 mol/dm³ hydrochloric acid needed to exactly neutralise 25.0 cm³ of sodium hydroxide solution, and use it to calculate the concentration of the sodium hydroxide solution.",
+  "background": [
+    "A titration is used to find the exact volume of one solution that reacts completely with a known volume of another. Acids react with alkalis in a neutralisation reaction to form a salt and water. For hydrochloric acid and sodium hydroxide: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l). The ionic equation for any strong acid and strong alkali is H⁺(aq) + OH⁻(aq) → H₂O(l).",
+    "A pipette measures an exact volume (25.0 cm³) of alkali into a conical flask. The acid is added from a burette, which can deliver any volume to the nearest 0.05 cm³. An indicator shows the end point, when the alkali has just been neutralised. A single-colour-change indicator such as phenolphthalein (pink in alkali, colourless in acid) or methyl orange (yellow in alkali, red in acid) is used. Universal indicator is not suitable because it changes colour gradually.",
+    "The volume of acid added is called the titre. A rough titration is done first to find the approximate end point, then accurate titrations are repeated until at least two titres are concordant (within 0.10 cm³ of each other). The mean of the concordant titres is used in calculations.",
+    "Higher tier students use the mean titre to calculate the concentration of the alkali: find the moles of acid used (concentration × volume in dm³), use the balanced equation to find the moles of alkali, then divide by the volume of alkali in dm³."
+  ],
+  "hypothesis": "A fixed volume of acid will exactly neutralise 25.0 cm³ of the sodium hydroxide solution each time, so repeat accurate titrations will give concordant titres.",
+  "variables": {
+    "independent": "Not a fair test: the measured quantity is the volume of acid needed for neutralisation. The volume of alkali (25.0 cm³) is fixed.",
+    "dependent": "Volume of hydrochloric acid added from the burette to reach the end point (the titre, in cm³).",
+    "control": [
+      "Volume of sodium hydroxide solution (25.0 cm³, measured with a pipette)",
+      "Concentration of hydrochloric acid (0.100 mol/dm³)",
+      "Same indicator and the same number of drops (3 drops of phenolphthalein)",
+      "Same end point colour change judged against a white tile",
+      "Temperature (room temperature)"
+    ]
+  },
+  "equipment": [
+    "50 cm³ burette",
+    "25.0 cm³ volumetric pipette and pipette filler",
+    "250 cm³ conical flask",
+    "Clamp stand, boss and burette clamp",
+    "Small funnel for filling the burette",
+    "White tile",
+    "Hydrochloric acid of known concentration (0.100 mol/dm³)",
+    "Sodium hydroxide solution of unknown concentration",
+    "Phenolphthalein indicator",
+    "Distilled water in a wash bottle",
+    "Eye protection"
+  ],
+  "method": [
+    "Rinse the pipette with a little sodium hydroxide solution. Use the pipette and a pipette filler to transfer exactly 25.0 cm³ of sodium hydroxide solution into a clean conical flask.",
+    "Add 3 drops of phenolphthalein indicator to the flask. The solution turns pink.",
+    "Rinse the burette with a little hydrochloric acid. Clamp it vertically and use a small funnel to fill it with hydrochloric acid, below eye level. Remove the funnel.",
+    "Run a little acid through the tap so that the space below the tap is filled, with no air bubbles.",
+    "Read the initial burette volume at eye level, from the bottom of the meniscus, to the nearest 0.05 cm³. Record it.",
+    "Place the conical flask on a white tile under the burette. Add the acid while swirling the flask, until the pink colour disappears. This is the rough titration. Record the final burette reading.",
+    "Refill the burette and repeat with a fresh 25.0 cm³ of sodium hydroxide and indicator. This time, add the acid quickly until you are about 2 cm³ from the rough end point.",
+    "Then add the acid drop by drop, swirling after each drop and rinsing the sides of the flask with a little distilled water, until one drop turns the solution from pink to colourless. Record the final burette reading.",
+    "Calculate the titre (final reading minus initial reading) for each titration.",
+    "Repeat the accurate titration until you have at least two concordant titres, within 0.10 cm³ of each other.",
+    "Calculate the mean titre using only the concordant results (ignore the rough titre).",
+    "Higher tier: use the mean titre to calculate the concentration of the sodium hydroxide solution in mol/dm³ and in g/dm³."
+  ],
+  "safety": [
+    {
+      "hazard": "Sodium hydroxide solution",
+      "risk": "Alkalis are corrosive or irritant to eyes and skin; even dilute solutions damage eyes.",
+      "precaution": "Wear eye protection, wash splashes off skin immediately with plenty of water."
+    },
+    {
+      "hazard": "Hydrochloric acid",
+      "risk": "Irritant to eyes and skin.",
+      "precaution": "Wear eye protection, use dilute acid, and fill the burette below eye level using a funnel so acid does not splash into the eyes."
+    },
+    {
+      "hazard": "Pipetting by mouth",
+      "risk": "Swallowing corrosive or toxic solution.",
+      "precaution": "Always use a pipette filler; never suck up liquid by mouth."
+    },
+    {
+      "hazard": "Phenolphthalein indicator",
+      "risk": "Made up in ethanol, which is flammable, and phenolphthalein is harmful if swallowed.",
+      "precaution": "Keep away from flames and use only a few drops."
+    }
+  ],
+  "results": {
+    "headers": ["Reading", "Rough", "Titration 1", "Titration 2", "Titration 3"],
+    "rows": [
+      ["Final burette reading (cm³)", "24.60", "24.70", "24.30", "25.20"],
+      ["Initial burette reading (cm³)", "0.00", "0.50", "0.20", "1.05"],
+      ["Titre (cm³)", "24.60", "24.20", "24.10", "24.15"]
+    ],
+    "notes": "All readings are to 2 decimal places, ending in 0 or 5, because a burette is read to the nearest 0.05 cm³. Titrations 1, 2 and 3 are concordant (all within 0.10 cm³). The rough titre is ignored because it overshoots the end point. Mean titre = (24.20 + 24.10 + 24.15) ÷ 3 = 24.15 cm³."
+  },
+  "analysis": [
+    "The mean titre of the concordant results was 24.15 cm³. This is the volume of 0.100 mol/dm³ hydrochloric acid that exactly neutralises 25.0 cm³ of the sodium hydroxide solution.",
+    "Moles of HCl = concentration × volume in dm³ = 0.100 × (24.15 ÷ 1000) = 0.002415 mol (2.415 × 10⁻³ mol).",
+    "From the equation HCl + NaOH → NaCl + H₂O, 1 mol of HCl reacts with 1 mol of NaOH, so moles of NaOH in 25.0 cm³ = 0.002415 mol.",
+    "Concentration of NaOH = moles ÷ volume in dm³ = 0.002415 ÷ 0.0250 = 0.0966 mol/dm³. To convert to g/dm³, multiply by the Mr of NaOH (40): 0.0966 × 40 = 3.86 g/dm³.",
+    "The rough titre (24.60 cm³) is higher than the accurate titres because acid was added quickly and the end point was overshot. The three accurate titres agree within 0.10 cm³, which shows the results are repeatable."
+  ],
+  "errors": [
+    {
+      "error": "Overshooting the end point by adding acid too quickly, giving a titre that is too large.",
+      "improvement": "Do a rough titration first, then add acid drop by drop near the end point while swirling."
+    },
+    {
+      "error": "Reading the burette from above or below eye level (parallax error), or from the top of the meniscus.",
+      "improvement": "Read at eye level from the bottom of the meniscus, to the nearest 0.05 cm³."
+    },
+    {
+      "error": "An air bubble below the burette tap, or the funnel left in the burette dripping in extra acid, makes the recorded volume wrong.",
+      "improvement": "Run some acid through the tap before taking the initial reading, and remove the funnel after filling."
+    },
+    {
+      "error": "Rinsing the burette or pipette with water dilutes the solution, changing its concentration.",
+      "improvement": "Rinse the burette with the acid and the pipette with the alkali that will be used in them. The conical flask can be rinsed with distilled water, as this does not change the moles of alkali in it."
+    },
+    {
+      "error": "Judging the colour change is subjective.",
+      "improvement": "Use a white tile under the flask and a single-colour-change indicator such as phenolphthalein."
+    }
+  ],
+  "diagram": {
+    "title": "Titration apparatus",
+    "caption": "A burette containing hydrochloric acid is clamped vertically above a conical flask containing 25.0 cm³ of sodium hydroxide solution and indicator, standing on a white tile. The burette is read at eye level from the bottom of the meniscus.",
+    "svg": "<svg viewBox=\"0 0 420 330\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"40\" y=\"300\" width=\"110\" height=\"10\"/><line x1=\"60\" y1=\"300\" x2=\"60\" y2=\"20\"/><line x1=\"60\" y1=\"70\" x2=\"150\" y2=\"70\"/><rect x=\"145\" y=\"62\" width=\"20\" height=\"16\" rx=\"3\"/><path d=\"M148 20 V200 L152 210 V222 M162 20 V200 L158 210 V222\"/><path d=\"M140 196 H170\"/><path d=\"M140 196 h-6 v8 h6 Z\"/><path d=\"M140 258 V270 L108 300 H202 L170 270 V258\"/></g><rect x=\"149\" y=\"40\" width=\"12\" height=\"158\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M149 42 q6 4 12 0\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M118 290 L131 278 H179 L192 290 H118 Z M112 296 L118 290 H192 L198 296 Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><rect x=\"95\" y=\"302\" width=\"120\" height=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"0.8\"><line x1=\"149\" y1=\"60\" x2=\"155\" y2=\"60\"/><line x1=\"149\" y1=\"80\" x2=\"155\" y2=\"80\"/><line x1=\"149\" y1=\"100\" x2=\"155\" y2=\"100\"/><line x1=\"149\" y1=\"120\" x2=\"155\" y2=\"120\"/><line x1=\"149\" y1=\"140\" x2=\"155\" y2=\"140\"/><line x1=\"149\" y1=\"160\" x2=\"155\" y2=\"160\"/></g><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"162\" y1=\"42\" x2=\"230\" y2=\"35\"/><line x1=\"162\" y1=\"120\" x2=\"230\" y2=\"110\"/><line x1=\"171\" y1=\"200\" x2=\"230\" y2=\"190\"/><line x1=\"190\" y1=\"285\" x2=\"230\" y2=\"250\"/><line x1=\"210\" y1=\"305\" x2=\"230\" y2=\"300\"/><line x1=\"60\" y1=\"150\" x2=\"20\" y2=\"150\"/><line x1=\"165\" y1=\"70\" x2=\"230\" y2=\"72\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"234\" y=\"38\">Meniscus: read at eye level</text><text x=\"234\" y=\"75\">Burette clamp</text><text x=\"234\" y=\"108\">Burette containing</text><text x=\"234\" y=\"122\">0.100 mol/dm³ HCl(aq)</text><text x=\"234\" y=\"193\">Tap</text><text x=\"234\" y=\"245\">Conical flask: 25.0 cm³</text><text x=\"234\" y=\"259\">NaOH(aq) + indicator</text><text x=\"234\" y=\"303\">White tile</text><text x=\"4\" y=\"140\">Clamp</text><text x=\"4\" y=\"166\">stand</text></g></svg>"
+  },
+  "examTips": [
+    "Record every burette reading to 2 decimal places, ending in 0 or 5 (for example 24.10 or 24.15, never 24.1).",
+    "Concordant means within 0.10 cm³. Use only concordant titres to work out the mean and leave out the rough titre.",
+    "Name a suitable indicator and its colour change: phenolphthalein goes pink to colourless as acid is added to alkali; methyl orange goes yellow to red (orange at the end point). Universal indicator is not suitable.",
+    "Know why each piece of apparatus is used: pipette for an exact fixed volume, burette for a variable volume to 0.05 cm³, white tile to see the colour change, swirling to mix.",
+    "Higher: convert cm³ to dm³ by dividing by 1000, write moles = concentration × volume, use the mole ratio from the balanced equation, then concentration = moles ÷ volume. Multiply by Mr to get g/dm³."
+  ],
+  "questions": [
+    {
+      "id": "chem-rp2-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which piece of apparatus is used to measure exactly 25.0 cm³ of sodium hydroxide solution into the conical flask?",
+      "options": ["Measuring cylinder", "Burette", "Beaker", "Pipette"],
+      "answer": 3,
+      "markScheme": ["1 mark: (volumetric) pipette"],
+      "explanation": "A volumetric pipette delivers one fixed volume very accurately. A burette delivers variable volumes and is used for the acid. A measuring cylinder is much less accurate."
+    },
+    {
+      "id": "chem-rp2-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why is universal indicator not used in a titration?",
+      "options": [
+        "It changes colour gradually, so there is no sharp end point",
+        "It only works in acids",
+        "It reacts with the sodium hydroxide",
+        "It is too expensive"
+      ],
+      "answer": 0,
+      "markScheme": ["1 mark: it changes colour gradually / has many colours, so the end point is not sharp"],
+      "explanation": "Universal indicator passes through many colours as pH changes, so it is hard to see exactly when neutralisation happens. Phenolphthalein or methyl orange give a single, sharp colour change."
+    },
+    {
+      "id": "chem-rp2-q03",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the colour change at the end point when hydrochloric acid is added to sodium hydroxide solution containing phenolphthalein.",
+      "acceptedAnswers": ["pink to colourless"],
+      "markScheme": ["1 mark: pink to colourless (both colours needed, in the correct order)"],
+      "explanation": "Phenolphthalein is pink in alkaline solution and colourless in neutral or acidic solution. 'Clear' is not accepted for colourless."
+    },
+    {
+      "id": "chem-rp2-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The initial burette reading was 1.05 cm³ and the final burette reading was 25.20 cm³.\nCalculate the titre.",
+      "numericAnswer": 24.15,
+      "tolerance": 0.001,
+      "unit": "cm³",
+      "markScheme": ["1 mark: 25.20 − 1.05 = 24.15 cm³"],
+      "explanation": "Titre = final reading − initial reading = 24.15 cm³. Write it to 2 decimal places to match the precision of the burette."
+    },
+    {
+      "id": "chem-rp2-q05",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student recorded these titres: rough 24.60 cm³, 24.20 cm³, 24.10 cm³, 24.15 cm³.\nCalculate the mean titre using the concordant results.",
+      "numericAnswer": 24.15,
+      "tolerance": 0.001,
+      "unit": "cm³",
+      "markScheme": ["1 mark: uses 24.20, 24.10 and 24.15 only (ignores rough titre)", "1 mark: (24.20 + 24.10 + 24.15) ÷ 3 = 24.15 cm³"],
+      "explanation": "The three accurate titres are all within 0.10 cm³ of each other, so all three are concordant. Including the rough titre gives 24.26 cm³, which is wrong because the rough titre overshot."
+    },
+    {
+      "id": "chem-rp2-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which set of titres contains two concordant results?",
+      "options": [
+        "23.40 cm³ and 23.65 cm³",
+        "22.80 cm³ and 22.95 cm³",
+        "24.35 cm³ and 24.30 cm³",
+        "21.10 cm³ and 21.40 cm³"
+      ],
+      "answer": 2,
+      "markScheme": ["1 mark: 24.35 cm³ and 24.30 cm³"],
+      "explanation": "Concordant titres are within 0.10 cm³. 24.35 and 24.30 differ by 0.05 cm³. The other pairs differ by 0.25, 0.15 and 0.30 cm³."
+    },
+    {
+      "id": "chem-rp2-q07",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the conical flask is swirled and placed on a white tile during the titration.",
+      "acceptedAnswers": ["swirl to mix", "acid reacts with all the alkali", "white tile to see colour change", "see end point clearly"],
+      "markScheme": ["1 mark: swirling mixes the acid and alkali so they react completely / the indicator colour is even", "1 mark: the white tile makes the colour change easier to see"],
+      "explanation": "Without swirling, acid could sit in one place and change the indicator locally before all the alkali has reacted. The white background shows a faint pink colour clearly."
+    },
+    {
+      "id": "chem-rp2-q08",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two ways the student made sure the end point was found accurately in titrations 1 to 3.",
+      "acceptedAnswers": ["rough titration first", "add acid drop by drop near the end point", "swirl", "white tile", "rinse sides of flask"],
+      "markScheme": ["1 mark each, up to 2: did a rough titration first to find the approximate end point; added acid dropwise near the end point; swirled the flask after each drop; used a white tile; washed the sides of the flask with distilled water"],
+      "explanation": "Adding the last few cm³ one drop at a time stops the student overshooting, so the titre is accurate to within one drop."
+    },
+    {
+      "id": "chem-rp2-q09",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "24.15 cm³ of 0.100 mol/dm³ hydrochloric acid was needed to neutralise the sodium hydroxide.\nCalculate the number of moles of HCl used.",
+      "numericAnswer": 0.002415,
+      "tolerance": 0.005,
+      "unit": "mol",
+      "markScheme": ["1 mark: 24.15 cm³ = 0.02415 dm³", "1 mark: 0.100 × 0.02415 = 0.002415 mol (2.415 × 10⁻³ mol)"],
+      "explanation": "Moles = concentration × volume in dm³. Forgetting to divide by 1000 gives 2.415 mol, which is far too large."
+    },
+    {
+      "id": "chem-rp2-q10",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "24.15 cm³ of 0.100 mol/dm³ hydrochloric acid exactly neutralised 25.0 cm³ of sodium hydroxide solution.\nHCl + NaOH → NaCl + H₂O\nCalculate the concentration of the sodium hydroxide solution in mol/dm³. Give your answer to 3 significant figures.",
+      "numericAnswer": 0.0966,
+      "tolerance": 0.005,
+      "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles HCl = 0.100 × 24.15 ÷ 1000 = 0.002415 mol", "1 mark: moles NaOH = 0.002415 mol (1 : 1 ratio)", "1 mark: concentration = 0.002415 ÷ 0.0250 = 0.0966 mol/dm³"],
+      "explanation": "Use the mole ratio from the equation, then divide by the volume of alkali in dm³ (25.0 ÷ 1000 = 0.0250 dm³). The answer is slightly less than 0.100 mol/dm³ because less acid than alkali was needed."
+    },
+    {
+      "id": "chem-rp2-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The concentration of a sodium hydroxide solution is 0.0966 mol/dm³.\nCalculate its concentration in g/dm³. Relative formula mass (Mr) of NaOH = 40. Give your answer to 3 significant figures.",
+      "numericAnswer": 3.86,
+      "tolerance": 0.005,
+      "unit": "g/dm³",
+      "markScheme": ["1 mark: 0.0966 × 40", "1 mark: 3.86 g/dm³"],
+      "explanation": "Mass concentration (g/dm³) = concentration (mol/dm³) × Mr. 0.0966 × 40 = 3.864, which is 3.86 g/dm³."
+    },
+    {
+      "id": "chem-rp2-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "In another titration, 20.00 cm³ of dilute sulfuric acid neutralised 25.0 cm³ of 0.200 mol/dm³ sodium hydroxide solution.\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\nCalculate the concentration of the sulfuric acid in mol/dm³.",
+      "numericAnswer": 0.125,
+      "tolerance": 0.005,
+      "unit": "mol/dm³",
+      "markScheme": ["1 mark: moles NaOH = 0.200 × 25.0 ÷ 1000 = 0.00500 mol", "1 mark: moles H₂SO₄ = 0.00500 ÷ 2 = 0.00250 mol", "1 mark: concentration = 0.00250 ÷ 0.02000 = 0.125 mol/dm³"],
+      "explanation": "Sulfuric acid reacts with sodium hydroxide in a 1 : 2 ratio, so the moles of acid are half the moles of alkali. Ignoring the ratio gives 0.250 mol/dm³."
+    },
+    {
+      "id": "chem-rp2-q13",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student rinsed the burette with distilled water but did not rinse it with acid before filling it. What effect would this have on the titre?",
+      "options": [
+        "The titre would be smaller, because the acid is more concentrated",
+        "The titre would be larger, because the acid is diluted",
+        "No effect, because water is neutral",
+        "The titre would be smaller, because water neutralises some alkali"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: titre larger because the acid is diluted (lower concentration)"],
+      "explanation": "Water left in the burette dilutes the acid, so each cm³ contains fewer moles of H⁺ and more acid is needed to neutralise the alkali. Water in the conical flask does not matter because it does not change the moles of alkali."
+    },
+    {
+      "id": "chem-rp2-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Write the ionic equation for the neutralisation of any strong acid by any strong alkali. Include state symbols.",
+      "acceptedAnswers": ["H⁺(aq) + OH⁻(aq) → H₂O(l)", "H+ + OH- → H2O"],
+      "markScheme": ["1 mark: H⁺(aq) + OH⁻(aq) → H₂O(l)"],
+      "explanation": "Hydrogen ions from the acid react with hydroxide ions from the alkali to form water. The other ions (such as Na⁺ and Cl⁻) are spectator ions."
+    },
+    {
+      "id": "chem-rp2-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how a student could use a titration to find the volume of hydrochloric acid that exactly neutralises 25.0 cm³ of sodium hydroxide solution.",
+      "markScheme": [
+        "Indicative content: use a pipette (and pipette filler) to measure 25.0 cm³ of sodium hydroxide into a conical flask; add a few drops of a suitable indicator such as phenolphthalein or methyl orange; place flask on a white tile; fill a burette with hydrochloric acid using a funnel, below eye level; record initial burette reading at eye level from bottom of meniscus; add acid while swirling; add acid dropwise near the end point; stop when the indicator changes colour (pink to colourless for phenolphthalein); record final reading; titre = final − initial; do a rough titration first; repeat until concordant titres within 0.10 cm³; calculate mean of concordant titres",
+        "Level 3 (5 to 6 marks): a coherent, detailed method using the correct apparatus, with indicator and end point colour change, dropwise addition near the end point and repeats to obtain concordant results.",
+        "Level 2 (3 to 4 marks): a method with the main steps (pipette, burette, indicator, colour change) but missing some detail such as dropwise addition or repeating to concordance.",
+        "Level 1 (1 to 2 marks): simple statements such as add acid to alkali with an indicator until it changes colour, with little detail.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers name both pieces of measuring apparatus correctly, name a suitable indicator and its colour change, explain how the end point is approached carefully, and describe repeating to get concordant titres."
+    }
+  ]
+}

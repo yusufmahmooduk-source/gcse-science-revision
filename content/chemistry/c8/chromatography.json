@@ -1,0 +1,732 @@
+{
+  "id": "c8-chromatography",
+  "science": "chemistry",
+  "topicId": "c8",
+  "slug": "chromatography",
+  "specRef": "4.8.1.3",
+  "title": "Chromatography",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Chromatography is a method used to separate the substances in a mixture and help identify them. It has a stationary phase and a mobile phase; substances separate because each one is distributed differently between the two phases, so they move different distances.",
+    "explanation": [
+      "All chromatography uses two phases. The stationary phase does not move: in paper chromatography it is the paper. The mobile phase moves through the stationary phase: in paper chromatography it is the solvent (for example water or ethanol), which soaks up the paper. As the solvent moves, it carries the substances in the mixture with it.",
+      "Separation depends on how each substance is distributed between the two phases. A substance that is very soluble in the solvent and only weakly attracted to the paper spends more of its time in the mobile phase, so it moves a long way up the paper. A substance that is more strongly attracted to the paper, or less soluble in the solvent, spends more time in the stationary phase and moves a shorter distance. A substance that is insoluble in the solvent stays on the start line.",
+      "In required practical 6, a pencil line is drawn about 1 to 2 cm above the bottom of a sheet of chromatography paper. Small, concentrated spots of each ink or food colouring are placed on the line. The paper is put in a beaker with solvent below the pencil line, and a lid is placed on top. When the solvent has nearly reached the top, the paper is removed and the solvent front is marked in pencil. The dried paper is called a chromatogram.",
+      "Each spot can be described by its Rf value: Rf = distance moved by substance ÷ distance moved by solvent. Both distances are measured from the start line, to the centre of the spot and to the solvent front. Rf has no units and is always less than 1. A compound has a specific Rf value in a particular solvent, but it has different Rf values in different solvents. Unknown substances can be identified by comparing their Rf values with those of known reference substances run in the same solvent.",
+      "A pure compound gives a single spot in all solvents. A mixture may separate into two or more spots, although two substances could have the same Rf value in one solvent, so it is good practice to repeat in a different solvent. If an unknown spot matches a reference spot in Rf value (and colour) in several solvents, it is very likely to be the same substance. Chromatography is used to check food colourings, analyse inks in forensic work, and test the purity of medicines."
+    ],
+    "keyFacts": [
+      "Chromatography separates mixtures and helps identify substances.",
+      "Stationary phase: the paper (does not move). Mobile phase: the solvent (moves).",
+      "Separation depends on how each substance is distributed between the mobile and stationary phases.",
+      "Rf = distance moved by substance ÷ distance moved by solvent.",
+      "Rf has no units and is always between 0 and 1.",
+      "A compound has different Rf values in different solvents.",
+      "A pure compound produces a single spot in all solvents.",
+      "Draw the start line in pencil, not ink, because pencil does not dissolve in the solvent.",
+      "The solvent level must be below the start line, or the spots would dissolve into the solvent.",
+      "A lid stops the solvent evaporating, so the air inside stays saturated with solvent vapour."
+    ],
+    "keyTerms": [
+      {
+        "term": "Chromatography",
+        "definition": "A technique that separates the substances in a mixture using a stationary phase and a mobile phase."
+      },
+      {
+        "term": "Stationary phase",
+        "definition": "The phase that does not move; in paper chromatography, the paper."
+      },
+      {
+        "term": "Mobile phase",
+        "definition": "The phase that moves through the stationary phase; in paper chromatography, the solvent."
+      },
+      {
+        "term": "Solvent front",
+        "definition": "The furthest point reached by the solvent as it moves up the paper."
+      },
+      {
+        "term": "Rf value",
+        "definition": "Distance moved by a substance divided by distance moved by the solvent, both measured from the start line."
+      },
+      {
+        "term": "Chromatogram",
+        "definition": "The pattern of spots produced on the paper after chromatography."
+      },
+      {
+        "term": "Start line (baseline)",
+        "definition": "The pencil line on which the samples are spotted at the beginning."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Rf value",
+        "formula": "Rf = distance moved by substance ÷ distance moved by solvent",
+        "symbols": "Rf = distance to centre of spot ÷ distance to solvent front",
+        "units": "no units",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating an Rf value",
+        "question": "On a chromatogram, the solvent front is 8.0 cm from the start line. A red spot is 3.6 cm from the start line. Calculate the Rf value of the red substance.",
+        "steps": [
+          "Rf = distance moved by substance ÷ distance moved by solvent.",
+          "Rf = 3.6 ÷ 8.0.",
+          "= 0.45 (no units)."
+        ],
+        "answer": "0.45"
+      },
+      {
+        "title": "Measuring from the start line",
+        "question": "The start line is 1.5 cm from the bottom of the paper. The centre of a blue spot is 6.3 cm from the bottom and the solvent front is 11.5 cm from the bottom. Calculate the Rf value.",
+        "steps": [
+          "Distances must be measured from the start line, not the bottom of the paper.",
+          "Spot: 6.3 − 1.5 = 4.8 cm. Solvent: 11.5 − 1.5 = 10.0 cm.",
+          "Rf = 4.8 ÷ 10.0 = 0.48."
+        ],
+        "answer": "0.48"
+      },
+      {
+        "title": "Rearranging the Rf equation",
+        "question": "A dye has an Rf value of 0.65 in water. The solvent front moves 9.2 cm from the start line. How far does the dye move?",
+        "steps": [
+          "Distance moved by substance = Rf × distance moved by solvent.",
+          "= 0.65 × 9.2.",
+          "= 5.98 cm, which is 6.0 cm to 2 significant figures."
+        ],
+        "answer": "6.0 cm (5.98 cm)"
+      },
+      {
+        "title": "Identifying a dye",
+        "question": "An unknown food colouring X gives two spots with Rf values 0.32 and 0.71. Reference dyes have Rf values: E102 0.71, E110 0.55, E133 0.32, E124 0.48 in the same solvent. Which dyes are in X?",
+        "steps": [
+          "Compare each Rf value for X with the reference values measured in the same solvent.",
+          "0.32 matches E133; 0.71 matches E102.",
+          "X gives two spots, so it is a mixture of these two dyes."
+        ],
+        "answer": "E102 and E133"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Paper chromatography apparatus",
+        "caption": "Spots of ink are placed on a pencil start line above the solvent level. The solvent (mobile phase) moves up the paper (stationary phase) and the lid stops it evaporating.",
+        "svg": "<svg viewBox='0 0 460 280' xmlns='http://www.w3.org/2000/svg'><rect x='95' y='40' width='170' height='12' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><path d='M100 52 V255 H260 V52' fill='none' stroke='currentColor' stroke-width='2'/><rect x='102' y='215' width='156' height='38' fill='#93c5fd' fill-opacity='0.5'/><rect x='140' y='30' width='80' height='10' fill='currentColor'/><rect x='145' y='40' width='70' height='205' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='145' y1='200' x2='215' y2='200' stroke='currentColor' stroke-width='1.5'/><circle cx='165' cy='200' r='4' fill='#fca5a5' stroke='currentColor'/><circle cx='195' cy='200' r='4' fill='#c4b5fd' stroke='currentColor'/><line x1='265' y1='46' x2='310' y2='46' stroke='currentColor'/><text x='314' y='50' font-size='12' fill='currentColor'>lid (stops evaporation)</text><line x1='220' y1='35' x2='310' y2='75' stroke='currentColor'/><text x='314' y='79' font-size='12' fill='currentColor'>rod / clip holding paper</text><line x1='215' y1='120' x2='310' y2='120' stroke='currentColor'/><text x='314' y='116' font-size='12' fill='currentColor'>chromatography paper</text><text x='314' y='131' font-size='12' fill='currentColor'>(stationary phase)</text><line x1='215' y1='200' x2='310' y2='175' stroke='currentColor'/><text x='314' y='172' font-size='12' fill='currentColor'>pencil start line</text><text x='314' y='187' font-size='12' fill='currentColor'>with spots of ink</text><line x1='258' y1='235' x2='310' y2='235' stroke='currentColor'/><text x='314' y='232' font-size='12' fill='currentColor'>solvent (mobile phase),</text><text x='314' y='247' font-size='12' fill='currentColor'>level below start line</text><text x='20' y='272' font-size='12' fill='currentColor'>beaker</text><line x1='55' y1='268' x2='100' y2='250' stroke='currentColor'/></svg>"
+      },
+      {
+        "title": "Measuring an Rf value",
+        "caption": "Both distances are measured from the start line: to the centre of the spot and to the solvent front. Here the ink separates into two dyes; the reference dye R matches the upper spot.",
+        "svg": "<svg viewBox='0 0 440 280' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='160' height='245' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><line x1='40' y1='225' x2='200' y2='225' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='45' x2='200' y2='45' stroke='currentColor' stroke-dasharray='5 4'/><circle cx='85' cy='105' r='7' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><circle cx='85' cy='165' r='7' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><circle cx='150' cy='105' r='7' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='70' y='242' font-size='12' fill='currentColor'>ink</text><text x='146' y='242' font-size='12' fill='currentColor'>R</text><line x1='225' y1='45' x2='225' y2='225' stroke='currentColor'/><path d='M225 45 l-4 8 h8 z' fill='currentColor'/><line x1='255' y1='105' x2='255' y2='225' stroke='currentColor'/><path d='M255 105 l-4 8 h8 z' fill='currentColor'/><line x1='92' y1='105' x2='255' y2='105' stroke='currentColor' stroke-dasharray='2 3'/><text x='262' y='40' font-size='12' fill='currentColor'>solvent front</text><text x='230' y='140' font-size='12' fill='currentColor' transform='rotate(-90 230 140)'>solvent</text><text x='268' y='160' font-size='12' fill='currentColor'>distance moved by</text><text x='268' y='175' font-size='12' fill='currentColor'>substance (to centre)</text><text x='262' y='229' font-size='12' fill='currentColor'>pencil start line</text><text x='262' y='260' font-size='12' fill='currentColor'>Rf = substance ÷ solvent</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often draw the start line in ink or felt-tip pen.",
+        "right": "In fact the start line must be in pencil; ink would dissolve in the solvent and run up the paper, confusing the results. Graphite is insoluble."
+      },
+      {
+        "wrong": "Students often measure distances from the bottom edge of the paper.",
+        "right": "In fact both distances are measured from the start line: to the centre of the spot and to the solvent front."
+      },
+      {
+        "wrong": "Students often think Rf = distance moved by solvent ÷ distance moved by substance, giving values bigger than 1.",
+        "right": "In fact Rf = substance ÷ solvent, so it is always less than 1 because the substance never moves further than the solvent."
+      },
+      {
+        "wrong": "Students often think one spot in one solvent proves a substance is pure.",
+        "right": "In fact two substances could have the same Rf in one solvent. A pure compound gives a single spot in all solvents, so test in more than one solvent."
+      },
+      {
+        "wrong": "Students often think a substance that stays on the start line has not been tested properly.",
+        "right": "In fact it is insoluble in that solvent; try a different solvent."
+      }
+    ],
+    "realWorld": [
+      "Food scientists use chromatography to check that only permitted food colourings are present in sweets and drinks.",
+      "Forensic scientists compare the inks in a forged document or ransom note with inks from suspects' pens.",
+      "Pharmaceutical companies use chromatography to check drugs for impurities.",
+      "Chromatography is used to test athletes' urine for banned substances."
+    ],
+    "practicals": [
+      "chem-rp6"
+    ],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the reasons for each step: pencil line (does not dissolve), solvent below the line (spots would dissolve into the solvent), lid (stops solvent evaporating), small concentrated spots (clear separation).",
+      "Always measure Rf distances from the start line to the centre of the spot. Give Rf as a decimal with no units.",
+      "If a question asks how to tell if a substance is pure, say 'a pure substance gives one spot in all solvents'.",
+      "To identify a substance, compare Rf values with reference substances run in the same solvent (and ideally on the same paper).",
+      "In 'explain the separation' questions, use the phrase 'distributed between the mobile and stationary phases'."
+    ],
+    "summary": [
+      "Paper chromatography: paper is the stationary phase, solvent is the mobile phase.",
+      "Substances separate because they distribute differently between the two phases.",
+      "Rf = distance moved by substance ÷ distance moved by solvent.",
+      "Rf values depend on the solvent; compare with references in the same solvent.",
+      "Pure compounds give one spot in every solvent; mixtures may give several.",
+      "Use a pencil start line above the solvent level, and a lid."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What are the two phases in chromatography?",
+      "back": "The stationary phase and the mobile phase."
+    },
+    {
+      "front": "In paper chromatography, what is the stationary phase?",
+      "back": "The paper."
+    },
+    {
+      "front": "In paper chromatography, what is the mobile phase?",
+      "back": "The solvent."
+    },
+    {
+      "front": "Equation for Rf?",
+      "back": "Rf = distance moved by substance ÷ distance moved by solvent."
+    },
+    {
+      "front": "Why is the start line drawn in pencil?",
+      "back": "Pencil (graphite) does not dissolve in the solvent, so it will not move up the paper."
+    },
+    {
+      "front": "Why must the solvent level be below the start line?",
+      "back": "Otherwise the samples would dissolve into the solvent in the beaker instead of moving up the paper."
+    },
+    {
+      "front": "Why is a lid put on the beaker?",
+      "back": "To stop the solvent evaporating."
+    },
+    {
+      "front": "How many spots does a pure compound give?",
+      "back": "One spot in all solvents."
+    },
+    {
+      "front": "Why can Rf never be greater than 1?",
+      "back": "A substance cannot move further than the solvent that carries it."
+    },
+    {
+      "front": "What is the solvent front?",
+      "back": "The furthest point the solvent reaches on the paper."
+    },
+    {
+      "front": "Why do substances separate in chromatography?",
+      "back": "Each is distributed differently between the mobile and stationary phases, so they move different distances."
+    },
+    {
+      "front": "What does a spot that stays on the start line tell you?",
+      "back": "That substance is insoluble in the solvent used."
+    },
+    {
+      "front": "How do you identify an unknown dye using chromatography?",
+      "back": "Compare its Rf value (and colour) with those of known reference dyes run in the same solvent."
+    },
+    {
+      "front": "Does a substance have the same Rf in every solvent?",
+      "back": "No: Rf values differ in different solvents."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c8-chromatography-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In paper chromatography, what is the stationary phase?",
+      "options": [
+        "The solvent",
+        "The paper",
+        "The pencil line",
+        "The ink"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The paper"
+      ],
+      "explanation": "The paper does not move, so it is the stationary phase. The solvent is the mobile phase."
+    },
+    {
+      "id": "c8-chromatography-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation is used to calculate an Rf value?",
+      "options": [
+        "Rf = distance moved by solvent ÷ distance moved by substance",
+        "Rf = distance moved by solvent − distance moved by substance",
+        "Rf = distance moved by substance × distance moved by solvent",
+        "Rf = distance moved by substance ÷ distance moved by solvent"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Rf = distance moved by substance ÷ distance moved by solvent"
+      ],
+      "explanation": "Rf is the substance distance divided by the solvent distance, so it is always less than 1."
+    },
+    {
+      "id": "c8-chromatography-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why is the start line on chromatography paper drawn in pencil?",
+      "options": [
+        "Pencil does not dissolve in the solvent",
+        "Pencil is easier to see",
+        "Pencil helps the solvent move up the paper",
+        "Ink would react with the paper"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Pencil does not dissolve in the solvent"
+      ],
+      "explanation": "Graphite is insoluble in the solvent, so the line stays where it is. Ink would dissolve and run up the paper with the samples."
+    },
+    {
+      "id": "c8-chromatography-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How many spots does a pure compound produce on a chromatogram?",
+      "options": [
+        "None",
+        "Two",
+        "One",
+        "One for each element in the compound"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: One"
+      ],
+      "explanation": "A pure compound gives a single spot in all solvents. A common error is to think a compound separates into its elements: chromatography separates substances in mixtures, it does not break compounds down."
+    },
+    {
+      "id": "c8-chromatography-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why must the solvent level be below the start line?",
+      "options": [
+        "So that the paper does not tear",
+        "So that the spots do not dissolve into the solvent in the beaker",
+        "So that the solvent moves faster",
+        "So that the Rf values are larger"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: So that the spots do not dissolve into the solvent in the beaker"
+      ],
+      "explanation": "If the spots were under the solvent, they would wash into the solvent in the beaker instead of being carried up the paper."
+    },
+    {
+      "id": "c8-chromatography-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A spot of ink stays on the start line in water. What is the best explanation?",
+      "options": [
+        "The ink is pure",
+        "The paper was too wet",
+        "The ink has an Rf value of 1",
+        "The ink is insoluble in water"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The ink is insoluble in water"
+      ],
+      "explanation": "A substance that does not dissolve in the mobile phase is not carried up the paper, so its Rf is 0 in that solvent. A different solvent should be tried."
+    },
+    {
+      "id": "c8-chromatography-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is a lid placed on the beaker during paper chromatography?",
+      "options": [
+        "To stop the solvent evaporating",
+        "To keep light out",
+        "To stop the spots fading",
+        "To keep the paper dry"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To stop the solvent evaporating"
+      ],
+      "explanation": "A lid keeps the atmosphere in the beaker saturated with solvent vapour, so solvent does not evaporate from the paper before reaching the top."
+    },
+    {
+      "id": "c8-chromatography-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Substance A travels further up the paper than substance B in the same solvent. Which statement explains this?",
+      "options": [
+        "A is more strongly attracted to the paper than B",
+        "A is less soluble in the solvent than B",
+        "A spends more of its time in the mobile phase than B",
+        "A has a larger Rf value because it is a heavier molecule"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A spends more of its time in the mobile phase than B"
+      ],
+      "explanation": "A substance that is distributed more into the mobile phase (more soluble in the solvent, less attracted to the paper) moves further. Molecule mass is not the explanation at GCSE."
+    },
+    {
+      "id": "c8-chromatography-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sample gives one spot with Rf = 0.40 in water. What is the most valid conclusion?",
+      "options": [
+        "The sample is definitely pure",
+        "The sample may be pure; it should be tested in a different solvent",
+        "The sample is definitely a mixture",
+        "The sample is insoluble in water"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The sample may be pure; it should be tested in a different solvent"
+      ],
+      "explanation": "Two substances can have the same Rf in one solvent. A pure compound gives one spot in all solvents, so further solvents are needed before concluding it is pure."
+    },
+    {
+      "id": "c8-chromatography-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these Rf values cannot be correct?",
+      "options": [
+        "0.08",
+        "0.50",
+        "0.93",
+        "1.25"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 1.25"
+      ],
+      "explanation": "Rf can never be more than 1 because a substance cannot travel further than the solvent front."
+    },
+    {
+      "id": "c8-chromatography-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A dye moves 3.0 cm and the solvent moves 7.5 cm from the start line. Calculate the Rf value of the dye.",
+      "numericAnswer": 0.4,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: Rf = 3.0 ÷ 7.5",
+        "1 mark: 0.40"
+      ],
+      "explanation": "Rf = substance ÷ solvent = 3.0 ÷ 7.5 = 0.40. Rf has no units."
+    },
+    {
+      "id": "c8-chromatography-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a chromatography experiment the solvent front was 7.0 cm from the start line. A green spot was 2.1 cm from the start line. Calculate the Rf value of the green substance.",
+      "numericAnswer": 0.3,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 2.1 ÷ 7.0",
+        "1 mark: 0.30"
+      ],
+      "explanation": "Rf = 2.1 ÷ 7.0 = 0.30. Dividing the other way round gives 3.33, which is impossible for an Rf value."
+    },
+    {
+      "id": "c8-chromatography-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A substance has an Rf value of 0.65 in ethanol. The solvent front moves 9.2 cm from the start line. Calculate how far the substance moves. Give your answer to 2 significant figures.",
+      "numericAnswer": 6,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: distance = 0.65 × 9.2",
+        "1 mark: 6.0 cm (5.98)"
+      ],
+      "explanation": "Rearrange Rf = substance ÷ solvent to give substance = Rf × solvent = 0.65 × 9.2 = 5.98 cm = 6.0 cm."
+    },
+    {
+      "id": "c8-chromatography-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student measures from the bottom edge of the paper. The start line is 1.5 cm from the bottom, the centre of a spot is 6.3 cm from the bottom and the solvent front is 11.5 cm from the bottom. Calculate the correct Rf value.",
+      "numericAnswer": 0.48,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: substance distance = 6.3 − 1.5 = 4.8 cm",
+        "1 mark: solvent distance = 11.5 − 1.5 = 10.0 cm",
+        "1 mark: Rf = 4.8 ÷ 10.0 = 0.48"
+      ],
+      "explanation": "Distances must be from the start line. Using 6.3 ÷ 11.5 = 0.55 is a common error."
+    },
+    {
+      "id": "c8-chromatography-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A dye has an Rf value of 0.40. It moves 3.0 cm from the start line. Calculate the distance moved by the solvent.",
+      "numericAnswer": 7.5,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: solvent distance = 3.0 ÷ 0.40",
+        "1 mark: 7.5 cm"
+      ],
+      "explanation": "Rearrange: solvent distance = substance distance ÷ Rf = 3.0 ÷ 0.40 = 7.5 cm."
+    },
+    {
+      "id": "c8-chromatography-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "On a chromatogram, the solvent front is 70 mm from the start line. A spot is 4.2 cm from the start line. Calculate the Rf value.",
+      "numericAnswer": 0.6,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: convert to same units: 70 mm = 7.0 cm (or 4.2 cm = 42 mm)",
+        "1 mark: Rf = 4.2 ÷ 7.0 = 0.60"
+      ],
+      "explanation": "Both distances must be in the same units before dividing. 42 ÷ 70 = 0.60."
+    },
+    {
+      "id": "c8-chromatography-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name the mobile phase and the stationary phase in paper chromatography.",
+      "acceptedAnswers": [
+        "mobile phase solvent",
+        "stationary phase paper"
+      ],
+      "markScheme": [
+        "1 mark: mobile phase is the solvent",
+        "1 mark: stationary phase is the paper"
+      ],
+      "explanation": "The solvent moves through the paper, carrying the substances."
+    },
+    {
+      "id": "c8-chromatography-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how paper chromatography separates the dyes in an ink.",
+      "acceptedAnswers": [
+        "solvent moves up paper",
+        "dyes distributed between mobile and stationary phases",
+        "different solubility",
+        "different attraction to paper",
+        "travel different distances"
+      ],
+      "markScheme": [
+        "1 mark: the solvent (mobile phase) moves up the paper and carries the dyes",
+        "1 mark: each dye is distributed differently between the mobile and stationary phases (different solubility / attraction to paper), so they move different distances"
+      ],
+      "explanation": "More soluble dyes, less attracted to the paper, move further; this spreads the dyes into separate spots."
+    },
+    {
+      "id": "c8-chromatography-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student puts large spots of ink on the start line. Suggest why small, concentrated spots give better results.",
+      "acceptedAnswers": [
+        "spots spread",
+        "overlap",
+        "clearer separation",
+        "easier to measure centre"
+      ],
+      "markScheme": [
+        "1 mark: large spots spread out / overlap with each other",
+        "1 mark: small spots give clearer, separate spots so Rf values can be measured accurately"
+      ],
+      "explanation": "Small spots (applied several times and dried in between to concentrate them) separate cleanly."
+    },
+    {
+      "id": "c8-chromatography-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe how a student can use paper chromatography to show whether a brown food colouring contains a dye called E110. Reference samples are available.",
+      "acceptedAnswers": [
+        "spot brown colouring and E110 on start line",
+        "same paper same solvent",
+        "compare Rf values",
+        "spot at same height",
+        "same colour"
+      ],
+      "markScheme": [
+        "1 mark: put spots of the brown colouring and of E110 on the same pencil start line",
+        "1 mark: place in solvent (below the line) and allow solvent to move up the paper",
+        "1 mark: if the brown colouring has a spot at the same height / same Rf value (and colour) as E110, it contains E110"
+      ],
+      "explanation": "Running the reference on the same paper in the same solvent gives a fair comparison."
+    },
+    {
+      "id": "c8-chromatography-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A dye has an Rf value of 0.72 in water and 0.31 in ethanol. Explain why the Rf values are different.",
+      "acceptedAnswers": [
+        "different solubility in each solvent",
+        "distribution between phases changes",
+        "more soluble in water"
+      ],
+      "markScheme": [
+        "1 mark: the dye has a different solubility in each solvent / its distribution between the mobile and stationary phases depends on the solvent",
+        "1 mark: it is more soluble in water (spends more time in the mobile phase), so it moves further in water"
+      ],
+      "explanation": "Rf values are specific to a substance in a particular solvent, so reference values must use the same solvent."
+    },
+    {
+      "id": "c8-chromatography-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What name is given to the furthest point reached by the solvent on a chromatogram?",
+      "acceptedAnswers": [
+        "solvent front"
+      ],
+      "markScheme": [
+        "1 mark: solvent front"
+      ],
+      "explanation": "It is marked in pencil as soon as the paper is removed, before the solvent evaporates."
+    },
+    {
+      "id": "c8-chromatography-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student forgets to mark the solvent front before the paper dries. Explain why this is a problem.",
+      "acceptedAnswers": [
+        "cannot measure solvent distance",
+        "cannot calculate Rf",
+        "solvent evaporates",
+        "invisible"
+      ],
+      "markScheme": [
+        "1 mark: the solvent evaporates so the front can no longer be seen",
+        "1 mark: so the distance moved by the solvent is unknown and Rf values cannot be calculated"
+      ],
+      "explanation": "The solvent front must be marked immediately, because Rf needs the solvent distance."
+    },
+    {
+      "id": "c8-chromatography-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Required practical 6: describe how a student could carry out paper chromatography to separate the dyes in a black felt-tip pen ink.",
+      "markScheme": [
+        "Indicative content: draw a start line in pencil about 1 to 2 cm from the bottom of the paper",
+        "Put a small spot of ink on the line",
+        "Pour solvent (for example water) into a beaker to a depth below the start line",
+        "Hang/stand the paper in the beaker with the bottom edge in the solvent",
+        "Put a lid on the beaker",
+        "Leave until the solvent has nearly reached the top",
+        "Remove the paper and mark the solvent front in pencil; let it dry",
+        "Level 2 (3 to 4 marks): clear, logical method including pencil line, solvent below line and allowing solvent to rise",
+        "Level 1 (1 to 2 marks): some relevant steps but missing key details"
+      ],
+      "explanation": "Key credit-worthy points are the pencil line, the solvent level below the line and allowing the solvent to move up the paper."
+    },
+    {
+      "id": "c8-chromatography-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Required practical 6: a student wants to find out which dyes are in an orange drink. Four reference dyes, A, B, C and D, are available.\nDescribe a method the student could use, and explain how the student would analyse the chromatogram to identify the dyes, including how Rf values would be used and how the student could be confident of the identification.",
+      "markScheme": [
+        "Indicative content: pencil start line near the bottom of chromatography paper",
+        "Small concentrated spots of the drink and of each reference dye A to D, spaced along the line",
+        "Place in a beaker of solvent with the solvent below the start line; use a lid",
+        "Remove when solvent near the top; mark solvent front; dry",
+        "Compare the spots from the drink with the reference spots: same height/colour means same dye",
+        "Measure distance from start line to centre of each spot and to solvent front",
+        "Rf = distance moved by substance ÷ distance moved by solvent",
+        "Matching Rf values (in the same solvent) identify the dyes",
+        "Number of spots from the drink shows how many dyes (at least) it contains",
+        "Any spot that matches no reference is an unknown dye",
+        "Repeat with a different solvent: matching Rf values in more than one solvent gives more confidence, since two dyes could share an Rf in one solvent",
+        "Level 3 (5 to 6 marks): detailed, logical method and full analysis using Rf values, including the need for the same solvent and confirmation in another solvent",
+        "Level 2 (3 to 4 marks): workable method and some analysis, for example comparing positions of spots or calculating Rf",
+        "Level 1 (1 to 2 marks): basic relevant statements about spotting and solvent"
+      ],
+      "explanation": "Top answers combine a correct method with clear use of Rf values and an explanation of why testing in a second solvent increases confidence."
+    },
+    {
+      "id": "c8-chromatography-q26",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A chromatogram of ink X shows three spots. What does this tell you?",
+      "options": [
+        "X is a pure substance",
+        "X contains at least three different substances",
+        "X contains exactly three elements",
+        "X is insoluble in the solvent"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: X contains at least three different substances"
+      ],
+      "explanation": "Each separate spot is a different substance, so X is a mixture of at least three substances (some could overlap or stay on the line)."
+    },
+    {
+      "id": "c8-chromatography-q27",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What should be put on the beaker to stop the solvent evaporating?",
+      "options": [
+        "A thermometer",
+        "A filter funnel",
+        "A lid",
+        "A Bunsen burner"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A lid"
+      ],
+      "explanation": "A lid (or watch glass) traps the solvent vapour."
+    }
+  ]
+}
