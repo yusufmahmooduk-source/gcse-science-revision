@@ -1,0 +1,469 @@
+{
+  "id": "b6-resistant-bacteria",
+  "science": "biology",
+  "topicId": "b6",
+  "slug": "resistant-bacteria",
+  "specRef": "4.6.3.7",
+  "title": "Resistant bacteria",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Antibiotic-resistant bacteria are strains of bacteria that are not killed by an antibiotic. They arise by mutation and become common by natural selection when antibiotics are used, which is why bacteria such as MRSA are hard to treat.",
+    "explanation": [
+      "Bacteria can evolve rapidly because they reproduce at a fast rate. Under good conditions some bacteria divide every 20 minutes, so a huge number of generations can be produced in a short time. Every time DNA is copied there is a small chance of a mutation. Mutations of bacterial pathogens produce new strains, and some of these strains might be resistant to antibiotics.",
+      "When an antibiotic is used, the non-resistant bacteria are killed, but bacteria of a resistant strain are not killed. They survive and reproduce, so the population of the resistant strain rises. This is natural selection: the antibiotic does not cause the mutation, it only kills the bacteria that are not resistant, leaving the resistant ones without competition.",
+      "The resistant strain will then spread, because people are not immune to it and there is no effective treatment. MRSA (methicillin-resistant Staphylococcus aureus) is a well-known example of a bacterium that is resistant to several antibiotics. It can cause serious infections, especially in hospitals, where many antibiotics are used and many patients are already ill.",
+      "To reduce the rate of development of antibiotic-resistant strains, doctors should not prescribe antibiotics inappropriately, such as for non-serious infections or for viral infections. Antibiotics do not work on viruses, so using them for a cold or flu only gives resistant bacteria in the body an advantage. Patients should complete their course of antibiotics, so that all the bacteria are killed and none survive to mutate and form resistant strains.",
+      "The agricultural use of antibiotics should also be restricted. In some countries antibiotics have been given routinely to farm animals to prevent disease or to make them grow faster. This exposes very large numbers of bacteria to antibiotics, which selects for resistant strains that can then pass to humans.",
+      "The development of new antibiotics is costly and slow. It can take many years and very large sums of money to discover, test and approve a new antibiotic, while bacteria can evolve resistance much faster. This means it is unlikely that new antibiotics will keep up with the emergence of new resistant strains, which is why reducing resistance is so important."
+    ],
+    "keyFacts": [
+      "Bacteria can evolve rapidly because they reproduce at a fast rate.",
+      "Mutations of bacterial pathogens produce new strains; some might be resistant to antibiotics.",
+      "Resistant bacteria are not killed by the antibiotic, so they survive and reproduce.",
+      "The population of the resistant strain rises, and it spreads because people are not immune and there is no effective treatment.",
+      "MRSA is resistant to antibiotics.",
+      "Doctors should not prescribe antibiotics inappropriately, e.g. for non-serious or viral infections.",
+      "Patients should complete their course of antibiotics so all bacteria are killed.",
+      "The agricultural use of antibiotics should be restricted.",
+      "Developing new antibiotics is costly and slow, so it is unlikely to keep up with new resistant strains."
+    ],
+    "keyTerms": [
+      { "term": "Antibiotic", "definition": "A medicine that kills bacteria (or stops their growth) inside the body. Antibiotics do not affect viruses." },
+      { "term": "Antibiotic resistance", "definition": "The ability of a strain of bacteria to survive treatment with an antibiotic, caused by a mutation." },
+      { "term": "Strain", "definition": "A genetically different type of bacterium within a species, often produced by mutation." },
+      { "term": "Mutation", "definition": "A random change in DNA that can produce a new allele or a new strain." },
+      { "term": "MRSA", "definition": "Methicillin-resistant Staphylococcus aureus: a strain of bacteria resistant to several antibiotics." },
+      { "term": "Pathogen", "definition": "A microorganism that causes an infectious disease." },
+      { "term": "Natural selection", "definition": "The process in which individuals best suited to the conditions (here, resistant bacteria) survive and reproduce, so their characteristics become more common." }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Calculating bacterial population growth",
+        "question": "A single resistant bacterium survives an antibiotic. It divides every 20 minutes. Assuming all offspring survive, how many bacteria will there be after 3 hours?",
+        "steps": [
+          "Convert to minutes: 3 hours = 180 minutes.",
+          "Number of divisions = 180 ÷ 20 = 9.",
+          "Number of bacteria = 2⁹ = 512."
+        ],
+        "answer": "512 bacteria."
+      },
+      {
+        "title": "Working backwards to find a time",
+        "question": "A bacterium divides every 30 minutes. How long will it take one bacterium to produce a population of 1024?",
+        "steps": [
+          "Find how many doublings give 1024: 2¹⁰ = 1024, so 10 divisions.",
+          "Time = 10 × 30 = 300 minutes.",
+          "Convert: 300 ÷ 60 = 5 hours."
+        ],
+        "answer": "5 hours."
+      },
+      {
+        "title": "Explaining a doctor's decision",
+        "question": "A patient with a cold asks for antibiotics. The doctor refuses. Explain why.",
+        "steps": [
+          "Colds are caused by viruses, and antibiotics do not kill viruses.",
+          "Taking antibiotics would not help the patient.",
+          "It would kill non-resistant bacteria in the body, giving any resistant bacteria an advantage, so resistant strains become more common."
+        ],
+        "answer": "Antibiotics do not work on viruses, and using them inappropriately increases the development of antibiotic-resistant strains."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "How an antibiotic-resistant strain develops and spreads",
+        "caption": "A random mutation makes one bacterium resistant. The antibiotic kills the non-resistant bacteria; the resistant bacterium survives, reproduces rapidly and the resistant strain spreads.",
+        "svg": "<svg viewBox='0 0 540 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2'><rect x='10' y='40' width='120' height='110' rx='10' fill='none'/><rect x='145' y='40' width='120' height='110' rx='10' fill='none'/><rect x='280' y='40' width='120' height='110' rx='10' fill='none'/><rect x='415' y='40' width='115' height='110' rx='10' fill='none'/></g><g fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'><ellipse cx='35' cy='65' rx='12' ry='6'/><ellipse cx='75' cy='60' rx='12' ry='6'/><ellipse cx='110' cy='75' rx='12' ry='6'/><ellipse cx='40' cy='105' rx='12' ry='6'/><ellipse cx='105' cy='115' rx='12' ry='6'/><ellipse cx='60' cy='130' rx='12' ry='6'/></g><ellipse cx='72' cy='95' rx='12' ry='6' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='1.5'><path d='M165 60 l10 10 m0 -10 l-10 10'/><path d='M235 60 l10 10 m0 -10 l-10 10'/><path d='M170 115 l10 10 m0 -10 l-10 10'/><path d='M235 115 l10 10 m0 -10 l-10 10'/></g><ellipse cx='205' cy='95' rx='12' ry='6' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><g fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'><ellipse cx='305' cy='65' rx='12' ry='6'/><ellipse cx='345' cy='62' rx='12' ry='6'/><ellipse cx='380' cy='80' rx='12' ry='6'/><ellipse cx='310' cy='105' rx='12' ry='6'/><ellipse cx='350' cy='100' rx='12' ry='6'/><ellipse cx='330' cy='132' rx='12' ry='6'/><ellipse cx='378' cy='125' rx='12' ry='6'/></g><g fill='none' stroke='currentColor' stroke-width='2'><circle cx='450' cy='80' r='14'/><path d='M450 94 L450 125 M450 104 L435 115 M450 104 L465 115 M450 125 L440 142 M450 125 L460 142'/><circle cx='500' cy='80' r='14'/><path d='M500 94 L500 125 M500 104 L485 115 M500 104 L515 115 M500 125 L490 142 M500 125 L510 142'/></g><path d='M465 75 Q475 60 485 75' fill='none' stroke='currentColor' stroke-dasharray='3 3'/><g stroke='currentColor' stroke-width='2'><line x1='131' y1='95' x2='142' y2='95'/><line x1='266' y1='95' x2='277' y2='95'/><line x1='401' y1='95' x2='412' y2='95'/></g><text x='10' y='20' font-size='12' fill='currentColor'>1. Mutation</text><text x='10' y='34' font-size='12' fill='currentColor'>(random)</text><text x='145' y='20' font-size='12' fill='currentColor'>2. Antibiotic</text><text x='145' y='34' font-size='12' fill='currentColor'>kills non-resistant</text><text x='280' y='20' font-size='12' fill='currentColor'>3. Resistant one</text><text x='280' y='34' font-size='12' fill='currentColor'>reproduces fast</text><text x='415' y='20' font-size='12' fill='currentColor'>4. Strain spreads</text><text x='415' y='34' font-size='12' fill='currentColor'>between people</text><text x='15' y='172' font-size='12' fill='currentColor'>red = resistant</text><text x='150' y='172' font-size='12' fill='currentColor'>× = killed</text><text x='285' y='172' font-size='12' fill='currentColor'>population rises</text><text x='418' y='172' font-size='12' fill='currentColor'>no immunity, no</text><text x='418' y='188' font-size='12' fill='currentColor'>effective treatment</text><text x='60' y='222' font-size='12' fill='currentColor'>The antibiotic does not cause the mutation: it selects resistant bacteria.</text></svg>"
+      },
+      {
+        "title": "Reducing the development of resistant strains",
+        "caption": "Three measures in the specification that reduce the rate at which antibiotic-resistant strains develop, and why new antibiotics cannot simply replace old ones.",
+        "svg": "<svg viewBox='0 0 520 230' xmlns='http://www.w3.org/2000/svg'><rect x='130' y='10' width='260' height='40' rx='10' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><text x='145' y='35' font-size='12' fill='currentColor'>Slow down antibiotic resistance</text><g stroke='currentColor' stroke-width='2'><line x1='200' y1='50' x2='90' y2='80'/><line x1='260' y1='50' x2='260' y2='80'/><line x1='320' y1='50' x2='430' y2='80'/></g><rect x='5' y='80' width='165' height='80' rx='8' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='12' y='98' font-size='12' fill='currentColor'>Doctors: do not</text><text x='12' y='115' font-size='12' fill='currentColor'>prescribe for viral</text><text x='12' y='132' font-size='12' fill='currentColor'>or non-serious</text><text x='12' y='149' font-size='12' fill='currentColor'>infections</text><rect x='178' y='80' width='165' height='80' rx='8' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><text x='185' y='98' font-size='12' fill='currentColor'>Patients: complete</text><text x='185' y='115' font-size='12' fill='currentColor'>the course so all</text><text x='185' y='132' font-size='12' fill='currentColor'>bacteria are killed</text><rect x='351' y='80' width='164' height='80' rx='8' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='358' y='98' font-size='12' fill='currentColor'>Farmers: restrict</text><text x='358' y='115' font-size='12' fill='currentColor'>agricultural use</text><text x='358' y='132' font-size='12' fill='currentColor'>of antibiotics</text><rect x='60' y='175' width='400' height='45' rx='8' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='70' y='194' font-size='12' fill='currentColor'>New antibiotics are costly and slow to develop, so they are</text><text x='70' y='211' font-size='12' fill='currentColor'>unlikely to keep up with new resistant strains.</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think antibiotics cause bacteria to mutate and become resistant.", "right": "In fact, mutations happen at random. The antibiotic only kills non-resistant bacteria, so the resistant ones that already existed survive and reproduce." },
+      { "wrong": "Students often think people become resistant to antibiotics.", "right": "In fact, it is the bacteria that become resistant, not the person taking the antibiotic." },
+      { "wrong": "Students often think antibiotics can treat viral infections such as colds and flu.", "right": "In fact, antibiotics only work on bacteria. Using them for viral infections does not help and increases resistance." },
+      { "wrong": "Students often think it is fine to stop taking antibiotics once they feel better.", "right": "In fact, some bacteria may still be alive. Patients should complete the course so all bacteria are killed and none survive to mutate and form resistant strains." },
+      { "wrong": "Students often think scientists can easily make a new antibiotic whenever resistance appears.", "right": "In fact, developing new antibiotics is costly and slow, so it is unlikely to keep up with new resistant strains." }
+    ],
+    "realWorld": [
+      "Hospitals reduce the spread of MRSA with hand-washing, hand gels, cleaning, and isolating infected patients.",
+      "Many countries, including the UK and those in the EU, have banned the use of antibiotics to make farm animals grow faster.",
+      "Public health campaigns remind people that antibiotics do not cure colds and flu."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Use the sequence: mutation, resistant strain not killed, survives and reproduces, population of resistant strain rises, spreads.",
+      "Never write that the antibiotic causes the mutation or that the bacteria 'get used to' the antibiotic.",
+      "Learn the three ways to reduce resistance: no inappropriate prescribing (viral or non-serious infections), complete the course, restrict agricultural use.",
+      "When explaining why a resistant strain spreads, say that people are not immune to it and there is no effective treatment.",
+      "For growth calculations, number of bacteria = 2 to the power of the number of divisions. Convert hours to minutes first."
+    ],
+    "summary": [
+      "Bacteria evolve rapidly because they reproduce at a fast rate.",
+      "Mutations produce new strains; some are resistant to antibiotics.",
+      "Resistant bacteria survive, reproduce and spread: people are not immune and there is no effective treatment.",
+      "MRSA is resistant to antibiotics.",
+      "Reduce resistance: avoid inappropriate prescribing, complete the course, restrict farm use.",
+      "New antibiotics are costly and slow to develop and unlikely to keep up."
+    ]
+  },
+  "flashcards": [
+    { "front": "Why can bacteria evolve rapidly?", "back": "They reproduce at a fast rate." },
+    { "front": "How do new strains of bacteria arise?", "back": "By mutation." },
+    { "front": "What happens to a resistant strain when an antibiotic is used?", "back": "It is not killed, so it survives and reproduces and its population rises." },
+    { "front": "Why does a resistant strain spread?", "back": "People are not immune to it and there is no effective treatment." },
+    { "front": "Name a bacterium that is resistant to antibiotics.", "back": "MRSA." },
+    { "front": "Why should doctors not prescribe antibiotics for colds?", "back": "Colds are viral; antibiotics do not kill viruses, and inappropriate use increases resistance." },
+    { "front": "Why should patients complete their course of antibiotics?", "back": "So all bacteria are killed and none survive to mutate and form resistant strains." },
+    { "front": "What should happen to antibiotic use in farming?", "back": "It should be restricted." },
+    { "front": "Why can new antibiotics not keep up with resistance?", "back": "Developing new antibiotics is costly and slow." },
+    { "front": "Does the antibiotic cause the resistance mutation?", "back": "No. Mutations are random; the antibiotic only selects resistant bacteria." },
+    { "front": "Who becomes resistant: the patient or the bacteria?", "back": "The bacteria." }
+  ],
+  "questions": [
+    {
+      "id": "b6-resistant-bacteria-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why can bacteria evolve rapidly?",
+      "options": ["They are very small", "They have a nucleus", "They reproduce at a fast rate", "They can move quickly"],
+      "answer": 2,
+      "markScheme": ["1 mark: they reproduce at a fast rate"],
+      "explanation": "Fast reproduction means many generations in a short time, so natural selection can change a population quickly. Bacteria do not have a nucleus, and size or movement is not the reason."
+    },
+    {
+      "id": "b6-resistant-bacteria-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is MRSA?",
+      "options": ["A strain of bacteria that is resistant to antibiotics", "A virus that causes colds", "A new type of antibiotic", "A vaccine against bacterial infections"],
+      "answer": 0,
+      "markScheme": ["1 mark: a strain of bacteria that is resistant to antibiotics"],
+      "explanation": "MRSA is methicillin-resistant Staphylococcus aureus, a bacterium resistant to several antibiotics. It is not a virus, a medicine or a vaccine."
+    },
+    {
+      "id": "b6-resistant-bacteria-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How are new strains of bacteria, such as antibiotic-resistant strains, produced?",
+      "options": ["By the antibiotic changing the bacteria", "By the patient's immune system", "By vaccination", "By mutation"],
+      "answer": 3,
+      "markScheme": ["1 mark: by mutation"],
+      "explanation": "Mutations of bacterial pathogens produce new strains. The antibiotic and immune system do not create the mutation."
+    },
+    {
+      "id": "b6-resistant-bacteria-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which action helps to reduce the development of antibiotic-resistant bacteria?",
+      "options": ["Taking antibiotics for every cold", "Patients completing their full course of antibiotics", "Giving antibiotics to all farm animals every day", "Stopping antibiotics as soon as you feel better"],
+      "answer": 1,
+      "markScheme": ["1 mark: patients completing their full course of antibiotics"],
+      "explanation": "Completing the course kills all the bacteria. The other three actions all increase the chance of resistant strains developing."
+    },
+    {
+      "id": "b6-resistant-bacteria-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why should doctors not prescribe antibiotics for flu?",
+      "options": ["Flu is caused by bacteria that are all resistant", "Antibiotics make flu viruses stronger", "Flu is caused by a virus, and antibiotics do not kill viruses", "Antibiotics are only used for fungal diseases"],
+      "answer": 2,
+      "markScheme": ["1 mark: flu is caused by a virus and antibiotics do not kill viruses"],
+      "explanation": "Antibiotics act on bacteria only. Prescribing them for viral infections is inappropriate and increases resistance in bacteria in the body."
+    },
+    {
+      "id": "b6-resistant-bacteria-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does an antibiotic-resistant strain of bacteria spread through a population of people?",
+      "options": ["People are not immune to it and there is no effective treatment", "It reproduces more slowly than other strains", "It can only infect people who have had antibiotics", "Antibiotics help it to spread"],
+      "answer": 0,
+      "markScheme": ["1 mark: people are not immune to it and there is no effective treatment"],
+      "explanation": "This is the reason given in the specification. Antibiotics do not help it spread directly; they remove competing non-resistant bacteria."
+    },
+    {
+      "id": "b6-resistant-bacteria-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why should the agricultural use of antibiotics be restricted?",
+      "options": ["Antibiotics are poisonous to all farm animals", "Antibiotics make crops grow more slowly", "Farm animals cannot catch bacterial diseases", "Widespread use exposes many bacteria to antibiotics, selecting for resistant strains"],
+      "answer": 3,
+      "markScheme": ["1 mark: widespread use selects for resistant strains"],
+      "explanation": "Giving antibiotics routinely to large numbers of animals kills non-resistant bacteria and lets resistant strains increase, and these can pass to humans."
+    },
+    {
+      "id": "b6-resistant-bacteria-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is it unlikely that new antibiotics will keep up with the emergence of new resistant strains?",
+      "options": ["Bacteria cannot become resistant to new antibiotics", "The development of new antibiotics is costly and slow", "New antibiotics only work on viruses", "There are no more bacterial diseases to treat"],
+      "answer": 1,
+      "markScheme": ["1 mark: the development of new antibiotics is costly and slow"],
+      "explanation": "It takes many years and a lot of money to develop and test a new antibiotic, but bacteria can evolve resistance much more quickly."
+    },
+    {
+      "id": "b6-resistant-bacteria-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement about the development of antibiotic resistance is correct?",
+      "options": ["Bacteria choose to become resistant when exposed to an antibiotic", "The patient's body becomes resistant to the antibiotic", "A mutation for resistance happens by chance; the antibiotic then kills non-resistant bacteria so resistant ones increase", "The antibiotic causes all the bacteria to mutate"],
+      "answer": 2,
+      "markScheme": ["1 mark: a mutation happens by chance; the antibiotic kills non-resistant bacteria so resistant ones increase"],
+      "explanation": "The antibiotic is the selection pressure, not the cause of the mutation. Bacteria cannot choose to change, and it is the bacteria, not the patient, that become resistant."
+    },
+    {
+      "id": "b6-resistant-bacteria-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why does completing the full course of antibiotics reduce the development of resistant strains?",
+      "options": ["All the bacteria are killed, so none survive to mutate and form resistant strains", "It makes the patient immune to all bacteria", "It gives the bacteria time to become resistant", "It stops the patient catching viral infections"],
+      "answer": 0,
+      "markScheme": ["1 mark: all the bacteria are killed so none survive to mutate and form resistant strains"],
+      "explanation": "If the course is stopped early, the bacteria that survive are often the most resistant ones, and they can reproduce and mutate further."
+    },
+    {
+      "id": "b6-resistant-bacteria-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A resistant bacterium divides every 20 minutes. Starting with one bacterium and assuming all offspring survive, calculate the number of bacteria after 3 hours.",
+      "numericAnswer": 512,
+      "tolerance": 0,
+      "unit": "bacteria",
+      "markScheme": ["1 mark: 180 ÷ 20 = 9 divisions", "1 mark: 2⁹ = 512"],
+      "explanation": "3 hours is 180 minutes, giving 9 divisions. The population doubles each time: 2⁹ = 512."
+    },
+    {
+      "id": "b6-resistant-bacteria-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A bacterium divides every 20 minutes. Starting with one bacterium and assuming all offspring survive, calculate the number of bacteria after 8 hours.",
+      "numericAnswer": 16777216,
+      "tolerance": 0.01,
+      "unit": "bacteria",
+      "markScheme": ["1 mark: 480 ÷ 20 = 24 divisions", "1 mark: 2²⁴ = 16 777 216 (accept 1.68 × 10^7)"],
+      "explanation": "8 hours = 480 minutes, so 24 divisions. 2²⁴ = 16 777 216, about 1.7 × 10^7. This shows why one surviving resistant bacterium can quickly become a large population."
+    },
+    {
+      "id": "b6-resistant-bacteria-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A scientist grew 500 bacterial colonies on agar plates containing an antibiotic. 2 colonies grew, showing they were resistant. Calculate the percentage of colonies that were resistant.",
+      "numericAnswer": 0.4,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": ["1 mark: 2 ÷ 500", "1 mark: × 100 = 0.4 (%)"],
+      "explanation": "2 ÷ 500 = 0.004, and × 100 = 0.4%. Even a small percentage of resistant bacteria can become the whole population once the antibiotic kills the rest."
+    },
+    {
+      "id": "b6-resistant-bacteria-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A resistant bacterium divides every 30 minutes. Calculate how many hours it takes for one bacterium to produce a population of 1024, assuming all offspring survive.",
+      "numericAnswer": 5,
+      "tolerance": 0,
+      "unit": "hours",
+      "markScheme": ["1 mark: 1024 = 2¹⁰ so 10 divisions", "1 mark: 10 × 30 = 300 minutes = 5 hours"],
+      "explanation": "Work out how many doublings are needed: 2¹⁰ = 1024. Ten divisions at 30 minutes each is 300 minutes, which is 5 hours."
+    },
+    {
+      "id": "b6-resistant-bacteria-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A company spent £1200 million over 12 years developing one new antibiotic. Calculate the average amount spent per year, in millions of pounds.",
+      "numericAnswer": 100,
+      "tolerance": 0,
+      "unit": "£ million",
+      "markScheme": ["1 mark: 1200 ÷ 12 = 100 (£ million per year)"],
+      "explanation": "1200 ÷ 12 = £100 million per year. Figures like these show why developing new antibiotics is costly and slow."
+    },
+    {
+      "id": "b6-resistant-bacteria-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one strain of bacteria that is resistant to antibiotics.",
+      "acceptedAnswers": ["MRSA", "methicillin-resistant Staphylococcus aureus"],
+      "markScheme": ["1 mark: MRSA"],
+      "explanation": "MRSA is the example named in the specification."
+    },
+    {
+      "id": "b6-resistant-bacteria-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two ways of reducing the rate of development of antibiotic-resistant strains of bacteria.",
+      "acceptedAnswers": ["do not prescribe for viral infections", "do not prescribe for non-serious infections", "complete the course", "restrict agricultural use", "restrict use in farming"],
+      "markScheme": ["1 mark each, any two: doctors should not prescribe antibiotics inappropriately (for non-serious or viral infections); patients should complete their course of antibiotics; restrict the agricultural use of antibiotics"],
+      "explanation": "These three methods are given in the specification."
+    },
+    {
+      "id": "b6-resistant-bacteria-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why should patients complete their course of antibiotics?",
+      "acceptedAnswers": ["all bacteria killed", "none survive to mutate", "kill all the bacteria"],
+      "markScheme": ["1 mark: so that all the bacteria are killed and none survive to mutate and form resistant strains"],
+      "explanation": "Stopping early can leave some bacteria alive; these can mutate and become resistant."
+    },
+    {
+      "id": "b6-resistant-bacteria-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why doctors should not prescribe antibiotics for viral infections.",
+      "acceptedAnswers": ["antibiotics do not kill viruses", "no effect on viruses", "increases resistance", "selects resistant bacteria"],
+      "markScheme": ["1 mark: antibiotics do not kill viruses so will not help", "1 mark: it kills non-resistant bacteria in the body, so resistant strains are more likely to develop / become common"],
+      "explanation": "Inappropriate prescribing gives no benefit and adds to selection for resistant bacteria."
+    },
+    {
+      "id": "b6-resistant-bacteria-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe how a population of bacteria can become resistant to an antibiotic.",
+      "acceptedAnswers": ["mutation", "resistant not killed", "survive", "reproduce", "population of resistant strain rises"],
+      "markScheme": ["1 mark: a mutation produces a strain that is resistant to the antibiotic", "1 mark: when the antibiotic is used, resistant bacteria are not killed (non-resistant ones are)", "1 mark: resistant bacteria survive and reproduce, so the population of the resistant strain rises"],
+      "explanation": "This is natural selection in three steps: variation by mutation, selection by the antibiotic, then reproduction of the survivors."
+    },
+    {
+      "id": "b6-resistant-bacteria-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why an antibiotic-resistant strain of bacteria can spread quickly between people.",
+      "acceptedAnswers": ["not immune", "no effective treatment", "reproduce quickly"],
+      "markScheme": ["1 mark: people are not immune to the new strain", "1 mark: there is no effective treatment (antibiotics do not kill it), so infections are not cured quickly"],
+      "explanation": "People have no immunity to a new strain, and because the usual antibiotics do not work, infected people stay infectious for longer."
+    },
+    {
+      "id": "b6-resistant-bacteria-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Some farmers have given antibiotics to healthy animals to prevent disease. Suggest why this increases the risk of antibiotic resistance in bacteria that infect humans.",
+      "acceptedAnswers": ["selects resistant strains", "many bacteria exposed", "resistant bacteria pass to humans", "food", "contact"],
+      "markScheme": ["1 mark: large numbers of bacteria are exposed to antibiotics, so resistant strains are selected / survive and reproduce", "1 mark: resistant bacteria can pass to humans (e.g. through food or contact with animals)"],
+      "explanation": "This is why the specification says the agricultural use of antibiotics should be restricted."
+    },
+    {
+      "id": "b6-resistant-bacteria-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why the development of new antibiotics is unlikely to keep up with the emergence of new resistant strains.",
+      "acceptedAnswers": ["costly", "slow", "many years to test", "bacteria evolve quickly", "reproduce quickly"],
+      "markScheme": ["1 mark: developing new antibiotics is costly and slow (many years of testing)", "1 mark: bacteria reproduce quickly so can evolve resistance faster than new antibiotics are produced"],
+      "explanation": "Compare the two timescales: years of development and testing against bacteria that can produce many generations in a day."
+    },
+    {
+      "id": "b6-resistant-bacteria-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A patient is prescribed a 7-day course of antibiotics for a bacterial infection. After 3 days she feels better and stops taking them. Explain why this could lead to an antibiotic-resistant strain developing.",
+      "acceptedAnswers": ["not all bacteria killed", "most resistant survive", "mutate", "reproduce", "resistant strain"],
+      "markScheme": ["1 mark: not all the bacteria have been killed", "1 mark: the surviving bacteria are likely to be the more resistant ones", "1 mark: they can reproduce and mutate further, forming a resistant strain"],
+      "explanation": "The first doses kill the least resistant bacteria. Stopping early leaves the toughest survivors, which then multiply."
+    },
+    {
+      "id": "b6-resistant-bacteria-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why infections with MRSA are more common in hospitals than elsewhere.",
+      "acceptedAnswers": ["many antibiotics used", "patients already ill", "weak immune systems", "close contact", "open wounds"],
+      "markScheme": ["1 mark: many antibiotics are used in hospitals, so resistant strains are selected", "1 mark: many patients are already ill / have weakened immune systems / wounds, and are in close contact, so infection spreads easily"],
+      "explanation": "Heavy antibiotic use selects for resistance, and vulnerable patients close together let resistant bacteria spread."
+    },
+    {
+      "id": "b6-resistant-bacteria-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe what doctors, patients and farmers can do to reduce the rate of development of antibiotic-resistant strains of bacteria, and explain why each action helps.",
+      "markScheme": [
+        "Indicative content: doctors should not prescribe antibiotics inappropriately, e.g. for non-serious or viral infections, because antibiotics do not kill viruses and unnecessary use selects resistant bacteria; patients should complete their course of antibiotics so all bacteria are killed and none survive to mutate and form resistant strains; farmers / agricultural use of antibiotics should be restricted, because routine use exposes many bacteria to antibiotics and selects resistant strains that can pass to humans.",
+        "Level 2 (3 to 4 marks): actions for at least two groups described with clear explanations.",
+        "Level 1 (1 to 2 marks): actions listed with little or no explanation."
+      ],
+      "explanation": "Cover all three groups in the question and give a reason for each action."
+    },
+    {
+      "id": "b6-resistant-bacteria-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "MRSA is a strain of bacteria that is resistant to several antibiotics. Explain how antibiotic-resistant strains such as MRSA develop and spread, and why antibiotic resistance is a serious problem for medicine.",
+      "markScheme": [
+        "Indicative content. Development: bacteria reproduce at a fast rate so they can evolve rapidly; mutations of bacterial pathogens produce new strains; some strains are resistant to antibiotics; when antibiotics are used the non-resistant bacteria are killed; resistant bacteria survive and reproduce; the population of the resistant strain rises; inappropriate prescribing, not completing courses and agricultural use increase this. Spread: people are not immune to the new strain; there is no effective treatment; spreads in hospitals where many antibiotics are used and patients are vulnerable. Problem: infections become hard or impossible to treat; patients may die from infections that were once easily cured; new antibiotics are costly and slow to develop, so unlikely to keep up with new resistant strains; operations and treatments that rely on antibiotics become riskier.",
+        "Level 3 (5 to 6 marks): a detailed, logically ordered explanation of development by mutation and natural selection, spread, and why it is a serious problem including the difficulty of developing new antibiotics.",
+        "Level 2 (3 to 4 marks): a clear explanation of development with some reference to spread or the problem.",
+        "Level 1 (1 to 2 marks): simple statements, e.g. 'bacteria become immune to antibiotics', with little explanation."
+      ],
+      "explanation": "Cover all three parts of the question. Use the correct sequence for natural selection, and include the point that new antibiotics are costly and slow to develop."
+    },
+    {
+      "id": "b6-resistant-bacteria-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A government is deciding whether to ban all use of antibiotics in farming. Evaluate this proposal.",
+      "markScheme": [
+        "Indicative content. For a ban: routine agricultural use exposes huge numbers of bacteria to antibiotics, selecting for resistant strains; resistant bacteria can pass to humans through food or contact; restricting agricultural use reduces the rate of development of resistant strains; this protects the effectiveness of antibiotics for human medicine, which matters because new antibiotics are costly and slow to develop. Against a total ban: sick animals may need antibiotics to treat bacterial infections, for animal welfare; animals could die, causing financial loss to farmers and higher food prices; disease could spread through herds. Conclusion: e.g. restrict use (ban routine use for growth or prevention) but allow vets to prescribe antibiotics to treat sick animals.",
+        "Level 2 (3 to 4 marks): arguments for and against, linked to antibiotic resistance, with a justified conclusion.",
+        "Level 1 (1 to 2 marks): one-sided or simple points without a conclusion."
+      ],
+      "explanation": "Evaluate means giving both sides and a judgement. A sensible conclusion is that restricting use, rather than a total ban, balances resistance and animal welfare."
+    }
+  ]
+}
