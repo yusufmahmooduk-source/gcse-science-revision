@@ -1,0 +1,679 @@
+{
+  "id": "p2-electric-fields",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "electric-fields",
+  "specRef": "4.2.5.2",
+  "title": "Electric fields",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A charged object creates an electric field around itself. A second charged object placed in this field experiences a non-contact force. The field is strongest close to the charged object, and the force gets stronger as the distance between the objects decreases.",
+    "explanation": [
+      "An electric field is a region around a charged object in which another charged object experiences a force. Every charged object has an electric field around it. The field explains how charged objects can attract or repel without touching: each object is in the other's field, so each experiences a force. This is why the electrostatic force is a non-contact force.",
+      "Electric fields are shown with field lines. The arrows on the lines show the direction of the force that a small positive charge would experience if it were placed at that point. For an isolated positively charged sphere, the field lines point straight outwards in all directions, like the spokes of a wheel. For an isolated negatively charged sphere, the lines point straight inwards. The lines always meet the surface of the sphere at right angles and never cross.",
+      "The electric field is strongest close to the charged object, where the field lines are closest together. Further away, the lines spread out and the field gets weaker. So if a second charged object is placed in the field, the force on it gets stronger as it moves closer to the first object, and weaker as it moves away. Doubling the size of the charge on the sphere would also make the field stronger at every point.",
+      "Electric fields also explain sparking. If a lot of charge builds up on an object, the electric field close to it becomes very strong. A strong enough field can pull electrons off the atoms and molecules in the air, ionising the air. Ionised air contains charged particles that can move, so it conducts. Charge then flows through the air to a nearby earthed object, and we see a spark. This happens in lightning, in sparks from car doors and in small sparks when touching a door handle after walking on a nylon carpet."
+    ],
+    "keyFacts": [
+      "A charged object creates an electric field around itself.",
+      "A charged object placed in an electric field experiences a force.",
+      "The field is strongest close to the charged object and weaker further away.",
+      "The force between charged objects gets stronger as the distance between them decreases.",
+      "Field lines show the direction of the force on a small positive charge.",
+      "Field lines point outwards from a positive sphere and inwards to a negative sphere.",
+      "Closer field lines mean a stronger field.",
+      "A very strong field can ionise air, allowing a spark to pass through it."
+    ],
+    "keyTerms": [
+      {
+        "term": "Electric field",
+        "definition": "The region around a charged object where another charged object experiences a force."
+      },
+      {
+        "term": "Field line",
+        "definition": "A line showing the direction of the force on a small positive charge placed in the field."
+      },
+      {
+        "term": "Field strength",
+        "definition": "How strong the electric field is; strongest near the charged object, shown by closely spaced field lines."
+      },
+      {
+        "term": "Non-contact force",
+        "definition": "A force that acts between objects that are not touching, such as the force between charged objects."
+      },
+      {
+        "term": "Ionisation",
+        "definition": "Adding or removing electrons from atoms or molecules to form charged particles (ions)."
+      },
+      {
+        "term": "Sparking",
+        "definition": "A flow of charge through air when the electric field is strong enough to ionise the air."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Drawing the field around a sphere",
+        "question": "Describe how to draw the electric field pattern around an isolated negatively charged sphere.",
+        "steps": [
+          "Draw the sphere and mark it with a negative sign.",
+          "Draw straight lines radiating from the surface in all directions, evenly spaced and meeting the surface at right angles.",
+          "Add arrows pointing inwards, towards the sphere, because a positive charge would be attracted to it.",
+          "Make sure no lines cross."
+        ],
+        "answer": "Evenly spaced straight radial lines with arrows pointing towards the sphere."
+      },
+      {
+        "title": "Force and distance",
+        "question": "A small positively charged ball hangs near a large negatively charged dome. The ball is moved closer to the dome. Describe and explain what happens to the force on the ball.",
+        "steps": [
+          "The ball is in the electric field of the dome.",
+          "Opposite charges attract, so the force on the ball is towards the dome.",
+          "The field is stronger closer to the dome.",
+          "So the attractive force on the ball increases as it is moved closer."
+        ],
+        "answer": "The attractive force increases, because the field is stronger closer to the dome."
+      },
+      {
+        "title": "Explaining a spark",
+        "question": "A metal dome is given a very large charge. When an earthed metal ball is brought close, a spark jumps across the gap. Use the idea of an electric field to explain why.",
+        "steps": [
+          "The large charge creates a very strong electric field near the dome.",
+          "The field is strongest in the small gap near the dome's surface.",
+          "The strong field pulls electrons off air molecules, ionising the air.",
+          "The ionised air conducts, so charge flows across the gap to the earthed ball as a spark."
+        ],
+        "answer": "The strong field ionises the air in the gap, so charge can flow through it as a spark."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Electric field around an isolated charged sphere",
+        "caption": "Field lines show the direction of the force on a small positive charge: outwards from a positive sphere, inwards to a negative sphere. The lines are closer together near the sphere, where the field is strongest.",
+        "svg": "<svg viewBox='0 0 480 252' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='146' y1='110' x2='210' y2='110' stroke-width='1.5'/><path d='M186 110 L178 114 L178 106 Z' fill='currentColor' stroke='none'/><line x1='143' y1='123' x2='198' y2='155' stroke-width='1.5'/><path d='M177 143 L168 142 L172 136 Z' fill='currentColor' stroke='none'/><line x1='133' y1='133' x2='165' y2='188' stroke-width='1.5'/><path d='M153 167 L146 162 L152 158 Z' fill='currentColor' stroke='none'/><line x1='120' y1='136' x2='120' y2='200' stroke-width='1.5'/><path d='M120 176 L116 168 L124 168 Z' fill='currentColor' stroke='none'/><line x1='107' y1='133' x2='75' y2='188' stroke-width='1.5'/><path d='M87 167 L88 158 L94 162 Z' fill='currentColor' stroke='none'/><line x1='97' y1='123' x2='42' y2='155' stroke-width='1.5'/><path d='M63 143 L68 136 L72 142 Z' fill='currentColor' stroke='none'/><line x1='94' y1='110' x2='30' y2='110' stroke-width='1.5'/><path d='M54 110 L62 106 L62 114 Z' fill='currentColor' stroke='none'/><line x1='97' y1='97' x2='42' y2='65' stroke-width='1.5'/><path d='M63 77 L72 78 L68 84 Z' fill='currentColor' stroke='none'/><line x1='107' y1='87' x2='75' y2='32' stroke-width='1.5'/><path d='M87 53 L94 58 L88 62 Z' fill='currentColor' stroke='none'/><line x1='120' y1='84' x2='120' y2='20' stroke-width='1.5'/><path d='M120 44 L124 52 L116 52 Z' fill='currentColor' stroke='none'/><line x1='133' y1='87' x2='165' y2='32' stroke-width='1.5'/><path d='M153 53 L152 62 L146 58 Z' fill='currentColor' stroke='none'/><line x1='143' y1='97' x2='198' y2='65' stroke-width='1.5'/><path d='M177 77 L172 84 L168 78 Z' fill='currentColor' stroke='none'/><circle cx='120' cy='110' r='22' fill='#fca5a5' fill-opacity='0.5'/><text x='120' y='117' font-size='20' fill='currentColor' stroke='none'>+</text><line x1='386' y1='110' x2='450' y2='110' stroke-width='1.5'/><path d='M418 110 L426 106 L426 114 Z' fill='currentColor' stroke='none'/><line x1='383' y1='123' x2='438' y2='155' stroke-width='1.5'/><path d='M410 139 L419 140 L415 146 Z' fill='currentColor' stroke='none'/><line x1='373' y1='133' x2='405' y2='188' stroke-width='1.5'/><path d='M389 160 L396 165 L390 169 Z' fill='currentColor' stroke='none'/><line x1='360' y1='136' x2='360' y2='200' stroke-width='1.5'/><path d='M360 168 L364 176 L356 176 Z' fill='currentColor' stroke='none'/><line x1='347' y1='133' x2='315' y2='188' stroke-width='1.5'/><path d='M331 160 L330 169 L324 165 Z' fill='currentColor' stroke='none'/><line x1='337' y1='123' x2='282' y2='155' stroke-width='1.5'/><path d='M310 139 L305 146 L301 140 Z' fill='currentColor' stroke='none'/><line x1='334' y1='110' x2='270' y2='110' stroke-width='1.5'/><path d='M302 110 L294 114 L294 106 Z' fill='currentColor' stroke='none'/><line x1='337' y1='97' x2='282' y2='65' stroke-width='1.5'/><path d='M310 81 L301 80 L305 74 Z' fill='currentColor' stroke='none'/><line x1='347' y1='87' x2='315' y2='32' stroke-width='1.5'/><path d='M331 60 L324 55 L330 51 Z' fill='currentColor' stroke='none'/><line x1='360' y1='84' x2='360' y2='20' stroke-width='1.5'/><path d='M360 52 L356 44 L364 44 Z' fill='currentColor' stroke='none'/><line x1='373' y1='87' x2='405' y2='32' stroke-width='1.5'/><path d='M389 60 L390 51 L396 55 Z' fill='currentColor' stroke='none'/><line x1='383' y1='97' x2='438' y2='65' stroke-width='1.5'/><path d='M410 81 L415 74 L419 80 Z' fill='currentColor' stroke='none'/><circle cx='360' cy='110' r='22' fill='#93c5fd' fill-opacity='0.5'/><text x='360' y='117' font-size='20' fill='currentColor' stroke='none'>−</text><text x='120' y='222' font-size='12' fill='currentColor' stroke='none'>positive sphere: field lines point outwards</text><text x='360' y='222' font-size='12' fill='currentColor' stroke='none'>negative sphere: field lines point inwards</text><text x='240' y='244' font-size='11' fill='currentColor' stroke='none'>Lines are closest near the sphere, where the field is strongest.</text></g></svg>"
+      },
+      {
+        "title": "Force depends on distance",
+        "caption": "A small positive charge near a negatively charged sphere is pulled towards it. The closer it is, the stronger the field and the larger the force.",
+        "svg": "<svg viewBox='0 0 480 195' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><circle cx='60' cy='100' r='26' fill='#93c5fd' fill-opacity='0.5'/><text x='60' y='107' font-size='20' fill='currentColor' stroke='none'>−</text><text x='60' y='146' font-size='12' fill='currentColor' stroke='none'>charged sphere</text><circle cx='180' cy='100' r='9' fill='#fca5a5' fill-opacity='0.5'/><text x='180' y='104' font-size='12' fill='currentColor' stroke='none'>+</text><line x1='169' y1='100' x2='119' y2='100' stroke-width='2.5'/><path d='M119 100 L127 96 L127 104 Z' fill='currentColor' stroke='none'/><text x='180' y='130' font-size='12' fill='currentColor' stroke='none'>close: large force</text><circle cx='360' cy='100' r='9' fill='#fca5a5' fill-opacity='0.5'/><text x='360' y='104' font-size='12' fill='currentColor' stroke='none'>+</text><line x1='349' y1='100' x2='331' y2='100' stroke-width='2.5'/><path d='M331 100 L339 96 L339 104 Z' fill='currentColor' stroke='none'/><text x='360' y='130' font-size='12' fill='currentColor' stroke='none'>far: small force</text><text x='240' y='30' font-size='12' fill='currentColor' stroke='none'>Small positive charges placed in the field are attracted towards the sphere.</text><text x='240' y='180' font-size='11' fill='currentColor' stroke='none'>The force on a charged object in a field gets stronger as the distance decreases.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think field lines show the path electrons take.",
+        "right": "In fact field lines show the direction of the force on a small positive charge at each point."
+      },
+      {
+        "wrong": "Students often draw field lines pointing outwards from a negative sphere.",
+        "right": "In fact field lines point inwards to a negative charge and outwards from a positive charge."
+      },
+      {
+        "wrong": "Students often think the electric field is the same strength everywhere around a charged object.",
+        "right": "In fact the field is strongest close to the object and gets weaker further away."
+      },
+      {
+        "wrong": "Students often think a spark is charge jumping through empty air without any change to the air.",
+        "right": "In fact the strong field ionises the air, so the air can conduct and charge flows through it."
+      }
+    ],
+    "realWorld": [
+      "Lightning happens when the electric field between a charged cloud and the ground becomes strong enough to ionise the air.",
+      "Electrostatic paint sprayers charge paint droplets so they are attracted along the field lines to an oppositely charged car body, giving an even coat.",
+      "Sparks from a Van de Graaff generator dome jump to a nearby earthed sphere when the field becomes strong enough."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "Drawing the electric field pattern for an isolated charged sphere.",
+      "Using the idea of an electric field to explain non-contact forces between charged objects and sparking."
+    ],
+    "examTips": [
+      "When drawing a field around a sphere, use a ruler, make the lines radial and evenly spaced, and put arrows on every line (outwards for positive, inwards for negative).",
+      "Use the phrase 'the field is strongest close to the charged object' and link it to the force increasing as distance decreases.",
+      "To explain sparking, write the chain: large charge, strong field, air ionised, air conducts, charge flows (spark).",
+      "To explain a non-contact force, say each charged object is in the other's electric field, so it experiences a force."
+    ],
+    "summary": [
+      "A charged object has an electric field around it.",
+      "Another charged object in the field experiences a force.",
+      "The field and the force are stronger closer to the charged object.",
+      "Field lines point away from positive and towards negative charges.",
+      "A very strong field can ionise air, causing a spark."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is an electric field?",
+      "back": "The region around a charged object where another charged object experiences a force."
+    },
+    {
+      "front": "Where is the electric field of a charged sphere strongest?",
+      "back": "Close to the sphere."
+    },
+    {
+      "front": "What happens to the force between two charged objects as they move closer?",
+      "back": "It gets stronger."
+    },
+    {
+      "front": "What do field lines show?",
+      "back": "The direction of the force on a small positive charge."
+    },
+    {
+      "front": "Which way do field lines point around a positive sphere?",
+      "back": "Outwards, away from the sphere."
+    },
+    {
+      "front": "Which way do field lines point around a negative sphere?",
+      "back": "Inwards, towards the sphere."
+    },
+    {
+      "front": "What does closer spacing of field lines show?",
+      "back": "A stronger field."
+    },
+    {
+      "front": "How does a field explain non-contact forces?",
+      "back": "Each charged object is in the other's electric field, so it experiences a force."
+    },
+    {
+      "front": "How does a strong electric field cause a spark?",
+      "back": "It ionises the air, so the air conducts and charge flows through it."
+    },
+    {
+      "front": "Can field lines cross?",
+      "back": "No."
+    },
+    {
+      "front": "Describe the shape of the field around an isolated charged sphere.",
+      "back": "Straight radial lines, evenly spaced, at right angles to the surface."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-electric-fields-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is an electric field?",
+      "markScheme": [
+        "1 mark: A region where a charged object experiences a force"
+      ],
+      "explanation": "An electric field is the region around a charged object in which another charge feels a force.",
+      "options": [
+        "The path that electrons take in a wire",
+        "A region where a magnet experiences a force",
+        "A region where a charged object experiences a force",
+        "The area inside a battery"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electric-fields-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Where is the electric field around a charged sphere strongest?",
+      "markScheme": [
+        "1 mark: Close to the sphere"
+      ],
+      "explanation": "The field is strongest near the sphere, where the field lines are closest together.",
+      "options": [
+        "Close to the sphere",
+        "Far from the sphere",
+        "Equally strong everywhere",
+        "Only inside the sphere"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electric-fields-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which direction do field lines point around an isolated positively charged sphere?",
+      "markScheme": [
+        "1 mark: Outwards away from the sphere"
+      ],
+      "explanation": "Field lines show the force on a positive charge, which is repelled by a positive sphere: outwards.",
+      "options": [
+        "Inwards towards the sphere",
+        "There are no field lines",
+        "In circles around the sphere",
+        "Outwards away from the sphere"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-electric-fields-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which direction do field lines point around an isolated negatively charged sphere?",
+      "markScheme": [
+        "1 mark: Inwards towards the sphere"
+      ],
+      "explanation": "A positive test charge is attracted to a negative sphere, so the arrows point inwards.",
+      "options": [
+        "Outwards away from the sphere",
+        "Inwards towards the sphere",
+        "In circles around the sphere",
+        "Parallel to each other"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-electric-fields-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A charged ball is moved further away from a charged sphere. What happens to the force on it?",
+      "markScheme": [
+        "1 mark: It decreases."
+      ],
+      "explanation": "The field gets weaker further from the sphere, so the force decreases.",
+      "options": [
+        "It increases.",
+        "It stays the same.",
+        "It decreases.",
+        "It reverses direction."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electric-fields-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What do the arrows on electric field lines show?",
+      "markScheme": [
+        "1 mark: The direction of the force on a small positive charge"
+      ],
+      "explanation": "By convention, field line arrows show the force on a small positive charge.",
+      "options": [
+        "The direction of the force on a small positive charge",
+        "The direction electrons move",
+        "The direction of the force on a small negative charge",
+        "The direction of the current in a wire"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electric-fields-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does it show if field lines are drawn closer together?",
+      "markScheme": [
+        "1 mark: The field is stronger."
+      ],
+      "explanation": "Closely spaced lines show a strong field. That is why the lines are closest near a charged sphere.",
+      "options": [
+        "The field is weaker.",
+        "The charge is positive.",
+        "The charge is negative.",
+        "The field is stronger."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-electric-fields-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why can two charged objects exert forces on each other without touching?",
+      "markScheme": [
+        "1 mark: Each object is in the other's electric field."
+      ],
+      "explanation": "The electric field of each object acts on the other, giving a non-contact force.",
+      "options": [
+        "Electrons jump between them.",
+        "Each object is in the other's electric field.",
+        "Air carries the force by pushing.",
+        "They are connected by a magnetic field."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-electric-fields-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why can a strong electric field near a charged dome cause a spark?",
+      "markScheme": [
+        "1 mark: It ionises the air, so the air can conduct."
+      ],
+      "explanation": "A strong field pulls electrons off air molecules. The ionised air conducts, so charge flows through it as a spark.",
+      "options": [
+        "It heats the dome until it glows.",
+        "It creates protons in the air.",
+        "It ionises the air, so the air can conduct.",
+        "It turns the air into a metal."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electric-fields-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A small negative charge is placed in the field of a positive sphere. In which direction is the force on it?",
+      "markScheme": [
+        "1 mark: Towards the sphere, opposite to the arrows on the field lines"
+      ],
+      "explanation": "The arrows point outwards (force on a positive charge). A negative charge feels a force in the opposite direction: towards the positive sphere, as unlike charges attract.",
+      "options": [
+        "Towards the sphere, opposite to the arrows on the field lines",
+        "Away from the sphere, along the field lines",
+        "At right angles to the field lines",
+        "There is no force"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electric-fields-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define an electric field.",
+      "markScheme": [
+        "1 mark: a region (around a charged object)",
+        "1 mark: in which another charged object experiences a force"
+      ],
+      "explanation": "Both parts are needed: it is a region, and a charge in it feels a force.",
+      "acceptedAnswers": [
+        "region",
+        "charged object experiences a force"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how the strength of the electric field around a charged sphere changes with distance from the sphere.",
+      "markScheme": [
+        "1 mark: strongest close to the sphere",
+        "1 mark: gets weaker as the distance increases"
+      ],
+      "explanation": "Field lines spread out with distance, showing a weaker field.",
+      "acceptedAnswers": [
+        "strongest close",
+        "weaker further away"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe the electric field pattern around an isolated positively charged sphere.",
+      "markScheme": [
+        "1 mark: straight lines radiating from the sphere (radial), evenly spaced",
+        "1 mark: arrows pointing outwards / away from the sphere"
+      ],
+      "explanation": "The field is radial, like spokes, with arrows outwards for a positive sphere.",
+      "acceptedAnswers": [
+        "radial",
+        "straight lines",
+        "outwards",
+        "evenly spaced"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Use the idea of an electric field to explain why a charged balloon can attract another oppositely charged balloon without touching it.",
+      "markScheme": [
+        "1 mark: each charged balloon creates an electric field around it",
+        "1 mark: the other balloon is in this field, so it experiences a force (attraction, as charges are unlike)"
+      ],
+      "explanation": "The field provides the link between the two charges, so no contact is needed.",
+      "acceptedAnswers": [
+        "each balloon in the other's field",
+        "force on a charge in a field",
+        "non-contact"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the force on a charged object increases as it moves closer to another charged object.",
+      "markScheme": [
+        "1 mark: the electric field is stronger closer to the charged object",
+        "1 mark: so the force on a charge placed there is larger"
+      ],
+      "explanation": "Field strength rises as distance falls, and the force on a charge depends on the field strength.",
+      "acceptedAnswers": [
+        "field stronger closer",
+        "field lines closer together"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain, using the idea of an electric field, how a spark is produced between a highly charged dome and a nearby earthed sphere.",
+      "markScheme": [
+        "1 mark: a large charge on the dome produces a very strong electric field near it",
+        "1 mark: the field ionises the air (removes electrons from air molecules)",
+        "1 mark: the ionised air conducts so charge flows across the gap as a spark"
+      ],
+      "explanation": "Sparking needs a strong enough field to turn the insulating air into a conductor.",
+      "acceptedAnswers": [
+        "strong field",
+        "ionises air",
+        "air conducts",
+        "charge flows"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The charge on a sphere is increased. Suggest what happens to the electric field around it and to the force on a nearby charged object.",
+      "markScheme": [
+        "1 mark: the electric field becomes stronger (at every point)",
+        "1 mark: so the force on the nearby charged object increases"
+      ],
+      "explanation": "More charge produces a stronger field, which exerts a larger force on any charge in it.",
+      "acceptedAnswers": [
+        "field stronger",
+        "force larger"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to a charged object placed in an electric field.",
+      "markScheme": [
+        "1 mark: it experiences a (non-contact) force"
+      ],
+      "explanation": "That is what an electric field does: it exerts a force on any charge in it.",
+      "acceptedAnswers": [
+        "experiences a force"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q19",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Explain the concept of an electric field and how it can be used to explain both the forces between charged objects and sparking.",
+      "markScheme": [
+        "Indicative content: a charged object creates an electric field around itself; the field is the region where another charged object experiences a force; field lines show the direction of the force on a small positive charge; outwards from positive, inwards to negative; lines closer together near the object where the field is strongest; field weaker further away; a second charged object placed in the field experiences a force; force is stronger when closer; explains non-contact forces (attraction of unlike, repulsion of like charges) because each object is in the other's field; sparking: a large build-up of charge produces a very strong field near the object; strong field ionises the air (removes electrons from air molecules); ionised air conducts; charge flows to earth/another object as a spark.",
+        "Level 3 (5 to 6 marks): clear explanation of what a field is, how strength varies with distance, how this explains non-contact forces, and a correct chain of reasoning for sparking.",
+        "Level 2 (3 to 4 marks): correct description of the field with some explanation of either forces or sparking.",
+        "Level 1 (1 to 2 marks): simple statements such as 'charges have a field around them' or 'the field causes a force'."
+      ],
+      "explanation": "The best answers connect field strength (strong near the object) to both the size of the force and the ionisation of air that leads to a spark."
+    },
+    {
+      "id": "p2-electric-fields-q20",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Draw and describe the electric field around an isolated negatively charged sphere. Explain how the force on a small positively charged ball placed in the field changes as it is moved from far away to close to the sphere.",
+      "markScheme": [
+        "Indicative content: straight radial field lines evenly spaced around the sphere; lines meet the surface at right angles; arrows pointing inwards towards the sphere; lines do not cross; lines closer together near the sphere showing stronger field. Positive ball is attracted towards the sphere (unlike charges); force is in the direction of the field lines; as the ball moves closer the field is stronger, so the force increases; far away the force is small.",
+        "Level 2 (3 to 4 marks): correct field pattern with inward arrows and a correct explanation that the attractive force increases as the ball gets closer because the field is stronger.",
+        "Level 1 (1 to 2 marks): partly correct pattern or a correct statement about the force."
+      ],
+      "explanation": "The diagram earns marks for radial lines and inward arrows; the explanation for linking stronger field near the sphere to a larger force."
+    },
+    {
+      "id": "p2-electric-fields-q21",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement about electric field lines is correct?",
+      "markScheme": [
+        "1 mark: They never cross each other."
+      ],
+      "explanation": "Field lines never cross, because a charge at any point can only feel a force in one direction.",
+      "options": [
+        "They can cross each other.",
+        "They only exist inside conductors.",
+        "They form closed loops around a charged sphere.",
+        "They never cross each other."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-electric-fields-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why field lines are drawn closer together near a charged sphere than further away.",
+      "markScheme": [
+        "1 mark: the field is stronger near the sphere",
+        "1 mark: closer spacing of lines represents a stronger field"
+      ],
+      "explanation": "Line spacing shows field strength; radial lines naturally spread out with distance as the field weakens.",
+      "acceptedAnswers": [
+        "field stronger near sphere",
+        "closer lines mean stronger field"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Electrostatic paint sprayers give paint droplets a charge. Why are the droplets attracted to a car body given the opposite charge?",
+      "markScheme": [
+        "1 mark: Because the droplets are in the electric field of the car body and experience a force towards it"
+      ],
+      "explanation": "The oppositely charged car body creates a field; each charged droplet in that field feels an attractive force.",
+      "options": [
+        "Because the droplets are magnetic",
+        "Because the droplets are in the electric field of the car body and experience a force towards it",
+        "Because gravity pulls them",
+        "Because the car body repels them"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-electric-fields-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is needed to create an electric field?",
+      "markScheme": [
+        "1 mark: A charged object"
+      ],
+      "explanation": "Any charged object creates an electric field around it.",
+      "options": [
+        "A moving magnet",
+        "A metal wire",
+        "A charged object",
+        "An insulator with no charge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-electric-fields-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the type of force that acts between two charged objects that are not touching.",
+      "markScheme": [
+        "1 mark: non-contact (electrostatic) force"
+      ],
+      "explanation": "Electrostatic forces act through the electric field, so no contact is needed.",
+      "acceptedAnswers": [
+        "non-contact force",
+        "electrostatic force"
+      ]
+    },
+    {
+      "id": "p2-electric-fields-q26",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Two identical small charged balls are placed in the field of a charged sphere: ball P is 5 cm away and ball Q is 20 cm away. Which statement is correct?",
+      "markScheme": [
+        "1 mark: P experiences the larger force."
+      ],
+      "explanation": "P is closer, where the field is stronger, so it experiences the larger force.",
+      "options": [
+        "P experiences the larger force.",
+        "Q experiences the larger force.",
+        "They experience equal forces.",
+        "Neither experiences a force."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-electric-fields-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student draws field lines around a negative sphere with arrows pointing outwards. Explain the mistake.",
+      "markScheme": [
+        "1 mark: the arrows should point inwards (towards the sphere)",
+        "1 mark: because field lines show the force on a positive charge, which is attracted to the negative sphere"
+      ],
+      "explanation": "Direction is defined by the force on a small positive test charge.",
+      "acceptedAnswers": [
+        "arrows should point inwards",
+        "force on positive charge towards negative"
+      ]
+    }
+  ]
+}
