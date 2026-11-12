@@ -1,0 +1,377 @@
+{
+  "id": "p1-energy-transfers-in-a-system",
+  "science": "physics",
+  "topicId": "p1",
+  "slug": "energy-transfers-in-a-system",
+  "specRef": "4.1.2.1",
+  "title": "Energy transfers in a system",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed (conservation of energy). In every system change some energy is dissipated, so it is stored in less useful ways.",
+    "explanation": [
+      "The principle of conservation of energy states that energy can be transferred usefully, stored or dissipated, but it cannot be created or destroyed. For a closed system there is no net change in the total energy. This means that whenever energy leaves one store, exactly the same amount arrives in other stores, even if some of it is no longer useful to us.",
+      "In all system changes some energy is dissipated, meaning it spreads out into the surroundings, usually by heating. This energy is often described as wasted because it ends up stored in less useful ways, typically as a small temperature rise in a large amount of surroundings. For example, a motor heats up because of friction and electrical resistance, a car engine transfers energy to the thermal store of the air, and a loudspeaker or machine gives out unwanted sound which eventually also warms the surroundings.",
+      "Unwanted energy transfers can be reduced. Lubrication, such as oiling a bicycle chain or the moving parts of an engine, reduces friction between surfaces, so less work is done against friction and less energy is dissipated by heating. Thermal insulation reduces unwanted energy transfer by heating, for example from a house to the outside air in winter or from a hot drink to its surroundings.",
+      "The higher the thermal conductivity of a material, the higher the rate of energy transfer by conduction across it. Metals have high thermal conductivity; air, wool, foam and fibreglass have low thermal conductivity, and many insulators work by trapping air. You do not need to know the formal definition of thermal conductivity. The rate of cooling of a building depends on the thickness of its walls and the thermal conductivity of the materials used: thicker walls and lower thermal conductivity both reduce the rate of energy transfer, so the building cools more slowly. Cavity wall insulation, loft insulation and double glazing all use these ideas.",
+      "In separate Physics, required practical 2 investigates the effectiveness of different materials as thermal insulators, and factors such as the thickness of the insulating layer. Identical beakers of hot water are wrapped in different materials (or different numbers of layers), and the temperature is recorded at regular intervals as the water cools. The better the insulator, the smaller the temperature drop in a given time."
+    ],
+    "keyFacts": [
+      "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed.",
+      "In a closed system there is no net change in total energy.",
+      "In all system changes some energy is dissipated, usually to the thermal store of the surroundings.",
+      "Dissipated energy is often called wasted energy because it is stored in less useful ways.",
+      "Lubrication reduces friction, so less energy is dissipated by heating.",
+      "Thermal insulation reduces unwanted energy transfer by heating.",
+      "The higher the thermal conductivity of a material, the higher the rate of energy transfer by conduction across it.",
+      "Thicker walls and walls of lower thermal conductivity make a building cool more slowly.",
+      "Trapped air is a very poor conductor, which is why many insulators (wool, foam, fibreglass) contain air pockets."
+    ],
+    "keyTerms": [
+      { "term": "Conservation of energy", "definition": "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed." },
+      { "term": "Dissipation", "definition": "The spreading out of energy into the surroundings, usually by heating, so that it is stored in less useful ways." },
+      { "term": "Wasted energy", "definition": "Energy transferred to stores that are not useful for the intended purpose." },
+      { "term": "Lubrication", "definition": "Using oil or grease between moving surfaces to reduce friction and so reduce unwanted energy transfer." },
+      { "term": "Thermal conductivity", "definition": "A property of a material: the higher it is, the higher the rate of energy transfer by conduction through the material." },
+      { "term": "Thermal insulator", "definition": "A material with a low thermal conductivity, used to reduce the rate of energy transfer by heating." }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Accounting for dissipated energy",
+        "question": "An electric motor is supplied with 500 J of energy. 350 J is transferred to the kinetic store of the load it moves. Calculate the energy dissipated and state where it goes.",
+        "steps": [
+          "Energy is conserved, so energy in = useful energy out + energy dissipated.",
+          "Energy dissipated = 500 − 350 = 150 J.",
+          "This energy heats the motor (friction and resistance) and is carried away as sound, ending up in the thermal store of the surroundings."
+        ],
+        "answer": "150 J, dissipated mainly to the thermal store of the surroundings."
+      },
+      {
+        "title": "Analysing insulation results",
+        "question": "In an insulation investigation, a beaker wrapped in cotton wool cools from 85 °C to 63 °C in 10 minutes. Calculate the average rate of cooling.",
+        "steps": [
+          "Temperature drop = 85 − 63 = 22 °C.",
+          "Rate of cooling = temperature drop ÷ time = 22 ÷ 10.",
+          "= 2.2 °C per minute."
+        ],
+        "answer": "2.2 °C/min"
+      },
+      {
+        "title": "Choosing materials for a wall",
+        "question": "A builder can use a 10 cm thick wall of brick or a 30 cm thick wall of the same brick with foam in a cavity. Explain which keeps a house warmer.",
+        "steps": [
+          "The rate of energy transfer by conduction decreases as the thickness of the wall increases.",
+          "Foam traps air and has a very low thermal conductivity, which also reduces the rate of conduction.",
+          "So the thick wall with foam transfers energy to the outside more slowly, and the house cools more slowly."
+        ],
+        "answer": "The 30 cm wall with foam, because it is thicker and contains a material of lower thermal conductivity."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Required practical 2: comparing thermal insulators",
+        "caption": "Identical beakers with the same volume and starting temperature of hot water. One is wrapped in an insulating material and one is left unwrapped as a control. Temperature is recorded every 2 minutes.",
+        "svg": "<svg viewBox='0 0 440 260' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='230' x2='420' y2='230' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><rect x='50' y='110' width='130' height='120' fill='#fde68a' fill-opacity='0.5'/><rect x='70' y='120' width='90' height='110' fill='none' stroke-width='2'/><rect x='72' y='140' width='86' height='88' fill='#93c5fd' fill-opacity='0.5' stroke='none'/><rect x='62' y='104' width='106' height='14' fill='#e5e7eb' fill-opacity='0.5'/><rect x='110' y='40' width='8' height='170' rx='3' fill='none'/><circle cx='114' cy='212' r='6' fill='#fca5a5' fill-opacity='0.5'/><rect x='270' y='120' width='90' height='110' fill='none' stroke-width='2'/><rect x='272' y='140' width='86' height='88' fill='#93c5fd' fill-opacity='0.5' stroke='none'/><rect x='312' y='40' width='8' height='170' rx='3' fill='none'/><circle cx='316' cy='212' r='6' fill='#fca5a5' fill-opacity='0.5'/><line x1='186' y1='60' x2='120' y2='60'/><line x1='195' y1='108' x2='168' y2='110'/><line x1='195' y1='170' x2='180' y2='170'/><line x1='274' y1='60' x2='310' y2='60'/></g><g font-size='12' fill='currentColor'><text x='190' y='64'>thermometers</text><text x='197' y='112'>lid</text><text x='197' y='166'>insulating</text><text x='197' y='181'>material</text><text x='80' y='250'>insulated beaker</text><text x='266' y='250'>control (no insulation)</text><text x='324' y='186'>water</text><text x='122' y='186'>water</text></g></svg>"
+      },
+      {
+        "title": "Effect of wall thickness and thermal conductivity",
+        "caption": "A thin wall of high thermal conductivity lets energy escape quickly. A thick wall containing a low thermal conductivity material (such as foam trapping air) reduces the rate of energy transfer, so the building cools more slowly.",
+        "svg": "<svg viewBox='0 0 440 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='90' y='40' width='20' height='150' fill='#fca5a5' fill-opacity='0.5'/><rect x='290' y='40' width='30' height='150' fill='#fca5a5' fill-opacity='0.5'/><rect x='320' y='40' width='30' height='150' fill='#fde68a' fill-opacity='0.5'/><rect x='350' y='40' width='30' height='150' fill='#fca5a5' fill-opacity='0.5'/></g><g stroke='currentColor' stroke-width='5'><line x1='40' y1='80' x2='150' y2='80'/><line x1='40' y1='115' x2='150' y2='115'/><line x1='40' y1='150' x2='150' y2='150'/></g><g fill='currentColor'><path d='M162 80 L148 72 L148 88 Z'/><path d='M162 115 L148 107 L148 123 Z'/><path d='M162 150 L148 142 L148 158 Z'/><path d='M412 115 L402 109 L402 121 Z'/></g><line x1='250' y1='115' x2='402' y2='115' stroke='currentColor' stroke-width='1.5'/><g font-size='12' fill='currentColor'><text x='20' y='30'>warm inside</text><text x='130' y='30'>cold outside</text><text x='230' y='30'>warm inside</text><text x='362' y='30'>cold outside</text><text x='40' y='210'>thin wall, high thermal</text><text x='40' y='225'>conductivity: fast transfer</text><text x='240' y='210'>thick wall with foam cavity, low</text><text x='240' y='225'>thermal conductivity: slow transfer</text><text x='322' y='60'>foam</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      { "wrong": "Students often think wasted energy disappears or is destroyed.", "right": "In fact it is still there, but spread out into the thermal store of the surroundings, where it is not useful and cannot easily be recovered." },
+      { "wrong": "Students often think insulators stop all energy transfer, or 'keep the cold out'.", "right": "In fact insulators reduce the rate of energy transfer by heating from the hotter to the cooler region; there is no such thing as 'cold' flowing." },
+      { "wrong": "Students often think a material with a high thermal conductivity is a good insulator.", "right": "In fact a high thermal conductivity means a high rate of energy transfer by conduction, so it is a poor insulator." },
+      { "wrong": "Students often think lubrication increases the energy supplied to a machine.", "right": "In fact lubrication reduces friction, so less energy is dissipated by heating and more of the input energy is transferred usefully." }
+    ],
+    "realWorld": [
+      "Loft insulation, cavity wall insulation and double glazing reduce the rate at which homes cool, cutting heating bills and carbon dioxide emissions.",
+      "Engine oil lubricates the moving parts of a car engine, reducing friction, wear and wasted energy.",
+      "Vacuum flasks reduce unwanted energy transfer so hot drinks stay hot and cold drinks stay cold for many hours."
+    ],
+    "practicals": ["phys-rp2"],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "Required practical 2 (separate Physics only): investigate the effectiveness of different materials as thermal insulators and the factors, such as thickness of the insulating layer, that may affect the thermal insulation properties of a material.",
+      "In the practical, keep the volume and starting temperature of the water, the beaker size and the time interval the same; the independent variable is the insulating material (or its thickness) and the dependent variable is the temperature drop over a fixed time."
+    ],
+    "examTips": [
+      "Use the full AQA phrase: 'energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed'.",
+      "When explaining insulation, say it reduces the rate of energy transfer; never say it stops heat or keeps the cold out.",
+      "Link both factors for buildings: thicker walls and lower thermal conductivity both mean a lower rate of cooling.",
+      "For lubrication, give the chain: less friction, so less work done against friction, so less energy dissipated by heating.",
+      "In practical questions, name control variables precisely (same volume of water, same starting temperature)."
+    ],
+    "summary": [
+      "Energy is conserved: transferred, stored or dissipated, never created or destroyed.",
+      "In every system change some energy is dissipated to less useful stores.",
+      "Lubrication and thermal insulation reduce unwanted energy transfers.",
+      "Higher thermal conductivity means a higher rate of energy transfer by conduction.",
+      "Thicker, lower conductivity walls make a building cool more slowly.",
+      "Required practical 2 (separate only) compares thermal insulators."
+    ]
+  },
+  "flashcards": [
+    { "front": "State the principle of conservation of energy.", "back": "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed." },
+    { "front": "What does 'dissipated' mean?", "back": "Energy spreads out into the surroundings, usually by heating, and is stored in less useful ways." },
+    { "front": "Where does most wasted energy end up?", "back": "In the thermal store of the surroundings." },
+    { "front": "How does lubrication reduce wasted energy?", "back": "It reduces friction, so less energy is dissipated by heating." },
+    { "front": "What does a high thermal conductivity mean?", "back": "A high rate of energy transfer by conduction through the material." },
+    { "front": "Two factors affecting the rate of cooling of a building", "back": "The thickness of its walls and the thermal conductivity of the wall materials." },
+    { "front": "Why are many insulators full of trapped air?", "back": "Air has a very low thermal conductivity, so it reduces conduction (and trapping it reduces convection)." },
+    { "front": "Give three ways to reduce energy loss from a house.", "back": "Loft insulation, cavity wall insulation, double glazing (also draught excluders, thicker walls)." },
+    { "front": "RP2: independent variable", "back": "Type of insulating material (or its thickness / number of layers)." },
+    { "front": "RP2: dependent variable", "back": "Temperature of the water (temperature drop over a fixed time)." },
+    { "front": "RP2: key control variables", "back": "Volume of water, starting temperature, beaker size, time interval, use of a lid." },
+    { "front": "Is RP2 (thermal insulation) in Combined Science?", "back": "No, it is a separate Physics required practical only." }
+  ],
+  "questions": [
+    {
+      "id": "p1-energy-transfers-in-a-system-q01",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Which statement is the principle of conservation of energy?",
+      "options": ["Energy is used up when devices are switched on", "Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed", "Energy is always transferred usefully", "Energy can be created by power stations"],
+      "answer": 1,
+      "markScheme": ["1 mark: Energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed"],
+      "explanation": "Energy is never used up or created; power stations transfer energy from one store (for example chemical) to another."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q02",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "What is meant by energy being dissipated?",
+      "options": ["It is destroyed", "It is stored in a battery", "It is transferred to a useful store", "It spreads out into the surroundings, usually by heating, and is stored in less useful ways"],
+      "answer": 3,
+      "markScheme": ["1 mark: It spreads out into the surroundings, usually by heating, and is stored in less useful ways"],
+      "explanation": "Dissipated energy still exists but is spread thinly into the surroundings, mainly as thermal energy, so it is hard to use."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q03",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "A bicycle chain squeaks and gets warm. Which action would best reduce this unwanted energy transfer?",
+      "options": ["Lubricating the chain with oil", "Painting the chain", "Wrapping the chain in insulation", "Pedalling faster"],
+      "answer": 0,
+      "markScheme": ["1 mark: Lubricating the chain with oil"],
+      "explanation": "Oil reduces friction between the moving parts, so less energy is dissipated by heating and as sound. Insulation would not reduce friction."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q04",
+      "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Which material would be the best thermal insulator?",
+      "options": ["Copper", "Aluminium foil", "Wool containing trapped air", "Steel"],
+      "answer": 2,
+      "markScheme": ["1 mark: Wool containing trapped air"],
+      "explanation": "Metals have high thermal conductivity, so they conduct energy quickly. Wool traps air, which has a very low thermal conductivity."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q05",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "What is true about a material with a high thermal conductivity?",
+      "options": ["It has a high rate of energy transfer by conduction through it", "It is a good thermal insulator", "It has a high specific heat capacity", "It stops all energy transfer by conduction"],
+      "answer": 0,
+      "markScheme": ["1 mark: It has a high rate of energy transfer by conduction through it"],
+      "explanation": "The higher the thermal conductivity, the higher the rate of conduction. Good insulators have low thermal conductivity. Thermal conductivity and specific heat capacity are different properties."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q06",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Which wall would make a house cool down most slowly?",
+      "options": ["A thin wall made of a material with high thermal conductivity", "A thick wall made of a material with low thermal conductivity", "A thin wall made of a material with low thermal conductivity", "A thick wall made of a material with high thermal conductivity"],
+      "answer": 1,
+      "markScheme": ["1 mark: A thick wall made of a material with low thermal conductivity"],
+      "explanation": "Both greater thickness and lower thermal conductivity reduce the rate of energy transfer through the wall."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q07",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "A student compares insulating materials by wrapping beakers of hot water and measuring how they cool. What is the dependent variable?",
+      "options": ["The type of insulating material", "The volume of water", "The temperature of the water after a fixed time", "The size of the beaker"],
+      "answer": 2,
+      "markScheme": ["1 mark: The temperature of the water after a fixed time"],
+      "explanation": "The dependent variable is what is measured: the temperature (or temperature drop). The material is the independent variable; volume and beaker size are control variables."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q08",
+      "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "question": "Why does filling the cavity in a house wall with foam reduce energy loss?",
+      "options": ["The foam reflects heat back into the house", "The foam has a high thermal conductivity", "The foam makes the wall thinner", "The foam traps air, which has a low thermal conductivity, reducing energy transfer by conduction and convection"],
+      "answer": 3,
+      "markScheme": ["1 mark: The foam traps air, which has a low thermal conductivity, reducing energy transfer by conduction and convection"],
+      "explanation": "Air is a poor conductor; trapping it in foam stops it circulating, so both conduction and convection across the cavity are reduced."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q09",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "A spinning flywheel in a sealed box gradually slows down because of friction. The box and its contents are a closed system. What happens to the total energy of the system?",
+      "options": ["It stays the same", "It decreases as the flywheel slows", "It increases because the box warms up", "It decreases to zero when the flywheel stops"],
+      "answer": 0,
+      "markScheme": ["1 mark: It stays the same"],
+      "explanation": "In a closed system there is no net change in total energy. The kinetic store decreases but the thermal stores of the flywheel, bearings and air inside the box increase by the same amount."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q10",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "In the thermal insulation practical, why should each beaker have a lid?",
+      "options": ["To make the water heat up faster", "To reduce energy transfer from the water surface by evaporation and convection, so the comparison depends on the insulating material", "To stop the thermometer from moving", "To increase the temperature drop so it is easier to measure"],
+      "answer": 1,
+      "markScheme": ["1 mark: To reduce energy transfer from the water surface by evaporation and convection, so the comparison depends on the insulating material"],
+      "explanation": "A lot of energy escapes from an open water surface. Using the same lid on every beaker controls this, so differences in cooling are caused by the material around the sides."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q11",
+      "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "question": "Double glazing has two panes of glass with a gap between them. Why does this reduce energy transfer compared with a single pane?",
+      "options": ["The second pane doubles the thermal conductivity of the window", "Glass is a better insulator when it is cold", "The gas or vacuum in the gap has a very low thermal conductivity, so less energy is conducted across the window", "The gap reflects all infrared radiation back into the room"],
+      "answer": 2,
+      "markScheme": ["1 mark: The gas or vacuum in the gap has a very low thermal conductivity, so less energy is conducted across the window"],
+      "explanation": "The gap adds a layer of very low thermal conductivity, reducing the rate of conduction. It does not reflect all radiation, and adding a pane does not increase conductivity."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q12",
+      "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "An electric motor is supplied with 500 J of energy. 350 J is transferred usefully to the kinetic store of a load. Calculate the energy dissipated.",
+      "numericAnswer": 150, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: 500 − 350 = 150 J"],
+      "explanation": "Energy is conserved, so the energy not transferred usefully must have been dissipated: 500 − 350 = 150 J."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q13",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "In an insulation investigation, the temperature of water in a wrapped beaker falls from 80.0 °C to 56.5 °C in 15 minutes. Calculate the average rate of cooling in °C per minute.",
+      "numericAnswer": 1.57, "tolerance": 0.02, "unit": "°C/min",
+      "markScheme": ["1 mark: temperature drop = 23.5 °C", "1 mark: 23.5 ÷ 15 = 1.57 °C/min (accept 1.6)"],
+      "explanation": "Find the drop first: 80.0 − 56.5 = 23.5 °C. Then divide by the time: 23.5 ÷ 15 = 1.57 °C per minute."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q14",
+      "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A loudspeaker system is supplied with 1.2 kJ of energy. 300 J is transferred to the kinetic store of the speaker cone and 150 J is carried away as sound. The rest is transferred to thermal stores. Calculate the energy transferred to thermal stores, in joules.",
+      "numericAnswer": 750, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: 1.2 kJ = 1200 J", "1 mark: 1200 − 300 − 150 = 750 J"],
+      "explanation": "Convert to joules, then use conservation of energy: thermal = 1200 − 450 = 750 J."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q15",
+      "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "In an insulation investigation, a beaker contains 200 g of water. The water cools by 20 °C. Calculate the energy transferred from the water to the surroundings. (c of water = 4200 J/kg °C)",
+      "numericAnswer": 16800, "tolerance": 0.01, "unit": "J",
+      "markScheme": ["1 mark: m = 0.20 kg", "1 mark: ΔE = 0.20 × 4200 × 20", "1 mark: 16 800 J"],
+      "explanation": "Use ΔE = mcΔθ from the equation sheet with the mass converted to kg: 0.20 × 4200 × 20 = 16 800 J. This energy is dissipated to the thermal store of the surroundings."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q16",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "State the principle of conservation of energy.",
+      "acceptedAnswers": ["energy cannot be created or destroyed", "energy can be transferred, stored or dissipated but not created or destroyed"],
+      "markScheme": ["1 mark: energy can be transferred usefully, stored or dissipated, but cannot be created or destroyed"],
+      "explanation": "The key idea is that energy cannot be created or destroyed; the total stays the same."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q17",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Give one way of reducing the unwanted energy transfer caused by friction between moving parts of a machine.",
+      "acceptedAnswers": ["lubrication", "oil", "grease", "lubricate the moving parts"],
+      "markScheme": ["1 mark: lubricate the moving parts (with oil or grease)"],
+      "explanation": "Lubrication reduces friction, so less energy is dissipated by heating."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q18",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "Name the energy store that most dissipated energy ends up in.",
+      "acceptedAnswers": ["thermal store of the surroundings", "thermal", "internal energy of the surroundings"],
+      "markScheme": ["1 mark: thermal store (of the surroundings)"],
+      "explanation": "Wasted energy, including sound, eventually warms the surroundings slightly, increasing their thermal store."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q19",
+      "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "question": "State what happens to the rate of energy transfer through a wall if it is made from a material with a lower thermal conductivity.",
+      "acceptedAnswers": ["decreases", "it is lower", "slower", "reduces"],
+      "markScheme": ["1 mark: the rate of energy transfer decreases"],
+      "explanation": "Lower thermal conductivity means a lower rate of energy transfer by conduction, so the building cools more slowly."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q20",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Explain how lubricating the axle of a wheel reduces the energy wasted.",
+      "acceptedAnswers": ["reduces friction", "less work done against friction", "less energy dissipated by heating", "less thermal energy"],
+      "markScheme": ["1 mark: lubrication reduces friction between the axle and the wheel", "1 mark: so less energy is dissipated by heating (less work done against friction)"],
+      "explanation": "Friction does work that transfers energy to thermal stores. Reducing friction reduces this wasted transfer."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q21",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Two houses are identical except that house A has thicker walls than house B. Explain which house cools down more slowly on a cold night.",
+      "acceptedAnswers": ["house A", "thicker walls", "lower rate of energy transfer", "slower conduction"],
+      "markScheme": ["1 mark: house A", "1 mark: the thicker the wall, the lower the rate of energy transfer by conduction through it"],
+      "explanation": "Energy has to be conducted through more material in a thicker wall, so the rate of transfer is lower and the house cools more slowly."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q22",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "A student investigates how well different materials insulate a beaker of hot water. Give two variables she should control.",
+      "acceptedAnswers": ["volume of water", "starting temperature", "size of beaker", "thickness of material", "time interval", "lid", "room temperature"],
+      "markScheme": ["1 mark each for any two: volume of water; starting temperature of the water; size and type of beaker; thickness of insulation; time of each reading; whether a lid is used"],
+      "explanation": "Only the material should change so that differences in cooling are caused by the material alone."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q23",
+      "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "question": "Give two examples of energy being dissipated as a car is driven along a road.",
+      "acceptedAnswers": ["engine heats up", "friction in moving parts", "air resistance heats air", "sound", "tyres warm up", "exhaust gases"],
+      "markScheme": ["1 mark each for any two: engine/moving parts heated by friction; work done against air resistance warms the air; sound from the engine or tyres; hot exhaust gases; tyres and road warmed"],
+      "explanation": "In all real system changes some energy is dissipated, mainly to the thermal store of the surroundings."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q24",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "question": "Explain why dissipated energy is described as 'wasted' even though it has not been destroyed.",
+      "acceptedAnswers": ["spread out", "less useful", "cannot easily be used", "stored in less useful ways", "small temperature rise of surroundings"],
+      "markScheme": ["1 mark: the energy is spread out into the surroundings (usually in thermal stores)", "1 mark: so it is stored in a less useful way and cannot easily be transferred usefully again"],
+      "explanation": "The energy still exists but is so spread out, causing a tiny temperature rise in a huge mass of surroundings, that it cannot do useful work."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q25",
+      "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "question": "In the thermal insulation practical, explain why each beaker should start with water at the same temperature.",
+      "acceptedAnswers": ["rate of cooling depends on temperature difference", "hotter water cools faster", "fair test", "control variable"],
+      "markScheme": ["1 mark: the rate of cooling depends on the temperature difference between the water and the surroundings", "1 mark: hotter water would cool faster even with the same insulation", "1 mark: so the starting temperature must be controlled to make it a fair comparison of the materials"],
+      "explanation": "If one beaker started hotter, it would lose energy faster regardless of the insulator, making the comparison invalid."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q26",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
+      "question": "Describe a method to investigate the effectiveness of different materials as thermal insulators. Include how you would make it a fair test and how you would use your results to decide which material is the best insulator.",
+      "markScheme": [
+        "Indicative content: use identical beakers; wrap each in a different material (for example bubble wrap, newspaper, cotton wool) with the same thickness or number of layers; leave one unwrapped as a control; pour the same volume of hot water (for example 200 cm³ from a kettle, measured with a measuring cylinder) into each; use a lid with a hole for a thermometer; record the starting temperature, which should be the same each time; start a stopwatch and record the temperature every 2 minutes for 20 minutes; plot cooling curves of temperature against time; the best insulator gives the smallest temperature drop in the same time (the shallowest cooling curve); repeat and calculate means; take care with hot water.",
+        "Level 3 (5 to 6 marks): a coherent method that would give valid results, with control variables, measurements at regular intervals and a correct way to identify the best insulator.",
+        "Level 2 (3 to 4 marks): a method with most key steps and some control variables, with a basic conclusion method.",
+        "Level 1 (1 to 2 marks): simple statements about wrapping beakers and measuring temperature."
+      ],
+      "explanation": "The independent variable is the material, the dependent variable is temperature drop over time. Controlling volume, starting temperature and lid makes the comparison fair."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q27",
+      "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "question": "Describe and explain ways of reducing the rate at which energy is transferred from a house to the outside on a cold day.",
+      "markScheme": [
+        "Indicative content: loft insulation (fibreglass traps air, low thermal conductivity) reduces energy loss through the roof; cavity wall insulation (foam traps air) reduces conduction and convection across the cavity; double glazing has a gap of low thermal conductivity gas between panes; thicker walls reduce the rate of conduction; draught excluders reduce warm air escaping; building with materials of lower thermal conductivity reduces the rate of cooling.",
+        "Level 2 (3 to 4 marks): at least two methods described with clear explanations in terms of thermal conductivity, thickness or trapped air.",
+        "Level 1 (1 to 2 marks): methods listed with little or no explanation."
+      ],
+      "explanation": "Good answers link each method to a lower thermal conductivity or greater thickness, both of which lower the rate of energy transfer."
+    },
+    {
+      "id": "p1-energy-transfers-in-a-system-q28",
+      "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "question": "A student wraps three identical beakers of hot water in different materials. Each starts at 80 °C. After 20 minutes the temperatures are: no insulation 52 °C, newspaper 61 °C, bubble wrap 66 °C.\nAnalyse the results to identify the best insulator, and suggest one way the student could make her conclusion more reliable.",
+      "markScheme": [
+        "Indicative content: temperature drops are 28 °C (none), 19 °C (newspaper) and 14 °C (bubble wrap); bubble wrap has the smallest temperature drop, so the lowest rate of energy transfer, so it is the best insulator; bubble wrap traps air, which has a low thermal conductivity; to improve reliability repeat each test and calculate a mean; check the layers have the same thickness; take readings at regular intervals and plot cooling curves.",
+        "Level 2 (3 to 4 marks): temperature drops calculated, bubble wrap correctly identified with a reason, and a valid improvement suggested.",
+        "Level 1 (1 to 2 marks): bubble wrap identified as best with limited reasoning, or an improvement suggested."
+      ],
+      "explanation": "Compare the temperature drops, not the final readings alone: 28, 19 and 14 °C. The smallest drop shows the most effective insulator. Repeats improve reliability."
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "id": "p3-temperature-changes-and-shc",
+  "science": "physics",
+  "topicId": "p3",
+  "slug": "temperature-changes-and-shc",
+  "specRef": "4.3.2.2",
+  "title": "Temperature changes in a system and specific heat capacity",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The specific heat capacity of a substance is the amount of energy required to raise the temperature of one kilogram of the substance by one degree Celsius. The energy needed for a temperature change is calculated with ΔE = m c Δθ.",
+    "explanation": [
+      "When a system is heated and its temperature rises, the energy transferred increases the internal energy of the system. How much energy is needed depends on three things: the mass of the material, the size of the temperature change, and what the material is. A large pan of water takes longer to heat than a small one, and heating it by 60 °C takes more energy than heating it by 10 °C.",
+      "The property of the material is called its specific heat capacity, c. It is the energy needed to raise the temperature of 1 kg of the substance by 1 °C, measured in joules per kilogram per degree Celsius (J/kg °C). Water has a very high specific heat capacity of about 4200 J/kg °C. Aluminium is about 900 J/kg °C and copper about 385 J/kg °C. A substance with a low specific heat capacity heats up (and cools down) quickly for a given energy transfer.",
+      "The equation is change in thermal energy = mass × specific heat capacity × temperature change, written ΔE = m c Δθ. This equation is given on the equation sheet, but you must be able to select it and use it. ΔE is in joules, m in kilograms, c in J/kg °C and Δθ (delta theta) is the temperature change in °C, found by subtracting the starting temperature from the final temperature.",
+      "You will often need to rearrange the equation. To find the specific heat capacity, c = ΔE ÷ (m Δθ). To find the temperature change, Δθ = ΔE ÷ (m c). To find the mass, m = ΔE ÷ (c Δθ). Watch the units: convert grams to kilograms (divide by 1000) and kilojoules to joules (multiply by 1000) before substituting.",
+      "The same equation works when a substance cools: ΔE is then the energy transferred from the substance to its surroundings. Because water has such a high specific heat capacity, it can store and release a lot of energy for a small temperature change. This is why it is used in central heating systems and hot water bottles, and why the sea warms and cools more slowly than the land."
+    ],
+    "keyFacts": [
+      "Specific heat capacity: energy needed to raise the temperature of 1 kg of a substance by 1 °C.",
+      "Unit of specific heat capacity: J/kg °C.",
+      "ΔE = m c Δθ (given on the equation sheet).",
+      "Δθ = final temperature − starting temperature.",
+      "Water: c ≈ 4200 J/kg °C, a very high value.",
+      "Low c means a bigger temperature rise for the same energy per kilogram.",
+      "Doubling the mass doubles the energy needed for the same temperature rise.",
+      "Convert g → kg (÷ 1000) and kJ → J (× 1000) before using the equation.",
+      "The equation also gives the energy released when a substance cools."
+    ],
+    "keyTerms": [
+      {
+        "term": "Specific heat capacity (c)",
+        "definition": "The amount of energy required to raise the temperature of one kilogram of a substance by one degree Celsius (J/kg °C)."
+      },
+      {
+        "term": "Temperature change (Δθ)",
+        "definition": "The difference between the final and starting temperatures, in °C."
+      },
+      {
+        "term": "Change in thermal energy (ΔE)",
+        "definition": "The energy transferred to or from a system that changes its temperature, in joules."
+      },
+      {
+        "term": "Thermal energy store",
+        "definition": "The energy store that increases when an object's temperature rises."
+      },
+      {
+        "term": "Kilojoule (kJ)",
+        "definition": "1000 joules."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Change in thermal energy",
+        "formula": "change in thermal energy = mass × specific heat capacity × temperature change",
+        "symbols": "ΔE = m c Δθ",
+        "units": "ΔE in J, m in kg, c in J/kg °C, Δθ in °C",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Energy to heat water",
+        "question": "Calculate the energy needed to heat 0.60 kg of water from 20 °C to 85 °C. (c of water = 4200 J/kg °C)",
+        "steps": [
+          "Δθ = 85 − 20 = 65 °C.",
+          "ΔE = m c Δθ = 0.60 × 4200 × 65.",
+          "ΔE = 163 800 J (about 164 kJ)."
+        ],
+        "answer": "163 800 J"
+      },
+      {
+        "title": "Finding specific heat capacity (kJ conversion)",
+        "question": "A 0.50 kg metal block is heated with 13.5 kJ of energy and its temperature rises by 30 °C. Calculate the specific heat capacity of the metal.",
+        "steps": [
+          "Convert: 13.5 kJ = 13 500 J.",
+          "Rearrange: c = ΔE ÷ (m Δθ).",
+          "c = 13 500 ÷ (0.50 × 30) = 13 500 ÷ 15 = 900 J/kg °C."
+        ],
+        "answer": "900 J/kg °C"
+      },
+      {
+        "title": "Finding the final temperature (grams)",
+        "question": "A 200 g aluminium block at 20 °C is given 5400 J of energy. Calculate its final temperature. (c of aluminium = 900 J/kg °C)",
+        "steps": [
+          "Convert: 200 g = 0.200 kg.",
+          "Δθ = ΔE ÷ (m c) = 5400 ÷ (0.200 × 900) = 5400 ÷ 180 = 30 °C.",
+          "Final temperature = 20 + 30 = 50 °C."
+        ],
+        "answer": "50 °C"
+      },
+      {
+        "title": "Finding the mass",
+        "question": "84 kJ of energy raises the temperature of some water by 40 °C. Calculate the mass of the water. (c = 4200 J/kg °C)",
+        "steps": [
+          "84 kJ = 84 000 J.",
+          "m = ΔE ÷ (c Δθ) = 84 000 ÷ (4200 × 40).",
+          "m = 84 000 ÷ 168 000 = 0.50 kg."
+        ],
+        "answer": "0.50 kg"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Same energy, different temperature rise",
+        "caption": "Graph for 1 kg of water and 1 kg of aluminium heated with the same energy. Aluminium's lower specific heat capacity gives a much larger temperature rise: 20 kJ raises aluminium by about 22 °C but water by under 5 °C.",
+        "svg": "<svg viewBox='0 0 480 290' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='0.5' stroke-dasharray='2 3'><line x1='60' y1='200' x2='440' y2='200'/><line x1='60' y1='160' x2='440' y2='160'/><line x1='60' y1='120' x2='440' y2='120'/><line x1='60' y1='80' x2='440' y2='80'/><line x1='60' y1='40' x2='440' y2='40'/></g><line x1='60' y1='240' x2='60' y2='33' stroke='currentColor' stroke-width='1.5'/><path d='M60 25 L56 33 L64 33 Z' fill='currentColor'/><line x1='60' y1='240' x2='447' y2='240' stroke='currentColor' stroke-width='1.5'/><path d='M455 240 L447 236 L447 244 Z' fill='currentColor'/><line x1='60' y1='240' x2='440' y2='62.22222222222223' stroke='#c4b5fd' stroke-width='3'/><line x1='60' y1='240' x2='440' y2='201.9' stroke='#93c5fd' stroke-width='3'/><line x1='60' y1='240' x2='440' y2='62.22222222222223' stroke='currentColor' stroke-width='1'/><line x1='60' y1='240' x2='440' y2='201.9' stroke='currentColor' stroke-width='1' stroke-dasharray='5 3'/><g font-size='12' fill='currentColor'><line x1='60' y1='240' x2='60' y2='245' stroke='currentColor'/><text x='60' y='258' text-anchor='middle'>0</text><line x1='155' y1='240' x2='155' y2='245' stroke='currentColor'/><text x='155' y='258' text-anchor='middle'>5</text><line x1='250' y1='240' x2='250' y2='245' stroke='currentColor'/><text x='250' y='258' text-anchor='middle'>10</text><line x1='345' y1='240' x2='345' y2='245' stroke='currentColor'/><text x='345' y='258' text-anchor='middle'>15</text><line x1='440' y1='240' x2='440' y2='245' stroke='currentColor'/><text x='440' y='258' text-anchor='middle'>20</text><line x1='55' y1='240' x2='60' y2='240' stroke='currentColor'/><text x='50' y='244' text-anchor='end'>0</text><line x1='55' y1='200' x2='60' y2='200' stroke='currentColor'/><text x='50' y='204' text-anchor='end'>5</text><line x1='55' y1='160' x2='60' y2='160' stroke='currentColor'/><text x='50' y='164' text-anchor='end'>10</text><line x1='55' y1='120' x2='60' y2='120' stroke='currentColor'/><text x='50' y='124' text-anchor='end'>15</text><line x1='55' y1='80' x2='60' y2='80' stroke='currentColor'/><text x='50' y='84' text-anchor='end'>20</text><line x1='55' y1='40' x2='60' y2='40' stroke='currentColor'/><text x='50' y='44' text-anchor='end'>25</text><text x='250' y='282' text-anchor='middle'>energy transferred (kJ)</text><text x='16' y='140' text-anchor='middle' transform='rotate(-90 16 140)'>temperature rise (°C)</text><text x='160' y='100'>aluminium, 1 kg</text><text x='160' y='115'>c = 900 J/kg °C</text><text x='300' y='178'>water, 1 kg</text><text x='300' y='193'>c = 4200 J/kg °C</text></g></svg>"
+      },
+      {
+        "title": "The specific heat capacity equation",
+        "caption": "Each quantity in ΔE = m c Δθ with its unit. Convert grams and kilojoules before substituting.",
+        "svg": "<svg viewBox='0 0 480 220' xmlns='http://www.w3.org/2000/svg'><g font-size='26' fill='currentColor' text-anchor='middle'><text x='80' y='80'>ΔE</text><text x='145' y='80'>=</text><text x='210' y='80'>m</text><text x='260' y='80'>×</text><text x='310' y='80'>c</text><text x='360' y='80'>×</text><text x='415' y='80'>Δθ</text></g><g stroke='currentColor'><line x1='80' y1='92' x2='80' y2='130'/><line x1='210' y1='92' x2='210' y2='130'/><line x1='310' y1='92' x2='310' y2='130'/><line x1='415' y1='92' x2='415' y2='130'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='80' y='146'>change in</text><text x='80' y='161'>thermal energy</text><text x='80' y='178'>joules (J)</text><text x='210' y='146'>mass</text><text x='210' y='178'>kilograms (kg)</text><text x='310' y='146'>specific heat</text><text x='310' y='161'>capacity</text><text x='310' y='178'>J/kg °C</text><text x='415' y='146'>temperature</text><text x='415' y='161'>change</text><text x='415' y='178'>°C</text><text x='240' y='30'>Given on the equation sheet</text><text x='240' y='208'>Δθ = final temperature − starting temperature</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often use the final temperature as Δθ.",
+        "right": "In fact Δθ is the change in temperature: final temperature minus starting temperature."
+      },
+      {
+        "wrong": "Students often think a substance with a high specific heat capacity heats up quickly.",
+        "right": "In fact a high specific heat capacity means it needs more energy per kilogram for each °C, so it heats up slowly."
+      },
+      {
+        "wrong": "Students often substitute mass in grams.",
+        "right": "In fact the mass must be in kilograms because c is in J/kg °C. Divide grams by 1000."
+      },
+      {
+        "wrong": "Students often think specific heat capacity depends on how much material there is.",
+        "right": "In fact it is a property of the material, defined per kilogram. The energy needed depends on mass, but c does not."
+      }
+    ],
+    "realWorld": [
+      "Central heating systems and hot water bottles use water because its high specific heat capacity lets it carry a lot of energy for a small temperature drop.",
+      "Coastal areas have milder climates because the sea, with its high specific heat capacity, warms and cools more slowly than the land.",
+      "Storage heaters use materials with a high heat capacity, such as dense bricks, to store energy overnight and release it slowly.",
+      "Cooking pans are made from metals with low specific heat capacity so they heat up quickly."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Write the equation, substitute with units, then calculate. You can earn marks for the substitution even if the final answer is wrong.",
+      "Check units first: kg, J and °C. Convert g and kJ before you substitute.",
+      "When rearranging, multiply the bottom terms together first: c = ΔE ÷ (m × Δθ).",
+      "If a question asks for a final temperature, add Δθ to the starting temperature at the end.",
+      "The specific heat capacity method is required practical 1 (in topic P1). Remember that energy lost to the surroundings makes the measured value of c too high."
+    ],
+    "summary": [
+      "Specific heat capacity is the energy to raise 1 kg by 1 °C (J/kg °C).",
+      "ΔE = m c Δθ, given on the equation sheet.",
+      "Energy needed depends on mass, material and temperature change.",
+      "Water has a high specific heat capacity of about 4200 J/kg °C.",
+      "Rearrange: c = ΔE ÷ (m Δθ), Δθ = ΔE ÷ (m c), m = ΔE ÷ (c Δθ).",
+      "Always use kg and J."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Define specific heat capacity",
+      "back": "The energy required to raise the temperature of 1 kg of a substance by 1 °C."
+    },
+    {
+      "front": "Unit of specific heat capacity",
+      "back": "J/kg °C"
+    },
+    {
+      "front": "Equation linking energy, mass, SHC and temperature change",
+      "back": "ΔE = m c Δθ"
+    },
+    {
+      "front": "What does Δθ mean?",
+      "back": "Temperature change in °C (final − initial)."
+    },
+    {
+      "front": "Is ΔE = m c Δθ on the equation sheet?",
+      "back": "Yes, but you must be able to select and use it."
+    },
+    {
+      "front": "Approximate specific heat capacity of water",
+      "back": "4200 J/kg °C"
+    },
+    {
+      "front": "Rearrange ΔE = m c Δθ for c",
+      "back": "c = ΔE ÷ (m Δθ)"
+    },
+    {
+      "front": "Rearrange ΔE = m c Δθ for Δθ",
+      "back": "Δθ = ΔE ÷ (m c)"
+    },
+    {
+      "front": "Which heats up faster with the same energy per kg: high or low c?",
+      "back": "Low specific heat capacity"
+    },
+    {
+      "front": "Convert 350 g to kg",
+      "back": "0.350 kg"
+    },
+    {
+      "front": "Convert 4.2 kJ to J",
+      "back": "4200 J"
+    },
+    {
+      "front": "Why is water used in radiators?",
+      "back": "Its high specific heat capacity means it stores and releases a lot of energy for each °C change."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-temperature-changes-and-shc-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the specific heat capacity of a substance?",
+      "options": [
+        "The energy needed to melt 1 kg of the substance",
+        "The energy needed to raise the temperature of 1 kg of the substance by 1 °C",
+        "The maximum temperature the substance can reach",
+        "The energy needed to raise the temperature of the substance to its boiling point"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The energy needed to raise the temperature of 1 kg of the substance by 1 °C"
+      ],
+      "explanation": "This is the AQA definition. The energy needed to melt 1 kg is the specific latent heat of fusion, a different quantity."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of specific heat capacity?",
+      "options": [
+        "J/kg",
+        "J/°C",
+        "J/kg °C",
+        "kg °C/J"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: J/kg °C"
+      ],
+      "explanation": "Specific heat capacity is energy per kilogram per degree Celsius, so J/kg °C. J/kg is the unit of specific latent heat."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In the equation ΔE = m c Δθ, what does Δθ represent?",
+      "options": [
+        "The temperature change",
+        "The final temperature",
+        "The starting temperature",
+        "The time taken"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The temperature change"
+      ],
+      "explanation": "Δ (delta) means 'change in', so Δθ is the change in temperature: final minus starting temperature."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "The specific heat capacity of water is 4200 J/kg °C. How much energy is needed to raise the temperature of 1 kg of water by 1 °C?",
+      "options": [
+        "1 J",
+        "420 J",
+        "42 000 J",
+        "4200 J"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 4200 J"
+      ],
+      "explanation": "By definition, the specific heat capacity is the energy needed to raise 1 kg by 1 °C, so 4200 J."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A liquid is heated from 15 °C to 40 °C. What is the temperature change?",
+      "options": [
+        "55 °C",
+        "25 °C",
+        "40 °C",
+        "15 °C"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 25 °C"
+      ],
+      "explanation": "Δθ = 40 − 15 = 25 °C. Adding the temperatures (55 °C) or using the final temperature (40 °C) are common mistakes."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "1 kg of water (c = 4200 J/kg °C) and 1 kg of aluminium (c = 900 J/kg °C) are each given 9000 J of energy. Which statement is correct?",
+      "options": [
+        "The water has the larger temperature rise",
+        "Both have the same temperature rise",
+        "The aluminium has the larger temperature rise",
+        "Neither changes temperature"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The aluminium has the larger temperature rise"
+      ],
+      "explanation": "Δθ = ΔE ÷ (m c). Aluminium: 9000 ÷ 900 = 10 °C. Water: 9000 ÷ 4200 ≈ 2.1 °C. A lower specific heat capacity gives a bigger rise."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which change would double the energy needed to heat a block of metal?",
+      "options": [
+        "Halving the temperature rise",
+        "Halving the mass",
+        "Using a metal with half the specific heat capacity",
+        "Doubling the mass"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Doubling the mass"
+      ],
+      "explanation": "ΔE is proportional to m, so doubling the mass doubles ΔE. The other three options all halve the energy needed."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is water a good choice for the liquid in a central heating system?",
+      "options": [
+        "It has a low specific heat capacity, so it heats up quickly",
+        "It has a high specific heat capacity, so it transfers a lot of energy as it cools",
+        "It has a high density, so it flows easily",
+        "It boils at a low temperature"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It has a high specific heat capacity, so it transfers a lot of energy as it cools"
+      ],
+      "explanation": "A high specific heat capacity means each kilogram of water releases a lot of energy for each degree it cools, carrying lots of energy from the boiler to the radiators."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Blocks X and Y have equal masses. When each is given the same energy, the temperature of X rises by twice as much as Y. What is the specific heat capacity of X compared with Y?",
+      "options": [
+        "Twice as large",
+        "Four times as large",
+        "The same",
+        "Half as large"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Half as large"
+      ],
+      "explanation": "c = ΔE ÷ (m Δθ). With equal ΔE and m, c is inversely proportional to Δθ, so doubling Δθ means c is halved."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "2.1 kJ of energy is transferred to 0.10 kg of water (c = 4200 J/kg °C). What is the temperature rise?",
+      "options": [
+        "0.005 °C",
+        "5 °C",
+        "50 °C",
+        "0.5 °C"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 5 °C"
+      ],
+      "explanation": "Convert 2.1 kJ to 2100 J. Δθ = 2100 ÷ (0.10 × 4200) = 2100 ÷ 420 = 5 °C. Forgetting to convert kJ gives 0.005 °C."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Calculate the energy needed to raise the temperature of 2.0 kg of water by 15 °C. (c of water = 4200 J/kg °C)",
+      "numericAnswer": 126000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: ΔE = 2.0 × 4200 × 15",
+        "1 mark: 126 000 J"
+      ],
+      "explanation": "ΔE = m c Δθ = 2.0 × 4200 × 15 = 126 000 J."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 0.50 kg aluminium block is heated from 20 °C to 60 °C. Calculate the energy transferred to the block. (c of aluminium = 900 J/kg °C)",
+      "numericAnswer": 18000,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: Δθ = 60 − 20 = 40 °C",
+        "1 mark: ΔE = 0.50 × 900 × 40",
+        "1 mark: 18 000 J"
+      ],
+      "explanation": "Find the temperature change first (40 °C), then ΔE = 0.50 × 900 × 40 = 18 000 J."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 0.80 kg copper block absorbs 6160 J of energy and its temperature rises by 20 °C. Calculate the specific heat capacity of copper.",
+      "numericAnswer": 385,
+      "tolerance": 0.02,
+      "unit": "J/kg °C",
+      "markScheme": [
+        "1 mark: c = ΔE ÷ (m Δθ)",
+        "1 mark: c = 6160 ÷ (0.80 × 20)",
+        "1 mark: 385 J/kg °C"
+      ],
+      "explanation": "c = 6160 ÷ 16 = 385 J/kg °C."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "0.25 kg of water is given 21 000 J of energy. Calculate the temperature rise. (c of water = 4200 J/kg °C)",
+      "numericAnswer": 20,
+      "tolerance": 0.02,
+      "unit": "°C",
+      "markScheme": [
+        "1 mark: Δθ = ΔE ÷ (m c)",
+        "1 mark: Δθ = 21 000 ÷ (0.25 × 4200)",
+        "1 mark: 20 °C"
+      ],
+      "explanation": "Δθ = 21 000 ÷ 1050 = 20 °C."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "An iron block of mass 1.5 kg cools from 120 °C to 20 °C. Calculate the energy transferred to the surroundings. (c of iron = 450 J/kg °C)",
+      "numericAnswer": 67500,
+      "tolerance": 0.02,
+      "unit": "J",
+      "markScheme": [
+        "1 mark: Δθ = 120 − 20 = 100 °C",
+        "1 mark: ΔE = 1.5 × 450 × 100",
+        "1 mark: 67 500 J"
+      ],
+      "explanation": "The same equation gives the energy released on cooling: 1.5 × 450 × 100 = 67 500 J."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "250 g of water is heated from 20 °C to 100 °C. Calculate the energy needed in kJ. (c of water = 4200 J/kg °C)",
+      "numericAnswer": 84,
+      "tolerance": 0.02,
+      "unit": "kJ",
+      "markScheme": [
+        "1 mark: m = 0.250 kg and Δθ = 80 °C",
+        "1 mark: ΔE = 0.250 × 4200 × 80 = 84 000 J",
+        "1 mark: 84 kJ"
+      ],
+      "explanation": "Convert the mass to kg first. ΔE = 84 000 J, then divide by 1000 to give 84 kJ."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "0.40 kg of cooking oil at 18 °C is given 24 000 J of energy. Calculate the final temperature of the oil. (c of oil = 2000 J/kg °C)",
+      "numericAnswer": 48,
+      "tolerance": 0.02,
+      "unit": "°C",
+      "markScheme": [
+        "1 mark: Δθ = 24 000 ÷ (0.40 × 2000)",
+        "1 mark: Δθ = 30 °C",
+        "1 mark: final temperature = 18 + 30 = 48 °C"
+      ],
+      "explanation": "Δθ = 24 000 ÷ 800 = 30 °C. The question asks for the final temperature, so add the starting temperature: 48 °C."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "50.4 kJ of energy raises the temperature of a quantity of water by 12 °C. Calculate the mass of the water. (c of water = 4200 J/kg °C)",
+      "numericAnswer": 1,
+      "tolerance": 0.02,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: 50.4 kJ = 50 400 J",
+        "1 mark: m = 50 400 ÷ (4200 × 12)",
+        "1 mark: 1.0 kg"
+      ],
+      "explanation": "m = ΔE ÷ (c Δθ) = 50 400 ÷ 50 400 = 1.0 kg. Forgetting to convert kJ gives 0.001 kg."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A 50 W immersion heater is used to heat a 1.0 kg aluminium block for 300 s. Assume all the energy from the heater is transferred to the block. Calculate the temperature rise of the block. (c of aluminium = 900 J/kg °C; energy = power × time)",
+      "numericAnswer": 16.7,
+      "tolerance": 0.03,
+      "unit": "°C",
+      "markScheme": [
+        "1 mark: E = P t = 50 × 300",
+        "1 mark: E = 15 000 J",
+        "1 mark: Δθ = 15 000 ÷ (1.0 × 900)",
+        "1 mark: 16.7 °C (accept 17 °C)"
+      ],
+      "explanation": "First find the energy from the heater, 15 000 J, then Δθ = 15 000 ÷ 900 = 16.7 °C. In reality some energy is lost to the surroundings, so the real rise would be smaller."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define specific heat capacity.",
+      "acceptedAnswers": [
+        "energy required",
+        "raise temperature",
+        "1 kg",
+        "one kilogram",
+        "1 °C",
+        "one degree Celsius"
+      ],
+      "markScheme": [
+        "1 mark: the amount of energy required to raise the temperature",
+        "1 mark: of one kilogram of the substance by one degree Celsius"
+      ],
+      "explanation": "Both the 1 kg and the 1 °C must be mentioned."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "In the equation ΔE = m c Δθ, state what quantity m and c represent and give their units.",
+      "acceptedAnswers": [
+        "mass in kg",
+        "specific heat capacity in J/kg °C"
+      ],
+      "markScheme": [
+        "1 mark: m is mass in kilograms (kg)",
+        "1 mark: c is specific heat capacity in J/kg °C"
+      ],
+      "explanation": "ΔE is in joules and Δθ in °C; the units must be consistent."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "On a sunny day, the sand on a beach becomes much hotter than the sea, even though both receive the same energy per square metre from the Sun. Suggest why.",
+      "acceptedAnswers": [
+        "sand has lower specific heat capacity",
+        "water has higher specific heat capacity",
+        "less energy per kg per °C",
+        "larger temperature rise"
+      ],
+      "markScheme": [
+        "1 mark: sand has a lower specific heat capacity than water",
+        "1 mark: so the same energy per kilogram causes a larger temperature rise in the sand"
+      ],
+      "explanation": "Water needs about 4200 J to warm each kilogram by 1 °C, several times more than sand."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why it takes longer to heat 2 kg of water to 100 °C than 1 kg of water from the same starting temperature with the same kettle.",
+      "acceptedAnswers": [
+        "more mass needs more energy",
+        "energy proportional to mass",
+        "double the energy",
+        "same power so longer time"
+      ],
+      "markScheme": [
+        "1 mark: ΔE = m c Δθ, so twice the mass needs twice the energy for the same temperature change",
+        "1 mark: the kettle transfers energy at the same rate (power), so it takes longer"
+      ],
+      "explanation": "Same c and Δθ, double m, so double ΔE; at the same power that takes about twice as long."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why water in a hot water bottle stays warm for a long time.",
+      "acceptedAnswers": [
+        "high specific heat capacity",
+        "releases a lot of energy",
+        "small temperature drop",
+        "for each degree"
+      ],
+      "markScheme": [
+        "1 mark: water has a high specific heat capacity",
+        "1 mark: so it releases a lot of energy for each °C it cools, so its temperature falls slowly"
+      ],
+      "explanation": "The large energy per °C means it can keep transferring energy to the surroundings for a long time."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student measures the specific heat capacity of an aluminium block by heating it with an electric heater. The value obtained is higher than the accepted value. Explain why.",
+      "acceptedAnswers": [
+        "energy lost to surroundings",
+        "not all energy heats the block",
+        "temperature rise smaller than expected",
+        "c = E ÷ (m Δθ) larger"
+      ],
+      "markScheme": [
+        "1 mark: some energy from the heater is transferred to the surroundings (not all goes into the block), so the temperature rise is smaller than it should be",
+        "1 mark: c = ΔE ÷ (m Δθ), so a smaller Δθ with the full ΔE gives a larger value of c"
+      ],
+      "explanation": "This is the main systematic error in the specific heat capacity practical. Insulating the block reduces it."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest two ways to reduce energy losses when measuring the specific heat capacity of a metal block, and explain why this improves the result.",
+      "acceptedAnswers": [
+        "insulate the block",
+        "lagging",
+        "insulating base",
+        "oil in thermometer hole",
+        "less energy lost to surroundings"
+      ],
+      "markScheme": [
+        "1 mark: wrap the block in insulation and/or stand it on an insulating mat (or put a drop of oil in the thermometer hole for better thermal contact)",
+        "1 mark: less energy is transferred to the surroundings, so the measured temperature rise is closer to the true value and c is closer to the accepted value"
+      ],
+      "explanation": "Reducing losses reduces the systematic error that makes c appear too high."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how a student could determine the specific heat capacity of a metal block using an electric heater, a joulemeter (or an ammeter, voltmeter and stopclock), a thermometer and a balance. Include how the result would be calculated.",
+      "markScheme": [
+        "Indicative content: measure the mass of the block using a balance; wrap the block in insulation; place the heater and thermometer in the holes in the block (a drop of water or oil in the thermometer hole improves contact); record the starting temperature; connect the heater to the power supply with a joulemeter (or ammeter and voltmeter); switch on and heat for a fixed time, such as 10 minutes; record the energy transferred from the joulemeter (or calculate E = P t or E = V I t); record the highest temperature reached; calculate Δθ = final − starting temperature; c = ΔE ÷ (m Δθ); repeat and calculate a mean; energy losses mean the value is likely to be too high.",
+        "Level 3 (5 to 6 marks): a clear, logically ordered method that would produce valid results, including mass, insulation, energy measurement, temperature change and the correct calculation of c.",
+        "Level 2 (3 to 4 marks): a method with the main measurements (mass, energy, temperature change) but missing some detail or the calculation is incomplete.",
+        "Level 1 (1 to 2 marks): one or two relevant steps, for example heat the block and measure the temperature.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "This is required practical 1. Full marks need all three measurements (m, ΔE, Δθ) and the rearranged equation c = ΔE ÷ (m Δθ)."
+    },
+    {
+      "id": "p3-temperature-changes-and-shc-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "An engineer is choosing a liquid to store energy in a solar water heating tank. Liquid A is water (c = 4200 J/kg °C). Liquid B is an oil (c = 2000 J/kg °C). The tank holds 100 kg of either liquid and can be heated from 20 °C to 60 °C.\nCalculate the energy each liquid could store and use your answers to recommend a liquid.",
+      "markScheme": [
+        "Indicative content: Δθ = 40 °C for both; water: ΔE = 100 × 4200 × 40 = 16 800 000 J (16.8 MJ); oil: ΔE = 100 × 2000 × 40 = 8 000 000 J (8.0 MJ); water stores more than twice as much energy for the same mass and temperature change because of its higher specific heat capacity; recommend water; it is also cheap, non-toxic and widely available.",
+        "Level 2 (3 to 4 marks): both calculations correct and a recommendation of water justified using the comparison.",
+        "Level 1 (1 to 2 marks): one calculation correct, or a recommendation with a simple reason.",
+        "No relevant content: 0 marks."
+      ],
+      "explanation": "The liquid with the higher specific heat capacity stores more energy for the same mass and temperature change."
+    }
+  ]
+}

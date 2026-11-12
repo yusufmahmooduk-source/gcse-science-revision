@@ -1,0 +1,686 @@
+{
+  "id": "c8-flame-emission-spectroscopy",
+  "science": "chemistry",
+  "topicId": "c8",
+  "slug": "flame-emission-spectroscopy",
+  "specRef": "4.8.3.7",
+  "title": "Flame emission spectroscopy",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Flame emission spectroscopy is an instrumental method in which a sample is put into a flame and the light given out is passed through a spectroscope. The output is a line spectrum that can be analysed to identify the metal ions in a solution and measure their concentrations.",
+    "explanation": [
+      "In flame emission spectroscopy, a solution of the sample is sprayed into a hot flame. The metal ions in the sample give out light, just as they do in a flame test. Instead of a person judging the colour by eye, the light is passed through a spectroscope, which splits it into its different wavelengths. A detector records the result, which is shown as a line spectrum: a pattern of bright lines at particular wavelengths.",
+      "Each metal ion gives its own characteristic line spectrum, like a fingerprint. To identify the metal ions in a sample, its spectrum is compared with reference spectra of known metal ions measured in the same way. If all the lines of a reference spectrum appear in the sample's spectrum, at the same wavelengths, that metal ion is present. Because every ion gives separate lines, flame emission spectroscopy can identify several metal ions in a mixture, where a flame test would fail because one colour masks another.",
+      "Flame emission spectroscopy can also measure the concentration of a metal ion. The intensity (brightness) of the lines increases as the concentration of the metal ion increases. Solutions of known concentration (standards) are measured first to make a calibration curve or table of intensity against concentration. The intensity for the unknown sample is then measured and its concentration read from the calibration curve. If the sample was diluted before measuring, the result must be multiplied by the dilution factor.",
+      "In the exam you may be given a spectrum or a table of results for an unknown sample, together with a reference set in the same form. Look for matching lines (for a chart) or matching values (for a table), and remember that a sample can contain more than one metal ion. As an instrumental method, flame emission spectroscopy is accurate, sensitive and rapid, and it is used to analyse water, soil, blood and steel."
+    ],
+    "keyFacts": [
+      "The sample is put into a flame; the light given out passes through a spectroscope.",
+      "The output is a line spectrum.",
+      "Each metal ion has its own characteristic line spectrum.",
+      "Compare the sample's spectrum with reference spectra to identify metal ions.",
+      "It can identify metal ions in mixtures, unlike simple flame tests.",
+      "Line intensity increases with concentration, so concentration can be measured.",
+      "A calibration curve from standard solutions converts intensity into concentration.",
+      "It is accurate, sensitive and rapid."
+    ],
+    "keyTerms": [
+      {
+        "term": "Flame emission spectroscopy",
+        "definition": "An instrumental method that analyses the light emitted by metal ions in a flame to identify them and measure their concentrations."
+      },
+      {
+        "term": "Spectroscope",
+        "definition": "An instrument that splits light into its different wavelengths."
+      },
+      {
+        "term": "Line spectrum",
+        "definition": "A pattern of separate bright lines at particular wavelengths, characteristic of a metal ion."
+      },
+      {
+        "term": "Reference spectrum",
+        "definition": "The line spectrum of a known metal ion, used for comparison."
+      },
+      {
+        "term": "Intensity",
+        "definition": "The brightness of a spectral line; it increases with the concentration of the metal ion."
+      },
+      {
+        "term": "Calibration curve",
+        "definition": "A graph of intensity against concentration made using standard solutions, used to find unknown concentrations."
+      },
+      {
+        "term": "Standard solution",
+        "definition": "A solution of known concentration used to calibrate an instrument."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Concentration of original sample after dilution",
+        "formula": "original concentration = measured concentration × dilution factor",
+        "symbols": "c original = c measured × (final volume ÷ volume of sample taken)",
+        "units": "same units as measured (for example mg/dm³)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Identifying metal ions from a spectrum",
+        "question": "An unknown sample has lines at 610 nm, 671 nm and 766 nm. Reference spectra: lithium 610 and 671 nm; sodium 589 nm; potassium 766 nm; calcium 423 and 616 nm. Which metal ions are present?",
+        "steps": [
+          "Look for each reference set of lines in the sample spectrum.",
+          "610 and 671 nm both appear, so lithium is present.",
+          "766 nm appears, so potassium is present.",
+          "No line at 589 nm (sodium) and no line at 423 nm (calcium)."
+        ],
+        "answer": "Lithium and potassium ions."
+      },
+      {
+        "title": "Using a calibration table",
+        "question": "Standard solutions of sodium ions give these intensities: 0 mg/dm³: 0; 1.0: 24; 2.0: 48; 3.0: 72; 4.0: 96. A sample gives an intensity of 60. Find its concentration.",
+        "steps": [
+          "The intensity rises by 24 units for every 1.0 mg/dm³, so it is directly proportional.",
+          "Concentration = 60 ÷ 24.",
+          "= 2.5 mg/dm³ (between the 2.0 and 3.0 standards, as expected)."
+        ],
+        "answer": "2.5 mg/dm³"
+      },
+      {
+        "title": "Allowing for dilution",
+        "question": "A river water sample is diluted 10 times before analysis. The diluted sample contains 1.2 mg/dm³ of calcium ions. What is the concentration in the river water?",
+        "steps": [
+          "The river water is 10 times more concentrated than the diluted sample.",
+          "Original concentration = 1.2 × 10."
+        ],
+        "answer": "12 mg/dm³"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Flame emission spectroscopy",
+        "caption": "The sample solution is sprayed into a flame. Light emitted by the metal ions passes through a spectroscope, and a detector and computer produce a line spectrum.",
+        "svg": "<svg viewBox='0 0 480 220' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='150' width='60' height='40' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='14' y='210' font-size='12' fill='currentColor'>sample solution</text><polyline points='50,150 50,130 100,130' fill='none' stroke='currentColor' stroke-width='2'/><rect x='95' y='120' width='30' height='60' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><path d='M110 118 C92 90 98 60 110 30 C122 60 128 90 110 118 Z' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='130' y='40' font-size='12' fill='currentColor'>flame</text><line x1='125' y1='75' x2='190' y2='75' stroke='currentColor' stroke-dasharray='4 3'/><path d='M198 75 l-10 -6 v12 z' fill='currentColor'/><text x='140' y='95' font-size='12' fill='currentColor'>light</text><rect x='200' y='50' width='90' height='50' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='206' y='72' font-size='12' fill='currentColor'>spectroscope</text><text x='206' y='88' font-size='12' fill='currentColor'>(splits light)</text><line x1='290' y1='75' x2='320' y2='75' stroke='currentColor' stroke-width='2'/><path d='M328 75 l-10 -6 v12 z' fill='currentColor'/><rect x='330' y='50' width='140' height='50' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><text x='336' y='72' font-size='12' fill='currentColor'>detector and</text><text x='336' y='88' font-size='12' fill='currentColor'>computer</text><rect x='330' y='130' width='140' height='30' fill='none' stroke='currentColor'/><line x1='360' y1='130' x2='360' y2='160' stroke='currentColor' stroke-width='3'/><line x1='400' y1='130' x2='400' y2='160' stroke='currentColor' stroke-width='3'/><line x1='445' y1='130' x2='445' y2='160' stroke='currentColor' stroke-width='3'/><line x1='400' y1='100' x2='400' y2='128' stroke='currentColor'/><text x='340' y='180' font-size='12' fill='currentColor'>line spectrum output</text></svg>"
+      },
+      {
+        "title": "Identifying metal ions from line spectra",
+        "caption": "Reference line spectra for four metal ions and an unknown sample. The unknown contains every line of lithium and of potassium, so both ions are present; it has no sodium or calcium lines.",
+        "svg": "<svg viewBox='0 0 460 250' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='20' width='380' height='26' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='259.5' y1='20' x2='259.5' y2='46' stroke='currentColor' stroke-width='3'/><line x1='317.4' y1='20' x2='317.4' y2='46' stroke='currentColor' stroke-width='3'/><text x='4' y='37' font-size='12' fill='currentColor'>lithium</text><rect x='60' y='56' width='380' height='26' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='239.5' y1='56' x2='239.5' y2='82' stroke='currentColor' stroke-width='3'/><text x='4' y='73' font-size='12' fill='currentColor'>sodium</text><rect x='60' y='92' width='380' height='26' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='407.7' y1='92' x2='407.7' y2='118' stroke='currentColor' stroke-width='3'/><text x='4' y='109' font-size='12' fill='currentColor'>potassium</text><rect x='60' y='128' width='380' height='26' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='81.8' y1='128' x2='81.8' y2='154' stroke='currentColor' stroke-width='3'/><line x1='265.2' y1='128' x2='265.2' y2='154' stroke='currentColor' stroke-width='3'/><text x='4' y='145' font-size='12' fill='currentColor'>calcium</text><rect x='60' y='172' width='380' height='26' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='259.5' y1='172' x2='259.5' y2='198' stroke='currentColor' stroke-width='3'/><line x1='317.4' y1='172' x2='317.4' y2='198' stroke='currentColor' stroke-width='3'/><line x1='407.7' y1='172' x2='407.7' y2='198' stroke='currentColor' stroke-width='3'/><text x='4' y='189' font-size='12' fill='currentColor'>unknown</text><line x1='60' y1='210' x2='440' y2='210' stroke='currentColor'/><line x1='60' y1='206' x2='60' y2='214' stroke='currentColor'/><text x='50' y='228' font-size='12' fill='currentColor'>400</text><line x1='155' y1='206' x2='155' y2='214' stroke='currentColor'/><text x='145' y='228' font-size='12' fill='currentColor'>500</text><line x1='250' y1='206' x2='250' y2='214' stroke='currentColor'/><text x='240' y='228' font-size='12' fill='currentColor'>600</text><line x1='345' y1='206' x2='345' y2='214' stroke='currentColor'/><text x='335' y='228' font-size='12' fill='currentColor'>700</text><line x1='440' y1='206' x2='440' y2='214' stroke='currentColor'/><text x='430' y='228' font-size='12' fill='currentColor'>800</text><text x='180' y='246' font-size='12' fill='currentColor'>wavelength / nm</text><text x='4' y='168' font-size='12' fill='currentColor'>reference spectra above; sample below</text></svg>"
+      },
+      {
+        "title": "Calibration curve for sodium ions",
+        "caption": "The intensity of the sodium line is directly proportional to concentration. A sample with intensity 60 has a concentration of 2.5 mg/dm³.",
+        "svg": "<svg viewBox='0 0 440 260' xmlns='http://www.w3.org/2000/svg'><line x1='60' y1='220' x2='420' y2='220' stroke='currentColor' stroke-width='2'/><line x1='60' y1='220' x2='60' y2='20' stroke='currentColor' stroke-width='2'/><g stroke='currentColor'><line x1='140' y1='216' x2='140' y2='224'/><line x1='220' y1='216' x2='220' y2='224'/><line x1='300' y1='216' x2='300' y2='224'/><line x1='380' y1='216' x2='380' y2='224'/><line x1='56' y1='172' x2='64' y2='172'/><line x1='56' y1='124' x2='64' y2='124'/><line x1='56' y1='76' x2='64' y2='76'/><line x1='56' y1='28' x2='64' y2='28'/></g><text x='134' y='238' font-size='12' fill='currentColor'>1.0</text><text x='214' y='238' font-size='12' fill='currentColor'>2.0</text><text x='294' y='238' font-size='12' fill='currentColor'>3.0</text><text x='374' y='238' font-size='12' fill='currentColor'>4.0</text><text x='36' y='176' font-size='12' fill='currentColor'>24</text><text x='36' y='128' font-size='12' fill='currentColor'>48</text><text x='36' y='80' font-size='12' fill='currentColor'>72</text><text x='36' y='32' font-size='12' fill='currentColor'>96</text><text x='150' y='256' font-size='12' fill='currentColor'>concentration of Na⁺ / mg/dm³</text><text x='14' y='150' font-size='12' fill='currentColor' transform='rotate(-90 14 150)'>intensity</text><line x1='60' y1='220' x2='380' y2='28' stroke='currentColor' stroke-width='2'/><g fill='#93c5fd' stroke='currentColor'><circle cx='140' cy='172' r='4'/><circle cx='220' cy='124' r='4'/><circle cx='300' cy='76' r='4'/><circle cx='380' cy='28' r='4'/></g><line x1='60' y1='100' x2='260' y2='100' stroke='currentColor' stroke-dasharray='4 3'/><line x1='260' y1='100' x2='260' y2='220' stroke='currentColor' stroke-dasharray='4 3'/><text x='36' y='104' font-size='12' fill='currentColor'>60</text><text x='266' y='200' font-size='12' fill='currentColor'>2.5</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a sample contains a metal if it shares just one line with that metal's reference spectrum.",
+        "right": "In fact all of the reference lines for that metal must be present in the sample's spectrum at the same wavelengths."
+      },
+      {
+        "wrong": "Students often think flame emission spectroscopy only identifies one metal ion at a time.",
+        "right": "In fact each ion gives separate lines, so several metal ions in a mixture can be identified from one spectrum."
+      },
+      {
+        "wrong": "Students often think the spectrum only tells you which ions are present.",
+        "right": "In fact the intensity of the lines can be used, with a calibration curve, to measure concentration."
+      },
+      {
+        "wrong": "Students often forget to multiply by the dilution factor.",
+        "right": "In fact if the sample was diluted before analysis, the measured concentration must be multiplied by the dilution factor to find the original concentration."
+      }
+    ],
+    "realWorld": [
+      "Water companies use flame emission spectroscopy to measure sodium, potassium and calcium ions in drinking water.",
+      "Hospitals measure sodium and potassium ion concentrations in blood to check kidney function.",
+      "Steel manufacturers check the metal composition of alloys rapidly during production.",
+      "Astronomers use the same idea (line spectra) to identify elements in stars."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "Flame emission spectroscopy (identifying metal ions and measuring concentrations from line spectra) is in separate Chemistry only (8462)."
+    ],
+    "examTips": [
+      "Describe the method in three steps: sample put into a flame, light passed through a spectroscope, line spectrum produced and compared with references.",
+      "When matching spectra, check every line of each reference; say which ions are present and which are not.",
+      "For concentration questions, use the calibration data provided; show your working and check your answer lies between the standards.",
+      "Give the advantages over flame tests: identifies ions in mixtures, measures concentration, accurate, sensitive and rapid."
+    ],
+    "summary": [
+      "Sample in flame; light passed through a spectroscope gives a line spectrum.",
+      "Each metal ion has a characteristic line spectrum.",
+      "Compare with reference spectra to identify metal ions, even in mixtures.",
+      "Line intensity depends on concentration; use a calibration curve.",
+      "Multiply by the dilution factor if the sample was diluted."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is flame emission spectroscopy used for?",
+      "back": "Identifying metal ions in solution and measuring their concentrations."
+    },
+    {
+      "front": "Describe the method of flame emission spectroscopy.",
+      "back": "Put the sample into a flame; pass the light given out through a spectroscope; analyse the line spectrum."
+    },
+    {
+      "front": "What is the output?",
+      "back": "A line spectrum."
+    },
+    {
+      "front": "How are metal ions identified?",
+      "back": "By comparing the sample's line spectrum with reference spectra of known ions."
+    },
+    {
+      "front": "How is concentration measured?",
+      "back": "From the intensity of the lines, using a calibration curve made with standard solutions."
+    },
+    {
+      "front": "Why is it better than a flame test for mixtures?",
+      "back": "Each ion gives separate lines, so colours do not mask each other."
+    },
+    {
+      "front": "What does a spectroscope do?",
+      "back": "Splits light into its different wavelengths."
+    },
+    {
+      "front": "What is a calibration curve?",
+      "back": "A graph of intensity against concentration for standard solutions."
+    },
+    {
+      "front": "A sample diluted 5 times reads 2.0 mg/dm³. Original concentration?",
+      "back": "10 mg/dm³."
+    },
+    {
+      "front": "What must match for a metal to be present?",
+      "back": "All the lines in its reference spectrum, at the same wavelengths."
+    },
+    {
+      "front": "Name three advantages of flame emission spectroscopy.",
+      "back": "Accurate, sensitive, rapid (also works for mixtures and measures concentration)."
+    },
+    {
+      "front": "What is a standard solution?",
+      "back": "A solution of known concentration used for calibration."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c8-flame-emission-spectroscopy-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In flame emission spectroscopy, what is the light from the flame passed through?",
+      "options": [
+        "A filter funnel",
+        "A spectroscope",
+        "A thermometer",
+        "A burette"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A spectroscope"
+      ],
+      "explanation": "A spectroscope splits the light into its wavelengths to give a line spectrum."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the output of flame emission spectroscopy?",
+      "options": [
+        "A chromatogram",
+        "A heating curve",
+        "A precipitate",
+        "A line spectrum"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A line spectrum"
+      ],
+      "explanation": "The output is a line spectrum, which is analysed to identify metal ions."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What can flame emission spectroscopy be used to find?",
+      "options": [
+        "The identity and concentration of metal ions in solution",
+        "Only the colour of a flame",
+        "The melting point of a substance",
+        "The Rf value of a dye"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The identity and concentration of metal ions in solution"
+      ],
+      "explanation": "It identifies metal ions and measures their concentrations."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How is a metal ion identified using flame emission spectroscopy?",
+      "options": [
+        "By judging the flame colour by eye",
+        "By adding sodium hydroxide",
+        "By comparing the line spectrum with reference spectra",
+        "By measuring the temperature of the flame"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: By comparing the line spectrum with reference spectra"
+      ],
+      "explanation": "Each metal ion has a characteristic line spectrum, which is matched with reference spectra."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to the intensity of the spectral lines when the concentration of the metal ion increases?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays the same",
+        "The lines change wavelength"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It increases"
+      ],
+      "explanation": "Higher concentration gives brighter (more intense) lines at the same wavelengths."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why can flame emission spectroscopy identify the metal ions in a mixture when a flame test cannot?",
+      "options": [
+        "It uses a hotter flame",
+        "It only works for one ion at a time",
+        "It removes sodium from the sample first",
+        "Each ion gives its own separate lines, so one does not mask another"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Each ion gives its own separate lines, so one does not mask another"
+      ],
+      "explanation": "In a flame test the colours combine and one can mask another. In a spectrum each ion's lines are separate."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sample's spectrum contains a line at 610 nm but not at 671 nm. Lithium's reference spectrum has lines at 610 nm and 671 nm. What can be concluded?",
+      "options": [
+        "Lithium is not present, as not all its lines appear",
+        "Lithium is present",
+        "Lithium is present at a low concentration only at 610 nm",
+        "The spectrum is faulty"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Lithium is not present, as not all its lines appear"
+      ],
+      "explanation": "All of lithium's lines would appear if it were present; the 610 nm line must be from another ion (calcium has a line close by, at 616 nm)."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which is NOT an advantage of flame emission spectroscopy compared with flame tests?",
+      "options": [
+        "It can measure concentration",
+        "It can identify ions in mixtures",
+        "It is cheaper",
+        "It is more sensitive"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It is cheaper"
+      ],
+      "explanation": "Instruments are more expensive. The other statements are advantages."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Using the reference spectra in the notes (lithium 610 and 671 nm; sodium 589 nm; potassium 766 nm; calcium 423 and 616 nm), which ions are in a sample with lines at 423, 589 and 616 nm?",
+      "options": [
+        "Lithium and sodium",
+        "Sodium and calcium",
+        "Calcium and potassium",
+        "Sodium only"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Sodium and calcium"
+      ],
+      "explanation": "423 and 616 nm are calcium; 589 nm is sodium. There are no lithium (671 nm) or potassium (766 nm) lines."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q10",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is put into the flame in flame emission spectroscopy?",
+      "options": [
+        "Litmus paper",
+        "A glowing splint",
+        "Limewater",
+        "The sample"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The sample"
+      ],
+      "explanation": "The sample (usually a solution) is put into the flame."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Standard solutions of sodium ions give these intensities:\n0 mg/dm³: 0; 1.0 mg/dm³: 24; 2.0 mg/dm³: 48; 3.0 mg/dm³: 72; 4.0 mg/dm³: 96.\nA sample gives an intensity of 60. Calculate the concentration of sodium ions in the sample.",
+      "numericAnswer": 2.5,
+      "tolerance": 0.02,
+      "unit": "mg/dm³",
+      "markScheme": [
+        "1 mark: intensity is 24 per 1.0 mg/dm³ (or use the calibration line)",
+        "1 mark: 60 ÷ 24 = 2.5 mg/dm³"
+      ],
+      "explanation": "The calibration is directly proportional, so concentration = 60 ÷ 24 = 2.5 mg/dm³, which lies between the 2.0 and 3.0 standards."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A sample of river water was diluted 10 times before analysis. The diluted sample contained 1.2 mg/dm³ of calcium ions. Calculate the concentration of calcium ions in the river water.",
+      "numericAnswer": 12,
+      "tolerance": 0.02,
+      "unit": "mg/dm³",
+      "markScheme": [
+        "1 mark: 1.2 × 10 = 12 mg/dm³"
+      ],
+      "explanation": "The original water is 10 times more concentrated than the diluted sample."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A standard solution containing 5.0 mg/dm³ of potassium ions gives a line intensity of 80. Intensity is directly proportional to concentration. A sample gives an intensity of 32. Calculate the concentration of potassium ions in the sample.",
+      "numericAnswer": 2,
+      "tolerance": 0.02,
+      "unit": "mg/dm³",
+      "markScheme": [
+        "1 mark: 32 ÷ 80 × 5.0 (or 5.0 ÷ 80 = 0.0625 per unit)",
+        "1 mark: 2.0 mg/dm³"
+      ],
+      "explanation": "Concentration = (32 ÷ 80) × 5.0 = 0.40 × 5.0 = 2.0 mg/dm³."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A technician takes 10 cm³ of a blood serum sample and dilutes it to 50 cm³ with water. The diluted sample contains 2.0 mmol/dm³ of potassium ions. Calculate the concentration in the original serum.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "mmol/dm³",
+      "markScheme": [
+        "1 mark: dilution factor = 50 ÷ 10 = 5",
+        "1 mark: 2.0 × 5 = 10 mmol/dm³"
+      ],
+      "explanation": "The sample was diluted 5 times, so the original concentration is 5 times larger."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Flame emission spectroscopy shows that a water sample contains 0.40 g/dm³ of sodium ions. Calculate the mass of sodium ions in 250 cm³ of this water.",
+      "numericAnswer": 0.1,
+      "tolerance": 0.02,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: 250 cm³ = 0.250 dm³",
+        "1 mark: 0.40 × 0.250 = 0.10 g"
+      ],
+      "explanation": "Mass = concentration × volume in dm³ = 0.40 × 0.250 = 0.10 g."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe how flame emission spectroscopy is carried out.",
+      "acceptedAnswers": [
+        "sample put into flame",
+        "light passed through spectroscope",
+        "line spectrum"
+      ],
+      "markScheme": [
+        "1 mark: the sample is put into a flame",
+        "1 mark: the light given out is passed through a spectroscope (to give a line spectrum)"
+      ],
+      "explanation": "This matches the AQA description of the method."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the type of spectrum produced by flame emission spectroscopy.",
+      "acceptedAnswers": [
+        "line spectrum"
+      ],
+      "markScheme": [
+        "1 mark: line spectrum"
+      ],
+      "explanation": "Each metal ion gives a pattern of separate bright lines."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how the line spectrum of an unknown sample is used to identify the metal ions it contains.",
+      "acceptedAnswers": [
+        "compare with reference spectra",
+        "lines at same wavelengths",
+        "all lines must match"
+      ],
+      "markScheme": [
+        "1 mark: compare the sample's spectrum with reference spectra of known metal ions",
+        "1 mark: if all the lines of a reference appear at the same wavelengths, that ion is present"
+      ],
+      "explanation": "Each metal ion has a unique pattern of lines."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Give two advantages of flame emission spectroscopy over flame tests.",
+      "acceptedAnswers": [
+        "identifies ions in mixtures",
+        "measures concentration",
+        "accurate",
+        "sensitive",
+        "rapid",
+        "not judged by eye"
+      ],
+      "markScheme": [
+        "1 mark each for any two: works with mixtures / measures concentration / more accurate / more sensitive / rapid / does not rely on judging colour"
+      ],
+      "explanation": "These come from the general advantages of instrumental methods and the specific features of line spectra."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Describe how a calibration curve is made and used to find the concentration of sodium ions in a sample using flame emission spectroscopy.",
+      "acceptedAnswers": [
+        "standard solutions known concentrations",
+        "measure intensity",
+        "plot intensity against concentration",
+        "read off sample"
+      ],
+      "markScheme": [
+        "1 mark: measure the intensity for several standard solutions of known sodium ion concentration",
+        "1 mark: plot a graph of intensity against concentration",
+        "1 mark: measure the sample's intensity and read its concentration from the graph"
+      ],
+      "explanation": "The calibration curve converts the measured intensity into a concentration."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Using the reference spectra in the notes (lithium 610 and 671 nm; sodium 589 nm; potassium 766 nm; calcium 423 and 616 nm), a sample shows lines at 589, 610, 671 and 766 nm. Identify the metal ions present and explain your answer.",
+      "acceptedAnswers": [
+        "sodium",
+        "lithium",
+        "potassium",
+        "not calcium"
+      ],
+      "markScheme": [
+        "1 mark: sodium, lithium and potassium",
+        "1 mark: all their reference lines are present; calcium is absent because there is no line at 423 nm (or 616 nm)"
+      ],
+      "explanation": "A flame test on this mixture would just look yellow, because sodium masks lithium and potassium."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q22",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What property of the spectral lines is used to measure concentration?",
+      "acceptedAnswers": [
+        "intensity",
+        "brightness"
+      ],
+      "markScheme": [
+        "1 mark: intensity / brightness"
+      ],
+      "explanation": "Higher concentrations give more intense lines."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how flame emission spectroscopy is used to identify the metal ions in a solution, and explain why it is better than a flame test for a mixture of ions.",
+      "markScheme": [
+        "Indicative content: sample sprayed/put into a flame",
+        "Metal ions emit light",
+        "Light passed through a spectroscope, producing a line spectrum",
+        "Compare with reference spectra of known metal ions; matching lines identify ions",
+        "In a mixture, each ion's lines are separate, so all can be identified",
+        "Flame test colours mask each other (sodium hides potassium)",
+        "Level 2 (3 to 4 marks): clear method and comparison with flame test",
+        "Level 1 (1 to 2 marks): one or two relevant points"
+      ],
+      "explanation": "Good answers describe the method and explain masking in flame tests compared with separate lines in spectra."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A water company wants to check that the sodium ion concentration in drinking water is below a legal limit. Describe how flame emission spectroscopy could be used to measure the concentration, including how the instrument is calibrated, how the result is calculated if the sample is diluted, and why this method is suitable.",
+      "markScheme": [
+        "Indicative content: prepare standard solutions of known sodium concentrations",
+        "Spray each into the flame; light through spectroscope; measure intensity of sodium line",
+        "Plot calibration curve of intensity against concentration",
+        "Measure the intensity for the water sample (diluted if necessary so it lies within the calibration range)",
+        "Read concentration from the calibration curve",
+        "Multiply by the dilution factor to find the original concentration",
+        "Compare with the legal limit",
+        "Repeat measurements and calculate a mean for reliability",
+        "Suitable because it is accurate, sensitive (low concentrations), rapid (many samples) and measures concentration, not just identity",
+        "Level 3 (5 to 6 marks): full calibration method, correct use of dilution factor and well-justified suitability",
+        "Level 2 (3 to 4 marks): method with calibration or dilution, some justification",
+        "Level 1 (1 to 2 marks): simple description of the method"
+      ],
+      "explanation": "The best answers cover calibration, reading the curve, correcting for dilution and justifying the method with instrumental advantages."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why must standard solutions of known concentration be measured before an unknown sample?",
+      "options": [
+        "To produce a calibration curve so that intensity can be converted into concentration",
+        "To clean the flame",
+        "To identify the unknown metal ion",
+        "To dilute the sample"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To produce a calibration curve so that intensity can be converted into concentration"
+      ],
+      "explanation": "Calibration links intensity to concentration for that instrument."
+    },
+    {
+      "id": "c8-flame-emission-spectroscopy-q26",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sample's intensity is higher than that of the most concentrated standard. What should the analyst do?",
+      "options": [
+        "Extend the calibration line by guessing",
+        "Report the concentration as zero",
+        "Dilute the sample by a known factor and measure again, then multiply by the dilution factor",
+        "Use a flame test instead"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Dilute the sample by a known factor and measure again, then multiply by the dilution factor"
+      ],
+      "explanation": "Results are only reliable within the range of the standards, so the sample is diluted to bring it into range."
+    }
+  ]
+}

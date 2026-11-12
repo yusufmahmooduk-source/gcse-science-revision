@@ -1,0 +1,652 @@
+{
+  "id": "p2-dc-and-ac",
+  "science": "physics",
+  "topicId": "p2",
+  "slug": "dc-and-ac",
+  "specRef": "4.2.3.1",
+  "title": "Direct and alternating potential difference",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A direct potential difference (d.c.) makes current flow in one direction only. An alternating potential difference (a.c.) repeatedly reverses direction, so the current it drives also keeps changing direction. Cells and batteries supply d.c.; the UK mains supply is a.c. at a frequency of 50 Hz and about 230 V.",
+    "explanation": [
+      "Electric circuits can be supplied by a direct or an alternating potential difference. Cells and batteries provide a direct potential difference. One terminal is always positive and the other always negative, so the current always flows in the same direction round the circuit. This is called direct current, or d.c. On a graph of potential difference against time, a d.c. supply from a battery is a horizontal line at a constant value.",
+      "The mains electricity supply to homes is an alternating potential difference. The potential difference of the live terminal switches between positive and negative many times each second. As it does, the current in the circuit flows one way, then the other, reversing direction over and over again. This is called alternating current, or a.c. On a potential difference against time graph, a.c. looks like a wave that rises above zero and then falls below zero.",
+      "The frequency of an a.c. supply is the number of complete cycles (one full wave, positive and then negative) each second. It is measured in hertz (Hz). In the United Kingdom the domestic mains supply has a frequency of 50 Hz, meaning it completes 50 cycles every second, and the potential difference is about 230 V. This is much higher than the few volts provided by cells and batteries, which is why mains electricity is so much more dangerous.",
+      "Many devices can run on either type of supply. A filament lamp or heater works on a.c. or d.c. because heating happens whichever way the current flows. Devices such as phones and laptops need d.c., so their chargers convert the mains a.c. into a low d.c. potential difference. Batteries can only store energy chemically and deliver d.c., so portable devices use d.c."
+    ],
+    "keyFacts": [
+      "Direct current (d.c.) flows in one direction only.",
+      "Alternating current (a.c.) repeatedly reverses direction.",
+      "Cells and batteries supply a direct potential difference.",
+      "The mains supply is an alternating potential difference.",
+      "UK mains: frequency 50 Hz, potential difference about 230 V.",
+      "Frequency is the number of complete cycles per second, measured in hertz (Hz).",
+      "A d.c. potential difference against time graph is a horizontal line.",
+      "An a.c. potential difference against time graph is a wave going above and below zero."
+    ],
+    "keyTerms": [
+      {
+        "term": "Direct current (d.c.)",
+        "definition": "Current that flows in one direction only, produced by a direct potential difference such as from a cell or battery."
+      },
+      {
+        "term": "Alternating current (a.c.)",
+        "definition": "Current that repeatedly reverses its direction, produced by an alternating potential difference."
+      },
+      {
+        "term": "Alternating potential difference",
+        "definition": "A potential difference whose direction (positive and negative) changes many times per second."
+      },
+      {
+        "term": "Frequency",
+        "definition": "The number of complete cycles of an a.c. supply per second, measured in hertz (Hz)."
+      },
+      {
+        "term": "Hertz (Hz)",
+        "definition": "The unit of frequency; 1 Hz = one cycle per second."
+      },
+      {
+        "term": "Mains electricity",
+        "definition": "The a.c. supply to homes in the UK, at about 230 V and 50 Hz."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Describing a.c. and d.c. from graphs",
+        "question": "Graph X is a horizontal line at +6 V. Graph Y is a wave that goes from +10 V to −10 V and back, repeating. Identify which is a.c. and which is d.c., and suggest a source for each.",
+        "steps": [
+          "Graph X never changes sign, so the current is always in one direction: d.c.",
+          "A constant 6 V suggests a battery (for example four 1.5 V cells).",
+          "Graph Y goes positive and negative, so the current reverses direction: a.c.",
+          "A source could be an a.c. generator or a low-voltage a.c. supply."
+        ],
+        "answer": "X is d.c. (battery); Y is a.c. (alternating supply)."
+      },
+      {
+        "title": "Interpreting 50 Hz",
+        "question": "Explain what is meant by the statement 'the UK mains supply has a frequency of 50 Hz', and state how many times per second the current changes direction.",
+        "steps": [
+          "Frequency is the number of complete cycles per second.",
+          "So the mains potential difference completes 50 full cycles every second.",
+          "In each cycle the current flows one way, then the other: it changes direction twice per cycle.",
+          "50 cycles × 2 = 100 changes of direction per second."
+        ],
+        "answer": "50 complete cycles per second; the current reverses 100 times each second."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Direct and alternating potential difference",
+        "caption": "Left: a cell gives a constant potential difference in one direction (d.c.). Right: the mains potential difference rises and falls, changing between positive and negative, so the current reverses (a.c.).",
+        "svg": "<svg viewBox='0 0 480 244' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none' text-anchor='middle'><line x1='30' y1='110' x2='220' y2='110' stroke-width='1.5'/><path d='M220 110 L215 112 L215 108 Z' fill='currentColor' stroke='none'/><line x1='30' y1='190' x2='30' y2='30' stroke-width='1.5'/><path d='M30 30 L32 35 L28 35 Z' fill='currentColor' stroke='none'/><text x='222' y='100' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>time</text><text x='36' y='36' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>potential difference</text><text x='24' y='114' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>0</text><text x='24' y='64' font-size='14' fill='currentColor' stroke='none' text-anchor='end'>+</text><text x='24' y='170' font-size='14' fill='currentColor' stroke='none' text-anchor='end'>−</text><line x1='30' y1='70' x2='215' y2='70' stroke-width='2.5'/><text x='125' y='218' font-size='12' fill='currentColor' stroke='none'>Direct (d.c.) from a cell</text><text x='125' y='234' font-size='10' fill='currentColor' stroke='none'>one direction, constant value</text><line x1='270' y1='110' x2='460' y2='110' stroke-width='1.5'/><path d='M460 110 L455 112 L455 108 Z' fill='currentColor' stroke='none'/><line x1='270' y1='190' x2='270' y2='30' stroke-width='1.5'/><path d='M270 30 L272 35 L268 35 Z' fill='currentColor' stroke='none'/><text x='462' y='100' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>time</text><text x='276' y='36' font-size='12' fill='currentColor' stroke='none' text-anchor='start'>potential difference</text><text x='264' y='114' font-size='12' fill='currentColor' stroke='none' text-anchor='end'>0</text><text x='264' y='64' font-size='14' fill='currentColor' stroke='none' text-anchor='end'>+</text><text x='264' y='170' font-size='14' fill='currentColor' stroke='none' text-anchor='end'>−</text><polyline points='270 110 273 101 276 92 279 84 282 77 285 71 288 67 291 65 294 65 297 67 300 71 303 77 306 84 309 92 312 101 315 110 318 119 321 128 324 136 327 143 330 149 333 153 336 155 339 155 342 153 345 149 348 143 351 136 354 128 357 119 360 110 363 101 366 92 369 84 372 77 375 71 378 67 381 65 384 65 387 67 390 71 393 77 396 84 399 92 402 101 405 110 408 119 411 128 414 136 417 143 420 149 423 153 426 155 429 155 432 153 435 149 438 143 441 136 444 128 447 119 450 110' stroke-width='2.5'/><text x='365' y='218' font-size='12' fill='currentColor' stroke='none'>Alternating (a.c.) from the mains</text><text x='365' y='234' font-size='10' fill='currentColor' stroke='none'>direction reverses; UK: 50 Hz, about 230 V</text><line x1='315' y1='180' x2='360' y2='180' stroke-width='1'/><path d='M360 180 L355 182 L355 178 Z' fill='currentColor' stroke='none'/><line x1='315' y1='180' x2='270' y2='180' stroke-width='1'/><path d='M270 180 L275 178 L275 182 Z' fill='currentColor' stroke='none'/><text x='315' y='196' font-size='10' fill='currentColor' stroke='none'>one cycle</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a.c. means the current changes size but keeps the same direction.",
+        "right": "In fact a.c. changes direction: the potential difference switches between positive and negative values."
+      },
+      {
+        "wrong": "Students often think batteries supply a.c. because they are used for mains-like devices.",
+        "right": "In fact cells and batteries always supply d.c."
+      },
+      {
+        "wrong": "Students often think 50 Hz means the mains is 50 V.",
+        "right": "In fact 50 Hz is the frequency (50 cycles per second); the potential difference is about 230 V."
+      }
+    ],
+    "realWorld": [
+      "Phone chargers convert 230 V a.c. from the mains into about 5 V d.c. for the phone's battery.",
+      "Kettles, toasters and electric heaters run directly on the 230 V, 50 Hz a.c. mains.",
+      "Torches, remote controls and smoke alarms run on d.c. from batteries."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Use the word 'direction' in definitions: a.c. repeatedly changes (reverses) direction; d.c. is in one direction only.",
+      "Learn the two UK mains values together: 230 V and 50 Hz. Do not swap them.",
+      "When sketching, draw d.c. as a horizontal line and a.c. as a wave crossing the time axis.",
+      "If asked to name a d.c. source, say 'cell' or 'battery'; for an a.c. source, say 'mains supply' or 'generator'."
+    ],
+    "summary": [
+      "d.c. flows in one direction; a.c. repeatedly reverses direction.",
+      "Cells and batteries supply d.c.",
+      "The mains supply is a.c.",
+      "UK mains is 50 Hz and about 230 V.",
+      "Frequency is the number of cycles per second, in hertz."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is direct current (d.c.)?",
+      "back": "Current that flows in one direction only."
+    },
+    {
+      "front": "What is alternating current (a.c.)?",
+      "back": "Current that repeatedly reverses direction."
+    },
+    {
+      "front": "Name a source of d.c.",
+      "back": "A cell or battery."
+    },
+    {
+      "front": "Is the UK mains supply a.c. or d.c.?",
+      "back": "a.c."
+    },
+    {
+      "front": "Frequency of the UK mains supply?",
+      "back": "50 Hz."
+    },
+    {
+      "front": "Potential difference of the UK mains supply?",
+      "back": "About 230 V."
+    },
+    {
+      "front": "What does 50 Hz mean?",
+      "back": "50 complete cycles every second."
+    },
+    {
+      "front": "What does a d.c. pd–time graph look like?",
+      "back": "A horizontal straight line (constant value, one sign)."
+    },
+    {
+      "front": "What does an a.c. pd–time graph look like?",
+      "back": "A wave going above and below zero."
+    },
+    {
+      "front": "Unit of frequency?",
+      "back": "Hertz (Hz)."
+    },
+    {
+      "front": "What does a phone charger do to the mains supply?",
+      "back": "Converts 230 V a.c. into a low d.c. potential difference."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-dc-and-ac-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes alternating current?",
+      "markScheme": [
+        "1 mark: It repeatedly reverses direction."
+      ],
+      "explanation": "Alternating current changes direction many times each second. d.c. flows in one direction only.",
+      "options": [
+        "It flows in one direction only.",
+        "It is always zero.",
+        "It repeatedly reverses direction.",
+        "It is only produced by batteries."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-dc-and-ac-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these supplies a direct potential difference?",
+      "markScheme": [
+        "1 mark: A battery"
+      ],
+      "explanation": "Cells and batteries supply d.c. The mains, sockets and power station generators supply a.c.",
+      "options": [
+        "A battery",
+        "The UK mains",
+        "A power station generator",
+        "A wall socket"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-dc-and-ac-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the frequency of the UK mains electricity supply?",
+      "markScheme": [
+        "1 mark: 50 Hz"
+      ],
+      "explanation": "UK mains is 50 Hz. 230 is the potential difference in volts; 60 Hz is used in some other countries such as the USA.",
+      "options": [
+        "230 Hz",
+        "13 Hz",
+        "60 Hz",
+        "50 Hz"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-dc-and-ac-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the approximate potential difference of the UK mains supply?",
+      "markScheme": [
+        "1 mark: 230 V"
+      ],
+      "explanation": "The UK domestic supply is about 230 V. 50 is the frequency in hertz.",
+      "options": [
+        "12 V",
+        "230 V",
+        "110 V",
+        "50 V"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-dc-and-ac-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of frequency?",
+      "markScheme": [
+        "1 mark: Hertz"
+      ],
+      "explanation": "Frequency is measured in hertz (Hz), the number of cycles per second.",
+      "options": [
+        "Volt",
+        "Second",
+        "Hertz",
+        "Ampere"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-dc-and-ac-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A graph of potential difference against time is a horizontal line above the time axis. What does this show?",
+      "markScheme": [
+        "1 mark: A direct potential difference"
+      ],
+      "explanation": "A constant positive value means the potential difference never reverses: it is d.c., like that from a battery.",
+      "options": [
+        "A direct potential difference",
+        "An alternating potential difference",
+        "A potential difference of zero",
+        "A supply that is switching on and off"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-dc-and-ac-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A pd–time graph shows a wave that goes above and below the time axis. Which source could produce it?",
+      "markScheme": [
+        "1 mark: The mains supply"
+      ],
+      "explanation": "Values above and below zero show the potential difference reversing: an alternating supply such as the mains. Cells, batteries and solar cells give d.c.",
+      "options": [
+        "A 1.5 V cell",
+        "A 9 V battery",
+        "A solar cell",
+        "The mains supply"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-dc-and-ac-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many complete cycles does the UK mains potential difference go through in one second?",
+      "markScheme": [
+        "1 mark: 50"
+      ],
+      "explanation": "50 Hz means 50 complete cycles per second.",
+      "options": [
+        "1",
+        "50",
+        "100",
+        "230"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-dc-and-ac-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "During one complete cycle of an a.c. supply, how many times does the current change direction?",
+      "markScheme": [
+        "1 mark: Twice"
+      ],
+      "explanation": "In one cycle the current flows one way, reverses, flows the other way, then reverses again to start the next cycle: two changes of direction per cycle.",
+      "options": [
+        "Once",
+        "Four times",
+        "Twice",
+        "It does not change direction"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-dc-and-ac-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student says 'a.c. and d.c. differ because a.c. is always a higher potential difference.' Why is this wrong?",
+      "markScheme": [
+        "1 mark: Because the difference is whether the direction reverses, not the size"
+      ],
+      "explanation": "The defining difference is direction: a.c. reverses, d.c. does not. Either can be a high or low potential difference.",
+      "options": [
+        "Because the difference is whether the direction reverses, not the size",
+        "Because d.c. is always higher",
+        "Because a.c. has no potential difference",
+        "Because they are the same thing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-dc-and-ac-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain the difference between direct and alternating potential difference.",
+      "markScheme": [
+        "1 mark: a direct potential difference stays in one direction / current flows one way only",
+        "1 mark: an alternating potential difference repeatedly reverses / current keeps changing direction"
+      ],
+      "explanation": "The key word is direction: d.c. constant direction, a.c. repeatedly reversing.",
+      "acceptedAnswers": [
+        "direct one direction",
+        "alternating reverses direction"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the frequency and potential difference of the UK domestic mains supply.",
+      "markScheme": [
+        "1 mark: 50 Hz",
+        "1 mark: (about) 230 V"
+      ],
+      "explanation": "UK mains is a.c. at 50 Hz and about 230 V.",
+      "acceptedAnswers": [
+        "50 Hz",
+        "230 V"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name one source of direct potential difference.",
+      "markScheme": [
+        "1 mark: cell / battery (or solar cell)"
+      ],
+      "explanation": "Cells and batteries have fixed positive and negative terminals, so they give d.c.",
+      "acceptedAnswers": [
+        "cell",
+        "battery",
+        "solar cell"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Define frequency, as applied to an a.c. supply.",
+      "markScheme": [
+        "1 mark: the number of complete cycles (waves) per second"
+      ],
+      "explanation": "Frequency in hertz is the number of complete cycles every second.",
+      "acceptedAnswers": [
+        "number of cycles per second"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the shape of a potential difference against time graph for the mains supply.",
+      "markScheme": [
+        "1 mark: a (smooth) wave shape that repeats",
+        "1 mark: goes above and below zero (positive and negative values)"
+      ],
+      "explanation": "The a.c. graph is a repeating wave crossing the time axis, showing the potential difference reversing.",
+      "acceptedAnswers": [
+        "wave",
+        "positive and negative",
+        "repeats"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Suggest why a mobile phone charger is needed to charge a phone from the mains.",
+      "markScheme": [
+        "1 mark: the phone battery needs d.c. but the mains is a.c.",
+        "1 mark: the mains potential difference (230 V) is too high, so the charger reduces it"
+      ],
+      "explanation": "Batteries store energy chemically and need a one-direction current at low pd to charge; the charger provides this.",
+      "acceptedAnswers": [
+        "converts a.c. to d.c.",
+        "reduces potential difference"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why a filament lamp works equally well on a.c. and d.c. supplies of the same size.",
+      "markScheme": [
+        "1 mark: the lamp works by the filament heating up",
+        "1 mark: current heats the filament whichever direction it flows"
+      ],
+      "explanation": "The heating effect of a current does not depend on its direction, so a lamp glows with either type of supply.",
+      "acceptedAnswers": [
+        "heating effect",
+        "either direction",
+        "filament heats"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The mains frequency in the USA is 60 Hz. Compare this with the UK supply.",
+      "markScheme": [
+        "1 mark: the US supply completes more cycles per second (60 compared with 50) / reverses direction more often"
+      ],
+      "explanation": "Higher frequency means more complete cycles, and more reversals of current, each second.",
+      "acceptedAnswers": [
+        "more cycles per second",
+        "higher frequency",
+        "60 compared with 50"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student connects an a.c. supply to a diode in series with a lamp. Suggest and explain what happens to the current in the lamp.",
+      "markScheme": [
+        "1 mark: current flows only in one direction (half of each cycle)",
+        "1 mark: because the diode only conducts when the potential difference is in its forward direction"
+      ],
+      "explanation": "The diode blocks the reverse half of each cycle, so the lamp receives current in pulses in one direction only.",
+      "acceptedAnswers": [
+        "current flows one direction only",
+        "only half the cycle",
+        "flows when diode forward"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q20",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe the differences between the electricity supplied by a battery and the electricity supplied by the UK mains. Refer to direction of current, size of potential difference, frequency and how each would appear on a graph of potential difference against time.",
+      "markScheme": [
+        "Indicative content: battery: direct potential difference; current in one direction only; small potential difference (e.g. 1.5 V to 12 V); constant value; no frequency (does not alternate); graph is a horizontal straight line on one side of the time axis. Mains: alternating potential difference; current repeatedly reverses direction; about 230 V, much larger and more dangerous; frequency 50 Hz, 50 cycles per second; graph is a repeating wave above and below the time axis.",
+        "Level 3 (5 to 6 marks): clear, accurate comparison covering direction, size, frequency and graph shape for both supplies.",
+        "Level 2 (3 to 4 marks): correct description of at least two features for both supplies.",
+        "Level 1 (1 to 2 marks): simple correct statements about one supply."
+      ],
+      "explanation": "Good answers use comparative statements for each feature and include the UK values (230 V, 50 Hz)."
+    },
+    {
+      "id": "p2-dc-and-ac-q21",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A sketch shows two pd–time graphs. Graph P is a horizontal line at 9 V. Graph Q is a repeating wave between +12 V and −12 V that completes 5 cycles in 0.1 s.\nIdentify the type of supply for each graph, suggest a source for each, and use graph Q to determine its frequency.",
+      "markScheme": [
+        "Indicative content: P is direct (d.c.), constant 9 V, one direction, source a 9 V battery. Q is alternating (a.c.), alternates positive and negative, current reverses, source an a.c. supply or generator. Frequency of Q: 5 cycles in 0.1 s, so cycles per second = 5 ÷ 0.1 = 50 Hz, the same as UK mains frequency.",
+        "Level 2 (3 to 4 marks): both supplies correctly identified with sources, and frequency correctly found as 50 Hz.",
+        "Level 1 (1 to 2 marks): one or two correct identifications or a correct frequency only."
+      ],
+      "explanation": "Frequency is cycles per second: 5 ÷ 0.1 = 50 Hz."
+    },
+    {
+      "id": "p2-dc-and-ac-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which device is designed to run directly from the a.c. mains without needing a d.c. supply?",
+      "markScheme": [
+        "1 mark: A kettle"
+      ],
+      "explanation": "A kettle heats water with an element that works on 230 V a.c. Torches, remotes and battery smoke alarms use d.c. from cells.",
+      "options": [
+        "A torch",
+        "A smoke alarm with a 9 V battery",
+        "A TV remote control",
+        "A kettle"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "p2-dc-and-ac-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which pair of values describes the UK mains supply?",
+      "markScheme": [
+        "1 mark: 230 V, 50 Hz, a.c."
+      ],
+      "explanation": "UK mains is alternating at about 230 V and 50 Hz.",
+      "options": [
+        "230 V, 50 Hz, d.c.",
+        "230 V, 50 Hz, a.c.",
+        "50 V, 230 Hz, a.c.",
+        "12 V, 50 Hz, d.c."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "p2-dc-and-ac-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to the potential difference of the live terminal of a mains socket?",
+      "markScheme": [
+        "1 mark: It alternates between positive and negative values."
+      ],
+      "explanation": "The mains is an alternating supply, so the live terminal's potential difference keeps switching between positive and negative.",
+      "options": [
+        "It stays at +230 V.",
+        "It stays at 0 V.",
+        "It alternates between positive and negative values.",
+        "It increases steadily over time."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "p2-dc-and-ac-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A pd–time graph for a supply is a horizontal line at −6 V, below the time axis. What does this show?",
+      "markScheme": [
+        "1 mark: A direct supply connected the other way round"
+      ],
+      "explanation": "The value is constant and never changes sign, so it is still d.c. The negative sign just shows the terminals are connected the opposite way round.",
+      "options": [
+        "A direct supply connected the other way round",
+        "An alternating supply",
+        "A supply with a frequency of 6 Hz",
+        "No current can flow"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "p2-dc-and-ac-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the mains supply is more dangerous than the supply from a 9 V battery.",
+      "markScheme": [
+        "1 mark: the mains potential difference (about 230 V) is much higher than 9 V",
+        "1 mark: so a much larger current would flow through a person's body"
+      ],
+      "explanation": "For the same body resistance, I = V ÷ R, so the much larger mains pd drives a much larger, potentially fatal, current.",
+      "acceptedAnswers": [
+        "230 V much higher",
+        "larger current through the body"
+      ]
+    },
+    {
+      "id": "p2-dc-and-ac-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Calculate how many complete cycles the UK mains supply completes in 3 minutes.",
+      "markScheme": [
+        "1 mark: 3 minutes = 180 s",
+        "1 mark: 50 × 180 = 9000 cycles"
+      ],
+      "explanation": "50 Hz means 50 cycles each second; in 180 s that is 50 × 180 = 9000 cycles.",
+      "acceptedAnswers": [
+        "9000"
+      ]
+    }
+  ]
+}
