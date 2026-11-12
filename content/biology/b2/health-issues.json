@@ -1,0 +1,714 @@
+{
+  "id": "b2-health-issues",
+  "science": "biology",
+  "topicId": "b2",
+  "slug": "health-issues",
+  "specRef": "4.2.2.5",
+  "title": "Health issues",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Health is the state of physical and mental wellbeing. Diseases, both communicable and non-communicable, are major causes of ill health, but other factors such as diet, stress and life situations also have a profound effect.",
+    "explanation": [
+      "Being healthy is more than simply not having a disease: it means being well physically and mentally. Ill health can be caused by communicable diseases, which are caused by pathogens and can spread between people (for example measles or tuberculosis), and by non-communicable diseases, which cannot be passed from person to person (for example coronary heart disease or most cancers).",
+      "Other factors affect health too. A poor diet can lead to deficiency diseases or obesity; constant stress can affect both mental and physical health; and life situations such as where you live, your income, your access to healthcare, clean water and sanitation, and your education can all influence how healthy you are. These factors often differ between countries and between groups within a country.",
+      "Different types of disease may interact. Defects in the immune system mean that a person is more likely to suffer from infectious diseases. Viruses living in cells can be the trigger for cancers: for example, human papillomavirus (HPV) infection can cause cervical cancer. Immune reactions initially caused by a pathogen can trigger allergies such as skin rashes and asthma. Severe physical ill health can lead to depression and other mental illness.",
+      "Scientists study health and disease using epidemiological data: information about how often a disease occurs in different groups of people. Data may be shown as frequency tables, bar charts (for categories) or histograms (for continuous data grouped into classes). Incidence is often given per 100 000 people so that populations of different sizes can be compared fairly.",
+      "Because it is impossible to study everyone, scientists use samples. A good sample should be large and representative of the whole population (similar ages, sexes and backgrounds), and chosen randomly to avoid bias. Larger samples make it more likely that patterns are real rather than due to chance. Results from a sample can be scaled up to estimate numbers in the whole population."
+    ],
+    "keyFacts": [
+      "Health is the state of physical and mental wellbeing.",
+      "Communicable diseases are caused by pathogens and can be spread; non-communicable diseases cannot.",
+      "Diet, stress and life situations can have a profound effect on both physical and mental health.",
+      "Defects in the immune system increase the chance of suffering from infectious diseases.",
+      "Viruses living in cells can trigger cancers (for example HPV and cervical cancer).",
+      "Immune reactions caused by a pathogen can trigger allergies such as skin rashes and asthma.",
+      "Severe physical ill health can lead to depression and other mental illness.",
+      "Incidence per 100 000 people allows populations of different sizes to be compared.",
+      "Samples should be large, random and representative to give valid conclusions."
+    ],
+    "keyTerms": [
+      {
+        "term": "Health",
+        "definition": "The state of physical and mental wellbeing."
+      },
+      {
+        "term": "Communicable disease",
+        "definition": "A disease caused by a pathogen that can be passed from one person or organism to another."
+      },
+      {
+        "term": "Non-communicable disease",
+        "definition": "A disease that cannot be passed from one person to another, such as coronary heart disease."
+      },
+      {
+        "term": "Pathogen",
+        "definition": "A microorganism that causes disease, such as a bacterium, virus, protist or fungus."
+      },
+      {
+        "term": "Allergy",
+        "definition": "An immune reaction to a normally harmless substance, such as skin rashes or asthma."
+      },
+      {
+        "term": "Epidemiology",
+        "definition": "The study of the patterns and causes of disease in populations."
+      },
+      {
+        "term": "Incidence",
+        "definition": "The number of new cases of a disease in a population over a given time."
+      },
+      {
+        "term": "Representative sample",
+        "definition": "A sample whose members reflect the characteristics of the whole population being studied."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Incidence per 100 000",
+        "formula": "incidence per 100 000 = (number of cases ÷ population) × 100 000",
+        "symbols": "",
+        "units": "cases per 100 000 people",
+        "recall": false
+      },
+      {
+        "name": "Percentage",
+        "formula": "percentage = (part ÷ whole) × 100",
+        "symbols": "",
+        "units": "%",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing incidence in two towns",
+        "question": "Town A (population 40 000) had 60 cases of a disease. Town B (population 250 000) had 300 cases. Which town has the higher incidence?",
+        "steps": [
+          "Town A: 60 ÷ 40 000 × 100 000 = 150 per 100 000.",
+          "Town B: 300 ÷ 250 000 × 100 000 = 120 per 100 000.",
+          "Town B has more cases, but town A has a higher rate because its population is smaller."
+        ],
+        "answer": "Town A (150 per 100 000 compared with 120 per 100 000)."
+      },
+      {
+        "title": "Scaling up from a sample",
+        "question": "In a random sample of 500 adults, 45 had asthma. Estimate how many adults in a town of 32 000 adults have asthma.",
+        "steps": [
+          "Proportion with asthma = 45 ÷ 500 = 0.09.",
+          "Estimate = 0.09 × 32 000 = 2880."
+        ],
+        "answer": "About 2880 adults."
+      },
+      {
+        "title": "Reading a bar chart",
+        "question": "Using the example bar chart, how many times greater is the rate for people aged 80+ than for people aged 20 to 39?",
+        "steps": [
+          "Rate for 80+ = 148 per 100 000.",
+          "Rate for 20 to 39 = 28 per 100 000.",
+          "148 ÷ 28 = 5.3"
+        ],
+        "answer": "About 5.3 times greater."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Interactions between diseases",
+        "caption": "One type of disease can make another more likely. Physical ill health can also lead to mental illness.",
+        "svg": "<svg viewBox=\"0 0 480 270\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs><marker id=\"a6\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"currentColor\"/></marker></defs>\n<text x=\"240\" y=\"16\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">How different types of disease can interact</text>\n<g stroke=\"currentColor\" stroke-width=\"1.5\">\n<rect x=\"10\" y=\"35\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#c4b5fd\" fill-opacity=\"0.5\"/>\n<rect x=\"330\" y=\"35\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<rect x=\"10\" y=\"110\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<rect x=\"330\" y=\"110\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/>\n<rect x=\"10\" y=\"185\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#86efac\" fill-opacity=\"0.5\"/>\n<rect x=\"330\" y=\"185\" width=\"140\" height=\"44\" rx=\"8\" fill=\"#fde68a\" fill-opacity=\"0.5\"/>\n<line x1=\"150\" y1=\"57\" x2=\"328\" y2=\"57\" marker-end=\"url(#a6)\"/>\n<line x1=\"150\" y1=\"132\" x2=\"328\" y2=\"132\" marker-end=\"url(#a6)\"/>\n<line x1=\"150\" y1=\"207\" x2=\"328\" y2=\"207\" marker-end=\"url(#a6)\"/>\n<path d=\"M400 154 C 400 170, 400 170, 400 183\" fill=\"none\" stroke-dasharray=\"4 3\"/>\n</g>\n<g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">\n<text x=\"80\" y=\"54\">Defect in the</text><text x=\"80\" y=\"68\">immune system</text>\n<text x=\"400\" y=\"54\">More likely to get</text><text x=\"400\" y=\"68\">infectious diseases</text>\n<text x=\"80\" y=\"129\">Virus living</text><text x=\"80\" y=\"143\">in cells (e.g. HPV)</text>\n<text x=\"400\" y=\"129\">Can trigger cancer</text><text x=\"400\" y=\"143\">(e.g. cervical cancer)</text>\n<text x=\"80\" y=\"204\">Immune reaction</text><text x=\"80\" y=\"218\">to a pathogen</text>\n<text x=\"400\" y=\"204\">Can trigger allergies</text><text x=\"400\" y=\"218\">(skin rashes, asthma)</text>\n<text x=\"240\" y=\"252\">Severe physical ill health (any of the above) can lead to depression</text>\n<text x=\"240\" y=\"266\">and other mental illness.</text>\n</g>\n</svg>"
+      },
+      {
+        "title": "Presenting epidemiological data",
+        "caption": "A bar chart of example data showing new cases per 100 000 people in each age group. Using rates per 100 000 allows fair comparison between groups of different sizes.",
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<text x=\"210\" y=\"16\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Example: new cases of a disease per 100 000 people, by age</text>\n<g stroke=\"currentColor\" stroke-width=\"1.5\">\n<line x1=\"60\" y1=\"210\" x2=\"400\" y2=\"210\"/><line x1=\"60\" y1=\"210\" x2=\"60\" y2=\"30\"/>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"2 3\">\n<line x1=\"60\" y1=\"170\" x2=\"400\" y2=\"170\"/><line x1=\"60\" y1=\"130\" x2=\"400\" y2=\"130\"/><line x1=\"60\" y1=\"90\" x2=\"400\" y2=\"90\"/><line x1=\"60\" y1=\"50\" x2=\"400\" y2=\"50\"/>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"1\" fill=\"#93c5fd\" fill-opacity=\"0.5\">\n<rect x=\"75\" y=\"200\" width=\"45\" height=\"10\"/><rect x=\"140\" y=\"182\" width=\"45\" height=\"28\"/><rect x=\"205\" y=\"150\" width=\"45\" height=\"60\"/><rect x=\"270\" y=\"102\" width=\"45\" height=\"108\"/><rect x=\"335\" y=\"62\" width=\"45\" height=\"148\"/>\n</g>\n<g font-size=\"12\" fill=\"currentColor\">\n<text x=\"54\" y=\"214\" text-anchor=\"end\">0</text><text x=\"54\" y=\"174\" text-anchor=\"end\">40</text><text x=\"54\" y=\"134\" text-anchor=\"end\">80</text><text x=\"54\" y=\"94\" text-anchor=\"end\">120</text><text x=\"54\" y=\"54\" text-anchor=\"end\">160</text>\n<g text-anchor=\"middle\"><text x=\"97\" y=\"226\">0-19</text><text x=\"162\" y=\"226\">20-39</text><text x=\"227\" y=\"226\">40-59</text><text x=\"292\" y=\"226\">60-79</text><text x=\"357\" y=\"226\">80+</text>\n<text x=\"230\" y=\"250\">Age group (years)</text></g>\n<text x=\"16\" y=\"130\" transform=\"rotate(-90 16 130)\" text-anchor=\"middle\">cases per 100 000</text>\n</g>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think being healthy just means not having a disease.",
+        "right": "In fact health means physical and mental wellbeing; diet, stress and life situations also affect health."
+      },
+      {
+        "wrong": "Students often think cancer is always non-communicable and never linked to infections.",
+        "right": "In fact some cancers are triggered by viruses living in cells, such as HPV causing cervical cancer, although the cancer itself is not passed on."
+      },
+      {
+        "wrong": "Students often think the place with the most cases has the highest risk.",
+        "right": "In fact you must compare rates (for example per 100 000 people), because larger populations will have more cases."
+      },
+      {
+        "wrong": "Students often think a small sample is fine if it is chosen carefully.",
+        "right": "In fact samples must be large as well as random and representative, so that results are not due to chance."
+      }
+    ],
+    "realWorld": [
+      "People with HIV, which damages the immune system, are much more likely to develop infections such as tuberculosis.",
+      "The HPV vaccine is offered to teenagers in the UK to reduce the risk of cervical and other cancers.",
+      "Public health agencies publish disease rates per 100 000 people to plan where health services are needed.",
+      "People with long-term physical illnesses are offered mental health support because they are at higher risk of depression."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Learn the four examples of disease interaction exactly as in the specification: immune defects, viruses and cancer, immune reactions and allergies, physical ill health and mental illness.",
+      "When comparing data from groups of different sizes, calculate a rate or percentage before drawing a conclusion.",
+      "Use a bar chart for categories (such as type of disease) and a histogram for continuous grouped data (such as age ranges with no gaps).",
+      "When evaluating a study, comment on sample size, whether it was random and representative, and whether the results were repeated."
+    ],
+    "summary": [
+      "Health is physical and mental wellbeing.",
+      "Communicable and non-communicable diseases are major causes of ill health.",
+      "Diet, stress and life situations also affect health.",
+      "Diseases interact: immune defects, viruses and cancer, allergies, mental illness.",
+      "Epidemiological data are shown in tables, bar charts and histograms.",
+      "Good samples are large, random and representative."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is health?",
+      "back": "The state of physical and mental wellbeing."
+    },
+    {
+      "front": "What is a communicable disease?",
+      "back": "A disease caused by a pathogen that can spread between people or organisms."
+    },
+    {
+      "front": "What is a non-communicable disease?",
+      "back": "A disease that cannot be passed from one person to another."
+    },
+    {
+      "front": "Name three factors other than disease that affect health.",
+      "back": "Diet, stress and life situations."
+    },
+    {
+      "front": "How can a defect in the immune system affect health?",
+      "back": "The person is more likely to suffer from infectious diseases."
+    },
+    {
+      "front": "Give an example of a virus that triggers cancer.",
+      "back": "Human papillomavirus (HPV) can cause cervical cancer."
+    },
+    {
+      "front": "What can immune reactions to pathogens trigger?",
+      "back": "Allergies such as skin rashes and asthma."
+    },
+    {
+      "front": "How can severe physical ill health affect mental health?",
+      "back": "It can lead to depression and other mental illness."
+    },
+    {
+      "front": "Why is incidence given per 100 000 people?",
+      "back": "So populations of different sizes can be compared fairly."
+    },
+    {
+      "front": "What makes a good sample?",
+      "back": "Large, random and representative of the population."
+    },
+    {
+      "front": "When do you use a histogram rather than a bar chart?",
+      "back": "For continuous data grouped into classes."
+    },
+    {
+      "front": "What is epidemiology?",
+      "back": "The study of patterns and causes of disease in populations."
+    }
+  ],
+  "questions": [
+    {
+      "id": "b2-health-issues-q01",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which is the best definition of health?",
+      "options": [
+        "Not having any disease",
+        "The state of physical and mental wellbeing",
+        "Being able to exercise every day",
+        "Having a strong immune system"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Health includes both physical and mental wellbeing, not just absence of disease."
+    },
+    {
+      "id": "b2-health-issues-q02",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a communicable disease?",
+      "options": [
+        "Coronary heart disease",
+        "Type 2 diabetes",
+        "Measles",
+        "Lung cancer"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Measles is caused by a virus that spreads between people. The others are non-communicable."
+    },
+    {
+      "id": "b2-health-issues-q03",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which factor, apart from disease, can have a profound effect on health?",
+      "options": [
+        "Eye colour",
+        "Blood group",
+        "Height",
+        "Stress"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "The specification names diet, stress and life situations. Eye colour, blood group and height are inherited features."
+    },
+    {
+      "id": "b2-health-issues-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A person has a defect in their immune system. What is the most likely effect?",
+      "options": [
+        "They are more likely to suffer from infectious diseases",
+        "They cannot develop cancer",
+        "Their blood cannot clot",
+        "They will develop coronary heart disease"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "A weakened immune system cannot destroy pathogens effectively."
+    },
+    {
+      "id": "b2-health-issues-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which is an example of a virus triggering a cancer?",
+      "options": [
+        "Measles virus causing lung cancer",
+        "HIV causing leukaemia in all patients",
+        "Human papillomavirus (HPV) causing cervical cancer",
+        "Influenza causing skin cancer"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "HPV infection of cervical cells can lead to cervical cancer. This is the standard example."
+    },
+    {
+      "id": "b2-health-issues-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Immune reactions initially caused by a pathogen can trigger:",
+      "options": [
+        "allergies such as skin rashes and asthma",
+        "coronary heart disease",
+        "type 2 diabetes",
+        "broken bones"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "The specification gives skin rashes and asthma as examples of allergies triggered by immune reactions."
+    },
+    {
+      "id": "b2-health-issues-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is disease incidence often given per 100 000 people?",
+      "options": [
+        "Because 100 000 people are always tested",
+        "Because it makes the numbers bigger",
+        "Because diseases only affect 100 000 people",
+        "So that populations of different sizes can be compared fairly"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "Rates remove the effect of population size so comparisons are fair."
+    },
+    {
+      "id": "b2-health-issues-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A study of a disease used 50 volunteers, all male students aged 18 to 21. Which is the main weakness of this sample?",
+      "options": [
+        "It is too large",
+        "It is not representative of the whole population and is small",
+        "It includes too many age groups",
+        "The volunteers were chosen randomly"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "A small sample of one sex and narrow age range cannot represent the whole population, so conclusions cannot be generalised."
+    },
+    {
+      "id": "b2-health-issues-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Data on the ages of 200 patients with a disease are grouped into 10-year age classes. Which is the most suitable way to display these data?",
+      "options": [
+        "Pie chart",
+        "Line graph",
+        "Histogram",
+        "Scatter graph"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: C"
+      ],
+      "explanation": "Age is continuous data grouped into classes, so a histogram (bars touching) is appropriate. A scatter graph is for two continuous variables."
+    },
+    {
+      "id": "b2-health-issues-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A patient with a long-term painful lung disease becomes depressed. What does this illustrate?",
+      "options": [
+        "Mental illness is a communicable disease",
+        "Depression is caused by a pathogen",
+        "Lung disease is caused by depression",
+        "Severe physical ill health can lead to mental illness"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: D"
+      ],
+      "explanation": "The specification states that severe physical ill health can lead to depression and other mental illness."
+    },
+    {
+      "id": "b2-health-issues-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "In a survey of 400 people, 36 had hay fever. Calculate the percentage with hay fever.",
+      "numericAnswer": 9,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 36 ÷ 400 × 100",
+        "1 mark: 9%"
+      ],
+      "explanation": "36 ÷ 400 = 0.09, × 100 = 9%."
+    },
+    {
+      "id": "b2-health-issues-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A town of 80 000 people had 120 new cases of a disease in a year. Calculate the incidence per 100 000 people.",
+      "numericAnswer": 150,
+      "tolerance": 0,
+      "unit": "per 100 000",
+      "markScheme": [
+        "1 mark: 120 ÷ 80 000 × 100 000",
+        "1 mark: 150"
+      ],
+      "explanation": "120 ÷ 80 000 = 0.0015, × 100 000 = 150 per 100 000."
+    },
+    {
+      "id": "b2-health-issues-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In a random sample of 250 adults, 30 had high blood pressure. Estimate the number of adults with high blood pressure in a city of 150 000 adults.",
+      "numericAnswer": 18000,
+      "tolerance": 0,
+      "unit": "adults",
+      "markScheme": [
+        "1 mark: 30 ÷ 250 = 0.12",
+        "1 mark: 0.12 × 150 000 = 18 000"
+      ],
+      "explanation": "The sample proportion is 12%, which scaled up gives 18 000."
+    },
+    {
+      "id": "b2-health-issues-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The number of new cases of a disease in a country fell from 3600 to 2700 in five years. Calculate the percentage decrease.",
+      "numericAnswer": 25,
+      "tolerance": 0,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (3600 − 2700) ÷ 3600 × 100",
+        "1 mark: 25%"
+      ],
+      "explanation": "Decrease = 900. 900 ÷ 3600 = 0.25 = 25%. Dividing by the new value (2700) is a common error."
+    },
+    {
+      "id": "b2-health-issues-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Country X (population 5 million) had 7500 cases of a disease. Country Y (population 60 million) had 54 000 cases. Calculate how many times higher the incidence per 100 000 people is in country X than in country Y.",
+      "numericAnswer": 1.67,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: X: 7500 ÷ 5 000 000 × 100 000 = 150 per 100 000",
+        "1 mark: Y: 54 000 ÷ 60 000 000 × 100 000 = 90 per 100 000",
+        "1 mark: 150 ÷ 90 = 1.67"
+      ],
+      "explanation": "Although country Y has far more cases, its incidence is lower. 150 ÷ 90 = 1.67 times higher in X."
+    },
+    {
+      "id": "b2-health-issues-q16",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by a non-communicable disease.",
+      "acceptedAnswers": [
+        "cannot be passed",
+        "not spread",
+        "not caused by a pathogen",
+        "not infectious"
+      ],
+      "markScheme": [
+        "1 mark: a disease that cannot be passed from one person to another / not caused by a pathogen"
+      ],
+      "explanation": "Examples include coronary heart disease and most cancers."
+    },
+    {
+      "id": "b2-health-issues-q17",
+      "type": "short",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two examples of life situations that can affect a person's health.",
+      "acceptedAnswers": [
+        "income",
+        "where you live",
+        "access to healthcare",
+        "clean water",
+        "housing",
+        "education",
+        "sanitation"
+      ],
+      "markScheme": [
+        "1 mark each for any two: income / poverty; where a person lives; access to healthcare or medicines; access to clean water or sanitation; housing; education"
+      ],
+      "explanation": "Life situations are circumstances that affect diet, exposure to pathogens and access to treatment."
+    },
+    {
+      "id": "b2-health-issues-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a person with HIV, which damages white blood cells, is more likely to get tuberculosis.",
+      "acceptedAnswers": [
+        "immune system damaged",
+        "fewer white blood cells",
+        "cannot destroy pathogens",
+        "infectious disease"
+      ],
+      "markScheme": [
+        "1 mark: HIV damages the immune system / reduces white blood cells",
+        "1 mark: so pathogens such as the TB bacterium are not destroyed, making infection more likely"
+      ],
+      "explanation": "This is an example of an immune system defect increasing the risk of infectious disease."
+    },
+    {
+      "id": "b2-health-issues-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a communicable disease can lead to a non-communicable disease. Use an example.",
+      "acceptedAnswers": [
+        "virus in cells",
+        "HPV",
+        "cervical cancer",
+        "triggers cancer",
+        "allergy",
+        "asthma"
+      ],
+      "markScheme": [
+        "1 mark: a named example, such as HPV (a virus) leading to cervical cancer / immune reaction to a pathogen triggering asthma",
+        "1 mark: explanation, such as a virus living in cells can trigger the cell changes that cause cancer"
+      ],
+      "explanation": "Viruses that live inside cells can cause changes that lead to cancer; immune reactions can trigger allergies."
+    },
+    {
+      "id": "b2-health-issues-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe three features of a good sample for a study of disease in a population.",
+      "acceptedAnswers": [
+        "large",
+        "random",
+        "representative",
+        "ages",
+        "both sexes"
+      ],
+      "markScheme": [
+        "1 mark: large sample size",
+        "1 mark: chosen randomly / avoids bias",
+        "1 mark: representative of the population (range of ages, sexes, backgrounds)"
+      ],
+      "explanation": "These features make it more likely that conclusions apply to the whole population."
+    },
+    {
+      "id": "b2-health-issues-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Town P has 400 cases of a disease and town Q has 250 cases. A student concludes that people in town P are more at risk. Explain why this conclusion may not be valid and what further information is needed.",
+      "acceptedAnswers": [
+        "population size",
+        "rate per 100 000",
+        "percentage",
+        "larger population"
+      ],
+      "markScheme": [
+        "1 mark: town P may have a larger population",
+        "1 mark: so more cases would be expected even if the risk is the same",
+        "1 mark: need population sizes to calculate a rate (per 100 000 or percentage) to compare"
+      ],
+      "explanation": "Raw numbers of cases cannot be compared unless the populations are the same size."
+    },
+    {
+      "id": "b2-health-issues-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why diseases such as depression may be more common in people with long-term physical illnesses.",
+      "acceptedAnswers": [
+        "pain",
+        "unable to work",
+        "isolation",
+        "stress",
+        "lifestyle restricted"
+      ],
+      "markScheme": [
+        "1 mark: physical illness can cause long-term pain / stress / inability to work or socialise",
+        "1 mark: which affects mental wellbeing and can lead to depression"
+      ],
+      "explanation": "The specification states that severe physical ill health can lead to depression and other mental illness; the reasons relate to stress and life situation."
+    },
+    {
+      "id": "b2-health-issues-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name an allergy that can be triggered by an immune reaction to a pathogen.",
+      "acceptedAnswers": [
+        "asthma",
+        "skin rash",
+        "eczema"
+      ],
+      "markScheme": [
+        "1 mark: asthma / skin rashes"
+      ],
+      "explanation": "These are the examples given in the specification."
+    },
+    {
+      "id": "b2-health-issues-q24",
+      "type": "mcq",
+      "tier": "foundation",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a non-communicable disease?",
+      "options": [
+        "Tuberculosis",
+        "Coronary heart disease",
+        "Malaria",
+        "Influenza"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "CHD cannot be passed from person to person; the others are caused by pathogens."
+    },
+    {
+      "id": "b2-health-issues-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which type of data is best shown as a bar chart?",
+      "options": [
+        "Number of cases of each of five different diseases",
+        "Heights of 100 people grouped into classes",
+        "Change in temperature over 24 hours",
+        "Relationship between age and blood pressure"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A"
+      ],
+      "explanation": "Different diseases are categories, so a bar chart is suitable. Grouped heights need a histogram; changes over time and relationships between variables need line or scatter graphs."
+    },
+    {
+      "id": "b2-health-issues-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how different types of disease may interact, giving examples.",
+      "markScheme": [
+        "Indicative content: defects in the immune system mean a person is more likely to suffer from infectious (communicable) diseases, for example HIV leading to tuberculosis; viruses living in cells can trigger cancers, for example HPV and cervical cancer; immune reactions initially caused by a pathogen can trigger allergies such as skin rashes and asthma; severe physical ill health can lead to depression and other mental illness.",
+        "Level 2 (3 to 4 marks): at least three interactions described with relevant examples.",
+        "Level 1 (1 to 2 marks): one or two interactions given, with limited detail.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The four interactions in the specification are the expected content."
+    },
+    {
+      "id": "b2-health-issues-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Scientists want to find out whether a disease is more common in older people. Describe how they should plan the study, collect the data and present the results, and explain how they could make the conclusion valid.",
+      "markScheme": [
+        "Indicative content: choose a large sample; random selection to avoid bias; representative of population (both sexes, range of backgrounds, regions); group people by age into classes; record number of people with the disease in each group; calculate rate per 100 000 or percentage in each age group because groups differ in size; present grouped continuous age data in a histogram or rates in a bar chart; frequency table to organise data; look for a trend; control or account for other factors such as smoking or diet; repeat or compare with other studies; correlation does not prove age causes the disease.",
+        "Level 3 (5 to 6 marks): coherent plan covering sampling, data processing (rates), suitable presentation and factors affecting validity.",
+        "Level 2 (3 to 4 marks): describes sampling and data presentation with some reference to validity.",
+        "Level 1 (1 to 2 marks): simple points such as 'ask lots of people' or 'draw a graph'.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "High-level answers explain why rates are needed, why sample features matter, and how other variables could affect the conclusion."
+    }
+  ]
+}

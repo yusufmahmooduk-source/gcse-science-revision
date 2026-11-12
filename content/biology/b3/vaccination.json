@@ -1,0 +1,669 @@
+{
+  "id": "b3-vaccination",
+  "science": "biology",
+  "topicId": "b3",
+  "slug": "vaccination",
+  "specRef": "4.3.1.7",
+  "title": "Vaccination",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Vaccination involves introducing small quantities of dead or inactive forms of a pathogen into the body to stimulate the white blood cells to produce antibodies. If the same pathogen re-enters the body, the white blood cells respond quickly to produce the correct antibodies, preventing infection.",
+    "explanation": [
+      "A vaccine contains small quantities of dead or inactive forms of a pathogen. Because the pathogen is dead or inactive, it cannot cause the disease. However, it still carries the same antigens on its surface as the live pathogen. When the vaccine is injected (or sometimes swallowed or sprayed into the nose), the white blood cells recognise these antigens as foreign.",
+      "The vaccine stimulates the white blood cells to produce antibodies that are specific to the antigens of that pathogen. This first response is quite slow, and the amount of antibody produced is small, but the person does not become ill because the pathogen in the vaccine is dead or inactive. Afterwards, the body keeps white blood cells (memory cells) that can recognise that pathogen in future.",
+      "If the same live pathogen re-enters the body later, the white blood cells respond quickly to produce the correct antibodies. Antibodies are made much faster and in much larger amounts than the first time. The pathogen is destroyed before it can reproduce enough to cause symptoms, so infection is prevented. The person is said to be immune to that disease.",
+      "Vaccination also works at the level of a whole population. If a large proportion of the population is immune to a pathogen, the spread of the pathogen is very much reduced. An infected person is unlikely to meet anyone who is not immune, so the pathogen cannot pass from person to person. This protects the few people who are not vaccinated, such as babies too young to be vaccinated or people who are ill. This is called herd immunity.",
+      "If vaccination rates fall, the proportion of people who are not immune rises. A pathogen can then spread through the population again, and outbreaks can occur. This is why public health programmes aim to vaccinate a high percentage of children, for example against measles."
+    ],
+    "keyFacts": [
+      "Vaccines contain small quantities of dead or inactive forms of a pathogen.",
+      "The vaccine stimulates white blood cells to produce antibodies.",
+      "The dead or inactive pathogen has the same antigens as the live pathogen but cannot cause disease.",
+      "If the same pathogen re-enters the body, white blood cells respond quickly to produce the correct antibodies.",
+      "The fast response destroys the pathogen and prevents infection.",
+      "Antibodies are made faster and in larger amounts after vaccination than on first exposure.",
+      "If a large proportion of a population is immune, the spread of the pathogen is very much reduced (herd immunity).",
+      "Herd immunity protects people who are not vaccinated.",
+      "Each vaccine protects only against the specific pathogen it contains."
+    ],
+    "keyTerms": [
+      {
+        "term": "Vaccination",
+        "definition": "Introducing small quantities of dead or inactive forms of a pathogen into the body to stimulate white blood cells to produce antibodies."
+      },
+      {
+        "term": "Vaccine",
+        "definition": "A preparation containing dead or inactive forms of a pathogen, used to make a person immune."
+      },
+      {
+        "term": "Immune",
+        "definition": "Able to respond quickly to a pathogen and destroy it before it causes illness."
+      },
+      {
+        "term": "Antigen",
+        "definition": "A molecule on the surface of a pathogen that white blood cells recognise and that antibodies bind to."
+      },
+      {
+        "term": "Antibody",
+        "definition": "A protein made by white blood cells that binds to a specific antigen."
+      },
+      {
+        "term": "Memory cells",
+        "definition": "White blood cells that remain after the first response and can quickly produce the correct antibodies if the same pathogen returns."
+      },
+      {
+        "term": "Herd immunity",
+        "definition": "When a large proportion of a population is immune, so the spread of a pathogen is very much reduced and unvaccinated people are protected."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Explaining how a vaccine prevents illness",
+        "question": "A child is vaccinated against measles. Two years later she is exposed to the measles virus. Explain why she does not become ill.",
+        "steps": [
+          "The vaccine contained dead or inactive measles virus with measles antigens.",
+          "White blood cells were stimulated to produce antibodies specific to these antigens.",
+          "When the live virus enters later, the white blood cells recognise it and respond quickly.",
+          "The correct antibodies are produced rapidly and in large amounts, so the virus is destroyed before it can cause symptoms."
+        ],
+        "answer": "Vaccination primed her white blood cells, so on re-exposure they quickly produced the correct antibodies and destroyed the virus before it caused illness."
+      },
+      {
+        "title": "Reading an antibody graph",
+        "question": "After a vaccine, a person's antibody concentration peaked at 15 arbitrary units. After exposure to the live pathogen months later, it peaked at 120 arbitrary units. How many times greater is the second peak?",
+        "steps": [
+          "Divide the second peak by the first.",
+          "120 ÷ 15 = 8."
+        ],
+        "answer": "8 times greater."
+      },
+      {
+        "title": "Herd immunity calculation",
+        "question": "A town has 80 000 people. 92% are immune to measles. How many people are not immune?",
+        "steps": [
+          "Percentage not immune = 100 − 92 = 8%.",
+          "8% of 80 000 = 0.08 × 80 000 = 6400."
+        ],
+        "answer": "6400 people."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Antibody response with vaccination",
+        "caption": "After the vaccine, antibodies are produced slowly and in small amounts. When the live pathogen enters later, antibodies are produced much faster and in larger amounts, above the level needed for immunity, so the person does not become ill.",
+        "svg": "<svg viewBox=\"0 0 440 280\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n<text x=\"230\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Antibody response after vaccination</text>\n<line x1=\"50\" y1=\"230\" x2=\"430\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<line x1=\"50\" y1=\"230\" x2=\"50\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<text x=\"240\" y=\"260\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time</text>\n<text x=\"18\" y=\"130\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Antibody concentration</text>\n<line x1=\"50\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"currentColor\" stroke-dasharray=\"5 4\"/>\n<text x=\"425\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">level needed for immunity</text>\n<path d=\"M70 230 L95 228 C110 222 125 190 140 185 C155 182 165 205 185 220 L240 226\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<path d=\"M250 226 C258 200 265 70 285 55 C305 45 330 80 360 110 C385 130 405 140 425 145\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"240\" stroke=\"currentColor\"/>\n<text x=\"70\" y=\"252\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">vaccine</text>\n<line x1=\"250\" y1=\"230\" x2=\"250\" y2=\"240\" stroke=\"currentColor\"/>\n<text x=\"250\" y=\"252\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pathogen</text>\n<text x=\"95\" y=\"175\" font-size=\"12\" fill=\"currentColor\">slow, small</text>\n<text x=\"95\" y=\"189\" font-size=\"12\" fill=\"currentColor\">response</text>\n<text x=\"300\" y=\"45\" font-size=\"12\" fill=\"currentColor\">fast, large response:</text>\n<text x=\"300\" y=\"59\" font-size=\"12\" fill=\"currentColor\">no illness</text>\n</svg>"
+      },
+      {
+        "title": "Herd immunity",
+        "caption": "When most people are immune, the pathogen cannot easily spread from person to person, so even unvaccinated individuals are protected.",
+        "svg": "<svg viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n<text x=\"220\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Herd immunity</text>\n<text x=\"105\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Few people vaccinated</text>\n<circle cx=\"53\" cy=\"60\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"79\" cy=\"60\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"60\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"131\" cy=\"60\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"157\" cy=\"60\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"53\" cy=\"90\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"79\" cy=\"90\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"90\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"131\" cy=\"90\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"157\" cy=\"90\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"53\" cy=\"120\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"79\" cy=\"120\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"120\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"131\" cy=\"120\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"157\" cy=\"120\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"53\" cy=\"150\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"79\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"150\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"131\" cy=\"150\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"157\" cy=\"150\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"105\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pathogen spreads to</text>\n<text x=\"105\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">most unvaccinated people</text>\n<text x=\"325\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Most people vaccinated</text>\n<circle cx=\"273\" cy=\"60\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"299\" cy=\"60\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"60\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"351\" cy=\"60\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"377\" cy=\"60\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"273\" cy=\"90\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"299\" cy=\"90\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"90\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"351\" cy=\"90\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"377\" cy=\"90\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"273\" cy=\"120\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"299\" cy=\"120\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"120\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"351\" cy=\"120\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"377\" cy=\"120\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"273\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"299\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"351\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"377\" cy=\"150\" r=\"9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"325\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">spread very much reduced;</text>\n<text x=\"325\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">unvaccinated person protected</text>\n<circle cx=\"80\" cy=\"232\" r=\"7\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"92\" y=\"236\" font-size=\"12\" fill=\"currentColor\">immune</text>\n<circle cx=\"180\" cy=\"232\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"192\" y=\"236\" font-size=\"12\" fill=\"currentColor\">infected</text>\n<circle cx=\"280\" cy=\"232\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"292\" y=\"236\" font-size=\"12\" fill=\"currentColor\">not immune, healthy</text>\n</svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a vaccine contains antibodies.",
+        "right": "In fact a vaccine contains dead or inactive pathogens (with their antigens). The body's white blood cells make the antibodies."
+      },
+      {
+        "wrong": "Students often think vaccines give you a mild version of the disease.",
+        "right": "In fact the pathogen in a vaccine is dead or inactive, so it cannot cause the disease."
+      },
+      {
+        "wrong": "Students often think antibodies stay in the blood forever after vaccination.",
+        "right": "In fact antibody levels fall, but the white blood cells can respond quickly to produce the correct antibodies if the pathogen returns."
+      },
+      {
+        "wrong": "Students often think vaccination only matters for the person vaccinated.",
+        "right": "In fact when a large proportion of a population is immune, spread is greatly reduced, protecting people who cannot be vaccinated."
+      },
+      {
+        "wrong": "Students often think one vaccine protects against all diseases.",
+        "right": "In fact each vaccine is specific to one pathogen because antibodies are specific to antigens."
+      }
+    ],
+    "realWorld": [
+      "Smallpox was eradicated worldwide in 1980 after a global vaccination programme.",
+      "The MMR vaccine protects children in the UK against measles, mumps and rubella; outbreaks of measles occur where uptake falls.",
+      "Flu vaccines are offered every year to older people and others at high risk.",
+      "Poultry in the UK are vaccinated against Salmonella, reducing food poisoning in humans."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Use the specification wording: 'small quantities of dead or inactive forms of a pathogen' and 'stimulate the white blood cells to produce antibodies'.",
+      "In 'explain how vaccination works' answers, include the second exposure: white blood cells respond quickly to produce the correct antibodies, so infection is prevented.",
+      "For population questions, state that if a large proportion of the population is immune, the spread of the pathogen is very much reduced.",
+      "On antibody graphs, compare speed (how soon antibodies rise) and size (peak concentration) of the two responses, quoting values."
+    ],
+    "summary": [
+      "Vaccines contain small quantities of dead or inactive pathogens.",
+      "They stimulate white blood cells to produce antibodies.",
+      "If the same pathogen re-enters, white blood cells respond quickly with the correct antibodies.",
+      "The pathogen is destroyed before it causes illness, so infection is prevented.",
+      "If a large proportion of the population is immune, spread is very much reduced (herd immunity)."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What does a vaccine contain?",
+      "back": "Small quantities of dead or inactive forms of a pathogen."
+    },
+    {
+      "front": "What does a vaccine stimulate?",
+      "back": "White blood cells to produce antibodies."
+    },
+    {
+      "front": "Why does a vaccine not make you ill?",
+      "back": "The pathogen in it is dead or inactive."
+    },
+    {
+      "front": "What happens if the same pathogen re-enters a vaccinated person?",
+      "back": "White blood cells respond quickly to produce the correct antibodies, preventing infection."
+    },
+    {
+      "front": "Why does a vaccine against measles work against the live measles virus?",
+      "back": "The dead or inactive virus has the same antigens as the live virus."
+    },
+    {
+      "front": "What is herd immunity?",
+      "back": "When a large proportion of the population is immune, so spread of the pathogen is very much reduced."
+    },
+    {
+      "front": "Who is protected by herd immunity?",
+      "back": "People who are not vaccinated, such as babies too young to be vaccinated."
+    },
+    {
+      "front": "How does the second antibody response compare with the first?",
+      "back": "It is faster and much larger."
+    },
+    {
+      "front": "Does a vaccine contain antibodies?",
+      "back": "No. It contains dead or inactive pathogens; white blood cells make antibodies."
+    },
+    {
+      "front": "Why might measles outbreaks happen when vaccination rates fall?",
+      "back": "More people are not immune, so the virus can spread between them."
+    },
+    {
+      "front": "Why does a measles vaccine not protect against malaria?",
+      "back": "Antibodies are specific to antigens; the measles vaccine only has measles antigens."
+    }
+  ],
+  "questions": [
+    {
+      "id": "b3-vaccination-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a vaccine contain?",
+      "options": [
+        "Antibiotics",
+        "Small quantities of dead or inactive forms of a pathogen",
+        "Antibodies from another person",
+        "White blood cells"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: small quantities of dead or inactive forms of a pathogen"
+      ],
+      "explanation": "Vaccines contain dead or inactive pathogens. The body makes its own antibodies in response. Antibiotics are medicines that kill bacteria."
+    },
+    {
+      "id": "b3-vaccination-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a vaccine stimulate the white blood cells to produce?",
+      "options": [
+        "Antibodies",
+        "Antibiotics",
+        "Toxins",
+        "Hydrochloric acid"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: antibodies"
+      ],
+      "explanation": "The vaccine stimulates the white blood cells to produce antibodies. Antibiotics are drugs, toxins are made by bacteria and acid is made by the stomach."
+    },
+    {
+      "id": "b3-vaccination-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does a vaccine not usually make a person ill with the disease?",
+      "options": [
+        "It contains antibodies that kill the pathogen",
+        "It is given in very large doses",
+        "The pathogen in it is dead or inactive",
+        "It contains antibiotics"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: the pathogen is dead or inactive"
+      ],
+      "explanation": "Dead or inactive pathogens cannot reproduce and cause disease, but they still stimulate an immune response."
+    },
+    {
+      "id": "b3-vaccination-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A vaccinated person is later infected with the same pathogen. What happens?",
+      "options": [
+        "The person becomes very ill because the vaccine has used up their white blood cells",
+        "White blood cells respond quickly to produce the correct antibodies",
+        "Antibiotics are released from the vaccine",
+        "The pathogen cannot enter the body at all"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: white blood cells respond quickly to produce the correct antibodies"
+      ],
+      "explanation": "Vaccination means the white blood cells can respond quickly to produce the correct antibodies, destroying the pathogen before it causes illness. The pathogen can still enter the body."
+    },
+    {
+      "id": "b3-vaccination-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement describes herd immunity?",
+      "options": [
+        "Animals in a herd are vaccinated against all diseases",
+        "Everyone in a population must be vaccinated for a vaccine to work",
+        "Immunity is passed on from parents to their children",
+        "If a large proportion of the population is immune, the spread of the pathogen is very much reduced"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: if a large proportion of the population is immune, spread is very much reduced"
+      ],
+      "explanation": "Herd immunity means that when most people are immune, a pathogen cannot spread easily, protecting those not vaccinated. Not everyone needs to be vaccinated."
+    },
+    {
+      "id": "b3-vaccination-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the measles vaccine not protect against HIV?",
+      "options": [
+        "HIV is a bacterium",
+        "The measles vaccine contains antibiotics that do not work on HIV",
+        "Antibodies produced are specific to measles antigens",
+        "HIV is not a pathogen"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: antibodies are specific to measles antigens"
+      ],
+      "explanation": "Antibodies only bind to the specific antigens they match. HIV has different antigens from measles. HIV is a virus, not a bacterium."
+    },
+    {
+      "id": "b3-vaccination-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An antibody graph shows two responses. After the vaccine, antibody concentration rises after about 10 days to a low peak. After later exposure to the live pathogen, it rises within 2 days to a much higher peak. Which statement best explains this difference?",
+      "options": [
+        "The live pathogen is less harmful than the vaccine",
+        "White blood cells can now recognise the pathogen and produce the correct antibodies quickly",
+        "The vaccine destroyed most of the white blood cells",
+        "The second infection was caused by a different pathogen"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: white blood cells recognise the pathogen and produce correct antibodies quickly"
+      ],
+      "explanation": "After vaccination, white blood cells (memory cells) can recognise the pathogen's antigens and quickly produce large amounts of the correct antibodies."
+    },
+    {
+      "id": "b3-vaccination-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A baby is too young to be vaccinated against measles. Which statement explains why the baby is still unlikely to catch measles in a town where 97% of people are vaccinated?",
+      "options": [
+        "The baby's white blood cells already have measles antibodies from the vaccine given to others",
+        "Measles only infects adults",
+        "The virus cannot spread easily because almost everyone around the baby is immune",
+        "Vaccinated people release antibodies into the air"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: the virus cannot spread because almost everyone is immune"
+      ],
+      "explanation": "This is herd immunity: an infected person is unlikely to meet someone who is not immune, so the virus cannot spread to reach the baby."
+    },
+    {
+      "id": "b3-vaccination-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which disease are most young children in the UK vaccinated against?",
+      "options": [
+        "Malaria",
+        "Gonorrhoea",
+        "Rose black spot",
+        "Measles"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: measles"
+      ],
+      "explanation": "Most young children are vaccinated against measles because it can be fatal. Gonorrhoea is controlled with antibiotics and condoms, malaria with vector control, and rose black spot is a plant disease."
+    },
+    {
+      "id": "b3-vaccination-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do health services try to keep vaccination rates high?",
+      "options": [
+        "So that a large proportion of the population is immune and spread of the pathogen is reduced",
+        "So that antibiotics work better",
+        "So that people produce more white blood cells",
+        "So that pathogens become resistant to vaccines"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: so a large proportion is immune and spread is reduced"
+      ],
+      "explanation": "High vaccination rates give herd immunity. If rates fall, pathogens can spread among the growing number of people who are not immune."
+    },
+    {
+      "id": "b3-vaccination-q11",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why must the dead or inactive pathogen in a vaccine carry the same antigens as the live pathogen?",
+      "options": [
+        "So the antibodies produced will bind to the live pathogen when it enters later",
+        "So the vaccine can reproduce in the body",
+        "So the vaccine can kill other pathogens",
+        "So it can act as an antibiotic"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: so the antibodies produced will bind to the live pathogen"
+      ],
+      "explanation": "Antibodies are specific to antigens. If the antigens are the same, the white blood cells will recognise the live pathogen and produce the correct antibodies quickly."
+    },
+    {
+      "id": "b3-vaccination-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A town has a population of 80 000 people. 92% of the people are immune to measles. Calculate the number of people who are NOT immune.",
+      "numericAnswer": 6400,
+      "tolerance": 0,
+      "unit": "people",
+      "markScheme": [
+        "1 mark: 100 − 92 = 8% (or 80 000 × 0.92 = 73 600)",
+        "1 mark: 80 000 × 0.08 = 6400 (or 80 000 − 73 600 = 6400)"
+      ],
+      "explanation": "8% are not immune, and 8% of 80 000 = 6400. Giving 73 600 is the number who are immune, not the answer asked for."
+    },
+    {
+      "id": "b3-vaccination-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "After vaccination, a person's antibody concentration peaked at 15 arbitrary units. After later infection by the live pathogen, it peaked at 120 arbitrary units. How many times greater was the second peak than the first?",
+      "numericAnswer": 8,
+      "tolerance": 0,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 120 ÷ 15 = 8"
+      ],
+      "explanation": "Divide the larger peak by the smaller: 120 ÷ 15 = 8. The second response is eight times larger."
+    },
+    {
+      "id": "b3-vaccination-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "To prevent measles spreading, about 95% of a population needs to be immune. A city has 1 200 000 people. Calculate how many people need to be immune.",
+      "numericAnswer": 1140000,
+      "tolerance": 0,
+      "unit": "people",
+      "markScheme": [
+        "1 mark: 1 200 000 × 0.95",
+        "1 mark: = 1 140 000"
+      ],
+      "explanation": "95% of 1 200 000 = 0.95 × 1 200 000 = 1 140 000 people."
+    },
+    {
+      "id": "b3-vaccination-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "In a country, measles cases rose from 56 in one year to 1176 a few years later, after vaccination rates fell. Calculate the percentage increase in cases.",
+      "numericAnswer": 2000,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 1176 − 56 = 1120",
+        "1 mark: (1120 ÷ 56) × 100 = 2000%"
+      ],
+      "explanation": "Increase ÷ original × 100 = 1120 ÷ 56 × 100 = 2000%. Note that 1176 is 21 times 56, which is an increase of 20 times the original, or 2000%."
+    },
+    {
+      "id": "b3-vaccination-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe what is in a vaccine and what it does in the body.",
+      "acceptedAnswers": [
+        "dead pathogen",
+        "inactive pathogen",
+        "stimulates white blood cells",
+        "produce antibodies"
+      ],
+      "markScheme": [
+        "1 mark: small quantities of dead or inactive forms of a pathogen",
+        "1 mark: stimulates white blood cells to produce antibodies"
+      ],
+      "explanation": "These are the two key points from the specification definition of vaccination."
+    },
+    {
+      "id": "b3-vaccination-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain how vaccination prevents a person becoming ill when they are later infected with the pathogen.",
+      "acceptedAnswers": [
+        "dead or inactive pathogen",
+        "white blood cells produce antibodies",
+        "respond quickly",
+        "correct antibodies",
+        "destroy pathogen before symptoms",
+        "memory cells"
+      ],
+      "markScheme": [
+        "1 mark: vaccine (dead or inactive pathogen) stimulates white blood cells to produce antibodies",
+        "1 mark: if the same pathogen re-enters, white blood cells respond quickly to produce the correct antibodies",
+        "1 mark: the pathogen is destroyed before it can cause illness (infection prevented)"
+      ],
+      "explanation": "The key is the fast second response that destroys the pathogen before it reproduces enough to cause symptoms."
+    },
+    {
+      "id": "b3-vaccination-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why vaccinating a large proportion of the population also protects people who have not been vaccinated.",
+      "acceptedAnswers": [
+        "herd immunity",
+        "spread reduced",
+        "fewer people to pass it on",
+        "unlikely to meet infected person"
+      ],
+      "markScheme": [
+        "1 mark: if a large proportion is immune, the spread of the pathogen is very much reduced",
+        "1 mark: so unvaccinated people are less likely to come into contact with an infected person"
+      ],
+      "explanation": "With few non-immune people, the pathogen cannot pass along a chain of infection, so it rarely reaches an unvaccinated person."
+    },
+    {
+      "id": "b3-vaccination-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State why most young children are vaccinated against measles.",
+      "acceptedAnswers": [
+        "measles can be fatal",
+        "serious illness",
+        "complications"
+      ],
+      "markScheme": [
+        "1 mark: measles is a serious illness that can be fatal if complications arise"
+      ],
+      "explanation": "Measles can kill, so vaccination protects children from a dangerous disease."
+    },
+    {
+      "id": "b3-vaccination-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why outbreaks of measles can occur in a population where vaccination rates have fallen.",
+      "acceptedAnswers": [
+        "more people not immune",
+        "herd immunity lost",
+        "virus can spread",
+        "more susceptible people"
+      ],
+      "markScheme": [
+        "1 mark: a larger proportion of people are not immune",
+        "1 mark: so the virus can spread from person to person (herd immunity is lost)"
+      ],
+      "explanation": "Herd immunity depends on a high proportion being immune. When this falls, the virus can find enough non-immune people to spread."
+    },
+    {
+      "id": "b3-vaccination-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Using the idea of antigens, explain why a vaccine against one disease does not protect against a different disease.",
+      "acceptedAnswers": [
+        "antibodies specific",
+        "different antigens",
+        "antibodies only bind to one antigen"
+      ],
+      "markScheme": [
+        "1 mark: different pathogens have different antigens",
+        "1 mark: antibodies are specific, so antibodies made in response to the vaccine will not bind to the other pathogen's antigens"
+      ],
+      "explanation": "Specificity of antibodies to antigens is the key idea."
+    },
+    {
+      "id": "b3-vaccination-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one reason why some people in a population may not be vaccinated.",
+      "acceptedAnswers": [
+        "too young",
+        "babies",
+        "ill",
+        "weak immune system",
+        "allergic",
+        "choose not to",
+        "parents refuse"
+      ],
+      "markScheme": [
+        "1 mark: e.g. too young; too ill or have a weakened immune system; parents choose not to vaccinate them"
+      ],
+      "explanation": "Any sensible reason is accepted. Such people rely on herd immunity for protection."
+    },
+    {
+      "id": "b3-vaccination-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare the antibody response after vaccination with the response when the live pathogen enters the body later.",
+      "acceptedAnswers": [
+        "second response faster",
+        "second response larger",
+        "more antibodies",
+        "quicker"
+      ],
+      "markScheme": [
+        "1 mark: the second response is faster (antibodies produced sooner)",
+        "1 mark: the second response is larger (more antibodies produced)"
+      ],
+      "explanation": "Comparing speed and size of the two responses is the standard way to describe an antibody graph."
+    },
+    {
+      "id": "b3-vaccination-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Explain how vaccination protects an individual against a disease and how it can protect a whole population.",
+      "markScheme": [
+        "Indicative content: vaccine contains small quantities of dead or inactive pathogen; pathogen has antigens; stimulates white blood cells to produce antibodies; antibodies specific to the antigens; first response slow and small but no illness because pathogen dead or inactive; if the same pathogen re-enters, white blood cells respond quickly; correct antibodies produced rapidly and in large amounts; pathogen destroyed before symptoms; person is immune. Population: if a large proportion is immune, the spread of the pathogen is very much reduced; infected people unlikely to meet non-immune people; protects those who are not vaccinated (herd immunity).",
+        "Level 3 (5 to 6 marks): detailed, logically sequenced explanation of individual immunity and a clear explanation of population (herd) immunity.",
+        "Level 2 (3 to 4 marks): explanation of individual immunity with some reference to population protection, or detailed individual account only.",
+        "Level 1 (1 to 2 marks): simple statements about vaccines or antibodies.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Both parts are needed for the top level: the individual response (vaccine, antibodies, fast second response) and the population effect (herd immunity)."
+    },
+    {
+      "id": "b3-vaccination-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A graph shows antibody concentration in a person's blood. The person was vaccinated on day 0 and infected by the live pathogen on day 60. Antibody concentration rose slowly from day 7 to a peak of 15 units on day 14. After day 60 it rose within 2 days to a peak of 120 units on day 64.\nDescribe and explain the differences between the two responses.",
+      "markScheme": [
+        "Indicative content: first response slower (antibodies start rising after about 7 days); second response faster (within 2 days); second peak much higher (120 units compared with 15, 8 times greater); first response stimulated by dead or inactive pathogen in vaccine; white blood cells (memory cells) can recognise the antigens of the pathogen afterwards; on re-infection they respond quickly to produce the correct antibodies; pathogen destroyed before it causes illness.",
+        "Level 2 (3 to 4 marks): describes both speed and size differences using data and explains them in terms of white blood cells responding quickly to the same antigens.",
+        "Level 1 (1 to 2 marks): describes a difference, or gives a simple explanation without data.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Describe the data (speed and size, quoting values) and then explain using white blood cells responding quickly to produce the correct antibodies."
+    },
+    {
+      "id": "b3-vaccination-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Evaluate the importance of vaccinating a large proportion of children against measles rather than only vaccinating children who are at high risk.",
+      "markScheme": [
+        "Indicative content: measles is serious and can be fatal; spread by inhalation of droplets, so spreads easily; vaccinating a large proportion of children means spread is very much reduced; protects those who cannot be vaccinated (babies, ill people); if only high-risk children were vaccinated, the virus could still spread among others and reach vulnerable people, and outbreaks could occur; individual vaccinated children are protected; costs of mass vaccination are lower than costs of outbreaks; conclusion that vaccinating a large proportion is more effective.",
+        "Level 2 (3 to 4 marks): explains herd immunity in context and reaches a justified conclusion.",
+        "Level 1 (1 to 2 marks): simple statements about vaccination protecting people.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The key argument is herd immunity: only by immunising a large proportion can spread be greatly reduced, which also protects the vulnerable."
+    }
+  ]
+}
