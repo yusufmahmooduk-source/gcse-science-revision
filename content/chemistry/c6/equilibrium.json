@@ -1,0 +1,682 @@
+{
+  "id": "c6-equilibrium",
+  "science": "chemistry",
+  "topicId": "c6",
+  "slug": "equilibrium",
+  "specRef": "4.6.2.3",
+  "title": "Equilibrium",
+  "separateOnly": false,
+  "higherOnly": false,
+  "notes": {
+    "definition": "When a reversible reaction occurs in a closed system, so that no reactants or products can escape, equilibrium is reached when the forward and reverse reactions occur at exactly the same rate.",
+    "explanation": [
+      "A closed system is one where no substances can get in or out, for example a sealed flask. If a reversible reaction takes place in a closed system, none of the reactants or products can escape. This means the products are always there to react and reform the reactants, so the forward and reverse reactions can both keep happening. In an open container a gaseous product can escape, so the reverse reaction cannot keep up, and equilibrium is not reached.",
+      "At the start, there are only reactants, so the forward reaction is fast and the reverse reaction does not happen at all. As the reactants are used up their concentration falls, so the rate of the forward reaction decreases. At the same time, the concentration of the products increases, so the rate of the reverse reaction increases. Eventually the two rates become equal.",
+      "When the forward and reverse reactions are happening at exactly the same rate, the reaction has reached equilibrium. Products are being made at the same rate as they are being used up, so the amounts (and concentrations) of the reactants and products stay constant. This is sometimes called a dynamic equilibrium, because both reactions are still taking place; the reaction has not stopped.",
+      "It is important that the concentrations at equilibrium are constant, not equal. There might be much more product than reactant, or much more reactant than product, depending on the reaction and the conditions. On a graph of concentration against time, equilibrium is reached at the point where the lines for reactants and products become horizontal (flat).",
+      "You can see equilibrium in a sealed tube containing brown nitrogen dioxide gas, which forms colourless dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). Once equilibrium is reached, the colour of the gas stops changing, because nitrogen dioxide is being used up and made at the same rate. The colour does not show that the reactions have stopped, only that the amounts are constant."
+    ],
+    "keyFacts": [
+      "Equilibrium can only be reached in a closed system, where no reactants or products can escape.",
+      "At equilibrium the forward and reverse reactions occur at exactly the same rate.",
+      "At equilibrium the amounts (concentrations) of reactants and products stay constant.",
+      "The concentrations at equilibrium are constant, but they are not usually equal.",
+      "At equilibrium both reactions are still happening: it is a dynamic equilibrium.",
+      "As the reaction proceeds, the forward rate decreases because the reactant concentration falls.",
+      "As products build up, the reverse rate increases.",
+      "On a concentration against time graph, equilibrium is reached when the lines become flat.",
+      "In an open container, gases can escape, so equilibrium cannot be reached.",
+      "Observable properties, such as colour, stop changing once equilibrium is reached."
+    ],
+    "keyTerms": [
+      {
+        "term": "Equilibrium",
+        "definition": "The state reached by a reversible reaction in a closed system when the forward and reverse reactions occur at exactly the same rate."
+      },
+      {
+        "term": "Closed system",
+        "definition": "Apparatus that prevents the escape of reactants and products, and lets nothing else in, such as a sealed container."
+      },
+      {
+        "term": "Dynamic equilibrium",
+        "definition": "An equilibrium in which the forward and reverse reactions are both still happening, at equal rates, so the amounts of substances stay constant."
+      },
+      {
+        "term": "Forward reaction",
+        "definition": "The reaction from left to right in a reversible reaction equation."
+      },
+      {
+        "term": "Reverse reaction",
+        "definition": "The reaction from right to left in a reversible reaction equation."
+      },
+      {
+        "term": "Concentration",
+        "definition": "The amount of a substance in a given volume; at equilibrium the concentrations of all substances stay constant."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Finding when equilibrium is reached",
+        "question": "A reaction A ⇌ B is carried out in a sealed flask. The concentration of B (mol/dm³) is: 0 min: 0.00; 1 min: 0.30; 2 min: 0.48; 3 min: 0.58; 4 min: 0.62; 5 min: 0.62; 6 min: 0.62. When was equilibrium reached?",
+        "steps": [
+          "At equilibrium the concentration of B stays constant.",
+          "The concentration stops changing at 0.62 mol/dm³.",
+          "It first reaches 0.62 mol/dm³ at 4 minutes and stays there."
+        ],
+        "answer": "Equilibrium was reached at (about) 4 minutes."
+      },
+      {
+        "title": "Using a 1:1 equation",
+        "question": "In the same reaction, the flask started with 1.00 mol/dm³ of A and no B. What is the concentration of A at equilibrium, and what percentage of A has been converted to B?",
+        "steps": [
+          "The equation A ⇌ B is 1:1, so each mole of B formed uses one mole of A.",
+          "Concentration of A = 1.00 − 0.62 = 0.38 mol/dm³.",
+          "Percentage converted = 0.62 ÷ 1.00 × 100 = 62%."
+        ],
+        "answer": "0.38 mol/dm³ of A; 62% converted. The concentrations are constant but not equal."
+      },
+      {
+        "title": "Rates at equilibrium",
+        "question": "At equilibrium, the forward reaction of a system uses up nitrogen dioxide at a rate of 0.004 mol/dm³ per second. At what rate is nitrogen dioxide formed by the reverse reaction?",
+        "steps": [
+          "At equilibrium the forward and reverse reactions occur at exactly the same rate.",
+          "So nitrogen dioxide is formed as fast as it is used up."
+        ],
+        "answer": "0.004 mol/dm³ per second, so the amount of nitrogen dioxide stays constant."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Rates of the forward and reverse reactions",
+        "caption": "The forward rate falls as reactants are used up and the reverse rate rises as products build up. Equilibrium is reached when the two rates become equal.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"eq1\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><line x1=\"50\" y1=\"220\" x2=\"50\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#eq1)\"/><line x1=\"50\" y1=\"220\" x2=\"440\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#eq1)\"/><text x=\"30\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 30 120)\">Rate of reaction</text><text x=\"245\" y=\"245\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time</text><path d=\"M52 40 C110 120 160 135 230 135 L420 135\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"3\"/><path d=\"M52 219 C110 150 160 137 230 137 L420 137\" fill=\"none\" stroke=\"#93c5fd\" stroke-width=\"3\" stroke-dasharray=\"7 4\"/><line x1=\"230\" y1=\"30\" x2=\"230\" y2=\"220\" stroke=\"currentColor\" stroke-dasharray=\"3 4\"/><text x=\"100\" y=\"70\" font-size=\"12\" fill=\"currentColor\">forward reaction rate</text><text x=\"95\" y=\"205\" font-size=\"12\" fill=\"currentColor\">reverse reaction rate</text><text x=\"238\" y=\"50\" font-size=\"12\" fill=\"currentColor\">Equilibrium reached:</text><text x=\"238\" y=\"66\" font-size=\"12\" fill=\"currentColor\">forward rate = reverse rate</text><text x=\"300\" y=\"125\" font-size=\"12\" fill=\"currentColor\">rates equal and constant</text></svg>"
+      },
+      {
+        "title": "Concentrations approaching equilibrium",
+        "caption": "Reactant concentration falls and product concentration rises until both become constant (the lines become flat). At equilibrium the concentrations are constant but not equal.",
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"eq2\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0 L10 5 L0 10 Z\" fill=\"currentColor\"/></marker></defs><line x1=\"50\" y1=\"220\" x2=\"50\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#eq2)\"/><line x1=\"50\" y1=\"220\" x2=\"440\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#eq2)\"/><text x=\"30\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 30 120)\">Concentration</text><text x=\"245\" y=\"245\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time</text><path d=\"M52 40 C120 110 170 140 240 140 L420 140\" fill=\"none\" stroke=\"#c4b5fd\" stroke-width=\"3\"/><path d=\"M52 219 C120 140 170 105 240 105 L420 105\" fill=\"none\" stroke=\"#86efac\" stroke-width=\"3\" stroke-dasharray=\"7 4\"/><line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"220\" stroke=\"currentColor\" stroke-dasharray=\"3 4\"/><text x=\"70\" y=\"40\" font-size=\"12\" fill=\"currentColor\">reactants</text><text x=\"85\" y=\"205\" font-size=\"12\" fill=\"currentColor\">products</text><text x=\"250\" y=\"98\" font-size=\"12\" fill=\"currentColor\">product concentration constant</text><text x=\"250\" y=\"158\" font-size=\"12\" fill=\"currentColor\">reactant concentration constant</text><text x=\"248\" y=\"40\" font-size=\"12\" fill=\"currentColor\">Equilibrium reached</text><text x=\"248\" y=\"56\" font-size=\"12\" fill=\"currentColor\">(lines become flat)</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that at equilibrium the concentrations of reactants and products are equal.",
+        "right": "In fact the concentrations are constant, not equal. There may be much more of one than the other."
+      },
+      {
+        "wrong": "Students often think that at equilibrium the reaction has stopped.",
+        "right": "In fact both the forward and reverse reactions are still happening, at the same rate. That is why it is called a dynamic equilibrium."
+      },
+      {
+        "wrong": "Students often think equilibrium can be reached in an open beaker.",
+        "right": "In fact equilibrium needs a closed system. If a product escapes, it cannot take part in the reverse reaction."
+      },
+      {
+        "wrong": "Students often think equilibrium means the rates of the forward and reverse reactions are zero.",
+        "right": "In fact the rates are equal to each other, but not zero."
+      }
+    ],
+    "realWorld": [
+      "In the Haber process, nitrogen and hydrogen react in a closed system and reach equilibrium, so only some of the reactants are converted to ammonia in each pass.",
+      "Fizzy drinks in a sealed bottle contain carbon dioxide at equilibrium with dissolved carbon dioxide; opening the bottle breaks the closed system and gas escapes.",
+      "In a sealed tube, brown nitrogen dioxide and colourless dinitrogen tetroxide reach an equilibrium mixture with a constant colour, which is often used to demonstrate equilibrium."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [],
+    "examTips": [
+      "For the definition, give both points: a closed system, and the forward and reverse reactions occurring at exactly the same rate.",
+      "Never write that concentrations are 'equal' at equilibrium: write that they are 'constant' or 'do not change'.",
+      "If asked how a graph shows equilibrium, say the line becomes horizontal (flat), because the concentration no longer changes.",
+      "Explain changes in rate using concentration: as reactant concentration falls, the forward rate decreases; as product concentration rises, the reverse rate increases."
+    ],
+    "summary": [
+      "Equilibrium can only be reached in a closed system.",
+      "At equilibrium the forward and reverse reactions occur at exactly the same rate.",
+      "Amounts of reactants and products stay constant at equilibrium, but are not usually equal.",
+      "Both reactions keep going: the equilibrium is dynamic.",
+      "Forward rate falls and reverse rate rises until they are equal.",
+      "Flat lines on a concentration against time graph show equilibrium."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is equilibrium in a reversible reaction?",
+      "back": "The state where the forward and reverse reactions occur at exactly the same rate."
+    },
+    {
+      "front": "What type of system is needed for equilibrium?",
+      "back": "A closed system, where no reactants or products can escape."
+    },
+    {
+      "front": "What is a closed system?",
+      "back": "Apparatus that prevents reactants and products escaping, and lets nothing else in (for example a sealed flask)."
+    },
+    {
+      "front": "What happens to the concentrations of reactants and products at equilibrium?",
+      "back": "They stay constant (they do not change)."
+    },
+    {
+      "front": "Are the concentrations of reactants and products equal at equilibrium?",
+      "back": "Not usually. They are constant, not equal."
+    },
+    {
+      "front": "Has the reaction stopped at equilibrium?",
+      "back": "No. Both forward and reverse reactions continue at the same rate (dynamic equilibrium)."
+    },
+    {
+      "front": "Why does the forward rate decrease as a reaction approaches equilibrium?",
+      "back": "The concentration of reactants decreases, so there are fewer collisions per second."
+    },
+    {
+      "front": "Why does the reverse rate increase as a reaction approaches equilibrium?",
+      "back": "The concentration of products increases, so they collide and react more often."
+    },
+    {
+      "front": "How does a concentration against time graph show equilibrium?",
+      "back": "The lines become horizontal (flat)."
+    },
+    {
+      "front": "Why can't equilibrium be reached in an open container with a gaseous product?",
+      "back": "The gas escapes, so it cannot take part in the reverse reaction."
+    },
+    {
+      "front": "What is meant by 'dynamic' equilibrium?",
+      "back": "The reactions are still happening, but the amounts of substances do not change."
+    },
+    {
+      "front": "A sealed tube of NO₂ and N₂O₄ stops changing colour. What does this show?",
+      "back": "Equilibrium has been reached: NO₂ is used up and made at the same rate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "c6-equilibrium-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which type of system can a reversible reaction reach equilibrium?",
+      "markScheme": [
+        "1 mark: a closed system"
+      ],
+      "explanation": "Equilibrium needs apparatus that prevents the escape of reactants and products. A catalyst or heating does not make equilibrium possible if substances can escape.",
+      "options": [
+        "An open system",
+        "A closed system",
+        "Any system with a catalyst",
+        "A system that is being heated"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-equilibrium-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement is true for a reversible reaction at equilibrium?",
+      "markScheme": [
+        "1 mark: forward and reverse reactions occur at exactly the same rate"
+      ],
+      "explanation": "At equilibrium both reactions continue at equal rates. Nothing has stopped.",
+      "options": [
+        "The forward reaction has stopped",
+        "The reverse reaction is faster than the forward reaction",
+        "The forward and reverse reactions occur at exactly the same rate",
+        "Both reactions have stopped"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-equilibrium-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a closed system?",
+      "markScheme": [
+        "1 mark: a sealed flask"
+      ],
+      "explanation": "A sealed flask prevents reactants and products escaping. The others are open to the air, so gases can escape.",
+      "options": [
+        "A sealed flask",
+        "An open beaker",
+        "An evaporating basin",
+        "A test tube with no bung"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-equilibrium-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "On a graph of concentration against time, how can you tell when equilibrium has been reached?",
+      "markScheme": [
+        "1 mark: the lines become horizontal"
+      ],
+      "explanation": "At equilibrium the concentrations stay constant, so the lines become flat. Lines crossing only shows the concentrations are momentarily equal, which is not equilibrium.",
+      "options": [
+        "The lines cross",
+        "The lines become steeper",
+        "The lines reach zero",
+        "The lines become horizontal"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-equilibrium-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to the concentrations of the reactants and products once a reaction has reached equilibrium?",
+      "markScheme": [
+        "1 mark: they stay constant"
+      ],
+      "explanation": "Because the forward and reverse reactions occur at the same rate, substances are made as fast as they are used up, so concentrations stay constant. They are not usually equal.",
+      "options": [
+        "They become equal",
+        "They stay constant",
+        "They both decrease",
+        "They keep changing at the same rate"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-equilibrium-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "At the very start of a reversible reaction, only reactants are present. Which statement is correct?",
+      "markScheme": [
+        "1 mark: forward rate highest, reverse rate zero"
+      ],
+      "explanation": "With no products present, the reverse reaction cannot happen. The reactant concentration is greatest at the start, so the forward rate is greatest.",
+      "options": [
+        "The forward rate is at its highest and the reverse rate is zero",
+        "Both rates are equal",
+        "The reverse rate is at its highest",
+        "Both rates are zero"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-equilibrium-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Calcium carbonate is heated in an open crucible: CaCO₃(s) ⇌ CaO(s) + CO₂(g)\nWhy does this reaction not reach equilibrium?",
+      "markScheme": [
+        "1 mark: carbon dioxide escapes"
+      ],
+      "explanation": "In an open crucible the carbon dioxide gas leaves, so it is not there to react with calcium oxide. Equilibrium needs a closed system.",
+      "options": [
+        "Calcium oxide cannot react with anything",
+        "The reaction is not reversible",
+        "Carbon dioxide escapes, so the reverse reaction cannot keep pace",
+        "The temperature is too low"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-equilibrium-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is equilibrium in a closed system described as 'dynamic'?",
+      "markScheme": [
+        "1 mark: forward and reverse reactions are still happening"
+      ],
+      "explanation": "Dynamic means active. Particles are still reacting in both directions, even though the overall amounts do not change.",
+      "options": [
+        "Because the temperature keeps changing",
+        "Because the concentrations keep changing",
+        "Because the reaction moves in one direction only",
+        "Because the forward and reverse reactions are still happening"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "c6-equilibrium-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "As a reversible reaction approaches equilibrium, why does the rate of the forward reaction decrease?",
+      "markScheme": [
+        "1 mark: reactant concentration decreases so fewer collisions per second"
+      ],
+      "explanation": "As reactants are converted to products there are fewer reactant particles in the same volume, so collisions between them are less frequent.",
+      "options": [
+        "The concentration of reactants decreases, so there are fewer successful collisions per second",
+        "The catalyst gets used up",
+        "The products block the reactant particles",
+        "The activation energy increases"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "c6-equilibrium-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sealed tube contains brown nitrogen dioxide and colourless dinitrogen tetroxide at equilibrium: 2NO₂(g) ⇌ N₂O₄(g)\nThe colour stays the same. What is the best explanation?",
+      "markScheme": [
+        "1 mark: nitrogen dioxide used up and formed at the same rate"
+      ],
+      "explanation": "The colour depends on the amount of brown NO₂. It stays constant because the forward and reverse reactions occur at the same rate, not because the reactions have stopped or the amounts are equal.",
+      "options": [
+        "No more nitrogen dioxide is reacting",
+        "Nitrogen dioxide is being used up and formed at the same rate",
+        "All of the nitrogen dioxide has turned into dinitrogen tetroxide",
+        "There are equal amounts of nitrogen dioxide and dinitrogen tetroxide"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "c6-equilibrium-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A ⇌ B reaches equilibrium in a sealed flask with [A] = 0.38 mol/dm³ and [B] = 0.62 mol/dm³. These values do not change. A student says the reaction cannot be at equilibrium because the concentrations are different. Which response is correct?",
+      "markScheme": [
+        "1 mark: student is wrong; concentrations are constant, not necessarily equal"
+      ],
+      "explanation": "Equilibrium means the forward and reverse rates are equal, so concentrations stop changing. The values themselves can be very different.",
+      "options": [
+        "The student is right: at equilibrium concentrations must be equal",
+        "The student is right: at equilibrium all of A must have reacted",
+        "The student is wrong: at equilibrium the concentrations are constant, not necessarily equal",
+        "The student is wrong: at equilibrium [A] must be greater than [B]"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "c6-equilibrium-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A reaction A ⇌ B is carried out in a sealed flask. The concentration of B was measured:\nTime (min): 0, 1, 2, 3, 4, 5, 6\n[B] (mol/dm³): 0.00, 0.30, 0.48, 0.58, 0.62, 0.62, 0.62\nAt what time was equilibrium first reached?",
+      "markScheme": [
+        "1 mark: 4 minutes"
+      ],
+      "explanation": "Equilibrium is reached when the concentration stops changing. [B] first reaches its constant value of 0.62 mol/dm³ at 4 minutes.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "min"
+    },
+    {
+      "id": "c6-equilibrium-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Using the same data, the flask started with 1.00 mol/dm³ of A and no B. Each mole of B is formed from one mole of A.\nCalculate the concentration of A at equilibrium.",
+      "markScheme": [
+        "1 mark: 1.00 − 0.62",
+        "1 mark: 0.38 mol/dm³"
+      ],
+      "explanation": "The equation is 1:1, so the concentration of A that reacted equals the concentration of B formed: 0.62 mol/dm³. [A] = 1.00 − 0.62 = 0.38 mol/dm³.",
+      "numericAnswer": 0.38,
+      "tolerance": 0.01,
+      "unit": "mol/dm³"
+    },
+    {
+      "id": "c6-equilibrium-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "In the same reaction (starting with 1.00 mol/dm³ of A and no B), [B] at equilibrium is 0.62 mol/dm³.\nCalculate the percentage of A converted into B at equilibrium.",
+      "markScheme": [
+        "1 mark: 0.62 ÷ 1.00 × 100",
+        "1 mark: 62%"
+      ],
+      "explanation": "Percentage converted = (amount reacted ÷ starting amount) × 100 = 0.62 ÷ 1.00 × 100 = 62%. The reaction does not go to completion because the reverse reaction also happens.",
+      "numericAnswer": 62,
+      "tolerance": 0.01,
+      "unit": "%"
+    },
+    {
+      "id": "c6-equilibrium-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Using the same data, calculate the mean rate of formation of B during the first 2 minutes.",
+      "markScheme": [
+        "1 mark: 0.48 ÷ 2",
+        "1 mark: 0.24 mol/dm³ per min"
+      ],
+      "explanation": "Mean rate = change in concentration ÷ time = (0.48 − 0.00) ÷ 2 = 0.24 mol/dm³ per min. The rate then slows as A is used up and the reverse reaction speeds up.",
+      "numericAnswer": 0.24,
+      "tolerance": 0.01,
+      "unit": "mol/dm³ per min"
+    },
+    {
+      "id": "c6-equilibrium-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A system is at equilibrium in a sealed container. The forward reaction uses up substance X at a rate of 0.0035 mol/dm³ per second.\nAt what rate is X produced by the reverse reaction?",
+      "markScheme": [
+        "1 mark: 0.0035 mol/dm³ per s"
+      ],
+      "explanation": "At equilibrium the forward and reverse reactions occur at exactly the same rate, so X is made as fast as it is used up. This is why the concentration of X stays constant.",
+      "numericAnswer": 0.0035,
+      "tolerance": 0.01,
+      "unit": "mol/dm³ per s"
+    },
+    {
+      "id": "c6-equilibrium-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe what is meant by equilibrium for a reversible reaction.",
+      "markScheme": [
+        "1 mark: (in a closed system)",
+        "1 mark: forward and reverse reactions occur at the same rate"
+      ],
+      "explanation": "Both points are needed for the full definition: the closed system and equal rates.",
+      "acceptedAnswers": [
+        "closed system",
+        "forward and reverse reactions at the same rate"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by a closed system.",
+      "markScheme": [
+        "1 mark: a system where no substances (reactants or products) can enter or leave"
+      ],
+      "explanation": "A sealed container is a closed system. Gases cannot escape and air cannot get in.",
+      "acceptedAnswers": [
+        "no reactants or products can escape",
+        "nothing can get in or out",
+        "sealed"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A sealed tube contains a mixture of nitrogen dioxide (brown) and dinitrogen tetroxide (colourless). The mixture reaches equilibrium.\nDescribe what happens to the colour of the mixture once equilibrium is reached.",
+      "markScheme": [
+        "1 mark: the colour stays the same / stops changing"
+      ],
+      "explanation": "At equilibrium the amount of brown nitrogen dioxide is constant, so the colour does not change.",
+      "acceptedAnswers": [
+        "stays the same",
+        "does not change",
+        "constant"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the concentrations of the reactants and products do not change at equilibrium, even though reactions are still happening.",
+      "markScheme": [
+        "1 mark: the forward and reverse reactions occur at the same rate",
+        "1 mark: so each substance is made as fast as it is used up"
+      ],
+      "explanation": "The two reactions cancel each other out, so there is no overall change in amounts.",
+      "acceptedAnswers": [
+        "forward and reverse at the same rate",
+        "products made as fast as they are used up"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the rate of the reverse reaction increases as a reversible reaction approaches equilibrium.",
+      "markScheme": [
+        "1 mark: the concentration of products increases",
+        "1 mark: so product particles collide (and react) more often"
+      ],
+      "explanation": "At the start there are no products. As they build up, the reverse reaction speeds up until it equals the forward rate.",
+      "acceptedAnswers": [
+        "concentration of products increases",
+        "more frequent collisions"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Ammonium chloride is heated in an open test tube with no bung. Suggest why the reaction does not reach equilibrium.",
+      "markScheme": [
+        "1 mark: not a closed system / ammonia and hydrogen chloride (gases) escape",
+        "1 mark: so the reverse reaction cannot occur at the same rate as the forward reaction"
+      ],
+      "explanation": "Equilibrium needs both reactions to keep going at equal rates. If the products escape, the reverse reaction slows down or stops.",
+      "acceptedAnswers": [
+        "gases escape",
+        "not a closed system",
+        "ammonia and hydrogen chloride escape"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A reaction reaches equilibrium in a closed system. Describe the shape of the line for the reactant and the line for the product on a graph of concentration against time.",
+      "markScheme": [
+        "1 mark: reactant concentration decreases (quickly at first), then becomes constant",
+        "1 mark: product concentration increases (from zero), then becomes constant"
+      ],
+      "explanation": "Both lines become horizontal at the same time, when equilibrium is reached. They do not have to meet.",
+      "acceptedAnswers": [
+        "reactant decreases then levels off",
+        "product increases then levels off"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain, in terms of rates and particles, how a reversible reaction in a closed system reaches equilibrium.",
+      "markScheme": [
+        "1 mark: reactant concentration falls so forward rate decreases (fewer collisions per second)",
+        "1 mark: product concentration rises so reverse rate increases",
+        "1 mark: eventually forward and reverse rates are equal, so equilibrium is reached"
+      ],
+      "explanation": "Equilibrium is the point where the falling forward rate meets the rising reverse rate.",
+      "acceptedAnswers": [
+        "forward rate decreases",
+        "reactant concentration decreases",
+        "reverse rate increases",
+        "product concentration increases",
+        "rates become equal"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'At equilibrium there must be 50% reactants and 50% products.'\nExplain why the student is wrong.",
+      "markScheme": [
+        "1 mark: at equilibrium the amounts are constant (not necessarily equal)",
+        "1 mark: the proportions depend on the reaction (and conditions); equilibrium only requires equal rates"
+      ],
+      "explanation": "Equilibrium is about equal rates of reaction, not equal amounts.",
+      "acceptedAnswers": [
+        "concentrations constant not equal",
+        "depends on the reaction and conditions"
+      ]
+    },
+    {
+      "id": "c6-equilibrium-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Hydrogen and iodine are sealed in a flask and heated: H₂(g) + I₂(g) ⇌ 2HI(g)\nDescribe how the rates of the forward and reverse reactions, and the amounts of each substance, change from the start until equilibrium is reached.",
+      "markScheme": [
+        "Indicative content: at the start only hydrogen and iodine are present; the forward rate is at its highest and the reverse rate is zero; as hydrogen and iodine are used up, their concentrations decrease and the forward rate decreases; hydrogen iodide is formed and its concentration increases; the reverse rate increases; eventually the forward and reverse rates are equal; equilibrium is reached; amounts of H₂, I₂ and HI then stay constant (but are not equal); both reactions continue.",
+        "Level 2 (3 to 4 marks): a clear description of how both rates and the amounts change, ending in a correct description of equilibrium.",
+        "Level 1 (1 to 2 marks): simple statements about rates or amounts, with limited sequencing."
+      ],
+      "explanation": "Describe both rates and the amounts of substances, in order from the start to equilibrium."
+    },
+    {
+      "id": "c6-equilibrium-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Evaluate these three statements about a reversible reaction at equilibrium in a closed system:\n1. 'The reaction has stopped.'\n2. 'The amounts of reactants and products are constant.'\n3. 'The concentrations of reactants and products are equal.'",
+      "markScheme": [
+        "Indicative content: statement 1 is incorrect: both the forward and reverse reactions continue (dynamic equilibrium); statement 2 is correct: because the forward and reverse rates are equal, each substance is made as fast as it is used up; statement 3 is incorrect: the concentrations are constant but usually different, depending on the reaction and conditions; equilibrium is defined by equal rates, not equal amounts.",
+        "Level 2 (3 to 4 marks): all three statements correctly judged with clear reasons linked to equal rates.",
+        "Level 1 (1 to 2 marks): one or two statements correctly judged with limited reasons."
+      ],
+      "explanation": "For each statement say whether it is correct, then explain using the idea that the rates are equal."
+    },
+    {
+      "id": "c6-equilibrium-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Hydrogen (colourless) and iodine gas (purple) are sealed in a flask and heated. They react to form hydrogen iodide (colourless):\nH₂(g) + I₂(g) ⇌ 2HI(g)\nThe purple colour fades at first, then stays a constant pale purple.\nExplain these observations. Use ideas about rates, concentrations and equilibrium.",
+      "markScheme": [
+        "Indicative content: at the start there is a high concentration of iodine, so the mixture is purple; hydrogen and iodine react to form colourless hydrogen iodide; the concentration of iodine decreases, so the purple colour fades; the forward rate decreases because the reactant concentrations decrease (fewer collisions per second); as hydrogen iodide builds up, the reverse reaction (2HI → H₂ + I₂) speeds up, reforming iodine; the flask is sealed, so it is a closed system and no substances escape; eventually the forward and reverse rates are equal; equilibrium is reached; iodine is used up and formed at the same rate, so its concentration is constant and the colour stays the same; the colour is pale purple, not colourless, because the reaction does not go to completion: some iodine remains at equilibrium; the reactions have not stopped (dynamic equilibrium).",
+        "Level 3 (5 to 6 marks): a detailed, logical explanation linking the colour changes to iodine concentration, the changing rates of both reactions, the closed system and dynamic equilibrium.",
+        "Level 2 (3 to 4 marks): explains the fading colour and describes equilibrium as equal rates, with some link to constant colour.",
+        "Level 1 (1 to 2 marks): simple statements, for example 'the iodine reacts so the colour fades', with little explanation."
+      ],
+      "explanation": "The colour tracks the concentration of iodine. It stops changing because iodine is used up and made at equal rates once equilibrium is reached."
+    }
+  ]
+}
