@@ -1,0 +1,313 @@
+{
+  "id": "phys-rp7",
+  "science": "physics",
+  "number": 7,
+  "title": "Acceleration",
+  "combined": true,
+  "topicId": "p5",
+  "subtopic": "newtons-second-law",
+  "aim": "To investigate the effect of varying the force on the acceleration of an object of constant mass, and the effect of varying the mass of an object on its acceleration with a constant force.",
+  "background": [
+    "Newton's second law states that the acceleration of an object is directly proportional to the resultant force acting on it and inversely proportional to its mass. This is written as resultant force = mass × acceleration (F = m a). Students must recall this equation.",
+    "In this practical, a trolley on a bench is pulled by a string that passes over a pulley to a hanging mass. The weight of the hanging mass (W = m g) provides the accelerating force. The whole system that accelerates is the trolley, the masses on it and the hanging mass.",
+    "Acceleration is measured using light gates. A card of known length on the trolley interrupts each light beam; the data logger calculates the speed at each gate (speed = card length ÷ time to pass through) and the time between gates, then uses acceleration = change in velocity ÷ time (a = Δv ÷ t). Light gates are used because human reaction time makes stopwatch timings of short intervals very inaccurate.",
+    "To vary the force while keeping the mass constant, slotted masses are moved from the trolley to the hanger, so the total mass of the system does not change. To vary the mass with a constant force, masses are added to the trolley while the hanging mass stays the same. Friction reduces the resultant force, so the bench can be tilted slightly to compensate for it."
+  ],
+  "hypothesis": "With a constant total mass, the acceleration of the trolley will be directly proportional to the accelerating force; with a constant force, the acceleration will be inversely proportional to the mass.",
+  "variables": {
+    "independent": "Part 1: accelerating force (weight of the hanging masses, N). Part 2: mass of the system (kg).",
+    "dependent": "Acceleration of the trolley (m/s²), measured with light gates and a data logger.",
+    "control": [
+      "Part 1: total mass of the system (masses moved from trolley to hanger, never added or removed)",
+      "Part 2: accelerating force (same hanging mass)",
+      "Same trolley, bench surface and slope",
+      "Same starting position of the trolley and same positions of the light gates",
+      "Same card length on the trolley"
+    ]
+  },
+  "equipment": [
+    "Dynamics trolley",
+    "Bench or runway with a pulley clamped to the end",
+    "String",
+    "Mass hanger and slotted masses (10 g, 20 g and 100 g)",
+    "Two light gates, interrupt card and data logger (or one light gate with a double interrupt card)",
+    "Metre ruler",
+    "Top pan balance",
+    "Wooden block to tilt the runway and compensate for friction",
+    "Sand tray or soft mat under the hanging masses, and a buffer to stop the trolley"
+  ],
+  "method": [
+    "Measure the mass of the trolley on a balance. Clamp a pulley to the end of the bench.",
+    "Compensate for friction: raise the starting end of the runway slightly until the trolley, given a small push, moves down it at a constant speed.",
+    "Attach an interrupt card of known length to the trolley. Set up two light gates 50 cm apart along the runway, connected to a data logger.",
+    "Tie a string to the front of the trolley, pass it over the pulley and attach a mass hanger. Place slotted masses on the trolley so that the total mass of the trolley, masses and hanger is 1.00 kg.",
+    "Part 1: start with a hanging weight of 0.2 N. Hold the trolley at a marked starting line, then release it. Record the acceleration calculated by the data logger.",
+    "Repeat twice more from the same starting line and calculate the mean acceleration.",
+    "Move a mass from the trolley to the hanger to increase the accelerating force by 0.2 N, so the total mass stays at 1.00 kg. Repeat steps 5 and 6.",
+    "Continue until the force is 1.0 N. Plot a graph of acceleration (y-axis) against force (x-axis).",
+    "Part 2: keep the hanging weight at 1.0 N. Add masses to the trolley so the total mass is 0.60 kg, 0.80 kg, 1.00 kg, 1.20 kg and 1.40 kg, measuring the mean acceleration each time.",
+    "Plot a graph of acceleration against mass, and also acceleration against 1 ÷ mass, to test whether acceleration is inversely proportional to mass."
+  ],
+  "safety": [
+    {
+      "hazard": "Trolley running off the end of the bench",
+      "risk": "Trolley falls and injures feet or is damaged.",
+      "precaution": "Place a buffer (for example a block or clamp) near the end of the runway to stop the trolley before the pulley."
+    },
+    {
+      "hazard": "Falling masses",
+      "risk": "Injury to feet when the hanging masses hit the floor.",
+      "precaution": "Place a sand tray or soft mat under the hanging masses and keep feet clear."
+    },
+    {
+      "hazard": "Mains powered data logger and leads across the bench",
+      "risk": "Tripping over leads or electric shock.",
+      "precaution": "Route leads safely away from walkways and keep liquids away from the electrical equipment."
+    }
+  ],
+  "results": {
+    "headers": ["Force (N)", "Acceleration run 1 (m/s²)", "Acceleration run 2 (m/s²)", "Acceleration run 3 (m/s²)", "Mean acceleration (m/s²)"],
+    "rows": [
+      ["0.2", "0.16", "0.13", "0.16", "0.15"],
+      ["0.4", "0.37", "0.34", "0.34", "0.35"],
+      ["0.6", "0.53", "0.56", "0.56", "0.55"],
+      ["0.8", "0.76", "0.77", "0.72", "0.75"],
+      ["1.0", "0.94", "0.97", "0.94", "0.95"]
+    ],
+    "notes": "Part 1: total mass of the system kept at 1.00 kg. Plot mean acceleration (y-axis) against force (x-axis) and draw a straight line of best fit. The gradient is 1.0 (m/s²)/N, which equals 1 ÷ mass. Part 2 (force kept at 1.0 N): mass 0.60 kg, a = 1.58 m/s²; 0.80 kg, 1.19 m/s²; 1.00 kg, 0.95 m/s²; 1.20 kg, 0.79 m/s²; 1.40 kg, 0.68 m/s². Plot acceleration against mass (a curve) and acceleration against 1 ÷ mass (a straight line)."
+  },
+  "analysis": [
+    "Part 1: the graph of acceleration against force is a straight line. Each extra 0.2 N of force increases the acceleration by about 0.20 m/s², so acceleration is directly proportional to the resultant force, as F = m a predicts for a constant mass.",
+    "The gradient of the line is 1.0 (m/s²)/N, which equals 1 ÷ m, giving a mass of 1.0 kg. This matches the total mass of the system.",
+    "The line does not quite pass through the origin: it crosses the force axis at about 0.05 N. This is because friction was not fully compensated, so a small part of the hanging weight was needed to overcome friction and the resultant force was slightly less than the weight.",
+    "Part 2: as the mass increases, the acceleration decreases. Doubling the mass from 0.60 kg to 1.20 kg halves the acceleration from 1.58 m/s² to 0.79 m/s², so acceleration is inversely proportional to mass. A graph of a against 1 ÷ m is a straight line through the origin.",
+    "Mass × acceleration in part 2 is roughly constant (0.60 × 1.58 = 0.95 N, 1.40 × 0.68 = 0.95 N), equal to the hanging weight minus about 0.05 N of friction."
+  ],
+  "errors": [
+    {
+      "error": "Friction between the trolley and the runway reduces the resultant force, so the measured acceleration is lower than expected.",
+      "improvement": "Tilt the runway so the trolley moves at constant speed after a small push, which compensates for friction."
+    },
+    {
+      "error": "Adding or removing masses to change the force also changes the total mass, so two variables change at once.",
+      "improvement": "Move masses from the trolley to the hanger so the total mass of the system is constant."
+    },
+    {
+      "error": "Starting the trolley from different positions or giving it a push changes its speed at the first gate.",
+      "improvement": "Release the trolley from rest at a marked starting line each time without pushing it."
+    },
+    {
+      "error": "Stopwatch timing is affected by human reaction time.",
+      "improvement": "Use light gates and a data logger, which record times to a fraction of a millisecond."
+    },
+    {
+      "error": "The string is not parallel to the runway, so only part of the tension pulls the trolley forwards.",
+      "improvement": "Adjust the pulley height so the string is horizontal (parallel to the runway)."
+    }
+  ],
+  "diagram": {
+    "title": "Trolley acceleration apparatus",
+    "caption": "A trolley on a bench is pulled by a string that passes over a pulley to hanging slotted masses. An interrupt card on the trolley passes through two light gates connected to a data logger, which calculates the acceleration.",
+    "svg": "<svg viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"200\" width=\"380\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"170\" width=\"100\" height=\"22\" rx=\"3\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"78\" cy=\"196\" r=\"4\"/><circle cx=\"142\" cy=\"196\" r=\"4\"/><circle cx=\"410\" cy=\"194\" r=\"10\"/><path d=\"M160 184 H410 M420 194 V240\"/><line x1=\"400\" y1=\"208\" x2=\"410\" y2=\"194\"/></g><rect x=\"100\" y=\"140\" width=\"20\" height=\"30\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"><rect x=\"128\" y=\"160\" width=\"22\" height=\"10\"/><rect x=\"408\" y=\"240\" width=\"24\" height=\"10\"/><rect x=\"408\" y=\"252\" width=\"24\" height=\"10\"/><rect x=\"408\" y=\"264\" width=\"24\" height=\"10\"/></g><g fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"192\" y=\"140\" width=\"20\" height=\"20\"/><rect x=\"312\" y=\"140\" width=\"20\" height=\"20\"/><rect x=\"222\" y=\"36\" width=\"80\" height=\"30\"/></g><g stroke=\"currentColor\" stroke-width=\"1\" fill=\"none\"><path d=\"M202 160 V200 M322 160 V200\" stroke-dasharray=\"3 2\"/><path d=\"M202 140 V90 H242 V66 M322 140 V90 H282 V66\"/><line x1=\"62\" y1=\"137\" x2=\"100\" y2=\"150\"/><line x1=\"60\" y1=\"240\" x2=\"60\" y2=\"212\"/><line x1=\"392\" y1=\"258\" x2=\"406\" y2=\"258\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"236\" y=\"55\">Data logger</text><text x=\"4\" y=\"184\">Trolley</text><text x=\"4\" y=\"128\">Interrupt</text><text x=\"4\" y=\"142\">card</text><text x=\"126\" y=\"128\">Light gate 1</text><text x=\"246\" y=\"128\">Light gate 2</text><text x=\"280\" y=\"178\">String</text><text x=\"428\" y=\"180\">Pulley</text><text x=\"304\" y=\"256\">Hanging</text><text x=\"304\" y=\"270\">masses</text><text x=\"36\" y=\"254\">Bench</text></g></svg>"
+  },
+  "examTips": [
+    "Recall F = m a. To find acceleration from two speeds, use a = (v − u) ÷ t; to find speed at a light gate, use speed = card length ÷ time the beam is blocked.",
+    "Explain how to keep the mass constant when changing the force: move masses from the trolley to the hanger, because the hanging mass is also being accelerated.",
+    "Give a reason for using light gates: they remove human reaction time and record short times precisely.",
+    "If the acceleration against force line does not pass through the origin, the most likely reason is friction.",
+    "For constant force, acceleration is inversely proportional to mass: doubling the mass halves the acceleration."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp7-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links resultant force, mass and acceleration?",
+      "options": ["F = m ÷ a", "F = m × a", "F = a ÷ m", "F = m × v"],
+      "answer": 1,
+      "markScheme": ["1 mark: F = m × a"],
+      "explanation": "Newton's second law: resultant force (N) = mass (kg) × acceleration (m/s²). F = m × v would give momentum, not force."
+    },
+    {
+      "id": "phys-rp7-q02",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A resultant force of 0.60 N acts on a trolley system with a total mass of 0.80 kg.\nCalculate the acceleration of the system.",
+      "numericAnswer": 0.75,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": ["1 mark: a = F ÷ m = 0.60 ÷ 0.80", "1 mark: 0.75 m/s²"],
+      "explanation": "Rearrange F = m a to a = F ÷ m. Multiplying instead gives 0.48, which is wrong."
+    },
+    {
+      "id": "phys-rp7-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A data logger records the speed of a trolley as 0.20 m/s at the first light gate and 0.80 m/s at the second light gate. The trolley takes 1.5 s to travel between the gates.\nCalculate the acceleration of the trolley.",
+      "numericAnswer": 0.4,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": ["1 mark: a = (v − u) ÷ t = (0.80 − 0.20) ÷ 1.5", "1 mark: 0.40 m/s²"],
+      "explanation": "Acceleration is the change in velocity divided by the time taken. 0.60 ÷ 1.5 = 0.40 m/s²."
+    },
+    {
+      "id": "phys-rp7-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "An interrupt card of length 5.0 cm on a trolley blocks a light gate for 0.040 s.\nCalculate the speed of the trolley as it passes through the light gate.",
+      "numericAnswer": 1.25,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": ["1 mark: 5.0 cm = 0.050 m", "1 mark: speed = 0.050 ÷ 0.040 = 1.25 m/s"],
+      "explanation": "Speed = distance ÷ time, where the distance is the length of the card in metres. Using 5.0 gives 125, which is in cm/s."
+    },
+    {
+      "id": "phys-rp7-q05",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "To investigate how force affects acceleration, a student increases the force by moving slotted masses from the trolley to the hanger, rather than adding new masses to the hanger.\nExplain why.",
+      "acceptedAnswers": ["keeps total mass constant", "mass is a control variable", "the hanging mass is also accelerated"],
+      "markScheme": ["1 mark: the total mass of the system (trolley + masses + hanger) stays constant", "1 mark: so only the force changes / mass is a control variable, as the hanging mass also accelerates"],
+      "explanation": "The trolley and the hanging mass accelerate together, so both count as the mass being accelerated. Adding new masses would increase both force and mass at once."
+    },
+    {
+      "id": "phys-rp7-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain why light gates are used to measure the acceleration of a trolley instead of a stopwatch.",
+      "acceptedAnswers": ["reaction time", "more accurate", "short times", "more precise", "human error"],
+      "markScheme": ["1 mark: removes (human) reaction time errors", "1 mark: the times are very short, so light gates give more accurate / precise values"],
+      "explanation": "Reaction time is around 0.2 s, which is a large fraction of the time the trolley takes to move between gates. Light gates measure time automatically."
+    },
+    {
+      "id": "phys-rp7-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A trolley system has a constant total mass. What happens to its acceleration when the resultant force on it is doubled?",
+      "options": ["It halves", "It stays the same", "It doubles", "It increases by four times"],
+      "answer": 2,
+      "markScheme": ["1 mark: it doubles"],
+      "explanation": "For a constant mass, acceleration is directly proportional to resultant force (a = F ÷ m), so doubling F doubles a."
+    },
+    {
+      "id": "phys-rp7-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student plots acceleration (y-axis) against accelerating force (x-axis) for a trolley. The line is straight but crosses the force axis at 0.05 N instead of passing through the origin. What is the most likely cause?",
+      "options": [
+        "Friction acting on the trolley",
+        "The light gates were too far apart",
+        "The mass of the system was too large",
+        "The card on the trolley was too long"
+      ],
+      "answer": 0,
+      "markScheme": ["1 mark: friction"],
+      "explanation": "Part of the hanging weight is needed to overcome friction, so no acceleration happens until the force exceeds about 0.05 N. The resultant force is the weight minus friction."
+    },
+    {
+      "id": "phys-rp7-q09",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Describe how a student could compensate for friction when investigating the acceleration of a trolley on a runway.",
+      "acceptedAnswers": ["tilt the runway", "raise one end", "constant speed when pushed", "slope"],
+      "markScheme": ["1 mark: raise one end of the runway (tilt it slightly)", "1 mark: until the trolley moves at a constant speed when given a small push (with no hanging mass)"],
+      "explanation": "At this angle, the component of the trolley's weight down the slope balances friction. Then the resultant force on the system is equal to the hanging weight."
+    },
+    {
+      "id": "phys-rp7-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A mass hanger and slotted masses with a total mass of 100 g pull a trolley. The gravitational field strength is 9.8 N/kg.\nCalculate the weight of the hanging masses.",
+      "numericAnswer": 0.98,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": ["1 mark: 100 g = 0.100 kg", "1 mark: W = m g = 0.100 × 9.8 = 0.98 N"],
+      "explanation": "Weight = mass × gravitational field strength. Mass must be in kg."
+    },
+    {
+      "id": "phys-rp7-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A graph of acceleration (y-axis) against resultant force (x-axis) for a trolley system of constant mass is a straight line through the origin with a gradient of 1.25 (m/s²)/N.\nCalculate the total mass of the system.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": ["1 mark: gradient = a ÷ F = 1 ÷ m", "1 mark: m = 1 ÷ 1.25 = 0.80 kg"],
+      "explanation": "From F = m a, a = F ÷ m, so the gradient of a against F is 1 ÷ m. Taking the gradient as the mass gives 1.25 kg, which is wrong."
+    },
+    {
+      "id": "phys-rp7-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A trolley passes the first light gate at 0.20 m/s and the second light gate at 0.80 m/s. The gates are 0.50 m apart.\nCalculate the acceleration of the trolley.",
+      "numericAnswer": 0.6,
+      "tolerance": 0.01,
+      "unit": "m/s²",
+      "markScheme": ["1 mark: v² − u² = 2 a s", "1 mark: 0.80² − 0.20² = 2 × a × 0.50, so 0.60 = 1.0 a", "1 mark: a = 0.60 m/s²"],
+      "explanation": "Use v² − u² = 2 a s from the equation sheet. 0.64 − 0.04 = 0.60, and 0.60 ÷ (2 × 0.50) = 0.60 m/s²."
+    },
+    {
+      "id": "phys-rp7-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one hazard in a trolley and pulley acceleration experiment and a precaution to reduce the risk.",
+      "acceptedAnswers": ["trolley falls off bench", "buffer", "masses fall on feet", "sand tray", "soft mat"],
+      "markScheme": ["1 mark: hazard: trolley falling off the bench / hanging masses falling to the floor", "1 mark: precaution: buffer or block at the end of the runway / sand tray or mat under the masses and keep feet clear"],
+      "explanation": "The trolley and masses are fast moving and heavy, so precautions must stop them falling or protect feet if they do."
+    },
+    {
+      "id": "phys-rp7-q14",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A constant force of 1.0 N accelerates a trolley system of mass 0.60 kg at 1.58 m/s². Masses are added so the system has a mass of 1.20 kg. The force stays the same. What is the new acceleration, ignoring friction changes?",
+      "options": ["3.16 m/s²", "1.58 m/s²", "0.40 m/s²", "0.79 m/s²"],
+      "answer": 3,
+      "markScheme": ["1 mark: 0.79 m/s²"],
+      "explanation": "For a constant force, acceleration is inversely proportional to mass. Doubling the mass halves the acceleration: 1.58 ÷ 2 = 0.79 m/s²."
+    },
+    {
+      "id": "phys-rp7-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the acceleration of a trolley depends on the resultant force acting on it.\nInclude how the student should keep the mass of the system constant and how acceleration is measured.",
+      "markScheme": [
+        "Indicative content: trolley on a bench or runway; string attached to trolley, over a pulley to a mass hanger; weight of hanging masses provides the force (W = m g); compensate for friction by tilting the runway; place slotted masses on the trolley; increase the force by moving masses from the trolley to the hanger so the total mass stays constant; use light gates (two gates or a double interrupt card) and a data logger; release from rest at the same start line each time; data logger measures speeds at each gate and time between them; a = (v − u) ÷ t; repeat each force three times and find a mean; use at least five forces; plot acceleration against force; straight line through origin shows a ∝ F; safety: buffer at end of bench, sand tray under masses",
+        "Level 3 (5 to 6 marks): a coherent method that would give valid results, including how force is changed while keeping total mass constant, how acceleration is measured with light gates, repeats and how the results are processed.",
+        "Level 2 (3 to 4 marks): a method with the main steps (trolley, pulley, changing hanging masses, measuring acceleration) but lacking detail such as how the mass is kept constant or how acceleration is calculated.",
+        "Level 1 (1 to 2 marks): simple statements about pulling a trolley with masses and timing it.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Strong answers explain moving masses from trolley to hanger, use light gates rather than a stopwatch, describe how acceleration is worked out and say what graph is drawn and what it should show."
+    }
+  ]
+}

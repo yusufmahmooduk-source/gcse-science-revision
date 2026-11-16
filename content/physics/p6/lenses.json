@@ -1,0 +1,723 @@
+{
+  "id": "p6-lenses",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "lenses",
+  "specRef": "4.6.2.5",
+  "title": "Lenses",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A lens forms an image by refracting light. A convex (converging) lens brings parallel rays to a focus at the principal focus; a concave (diverging) lens makes parallel rays spread out as if they came from the principal focus. The distance from the lens to the principal focus is the focal length. Magnification = image height ÷ object height.",
+    "explanation": [
+      "A lens is a shaped piece of transparent material, such as glass or plastic, that refracts light to form an image. A convex lens is thicker in the middle than at the edges. Rays of light parallel to the principal axis are refracted and brought together (converge) at a point called the principal focus. A concave lens is thinner in the middle. It makes parallel rays spread out (diverge) so that they appear to come from a principal focus on the same side of the lens as the light arrives. Each lens has a principal focus on each side. The distance from the centre of the lens to the principal focus is the focal length.",
+      "In ray diagrams, lenses are drawn using symbols. A convex lens is a vertical line with outward-pointing arrowheads at each end; a concave lens is a vertical line with inward-pointing arrowheads at each end. The principal axis is a horizontal line through the centre of the lens, and F marks the principal focus on each side. To find the image of the top of an object, draw two rays: one parallel to the principal axis, which is refracted through F (convex lens) or away from the lens as if it came from F (concave lens); and one through the centre of the lens, which passes straight through without changing direction. Where the rays meet (or appear to meet) is the top of the image.",
+      "An image is real if the light rays actually meet there; a real image can be projected onto a screen. An image is virtual if the rays only appear to come from it; it cannot be projected onto a screen and you see it by looking through the lens. The image from a convex lens can be real or virtual. If the object is further from the lens than F, the image is real and inverted (upside down) on the other side of the lens; beyond 2F the image is diminished, and between F and 2F it is magnified. If the object is closer to the lens than F, the image is virtual, upright and magnified: this is how a magnifying glass works. The image produced by a concave lens is always virtual, upright and diminished.",
+      "The magnification produced by a lens is calculated using magnification = image height ÷ object height. You must recall this equation. Magnification is a ratio, so it has no units, but the image height and object height must be measured in the same unit, either mm or cm. A magnification greater than 1 means the image is bigger than the object; less than 1 means it is smaller. Rearranged, image height = magnification × object height, and object height = image height ÷ magnification.",
+      "Lenses are used in cameras, projectors, spectacles and magnifying glasses. A camera uses a convex lens to form a real, inverted, diminished image on the sensor. Spectacles for short sight use concave lenses, and for long sight use convex lenses. The more curved the surfaces of a lens, the more strongly it refracts light and the shorter its focal length."
+    ],
+    "keyFacts": [
+      "A lens forms an image by refracting light.",
+      "Convex lens: parallel rays converge to the principal focus.",
+      "Concave lens: parallel rays diverge as if from the principal focus.",
+      "Focal length: distance from the lens to the principal focus.",
+      "Convex symbol: line with outward arrowheads; concave symbol: line with inward arrowheads.",
+      "A ray through the centre of a lens is not deviated.",
+      "Real image: rays actually meet; can be projected on a screen.",
+      "Virtual image: rays only appear to meet; cannot be projected.",
+      "Convex lens images can be real or virtual; concave lens images are always virtual.",
+      "magnification = image height ÷ object height (no units; same units for both heights)."
+    ],
+    "keyTerms": [
+      {
+        "term": "Convex (converging) lens",
+        "definition": "A lens that is thicker in the middle and brings parallel rays of light together at the principal focus."
+      },
+      {
+        "term": "Concave (diverging) lens",
+        "definition": "A lens that is thinner in the middle and spreads parallel rays out as if they came from the principal focus."
+      },
+      {
+        "term": "Principal focus",
+        "definition": "The point where rays parallel to the principal axis meet (convex) or appear to come from (concave) after passing through the lens."
+      },
+      {
+        "term": "Focal length",
+        "definition": "The distance from the centre of the lens to the principal focus."
+      },
+      {
+        "term": "Principal axis",
+        "definition": "The line through the centre of a lens at right angles to it."
+      },
+      {
+        "term": "Real image",
+        "definition": "An image formed where light rays actually meet; it can be projected onto a screen."
+      },
+      {
+        "term": "Virtual image",
+        "definition": "An image from which light rays only appear to come; it cannot be projected onto a screen."
+      },
+      {
+        "term": "Magnification",
+        "definition": "The ratio of image height to object height."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Magnification",
+        "formula": "magnification = image height ÷ object height",
+        "symbols": "M = image height ÷ object height",
+        "units": "no units (a ratio); both heights in the same unit, mm or cm",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Calculating magnification",
+        "question": "A magnifying glass forms an image 6.0 cm tall of an insect 2.0 cm tall. Calculate the magnification.",
+        "steps": [
+          "magnification = image height ÷ object height.",
+          "= 6.0 ÷ 2.0.",
+          "= 3.0 (no units)."
+        ],
+        "answer": "3.0"
+      },
+      {
+        "title": "Mixed units",
+        "question": "An object 1.5 cm tall produces an image 45 mm tall. Calculate the magnification.",
+        "steps": [
+          "Put both heights in the same unit: 45 mm = 4.5 cm.",
+          "magnification = 4.5 ÷ 1.5.",
+          "= 3.0."
+        ],
+        "answer": "3.0"
+      },
+      {
+        "title": "Rearranging to find the object height",
+        "question": "A camera lens produces an image 2.4 cm tall with a magnification of 0.50. Calculate the height of the object.",
+        "steps": [
+          "Rearrange: object height = image height ÷ magnification.",
+          "object height = 2.4 ÷ 0.50.",
+          "= 4.8 cm."
+        ],
+        "answer": "4.8 cm"
+      },
+      {
+        "title": "Describing an image from a ray diagram",
+        "question": "A ray diagram for a convex lens shows the image formed on the opposite side of the lens, upside down and smaller than the object. Describe the image fully.",
+        "steps": [
+          "The rays actually meet on the other side of the lens, so the image is real.",
+          "It is upside down: inverted.",
+          "It is smaller than the object: diminished."
+        ],
+        "answer": "Real, inverted and diminished (the object is beyond 2F)."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Convex lens: object beyond 2F",
+        "caption": "A ray parallel to the axis is refracted through F; a ray through the centre goes straight on. They meet to form a real, inverted, diminished image.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='470' y2='130' stroke='currentColor' stroke-opacity='0.6'/><line x1='240' y1='40' x2='240' y2='220' stroke='currentColor' stroke-width='2'/><path d='M232 50 L240 40 L248 50 M232 210 L240 220 L248 210' fill='none' stroke='currentColor' stroke-width='2'/><line x1='160' y1='126' x2='160' y2='134' stroke='currentColor'/><text x='156' y='148' font-size='12' fill='currentColor'>F</text><line x1='320' y1='126' x2='320' y2='134' stroke='currentColor'/><text x='316' y='148' font-size='12' fill='currentColor'>F</text><line x1='80' y1='126' x2='80' y2='134' stroke='currentColor'/><text x='76' y='148' font-size='12' fill='currentColor'>2F</text><line x1='400' y1='126' x2='400' y2='134' stroke='currentColor'/><text x='396' y='148' font-size='12' fill='currentColor'>2F</text><line x1='60' y1='130' x2='60' y2='80' stroke='currentColor' stroke-width='2.5'/><path d='M60.0 80.0 L64.0 88.0 L56.0 88.0 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='1.3'><line x1='60' y1='80' x2='240' y2='80'/><line x1='240' y1='80' x2='400' y2='180'/><line x1='60' y1='80' x2='400' y2='174.4'/></g><path d='M150.0 80.0 L141.0 84.5 L141.0 75.5 Z' fill='currentColor'/><path d='M290.0 111.3 L280.0 110.3 L284.8 102.7 Z' fill='currentColor'/><path d='M150.0 105.0 L140.1 106.9 L142.5 98.3 Z' fill='currentColor'/><line x1='384' y1='130' x2='384' y2='170' stroke='currentColor' stroke-width='2.5'/><path d='M384.0 170.0 L380.0 162.0 L388.0 162.0 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='30' y='72'>object</text><text x='380' y='196'>image</text><text x='250' y='30'>convex lens</text><text x='20' y='22'>Object beyond 2F: image is real, inverted, diminished</text></g></svg>"
+      },
+      {
+        "title": "Convex lens as a magnifying glass",
+        "caption": "With the object closer than F, the refracted rays diverge. Traced back (dashed), they appear to come from a virtual, upright, magnified image on the same side as the object.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='470' y2='130' stroke='currentColor' stroke-opacity='0.6'/><line x1='240' y1='40' x2='240' y2='220' stroke='currentColor' stroke-width='2'/><path d='M232 50 L240 40 L248 50 M232 210 L240 220 L248 210' fill='none' stroke='currentColor' stroke-width='2'/><line x1='160' y1='126' x2='160' y2='134' stroke='currentColor'/><text x='156' y='148' font-size='12' fill='currentColor'>F</text><line x1='320' y1='126' x2='320' y2='134' stroke='currentColor'/><text x='316' y='148' font-size='12' fill='currentColor'>F</text><line x1='200' y1='130' x2='200' y2='100' stroke='currentColor' stroke-width='2.5'/><path d='M200.0 100.0 L204.0 108.0 L196.0 108.0 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='1.3'><line x1='200' y1='100' x2='240' y2='100'/><line x1='240' y1='100' x2='400' y2='160'/><line x1='200' y1='100' x2='320' y2='190'/></g><g stroke='currentColor' stroke-dasharray='4 3'><line x1='240' y1='100' x2='160' y2='70'/><line x1='200' y1='100' x2='160' y2='70'/></g><path d='M330.0 133.8 L320.0 134.8 L323.2 126.4 Z' fill='currentColor'/><path d='M290.0 167.5 L280.1 165.7 L285.5 158.5 Z' fill='currentColor'/><line x1='160' y1='130' x2='160' y2='70' stroke='currentColor' stroke-width='2.5' stroke-dasharray='5 3'/><path d='M160.0 70.0 L164.0 78.0 L156.0 78.0 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='196' y='92'>object</text><text x='96' y='66'>virtual image</text><text x='250' y='30'>convex lens</text><text x='20' y='22'>Object inside F (magnifying glass): image is virtual, upright, magnified</text><text x='260' y='215'>eye looks back through lens</text></g></svg>"
+      },
+      {
+        "title": "Concave lens",
+        "caption": "A parallel ray is refracted away from the axis as if from F (dashed). With the ray through the centre, it gives a virtual, upright, diminished image.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='470' y2='130' stroke='currentColor' stroke-opacity='0.6'/><line x1='240' y1='50' x2='240' y2='210' stroke='currentColor' stroke-width='2'/><path d='M232 40 L240 50 L248 40 M232 220 L240 210 L248 220' fill='none' stroke='currentColor' stroke-width='2'/><line x1='160' y1='126' x2='160' y2='134' stroke='currentColor'/><text x='156' y='148' font-size='12' fill='currentColor'>F</text><line x1='320' y1='126' x2='320' y2='134' stroke='currentColor'/><text x='316' y='148' font-size='12' fill='currentColor'>F</text><line x1='80' y1='130' x2='80' y2='80' stroke='currentColor' stroke-width='2.5'/><path d='M80.0 80.0 L84.0 88.0 L76.0 88.0 Z' fill='currentColor'/><g stroke='currentColor' stroke-width='1.3'><line x1='80' y1='80' x2='240' y2='80'/><line x1='240' y1='80' x2='336' y2='20'/><line x1='80' y1='80' x2='400' y2='180'/></g><g stroke='currentColor' stroke-dasharray='4 3'><line x1='240' y1='80' x2='160' y2='130'/></g><path d='M160.0 80.0 L151.0 84.5 L151.0 75.5 Z' fill='currentColor'/><path d='M290.0 48.8 L284.8 57.3 L280.0 49.7 Z' fill='currentColor'/><path d='M330.0 158.1 L320.1 159.7 L322.8 151.1 Z' fill='currentColor'/><line x1='186.7' y1='130' x2='186.7' y2='113.3' stroke='currentColor' stroke-width='2.5' stroke-dasharray='4 2'/><path d='M186.7 113.3 L190.2 120.3 L183.2 120.3 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='50' y='72'>object</text><text x='150' y='160'>virtual image</text><text x='250' y='222'>concave lens</text><text x='20' y='22'>Concave lens: image is always virtual, upright, diminished</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think magnification has units such as cm.",
+        "right": "In fact it is a ratio of two heights in the same unit, so it has no units."
+      },
+      {
+        "wrong": "Students often think a virtual image is not really there and cannot be seen.",
+        "right": "In fact you can see a virtual image by looking through the lens, but it cannot be projected onto a screen."
+      },
+      {
+        "wrong": "Students often think a convex lens always magnifies.",
+        "right": "In fact an object beyond 2F gives a diminished image; it only magnifies when the object is between F and 2F (real) or inside F (virtual)."
+      },
+      {
+        "wrong": "Students often think concave lenses can form real images of real objects.",
+        "right": "In fact the image formed by a concave lens is always virtual."
+      }
+    ],
+    "realWorld": [
+      "Cameras and the human eye use convex lenses to form real, inverted images on a sensor or the retina.",
+      "Magnifying glasses use a convex lens with the object inside the focal length to give a virtual, magnified image.",
+      "Glasses for short-sighted people use concave lenses; for long-sighted people, convex lenses.",
+      "Projectors use a convex lens to produce a real, magnified image on a screen."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic (lenses, ray diagrams, real and virtual images, magnification) is in separate Physics only."
+    ],
+    "examTips": [
+      "Use a ruler and draw two rays from the top of the object: one parallel to the axis and one through the centre of the lens. Add arrows.",
+      "For virtual images, extend the rays backwards with dashed lines to find where they appear to come from.",
+      "Describe an image with three words: real or virtual, upright or inverted, magnified or diminished.",
+      "Magnification has no units; convert both heights to the same unit (mm or cm) first.",
+      "Learn the symbols: convex has arrowheads pointing outwards, concave has arrowheads pointing inwards."
+    ],
+    "summary": [
+      "Lenses form images by refraction.",
+      "Convex lenses converge parallel rays at the principal focus; concave lenses diverge them.",
+      "Focal length is the distance from the lens to the principal focus.",
+      "Convex lens images can be real or virtual; concave lens images are always virtual.",
+      "Real images can be projected; virtual images cannot.",
+      "magnification = image height ÷ object height (no units)."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "How does a lens form an image?",
+      "back": "By refracting light."
+    },
+    {
+      "front": "What does a convex lens do to parallel rays?",
+      "back": "Brings them to a focus at the principal focus (converges them)."
+    },
+    {
+      "front": "What does a concave lens do to parallel rays?",
+      "back": "Spreads them out (diverges them) as if they came from the principal focus."
+    },
+    {
+      "front": "Define focal length.",
+      "back": "The distance from the lens to the principal focus."
+    },
+    {
+      "front": "Magnification equation?",
+      "back": "magnification = image height ÷ object height"
+    },
+    {
+      "front": "Units of magnification?",
+      "back": "None; it is a ratio."
+    },
+    {
+      "front": "What is a real image?",
+      "back": "An image where rays actually meet; it can be projected onto a screen."
+    },
+    {
+      "front": "What is a virtual image?",
+      "back": "An image rays only appear to come from; cannot be projected onto a screen."
+    },
+    {
+      "front": "What type of image does a concave lens form?",
+      "back": "Always virtual, upright and diminished."
+    },
+    {
+      "front": "Convex lens with object inside F gives what image?",
+      "back": "Virtual, upright, magnified (magnifying glass)."
+    },
+    {
+      "front": "Convex lens with object beyond 2F gives what image?",
+      "back": "Real, inverted, diminished."
+    },
+    {
+      "front": "What happens to a ray through the centre of a lens?",
+      "back": "It passes straight through without changing direction."
+    },
+    {
+      "front": "Symbol for a concave lens?",
+      "back": "A vertical line with inward-pointing arrowheads at both ends."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-lenses-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How does a lens form an image?",
+      "options": [
+        "By reflecting light",
+        "By absorbing light",
+        "By refracting light",
+        "By emitting light"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: By refracting light"
+      ],
+      "explanation": "Lenses change the direction of light by refraction as it passes through."
+    },
+    {
+      "id": "p6-lenses-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the focal length of a lens?",
+      "options": [
+        "The distance from the lens to the principal focus",
+        "The height of the image",
+        "The thickness of the lens",
+        "The distance from the object to the image"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The distance from the lens to the principal focus"
+      ],
+      "explanation": "Focal length is measured from the centre of the lens to the principal focus."
+    },
+    {
+      "id": "p6-lenses-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation is used to calculate magnification?",
+      "options": [
+        "magnification = object height ÷ image height",
+        "magnification = image height × object height",
+        "magnification = image height − object height",
+        "magnification = image height ÷ object height"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: magnification = image height ÷ object height"
+      ],
+      "explanation": "Magnification is image height divided by object height."
+    },
+    {
+      "id": "p6-lenses-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of image is always produced by a concave lens?",
+      "options": [
+        "Real",
+        "Virtual",
+        "Inverted",
+        "Magnified"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Virtual"
+      ],
+      "explanation": "A concave lens always forms a virtual, upright, diminished image."
+    },
+    {
+      "id": "p6-lenses-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to a ray of light passing through the centre of a lens?",
+      "options": [
+        "It is refracted through the principal focus",
+        "It continues in a straight line",
+        "It is reflected back",
+        "It is refracted parallel to the axis"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It continues in a straight line"
+      ],
+      "explanation": "At the centre the two faces are parallel, so a ray through the centre is not deviated."
+    },
+    {
+      "id": "p6-lenses-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement describes a real image?",
+      "options": [
+        "It can only be seen by looking into the lens",
+        "It is always upright",
+        "It is always magnified",
+        "It is formed where light rays actually meet and can be projected onto a screen"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It is formed where light rays actually meet and can be projected onto a screen"
+      ],
+      "explanation": "Real images are where rays truly meet, so a screen placed there shows the image. Virtual images cannot be projected."
+    },
+    {
+      "id": "p6-lenses-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object is placed between a convex lens and its principal focus. What type of image is formed?",
+      "options": [
+        "Virtual, upright and magnified",
+        "Real, inverted and diminished",
+        "Real, inverted and magnified",
+        "Virtual, inverted and diminished"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Virtual, upright and magnified"
+      ],
+      "explanation": "Inside F the rays diverge after the lens, so they appear to come from a virtual, upright, magnified image. This is how a magnifying glass works."
+    },
+    {
+      "id": "p6-lenses-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "An object is placed beyond 2F of a convex lens. Which describes the image?",
+      "options": [
+        "Real, inverted, magnified",
+        "Virtual, upright, magnified",
+        "Real, inverted, diminished",
+        "Virtual, upright, diminished"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Real, inverted, diminished"
+      ],
+      "explanation": "Beyond 2F a convex lens gives a real, inverted, diminished image, as in a camera."
+    },
+    {
+      "id": "p6-lenses-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A lens forms an image of magnification 0.4. Which statement is correct?",
+      "options": [
+        "The image is larger than the object",
+        "The image is the same size as the object",
+        "The image must be virtual",
+        "The image is smaller than the object"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The image is smaller than the object"
+      ],
+      "explanation": "Magnification less than 1 means the image height is less than the object height. It does not tell you whether the image is real or virtual."
+    },
+    {
+      "id": "p6-lenses-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which symbol represents a convex lens in a ray diagram?",
+      "options": [
+        "A vertical line with arrowheads pointing inwards at each end",
+        "A rectangle with a diagonal line",
+        "A vertical line with arrowheads pointing outwards at each end",
+        "A circle with a cross"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A vertical line with arrowheads pointing outwards at each end"
+      ],
+      "explanation": "The convex lens symbol has outward-pointing arrowheads; the concave symbol has inward-pointing ones."
+    },
+    {
+      "id": "p6-lenses-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A magnifying glass forms an image 6.0 cm tall of an object 2.0 cm tall. Calculate the magnification.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 6.0 ÷ 2.0",
+        "1 mark: 3.0"
+      ],
+      "explanation": "magnification = image height ÷ object height = 6.0 ÷ 2.0 = 3.0."
+    },
+    {
+      "id": "p6-lenses-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A camera produces an image 1.5 cm tall of an object 6.0 cm tall. Calculate the magnification.",
+      "numericAnswer": 0.25,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 1.5 ÷ 6.0",
+        "1 mark: 0.25"
+      ],
+      "explanation": "1.5 ÷ 6.0 = 0.25. The image is a quarter of the size of the object."
+    },
+    {
+      "id": "p6-lenses-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lens has a magnification of 4.0. The object is 3.0 mm tall. Calculate the image height.",
+      "numericAnswer": 12,
+      "tolerance": 0.02,
+      "unit": "mm",
+      "markScheme": [
+        "1 mark: image height = 4.0 × 3.0",
+        "1 mark: 12 mm"
+      ],
+      "explanation": "Rearranging, image height = magnification × object height = 4.0 × 3.0 = 12 mm."
+    },
+    {
+      "id": "p6-lenses-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A lens produces an image 2.4 cm tall with a magnification of 0.50. Calculate the object height.",
+      "numericAnswer": 4.8,
+      "tolerance": 0.02,
+      "unit": "cm",
+      "markScheme": [
+        "1 mark: object height = 2.4 ÷ 0.50",
+        "1 mark: 4.8 cm"
+      ],
+      "explanation": "object height = image height ÷ magnification = 2.4 ÷ 0.50 = 4.8 cm."
+    },
+    {
+      "id": "p6-lenses-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "An object 1.5 cm tall forms an image 45 mm tall. Calculate the magnification.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 45 mm = 4.5 cm (or 1.5 cm = 15 mm)",
+        "1 mark: 4.5 ÷ 1.5",
+        "1 mark: 3.0"
+      ],
+      "explanation": "Both heights must be in the same unit: 45 ÷ 15 = 3.0. Dividing 45 by 1.5 gives 30, a common error."
+    },
+    {
+      "id": "p6-lenses-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "An object 0.80 cm tall gives an image 2.0 cm tall. Calculate the magnification.",
+      "numericAnswer": 2.5,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 2.0 ÷ 0.80",
+        "1 mark: 2.5"
+      ],
+      "explanation": "magnification = 2.0 ÷ 0.80 = 2.5."
+    },
+    {
+      "id": "p6-lenses-q17",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A magnifying glass has a magnification of 5.0. The image of a printed letter is 2.5 cm tall. Calculate the height of the letter in mm.",
+      "numericAnswer": 5,
+      "tolerance": 0.02,
+      "unit": "mm",
+      "markScheme": [
+        "1 mark: object height = 2.5 ÷ 5.0",
+        "1 mark: = 0.50 cm",
+        "1 mark: = 5.0 mm"
+      ],
+      "explanation": "object height = 2.5 ÷ 5.0 = 0.50 cm = 5.0 mm."
+    },
+    {
+      "id": "p6-lenses-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the principal focus of a convex lens.",
+      "acceptedAnswers": [
+        "point where parallel rays meet",
+        "rays parallel to axis brought to a focus"
+      ],
+      "markScheme": [
+        "1 mark: the point where rays parallel to the principal axis are brought together (focused) after passing through the lens"
+      ],
+      "explanation": "For a concave lens, it is the point the refracted rays appear to come from."
+    },
+    {
+      "id": "p6-lenses-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain the difference between a real image and a virtual image.",
+      "acceptedAnswers": [
+        "real rays actually meet",
+        "can be projected on screen",
+        "virtual rays appear to come from",
+        "cannot be projected"
+      ],
+      "markScheme": [
+        "1 mark: a real image is where light rays actually meet / can be projected onto a screen",
+        "1 mark: a virtual image is where rays only appear to come from / cannot be projected onto a screen"
+      ],
+      "explanation": "This is why a projector (real image) can show a picture on a wall but a magnifying glass (virtual) cannot."
+    },
+    {
+      "id": "p6-lenses-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare what happens to parallel rays of light passing through a convex lens and a concave lens.",
+      "acceptedAnswers": [
+        "convex converge",
+        "meet at principal focus",
+        "concave diverge",
+        "appear to come from principal focus"
+      ],
+      "markScheme": [
+        "1 mark: convex: rays converge / are brought to a focus at the principal focus",
+        "1 mark: concave: rays diverge / spread out as if from the principal focus"
+      ],
+      "explanation": "A comparison needs a point about each lens."
+    },
+    {
+      "id": "p6-lenses-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Describe the image formed by a magnifying glass (a convex lens held closer than its focal length to the object).",
+      "acceptedAnswers": [
+        "virtual",
+        "upright",
+        "magnified"
+      ],
+      "markScheme": [
+        "1 mark: virtual",
+        "1 mark: upright",
+        "1 mark: magnified"
+      ],
+      "explanation": "Each of the three words earns a mark."
+    },
+    {
+      "id": "p6-lenses-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says the magnification of a lens is 3 cm. Explain what is wrong with this statement.",
+      "acceptedAnswers": [
+        "magnification has no units",
+        "ratio",
+        "same units cancel"
+      ],
+      "markScheme": [
+        "1 mark: magnification has no units",
+        "1 mark: because it is a ratio of two heights measured in the same unit, so the units cancel"
+      ],
+      "explanation": "Magnification should be written as a number only, for example 3."
+    },
+    {
+      "id": "p6-lenses-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why a concave lens cannot be used to project an image onto a screen.",
+      "acceptedAnswers": [
+        "concave always virtual",
+        "rays diverge never meet",
+        "virtual cannot be projected"
+      ],
+      "markScheme": [
+        "1 mark: a concave lens makes the rays diverge, so they never actually meet / the image is always virtual",
+        "1 mark: a virtual image cannot be projected onto a screen"
+      ],
+      "explanation": "Only real images, where rays meet, can be projected."
+    },
+    {
+      "id": "p6-lenses-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how to draw a ray diagram to find the image formed by a convex lens of an object placed beyond 2F.",
+      "markScheme": [
+        "Indicative content:",
+        "draw the principal axis and the convex lens symbol; mark F and 2F on both sides",
+        "draw the object as an upright arrow on the axis beyond 2F",
+        "draw a ray from the top of the object parallel to the axis to the lens, then refracted through F on the other side",
+        "draw a ray from the top of the object through the centre of the lens, undeviated",
+        "where the two rays cross is the top of the image",
+        "image is real, inverted and diminished, between F and 2F",
+        "Level 2 (3 to 4 marks): both construction rays correctly described and image located and described.",
+        "Level 1 (1 to 2 marks): one ray described or image described without construction."
+      ],
+      "explanation": "Two rays are enough to locate an image: parallel then through F, and straight through the centre."
+    },
+    {
+      "id": "p6-lenses-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Compare the images that can be formed by convex and concave lenses. Include how ray diagrams are used to find each image and the types of image produced.",
+      "markScheme": [
+        "Indicative content:",
+        "both lenses refract light to form images; symbols differ (outward vs inward arrowheads)",
+        "convex: parallel rays converge to the principal focus; concave: parallel rays diverge as if from the principal focus",
+        "ray through centre is undeviated for both",
+        "convex: parallel ray refracted through F on far side; concave: parallel ray refracted away, traced back (dashed) to F on near side",
+        "convex, object beyond F: real, inverted image; beyond 2F diminished, between F and 2F magnified",
+        "convex, object inside F: virtual, upright, magnified (magnifying glass)",
+        "concave: always virtual, upright, diminished",
+        "real images can be projected, virtual cannot",
+        "magnification = image height ÷ object height",
+        "Level 3 (5 to 6 marks): detailed comparison covering ray construction and image types for both lenses, including real and virtual.",
+        "Level 2 (3 to 4 marks): some comparison of ray behaviour and image types.",
+        "Level 1 (1 to 2 marks): simple statements about one or both lenses."
+      ],
+      "explanation": "Good answers contrast converging and diverging, and the real/virtual nature of images for each lens."
+    },
+    {
+      "id": "p6-lenses-q26",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A lens has a magnification of 6.0. The image is 18 mm tall. Calculate the height of the object.",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "mm",
+      "markScheme": [
+        "1 mark: object height = 18 ÷ 6.0",
+        "1 mark: 3.0 mm"
+      ],
+      "explanation": "object height = image height ÷ magnification = 18 ÷ 6.0 = 3.0 mm."
+    },
+    {
+      "id": "p6-lenses-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the type of lens used in a magnifying glass.",
+      "acceptedAnswers": [
+        "convex",
+        "converging"
+      ],
+      "markScheme": [
+        "1 mark: convex (converging) lens"
+      ],
+      "explanation": "Only a convex lens can produce a magnified image; a concave lens always gives a diminished image."
+    }
+  ]
+}

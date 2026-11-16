@@ -1,0 +1,647 @@
+{
+  "id": "p7-microphones",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "microphones",
+  "specRef": "4.7.3.3",
+  "title": "Microphones",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "A moving-coil microphone uses the generator effect to convert the pressure variations in sound waves into variations in current in an electrical circuit.",
+    "explanation": [
+      "A moving-coil microphone contains a thin, flexible diaphragm attached to a small coil of wire. The coil sits in the gap of a permanent magnet, where there is a strong magnetic field. Its structure is very similar to a loudspeaker, but it works the other way round: a loudspeaker turns electrical signals into sound, while a microphone turns sound into electrical signals.",
+      "Sound waves are longitudinal waves made of compressions and rarefactions, which are regions of higher and lower air pressure. When a sound wave reaches the microphone, these pressure variations push and pull on the diaphragm, making it vibrate backwards and forwards at the same frequency as the sound.",
+      "Because the coil is attached to the diaphragm, the coil also vibrates. As it moves backwards and forwards in the magnetic field, the coil cuts the magnetic field lines, so a potential difference is induced across its ends: this is the generator effect. The coil is connected to a circuit (usually an amplifier), so an induced current flows.",
+      "Each time the diaphragm changes direction, the direction of the induced p.d. reverses, so the microphone produces an alternating signal with the same frequency as the sound wave. A louder sound has larger pressure variations, so the diaphragm and coil move further and faster, inducing a larger p.d. In this way the pattern of the sound wave is copied as a pattern of changing current, which can be amplified, recorded or transmitted."
+    ],
+    "keyFacts": [
+      "Microphones use the generator effect.",
+      "They convert pressure variations in sound waves into variations in current.",
+      "Sound waves make the diaphragm vibrate.",
+      "The coil attached to the diaphragm moves in the field of a permanent magnet.",
+      "The moving coil cuts field lines, inducing a p.d. (and current in a complete circuit).",
+      "The induced p.d. alternates at the same frequency as the sound.",
+      "A louder sound gives a larger induced p.d. (larger amplitude signal).",
+      "A microphone is like a loudspeaker working in reverse."
+    ],
+    "keyTerms": [
+      {
+        "term": "Moving-coil microphone",
+        "definition": "A microphone in which sound makes a coil vibrate in a magnetic field, inducing a varying p.d."
+      },
+      {
+        "term": "Diaphragm",
+        "definition": "A thin, flexible sheet that vibrates when sound waves hit it."
+      },
+      {
+        "term": "Generator effect",
+        "definition": "The induction of a p.d. when a conductor moves relative to a magnetic field."
+      },
+      {
+        "term": "Pressure variation",
+        "definition": "The changes in air pressure (compressions and rarefactions) that make up a sound wave."
+      },
+      {
+        "term": "Electrical signal",
+        "definition": "A varying p.d. or current that carries information, such as the pattern of a sound."
+      },
+      {
+        "term": "Amplifier",
+        "definition": "A device that increases the size of a small electrical signal from a microphone."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Frequency of the signal",
+        "question": "A singer produces a steady note of frequency 330 Hz into a moving-coil microphone. State the frequency of the electrical signal and explain why.",
+        "steps": [
+          "The pressure variations make the diaphragm vibrate 330 times per second.",
+          "The coil vibrates with it, and the induced p.d. reverses each time the coil changes direction.",
+          "So the signal completes 330 cycles per second."
+        ],
+        "answer": "330 Hz, the same as the sound."
+      },
+      {
+        "title": "Effect of loudness",
+        "question": "The singer sings the same note more loudly. Describe how the electrical signal changes.",
+        "steps": [
+          "A louder sound has larger pressure variations.",
+          "The diaphragm and coil vibrate with a larger amplitude, cutting field lines faster.",
+          "The induced p.d. is larger, but the frequency is the same."
+        ],
+        "answer": "The signal has a larger amplitude at the same frequency."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Moving-coil microphone (cross-section)",
+        "caption": "Pressure variations in the sound wave make the diaphragm vibrate. The attached coil moves back and forth in the field of the permanent magnet, cutting field lines, so an alternating p.d. is induced and a varying current flows to the amplifier.",
+        "svg": "<svg viewBox='0 0 460 290' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='95' x2='30' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='42' y1='95' x2='42' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='54' y1='95' x2='54' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='95' y1='95' x2='95' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='107' y1='95' x2='107' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='119' y1='95' x2='119' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='20' y1='190' x2='130' y2='190' stroke='currentColor'/><polygon points='138.2,190.0 129.8,194.2 129.8,185.8' fill='currentColor'/><g stroke='currentColor'><path d='M170 50 Q160 130 170 210' fill='#e5e7eb' fill-opacity='0.5' stroke-width='2'/><line x1='168' y1='100' x2='270' y2='100' stroke-width='2'/><line x1='168' y1='160' x2='270' y2='160' stroke-width='2'/><rect x='240' y='60' width='130' height='36' fill='#93c5fd' fill-opacity='0.5'/><rect x='240' y='164' width='130' height='36' fill='#93c5fd' fill-opacity='0.5'/><rect x='370' y='60' width='20' height='140' fill='#93c5fd' fill-opacity='0.5'/><rect x='210' y='112' width='160' height='36' fill='#fca5a5' fill-opacity='0.5'/><polyline points='205,160 205,250 400,250' fill='none'/><polyline points='195,160 195,262 400,262' fill='none'/></g><circle cx='252' cy='104' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='252' cy='156' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='262' cy='104' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='262' cy='156' r='4' fill='#fde68a' stroke='currentColor'/><line x1='190' y1='276' x2='240' y2='276' stroke='currentColor'/><polygon points='185.8,276.0 194.2,271.8 194.2,280.2' fill='currentColor'/><polygon points='244.2,276.0 235.8,280.2 235.8,271.8' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='300' y='134'>N</text><text x='300' y='82'>S</text><text x='300' y='186'>S</text><text x='20' y='85'>sound wave</text><text x='20' y='210'>pressure variations</text><text x='140' y='40'>diaphragm</text><text x='240' y='225'>coil (in the gap)</text><text x='255' y='40'>permanent magnet</text><text x='300' y='244'>to amplifier:</text><text x='300' y='285'>varying p.d. / current</text><text x='60' y='280'>diaphragm vibrates</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think microphones use the motor effect.",
+        "right": "In fact microphones use the generator effect: movement of the coil in a magnetic field induces a p.d. Loudspeakers use the motor effect."
+      },
+      {
+        "wrong": "Students often think the microphone needs a battery to produce the current.",
+        "right": "In fact a moving-coil microphone induces its own p.d. from the motion of the coil; the energy comes from the sound wave."
+      },
+      {
+        "wrong": "Students often think the magnet in a microphone vibrates.",
+        "right": "In fact the magnet is fixed; it is the diaphragm and coil that vibrate."
+      },
+      {
+        "wrong": "Students often think a higher-pitched sound gives a larger signal.",
+        "right": "In fact pitch (frequency) sets the frequency of the signal; it is loudness (amplitude) that sets the size of the induced p.d."
+      }
+    ],
+    "realWorld": [
+      "Dynamic (moving-coil) microphones are widely used on stage for singers and instruments because they are robust.",
+      "Telephones, intercoms and recording equipment convert speech into electrical signals using microphones.",
+      "Some musicians use a loudspeaker as a microphone, showing that the two devices work by reverse processes."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Explain how a moving-coil microphone works: it uses the generator effect to convert the pressure variations in sound waves into variations in current in electrical circuits."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "Moving-coil microphones use the generator effect to convert sound into an electrical signal."
+    ],
+    "examTips": [
+      "Sequence your answer: sound pressure variations, diaphragm vibrates, coil moves in magnetic field, cuts field lines, p.d. induced, current varies.",
+      "Use the exact phrase 'generator effect' and say the coil 'moves relative to the magnetic field'.",
+      "Link frequency of sound to frequency of signal, and loudness of sound to size of signal.",
+      "If asked to compare with a loudspeaker, say they have similar structures but work in reverse (generator effect versus motor effect)."
+    ],
+    "summary": [
+      "Microphones use the generator effect.",
+      "Sound pressure variations make a diaphragm and coil vibrate.",
+      "The coil moving in a magnetic field has a p.d. induced across it.",
+      "Signal frequency equals sound frequency; louder sound gives a bigger signal.",
+      "A microphone is a loudspeaker in reverse."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What effect do moving-coil microphones use?",
+      "back": "The generator effect."
+    },
+    {
+      "front": "What does a microphone convert?",
+      "back": "Pressure variations in sound waves into variations in current."
+    },
+    {
+      "front": "What part of a microphone vibrates when sound hits it?",
+      "back": "The diaphragm."
+    },
+    {
+      "front": "What is attached to the diaphragm?",
+      "back": "A coil of wire."
+    },
+    {
+      "front": "Why is a p.d. induced in the coil?",
+      "back": "It moves relative to the magnetic field of the permanent magnet, cutting field lines."
+    },
+    {
+      "front": "How does the signal frequency compare with the sound frequency?",
+      "back": "They are the same."
+    },
+    {
+      "front": "What happens to the signal when the sound is louder?",
+      "back": "Its amplitude (size of p.d.) increases."
+    },
+    {
+      "front": "Is the magnet in a microphone fixed or moving?",
+      "back": "Fixed (it is a permanent magnet)."
+    },
+    {
+      "front": "How is a microphone related to a loudspeaker?",
+      "back": "Similar structure but reverse process: generator effect versus motor effect."
+    },
+    {
+      "front": "Why does the microphone signal alternate?",
+      "back": "The coil changes direction each time the diaphragm vibrates, so the induced p.d. reverses."
+    },
+    {
+      "front": "Where does the energy for the microphone's signal come from?",
+      "back": "The sound wave (work done on the diaphragm)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-microphones-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which effect does a moving-coil microphone use?",
+      "options": [
+        "The motor effect",
+        "The heating effect",
+        "The generator effect",
+        "The photoelectric effect"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The generator effect"
+      ],
+      "explanation": "Movement of the coil in a magnetic field induces a p.d.: the generator effect."
+    },
+    {
+      "id": "p7-microphones-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a microphone convert?",
+      "options": [
+        "Pressure variations in sound into variations in current",
+        "Variations in current into sound",
+        "Light into current",
+        "Heat into sound"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Pressure variations in sound into variations in current"
+      ],
+      "explanation": "A microphone turns the pressure variations of sound into an electrical signal. A loudspeaker does the reverse."
+    },
+    {
+      "id": "p7-microphones-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which part of a moving-coil microphone is set vibrating directly by the sound wave?",
+      "options": [
+        "The permanent magnet",
+        "The cable",
+        "The amplifier",
+        "The diaphragm"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The diaphragm"
+      ],
+      "explanation": "The pressure variations push and pull on the thin diaphragm."
+    },
+    {
+      "id": "p7-microphones-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is attached to the diaphragm of a moving-coil microphone?",
+      "options": [
+        "A battery",
+        "A coil of wire",
+        "An iron core",
+        "A lamp"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A coil of wire"
+      ],
+      "explanation": "A coil is fixed to the diaphragm so that it moves in the magnetic field when the diaphragm vibrates."
+    },
+    {
+      "id": "p7-microphones-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A note of frequency 500 Hz is played into a microphone. What is the frequency of the electrical signal?",
+      "options": [
+        "250 Hz",
+        "1000 Hz",
+        "500 Hz",
+        "It depends on the loudness"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 500 Hz"
+      ],
+      "explanation": "The coil vibrates at the frequency of the sound, so the induced p.d. alternates at 500 Hz."
+    },
+    {
+      "id": "p7-microphones-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A sound is made louder without changing its pitch. How does the microphone's signal change?",
+      "options": [
+        "Larger amplitude",
+        "Higher frequency",
+        "Lower frequency",
+        "It becomes d.c."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Larger amplitude"
+      ],
+      "explanation": "Larger pressure variations make the coil move further and faster, inducing a larger p.d. The frequency is unchanged."
+    },
+    {
+      "id": "p7-microphones-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the p.d. from a microphone alternate?",
+      "options": [
+        "The magnet keeps reversing",
+        "The cable is twisted",
+        "The amplifier reverses it",
+        "The coil keeps changing direction as the diaphragm vibrates"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The coil keeps changing direction as the diaphragm vibrates"
+      ],
+      "explanation": "Each time the coil changes direction in the field, the induced p.d. reverses."
+    },
+    {
+      "id": "p7-microphones-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A microphone is placed in a room where there is no sound. What is the output?",
+      "options": [
+        "A steady large p.d.",
+        "Zero p.d., because the coil is not moving",
+        "An alternating p.d. at 50 Hz",
+        "A p.d. equal to the magnet's strength"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Zero p.d., because the coil is not moving"
+      ],
+      "explanation": "With no pressure variations, the diaphragm and coil are still, so no field lines are cut and no p.d. is induced."
+    },
+    {
+      "id": "p7-microphones-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which change would make a moving-coil microphone produce a larger signal for the same sound?",
+      "options": [
+        "Using a weaker magnet",
+        "Using a heavier diaphragm",
+        "Using a coil with more turns",
+        "Using a longer cable"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Using a coil with more turns"
+      ],
+      "explanation": "More turns increase the induced p.d. A weaker magnet reduces it, and a heavier diaphragm moves less for the same pressure."
+    },
+    {
+      "id": "p7-microphones-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement correctly compares a loudspeaker and a moving-coil microphone?",
+      "options": [
+        "The loudspeaker uses the motor effect; the microphone uses the generator effect",
+        "Both use the motor effect",
+        "The loudspeaker uses the generator effect; the microphone uses the motor effect",
+        "Neither contains a magnet"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The loudspeaker uses the motor effect; the microphone uses the generator effect"
+      ],
+      "explanation": "They have similar parts but opposite processes."
+    },
+    {
+      "id": "p7-microphones-q11",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the part of a microphone that vibrates when sound waves reach it.",
+      "acceptedAnswers": [
+        "diaphragm"
+      ],
+      "markScheme": [
+        "1 mark: the diaphragm"
+      ],
+      "explanation": "The diaphragm is a thin flexible sheet that responds to pressure variations."
+    },
+    {
+      "id": "p7-microphones-q12",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two parts of a moving-coil microphone, other than the diaphragm.",
+      "acceptedAnswers": [
+        "coil",
+        "permanent magnet",
+        "magnet"
+      ],
+      "markScheme": [
+        "1 mark: coil (of wire)",
+        "1 mark: permanent magnet"
+      ],
+      "explanation": "The coil and magnet together use the generator effect."
+    },
+    {
+      "id": "p7-microphones-q13",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a p.d. is induced in the coil of a microphone when someone speaks into it.",
+      "acceptedAnswers": [
+        "coil moves",
+        "magnetic field",
+        "cuts field lines",
+        "generator effect"
+      ],
+      "markScheme": [
+        "1 mark: the coil vibrates (moves) with the diaphragm",
+        "1 mark: it moves relative to the magnetic field (cuts field lines), so a p.d. is induced"
+      ],
+      "explanation": "The generator effect needs relative movement between the coil and the field."
+    },
+    {
+      "id": "p7-microphones-q14",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the electrical signal from a microphone has the same frequency as the sound.",
+      "acceptedAnswers": [
+        "vibrates at same frequency",
+        "reverses each time"
+      ],
+      "markScheme": [
+        "1 mark: the diaphragm and coil vibrate at the same frequency as the sound",
+        "1 mark: the induced p.d. reverses each time the coil changes direction, so it completes one cycle per vibration"
+      ],
+      "explanation": "The signal copies the motion of the coil, which copies the sound."
+    },
+    {
+      "id": "p7-microphones-q15",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a louder sound produces a larger signal from a microphone.",
+      "acceptedAnswers": [
+        "larger pressure variations",
+        "larger amplitude",
+        "moves faster",
+        "larger p.d."
+      ],
+      "markScheme": [
+        "1 mark: a louder sound has larger pressure variations, so the diaphragm and coil move with larger amplitude (faster)",
+        "1 mark: the coil cuts field lines faster, so a larger p.d. is induced"
+      ],
+      "explanation": "Induced p.d. depends on the speed of movement."
+    },
+    {
+      "id": "p7-microphones-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A moving-coil microphone does not need a battery. Explain where the energy for its electrical signal comes from.",
+      "acceptedAnswers": [
+        "sound wave",
+        "work done on diaphragm",
+        "kinetic energy of coil"
+      ],
+      "markScheme": [
+        "1 mark: the sound wave does work on the diaphragm, giving the coil kinetic energy",
+        "1 mark: this energy is transferred electrically by the induced current (the induced field opposes the coil's motion)"
+      ],
+      "explanation": "Energy is conserved: the electrical energy comes from the energy carried by the sound wave."
+    },
+    {
+      "id": "p7-microphones-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why the diaphragm of a microphone is made thin and light.",
+      "acceptedAnswers": [
+        "low mass",
+        "moves easily",
+        "responds to small pressure",
+        "high frequencies"
+      ],
+      "markScheme": [
+        "1 mark: small mass means it is easily moved (large acceleration) by small pressure variations",
+        "1 mark: so it can follow quiet sounds and high-frequency vibrations accurately"
+      ],
+      "explanation": "A heavy diaphragm would not respond to small or rapid changes in pressure."
+    },
+    {
+      "id": "p7-microphones-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A loudspeaker is connected to a sensitive voltmeter and someone shouts at it. A small alternating p.d. is detected. Explain why.",
+      "acceptedAnswers": [
+        "cone vibrates",
+        "coil moves in field",
+        "generator effect",
+        "p.d. induced"
+      ],
+      "markScheme": [
+        "1 mark: the sound makes the cone (and attached coil) vibrate",
+        "1 mark: the coil moves relative to the magnetic field of the permanent magnet",
+        "1 mark: so a p.d. is induced by the generator effect, alternating as the coil changes direction"
+      ],
+      "explanation": "A loudspeaker has the same parts as a moving-coil microphone, so it can act as one."
+    },
+    {
+      "id": "p7-microphones-q19",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the structure of a moving-coil microphone and state the purpose of each part.",
+      "markScheme": [
+        "Indicative content: diaphragm: thin flexible sheet that vibrates when sound waves hit it; coil of wire attached to the diaphragm, moves with it; permanent magnet: provides a strong magnetic field in which the coil moves; connecting wires: carry the induced current to an amplifier or recorder; casing or grille protects the diaphragm.",
+        "Level 2 (3 to 4 marks): at least three parts described with correct purposes linked to producing a signal.",
+        "Level 1 (1 to 2 marks): parts named with limited purpose.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Diaphragm responds to sound; coil and magnet produce the p.d.; wires carry the signal."
+    },
+    {
+      "id": "p7-microphones-q20",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how a moving-coil microphone converts sound into an electrical signal. Include how the pitch and loudness of the sound affect the signal, and compare the microphone with a loudspeaker.",
+      "markScheme": [
+        "Indicative content: sound waves are pressure variations (compressions and rarefactions); they make the diaphragm vibrate; the attached coil vibrates in the field of a permanent magnet; the coil cuts field lines (moves relative to the field), so a p.d. is induced: generator effect; in a complete circuit a varying current flows; the p.d. reverses each time the coil changes direction, so an alternating signal; frequency of signal equals frequency of sound (pitch); louder sound: larger amplitude vibration, faster movement, larger p.d.; loudspeaker has similar structure (coil, magnet, cone) but uses the motor effect to convert current variations into pressure variations: the reverse process.",
+        "Level 3 (5 to 6 marks): detailed, logically sequenced explanation including pitch, loudness and a clear comparison with the loudspeaker.",
+        "Level 2 (3 to 4 marks): explains the generator effect in the microphone with some reference to pitch, loudness or loudspeaker.",
+        "Level 1 (1 to 2 marks): simple statements such as sound makes the coil move and makes electricity.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "A full answer links each stage, from pressure variations to induced current, and identifies the reverse process in a loudspeaker."
+    },
+    {
+      "id": "p7-microphones-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the type of current produced by a microphone when a steady musical note is played into it.",
+      "acceptedAnswers": [
+        "alternating",
+        "a.c."
+      ],
+      "markScheme": [
+        "1 mark: alternating current (a.c.)"
+      ],
+      "explanation": "The coil moves back and forth, so the induced p.d. and current keep reversing direction."
+    },
+    {
+      "id": "p7-microphones-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of wave is the sound that a microphone detects?",
+      "acceptedAnswers": [
+        "longitudinal"
+      ],
+      "markScheme": [
+        "1 mark: longitudinal"
+      ],
+      "explanation": "Sound waves are longitudinal pressure waves."
+    },
+    {
+      "id": "p7-microphones-q23",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two notes are played into a microphone with the same loudness. Note X has a frequency of 200 Hz and note Y has a frequency of 800 Hz. How do the electrical signals compare?",
+      "options": [
+        "Signal X has a frequency of 800 Hz",
+        "Signal Y has four times the amplitude of signal X",
+        "Both signals have the same frequency",
+        "Same amplitude; signal Y has four times the frequency of signal X"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Same amplitude; signal Y has four times the frequency of signal X"
+      ],
+      "explanation": "The signal frequency matches the sound frequency (200 Hz and 800 Hz). With equal loudness, the amplitudes are roughly the same in this simple model."
+    },
+    {
+      "id": "p7-microphones-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The signal from a microphone is very small. State what device is used to increase it, and give one use of the increased signal.",
+      "acceptedAnswers": [
+        "amplifier",
+        "loudspeaker",
+        "recording",
+        "transmit"
+      ],
+      "markScheme": [
+        "1 mark: an amplifier",
+        "1 mark: any valid use, such as driving a loudspeaker, recording, or transmitting by radio or phone"
+      ],
+      "explanation": "Amplifiers increase the amplitude of the signal so it can drive other devices."
+    },
+    {
+      "id": "p7-microphones-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens to the induced p.d. in a microphone coil at the instant the diaphragm stops and changes direction?",
+      "options": [
+        "It is at its maximum",
+        "It is momentarily zero",
+        "It doubles",
+        "It becomes a steady d.c."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It is momentarily zero"
+      ],
+      "explanation": "At the instant the coil is momentarily at rest it is not cutting field lines, so the induced p.d. is zero before reversing."
+    },
+    {
+      "id": "p7-microphones-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A student says: 'A microphone is just a loudspeaker working backwards.' Evaluate this statement.",
+      "markScheme": [
+        "Indicative content: agree: both have a coil attached to a cone or diaphragm in the field of a permanent magnet; loudspeaker: current produces force (motor effect), converts current variations into pressure variations; microphone: movement induces p.d. (generator effect), converts pressure variations into current variations; a loudspeaker can act as a microphone and vice versa (to some extent); limitations: in practice they are designed differently: microphone diaphragm is much lighter and smaller for sensitivity; loudspeaker cone is larger and the coil carries much larger currents; conclusion: the principle is the reverse, but devices are optimised for their job.",
+        "Level 2 (3 to 4 marks): explains both effects, links the reversal, and gives at least one valid limitation with a conclusion.",
+        "Level 1 (1 to 2 marks): states that one uses the motor effect and the other the generator effect, with little evaluation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The physics is reversed, but practical designs differ in size and mass."
+    }
+  ]
+}
