@@ -400,7 +400,10 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "0.5 g of manganese(IV) oxide is added to hydrogen peroxide. Oxygen is given off rapidly. What is the mass of manganese(IV) oxide at the end of the reaction?",
+      "question": "A student adds 0.5 g of manganese(IV) oxide to hydrogen peroxide solution.\nFigure 1 shows the volume of oxygen given off with and without manganese(IV) oxide.\nWhat is the mass of manganese(IV) oxide at the end of the reaction?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M66 16V252M103.4 16V252M140.8 16V252M178.2 16V252M215.6 16V252M253 16V252M290.4 16V252M327.8 16V252M365.2 16V252M402.6 16V252M440 16V252M66 252H440M66 218.3H440M66 184.6H440M66 150.9H440M66 117.1H440M66 83.4H440M66 49.7H440M66 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.18\" fill=\"none\"/><text x=\"66\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"140.8\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"215.6\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"290.4\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"365.2\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><text x=\"60\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"60\" y=\"222.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"60\" y=\"188.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"60\" y=\"154.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"60\" y=\"121.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"60\" y=\"87.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"60\" y=\"53.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"60\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">70</text><path d=\"M66 16V252M140.8 16V252M215.6 16V252M290.4 16V252M365.2 16V252M440 16V252M66 252H440M66 218.3H440M66 184.6H440M66 150.9H440M66 117.1H440M66 83.4H440M66 49.7H440M66 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.4\" fill=\"none\"/><path d=\"M66 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"253\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in s</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Volume of oxygen in cm³</text><polyline points=\"66,252 81,185.2 95.9,140.7 110.9,110.7 125.8,90.5 140.8,77 155.8,67.9 170.7,61.9 185.7,57.8 200.6,55.1 215.6,53.4 230.6,52.1 245.5,51.4 260.5,50.7 275.4,50.4 290.4,50.1 305.4,50.1 320.3,50.1 335.3,49.7 350.2,49.7 365.2,49.7 380.2,49.7 395.1,49.7 410.1,49.7 425,49.7 440,49.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"66,252 81,250.3 95.9,248.6 110.9,247.3 125.8,245.6 140.8,243.9 155.8,242.6 170.7,240.9 185.7,239.5 200.6,237.8 215.6,236.5 230.6,234.8 245.5,233.5 260.5,232.1 275.4,230.4 290.4,229.1 305.4,227.7 320.3,226.4 335.3,225 350.2,223.3 365.2,222 380.2,220.6 395.1,219.3 410.1,217.9 425,216.6 440,215.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"260.5\" y=\"27.5\" font-size=\"12\" fill=\"currentColor\">with manganese(IV) oxide</text><text x=\"260.5\" y=\"208.3\" font-size=\"12\" fill=\"currentColor\">without a catalyst</text></svg>"
+      },
       "options": [
         "0 g, because it was used up",
         "Less than 0.5 g",
@@ -438,10 +441,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A student adds 0.80 g of manganese(IV) oxide catalyst to hydrogen peroxide solution. When the reaction stops, the manganese(IV) oxide is filtered off and dried. What mass of manganese(IV) oxide should be recovered?",
+      "question": "A student adds manganese(IV) oxide catalyst to hydrogen peroxide solution.\nWhen the reaction stops, the manganese(IV) oxide is filtered off and dried.\nTable 1 shows the student's results.\nWhat mass of manganese(IV) oxide should be recovered?",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "Manganese(IV) oxide added at the start",
+            "0.80"
+          ],
+          [
+            "Manganese(IV) oxide recovered at the end",
+            "?"
+          ]
+        ]
+      },
       "numericAnswer": 0.8,
       "tolerance": 0.01,
       "unit": "g",
+      "answerLabel": "Mass of manganese(IV) oxide",
       "markScheme": [
         "1 mark: 0.80 g"
       ],
@@ -453,10 +473,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of iron(III) chloride, FeCl₃. (Ar: Fe = 56, Cl = 35.5)",
+      "question": "Calculate the relative formula mass (Mr) of iron(III) chloride, FeCl₃\nRelative atomic masses (Ar): Fe = 56  Cl = 35.5",
       "numericAnswer": 162.5,
       "tolerance": 0.005,
       "unit": "",
+      "answerLabel": "Relative formula mass",
       "markScheme": [
         "1 mark: 56 + (3 × 35.5)",
         "1 mark: 162.5"
@@ -469,10 +490,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of copper(II) sulfate, CuSO₄. (Ar: Cu = 63.5, S = 32, O = 16)",
+      "question": "Calculate the relative formula mass (Mr) of copper(II) sulfate, CuSO₄\nRelative atomic masses (Ar): Cu = 63.5  S = 32  O = 16",
       "numericAnswer": 159.5,
       "tolerance": 0.005,
       "unit": "",
+      "answerLabel": "Relative formula mass",
       "markScheme": [
         "1 mark: 63.5 + 32 + (4 × 16)",
         "1 mark: 159.5"
@@ -485,10 +507,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Iron forms a chloride with the formula FeCl₃. What is the size of the charge on the iron ion in this compound? (Give the number only.)",
+      "question": "Iron forms a chloride with the formula FeCl₃\nGive the size of the charge on the iron ion in this compound.\nGive the number only.",
       "numericAnswer": 3,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Charge on iron ion",
       "markScheme": [
         "1 mark: 3 (Fe³⁺)"
       ],
@@ -500,10 +523,11 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "Copper forms an oxide with the formula Cu₂O. Work out the size of the charge on each copper ion. (Give the number only.)",
+      "question": "Copper forms an oxide with the formula Cu₂O\nDetermine the size of the charge on each copper ion.\nGive the number only.",
       "numericAnswer": 1,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Charge on each copper ion",
       "markScheme": [
         "1 mark: oxide ion is O²⁻ so total positive charge is 2+",
         "1 mark: shared between 2 copper ions, so 1 (Cu⁺)"
@@ -516,10 +540,11 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 3,
-      "question": "Calculate the percentage by mass of iron in iron(III) oxide, Fe₂O₃. (Ar: Fe = 56, O = 16)",
+      "question": "Calculate the percentage by mass of iron in iron(III) oxide, Fe₂O₃\nRelative atomic masses (Ar): Fe = 56  O = 16",
       "numericAnswer": 70,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage by mass of iron",
       "markScheme": [
         "1 mark: Mr = (2 × 56) + (3 × 16) = 160",
         "1 mark: mass of iron = 112",
@@ -533,7 +558,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "Give the three typical properties of transition metals and their compounds.",
+      "question": "Give three typical properties of transition metals and their compounds.",
       "acceptedAnswers": [
         "ions with different charges",
         "coloured compounds",
@@ -569,7 +594,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Write the formulae of iron(II) chloride and iron(III) chloride.",
+      "question": "Table 1 shows the ions in two iron compounds.\nWrite the formulae of iron(II) chloride and iron(III) chloride.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Ions present"
+        ],
+        "rows": [
+          [
+            "Iron(II) chloride",
+            "Fe²⁺ and Cl⁻"
+          ],
+          [
+            "Iron(III) chloride",
+            "Fe³⁺ and Cl⁻"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "FeCl₂",
         "FeCl₃",
@@ -609,7 +650,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student wants to show that copper(II) sulfate acts as a catalyst for the reaction between zinc and dilute sulfuric acid. Describe two observations or measurements that would show this.",
+      "question": "Zinc reacts with dilute sulfuric acid to produce hydrogen gas.\nA student wants to show that copper(II) sulfate acts as a catalyst for this reaction.\nFigure 1 shows the apparatus the student uses.\nDescribe two observations or measurements that would show copper(II) sulfate is acting as a catalyst.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M85 60V90L40 170H170L125 90V60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M58.9 138H151.1L170 170H40Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"80\" y=\"50\" width=\"50\" height=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><path d=\"M105 50V30H240M105 50V36H240\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"240\" y=\"20\" width=\"130\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M290 22V44M290 33H400M400 24V42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"250\" y1=\"46\" x2=\"250\" y2=\"40\" stroke=\"currentColor\"/><line x1=\"270\" y1=\"46\" x2=\"270\" y2=\"40\" stroke=\"currentColor\"/><g fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\"><rect x=\"70\" y=\"160\" width=\"8\" height=\"8\"/><rect x=\"95\" y=\"162\" width=\"8\" height=\"6\"/><rect x=\"125\" y=\"160\" width=\"8\" height=\"8\"/></g><line x1=\"150\" y1=\"155\" x2=\"200\" y2=\"185\" stroke=\"currentColor\"/><text x=\"204\" y=\"182\" font-size=\"12\" fill=\"currentColor\">dilute sulfuric acid</text><text x=\"204\" y=\"198\" font-size=\"12\" fill=\"currentColor\">and zinc granules</text><line x1=\"330\" y1=\"46\" x2=\"330\" y2=\"80\" stroke=\"currentColor\"/><text x=\"330\" y=\"96\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">gas syringe</text></svg>"
+      },
       "acceptedAnswers": [
         "faster",
         "more bubbles",
@@ -630,15 +674,33 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "A technician has two unlabelled white powders, sodium sulfate and anhydrous copper(II) sulfate. When water is added, one forms a blue solution and the other forms a colourless solution. Identify which is which and explain your reasoning.",
+      "question": "A technician has two unlabelled white powders. One is sodium sulfate and the other is anhydrous copper(II) sulfate.\nThe technician adds water to each powder.\nTable 1 shows the results.\nIdentify which powder is which. Explain your reasoning.",
+      "table": {
+        "headers": [
+          "Powder",
+          "Colour of solution formed"
+        ],
+        "rows": [
+          [
+            "P",
+            "blue"
+          ],
+          [
+            "Q",
+            "colourless"
+          ]
+        ]
+      },
       "acceptedAnswers": [
+        "P is copper sulfate",
+        "Q is sodium sulfate",
         "blue is copper sulfate",
         "colourless is sodium sulfate",
         "transition metal compounds coloured",
         "Group 1 compounds colourless"
       ],
       "markScheme": [
-        "1 mark: the blue solution is copper(II) sulfate and the colourless solution is sodium sulfate",
+        "1 mark: P (blue solution) is copper(II) sulfate and Q (colourless solution) is sodium sulfate",
         "1 mark: copper is a transition metal, which forms coloured compounds; sodium (Group 1) compounds are colourless in solution"
       ],
       "explanation": "Anhydrous copper(II) sulfate is white but turns blue with water, a typical coloured transition metal compound."
@@ -686,7 +748,26 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 4,
-      "question": "Iron forms two oxides, FeO and Fe₂O₃, and two chlorides, FeCl₂ and FeCl₃. Sodium forms only one oxide, Na₂O, and one chloride, NaCl.\nExplain these observations, naming the iron compounds and showing how the charges balance in each formula.",
+      "question": "Table 1 shows the oxides and chlorides formed by iron and by sodium.\nExplain why iron forms two oxides and two chlorides but sodium forms only one of each.\nName the iron compounds and show how the charges balance in each formula.",
+      "table": {
+        "headers": [
+          "Metal",
+          "Oxides formed",
+          "Chlorides formed"
+        ],
+        "rows": [
+          [
+            "Iron",
+            "FeO and Fe₂O₃",
+            "FeCl₂ and FeCl₃"
+          ],
+          [
+            "Sodium",
+            "Na₂O",
+            "NaCl"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: iron is a transition metal and forms ions with different charges, Fe²⁺ and Fe³⁺; FeO is iron(II) oxide: one Fe²⁺ balances one O²⁻; Fe₂O₃ is iron(III) oxide: two Fe³⁺ (6+) balance three O²⁻ (6−); FeCl₂ is iron(II) chloride: Fe²⁺ balances two Cl⁻; FeCl₃ is iron(III) chloride: Fe³⁺ balances three Cl⁻; sodium is in Group 1 and only forms Na⁺ (loses its single outer electron), so only Na₂O (two Na⁺ balance O²⁻) and NaCl.",
         "Level 2 (3 to 4 marks): explains different charges for iron with correct names and charge balancing for most formulae, and contrasts with sodium.",
