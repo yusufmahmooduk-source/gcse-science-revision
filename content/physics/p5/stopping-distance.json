@@ -339,7 +339,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A driver's reaction time stays the same. The speed of the car doubles. What happens to the thinking distance?",
+      "question": "The reaction time of a driver stays the same. The speed of the car doubles.\nWhat happens to the thinking distance?",
       "options": [
         "It stays the same.",
         "It halves.",
@@ -358,7 +358,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "The braking force on a car stays the same. The speed of the car doubles. What happens to the braking distance?",
+      "question": "The braking force on a car stays the same. The speed of the car doubles.\nWhat happens to the braking distance?",
       "options": [
         "It stays the same.",
         "It doubles.",
@@ -396,7 +396,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student plots braking distance (y-axis) against speed (x-axis) for a car. Which description of the graph is correct?",
+      "question": "A student plots a graph of braking distance (y-axis) against speed (x-axis) for a car.\nWhich description of the graph is correct?",
       "options": [
         "A straight line through the origin",
         "A curve through the origin that gets steeper as speed increases",
@@ -415,14 +415,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A car has a thinking distance of 9 m and a braking distance of 14 m.\nCalculate the stopping distance.",
+      "question": "Table 1 shows the thinking distance and the braking distance for a car.\nCalculate the stopping distance of the car.",
       "numericAnswer": 23,
       "tolerance": 0.01,
       "unit": "m",
       "markScheme": [
         "1 mark: 23 m"
       ],
-      "explanation": "Stopping distance = 9 + 14 = 23 m."
+      "explanation": "Stopping distance = 9 + 14 = 23 m.",
+      "table": {
+        "headers": [
+          "Distance",
+          "Value in m"
+        ],
+        "rows": [
+          [
+            "Thinking distance",
+            "9"
+          ],
+          [
+            "Braking distance",
+            "14"
+          ]
+        ]
+      },
+      "answerLabel": "Stopping distance"
     },
     {
       "id": "p5-stopping-distance-q12",
@@ -430,14 +447,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A car has a stopping distance of 53 m. Its thinking distance is 15 m.\nCalculate the braking distance.",
+      "question": "Table 1 shows the stopping distance and the thinking distance for a car.\nCalculate the braking distance of the car.",
       "numericAnswer": 38,
       "tolerance": 0.01,
       "unit": "m",
       "markScheme": [
         "1 mark: 38 m"
       ],
-      "explanation": "Braking distance = stopping distance − thinking distance = 53 − 15 = 38 m."
+      "explanation": "Braking distance = stopping distance − thinking distance = 53 − 15 = 38 m.",
+      "table": {
+        "headers": [
+          "Distance",
+          "Value in m"
+        ],
+        "rows": [
+          [
+            "Stopping distance",
+            "53"
+          ],
+          [
+            "Thinking distance",
+            "15"
+          ]
+        ]
+      },
+      "answerLabel": "Braking distance"
     },
     {
       "id": "p5-stopping-distance-q13",
@@ -445,7 +479,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A car travels at 20 m/s. The driver's reaction time is 0.7 s.\nCalculate the thinking distance.",
+      "question": "A car travels at 20 m/s. The reaction time of the driver is 0.7 s.\nCalculate the thinking distance.",
       "numericAnswer": 14,
       "tolerance": 0.01,
       "unit": "m",
@@ -453,7 +487,8 @@
         "1 mark: thinking distance = 20 × 0.7",
         "1 mark: 14 m"
       ],
-      "explanation": "During the reaction time the car moves at constant speed, so distance = speed × time = 20 × 0.7 = 14 m."
+      "explanation": "During the reaction time the car moves at constant speed, so distance = speed × time = 20 × 0.7 = 14 m.",
+      "answerLabel": "Thinking distance"
     },
     {
       "id": "p5-stopping-distance-q14",
@@ -461,7 +496,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A car travels at 72 km/h. The driver's reaction time is 0.5 s and the braking distance is 30 m.\nCalculate the stopping distance.",
+      "question": "A car travels at 72 km/h. The reaction time of the driver is 0.5 s.\nThe braking distance of the car is 30 m.\nCalculate the stopping distance of the car.",
       "numericAnswer": 40,
       "tolerance": 0.01,
       "unit": "m",
@@ -470,7 +505,8 @@
         "1 mark: thinking distance = 20 × 0.5 = 10 m",
         "1 mark: stopping distance = 10 + 30 = 40 m"
       ],
-      "explanation": "Convert to m/s first: 72 ÷ 3.6 = 20 m/s. Thinking distance = 20 × 0.5 = 10 m. Stopping distance = 10 + 30 = 40 m. Using 72 directly gives 36 m of thinking distance, which is wrong."
+      "explanation": "Convert to m/s first: 72 ÷ 3.6 = 20 m/s. Thinking distance = 20 × 0.5 = 10 m. Stopping distance = 10 + 30 = 40 m. Using 72 directly gives 36 m of thinking distance, which is wrong.",
+      "answerLabel": "Stopping distance"
     },
     {
       "id": "p5-stopping-distance-q15",
@@ -478,14 +514,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A car travels at 108 km/h on a motorway. Calculate this speed in m/s.",
+      "question": "A car travels at 108 km/h on a motorway.\nCalculate this speed in m/s.",
       "numericAnswer": 30,
       "tolerance": 0.01,
       "unit": "m/s",
       "markScheme": [
         "1 mark: 108 ÷ 3.6 = 30 m/s"
       ],
-      "explanation": "1 km/h = 1000 m ÷ 3600 s, so divide by 3.6: 108 ÷ 3.6 = 30 m/s."
+      "explanation": "1 km/h = 1000 m ÷ 3600 s, so divide by 3.6: 108 ÷ 3.6 = 30 m/s.",
+      "answerLabel": "Speed"
     },
     {
       "id": "p5-stopping-distance-q16",
@@ -493,7 +530,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "At 15 m/s a car has a thinking distance of 9 m and a braking distance of 18 m.\nEstimate the stopping distance of the car at 30 m/s, assuming the driver's reaction time and the braking force do not change.",
+      "question": "Figure 1 shows the thinking distance and the braking distance for a car travelling at 15 m/s.\nEstimate the stopping distance of the car at 30 m/s.\nAssume the reaction time of the driver and the braking force do not change.",
       "numericAnswer": 90,
       "tolerance": 0.02,
       "unit": "m",
@@ -502,7 +539,11 @@
         "1 mark: braking distance increases four times to 72 m",
         "1 mark: stopping distance = 90 m"
       ],
-      "explanation": "Thinking distance is proportional to speed (2 × 9 = 18 m). Braking distance is proportional to speed squared (4 × 18 = 72 m). Total = 18 + 72 = 90 m. Simply doubling 27 m gives 54 m, which underestimates it."
+      "explanation": "Thinking distance is proportional to speed (2 × 9 = 18 m). Braking distance is proportional to speed squared (4 × 18 = 72 m). Total = 18 + 72 = 90 m. Simply doubling 27 m gives 54 m, which underestimates it.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 320\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"260\" x2=\"310\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"264\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"252\" x2=\"310\" y2=\"252\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"244\" x2=\"310\" y2=\"244\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"236\" x2=\"310\" y2=\"236\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"228\" x2=\"310\" y2=\"228\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"220\" x2=\"310\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"224\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><line x1=\"70\" y1=\"212\" x2=\"310\" y2=\"212\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"204\" x2=\"310\" y2=\"204\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"196\" x2=\"310\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"188\" x2=\"310\" y2=\"188\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"180\" x2=\"310\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"184\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"70\" y1=\"172\" x2=\"310\" y2=\"172\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"164\" x2=\"310\" y2=\"164\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"156\" x2=\"310\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"148\" x2=\"310\" y2=\"148\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"140\" x2=\"310\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><line x1=\"70\" y1=\"132\" x2=\"310\" y2=\"132\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"124\" x2=\"310\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"116\" x2=\"310\" y2=\"116\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"108\" x2=\"310\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"100\" x2=\"310\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"92\" x2=\"310\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"84\" x2=\"310\" y2=\"84\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"76\" x2=\"310\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"68\" x2=\"310\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25</text><line x1=\"70\" y1=\"52\" x2=\"310\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"44\" x2=\"310\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"36\" x2=\"310\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"28\" x2=\"310\" y2=\"28\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"20\" x2=\"310\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"70\" y1=\"260\" x2=\"310\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"188\" width=\"70\" height=\"72\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"155\" y=\"44\" width=\"70\" height=\"144\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"190\" y=\"277\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15</text><text x=\"190\" y=\"310\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Speed in m/s</text><text x=\"16\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 140)\">Distance in m</text><rect x=\"330\" y=\"30\" width=\"14\" height=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"350\" y=\"40\" font-size=\"12\" fill=\"currentColor\">thinking distance</text><rect x=\"330\" y=\"48\" width=\"14\" height=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"350\" y=\"58\" font-size=\"12\" fill=\"currentColor\">braking distance</text></svg>"
+      },
+      "answerLabel": "Stopping distance"
     },
     {
       "id": "p5-stopping-distance-q17",
@@ -510,7 +551,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A car travels at 90 km/h. The driver's reaction time is 0.75 s. The braking distance is 48 m.\nCalculate the stopping distance.",
+      "question": "A car travels at 90 km/h. The reaction time of the driver is 0.75 s.\nThe braking distance of the car is 48 m.\nCalculate the stopping distance of the car.",
       "numericAnswer": 66.75,
       "tolerance": 0.02,
       "unit": "m",
@@ -519,7 +560,8 @@
         "1 mark: thinking distance = 25 × 0.75 = 18.75 m",
         "1 mark: stopping distance = 18.75 + 48 = 66.75 m (accept 67 m)"
       ],
-      "explanation": "25 m/s × 0.75 s = 18.75 m of thinking distance. Adding the braking distance gives 66.75 m, about 67 m."
+      "explanation": "25 m/s × 0.75 s = 18.75 m of thinking distance. Adding the braking distance gives 66.75 m, about 67 m.",
+      "answerLabel": "Stopping distance"
     },
     {
       "id": "p5-stopping-distance-q18",
@@ -527,7 +569,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A car travels at 15 m/s. The driver's thinking distance is 12 m.\nCalculate the driver's reaction time.",
+      "question": "A car travels at 15 m/s. The thinking distance is 12 m.\nCalculate the reaction time of the driver.",
       "numericAnswer": 0.8,
       "tolerance": 0.01,
       "unit": "s",
@@ -535,7 +577,8 @@
         "1 mark: reaction time = thinking distance ÷ speed = 12 ÷ 15",
         "1 mark: 0.8 s"
       ],
-      "explanation": "Rearrange distance = speed × time: time = 12 ÷ 15 = 0.8 s, which is within the typical range of 0.2 s to 0.9 s."
+      "explanation": "Rearrange distance = speed × time: time = 12 ÷ 15 = 0.8 s, which is within the typical range of 0.2 s to 0.9 s.",
+      "answerLabel": "Reaction time"
     },
     {
       "id": "p5-stopping-distance-q19",
@@ -598,7 +641,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the stopping distance of a car increases when its speed increases.",
+      "question": "Figure 1 shows the thinking distance and the braking distance for a car at different speeds.\nExplain why the stopping distance of the car increases when the speed increases.",
       "acceptedAnswers": [
         "thinking distance increases",
         "more distance in reaction time",
@@ -609,7 +652,10 @@
         "1 mark: the car travels further during the reaction time, so thinking distance increases",
         "1 mark: braking distance increases (more kinetic energy to transfer, or a greater speed to lose with the same braking force)"
       ],
-      "explanation": "Speed affects both parts of stopping distance. Mentioning only one part scores only one mark."
+      "explanation": "Speed affects both parts of stopping distance. Mentioning only one part scores only one mark.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 330\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"270\" x2=\"460\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"257.5\" x2=\"460\" y2=\"257.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"245\" x2=\"460\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"249\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"70\" y1=\"232.5\" x2=\"460\" y2=\"232.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"220\" x2=\"460\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"224\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"207.5\" x2=\"460\" y2=\"207.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"195\" x2=\"460\" y2=\"195\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"199\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"70\" y1=\"182.5\" x2=\"460\" y2=\"182.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"170\" x2=\"460\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"157.5\" x2=\"460\" y2=\"157.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"145\" x2=\"460\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"149\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"70\" y1=\"132.5\" x2=\"460\" y2=\"132.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"124\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"107.5\" x2=\"460\" y2=\"107.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"95\" x2=\"460\" y2=\"95\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"99\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">70</text><line x1=\"70\" y1=\"82.5\" x2=\"460\" y2=\"82.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"70\" x2=\"460\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"57.5\" x2=\"460\" y2=\"57.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"45\" x2=\"460\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"49\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">90</text><line x1=\"70\" y1=\"32.5\" x2=\"460\" y2=\"32.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"20\" x2=\"460\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><text x=\"64\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"270\" x2=\"460\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"83\" y=\"255\" width=\"39\" height=\"15\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"83\" y=\"240\" width=\"39\" height=\"15\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"102.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><rect x=\"148\" y=\"247.5\" width=\"39\" height=\"22.5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"148\" y=\"212.5\" width=\"39\" height=\"35\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"167.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">13</text><rect x=\"213\" y=\"240\" width=\"39\" height=\"30\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"213\" y=\"180\" width=\"39\" height=\"60\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"232.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">18</text><rect x=\"278\" y=\"232.5\" width=\"39\" height=\"37.5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"278\" y=\"137.5\" width=\"39\" height=\"95\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"297.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">22</text><rect x=\"343\" y=\"225\" width=\"39\" height=\"45\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"343\" y=\"87.5\" width=\"39\" height=\"137.5\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"362.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">27</text><rect x=\"408\" y=\"217.5\" width=\"39\" height=\"52.5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"408\" y=\"30\" width=\"39\" height=\"187.5\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"427.5\" y=\"287\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">31</text><text x=\"265\" y=\"320\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Speed in m/s</text><text x=\"16\" y=\"145\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 145)\">Distance in m</text><rect x=\"90\" y=\"30\" width=\"14\" height=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"40\" font-size=\"12\" fill=\"currentColor\">thinking distance</text><rect x=\"90\" y=\"48\" width=\"14\" height=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"58\" font-size=\"12\" fill=\"currentColor\">braking distance</text></svg>"
+      }
     },
     {
       "id": "p5-stopping-distance-q23",
@@ -617,7 +663,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A car and a fully loaded lorry travel at the same speed. The same braking force acts on each.\nExplain why the lorry has a longer braking distance.",
+      "question": "A car and a fully loaded lorry travel at the same speed.\nThe same braking force acts on each vehicle.\nExplain why the lorry has a longer braking distance than the car.",
       "acceptedAnswers": [
         "greater mass",
         "smaller deceleration",
@@ -676,7 +722,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A car travels at 25 m/s. The driver sees a fallen tree 50 m ahead. The driver's reaction time is 0.8 s and the braking distance is 40 m.\nDetermine whether the car stops before reaching the tree. Show your working.",
+      "question": "Figure 1 shows a car travelling along a road at 25 m/s.\nThe driver sees a fallen tree 50 m ahead.\nThe reaction time of the driver is 0.8 s. The braking distance of the car is 40 m.\nDetermine whether the car stops before reaching the tree.\nShow your working.",
       "acceptedAnswers": [
         "thinking distance 20 m",
         "stopping distance 60 m",
@@ -688,7 +734,10 @@
         "1 mark: stopping distance = 20 + 40 = 60 m",
         "1 mark: 60 m is greater than 50 m, so the car does not stop in time (it hits the tree)"
       ],
-      "explanation": "Always compare the total stopping distance with the distance to the hazard and give a clear conclusion."
+      "explanation": "Always compare the total stopping distance with the distance to the hazard and give a clear conclusion.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><rect x=\"10\" y=\"110\" width=\"460\" height=\"50\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"10\" y1=\"135\" x2=\"470\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"10 8\"/><rect x=\"35\" y=\"105\" width=\"70\" height=\"26\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"6\"/><circle cx=\"51\" cy=\"131\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"89\" cy=\"131\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"70\" y=\"122\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">car</text><path d=\"M340 120L440 105\" stroke=\"currentColor\" stroke-width=\"8\"/><circle cx=\"445\" cy=\"100\" r=\"20\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"420\" y=\"70\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">fallen tree</text><line x1=\"105\" y1=\"60\" x2=\"340\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#ar)\" marker-end=\"url(#ar)\"/><text x=\"222.5\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50 m</text><text x=\"240\" y=\"185\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">road</text></svg>"
+      }
     },
     {
       "id": "p5-stopping-distance-q27",
@@ -696,7 +745,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 6,
-      "question": "Describe the factors that affect the stopping distance of a car. For each factor, explain whether it affects the thinking distance, the braking distance or both.",
+      "question": "Describe the factors that affect the stopping distance of a car.\nFor each factor, explain whether the factor affects the thinking distance, the braking distance or both.",
       "markScheme": [
         "Indicative content: stopping distance = thinking distance + braking distance; speed affects both (further travelled in reaction time; more kinetic energy so longer braking); tiredness, alcohol, drugs and distractions (phone, passengers) increase reaction time and so thinking distance; wet or icy roads reduce friction between tyres and road, so increase braking distance; worn tyres reduce grip, increasing braking distance; worn or faulty brakes reduce braking force, increasing braking distance; heavier load (greater mass) gives smaller deceleration, increasing braking distance.",
         "Level 3 (5 to 6 marks): several driver, road and vehicle factors described, each correctly linked to thinking or braking distance with a reason, plus speed affecting both.",
@@ -711,13 +760,37 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "The table shows thinking and braking distances for a car.\nSpeed 10 m/s: thinking distance 7 m, braking distance 8 m\nSpeed 20 m/s: thinking distance 14 m, braking distance 32 m\nSpeed 30 m/s: thinking distance 21 m, braking distance 72 m\nDescribe and explain the patterns shown in the data.",
+      "question": "Table 1 shows the thinking distance and the braking distance for a car at different speeds.\nDescribe and explain the patterns shown in the data.",
       "markScheme": [
         "Indicative content: thinking distance is directly proportional to speed (doubles from 7 m to 14 m when speed doubles; triples to 21 m); this is because the reaction time is constant (0.7 s) and thinking distance = speed × reaction time; braking distance increases four times when speed doubles (8 m to 32 m) and nine times when speed triples (72 m); braking distance is proportional to speed squared because kinetic energy = ½mv² and braking force × distance = kinetic energy; so braking distance becomes the larger part of stopping distance at high speed.",
         "Level 2 (3 to 4 marks): both patterns described using the data and explained (constant reaction time; kinetic energy depends on v²).",
         "Level 1 (1 to 2 marks): states that both distances increase with speed, or describes one pattern only."
       ],
-      "explanation": "Use numbers from the table to support each pattern: 7 → 14 → 21 is proportional; 8 → 32 → 72 is ×4 and ×9."
+      "explanation": "Use numbers from the table to support each pattern: 7 → 14 → 21 is proportional; 8 → 32 → 72 is ×4 and ×9.",
+      "table": {
+        "headers": [
+          "Speed in m/s",
+          "Thinking distance in m",
+          "Braking distance in m"
+        ],
+        "rows": [
+          [
+            "10",
+            "7",
+            "8"
+          ],
+          [
+            "20",
+            "14",
+            "32"
+          ],
+          [
+            "30",
+            "21",
+            "72"
+          ]
+        ]
+      }
     },
     {
       "id": "p5-stopping-distance-q29",
@@ -725,7 +798,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "A driver has been driving for many hours at night. It starts to rain heavily.\nExplain how these conditions affect the stopping distance of the car and suggest what the driver should do to drive safely.",
+      "question": "A driver has been driving for many hours at night. It starts to rain heavily.\nExplain how these conditions affect the stopping distance of the car.\nSuggest what the driver should do to drive safely.",
       "markScheme": [
         "Indicative content: tiredness increases the driver's reaction time, so thinking distance increases; a wet road reduces friction between tyres and road, so braking distance increases; darkness and heavy rain may make hazards harder to see, so the driver reacts later; overall stopping distance increases; the driver should slow down (reducing both thinking and braking distance), leave a larger gap to the car in front, and take a rest break.",
         "Level 2 (3 to 4 marks): explains effect of tiredness on thinking distance and rain on braking distance, with a sensible suggestion linked to stopping distance.",

@@ -408,14 +408,31 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "At 200 atm, the percentage yield of ammonia at equilibrium is 53% at 350 °C and 13% at 550 °C.\nBy how many percentage points does the yield fall between 350 °C and 550 °C?",
+      "question": "Table 1 shows the percentage yield of ammonia at equilibrium at two temperatures.\nCalculate the decrease in the percentage yield between 350 °C and 550 °C.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield of ammonia at 200 atm in %"
+        ],
+        "rows": [
+          [
+            "350",
+            "53"
+          ],
+          [
+            "550",
+            "13"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 53 − 13 = 40"
       ],
       "explanation": "Subtract the two values: 53 − 13 = 40 percentage points. The large fall shows the forward reaction is exothermic.",
       "numericAnswer": 40,
       "tolerance": 0.01,
-      "unit": "percentage points"
+      "unit": "percentage points",
+      "answerLabel": "Decrease in yield"
     },
     {
       "id": "c6-temperature-and-equilibrium-q13",
@@ -423,7 +440,23 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "At 450 °C and 200 atm, the yield of ammonia at equilibrium is 28%. The maximum possible mass of ammonia from a batch of reactants is 340 kg.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "question": "Table 1 shows information about a batch of reactants in the Haber process at 450 °C and 200 atm.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Equilibrium yield of ammonia",
+            "28%"
+          ],
+          [
+            "Maximum possible mass of ammonia",
+            "340 kg"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 28 ÷ 100 × 340",
         "1 mark: 95.2 kg"
@@ -431,7 +464,8 @@
       "explanation": "Mass = 0.28 × 340 = 95.2 kg. Check: 95.2 ÷ 340 = 0.28.",
       "numericAnswer": 95.2,
       "tolerance": 0.01,
-      "unit": "kg"
+      "unit": "kg",
+      "answerLabel": "Mass of ammonia"
     },
     {
       "id": "c6-temperature-and-equilibrium-q14",
@@ -439,7 +473,23 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "At 200 atm, the percentage yield of ammonia at equilibrium is 53% at 350 °C and 13% at 550 °C.\nCalculate how many times greater the yield of ammonia is at 350 °C than at 550 °C. Give your answer to 2 significant figures.",
+      "question": "Table 1 shows the percentage yield of ammonia at equilibrium at two temperatures.\nCalculate how many times greater the yield of ammonia is at 350 °C than at 550 °C.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield of ammonia at 200 atm in %"
+        ],
+        "rows": [
+          [
+            "350",
+            "53"
+          ],
+          [
+            "550",
+            "13"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 53 ÷ 13",
         "1 mark: 4.1"
@@ -447,7 +497,8 @@
       "explanation": "53 ÷ 13 = 4.077…, which is 4.1 to 2 significant figures.",
       "numericAnswer": 4.1,
       "tolerance": 0.02,
-      "unit": ""
+      "unit": "",
+      "answerLabel": "Number of times greater"
     },
     {
       "id": "c6-temperature-and-equilibrium-q15",
@@ -455,7 +506,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In the Haber process, N₂ + 3H₂ ⇌ 2NH₃, forming 2 moles of ammonia gives out 92 kJ.\nWhen the temperature of an equilibrium mixture is raised, 0.50 mol of ammonia decomposes before a new equilibrium is reached. Calculate the energy taken in.",
+      "question": "In the Haber process:\nN₂ + 3H₂ ⇌ 2NH₃\nForming 2 moles of ammonia gives out 92 kJ.\nThe temperature of an equilibrium mixture is raised. 0.50 mol of ammonia decomposes before a new equilibrium is reached.\nCalculate the energy taken in.",
       "markScheme": [
         "1 mark: 92 ÷ 2 = 46 kJ per mole of NH₃ decomposed",
         "1 mark: 0.50 × 46 = 23 kJ"
@@ -463,7 +514,8 @@
       "explanation": "The reverse reaction is endothermic and takes in 46 kJ per mole of ammonia. For 0.50 mol: 0.50 × 46 = 23 kJ. This energy is taken in as the system counteracts the temperature rise.",
       "numericAnswer": 23,
       "tolerance": 0.01,
-      "unit": "kJ"
+      "unit": "kJ",
+      "answerLabel": "Energy taken in"
     },
     {
       "id": "c6-temperature-and-equilibrium-q16",
@@ -471,15 +523,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Methanol yields at 50 atm are: 200 °C, 80%; 250 °C, 55%; 300 °C, 25%; 350 °C, 8%.\nCalculate the mean decrease in yield per °C between 200 °C and 300 °C.",
+      "question": "Methanol is made by the reaction:\nCO(g) + 2H₂(g) ⇌ CH₃OH(g)\nFigure 1 shows how the yield of methanol at equilibrium at 50 atm changes with temperature.\nCalculate the mean decrease in yield per °C between 200 °C and 300 °C.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M101.4 16V254M172.2 16V254M243 16V254M313.8 16V254M384.6 16V254M66 242.1H420M66 230.2H420M66 218.3H420M66 194.5H420M66 182.6H420M66 170.7H420M66 146.9H420M66 135H420M66 123.1H420M66 99.3H420M66 87.4H420M66 75.5H420M66 51.7H420M66 39.8H420M66 27.9H420\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.2\" fill=\"none\"/><path d=\"M66 16V254M136.8 16V254M207.6 16V254M278.4 16V254M349.2 16V254M420 16V254M66 254H420M66 206.4H420M66 158.8H420M66 111.2H420M66 63.6H420M66 16H420\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.45\" fill=\"none\"/><text x=\"66\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">150</text><text x=\"136.8\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">200</text><text x=\"207.6\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">250</text><text x=\"278.4\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">300</text><text x=\"349.2\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">350</text><text x=\"420\" y=\"271\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">400</text><text x=\"60\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"60\" y=\"210.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"60\" y=\"162.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"60\" y=\"115.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"60\" y=\"67.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"60\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"66\" y1=\"254\" x2=\"420\" y2=\"254\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"254\" x2=\"66\" y2=\"16\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"243\" y=\"294\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Temperature in °C</text><text x=\"16\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\">Yield of methanol in %</text><path d=\"M136.8 63.6 C148.6 73.5 184 101.3 207.6 123.1 C231.2 144.9 254.8 175.9 278.4 194.5 C302 213.1 337.4 228.2 349.2 235\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"132.8\" y1=\"59.6\" x2=\"140.8\" y2=\"67.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"132.8\" y1=\"67.6\" x2=\"140.8\" y2=\"59.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203.6\" y1=\"119.1\" x2=\"211.6\" y2=\"127.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"203.6\" y1=\"127.1\" x2=\"211.6\" y2=\"119.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"274.4\" y1=\"190.5\" x2=\"282.4\" y2=\"198.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"274.4\" y1=\"198.5\" x2=\"282.4\" y2=\"190.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"345.2\" y1=\"231\" x2=\"353.2\" y2=\"239\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"345.2\" y1=\"239\" x2=\"353.2\" y2=\"231\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "markScheme": [
-        "1 mark: (80 − 25) ÷ (300 − 200)",
+        "1 mark: values read from Figure 1: 80% at 200 °C and 25% at 300 °C; (80 − 25) ÷ (300 − 200)",
         "1 mark: 0.55"
       ],
-      "explanation": "Change in yield = 80 − 25 = 55 percentage points over 100 °C, so 55 ÷ 100 = 0.55 percentage points per °C.",
+      "explanation": "From Figure 1 the yield is 80% at 200 °C and 25% at 300 °C. Change in yield = 80 − 25 = 55 percentage points over 100 °C, so 55 ÷ 100 = 0.55 percentage points per °C.",
       "numericAnswer": 0.55,
       "tolerance": 0.01,
-      "unit": "percentage points per °C"
+      "unit": "percentage points per °C",
+      "answerLabel": "Mean decrease in yield"
     },
     {
       "id": "c6-temperature-and-equilibrium-q17",
@@ -561,7 +617,23 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "The yield of a reaction at equilibrium is 70% at 300 °C and 45% at 400 °C. Deduce whether the forward reaction is exothermic or endothermic.",
+      "question": "Table 1 shows the yield of a reaction at equilibrium at two temperatures.\nDeduce whether the forward reaction is exothermic or endothermic.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield at equilibrium in %"
+        ],
+        "rows": [
+          [
+            "300",
+            "70"
+          ],
+          [
+            "400",
+            "45"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: exothermic"
       ],
@@ -650,7 +722,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "Three sealed tubes contain the same equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). The forward reaction is exothermic.\nOne tube is placed in ice water, one is left at room temperature and one is placed in hot water.\nDescribe and explain the colours of the three tubes.",
+      "question": "Three sealed tubes, A, B and C, contain the same equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide:\n2NO₂(g) ⇌ N₂O₄(g)\nThe forward reaction is exothermic.\nFigure 1 shows where each tube was placed.\nDescribe and explain the colours of the three tubes.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 255\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 60 L20 190 Q20 198 28 198 L132 198 Q140 198 140 190 L140 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"22\" y=\"90\" width=\"116\" height=\"106\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M68 30 L68 170 A12 12 0 0 0 92 170 L92 30 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"66\" y=\"20\" width=\"28\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.5\"/><text x=\"80\" y=\"222\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Tube A</text><text x=\"80\" y=\"240\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ice water</text><path d=\"M208 30 L208 170 A12 12 0 0 0 232 170 L232 30 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"20\" width=\"28\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.5\"/><text x=\"220\" y=\"222\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Tube B</text><text x=\"220\" y=\"240\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Room temperature</text><path d=\"M300 60 L300 190 Q300 198 308 198 L412 198 Q420 198 420 190 L420 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"302\" y=\"90\" width=\"116\" height=\"106\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><path d=\"M348 30 L348 170 A12 12 0 0 0 372 170 L372 30 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"346\" y=\"20\" width=\"28\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.5\"/><text x=\"360\" y=\"222\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Tube C</text><text x=\"360\" y=\"240\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Hot water</text></svg>"
+      },
       "markScheme": [
         "Indicative content: room temperature tube is the reference, a medium brown; hot water tube becomes darker brown; increasing temperature favours the endothermic direction; the reverse reaction is endothermic; position shifts left; more brown NO₂; ice water tube becomes paler; decreasing temperature favours the exothermic direction; the forward reaction; position shifts right; more colourless N₂O₄; Le Chatelier: the system responds to counteract the temperature change.",
         "Level 2 (3 to 4 marks): correct colours for the hot and cold tubes, each explained in terms of the exothermic or endothermic direction and the shift in position.",
@@ -664,7 +739,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "Methanol is made by the reaction CO(g) + 2H₂(g) ⇌ CH₃OH(g). The percentage yield of methanol at equilibrium at 50 atm is:\n200 °C: 80%; 250 °C: 55%; 300 °C: 25%; 350 °C: 8%\nUse the data to deduce whether the forward reaction is exothermic or endothermic, and explain your reasoning using Le Chatelier's principle.",
+      "question": "Methanol is made by the reaction:\nCO(g) + 2H₂(g) ⇌ CH₃OH(g)\nTable 1 shows the percentage yield of methanol at equilibrium at 50 atm.\nUse the data to deduce whether the forward reaction is exothermic or endothermic.\nExplain your reasoning using Le Chatelier's principle.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield of methanol at 50 atm in %"
+        ],
+        "rows": [
+          [
+            "200",
+            "80"
+          ],
+          [
+            "250",
+            "55"
+          ],
+          [
+            "300",
+            "25"
+          ],
+          [
+            "350",
+            "8"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: the yield decreases as temperature increases, for example from 80% at 200 °C to 8% at 350 °C; increasing temperature shifts the position in the endothermic direction (Le Chatelier: the system takes in energy to counteract the rise); the position is shifting left (towards CO and H₂); so the reverse reaction is endothermic; therefore the forward reaction is exothermic; the same amount of energy is transferred in each direction.",
         "Level 2 (3 to 4 marks): correct deduction (exothermic) supported by the trend in the data and a clear Le Chatelier explanation.",
@@ -678,7 +777,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Ammonia is made in the Haber process: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic.\nAt 200 atm, the percentage yield of ammonia at equilibrium is 53% at 350 °C, 28% at 450 °C and 13% at 550 °C.\nExplain the effect of temperature on the yield of ammonia and evaluate the choice of 450 °C for the process.",
+      "question": "Ammonia is made in the Haber process:\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nThe forward reaction is exothermic.\nTable 1 shows the percentage yield of ammonia at equilibrium at 200 atm.\nExplain the effect of temperature on the yield of ammonia.\nEvaluate the choice of 450 °C for the process.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield of ammonia at 200 atm in %"
+        ],
+        "rows": [
+          [
+            "350",
+            "53"
+          ],
+          [
+            "450",
+            "28"
+          ],
+          [
+            "550",
+            "13"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: the yield decreases as the temperature increases, from 53% at 350 °C to 13% at 550 °C; Le Chatelier's principle: increasing temperature makes the system counteract the change by favouring the endothermic direction; the forward reaction is exothermic, so the reverse reaction is endothermic; position shifts left; less ammonia at equilibrium; a lower temperature such as 350 °C would give a higher yield; but at lower temperature the rate is slower because particles have less energy and collide less often with energy above the activation energy; equilibrium would take longer to reach; 450 °C gives a lower yield (28%) but a faster rate; this is a compromise between yield and rate; an iron catalyst is used to increase rate without changing yield; unreacted gases are recycled so a low yield per pass is acceptable.",
         "Level 3 (5 to 6 marks): the trend described with data, fully explained using Le Chatelier's principle, and a balanced evaluation of 450 °C considering both yield and rate, with a conclusion.",

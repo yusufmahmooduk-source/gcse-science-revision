@@ -304,7 +304,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "An astronaut travels from the Earth to the Moon. Which row is correct?",
+      "question": "An astronaut travels from the Earth to the Moon.\nWhich row describes what happens to the mass and the weight of the astronaut?",
       "options": [
         "Mass decreases, weight decreases",
         "Mass stays the same, weight decreases",
@@ -342,7 +342,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The mass of an object is doubled. What happens to its weight at the same place?",
+      "question": "The mass of an object is doubled. The object stays in the same place.\nWhat happens to the weight of the object?",
       "options": [
         "It halves",
         "It stays the same",
@@ -380,7 +380,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student plots a graph of weight (y-axis) against mass (x-axis) for objects on Earth. What does the gradient represent?",
+      "question": "A student measured the weight of objects of different mass on Earth.\nFigure 1 shows a graph of the results.\nWhat does the gradient of the graph represent?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M62 15V252M95.8 15V252M129.6 15V252M163.4 15V252M197.2 15V252M231 15V252M264.8 15V252M298.6 15V252M332.4 15V252M366.2 15V252M400 15V252M62 252H400M62 228.3H400M62 204.6H400M62 180.9H400M62 157.2H400M62 133.5H400M62 109.8H400M62 86.1H400M62 62.4H400M62 38.7H400M62 15H400\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.25\"/><text x=\"62\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.0</text><text x=\"129.6\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.2</text><text x=\"197.2\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.4</text><text x=\"264.8\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.6</text><text x=\"332.4\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.8</text><text x=\"400\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.0</text><text x=\"56\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"208.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"161.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"113.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"56\" y=\"66.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><path d=\"M62 15V252M129.6 15V252M197.2 15V252M264.8 15V252M332.4 15V252M400 15V252M62 252H400M62 204.6H400M62 157.2H400M62 109.8H400M62 62.4H400M62 15H400\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"15\" x2=\"62\" y2=\"252\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Mass in kg</text><text x=\"16\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 133.5)\">Weight in N</text><polyline points=\"62,252 400,19.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><path d=\"M125.60000000000002 201.548l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M193.20000000000002 155.096l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M260.79999999999995 108.644l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M328.40000000000003 62.19199999999998l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M396 15.73999999999998l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "options": [
         "The mass of each object",
         "The weight of 1 N",
@@ -399,7 +402,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "An object weighs 20 N on Earth (g = 9.8 N/kg). What would it weigh on a planet where g = 24.5 N/kg?",
+      "question": "An object weighs 20 N on Earth.\nTable 1 shows the gravitational field strength on Earth and on planet X.\nWhat would the object weigh on planet X?",
+      "table": {
+        "headers": [
+          "Place",
+          "Gravitational field strength in N/kg"
+        ],
+        "rows": [
+          [
+            "Earth",
+            "9.8"
+          ],
+          [
+            "Planet X",
+            "24.5"
+          ]
+        ]
+      },
       "options": [
         "8.2 N",
         "20 N",
@@ -418,7 +437,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Calculate the weight of a 5.0 kg mass on Earth. (g = 9.8 N/kg)",
+      "question": "Calculate the weight of a 5.0 kg mass on Earth.\ngravitational field strength = 9.8 N/kg",
       "numericAnswer": 49,
       "tolerance": 0.02,
       "unit": "N",
@@ -426,7 +445,8 @@
         "1 mark: W = 5.0 × 9.8",
         "1 mark: 49 N"
       ],
-      "explanation": "W = m g = 5.0 × 9.8 = 49 N."
+      "explanation": "W = m g = 5.0 × 9.8 = 49 N.",
+      "answerLabel": "Weight"
     },
     {
       "id": "p5-gravity-q12",
@@ -434,7 +454,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "An apple has a mass of 250 g. Calculate its weight on Earth. (g = 9.8 N/kg)",
+      "question": "An apple has a mass of 250 g.\nCalculate the weight of the apple on Earth.\ngravitational field strength = 9.8 N/kg",
       "numericAnswer": 2.45,
       "tolerance": 0.02,
       "unit": "N",
@@ -443,7 +463,8 @@
         "1 mark: W = 0.25 × 9.8",
         "1 mark: 2.45 N (accept 2.5 N)"
       ],
-      "explanation": "Convert to kilograms first: 250 ÷ 1000 = 0.25 kg. W = 0.25 × 9.8 = 2.45 N. Using 250 directly gives 2450 N, which is far too big for an apple."
+      "explanation": "Convert to kilograms first: 250 ÷ 1000 = 0.25 kg. W = 0.25 × 9.8 = 2.45 N. Using 250 directly gives 2450 N, which is far too big for an apple.",
+      "answerLabel": "Weight"
     },
     {
       "id": "p5-gravity-q13",
@@ -451,7 +472,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A man has a weight of 686 N on Earth. Calculate his mass. (g = 9.8 N/kg)",
+      "question": "A man has a weight of 686 N on Earth.\nCalculate the mass of the man.\ngravitational field strength = 9.8 N/kg",
       "numericAnswer": 70,
       "tolerance": 0.02,
       "unit": "kg",
@@ -460,7 +481,8 @@
         "1 mark: m = 686 ÷ 9.8",
         "1 mark: 70 kg"
       ],
-      "explanation": "Rearrange W = mg to m = W ÷ g = 686 ÷ 9.8 = 70 kg."
+      "explanation": "Rearrange W = mg to m = W ÷ g = 686 ÷ 9.8 = 70 kg.",
+      "answerLabel": "Mass"
     },
     {
       "id": "p5-gravity-q14",
@@ -468,7 +490,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "An astronaut has a mass of 80 kg. Calculate her weight on the Moon, where g = 1.6 N/kg.",
+      "question": "An astronaut has a mass of 80 kg.\nCalculate the weight of the astronaut on the Moon.\ngravitational field strength on the Moon = 1.6 N/kg",
       "numericAnswer": 128,
       "tolerance": 0.02,
       "unit": "N",
@@ -476,7 +498,8 @@
         "1 mark: W = 80 × 1.6",
         "1 mark: 128 N"
       ],
-      "explanation": "W = m g = 80 × 1.6 = 128 N. Her mass is still 80 kg."
+      "explanation": "W = m g = 80 × 1.6 = 128 N. Her mass is still 80 kg.",
+      "answerLabel": "Weight"
     },
     {
       "id": "p5-gravity-q15",
@@ -484,7 +507,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A bag of flour has a mass of 750 g. Calculate its weight on Earth. (g = 9.8 N/kg)",
+      "question": "A bag of flour has a mass of 750 g.\nCalculate the weight of the bag of flour on Earth.\ngravitational field strength = 9.8 N/kg",
       "numericAnswer": 7.35,
       "tolerance": 0.02,
       "unit": "N",
@@ -493,7 +516,8 @@
         "1 mark: W = 0.75 × 9.8",
         "1 mark: 7.35 N (accept 7.4 N)"
       ],
-      "explanation": "0.75 × 9.8 = 7.35 N. The conversion from grams to kilograms is the step most often missed."
+      "explanation": "0.75 × 9.8 = 7.35 N. The conversion from grams to kilograms is the step most often missed.",
+      "answerLabel": "Weight"
     },
     {
       "id": "p5-gravity-q16",
@@ -501,7 +525,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A rover has a weight of 8820 N on Earth (g = 9.8 N/kg). Calculate its weight on Mars, where g = 3.7 N/kg.",
+      "question": "A rover has a weight of 8820 N on Earth.\nTable 1 shows the gravitational field strength on Earth and on Mars.\nCalculate the weight of the rover on Mars.",
+      "table": {
+        "headers": [
+          "Place",
+          "Gravitational field strength in N/kg"
+        ],
+        "rows": [
+          [
+            "Earth",
+            "9.8"
+          ],
+          [
+            "Mars",
+            "3.7"
+          ]
+        ]
+      },
       "numericAnswer": 3330,
       "tolerance": 0.02,
       "unit": "N",
@@ -511,7 +551,8 @@
         "1 mark: W = 900 × 3.7",
         "1 mark: 3330 N"
       ],
-      "explanation": "First find the mass, which does not change: 8820 ÷ 9.8 = 900 kg. Then W on Mars = 900 × 3.7 = 3330 N."
+      "explanation": "First find the mass, which does not change: 8820 ÷ 9.8 = 900 kg. Then W on Mars = 900 × 3.7 = 3330 N.",
+      "answerLabel": "Weight on Mars"
     },
     {
       "id": "p5-gravity-q17",
@@ -519,16 +560,20 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A 12 kg object is taken to a planet, where a newtonmeter shows it has a weight of 300 N. Calculate the gravitational field strength on the planet.",
+      "question": "A 12 kg object is taken to a planet.\nFigure 1 shows the reading on a newtonmeter when the object hangs from it on the planet.\nCalculate the gravitational field strength on the planet.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 320\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"176\" y=\"20\" width=\"8\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"140\" y=\"40\" width=\"80\" height=\"200\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"240\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Newtonmeter</text><text x=\"158\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">0</text><text x=\"158\" y=\"99\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">100</text><text x=\"158\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">200</text><text x=\"158\" y=\"189\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">300</text><text x=\"158\" y=\"234\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">400</text><path d=\"M140 50.0h14M140 59.0h7M140 68.0h7M140 77.0h7M140 86.0h7M140 95.0h14M140 104.0h7M140 113.0h7M140 122.0h7M140 131.0h7M140 140.0h14M140 149.0h7M140 158.0h7M140 167.0h7M140 176.0h7M140 185.0h14M140 194.0h7M140 203.0h7M140 212.0h7M140 221.0h7M140 230.0h14\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">N</text><polygon points=\"188,185 208,179 208,191\" fill=\"currentColor\"/><line x1=\"208\" y1=\"185\" x2=\"220\" y2=\"185\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"180\" y1=\"240\" x2=\"180\" y2=\"262\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M180 262 q0 8 -6 8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"270\" width=\"60\" height=\"40\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"295\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12 kg</text></svg>"
+      },
       "numericAnswer": 25,
       "tolerance": 0.02,
       "unit": "N/kg",
       "markScheme": [
-        "1 mark: g = W ÷ m",
+        "1 mark: reading W = 300 N from Figure 1 and g = W ÷ m",
         "1 mark: g = 300 ÷ 12",
         "1 mark: 25 N/kg"
       ],
-      "explanation": "Rearrange W = mg to g = W ÷ m = 300 ÷ 12 = 25 N/kg."
+      "explanation": "Rearrange W = mg to g = W ÷ m = 300 ÷ 12 = 25 N/kg.",
+      "answerLabel": "Gravitational field strength"
     },
     {
       "id": "p5-gravity-q18",
@@ -536,7 +581,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A 60 kg astronaut travels from the Earth (g = 9.8 N/kg) to the Moon (g = 1.6 N/kg). Calculate the decrease in her weight.",
+      "question": "A 60 kg astronaut travels from the Earth to the Moon.\nTable 1 shows the gravitational field strength on the Earth and on the Moon.\nCalculate the decrease in the weight of the astronaut.",
+      "table": {
+        "headers": [
+          "Place",
+          "Gravitational field strength in N/kg"
+        ],
+        "rows": [
+          [
+            "Earth",
+            "9.8"
+          ],
+          [
+            "Moon",
+            "1.6"
+          ]
+        ]
+      },
       "numericAnswer": 492,
       "tolerance": 0.02,
       "unit": "N",
@@ -545,7 +606,8 @@
         "1 mark: weight on Moon = 60 × 1.6 = 96 N",
         "1 mark: decrease = 588 − 96 = 492 N"
       ],
-      "explanation": "Weight on Earth is 588 N and on the Moon 96 N, so the decrease is 492 N. A quicker route is 60 × (9.8 − 1.6) = 60 × 8.2 = 492 N."
+      "explanation": "Weight on Earth is 588 N and on the Moon 96 N, so the decrease is 492 N. A quicker route is 60 × (9.8 − 1.6) = 60 × 8.2 = 492 N.",
+      "answerLabel": "Decrease in weight"
     },
     {
       "id": "p5-gravity-q19",
@@ -644,7 +706,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A student hangs different masses from a newtonmeter and records the weight of each. Describe how the student could use the results to show that weight is directly proportional to mass.",
+      "question": "A student hangs different masses from a newtonmeter and records the weight of each mass.\nTable 1 shows the results.\nDescribe how the student could use the results to show that weight is directly proportional to mass.",
+      "table": {
+        "headers": [
+          "Mass in kg",
+          "Weight in N"
+        ],
+        "rows": [
+          [
+            "0.10",
+            "0.98"
+          ],
+          [
+            "0.20",
+            "1.96"
+          ],
+          [
+            "0.30",
+            "2.94"
+          ],
+          [
+            "0.40",
+            "3.92"
+          ],
+          [
+            "0.50",
+            "4.90"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "plot a graph",
         "weight against mass",
@@ -665,7 +755,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Some luggage scales contain a spring and show readings in kilograms. Explain why these scales would show the wrong mass if used on the Moon.",
+      "question": "Some luggage scales contain a spring. The scales show readings in kilograms.\nExplain why these scales would show the wrong mass if they were used on the Moon.",
       "acceptedAnswers": [
         "measures weight",
         "spring stretched by weight",
@@ -685,7 +775,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe how a student could use a newtonmeter and a set of slotted masses to find the gravitational field strength in the laboratory.",
+      "question": "Figure 1 shows a newtonmeter with a mass hanging from it.\nDescribe how a student could use a newtonmeter and a set of slotted masses to find the gravitational field strength in the laboratory.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 320\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"176\" y=\"20\" width=\"8\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"140\" y=\"40\" width=\"80\" height=\"200\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"240\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Newtonmeter</text><text x=\"158\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">0</text><text x=\"158\" y=\"90\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">2</text><text x=\"158\" y=\"126\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">4</text><text x=\"158\" y=\"162\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">6</text><text x=\"158\" y=\"198\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">8</text><text x=\"158\" y=\"234\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">10</text><path d=\"M140 50.0h14M140 59.0h7M140 68.0h7M140 77.0h7M140 86.0h14M140 95.0h7M140 104.0h7M140 113.0h7M140 122.0h14M140 131.0h7M140 140.0h7M140 149.0h7M140 158.0h14M140 167.0h7M140 176.0h7M140 185.0h7M140 194.0h14M140 203.0h7M140 212.0h7M140 221.0h7M140 230.0h14\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">N</text><polygon points=\"188,68 208,62 208,74\" fill=\"currentColor\"/><line x1=\"208\" y1=\"68\" x2=\"220\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"180\" y1=\"240\" x2=\"180\" y2=\"262\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M180 262 q0 8 -6 8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"270\" width=\"60\" height=\"40\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"295\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100 g</text></svg>"
+      },
       "markScheme": [
         "Indicative content:",
         "Check the newtonmeter reads zero with nothing attached (zero it).",
@@ -707,7 +800,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "An astronaut has a mass of 75 kg. She travels from the Earth (g = 9.8 N/kg) to the Moon (g = 1.6 N/kg).\nCompare her mass and weight on the Earth and on the Moon. Include calculations and explain your answers.",
+      "question": "An astronaut has a mass of 75 kg. She travels from the Earth to the Moon.\nTable 1 shows the gravitational field strength on the Earth and on the Moon.\nCompare the mass and weight of the astronaut on the Earth and on the Moon.\nInclude calculations and explain your answers.",
+      "table": {
+        "headers": [
+          "Place",
+          "Gravitational field strength in N/kg"
+        ],
+        "rows": [
+          [
+            "Earth",
+            "9.8"
+          ],
+          [
+            "Moon",
+            "1.6"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content:",
         "Mass is the amount of matter; it does not depend on location.",
