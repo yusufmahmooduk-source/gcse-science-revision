@@ -292,7 +292,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Complete the equation: ²¹⁰₈₄Po → X + ⁴₂He. What is X?",
+      "question": "A polonium nucleus decays by emitting an alpha particle.\n²¹⁰₈₄Po → X + ⁴₂He\nWhat is X?",
       "options": [
         "²¹⁰₈₂Pb",
         "²⁰⁶₈₂Pb",
@@ -311,7 +311,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Complete the equation: ¹³¹₅₃I → ¹³¹₅₄Xe + Y. What is Y?",
+      "question": "An iodine nucleus decays.\n¹³¹₅₃I → ¹³¹₅₄Xe + Y\nWhat is Y?",
       "options": [
         "⁴₂He",
         "¹₀n",
@@ -368,14 +368,15 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Uranium-238 emits an alpha particle. State the mass number of the nucleus formed.",
+      "question": "A nucleus of uranium-238 emits an alpha particle.\nWhat is the mass number of the nucleus formed?",
       "numericAnswer": 234,
       "tolerance": 0.01,
       "unit": "",
       "markScheme": [
         "1 mark: 234"
       ],
-      "explanation": "238 − 4 = 234. The alpha particle carries away 4 nucleons."
+      "explanation": "238 − 4 = 234. The alpha particle carries away 4 nucleons.",
+      "answerLabel": "Mass number"
     },
     {
       "id": "p4-nuclear-equations-q11",
@@ -383,14 +384,29 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Cobalt (atomic number 27) decays by beta emission to nickel. State the atomic number of nickel.",
+      "question": "Table 1 shows information about a cobalt nucleus.\nThe cobalt nucleus decays by beta emission to form a nickel nucleus.\nWhat is the atomic number of the nickel nucleus?",
       "numericAnswer": 28,
       "tolerance": 0.01,
       "unit": "",
       "markScheme": [
         "1 mark: 28"
       ],
-      "explanation": "Beta decay increases the atomic number by 1: 27 + 1 = 28."
+      "explanation": "Beta decay increases the atomic number by 1: 27 + 1 = 28.",
+      "table": {
+        "headers": [
+          "Nucleus",
+          "Mass number",
+          "Atomic number"
+        ],
+        "rows": [
+          [
+            "Cobalt-60",
+            "60",
+            "27"
+          ]
+        ]
+      },
+      "answerLabel": "Atomic number"
     },
     {
       "id": "p4-nuclear-equations-q12",
@@ -398,14 +414,29 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Americium-241 (atomic number 95) decays by alpha emission to neptunium (Np). State the atomic number of the neptunium nucleus.",
+      "question": "Table 1 shows information about an americium nucleus.\nThe americium nucleus decays by alpha emission to form a neptunium (Np) nucleus.\nWhat is the atomic number of the neptunium nucleus?",
       "numericAnswer": 93,
       "tolerance": 0.01,
       "unit": "",
       "markScheme": [
         "1 mark: 93"
       ],
-      "explanation": "Alpha decay reduces the atomic number by 2: 95 − 2 = 93. The mass number becomes 237."
+      "explanation": "Alpha decay reduces the atomic number by 2: 95 − 2 = 93. The mass number becomes 237.",
+      "table": {
+        "headers": [
+          "Nucleus",
+          "Mass number",
+          "Atomic number"
+        ],
+        "rows": [
+          [
+            "Americium-241",
+            "241",
+            "95"
+          ]
+        ]
+      },
+      "answerLabel": "Atomic number"
     },
     {
       "id": "p4-nuclear-equations-q13",
@@ -413,7 +444,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A nucleus with mass number 222 and atomic number 86 emits two alpha particles.\nCalculate the mass number of the nucleus formed.",
+      "question": "Table 1 shows information about a radon nucleus.\nThe radon nucleus emits two alpha particles, one after the other.\nCalculate the mass number of the nucleus formed.",
       "numericAnswer": 214,
       "tolerance": 0.01,
       "unit": "",
@@ -421,7 +452,22 @@
         "1 mark: each alpha reduces mass number by 4 (total 8)",
         "1 mark: 222 − 8 = 214"
       ],
-      "explanation": "Two alpha particles remove 2 × 4 = 8 nucleons."
+      "explanation": "Two alpha particles remove 2 × 4 = 8 nucleons.",
+      "table": {
+        "headers": [
+          "Nucleus",
+          "Mass number",
+          "Atomic number"
+        ],
+        "rows": [
+          [
+            "Radon-222",
+            "222",
+            "86"
+          ]
+        ]
+      },
+      "answerLabel": "Mass number"
     },
     {
       "id": "p4-nuclear-equations-q14",
@@ -429,7 +475,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A nucleus of bismuth-212 (atomic number 83) emits a beta particle and then an alpha particle.\nCalculate the atomic number of the final nucleus.",
+      "question": "Figure 1 shows how a nucleus of bismuth-212 decays by beta emission to form nucleus P.\nNucleus P then emits an alpha particle.\nDetermine the atomic number of the final nucleus.",
       "numericAnswer": 82,
       "tolerance": 0.01,
       "unit": "",
@@ -437,7 +483,11 @@
         "1 mark: after beta: 83 + 1 = 84",
         "1 mark: after alpha: 84 − 2 = 82"
       ],
-      "explanation": "Apply each step: beta raises Z by 1, alpha lowers it by 2. Net change −1, so 82."
+      "explanation": "Apply each step: beta raises Z by 1, alpha lowers it by 2. Net change −1, so 82.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 320\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"128.3\" y1=\"20\" x2=\"128.3\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"186.7\" y1=\"20\" x2=\"186.7\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"245\" y1=\"20\" x2=\"245\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"303.3\" y1=\"20\" x2=\"303.3\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"361.7\" y1=\"20\" x2=\"361.7\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"420\" y1=\"20\" x2=\"420\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"265\" x2=\"420\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"244.6\" x2=\"420\" y2=\"244.6\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"224.2\" x2=\"420\" y2=\"224.2\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"203.8\" x2=\"420\" y2=\"203.8\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"183.3\" x2=\"420\" y2=\"183.3\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"162.9\" x2=\"420\" y2=\"162.9\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"142.5\" x2=\"420\" y2=\"142.5\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"122.1\" x2=\"420\" y2=\"122.1\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"101.7\" x2=\"420\" y2=\"101.7\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"81.3\" x2=\"420\" y2=\"81.3\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"60.8\" x2=\"420\" y2=\"60.8\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"40.4\" x2=\"420\" y2=\"40.4\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.18\"/><line x1=\"70\" y1=\"20\" x2=\"420\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"70\" y1=\"265\" x2=\"420\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"128.33333333333331\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">81</text><text x=\"186.66666666666666\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">82</text><text x=\"245\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">83</text><text x=\"303.3333333333333\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">84</text><text x=\"361.6666666666667\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">85</text><text x=\"420\" y=\"282\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">86</text><text x=\"64\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">204</text><text x=\"64\" y=\"228.16666666666669\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">206</text><text x=\"64\" y=\"187.33333333333334\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">208</text><text x=\"64\" y=\"146.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">210</text><text x=\"64\" y=\"105.66666666666669\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">212</text><text x=\"64\" y=\"64.83333333333331\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">214</text><text x=\"64\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">216</text><text x=\"245\" y=\"308\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Atomic number</text><text x=\"16\" y=\"142.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 142.5)\">Mass number</text><circle cx=\"245\" cy=\"101.66666666666669\" r=\"5\" fill=\"currentColor\"/><circle cx=\"303.3333333333333\" cy=\"101.66666666666669\" r=\"5\" fill=\"currentColor\"/><line x1=\"252\" y1=\"101.66666666666669\" x2=\"295.3333333333333\" y2=\"101.66666666666669\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><text x=\"239\" y=\"89.66666666666669\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Bi-212</text><text x=\"313.3333333333333\" y=\"89.66666666666669\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">P</text><text x=\"274.1666666666667\" y=\"121.66666666666669\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">beta</text></svg>"
+      },
+      "answerLabel": "Atomic number"
     },
     {
       "id": "p4-nuclear-equations-q15",
@@ -445,7 +495,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Uranium-238 (atomic number 92) decays through a series of alpha and beta decays to lead-206 (atomic number 82).\nCalculate the number of beta decays in the series.",
+      "question": "Uranium-238 decays through a series of alpha and beta decays to form lead-206.\nTable 1 shows information about the first and last nuclei in the series.\nCalculate the number of beta decays in the series.",
       "numericAnswer": 6,
       "tolerance": 0.01,
       "unit": "",
@@ -454,7 +504,27 @@
         "1 mark: 8 alpha decays reduce atomic number by 16, to 76",
         "1 mark: 82 − 76 = 6 beta decays"
       ],
-      "explanation": "Only alpha decay changes the mass number, so find the alpha decays first (8). They lower Z by 16, but Z only fell by 10, so 6 beta decays each raised Z by 1."
+      "explanation": "Only alpha decay changes the mass number, so find the alpha decays first (8). They lower Z by 16, but Z only fell by 10, so 6 beta decays each raised Z by 1.",
+      "table": {
+        "headers": [
+          "Nucleus",
+          "Mass number",
+          "Atomic number"
+        ],
+        "rows": [
+          [
+            "Uranium-238",
+            "238",
+            "92"
+          ],
+          [
+            "Lead-206",
+            "206",
+            "82"
+          ]
+        ]
+      },
+      "answerLabel": "Number of beta decays"
     },
     {
       "id": "p4-nuclear-equations-q16",
@@ -640,7 +710,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Radon-220 (²²⁰₈₆Rn) decays by alpha emission to polonium (Po). The polonium then decays by alpha emission to lead (Pb). The lead then decays by beta emission to bismuth (Bi).\nWrite a balanced nuclear equation for each decay and explain how you checked each equation is balanced. Describe how the mass and charge of the nucleus change overall.",
+      "question": "Figure 1 shows part of a decay series that starts with radon-220.\nWrite a balanced nuclear equation for each decay in Figure 1 and explain how you checked that each equation is balanced.\nDescribe how the mass and charge of the nucleus change overall.",
       "markScheme": [
         "Indicative content: ²²⁰₈₆Rn → ²¹⁶₈₄Po + ⁴₂He; ²¹⁶₈₄Po → ²¹²₈₂Pb + ⁴₂He; ²¹²₈₂Pb → ²¹²₈₃Bi + ⁰₋₁e; checking: top numbers sum equally each side, bottom numbers sum equally each side (e.g. 220 = 216 + 4, 86 = 84 + 2; 82 = 83 + (−1)); overall mass number falls from 220 to 212 (by 8); atomic number falls from 86 to 83 (by 3), so charge of nucleus decreases overall; each alpha reduces mass and charge; beta increases charge, mass unchanged.",
         "Level 3 (5 to 6 marks): all three equations correct, a clear explanation of balancing, and a correct overall description of mass and charge changes.",
@@ -648,7 +718,10 @@
         "Level 1 (1 to 2 marks): one equation correct or correct statements about alpha/beta changes.",
         "0 marks: no relevant content."
       ],
-      "explanation": "Work step by step: 220 → 216 → 212 → 212 for mass number and 86 → 84 → 82 → 83 for atomic number."
+      "explanation": "Work step by step: 220 → 216 → 212 → 212 for mass number and 86 → 84 → 82 → 83 for atomic number.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 95\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"70\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"4\"/><text x=\"35\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">²²⁰₈₆Rn</text><line x1=\"74\" y1=\"60\" x2=\"112\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><text x=\"93\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">alpha</text><rect x=\"116\" y=\"40\" width=\"70\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"4\"/><text x=\"151\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Po</text><line x1=\"190\" y1=\"60\" x2=\"228\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><text x=\"209\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">alpha</text><rect x=\"232\" y=\"40\" width=\"70\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"4\"/><text x=\"267\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Pb</text><line x1=\"306\" y1=\"60\" x2=\"344\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><text x=\"325\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">beta</text><rect x=\"348\" y=\"40\" width=\"70\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"4\"/><text x=\"383\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Bi</text></svg>"
+      }
     }
   ]
 }

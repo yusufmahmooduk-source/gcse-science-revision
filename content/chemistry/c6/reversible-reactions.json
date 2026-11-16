@@ -269,7 +269,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Ammonium chloride is heated at the bottom of a test tube. What is seen near the cool top of the tube?",
+      "question": "A student heated ammonium chloride at the bottom of a test tube.\nFigure 1 shows the apparatus.\nWhat is seen near the cool top of the tube?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 290\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(40 0)\"><path d=\"M183 30 L183 175 A17 17 0 0 0 217 175 L217 30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M184.5 165 L184.5 175 A15.5 15.5 0 0 0 215.5 175 L215.5 165 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"176\" y=\"55\" width=\"48\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"224\" y1=\"61\" x2=\"300\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M190 268 L190 225 L210 225 L210 268\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"165\" y=\"268\" width=\"70\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M192 223 Q186 212 200 196 Q214 212 208 223 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"186\" y1=\"175\" x2=\"113\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"185\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Ammonium</text><text x=\"110\" y=\"201\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">chloride</text><line x1=\"217\" y1=\"90\" x2=\"257\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Cool part of tube</text><line x1=\"210\" y1=\"250\" x2=\"257\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"250\" font-size=\"13\" fill=\"currentColor\">Bunsen burner</text></g></svg>"
+      },
       "markScheme": [
         "1 mark: a white solid"
       ],
@@ -421,14 +424,15 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A sealed tube contains 2.14 g of ammonium chloride. It is heated until all of the ammonium chloride has decomposed.\nWhat is the total mass of ammonia and hydrogen chloride formed?",
+      "question": "A sealed tube contains 2.14 g of ammonium chloride. The tube is heated until all of the ammonium chloride has decomposed.\nDetermine the total mass of ammonia and hydrogen chloride formed.",
       "markScheme": [
         "1 mark: 2.14 g"
       ],
       "explanation": "Mass is conserved in a chemical reaction. No atoms are lost or gained, so the total mass of the products equals the mass of the ammonium chloride: 2.14 g.",
       "numericAnswer": 2.14,
       "tolerance": 0.01,
-      "unit": "g"
+      "unit": "g",
+      "answerLabel": "Total mass"
     },
     {
       "id": "c6-reversible-reactions-q13",
@@ -436,7 +440,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Heating 5.35 g of ammonium chloride in a sealed tube produces 1.70 g of ammonia and some hydrogen chloride.\nCalculate the mass of hydrogen chloride produced.",
+      "question": "A student heated ammonium chloride in a sealed tube. Ammonia and hydrogen chloride were produced.\nTable 1 shows the results.\nCalculate the mass of hydrogen chloride produced.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "Ammonium chloride heated",
+            "5.35"
+          ],
+          [
+            "Ammonia produced",
+            "1.70"
+          ],
+          [
+            "Hydrogen chloride produced",
+            "X"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: mass of HCl = 5.35 − 1.70",
         "1 mark: 3.65 g"
@@ -444,7 +468,8 @@
       "explanation": "Mass of reactant = mass of products, so mass of hydrogen chloride = 5.35 − 1.70 = 3.65 g. Check: 1.70 + 3.65 = 5.35 g.",
       "numericAnswer": 3.65,
       "tolerance": 0.01,
-      "unit": "g"
+      "unit": "g",
+      "answerLabel": "Mass of hydrogen chloride"
     },
     {
       "id": "c6-reversible-reactions-q14",
@@ -460,7 +485,8 @@
       "explanation": "Mr = 14 + 4 + 35.5 = 53.5. A common error is to count only one hydrogen atom, giving 50.5.",
       "numericAnswer": 53.5,
       "tolerance": 0.01,
-      "unit": ""
+      "unit": "",
+      "answerLabel": "Relative formula mass"
     },
     {
       "id": "c6-reversible-reactions-q15",
@@ -468,7 +494,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student heats 5.00 g of ammonium chloride in a test tube. After cooling, 4.28 g of white solid is collected from the top of the tube.\nCalculate the percentage of the ammonium chloride that reformed. Give your answer to 3 significant figures.",
+      "question": "A student heated ammonium chloride in a test tube. After cooling, the student collected the white solid from the top of the tube.\nTable 1 shows the results.\nCalculate the percentage of the ammonium chloride that reformed.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "Mass of ammonium chloride heated",
+            "5.00"
+          ],
+          [
+            "Mass of white solid collected",
+            "4.28"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: (4.28 ÷ 5.00) × 100",
         "1 mark: 85.6%"
@@ -476,7 +518,8 @@
       "explanation": "Percentage = 4.28 ÷ 5.00 × 100 = 85.6%. Less than 100% reforms because some gas escapes from the open tube or some solid is left on the glass elsewhere.",
       "numericAnswer": 85.6,
       "tolerance": 0.01,
-      "unit": "%"
+      "unit": "%",
+      "answerLabel": "Percentage reformed"
     },
     {
       "id": "c6-reversible-reactions-q16",
@@ -493,7 +536,8 @@
       "explanation": "Moles of NH₄Cl = 26.75 ÷ 53.5 = 0.5. The equation shows 1 NH₄Cl gives 1 NH₃, so 0.5 mol NH₃ forms. Mass = 0.5 × 17 = 8.5 g. Check: HCl would be 0.5 × 36.5 = 18.25 g, and 8.5 + 18.25 = 26.75 g.",
       "numericAnswer": 8.5,
       "tolerance": 0.01,
-      "unit": "g"
+      "unit": "g",
+      "answerLabel": "Mass of ammonia"
     },
     {
       "id": "c6-reversible-reactions-q17",
@@ -569,7 +613,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe what a student would observe when solid ammonium chloride is heated gently at the bottom of a test tube.",
+      "question": "Figure 1 shows a student heating solid ammonium chloride gently at the bottom of a test tube.\nDescribe what the student would observe.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 290\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(40 0)\"><path d=\"M183 30 L183 175 A17 17 0 0 0 217 175 L217 30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M184.5 165 L184.5 175 A15.5 15.5 0 0 0 215.5 175 L215.5 165 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"176\" y=\"55\" width=\"48\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"224\" y1=\"61\" x2=\"300\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M190 268 L190 225 L210 225 L210 268\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"165\" y=\"268\" width=\"70\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M192 223 Q186 212 200 196 Q214 212 208 223 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"186\" y1=\"175\" x2=\"113\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"185\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Ammonium</text><text x=\"110\" y=\"201\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">chloride</text><line x1=\"217\" y1=\"90\" x2=\"257\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Cool part of tube</text><line x1=\"210\" y1=\"250\" x2=\"257\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"250\" font-size=\"13\" fill=\"currentColor\">Bunsen burner</text></g></svg>"
+      },
       "markScheme": [
         "1 mark: white solid at the bottom gets less / disappears",
         "1 mark: white solid appears near the (cooler) top of the tube"
@@ -587,7 +634,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "When ammonium chloride is heated in a test tube, a white solid forms near the top of the tube.\nExplain why.",
+      "question": "Figure 1 shows ammonium chloride being heated in a test tube.\nA white solid forms near the top of the tube.\nExplain why.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 290\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(40 0)\"><path d=\"M183 30 L183 175 A17 17 0 0 0 217 175 L217 30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M184.5 165 L184.5 175 A15.5 15.5 0 0 0 215.5 175 L215.5 165 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"176\" y=\"55\" width=\"48\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"224\" y1=\"61\" x2=\"300\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M190 268 L190 225 L210 225 L210 268\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"165\" y=\"268\" width=\"70\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M192 223 Q186 212 200 196 Q214 212 208 223 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"186\" y1=\"175\" x2=\"113\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"185\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Ammonium</text><text x=\"110\" y=\"201\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">chloride</text><line x1=\"217\" y1=\"90\" x2=\"257\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Cool part of tube</text><line x1=\"210\" y1=\"250\" x2=\"257\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"250\" font-size=\"13\" fill=\"currentColor\">Bunsen burner</text></g></svg>"
+      },
       "markScheme": [
         "1 mark: ammonia and hydrogen chloride (gases) rise to the cooler part of the tube",
         "1 mark: they react (reverse reaction) to reform ammonium chloride"
@@ -660,7 +710,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe how a student could show that the decomposition of ammonium chloride is a reversible reaction. Include what they would observe.",
+      "question": "Figure 1 shows some apparatus that can be used to heat ammonium chloride.\nDescribe how a student could show that the decomposition of ammonium chloride is a reversible reaction.\nInclude what the student would observe.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 290\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(40 0)\"><path d=\"M183 30 L183 175 A17 17 0 0 0 217 175 L217 30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M184.5 165 L184.5 175 A15.5 15.5 0 0 0 215.5 175 L215.5 165 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"176\" y=\"55\" width=\"48\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"224\" y1=\"61\" x2=\"300\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M190 268 L190 225 L210 225 L210 268\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"165\" y=\"268\" width=\"70\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M192 223 Q186 212 200 196 Q214 212 208 223 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"186\" y1=\"175\" x2=\"113\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"185\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Ammonium</text><text x=\"110\" y=\"201\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">chloride</text><line x1=\"217\" y1=\"90\" x2=\"257\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Cool part of tube</text><line x1=\"210\" y1=\"250\" x2=\"257\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"260\" y=\"250\" font-size=\"13\" fill=\"currentColor\">Bunsen burner</text></g></svg>"
+      },
       "markScheme": [
         "Indicative content: place a small amount of ammonium chloride in the bottom of a test tube; clamp the tube at an angle (a loose plug of mineral wool can be placed in the mouth); heat the bottom gently with a Bunsen burner; work in a fume cupboard or well-ventilated room because ammonia and hydrogen chloride are toxic or irritant; wear eye protection; observe the white solid at the bottom getting smaller; observe a white solid forming on the cooler upper part of the tube; this shows ammonium chloride ⇌ ammonia + hydrogen chloride, with heating causing the forward reaction and cooling causing the reverse reaction.",
         "Level 2 (3 to 4 marks): a clear, logical method with observations at both ends of the tube, linked to forward and reverse reactions.",

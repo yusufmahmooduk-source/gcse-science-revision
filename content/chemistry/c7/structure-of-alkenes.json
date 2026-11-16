@@ -247,7 +247,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the formula of propene?",
+      "question": "Figure 1 shows the displayed formula of propene.\nWhat is the molecular formula of propene?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 320 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"133\" y1=\"57.5\" x2=\"151\" y2=\"57.5\"/><line x1=\"133\" y1=\"62.5\" x2=\"151\" y2=\"62.5\"/><line x1=\"169\" y1=\"60\" x2=\"187\" y2=\"60\"/><line x1=\"124\" y1=\"51\" x2=\"124\" y2=\"33\"/><line x1=\"124\" y1=\"69\" x2=\"124\" y2=\"87\"/><line x1=\"160\" y1=\"51\" x2=\"160\" y2=\"33\"/><line x1=\"205\" y1=\"60\" x2=\"223\" y2=\"60\"/><line x1=\"196\" y1=\"51\" x2=\"196\" y2=\"33\"/><line x1=\"196\" y1=\"69\" x2=\"196\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"124\" y=\"65\">C</text><text x=\"160\" y=\"65\">C</text><text x=\"196\" y=\"65\">C</text><text x=\"124\" y=\"29\">H</text><text x=\"124\" y=\"101\">H</text><text x=\"160\" y=\"29\">H</text><text x=\"232\" y=\"65\">H</text><text x=\"196\" y=\"29\">H</text><text x=\"196\" y=\"101\">H</text></g></svg>"
+      },
       "options": [
         "C₃H₈",
         "C₃H₄",
@@ -266,7 +269,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which of these compounds is an alkene?",
+      "question": "Which compound is an alkene?",
       "options": [
         "C₄H₈",
         "C₄H₁₀",
@@ -304,7 +307,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the name of C₅H₁₀?",
+      "question": "An alkene has the formula C₅H₁₀.\nWhat is the name of this alkene?",
       "options": [
         "Pentane",
         "Butene",
@@ -323,7 +326,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many hydrogen atoms does an alkene have compared with the alkane with the same number of carbon atoms?",
+      "question": "An alkene and an alkane have the same number of carbon atoms.\nHow many hydrogen atoms does the alkene have compared with the alkane?",
       "options": [
         "Two more",
         "The same",
@@ -342,7 +345,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which statement about members of a homologous series is NOT true?",
+      "question": "Which statement about the members of a homologous series is not correct?",
       "options": [
         "They have the same general formula",
         "They have the same functional group",
@@ -361,7 +364,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "In a displayed formula of propene, how many single C–H bonds are there?",
+      "question": "Figure 1 shows the displayed formula of propene.\nHow many C–H bonds are shown in Figure 1?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 320 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"133\" y1=\"57.5\" x2=\"151\" y2=\"57.5\"/><line x1=\"133\" y1=\"62.5\" x2=\"151\" y2=\"62.5\"/><line x1=\"169\" y1=\"60\" x2=\"187\" y2=\"60\"/><line x1=\"124\" y1=\"51\" x2=\"124\" y2=\"33\"/><line x1=\"124\" y1=\"69\" x2=\"124\" y2=\"87\"/><line x1=\"160\" y1=\"51\" x2=\"160\" y2=\"33\"/><line x1=\"205\" y1=\"60\" x2=\"223\" y2=\"60\"/><line x1=\"196\" y1=\"51\" x2=\"196\" y2=\"33\"/><line x1=\"196\" y1=\"69\" x2=\"196\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"124\" y=\"65\">C</text><text x=\"160\" y=\"65\">C</text><text x=\"196\" y=\"65\">C</text><text x=\"124\" y=\"29\">H</text><text x=\"124\" y=\"101\">H</text><text x=\"160\" y=\"29\">H</text><text x=\"232\" y=\"65\">H</text><text x=\"196\" y=\"29\">H</text><text x=\"196\" y=\"101\">H</text></g></svg>"
+      },
       "options": [
         "8",
         "6",
@@ -380,10 +386,40 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "How many hydrogen atoms are in an alkene molecule with 7 carbon atoms?",
+      "question": "Table 1 shows the formulae of the first four alkenes.\nAn alkene has 7 carbon atoms in each molecule.\nHow many hydrogen atoms does one molecule of this alkene contain?",
+      "table": {
+        "headers": [
+          "Name of alkene",
+          "Number of carbon atoms",
+          "Molecular formula"
+        ],
+        "rows": [
+          [
+            "Ethene",
+            "2",
+            "C₂H₄"
+          ],
+          [
+            "Propene",
+            "3",
+            "C₃H₆"
+          ],
+          [
+            "Butene",
+            "4",
+            "C₄H₈"
+          ],
+          [
+            "Pentene",
+            "5",
+            "C₅H₁₀"
+          ]
+        ]
+      },
       "numericAnswer": 14,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of hydrogen atoms",
       "markScheme": [
         "1 mark: 14"
       ],
@@ -395,10 +431,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of propene, C₃H₆. (Ar: C = 12, H = 1)",
+      "question": "Propene has the formula C₃H₆.\nCalculate the relative formula mass (Mr) of propene.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 42,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass (Mr)",
       "markScheme": [
         "1 mark: (3 × 12) + (6 × 1)",
         "1 mark: 42"
@@ -411,10 +448,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of butene, C₄H₈. (Ar: C = 12, H = 1)",
+      "question": "Butene has the formula C₄H₈.\nCalculate the relative formula mass (Mr) of butene.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 56,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass (Mr)",
       "markScheme": [
         "1 mark: (4 × 12) + (8 × 1)",
         "1 mark: 56"
@@ -427,10 +465,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "An alkene has a relative formula mass of 112. Calculate the number of carbon atoms in one molecule. (Ar: C = 12, H = 1)",
+      "question": "An alkene has a relative formula mass (Mr) of 112.\nCalculate the number of carbon atoms in one molecule of the alkene.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 8,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of carbon atoms",
       "markScheme": [
         "1 mark: Mr of CₙH₂ₙ = 12n + 2n = 14n",
         "1 mark: 14n = 112",
@@ -444,10 +483,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Calculate the difference in relative formula mass between pentane (C₅H₁₂) and pentene (C₅H₁₀). (Ar: C = 12, H = 1)",
+      "question": "Pentane has the formula C₅H₁₂ and pentene has the formula C₅H₁₀.\nCalculate the difference between the relative formula masses (Mr) of pentane and pentene.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 2,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Difference in Mr",
       "markScheme": [
         "1 mark: pentane 72, pentene 70",
         "1 mark: difference = 2"
@@ -460,7 +500,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Name the alkene with the formula C₂H₄.",
+      "question": "Figure 1 shows the displayed formula of an alkene with the formula C₂H₄.\nName the alkene shown in Figure 1.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 320 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"151\" y1=\"57.5\" x2=\"169\" y2=\"57.5\"/><line x1=\"151\" y1=\"62.5\" x2=\"169\" y2=\"62.5\"/><line x1=\"142\" y1=\"51\" x2=\"142\" y2=\"33\"/><line x1=\"142\" y1=\"69\" x2=\"142\" y2=\"87\"/><line x1=\"178\" y1=\"51\" x2=\"178\" y2=\"33\"/><line x1=\"178\" y1=\"69\" x2=\"178\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"142\" y=\"65\">C</text><text x=\"178\" y=\"65\">C</text><text x=\"142\" y=\"29\">H</text><text x=\"142\" y=\"101\">H</text><text x=\"178\" y=\"29\">H</text><text x=\"178\" y=\"101\">H</text></g></svg>"
+      },
       "acceptedAnswers": [
         "ethene"
       ],
@@ -475,7 +518,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the functional group present in all alkenes.",
+      "question": "Give the functional group present in all alkenes.",
       "acceptedAnswers": [
         "C=C",
         "carbon carbon double bond",
@@ -492,7 +535,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe the displayed formula of ethene.",
+      "question": "Describe the displayed formula of ethene, C₂H₄.",
       "acceptedAnswers": [
         "two carbon atoms joined by a double bond",
         "each carbon bonded to two hydrogen atoms"
@@ -509,7 +552,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why ethene, C₂H₄, is unsaturated but ethane, C₂H₆, is saturated.",
+      "question": "Figure 1 shows the displayed formulae of ethane and ethene.\nExplain why ethene is unsaturated but ethane is saturated.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"69\" y1=\"60\" x2=\"87\" y2=\"60\"/><line x1=\"51\" y1=\"60\" x2=\"33\" y2=\"60\"/><line x1=\"60\" y1=\"51\" x2=\"60\" y2=\"33\"/><line x1=\"60\" y1=\"69\" x2=\"60\" y2=\"87\"/><line x1=\"105\" y1=\"60\" x2=\"123\" y2=\"60\"/><line x1=\"96\" y1=\"51\" x2=\"96\" y2=\"33\"/><line x1=\"96\" y1=\"69\" x2=\"96\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"60\" y=\"65\">C</text><text x=\"96\" y=\"65\">C</text><text x=\"24\" y=\"65\">H</text><text x=\"60\" y=\"29\">H</text><text x=\"60\" y=\"101\">H</text><text x=\"132\" y=\"65\">H</text><text x=\"96\" y=\"29\">H</text><text x=\"96\" y=\"101\">H</text></g><text x=\"78\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ethane, C₂H₆</text><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"309\" y1=\"57.5\" x2=\"327\" y2=\"57.5\"/><line x1=\"309\" y1=\"62.5\" x2=\"327\" y2=\"62.5\"/><line x1=\"300\" y1=\"51\" x2=\"300\" y2=\"33\"/><line x1=\"300\" y1=\"69\" x2=\"300\" y2=\"87\"/><line x1=\"336\" y1=\"51\" x2=\"336\" y2=\"33\"/><line x1=\"336\" y1=\"69\" x2=\"336\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"300\" y=\"65\">C</text><text x=\"336\" y=\"65\">C</text><text x=\"300\" y=\"29\">H</text><text x=\"300\" y=\"101\">H</text><text x=\"336\" y=\"29\">H</text><text x=\"336\" y=\"101\">H</text></g><text x=\"318\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ethene, C₂H₄</text></svg>"
+      },
       "acceptedAnswers": [
         "ethene has a double bond",
         "ethane only single bonds",
@@ -546,7 +592,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Write the molecular formula of the alkene with 9 carbon atoms and state whether it is saturated or unsaturated.",
+      "question": "An alkene has 9 carbon atoms in each molecule.\nGive the molecular formula of this alkene.\nState whether the alkene is saturated or unsaturated.",
       "acceptedAnswers": [
         "C₉H₁₈",
         "unsaturated"
@@ -580,7 +626,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Use ideas about bonding to explain why an alkene has two fewer hydrogen atoms than the alkane with the same number of carbon atoms.",
+      "question": "Figure 1 shows the displayed formulae of ethane and ethene.\nUse ideas about bonding to explain why an alkene has two fewer hydrogen atoms than the alkane with the same number of carbon atoms.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"69\" y1=\"60\" x2=\"87\" y2=\"60\"/><line x1=\"51\" y1=\"60\" x2=\"33\" y2=\"60\"/><line x1=\"60\" y1=\"51\" x2=\"60\" y2=\"33\"/><line x1=\"60\" y1=\"69\" x2=\"60\" y2=\"87\"/><line x1=\"105\" y1=\"60\" x2=\"123\" y2=\"60\"/><line x1=\"96\" y1=\"51\" x2=\"96\" y2=\"33\"/><line x1=\"96\" y1=\"69\" x2=\"96\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"60\" y=\"65\">C</text><text x=\"96\" y=\"65\">C</text><text x=\"24\" y=\"65\">H</text><text x=\"60\" y=\"29\">H</text><text x=\"60\" y=\"101\">H</text><text x=\"132\" y=\"65\">H</text><text x=\"96\" y=\"29\">H</text><text x=\"96\" y=\"101\">H</text></g><text x=\"78\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ethane, C₂H₆</text><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"309\" y1=\"57.5\" x2=\"327\" y2=\"57.5\"/><line x1=\"309\" y1=\"62.5\" x2=\"327\" y2=\"62.5\"/><line x1=\"300\" y1=\"51\" x2=\"300\" y2=\"33\"/><line x1=\"300\" y1=\"69\" x2=\"300\" y2=\"87\"/><line x1=\"336\" y1=\"51\" x2=\"336\" y2=\"33\"/><line x1=\"336\" y1=\"69\" x2=\"336\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"300\" y=\"65\">C</text><text x=\"336\" y=\"65\">C</text><text x=\"300\" y=\"29\">H</text><text x=\"300\" y=\"101\">H</text><text x=\"336\" y=\"29\">H</text><text x=\"336\" y=\"101\">H</text></g><text x=\"318\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ethene, C₂H₄</text></svg>"
+      },
       "acceptedAnswers": [
         "each carbon forms four bonds",
         "double bond uses two bonds",
@@ -599,7 +648,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A hydrocarbon has the formula C₆H₁₀. Deduce whether it is an alkane or an alkene and explain your answer.",
+      "question": "A hydrocarbon has the formula C₆H₁₀.\nIs the hydrocarbon an alkane, an alkene or neither?\nExplain your answer.",
       "acceptedAnswers": [
         "neither",
         "not an alkene",
@@ -617,7 +666,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Compare the structures of propane (C₃H₈) and propene (C₃H₆). Refer to bonding, general formulae and the meaning of saturated and unsaturated.",
+      "question": "Figure 1 shows the displayed formulae of propane and propene.\nCompare the structures of propane and propene.\nIn your answer, refer to bonding, general formulae and the meaning of saturated and unsaturated.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"59\" y1=\"60\" x2=\"77\" y2=\"60\"/><line x1=\"95\" y1=\"60\" x2=\"113\" y2=\"60\"/><line x1=\"41\" y1=\"60\" x2=\"23\" y2=\"60\"/><line x1=\"50\" y1=\"51\" x2=\"50\" y2=\"33\"/><line x1=\"50\" y1=\"69\" x2=\"50\" y2=\"87\"/><line x1=\"86\" y1=\"51\" x2=\"86\" y2=\"33\"/><line x1=\"86\" y1=\"69\" x2=\"86\" y2=\"87\"/><line x1=\"131\" y1=\"60\" x2=\"149\" y2=\"60\"/><line x1=\"122\" y1=\"51\" x2=\"122\" y2=\"33\"/><line x1=\"122\" y1=\"69\" x2=\"122\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"50\" y=\"65\">C</text><text x=\"86\" y=\"65\">C</text><text x=\"122\" y=\"65\">C</text><text x=\"14\" y=\"65\">H</text><text x=\"50\" y=\"29\">H</text><text x=\"50\" y=\"101\">H</text><text x=\"86\" y=\"29\">H</text><text x=\"86\" y=\"101\">H</text><text x=\"158\" y=\"65\">H</text><text x=\"122\" y=\"29\">H</text><text x=\"122\" y=\"101\">H</text></g><text x=\"86\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Propane, C₃H₈</text><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"309\" y1=\"57.5\" x2=\"327\" y2=\"57.5\"/><line x1=\"309\" y1=\"62.5\" x2=\"327\" y2=\"62.5\"/><line x1=\"345\" y1=\"60\" x2=\"363\" y2=\"60\"/><line x1=\"300\" y1=\"51\" x2=\"300\" y2=\"33\"/><line x1=\"300\" y1=\"69\" x2=\"300\" y2=\"87\"/><line x1=\"336\" y1=\"51\" x2=\"336\" y2=\"33\"/><line x1=\"381\" y1=\"60\" x2=\"399\" y2=\"60\"/><line x1=\"372\" y1=\"51\" x2=\"372\" y2=\"33\"/><line x1=\"372\" y1=\"69\" x2=\"372\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"300\" y=\"65\">C</text><text x=\"336\" y=\"65\">C</text><text x=\"372\" y=\"65\">C</text><text x=\"300\" y=\"29\">H</text><text x=\"300\" y=\"101\">H</text><text x=\"336\" y=\"29\">H</text><text x=\"408\" y=\"65\">H</text><text x=\"372\" y=\"29\">H</text><text x=\"372\" y=\"101\">H</text></g><text x=\"336\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Propene, C₃H₆</text></svg>"
+      },
       "markScheme": [
         "Indicative content: both are hydrocarbons with three carbon atoms; propane is an alkane with only single C–C bonds; propene is an alkene with one C=C double bond; propane fits CₙH₂ₙ₊₂, propene fits CₙH₂ₙ; propene has two fewer H atoms; propane is saturated, propene is unsaturated; each carbon forms four bonds in both.",
         "Level 2 (3 to 4 marks): clear comparison of bonding and formulae, correct use of saturated and unsaturated.",
@@ -631,7 +683,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A student is given four hydrocarbons: A C₂H₄, B C₄H₁₀, C C₅H₁₀, D C₆H₁₄.\nClassify each as an alkane or an alkene, name the compounds where you can, and explain how the alkenes' structure differs from that of the alkanes. Explain why the alkenes form a homologous series.",
+      "question": "Table 1 shows the formulae of four hydrocarbons, A, B, C and D.\nClassify each hydrocarbon as an alkane or an alkene, and name the compounds where you can.\nExplain how the structure of the alkenes differs from the structure of the alkanes.\nExplain why the alkenes form a homologous series.",
+      "table": {
+        "headers": [
+          "Hydrocarbon",
+          "Formula"
+        ],
+        "rows": [
+          [
+            "A",
+            "C₂H₄"
+          ],
+          [
+            "B",
+            "C₄H₁₀"
+          ],
+          [
+            "C",
+            "C₅H₁₀"
+          ],
+          [
+            "D",
+            "C₆H₁₄"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: A C₂H₄ fits CₙH₂ₙ, alkene, ethene; B C₄H₁₀ fits CₙH₂ₙ₊₂, alkane, butane; C C₅H₁₀ alkene, pentene; D C₆H₁₄ alkane (hexane, name not required); alkenes contain a C=C double bond, alkanes only single bonds; alkenes are unsaturated, alkanes saturated; alkenes have two fewer H atoms; alkenes share the general formula CₙH₂ₙ and the functional group C=C; ethene and pentene differ by three CH₂ units; similar chemical reactions; gradual trend in physical properties.",
         "Level 3 (5 to 6 marks): all four classified correctly with reasons from the general formulae, named where possible, clear structural difference and a full description of a homologous series.",
@@ -647,7 +723,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which of these is a displayed formula feature of butene, C₄H₈?",
+      "question": "Butene has the formula C₄H₈.\nWhich statement describes the displayed formula of butene?",
       "options": [
         "Four carbon atoms with only single bonds",
         "Four carbon atoms with one C=C double bond",

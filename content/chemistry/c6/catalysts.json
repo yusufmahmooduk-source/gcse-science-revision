@@ -264,7 +264,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How does the reaction profile for a catalysed reaction differ from the profile for the same reaction without a catalyst?",
+      "question": "Figure 1 shows the reaction profile for a reaction without a catalyst.\nHow does the reaction profile for the catalysed reaction differ from the profile in Figure 1?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"240\" x2=\"50\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"50,18 46.3,24 53.8,24\" fill=\"currentColor\"/><line x1=\"50\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"30\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 30 130)\">Energy</text><text x=\"225\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M65 93 L120 93 C165 93 170 46.8 210 46.8 C250 46.8 235 187.5 280 187.5 L390 187.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"67\" y=\"85\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "options": [
         "The products are at a lower energy",
         "The reactants are at a higher energy",
@@ -302,12 +305,41 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A student adds 0.5 g of each of four solids to separate samples of hydrogen peroxide. Which result shows that the solid is a catalyst?",
+      "question": "A student added 0.5 g of each of four solids, A, B, C and D, to separate samples of hydrogen peroxide.\nTable 1 shows the results.\nWhich solid is a catalyst?",
+      "table": {
+        "headers": [
+          "Solid",
+          "Effect on rate of reaction",
+          "Mass of solid recovered in g"
+        ],
+        "rows": [
+          [
+            "A",
+            "No change",
+            "0.5"
+          ],
+          [
+            "B",
+            "Faster",
+            "0.1"
+          ],
+          [
+            "C",
+            "Slower",
+            "0.5"
+          ],
+          [
+            "D",
+            "Faster",
+            "0.5"
+          ]
+        ]
+      },
       "options": [
-        "Solid A: no change in rate; 0.5 g recovered",
-        "Solid B: faster rate; 0.1 g recovered",
-        "Solid C: slower rate; 0.5 g recovered",
-        "Solid D: faster rate; 0.5 g recovered"
+        "Solid A",
+        "Solid B",
+        "Solid C",
+        "Solid D"
       ],
       "answer": 3,
       "markScheme": [
@@ -397,14 +429,15 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "0.50 g of manganese(IV) oxide is added to hydrogen peroxide as a catalyst. After the reaction it is filtered, washed and dried. What mass of manganese(IV) oxide would you expect to recover?",
+      "question": "0.50 g of manganese(IV) oxide is added to hydrogen peroxide as a catalyst.\nAfter the reaction the manganese(IV) oxide is filtered, washed and dried.\nWhat mass of manganese(IV) oxide would you expect to recover?",
       "numericAnswer": 0.5,
       "tolerance": 0.02,
       "unit": "g",
       "markScheme": [
         "1 mark: 0.50 g"
       ],
-      "explanation": "A catalyst is not used up, so the same mass is recovered (allowing for small practical losses)."
+      "explanation": "A catalyst is not used up, so the same mass is recovered (allowing for small practical losses).",
+      "answerLabel": "Mass"
     },
     {
       "id": "c6-catalysts-q13",
@@ -412,14 +445,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "On a reaction profile, the reactants are at 50 kJ and the peak of the catalysed reaction is at 120 kJ. Calculate the activation energy of the catalysed reaction.",
+      "question": "Figure 1 shows the reaction profiles for a reaction with and without a catalyst.\nDetermine the activation energy of the catalysed reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 187.5 L140 187.5 C185 187.5 185 40.5 225 40.5 C265 40.5 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><path d=\"M85 187.5 L140 187.5 C185 187.5 185 114 225 114 C265 114 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"87\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"221.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text><line x1=\"290\" y1=\"48\" x2=\"312\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"318\" y=\"52\" font-size=\"12\" fill=\"currentColor\">Without catalyst</text><line x1=\"290\" y1=\"68\" x2=\"312\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"318\" y=\"72\" font-size=\"12\" fill=\"currentColor\">With catalyst</text></svg>"
+      },
       "numericAnswer": 70,
       "tolerance": 0.01,
       "unit": "kJ",
       "markScheme": [
         "1 mark: 120 − 50 = 70 kJ"
       ],
-      "explanation": "Activation energy is measured from the reactants to the peak: 120 − 50 = 70 kJ."
+      "explanation": "From Figure 1 the reactants are at 50 kJ and the peak of the catalysed (dashed) curve is at 120 kJ. Activation energy is measured from the reactants to the peak: 120 − 50 = 70 kJ.",
+      "answerLabel": "Activation energy"
     },
     {
       "id": "c6-catalysts-q14",
@@ -427,7 +464,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "On a reaction profile, the reactants are at 50 kJ. The peak without a catalyst is at 190 kJ and with a catalyst is at 120 kJ. Calculate by how much the catalyst lowers the activation energy.",
+      "question": "Figure 1 shows the reaction profiles for a reaction with and without a catalyst.\nDetermine by how much the catalyst lowers the activation energy.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 187.5 L140 187.5 C185 187.5 185 40.5 225 40.5 C265 40.5 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><path d=\"M85 187.5 L140 187.5 C185 187.5 185 114 225 114 C265 114 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"87\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"221.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text><line x1=\"290\" y1=\"48\" x2=\"312\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"318\" y=\"52\" font-size=\"12\" fill=\"currentColor\">Without catalyst</text><line x1=\"290\" y1=\"68\" x2=\"312\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"318\" y=\"72\" font-size=\"12\" fill=\"currentColor\">With catalyst</text></svg>"
+      },
       "numericAnswer": 70,
       "tolerance": 0.01,
       "unit": "kJ",
@@ -435,7 +475,8 @@
         "1 mark: without catalyst 190 − 50 = 140 kJ; with catalyst 120 − 50 = 70 kJ",
         "1 mark: 140 − 70 = 70 kJ"
       ],
-      "explanation": "The difference between the two peaks is 190 − 120 = 70 kJ, which is the reduction in activation energy."
+      "explanation": "From Figure 1 the reactants are at 50 kJ, the peak without a catalyst is at 190 kJ and the peak with a catalyst is at 120 kJ. The difference between the two peaks is 190 − 120 = 70 kJ, which is the reduction in activation energy.",
+      "answerLabel": "Decrease in activation energy"
     },
     {
       "id": "c6-catalysts-q15",
@@ -443,14 +484,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "With a catalyst, 60 cm³ of oxygen is produced from hydrogen peroxide in 20 s. Calculate the mean rate of reaction.",
+      "question": "Hydrogen peroxide decomposes when a catalyst is added. 60 cm³ of oxygen is produced in 20 s.\nCalculate the mean rate of reaction.",
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "cm³/s",
       "markScheme": [
         "1 mark: 60 ÷ 20 = 3.0 cm³/s"
       ],
-      "explanation": "Mean rate = volume of product ÷ time = 60 ÷ 20 = 3.0 cm³/s."
+      "explanation": "Mean rate = volume of product ÷ time = 60 ÷ 20 = 3.0 cm³/s.",
+      "answerLabel": "Mean rate"
     },
     {
       "id": "c6-catalysts-q16",
@@ -458,7 +500,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "On a reaction profile the reactants are at 50 kJ and the products are at 10 kJ. The peak without a catalyst is at 190 kJ. A catalyst lowers the peak to 120 kJ. Calculate the overall energy change of the catalysed reaction.",
+      "question": "Figure 1 shows the reaction profiles for a reaction with and without a catalyst.\nDetermine the overall energy change of the catalysed reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 187.5 L140 187.5 C185 187.5 185 40.5 225 40.5 C265 40.5 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><path d=\"M85 187.5 L140 187.5 C185 187.5 185 114 225 114 C265 114 255 229.5 300 229.5 L390 229.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"87\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"221.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text><line x1=\"290\" y1=\"48\" x2=\"312\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"318\" y=\"52\" font-size=\"12\" fill=\"currentColor\">Without catalyst</text><line x1=\"290\" y1=\"68\" x2=\"312\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"318\" y=\"72\" font-size=\"12\" fill=\"currentColor\">With catalyst</text></svg>"
+      },
       "numericAnswer": -40,
       "tolerance": 0.01,
       "unit": "kJ",
@@ -466,7 +511,8 @@
         "1 mark: overall energy change = products − reactants = 10 − 50",
         "1 mark: = −40 kJ (unchanged by the catalyst)"
       ],
-      "explanation": "The catalyst only changes the height of the peak. The overall energy change is still 10 − 50 = −40 kJ. The peak values are not needed."
+      "explanation": "From Figure 1 the reactants are at 50 kJ and the products are at 10 kJ. The catalyst only changes the height of the peak, so the overall energy change is still 10 − 50 = −40 kJ. The peak values are not needed.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c6-catalysts-q17",
@@ -474,7 +520,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Without a catalyst it takes 120 s to collect 50 cm³ of oxygen from hydrogen peroxide. With a catalyst it takes 15 s to collect the same volume. How many times greater is the mean rate with the catalyst?",
+      "question": "A student collected 50 cm³ of oxygen from hydrogen peroxide, with and without a catalyst.\nTable 1 shows the results.\nCalculate how many times greater the mean rate is with the catalyst.",
+      "table": {
+        "headers": [
+          "Experiment",
+          "Time to collect 50 cm³ of oxygen in s"
+        ],
+        "rows": [
+          [
+            "Without catalyst",
+            "120"
+          ],
+          [
+            "With catalyst",
+            "15"
+          ]
+        ]
+      },
       "numericAnswer": 8,
       "tolerance": 0.01,
       "unit": "",
@@ -482,7 +544,8 @@
         "1 mark: mean rates 50 ÷ 120 = 0.42 cm³/s and 50 ÷ 15 = 3.3 cm³/s (or uses ratio of times)",
         "1 mark: 120 ÷ 15 = 8 times"
       ],
-      "explanation": "For the same volume, rate is inversely proportional to time, so the rate is 120 ÷ 15 = 8 times greater."
+      "explanation": "For the same volume, rate is inversely proportional to time, so the rate is 120 ÷ 15 = 8 times greater.",
+      "answerLabel": "Number of times greater"
     },
     {
       "id": "c6-catalysts-q18",
@@ -641,7 +704,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 6,
-      "question": "A student wants to find out which of three metal oxides is the best catalyst for the decomposition of hydrogen peroxide (2H₂O₂ → 2H₂O + O₂), and to show that the best one is a catalyst. Plan an investigation that would give valid results.",
+      "question": "A student wants to find out which of three metal oxides is the best catalyst for the decomposition of hydrogen peroxide:\n2H₂O₂ → 2H₂O + O₂\nThe student also wants to show that the best metal oxide is a catalyst.\nFigure 1 shows some of the apparatus the student could use.\nPlan an investigation that would give valid results.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 265\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(50 0)\"><path d=\"M72.8 205 L51 248 L149 248 L127.2 205 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M88 135 L88 170 L50 245 Q48 250 55 250 L145 250 Q152 250 150 245 L112 170 L112 135\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"86\" y=\"128\" width=\"28\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M96 128 L96 70 L210 70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M104 128 L104 78 L210 78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"210\" y=\"56\" width=\"170\" height=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"226\" y1=\"56\" x2=\"226\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"242\" y1=\"56\" x2=\"242\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"258\" y1=\"56\" x2=\"258\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"274\" y1=\"56\" x2=\"274\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"56\" x2=\"290\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"306\" y1=\"56\" x2=\"306\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"322\" y1=\"56\" x2=\"322\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"338\" y1=\"56\" x2=\"338\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"354\" y1=\"56\" x2=\"354\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"290\" y=\"60\" width=\"6\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.6\"/><line x1=\"296\" y1=\"74\" x2=\"410\" y2=\"74\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"410\" y1=\"62\" x2=\"410\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"300\" y1=\"92\" x2=\"317\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"320\" y=\"130\" font-size=\"13\" fill=\"currentColor\">Gas syringe</text><line x1=\"110\" y1=\"228\" x2=\"187\" y2=\"221\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"190\" y=\"225\" font-size=\"13\" fill=\"currentColor\">Hydrogen peroxide</text><text x=\"190\" y=\"241\" font-size=\"13\" fill=\"currentColor\">and metal oxide</text><line x1=\"65\" y1=\"200\" x2=\"43\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"40\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Conical flask</text><line x1=\"86\" y1=\"137\" x2=\"43\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"40\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Bung</text></g></svg>"
+      },
       "markScheme": [
         "Indicative content: measure a fixed volume (for example 25 cm³) of hydrogen peroxide of fixed concentration into a conical flask; weigh a fixed mass (for example 0.5 g) of the first metal oxide; add it, quickly insert a bung connected to a gas syringe (or upturned measuring cylinder) and start a timer; record the volume of oxygen at regular time intervals (for example every 10 s) or the volume collected in a fixed time; repeat with each oxide; control: same volume and concentration of hydrogen peroxide, same mass and particle size (powder) of oxide, same temperature; repeat each test and calculate means; also carry out a control with no oxide; compare rates (steepest graph or largest volume in fixed time is the best catalyst); calculate mean rates in cm³/s; to show it is a catalyst: weigh the oxide before, filter, wash and dry it after the reaction and reweigh: the mass is unchanged; it does not appear in the equation.",
         "Level 3 (5 to 6 marks): a coherent, logically ordered method with measurement of gas volume over time, clear control variables, repeats, a fair comparison of the oxides and a method to show the oxide is not used up.",

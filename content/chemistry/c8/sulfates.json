@@ -236,7 +236,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the white precipitate in a positive sulfate test?",
+      "question": "Figure 1 shows a student testing a solution for sulfate ions.\nA white precipitate forms.\nWhat is the white precipitate?",
       "options": [
         "Barium sulfate",
         "Barium chloride",
@@ -247,7 +247,10 @@
       "markScheme": [
         "1 mark: Barium sulfate"
       ],
-      "explanation": "Barium ions and sulfate ions form insoluble barium sulfate. Barium chloride is the soluble reagent."
+      "explanation": "Barium ions and sulfate ions form insoluble barium sulfate. Barium chloride is the soluble reagent.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 270\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M182 182.5 V232 A18 18 0 0 0 218 232 V182.5 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M182 100 V232 A18 18 0 0 0 218 232 V100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"188\" cy=\"242\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"237\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"202\" cy=\"232\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"227\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"191\" cy=\"222\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"198\" cy=\"239\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"234\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"212\" cy=\"229\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"194\" cy=\"224\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"201\" cy=\"241\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"208\" cy=\"236\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"231\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"197\" cy=\"226\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"204\" cy=\"221\" r=\"2.5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M191 20 Q191 4 200 4 Q209 4 209 20 V36 H191 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M196 36 V70 L200 80 L204 70 V36\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M200 90 Q196 96 200 99 Q204 96 200 90 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"209\" y1=\"25\" x2=\"250\" y2=\"25\" stroke=\"currentColor\"/><text x=\"254\" y=\"29\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">barium chloride solution</text><line x1=\"218\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"currentColor\"/><text x=\"254\" y=\"184\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">sample + dilute hydrochloric acid</text><line x1=\"210\" y1=\"238\" x2=\"250\" y2=\"238\" stroke=\"currentColor\"/><text x=\"254\" y=\"242\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">white precipitate</text></svg>"
+      }
     },
     {
       "id": "c8-sulfates-q04",
@@ -331,7 +334,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "A solution gives a white precipitate with sodium hydroxide that dissolves in excess, and a white precipitate with acidified barium chloride. What is it?",
+      "question": "Table 1 shows the results of tests on a solution.\nWhat is the compound in the solution?",
       "options": [
         "Magnesium sulfate",
         "Calcium chloride",
@@ -342,7 +345,27 @@
       "markScheme": [
         "1 mark: Aluminium sulfate"
       ],
-      "explanation": "White precipitate dissolving in excess NaOH shows Al³⁺; white precipitate with acidified BaCl₂ shows SO₄²⁻."
+      "explanation": "White precipitate dissolving in excess NaOH shows Al³⁺; white precipitate with acidified BaCl₂ shows SO₄²⁻.",
+      "table": {
+        "headers": [
+          "Test",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Add a few drops of sodium hydroxide solution",
+            "White precipitate"
+          ],
+          [
+            "Add excess sodium hydroxide solution",
+            "Precipitate dissolves"
+          ],
+          [
+            "Add dilute hydrochloric acid, then barium chloride solution",
+            "White precipitate"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-sulfates-q09",
@@ -350,7 +373,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student adds barium chloride (without acid) to an unknown solution and sees a white precipitate. She then adds dilute hydrochloric acid; the mixture fizzes and the precipitate disappears. What does this show?",
+      "question": "A student tested an unknown solution.\nThe student did not add acid before adding barium chloride.\nTable 1 shows the results.\nWhat do the results show?",
       "options": [
         "Sulfate ions are present",
         "Carbonate ions are present, not sulfate",
@@ -361,7 +384,23 @@
       "markScheme": [
         "1 mark: Carbonate ions are present, not sulfate"
       ],
-      "explanation": "Barium carbonate reacts with acid (fizzing CO₂) and dissolves; barium sulfate would not. This shows why acid must be added first."
+      "explanation": "Barium carbonate reacts with acid (fizzing CO₂) and dissolves; barium sulfate would not. This shows why acid must be added first.",
+      "table": {
+        "headers": [
+          "Step",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Add barium chloride solution",
+            "White precipitate forms"
+          ],
+          [
+            "Then add dilute hydrochloric acid",
+            "Fizzing and the precipitate disappears"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-sulfates-q10",
@@ -493,7 +532,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "Required practical 7: a solution gives a yellow flame and a white precipitate with dilute hydrochloric acid and barium chloride. Name the compound and give its formula.",
+      "question": "Required practical 7: a student tested a solution.\nTable 1 shows the results.\nName the compound in the solution and give its formula.",
       "acceptedAnswers": [
         "sodium sulfate",
         "Na₂SO₄"
@@ -502,7 +541,23 @@
         "1 mark: sodium sulfate",
         "1 mark: Na₂SO₄"
       ],
-      "explanation": "Yellow flame shows Na⁺; acidified barium chloride shows SO₄²⁻; two Na⁺ balance one SO₄²⁻."
+      "explanation": "Yellow flame shows Na⁺; acidified barium chloride shows SO₄²⁻; two Na⁺ balance one SO₄²⁻.",
+      "table": {
+        "headers": [
+          "Test",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Flame test",
+            "Yellow flame"
+          ],
+          [
+            "Add dilute hydrochloric acid, then barium chloride solution",
+            "White precipitate"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-sulfates-q18",
@@ -588,7 +643,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Barium sulfate is given to patients before X-rays of the digestive system. Which property makes this safe, even though soluble barium compounds are toxic?",
+      "question": "Barium sulfate is given to patients before X-rays of the digestive system.\nSoluble barium compounds are toxic.\nTable 1 shows the solubility of two barium compounds.\nWhich property makes barium sulfate safe to use?",
       "options": [
         "It is insoluble, so it is not absorbed into the blood",
         "It is white",
@@ -599,7 +654,23 @@
       "markScheme": [
         "1 mark: It is insoluble, so it is not absorbed into the blood"
       ],
-      "explanation": "Being insoluble, barium sulfate passes through the gut without dissolving into the body."
+      "explanation": "Being insoluble, barium sulfate passes through the gut without dissolving into the body.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Solubility in g per 100 g of water at 20 °C"
+        ],
+        "rows": [
+          [
+            "Barium chloride",
+            "36"
+          ],
+          [
+            "Barium sulfate",
+            "0.0002"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-sulfates-q23",
@@ -626,7 +697,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "Three tests are carried out on solution P. Dilute nitric acid and silver nitrate: no precipitate. Dilute hydrochloric acid and barium chloride: white precipitate. Sodium hydroxide: blue precipitate. What is P?",
+      "question": "Table 1 shows the results of three tests on solution P.\nWhat is solution P?",
       "options": [
         "Copper(II) chloride",
         "Copper(II) sulfate",
@@ -637,7 +708,27 @@
       "markScheme": [
         "1 mark: Copper(II) sulfate"
       ],
-      "explanation": "No halide; sulfate present; Cu²⁺ from the blue hydroxide. So copper(II) sulfate."
+      "explanation": "No halide; sulfate present; Cu²⁺ from the blue hydroxide. So copper(II) sulfate.",
+      "table": {
+        "headers": [
+          "Test",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Add dilute nitric acid, then silver nitrate solution",
+            "No precipitate"
+          ],
+          [
+            "Add dilute hydrochloric acid, then barium chloride solution",
+            "White precipitate"
+          ],
+          [
+            "Add sodium hydroxide solution",
+            "Blue precipitate"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-sulfates-q25",

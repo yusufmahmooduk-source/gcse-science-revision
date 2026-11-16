@@ -210,7 +210,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which gas is NOT a greenhouse gas?",
+      "question": "Which gas is not a greenhouse gas?",
       "options": [
         "Water vapour",
         "Carbon dioxide",
@@ -248,7 +248,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What type of radiation does the Earth's surface emit?",
+      "question": "Figure 1 shows how radiation passes through the Earth's atmosphere.\nArrows A, B, C and D show radiation.\nArrow B shows radiation emitted by the Earth's surface.\nWhat type of radiation is shown by arrow B?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"40\" r=\"28\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"50\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sun</text><rect x=\"10\" y=\"100\" width=\"480\" height=\"80\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"480\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Atmosphere</text><rect x=\"10\" y=\"250\" width=\"480\" height=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"480\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Earth's surface</text><circle cx=\"300\" cy=\"140\" r=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"312\" y=\"158\" font-size=\"12\" fill=\"currentColor\">Greenhouse gas molecule</text><path d=\"M75 65L175 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M175 248L168.7 243L174.2 240Z\" fill=\"currentColor\"/><text x=\"132\" y=\"150\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><path d=\"M240 248L295 147\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M295 147L294.2 155L288.7 152Z\" fill=\"currentColor\"/><text x=\"252\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">B</text><path d=\"M305 147L360 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360 248L353.7 243L359.2 240Z\" fill=\"currentColor\"/><text x=\"343\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">C</text><path d=\"M300 133L300 70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 70L303.1 77.4L296.9 77.4Z\" fill=\"currentColor\"/><text x=\"308\" y=\"85\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">D</text><text x=\"310\" y=\"60\" font-size=\"12\" fill=\"currentColor\">To space</text></svg>"
+      },
       "options": [
         "Short wavelength radiation",
         "Long wavelength radiation",
@@ -362,7 +365,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Why does the Moon, which has almost no atmosphere, have very large temperature changes between day and night?",
+      "question": "The Moon has almost no atmosphere.\nTable 1 shows typical daytime and night-time surface temperatures on the Moon and on the Earth.\nWhy does the Moon have much larger temperature changes between day and night than the Earth?",
+      "table": {
+        "headers": [
+          "Body",
+          "Daytime temperature in °C",
+          "Night-time temperature in °C"
+        ],
+        "rows": [
+          [
+            "Moon",
+            "120",
+            "−130"
+          ],
+          [
+            "Earth",
+            "20",
+            "10"
+          ]
+        ]
+      },
       "options": [
         "It is further from the Sun than the Earth.",
         "There are no greenhouse gases to absorb and re-emit long wavelength radiation.",
@@ -381,14 +403,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The Earth's average surface temperature is about 15 °C. Without greenhouse gases it would be about −18 °C. Calculate the difference in temperature.",
+      "question": "Table 1 shows the Earth's average surface temperature with and without greenhouse gases.\nCalculate the difference in temperature.",
+      "table": {
+        "headers": [
+          "Atmosphere",
+          "Average surface temperature in °C"
+        ],
+        "rows": [
+          [
+            "With greenhouse gases",
+            "15"
+          ],
+          [
+            "Without greenhouse gases",
+            "−18"
+          ]
+        ]
+      },
       "numericAnswer": 33,
       "tolerance": 0.01,
       "unit": "°C",
       "markScheme": [
         "1 mark: 15 − (−18) = 33 °C"
       ],
-      "explanation": "Subtracting a negative number is the same as adding: 15 + 18 = 33 °C. A common error is 15 − 18 = −3."
+      "explanation": "Subtracting a negative number is the same as adding: 15 + 18 = 33 °C. A common error is 15 − 18 = −3.",
+      "answerLabel": "Difference in temperature"
     },
     {
       "id": "c9-greenhouse-gases-q12",
@@ -396,7 +435,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: the Earth's surface emits 400 units of long wavelength radiation. 340 units are absorbed by greenhouse gases. Calculate the percentage that is absorbed.",
+      "question": "Table 1 shows what happens to the long wavelength radiation emitted by the Earth's surface.\nCalculate the percentage of the radiation that is absorbed by greenhouse gases.",
+      "table": {
+        "headers": [
+          "Radiation",
+          "Amount in units"
+        ],
+        "rows": [
+          [
+            "Emitted by the Earth's surface",
+            "400"
+          ],
+          [
+            "Absorbed by greenhouse gases",
+            "340"
+          ]
+        ]
+      },
       "numericAnswer": 85,
       "tolerance": 0.01,
       "unit": "%",
@@ -404,7 +459,8 @@
         "1 mark: 340 ÷ 400 × 100",
         "1 mark: 85%"
       ],
-      "explanation": "340 ÷ 400 = 0.85, which is 85%."
+      "explanation": "340 ÷ 400 = 0.85, which is 85%.",
+      "answerLabel": "Percentage absorbed"
     },
     {
       "id": "c9-greenhouse-gases-q13",
@@ -412,7 +468,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: of 340 units of radiation reaching the top of the atmosphere from the Sun, 100 units are reflected back to space. Calculate the percentage that is NOT reflected. Give your answer to 3 significant figures.",
+      "question": "Table 1 shows what happens to radiation from the Sun that reaches the top of the atmosphere.\nCalculate the percentage of the radiation that is not reflected back to space.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Radiation from the Sun",
+          "Amount in units"
+        ],
+        "rows": [
+          [
+            "Reaching the top of the atmosphere",
+            "340"
+          ],
+          [
+            "Reflected back to space",
+            "100"
+          ]
+        ]
+      },
       "numericAnswer": 70.6,
       "tolerance": 0.01,
       "unit": "%",
@@ -420,7 +492,8 @@
         "1 mark: 340 − 100 = 240 units not reflected",
         "1 mark: 240 ÷ 340 × 100 = 70.6%"
       ],
-      "explanation": "240 ÷ 340 = 0.7059, which is 70.6% to 3 significant figures."
+      "explanation": "240 ÷ 340 = 0.7059, which is 70.6% to 3 significant figures.",
+      "answerLabel": "Percentage not reflected"
     },
     {
       "id": "c9-greenhouse-gases-q14",
@@ -428,7 +501,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Infrared radiation emitted by the Earth has a wavelength of about 10 μm. Visible light from the Sun has a wavelength of about 0.5 μm.\nCalculate how many times longer the infrared wavelength is.",
+      "question": "Table 1 shows the approximate wavelengths of two types of radiation.\nCalculate how many times longer the wavelength of the infrared radiation is than the wavelength of the visible light.",
+      "table": {
+        "headers": [
+          "Type of radiation",
+          "Wavelength in μm"
+        ],
+        "rows": [
+          [
+            "Infrared radiation emitted by the Earth",
+            "10"
+          ],
+          [
+            "Visible light from the Sun",
+            "0.5"
+          ]
+        ]
+      },
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "",
@@ -436,7 +525,8 @@
         "1 mark: 10 ÷ 0.5",
         "1 mark: 20"
       ],
-      "explanation": "10 ÷ 0.5 = 20, so the infrared radiation emitted by the Earth has a wavelength about 20 times longer."
+      "explanation": "10 ÷ 0.5 = 20, so the infrared radiation emitted by the Earth has a wavelength about 20 times longer.",
+      "answerLabel": "Number of times longer"
     },
     {
       "id": "c9-greenhouse-gases-q15",
@@ -444,7 +534,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Visible light from the Sun has a wavelength of about 500 nm. Convert 500 nm into μm. (1 μm = 1000 nm)",
+      "question": "Visible light from the Sun has a wavelength of about 500 nm.\n1 μm = 1000 nm\nConvert 500 nm into μm.",
       "numericAnswer": 0.5,
       "tolerance": 0.01,
       "unit": "μm",
@@ -452,7 +542,8 @@
         "1 mark: 500 ÷ 1000",
         "1 mark: 0.5 μm"
       ],
-      "explanation": "There are 1000 nm in 1 μm, so divide by 1000: 500 ÷ 1000 = 0.5 μm. Comparing with the 10 μm infrared from the Earth shows the outgoing radiation has a much longer wavelength."
+      "explanation": "There are 1000 nm in 1 μm, so divide by 1000: 500 ÷ 1000 = 0.5 μm. Comparing with the 10 μm infrared from the Earth shows the outgoing radiation has a much longer wavelength.",
+      "answerLabel": "Wavelength"
     },
     {
       "id": "c9-greenhouse-gases-q16",
@@ -551,7 +642,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe the difference between the radiation arriving at the Earth from the Sun and the radiation emitted by the Earth's surface.",
+      "question": "Figure 1 shows how radiation passes through the Earth's atmosphere.\nArrows A, B, C and D show radiation.\nDescribe the differences between radiation A and radiation B.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"40\" r=\"28\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"50\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sun</text><rect x=\"10\" y=\"100\" width=\"480\" height=\"80\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"480\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Atmosphere</text><rect x=\"10\" y=\"250\" width=\"480\" height=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"480\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Earth's surface</text><circle cx=\"300\" cy=\"140\" r=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"312\" y=\"158\" font-size=\"12\" fill=\"currentColor\">Greenhouse gas molecule</text><path d=\"M75 65L175 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M175 248L168.7 243L174.2 240Z\" fill=\"currentColor\"/><text x=\"132\" y=\"150\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><path d=\"M240 248L295 147\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M295 147L294.2 155L288.7 152Z\" fill=\"currentColor\"/><text x=\"252\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">B</text><path d=\"M305 147L360 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360 248L353.7 243L359.2 240Z\" fill=\"currentColor\"/><text x=\"343\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">C</text><path d=\"M300 133L300 70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 70L303.1 77.4L296.9 77.4Z\" fill=\"currentColor\"/><text x=\"308\" y=\"85\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">D</text><text x=\"310\" y=\"60\" font-size=\"12\" fill=\"currentColor\">To space</text></svg>"
+      },
       "acceptedAnswers": [
         "short wavelength",
         "long wavelength",
@@ -659,7 +753,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Explain the greenhouse effect in terms of the interaction of short and long wavelength radiation with matter. Explain why the greenhouse effect is necessary for life but why scientists are concerned about increases in greenhouse gases.",
+      "question": "Figure 1 shows how radiation passes through the Earth's atmosphere.\nArrows A, B, C and D show radiation.\nExplain the greenhouse effect in terms of the interaction of short and long wavelength radiation with matter.\nExplain why the greenhouse effect is necessary for life, and why scientists are concerned about increases in greenhouse gases.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"40\" r=\"28\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"50\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sun</text><rect x=\"10\" y=\"100\" width=\"480\" height=\"80\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"480\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Atmosphere</text><rect x=\"10\" y=\"250\" width=\"480\" height=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"480\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Earth's surface</text><circle cx=\"300\" cy=\"140\" r=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"312\" y=\"158\" font-size=\"12\" fill=\"currentColor\">Greenhouse gas molecule</text><path d=\"M75 65L175 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M175 248L168.7 243L174.2 240Z\" fill=\"currentColor\"/><text x=\"132\" y=\"150\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><path d=\"M240 248L295 147\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M295 147L294.2 155L288.7 152Z\" fill=\"currentColor\"/><text x=\"252\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">B</text><path d=\"M305 147L360 248\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360 248L353.7 243L359.2 240Z\" fill=\"currentColor\"/><text x=\"343\" y=\"200\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">C</text><path d=\"M300 133L300 70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 70L303.1 77.4L296.9 77.4Z\" fill=\"currentColor\"/><text x=\"308\" y=\"85\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">D</text><text x=\"310\" y=\"60\" font-size=\"12\" fill=\"currentColor\">To space</text></svg>"
+      },
       "markScheme": [
         "Indicative content: Sun emits short wavelength radiation; passes through atmosphere (little absorption by gases); absorbed by Earth's surface, which warms; surface emits long wavelength (infrared) radiation; greenhouse gas molecules (water vapour, carbon dioxide, methane) absorb long wavelength radiation; re-emit in all directions including back to the surface; lower atmosphere and surface kept warmer; without it Earth about −18 °C, too cold for most life and liquid water; increasing greenhouse gases means more absorption and re-emission, so average temperature rises; leads to global climate change.",
         "Level 3 (5 to 6 marks): full and correct description of short and long wavelength radiation interactions, with clear explanation of both the need for the greenhouse effect and the concern about increases.",

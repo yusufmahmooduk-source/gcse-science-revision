@@ -267,7 +267,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the largest single source of background radiation for most people in the UK?",
+      "question": "Figure 1 shows the sources of background radiation for a person living in the UK.\nWhat is the largest single source of background radiation?",
       "options": [
         "Nuclear power stations",
         "Cosmic rays",
@@ -278,7 +278,10 @@
       "markScheme": [
         "1 mark: Radon gas"
       ],
-      "explanation": "Radon gas, released from rocks such as granite, gives the largest share of the average UK dose."
+      "explanation": "Radon gas, released from rocks such as granite, gives the largest share of the average UK dose.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M240 140L240 40A100 100 0 0 1 252.5 239.2Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"319.8\" y1=\"135\" x2=\"357.8\" y2=\"132.6\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"361.76715395453607\" y=\"136.590718695541\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Radon gas 48%</text><path d=\"M240 140L252.5 239.2A100 100 0 0 1 167.1 208.5Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"212.9\" y1=\"215.3\" x2=\"200\" y2=\"251\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"196.02892541105564\" y=\"255.02393073659863\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Medical 15%</text><path d=\"M240 140L167.1 208.5A100 100 0 0 1 140.8 127.5Z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"163.9\" y1=\"164.7\" x2=\"127.8\" y2=\"176.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"123.77533107717188\" y=\"180.46400533624382\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Ground and buildings 14%</text><path d=\"M240 140L140.8 127.5A100 100 0 0 1 171.5 67.1Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"168.7\" y1=\"103.7\" x2=\"134.9\" y2=\"86.4\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130.8612301457726\" y=\"90.42912103073348\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Food and drink 11%</text><path d=\"M240 140L171.5 67.1A100 100 0 0 1 227.5 40.8Z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"205.9\" y1=\"67.6\" x2=\"189.8\" y2=\"33.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"185.75804359532148\" y=\"37.23040780900966\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Cosmic rays 10%</text><path d=\"M240 140L227.5 40.8A100 100 0 0 1 240 40Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"235\" y1=\"60.2\" x2=\"232.6\" y2=\"22.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228.59071869554103\" y=\"26.23284604546396\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Other 2%</text></svg>"
+      }
     },
     {
       "id": "p4-background-radiation-q05",
@@ -362,14 +365,15 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Convert 0.003 Sv into millisieverts.",
+      "question": "A worker receives a radiation dose of 0.003 Sv.\nWhat is this dose in millisieverts?",
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "mSv",
       "markScheme": [
         "1 mark: 3 mSv"
       ],
-      "explanation": "0.003 × 1000 = 3 mSv."
+      "explanation": "0.003 × 1000 = 3 mSv.",
+      "answerLabel": "Dose"
     },
     {
       "id": "p4-background-radiation-q10",
@@ -377,14 +381,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Convert 450 mSv into sieverts.",
+      "question": "A patient receives a radiation dose of 450 mSv during a course of treatment.\nWhat is this dose in sieverts?",
       "numericAnswer": 0.45,
       "tolerance": 0.01,
       "unit": "Sv",
       "markScheme": [
         "1 mark: 0.45 Sv"
       ],
-      "explanation": "Divide by 1000: 450 ÷ 1000 = 0.45 Sv."
+      "explanation": "Divide by 1000: 450 ÷ 1000 = 0.45 Sv.",
+      "answerLabel": "Dose"
     },
     {
       "id": "p4-background-radiation-q11",
@@ -392,7 +397,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A Geiger-Muller tube records a count rate of 54 counts per minute from a source. The background count rate is 18 counts per minute.\nCalculate the count rate due to the source.",
+      "question": "Table 1 shows two count rates measured by a student using a Geiger-Muller tube.\nCalculate the count rate due to the source.",
       "numericAnswer": 36,
       "tolerance": 0.01,
       "unit": "counts/min",
@@ -400,7 +405,24 @@
         "1 mark: 54 − 18",
         "1 mark: 36 counts/min"
       ],
-      "explanation": "Subtract background: 54 − 18 = 36 counts/min."
+      "explanation": "Subtract background: 54 − 18 = 36 counts/min.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Count rate in counts per minute"
+        ],
+        "rows": [
+          [
+            "With the source",
+            "54"
+          ],
+          [
+            "Background (no source)",
+            "18"
+          ]
+        ]
+      },
+      "answerLabel": "Count rate"
     },
     {
       "id": "p4-background-radiation-q12",
@@ -408,7 +430,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The average annual background dose in the UK is 2.7 mSv. About 48% of this comes from radon.\nCalculate the annual dose from radon.",
+      "question": "Figure 1 shows the sources of background radiation for a person living in the UK.\nThe average annual background radiation dose in the UK is 2.7 mSv.\nCalculate the annual dose from radon gas.",
       "numericAnswer": 1.296,
       "tolerance": 0.02,
       "unit": "mSv",
@@ -416,7 +438,11 @@
         "1 mark: 0.48 × 2.7",
         "1 mark: 1.3 mSv (1.296)"
       ],
-      "explanation": "48% of 2.7 = 0.48 × 2.7 = 1.296 mSv, about 1.3 mSv."
+      "explanation": "48% of 2.7 = 0.48 × 2.7 = 1.296 mSv, about 1.3 mSv.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M240 140L240 40A100 100 0 0 1 252.5 239.2Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"319.8\" y1=\"135\" x2=\"357.8\" y2=\"132.6\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"361.76715395453607\" y=\"136.590718695541\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Radon gas 48%</text><path d=\"M240 140L252.5 239.2A100 100 0 0 1 167.1 208.5Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"212.9\" y1=\"215.3\" x2=\"200\" y2=\"251\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"196.02892541105564\" y=\"255.02393073659863\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Medical 15%</text><path d=\"M240 140L167.1 208.5A100 100 0 0 1 140.8 127.5Z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"163.9\" y1=\"164.7\" x2=\"127.8\" y2=\"176.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"123.77533107717188\" y=\"180.46400533624382\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Ground and buildings 14%</text><path d=\"M240 140L140.8 127.5A100 100 0 0 1 171.5 67.1Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"168.7\" y1=\"103.7\" x2=\"134.9\" y2=\"86.4\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130.8612301457726\" y=\"90.42912103073348\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Food and drink 11%</text><path d=\"M240 140L171.5 67.1A100 100 0 0 1 227.5 40.8Z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"205.9\" y1=\"67.6\" x2=\"189.8\" y2=\"33.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"185.75804359532148\" y=\"37.23040780900966\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Cosmic rays 10%</text><path d=\"M240 140L227.5 40.8A100 100 0 0 1 240 40Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"235\" y1=\"60.2\" x2=\"232.6\" y2=\"22.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228.59071869554103\" y=\"26.23284604546396\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Other 2%</text></svg>"
+      },
+      "answerLabel": "Annual dose from radon gas"
     },
     {
       "id": "p4-background-radiation-q13",
@@ -424,7 +450,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A pilot receives an extra dose of 0.005 mSv for each hour of flying. She flies 600 hours a year. Her dose from other background sources is 2.7 mSv per year.\nCalculate her total annual dose in sieverts.",
+      "question": "Table 1 gives information about the radiation dose received by an airline pilot.\nCalculate her total annual dose in sieverts.\nGive your answer in standard form.",
       "numericAnswer": 0.0057,
       "tolerance": 0.01,
       "unit": "Sv",
@@ -433,7 +459,28 @@
         "1 mark: total = 3.0 + 2.7 = 5.7 mSv",
         "1 mark: 5.7 ÷ 1000 = 0.0057 Sv (5.7 × 10⁻³ Sv)"
       ],
-      "explanation": "Calculate in mSv first, then convert. Her dose is more than double the UK average because of her job."
+      "explanation": "Calculate in mSv first, then convert. Her dose is more than double the UK average because of her job.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Extra dose for each hour of flying in mSv",
+            "0.005"
+          ],
+          [
+            "Number of hours flown each year",
+            "600"
+          ],
+          [
+            "Dose from other background sources in mSv per year",
+            "2.7"
+          ]
+        ]
+      },
+      "answerLabel": "Total annual dose"
     },
     {
       "id": "p4-background-radiation-q14",
@@ -441,7 +488,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A detector records 1500 counts in 5 minutes near a source. With the source removed, it records 120 counts in 4 minutes.\nCalculate the count rate due to the source in counts per minute.",
+      "question": "Table 1 shows the results of an investigation using a detector.\nCalculate the count rate due to the source.",
       "numericAnswer": 270,
       "tolerance": 0.01,
       "unit": "counts/min",
@@ -450,7 +497,27 @@
         "1 mark: background = 120 ÷ 4 = 30 counts/min",
         "1 mark: 300 − 30 = 270 counts/min"
       ],
-      "explanation": "The two readings are over different times, so convert both to rates before subtracting."
+      "explanation": "The two readings are over different times, so convert both to rates before subtracting.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Number of counts",
+          "Time in minutes"
+        ],
+        "rows": [
+          [
+            "With the source",
+            "1500",
+            "5"
+          ],
+          [
+            "Source removed",
+            "120",
+            "4"
+          ]
+        ]
+      },
+      "answerLabel": "Count rate"
     },
     {
       "id": "p4-background-radiation-q15",
@@ -572,7 +639,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Scientists measure the background count rate three times: 21, 18 and 24 counts per minute. Explain why the readings are different and how the scientists should use them.",
+      "question": "Scientists measure the background count rate three times.\nTable 1 shows the results.\nExplain why the readings are different and how the scientists should use them.",
       "acceptedAnswers": [
         "random",
         "radioactive decay is random",
@@ -583,7 +650,27 @@
         "1 mark: radioactive decay is random, so the number of counts varies",
         "1 mark: calculate the mean (21 counts per minute) and subtract it from the readings"
       ],
-      "explanation": "Repeating and averaging reduces the effect of random variation: (21 + 18 + 24) ÷ 3 = 21."
+      "explanation": "Repeating and averaging reduces the effect of random variation: (21 + 18 + 24) ÷ 3 = 21.",
+      "table": {
+        "headers": [
+          "Reading",
+          "Background count rate in counts per minute"
+        ],
+        "rows": [
+          [
+            "1",
+            "21"
+          ],
+          [
+            "2",
+            "18"
+          ],
+          [
+            "3",
+            "24"
+          ]
+        ]
+      }
     },
     {
       "id": "p4-background-radiation-q22",

@@ -326,7 +326,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "An object's momentum changes by the same amount, but the time taken for the change is doubled. What happens to the force?",
+      "question": "The momentum of an object changes by a certain amount. The time taken for the change is then doubled, but the change in momentum is the same.\nWhat happens to the force on the object?",
       "options": [
         "It doubles.",
         "It halves.",
@@ -383,7 +383,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A 0.20 kg ball hits a wall at 10 m/s. In which case is the change in momentum of the ball largest?",
+      "question": "Figure 1 shows a ball moving towards a wall.\nIn which case is the change in momentum of the ball largest?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 140\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"340\" y=\"20\" width=\"22\" height=\"100\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"351\" y=\"136\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wall</text><circle cx=\"200\" cy=\"75\" r=\"16\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"112\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Ball, mass 0.20 kg</text><line x1=\"100\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"178,75 169.1,79.5 169.1,70.5\" fill=\"currentColor\"/><text x=\"135\" y=\"62\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10 m/s</text></svg>"
+      },
       "options": [
         "The ball sticks to the wall.",
         "The ball rebounds at 5 m/s.",
@@ -448,7 +451,8 @@
         "1 mark: change in momentum = 0.50 × (20 − 0)",
         "1 mark: 10 kg m/s"
       ],
-      "explanation": "mΔv = 0.50 × 20 = 10 kg m/s."
+      "explanation": "mΔv = 0.50 × 20 = 10 kg m/s.",
+      "answerLabel": "Change in momentum"
     },
     {
       "id": "p5-changes-in-momentum-q12",
@@ -456,7 +460,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "A ball of mass 0.50 kg is kicked from rest to 20 m/s. The kick lasts 0.050 s.\nCalculate the average force on the ball.",
+      "question": "A ball of mass 0.50 kg is kicked from rest to a velocity of 20 m/s. The kick lasts 0.050 s.\nCalculate the average force on the ball.",
       "numericAnswer": 200,
       "tolerance": 0.01,
       "unit": "N",
@@ -464,7 +468,8 @@
         "1 mark: F = 0.50 × 20 ÷ 0.050",
         "1 mark: 200 N"
       ],
-      "explanation": "F = mΔv ÷ Δt = 10 ÷ 0.050 = 200 N."
+      "explanation": "F = mΔv ÷ Δt = 10 ÷ 0.050 = 200 N.",
+      "answerLabel": "Average force"
     },
     {
       "id": "p5-changes-in-momentum-q13",
@@ -472,7 +477,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 3,
-      "question": "A car of mass 1000 kg travelling at 20 m/s is brought to rest by a constant braking force of 5000 N.\nCalculate the time taken for the car to stop.",
+      "question": "Figure 1 shows a car. A constant braking force brings the car to rest.\nCalculate the time taken for the car to stop.\nUse the equation:\nforce = change in momentum ÷ time taken",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"10\" y1=\"125\" x2=\"410\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M150 109.4 V88.34 H176.4 L192 59.17999999999999 H231.60000000000002 L246 80.24 H270 V109.4 Z\" fill=\"#93c5fd\" stroke=\"currentColor\" stroke-width=\"1.5\" fill-opacity=\"0.5\"/><circle cx=\"176.4\" cy=\"109.4\" r=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"246\" cy=\"109.4\" r=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"92\" x2=\"83\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"75,92 83.9,87.5 83.9,96.5\" fill=\"currentColor\"/><text x=\"105\" y=\"80\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Braking force</text><text x=\"105\" y=\"110\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5000 N</text><line x1=\"285\" y1=\"70\" x2=\"337\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"345,70 336.1,74.5 336.1,65.5\" fill=\"currentColor\"/><text x=\"315\" y=\"57\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20 m/s</text><text x=\"210\" y=\"158\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Mass of car = 1000 kg</text></svg>"
+      },
       "numericAnswer": 4,
       "tolerance": 0.01,
       "unit": "s",
@@ -481,7 +489,8 @@
         "1 mark: Δt = mΔv ÷ F = 20 000 ÷ 5000",
         "1 mark: 4.0 s"
       ],
-      "explanation": "Rearranging F = mΔv ÷ Δt gives Δt = mΔv ÷ F."
+      "explanation": "Rearranging F = mΔv ÷ Δt gives Δt = mΔv ÷ F.",
+      "answerLabel": "Time"
     },
     {
       "id": "p5-changes-in-momentum-q14",
@@ -489,7 +498,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "A passenger of mass 70 kg is travelling at 15 m/s when the car crashes. Without a seat belt, the passenger hits the dashboard and stops in 0.10 s.\nCalculate the average force on the passenger.",
+      "question": "A passenger of mass 70 kg is travelling at 15 m/s when the car crashes. The passenger is not wearing a seat belt. The passenger hits the dashboard and stops in 0.10 s.\nCalculate the average force on the passenger.\nUse the equation:\nF = m Δv ÷ Δt",
       "numericAnswer": 10500,
       "tolerance": 0.01,
       "unit": "N",
@@ -497,7 +506,8 @@
         "1 mark: F = 70 × 15 ÷ 0.10",
         "1 mark: 10 500 N"
       ],
-      "explanation": "mΔv = 1050 kg m/s; F = 1050 ÷ 0.10 = 10 500 N."
+      "explanation": "mΔv = 1050 kg m/s; F = 1050 ÷ 0.10 = 10 500 N.",
+      "answerLabel": "Average force"
     },
     {
       "id": "p5-changes-in-momentum-q15",
@@ -505,7 +515,27 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "A passenger of mass 70 kg is travelling at 15 m/s when the car crashes. The passenger wears a seat belt, which stretches and brings them to rest in 0.75 s.\nCalculate the average force on the passenger.",
+      "question": "Table 1 gives information about a passenger in a car crash. The passenger wears a seat belt, which stretches and brings the passenger to rest.\nCalculate the average force on the passenger.",
+      "table": {
+        "headers": [
+          "Quantity",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Mass of passenger",
+            "70 kg"
+          ],
+          [
+            "Velocity before the crash",
+            "15 m/s"
+          ],
+          [
+            "Time taken to stop",
+            "0.75 s"
+          ]
+        ]
+      },
       "numericAnswer": 1400,
       "tolerance": 0.01,
       "unit": "N",
@@ -513,7 +543,8 @@
         "1 mark: F = 70 × 15 ÷ 0.75",
         "1 mark: 1400 N"
       ],
-      "explanation": "The same change in momentum over a time 7.5 times longer gives a force 7.5 times smaller."
+      "explanation": "The same change in momentum over a time 7.5 times longer gives a force 7.5 times smaller.",
+      "answerLabel": "Average force"
     },
     {
       "id": "p5-changes-in-momentum-q16",
@@ -521,7 +552,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A ball of mass 0.40 kg hits a wall at 6.0 m/s and rebounds at 4.0 m/s in the opposite direction. The ball is in contact with the wall for 0.050 s.\nCalculate the size of the average force the wall exerts on the ball.",
+      "question": "Figure 1 shows a ball of mass 0.40 kg before and after it hits a wall.\nThe ball is in contact with the wall for 0.050 s.\nCalculate the size of the average force the wall exerts on the ball.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"20\" y=\"22\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Before hitting the wall</text><rect x=\"360\" y=\"30\" width=\"22\" height=\"70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"75\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"75\" x2=\"214\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"222,75 213.1,79.5 213.1,70.5\" fill=\"currentColor\"/><text x=\"185\" y=\"62\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6.0 m/s</text><text x=\"20\" y=\"135\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">After hitting the wall</text><rect x=\"360\" y=\"143\" width=\"22\" height=\"70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"188\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"188\" x2=\"168\" y2=\"188\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"160,188 168.9,183.5 168.9,192.5\" fill=\"currentColor\"/><text x=\"190\" y=\"175\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4.0 m/s</text><text x=\"371\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wall</text></svg>"
+      },
       "numericAnswer": 80,
       "tolerance": 0.01,
       "unit": "N",
@@ -531,7 +565,8 @@
         "1 mark: F = 4.0 ÷ 0.050",
         "1 mark: 80 N"
       ],
-      "explanation": "Ignoring the direction change gives Δv = 2.0 m/s and a force of only 16 N, which is wrong."
+      "explanation": "Ignoring the direction change gives Δv = 2.0 m/s and a force of only 16 N, which is wrong.",
+      "answerLabel": "Force"
     },
     {
       "id": "p5-changes-in-momentum-q17",
@@ -539,7 +574,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A car of mass 1200 kg travelling at 54 km/h hits a wall and stops in 0.15 s.\nCalculate the average force on the car.",
+      "question": "A car of mass 1200 kg is travelling at 54 km/h. The car hits a wall and stops in 0.15 s.\nCalculate the average force on the car.",
       "numericAnswer": 120000,
       "tolerance": 0.01,
       "unit": "N",
@@ -548,7 +583,8 @@
         "1 mark: change in momentum = 1200 × 15 = 18 000 kg m/s",
         "1 mark: F = 18 000 ÷ 0.15 = 120 000 N"
       ],
-      "explanation": "Using 54 directly gives a force 3.6 times too large."
+      "explanation": "Using 54 directly gives a force 3.6 times too large.",
+      "answerLabel": "Average force"
     },
     {
       "id": "p5-changes-in-momentum-q18",
@@ -556,7 +592,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A gymnast of mass 50 kg lands on a crash mat at 7.0 m/s. The mat brings her to rest in 0.35 s.\nCalculate the average force on the gymnast from the mat.",
+      "question": "A gymnast of mass 50 kg lands on a crash mat at a velocity of 7.0 m/s. The mat brings her to rest in 0.35 s.\nCalculate the average force exerted by the mat on the gymnast.",
       "numericAnswer": 1000,
       "tolerance": 0.01,
       "unit": "N",
@@ -565,7 +601,8 @@
         "1 mark: F = 350 ÷ 0.35",
         "1 mark: 1000 N"
       ],
-      "explanation": "On a hard floor she might stop in 0.010 s, giving 35 000 N. The mat reduces the force 35 times."
+      "explanation": "On a hard floor she might stop in 0.010 s, giving 35 000 N. The mat reduces the force 35 times.",
+      "answerLabel": "Average force"
     },
     {
       "id": "p5-changes-in-momentum-q19",
@@ -573,7 +610,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A skater of mass 60 kg is at rest. A friend pushes her with a constant resultant force of 120 N for 2.0 s.\nCalculate the skater's velocity at the end of the push.",
+      "question": "Figure 1 shows a skater on ice. A friend pushes the skater with a constant resultant force for 2.0 s.\nCalculate the velocity of the skater at the end of the push.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"10\" y1=\"130\" x2=\"410\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"210\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Ice</text><rect x=\"170\" y=\"60\" width=\"80\" height=\"70\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"210\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Skater</text><text x=\"210\" y=\"110\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60 kg</text><line x1=\"80\" y1=\"95\" x2=\"160\" y2=\"95\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"168,95 159.1,99.5 159.1,90.5\" fill=\"currentColor\"/><text x=\"120\" y=\"82\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">120 N</text><text x=\"210\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Skater is at rest before the push</text></svg>"
+      },
       "numericAnswer": 4,
       "tolerance": 0.01,
       "unit": "m/s",
@@ -582,7 +622,8 @@
         "1 mark: Δv = 240 ÷ 60",
         "1 mark: v = 4.0 m/s"
       ],
-      "explanation": "Rearrange F = mΔv ÷ Δt to give Δv = FΔt ÷ m. She starts at rest, so v = Δv."
+      "explanation": "Rearrange F = mΔv ÷ Δt to give Δv = FΔt ÷ m. She starts at rest, so v = Δv.",
+      "answerLabel": "Velocity"
     },
     {
       "id": "p5-changes-in-momentum-q20",
@@ -590,7 +631,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "Write down the equation that links force, change in momentum and time.",
+      "question": "Write down the equation that links change in momentum, force and time taken.",
       "acceptedAnswers": [
         "F = mΔv ÷ Δt",
         "force = change in momentum ÷ time"
@@ -720,7 +761,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A 60 g egg is dropped and hits the ground at 5.0 m/s. On concrete it stops in 0.0020 s. On a foam pad it stops in 0.050 s.\nCalculate the average force on the egg in each case and explain why the egg breaks on concrete but not on foam.",
+      "question": "A 60 g egg is dropped. It hits the ground at a velocity of 5.0 m/s.\nTable 1 shows the time taken for the egg to stop on two different surfaces.\nCalculate the average force on the egg on each surface.\nExplain why the egg breaks on concrete but not on foam.",
+      "table": {
+        "headers": [
+          "Surface",
+          "Time taken to stop in s"
+        ],
+        "rows": [
+          [
+            "Concrete",
+            "0.0020"
+          ],
+          [
+            "Foam pad",
+            "0.050"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: mass = 0.060 kg; change in momentum = 0.060 × 5.0 = 0.30 kg m/s in both cases; concrete: F = 0.30 ÷ 0.0020 = 150 N; foam: F = 0.30 ÷ 0.050 = 6.0 N; the foam deforms so the egg takes longer to stop; the rate of change of momentum is smaller, so the force is 25 times smaller; the force on concrete is large enough to break the shell, but the force on foam is not.",
         "Level 2 (3 to 4 marks): both forces calculated correctly (150 N and 6.0 N) with an explanation linking longer time to smaller force.",

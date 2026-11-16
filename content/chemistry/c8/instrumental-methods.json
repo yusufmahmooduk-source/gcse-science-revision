@@ -299,7 +299,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A laboratory must test 500 water samples a day for lead ions at very low concentrations. Which statement best justifies using an instrumental method?",
+      "question": "A laboratory must test 500 water samples a day for lead ions.\nThe concentration of lead ions in the samples is about 0.01 mg/dm³.\nTable 1 compares a chemical test and an instrumental method for lead ions.\nWhich statement best justifies using the instrumental method?",
       "options": [
         "It is rapid and sensitive enough to detect very low concentrations",
         "It is cheaper than chemical tests",
@@ -310,7 +310,26 @@
       "markScheme": [
         "1 mark: It is rapid and sensitive enough to detect very low concentrations"
       ],
-      "explanation": "Speed (many samples) and sensitivity (low concentrations) are the key advantages here."
+      "explanation": "Speed (many samples) and sensitivity (low concentrations) are the key advantages here.",
+      "table": {
+        "headers": [
+          "Method",
+          "Time to analyse one sample in minutes",
+          "Lowest concentration of lead ions detected in mg/dm³"
+        ],
+        "rows": [
+          [
+            "Chemical test",
+            "15",
+            "5.0"
+          ],
+          [
+            "Instrumental method",
+            "1",
+            "0.001"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-instrumental-methods-q08",
@@ -471,7 +490,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A hospital uses an automatic analyser to measure ions in thousands of blood samples each day. Suggest two reasons why an instrumental method is used.",
+      "question": "A hospital uses an automatic analyser to measure ions in blood samples.\nTable 1 shows information about the blood tests.\nSuggest two reasons why an instrumental method is used.",
       "acceptedAnswers": [
         "rapid",
         "many samples",
@@ -484,7 +503,27 @@
         "1 mark: rapid, so many samples can be processed quickly",
         "1 mark: accurate / sensitive, so small samples and low concentrations can be measured reliably"
       ],
-      "explanation": "Medical testing needs speed, accuracy and the ability to measure concentrations from small samples."
+      "explanation": "Medical testing needs speed, accuracy and the ability to measure concentrations from small samples.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Number of blood samples tested each day",
+            "4000"
+          ],
+          [
+            "Volume of each blood sample in cm³",
+            "0.5"
+          ],
+          [
+            "Number of different ions measured in each sample",
+            "6"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-instrumental-methods-q17",
@@ -492,7 +531,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "An archaeologist wants to find which metals are in an ancient coin without damaging it much. Suggest why an instrumental method is better than chemical tests.",
+      "question": "An archaeologist wants to find which metals are in an ancient coin without damaging it much.\nTable 1 shows the mass of coin that must be removed for each type of analysis.\nSuggest why an instrumental method is better than chemical tests.",
       "acceptedAnswers": [
         "very small sample",
         "sensitive",
@@ -503,7 +542,23 @@
         "1 mark: instrumental methods only need a very small sample (they are sensitive)",
         "1 mark: so less of the coin is damaged/used up than with chemical tests"
       ],
-      "explanation": "Sensitivity means a tiny scraping is enough."
+      "explanation": "Sensitivity means a tiny scraping is enough.",
+      "table": {
+        "headers": [
+          "Type of analysis",
+          "Mass of coin removed in g"
+        ],
+        "rows": [
+          [
+            "Chemical tests",
+            "0.5"
+          ],
+          [
+            "Instrumental method",
+            "0.001"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-instrumental-methods-q18",
@@ -544,7 +599,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A water company needs to monitor the concentrations of several metal ions in river water every day at many sites. Some ions are present only in very small amounts. Evaluate the use of chemical tests and instrumental methods for this task, and give a justified conclusion.",
+      "question": "A water company needs to monitor the concentrations of several metal ions in river water every day at many sites.\nTable 1 shows some data about the ions.\nEvaluate the use of chemical tests and instrumental methods for this task.\nGive a justified conclusion.",
       "markScheme": [
         "Indicative content: chemical tests (flame tests, NaOH) identify some ions but rely on judging colours",
         "Chemical tests would struggle with mixtures (masking) and low concentrations",
@@ -558,7 +613,41 @@
         "Level 2 (3 to 4 marks): advantages and disadvantages given with some link to the task",
         "Level 1 (1 to 2 marks): simple statements about either method"
       ],
-      "explanation": "Strong answers link each advantage to a specific requirement of the task and conclude with reasons."
+      "explanation": "Strong answers link each advantage to a specific requirement of the task and conclude with reasons.",
+      "table": {
+        "headers": [
+          "Ion",
+          "Typical concentration in river water in mg/dm³",
+          "Lowest concentration giving a visible result with a chemical test in mg/dm³",
+          "Lowest concentration detected by an instrumental method in mg/dm³"
+        ],
+        "rows": [
+          [
+            "Na⁺",
+            "20",
+            "5",
+            "0.01"
+          ],
+          [
+            "Ca²⁺",
+            "40",
+            "5",
+            "0.01"
+          ],
+          [
+            "Fe³⁺",
+            "0.3",
+            "5",
+            "0.01"
+          ],
+          [
+            "Cu²⁺",
+            "0.02",
+            "5",
+            "0.005"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-instrumental-methods-q21",
@@ -604,7 +693,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student says: 'Instrumental methods are always better than chemical tests.' Evaluate this statement.",
+      "question": "A student says:\n'Instrumental methods are always better than chemical tests.'\nTable 1 shows information about the two types of method.\nEvaluate the student's statement.",
       "acceptedAnswers": [
         "not always",
         "expensive",
@@ -617,7 +706,36 @@
         "1 mark: instrumental methods are accurate, sensitive and rapid",
         "1 mark: but they are expensive and need trained operators, so simple chemical tests may be better for quick cheap checks (statement not always true)"
       ],
-      "explanation": "The best method depends on what is needed: accuracy and sensitivity, or low cost and simplicity."
+      "explanation": "The best method depends on what is needed: accuracy and sensitivity, or low cost and simplicity.",
+      "table": {
+        "headers": [
+          "Feature",
+          "Chemical tests",
+          "Instrumental methods"
+        ],
+        "rows": [
+          [
+            "Cost of equipment",
+            "About £10",
+            "About £20 000"
+          ],
+          [
+            "Time to analyse one sample",
+            "About 10 minutes",
+            "About 1 minute"
+          ],
+          [
+            "Training needed",
+            "Very little",
+            "Specialist training"
+          ],
+          [
+            "Smallest amount detected",
+            "Large amounts only",
+            "Very small amounts"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-instrumental-methods-q24",
@@ -664,7 +782,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A flame test gives a yellow colour, but an instrument shows the sample contains sodium, potassium and lithium ions. What is the best explanation?",
+      "question": "A flame test on a sample gives a yellow colour.\nFigure 1 shows the reference line spectra of three metal ions and the line spectrum of the sample.\nWhat is the best explanation for the flame test result?",
       "options": [
         "The instrument is faulty",
         "Flame tests are more sensitive than instruments",
@@ -675,7 +793,10 @@
       "markScheme": [
         "1 mark: The yellow colour of sodium masked the other colours in the flame test"
       ],
-      "explanation": "Sodium's intense yellow masks other colours; the instrument detects the light from each ion separately."
+      "explanation": "Sodium's intense yellow masks other colours; the instrument detects the light from each ion separately.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 530 230\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"90\" y=\"10\" width=\"420\" height=\"34\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"310.5\" y1=\"10\" x2=\"310.5\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"374.6\" y1=\"10\" x2=\"374.6\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"82\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Lithium</text><rect x=\"90\" y=\"54\" width=\"420\" height=\"34\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"288.5\" y1=\"54\" x2=\"288.5\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"82\" y=\"76\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Sodium</text><rect x=\"90\" y=\"98\" width=\"420\" height=\"34\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"474.3\" y1=\"98\" x2=\"474.3\" y2=\"132\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"82\" y=\"120\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Potassium</text><rect x=\"90\" y=\"142\" width=\"420\" height=\"34\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"288.5\" y1=\"142\" x2=\"288.5\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"310.5\" y1=\"142\" x2=\"310.5\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"374.6\" y1=\"142\" x2=\"374.6\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"474.3\" y1=\"142\" x2=\"474.3\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"82\" y=\"164\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Sample</text><line x1=\"90\" y1=\"186\" x2=\"510\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"186\" x2=\"90\" y2=\"191\" stroke=\"currentColor\"/><text x=\"90\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">400</text><line x1=\"142.5\" y1=\"186\" x2=\"142.5\" y2=\"191\" stroke=\"currentColor\"/><text x=\"142.5\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">450</text><line x1=\"195\" y1=\"186\" x2=\"195\" y2=\"191\" stroke=\"currentColor\"/><text x=\"195\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">500</text><line x1=\"247.5\" y1=\"186\" x2=\"247.5\" y2=\"191\" stroke=\"currentColor\"/><text x=\"247.5\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">550</text><line x1=\"300\" y1=\"186\" x2=\"300\" y2=\"191\" stroke=\"currentColor\"/><text x=\"300\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">600</text><line x1=\"352.5\" y1=\"186\" x2=\"352.5\" y2=\"191\" stroke=\"currentColor\"/><text x=\"352.5\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">650</text><line x1=\"405\" y1=\"186\" x2=\"405\" y2=\"191\" stroke=\"currentColor\"/><text x=\"405\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">700</text><line x1=\"457.5\" y1=\"186\" x2=\"457.5\" y2=\"191\" stroke=\"currentColor\"/><text x=\"457.5\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">750</text><line x1=\"510\" y1=\"186\" x2=\"510\" y2=\"191\" stroke=\"currentColor\"/><text x=\"510\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">800</text><text x=\"300\" y=\"224\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Wavelength in nm</text></svg>"
+      }
     }
   ]
 }

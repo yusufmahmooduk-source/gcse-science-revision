@@ -319,7 +319,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which change to the atmosphere was NOT caused mainly by photosynthesis?",
+      "question": "Which change to the atmosphere was not caused mainly by photosynthesis?",
       "options": [
         "Decrease in carbon dioxide",
         "Increase in oxygen",
@@ -357,7 +357,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which conditions are needed to turn buried remains into fossil fuels?",
+      "question": "Figure 1 shows the stages in the formation of coal.\nWhich conditions are shown by box X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 502 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"104\" height=\"70\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"62\" y=\"41.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Plants die in</text><text x=\"62\" y=\"56.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">swampy forests</text><path d=\"M114 45L136 45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M136 45L128.6 48.1L128.6 41.9Z\" fill=\"currentColor\"/><rect x=\"136\" y=\"10\" width=\"104\" height=\"70\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"188\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Remains are</text><text x=\"188\" y=\"49\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">buried before</text><text x=\"188\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">they decay</text><path d=\"M240 45L262 45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M262 45L254.6 48.1L254.6 41.9Z\" fill=\"currentColor\"/><rect x=\"262\" y=\"10\" width=\"104\" height=\"70\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"314\" y=\"49\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">X</text><path d=\"M366 45L388 45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M388 45L380.6 48.1L380.6 41.9Z\" fill=\"currentColor\"/><rect x=\"388\" y=\"10\" width=\"104\" height=\"70\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"440\" y=\"49\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Coal</text></svg>"
+      },
       "options": [
         "Light and water over a few years",
         "Heat and pressure over millions of years",
@@ -395,7 +398,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A rock sample fizzes when acid is added and contains fossil shells. What does this suggest?",
+      "question": "A student tested a rock sample.\nTable 1 shows the student's observations.\nWhat do the observations suggest about the rock?",
+      "table": {
+        "headers": [
+          "Test",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Looked at the rock with a hand lens",
+            "Contains fossil shells"
+          ],
+          [
+            "Added dilute hydrochloric acid",
+            "Fizzes; the gas produced turns limewater milky"
+          ]
+        ]
+      },
       "options": [
         "It is coal formed from plants.",
         "It is an igneous rock from a volcano.",
@@ -414,14 +433,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Example data: an atmosphere contains 200 units of carbon dioxide. Photosynthesis removes 150 units. Calculate the percentage of the carbon dioxide removed.",
+      "question": "Table 1 shows the results from a model of the early atmosphere.\nCalculate the percentage of the carbon dioxide that was removed by photosynthesis.",
+      "table": {
+        "headers": [
+          "Carbon dioxide",
+          "Amount in arbitrary units"
+        ],
+        "rows": [
+          [
+            "At the start",
+            "200"
+          ],
+          [
+            "Removed by photosynthesis",
+            "150"
+          ]
+        ]
+      },
       "numericAnswer": 75,
       "tolerance": 0.01,
       "unit": "%",
       "markScheme": [
         "1 mark: 150 ÷ 200 × 100 = 75%"
       ],
-      "explanation": "Fraction removed = 150 ÷ 200 = 0.75 = 75%."
+      "explanation": "Fraction removed = 150 ÷ 200 = 0.75 = 75%.",
+      "answerLabel": "Percentage removed"
     },
     {
       "id": "c9-how-carbon-dioxide-decreased-q13",
@@ -436,7 +472,8 @@
       "markScheme": [
         "1 mark: 40 + 12 + (3 × 16) = 100"
       ],
-      "explanation": "Add the relative atomic masses: one Ca (40), one C (12) and three O (3 × 16 = 48). 40 + 12 + 48 = 100."
+      "explanation": "Add the relative atomic masses: one Ca (40), one C (12) and three O (3 × 16 = 48). 40 + 12 + 48 = 100.",
+      "answerLabel": "Relative formula mass"
     },
     {
       "id": "c9-how-carbon-dioxide-decreased-q14",
@@ -444,7 +481,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the mass of carbon locked up in 500 g of pure calcium carbonate, CaCO₃ (Mr = 100).\nAr: C = 12",
+      "question": "Calculate the mass of carbon in 500 g of pure calcium carbonate, CaCO₃.\nRelative atomic mass (Ar): C = 12\nRelative formula mass (Mr): CaCO₃ = 100",
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "g",
@@ -452,7 +489,8 @@
         "1 mark: fraction of carbon = 12 ÷ 100",
         "1 mark: 12 ÷ 100 × 500 = 60 g"
       ],
-      "explanation": "Carbon is 12% of the mass of CaCO₃. 0.12 × 500 = 60 g."
+      "explanation": "Carbon is 12% of the mass of CaCO₃. 0.12 × 500 = 60 g.",
+      "answerLabel": "Mass of carbon"
     },
     {
       "id": "c9-how-carbon-dioxide-decreased-q15",
@@ -460,7 +498,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Example data: suppose an early atmosphere was 95% carbon dioxide and today's atmosphere is 0.04% carbon dioxide.\nCalculate the percentage decrease in carbon dioxide. Give your answer to 4 significant figures.",
+      "question": "Table 1 shows estimates of the percentage of carbon dioxide in the Earth's early atmosphere and in the atmosphere today.\nCalculate the percentage decrease in the percentage of carbon dioxide.\nGive your answer to 4 significant figures.",
+      "table": {
+        "headers": [
+          "Atmosphere",
+          "Percentage of carbon dioxide"
+        ],
+        "rows": [
+          [
+            "Early atmosphere",
+            "95"
+          ],
+          [
+            "Today",
+            "0.04"
+          ]
+        ]
+      },
       "numericAnswer": 99.96,
       "tolerance": 0.001,
       "unit": "%",
@@ -468,7 +522,8 @@
         "1 mark: (95 − 0.04) ÷ 95 × 100",
         "1 mark: 99.96%"
       ],
-      "explanation": "94.96 ÷ 95 = 0.99958, × 100 = 99.96% to 4 significant figures."
+      "explanation": "94.96 ÷ 95 = 0.99958, × 100 = 99.96% to 4 significant figures.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "c9-how-carbon-dioxide-decreased-q16",
@@ -476,7 +531,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Marine organisms make calcium carbonate shells. Each mole of CaCO₃ contains carbon from one mole of CO₂.\nCalculate the mass of carbon dioxide removed to make 25 g of CaCO₃.\nMr: CaCO₃ = 100, CO₂ = 44",
+      "question": "Marine organisms make shells of calcium carbonate, CaCO₃.\nEach mole of CaCO₃ contains the carbon from one mole of CO₂.\nCalculate the mass of carbon dioxide removed from the sea water to make 25 g of CaCO₃.\nRelative formula masses (Mr): CaCO₃ = 100   CO₂ = 44",
       "numericAnswer": 11,
       "tolerance": 0.01,
       "unit": "g",
@@ -485,7 +540,8 @@
         "1 mark: moles CO₂ = 0.25 mol",
         "1 mark: mass CO₂ = 0.25 × 44 = 11 g"
       ],
-      "explanation": "One mole of CO₂ per mole of CaCO₃, so 0.25 mol × 44 g/mol = 11 g."
+      "explanation": "One mole of CO₂ per mole of CaCO₃, so 0.25 mol × 44 g/mol = 11 g.",
+      "answerLabel": "Mass of carbon dioxide"
     },
     {
       "id": "c9-how-carbon-dioxide-decreased-q17",
@@ -568,7 +624,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe how crude oil and natural gas were formed.",
+      "question": "Figure 1 shows the sea floor millions of years ago.\nDescribe how crude oil and natural gas were formed.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"480\" height=\"140\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"20\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Sea</text><circle cx=\"60\" cy=\"60\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"90\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"160\" cy=\"50\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"210\" cy=\"110\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"260\" cy=\"70\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"100\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"370\" cy=\"55\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"420\" cy=\"95\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"90\" cy=\"125\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"300\" cy=\"130\" r=\"4\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"380\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Plankton</text><path d=\"M376 32L371 50\" stroke=\"currentColor\"/><rect x=\"10\" y=\"150\" width=\"480\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"40\" cy=\"160\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"163\" r=\"3\" fill=\"currentColor\"/><circle cx=\"150\" cy=\"159\" r=\"3\" fill=\"currentColor\"/><circle cx=\"350\" cy=\"161\" r=\"3\" fill=\"currentColor\"/><circle cx=\"400\" cy=\"158\" r=\"3\" fill=\"currentColor\"/><circle cx=\"450\" cy=\"162\" r=\"3\" fill=\"currentColor\"/><text x=\"250\" y=\"182\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Mud containing dead plankton</text><rect x=\"10\" y=\"190\" width=\"480\" height=\"40\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"250\" y=\"215\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Older layers of sedimentary rock</text></svg>"
+      },
       "acceptedAnswers": [
         "plankton",
         "buried in mud",
@@ -644,7 +703,36 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe the main changes in the composition of the atmosphere from the early atmosphere to today, and give one cause of each change.",
+      "question": "Table 1 shows how the Earth's atmosphere has changed.\nDescribe the main changes in the composition of the atmosphere from the early atmosphere to today.\nGive one cause of each change.",
+      "table": {
+        "headers": [
+          "Gas",
+          "Early atmosphere",
+          "Atmosphere today"
+        ],
+        "rows": [
+          [
+            "Carbon dioxide",
+            "main gas",
+            "about 0.04%"
+          ],
+          [
+            "Oxygen",
+            "little or none",
+            "about 20%"
+          ],
+          [
+            "Nitrogen",
+            "small amount",
+            "about 80%"
+          ],
+          [
+            "Water vapour",
+            "large amount",
+            "small amount"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: early atmosphere mainly carbon dioxide, little or no oxygen; carbon dioxide decreased (photosynthesis, dissolving in oceans, sedimentary rocks, fossil fuels) to about 0.04%; oxygen increased (photosynthesis by algae and plants) to about 20%; nitrogen increased (released by volcanoes, unreactive so built up) to about 80%.",
         "Level 2 (3 to 4 marks): changes to carbon dioxide, oxygen and nitrogen described with a correct cause for at least two.",
