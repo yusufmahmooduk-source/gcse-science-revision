@@ -73,12 +73,48 @@
       "Reaction time after drink (s)"
     ],
     "rows": [
-      ["1", "18", "0.192", "14", "0.169"],
-      ["2", "21", "0.207", "15", "0.175"],
-      ["3", "17", "0.186", "13", "0.163"],
-      ["4", "19", "0.197", "16", "0.181"],
-      ["5", "20", "0.202", "12", "0.156"],
-      ["Mean", "19", "0.197", "14", "0.169"]
+      [
+        "1",
+        "18",
+        "0.192",
+        "14",
+        "0.169"
+      ],
+      [
+        "2",
+        "21",
+        "0.207",
+        "15",
+        "0.175"
+      ],
+      [
+        "3",
+        "17",
+        "0.186",
+        "13",
+        "0.163"
+      ],
+      [
+        "4",
+        "19",
+        "0.197",
+        "16",
+        "0.181"
+      ],
+      [
+        "5",
+        "20",
+        "0.202",
+        "12",
+        "0.156"
+      ],
+      [
+        "Mean",
+        "19",
+        "0.197",
+        "14",
+        "0.169"
+      ]
     ],
     "notes": "Conversion table (distance fallen → reaction time): 5 cm → 0.101 s; 10 cm → 0.143 s; 15 cm → 0.175 s; 20 cm → 0.202 s; 25 cm → 0.226 s; 30 cm → 0.247 s. The table is calculated using t = √(2d ÷ g), with d in metres and g = 9.8 m/s². Because the relationship is not linear, convert each distance to a time and then calculate the mean time. Display the results as a bar chart of mean reaction time before and after the drink."
   },
@@ -138,7 +174,9 @@
         "So the ruler does not touch the catcher's fingers"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: so the catcher cannot anticipate the drop (and responds only to the stimulus of the ruler moving)"],
+      "markScheme": [
+        "1 mark: so the catcher cannot anticipate the drop (and responds only to the stimulus of the ruler moving)"
+      ],
       "explanation": "If the catcher can predict the drop, they may start closing their fingers before the ruler moves, giving a falsely short reaction time. The ruler falls at the same rate however it is released."
     },
     {
@@ -147,12 +185,43 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student caught the ruler at 22 cm, 18 cm, 20 cm, 19 cm and 21 cm.\nCalculate the mean distance fallen.",
+      "question": "A student measured their reaction time five times using the ruler drop test.\nTable 1 shows the results.\nCalculate the mean distance fallen by the ruler.",
+      "table": {
+        "headers": [
+          "Attempt",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "1",
+            "22"
+          ],
+          [
+            "2",
+            "18"
+          ],
+          [
+            "3",
+            "20"
+          ],
+          [
+            "4",
+            "19"
+          ],
+          [
+            "5",
+            "21"
+          ]
+        ]
+      },
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: (22 + 18 + 20 + 19 + 21) ÷ 5 = 20 cm"],
-      "explanation": "Add the five distances (100 cm) and divide by 5, giving a mean of 20 cm."
+      "markScheme": [
+        "1 mark: (22 + 18 + 20 + 19 + 21) ÷ 5 = 20 cm"
+      ],
+      "explanation": "Add the five distances (100 cm) and divide by 5, giving a mean of 20 cm.",
+      "answerLabel": "Mean distance"
     },
     {
       "id": "bio-rp7-q03",
@@ -160,12 +229,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Reaction time can be calculated using t = √(2d ÷ g), where d is the distance fallen in metres and g = 9.8 m/s².\nCalculate the reaction time when the ruler falls 20 cm. Give your answer to 2 significant figures.",
+      "question": "In a ruler drop test the ruler fell 20 cm before it was caught.\nCalculate the reaction time.\nUse the equation:\nt = √(2d ÷ g)\nwhere d is the distance fallen in metres and g = 9.8 m/s²\nGive your answer to 2 significant figures.",
       "numericAnswer": 0.2,
       "tolerance": 0.03,
       "unit": "s",
-      "markScheme": ["1 mark: d = 20 cm = 0.20 m, so 2d ÷ g = 0.40 ÷ 9.8 = 0.0408", "1 mark: t = √0.0408 = 0.20 s"],
-      "explanation": "Convert cm to m first (0.20 m). Then 2 × 0.20 ÷ 9.8 = 0.0408, and the square root is 0.202 s, which is 0.20 s to 2 significant figures. Using 20 instead of 0.20 gives an impossible answer of about 2 s."
+      "markScheme": [
+        "1 mark: d = 20 cm = 0.20 m, so 2d ÷ g = 0.40 ÷ 9.8 = 0.0408",
+        "1 mark: t = √0.0408 = 0.20 s"
+      ],
+      "explanation": "Convert cm to m first (0.20 m). Then 2 × 0.20 ÷ 9.8 = 0.0408, and the square root is 0.202 s, which is 0.20 s to 2 significant figures. Using 20 instead of 0.20 gives an impossible answer of about 2 s.",
+      "answerLabel": "Reaction time"
     },
     {
       "id": "bio-rp7-q04",
@@ -181,7 +254,9 @@
         "Brain → receptor → sensory neurone → effector → motor neurone"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: receptor → sensory neurone → brain (CNS) → motor neurone → effector"],
+      "markScheme": [
+        "1 mark: receptor → sensory neurone → brain (CNS) → motor neurone → effector"
+      ],
       "explanation": "Receptors in the eye detect the stimulus, the sensory neurone carries impulses to the brain, the brain coordinates a response, and the motor neurone carries impulses to the effector (hand muscles)."
     },
     {
@@ -191,8 +266,15 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Name the effector in the ruler drop test.",
-      "acceptedAnswers": ["muscles in the hand", "hand muscles", "finger muscles", "muscles"],
-      "markScheme": ["1 mark: muscles (in the hand / fingers / arm)"],
+      "acceptedAnswers": [
+        "muscles in the hand",
+        "hand muscles",
+        "finger muscles",
+        "muscles"
+      ],
+      "markScheme": [
+        "1 mark: muscles (in the hand / fingers / arm)"
+      ],
       "explanation": "Effectors are muscles or glands that bring about a response. Here the muscles of the hand contract to close the thumb and finger on the ruler. The hand itself is not the effector: its muscles are."
     },
     {
@@ -209,7 +291,9 @@
         "It is much faster than a reflex"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: it is a conscious (voluntary) action involving the brain"],
+      "markScheme": [
+        "1 mark: it is a conscious (voluntary) action involving the brain"
+      ],
       "explanation": "Reflexes are automatic and rapid and do not involve the conscious part of the brain. Catching the ruler is a voluntary decision, which is why it is slower than a reflex such as pulling a hand away from a hot object."
     },
     {
@@ -218,9 +302,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give two variables that should be kept the same when measuring the reaction time of one person.",
-      "acceptedAnswers": ["same hand", "same ruler", "same starting position", "gap between thumb and finger", "same person dropping", "arm resting on table", "no distractions", "same time after drink"],
-      "markScheme": ["1 mark each, up to 2: same hand; same ruler; same starting position (0 cm at top of thumb); same gap between thumb and finger; same person dropping; forearm resting on table edge; no distractions; same time after the drink"],
+      "question": "Figure 1 shows how the ruler drop test is set up.\nGive two variables that should be kept the same when measuring the reaction time of one person.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"180\" y=\"20\" width=\"40\" height=\"230\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M180 40h12M180 46h6M180 52h6M180 58h6M180 64h6M180 70h12M180 76h6M180 82h6M180 88h6M180 94h6M180 100h12M180 106h6M180 112h6M180 118h6M180 124h6M180 130h12M180 136h6M180 142h6M180 148h6M180 154h6M180 160h12M180 166h6M180 172h6M180 178h6M180 184h6M180 190h12M180 196h6M180 202h6M180 208h6M180 214h6M180 220h12\" stroke=\"currentColor\"/><text x=\"200\" y=\"44\" font-size=\"12\" fill=\"currentColor\">0</text><text x=\"200\" y=\"74\" font-size=\"12\" fill=\"currentColor\">5</text><text x=\"200\" y=\"104\" font-size=\"12\" fill=\"currentColor\">10</text><text x=\"200\" y=\"134\" font-size=\"12\" fill=\"currentColor\">15</text><text x=\"200\" y=\"164\" font-size=\"12\" fill=\"currentColor\">20</text><text x=\"200\" y=\"194\" font-size=\"12\" fill=\"currentColor\">25</text><text x=\"200\" y=\"224\" font-size=\"12\" fill=\"currentColor\">30</text><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"><ellipse cx=\"200\" cy=\"12\" rx=\"44\" ry=\"10\"/><path d=\"M120 30c20-6 50-8 56 6l2 4c-6 10-40 10-58 4z\"/><path d=\"M280 30c-20-6-50-8-56 6l-2 4c6 10 40 10 58 4z\"/></g><path d=\"M174 40h-10M226 40h10\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><text x=\"250\" y=\"12\" font-size=\"12\" fill=\"currentColor\">Tester's fingers hold the top of the ruler</text><text x=\"10\" y=\"80\" font-size=\"12\" fill=\"currentColor\">Catcher's thumb</text><path d=\"M80 84L140 44\" stroke=\"currentColor\"/><text x=\"300\" y=\"80\" font-size=\"12\" fill=\"currentColor\">Catcher's finger</text><path d=\"M330 84L262 44\" stroke=\"currentColor\"/><text x=\"240\" y=\"210\" font-size=\"12\" fill=\"currentColor\">Ruler scale in cm</text><path d=\"M238 206L220 190\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "same hand",
+        "same ruler",
+        "same starting position",
+        "gap between thumb and finger",
+        "same person dropping",
+        "arm resting on table",
+        "no distractions",
+        "same time after drink"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: same hand; same ruler; same starting position (0 cm at top of thumb); same gap between thumb and finger; same person dropping; forearm resting on table edge; no distractions; same time after the drink"
+      ],
       "explanation": "Each of these could change the distance the ruler falls, so they must be controlled for the investigation to be a fair test of the effect of caffeine."
     },
     {
@@ -229,12 +327,32 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student's mean reaction time was 0.200 s before a caffeinated drink and 0.170 s after.\nCalculate the percentage decrease in reaction time.",
+      "question": "A student measured their reaction time before and after a caffeinated drink.\nTable 1 shows the results.\nCalculate the percentage decrease in reaction time.",
+      "table": {
+        "headers": [
+          "",
+          "Mean reaction time in s"
+        ],
+        "rows": [
+          [
+            "Before the drink",
+            "0.200"
+          ],
+          [
+            "After the drink",
+            "0.170"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0.01,
       "unit": "%",
-      "markScheme": ["1 mark: decrease = 0.200 − 0.170 = 0.030 s", "1 mark: 0.030 ÷ 0.200 × 100 = 15%"],
-      "explanation": "Percentage change = change ÷ original value × 100. Divide by the original value (0.200 s), not the new value; dividing by 0.170 gives 17.6%, which is wrong."
+      "markScheme": [
+        "1 mark: decrease = 0.200 − 0.170 = 0.030 s",
+        "1 mark: 0.030 ÷ 0.200 × 100 = 15%"
+      ],
+      "explanation": "Percentage change = change ÷ original value × 100. Divide by the original value (0.200 s), not the new value; dividing by 0.170 gives 17.6%, which is wrong.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "bio-rp7-q09",
@@ -242,9 +360,46 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the ruler drop is repeated five times and a mean is calculated.",
-      "acceptedAnswers": ["reaction times vary", "reduce effect of random errors", "identify anomalies", "more accurate", "more representative"],
-      "markScheme": ["1 mark: reaction time varies from one attempt to the next (random variation)", "1 mark: a mean reduces the effect of random errors / allows anomalies to be spotted, giving a more accurate (representative) value"],
+      "question": "Table 1 shows a student's reaction times in five ruler drop tests.\nExplain why the ruler drop test is repeated five times and a mean is calculated.",
+      "table": {
+        "headers": [
+          "Attempt",
+          "Reaction time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "0.192"
+          ],
+          [
+            "2",
+            "0.207"
+          ],
+          [
+            "3",
+            "0.186"
+          ],
+          [
+            "4",
+            "0.197"
+          ],
+          [
+            "5",
+            "0.202"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "reaction times vary",
+        "reduce effect of random errors",
+        "identify anomalies",
+        "more accurate",
+        "more representative"
+      ],
+      "markScheme": [
+        "1 mark: reaction time varies from one attempt to the next (random variation)",
+        "1 mark: a mean reduces the effect of random errors / allows anomalies to be spotted, giving a more accurate (representative) value"
+      ],
       "explanation": "One catch could be unusually fast (a lucky guess) or slow (a distraction). Repeating and averaging makes the result closer to the person's true reaction time."
     },
     {
@@ -253,12 +408,15 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student's reaction time was 0.25 s.\nConvert this to milliseconds (ms).",
+      "question": "A student's reaction time was 0.25 s.\nGive this reaction time in milliseconds (ms).",
       "numericAnswer": 250,
       "tolerance": 0,
       "unit": "ms",
-      "markScheme": ["1 mark: 0.25 × 1000 = 250 ms"],
-      "explanation": "There are 1000 milliseconds in one second, so multiply by 1000: 0.25 × 1000 = 250 ms."
+      "markScheme": [
+        "1 mark: 0.25 × 1000 = 250 ms"
+      ],
+      "explanation": "There are 1000 milliseconds in one second, so multiply by 1000: 0.25 × 1000 = 250 ms.",
+      "answerLabel": "Reaction time"
     },
     {
       "id": "bio-rp7-q11",
@@ -266,9 +424,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student's reaction time was shorter after drinking cola. Suggest why this does not prove that caffeine was the cause.",
-      "acceptedAnswers": ["practice effect", "learning", "sugar in the cola", "no control group", "only one person", "anticipation"],
-      "markScheme": ["1 mark: the student may have improved through practice (or the cola contains sugar, which could also have an effect)", "1 mark: there was no control, such as a group drinking decaffeinated cola, or only one person was tested"],
+      "question": "A student's reaction time was shorter after drinking cola.\nSuggest why this does not prove that caffeine caused the shorter reaction time.",
+      "acceptedAnswers": [
+        "practice effect",
+        "learning",
+        "sugar in the cola",
+        "no control group",
+        "only one person",
+        "anticipation"
+      ],
+      "markScheme": [
+        "1 mark: the student may have improved through practice (or the cola contains sugar, which could also have an effect)",
+        "1 mark: there was no control, such as a group drinking decaffeinated cola, or only one person was tested"
+      ],
       "explanation": "Other variables changed at the same time as the caffeine. A control group drinking a decaffeinated version of the same drink would show whether caffeine itself caused the improvement."
     },
     {
@@ -277,7 +445,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Student A caught the ruler at 12 cm and Student B caught it at 24 cm. What does this show?",
+      "question": "Two students did the ruler drop test.\nTable 1 shows the results.\nWhat do the results show?",
+      "table": {
+        "headers": [
+          "Student",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "A",
+            "12"
+          ],
+          [
+            "B",
+            "24"
+          ]
+        ]
+      },
       "options": [
         "Student A has a longer reaction time than Student B",
         "Student B reacted twice as quickly as Student A",
@@ -285,7 +469,9 @@
         "Student A has a shorter reaction time than Student B"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: Student A has a shorter reaction time"],
+      "markScheme": [
+        "1 mark: Student A has a shorter reaction time"
+      ],
       "explanation": "The ruler falls further the longer it takes to catch it, so a shorter distance means a shorter (faster) reaction time. The time is not simply proportional to the distance (it depends on its square root), so 24 cm is not twice the time of 12 cm."
     },
     {
@@ -295,8 +481,17 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Describe the role of the brain in catching the ruler.",
-      "acceptedAnswers": ["coordinator", "receives impulses from sensory neurone", "sends impulses along motor neurone", "processes information", "coordinates the response"],
-      "markScheme": ["1 mark: the brain (central nervous system) is the coordinator: it receives impulses from the sensory neurone", "1 mark: it sends impulses along a motor neurone to the effector (hand muscles)"],
+      "acceptedAnswers": [
+        "coordinator",
+        "receives impulses from sensory neurone",
+        "sends impulses along motor neurone",
+        "processes information",
+        "coordinates the response"
+      ],
+      "markScheme": [
+        "1 mark: the brain (central nervous system) is the coordinator: it receives impulses from the sensory neurone",
+        "1 mark: it sends impulses along a motor neurone to the effector (hand muscles)"
+      ],
       "explanation": "The brain processes the information from the eye and coordinates a response, sending impulses to the muscles to contract."
     },
     {
@@ -321,7 +516,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A class of 30 students measured their reaction times using their dominant hand, then repeated the test using their non-dominant hand. The mean reaction time was 0.18 s for the dominant hand and 0.21 s for the non-dominant hand.\nEvaluate whether these results show that people react faster with their dominant hand.",
+      "question": "A class of 30 students measured their reaction times using their dominant hand.\nThey then repeated the test using their non-dominant hand.\nFigure 1 shows the results.\nEvaluate whether these results show that people react faster with their dominant hand.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 244.4H384M62 234.8H384M62 225.2H384M62 215.6H384M62 196.4H384M62 186.8H384M62 177.2H384M62 167.6H384M62 148.4H384M62 138.8H384M62 129.2H384M62 119.6H384M62 100.4H384M62 90.8H384M62 81.2H384M62 71.6H384M62 52.4H384M62 42.8H384M62 33.2H384M62 23.6H384\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M62 14V254M384 14V254M62 254H384M62 206H384M62 158H384M62 110H384M62 62H384M62 14H384\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M62 14V254H384\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"110.3\" y=\"81.2\" width=\"64.39999999999999\" height=\"172.8\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"271.3\" y=\"52.4\" width=\"64.39999999999998\" height=\"201.6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"142.5\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dominant</text><text x=\"303.5\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Non-dominant</text><text x=\"62\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"></text><text x=\"384\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"></text><text x=\"56\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"210\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.05</text><text x=\"56\" y=\"162\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.10</text><text x=\"56\" y=\"114\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.15</text><text x=\"56\" y=\"66\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.20</text><text x=\"56\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.25</text><text x=\"223\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Hand used</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Mean reaction time in s</text></svg>"
+      },
       "markScheme": [
         "Indicative content: supporting: mean reaction time shorter for dominant hand by 0.03 s; large sample of 30 students makes the means more reliable; same test method used. Against: dominant hand always tested first, so practice effect would make the non-dominant hand faster, not slower, which strengthens the conclusion, but tiredness or boredom could make the second test slower; difference is small, need to know the spread or range of results to see if the difference is significant; students are all of similar age so may not apply to all people; different testers may drop differently; to improve, test hands in a random or alternating order",
         "Level 2 (3 to 4 marks): a balanced evaluation using the data, considering at least one strength and one limitation, and reaching a justified conclusion.",

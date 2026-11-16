@@ -142,8 +142,8 @@
     {
       "id": "p1-specific-heat-capacity-q01",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which is the correct definition of specific heat capacity?",
-      "options": ["The energy needed to melt 1 kg of a substance", "The temperature at which a substance boils", "The energy needed to raise the temperature of 1 kg of a substance by 1 °C", "The energy stored in 1 kg of a substance"],
+      "question": "Which of the following is the definition of specific heat capacity?",
+      "options": ["The energy needed to melt 1 kg of a substance","The temperature at which a substance boils","The energy needed to raise the temperature of 1 kg of a substance by 1 °C","The energy stored in 1 kg of a substance"],
       "answer": 2,
       "markScheme": ["1 mark: The energy needed to raise the temperature of 1 kg of a substance by 1 °C"],
       "explanation": "Specific heat capacity is per kilogram per degree Celsius. The energy to melt 1 kg is specific latent heat of fusion, a different quantity."
@@ -152,7 +152,7 @@
       "id": "p1-specific-heat-capacity-q02",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "What is the unit of specific heat capacity?",
-      "options": ["J/kg °C", "J/kg", "J °C", "W/kg"],
+      "options": ["J/kg °C","J/kg","J °C","W/kg"],
       "answer": 0,
       "markScheme": ["1 mark: J/kg °C"],
       "explanation": "c = ΔE ÷ (mΔθ), so its unit is J ÷ (kg × °C) = J/kg °C. J/kg is the unit of specific latent heat."
@@ -160,8 +160,8 @@
     {
       "id": "p1-specific-heat-capacity-q03",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "In the equation ΔE = mcΔθ, what does Δθ represent?",
-      "options": ["The final temperature", "The specific heat capacity", "The mass of the substance", "The change in temperature"],
+      "question": "The equation for the change in thermal energy of a substance is:\nΔE = m c Δθ\nWhat does Δθ represent in this equation?",
+      "options": ["The final temperature","The specific heat capacity","The mass of the substance","The change in temperature"],
       "answer": 3,
       "markScheme": ["1 mark: The change in temperature"],
       "explanation": "The Δ symbol means 'change in'. Δθ is the final temperature minus the initial temperature."
@@ -169,8 +169,15 @@
     {
       "id": "p1-specific-heat-capacity-q04",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "1 kg of water (c = 4200 J/kg °C) and 1 kg of copper (c = 385 J/kg °C) each receive 10 000 J of energy. Which statement is correct?",
-      "options": ["The water has a larger temperature rise", "The copper has a larger temperature rise", "Both have the same temperature rise", "Neither changes temperature because the masses are equal"],
+      "question": "Table 1 shows information about a sample of water and a block of copper.\nThe water and the copper are each supplied with 10 000 J of energy.\nWhich statement is correct?",
+      "table": {
+        "headers": ["Material","Mass in kg","Specific heat capacity in J/kg °C"],
+        "rows": [
+          ["Water","1.0","4200"],
+          ["Copper","1.0","385"]
+        ]
+      },
+      "options": ["The water has a larger temperature rise","The copper has a larger temperature rise","The water and the copper have the same temperature rise","Neither changes temperature because the masses are equal"],
       "answer": 1,
       "markScheme": ["1 mark: The copper has a larger temperature rise"],
       "explanation": "Δθ = ΔE ÷ (mc). Copper's much smaller c gives a much bigger Δθ: about 26 °C for copper compared with about 2.4 °C for water."
@@ -178,8 +185,9 @@
     {
       "id": "p1-specific-heat-capacity-q05",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "In the specific heat capacity practical, why is the metal block wrapped in insulation?",
-      "options": ["To make the block heat up more slowly so readings are easier", "To stop the thermometer breaking", "To reduce the energy dissipated to the surroundings", "To increase the mass of the block"],
+      "question": "Figure 1 shows the apparatus used to determine the specific heat capacity of a metal block.\nWhy is the metal block wrapped in insulation?",
+      "figure": {"svg":"<svg viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><g transform=\"translate(40 0)\"><rect x=\"40\" y=\"90\" width=\"170\" height=\"140\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"56\" y=\"100\" width=\"138\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"86\" y=\"70\" width=\"16\" height=\"110\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"14\" width=\"10\" height=\"160\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"172\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M90 70 V40 H260 M98 70 V52 H260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"260\" y=\"30\" width=\"80\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"52\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">joulemeter</text><path d=\"M340 40 H370 V110 M340 52 H356 V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"110\" width=\"80\" height=\"34\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"360\" y=\"126\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">power</text><text x=\"360\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">supply</text><line x1=\"160\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"94\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"180\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"204\" font-size=\"12\" fill=\"currentColor\">metal block</text><line x1=\"205\" y1=\"225\" x2=\"250\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"236\" font-size=\"12\" fill=\"currentColor\">insulation</text><line x1=\"86\" y1=\"130\" x2=\"30\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"26\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heater</text></g></svg>"},
+      "options": ["To make the block heat up more slowly so readings are easier","To stop the thermometer breaking","To reduce the energy dissipated to the surroundings","To increase the mass of the block"],
       "answer": 2,
       "markScheme": ["1 mark: To reduce the energy dissipated to the surroundings"],
       "explanation": "Insulation reduces energy transfer by heating from the block to the air, so more of the measured energy goes into raising the block's temperature and the value of c is more accurate."
@@ -187,8 +195,8 @@
     {
       "id": "p1-specific-heat-capacity-q06",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "In the specific heat capacity practical, a few drops of water are put into the hole for the thermometer. What is the reason for this?",
-      "options": ["To improve thermal contact between the block and the thermometer", "To cool the thermometer down", "To increase the specific heat capacity of the block", "To stop the block from rusting"],
+      "question": "A student determines the specific heat capacity of a metal block.\nThe student puts a few drops of water into the hole in the block that holds the thermometer.\nWhat is the reason for this?",
+      "options": ["To improve thermal contact between the block and the thermometer","To cool the thermometer down","To increase the specific heat capacity of the block","To stop the block from rusting"],
       "answer": 0,
       "markScheme": ["1 mark: To improve thermal contact between the block and the thermometer"],
       "explanation": "Air is a poor conductor. Water fills the gaps so energy is transferred well to the thermometer, which then reads the block's true temperature."
@@ -196,17 +204,19 @@
     {
       "id": "p1-specific-heat-capacity-q07",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "A student finds the specific heat capacity of an aluminium block to be higher than the accepted value. What is the most likely reason?",
-      "options": ["The block was heated for too long", "The thermometer was read too often", "The joulemeter read zero at the start", "Some energy was transferred to the surroundings, so the temperature rise was smaller than expected"],
+      "question": "A student determines the specific heat capacity of an aluminium block.\nThe student's value is higher than the accepted value.\nWhat is the most likely reason for this?",
+      "options": ["The block was heated for too long","The thermometer was read too often","The joulemeter read zero at the start","Some energy was transferred to the surroundings, so the temperature rise was smaller than expected"],
       "answer": 3,
-      "markScheme": ["1 mark: Some energy was transferred to the surroundings, so the temperature rise was smaller than expected"],
+      "markScheme": [
+        "1 mark: Some energy was transferred to the surroundings, so the temperature rise was smaller than expected"
+      ],
       "explanation": "c = ΔE ÷ (mΔθ). The joulemeter counts all the energy supplied, but some is lost, so Δθ is smaller and c is calculated as too large. A zeroed joulemeter is correct practice."
     },
     {
       "id": "p1-specific-heat-capacity-q08",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Compare the energy needed to raise the temperature of 2 kg of water by 10 °C with the energy needed to raise 1 kg of water by 20 °C.",
-      "options": ["Twice as much is needed for the 2 kg sample", "The same energy is needed for both", "Half as much is needed for the 2 kg sample", "Four times as much is needed for the 2 kg sample"],
+      "question": "How does the energy needed to raise the temperature of 2 kg of water by 10 °C compare with the energy needed to raise the temperature of 1 kg of water by 20 °C?",
+      "options": ["Twice as much is needed for the 2 kg sample","The same energy is needed for both","Half as much is needed for the 2 kg sample","Four times as much is needed for the 2 kg sample"],
       "answer": 1,
       "markScheme": ["1 mark: The same energy is needed for both"],
       "explanation": "ΔE = mcΔθ: 2 × 4200 × 10 = 84 000 J and 1 × 4200 × 20 = 84 000 J. The product mΔθ is 20 in both cases."
@@ -214,17 +224,19 @@
     {
       "id": "p1-specific-heat-capacity-q09",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "An engineer chooses a material for the core of an electric storage heater, which is heated overnight and gives out energy during the day. Which property is most important?",
-      "options": ["A low specific heat capacity, so it heats up quickly", "A low density, so it is light", "A high specific heat capacity, so it stores a lot of energy for each degree of temperature rise", "A high thermal conductivity, so it releases all its energy quickly"],
+      "question": "An electric storage heater has a core that is heated overnight. The core releases energy into the room during the day.\nWhich property of the core material is most important?",
+      "options": ["A low specific heat capacity, so it heats up quickly","A low density, so it is light","A high specific heat capacity, so it stores a lot of energy for each degree of temperature rise","A high thermal conductivity, so it releases all its energy quickly"],
       "answer": 2,
-      "markScheme": ["1 mark: A high specific heat capacity, so it stores a lot of energy for each degree of temperature rise"],
+      "markScheme": [
+        "1 mark: A high specific heat capacity, so it stores a lot of energy for each degree of temperature rise"
+      ],
       "explanation": "A high c means a large ΔE for a given mass and temperature rise, so the core stores a lot of energy and releases it as it cools. High conductivity would release it too quickly."
     },
     {
       "id": "p1-specific-heat-capacity-q10",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which piece of equipment is used to measure the temperature change of the block in the specific heat capacity practical?",
-      "options": ["Ammeter", "Joulemeter", "Balance", "Thermometer"],
+      "question": "A student determines the specific heat capacity of a metal block.\nWhich piece of equipment does the student use to measure the temperature change of the block?",
+      "options": ["Ammeter","Joulemeter","Balance","Thermometer"],
       "answer": 3,
       "markScheme": ["1 mark: Thermometer"],
       "explanation": "A thermometer measures temperature. The joulemeter measures energy transferred, the balance measures mass and an ammeter measures current."
@@ -232,135 +244,199 @@
     {
       "id": "p1-specific-heat-capacity-q11",
       "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "Calculate the energy needed to raise the temperature of 1.0 kg of water by 10 °C. (c of water = 4200 J/kg °C)",
-      "numericAnswer": 42000, "tolerance": 0.01, "unit": "J",
-      "markScheme": ["1 mark: ΔE = 1.0 × 4200 × 10", "1 mark: 42 000 J"],
+      "question": "Calculate the energy needed to increase the temperature of 1.0 kg of water by 10 °C.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of water = 4200 J/kg °C",
+      "numericAnswer": 42000,
+      "tolerance": 0.01,
+      "unit": "J",
+      "answerLabel": "Energy",
+      "markScheme": ["1 mark: ΔE = 1.0 × 4200 × 10","1 mark: 42 000 J"],
       "explanation": "ΔE = mcΔθ = 1.0 × 4200 × 10 = 42 000 J (42 kJ)."
     },
     {
       "id": "p1-specific-heat-capacity-q12",
       "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "A 0.50 kg copper block is heated so that its temperature rises by 20 °C. Calculate the energy transferred to it. (c of copper = 385 J/kg °C)",
-      "numericAnswer": 3850, "tolerance": 0.01, "unit": "J",
-      "markScheme": ["1 mark: ΔE = 0.50 × 385 × 20", "1 mark: 3850 J"],
+      "question": "A copper block of mass 0.50 kg is heated. The temperature of the block increases by 20 °C.\nCalculate the energy transferred to the copper block.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of copper = 385 J/kg °C",
+      "numericAnswer": 3850,
+      "tolerance": 0.01,
+      "unit": "J",
+      "answerLabel": "Energy transferred",
+      "markScheme": ["1 mark: ΔE = 0.50 × 385 × 20","1 mark: 3850 J"],
       "explanation": "ΔE = mcΔθ = 0.50 × 385 × 20 = 3850 J."
     },
     {
       "id": "p1-specific-heat-capacity-q13",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "A mug contains 250 g of water at 15 °C. It is heated to 95 °C. Calculate the energy transferred to the water. Give your answer in kJ. (c of water = 4200 J/kg °C)",
-      "numericAnswer": 84, "tolerance": 0.01, "unit": "kJ",
-      "markScheme": ["1 mark: m = 0.25 kg and Δθ = 80 °C", "1 mark: ΔE = 0.25 × 4200 × 80 = 84 000 J", "1 mark: 84 kJ"],
+      "question": "A mug contains 250 g of water at 15 °C. The water is heated to 95 °C.\nCalculate the energy transferred to the water.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of water = 4200 J/kg °C\nGive your answer in kilojoules.",
+      "numericAnswer": 84,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "answerLabel": "Energy transferred",
+      "markScheme": ["1 mark: m = 0.25 kg and Δθ = 80 °C","1 mark: ΔE = 0.25 × 4200 × 80 = 84 000 J","1 mark: 84 kJ"],
       "explanation": "Convert 250 g to 0.25 kg and find Δθ = 95 − 15 = 80 °C. ΔE = 84 000 J, which is 84 kJ (divide by 1000)."
     },
     {
       "id": "p1-specific-heat-capacity-q14",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "A 2.0 kg metal block is supplied with 36 kJ of energy. Its temperature rises by 20 °C. Calculate the specific heat capacity of the metal.",
-      "numericAnswer": 900, "tolerance": 0.01, "unit": "J/kg °C",
-      "markScheme": ["1 mark: ΔE = 36 000 J", "1 mark: c = 36 000 ÷ (2.0 × 20)", "1 mark: 900 J/kg °C"],
+      "question": "A metal block of mass 2.0 kg is supplied with 36 kJ of energy. The temperature of the block increases by 20 °C.\nCalculate the specific heat capacity of the metal.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change",
+      "numericAnswer": 900,
+      "tolerance": 0.01,
+      "unit": "J/kg °C",
+      "answerLabel": "Specific heat capacity",
+      "markScheme": ["1 mark: ΔE = 36 000 J","1 mark: c = 36 000 ÷ (2.0 × 20)","1 mark: 900 J/kg °C"],
       "explanation": "Rearrange to c = ΔE ÷ (mΔθ). 36 kJ = 36 000 J, so c = 36 000 ÷ 40 = 900 J/kg °C."
     },
     {
       "id": "p1-specific-heat-capacity-q15",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "An iron pan of mass 0.80 kg absorbs 7.2 kJ of energy. Calculate its temperature rise. (c of iron = 450 J/kg °C)",
-      "numericAnswer": 20, "tolerance": 0.01, "unit": "°C",
-      "markScheme": ["1 mark: ΔE = 7200 J", "1 mark: Δθ = 7200 ÷ (0.80 × 450)", "1 mark: 20 °C"],
+      "question": "An iron pan of mass 0.80 kg is supplied with 7.2 kJ of energy.\nCalculate the temperature increase of the pan.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of iron = 450 J/kg °C",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "°C",
+      "answerLabel": "Temperature increase",
+      "markScheme": ["1 mark: ΔE = 7200 J","1 mark: Δθ = 7200 ÷ (0.80 × 450)","1 mark: 20 °C"],
       "explanation": "Δθ = ΔE ÷ (mc) = 7200 ÷ 360 = 20 °C. Remember to convert kJ to J first."
     },
     {
       "id": "p1-specific-heat-capacity-q16",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "1.5 kg of water at 18 °C is supplied with 315 kJ of energy. Assume no energy is lost. Calculate the final temperature of the water. (c of water = 4200 J/kg °C)",
-      "numericAnswer": 68, "tolerance": 0.01, "unit": "°C",
-      "markScheme": ["1 mark: Δθ = 315 000 ÷ (1.5 × 4200)", "1 mark: Δθ = 50 °C", "1 mark: final temperature = 18 + 50 = 68 °C"],
+      "question": "1.5 kg of water at 18 °C is supplied with 315 kJ of energy. Assume no energy is transferred to the surroundings.\nCalculate the final temperature of the water.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of water = 4200 J/kg °C",
+      "numericAnswer": 68,
+      "tolerance": 0.01,
+      "unit": "°C",
+      "answerLabel": "Final temperature",
+      "markScheme": [
+        "1 mark: Δθ = 315 000 ÷ (1.5 × 4200)",
+        "1 mark: Δθ = 50 °C",
+        "1 mark: final temperature = 18 + 50 = 68 °C"
+      ],
       "explanation": "The equation gives the temperature change, 50 °C. Add it to the starting temperature: 18 + 50 = 68 °C. Giving 50 °C is a common error."
     },
     {
       "id": "p1-specific-heat-capacity-q17",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "In the required practical, a 40 W heater is placed in a 1.0 kg aluminium block for 10 minutes. The temperature of the block rises by 25 °C. Calculate the specific heat capacity of aluminium from these results.",
-      "numericAnswer": 960, "tolerance": 0.01, "unit": "J/kg °C",
-      "markScheme": ["1 mark: t = 600 s", "1 mark: E = 40 × 600 = 24 000 J", "1 mark: c = 24 000 ÷ (1.0 × 25)", "1 mark: 960 J/kg °C"],
-      "explanation": "10 minutes = 600 s. Energy = power × time = 24 000 J. c = 24 000 ÷ 25 = 960 J/kg °C. This is above the accepted 900 J/kg °C because some energy was lost to the surroundings."
+      "question": "A student used a 40 W heater to heat a 1.0 kg aluminium block for 10 minutes.\nTable 1 shows the student's results.\nCalculate the specific heat capacity of aluminium from these results.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change",
+      "table": {
+        "headers": ["Time in minutes","Temperature of block in °C"],
+        "rows": [
+          ["0","20.0"],
+          ["10","45.0"]
+        ]
+      },
+      "numericAnswer": 960,
+      "tolerance": 0.01,
+      "unit": "J/kg °C",
+      "answerLabel": "Specific heat capacity",
+      "markScheme": [
+        "1 mark: t = 600 s",
+        "1 mark: E = 40 × 600 = 24 000 J",
+        "1 mark: c = 24 000 ÷ (1.0 × 25) (temperature change = 45.0 − 20.0 = 25 °C)",
+        "1 mark: 960 J/kg °C"
+      ],
+      "explanation": "10 minutes = 600 s. Energy = power × time = 24 000 J. The temperature change from Table 1 is 45.0 − 20.0 = 25 °C. c = 24 000 ÷ (1.0 × 25) = 960 J/kg °C. This is above the accepted 900 J/kg °C because some energy was lost to the surroundings."
     },
     {
       "id": "p1-specific-heat-capacity-q18",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "The water in a hot water bottle cools from 60 °C to 20 °C and releases 504 kJ of energy. Calculate the mass of water in the bottle. (c of water = 4200 J/kg °C)",
-      "numericAnswer": 3, "tolerance": 0.01, "unit": "kg",
-      "markScheme": ["1 mark: Δθ = 40 °C and ΔE = 504 000 J", "1 mark: m = 504 000 ÷ (4200 × 40)", "1 mark: 3.0 kg"],
+      "question": "The water in a hot water bottle cools from 60 °C to 20 °C. The water releases 504 kJ of energy.\nCalculate the mass of water in the hot water bottle.\nUse the equation:\nchange in thermal energy = mass × specific heat capacity × temperature change\nSpecific heat capacity of water = 4200 J/kg °C",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "answerLabel": "Mass",
+      "markScheme": ["1 mark: Δθ = 40 °C and ΔE = 504 000 J","1 mark: m = 504 000 ÷ (4200 × 40)","1 mark: 3.0 kg"],
       "explanation": "m = ΔE ÷ (cΔθ) = 504 000 ÷ 168 000 = 3.0 kg. The equation works for cooling: ΔE is the energy released."
     },
     {
       "id": "p1-specific-heat-capacity-q19",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Define the term specific heat capacity.",
-      "acceptedAnswers": ["energy required to raise the temperature of 1 kg by 1 °C", "energy needed to raise temperature of one kilogram by one degree Celsius"],
+      "question": "What is meant by the specific heat capacity of a substance?",
+      "acceptedAnswers": ["energy required to raise the temperature of 1 kg by 1 °C","energy needed to raise temperature of one kilogram by one degree Celsius"],
       "markScheme": ["1 mark: the amount of energy required to raise the temperature of 1 kg of a substance by 1 °C"],
       "explanation": "Both 'one kilogram' and 'one degree Celsius' are needed for the mark."
     },
     {
       "id": "p1-specific-heat-capacity-q20",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Name the meter that can be used to measure the energy transferred to the heater in the specific heat capacity practical.",
-      "acceptedAnswers": ["joulemeter", "joule meter"],
+      "question": "A student determines the specific heat capacity of a metal block.\nName the meter that can be used to measure the energy transferred to the heater.",
+      "acceptedAnswers": ["joulemeter","joule meter"],
       "markScheme": ["1 mark: joulemeter"],
       "explanation": "A joulemeter records energy transferred electrically in joules. Alternatively you can calculate energy from power × time."
     },
     {
       "id": "p1-specific-heat-capacity-q21",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Name the instrument used to measure the mass of the block in the specific heat capacity practical.",
-      "acceptedAnswers": ["balance", "top pan balance", "electronic balance", "scales"],
+      "question": "A student determines the specific heat capacity of a metal block.\nName the instrument used to measure the mass of the block.",
+      "acceptedAnswers": ["balance","top pan balance","electronic balance","scales"],
       "markScheme": ["1 mark: (top pan) balance"],
       "explanation": "Mass is measured with a balance, in g or kg. Convert grams to kilograms before using ΔE = mcΔθ."
     },
     {
       "id": "p1-specific-heat-capacity-q22",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "In the specific heat capacity practical, the temperature of the block keeps rising for a short time after the heater is switched off. Explain why.",
-      "acceptedAnswers": ["heater is still hot", "energy still transferred from heater to block", "heater thermal store", "conduction continues"],
-      "markScheme": ["1 mark: the heater is hotter than the block (it still has energy in its thermal store)", "1 mark: energy continues to be transferred by heating from the heater to the block until they reach the same temperature"],
+      "question": "Figure 1 shows the apparatus used to determine the specific heat capacity of a metal block.\nThe temperature of the block continues to increase for a short time after the heater is switched off.\nExplain why.",
+      "figure": {"svg":"<svg viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><g transform=\"translate(40 0)\"><rect x=\"40\" y=\"90\" width=\"170\" height=\"140\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"56\" y=\"100\" width=\"138\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"86\" y=\"70\" width=\"16\" height=\"110\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"14\" width=\"10\" height=\"160\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"172\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M90 70 V40 H260 M98 70 V52 H260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"260\" y=\"30\" width=\"80\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"52\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">joulemeter</text><path d=\"M340 40 H370 V110 M340 52 H356 V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"110\" width=\"80\" height=\"34\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"360\" y=\"126\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">power</text><text x=\"360\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">supply</text><line x1=\"160\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"94\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"180\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"204\" font-size=\"12\" fill=\"currentColor\">metal block</text><line x1=\"205\" y1=\"225\" x2=\"250\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"236\" font-size=\"12\" fill=\"currentColor\">insulation</text><line x1=\"86\" y1=\"130\" x2=\"30\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"26\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heater</text></g></svg>"},
+      "acceptedAnswers": ["heater is still hot","energy still transferred from heater to block","heater thermal store","conduction continues"],
+      "markScheme": [
+        "1 mark: the heater is hotter than the block (it still has energy in its thermal store)",
+        "1 mark: energy continues to be transferred by heating from the heater to the block until they reach the same temperature"
+      ],
       "explanation": "The heater element is hotter than the block. After the power is off it keeps transferring energy into the block, so you should record the highest temperature reached."
     },
     {
       "id": "p1-specific-heat-capacity-q23",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Explain why water is a good substance to use in a hot water bottle.",
-      "acceptedAnswers": ["high specific heat capacity", "stores a lot of energy", "releases a lot of energy as it cools", "cools slowly"],
-      "markScheme": ["1 mark: water has a high specific heat capacity", "1 mark: so it stores (and releases) a lot of energy for each degree it cools, keeping warm for a long time"],
+      "question": "Hot water bottles are filled with water.\nExplain why water is a good substance to use in a hot water bottle.",
+      "acceptedAnswers": ["high specific heat capacity","stores a lot of energy","releases a lot of energy as it cools","cools slowly"],
+      "markScheme": [
+        "1 mark: water has a high specific heat capacity",
+        "1 mark: so it stores (and releases) a lot of energy for each degree it cools, keeping warm for a long time"
+      ],
       "explanation": "Each kilogram of water releases 4200 J for every 1 °C it cools, so a bottle of hot water gives out a large amount of energy slowly."
     },
     {
       "id": "p1-specific-heat-capacity-q24",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "On a sunny day, the sand on a beach becomes much hotter than the sea, even though both receive the same energy per square metre from the Sun. Suggest why.",
-      "acceptedAnswers": ["sand has a lower specific heat capacity", "water has a higher specific heat capacity", "less energy needed to raise temperature of sand"],
-      "markScheme": ["1 mark: sand has a lower specific heat capacity than water", "1 mark: so the same energy causes a larger temperature rise (Δθ = ΔE ÷ mc)"],
+      "question": "On a sunny day, the sand on a beach becomes much hotter than the sea. The sand and the sea receive the same energy per square metre from the Sun.\nSuggest why the sand becomes hotter than the sea.",
+      "acceptedAnswers": ["sand has a lower specific heat capacity","water has a higher specific heat capacity","less energy needed to raise temperature of sand"],
+      "markScheme": [
+        "1 mark: sand has a lower specific heat capacity than water",
+        "1 mark: so the same energy causes a larger temperature rise (Δθ = ΔE ÷ mc)"
+      ],
       "explanation": "With a lower c, less energy is needed per kg per °C, so sand warms more for the same energy input."
     },
     {
       "id": "p1-specific-heat-capacity-q25",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Give two control variables in an experiment to compare the specific heat capacities of different metal blocks.",
-      "acceptedAnswers": ["mass of block", "power of heater", "time of heating", "energy supplied", "starting temperature", "amount of insulation"],
-      "markScheme": ["1 mark each for any two: mass of each block; power of the heater (or energy supplied); heating time; type and thickness of insulation; starting temperature"],
+      "question": "A student compares the specific heat capacities of different metal blocks.\nGive two control variables in this investigation.",
+      "acceptedAnswers": ["mass of block","power of heater","time of heating","energy supplied","starting temperature","amount of insulation"],
+      "markScheme": [
+        "1 mark each for any two: mass of each block; power of the heater (or energy supplied); heating time; type and thickness of insulation; starting temperature"
+      ],
       "explanation": "To compare metals fairly, only the type of metal should change. The mass and the energy supplied affect the temperature rise, so they must be kept the same."
     },
     {
       "id": "p1-specific-heat-capacity-q26",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A student's value for the specific heat capacity of aluminium was 1050 J/kg °C. The accepted value is 900 J/kg °C. Explain why the student's value is too high and suggest one improvement.",
-      "acceptedAnswers": ["energy lost to surroundings", "temperature rise too small", "insulate the block", "add more insulation", "use a lid"],
-      "markScheme": ["1 mark: some energy was dissipated to the surroundings (not all went into the block)", "1 mark: so the temperature rise was smaller, and c = ΔE ÷ (mΔθ) is too large", "1 mark: improvement: (better) insulation around the block, or water in the thermometer hole for good thermal contact"],
+      "question": "A student determined the specific heat capacity of aluminium.\nTable 1 shows the student's value and the accepted value.\nExplain why the student's value is too high.\nSuggest one improvement to the method.",
+      "table": {
+        "headers": ["","Specific heat capacity in J/kg °C"],
+        "rows": [
+          ["Student's value","1050"],
+          ["Accepted value","900"]
+        ]
+      },
+      "acceptedAnswers": ["energy lost to surroundings","temperature rise too small","insulate the block","add more insulation","use a lid"],
+      "markScheme": [
+        "1 mark: some energy was dissipated to the surroundings (not all went into the block)",
+        "1 mark: so the temperature rise was smaller, and c = ΔE ÷ (mΔθ) is too large",
+        "1 mark: improvement: (better) insulation around the block, or water in the thermometer hole for good thermal contact"
+      ],
       "explanation": "The energy reading includes energy that escaped. Dividing by a smaller Δθ gives a larger c. Reducing losses brings the value closer to 900 J/kg °C."
     },
     {
       "id": "p1-specific-heat-capacity-q27",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "Describe a method to determine the specific heat capacity of a metal block. Include how you would use your measurements to calculate the specific heat capacity.",
+      "question": "Figure 1 shows apparatus that can be used to determine the specific heat capacity of a metal block.\nDescribe a method to determine the specific heat capacity of the metal block.\nYour answer should include how you would use your measurements to calculate the specific heat capacity.",
+      "figure": {"svg":"<svg viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><g transform=\"translate(40 0)\"><rect x=\"40\" y=\"90\" width=\"170\" height=\"140\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"56\" y=\"100\" width=\"138\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"86\" y=\"70\" width=\"16\" height=\"110\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"14\" width=\"10\" height=\"160\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"172\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M90 70 V40 H260 M98 70 V52 H260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"260\" y=\"30\" width=\"80\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"52\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">joulemeter</text><path d=\"M340 40 H370 V110 M340 52 H356 V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"110\" width=\"80\" height=\"34\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"360\" y=\"126\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">power</text><text x=\"360\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">supply</text><line x1=\"160\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"94\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"180\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"204\" font-size=\"12\" fill=\"currentColor\">metal block</text><line x1=\"205\" y1=\"225\" x2=\"250\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"254\" y=\"236\" font-size=\"12\" fill=\"currentColor\">insulation</text><line x1=\"86\" y1=\"130\" x2=\"30\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"26\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heater</text></g></svg>"},
       "markScheme": [
         "Indicative content: measure the mass of the block with a balance; place an immersion heater in one hole and a thermometer in the other; add a few drops of water to the thermometer hole for good thermal contact; wrap the block in insulation; connect the heater to a power supply through a joulemeter (or use an ammeter and voltmeter, or a known power and a stopwatch); record the starting temperature and zero the joulemeter; switch on and heat for about 10 minutes; switch off and record the highest temperature reached; record the energy transferred; calculate Δθ = final − initial; calculate c = ΔE ÷ (mΔθ); or record temperature and energy every minute, plot temperature against energy, and use c = 1 ÷ (m × gradient); repeat and take a mean.",
         "Level 3 (5 to 6 marks): a coherent method that would produce valid results, with measurements of mass, energy and temperature change, steps to reduce energy losses, and a correct calculation of c.",
@@ -372,18 +448,19 @@
     {
       "id": "p1-specific-heat-capacity-q28",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "A student heats a 1.0 kg block and plots a graph of temperature (y-axis) against energy transferred (x-axis). The straight part of the line has a gradient of 0.0011 °C/J.\nExplain how the gradient is related to the specific heat capacity and use it to calculate the specific heat capacity of the block.",
+      "question": "A student heated a 1.0 kg metal block.\nFigure 1 shows a graph of the student's results.\nUse Figure 1 to determine the gradient of the line.\nExplain how the gradient is related to the specific heat capacity of the metal.\nCalculate the specific heat capacity of the metal.",
+      "figure": {"svg":"<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M70 16V250M87 16V250M104 16V250M121 16V250M138 16V250M155 16V250M172 16V250M189 16V250M206 16V250M223 16V250M240 16V250M257 16V250M274 16V250M291 16V250M308 16V250M325 16V250M342 16V250M359 16V250M376 16V250M393 16V250M410 16V250M70 250H410M70 238.3H410M70 226.6H410M70 214.9H410M70 203.2H410M70 191.5H410M70 179.8H410M70 168.1H410M70 156.4H410M70 144.7H410M70 133H410M70 121.3H410M70 109.6H410M70 97.9H410M70 86.2H410M70 74.5H410M70 62.8H410M70 51.1H410M70 39.4H410M70 27.7H410M70 16H410\" stroke=\"currentColor\" stroke-opacity=\"0.2\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M70 16V250H410\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"70\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"155\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">5000</text><text x=\"240\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">10000</text><text x=\"325\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">15000</text><text x=\"410\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">20000</text><text x=\"64\" y=\"254\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">10</text><text x=\"64\" y=\"195.5\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">20</text><text x=\"64\" y=\"137\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">30</text><text x=\"64\" y=\"78.5\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"64\" y=\"20\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">50</text><text x=\"240\" y=\"292\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Energy transferred in J</text><text transform=\"translate(16 133) rotate(-90)\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Temperature in °C</text><polyline points=\"70,191.5 410,62.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M66 187.5l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M151 155.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M236 123.1l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M321 91l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M406 58.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"},
       "markScheme": [
-        "Indicative content: gradient = Δθ ÷ ΔE; from ΔE = mcΔθ, Δθ ÷ ΔE = 1 ÷ (mc); so c = 1 ÷ (m × gradient); c = 1 ÷ (1.0 × 0.0011) = 909 J/kg °C (accept 910 or 900 J/kg °C).",
-        "Level 2 (3 to 4 marks): correct relationship between gradient and c explained and correct value calculated.",
-        "Level 1 (1 to 2 marks): states that gradient is temperature change divided by energy, or calculates c with incomplete explanation."
+        "Indicative content: gradient = change in temperature ÷ energy transferred = (42 − 20) ÷ 20 000 = 0.0011 °C/J; from ΔE = mcΔθ, Δθ ÷ ΔE = 1 ÷ (mc); so c = 1 ÷ (m × gradient); c = 1 ÷ (1.0 × 0.0011) = 909 J/kg °C (accept 910 or 900 J/kg °C).",
+        "Level 2 (3 to 4 marks): gradient determined correctly, relationship between gradient and c explained and correct value calculated.",
+        "Level 1 (1 to 2 marks): gradient determined correctly, or states that gradient is temperature change divided by energy, or calculates c with incomplete explanation."
       ],
-      "explanation": "Rearranging ΔE = mcΔθ gives Δθ ÷ ΔE = 1 ÷ (mc). So c = 1 ÷ (1.0 × 0.0011) ≈ 910 J/kg °C, close to aluminium."
+      "explanation": "From Figure 1 the temperature rises from 20 °C to 42 °C as 20 000 J is transferred, so the gradient is 22 ÷ 20 000 = 0.0011 °C/J. Rearranging ΔE = mcΔθ gives Δθ ÷ ΔE = 1 ÷ (mc). So c = 1 ÷ (1.0 × 0.0011) ≈ 910 J/kg °C, close to aluminium."
     },
     {
       "id": "p1-specific-heat-capacity-q29",
       "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "Electric storage heaters contain large blocks of material that are heated overnight. During the day the blocks release energy into the room.\nExplain why the blocks are made of a material with a high specific heat capacity.",
+      "question": "Electric storage heaters contain large blocks of material. The blocks are heated overnight. During the day the blocks release energy into the room.\nExplain why the blocks are made of a material with a high specific heat capacity.",
       "markScheme": [
         "Indicative content: specific heat capacity is the energy needed to raise 1 kg by 1 °C; a high c means a lot of energy is stored for each degree of temperature rise; using ΔE = mcΔθ, a large c gives a large ΔE for a given mass and temperature change; as the blocks cool they release this energy; so the heater can keep the room warm for many hours; the block does not need to reach a dangerously high temperature to store enough energy.",
         "Level 2 (3 to 4 marks): clear explanation linking high c to storing and releasing a large amount of energy, with reference to ΔE = mcΔθ or temperature change.",
