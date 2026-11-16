@@ -328,7 +328,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Why must the fermenter used to grow Fusarium be kept sterile?",
+      "question": "Figure 1 shows a fermenter used to grow the fungus Fusarium.\nWhy must the fermenter be kept sterile?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 315\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"140\" y=\"60\" width=\"180\" height=\"230\" rx=\"14\" fill=\"#93c5fd\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"75\" width=\"150\" height=\"200\" rx=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"215\" y=\"22\" width=\"30\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"44\" x2=\"230\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"205\" y=\"150\" width=\"50\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"205\" y=\"220\" width=\"50\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M20 300H230V262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"262\" x2=\"260\" y2=\"262\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"205\" cy=\"248\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"222\" cy=\"236\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"252\" cy=\"246\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"200\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"268\" cy=\"192\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"212\" cy=\"180\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"250\" cy=\"120\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"110\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"272\" cy=\"140\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"300\" x2=\"90\" y2=\"300\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M90 300L82.7 296.7L82.7 303.3Z\" fill=\"currentColor\"/><text x=\"20\" y=\"288\" font-size=\"12\" fill=\"currentColor\">Sterile air in</text><path d=\"M60 40H180V75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M180 80L182.9 73.6L177.1 73.6Z\" fill=\"currentColor\"/><text x=\"20\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Glucose syrup in</text><path d=\"M280 75V40H330\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"330\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360 40L353.6 37.1L353.6 42.9Z\" fill=\"currentColor\"/><text x=\"366\" y=\"44\" font-size=\"12\" fill=\"currentColor\">Waste gases out</text><line x1=\"380\" y1=\"260\" x2=\"322\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M322 260L328.4 262.9L328.4 257.1Z\" fill=\"currentColor\"/><text x=\"386\" y=\"264\" font-size=\"12\" fill=\"currentColor\">Cooling water in</text><line x1=\"322\" y1=\"90\" x2=\"380\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M380 90L373.6 87.1L373.6 92.9Z\" fill=\"currentColor\"/><text x=\"386\" y=\"94\" font-size=\"12\" fill=\"currentColor\">Cooling water out</text><line x1=\"245\" y1=\"33\" x2=\"300\" y2=\"12\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"304\" y=\"16\" font-size=\"12\" fill=\"currentColor\">Motor</text><line x1=\"255\" y1=\"224\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"366\" y=\"204\" font-size=\"12\" fill=\"currentColor\">Stirrer</text><line x1=\"150\" y1=\"180\" x2=\"80\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"76\" y=\"176\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Water</text><text x=\"76\" y=\"192\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">jacket</text><line x1=\"170\" y1=\"130\" x2=\"80\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"76\" y=\"126\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Fusarium</text><text x=\"76\" y=\"142\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">culture</text></svg>"
+      },
       "options": [
         "To keep the temperature constant",
         "To stop the fungus respiring",
@@ -385,10 +388,27 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 2,
-      "question": "Mycoprotein contains 11 g of protein per 100 g.\nCalculate the mass of protein in a 250 g portion of mycoprotein.",
+      "question": "Table 1 shows the mass of protein in 100 g of two foods.\nCalculate the mass of protein in a 250 g portion of mycoprotein.",
+      "table": {
+        "headers": [
+          "Food",
+          "Mass of protein in 100 g of food in g"
+        ],
+        "rows": [
+          [
+            "Beef",
+            "26"
+          ],
+          [
+            "Mycoprotein",
+            "11"
+          ]
+        ]
+      },
       "numericAnswer": 27.5,
       "tolerance": 0.01,
       "unit": "g",
+      "answerLabel": "Mass of protein",
       "markScheme": [
         "1 mark: 250 × 11 ÷ 100",
         "1 mark: 27.5 g"
@@ -401,10 +421,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A GM pest-resistant maize gives a yield of 4.0 tonnes per hectare. The non-GM variety gives 3.2 tonnes per hectare.\nCalculate the percentage increase in yield.",
+      "question": "Table 1 shows the yields of two varieties of maize.\nCalculate the percentage increase in yield when the GM pest-resistant variety is grown instead of the non-GM variety.",
+      "table": {
+        "headers": [
+          "Variety of maize",
+          "Yield in tonnes per hectare"
+        ],
+        "rows": [
+          [
+            "Non-GM",
+            "3.2"
+          ],
+          [
+            "GM pest-resistant",
+            "4.0"
+          ]
+        ]
+      },
       "numericAnswer": 25,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage increase",
       "markScheme": [
         "1 mark: (4.0 − 3.2) ÷ 3.2 × 100",
         "1 mark: 25%"
@@ -421,6 +458,7 @@
       "numericAnswer": 7200,
       "tolerance": 0.01,
       "unit": "kg",
+      "answerLabel": "Mass of biomass",
       "markScheme": [
         "1 mark: 300 × 24 = 7200 kg"
       ],
@@ -432,10 +470,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "After purification, 45% of the dry mass of mycoprotein is protein.\nCalculate the mass of protein in 1200 kg of dry mycoprotein.",
+      "question": "Table 1 shows information about a batch of dry mycoprotein.\nCalculate the mass of protein in the batch.",
+      "table": {
+        "headers": [
+          "Dry mass of mycoprotein in kg",
+          "Percentage of dry mass that is protein"
+        ],
+        "rows": [
+          [
+            "1200",
+            "45"
+          ]
+        ]
+      },
       "numericAnswer": 540,
       "tolerance": 0.01,
       "unit": "kg",
+      "answerLabel": "Mass of protein",
       "markScheme": [
         "1 mark: 1200 × 0.45",
         "1 mark: 540 kg"
@@ -448,10 +499,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Beef contains 26 g of protein per 100 g. Mycoprotein contains 11 g of protein per 100 g.\nCalculate the mass of mycoprotein that contains the same mass of protein as 150 g of beef. Give your answer to 3 significant figures.",
+      "question": "Table 1 shows the mass of protein in 100 g of beef and in 100 g of mycoprotein.\nCalculate the mass of mycoprotein that contains the same mass of protein as 150 g of beef.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Food",
+          "Mass of protein in 100 g of food in g"
+        ],
+        "rows": [
+          [
+            "Beef",
+            "26"
+          ],
+          [
+            "Mycoprotein",
+            "11"
+          ]
+        ]
+      },
       "numericAnswer": 355,
       "tolerance": 0.01,
       "unit": "g",
+      "answerLabel": "Mass of mycoprotein",
       "markScheme": [
         "1 mark: protein in beef = 150 × 26 ÷ 100 = 39 g",
         "1 mark: 39 ÷ 0.11 (or 39 × 100 ÷ 11)",
@@ -514,7 +582,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why sterile air is bubbled into the fermenter in which Fusarium is grown.",
+      "question": "Figure 1 shows a fermenter used to grow the fungus Fusarium.\nExplain why sterile air is bubbled into the fermenter.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 315\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"140\" y=\"60\" width=\"180\" height=\"230\" rx=\"14\" fill=\"#93c5fd\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"75\" width=\"150\" height=\"200\" rx=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"215\" y=\"22\" width=\"30\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"44\" x2=\"230\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"205\" y=\"150\" width=\"50\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"205\" y=\"220\" width=\"50\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M20 300H230V262\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"262\" x2=\"260\" y2=\"262\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"205\" cy=\"248\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"222\" cy=\"236\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"252\" cy=\"246\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"200\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"268\" cy=\"192\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"212\" cy=\"180\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"250\" cy=\"120\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"190\" cy=\"110\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"272\" cy=\"140\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"45\" y1=\"300\" x2=\"90\" y2=\"300\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M90 300L82.7 296.7L82.7 303.3Z\" fill=\"currentColor\"/><text x=\"20\" y=\"288\" font-size=\"12\" fill=\"currentColor\">Sterile air in</text><path d=\"M60 40H180V75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M180 80L182.9 73.6L177.1 73.6Z\" fill=\"currentColor\"/><text x=\"20\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Glucose syrup in</text><path d=\"M280 75V40H330\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"330\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360 40L353.6 37.1L353.6 42.9Z\" fill=\"currentColor\"/><text x=\"366\" y=\"44\" font-size=\"12\" fill=\"currentColor\">Waste gases out</text><line x1=\"380\" y1=\"260\" x2=\"322\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M322 260L328.4 262.9L328.4 257.1Z\" fill=\"currentColor\"/><text x=\"386\" y=\"264\" font-size=\"12\" fill=\"currentColor\">Cooling water in</text><line x1=\"322\" y1=\"90\" x2=\"380\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M380 90L373.6 87.1L373.6 92.9Z\" fill=\"currentColor\"/><text x=\"386\" y=\"94\" font-size=\"12\" fill=\"currentColor\">Cooling water out</text><line x1=\"245\" y1=\"33\" x2=\"300\" y2=\"12\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"304\" y=\"16\" font-size=\"12\" fill=\"currentColor\">Motor</text><line x1=\"255\" y1=\"224\" x2=\"360\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"366\" y=\"204\" font-size=\"12\" fill=\"currentColor\">Stirrer</text><line x1=\"150\" y1=\"180\" x2=\"80\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"76\" y=\"176\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Water</text><text x=\"76\" y=\"192\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">jacket</text><line x1=\"170\" y1=\"130\" x2=\"80\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"76\" y=\"126\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Fusarium</text><text x=\"76\" y=\"142\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">culture</text></svg>"
+      },
       "acceptedAnswers": [
         "oxygen",
         "aerobic respiration",
