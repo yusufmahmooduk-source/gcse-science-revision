@@ -421,7 +421,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "On a hot, humid day, sweating is less effective at cooling the body. What is the best explanation?",
+      "question": "Table 1 shows the mass of sweat that evaporated from a person's skin in one hour at different air humidities. The air temperature was the same.\nOn a hot, humid day, sweating is less effective at cooling the body.\nWhat is the best explanation?",
+      "table": {
+        "headers": [
+          "Humidity of air in %",
+          "Mass of sweat evaporated in g per hour"
+        ],
+        "rows": [
+          [
+            "30",
+            "780"
+          ],
+          [
+            "60",
+            "490"
+          ],
+          [
+            "90",
+            "150"
+          ]
+        ]
+      },
       "options": [
         "Less sweat is produced in humid air",
         "Sweat evaporates more slowly because the air already contains a lot of water vapour",
@@ -440,14 +460,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "During an illness, a person's core body temperature rose from 37.0 °C to 38.6 °C. Calculate the increase in temperature.",
+      "question": "Figure 1 shows a person's core body temperature during an illness.\nUse Figure 1 to calculate the increase in core body temperature between day 0 and day 2.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 20V252M90.2 20V252M118.3 20V252M146.5 20V252M174.7 20V252M202.8 20V252M231 20V252M259.2 20V252M287.3 20V252M315.5 20V252M343.7 20V252M371.8 20V252M400 20V252M62 252H400M62 242.7H400M62 233.4H400M62 224.2H400M62 214.9H400M62 205.6H400M62 196.3H400M62 187H400M62 177.8H400M62 168.5H400M62 159.2H400M62 149.9H400M62 140.6H400M62 131.4H400M62 122.1H400M62 112.8H400M62 103.5H400M62 94.2H400M62 85H400M62 75.7H400M62 66.4H400M62 57.1H400M62 47.8H400M62 38.6H400M62 29.3H400M62 20H400\" stroke=\"currentColor\" stroke-opacity=\"0.18\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 20V252H400\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"62\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"118.3\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"174.7\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"231\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"287.3\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"343.7\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"400\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"57\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">36.5</text><text x=\"57\" y=\"209.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">37.0</text><text x=\"57\" y=\"163.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">37.5</text><text x=\"57\" y=\"116.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">38.0</text><text x=\"57\" y=\"70.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">38.5</text><text x=\"57\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">39.0</text><text x=\"231\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"14\" y=\"136\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 136)\">Core body temperature in °C</text><polyline points=\"62,205.6 118.3,149.9 174.7,57.1 231,75.7 287.3,131.4 343.7,187 400,205.6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><path d=\"M58 201.6l8 8M58 209.6l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M114.3 145.9l8 8M114.3 153.9l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M170.7 53.1l8 8M170.7 61.1l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M227 71.7l8 8M227 79.7l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M283.3 127.4l8 8M283.3 135.4l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M339.7 183l8 8M339.7 191l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M396 201.6l8 8M396 209.6l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "numericAnswer": 1.6,
       "tolerance": 0.02,
       "unit": "°C",
+      "answerLabel": "Increase in temperature",
       "markScheme": [
         "1 mark: 38.6 − 37.0 = 1.6 °C"
       ],
-      "explanation": "Increase = final − initial = 38.6 − 37.0 = 1.6 °C."
+      "explanation": "From Figure 1, the temperature on day 0 is 37.0 °C and on day 2 it is 38.6 °C. Increase = final − initial = 38.6 − 37.0 = 1.6 °C."
     },
     {
       "id": "b5-control-of-body-temperature-q14",
@@ -455,10 +479,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A runner loses 1.2 dm³ of sweat per hour. Calculate the total volume of sweat lost during a race lasting 2.5 hours.",
+      "question": "Table 1 gives information about a runner during a race.\nCalculate the total volume of sweat the runner lost during the race.",
+      "table": {
+        "headers": [
+          "Rate of sweat loss in dm³ per hour",
+          "Time taken to complete the race in hours"
+        ],
+        "rows": [
+          [
+            "1.2",
+            "2.5"
+          ]
+        ]
+      },
       "numericAnswer": 3,
       "tolerance": 0.02,
       "unit": "dm³",
+      "answerLabel": "Volume of sweat lost",
       "markScheme": [
         "1 mark: 1.2 × 2.5",
         "1 mark: 3.0 dm³"
@@ -471,10 +508,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Blood flow to the skin of a person's arm was 250 cm³/min at rest in a cool room and 1750 cm³/min after exercise in a hot room. How many times greater was the blood flow after exercise?",
+      "question": "Table 1 shows the blood flow to the skin of a person's arm in two conditions.\nCalculate how many times greater the blood flow was after exercise in a hot room than at rest in a cool room.",
+      "table": {
+        "headers": [
+          "Condition",
+          "Blood flow to skin in cm³/min"
+        ],
+        "rows": [
+          [
+            "At rest in a cool room",
+            "250"
+          ],
+          [
+            "After exercise in a hot room",
+            "1750"
+          ]
+        ]
+      },
       "numericAnswer": 7,
       "tolerance": 0.02,
       "unit": "",
+      "answerLabel": "Number of times greater",
       "markScheme": [
         "1 mark: 1750 ÷ 250",
         "1 mark: 7 (times)"
@@ -487,10 +541,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In a cold room, blood flow to a person's hand decreased from 400 cm³/min to 60 cm³/min. Calculate the percentage decrease in blood flow.",
+      "question": "Table 1 shows the blood flow to a person's hand before and after they went into a cold room.\nCalculate the percentage decrease in blood flow.",
+      "table": {
+        "headers": [
+          "Condition",
+          "Blood flow to hand in cm³/min"
+        ],
+        "rows": [
+          [
+            "Before entering cold room",
+            "400"
+          ],
+          [
+            "In cold room",
+            "60"
+          ]
+        ]
+      },
       "numericAnswer": 85,
       "tolerance": 0.02,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: (400 − 60) ÷ 400 × 100",
         "1 mark: 85%"
@@ -503,10 +574,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "When 1 g of sweat evaporates from the skin, about 2.4 kJ of energy is transferred from the body. Calculate the energy transferred when 500 g of sweat evaporates.",
+      "question": "When 1 g of sweat evaporates from the skin, 2.4 kJ of energy is transferred from the body.\nCalculate the energy transferred when 500 g of sweat evaporates.",
       "numericAnswer": 1200,
       "tolerance": 0.02,
       "unit": "kJ",
+      "answerLabel": "Energy transferred",
       "markScheme": [
         "1 mark: 2.4 × 500",
         "1 mark: 1200 kJ"
@@ -559,7 +631,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "After exercising on a hot day, a person's skin looks red. Explain why.",
+      "question": "Figure 1 shows a section through human skin.\nAfter exercising on a hot day, a person's skin looks red.\nExplain why.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"40\" width=\"300\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"70\" width=\"300\" height=\"140\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" fill-opacity=\"0.25\"/><rect x=\"20\" y=\"210\" width=\"300\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" fill-opacity=\"0.3\"/><path d=\"M20 180H320\" stroke=\"#fca5a5\" stroke-width=\"10\"/><path d=\"M20 175H320M20 185H320\" stroke=\"currentColor\"/><path d=\"M60 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"5\"/><path d=\"M60 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><path d=\"M130 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"5\"/><path d=\"M130 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><path d=\"M200 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"5\"/><path d=\"M200 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><path d=\"M280 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"5\"/><path d=\"M280 175V88q10 -16 20 0V175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><path d=\"M110 40V150\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M110 150q-12 4 -6 14q10 6 16 -4q-2 -12 -14 -6q-8 10 4 14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 40l12 120\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"258\" cy=\"162\" rx=\"8\" ry=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"55\" x2=\"350\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"354\" y=\"59\" font-size=\"12\" fill=\"currentColor\">epidermis</text><line x1=\"300\" y1=\"110\" x2=\"350\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"354\" y=\"104\" font-size=\"12\" fill=\"currentColor\">capillaries</text><line x1=\"300\" y1=\"180\" x2=\"350\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"354\" y=\"174\" font-size=\"12\" fill=\"currentColor\">blood vessel supplying</text><line x1=\"118\" y1=\"160\" x2=\"350\" y2=\"215\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"354\" y=\"219\" font-size=\"12\" fill=\"currentColor\">sweat gland</text><line x1=\"250\" y1=\"90\" x2=\"350\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"354\" y=\"139\" font-size=\"12\" fill=\"currentColor\">hair</text><text x=\"354\" y=\"188\" font-size=\"12\" fill=\"currentColor\">the capillaries</text></svg>"
+      },
       "acceptedAnswers": [
         "vasodilation",
         "blood vessels dilate",

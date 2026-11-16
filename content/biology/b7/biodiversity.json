@@ -336,11 +336,12 @@
       "id": "b7-biodiversity-q07"
     },
     {
+      "id": "b7-biodiversity-q08",
       "type": "mcq",
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which statement about biodiversity is correct according to the AQA specification?",
+      "question": "Which statement about biodiversity is correct?",
       "options": [
         "Humans have protected biodiversity for hundreds of years",
         "Measures to try to stop the reduction in biodiversity have only been taken recently",
@@ -351,15 +352,31 @@
       "markScheme": [
         "1 mark: measures have only been taken recently"
       ],
-      "explanation": "Many human activities are reducing biodiversity, and only recently have measures been taken to try to stop this.",
-      "id": "b7-biodiversity-q08"
+      "explanation": "Many human activities are reducing biodiversity, and only recently have measures been taken to try to stop this."
     },
     {
+      "id": "b7-biodiversity-q09",
       "type": "mcq",
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "Two ecosystems each lose one species of herbivore. Ecosystem P has 12 herbivore species; ecosystem Q has 2. Which statement best explains which ecosystem will be affected more?",
+      "question": "Table 1 shows the number of herbivore species in two ecosystems, P and Q.\nEach ecosystem loses one species of herbivore.\nWhich statement best explains which ecosystem will be affected more?",
+      "table": {
+        "headers": [
+          "Ecosystem",
+          "Number of herbivore species"
+        ],
+        "rows": [
+          [
+            "P",
+            "12"
+          ],
+          [
+            "Q",
+            "2"
+          ]
+        ]
+      },
       "options": [
         "Q, because predators in Q are more dependent on the remaining herbivore",
         "P, because more species compete for food",
@@ -370,15 +387,18 @@
       "markScheme": [
         "1 mark: Q, because predators depend more on fewer prey species"
       ],
-      "explanation": "In Q, losing one of two herbivores halves the prey species available to predators, so the effect on the food web is much bigger than in P.",
-      "id": "b7-biodiversity-q09"
+      "explanation": "In Q, losing one of two herbivores halves the prey species available to predators, so the effect on the food web is much bigger than in P."
     },
     {
+      "id": "b7-biodiversity-q10",
       "type": "mcq",
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Use the bar chart in the notes. Which habitat has the second highest number of plant species?",
+      "question": "A student counted the number of plant species in four habitats.\nFigure 1 shows the results.\nWhich habitat has the second highest number of plant species?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 250H420M64 240.8H420M64 231.6H420M64 222.4H420M64 213.2H420M64 204H420M64 194.8H420M64 185.6H420M64 176.4H420M64 167.2H420M64 158H420M64 148.8H420M64 139.6H420M64 130.4H420M64 121.2H420M64 112H420M64 102.8H420M64 93.6H420M64 84.4H420M64 75.2H420M64 66H420M64 56.8H420M64 47.6H420M64 38.4H420M64 29.2H420M64 20H420\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"><text x=\"57\" y=\"254\">0</text><text x=\"57\" y=\"208\">10</text><text x=\"57\" y=\"162\">20</text><text x=\"57\" y=\"116\">30</text><text x=\"57\" y=\"70\">40</text><text x=\"57\" y=\"24\">50</text></g><path d=\"M60 250h4M60 204h4M60 158h4M60 112h4M60 66h4M60 20h4\" stroke=\"currentColor\"/><rect x=\"84\" y=\"56.8\" width=\"49\" height=\"193.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"108.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Woodland</text><rect x=\"173\" y=\"102.8\" width=\"49\" height=\"147.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"197.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Meadow</text><rect x=\"262\" y=\"194.8\" width=\"49\" height=\"55.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"286.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Lawn</text><rect x=\"351\" y=\"240.8\" width=\"49\" height=\"9.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"375.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wheat field</text><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"250\" x2=\"420\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"242\" y=\"294\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Habitat</text><text x=\"16\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\">Number of plant species</text></svg>"
+      },
       "options": [
         "Woodland",
         "Lawn",
@@ -389,87 +409,142 @@
       "markScheme": [
         "1 mark: meadow"
       ],
-      "explanation": "Woodland has 42 species, meadow 32, lawn 12 and wheat field 2, so the meadow is second highest.",
-      "id": "b7-biodiversity-q10"
+      "explanation": "Woodland has 42 species, meadow 32, lawn 12 and wheat field 2, so the meadow is second highest."
     },
     {
+      "id": "b7-biodiversity-q11",
       "type": "numeric",
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Use the bar chart in the notes. How many more plant species were found in the meadow than on the lawn?",
+      "question": "A student counted the number of plant species in four habitats.\nFigure 1 shows the results.\nHow many more plant species were found in the meadow than on the lawn?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 250H420M64 240.8H420M64 231.6H420M64 222.4H420M64 213.2H420M64 204H420M64 194.8H420M64 185.6H420M64 176.4H420M64 167.2H420M64 158H420M64 148.8H420M64 139.6H420M64 130.4H420M64 121.2H420M64 112H420M64 102.8H420M64 93.6H420M64 84.4H420M64 75.2H420M64 66H420M64 56.8H420M64 47.6H420M64 38.4H420M64 29.2H420M64 20H420\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"><text x=\"57\" y=\"254\">0</text><text x=\"57\" y=\"208\">10</text><text x=\"57\" y=\"162\">20</text><text x=\"57\" y=\"116\">30</text><text x=\"57\" y=\"70\">40</text><text x=\"57\" y=\"24\">50</text></g><path d=\"M60 250h4M60 204h4M60 158h4M60 112h4M60 66h4M60 20h4\" stroke=\"currentColor\"/><rect x=\"84\" y=\"56.8\" width=\"49\" height=\"193.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"108.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Woodland</text><rect x=\"173\" y=\"102.8\" width=\"49\" height=\"147.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"197.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Meadow</text><rect x=\"262\" y=\"194.8\" width=\"49\" height=\"55.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"286.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Lawn</text><rect x=\"351\" y=\"240.8\" width=\"49\" height=\"9.2\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"375.5\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wheat field</text><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"250\" x2=\"420\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"242\" y=\"294\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Habitat</text><text x=\"16\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\">Number of plant species</text></svg>"
+      },
       "numericAnswer": 20,
       "tolerance": 0,
       "unit": "species",
+      "answerLabel": "Difference in number of species",
       "markScheme": [
         "1 mark: 32 − 12 = 20"
       ],
-      "explanation": "The meadow has 32 species and the lawn 12, so the difference is 20 species.",
-      "id": "b7-biodiversity-q11"
+      "explanation": "The meadow has 32 species and the lawn 12, so the difference is 20 species."
     },
     {
+      "id": "b7-biodiversity-q12",
       "type": "numeric",
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A survey found 40 species of bird in an area of forest. After part of the forest was cleared, a second survey found 26 species. Calculate the percentage decrease in the number of bird species.",
+      "question": "Scientists surveyed the bird species in an area of forest before and after part of the forest was cleared.\nTable 1 shows the results.\nCalculate the percentage decrease in the number of bird species.",
+      "table": {
+        "headers": [
+          "Survey",
+          "Number of bird species"
+        ],
+        "rows": [
+          [
+            "Before clearing",
+            "40"
+          ],
+          [
+            "After clearing",
+            "26"
+          ]
+        ]
+      },
       "numericAnswer": 35,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 40 − 26 = 14",
         "1 mark: 14 ÷ 40 × 100 = 35%"
       ],
-      "explanation": "The decrease is 14 species. 14 ÷ 40 = 0.35, which is a 35% decrease. Dividing by 26 instead gives the wrong answer.",
-      "id": "b7-biodiversity-q12"
+      "explanation": "The decrease is 14 species. 14 ÷ 40 = 0.35, which is a 35% decrease. Dividing by 26 instead gives the wrong answer."
     },
     {
+      "id": "b7-biodiversity-q13",
       "type": "numeric",
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A hedgerow survey found 15 species of insect. Five years after the farmer stopped spraying insecticide, 24 species were found. Calculate the percentage increase.",
+      "question": "A farmer stopped spraying insecticide on a hedgerow.\nTable 1 shows the number of insect species found in the hedgerow.\nCalculate the percentage increase in the number of insect species.",
+      "table": {
+        "headers": [
+          "Time of survey",
+          "Number of insect species"
+        ],
+        "rows": [
+          [
+            "Before spraying stopped",
+            "15"
+          ],
+          [
+            "5 years after spraying stopped",
+            "24"
+          ]
+        ]
+      },
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage increase",
       "markScheme": [
         "1 mark: 24 − 15 = 9",
         "1 mark: 9 ÷ 15 × 100 = 60%"
       ],
-      "explanation": "The increase is 9 species, and 9 ÷ 15 × 100 = 60%.",
-      "id": "b7-biodiversity-q13"
+      "explanation": "The increase is 9 species, and 9 ÷ 15 × 100 = 60%."
     },
     {
+      "id": "b7-biodiversity-q14",
       "type": "numeric",
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A country had 250 known species of amphibian. Scientists report that 22% of them are threatened with extinction. Calculate how many species are not threatened.",
+      "question": "A country has 250 known species of amphibian.\nScientists report that 22% of these species are threatened with extinction.\nCalculate the number of amphibian species that are not threatened.",
       "numericAnswer": 195,
       "tolerance": 0.01,
       "unit": "species",
+      "answerLabel": "Number of species not threatened",
       "markScheme": [
         "1 mark: 22% of 250 = 55 species threatened",
         "1 mark: 250 − 55 = 195 species not threatened"
       ],
-      "explanation": "0.22 × 250 = 55 threatened species. 250 − 55 = 195. You could also calculate 0.78 × 250 = 195.",
-      "id": "b7-biodiversity-q14"
+      "explanation": "0.22 × 250 = 55 threatened species. 250 − 55 = 195. You could also calculate 0.78 × 250 = 195."
     },
     {
+      "id": "b7-biodiversity-q15",
       "type": "numeric",
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A coral reef contained 320 species of fish. After a period of coral damage, the number of fish species fell to 248. Calculate the percentage decrease. Give your answer to 2 significant figures.",
+      "question": "Table 1 shows the number of fish species on a coral reef before and after the coral was damaged.\nCalculate the percentage decrease in the number of fish species.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Time of survey",
+          "Number of fish species"
+        ],
+        "rows": [
+          [
+            "Before coral damage",
+            "320"
+          ],
+          [
+            "After coral damage",
+            "248"
+          ]
+        ]
+      },
       "numericAnswer": 23,
       "tolerance": 0.03,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 320 − 248 = 72",
         "1 mark: 72 ÷ 320 × 100 = 22.5, so 23% (2 s.f.)"
       ],
-      "explanation": "72 ÷ 320 = 0.225, so the percentage decrease is 22.5%, which is 23% to 2 significant figures.",
-      "id": "b7-biodiversity-q15"
+      "explanation": "72 ÷ 320 = 0.225, so the percentage decrease is 22.5%, which is 23% to 2 significant figures."
     },
     {
       "type": "short",
@@ -666,11 +741,36 @@
       "id": "b7-biodiversity-q24"
     },
     {
+      "id": "b7-biodiversity-q25",
       "type": "extended",
       "tier": "both",
       "difficulty": 3,
       "marks": 6,
-      "question": "Scientists surveyed two areas of farmland. Area A has small fields surrounded by hedgerows and a small wood. Area B is one very large field of wheat with no hedgerows. The results are shown below.\nArea A: 54 plant species, 31 bird species, 120 insect species.\nArea B: 6 plant species, 4 bird species, 18 insect species.\nUse the data and your knowledge to compare the biodiversity of the two areas and explain why the differences are important for the stability of the ecosystems and for humans.",
+      "question": "Scientists surveyed two areas of farmland.\nArea A has small fields surrounded by hedgerows and a small wood.\nArea B is one very large field of wheat with no hedgerows.\nTable 1 shows the results.\nCompare the biodiversity of the two areas and explain why the differences are important for the stability of the ecosystems and for humans.\nUse information from Table 1 and your own knowledge.",
+      "table": {
+        "headers": [
+          "Group of organisms",
+          "Number of species in Area A",
+          "Number of species in Area B"
+        ],
+        "rows": [
+          [
+            "Plants",
+            "54",
+            "6"
+          ],
+          [
+            "Birds",
+            "31",
+            "4"
+          ],
+          [
+            "Insects",
+            "120",
+            "18"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: Area A has much higher biodiversity for all groups (54 vs 6 plant species, 9 times as many; 31 vs 4 bird species; 120 vs 18 insect species); hedgerows and wood provide varied habitats, food and shelter; Area B is a monoculture with few habitats.",
         "Stability: in A species are less dependent on one another for food and shelter; predators have alternative prey; in B a pest or disease affecting wheat or one insect would have large effects; B less stable.",
@@ -679,15 +779,15 @@
         "Level 2 (3 to 4 marks): comparison with some data and some explanation of stability or human importance.",
         "Level 1 (1 to 2 marks): simple statement that A has more species, with little explanation."
       ],
-      "explanation": "The best answers manipulate the data (for example 54 ÷ 6 = 9 times as many plant species), link hedgerows to habitat variety, and explain stability using reduced dependence.",
-      "id": "b7-biodiversity-q25"
+      "explanation": "The best answers manipulate the data (for example 54 ÷ 6 = 9 times as many plant species), link hedgerows to habitat variety, and explain stability using reduced dependence."
     },
     {
+      "id": "b7-biodiversity-q26",
       "type": "short",
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "State why biodiversity on Earth is falling at present.",
+      "question": "Give one reason why biodiversity on Earth is falling at present.",
       "acceptedAnswers": [
         "human activities",
         "humans",
@@ -699,8 +799,7 @@
       "markScheme": [
         "1 mark: human activities (such as deforestation, pollution, land use or global warming)"
       ],
-      "explanation": "The AQA specification states that many human activities are reducing biodiversity.",
-      "id": "b7-biodiversity-q26"
+      "explanation": "The AQA specification states that many human activities are reducing biodiversity."
     },
     {
       "type": "mcq",

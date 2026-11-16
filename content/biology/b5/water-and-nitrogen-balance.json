@@ -236,7 +236,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which organ removes excess water, ions and urea from the blood and allows the body to control their levels?",
+      "question": "Which organ removes excess water, ions and urea from the blood?",
       "options": [
         "Lungs",
         "Liver",
@@ -274,7 +274,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which term describes useful substances being taken back into the blood from the kidney tubule?",
+      "question": "Some useful substances are taken back into the blood from the kidney tubules.\nWhat is this process called?",
       "options": [
         "Filtration",
         "Selective reabsorption",
@@ -293,7 +293,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Water is lost from the body in several ways. Over which of these does the body have control?",
+      "question": "Water leaves the body in several ways.\nWhich way of losing water can the body control?",
       "options": [
         "Water vapour in exhaled air",
         "Water lost in sweat for cooling as well as balance",
@@ -331,7 +331,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which substance is filtered out of the blood in the kidney and normally ALL reabsorbed?",
+      "question": "Which substance is filtered out of the blood in the kidney and is normally all reabsorbed?",
       "options": [
         "Urea",
         "Glucose",
@@ -350,7 +350,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A person's blood plasma becomes much too concentrated. What happens to their body cells?",
+      "question": "A person's blood plasma becomes much too concentrated.\nWhat happens to the person's body cells?",
       "options": [
         "Water moves out of the cells by osmosis and the cells shrink",
         "Water moves into the cells by osmosis and the cells burst",
@@ -369,7 +369,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which statement correctly describes the effect of ADH?",
+      "question": "Which statement describes the effect of ADH?",
       "options": [
         "It decreases the permeability of the kidney tubules so more water is lost in urine",
         "It increases the rate of filtration in the kidney",
@@ -426,7 +426,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Before a kidney transplant, doctors check that the donor's tissue type closely matches the patient's. Why?",
+      "question": "Before a kidney transplant, doctors check that the donor's tissue type closely matches the patient's tissue type.\nWhy?",
       "options": [
         "To reduce the risk of the patient's immune system rejecting the kidney",
         "To make sure the kidney is the right size",
@@ -445,7 +445,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "On a hot day a student exercises and drinks very little. Compared with a cool day, the student's urine is likely to be:",
+      "question": "On a hot day a student exercises and drinks very little.\nHow will the student's urine be different from their urine on a cool day?",
       "options": [
         "larger in volume and more dilute",
         "larger in volume and more concentrated",
@@ -464,7 +464,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Apart from in urine, name two ways that water leaves the body.",
+      "question": "Water leaves the body in urine.\nName two other ways that water leaves the body.",
       "acceptedAnswers": [
         "exhaled air",
         "breathing out",
@@ -484,7 +484,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Give the reason why ammonia made in the liver is converted into urea.",
+      "question": "Ammonia made in the liver is converted into urea.\nGive the reason why.",
       "acceptedAnswers": [
         "ammonia is toxic",
         "poisonous",
@@ -523,7 +523,35 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Glucose is filtered out of the blood in the kidney, but a healthy person's urine contains no glucose. Explain why.",
+      "question": "Table 1 shows the concentrations of three substances in the blood plasma, in the filtrate in the kidney tubule and in the urine of a healthy person.\nGlucose is filtered out of the blood in the kidney, but the urine contains no glucose.\nExplain why.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Concentration in blood plasma in g per 100 cm³",
+          "Concentration in filtrate in g per 100 cm³",
+          "Concentration in urine in g per 100 cm³"
+        ],
+        "rows": [
+          [
+            "Glucose",
+            "0.1",
+            "0.1",
+            "0"
+          ],
+          [
+            "Urea",
+            "0.03",
+            "0.03",
+            "2.0"
+          ],
+          [
+            "Protein",
+            "8.0",
+            "0",
+            "0"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "all glucose",
         "reabsorbed",
@@ -534,7 +562,7 @@
         "1 mark: glucose is small enough to be filtered out",
         "1 mark: all of the glucose is (selectively) reabsorbed back into the blood"
       ],
-      "explanation": "Filtration is not selective by usefulness, only by size, so glucose enters the tubule. Selective reabsorption then returns all of it to the blood, so none is lost in urine."
+      "explanation": "Table 1 shows glucose at the same concentration in the filtrate as in the plasma, so it is filtered out (it is a small molecule). Filtration is not selective by usefulness, only by size. Selective reabsorption then returns all of the glucose to the blood, so its concentration in urine is 0. Protein is too large to be filtered at all."
     },
     {
       "id": "b5-water-and-nitrogen-balance-q17",
@@ -542,7 +570,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the dialysis fluid used in kidney dialysis contains no urea.",
+      "question": "Figure 1 shows how a dialysis machine works.\nExplain why the dialysis fluid contains no urea.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\"><defs><marker id=\"wd\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><rect x=\"70\" y=\"60\" width=\"340\" height=\"44\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><rect x=\"70\" y=\"104\" width=\"340\" height=\"44\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M70,60 H410 M70,148 H410\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"104\" x2=\"410\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"240\" y=\"86\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">blood</text><text x=\"240\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">dialysis fluid</text><line x1=\"150\" y1=\"82\" x2=\"200\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"280\" y1=\"82\" x2=\"330\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"200\" y1=\"126\" x2=\"150\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"330\" y1=\"126\" x2=\"280\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"10\" y1=\"82\" x2=\"66\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"10\" y=\"40\" font-size=\"12\" fill=\"currentColor\">blood from</text><text x=\"10\" y=\"54\" font-size=\"12\" fill=\"currentColor\">patient</text><line x1=\"414\" y1=\"82\" x2=\"470\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"470\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">blood back</text><text x=\"470\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">to patient</text><line x1=\"470\" y1=\"126\" x2=\"414\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"470\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">fresh dialysis</text><text x=\"470\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">fluid in</text><line x1=\"66\" y1=\"126\" x2=\"10\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"10\" y=\"172\" font-size=\"12\" fill=\"currentColor\">used dialysis</text><text x=\"10\" y=\"186\" font-size=\"12\" fill=\"currentColor\">fluid out</text><line x1=\"240\" y1=\"104\" x2=\"240\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"214\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">partially permeable membrane</text></svg>"
+      },
       "acceptedAnswers": [
         "concentration gradient",
         "urea diffuses",
@@ -581,7 +612,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A student drinks 1 dm³ of water in a short time. Explain how the volume and concentration of the student's urine change, with reference to ADH.",
+      "question": "A student drank 1 dm³ of water at time 0.\nFigure 1 shows the volume of urine the student produced in each 15-minute period.\nExplain the change in the volume and concentration of the urine in the first 60 minutes.\nRefer to ADH in your answer.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\"><text x=\"72\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"136.7\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"201.3\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"266\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">90</text><text x=\"330.7\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">120</text><text x=\"395.3\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">150</text><text x=\"460\" y=\"291\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">180</text><text x=\"66\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"66\" y=\"246.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"66\" y=\"214.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"66\" y=\"182.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"66\" y=\"151\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"66\" y=\"119.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"66\" y=\"87.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"66\" y=\"55.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"66\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><path d=\"M104.3 20V274M169 20V274M233.7 20V274M298.3 20V274M363 20V274M427.7 20V274M72 258.1H460M72 226.4H460M72 194.6H460M72 162.9H460M72 131.1H460M72 99.4H460M72 67.6H460M72 35.9H460\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.2\"/><path d=\"M72 20V274M136.7 20V274M201.3 20V274M266 20V274M330.7 20V274M395.3 20V274M460 20V274M72 274H460M72 242.3H460M72 210.5H460M72 178.8H460M72 147H460M72 115.3H460M72 83.5H460M72 51.8H460M72 20H460\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"72\" y1=\"274\" x2=\"460\" y2=\"274\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"72\" y1=\"20\" x2=\"72\" y2=\"274\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"266\" y=\"316\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Time after drinking the water in minutes</text><text x=\"0\" y=\"0\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"translate(18 147) rotate(-90)\">Volume of urine in cm³</text><polyline points=\"72,242.3 104.3,226.4 136.7,162.9 169,83.5 201.3,35.9 233.7,51.8 266,115.3 298.3,170.8 330.7,210.5 363,226.4 395.3,234.3 427.7,242.3 460,242.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M68 238.3l8 8m0 -8l-8 8M100.3 222.4l8 8m0 -8l-8 8M132.7 158.9l8 8m0 -8l-8 8M165 79.5l8 8m0 -8l-8 8M197.3 31.9l8 8m0 -8l-8 8M229.7 47.8l8 8m0 -8l-8 8M262 111.3l8 8m0 -8l-8 8M294.3 166.8l8 8m0 -8l-8 8M326.7 206.5l8 8m0 -8l-8 8M359 222.4l8 8m0 -8l-8 8M391.3 230.3l8 8m0 -8l-8 8M423.7 238.3l8 8m0 -8l-8 8M456 238.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>"
+      },
       "acceptedAnswers": [
         "blood more dilute",
         "less ADH",
@@ -596,7 +630,7 @@
         "1 mark: kidney tubules become less permeable, so less water is reabsorbed into the blood",
         "1 mark: so a large volume of dilute urine is produced"
       ],
-      "explanation": "This is negative feedback: the rise in blood water level causes a response that lowers it again. Saying 'no ADH' is not quite right; secretion falls."
+      "explanation": "Figure 1 shows the volume of urine rising to a peak at about 60 minutes after drinking. The extra water makes the blood too dilute, so the pituitary gland releases less ADH. The kidney tubules become less permeable, so less water is reabsorbed and a large volume of dilute urine is produced. This is negative feedback: the rise in blood water level causes a response that lowers it again. Saying 'no ADH' is not quite right; secretion falls."
     },
     {
       "id": "b5-water-and-nitrogen-balance-q20",
@@ -604,7 +638,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In a dialysis machine, the blood and the dialysis fluid flow in opposite directions. Suggest why this makes dialysis more effective.",
+      "question": "Figure 1 shows how a dialysis machine works.\nThe blood and the dialysis fluid flow in opposite directions.\nSuggest why this makes dialysis more effective.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\"><defs><marker id=\"wd\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/></marker></defs><rect x=\"70\" y=\"60\" width=\"340\" height=\"44\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><rect x=\"70\" y=\"104\" width=\"340\" height=\"44\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M70,60 H410 M70,148 H410\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"104\" x2=\"410\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"240\" y=\"86\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">blood</text><text x=\"240\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">dialysis fluid</text><line x1=\"150\" y1=\"82\" x2=\"200\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"280\" y1=\"82\" x2=\"330\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"200\" y1=\"126\" x2=\"150\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"330\" y1=\"126\" x2=\"280\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><line x1=\"10\" y1=\"82\" x2=\"66\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"10\" y=\"40\" font-size=\"12\" fill=\"currentColor\">blood from</text><text x=\"10\" y=\"54\" font-size=\"12\" fill=\"currentColor\">patient</text><line x1=\"414\" y1=\"82\" x2=\"470\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"470\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">blood back</text><text x=\"470\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">to patient</text><line x1=\"470\" y1=\"126\" x2=\"414\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"470\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">fresh dialysis</text><text x=\"470\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">fluid in</text><line x1=\"66\" y1=\"126\" x2=\"10\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#wd)\"/><text x=\"10\" y=\"172\" font-size=\"12\" fill=\"currentColor\">used dialysis</text><text x=\"10\" y=\"186\" font-size=\"12\" fill=\"currentColor\">fluid out</text><line x1=\"240\" y1=\"104\" x2=\"240\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"214\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">partially permeable membrane</text></svg>"
+      },
       "acceptedAnswers": [
         "concentration gradient maintained",
         "along the whole length",
@@ -623,7 +660,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A patient's blood plasma becomes too dilute. Explain the effect on the patient's body cells.",
+      "question": "A patient's blood plasma becomes too dilute.\nExplain the effect on the patient's body cells.",
       "acceptedAnswers": [
         "water enters by osmosis",
         "cells swell",
@@ -644,10 +681,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The kidneys of an adult filter 180 dm³ of fluid each day. The adult produces 1.5 dm³ of urine per day. Calculate the percentage of the filtered fluid that is reabsorbed. Give your answer to 3 significant figures.",
+      "question": "Table 1 shows the volume of fluid filtered by the kidneys of an adult each day and the volume of urine produced each day.\nCalculate the percentage of the filtered fluid that is reabsorbed.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Fluid",
+          "Volume in dm³ per day"
+        ],
+        "rows": [
+          [
+            "Fluid filtered by the kidneys",
+            "180"
+          ],
+          [
+            "Urine produced",
+            "1.5"
+          ]
+        ]
+      },
       "numericAnswer": 99.2,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage reabsorbed",
       "markScheme": [
         "1 mark: volume reabsorbed = 180 − 1.5 = 178.5 dm³",
         "1 mark: (178.5 ÷ 180) × 100 = 99.2 %"
@@ -660,10 +714,35 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In one day a person loses 1500 cm³ of water in urine, 500 cm³ in sweat, 400 cm³ from the lungs and 100 cm³ in faeces. Calculate the percentage of the total water loss that is in urine.",
+      "question": "Table 1 shows the volume of water a person lost in one day.\nCalculate the percentage of the total water loss that was lost in urine.",
+      "table": {
+        "headers": [
+          "Way water is lost",
+          "Volume of water lost in cm³"
+        ],
+        "rows": [
+          [
+            "Urine",
+            "1500"
+          ],
+          [
+            "Sweat",
+            "500"
+          ],
+          [
+            "Breathing out (lungs)",
+            "400"
+          ],
+          [
+            "Faeces",
+            "100"
+          ]
+        ]
+      },
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage lost in urine",
       "markScheme": [
         "1 mark: total = 1500 + 500 + 400 + 100 = 2500 cm³",
         "1 mark: (1500 ÷ 2500) × 100 = 60 %"
@@ -676,10 +755,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The concentration of urea is 0.03 g per 100 cm³ in blood plasma and 2.0 g per 100 cm³ in urine. Calculate how many times more concentrated urea is in the urine than in the plasma. Give your answer to 2 significant figures.",
+      "question": "Table 1 shows the concentration of urea in blood plasma and in urine.\nCalculate how many times more concentrated urea is in the urine than in the blood plasma.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Liquid",
+          "Concentration of urea in g per 100 cm³"
+        ],
+        "rows": [
+          [
+            "Blood plasma",
+            "0.03"
+          ],
+          [
+            "Urine",
+            "2.0"
+          ]
+        ]
+      },
       "numericAnswer": 67,
       "tolerance": 0.02,
       "unit": "times",
+      "answerLabel": "Number of times more concentrated",
       "markScheme": [
         "1 mark: 2.0 ÷ 0.03",
         "1 mark: = 67 (66.7)"
@@ -692,10 +788,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A patient has dialysis 3 times a week. Each session lasts 4 hours. Calculate the total number of hours the patient spends on dialysis in a year of 52 weeks.",
+      "question": "A patient has dialysis 3 times a week.\nEach session lasts 4 hours.\nCalculate the total time the patient spends on dialysis in one year.\nThere are 52 weeks in one year.",
       "numericAnswer": 624,
       "tolerance": 0.001,
       "unit": "hours",
+      "answerLabel": "Total time on dialysis",
       "markScheme": [
         "1 mark: 3 × 4 = 12 hours per week",
         "1 mark: 12 × 52 = 624 hours"
@@ -708,10 +805,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Kidney filtrate contains 0.1 g of glucose per 100 cm³. The kidneys produce 180 dm³ of filtrate per day. Calculate the mass of glucose filtered per day.",
+      "question": "Kidney filtrate contains 0.1 g of glucose per 100 cm³.\nThe kidneys produce 180 dm³ of filtrate per day.\nCalculate the mass of glucose filtered per day.",
       "numericAnswer": 180,
       "tolerance": 0.01,
       "unit": "g",
+      "answerLabel": "Mass of glucose filtered",
       "markScheme": [
         "1 mark: 180 dm³ = 180 000 cm³",
         "1 mark: (180 000 ÷ 100) × 0.1 = 180 g"
@@ -739,7 +837,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Kidney failure can be treated by dialysis or by a kidney transplant. Evaluate these two treatments.",
+      "question": "Kidney failure can be treated by dialysis or by a kidney transplant.\nEvaluate these two treatments.",
       "markScheme": [
         "Indicative content, dialysis: available without waiting for a donor; no risk of rejection; no immunosuppressant drugs; removes urea, excess ions and excess water by diffusion; but several sessions a week of several hours each; strict diet and fluid limits; risk of infection or blood clots at access site; expensive over many years; does not cure the problem.",
         "Transplant: permanent working kidney; freedom from dialysis sessions and diet restrictions; cheaper in the long term; but shortage of donors and long waiting lists; tissue type must match; risk of rejection; lifelong immunosuppressants increase infection risk; risks of major surgery; donor kidney may fail eventually.",
@@ -757,7 +855,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "On a hot day a runner sweats a lot and drinks very little. Explain how the body keeps the water content of the blood within normal limits. Include the role of ADH in your answer.",
+      "question": "On a hot day a runner sweats a lot and drinks very little.\nExplain how the body keeps the water content of the blood within normal limits.\nRefer to ADH in your answer.",
       "markScheme": [
         "Indicative content: water is lost in sweat (and from lungs) with no control; blood becomes too concentrated; this is detected by receptors in the brain; the pituitary gland releases more ADH into the blood; ADH travels in the blood to the kidneys; ADH acts on the kidney tubules making them more permeable to water; more water is reabsorbed back into the blood; a small volume of concentrated urine is produced; blood water concentration returns towards normal; when it is normal, ADH release falls; this is negative feedback; cells are protected from shrinking by osmosis.",
         "Level 3 (5 to 6 marks): full, logically linked sequence from stimulus to response including the pituitary, ADH, tubules, reabsorption, urine and negative feedback.",

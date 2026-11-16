@@ -335,18 +335,21 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What happens in female sterilisation?",
+      "question": "Figure 1 shows the female reproductive system.\nIn female sterilisation, which part is cut or tied?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 270\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M160 85Q200 70 240 85Q252 140 215 180V198H185V180Q148 140 160 85Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M175 100Q200 92 225 100Q228 140 205 170H195Q172 140 175 100Z\" fill=\"#ffffff\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><path d=\"M185 198L178 262M215 198L222 262\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M162 92Q120 50 75 85M168 100Q125 65 85 98M238 92Q280 50 325 85M232 100Q275 65 315 98\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M75 85l-10 -6M75 85l-14 2M85 98l-14 6M325 85l10 -6M325 85l14 2M315 98l14 6\" stroke=\"currentColor\"/><ellipse cx=\"85\" cy=\"125\" rx=\"22\" ry=\"13\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><ellipse cx=\"315\" cy=\"125\" rx=\"22\" ry=\"13\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"130\" x2=\"30\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"16\" y=\"174\" font-size=\"12\" fill=\"currentColor\" font-weight=\"bold\">A</text><line x1=\"236\" y1=\"150\" x2=\"350\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"355\" y=\"174\" font-size=\"12\" fill=\"currentColor\" font-weight=\"bold\">B</text><line x1=\"212\" y1=\"190\" x2=\"300\" y2=\"215\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"305\" y=\"219\" font-size=\"12\" fill=\"currentColor\" font-weight=\"bold\">C</text><line x1=\"290\" y1=\"70\" x2=\"350\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"355\" y=\"44\" font-size=\"12\" fill=\"currentColor\" font-weight=\"bold\">D</text></svg>"
+      },
       "options": [
-        "The ovaries are removed",
-        "A cap is placed over the cervix",
-        "Progesterone is injected",
-        "The oviducts are cut or tied"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 3,
       "markScheme": [
-        "1 mark: The oviducts are cut or tied"
+        "1 mark: D (the oviducts)"
       ],
-      "explanation": "Cutting or tying the oviducts stops eggs and sperm meeting. The ovaries still work and the menstrual cycle continues."
+      "explanation": "D is an oviduct. Cutting or tying the oviducts stops eggs and sperm meeting. A is an ovary: the ovaries are not removed, so they still work and the menstrual cycle continues. B is the uterus and C is the cervix, where a diaphragm is placed."
     },
     {
       "id": "b5-contraception-q09",
@@ -392,7 +395,10 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "How does an intrauterine device (IUD) that does not release hormones prevent pregnancy?",
+      "question": "Figure 1 shows an intrauterine device (IUD) in position in the uterus.\nThe IUD does not release hormones.\nHow does this type of IUD prevent pregnancy?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 270\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M160 85Q200 70 240 85Q252 140 215 180V198H185V180Q148 140 160 85Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M175 100Q200 92 225 100Q228 140 205 170H195Q172 140 175 100Z\" fill=\"#ffffff\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><path d=\"M185 198L178 262M215 198L222 262\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M162 92Q120 50 75 85M168 100Q125 65 85 98M238 92Q280 50 325 85M232 100Q275 65 315 98\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M75 85l-10 -6M75 85l-14 2M85 98l-14 6M325 85l10 -6M325 85l14 2M315 98l14 6\" stroke=\"currentColor\"/><ellipse cx=\"85\" cy=\"125\" rx=\"22\" ry=\"13\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><ellipse cx=\"315\" cy=\"125\" rx=\"22\" ry=\"13\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200 165V112M184 108Q200 116 216 108\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><path d=\"M200 165q-3 20 -6 50\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"196\" y1=\"140\" x2=\"110\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"82\" y=\"195\" font-size=\"12\" fill=\"currentColor\">IUD</text><line x1=\"236\" y1=\"150\" x2=\"300\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"305\" y=\"184\" font-size=\"12\" fill=\"currentColor\">uterus</text></svg>"
+      },
       "options": [
         "It stops eggs maturing in the ovary",
         "It prevents implantation of an embryo",
@@ -580,10 +586,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "In a study, 200 couples used a contraceptive method for one year. 4 of the women became pregnant. Calculate the percentage of women who became pregnant.",
+      "question": "In a study, couples used a contraceptive method for one year.\nTable 1 shows the results.\nCalculate the percentage of women who became pregnant.",
+      "table": {
+        "headers": [
+          "Number of couples in study",
+          "Number of women who became pregnant"
+        ],
+        "rows": [
+          [
+            "200",
+            "4"
+          ]
+        ]
+      },
       "numericAnswer": 2,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of women who became pregnant",
       "markScheme": [
         "1 mark: (4 ÷ 200) × 100",
         "1 mark: = 2 %"
@@ -596,10 +615,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A contraceptive injection lasts for 13 weeks. How many injections would a woman need in 52 weeks?",
+      "question": "One contraceptive injection protects a woman for 13 weeks.\nCalculate the number of injections she would need in 52 weeks.",
       "numericAnswer": 4,
       "tolerance": 0.001,
       "unit": "injections",
+      "answerLabel": "Number of injections",
       "markScheme": [
         "1 mark: 52 ÷ 13",
         "1 mark: = 4"
@@ -612,10 +632,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A contraceptive method is 99 % effective: 1 in every 100 women using it for a year becomes pregnant. Calculate the number of pregnancies expected if 2500 women use this method for one year.",
+      "question": "A contraceptive method is 99% effective. This means 1 in every 100 women using it for a year becomes pregnant.\n2500 women use this method for one year.\nCalculate the number of pregnancies expected.",
       "numericAnswer": 25,
       "tolerance": 0.01,
       "unit": "pregnancies",
+      "answerLabel": "Number of pregnancies",
       "markScheme": [
         "1 mark: 1 % of women become pregnant",
         "1 mark: 2500 × 0.01 = 25"
@@ -628,10 +649,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "With typical use, the pill is 91 % effective and male condoms are 82 % effective. 1000 couples use each method for a year. Calculate how many more pregnancies would be expected among the couples using condoms.",
+      "question": "Table 1 shows the effectiveness of two contraceptive methods with typical use.\n1000 couples use each method for one year.\nCalculate how many more pregnancies would be expected among the couples using condoms than among the couples using the pill.",
+      "table": {
+        "headers": [
+          "Method",
+          "Effectiveness with typical use in %"
+        ],
+        "rows": [
+          [
+            "Oral contraceptive pill",
+            "91"
+          ],
+          [
+            "Male condom",
+            "82"
+          ]
+        ]
+      },
       "numericAnswer": 90,
       "tolerance": 0.01,
       "unit": "pregnancies",
+      "answerLabel": "Number of extra pregnancies",
       "markScheme": [
         "1 mark: pill 9 % of 1000 = 90; condoms 18 % of 1000 = 180",
         "1 mark: 180 − 90 = 90"
@@ -644,10 +682,30 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Method A: 6 of 750 women became pregnant in a year. Method B: 9 of 1200 women became pregnant in a year. Calculate the effectiveness of method B as a percentage (the percentage of women who did NOT become pregnant). Give your answer to 2 decimal places.",
+      "question": "Table 1 shows the results of a study of two contraceptive methods over one year.\nThe effectiveness of a method is the percentage of women who did not become pregnant.\nCalculate the effectiveness of method B.\nGive your answer to 2 decimal places.",
+      "table": {
+        "headers": [
+          "Method",
+          "Number of women",
+          "Number of women who became pregnant"
+        ],
+        "rows": [
+          [
+            "A",
+            "750",
+            "6"
+          ],
+          [
+            "B",
+            "1200",
+            "9"
+          ]
+        ]
+      },
       "numericAnswer": 99.25,
       "tolerance": 0.001,
       "unit": "%",
+      "answerLabel": "Effectiveness of method B",
       "markScheme": [
         "1 mark: 9 ÷ 1200 × 100 = 0.75 % pregnant",
         "1 mark: 100 − 0.75 = 99.25 %"
@@ -691,7 +749,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A couple want to avoid pregnancy for the next two years and then try for a baby. Evaluate the use of the contraceptive pill, condoms and sterilisation for this couple.",
+      "question": "A couple want to avoid pregnancy for the next two years and then try for a baby.\nTable 1 gives information about three methods of contraception.\nEvaluate the use of each method for this couple.",
+      "table": {
+        "headers": [
+          "Method",
+          "Effectiveness with typical use in %",
+          "Protects against sexually transmitted infections"
+        ],
+        "rows": [
+          [
+            "Oral contraceptive pill",
+            "91",
+            "No"
+          ],
+          [
+            "Condom",
+            "82",
+            "Yes"
+          ],
+          [
+            "Sterilisation",
+            "over 99",
+            "No"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content, pill: very effective if taken correctly; reversible, fertility returns soon after stopping; inhibits FSH so no eggs mature; but must be taken daily, side effects (mood, weight, blood clots), no STI protection.",
         "Condoms: no hormonal side effects; protect against STIs; easily available; reversible immediately; but less effective with typical use (may split or be used incorrectly); must be used every time.",

@@ -204,6 +204,7 @@
   ],
   "questions": [
     {
+      "id": "b7-land-use-q01",
       "type": "mcq",
       "tier": "both",
       "difficulty": 1,
@@ -219,10 +220,10 @@
       "markScheme": [
         "1 mark: quarrying"
       ],
-      "explanation": "Quarrying removes habitats to extract rock and minerals. The other options increase or protect habitats.",
-      "id": "b7-land-use-q01"
+      "explanation": "Quarrying removes habitats to extract rock and minerals. The other options increase or protect habitats."
     },
     {
+      "id": "b7-land-use-q02",
       "type": "mcq",
       "tier": "both",
       "difficulty": 1,
@@ -238,10 +239,10 @@
       "markScheme": [
         "1 mark: to produce garden compost"
       ],
-      "explanation": "Peat is dug up and sold as garden compost because it holds water well.",
-      "id": "b7-land-use-q02"
+      "explanation": "Peat is dug up and sold as garden compost because it holds water well."
     },
     {
+      "id": "b7-land-use-q03",
       "type": "mcq",
       "tier": "both",
       "difficulty": 1,
@@ -257,10 +258,10 @@
       "markScheme": [
         "1 mark: carbon dioxide"
       ],
-      "explanation": "Peat contains carbon from plants. Decay (by respiring microorganisms) and burning both release it as carbon dioxide.",
-      "id": "b7-land-use-q03"
+      "explanation": "Peat contains carbon from plants. Decay (by respiring microorganisms) and burning both release it as carbon dioxide."
     },
     {
+      "id": "b7-land-use-q04",
       "type": "mcq",
       "tier": "foundation",
       "difficulty": 1,
@@ -276,10 +277,10 @@
       "markScheme": [
         "1 mark: building, quarrying, farming, dumping waste"
       ],
-      "explanation": "These four activities are listed in the specification. Recycling, planting trees, breeding programmes and rewilding help biodiversity.",
-      "id": "b7-land-use-q04"
+      "explanation": "These four activities are listed in the specification. Recycling, planting trees, breeding programmes and rewilding help biodiversity."
     },
     {
+      "id": "b7-land-use-q05",
       "type": "mcq",
       "tier": "both",
       "difficulty": 2,
@@ -295,10 +296,10 @@
       "markScheme": [
         "1 mark: waterlogged, acidic, little oxygen so decay is slow"
       ],
-      "explanation": "Decomposers need oxygen and prefer near-neutral conditions. In bogs, lack of oxygen and acidity slow decay so plant material accumulates.",
-      "id": "b7-land-use-q05"
+      "explanation": "Decomposers need oxygen and prefer near-neutral conditions. In bogs, lack of oxygen and acidity slow decay so plant material accumulates."
     },
     {
+      "id": "b7-land-use-q06",
       "type": "mcq",
       "tier": "both",
       "difficulty": 2,
@@ -314,10 +315,10 @@
       "markScheme": [
         "1 mark: it reduces habitat area, so fewer species can live there"
       ],
-      "explanation": "The specification states that destroying peat bogs reduces the area of this habitat and thus the variety of species living there.",
-      "id": "b7-land-use-q06"
+      "explanation": "The specification states that destroying peat bogs reduces the area of this habitat and thus the variety of species living there."
     },
     {
+      "id": "b7-land-use-q07",
       "type": "mcq",
       "tier": "both",
       "difficulty": 2,
@@ -333,10 +334,10 @@
       "markScheme": [
         "1 mark: use peat-free compost"
       ],
-      "explanation": "Peat-free compost avoids the destruction of bogs. Buying peat from elsewhere still destroys bogs, and burning peat releases carbon dioxide.",
-      "id": "b7-land-use-q07"
+      "explanation": "Peat-free compost avoids the destruction of bogs. Buying peat from elsewhere still destroys bogs, and burning peat releases carbon dioxide."
     },
     {
+      "id": "b7-land-use-q08",
       "type": "mcq",
       "tier": "both",
       "difficulty": 3,
@@ -352,15 +353,31 @@
       "markScheme": [
         "1 mark: decreases, because waterlogging reduces oxygen so less decay"
       ],
-      "explanation": "Rewetting the bog removes oxygen from the peat, so microorganisms decompose it much more slowly and less carbon dioxide is released.",
-      "id": "b7-land-use-q08"
+      "explanation": "Rewetting the bog removes oxygen from the peat, so microorganisms decompose it much more slowly and less carbon dioxide is released."
     },
     {
+      "id": "b7-land-use-q09",
       "type": "mcq",
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Peat forms at about 1 mm per year. Which statement best explains why peat is described as a non-renewable resource?",
+      "question": "Table 1 shows the rate at which new peat forms in a bog and the rate at which peat is removed from the same bog by digging.\nWhich statement best explains why peat is described as a non-renewable resource?",
+      "table": {
+        "headers": [
+          "Process",
+          "Change in depth of peat in mm per year"
+        ],
+        "rows": [
+          [
+            "Formation of new peat",
+            "1"
+          ],
+          [
+            "Removal of peat by digging",
+            "100"
+          ]
+        ]
+      },
       "options": [
         "Peat cannot form anywhere on Earth today",
         "Peat is made of rock, not plants",
@@ -371,89 +388,144 @@
       "markScheme": [
         "1 mark: it is used much faster than it forms"
       ],
-      "explanation": "Peat still forms today, but a layer dug in a day may have taken hundreds or thousands of years to accumulate.",
-      "id": "b7-land-use-q09"
+      "explanation": "Peat still forms today, but only at about 1 mm per year. Digging removes about 100 mm per year, so a layer dug in a single year may have taken around a hundred years to accumulate. Peat is used up much faster than it can form."
     },
     {
+      "id": "b7-land-use-q10",
       "type": "numeric",
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Peat builds up at a rate of about 1 mm per year. How many years would it take to form a layer of peat 300 mm deep?",
+      "question": "Figure 1 shows a section through the peat in a small bog.\nPeat builds up at a rate of about 1 mm per year.\nEstimate how many years it took for the peat shown in Figure 1 to form.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 305\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"190\" y=\"40\" width=\"70\" height=\"187.5\" fill=\"#fde68a\" fill-opacity=\"0.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"190\" y=\"227.5\" width=\"70\" height=\"62.5\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"170\" y=\"106.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"170\" y=\"169\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"170\" y=\"231.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"170\" y=\"294\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><path d=\"M182 40H190M182 52.5H190M182 65H190M182 77.5H190M182 90H190M182 102.5H190M182 115H190M182 127.5H190M182 140H190M182 152.5H190M182 165H190M182 177.5H190M182 190H190M182 202.5H190M182 215H190M182 227.5H190M182 240H190M182 252.5H190M182 265H190M182 277.5H190M182 290H190\" stroke=\"currentColor\" fill=\"none\"/><path d=\"M176 40H190M176 102.5H190M176 165H190M176 227.5H190M176 290H190\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"290\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"120\" y=\"165\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 120 165)\">Depth below surface in mm</text><line x1=\"260\" y1=\"124.4\" x2=\"300\" y2=\"124.4\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"128.4\" font-size=\"12\" fill=\"currentColor\">Peat</text><line x1=\"260\" y1=\"258.8\" x2=\"300\" y2=\"258.8\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"262.8\" font-size=\"12\" fill=\"currentColor\">Rock</text><line x1=\"250\" y1=\"40\" x2=\"300\" y2=\"22\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"26\" font-size=\"12\" fill=\"currentColor\">Surface of the bog</text></svg>"
+      },
       "numericAnswer": 300,
       "tolerance": 0.01,
       "unit": "years",
+      "answerLabel": "Time taken",
       "markScheme": [
         "1 mark: 300 ÷ 1 = 300 years"
       ],
-      "explanation": "Time = depth ÷ rate = 300 mm ÷ 1 mm per year = 300 years.",
-      "id": "b7-land-use-q10"
+      "explanation": "Time = depth ÷ rate = 300 mm ÷ 1 mm per year = 300 years."
     },
     {
+      "id": "b7-land-use-q11",
       "type": "numeric",
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A peat bog originally covered 4500 hectares. After digging for compost, 1800 hectares remain. Calculate the percentage decrease in the area of the bog.",
+      "question": "Table 1 shows the area of a peat bog before and after peat was dug from it for compost.\nCalculate the percentage decrease in the area of the bog.",
+      "table": {
+        "headers": [
+          "Time",
+          "Area of peat bog in hectares"
+        ],
+        "rows": [
+          [
+            "Before digging",
+            "4500"
+          ],
+          [
+            "After digging",
+            "1800"
+          ]
+        ]
+      },
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 4500 − 1800 = 2700 hectares",
         "1 mark: 2700 ÷ 4500 × 100 = 60%"
       ],
-      "explanation": "The area fell by 2700 hectares, and 2700 ÷ 4500 = 0.6, a 60% decrease.",
-      "id": "b7-land-use-q11"
+      "explanation": "The area fell by 2700 hectares, and 2700 ÷ 4500 = 0.6, a 60% decrease."
     },
     {
+      "id": "b7-land-use-q12",
       "type": "numeric",
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Peat forms at 1 mm per year. A peat bog is 4.2 m deep. Estimate the age of the bottom layer of the peat in years.",
+      "question": "Figure 1 shows a core taken through all of the peat in a bog.\nPeat forms at a rate of about 1 mm per year.\nEstimate the age of the peat at the bottom of the core in years.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 305\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"190\" y=\"40\" width=\"70\" height=\"210\" fill=\"#fde68a\" fill-opacity=\"0.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"190\" y=\"250\" width=\"70\" height=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"170\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"170\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"170\" y=\"194\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"170\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"170\" y=\"294\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><path d=\"M182 40H190M182 50H190M182 60H190M182 70H190M182 80H190M182 90H190M182 100H190M182 110H190M182 120H190M182 130H190M182 140H190M182 150H190M182 160H190M182 170H190M182 180H190M182 190H190M182 200H190M182 210H190M182 220H190M182 230H190M182 240H190M182 250H190M182 260H190M182 270H190M182 280H190M182 290H190\" stroke=\"currentColor\" fill=\"none\"/><path d=\"M176 40H190M176 90H190M176 140H190M176 190H190M176 240H190M176 290H190\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"290\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"120\" y=\"165\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 120 165)\">Depth below surface in m</text><line x1=\"260\" y1=\"134.5\" x2=\"300\" y2=\"134.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"138.5\" font-size=\"12\" fill=\"currentColor\">Peat</text><line x1=\"260\" y1=\"270\" x2=\"300\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"274\" font-size=\"12\" fill=\"currentColor\">Rock</text><line x1=\"250\" y1=\"40\" x2=\"300\" y2=\"22\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"306\" y=\"26\" font-size=\"12\" fill=\"currentColor\">Surface of the bog</text></svg>"
+      },
       "numericAnswer": 4200,
       "tolerance": 0.01,
       "unit": "years",
+      "answerLabel": "Age of bottom layer",
       "markScheme": [
         "1 mark: 4.2 m = 4200 mm",
         "1 mark: 4200 ÷ 1 = 4200 years"
       ],
-      "explanation": "Convert metres to millimetres first: 4.2 × 1000 = 4200 mm. At 1 mm per year this took about 4200 years.",
-      "id": "b7-land-use-q12"
+      "explanation": "Convert metres to millimetres first: 4.2 × 1000 = 4200 mm. At 1 mm per year this took about 4200 years."
     },
     {
+      "id": "b7-land-use-q13",
       "type": "numeric",
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "In a survey, 26 species of plant were found in an area of peat bog. After the bog was drained for peat extraction, only 9 species were found. Calculate the percentage decrease in the number of plant species. Give your answer to the nearest whole number.",
+      "question": "Scientists surveyed the plant species in an area of peat bog before and after it was drained for peat extraction.\nTable 1 shows the results.\nCalculate the percentage decrease in the number of plant species.\nGive your answer to the nearest whole number.",
+      "table": {
+        "headers": [
+          "Time of survey",
+          "Number of plant species"
+        ],
+        "rows": [
+          [
+            "Before draining",
+            "26"
+          ],
+          [
+            "After draining",
+            "9"
+          ]
+        ]
+      },
       "numericAnswer": 65,
       "tolerance": 0.02,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 26 − 9 = 17",
         "1 mark: 17 ÷ 26 × 100 = 65.4, so 65%"
       ],
-      "explanation": "17 ÷ 26 = 0.654, which is 65% to the nearest whole number.",
-      "id": "b7-land-use-q13"
+      "explanation": "17 ÷ 26 = 0.654, which is 65% to the nearest whole number."
     },
     {
+      "id": "b7-land-use-q14",
       "type": "numeric",
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A garden centre sold 12 000 bags of compost in a year. 45% of the bags were peat-free. Each peat compost bag contains 0.05 m³ of peat. Calculate the total volume of peat sold in the year.",
+      "question": "Table 1 shows information about the bags of compost sold by a garden centre in one year.\nThe bags that were not peat-free contained peat. Each bag of peat compost contains 0.05 m³ of peat.\nCalculate the total volume of peat sold in the year.",
+      "table": {
+        "headers": [
+          "Number of bags of compost sold",
+          "Percentage of bags that were peat-free"
+        ],
+        "rows": [
+          [
+            "12 000",
+            "45"
+          ]
+        ]
+      },
       "numericAnswer": 330,
       "tolerance": 0.01,
       "unit": "m³",
+      "answerLabel": "Volume of peat",
       "markScheme": [
         "1 mark: peat bags = 55% of 12 000 = 6600",
         "1 mark: 6600 × 0.05 = 330 m³"
       ],
-      "explanation": "If 45% are peat-free then 55% contain peat: 0.55 × 12 000 = 6600 bags. 6600 × 0.05 = 330 m³ of peat.",
-      "id": "b7-land-use-q14"
+      "explanation": "If 45% are peat-free then 55% contain peat: 0.55 × 12 000 = 6600 bags. 6600 × 0.05 = 330 m³ of peat."
     },
     {
+      "id": "b7-land-use-q15",
       "type": "short",
       "tier": "both",
       "difficulty": 1,
@@ -472,10 +544,10 @@
       "markScheme": [
         "1 mark each, up to 2: building; quarrying; farming; dumping waste"
       ],
-      "explanation": "These four land uses are named in the AQA specification.",
-      "id": "b7-land-use-q15"
+      "explanation": "These four land uses are named in the AQA specification."
     },
     {
+      "id": "b7-land-use-q16",
       "type": "short",
       "tier": "both",
       "difficulty": 1,
@@ -490,10 +562,10 @@
       "markScheme": [
         "1 mark: garden compost (accept fuel)"
       ],
-      "explanation": "Most peat dug in the UK has been used as garden compost; in some places it is burned as fuel.",
-      "id": "b7-land-use-q16"
+      "explanation": "Most peat dug in the UK has been used as garden compost; in some places it is burned as fuel."
     },
     {
+      "id": "b7-land-use-q17",
       "type": "short",
       "tier": "both",
       "difficulty": 2,
@@ -511,10 +583,10 @@
         "1 mark: reduces the area of habitat, so biodiversity (variety of plant, animal and microorganism species) falls",
         "1 mark: decay or burning of peat releases carbon dioxide into the atmosphere"
       ],
-      "explanation": "The two key consequences in the specification are loss of biodiversity and release of carbon dioxide.",
-      "id": "b7-land-use-q17"
+      "explanation": "The two key consequences in the specification are loss of biodiversity and release of carbon dioxide."
     },
     {
+      "id": "b7-land-use-q18",
       "type": "short",
       "tier": "both",
       "difficulty": 2,
@@ -532,10 +604,10 @@
         "1 mark: draining removes water so air (oxygen) gets into the peat",
         "1 mark: microorganisms (decomposers) can now respire aerobically and break down the peat"
       ],
-      "explanation": "In waterlogged peat there is too little oxygen for most decomposers. Draining removes this limit.",
-      "id": "b7-land-use-q18"
+      "explanation": "In waterlogged peat there is too little oxygen for most decomposers. Draining removes this limit."
     },
     {
+      "id": "b7-land-use-q19",
       "type": "short",
       "tier": "both",
       "difficulty": 2,
@@ -554,10 +626,10 @@
         "1 mark: quarrying removes the soil, plants and habitat from an area (reduces land available)",
         "1 mark: so fewer species can live there / organisms die or leave, so biodiversity falls"
       ],
-      "explanation": "Quarrying replaces habitat with bare rock and pits, removing the food and shelter species need.",
-      "id": "b7-land-use-q19"
+      "explanation": "Quarrying replaces habitat with bare rock and pits, removing the food and shelter species need."
     },
     {
+      "id": "b7-land-use-q20",
       "type": "short",
       "tier": "both",
       "difficulty": 3,
@@ -578,10 +650,10 @@
         "1 mark: but extracting it destroys bog habitats and reduces biodiversity, and decay or burning releases carbon dioxide",
         "1 mark: conclusion: the statement is wrong because peat forms very slowly (non-renewable); peat-free compost is better"
       ],
-      "explanation": "Being natural does not mean being harmless. The key points are habitat loss, carbon dioxide release and the very slow rate of peat formation.",
-      "id": "b7-land-use-q20"
+      "explanation": "Being natural does not mean being harmless. The key points are habitat loss, carbon dioxide release and the very slow rate of peat formation."
     },
     {
+      "id": "b7-land-use-q21",
       "type": "short",
       "tier": "higher",
       "difficulty": 3,
@@ -598,10 +670,10 @@
         "1 mark: the carbon in leaf litter was taken in by photosynthesis recently and is taken in again by the growing trees (balanced cycle)",
         "1 mark: the carbon in peat has been locked away for thousands of years and is not replaced, so it adds to the total in the atmosphere"
       ],
-      "explanation": "Releasing long-stored carbon adds extra carbon dioxide to the atmosphere, whereas leaf litter decay is part of a balanced yearly cycle.",
-      "id": "b7-land-use-q21"
+      "explanation": "Releasing long-stored carbon adds extra carbon dioxide to the atmosphere, whereas leaf litter decay is part of a balanced yearly cycle."
     },
     {
+      "id": "b7-land-use-q22",
       "type": "extended",
       "tier": "both",
       "difficulty": 2,
@@ -612,10 +684,10 @@
         "Level 2 (3 to 4 marks): describes at least three land uses and links them clearly to loss of habitat and reduced biodiversity.",
         "Level 1 (1 to 2 marks): names one or two land uses with little link to biodiversity."
       ],
-      "explanation": "Answers should name specific land uses and explain that they reduce the land available for other species.",
-      "id": "b7-land-use-q22"
+      "explanation": "Answers should name specific land uses and explain that they reduce the land available for other species."
     },
     {
+      "id": "b7-land-use-q23",
       "type": "extended",
       "tier": "both",
       "difficulty": 3,
@@ -629,10 +701,10 @@
         "Level 2 (3 to 4 marks): some points for and against with some biological explanation; conclusion may be weak.",
         "Level 1 (1 to 2 marks): simple one-sided statements."
       ],
-      "explanation": "Evaluate questions need both sides and a conclusion. The biological case rests on biodiversity loss and carbon dioxide release; the economic case rests on jobs and gardener preference.",
-      "id": "b7-land-use-q23"
+      "explanation": "Evaluate questions need both sides and a conclusion. The biological case rests on biodiversity loss and carbon dioxide release; the economic case rests on jobs and gardener preference."
     },
     {
+      "id": "b7-land-use-q24",
       "type": "mcq",
       "tier": "both",
       "difficulty": 2,
@@ -648,10 +720,10 @@
       "markScheme": [
         "1 mark: it decreases, because fewer species can live there"
       ],
-      "explanation": "Farming replaces a varied natural habitat with one crop, so many wild species lose their food and shelter.",
-      "id": "b7-land-use-q24"
+      "explanation": "Farming replaces a varied natural habitat with one crop, so many wild species lose their food and shelter."
     },
     {
+      "id": "b7-land-use-q25",
       "type": "short",
       "tier": "both",
       "difficulty": 1,
@@ -667,10 +739,10 @@
       "markScheme": [
         "1 mark: microorganisms / decomposers (bacteria or fungi)"
       ],
-      "explanation": "Decay is carried out by microorganisms, which respire and release carbon dioxide.",
-      "id": "b7-land-use-q25"
+      "explanation": "Decay is carried out by microorganisms, which respire and release carbon dioxide."
     },
     {
+      "id": "b7-land-use-q26",
       "type": "mcq",
       "tier": "both",
       "difficulty": 1,
@@ -686,10 +758,10 @@
       "markScheme": [
         "1 mark: Sphagnum moss"
       ],
-      "explanation": "Peat is made mainly of partly decayed Sphagnum moss and other bog plants. Earthworms are decomposers that are rare in acidic, waterlogged bogs, and oak trees and seaweed do not form peat.",
-      "id": "b7-land-use-q26"
+      "explanation": "Peat is made mainly of partly decayed Sphagnum moss and other bog plants. Earthworms are decomposers that are rare in acidic, waterlogged bogs, and oak trees and seaweed do not form peat."
     },
     {
+      "id": "b7-land-use-q27",
       "type": "short",
       "tier": "both",
       "difficulty": 2,
@@ -707,8 +779,7 @@
       "markScheme": [
         "1 mark each, up to 2: building on the bog would destroy a rare habitat and reduce biodiversity; draining the bog would release carbon dioxide; waterlogged peat is unstable ground to build on; bogs may be protected by law"
       ],
-      "explanation": "Peat bogs support specialised species and store carbon, so destroying them has bigger environmental costs than building on farmland, which already has lower biodiversity.",
-      "id": "b7-land-use-q27"
+      "explanation": "Peat bogs support specialised species and store carbon, so destroying them has bigger environmental costs than building on farmland, which already has lower biodiversity."
     }
   ]
 }

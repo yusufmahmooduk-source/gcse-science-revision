@@ -286,7 +286,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Substance X melts at 1418 °C. It does not conduct when solid but conducts when molten. What type of substance is X most likely to be?",
+      "question": "Table 1 shows some properties of substance X.\nWhat type of substance is X most likely to be?",
+      "table": {
+        "headers": [
+          "Property",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Melting point in °C",
+            "1418"
+          ],
+          [
+            "Conducts electricity when solid?",
+            "No"
+          ],
+          [
+            "Conducts electricity when molten?",
+            "Yes"
+          ]
+        ]
+      },
       "options": [
         "A metal",
         "A small molecule",
@@ -324,7 +344,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Calcium oxide melts at 2613 °C and potassium chloride melts at 770 °C. Which is the best explanation?",
+      "question": "Table 1 shows the melting points of calcium oxide and potassium chloride.\nWhich is the best explanation for the difference in melting points?",
+      "table": {
+        "headers": [
+          "Compound",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Calcium oxide",
+            "2613"
+          ],
+          [
+            "Potassium chloride",
+            "770"
+          ]
+        ]
+      },
       "options": [
         "Calcium oxide has stronger covalent bonds.",
         "Calcium oxide molecules are larger.",
@@ -343,7 +379,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student says 'molten sodium chloride conducts because electrons flow through it, like in a metal.' Why is the student wrong?",
+      "question": "A student says: 'Molten sodium chloride conducts because electrons flow through it, like in a metal.'\nWhy is the student wrong?",
       "options": [
         "Molten sodium chloride does not conduct.",
         "The current is carried by moving ions, not electrons.",
@@ -362,7 +398,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A solid ionic compound is heated and its electrical conductivity is measured. At what point does it start to conduct?",
+      "question": "A solid ionic compound is heated and its electrical conductivity is measured.\nAt what point does the compound start to conduct electricity?",
       "options": [
         "As soon as it is warmed",
         "At its melting point, when the ions become free to move",
@@ -381,10 +417,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Sodium chloride melts at 801 °C and boils at 1413 °C. Calculate the temperature range over which sodium chloride is a liquid.",
+      "question": "Table 1 shows the melting point and boiling point of sodium chloride.\nCalculate the temperature range over which sodium chloride is a liquid.",
+      "table": {
+        "headers": [
+          "Melting point in °C",
+          "Boiling point in °C"
+        ],
+        "rows": [
+          [
+            "801",
+            "1413"
+          ]
+        ]
+      },
       "numericAnswer": 612,
       "tolerance": 0.01,
       "unit": "°C",
+      "answerLabel": "Temperature range",
       "markScheme": [
         "1 mark: 1413 − 801 = 612 °C"
       ],
@@ -396,10 +445,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Magnesium oxide melts at 2852 °C and sodium chloride melts at 801 °C. Calculate how much higher the melting point of magnesium oxide is.",
+      "question": "Table 1 shows the melting points of two ionic compounds.\nCalculate how much higher the melting point of magnesium oxide is than the melting point of sodium chloride.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Magnesium oxide",
+            "2852"
+          ],
+          [
+            "Sodium chloride",
+            "801"
+          ]
+        ]
+      },
       "numericAnswer": 2051,
       "tolerance": 0.01,
       "unit": "°C",
+      "answerLabel": "Difference in melting point",
       "markScheme": [
         "1 mark: 2852 − 801 = 2051 °C"
       ],
@@ -411,10 +477,35 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The melting points of four ionic compounds are 770 °C, 801 °C, 2613 °C and 2852 °C. Calculate the mean melting point.",
+      "question": "Table 1 shows the melting points of four ionic compounds.\nCalculate the mean melting point of the four compounds.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Potassium chloride",
+            "770"
+          ],
+          [
+            "Sodium chloride",
+            "801"
+          ],
+          [
+            "Calcium oxide",
+            "2613"
+          ],
+          [
+            "Magnesium oxide",
+            "2852"
+          ]
+        ]
+      },
       "numericAnswer": 1759,
       "tolerance": 0.01,
       "unit": "°C",
+      "answerLabel": "Mean melting point",
       "markScheme": [
         "1 mark: 770 + 801 + 2613 + 2852 = 7036",
         "1 mark: 7036 ÷ 4 = 1759 °C"
@@ -427,10 +518,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Potassium chloride melts at 770 °C. A sample of solid potassium chloride at 20 °C is heated at a steady 50 °C per minute. Calculate how many minutes it takes before the sample starts to conduct electricity.",
+      "question": "Potassium chloride melts at 770 °C.\nA sample of solid potassium chloride at 20 °C is heated. The temperature rises at a steady rate of 50 °C per minute.\nCalculate the time before the sample starts to conduct electricity.",
       "numericAnswer": 15,
       "tolerance": 0.01,
       "unit": "minutes",
+      "answerLabel": "Time",
       "markScheme": [
         "1 mark: temperature rise needed = 770 − 20 = 750 °C",
         "1 mark: 750 ÷ 50 = 15 minutes"
@@ -519,7 +611,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe what happens to the ions when molten potassium iodide conducts electricity.",
+      "question": "Figure 1 shows the apparatus used to pass an electric current through molten potassium iodide.\nDescribe what happens to the ions when molten potassium iodide conducts electricity.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M90 120V200Q90 215 105 215H235Q250 215 250 200V120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M91 140H249V200Q249 214 235 214H105Q91 214 91 200Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"none\"/><rect x=\"120\" y=\"70\" width=\"16\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"204\" y=\"70\" width=\"16\" height=\"120\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"128\" y1=\"70\" x2=\"128\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"128\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"212\" y1=\"70\" x2=\"212\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"212\" y1=\"40\" x2=\"185\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"155\" y1=\"28\" x2=\"155\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"163\" y1=\"34\" x2=\"163\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"4\"/><line x1=\"177\" y1=\"28\" x2=\"177\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"185\" y1=\"34\" x2=\"185\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"4\"/><line x1=\"163\" y1=\"40\" x2=\"177\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"120\" y=\"32\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">+</text><text x=\"220\" y=\"32\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">−</text><line x1=\"236\" y1=\"165\" x2=\"280\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"284\" y=\"160\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">molten potassium</text><text x=\"284\" y=\"176\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">iodide</text><line x1=\"220\" y1=\"95\" x2=\"280\" y2=\"95\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"284\" y=\"100\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">electrode</text><text x=\"170\" y=\"250\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">heat</text><path d=\"M150 238V224M146 229L150 222L154 229M190 238V224M186 229L190 222L194 229\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "acceptedAnswers": [
         "K⁺ to negative electrode",
         "I⁻ to positive electrode",
@@ -537,7 +632,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student tests a white solid. It has a melting point of 1100 °C and does not conduct electricity as a solid. Suggest one further test the student could do to show it is ionic, and the expected result.",
+      "question": "A student tests a white solid.\nTable 1 shows the student's results.\nSuggest one further test the student could do to show that the solid is ionic.\nGive the expected result.",
+      "table": {
+        "headers": [
+          "Test",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Melting point",
+            "1100 °C"
+          ],
+          [
+            "Does the solid conduct electricity?",
+            "No"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "dissolve in water",
         "melt it",
@@ -574,7 +685,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Sodium fluoride melts at 993 °C and sodium chloride at 801 °C. Both contain 1+ and 1− ions. Suggest why sodium fluoride has the higher melting point.",
+      "question": "Table 1 shows the melting points of sodium fluoride and sodium chloride.\nBoth compounds contain 1+ and 1− ions.\nSuggest why sodium fluoride has the higher melting point.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Sodium fluoride",
+            "993"
+          ],
+          [
+            "Sodium chloride",
+            "801"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "fluoride ion smaller",
         "ions closer",
@@ -662,7 +789,39 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A student is given three unlabelled solids. One is an ionic compound, one is a metal and one is a substance made of small molecules.\nThe data are:\nSolid P: melts at 80 °C; does not conduct as solid or liquid.\nSolid Q: melts at 1420 °C; conducts as solid and liquid.\nSolid R: melts at 772 °C; does not conduct as solid; conducts when molten or dissolved.\nIdentify the ionic compound and explain its properties in terms of structure and bonding. Explain why the other two are not ionic.",
+      "question": "A student is given three unlabelled solids, P, Q and R.\nOne is an ionic compound, one is a metal and one is a substance made of small molecules.\nTable 1 shows the student's results.\nIdentify the ionic compound and explain its properties in terms of structure and bonding.\nExplain why the other two solids are not ionic.",
+      "table": {
+        "headers": [
+          "Solid",
+          "Melting point in °C",
+          "Conducts as a solid?",
+          "Conducts when molten?",
+          "Conducts when dissolved?"
+        ],
+        "rows": [
+          [
+            "P",
+            "80",
+            "No",
+            "No",
+            "Not tested"
+          ],
+          [
+            "Q",
+            "1420",
+            "Yes",
+            "Yes",
+            "Not tested"
+          ],
+          [
+            "R",
+            "772",
+            "No",
+            "Yes",
+            "Yes"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: R is ionic; high melting point because giant ionic lattice; many strong electrostatic forces between oppositely charged ions in all directions; large amount of energy to overcome; does not conduct as a solid because ions in fixed positions; conducts when molten or dissolved because ions free to move and carry charge. P is not ionic: low melting point and never conducts, so small molecules with weak intermolecular forces and no charged particles. Q is not ionic: conducts as a solid, which ionic compounds cannot do; consistent with a metal with delocalised electrons.",
         "Level 3 (5 to 6 marks): R correctly identified with a full explanation of both melting point and conductivity, and clear reasons for rejecting P and Q",

@@ -370,7 +370,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A gene variant is found in 12% of people with a disease and 11% of people without it. What is the best conclusion?",
+      "question": "Scientists investigated whether a gene variant is linked to a disease.\nTable 1 shows the results.\nWhich is the best conclusion from the results in Table 1?",
+      "table": {
+        "headers": [
+          "Group of people",
+          "Percentage with the gene variant"
+        ],
+        "rows": [
+          [
+            "People with the disease",
+            "12"
+          ],
+          [
+            "People without the disease",
+            "11"
+          ]
+        ]
+      },
       "options": [
         "The variant definitely causes the disease",
         "The variant is strongly linked to the disease",
@@ -407,14 +423,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Name the structures in the nucleus that contain DNA.",
+      "question": "Figure 1 shows an animal cell.\nStructure X contains DNA.\nName structure X.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><ellipse cx=\"170\" cy=\"130\" rx=\"150\" ry=\"105\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"170\" cy=\"130\" r=\"62\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><g transform=\"translate(143 103) rotate(10)\"><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(25)\"/><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(-25)\"/></g><g transform=\"translate(197 103) rotate(-30)\"><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(25)\"/><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(-25)\"/></g><g transform=\"translate(145 157) rotate(60)\"><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(25)\"/><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(-25)\"/></g><g transform=\"translate(198 157) rotate(20)\"><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(25)\"/><rect x=\"-5\" y=\"-22\" width=\"10\" height=\"44\" rx=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" transform=\"rotate(-25)\"/></g><line x1=\"206\" y1=\"160\" x2=\"360\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"366\" y=\"195\" font-size=\"15\" fill=\"currentColor\" font-weight=\"bold\">X</text><line x1=\"220\" y1=\"92\" x2=\"360\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"366\" y=\"64\" font-size=\"13\" fill=\"currentColor\">Nucleus</text><line x1=\"300\" y1=\"80\" x2=\"360\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"366\" y=\"34\" font-size=\"13\" fill=\"currentColor\">Cell membrane</text></svg>"
+      },
       "acceptedAnswers": [
         "chromosomes"
       ],
       "markScheme": [
         "1 mark: chromosomes"
       ],
-      "explanation": "DNA is contained in chromosomes, each of which is one long DNA molecule."
+      "explanation": "Structure X is a chromosome. DNA is contained in chromosomes, each of which is one long DNA molecule. The chromosomes are found inside the nucleus."
     },
     {
       "id": "b6-dna-and-the-genome-q13",
@@ -497,7 +516,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student says: 'Each chromosome is a gene.' Explain why the student is wrong.",
+      "question": "A student said:\n'Each chromosome is a gene.'\nExplain why the student is wrong.",
       "acceptedAnswers": [
         "chromosome carries many genes",
         "gene is a small section",
@@ -537,10 +556,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Human body cells contain 23 pairs of chromosomes. How many chromosomes is this in total?",
+      "question": "Human body cells contain 23 pairs of chromosomes.\nHow many chromosomes are in a human body cell?",
       "numericAnswer": 46,
       "tolerance": 0,
       "unit": "chromosomes",
+      "answerLabel": "Number of chromosomes",
       "markScheme": [
         "1 mark: 46"
       ],
@@ -552,10 +572,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a study, 45 out of 300 people with a disease had a particular gene variant. Calculate the percentage of people with the disease who had the variant.",
+      "question": "Scientists studied people with a disease.\nTable 1 shows the results.\nCalculate the percentage of people with the disease who had the gene variant.",
+      "table": {
+        "headers": [
+          "Number of people with the disease studied",
+          "Number who had the gene variant"
+        ],
+        "rows": [
+          [
+            "300",
+            "45"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage",
       "markScheme": [
         "1 mark: 45 ÷ 300 × 100",
         "1 mark: 15%"
@@ -568,10 +601,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The human genome contains about 20 000 genes. A scientist estimates that 1500 of these genes are linked to diseases. What percentage of human genes is this?",
+      "question": "Table 1 shows information about genes in the human genome.\nCalculate the percentage of human genes that are linked to diseases.",
+      "table": {
+        "headers": [
+          "Approximate number of genes in the human genome",
+          "Estimated number of genes linked to diseases"
+        ],
+        "rows": [
+          [
+            "20 000",
+            "1500"
+          ]
+        ]
+      },
       "numericAnswer": 7.5,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage",
       "markScheme": [
         "1 mark: 1500 ÷ 20 000 × 100",
         "1 mark: 7.5%"
@@ -584,10 +630,30 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In a gene study, a variant was found in 8% of 2500 people without a disease and in 28% of 2500 people with the disease. Calculate how many more people with the disease had the variant than people without the disease.",
+      "question": "Scientists studied a gene variant in two groups of people.\nTable 1 shows the results.\nCalculate how many more people with the disease had the variant than people without the disease.",
+      "table": {
+        "headers": [
+          "Group",
+          "Number of people in group",
+          "Percentage with the variant"
+        ],
+        "rows": [
+          [
+            "People without the disease",
+            "2500",
+            "8"
+          ],
+          [
+            "People with the disease",
+            "2500",
+            "28"
+          ]
+        ]
+      },
       "numericAnswer": 500,
       "tolerance": 0,
       "unit": "people",
+      "answerLabel": "Difference in number of people",
       "markScheme": [
         "1 mark: 0.28 × 2500 = 700 and 0.08 × 2500 = 200",
         "1 mark: 700 − 200 = 500"
@@ -600,10 +666,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Chromosome 21 is the smallest human chromosome and carries about 230 protein coding genes. The whole human genome has about 20 000 protein coding genes. Calculate the percentage of genes found on chromosome 21. Give your answer to 2 significant figures.",
+      "question": "Chromosome 21 is the smallest human chromosome.\nTable 1 shows information about protein coding genes.\nCalculate the percentage of human protein coding genes found on chromosome 21.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "DNA",
+          "Approximate number of protein coding genes"
+        ],
+        "rows": [
+          [
+            "Chromosome 21",
+            "230"
+          ],
+          [
+            "Whole human genome",
+            "20 000"
+          ]
+        ]
+      },
       "numericAnswer": 1.2,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of genes",
       "markScheme": [
         "1 mark: 230 ÷ 20 000 × 100 = 1.15",
         "1 mark: 1.2% (2 significant figures)"
@@ -666,14 +749,14 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What does each chromosome carry?",
+      "question": "Complete the sentence.\nEach chromosome carries a large number of ____________ .",
       "acceptedAnswers": [
+        "genes",
         "many genes",
-        "a large number of genes",
-        "DNA"
+        "a large number of genes"
       ],
       "markScheme": [
-        "1 mark: a large number of genes (accept one long DNA molecule)"
+        "1 mark: genes"
       ],
       "explanation": "Each chromosome is one long molecule of DNA carrying a large number of genes."
     }

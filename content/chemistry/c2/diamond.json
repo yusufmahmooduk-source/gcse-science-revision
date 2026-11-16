@@ -201,7 +201,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which word best describes the structure of diamond?",
+      "question": "Figure 1 shows part of the structure of diamond.\nWhich word best describes the structure of diamond?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M155 116L182 94M155 125L175 144M145 115L117 88M146 126L125 153M183 85L163 65M164 56L175 47M153 56L141 44M154 66L145 78M193 95L221 122M231 123L243 114M231 132L239 140M221 133L212 144M192 84L213 57M223 47L235 38M222 56L231 65M213 47L200 35M174 154L147 175M147 184L155 193M137 175L125 163M138 185L129 197M185 154L213 182M223 182L235 173M222 191L231 200M213 192L204 204M184 144L205 116M215 107L226 97M214 116L223 124M204 106L192 94M107 87L80 109M79 118L88 126M69 108L57 96M70 118L61 130M107 78L87 58M88 49L100 40M78 49L65 37M78 59L69 71M116 77L138 50M147 40L159 31M147 49L155 58M137 39L125 28M115 163L88 184M87 193L96 202M78 184L65 172M78 194L69 206M115 153L96 134M96 125L108 115M86 124L74 112M86 135L77 146M125 163L153 191M164 191L175 182M163 201L171 209M154 201L145 213\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"179\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"111\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"74\" cy=\"113\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"44\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"149\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"83\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"187\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"188\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"120\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"52\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"53\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"158\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"188\" cy=\"90\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"196\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"226\" cy=\"127\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"91\" cy=\"129\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"61\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/></svg>"
+      },
       "options": [
         "Giant covalent",
         "Simple molecular",
@@ -334,7 +337,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Silicon is in the same group as carbon and also forms a giant covalent structure like diamond, with each atom bonded to four others. Which property would you predict for silicon?",
+      "question": "Silicon is in the same group of the periodic table as carbon.\nTable 1 shows information about the structures of diamond and silicon.\nPredict one property of silicon.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Number of covalent bonds formed by each atom",
+          "Type of structure"
+        ],
+        "rows": [
+          [
+            "Diamond",
+            "4",
+            "Giant covalent"
+          ],
+          [
+            "Silicon",
+            "4",
+            "Giant covalent"
+          ]
+        ]
+      },
       "options": [
         "A low melting point",
         "A high melting point",
@@ -372,18 +394,52 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which property does diamond have?",
+      "question": "Table 1 shows some properties of four substances, A, B, C and D.\nWhich substance is diamond?",
+      "table": {
+        "headers": [
+          "Substance",
+          "Melting point in °C",
+          "Conducts electricity when solid?",
+          "Hardness"
+        ],
+        "rows": [
+          [
+            "A",
+            "−182",
+            "No",
+            "Gas at room temperature"
+          ],
+          [
+            "B",
+            "1085",
+            "Yes",
+            "Can be bent and shaped"
+          ],
+          [
+            "C",
+            "about 3550",
+            "No",
+            "Very hard"
+          ],
+          [
+            "D",
+            "801",
+            "No",
+            "Hard but brittle"
+          ]
+        ]
+      },
       "options": [
-        "Conducts electricity",
-        "Soft",
-        "Very high melting point",
-        "Dissolves in water"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 2,
       "markScheme": [
-        "1 mark: Very high melting point"
+        "1 mark: C"
       ],
-      "explanation": "Diamond has a very high melting point. It does not conduct, is very hard and is insoluble in water."
+      "explanation": "Diamond has a very high melting point, does not conduct electricity and is very hard, which matches C. A is a simple molecular substance (methane), B is a metal (copper) and D is an ionic compound (sodium chloride, which is brittle)."
     },
     {
       "id": "c2-diamond-q12",
@@ -392,6 +448,7 @@
       "difficulty": 1,
       "marks": 1,
       "question": "How many electrons are in the outer shell of a carbon atom?",
+      "answerLabel": "Number of outer shell electrons",
       "numericAnswer": 4,
       "tolerance": 0,
       "unit": "",
@@ -406,7 +463,8 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many of the outer shell electrons of each carbon atom in diamond are NOT used in covalent bonding?",
+      "question": "Each carbon atom in diamond has 4 electrons in its outer shell.\nHow many of these outer shell electrons are not used in covalent bonding?",
+      "answerLabel": "Number of electrons not used in bonding",
       "numericAnswer": 0,
       "tolerance": 0,
       "unit": "",
@@ -421,7 +479,8 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In diamond each carbon atom forms 4 covalent bonds, and each bond joins 2 carbon atoms.\nCalculate the number of covalent bonds in a diamond crystal containing 6000 carbon atoms (ignore atoms at the surface).",
+      "question": "In diamond each carbon atom forms 4 covalent bonds. Each bond joins 2 carbon atoms.\nA diamond crystal contains 6000 carbon atoms.\nCalculate the number of covalent bonds in the crystal.\nIgnore the atoms at the surface of the crystal.",
+      "answerLabel": "Number of covalent bonds",
       "numericAnswer": 12000,
       "tolerance": 0,
       "unit": "",
@@ -437,7 +496,8 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A diamond crystal contains 2.0 × 10²⁰ carbon atoms. Using the same reasoning as for diamond (4 bonds per atom, each bond shared by 2 atoms), calculate the number of covalent bonds in the crystal. Give your answer in standard form.",
+      "question": "In diamond each carbon atom forms 4 covalent bonds. Each bond joins 2 carbon atoms.\nA diamond crystal contains 2.0 × 10²⁰ carbon atoms.\nCalculate the number of covalent bonds in the crystal.\nGive your answer in standard form.",
+      "answerLabel": "Number of covalent bonds",
       "numericAnswer": 400000000000000000000,
       "tolerance": 0.01,
       "unit": "",
@@ -453,7 +513,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Name the type of bond between carbon atoms in diamond.",
+      "question": "Figure 1 shows part of the structure of diamond.\nName the type of bond labelled X.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M155 116L182 94M155 125L175 144M145 115L117 88M146 126L125 153M183 85L163 65M164 56L175 47M153 56L141 44M154 66L145 78M193 95L221 122M231 123L243 114M231 132L239 140M221 133L212 144M192 84L213 57M223 47L235 38M222 56L231 65M213 47L200 35M174 154L147 175M147 184L155 193M137 175L125 163M138 185L129 197M185 154L213 182M223 182L235 173M222 191L231 200M213 192L204 204M184 144L205 116M215 107L226 97M214 116L223 124M204 106L192 94M107 87L80 109M79 118L88 126M69 108L57 96M70 118L61 130M107 78L87 58M88 49L100 40M78 49L65 37M78 59L69 71M116 77L138 50M147 40L159 31M147 49L155 58M137 39L125 28M115 163L88 184M87 193L96 202M78 184L65 172M78 194L69 206M115 153L96 134M96 125L108 115M86 124L74 112M86 135L77 146M125 163L153 191M164 191L175 182M163 201L171 209M154 201L145 213\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"179\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"111\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"74\" cy=\"113\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"44\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"149\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"83\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"187\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"188\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"120\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"52\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"53\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"158\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"188\" cy=\"90\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"196\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"226\" cy=\"127\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"91\" cy=\"129\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"61\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"262\" y1=\"35\" x2=\"171\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"268\" y=\"35\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">X</text></svg>"
+      },
       "acceptedAnswers": [
         "covalent",
         "covalent bond",
@@ -488,7 +551,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why diamond is very hard.",
+      "question": "Figure 1 shows part of the structure of diamond.\nExplain why diamond is very hard.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M155 116L182 94M155 125L175 144M145 115L117 88M146 126L125 153M183 85L163 65M164 56L175 47M153 56L141 44M154 66L145 78M193 95L221 122M231 123L243 114M231 132L239 140M221 133L212 144M192 84L213 57M223 47L235 38M222 56L231 65M213 47L200 35M174 154L147 175M147 184L155 193M137 175L125 163M138 185L129 197M185 154L213 182M223 182L235 173M222 191L231 200M213 192L204 204M184 144L205 116M215 107L226 97M214 116L223 124M204 106L192 94M107 87L80 109M79 118L88 126M69 108L57 96M70 118L61 130M107 78L87 58M88 49L100 40M78 49L65 37M78 59L69 71M116 77L138 50M147 40L159 31M147 49L155 58M137 39L125 28M115 163L88 184M87 193L96 202M78 184L65 172M78 194L69 206M115 153L96 134M96 125L108 115M86 124L74 112M86 135L77 146M125 163L153 191M164 191L175 182M163 201L171 209M154 201L145 213\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"179\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"111\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"74\" cy=\"113\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"44\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"149\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"83\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"187\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"188\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"120\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"52\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"53\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"158\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"188\" cy=\"90\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"196\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"226\" cy=\"127\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"91\" cy=\"129\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"61\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/></svg>"
+      },
       "acceptedAnswers": [
         "giant covalent",
         "each carbon forms four covalent bonds",
@@ -508,7 +574,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why diamond has a very high melting point.",
+      "question": "Table 1 shows the melting points of three substances.\nExplain why diamond has a very high melting point.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Methane",
+            "−182"
+          ],
+          [
+            "Sodium chloride",
+            "801"
+          ],
+          [
+            "Diamond",
+            "about 3550"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "giant covalent structure",
         "many strong covalent bonds",
@@ -527,7 +613,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why diamond does not conduct electricity.",
+      "question": "Figure 1 shows part of the structure of diamond.\nExplain why diamond does not conduct electricity.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M155 116L182 94M155 125L175 144M145 115L117 88M146 126L125 153M183 85L163 65M164 56L175 47M153 56L141 44M154 66L145 78M193 95L221 122M231 123L243 114M231 132L239 140M221 133L212 144M192 84L213 57M223 47L235 38M222 56L231 65M213 47L200 35M174 154L147 175M147 184L155 193M137 175L125 163M138 185L129 197M185 154L213 182M223 182L235 173M222 191L231 200M213 192L204 204M184 144L205 116M215 107L226 97M214 116L223 124M204 106L192 94M107 87L80 109M79 118L88 126M69 108L57 96M70 118L61 130M107 78L87 58M88 49L100 40M78 49L65 37M78 59L69 71M116 77L138 50M147 40L159 31M147 49L155 58M137 39L125 28M115 163L88 184M87 193L96 202M78 184L65 172M78 194L69 206M115 153L96 134M96 125L108 115M86 124L74 112M86 135L77 146M125 163L153 191M164 191L175 182M163 201L171 209M154 201L145 213\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"179\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"111\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"74\" cy=\"113\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"44\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"149\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"83\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"187\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"188\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"120\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"52\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"53\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"158\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"188\" cy=\"90\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"196\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"226\" cy=\"127\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"91\" cy=\"129\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"61\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/></svg>"
+      },
       "acceptedAnswers": [
         "each carbon forms four bonds",
         "all outer electrons used in bonding",
@@ -546,7 +635,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student says: 'Diamond has a high melting point because it has strong intermolecular forces.' Explain why this is wrong.",
+      "question": "A student wrote:\n'Diamond has a high melting point because it has strong intermolecular forces.'\nExplain why the student is wrong.",
       "acceptedAnswers": [
         "no molecules",
         "no intermolecular forces",
@@ -565,7 +654,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Compare the structure and bonding of diamond with that of silicon dioxide, and explain why both are very hard.",
+      "question": "Figure 1 shows the structures of diamond and silicon dioxide.\nCompare the structure and bonding of diamond with that of silicon dioxide.\nExplain why both substances are very hard.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 690 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M135 131L162 109M135 140L155 159M125 130L97 103M126 141L105 168M163 100L143 80M144 71L155 62M133 71L121 59M134 81L125 93M173 110L201 137M211 138L223 129M211 147L219 155M201 148L192 159M172 99L193 72M203 62L215 53M202 71L211 80M193 62L180 50M154 169L127 190M127 199L135 208M117 190L105 178M118 200L109 212M165 169L193 197M203 197L215 188M202 206L211 215M193 207L184 219M164 159L185 131M195 122L206 112M194 131L203 139M184 121L172 109M87 102L60 124M59 133L68 141M49 123L37 111M50 133L41 145M87 93L67 73M68 64L80 55M58 64L45 52M58 74L49 86M96 92L118 65M127 55L139 46M127 64L135 73M117 54L105 43M95 178L68 199M67 208L76 217M58 199L45 187M58 209L49 221M95 168L76 149M76 140L88 130M66 139L54 127M66 150L57 161M105 178L133 206M144 206L155 197M143 216L151 224M134 216L125 228\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"122\" cy=\"194\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"189\" cy=\"126\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"54\" cy=\"128\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"122\" cy=\"59\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"160\" cy=\"164\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"92\" cy=\"98\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"198\" cy=\"202\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"62\" cy=\"203\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"130\" cy=\"135\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"198\" cy=\"67\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"62\" cy=\"68\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"100\" cy=\"173\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"168\" cy=\"105\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"138\" cy=\"211\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"206\" cy=\"142\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"71\" cy=\"144\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"138\" cy=\"76\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M341 65L358 65M330 76L330 93M319 65L302 65M288 65L275 65M330 54L330 37M330 23L330 10M341 135L358 135M330 146L330 163M319 135L302 135M288 135L275 135M330 124L330 107M341 205L358 205M330 216L330 233M330 247L330 260M319 205L302 205M288 205L275 205M330 194L330 177M411 65L428 65M400 76L400 93M389 65L372 65M400 54L400 37M400 23L400 10M411 135L428 135M400 146L400 163M389 135L372 135M400 124L400 107M411 205L428 205M400 216L400 233M400 247L400 260M389 205L372 205M400 194L400 177M481 65L498 65M512 65L525 65M470 76L470 93M459 65L442 65M470 54L470 37M470 23L470 10M481 135L498 135M512 135L525 135M470 146L470 163M459 135L442 135M470 124L470 107M481 205L498 205M512 205L525 205M470 216L470 233M470 247L470 260M459 205L442 205M470 194L470 177\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"330\" cy=\"65\" r=\"11\"/><circle cx=\"330\" cy=\"135\" r=\"11\"/><circle cx=\"330\" cy=\"205\" r=\"11\"/><circle cx=\"400\" cy=\"65\" r=\"11\"/><circle cx=\"400\" cy=\"135\" r=\"11\"/><circle cx=\"400\" cy=\"205\" r=\"11\"/><circle cx=\"470\" cy=\"65\" r=\"11\"/><circle cx=\"470\" cy=\"135\" r=\"11\"/><circle cx=\"470\" cy=\"205\" r=\"11\"/></g><g fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"365\" cy=\"65\" r=\"7\"/><circle cx=\"330\" cy=\"100\" r=\"7\"/><circle cx=\"295\" cy=\"65\" r=\"7\"/><circle cx=\"330\" cy=\"30\" r=\"7\"/><circle cx=\"365\" cy=\"135\" r=\"7\"/><circle cx=\"330\" cy=\"170\" r=\"7\"/><circle cx=\"295\" cy=\"135\" r=\"7\"/><circle cx=\"365\" cy=\"205\" r=\"7\"/><circle cx=\"330\" cy=\"240\" r=\"7\"/><circle cx=\"295\" cy=\"205\" r=\"7\"/><circle cx=\"435\" cy=\"65\" r=\"7\"/><circle cx=\"400\" cy=\"100\" r=\"7\"/><circle cx=\"400\" cy=\"30\" r=\"7\"/><circle cx=\"435\" cy=\"135\" r=\"7\"/><circle cx=\"400\" cy=\"170\" r=\"7\"/><circle cx=\"435\" cy=\"205\" r=\"7\"/><circle cx=\"400\" cy=\"240\" r=\"7\"/><circle cx=\"505\" cy=\"65\" r=\"7\"/><circle cx=\"470\" cy=\"100\" r=\"7\"/><circle cx=\"470\" cy=\"30\" r=\"7\"/><circle cx=\"505\" cy=\"135\" r=\"7\"/><circle cx=\"470\" cy=\"170\" r=\"7\"/><circle cx=\"505\" cy=\"205\" r=\"7\"/><circle cx=\"470\" cy=\"240\" r=\"7\"/></g><circle cx=\"560\" cy=\"100\" r=\"11\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"578\" y=\"105\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">silicon atom</text><circle cx=\"560\" cy=\"130\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"578\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">oxygen atom</text><text x=\"130\" y=\"292\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Diamond</text><text x=\"400\" y=\"292\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Silicon dioxide</text></svg>"
+      },
       "acceptedAnswers": [
         "both giant covalent",
         "diamond carbon only",
@@ -602,7 +694,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe the structure and bonding in diamond and use it to explain why diamond is used in cutting tools.",
+      "question": "Diamond is used in the tips of drills and in cutting tools.\nFigure 1 shows part of the structure of diamond.\nDescribe the structure and bonding in diamond.\nUse your answer to explain why diamond is used in cutting tools.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M155 116L182 94M155 125L175 144M145 115L117 88M146 126L125 153M183 85L163 65M164 56L175 47M153 56L141 44M154 66L145 78M193 95L221 122M231 123L243 114M231 132L239 140M221 133L212 144M192 84L213 57M223 47L235 38M222 56L231 65M213 47L200 35M174 154L147 175M147 184L155 193M137 175L125 163M138 185L129 197M185 154L213 182M223 182L235 173M222 191L231 200M213 192L204 204M184 144L205 116M215 107L226 97M214 116L223 124M204 106L192 94M107 87L80 109M79 118L88 126M69 108L57 96M70 118L61 130M107 78L87 58M88 49L100 40M78 49L65 37M78 59L69 71M116 77L138 50M147 40L159 31M147 49L155 58M137 39L125 28M115 163L88 184M87 193L96 202M78 184L65 172M78 194L69 206M115 153L96 134M96 125L108 115M86 124L74 112M86 135L77 146M125 163L153 191M164 191L175 182M163 201L171 209M154 201L145 213\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"142\" cy=\"179\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"209\" cy=\"111\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"74\" cy=\"113\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"142\" cy=\"44\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"180\" cy=\"149\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"112\" cy=\"83\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"187\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"188\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"120\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"218\" cy=\"52\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"82\" cy=\"53\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"120\" cy=\"158\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"188\" cy=\"90\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"196\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"226\" cy=\"127\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"91\" cy=\"129\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"158\" cy=\"61\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/></svg>"
+      },
       "markScheme": [
         "Indicative content: diamond is a form of carbon; giant covalent structure; each carbon atom forms four covalent bonds with four other carbon atoms; tetrahedral arrangement; rigid three-dimensional network; strong covalent bonds; to cut, scratch or break diamond many strong covalent bonds would need to be broken; so diamond is very hard; harder than the material being cut; high melting point means it does not melt from heat produced by friction during cutting.",
         "Level 2 (3 to 4 marks): a clear description of the structure (four bonds per carbon, giant covalent) linked to hardness and its use in cutting tools.",
@@ -616,7 +711,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Diamond and graphite are both forms of carbon with giant covalent structures.\nExplain the properties of diamond in terms of its structure and bonding, and explain why diamond does not conduct electricity whereas graphite does.",
+      "question": "Diamond and graphite are both forms of carbon with giant covalent structures.\nTable 1 shows some properties of diamond and graphite.\nExplain the properties of diamond in terms of its structure and bonding.\nExplain why diamond does not conduct electricity but graphite does.",
+      "table": {
+        "headers": [
+          "Property",
+          "Diamond",
+          "Graphite"
+        ],
+        "rows": [
+          [
+            "Melting point in °C",
+            "about 3550",
+            "about 3600"
+          ],
+          [
+            "Hardness",
+            "Very hard",
+            "Soft and slippery"
+          ],
+          [
+            "Conducts electricity?",
+            "No",
+            "Yes"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: diamond: each carbon atom forms four covalent bonds; with four other carbon atoms; giant covalent structure; rigid 3D tetrahedral network; very hard because many strong covalent bonds must be broken to scratch it; very high melting point because a lot of energy is needed to break many strong covalent bonds; insoluble; does not conduct electricity because all four outer electrons are used in bonding so there are no delocalised electrons and no ions. Graphite: each carbon atom forms only three covalent bonds; in layers of hexagonal rings; one outer electron per carbon atom is delocalised; delocalised electrons can move through the layers and carry charge; so graphite conducts.",
         "Level 3 (5 to 6 marks): a detailed and coherent explanation of at least two properties of diamond, each linked to structure and bonding, with a clear comparison of the electrons in diamond and graphite explaining conductivity.",
