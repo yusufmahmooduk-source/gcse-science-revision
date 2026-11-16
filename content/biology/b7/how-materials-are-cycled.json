@@ -354,7 +354,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "In some peat bogs, dead plants have built up over thousands of years without decaying. What is the most likely reason?",
+      "question": "Dead plants have built up in a peat bog over thousands of years without decaying.\nTable 1 compares the conditions in the peat bog with the soil in a nearby woodland.\nWhat is the most likely reason the dead plants in the bog have not decayed?",
+      "table": {
+        "headers": [
+          "Condition",
+          "Peat bog",
+          "Woodland soil"
+        ],
+        "rows": [
+          [
+            "Water content",
+            "Waterlogged",
+            "Moist"
+          ],
+          [
+            "Oxygen concentration",
+            "Very low",
+            "High"
+          ],
+          [
+            "pH",
+            "4.0",
+            "6.5"
+          ]
+        ]
+      },
       "options": [
         "There is too much oxygen in the waterlogged soil",
         "The waterlogged, acidic conditions have little oxygen, so decomposers cannot respire aerobically and work very slowly",
@@ -373,7 +397,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "On a sunny day the concentration of carbon dioxide in the air in a dense forest falls, and at night it rises. Which explanation is correct?",
+      "question": "Figure 1 shows the concentration of carbon dioxide in the air in a dense forest over 24 hours on a sunny day.\nWhich explanation for the pattern is correct?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 20V250M93.7 20V250M123.3 20V250M153 20V250M182.7 20V250M212.3 20V250M242 20V250M271.7 20V250M301.3 20V250M331 20V250M360.7 20V250M390.3 20V250M420 20V250M64 250H420M64 235.6H420M64 221.3H420M64 206.9H420M64 192.5H420M64 178.1H420M64 163.8H420M64 149.4H420M64 135H420M64 120.6H420M64 106.3H420M64 91.9H420M64 77.5H420M64 63.1H420M64 48.8H420M64 34.4H420M64 20H420\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.35\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"64\" y=\"267\">0</text><text x=\"123.3\" y=\"267\">4</text><text x=\"182.7\" y=\"267\">8</text><text x=\"242\" y=\"267\">12</text><text x=\"301.3\" y=\"267\">16</text><text x=\"360.7\" y=\"267\">20</text><text x=\"420\" y=\"267\">24</text></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"><text x=\"57\" y=\"254\">380</text><text x=\"57\" y=\"196.5\">400</text><text x=\"57\" y=\"139\">420</text><text x=\"57\" y=\"81.5\">440</text><text x=\"57\" y=\"24\">460</text></g><path d=\"M64 250v4M123.3 250v4M182.7 250v4M242 250v4M301.3 250v4M360.7 250v4M420 250v4M60 250h4M60 192.5h4M60 135h4M60 77.5h4M60 20h4\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"250\" x2=\"420\" y2=\"250\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"242\" y=\"288\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Time of day in hours</text><text x=\"16\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\">CO₂ concentration in ppm</text><polyline points=\"64,78.1 78.8,65.3 93.7,57.2 108.5,54.5 123.3,57.2 138.2,65.3 153,78.1 167.8,94.8 182.7,114.2 197.5,135 212.3,155.8 227.2,175.3 242,191.9 256.8,204.7 271.7,212.8 286.5,215.5 301.3,212.8 316.2,204.7 331,191.9 345.8,175.3 360.7,155.8 375.5,135 390.3,114.2 405.2,94.8 420,78.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"
+      },
       "options": [
         "Plants only photosynthesise at night",
         "Plants only respire during the day",
@@ -430,18 +457,20 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Name two processes that release carbon dioxide into the atmosphere.",
+      "question": "Figure 1 shows part of the carbon cycle.\nName the processes labelled A and B.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 310\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><rect x=\"125\" y=\"12\" width=\"230\" height=\"36\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"240\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Carbon dioxide in the air</text><rect x=\"15\" y=\"152\" width=\"110\" height=\"36\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"70\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Green plants</text><rect x=\"180\" y=\"152\" width=\"100\" height=\"36\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"230\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Animals</text><rect x=\"155\" y=\"262\" width=\"150\" height=\"36\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"230\" y=\"276.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dead organisms</text><text x=\"230\" y=\"291.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and waste</text><rect x=\"365\" y=\"152\" width=\"110\" height=\"36\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"420\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Fossil fuels</text><line x1=\"150\" y1=\"48\" x2=\"66\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"88\" y1=\"150\" x2=\"170\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"230\" y1=\"150\" x2=\"230\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"127\" y1=\"170\" x2=\"178\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"80\" y1=\"190\" x2=\"170\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"230\" y1=\"190\" x2=\"230\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"300\" y1=\"262\" x2=\"310\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"300\" y1=\"280\" x2=\"400\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"410\" y1=\"150\" x2=\"345\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"92\" y=\"98\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><text x=\"392\" y=\"104\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">B</text></svg>"
+      },
       "acceptedAnswers": [
-        "respiration",
+        "photosynthesis",
         "combustion",
-        "burning",
-        "decay",
-        "decomposition"
+        "burning"
       ],
       "markScheme": [
-        "1 mark each for any two from: respiration; combustion (burning fossil fuels or wood); decay by microorganisms (allow as respiration of decomposers)"
+        "1 mark: A: photosynthesis",
+        "1 mark: B: combustion (allow burning)"
       ],
-      "explanation": "Respiration (by all organisms, including decomposers) and combustion are the two main ways carbon returns to the air."
+      "explanation": "Arrow A takes carbon dioxide out of the air into green plants, so it is photosynthesis. Arrow B releases carbon dioxide from fossil fuels into the air, so it is combustion. The other arrows into the air are respiration by plants, animals and decomposers."
     },
     {
       "id": "b7-how-materials-are-cycled-q13",
@@ -603,15 +632,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which cycle are AQA GCSE students not required to study?",
+      "question": "Figure 1 shows part of the water cycle.\nName process B.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 295\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><path d=\"M0 250 L200 250 L200 290 L0 290Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"275\" font-size=\"12\" fill=\"currentColor\">Sea</text><path d=\"M200 290 L200 250 Q260 235 300 225 L480 215 L480 290Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"420\" y=\"275\" font-size=\"12\" fill=\"currentColor\">Land</text><circle cx=\"200\" cy=\"55\" r=\"24\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><circle cx=\"230\" cy=\"42\" r=\"28\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><circle cx=\"262\" cy=\"50\" r=\"24\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><circle cx=\"285\" cy=\"62\" r=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><circle cx=\"178\" cy=\"66\" r=\"16\" fill=\"#e5e7eb\" fill-opacity=\"0.9\"/><path d=\"M162 72 Q160 50 182 46 Q195 18 232 16 Q262 18 270 34 Q300 40 302 66 Q298 80 280 80 L180 80 Q164 80 162 72Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Cloud</text><rect x=\"372\" y=\"170\" width=\"12\" height=\"52\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"378\" cy=\"150\" r=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"240\" x2=\"165\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"110\" y=\"160\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><line x1=\"360\" y1=\"125\" x2=\"295\" y2=\"78\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"338\" y=\"112\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">B</text><line x1=\"215\" y1=\"90\" x2=\"209\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"205\" y1=\"112\" x2=\"199\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"240\" y1=\"90\" x2=\"234\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"230\" y1=\"112\" x2=\"224\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"265\" y1=\"90\" x2=\"259\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"255\" y1=\"112\" x2=\"249\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"250\" y1=\"140\" x2=\"250\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"258\" y=\"180\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">C</text></svg>"
+      },
       "acceptedAnswers": [
-        "nitrogen cycle",
-        "nitrogen"
+        "transpiration"
       ],
       "markScheme": [
-        "1 mark: the nitrogen cycle"
+        "1 mark: transpiration"
       ],
-      "explanation": "AQA states that students are not expected to study the nitrogen cycle. You need the carbon and water cycles."
+      "explanation": "Process B is the loss of water vapour from the leaves of the tree into the air, which is transpiration. Process A is evaporation from the sea and process C is precipitation."
     },
     {
       "id": "b7-how-materials-are-cycled-q22",
@@ -659,7 +690,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A sealed glass bottle contains soil, a small plant and some decomposers. It is kept in light and the plant survives for years without the lid being opened. Which statement best explains this?",
+      "question": "Figure 1 shows a sealed glass bottle containing soil, a small plant and some decomposers.\nThe bottle is kept in the light. The plant survives for years without the lid being opened.\nWhich statement best explains this?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 305\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M140 70 L140 50 L220 50 L220 70 Q300 90 300 140 L300 280 Q300 296 284 296 L76 296 Q60 296 60 280 L60 140 Q60 90 140 70Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"132\" y=\"32\" width=\"96\" height=\"20\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M62 240 L298 240 L298 280 Q298 294 284 294 L76 294 Q62 294 62 280Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"240\" x2=\"180\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"160\" cy=\"185\" rx=\"20\" ry=\"8\" fill=\"#86efac\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><ellipse cx=\"200\" cy=\"170\" rx=\"20\" ry=\"8\" fill=\"#86efac\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><ellipse cx=\"180\" cy=\"160\" rx=\"8\" ry=\"14\" fill=\"#86efac\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><ellipse cx=\"230\" cy=\"236\" rx=\"12\" ry=\"4\" fill=\"#86efac\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><line x1=\"228\" y1=\"42\" x2=\"330\" y2=\"42\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"335\" y=\"46\" font-size=\"12\" fill=\"currentColor\">Sealed lid</text><line x1=\"260\" y1=\"120\" x2=\"330\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"335\" y=\"114\" font-size=\"12\" fill=\"currentColor\">Air</text><line x1=\"208\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"335\" y=\"174\" font-size=\"12\" fill=\"currentColor\">Plant</text><line x1=\"242\" y1=\"236\" x2=\"330\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"335\" y=\"230\" font-size=\"12\" fill=\"currentColor\">Dead leaf</text><line x1=\"270\" y1=\"268\" x2=\"330\" y2=\"268\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"335\" y=\"264\" font-size=\"12\" fill=\"currentColor\">Soil containing</text><text x=\"335\" y=\"280\" font-size=\"12\" fill=\"currentColor\">decomposers</text></svg>"
+      },
       "options": [
         "The plant does not need carbon dioxide or mineral ions",
         "Carbon and mineral ions are recycled by photosynthesis, respiration and decomposition inside the bottle",
@@ -695,7 +729,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 6,
-      "question": "Describe the processes in the carbon cycle that move carbon between the atmosphere, plants, animals, decomposers and fossil fuels.",
+      "question": "Figure 1 shows part of the carbon cycle.\nDescribe the processes in the carbon cycle that move carbon between the atmosphere, plants, animals, decomposers and fossil fuels.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 310\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><rect x=\"125\" y=\"12\" width=\"230\" height=\"36\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"240\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Carbon dioxide in the air</text><rect x=\"15\" y=\"152\" width=\"110\" height=\"36\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"70\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Green plants</text><rect x=\"180\" y=\"152\" width=\"100\" height=\"36\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"230\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Animals</text><rect x=\"155\" y=\"262\" width=\"150\" height=\"36\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"230\" y=\"276.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dead organisms</text><text x=\"230\" y=\"291.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and waste</text><rect x=\"365\" y=\"152\" width=\"110\" height=\"36\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"420\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Fossil fuels</text><line x1=\"150\" y1=\"48\" x2=\"66\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"88\" y1=\"150\" x2=\"170\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"230\" y1=\"150\" x2=\"230\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"127\" y1=\"170\" x2=\"178\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"80\" y1=\"190\" x2=\"170\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"230\" y1=\"190\" x2=\"230\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"300\" y1=\"262\" x2=\"310\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"300\" y1=\"280\" x2=\"400\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"410\" y1=\"150\" x2=\"345\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/></svg>"
+      },
       "markScheme": [
         "Indicative content: carbon dioxide in the atmosphere is absorbed by green plants and algae in photosynthesis; it is used to make glucose and then carbohydrates, fats and proteins; animals eat plants (feeding) so carbon passes along food chains; plants, animals and decomposers respire, releasing carbon dioxide into the atmosphere; when plants and animals die or produce waste, decomposers (bacteria and fungi) feed on them; decomposers respire, returning carbon dioxide to the atmosphere; some dead organisms do not decay and are compressed over millions of years into fossil fuels; combustion of fossil fuels (and wood) releases carbon dioxide into the atmosphere.",
         "Level 3 (5 to 6 marks): a detailed, logically sequenced description of photosynthesis, feeding, respiration (including by decomposers), decay and combustion of fossil fuels.",
