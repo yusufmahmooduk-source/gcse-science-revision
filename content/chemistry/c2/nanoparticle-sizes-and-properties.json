@@ -337,7 +337,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The side of a cube is decreased from 50 nm to 5 nm. What happens to its surface area to volume ratio?",
+      "question": "Figure 1 shows two cubes, X and Y.\nThe side of cube X is 50 nm. The side of cube Y is 5 nm.\nWhat happens to the surface area to volume ratio when the side length decreases from 50 nm to 5 nm?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"40,60 150,60 150,170 40,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"40,60 89.5,10.5 199.5,10.5 150,60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"150,60 199.5,10.5 199.5,120.5 150,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"95\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">50 nm</text><polygon points=\"290,140 320,140 320,170 290,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"290,140 303.5,126.5 333.5,126.5 320,140\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"320,140 333.5,126.5 333.5,156.5 320,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"305\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">5 nm</text><text x=\"95\" y=\"205\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Cube X</text><text x=\"312\" y=\"205\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Cube Y</text><text x=\"300\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Not drawn to scale</text></svg>"
+      },
       "options": [
         "It decreases by a factor of 10",
         "It increases by a factor of 10",
@@ -394,7 +397,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "An atom has a radius of about 1 × 10⁻¹⁰ m. A nanoparticle has a diameter of 1 × 10⁻⁸ m. How many times larger is the nanoparticle's diameter than the atom's radius?",
+      "question": "Table 1 shows the sizes of an atom and a nanoparticle.\nHow many times larger is the diameter of the nanoparticle than the radius of the atom?",
+      "table": {
+        "headers": [
+          "Particle",
+          "Size in m"
+        ],
+        "rows": [
+          [
+            "Atom",
+            "radius = 1 × 10⁻¹⁰"
+          ],
+          [
+            "Nanoparticle",
+            "diameter = 1 × 10⁻⁸"
+          ]
+        ]
+      },
       "options": [
         "10",
         "100",
@@ -451,7 +470,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Calculate the surface area of a cube with sides of 10 nm.",
+      "question": "Figure 1 shows a cube with sides of 10 nm.\nCalculate the surface area of the cube.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"70,60 170,60 170,160 70,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"70,60 115,15 215,15 170,60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"170,60 215,15 215,115 170,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"120\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10 nm</text></svg>"
+      },
+      "answerLabel": "Surface area",
       "numericAnswer": 600,
       "tolerance": 0,
       "unit": "nm²",
@@ -466,7 +489,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Calculate the volume of a cube with sides of 10 nm.",
+      "question": "Figure 1 shows a cube with sides of 10 nm.\nCalculate the volume of the cube.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"70,60 170,60 170,160 70,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"70,60 115,15 215,15 170,60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"170,60 215,15 215,115 170,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"120\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10 nm</text></svg>"
+      },
+      "answerLabel": "Volume",
       "numericAnswer": 1000,
       "tolerance": 0,
       "unit": "nm³",
@@ -481,7 +508,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the surface area to volume ratio of a cube with sides of 5 nm.",
+      "question": "Figure 1 shows a nanoparticle in the shape of a cube with sides of 5 nm.\nCalculate the surface area to volume ratio of the cube.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"70,60 170,60 170,160 70,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"70,60 115,15 215,15 170,60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"170,60 215,15 215,115 170,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"120\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">5 nm</text></svg>"
+      },
+      "answerLabel": "Surface area to volume ratio",
       "numericAnswer": 1.2,
       "tolerance": 0.01,
       "unit": "per nm",
@@ -497,7 +528,8 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A nanoparticle has a diameter of 50 nm. Write this diameter in metres. Give your answer in standard form.",
+      "question": "A nanoparticle has a diameter of 50 nm.\nCalculate the diameter of the nanoparticle in metres.\nGive your answer in standard form.",
+      "answerLabel": "Diameter",
       "numericAnswer": 5e-8,
       "tolerance": 0.01,
       "unit": "m",
@@ -512,7 +544,8 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The upper limit for fine particles (PM2.5) is 2.5 × 10⁻⁶ m. Convert this to nanometres.",
+      "question": "The upper limit of the diameter of fine particles (PM2.5) is 2.5 × 10⁻⁶ m.\nConvert this diameter to nanometres.",
+      "answerLabel": "Diameter",
       "numericAnswer": 2500,
       "tolerance": 0,
       "unit": "nm",
@@ -527,7 +560,8 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The side length of a cube is reduced from 100 nm to 1 nm. By what factor does its surface area to volume ratio increase?",
+      "question": "The side length of a cube is reduced from 100 nm to 1 nm.\nCalculate the factor by which the surface area to volume ratio of the cube increases.",
+      "answerLabel": "Factor",
       "numericAnswer": 100,
       "tolerance": 0,
       "unit": "",
@@ -543,7 +577,24 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A sugar cube has sides of 1 cm. It is cut into small cubes with sides of 1 mm. Calculate the total surface area of all the small cubes in cm². (1 cm = 10 mm)",
+      "question": "A sugar cube is cut into smaller cubes.\nTable 1 shows the side lengths of the sugar cube and of the small cubes.\nCalculate the total surface area of all the small cubes in cm².\n1 cm = 10 mm",
+      "table": {
+        "headers": [
+          "Cube",
+          "Side length"
+        ],
+        "rows": [
+          [
+            "Sugar cube",
+            "1 cm"
+          ],
+          [
+            "Each small cube",
+            "1 mm"
+          ]
+        ]
+      },
+      "answerLabel": "Total surface area",
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "cm²",
@@ -559,7 +610,24 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "An atom has a radius of 0.1 nm. Calculate how many times larger the diameter of a 30 nm nanoparticle is than the diameter of the atom.",
+      "question": "Table 1 shows the sizes of an atom and a nanoparticle.\nCalculate how many times larger the diameter of the nanoparticle is than the diameter of the atom.",
+      "table": {
+        "headers": [
+          "Particle",
+          "Size in nm"
+        ],
+        "rows": [
+          [
+            "Atom",
+            "radius = 0.1"
+          ],
+          [
+            "Nanoparticle",
+            "diameter = 30"
+          ]
+        ]
+      },
+      "answerLabel": "Number of times larger",
       "numericAnswer": 150,
       "tolerance": 0.01,
       "unit": "",
@@ -575,7 +643,24 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A fine particle has a diameter of 2000 nm and a nanoparticle has a diameter of 50 nm. How many times larger is the diameter of the fine particle?",
+      "question": "Table 1 shows the diameters of two particles.\nCalculate how many times larger the diameter of the fine particle is than the diameter of the nanoparticle.",
+      "table": {
+        "headers": [
+          "Particle",
+          "Diameter in nm"
+        ],
+        "rows": [
+          [
+            "Fine particle",
+            "2000"
+          ],
+          [
+            "Nanoparticle",
+            "50"
+          ]
+        ]
+      },
+      "answerLabel": "Number of times larger",
       "numericAnswer": 40,
       "tolerance": 0,
       "unit": "",
@@ -679,7 +764,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Name the type of particle that has a diameter between 2.5 × 10⁻⁶ m and 1 × 10⁻⁵ m.",
+      "question": "Figure 1 shows a scale of particle diameters.\nThe scale is divided into three ranges, A, B and C.\nName the type of particle with a diameter in range C.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 560 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"10\" y1=\"90\" x2=\"470\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"40\" y1=\"84\" x2=\"40\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"40\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10<tspan dy=\"-6\" font-size=\"12\">−9</tspan></text><line x1=\"140\" y1=\"84\" x2=\"140\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"140\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10<tspan dy=\"-6\" font-size=\"12\">−8</tspan></text><line x1=\"240\" y1=\"84\" x2=\"240\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"240\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10<tspan dy=\"-6\" font-size=\"12\">−7</tspan></text><line x1=\"340\" y1=\"84\" x2=\"340\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"340\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10<tspan dy=\"-6\" font-size=\"12\">−6</tspan></text><line x1=\"440\" y1=\"84\" x2=\"440\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"440\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10<tspan dy=\"-6\" font-size=\"12\">−5</tspan></text><rect x=\"40\" y=\"50\" width=\"200\" height=\"26\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"140\" y=\"68\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"240\" y=\"50\" width=\"139.8\" height=\"26\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"309.9\" y=\"68\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"379.8\" y=\"50\" width=\"60.2\" height=\"26\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"409.9\" y=\"68\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"240\" y=\"145\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Particle diameter in m</text><line x1=\"379.8\" y1=\"30\" x2=\"379.8\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"383.8\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">2.5 × 10⁻⁶</text></svg>"
+      },
       "acceptedAnswers": [
         "coarse particles",
         "PM10",
