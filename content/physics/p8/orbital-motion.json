@@ -1,0 +1,679 @@
+{
+  "id": "p8-orbital-motion",
+  "science": "physics",
+  "topicId": "p8",
+  "slug": "orbital-motion",
+  "specRef": "4.8.1.3",
+  "title": "Orbital motion, natural and artificial satellites",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Gravity provides the force that allows planets and satellites, both natural and artificial, to maintain circular orbits. In a circular orbit the speed is constant but the velocity is always changing, because the direction of motion keeps changing.",
+    "explanation": [
+      "Planets orbit the Sun, moons orbit planets, and artificial satellites orbit the Earth. In each case, gravity provides the force that keeps the object in orbit. The force of gravity on the orbiting object always acts towards the centre of the orbit (towards the Sun or planet). Many orbits are close to circular. The orbits of planets are actually slightly elliptical, but at GCSE they are treated as circular.",
+      "Planets, moons and artificial satellites have many similarities: they all orbit a larger body, they are all kept in orbit by gravity, and they all follow close to circular paths. There are also differences. Planets orbit a star (the Sun); natural satellites (moons) orbit planets; artificial satellites are made by people and launched into orbit around the Earth (or other bodies) for purposes such as communications, weather monitoring, navigation (GPS) and observing the Earth or space.",
+      "Speed is a scalar: it only has size. Velocity is a vector: it has size and direction. An object moving in a circle at a constant speed is continuously changing direction, so its velocity is continuously changing. A changing velocity means the object is accelerating, and by Newton's first and second laws there must be a resultant force. For an orbit, this resultant force is gravity, acting towards the centre of the circle.",
+      "Because the gravitational force acts at right angles to the direction of motion, it changes the direction of the velocity but not the speed. No work is done in the direction of motion, so the object neither speeds up nor slows down. Without gravity, the object would continue in a straight line along the tangent to the circle.",
+      "For a stable orbit, the radius of the orbit must change if the speed changes. The closer an object is to the planet or star, the stronger the gravitational force on it, so it must move faster to stay in orbit at that distance. Objects in smaller orbits travel faster; objects in larger orbits travel more slowly. For example, the International Space Station, in a low orbit, travels at about 7.7 km/s, while the Moon, much further away, travels at about 1 km/s."
+    ],
+    "keyFacts": [
+      "Gravity provides the force that keeps planets, moons and satellites in orbit.",
+      "The gravitational force acts towards the centre of the orbit.",
+      "Planets orbit stars; moons (natural satellites) orbit planets; artificial satellites are launched by people.",
+      "Velocity is a vector; speed is a scalar.",
+      "In a circular orbit the speed is constant but the velocity changes (direction changes).",
+      "A changing velocity is an acceleration, so there must be a resultant force: gravity.",
+      "Gravity acts at right angles to the motion, so it changes direction but not speed.",
+      "Smaller orbit radius: stronger gravity, so a higher speed is needed.",
+      "If the speed of a satellite in a stable orbit changes, the radius must change."
+    ],
+    "keyTerms": [
+      {
+        "term": "Orbit",
+        "definition": "The curved path of an object around a planet or star, held by gravity."
+      },
+      {
+        "term": "Natural satellite",
+        "definition": "A natural body, such as a moon, that orbits a planet."
+      },
+      {
+        "term": "Artificial satellite",
+        "definition": "A human-made object put into orbit, for example for communications, weather or GPS."
+      },
+      {
+        "term": "Velocity",
+        "definition": "Speed in a given direction (a vector)."
+      },
+      {
+        "term": "Speed",
+        "definition": "How fast something is moving, with no direction (a scalar)."
+      },
+      {
+        "term": "Centripetal direction",
+        "definition": "Towards the centre of the circle; the direction in which gravity acts on an orbiting object."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Speed (for one orbit)",
+        "formula": "speed = distance ÷ time; for a circular orbit, distance = circumference = 2 × π × radius",
+        "symbols": "v = 2πr ÷ T",
+        "units": "v in m/s, r in metres (m), T (time for one orbit) in seconds (s)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Orbital speed of the ISS",
+        "question": "The International Space Station orbits at a radius of 6.8 × 10^6 m and takes 92 minutes to complete one orbit. Calculate its orbital speed.",
+        "steps": [
+          "Distance for one orbit = 2πr = 2 × π × 6.8 × 10^6 = 4.27 × 10^7 m.",
+          "Time = 92 × 60 = 5520 s.",
+          "Speed = distance ÷ time = 4.27 × 10^7 ÷ 5520 = 7740 m/s."
+        ],
+        "answer": "About 7700 m/s (7.7 km/s)"
+      },
+      {
+        "title": "Orbital speed of the Moon",
+        "question": "The Moon orbits the Earth at a radius of 3.84 × 10^8 m and takes 27.3 days. Calculate its orbital speed.",
+        "steps": [
+          "Time = 27.3 × 24 × 60 × 60 = 2.36 × 10^6 s.",
+          "Distance = 2π × 3.84 × 10^8 = 2.41 × 10^9 m.",
+          "Speed = 2.41 × 10^9 ÷ 2.36 × 10^6 = 1020 m/s."
+        ],
+        "answer": "About 1000 m/s (1.0 km/s): much slower than the ISS because its orbit is much larger."
+      },
+      {
+        "title": "Explaining constant speed but changing velocity",
+        "question": "A satellite moves in a circular orbit at a constant speed. Explain why it is accelerating.",
+        "steps": [
+          "Its direction of motion is always changing.",
+          "Velocity includes direction, so its velocity is changing.",
+          "A change in velocity is an acceleration, caused by gravity towards the centre."
+        ],
+        "answer": "It accelerates because its velocity (direction) changes, even though its speed is constant."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Forces and velocity in a circular orbit",
+        "caption": "At every point, the velocity is along the tangent to the orbit and the force of gravity acts towards the centre of the Earth. Gravity is at right angles to the velocity, so it changes the direction but not the speed.",
+        "svg": "<svg viewBox='0 0 440 270' xmlns='http://www.w3.org/2000/svg'><circle cx='150' cy='130' r='90' fill='none' stroke='currentColor' stroke-dasharray='2 3'/><circle cx='150' cy='130' r='24' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><circle cx='240.0' cy='130.0' r='6' fill='#93c5fd' stroke='currentColor'/><line x1='240.0' y1='130.0' x2='240.0' y2='85.0' stroke='currentColor' stroke-width='2'/><polygon points='240.0,78.1 244.9,87.9 235.1,87.9' fill='currentColor'/><line x1='232.0' y1='130.0' x2='202.0' y2='130.0' stroke='currentColor' stroke-dasharray='4 2'/><polygon points='195.8,130.0 204.2,125.8 204.2,134.2' fill='currentColor'/><circle cx='150.0' cy='40.0' r='6' fill='#93c5fd' stroke='currentColor'/><line x1='150.0' y1='40.0' x2='105.0' y2='40.0' stroke='currentColor' stroke-width='2'/><polygon points='98.1,40.0 107.9,35.1 107.9,44.9' fill='currentColor'/><line x1='150.0' y1='48.0' x2='150.0' y2='78.0' stroke='currentColor' stroke-dasharray='4 2'/><polygon points='150.0,84.2 145.8,75.8 154.2,75.8' fill='currentColor'/><circle cx='60.0' cy='130.0' r='6' fill='#93c5fd' stroke='currentColor'/><line x1='60.0' y1='130.0' x2='60.0' y2='175.0' stroke='currentColor' stroke-width='2'/><polygon points='60.0,181.9 55.1,172.1 64.9,172.1' fill='currentColor'/><line x1='68.0' y1='130.0' x2='98.0' y2='130.0' stroke='currentColor' stroke-dasharray='4 2'/><polygon points='104.2,130.0 95.8,134.2 95.8,125.8' fill='currentColor'/><circle cx='150.0' cy='220.0' r='6' fill='#93c5fd' stroke='currentColor'/><line x1='150.0' y1='220.0' x2='195.0' y2='220.0' stroke='currentColor' stroke-width='2'/><polygon points='201.9,220.0 192.1,224.9 192.1,215.1' fill='currentColor'/><line x1='150.0' y1='212.0' x2='150.0' y2='182.0' stroke='currentColor' stroke-dasharray='4 2'/><polygon points='150.0,175.8 154.2,184.2 145.8,184.2' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='134' y='134'>Earth</text><text x='280' y='60'>Solid arrows: velocity,</text><text x='280' y='76'>along the tangent</text><text x='280' y='120'>Dashed arrows: gravity,</text><text x='280' y='136'>towards the centre</text><text x='280' y='180'>Speed constant, but the</text><text x='280' y='196'>direction (velocity) changes</text><text x='20' y='262'>Gravity is always at right angles to the motion.</text></g></svg>"
+      },
+      {
+        "title": "Orbit radius and speed",
+        "caption": "A satellite in a smaller orbit feels a stronger gravitational force and must travel faster to stay in a stable orbit. A satellite in a larger orbit travels more slowly.",
+        "svg": "<svg viewBox='0 0 420 250' xmlns='http://www.w3.org/2000/svg'><circle cx='130' cy='125' r='55' fill='none' stroke='currentColor' stroke-dasharray='2 3'/><circle cx='130' cy='125' r='105' fill='none' stroke='currentColor' stroke-dasharray='2 3'/><circle cx='130' cy='125' r='20' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><circle cx='185' cy='125' r='5' fill='#fca5a5' stroke='currentColor'/><line x1='185' y1='125' x2='185' y2='75' stroke='currentColor' stroke-width='2'/><polygon points='185.0,68.1 189.9,77.9 180.1,77.9' fill='currentColor'/><circle cx='235' cy='125' r='5' fill='#93c5fd' stroke='currentColor'/><line x1='235' y1='125' x2='235' y2='100' stroke='currentColor' stroke-width='2'/><polygon points='235.0,93.1 239.9,102.9 230.1,102.9' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='115' y='129'>Earth</text><text x='150' y='70'>faster</text><text x='242' y='105'>slower</text><text x='270' y='60'>Smaller orbit: stronger</text><text x='270' y='76'>gravity, higher speed</text><text x='270' y='160'>Larger orbit: weaker</text><text x='270' y='176'>gravity, lower speed</text><text x='20' y='245'>Speed changes, so the radius of a stable orbit must change.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think there is no gravity acting on astronauts in orbit.",
+        "right": "In fact gravity is still strong in low orbit; it is gravity that keeps the spacecraft (and astronauts) in orbit."
+      },
+      {
+        "wrong": "Students often think an object in a circular orbit at constant speed is not accelerating.",
+        "right": "In fact its direction keeps changing, so its velocity changes and it is accelerating towards the centre."
+      },
+      {
+        "wrong": "Students often think a satellite needs a force pushing it forwards to keep it moving.",
+        "right": "In fact no forward force is needed; the only force is gravity towards the centre, which changes the direction of motion."
+      },
+      {
+        "wrong": "Students often think satellites further away must move faster because they travel further.",
+        "right": "In fact satellites in larger orbits move more slowly, because gravity is weaker there."
+      }
+    ],
+    "realWorld": [
+      "Geostationary communication satellites orbit once every 24 hours above the equator, so they stay above the same point on Earth.",
+      "GPS satellites orbit the Earth and send signals used for navigation by phones and cars.",
+      "Weather satellites in low polar orbits scan the whole surface of the Earth as it rotates beneath them.",
+      "The International Space Station orbits about 400 km above the surface at roughly 7.7 km/s."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Explain qualitatively how, for circular orbits, the force of gravity can lead to changing velocity but unchanged speed.",
+      "Explain qualitatively how, for a stable orbit, the radius must change if the speed changes."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "Gravity provides the force for circular orbits; compare planets, moons and artificial satellites."
+    ],
+    "examTips": [
+      "When asked why velocity changes but speed does not, say: direction changes, velocity is a vector, gravity acts at right angles to the motion.",
+      "Always state that gravity acts towards the centre of the orbit (towards the planet or star).",
+      "Link orbit radius and speed: closer orbit, stronger gravity, faster speed.",
+      "For orbit calculations, use distance = 2πr and convert the time for one orbit into seconds."
+    ],
+    "summary": [
+      "Gravity keeps planets, moons and artificial satellites in orbit.",
+      "Gravity acts towards the centre of a circular orbit.",
+      "Constant speed but changing velocity in a circular orbit.",
+      "Gravity at right angles to motion changes direction only.",
+      "Smaller orbits need higher speeds; changing speed changes the radius."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What force keeps planets and satellites in orbit?",
+      "back": "Gravity."
+    },
+    {
+      "front": "In which direction does gravity act on an orbiting satellite?",
+      "back": "Towards the centre of the orbit."
+    },
+    {
+      "front": "What does a planet orbit?",
+      "back": "A star (the Sun)."
+    },
+    {
+      "front": "What does a moon orbit?",
+      "back": "A planet."
+    },
+    {
+      "front": "What is an artificial satellite?",
+      "back": "A human-made object placed in orbit, for example for communications or GPS."
+    },
+    {
+      "front": "In a circular orbit, what stays constant: speed or velocity?",
+      "back": "Speed (velocity changes because direction changes)."
+    },
+    {
+      "front": "Why is an object in a circular orbit accelerating?",
+      "back": "Its velocity changes because its direction changes."
+    },
+    {
+      "front": "Why does gravity not change the speed of a circular orbit?",
+      "back": "It acts at right angles to the motion."
+    },
+    {
+      "front": "How does orbital speed change with orbit radius?",
+      "back": "Smaller radius, higher speed; larger radius, lower speed."
+    },
+    {
+      "front": "What happens to the radius of a stable orbit if the speed changes?",
+      "back": "The radius must change."
+    },
+    {
+      "front": "Distance travelled in one circular orbit",
+      "back": "2πr."
+    },
+    {
+      "front": "Give two uses of artificial satellites.",
+      "back": "Communications, GPS navigation, weather forecasting, observing Earth or space."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p8-orbital-motion-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What force keeps the Moon in orbit around the Earth?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Air resistance"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Gravity"
+      ],
+      "explanation": "Gravity between the Earth and Moon provides the force for the orbit."
+    },
+    {
+      "id": "p8-orbital-motion-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a natural satellite orbit?",
+      "options": [
+        "A planet",
+        "A star",
+        "A galaxy",
+        "Nothing"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A planet"
+      ],
+      "explanation": "Natural satellites (moons) orbit planets. Planets orbit stars."
+    },
+    {
+      "id": "p8-orbital-motion-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is an artificial satellite?",
+      "options": [
+        "The Moon",
+        "Pluto",
+        "Jupiter",
+        "A GPS satellite"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A GPS satellite"
+      ],
+      "explanation": "Artificial satellites are made by people; GPS satellites are an example. The Moon is natural."
+    },
+    {
+      "id": "p8-orbital-motion-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which direction does gravity act on a satellite in a circular orbit around the Earth?",
+      "options": [
+        "Forwards, along its path",
+        "Towards the centre of the Earth",
+        "Away from the Earth",
+        "Backwards, against its motion"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Towards the centre of the Earth"
+      ],
+      "explanation": "Gravity always pulls the satellite towards the centre of the Earth, the centre of the circular orbit."
+    },
+    {
+      "id": "p8-orbital-motion-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about a planet orbiting the Sun is correct?",
+      "options": [
+        "Its speed and velocity are both constant",
+        "Its velocity is constant but its speed changes",
+        "Its speed is constant but its velocity changes",
+        "It has no resultant force on it"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Its speed is constant but its velocity changes"
+      ],
+      "explanation": "In a circular orbit the direction keeps changing, so velocity changes while speed stays constant. Gravity is the resultant force."
+    },
+    {
+      "id": "p8-orbital-motion-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What would happen to a satellite if gravity suddenly stopped acting on it?",
+      "options": [
+        "It would move off in a straight line along the tangent",
+        "It would fall to Earth",
+        "It would stop moving",
+        "It would orbit faster"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It would move off in a straight line along the tangent"
+      ],
+      "explanation": "With no resultant force, the satellite would continue at constant velocity, in a straight line along the tangent to its orbit (Newton's first law)."
+    },
+    {
+      "id": "p8-orbital-motion-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which satellite moves at the highest speed?",
+      "options": [
+        "They all move at the same speed",
+        "One in a geostationary orbit",
+        "The Moon",
+        "One in a low orbit close to the Earth"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: One in a low orbit close to the Earth"
+      ],
+      "explanation": "The closer the orbit, the stronger the gravitational force, so a satellite in a low orbit must travel fastest."
+    },
+    {
+      "id": "p8-orbital-motion-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the same for planets, moons and artificial satellites?",
+      "options": [
+        "They all orbit the Sun directly",
+        "They are all kept in orbit by gravity",
+        "They are all made by humans",
+        "They all produce their own light"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: They are all kept in orbit by gravity"
+      ],
+      "explanation": "All orbiting bodies are kept in orbit by gravity. Only planets orbit the Sun directly, and only artificial satellites are human-made."
+    },
+    {
+      "id": "p8-orbital-motion-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why does the gravitational force on a satellite in a circular orbit not change its speed?",
+      "options": [
+        "Gravity is too weak in space",
+        "The force acts in the direction of motion",
+        "The force acts at right angles to the direction of motion",
+        "The satellite has no mass in orbit"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The force acts at right angles to the direction of motion"
+      ],
+      "explanation": "A force at right angles to the motion changes only the direction. It does no work in the direction of motion, so the speed stays the same."
+    },
+    {
+      "id": "p8-orbital-motion-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A satellite in a stable circular orbit is made to travel faster. To remain in a stable circular orbit, what must happen?",
+      "options": [
+        "Its orbit radius must decrease",
+        "Its orbit radius must increase",
+        "Its orbit radius stays the same",
+        "It must stop orbiting"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Its orbit radius must decrease"
+      ],
+      "explanation": "A higher speed requires a stronger gravitational force to keep it in a circle, which is only found closer to the Earth, so the radius must decrease."
+    },
+    {
+      "id": "p8-orbital-motion-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A satellite orbits the Earth at a radius of 6.8 × 10^6 m and takes 92 minutes to complete one orbit. Calculate its orbital speed in m/s.",
+      "numericAnswer": 7740,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: distance = 2π × 6.8 × 10^6 = 4.27 × 10^7 m",
+        "1 mark: time = 5520 s",
+        "1 mark: speed = 7700 m/s (7740 m/s)"
+      ],
+      "explanation": "Speed = 2πr ÷ T = 4.27 × 10^7 ÷ 5520 = 7740 m/s. Remember to convert minutes to seconds."
+    },
+    {
+      "id": "p8-orbital-motion-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A geostationary satellite orbits at a radius of 4.2 × 10^7 m and takes 24 hours for one orbit. Calculate its orbital speed in m/s.",
+      "numericAnswer": 3054,
+      "tolerance": 0.02,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: distance = 2π × 4.2 × 10^7 = 2.64 × 10^8 m",
+        "1 mark: time = 24 × 3600 = 86 400 s",
+        "1 mark: speed = 3100 m/s (3054 m/s)"
+      ],
+      "explanation": "Speed = 2πr ÷ T = 2.64 × 10^8 ÷ 86 400 ≈ 3050 m/s."
+    },
+    {
+      "id": "p8-orbital-motion-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The Earth orbits the Sun at a radius of 1.5 × 10^11 m once every 365 days. Calculate the Earth's orbital speed in km/s.",
+      "numericAnswer": 29.9,
+      "tolerance": 0.02,
+      "unit": "km/s",
+      "markScheme": [
+        "1 mark: distance = 2π × 1.5 × 10^11 = 9.42 × 10^11 m",
+        "1 mark: time = 365 × 24 × 3600 = 3.15 × 10^7 s",
+        "1 mark: speed = 29 900 m/s = 29.9 km/s"
+      ],
+      "explanation": "Speed = 9.42 × 10^11 ÷ 3.15 × 10^7 = 29 900 m/s. Divide by 1000 to give 29.9 km/s (about 30 km/s)."
+    },
+    {
+      "id": "p8-orbital-motion-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A satellite orbits at a radius of 7.0 × 10^6 m with a speed of 7.5 km/s. Calculate the time it takes to complete one orbit, in minutes.",
+      "numericAnswer": 97.7,
+      "tolerance": 0.02,
+      "unit": "minutes",
+      "markScheme": [
+        "1 mark: distance = 2π × 7.0 × 10^6 = 4.40 × 10^7 m",
+        "1 mark: time = 4.40 × 10^7 ÷ 7500 = 5860 s",
+        "1 mark: 5860 ÷ 60 = 97.7 minutes"
+      ],
+      "explanation": "Rearrange speed = distance ÷ time to time = distance ÷ speed. Convert 7.5 km/s to 7500 m/s first."
+    },
+    {
+      "id": "p8-orbital-motion-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give two uses of artificial satellites.",
+      "acceptedAnswers": [
+        "communications",
+        "GPS",
+        "navigation",
+        "weather",
+        "observing Earth",
+        "telescope"
+      ],
+      "markScheme": [
+        "1 mark each for any two: communications (TV, phone); GPS or navigation; weather monitoring; observing the Earth (mapping, spying); astronomy (space telescopes)"
+      ],
+      "explanation": "Artificial satellites are placed in orbit for practical purposes."
+    },
+    {
+      "id": "p8-orbital-motion-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State the difference between a natural satellite and an artificial satellite.",
+      "acceptedAnswers": [
+        "made by humans",
+        "natural moon"
+      ],
+      "markScheme": [
+        "1 mark: a natural satellite (moon) occurs naturally, an artificial satellite is made by people and launched into orbit"
+      ],
+      "explanation": "Both orbit a larger body under gravity."
+    },
+    {
+      "id": "p8-orbital-motion-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why speed is a scalar but velocity is a vector.",
+      "acceptedAnswers": [
+        "size only",
+        "size and direction"
+      ],
+      "markScheme": [
+        "1 mark: speed has size (magnitude) only",
+        "1 mark: velocity has size and direction"
+      ],
+      "explanation": "This is why an orbiting object can have a constant speed but a changing velocity."
+    },
+    {
+      "id": "p8-orbital-motion-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare the motion of the Moon around the Earth with the motion of the Earth around the Sun.",
+      "acceptedAnswers": [
+        "both orbit",
+        "gravity",
+        "Moon orbits planet",
+        "Earth orbits star"
+      ],
+      "markScheme": [
+        "1 mark: both follow (nearly) circular orbits kept by gravity",
+        "1 mark: the Moon orbits a planet (the Earth), while the Earth orbits a star (the Sun)"
+      ],
+      "explanation": "The same force, gravity, controls both orbits."
+    },
+    {
+      "id": "p8-orbital-motion-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how the force of gravity causes a satellite in a circular orbit to have a changing velocity but a constant speed.",
+      "acceptedAnswers": [
+        "towards the centre",
+        "right angles",
+        "direction changes",
+        "velocity vector"
+      ],
+      "markScheme": [
+        "1 mark: gravity acts towards the centre of the orbit, at right angles to the direction of motion",
+        "1 mark: so it changes the direction of motion but not the speed",
+        "1 mark: velocity includes direction, so the velocity changes (the satellite accelerates) while the speed stays constant"
+      ],
+      "explanation": "A perpendicular force changes direction only."
+    },
+    {
+      "id": "p8-orbital-motion-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why satellites in low orbits must travel faster than satellites in high orbits.",
+      "acceptedAnswers": [
+        "stronger gravity",
+        "closer",
+        "faster to stay in orbit"
+      ],
+      "markScheme": [
+        "1 mark: closer to the Earth the gravitational force is stronger",
+        "1 mark: so a higher speed is needed to stay in a stable orbit (rather than falling inwards)"
+      ],
+      "explanation": "The radius and speed of a stable orbit are linked: smaller radius, higher speed."
+    },
+    {
+      "id": "p8-orbital-motion-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the force that provides the resultant force on a planet orbiting the Sun.",
+      "acceptedAnswers": [
+        "gravity",
+        "gravitational"
+      ],
+      "markScheme": [
+        "1 mark: gravity (gravitational attraction of the Sun)"
+      ],
+      "explanation": "Gravity is the only significant force on the orbiting planet."
+    },
+    {
+      "id": "p8-orbital-motion-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A satellite's orbit gradually loses speed because of a thin atmosphere. Suggest and explain what happens to its orbit.",
+      "acceptedAnswers": [
+        "radius decreases",
+        "moves closer",
+        "falls",
+        "spirals"
+      ],
+      "markScheme": [
+        "1 mark: its orbit radius decreases (it moves closer to the Earth)",
+        "1 mark: because for a stable orbit the radius must change when the speed changes; at its lower speed gravity pulls it inwards"
+      ],
+      "explanation": "Losing speed means gravity is more than enough to keep it in its current circle, so it moves inwards to a smaller orbit. Over time, this makes the satellite fall back into the atmosphere."
+    },
+    {
+      "id": "p8-orbital-motion-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Compare planets, moons and artificial satellites.",
+      "markScheme": [
+        "Indicative content: similarities: all orbit a larger body; all kept in orbit by gravity; orbits approximately circular; all reflect light rather than produce it; differences: planets orbit a star (the Sun); moons (natural satellites) orbit planets; artificial satellites are made by people and launched; artificial satellites used for communications, GPS, weather, observation; planets and moons are natural; artificial satellites usually orbit the Earth.",
+        "Level 2 (3 to 4 marks): at least one similarity and two differences clearly described.",
+        "Level 1 (1 to 2 marks): simple statements about one type of object.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Gravity unites them all; what they orbit and whether they are natural separates them."
+    },
+    {
+      "id": "p8-orbital-motion-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A communications satellite is moved from a low orbit into a much higher circular orbit. Explain how gravity keeps the satellite in a circular orbit, and compare its speed and velocity in the two orbits.",
+      "markScheme": [
+        "Indicative content: gravity acts towards the centre of the Earth; at right angles to the satellite's motion; changes direction of motion, not speed; so velocity changes continuously while speed is constant; this is an acceleration towards the centre; without gravity it would move in a straight line along the tangent; in the higher orbit the gravitational force is weaker; a lower speed is needed for a stable orbit at a larger radius; so it moves more slowly in the higher orbit; it also takes longer to complete each orbit (greater distance, lower speed); for a stable orbit the radius must change if the speed changes.",
+        "Level 3 (5 to 6 marks): clear explanation of constant speed and changing velocity in terms of the direction of gravity, plus a correct comparison of speeds linked to gravitational strength and radius.",
+        "Level 2 (3 to 4 marks): explains gravity as the force for the orbit with some comparison of the two orbits.",
+        "Level 1 (1 to 2 marks): simple statements, for example gravity keeps it in orbit.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Gravity, perpendicular to the motion, changes direction only. Weaker gravity in the higher orbit means a lower orbital speed."
+    },
+    {
+      "id": "p8-orbital-motion-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is NOT kept in orbit by gravity?",
+      "options": [
+        "The Moon around the Earth",
+        "The Earth around the Sun",
+        "A weather satellite around the Earth",
+        "None: all of these are kept in orbit by gravity"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: None: all of these are kept in orbit by gravity"
+      ],
+      "explanation": "Gravity provides the force for all orbits: planets, moons and artificial satellites."
+    },
+    {
+      "id": "p8-orbital-motion-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a satellite in a circular orbit is accelerating, even though its speed is constant.",
+      "acceptedAnswers": [
+        "direction changing",
+        "velocity changing",
+        "acceleration is change in velocity"
+      ],
+      "markScheme": [
+        "1 mark: its direction of motion is continuously changing, so its velocity is changing",
+        "1 mark: acceleration is a change in velocity, so it is accelerating (towards the centre)"
+      ],
+      "explanation": "Acceleration is about velocity, which includes direction."
+    }
+  ]
+}

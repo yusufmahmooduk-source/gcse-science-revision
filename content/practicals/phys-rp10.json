@@ -1,0 +1,305 @@
+{
+  "id": "phys-rp10",
+  "science": "physics",
+  "number": 10,
+  "title": "Radiation and absorption (infrared)",
+  "combined": true,
+  "topicId": "p6",
+  "subtopic": "properties-of-em-waves-1",
+  "aim": "To investigate how the amount of infrared radiation emitted by a surface depends on the nature of that surface, using a Leslie cube and an infrared detector.",
+  "background": [
+    "All objects emit and absorb infrared radiation. The hotter an object is, the more infrared radiation it emits in a given time. The amount emitted also depends on the type of surface: matt (dull) black surfaces are the best emitters, and light, shiny surfaces such as polished silver are the worst emitters.",
+    "Good emitters of infrared radiation are also good absorbers. Matt black surfaces absorb most of the infrared radiation that hits them, while shiny silver surfaces reflect most of it. This is why the inside of a vacuum flask is silvered and why solar panels are painted black.",
+    "A Leslie cube is a hollow metal cube whose four vertical faces have different surfaces, typically matt black, shiny black, matt white and shiny silver. When it is filled with hot water, all four faces are at the same temperature, so any difference in the infrared radiation they emit is caused only by the type of surface.",
+    "An infrared detector (a thermopile connected to a meter, or an infrared thermometer) is placed at the same distance from each face in turn. A larger reading means more infrared radiation is being received. Using a detector rather than a hand or a thermometer gives quantitative, repeatable readings."
+  ],
+  "hypothesis": "The matt black face of the Leslie cube will emit the most infrared radiation and the shiny silver face will emit the least, even though all faces are at the same temperature.",
+  "variables": {
+    "independent": "Type of surface (matt black, shiny black, matt white, shiny silver).",
+    "dependent": "Amount of infrared radiation emitted, measured as the infrared detector reading (mV).",
+    "control": [
+      "Temperature of the water in the cube (all faces at the same temperature, readings taken quickly)",
+      "Distance between the detector and each face (10 cm)",
+      "Detector pointing straight at the centre of each face",
+      "Same detector and meter",
+      "Surroundings (away from other hot objects, windows and draughts)"
+    ]
+  },
+  "equipment": [
+    "Leslie cube with four different faces (matt black, shiny black, matt white, shiny silver)",
+    "Kettle to heat water",
+    "Infrared detector (thermopile) and meter, or an infrared thermometer",
+    "Ruler to measure the distance from the detector to each face",
+    "Thermometer",
+    "Heatproof mat",
+    "Lid for the Leslie cube"
+  ],
+  "method": [
+    "Stand the Leslie cube on a heatproof mat, away from other sources of infrared such as radiators or sunny windows.",
+    "Boil water in a kettle and carefully fill the Leslie cube almost to the top. Put the lid on.",
+    "Place a thermometer through the lid and wait until the temperature is steady (about 80 °C), so that all faces have reached the temperature of the water.",
+    "Place the infrared detector exactly 10 cm from the centre of the matt black face, measured with a ruler, pointing straight at the face.",
+    "Allow the reading to settle and record the detector reading.",
+    "Rotate the cube (or move the detector) so the detector is 10 cm from the shiny black face. Record the reading.",
+    "Repeat for the matt white and shiny silver faces, keeping the distance at 10 cm.",
+    "Work quickly so that the water does not cool significantly between readings, and check the water temperature with the thermometer.",
+    "Repeat the whole set of readings twice more, refilling with hot water if needed, and calculate a mean reading for each surface.",
+    "Present the results in a bar chart, because the independent variable (type of surface) is categoric."
+  ],
+  "safety": [
+    {
+      "hazard": "Very hot water from a kettle",
+      "risk": "Scalding the skin when filling the cube or if it is knocked over.",
+      "precaution": "Fill the cube carefully on a heatproof mat, use a funnel or jug, and do not move the cube while it is full of hot water."
+    },
+    {
+      "hazard": "Hot surfaces of the Leslie cube",
+      "risk": "Burns if the faces are touched.",
+      "precaution": "Rotate the cube by its base or handle, or move the detector instead of the cube, and let it cool before emptying."
+    },
+    {
+      "hazard": "Kettle and mains electricity near water",
+      "risk": "Electric shock.",
+      "precaution": "Keep the kettle lead away from water and dry hands before switching it on."
+    }
+  ],
+  "results": {
+    "headers": ["Surface", "Reading 1 (mV)", "Reading 2 (mV)", "Reading 3 (mV)", "Mean reading (mV)"],
+    "rows": [
+      ["Matt black", "8.4", "8.6", "8.5", "8.5"],
+      ["Shiny black", "7.0", "7.1", "6.9", "7.0"],
+      ["Matt white", "6.6", "6.8", "6.7", "6.7"],
+      ["Shiny silver", "1.2", "1.3", "1.1", "1.2"]
+    ],
+    "notes": "Water temperature about 80 °C for every reading; detector 10 cm from each face. The surface type is a categoric variable, so plot a bar chart of mean detector reading for each surface. The repeat readings for each surface are within ±0.1 mV of the mean, showing good repeatability."
+  },
+  "analysis": [
+    "The matt black surface gave the highest mean reading (8.5 mV), so it emitted the most infrared radiation. The shiny silver surface gave the lowest reading (1.2 mV), so it emitted the least, only about 14% as much as the matt black surface.",
+    "Since all faces were at the same temperature and the same distance from the detector, the difference in readings must be caused by the type of surface.",
+    "Dark and matt surfaces are better emitters than light and shiny surfaces: the matt black face emitted more than the shiny black face, and both black faces emitted more than the shiny silver face.",
+    "Good emitters are also good absorbers, so a matt black surface would also absorb infrared radiation best. This explains why a matt black car or a black solar panel warms up quickly in sunlight, and why shiny silver surfaces are used to reduce energy transfer by radiation, for example in survival blankets and vacuum flasks.",
+    "The readings were repeatable (all within 0.2 mV for each surface), so the conclusion is supported by consistent evidence."
+  ],
+  "errors": [
+    {
+      "error": "The water cools between readings, so later faces are at a lower temperature and emit less infrared.",
+      "improvement": "Take readings quickly, put a lid on the cube, check the temperature with a thermometer, and repeat in a different order of faces."
+    },
+    {
+      "error": "The detector is at slightly different distances from each face, which affects the reading.",
+      "improvement": "Measure the distance with a ruler each time, or fix the detector in a clamp and rotate the cube on a marked position."
+    },
+    {
+      "error": "Infrared from other hot objects (people, radiators, sunlight) reaches the detector.",
+      "improvement": "Do the experiment away from other heat sources and keep hands away from the front of the detector."
+    },
+    {
+      "error": "The detector reading takes time to settle.",
+      "improvement": "Wait a fixed time (for example 30 s) before recording each reading."
+    },
+    {
+      "error": "Using a hand or an ordinary thermometer to judge the radiation is not quantitative or repeatable.",
+      "improvement": "Use an infrared detector with a meter, which gives numerical readings with a known resolution."
+    }
+  ],
+  "diagram": {
+    "title": "Leslie cube and infrared detector",
+    "caption": "Top view of a Leslie cube filled with hot water. Its four faces have different surfaces. An infrared detector connected to a meter is placed 10 cm from each face in turn to compare the infrared radiation emitted.",
+    "svg": "<svg viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"150\" y=\"90\" width=\"120\" height=\"120\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"90\" width=\"8\" height=\"120\" fill=\"currentColor\" stroke=\"currentColor\"/><rect x=\"142\" y=\"90\" width=\"8\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><rect x=\"150\" y=\"82\" width=\"120\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"150\" y=\"210\" width=\"120\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><path d=\"M330 135 L318 128 V172 L330 165 Z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"135\" width=\"40\" height=\"30\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"380\" y=\"40\" width=\"60\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M350 135 V100 H410 V74\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"><path d=\"M278 200 H318 M284 196 L278 200 L284 204 M312 196 L318 200 L312 204\"/><path d=\"M286 150 H312\" stroke-dasharray=\"3 3\"/><line x1=\"280\" y1=\"110\" x2=\"300\" y2=\"98\"/><line x1=\"140\" y1=\"150\" x2=\"126\" y2=\"150\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"388\" y=\"61\">Meter</text><text x=\"172\" y=\"74\">Matt white</text><text x=\"304\" y=\"94\">Matt black</text><text x=\"56\" y=\"154\">Shiny black</text><text x=\"172\" y=\"236\">Shiny silver</text><text x=\"168\" y=\"146\">Hot water</text><text x=\"168\" y=\"162\">at 80 °C</text><text x=\"284\" y=\"220\">10 cm</text><text x=\"334\" y=\"186\">Infrared detector</text><text x=\"150\" y=\"266\">Leslie cube (top view)</text></g></svg>"
+  },
+  "examTips": [
+    "Learn the order: matt black is the best emitter and absorber; light shiny (silver) surfaces are the worst emitters and absorbers and the best reflectors.",
+    "Explain why a Leslie cube makes the test fair: all faces are at the same temperature because the same hot water is inside.",
+    "Control the distance between the detector and each face, and take readings quickly before the water cools.",
+    "Use a bar chart, not a line graph, because the type of surface is a categoric variable.",
+    "Link results to real life: black solar panels absorb well; shiny survival blankets and flask linings reduce radiation."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp10-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A Leslie cube is filled with hot water. Which face emits the most infrared radiation?",
+      "options": ["Shiny silver", "Matt white", "Shiny black", "Matt black"],
+      "answer": 3,
+      "markScheme": ["1 mark: matt black"],
+      "explanation": "Dark, matt surfaces are the best emitters of infrared radiation. Shiny black emits slightly less, and light shiny surfaces emit the least."
+    },
+    {
+      "id": "phys-rp10-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which type of surface is the worst absorber of infrared radiation?",
+      "options": ["Matt black", "Shiny silver", "Shiny black", "Matt dark green"],
+      "answer": 1,
+      "markScheme": ["1 mark: shiny silver"],
+      "explanation": "Light, shiny surfaces reflect most infrared radiation, so they absorb the least. A surface that is a poor emitter is also a poor absorber."
+    },
+    {
+      "id": "phys-rp10-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "An infrared detector gives three readings of 8.4 mV, 8.6 mV and 8.5 mV when placed 10 cm from the matt black face of a Leslie cube.\nCalculate the mean reading.",
+      "numericAnswer": 8.5,
+      "tolerance": 0.01,
+      "unit": "mV",
+      "markScheme": ["1 mark: (8.4 + 8.6 + 8.5) ÷ 3 = 8.5 mV"],
+      "explanation": "Add the readings and divide by the number of readings: 25.5 ÷ 3 = 8.5 mV."
+    },
+    {
+      "id": "phys-rp10-q04",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When using a Leslie cube, the infrared detector is placed 10 cm from each face.\nExplain why the distance must be the same for each face.",
+      "acceptedAnswers": ["fair test", "distance affects the reading", "control variable", "closer receives more radiation"],
+      "markScheme": ["1 mark: the amount of radiation detected depends on distance (closer gives a larger reading), so it must be controlled for a fair test"],
+      "explanation": "If the detector were closer to one face it would receive more infrared, so the difference in readings would not be caused only by the surface."
+    },
+    {
+      "id": "phys-rp10-q05",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a Leslie cube filled with hot water is a good way to compare how well different surfaces emit infrared radiation.",
+      "acceptedAnswers": ["all faces at the same temperature", "same hot water inside", "only the surface changes", "fair test"],
+      "markScheme": ["1 mark: all four faces are heated by the same water so are at the same temperature", "1 mark: so the only variable that changes is the type of surface (fair test)"],
+      "explanation": "Temperature affects how much infrared an object emits. Because all faces of the cube are at the same temperature, any difference in detector reading is caused by the surface."
+    },
+    {
+      "id": "phys-rp10-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one hazard when using a Leslie cube filled with hot water and a precaution to reduce the risk.",
+      "acceptedAnswers": ["scalding", "hot water", "burns from hot cube", "heatproof mat", "do not touch the faces", "rotate by the base"],
+      "markScheme": ["1 mark: hazard: hot water could scald / hot faces could burn", "1 mark: matching precaution: fill carefully on a heatproof mat / do not move it while full / turn the cube by its base or move the detector instead"],
+      "explanation": "The cube is filled with water close to boiling, so the main risks are scalds and burns."
+    },
+    {
+      "id": "phys-rp10-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student uses a Leslie cube to investigate how the type of surface affects the infrared radiation emitted. What is the independent variable?",
+      "options": ["The type of surface", "The detector reading", "The temperature of the water", "The distance from the detector to the face"],
+      "answer": 0,
+      "markScheme": ["1 mark: the type of surface"],
+      "explanation": "The student chooses which surface to test, so this is the independent variable. The detector reading is the dependent variable; temperature and distance are control variables."
+    },
+    {
+      "id": "phys-rp10-q08",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The mean infrared detector readings for two faces of a Leslie cube are:\nmatt black: 8.5 mV\nshiny silver: 1.2 mV\nCalculate the reading for shiny silver as a percentage of the reading for matt black. Give your answer to 2 significant figures.",
+      "numericAnswer": 14,
+      "tolerance": 0.02,
+      "unit": "%",
+      "markScheme": ["1 mark: 1.2 ÷ 8.5 × 100", "1 mark: 14%"],
+      "explanation": "1.2 ÷ 8.5 = 0.141, which is 14% to 2 significant figures. The shiny silver face emits only about a seventh as much infrared as the matt black face."
+    },
+    {
+      "id": "phys-rp10-q09",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student suggests holding a hand near each face of a Leslie cube to find which emits the most infrared radiation.\nExplain why an infrared detector is better.",
+      "acceptedAnswers": ["gives numerical readings", "quantitative", "not subjective", "more precise", "repeatable", "hand is not sensitive enough"],
+      "markScheme": ["1 mark: the detector gives numerical (quantitative) readings", "1 mark: which are not subjective / can be compared and repeated / have a known resolution"],
+      "explanation": "A hand can only give a rough feeling of warmth, which is subjective and cannot distinguish small differences. A detector gives values that can be recorded, averaged and compared."
+    },
+    {
+      "id": "phys-rp10-q10",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Two identical metal plates are placed at equal distances either side of an electric heater. One plate is painted matt black and the other is polished shiny silver. A drawing pin is stuck to the back of each plate with a small amount of wax.\nPredict which drawing pin falls off first and explain why.",
+      "acceptedAnswers": ["matt black pin falls first", "black absorbs more infrared", "wax melts first", "silver reflects infrared"],
+      "markScheme": ["1 mark: the pin on the matt black plate falls first", "1 mark: matt black is a better absorber of infrared radiation (silver reflects most of it)", "1 mark: so the black plate heats up faster and its wax melts first"],
+      "explanation": "Both plates receive the same infrared radiation because they are the same distance from the heater. The black plate absorbs more of it, so its temperature rises faster."
+    },
+    {
+      "id": "phys-rp10-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about emitting and absorbing infrared radiation is correct?",
+      "options": [
+        "Good emitters are poor absorbers",
+        "Good emitters are also good absorbers",
+        "Shiny surfaces are good emitters and good absorbers",
+        "The type of surface has no effect on absorption"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: good emitters are also good absorbers"],
+      "explanation": "Surfaces that emit infrared well, such as matt black, also absorb it well. Shiny surfaces are poor at both and reflect infrared instead."
+    },
+    {
+      "id": "phys-rp10-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Three repeat readings from an infrared detector facing the shiny black face of a Leslie cube are 7.0 mV, 7.1 mV and 6.9 mV.\nThe uncertainty can be estimated as half the range of the readings. Calculate the uncertainty in the mean reading.",
+      "numericAnswer": 0.1,
+      "tolerance": 0.01,
+      "unit": "mV",
+      "markScheme": ["1 mark: range = 7.1 − 6.9 = 0.2 mV", "1 mark: uncertainty = 0.2 ÷ 2 = ±0.1 mV"],
+      "explanation": "The range is the largest reading minus the smallest. Half the range gives a simple estimate of the uncertainty, so the result is 7.0 ± 0.1 mV."
+    },
+    {
+      "id": "phys-rp10-q13",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student records the mean infrared reading for each of the four faces of a Leslie cube. Which is the best way to present these results?",
+      "options": ["A line graph", "A scatter graph with a line of best fit", "A bar chart", "A pie chart"],
+      "answer": 2,
+      "markScheme": ["1 mark: a bar chart"],
+      "explanation": "The type of surface is a categoric variable (it has no numerical order), so a bar chart is used. Line graphs are only for continuous independent variables."
+    },
+    {
+      "id": "phys-rp10-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student takes infrared readings from the four faces of a Leslie cube, but takes 10 minutes between the first and last reading.\nExplain how this could affect the results.",
+      "acceptedAnswers": ["water cools", "temperature decreases", "later faces emit less", "not a fair test"],
+      "markScheme": ["1 mark: the water (and cube) cools down during this time", "1 mark: so faces measured later emit less infrared, making their readings too low / not a fair test"],
+      "explanation": "The amount of infrared emitted depends on temperature as well as surface. Readings should be taken quickly, or the water temperature checked and kept the same."
+    },
+    {
+      "id": "phys-rp10-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the type of surface affects the amount of infrared radiation emitted, using a Leslie cube and an infrared detector.",
+      "markScheme": [
+        "Indicative content: place the Leslie cube on a heatproof mat; fill it with hot water from a kettle; put on the lid; wait for the faces to reach the water temperature (check with a thermometer); place the infrared detector a fixed distance (for example 10 cm) from the first face, measured with a ruler; point it at the centre of the face; record the reading once it settles; repeat for each of the four faces at the same distance; work quickly so the water does not cool; repeat the readings and calculate means; keep away from other heat sources; plot a bar chart; conclude that matt black emits most and shiny silver least; safety: care with hot water, do not touch the hot cube",
+        "Level 3 (5 to 6 marks): a coherent method that would give valid results, with clear control of distance and temperature, readings for each surface, repeats and how results are compared.",
+        "Level 2 (3 to 4 marks): a method with the main steps (hot water in cube, detector reading for each face) but missing some control variables or detail.",
+        "Level 1 (1 to 2 marks): simple statements, such as put hot water in the cube and measure each side, without a clear method.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers explain how the temperature and distance are kept the same for each face, how readings are taken and repeated, and what result is expected."
+    }
+  ]
+}
