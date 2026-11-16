@@ -245,18 +245,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Where are step-down transformers used in the National Grid?",
+      "question": "Figure 1 shows part of the National Grid. J and K are transformers.\nWhich transformer is a step-down transformer?",
       "markScheme": [
-        "1 mark: Between the transmission cables and consumers"
+        "1 mark: K"
       ],
-      "explanation": "Step-down transformers reduce the potential difference near consumers so it is safer for homes.",
+      "explanation": "Step-down transformers are used between the transmission cables and consumers, so K is the step-down transformer. J, between the power station and the transmission cables, is a step-up transformer.",
       "options": [
-        "Inside power stations before the generator",
-        "Inside appliances only",
-        "Between the generator and the transmission cables",
-        "Between the transmission cables and consumers"
+        "J",
+        "Neither J nor K",
+        "Both J and K",
+        "K"
       ],
-      "answer": 3
+      "answer": 3,
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"55\" width=\"90\" height=\"60\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"55\" y=\"82\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">power</text><text x=\"55\" y=\"98\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">station</text><line x1=\"100\" y1=\"85\" x2=\"126\" y2=\"85\"/><circle cx=\"141\" cy=\"85\" r=\"15\"/><circle cx=\"159\" cy=\"85\" r=\"15\"/><text x=\"150\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">J</text><line x1=\"174\" y1=\"85\" x2=\"346\" y2=\"85\"/><circle cx=\"361\" cy=\"85\" r=\"15\"/><circle cx=\"379\" cy=\"85\" r=\"15\"/><text x=\"370\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">K</text><line x1=\"394\" y1=\"85\" x2=\"420\" y2=\"85\"/><text x=\"260\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">transmission cables</text><path d=\"M420 115V75L460 50L500 75V115Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"460\" y=\"108\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">homes</text></g></svg>"
+      }
     },
     {
       "id": "p2-national-grid-q04",
@@ -378,7 +381,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A power station sends 100 MW along the grid at 400 kV. Calculate the current in the cables.",
+      "question": "A power station sends 100 MW of power along the National Grid at a potential difference of 400 kV.\nCalculate the current in the transmission cables.",
       "markScheme": [
         "1 mark: I = P ÷ V = 100 000 000 ÷ 400 000",
         "1 mark: 250 A"
@@ -386,7 +389,8 @@
       "explanation": "Convert MW and kV to W and V, then I = P ÷ V.",
       "numericAnswer": 250,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "answerLabel": "Current"
     },
     {
       "id": "p2-national-grid-q11",
@@ -394,15 +398,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The same 100 MW is sent at 25 kV. Calculate the current in the cables.",
+      "question": "A power station sends 100 MW of power along the National Grid at a potential difference of 25 kV.\nCalculate the current in the transmission cables.",
       "markScheme": [
         "1 mark: I = 100 000 000 ÷ 25 000",
         "1 mark: 4000 A"
       ],
-      "explanation": "I = P ÷ V = 4000 A, sixteen times the current at 400 kV.",
+      "explanation": "I = P ÷ V = 100 000 000 ÷ 25 000 = 4000 A. This is sixteen times the current needed if the same power is sent at 400 kV (250 A).",
       "numericAnswer": 4000,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "answerLabel": "Current"
     },
     {
       "id": "p2-national-grid-q12",
@@ -410,7 +415,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A transmission cable has a resistance of 2.0 Ω and carries a current of 250 A. Calculate the power wasted heating the cable.",
+      "question": "A transmission cable has a resistance of 2.0 Ω. The current in the cable is 250 A.\nCalculate the power wasted heating the cable.",
       "markScheme": [
         "1 mark: P = 250² × 2.0",
         "1 mark: 125 000 W"
@@ -418,7 +423,8 @@
       "explanation": "P = I² R = 62 500 × 2.0 = 125 000 W.",
       "numericAnswer": 125000,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "answerLabel": "Power wasted"
     },
     {
       "id": "p2-national-grid-q13",
@@ -426,7 +432,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The same 2.0 Ω cable carries 4000 A. Calculate the power wasted heating it. Give your answer in MW.",
+      "question": "A transmission cable has a resistance of 2.0 Ω. The current in the cable is 4000 A.\nCalculate the power wasted heating the cable.\nGive your answer in megawatts (MW).",
       "markScheme": [
         "1 mark: P = 4000² × 2.0 = 32 000 000 W",
         "1 mark: 32 MW"
@@ -434,7 +440,8 @@
       "explanation": "P = I² R = 16 000 000 × 2.0 = 32 000 000 W = 32 MW. Compare with 0.125 MW at 250 A.",
       "numericAnswer": 32,
       "tolerance": 0.02,
-      "unit": "MW"
+      "unit": "MW",
+      "answerLabel": "Power wasted"
     },
     {
       "id": "p2-national-grid-q14",
@@ -442,7 +449,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A house uses 9.2 kW of power from the 230 V mains. Calculate the current supplied to the house.",
+      "question": "A house takes 9.2 kW of power from the 230 V mains supply.\nCalculate the current supplied to the house.",
       "markScheme": [
         "1 mark: 9.2 kW = 9200 W",
         "1 mark: I = 9200 ÷ 230 = 40 A"
@@ -450,7 +457,8 @@
       "explanation": "I = P ÷ V = 9200 ÷ 230 = 40 A.",
       "numericAnswer": 40,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "answerLabel": "Current"
     },
     {
       "id": "p2-national-grid-q15",
@@ -458,7 +466,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State what the National Grid is.",
+      "question": "What is the National Grid?",
       "markScheme": [
         "1 mark: a system of cables and transformers",
         "1 mark: linking power stations to consumers"
@@ -475,7 +483,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State the purpose of a step-down transformer in the National Grid.",
+      "question": "Figure 1 shows part of the National Grid. Transformer Y is a step-down transformer.\nGive the purpose of transformer Y.",
       "markScheme": [
         "1 mark: to decrease the potential difference (to about 230 V)",
         "1 mark: so it is safe for domestic use"
@@ -484,7 +492,10 @@
       "acceptedAnswers": [
         "decrease potential difference",
         "safer for homes"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"55\" width=\"90\" height=\"60\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"55\" y=\"82\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">power</text><text x=\"55\" y=\"98\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">station</text><line x1=\"100\" y1=\"85\" x2=\"126\" y2=\"85\"/><circle cx=\"141\" cy=\"85\" r=\"15\"/><circle cx=\"159\" cy=\"85\" r=\"15\"/><text x=\"150\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\"></text><line x1=\"174\" y1=\"85\" x2=\"346\" y2=\"85\"/><circle cx=\"361\" cy=\"85\" r=\"15\"/><circle cx=\"379\" cy=\"85\" r=\"15\"/><text x=\"370\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><line x1=\"394\" y1=\"85\" x2=\"420\" y2=\"85\"/><text x=\"260\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">transmission cables</text><path d=\"M420 115V75L460 50L500 75V115Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"460\" y=\"108\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">homes</text></g></svg>"
+      }
     },
     {
       "id": "p2-national-grid-q17",
@@ -492,7 +503,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Explain why the National Grid is an efficient way to transfer energy.",
+      "question": "Figure 1 shows how electricity is transferred from a power station to homes by the National Grid.\nExplain why the National Grid is an efficient way to transfer energy.",
       "markScheme": [
         "1 mark: step-up transformers increase the potential difference for transmission",
         "1 mark: this decreases the current (for the same power)",
@@ -505,7 +516,10 @@
         "low current",
         "less heating",
         "less energy wasted"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"55\" width=\"90\" height=\"60\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"55\" y=\"82\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">power</text><text x=\"55\" y=\"98\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">station</text><line x1=\"100\" y1=\"85\" x2=\"126\" y2=\"85\"/><circle cx=\"141\" cy=\"85\" r=\"15\"/><circle cx=\"159\" cy=\"85\" r=\"15\"/><text x=\"150\" y=\"128\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">step-up transformer</text><line x1=\"174\" y1=\"85\" x2=\"346\" y2=\"85\"/><circle cx=\"361\" cy=\"85\" r=\"15\"/><circle cx=\"379\" cy=\"85\" r=\"15\"/><text x=\"370\" y=\"128\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">step-down transformer</text><line x1=\"394\" y1=\"85\" x2=\"420\" y2=\"85\"/><text x=\"260\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">transmission cables</text><path d=\"M420 115V75L460 50L500 75V115Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"460\" y=\"108\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">homes</text></g></svg>"
+      }
     },
     {
       "id": "p2-national-grid-q18",
@@ -598,13 +612,29 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A power station sends 100 MW to a city through cables of total resistance 2.0 Ω. An engineer compares transmitting at 25 kV and at 400 kV.\nUse calculations to evaluate which potential difference should be used.",
+      "question": "A power station sends 100 MW of power to a city through cables with a total resistance of 2.0 Ω.\nAn engineer compares transmitting the power at the two potential differences shown in Table 1.\nUse calculations to evaluate which potential difference should be used.",
       "markScheme": [
         "Indicative content: I = P ÷ V: at 25 kV, I = 4000 A; at 400 kV, I = 250 A. Power wasted = I² R: at 25 kV, 4000² × 2.0 = 32 MW (32% of the power); at 400 kV, 250² × 2.0 = 125 000 W = 0.125 MW (0.125%). 400 kV wastes 256 times less energy; better choice for efficiency and cost of fuel; but needs a step-up transformer, taller pylons/better insulation for safety, and must be stepped down for consumers. Conclusion: 400 kV is better.",
         "Level 2 (3 to 4 marks): correct currents and losses at both potential differences with a justified conclusion.",
         "Level 1 (1 to 2 marks): one correct calculation or a correct conclusion with partial support."
       ],
-      "explanation": "The calculation shows clearly why high transmission pds are used: the loss at 25 kV would be almost a third of the power generated."
+      "explanation": "The calculation shows clearly why high transmission pds are used: the loss at 25 kV would be almost a third of the power generated.",
+      "table": {
+        "headers": [
+          "Option",
+          "Transmission potential difference in kV"
+        ],
+        "rows": [
+          [
+            "1",
+            "25"
+          ],
+          [
+            "2",
+            "400"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-national-grid-q24",
@@ -631,14 +661,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the type of transformer used between a power station and the transmission cables.",
+      "question": "Figure 1 shows part of the National Grid.\nName the type of transformer labelled X.",
       "markScheme": [
         "1 mark: step-up (transformer)"
       ],
       "explanation": "It increases the pd so that the current in the transmission cables is low.",
       "acceptedAnswers": [
         "step-up"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"55\" width=\"90\" height=\"60\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"55\" y=\"82\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">power</text><text x=\"55\" y=\"98\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">station</text><line x1=\"100\" y1=\"85\" x2=\"126\" y2=\"85\"/><circle cx=\"141\" cy=\"85\" r=\"15\"/><circle cx=\"159\" cy=\"85\" r=\"15\"/><text x=\"150\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">X</text><line x1=\"174\" y1=\"85\" x2=\"346\" y2=\"85\"/><circle cx=\"361\" cy=\"85\" r=\"15\"/><circle cx=\"379\" cy=\"85\" r=\"15\"/><text x=\"370\" y=\"128\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\"></text><line x1=\"394\" y1=\"85\" x2=\"420\" y2=\"85\"/><text x=\"260\" y=\"72\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">transmission cables</text><path d=\"M420 115V75L460 50L500 75V115Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"460\" y=\"108\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">homes</text></g></svg>"
+      }
     },
     {
       "id": "p2-national-grid-q26",
@@ -646,7 +679,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A transmission line operates at 400 kV and carries a current of 500 A. Calculate the power transmitted. Give your answer in MW.",
+      "question": "Table 1 shows data for a transmission line.\nCalculate the power transmitted by the line.\nGive your answer in megawatts (MW).",
       "markScheme": [
         "1 mark: P = 400 000 × 500 = 200 000 000 W",
         "1 mark: 200 MW"
@@ -654,7 +687,20 @@
       "explanation": "P = V I = 400 000 × 500 = 2.0 × 10⁸ W = 200 MW.",
       "numericAnswer": 200,
       "tolerance": 0.02,
-      "unit": "MW"
+      "unit": "MW",
+      "table": {
+        "headers": [
+          "Potential difference in kV",
+          "Current in A"
+        ],
+        "rows": [
+          [
+            "400",
+            "500"
+          ]
+        ]
+      },
+      "answerLabel": "Power"
     }
   ]
 }
