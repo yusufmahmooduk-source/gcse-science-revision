@@ -246,18 +246,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which element was discovered after 1869 and filled a gap in Mendeleev's table?",
+      "question": "Figure 1 shows part of Mendeleev's periodic table.\nMendeleev left gaps, marked X and Y, for elements that had not been discovered.\nWhich element was discovered later and filled gap X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 212\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"105\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Group III</text><text x=\"195\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Group IV</text><rect x=\"60\" y=\"44\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"105\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"150\" y=\"44\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"195\" y=\"66\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"60\" y=\"78\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"105\" y=\"100\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Al</text><rect x=\"150\" y=\"78\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"195\" y=\"100\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Si</text><rect x=\"60\" y=\"112\" width=\"90\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"105\" y=\"134\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><rect x=\"150\" y=\"112\" width=\"90\" height=\"34\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"195\" y=\"134\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">X</text><rect x=\"60\" y=\"146\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"105\" y=\"168\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">In</text><rect x=\"150\" y=\"146\" width=\"90\" height=\"34\" fill=\"none\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"195\" y=\"168\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Sn</text><text x=\"150\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Part of Mendeleev's table (1871)</text></svg>"
+      },
       "options": [
         "Germanium",
-        "Oxygen",
-        "Sodium",
-        "Iron"
+        "Gallium",
+        "Carbon",
+        "Tin"
       ],
       "answer": 0,
       "markScheme": [
         "1 mark: germanium"
       ],
-      "explanation": "Germanium was discovered in 1886 and matched Mendeleev's eka-silicon. Oxygen, sodium and iron were all known before 1869."
+      "explanation": "Gap X is in the same group as carbon, silicon and tin, below silicon. Germanium was discovered in 1886 and had the properties Mendeleev predicted for this element (eka-silicon). Gallium filled gap Y in the group with boron and aluminium. Carbon and tin were already known and are already in the table."
     },
     {
       "id": "c1-development-of-the-periodic-table-q04",
@@ -265,7 +268,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The modern periodic table is arranged in order of:",
+      "question": "The modern periodic table is arranged in order of increasing:",
       "options": [
         "relative atomic mass",
         "number of neutrons",
@@ -360,7 +363,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Tellurium (Te = 127.6) is placed before iodine (I = 126.9) in the periodic table. Which statement explains this?",
+      "question": "Table 1 shows the relative atomic masses of tellurium and iodine.\nTellurium is placed before iodine in the periodic table.\nWhich statement explains this?",
+      "table": {
+        "headers": [
+          "Element",
+          "Symbol",
+          "Relative atomic mass"
+        ],
+        "rows": [
+          [
+            "Tellurium",
+            "Te",
+            "127.6"
+          ],
+          [
+            "Iodine",
+            "I",
+            "126.9"
+          ]
+        ]
+      },
       "options": [
         "Mendeleev measured the atomic weights incorrectly",
         "Tellurium atoms have fewer protons than iodine atoms, but tellurium's isotopes are heavier on average",
@@ -379,7 +401,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Mendeleev predicted that eka-silicon would be in the same group as silicon. Silicon's oxide is SiO₂. What formula did he predict for the oxide of eka-silicon (X)?",
+      "question": "Mendeleev predicted that an undiscovered element, eka-silicon (X), would be in the same group as carbon and silicon.\nTable 1 shows the formulae of the oxides of carbon and silicon.\nWhat formula did Mendeleev predict for the oxide of eka-silicon?",
+      "table": {
+        "headers": [
+          "Element",
+          "Formula of oxide"
+        ],
+        "rows": [
+          [
+            "Carbon",
+            "CO₂"
+          ],
+          [
+            "Silicon",
+            "SiO₂"
+          ],
+          [
+            "Eka-silicon",
+            "?"
+          ]
+        ]
+      },
       "options": [
         "XO",
         "X₂O₃",
@@ -398,12 +440,48 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which pair of neighbouring elements is NOT in order of increasing relative atomic mass in the modern periodic table?",
+      "question": "Table 1 shows the relative atomic masses of some elements.\nWhich pair of neighbouring elements is not in order of increasing relative atomic mass in the modern periodic table?",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass"
+        ],
+        "rows": [
+          [
+            "Carbon",
+            "12.0"
+          ],
+          [
+            "Nitrogen",
+            "14.0"
+          ],
+          [
+            "Sodium",
+            "23.0"
+          ],
+          [
+            "Magnesium",
+            "24.3"
+          ],
+          [
+            "Chlorine",
+            "35.5"
+          ],
+          [
+            "Argon",
+            "39.9"
+          ],
+          [
+            "Potassium",
+            "39.1"
+          ]
+        ]
+      },
       "options": [
-        "Sodium (23) and magnesium (24)",
-        "Argon (39.9) and potassium (39.1)",
-        "Carbon (12) and nitrogen (14)",
-        "Chlorine (35.5) and argon (39.9)"
+        "Sodium and magnesium",
+        "Argon and potassium",
+        "Carbon and nitrogen",
+        "Chlorine and argon"
       ],
       "answer": 1,
       "markScheme": [
@@ -528,7 +606,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Iodine (126.9) has a lower relative atomic mass than tellurium (127.6). Explain why Mendeleev placed iodine after tellurium.",
+      "question": "Table 1 shows the relative atomic masses of tellurium and iodine.\nIodine has a lower relative atomic mass than tellurium.\nExplain why Mendeleev placed iodine after tellurium.",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass"
+        ],
+        "rows": [
+          [
+            "Tellurium",
+            "127.6"
+          ],
+          [
+            "Iodine",
+            "126.9"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "similar properties",
         "iodine with chlorine and bromine",
@@ -585,7 +679,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Newlands arranged elements in order of atomic weight and said every eighth element had similar properties. Give one strength and one weakness of his idea.",
+      "question": "Figure 1 shows part of the table of elements that Newlands published in 1865.\nNewlands arranged the elements in order of atomic weight. He said every eighth element had similar properties.\nGive one strength and one weakness of his idea.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 370 125\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"10\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"35\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">H</text><rect x=\"60\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"85\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Li</text><rect x=\"110\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"135\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Be</text><rect x=\"160\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"185\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">B</text><rect x=\"210\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"235\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">C</text><rect x=\"260\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"285\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">N</text><rect x=\"310\" y=\"10\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"335\" y=\"33\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">O</text><rect x=\"10\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"35\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">F</text><rect x=\"60\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"85\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Na</text><rect x=\"110\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"135\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Mg</text><rect x=\"160\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"185\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Al</text><rect x=\"210\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"235\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Si</text><rect x=\"260\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"285\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">P</text><rect x=\"310\" y=\"46\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"335\" y=\"69\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">S</text><rect x=\"10\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"35\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Cl</text><rect x=\"60\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"85\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">K</text><rect x=\"110\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"135\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Ca</text><rect x=\"160\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"185\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Cr</text><rect x=\"210\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"235\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Ti</text><rect x=\"260\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"285\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Mn</text><rect x=\"310\" y=\"82\" width=\"50\" height=\"36\" fill=\"none\" stroke=\"currentColor\"/><text x=\"335\" y=\"105\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Fe</text></svg>"
+      },
       "acceptedAnswers": [
         "periodic pattern",
         "every eighth element",
@@ -606,7 +703,29 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "Argon (39.9) comes before potassium (39.1) in the periodic table. Use their properties to explain why potassium belongs in Group 1 rather than with the noble gases.",
+      "question": "Table 1 shows information about argon and potassium.\nIn the periodic table, argon comes before potassium.\nUse the information in Table 1 to explain why potassium is placed in Group 1 and not with the noble gases.",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass",
+          "Appearance at room temperature",
+          "Reaction with water"
+        ],
+        "rows": [
+          [
+            "Argon",
+            "39.9",
+            "colourless gas",
+            "no reaction"
+          ],
+          [
+            "Potassium",
+            "39.1",
+            "soft grey metal",
+            "reacts violently"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "potassium reactive metal",
         "like sodium",
@@ -625,7 +744,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Tellurium has 52 protons and iodine has 53 protons. Iodine has one stable isotope, iodine-127. Most tellurium atoms are tellurium-128 or tellurium-130.\nExplain why tellurium has a higher relative atomic mass than iodine but comes before iodine in the modern periodic table.",
+      "question": "Table 1 shows information about tellurium and iodine.\nExplain why tellurium has a higher relative atomic mass than iodine but comes before iodine in the modern periodic table.",
+      "table": {
+        "headers": [
+          "Element",
+          "Number of protons",
+          "Main isotopes"
+        ],
+        "rows": [
+          [
+            "Tellurium",
+            "52",
+            "tellurium-128 and tellurium-130"
+          ],
+          [
+            "Iodine",
+            "53",
+            "iodine-127 only"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "atomic number order",
         "fewer protons",
@@ -646,7 +784,36 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Mendeleev's predictions for eka-silicon and the measured properties of germanium are shown.\nAtomic weight: predicted 72, measured 72.6\nDensity: predicted 5.5 g/cm³, measured 5.3 g/cm³\nFormula of oxide: predicted XO₂, measured GeO₂\nFormula of chloride: predicted XCl₄, measured GeCl₄\nEvaluate how accurate Mendeleev's predictions were.",
+      "question": "Mendeleev predicted the properties of an undiscovered element, eka-silicon. The element germanium was discovered later.\nTable 1 shows Mendeleev's predictions and the measured properties of germanium.\nEvaluate how accurate Mendeleev's predictions were.\nUse data from Table 1 in your answer.",
+      "table": {
+        "headers": [
+          "Property",
+          "Predicted for eka-silicon",
+          "Measured for germanium"
+        ],
+        "rows": [
+          [
+            "Atomic weight",
+            "72",
+            "72.6"
+          ],
+          [
+            "Density in g/cm³",
+            "5.5",
+            "5.3"
+          ],
+          [
+            "Formula of oxide",
+            "XO₂",
+            "GeO₂"
+          ],
+          [
+            "Formula of chloride",
+            "XCl₄",
+            "GeCl₄"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "very close",
         "formulae correct",

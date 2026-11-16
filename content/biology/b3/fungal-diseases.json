@@ -316,7 +316,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Black spot is usually more common on roses in wet summers. Which is the best explanation?",
+      "question": "Figure 1 shows the percentage of rose leaves with black spot in a garden in a dry summer and in a wet summer.\nWhich is the best explanation for the difference?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 252H400M64 204.8H400M64 157.6H400M64 110.4H400M64 63.2H400M64 16H400\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H400\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"232\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"></text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Leaves with black spot in %</text><rect x=\"97.6\" y=\"195.4\" width=\"100.8\" height=\"56.6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"148\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dry summer</text><rect x=\"265.6\" y=\"34.9\" width=\"100.8\" height=\"217.1\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wet summer</text></svg>"
+      },
       "options": [
         "Rain washes fungicide onto the leaves",
         "Water splashes spores onto healthy leaves, and wet leaves help spores infect",
@@ -373,10 +376,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A gardener examined 240 rose leaves. 66 of the leaves had black spot. Calculate the percentage of leaves infected.",
+      "question": "A gardener examined rose leaves for black spot.\nTable 1 shows the results.\nCalculate the percentage of leaves infected with black spot.",
+      "table": {
+        "headers": [
+          "Number of leaves examined",
+          "Number of leaves with black spot"
+        ],
+        "rows": [
+          [
+            "240",
+            "66"
+          ]
+        ]
+      },
       "numericAnswer": 27.5,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of leaves infected",
       "markScheme": [
         "1 mark: 66 ÷ 240 (= 0.275)",
         "1 mark: × 100 = 27.5%"
@@ -389,10 +405,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a trial, untreated rose leaves had a mean of 18 black spots per leaf. Leaves sprayed with a fungicide had a mean of 4.5 spots per leaf. Calculate the percentage reduction in the mean number of spots.",
+      "question": "Scientists tested a fungicide on rose plants with black spot.\nFigure 1 shows the mean number of black spots per leaf on untreated leaves and on leaves sprayed with the fungicide.\nCalculate the percentage reduction in the mean number of spots per leaf.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 252H400M64 246.1H400M64 240.2H400M64 234.3H400M64 228.4H400M64 222.5H400M64 216.6H400M64 210.7H400M64 204.8H400M64 198.9H400M64 193H400M64 187.1H400M64 181.2H400M64 175.3H400M64 169.4H400M64 163.5H400M64 157.6H400M64 151.7H400M64 145.8H400M64 139.9H400M64 134H400M64 128.1H400M64 122.2H400M64 116.3H400M64 110.4H400M64 104.5H400M64 98.6H400M64 92.7H400M64 86.8H400M64 80.9H400M64 75H400M64 69.1H400M64 63.2H400M64 57.3H400M64 51.4H400M64 45.5H400M64 39.6H400M64 33.7H400M64 27.8H400M64 21.9H400M64 16H400\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 252H400M64 228.4H400M64 204.8H400M64 181.2H400M64 157.6H400M64 134H400M64 110.4H400M64 86.8H400M64 63.2H400M64 39.6H400M64 16H400\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H400\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"232.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"58\" y=\"185.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"58\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">12</text><text x=\"58\" y=\"90.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">14</text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">16</text><text x=\"58\" y=\"43.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">18</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"232\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"></text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Mean number of spots per leaf</text><rect x=\"97.6\" y=\"39.6\" width=\"100.8\" height=\"212.4\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"148\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Untreated</text><rect x=\"265.6\" y=\"198.9\" width=\"100.8\" height=\"53.1\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sprayed with fungicide</text></svg>"
+      },
       "numericAnswer": 75,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage reduction",
       "markScheme": [
         "1 mark: 18 − 4.5 = 13.5",
         "1 mark: (13.5 ÷ 18) × 100 = 75%"
@@ -405,10 +425,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student counted the black spots on five leaves from one rose bush: 12, 15, 9, 14 and 10. Calculate the mean number of spots per leaf.",
+      "question": "A student counted the black spots on five leaves from one rose bush.\nTable 1 shows the results.\nCalculate the mean number of spots per leaf.",
+      "table": {
+        "headers": [
+          "Leaf",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rows": [
+          [
+            "Number of black spots",
+            "12",
+            "15",
+            "9",
+            "14",
+            "10"
+          ]
+        ]
+      },
       "numericAnswer": 12,
       "tolerance": 0,
       "unit": "spots per leaf",
+      "answerLabel": "Mean number of spots",
       "markScheme": [
         "1 mark: (12 + 15 + 9 + 14 + 10) ÷ 5 = 60 ÷ 5 = 12"
       ],
@@ -420,10 +461,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A rose bush has a total leaf area of 2400 cm². Black spot causes 35% of this leaf area to be lost when leaves drop early. Calculate the leaf area remaining for photosynthesis.",
+      "question": "Black spot causes some leaves of a rose bush to drop early.\nTable 1 shows information about the rose bush.\nCalculate the leaf area remaining for photosynthesis.",
+      "table": {
+        "headers": [
+          "Total leaf area before infection in cm²",
+          "Percentage of leaf area lost"
+        ],
+        "rows": [
+          [
+            "2400",
+            "35"
+          ]
+        ]
+      },
       "numericAnswer": 1560,
       "tolerance": 0.01,
       "unit": "cm²",
+      "answerLabel": "Leaf area remaining",
       "markScheme": [
         "1 mark: 2400 × 0.35 = 840 cm² lost (or 100 − 35 = 65%)",
         "1 mark: 2400 − 840 = 1560 cm² (or 2400 × 0.65 = 1560 cm²)"
@@ -436,10 +490,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A rose bush with black spot produced 39 flowers. A healthy rose bush of the same variety produced 52 flowers. Calculate the percentage decrease in flower number caused by the disease.",
+      "question": "Table 1 shows the number of flowers produced by two rose bushes of the same variety.\nCalculate the percentage decrease in the number of flowers caused by black spot.",
+      "table": {
+        "headers": [
+          "Rose bush",
+          "Number of flowers"
+        ],
+        "rows": [
+          [
+            "Healthy",
+            "52"
+          ],
+          [
+            "With black spot",
+            "39"
+          ]
+        ]
+      },
       "numericAnswer": 25,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 52 − 39 = 13",
         "1 mark: (13 ÷ 52) × 100 = 25%"
@@ -592,7 +663,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what a fungicide is.",
+      "question": "What is a fungicide?",
       "acceptedAnswers": [
         "chemical that kills fungi",
         "kills fungus"

@@ -238,18 +238,21 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which chamber of the heart pumps blood around the body?",
+      "question": "Figure 1 shows a section through the human heart.\nWhich chamber, A, B, C or D, pumps blood around the body?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 320\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10 0)\"><rect x=\"110\" y=\"20\" width=\"26\" height=\"85\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"290\" y=\"20\" width=\"26\" height=\"85\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"184\" y=\"20\" width=\"22\" height=\"162\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"214\" y=\"20\" width=\"22\" height=\"162\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M80 110Q80 92 98 92H180V182H240V92H322Q340 92 340 110V200Q340 262 210 304Q80 262 80 200Z\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"95\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"245\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M95 178H200V270Q140 255 95 205Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M228 178H320V205Q305 252 228 282Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M110 162L128 176M160 162L142 176M260 162L278 176M310 162L292 176\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/><path d=\"M185 186l10 -8l10 8M215 186l10 -8l10 8\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></g><line x1=\"145\" y1=\"130\" x2=\"50\" y2=\"130\" stroke=\"currentColor\"/><text x=\"46\" y=\"134\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">A</text><line x1=\"295\" y1=\"130\" x2=\"400\" y2=\"130\" stroke=\"currentColor\"/><text x=\"404\" y=\"134\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">B</text><line x1=\"140\" y1=\"215\" x2=\"50\" y2=\"235\" stroke=\"currentColor\"/><text x=\"46\" y=\"239\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">C</text><line x1=\"290\" y1=\"215\" x2=\"400\" y2=\"235\" stroke=\"currentColor\"/><text x=\"404\" y=\"239\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">D</text></svg>"
+      },
       "options": [
-        "Right atrium",
-        "Left atrium",
-        "Right ventricle",
-        "Left ventricle"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 3,
       "markScheme": [
         "1 mark: D"
       ],
-      "explanation": "The left ventricle pumps oxygenated blood into the aorta. The right ventricle pumps blood to the lungs; atria pump only into the ventricles."
+      "explanation": "D is the left ventricle (the left side of the heart is shown on the right of the diagram). It pumps oxygenated blood into the aorta. C, the right ventricle, pumps blood to the lungs; the atria (A and B) pump blood only into the ventricles."
     },
     {
       "id": "b2-heart-and-blood-vessels-q02",
@@ -295,7 +298,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Where in the heart is the group of cells that controls the natural resting heart rate?",
+      "question": "Where is the group of cells that controls the natural resting heart rate?",
       "options": [
         "Left ventricle",
         "Right atrium",
@@ -371,7 +374,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which is the correct path of blood through the right side of the heart?",
+      "question": "What is the correct path of blood through the right side of the heart?",
       "options": [
         "Vena cava → right atrium → right ventricle → pulmonary artery",
         "Pulmonary vein → right atrium → right ventricle → aorta",
@@ -409,7 +412,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which statement best explains an advantage of a double circulatory system?",
+      "question": "Humans have a double circulatory system.\nWhich statement best explains an advantage of a double circulatory system?",
       "options": [
         "Blood only needs to pass through the heart once",
         "Oxygenated and deoxygenated blood mix, which increases oxygen delivery",
@@ -447,7 +450,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "600 cm³ of blood flows through an artery in 40 s. Calculate the rate of blood flow.",
+      "question": "Table 1 shows the volume of blood that flowed through an artery in 40 seconds.\nCalculate the rate of blood flow through the artery.\nUse the equation:\nrate of blood flow = volume of blood ÷ time",
+      "table": {
+        "headers": [
+          "Volume of blood in cm³",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "600",
+            "40"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0,
       "unit": "cm³/s",
@@ -455,7 +470,8 @@
         "1 mark: 600 ÷ 40",
         "1 mark: 15 cm³/s"
       ],
-      "explanation": "rate = volume ÷ time = 600 ÷ 40 = 15 cm³/s."
+      "explanation": "rate = volume ÷ time = 600 ÷ 40 = 15 cm³/s.",
+      "answerLabel": "Rate of blood flow"
     },
     {
       "id": "b2-heart-and-blood-vessels-q13",
@@ -463,7 +479,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student counts 21 pulse beats in 15 seconds. Calculate the heart rate in beats per minute.",
+      "question": "A student counts 21 pulse beats in 15 seconds.\nCalculate the student's heart rate in beats per minute.",
       "numericAnswer": 84,
       "tolerance": 0,
       "unit": "beats per minute",
@@ -471,7 +487,8 @@
         "1 mark: 21 × 4 (or 21 ÷ 15 × 60)",
         "1 mark: 84"
       ],
-      "explanation": "60 ÷ 15 = 4, so 21 × 4 = 84 beats per minute."
+      "explanation": "60 ÷ 15 = 4, so 21 × 4 = 84 beats per minute.",
+      "answerLabel": "Heart rate"
     },
     {
       "id": "b2-heart-and-blood-vessels-q14",
@@ -479,7 +496,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Blood flows through a vein at 4.5 cm³/s. Calculate the volume of blood flowing through the vein in 3 minutes.",
+      "question": "Blood flows through a vein at a rate of 4.5 cm³/s.\nCalculate the volume of blood that flows through the vein in 3 minutes.",
       "numericAnswer": 810,
       "tolerance": 0,
       "unit": "cm³",
@@ -487,7 +504,8 @@
         "1 mark: 3 min = 180 s",
         "1 mark: 4.5 × 180 = 810 cm³"
       ],
-      "explanation": "volume = rate × time. Convert the time to seconds first: 4.5 × 180 = 810 cm³."
+      "explanation": "volume = rate × time. Convert the time to seconds first: 4.5 × 180 = 810 cm³.",
+      "answerLabel": "Volume of blood"
     },
     {
       "id": "b2-heart-and-blood-vessels-q15",
@@ -495,7 +513,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "At rest, the left ventricle pumps 70 cm³ of blood per beat and the heart beats 72 times per minute. Calculate the rate of blood flow out of the left ventricle in dm³ per minute.",
+      "question": "Table 1 shows information about a person's heart at rest.\nCalculate the rate of blood flow out of the left ventricle.\nGive your answer in dm³ per minute.",
+      "table": {
+        "headers": [
+          "Volume of blood pumped by the left ventricle per beat in cm³",
+          "Heart rate in beats per minute"
+        ],
+        "rows": [
+          [
+            "70",
+            "72"
+          ]
+        ]
+      },
       "numericAnswer": 5.04,
       "tolerance": 0.01,
       "unit": "dm³/min",
@@ -504,7 +534,8 @@
         "1 mark: 5040 ÷ 1000",
         "1 mark: 5.04 dm³/min"
       ],
-      "explanation": "Volume per minute = 70 × 72 = 5040 cm³. Since 1 dm³ = 1000 cm³, this is 5.04 dm³/min."
+      "explanation": "Volume per minute = 70 × 72 = 5040 cm³. Since 1 dm³ = 1000 cm³, this is 5.04 dm³/min.",
+      "answerLabel": "Rate of blood flow"
     },
     {
       "id": "b2-heart-and-blood-vessels-q16",
@@ -512,7 +543,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "During exercise, the rate of blood flow to a muscle increases from 0.8 cm³/s to 12 cm³/s. Calculate the percentage increase.",
+      "question": "Table 1 shows the rate of blood flow to a muscle at rest and during exercise.\nCalculate the percentage increase in the rate of blood flow to the muscle during exercise.",
+      "table": {
+        "headers": [
+          "Activity",
+          "Rate of blood flow to the muscle in cm³/s"
+        ],
+        "rows": [
+          [
+            "At rest",
+            "0.8"
+          ],
+          [
+            "During exercise",
+            "12"
+          ]
+        ]
+      },
       "numericAnswer": 1400,
       "tolerance": 0.01,
       "unit": "%",
@@ -520,7 +567,8 @@
         "1 mark: (12 − 0.8) ÷ 0.8 × 100",
         "1 mark: 1400%"
       ],
-      "explanation": "Increase = 11.2 cm³/s. 11.2 ÷ 0.8 = 14, × 100 = 1400%. Dividing 12 by 0.8 gives 15 times the original, which is a 1400% increase, not 1500%."
+      "explanation": "Increase = 11.2 cm³/s. 11.2 ÷ 0.8 = 14, × 100 = 1400%. Dividing 12 by 0.8 gives 15 times the original, which is a 1400% increase, not 1500%.",
+      "answerLabel": "Percentage increase"
     },
     {
       "id": "b2-heart-and-blood-vessels-q17",
@@ -528,7 +576,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the function of the valves in the heart.",
+      "question": "Give the function of the valves in the heart.",
       "acceptedAnswers": [
         "prevent backflow",
         "stop blood flowing backwards"
@@ -544,14 +592,17 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 2,
-      "question": "Name the blood vessel that carries blood into the right atrium, and the blood vessel that carries blood out of the right ventricle.",
+      "question": "Figure 1 shows a section through the human heart.\nBlood vessel P carries blood into the right atrium.\nBlood vessel Q carries blood out of the right ventricle.\nName blood vessels P and Q.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 320\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10 0)\"><rect x=\"110\" y=\"20\" width=\"26\" height=\"85\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"290\" y=\"20\" width=\"26\" height=\"85\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"184\" y=\"20\" width=\"22\" height=\"162\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"214\" y=\"20\" width=\"22\" height=\"162\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M80 110Q80 92 98 92H180V182H240V92H322Q340 92 340 110V200Q340 262 210 304Q80 262 80 200Z\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"95\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"245\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M95 178H200V270Q140 255 95 205Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M228 178H320V205Q305 252 228 282Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M110 162L128 176M160 162L142 176M260 162L278 176M310 162L292 176\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/><path d=\"M185 186l10 -8l10 8M215 186l10 -8l10 8\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></g><line x1=\"125\" y1=\"60\" x2=\"70\" y2=\"60\" stroke=\"currentColor\"/><text x=\"66\" y=\"64\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">P</text><line x1=\"205\" y1=\"40\" x2=\"170\" y2=\"10\" stroke=\"currentColor\"/><text x=\"166\" y=\"14\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">Q</text></svg>"
+      },
       "acceptedAnswers": [
         "vena cava",
         "pulmonary artery"
       ],
       "markScheme": [
-        "1 mark: vena cava",
-        "1 mark: pulmonary artery"
+        "1 mark: P is the vena cava",
+        "1 mark: Q is the pulmonary artery"
       ],
       "explanation": "Deoxygenated blood from the body enters via the vena cava and leaves for the lungs via the pulmonary artery."
     },
@@ -600,7 +651,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Describe three ways the alveoli are adapted for efficient gas exchange.",
+      "question": "Figure 1 shows an alveolus and a blood capillary in the lungs.\nDescribe three ways the alveoli are adapted for efficient gas exchange.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M150 20V70A80 80 0 1 0 210 70V20\" fill=\"#86efac\" fill-opacity=\"0.4\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M95 185Q180 250 265 185\" fill=\"none\" stroke=\"#fca5a5\" stroke-width=\"22\" stroke-opacity=\"0.8\"/><path d=\"M95 185Q180 250 265 185\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"24\" stroke-opacity=\"0.25\"/><ellipse cx=\"120\" cy=\"204\" rx=\"7\" ry=\"5\" fill=\"#fca5a5\" stroke=\"currentColor\"/><ellipse cx=\"150\" cy=\"218\" rx=\"7\" ry=\"5\" fill=\"#fca5a5\" stroke=\"currentColor\"/><ellipse cx=\"180\" cy=\"222\" rx=\"7\" ry=\"5\" fill=\"#fca5a5\" stroke=\"currentColor\"/><ellipse cx=\"210\" cy=\"218\" rx=\"7\" ry=\"5\" fill=\"#fca5a5\" stroke=\"currentColor\"/><ellipse cx=\"240\" cy=\"204\" rx=\"7\" ry=\"5\" fill=\"#fca5a5\" stroke=\"currentColor\"/><path d=\"M165 150v40m-5 -8l5 8l5 -8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"160\" y=\"145\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Oxygen</text><path d=\"M200 190v-40m-5 8l5 -8l5 8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"145\" font-size=\"12\" fill=\"currentColor\">Carbon dioxide</text><line x1=\"180\" y1=\"100\" x2=\"320\" y2=\"70\" stroke=\"currentColor\"/><text x=\"324\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Alveolus (air sac)</text><line x1=\"180\" y1=\"30\" x2=\"320\" y2=\"30\" stroke=\"currentColor\"/><text x=\"324\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Air in and out</text><line x1=\"250\" y1=\"198\" x2=\"320\" y2=\"200\" stroke=\"currentColor\"/><text x=\"324\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Capillary</text></svg>"
+      },
       "acceptedAnswers": [
         "large surface area",
         "thin walls",
@@ -622,7 +676,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Compare the structure of arteries and veins and explain the differences.",
+      "question": "Figure 1 shows cross-sections of an artery and a vein.\nCompare the structure of arteries and veins.\nExplain the differences.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 230\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"70\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"52\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><circle cx=\"110\" cy=\"110\" r=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M265 60Q330 40 385 65Q410 110 385 160Q320 185 265 160Q240 110 265 60Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M273 70Q330 52 377 73Q399 110 377 152Q320 173 273 151Q252 110 273 70Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"110\" y=\"205\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Artery</text><text x=\"325\" y=\"205\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Vein</text><line x1=\"110\" y1=\"110\" x2=\"64\" y2=\"20\" stroke=\"currentColor\"/><text x=\"60\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Lumen</text><line x1=\"150\" y1=\"60\" x2=\"190\" y2=\"20\" stroke=\"currentColor\"/><text x=\"194\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Wall</text><text x=\"325\" y=\"114\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Lumen</text><line x1=\"392\" y1=\"95\" x2=\"398\" y2=\"30\" stroke=\"currentColor\"/><text x=\"402\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Wall</text></svg>"
+      },
       "acceptedAnswers": [
         "arteries thick walls",
         "veins thin walls",
@@ -643,7 +700,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Capillaries have a very narrow lumen, only just wide enough for red blood cells to pass through one at a time. Suggest how this helps the exchange of oxygen with body cells.",
+      "question": "The lumen of a capillary is only just wide enough for red blood cells to pass through one at a time.\nSuggest how this helps the exchange of oxygen with body cells.",
       "acceptedAnswers": [
         "short diffusion distance",
         "red blood cells close to wall",
@@ -677,7 +734,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A capillary bed is supplied with blood at a rate of 0.05 cm³/s. Which volume of blood passes through it in one hour?",
+      "question": "Blood flows through a capillary bed at a rate of 0.05 cm³/s.\nWhat volume of blood passes through the capillary bed in one hour?",
       "options": [
         "3 cm³",
         "18 cm³",
@@ -727,7 +784,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the main reason a pulse can be felt in arteries but not in veins?",
+      "question": "A pulse can be felt in arteries but not in veins.\nWhat is the main reason for this?",
       "options": [
         "Veins are deeper in the body than all arteries",
         "Arteries have elastic walls that stretch and recoil as high-pressure blood surges through after each heartbeat",

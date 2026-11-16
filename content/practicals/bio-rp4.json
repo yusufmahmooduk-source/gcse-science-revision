@@ -224,7 +224,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "Describe how to test a food solution for reducing sugar, and give the colour of a positive result.",
+      "question": "Describe how to test a food solution for reducing sugar.\nGive the colour of a positive result.",
       "acceptedAnswers": [
         "add Benedict's solution",
         "heat in a water bath",
@@ -245,7 +245,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A food sample gives a blue-black colour with iodine and stays blue after heating with Benedict's solution. What does the food contain?",
+      "question": "A student tested a food sample for starch and for reducing sugar.\nTable 1 shows the results.\nWhat does the food sample contain?",
+      "table": {
+        "headers": [
+          "Test",
+          "Reagent added",
+          "Final colour"
+        ],
+        "rows": [
+          [
+            "Starch",
+            "Iodine solution",
+            "Blue-black"
+          ],
+          [
+            "Reducing sugar",
+            "Benedict's solution, then heated",
+            "Blue"
+          ]
+        ]
+      },
       "options": [
         "Reducing sugar but no starch",
         "Protein but no starch",
@@ -283,18 +302,42 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Four food samples were heated with Benedict's solution. Which final colour shows the highest concentration of reducing sugar?",
+      "question": "A student heated four food samples, W, X, Y and Z, with Benedict's solution.\nTable 1 shows the results.\nWhich sample contained the highest concentration of reducing sugar?",
+      "table": {
+        "headers": [
+          "Food sample",
+          "Final colour after heating with Benedict's solution"
+        ],
+        "rows": [
+          [
+            "W",
+            "Green"
+          ],
+          [
+            "X",
+            "Yellow"
+          ],
+          [
+            "Y",
+            "Brick red"
+          ],
+          [
+            "Z",
+            "Orange"
+          ]
+        ]
+      },
       "options": [
-        "Green",
-        "Yellow",
-        "Brick red",
-        "Orange"
+        "Sample W",
+        "Sample X",
+        "Sample Y",
+        "Sample Z"
       ],
       "answer": 2,
       "markScheme": [
-        "1 mark: brick red"
+        "1 mark: sample Y (brick red)"
       ],
-      "explanation": "The colour sequence with increasing reducing sugar is blue (none), green, yellow, orange, brick red. Brick red shows the most sugar."
+      "explanation": "The colour sequence with increasing reducing sugar is blue (none), green, yellow, orange, brick red. Sample Y turned brick red, so it contained the most reducing sugar. Sample W (green) contained the least of the four."
     },
     {
       "id": "bio-rp4-q07",
@@ -302,7 +345,26 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Explain why distilled water is also tested with each reagent.",
+      "question": "A student tested a food solution and distilled water with biuret reagent.\nTable 1 shows the results.\nExplain why the student also tested distilled water with the reagent.",
+      "table": {
+        "headers": [
+          "Tube",
+          "Contents",
+          "Final colour"
+        ],
+        "rows": [
+          [
+            "1",
+            "Food solution and biuret reagent",
+            "Purple"
+          ],
+          [
+            "2",
+            "Distilled water and biuret reagent",
+            "Blue"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "control",
         "comparison",
@@ -321,7 +383,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Give one hazard in the food tests practical and describe how to reduce the risk.",
+      "question": "Figure 1 shows part of a student's bench during the food tests practical.\nGive one hazard in the food tests practical.\nDescribe how to reduce the risk from this hazard.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><path d=\"M60 130h120M70 130l-20 140M170 130l20 140\"/><path d=\"M75 70v58h90V70\"/><path d=\"M75 90v38h90V90Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M100 230h40v40h-40zM112 230v-40h16v40\"/><path d=\"M90 270h60\"/><path d=\"M120 190c-12-12-8-30 0-44c8 14 12 32 0 44z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M270 150h130v14h-130zM280 164v106M390 164v106M260 270h150\"/></g><path d=\"M112 90V116a8 8 0 0 0 16 0V90Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M112 60V116a8 8 0 0 0 16 0V60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 150V180a8 8 0 0 0 16 0V150Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M300 110V180a8 8 0 0 0 16 0V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M350 150V180a8 8 0 0 0 16 0V150Z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\"/><path d=\"M350 110V180a8 8 0 0 0 16 0V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"4\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Test tube containing food solution</text><text x=\"4\" y=\"34\" font-size=\"12\" fill=\"currentColor\">and Benedict's solution</text><path d=\"M60 38L112 70\" stroke=\"currentColor\"/><text x=\"4\" y=\"110\" font-size=\"12\" fill=\"currentColor\">Water</text><text x=\"4\" y=\"124\" font-size=\"12\" fill=\"currentColor\">bath</text><path d=\"M36 114L78 110\" stroke=\"currentColor\"/><text x=\"4\" y=\"200\" font-size=\"12\" fill=\"currentColor\">Bunsen</text><text x=\"4\" y=\"214\" font-size=\"12\" fill=\"currentColor\">burner</text><text x=\"4\" y=\"228\" font-size=\"12\" fill=\"currentColor\">flame</text><path d=\"M50 210L108 176\" stroke=\"currentColor\"/><text x=\"250\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Test tube containing food</text><text x=\"250\" y=\"44\" font-size=\"12\" fill=\"currentColor\">sample and ethanol</text><path d=\"M300 48L306 108\" stroke=\"currentColor\"/><text x=\"318\" y=\"80\" font-size=\"12\" fill=\"currentColor\">Test tube containing</text><text x=\"318\" y=\"94\" font-size=\"12\" fill=\"currentColor\">biuret reagent</text><path d=\"M362 98L358 108\" stroke=\"currentColor\"/><text x=\"300\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Test tube rack</text></svg>"
+      },
       "acceptedAnswers": [
         "hot water bath scald use test tube holder",
         "ethanol flammable no naked flames",
@@ -340,7 +405,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why is solid food ground with distilled water and filtered before testing?",
+      "question": "Figure 1 shows how a student prepared a solid food for testing.\nWhy is solid food ground with distilled water and filtered before testing?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 260\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><path d=\"M40 120h120c0 50-30 70-60 70s-60-20-60-70z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M60 140c20 14 60 14 80 0\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M118 60l-20 74\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-opacity=\"0.6\"/><path d=\"M270 80h100l-42 60v40h-16v-40z\"/><path d=\"M282 86h76l-38 52z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M280 180h80v60h-80z\"/><path d=\"M280 214h80v26h-80z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/></g><text x=\"150\" y=\"60\" font-size=\"12\" fill=\"currentColor\">Pestle</text><path d=\"M148 56L116 70\" stroke=\"currentColor\"/><text x=\"30\" y=\"220\" font-size=\"12\" fill=\"currentColor\">Mortar</text><path d=\"M56 208L70 180\" stroke=\"currentColor\"/><text x=\"170\" y=\"160\" font-size=\"12\" fill=\"currentColor\">Food and</text><text x=\"170\" y=\"174\" font-size=\"12\" fill=\"currentColor\">distilled water</text><path d=\"M168 156L132 146\" stroke=\"currentColor\"/><text x=\"380\" y=\"76\" font-size=\"12\" fill=\"currentColor\">Filter</text><text x=\"380\" y=\"90\" font-size=\"12\" fill=\"currentColor\">funnel</text><path d=\"M378 82L362 86\" stroke=\"currentColor\"/><text x=\"380\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Filter</text><text x=\"380\" y=\"134\" font-size=\"12\" fill=\"currentColor\">paper</text><path d=\"M378 124L338 106\" stroke=\"currentColor\"/><text x=\"380\" y=\"228\" font-size=\"12\" fill=\"currentColor\">Filtrate</text><path d=\"M378 224L360 224\" stroke=\"currentColor\"/><text x=\"100\" y=\"252\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Step 1: grind</text><text x=\"320\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Step 2: filter</text></svg>"
+      },
       "options": [
         "To break down starch into sugars",
         "To make a solution of the food so the reagents can mix with it and colours are easy to see",
@@ -359,7 +427,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student wants to make 10 cm³ of 0.5% glucose solution to use as a colour standard. They have a 2% glucose solution and distilled water.\nCalculate the volume of 2% glucose solution needed.",
+      "question": "A student wants to make 10 cm³ of 0.5% glucose solution to use as a colour standard.\nThe student has a 2% glucose solution and distilled water.\nCalculate the volume of 2% glucose solution needed.",
       "numericAnswer": 2.5,
       "tolerance": 0.01,
       "unit": "cm³",
@@ -367,7 +435,8 @@
         "1 mark: 0.5 ÷ 2 = 0.25 (dilution factor)",
         "1 mark: 0.25 × 10 = 2.5 cm³ (made up to 10 cm³ with 7.5 cm³ distilled water)"
       ],
-      "explanation": "The new solution must be one quarter as concentrated, so one quarter of the final volume is the stock solution: 10 × 0.5 ÷ 2 = 2.5 cm³ of 2% glucose plus 7.5 cm³ of water."
+      "explanation": "The new solution must be one quarter as concentrated, so one quarter of the final volume is the stock solution: 10 × 0.5 ÷ 2 = 2.5 cm³ of 2% glucose plus 7.5 cm³ of water.",
+      "answerLabel": "Volume of 2% glucose solution"
     },
     {
       "id": "bio-rp4-q11",
@@ -375,7 +444,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Food tests are described as qualitative. Suggest how the Benedict's test could be adapted to compare the concentration of reducing sugar in two fruit juices more objectively.",
+      "question": "Food tests are described as qualitative.\nSuggest how the Benedict's test could be adapted to compare the concentration of reducing sugar in two fruit juices more objectively.",
       "acceptedAnswers": [
         "colour standards of known concentration",
         "colorimeter",
@@ -413,7 +482,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Milk turned orange with Benedict's solution, purple with biuret reagent and formed a red layer with Sudan III. State which nutrients milk contains.",
+      "question": "A student carried out three food tests on a sample of milk.\nTable 1 shows the results.\nName the nutrients that milk contains.",
+      "table": {
+        "headers": [
+          "Reagent",
+          "Final colour"
+        ],
+        "rows": [
+          [
+            "Benedict's solution (heated)",
+            "Orange"
+          ],
+          [
+            "Biuret reagent",
+            "Purple"
+          ],
+          [
+            "Sudan III stain",
+            "Red layer on top of the liquid"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "reducing sugar",
         "protein",
@@ -432,7 +521,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 6,
-      "question": "A student is given an unknown food. Describe how the student could find out whether the food contains starch, protein and lipid.\nInclude the reagents used and the positive results.",
+      "question": "A student is given an unknown food.\nDescribe how the student could find out whether the food contains starch, protein and lipid.\nIn your answer, give the reagents used and the positive results.",
       "markScheme": [
         "Indicative content: grind food with distilled water using pestle and mortar, filter; starch: add iodine solution (few drops on spotting tile), positive blue-black from orange-brown; protein: add equal volume of biuret reagent to food solution, positive purple from blue; lipid: add Sudan III, positive red oily layer on top, or shake food with ethanol then pour into water, positive cloudy white emulsion; use distilled water control; clean equipment between tests; eye protection; no flames with ethanol",
         "Level 3 (5 to 6 marks): clear, logically ordered descriptions of all three tests with correct reagents and positive colours, plus food preparation or a control.",

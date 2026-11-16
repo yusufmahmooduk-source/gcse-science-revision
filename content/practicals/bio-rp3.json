@@ -79,12 +79,48 @@
       "Percentage change in mass (%)"
     ],
     "rows": [
-      ["0.0", "2.50", "2.78", "+0.28", "+11.2"],
-      ["0.2", "2.48", "2.58", "+0.10", "+4.0"],
-      ["0.4", "2.52", "2.43", "−0.09", "−3.6"],
-      ["0.6", "2.46", "2.24", "−0.22", "−8.9"],
-      ["0.8", "2.51", "2.21", "−0.30", "−12.0"],
-      ["1.0", "2.49", "2.17", "−0.32", "−12.9"]
+      [
+        "0.0",
+        "2.50",
+        "2.78",
+        "+0.28",
+        "+11.2"
+      ],
+      [
+        "0.2",
+        "2.48",
+        "2.58",
+        "+0.10",
+        "+4.0"
+      ],
+      [
+        "0.4",
+        "2.52",
+        "2.43",
+        "−0.09",
+        "−3.6"
+      ],
+      [
+        "0.6",
+        "2.46",
+        "2.24",
+        "−0.22",
+        "−8.9"
+      ],
+      [
+        "0.8",
+        "2.51",
+        "2.21",
+        "−0.30",
+        "−12.0"
+      ],
+      [
+        "1.0",
+        "2.49",
+        "2.17",
+        "−0.32",
+        "−12.9"
+      ]
     ],
     "notes": "Percentage change = (final mass − initial mass) ÷ initial mass × 100. For 0.4 mol/dm³: (2.43 − 2.52) ÷ 2.52 × 100 = −3.6%. Plot percentage change (y-axis, with positive and negative values) against concentration (x-axis) and draw a smooth curve of best fit. It crosses 0% at about 0.3 mol/dm³."
   },
@@ -140,7 +176,9 @@
         "The diffusion of any particle through a fully permeable membrane"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: diffusion of water from a dilute to a concentrated solution through a partially permeable membrane"],
+      "markScheme": [
+        "1 mark: diffusion of water from a dilute to a concentrated solution through a partially permeable membrane"
+      ],
       "explanation": "Osmosis is specifically about water. It moves from the dilute solution (more water) to the concentrated solution, through a partially permeable membrane, and needs no energy from respiration. Sucrose molecules are too large to cross the membrane."
     },
     {
@@ -149,12 +187,28 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A potato cylinder had an initial mass of 2.40 g. After 24 hours in distilled water its mass was 2.64 g.\nCalculate the percentage change in mass.",
+      "question": "A student placed a potato cylinder in distilled water for 24 hours.\nTable 1 shows the results.\nCalculate the percentage change in mass.",
+      "table": {
+        "headers": [
+          "Initial mass in g",
+          "Final mass in g"
+        ],
+        "rows": [
+          [
+            "2.40",
+            "2.64"
+          ]
+        ]
+      },
       "numericAnswer": 10,
       "tolerance": 0.01,
       "unit": "%",
-      "markScheme": ["1 mark: change in mass = 2.64 − 2.40 = 0.24 g", "1 mark: 0.24 ÷ 2.40 × 100 = (+)10%"],
-      "explanation": "Percentage change = change ÷ initial mass × 100. Divide by the initial mass (2.40 g), not the final mass. The answer is positive because the mass increased."
+      "markScheme": [
+        "1 mark: change in mass = 2.64 − 2.40 = 0.24 g",
+        "1 mark: 0.24 ÷ 2.40 × 100 = (+)10%"
+      ],
+      "explanation": "Percentage change = change ÷ initial mass × 100. Divide by the initial mass (2.40 g), not the final mass. The answer is positive because the mass increased.",
+      "answerLabel": "Percentage change in mass"
     },
     {
       "id": "bio-rp3-q03",
@@ -162,12 +216,28 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A potato cylinder had an initial mass of 3.20 g. After 24 hours in 0.8 mol/dm³ sucrose solution its mass was 2.88 g.\nCalculate the percentage change in mass. Include a sign in your answer.",
+      "question": "A student placed a potato cylinder in 0.8 mol/dm³ sucrose solution for 24 hours.\nTable 1 shows the results.\nCalculate the percentage change in mass.\nInclude a sign in your answer.",
+      "table": {
+        "headers": [
+          "Initial mass in g",
+          "Final mass in g"
+        ],
+        "rows": [
+          [
+            "3.20",
+            "2.88"
+          ]
+        ]
+      },
       "numericAnswer": -10,
       "tolerance": 0.01,
       "unit": "%",
-      "markScheme": ["1 mark: change = 2.88 − 3.20 = −0.32 g", "1 mark: −0.32 ÷ 3.20 × 100 = −10%"],
-      "explanation": "The cylinder lost mass, so the percentage change is negative: −0.32 ÷ 3.20 × 100 = −10%. Missing out the minus sign loses the information that water left the cells."
+      "markScheme": [
+        "1 mark: change = 2.88 − 3.20 = −0.32 g",
+        "1 mark: −0.32 ÷ 3.20 × 100 = −10%"
+      ],
+      "explanation": "The cylinder lost mass, so the percentage change is negative: −0.32 ÷ 3.20 × 100 = −10%. Missing out the minus sign loses the information that water left the cells.",
+      "answerLabel": "Percentage change in mass"
     },
     {
       "id": "bio-rp3-q04",
@@ -175,7 +245,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why should students calculate the percentage change in mass rather than just the change in mass?",
+      "question": "In this investigation, why should students calculate the percentage change in mass rather than just the change in mass?",
       "options": [
         "Percentage change is always a larger number, so it is more accurate",
         "Percentage change removes the need to repeat the experiment",
@@ -183,7 +253,9 @@
         "Percentage change shows whether sucrose entered the cells"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: cylinders had different initial masses, so percentage change allows results to be compared"],
+      "markScheme": [
+        "1 mark: cylinders had different initial masses, so percentage change allows results to be compared"
+      ],
       "explanation": "A heavier cylinder would gain or lose more mass simply because it is bigger. Expressing the change as a percentage of the initial mass makes the results comparable."
     },
     {
@@ -193,8 +265,16 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Explain why each potato cylinder is gently blotted with a paper towel before it is weighed.",
-      "acceptedAnswers": ["remove surface solution", "remove excess liquid", "liquid on surface would add mass", "only water inside cells is measured"],
-      "markScheme": ["1 mark: to remove solution from the surface of the cylinder", "1 mark: because surface liquid would add to the mass and give an inaccurate result (it has not entered the cells)"],
+      "acceptedAnswers": [
+        "remove surface solution",
+        "remove excess liquid",
+        "liquid on surface would add mass",
+        "only water inside cells is measured"
+      ],
+      "markScheme": [
+        "1 mark: to remove solution from the surface of the cylinder",
+        "1 mark: because surface liquid would add to the mass and give an inaccurate result (it has not entered the cells)"
+      ],
       "explanation": "Only the water that has moved into or out of the cells should affect the mass. Liquid left on the outside adds extra mass and would make the gain look bigger or the loss look smaller."
     },
     {
@@ -211,7 +291,9 @@
         "The potato cells used up their stored starch in respiration"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: water moved out of the cells by osmosis as the external solution was more concentrated"],
+      "markScheme": [
+        "1 mark: water moved out of the cells by osmosis as the external solution was more concentrated"
+      ],
       "explanation": "The sucrose solution was more concentrated than the cytoplasm and cell sap, so water diffused out through the partially permeable cell membranes. Sucrose molecules are too large to cross the membrane, and respiration would cause only a tiny mass change."
     },
     {
@@ -220,12 +302,48 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The mean percentage change in mass was +4.0% in 0.2 mol/dm³ sucrose and −3.6% in 0.4 mol/dm³ sucrose.\nAssuming a straight line between these points, estimate the sucrose concentration at which there would be no change in mass. Give your answer to 2 decimal places.",
+      "question": "Table 1 shows a student's results.\nAssume there is a straight line between the results for 0.2 mol/dm³ and 0.4 mol/dm³.\nEstimate the concentration of sucrose solution at which there would be no change in mass.\nGive your answer to 2 decimal places.",
+      "table": {
+        "headers": [
+          "Concentration of sucrose solution in mol/dm³",
+          "Mean percentage change in mass"
+        ],
+        "rows": [
+          [
+            "0.0",
+            "+11.2"
+          ],
+          [
+            "0.2",
+            "+4.0"
+          ],
+          [
+            "0.4",
+            "−3.6"
+          ],
+          [
+            "0.6",
+            "−8.4"
+          ],
+          [
+            "0.8",
+            "−12.0"
+          ],
+          [
+            "1.0",
+            "−12.9"
+          ]
+        ]
+      },
       "numericAnswer": 0.31,
       "tolerance": 0.05,
       "unit": "mol/dm³",
-      "markScheme": ["1 mark: total change over 0.2 mol/dm³ is 4.0 + 3.6 = 7.6%, so 0% is 4.0 ÷ 7.6 of the way from 0.2", "1 mark: 0.2 + (4.0 ÷ 7.6 × 0.2) = 0.31 mol/dm³ (accept 0.30 to 0.32)"],
-      "explanation": "Zero change lies between the two points. It is 4.0 ÷ 7.6 = 0.53 of the way along the 0.2 mol/dm³ gap, so the concentration is 0.2 + 0.105 = 0.31 mol/dm³. This is the concentration equivalent to the potato cell contents."
+      "markScheme": [
+        "1 mark: total change over 0.2 mol/dm³ is 4.0 + 3.6 = 7.6%, so 0% is 4.0 ÷ 7.6 of the way from 0.2",
+        "1 mark: 0.2 + (4.0 ÷ 7.6 × 0.2) = 0.31 mol/dm³ (accept 0.30 to 0.32)"
+      ],
+      "explanation": "Zero change lies between the two points. It is 4.0 ÷ 7.6 = 0.53 of the way along the 0.2 mol/dm³ gap, so the concentration is 0.2 + 0.105 = 0.31 mol/dm³. This is the concentration equivalent to the potato cell contents.",
+      "answerLabel": "Concentration"
     },
     {
       "id": "bio-rp3-q08",
@@ -233,9 +351,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain what the concentration at which the line of best fit crosses 0% change in mass tells you about the potato cells.",
-      "acceptedAnswers": ["no net movement of water", "same concentration as cell contents", "solution equal to cytoplasm concentration", "isotonic"],
-      "markScheme": ["1 mark: there is no net movement of water into or out of the cells (no net osmosis)", "1 mark: so the concentration of the solution is the same as the concentration of the potato cell contents"],
+      "question": "Figure 1 shows a student's results.\nExplain what the concentration at which the line of best fit crosses 0% change in mass tells you about the potato cells.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M81.1 14V274M100.2 14V274M119.3 14V274M157.5 14V274M176.6 14V274M195.7 14V274M233.9 14V274M253 14V274M272.1 14V274M310.3 14V274M329.4 14V274M348.5 14V274M386.7 14V274M405.8 14V274M424.9 14V274M62 265.3H444M62 256.7H444M62 248H444M62 239.3H444M62 222H444M62 213.3H444M62 204.7H444M62 196H444M62 178.7H444M62 170H444M62 161.3H444M62 152.7H444M62 135.3H444M62 126.7H444M62 118H444M62 109.3H444M62 92H444M62 83.3H444M62 74.7H444M62 66H444M62 48.7H444M62 40H444M62 31.3H444M62 22.7H444\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M62 14V274M138.4 14V274M214.8 14V274M291.2 14V274M367.6 14V274M444 14V274M62 274H444M62 230.7H444M62 187.3H444M62 144H444M62 100.7H444M62 57.3H444M62 14H444\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M62 14V274H444\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M62 46.9C74.7 57.3 112.9 87.9 138.4 109.3C163.9 130.7 189.3 157.3 214.8 175.2C240.3 193.1 265.7 204.7 291.2 216.8C316.7 228.9 342.1 241.5 367.6 248C393.1 254.5 431.3 254.5 444 255.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M58 42.9l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M134.4 105.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M210.8 171.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M287.2 212.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M363.6 244l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M440 251.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M62 144H444\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"62\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.0</text><text x=\"138.4\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.2</text><text x=\"214.8\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.4</text><text x=\"291.2\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.6</text><text x=\"367.6\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.8</text><text x=\"444\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.0</text><text x=\"56\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">−15</text><text x=\"56\" y=\"234.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">−10</text><text x=\"56\" y=\"191.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">−5</text><text x=\"56\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"104.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">+5</text><text x=\"56\" y=\"61.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">+10</text><text x=\"56\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">+15</text><text x=\"253\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Concentration of sucrose solution in mol/dm³</text><text x=\"14\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 144)\">Percentage change in mass</text></svg>"
+      },
+      "acceptedAnswers": [
+        "no net movement of water",
+        "same concentration as cell contents",
+        "solution equal to cytoplasm concentration",
+        "isotonic"
+      ],
+      "markScheme": [
+        "1 mark: there is no net movement of water into or out of the cells (no net osmosis)",
+        "1 mark: so the concentration of the solution is the same as the concentration of the potato cell contents"
+      ],
       "explanation": "At this point water molecules move in and out at the same rate, so mass does not change. This gives an estimate of the solute concentration inside the potato cells."
     },
     {
@@ -244,9 +373,22 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give two variables that should be controlled in this investigation.",
-      "acceptedAnswers": ["length of cylinder", "diameter or surface area", "volume of solution", "time in solution", "temperature", "same potato", "blotting method"],
-      "markScheme": ["1 mark each, up to 2: length or diameter (surface area) of cylinders; volume of solution; time left in solution; temperature; same potato or variety; same blotting method"],
+      "question": "Figure 1 shows how a student set up an investigation into osmosis in potato cylinders.\nGive two variables that should be controlled in this investigation.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"95\" width=\"370\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M40 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M40 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"48\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"54\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.0</text><path d=\"M100 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M100 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"108\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"114\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.2</text><path d=\"M160 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M160 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"168\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"174\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.4</text><path d=\"M220 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M220 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"228\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"234\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.6</text><path d=\"M280 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M280 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"288\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"294\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.8</text><path d=\"M340 50V170a14 14 0 0 0 28 0V50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M340 80V170a14 14 0 0 0 28 0V80Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"348\" y=\"130\" width=\"12\" height=\"40\" fill=\"#fde68a\" stroke=\"currentColor\"/><text x=\"354\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.0</text><text x=\"205\" y=\"225\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Concentration of sucrose solution in mol/dm³</text><text x=\"400\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Boiling tube</text><path d=\"M360 44L362 60\" stroke=\"currentColor\"/><text x=\"10\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Potato cylinder</text><path d=\"M40 34L53 138\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "length of cylinder",
+        "diameter or surface area",
+        "volume of solution",
+        "time in solution",
+        "temperature",
+        "same potato",
+        "blotting method"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: length or diameter (surface area) of cylinders; volume of solution; time left in solution; temperature; same potato or variety; same blotting method"
+      ],
       "explanation": "These variables could all affect how much water moves in or out. Only the sucrose concentration should change, so that any difference in mass change is caused by concentration."
     },
     {
@@ -255,12 +397,35 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Three repeats in distilled water gave percentage changes in mass of +10.8%, +11.6% and +11.2%.\nCalculate the mean percentage change.",
+      "question": "A student placed three potato cylinders in distilled water.\nTable 1 shows the results.\nCalculate the mean percentage change in mass.",
+      "table": {
+        "headers": [
+          "Cylinder",
+          "Percentage change in mass"
+        ],
+        "rows": [
+          [
+            "1",
+            "+10.8"
+          ],
+          [
+            "2",
+            "+11.6"
+          ],
+          [
+            "3",
+            "+11.2"
+          ]
+        ]
+      },
       "numericAnswer": 11.2,
       "tolerance": 0.01,
       "unit": "%",
-      "markScheme": ["1 mark: (10.8 + 11.6 + 11.2) ÷ 3 = 11.2%"],
-      "explanation": "Add the three values (33.6) and divide by the number of values (3), giving 11.2%. The values are close together, which suggests the results are repeatable."
+      "markScheme": [
+        "1 mark: (10.8 + 11.6 + 11.2) ÷ 3 = 11.2%"
+      ],
+      "explanation": "Add the three values (33.6) and divide by the number of values (3), giving 11.2%. The values are close together, which suggests the results are repeatable.",
+      "answerLabel": "Mean percentage change in mass"
     },
     {
       "id": "bio-rp3-q11",
@@ -276,7 +441,9 @@
         "Cells in water absorbed starch; cells in concentrated sucrose lost starch"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: water cells turgid (firm), sucrose cells flaccid (soft)"],
+      "markScheme": [
+        "1 mark: water cells turgid (firm), sucrose cells flaccid (soft)"
+      ],
       "explanation": "Water entering the cells pushes the cytoplasm against the cell wall, making them turgid and firm. Plant cells do not burst because the cell wall resists. Water leaving the cells makes them flaccid, so the tissue is soft."
     },
     {
@@ -285,9 +452,49 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The percentage loss in mass was −12.0% in 0.8 mol/dm³ and −12.9% in 1.0 mol/dm³ sucrose. Suggest why the loss in mass levelled off at high concentrations.",
-      "acceptedAnswers": ["most water already lost", "cells plasmolysed", "little water left to lose", "cell contents cannot shrink further"],
-      "markScheme": ["1 mark: the cells have already lost most of the water that can leave them (cells plasmolysed)", "1 mark: so increasing the concentration further causes little extra water loss"],
+      "question": "Table 1 shows a student's results.\nSuggest why the loss in mass levelled off at high concentrations of sucrose solution.",
+      "table": {
+        "headers": [
+          "Concentration of sucrose solution in mol/dm³",
+          "Mean percentage change in mass"
+        ],
+        "rows": [
+          [
+            "0.0",
+            "+11.2"
+          ],
+          [
+            "0.2",
+            "+4.0"
+          ],
+          [
+            "0.4",
+            "−3.6"
+          ],
+          [
+            "0.6",
+            "−8.4"
+          ],
+          [
+            "0.8",
+            "−12.0"
+          ],
+          [
+            "1.0",
+            "−12.9"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "most water already lost",
+        "cells plasmolysed",
+        "little water left to lose",
+        "cell contents cannot shrink further"
+      ],
+      "markScheme": [
+        "1 mark: the cells have already lost most of the water that can leave them (cells plasmolysed)",
+        "1 mark: so increasing the concentration further causes little extra water loss"
+      ],
       "explanation": "Once the cells have lost most of their free water, there is little more that can leave by osmosis, so the curve flattens even though the external solution becomes more concentrated."
     },
     {
@@ -296,7 +503,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the independent variable in this investigation?",
+      "question": "What is the independent variable in an investigation into the effect of sucrose concentration on the mass of potato cylinders?",
       "options": [
         "The percentage change in mass",
         "The length of the potato cylinders",
@@ -304,7 +511,9 @@
         "The concentration of the sucrose solution"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: concentration of sucrose solution"],
+      "markScheme": [
+        "1 mark: concentration of sucrose solution"
+      ],
       "explanation": "The independent variable is the one deliberately changed: sucrose concentration. Percentage change in mass is the dependent variable, and cylinder length and time are control variables."
     },
     {

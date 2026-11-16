@@ -27,16 +27,46 @@
       "Useful Ar values: H 1, C 12, N 14, O 16, Na 23, Mg 24, Al 27, S 32, Cl 35.5, Ca 40, Fe 56, Cu 63.5."
     ],
     "keyTerms": [
-      { "term": "Relative atomic mass (Ar)", "definition": "The average mass of the atoms of an element compared with other atoms, taking into account its isotopes; shown on the periodic table." },
-      { "term": "Relative formula mass (Mr)", "definition": "The sum of the relative atomic masses of all the atoms shown in the formula of a substance." },
-      { "term": "Percentage by mass", "definition": "The percentage of the mass of a compound that is made up by one element." },
-      { "term": "Formula", "definition": "A set of symbols and numbers showing which elements are in a substance and in what ratio." },
-      { "term": "Subscript", "definition": "A small number in a formula showing how many of the atom (or bracketed group) before it there are." },
-      { "term": "Coefficient", "definition": "A number in front of a formula in an equation, showing how many units of that substance react or form." }
+      {
+        "term": "Relative atomic mass (Ar)",
+        "definition": "The average mass of the atoms of an element compared with other atoms, taking into account its isotopes; shown on the periodic table."
+      },
+      {
+        "term": "Relative formula mass (Mr)",
+        "definition": "The sum of the relative atomic masses of all the atoms shown in the formula of a substance."
+      },
+      {
+        "term": "Percentage by mass",
+        "definition": "The percentage of the mass of a compound that is made up by one element."
+      },
+      {
+        "term": "Formula",
+        "definition": "A set of symbols and numbers showing which elements are in a substance and in what ratio."
+      },
+      {
+        "term": "Subscript",
+        "definition": "A small number in a formula showing how many of the atom (or bracketed group) before it there are."
+      },
+      {
+        "term": "Coefficient",
+        "definition": "A number in front of a formula in an equation, showing how many units of that substance react or form."
+      }
     ],
     "equations": [
-      { "name": "Relative formula mass", "formula": "Mr = sum of (Ar × number of atoms) for every element in the formula", "symbols": "", "units": "no units", "recall": true },
-      { "name": "Percentage by mass of an element", "formula": "percentage by mass = (Ar × number of atoms of the element) ÷ Mr of the compound × 100", "symbols": "", "units": "%", "recall": true }
+      {
+        "name": "Relative formula mass",
+        "formula": "Mr = sum of (Ar × number of atoms) for every element in the formula",
+        "symbols": "",
+        "units": "no units",
+        "recall": true
+      },
+      {
+        "name": "Percentage by mass of an element",
+        "formula": "percentage by mass = (Ar × number of atoms of the element) ÷ Mr of the compound × 100",
+        "symbols": "",
+        "units": "%",
+        "recall": true
+      }
     ],
     "workedExamples": [
       {
@@ -92,10 +122,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think Mr is measured in grams.", "right": "In fact Mr is a relative value and has no units. (The mass of one mole is Mr in grams, which is a separate idea for Higher tier.)" },
-      { "wrong": "Students often think a subscript after a bracket only applies to the last atom, so Ca(OH)₂ = 40 + 16 + 2 = 58.", "right": "In fact it multiplies everything in the bracket: Ca(OH)₂ = 40 + 2 × (16 + 1) = 74." },
-      { "wrong": "Students often think the coefficient in front of a formula changes the Mr of that substance.", "right": "In fact Mr is fixed for each substance. The coefficient tells you how many units there are, so you multiply the Mr by the coefficient only when totalling one side of an equation." },
-      { "wrong": "Students often think percentage by mass uses the number of atoms, so oxygen is 2 ÷ 3 of CO₂, about 67%.", "right": "In fact you must use masses: (2 × 16) ÷ 44 × 100 = 72.7%, because oxygen atoms are heavier than carbon atoms." }
+      {
+        "wrong": "Students often think Mr is measured in grams.",
+        "right": "In fact Mr is a relative value and has no units. (The mass of one mole is Mr in grams, which is a separate idea for Higher tier.)"
+      },
+      {
+        "wrong": "Students often think a subscript after a bracket only applies to the last atom, so Ca(OH)₂ = 40 + 16 + 2 = 58.",
+        "right": "In fact it multiplies everything in the bracket: Ca(OH)₂ = 40 + 2 × (16 + 1) = 74."
+      },
+      {
+        "wrong": "Students often think the coefficient in front of a formula changes the Mr of that substance.",
+        "right": "In fact Mr is fixed for each substance. The coefficient tells you how many units there are, so you multiply the Mr by the coefficient only when totalling one side of an equation."
+      },
+      {
+        "wrong": "Students often think percentage by mass uses the number of atoms, so oxygen is 2 ÷ 3 of CO₂, about 67%.",
+        "right": "In fact you must use masses: (2 × 16) ÷ 44 × 100 = 72.7%, because oxygen atoms are heavier than carbon atoms."
+      }
     ],
     "realWorld": [
       "Farmers compare fertilisers such as ammonium nitrate and urea by their percentage of nitrogen by mass, to choose the best value for crop growth.",
@@ -122,214 +164,621 @@
     ]
   },
   "flashcards": [
-    { "front": "What is relative formula mass (Mr)?", "back": "The sum of the relative atomic masses of all the atoms in the formula." },
-    { "front": "What are the units of Mr?", "back": "None. It is a relative value." },
-    { "front": "Mr of water, H₂O?", "back": "(2 × 1) + 16 = 18" },
-    { "front": "Mr of carbon dioxide, CO₂?", "back": "12 + (2 × 16) = 44" },
-    { "front": "Mr of sodium chloride, NaCl?", "back": "23 + 35.5 = 58.5" },
-    { "front": "Mr of calcium carbonate, CaCO₃?", "back": "40 + 12 + (3 × 16) = 100" },
-    { "front": "Mr of sulfuric acid, H₂SO₄?", "back": "(2 × 1) + 32 + (4 × 16) = 98" },
-    { "front": "Mr of calcium hydroxide, Ca(OH)₂?", "back": "40 + 2 × (16 + 1) = 74" },
-    { "front": "Formula for percentage by mass of an element in a compound?", "back": "(Ar × number of atoms of the element) ÷ Mr × 100" },
-    { "front": "Percentage by mass of iron in Fe₂O₃ (Mr 160)?", "back": "112 ÷ 160 × 100 = 70%" },
-    { "front": "In a balanced equation, what is true about the Mr values?", "back": "The total Mr of the reactants (× coefficients) equals the total Mr of the products (× coefficients)." },
-    { "front": "Where do you find Ar values?", "back": "On the periodic table (the larger number for each element), or given in the question." }
+    {
+      "front": "What is relative formula mass (Mr)?",
+      "back": "The sum of the relative atomic masses of all the atoms in the formula."
+    },
+    {
+      "front": "What are the units of Mr?",
+      "back": "None. It is a relative value."
+    },
+    {
+      "front": "Mr of water, H₂O?",
+      "back": "(2 × 1) + 16 = 18"
+    },
+    {
+      "front": "Mr of carbon dioxide, CO₂?",
+      "back": "12 + (2 × 16) = 44"
+    },
+    {
+      "front": "Mr of sodium chloride, NaCl?",
+      "back": "23 + 35.5 = 58.5"
+    },
+    {
+      "front": "Mr of calcium carbonate, CaCO₃?",
+      "back": "40 + 12 + (3 × 16) = 100"
+    },
+    {
+      "front": "Mr of sulfuric acid, H₂SO₄?",
+      "back": "(2 × 1) + 32 + (4 × 16) = 98"
+    },
+    {
+      "front": "Mr of calcium hydroxide, Ca(OH)₂?",
+      "back": "40 + 2 × (16 + 1) = 74"
+    },
+    {
+      "front": "Formula for percentage by mass of an element in a compound?",
+      "back": "(Ar × number of atoms of the element) ÷ Mr × 100"
+    },
+    {
+      "front": "Percentage by mass of iron in Fe₂O₃ (Mr 160)?",
+      "back": "112 ÷ 160 × 100 = 70%"
+    },
+    {
+      "front": "In a balanced equation, what is true about the Mr values?",
+      "back": "The total Mr of the reactants (× coefficients) equals the total Mr of the products (× coefficients)."
+    },
+    {
+      "front": "Where do you find Ar values?",
+      "back": "On the periodic table (the larger number for each element), or given in the question."
+    }
   ],
   "questions": [
     {
-      "id": "c3-relative-formula-mass-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What is the relative formula mass of sodium chloride, NaCl? (Ar: Na = 23, Cl = 35.5)",
-      "options": ["12.5", "35.5", "58.5", "81.5"],
+      "id": "c3-relative-formula-mass-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Sodium chloride has the formula NaCl.\nWhat is the relative formula mass (Mr) of sodium chloride?\nRelative atomic masses (Ar): Na = 23; Cl = 35.5",
+      "options": [
+        "12.5",
+        "35.5",
+        "58.5",
+        "81.5"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 58.5"],
+      "markScheme": [
+        "1 mark: 58.5"
+      ],
       "explanation": "Mr = 23 + 35.5 = 58.5. 12.5 is the difference, not the sum, and 35.5 is only the chlorine."
     },
     {
-      "id": "c3-relative-formula-mass-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which statement correctly defines relative formula mass?",
-      "options": ["The number of atoms in a formula", "The sum of the relative atomic masses of the atoms in the formula", "The mass of one atom of the heaviest element in the formula", "The number of protons in a molecule"],
+      "id": "c3-relative-formula-mass-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement describes the relative formula mass (Mr) of a compound?",
+      "options": [
+        "The number of atoms in a formula",
+        "The sum of the relative atomic masses of the atoms in the formula",
+        "The mass of one atom of the heaviest element in the formula",
+        "The number of protons in a molecule"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the sum of the relative atomic masses of the atoms in the formula"],
+      "markScheme": [
+        "1 mark: the sum of the relative atomic masses of the atoms in the formula"
+      ],
       "explanation": "Mr is found by adding the Ar values for every atom shown in the formula. Counting atoms or protons does not give the mass."
     },
     {
-      "id": "c3-relative-formula-mass-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What are the units of relative formula mass?",
-      "options": ["It has no units", "g", "g/mol", "kg"],
+      "id": "c3-relative-formula-mass-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of relative formula mass (Mr)?",
+      "options": [
+        "It has no units",
+        "g",
+        "g/mol",
+        "kg"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: it has no units"],
+      "markScheme": [
+        "1 mark: it has no units"
+      ],
       "explanation": "Mr is a relative value, comparing masses with each other, so it has no units."
     },
     {
-      "id": "c3-relative-formula-mass-q04", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What is the Mr of calcium carbonate, CaCO₃? (Ar: C = 12, O = 16, Ca = 40)",
-      "options": ["68", "84", "92", "100"],
+      "id": "c3-relative-formula-mass-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the Mr of calcium carbonate, CaCO₃?\nRelative atomic masses (Ar): C = 12; O = 16; Ca = 40",
+      "options": [
+        "68",
+        "84",
+        "92",
+        "100"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: 100"],
+      "markScheme": [
+        "1 mark: 100"
+      ],
       "explanation": "40 + 12 + (3 × 16) = 100. 68 uses only one oxygen atom, and 84 uses two."
     },
     {
-      "id": "c3-relative-formula-mass-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "What is the Mr of calcium hydroxide, Ca(OH)₂? (Ar: H = 1, O = 16, Ca = 40)",
-      "options": ["57", "58", "74", "114"],
+      "id": "c3-relative-formula-mass-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the Mr of calcium hydroxide, Ca(OH)₂?\nRelative atomic masses (Ar): H = 1; O = 16; Ca = 40",
+      "options": [
+        "57",
+        "58",
+        "74",
+        "114"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 74"],
+      "markScheme": [
+        "1 mark: 74"
+      ],
       "explanation": "40 + 2 × (16 + 1) = 74. 57 ignores the subscript 2 completely, and 58 only doubles the hydrogen."
     },
     {
-      "id": "c3-relative-formula-mass-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "What is the Mr of glucose, C₆H₁₂O₆? (Ar: H = 1, C = 12, O = 16)",
-      "options": ["29", "96", "180", "186"],
+      "id": "c3-relative-formula-mass-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the Mr of glucose, C₆H₁₂O₆?\nRelative atomic masses (Ar): H = 1; C = 12; O = 16",
+      "options": [
+        "29",
+        "96",
+        "180",
+        "186"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 180"],
+      "markScheme": [
+        "1 mark: 180"
+      ],
       "explanation": "(6 × 12) + (12 × 1) + (6 × 16) = 72 + 12 + 96 = 180. 29 adds each Ar once without multiplying."
     },
     {
-      "id": "c3-relative-formula-mass-q07", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "For the equation 2Mg + O₂ → 2MgO, what is the total Mr of the products? (Ar: O = 16, Mg = 24)",
-      "options": ["40", "56", "64", "80"],
+      "id": "c3-relative-formula-mass-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Magnesium reacts with oxygen:\n2Mg + O₂ → 2MgO\nWhat is the total Mr of the products?\nRelative atomic masses (Ar): O = 16; Mg = 24",
+      "options": [
+        "40",
+        "56",
+        "64",
+        "80"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: 80"],
+      "markScheme": [
+        "1 mark: 80"
+      ],
       "explanation": "Mr of MgO = 40, and there are 2 MgO, so 2 × 40 = 80. This equals the reactant total, (2 × 24) + 32 = 80, as mass is conserved."
     },
     {
-      "id": "c3-relative-formula-mass-q08", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "What is the Mr of potassium nitrate, KNO₃? (Ar: N = 14, O = 16, K = 39)",
-      "options": ["69", "85", "101", "117"],
+      "id": "c3-relative-formula-mass-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the Mr of potassium nitrate, KNO₃?\nRelative atomic masses (Ar): N = 14; O = 16; K = 39",
+      "options": [
+        "69",
+        "85",
+        "101",
+        "117"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 101"],
+      "markScheme": [
+        "1 mark: 101"
+      ],
       "explanation": "39 + 14 + (3 × 16) = 101. 69 uses one oxygen atom and 85 uses two."
     },
     {
-      "id": "c3-relative-formula-mass-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Which compound has the greatest percentage by mass of oxygen? (Ar: H = 1, C = 12, O = 16, Mg = 24)",
-      "options": ["H₂O", "CO₂", "MgO", "CO"],
+      "id": "c3-relative-formula-mass-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Table 1 shows the relative formula masses (Mr) of four compounds that contain oxygen.\nWhich compound has the greatest percentage by mass of oxygen?\nRelative atomic mass (Ar): O = 16",
+      "table": {
+        "headers": [
+          "Compound",
+          "Formula",
+          "Mr"
+        ],
+        "rows": [
+          [
+            "Water",
+            "H₂O",
+            "18"
+          ],
+          [
+            "Carbon dioxide",
+            "CO₂",
+            "44"
+          ],
+          [
+            "Magnesium oxide",
+            "MgO",
+            "40"
+          ],
+          [
+            "Carbon monoxide",
+            "CO",
+            "28"
+          ]
+        ]
+      },
+      "options": [
+        "H₂O",
+        "CO₂",
+        "MgO",
+        "CO"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: H₂O"],
+      "markScheme": [
+        "1 mark: H₂O"
+      ],
       "explanation": "H₂O: 16 ÷ 18 × 100 = 88.9%. CO₂: 32 ÷ 44 × 100 = 72.7%. CO: 16 ÷ 28 × 100 = 57.1%. MgO: 16 ÷ 40 × 100 = 40%. CO₂ has the most oxygen atoms, but water has the highest percentage because hydrogen atoms are so light."
     },
     {
-      "id": "c3-relative-formula-mass-q10", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Calculate the relative formula mass of carbon dioxide, CO₂. (Ar: C = 12, O = 16)",
-      "numericAnswer": 44, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: 44"],
-      "explanation": "One carbon atom (12) plus two oxygen atoms (2 × 16 = 32): 12 + 32 = 44. There are no units."
+      "id": "c3-relative-formula-mass-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Calculate the relative formula mass of carbon dioxide, CO₂.\nRelative atomic masses (Ar): C = 12; O = 16",
+      "numericAnswer": 44,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 44"
+      ],
+      "explanation": "One carbon atom (12) plus two oxygen atoms (2 × 16 = 32): 12 + 32 = 44. There are no units.",
+      "answerLabel": "Relative formula mass"
     },
     {
-      "id": "c3-relative-formula-mass-q11", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Calculate the relative formula mass of sulfuric acid, H₂SO₄. (Ar: H = 1, O = 16, S = 32)",
-      "numericAnswer": 98, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: 98"],
-      "explanation": "(2 × 1) + 32 + (4 × 16) = 2 + 32 + 64 = 98."
+      "id": "c3-relative-formula-mass-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Figure 1 shows the displayed formula of sulfuric acid, H₂SO₄.\nCalculate the relative formula mass (Mr) of sulfuric acid.\nRelative atomic masses (Ar): H = 1; O = 16; S = 32",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"180\" y=\"106\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">S</text><line x1=\"174\" y1=\"84\" x2=\"174\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"186\" y1=\"84\" x2=\"186\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"46\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"174\" y1=\"116\" x2=\"174\" y2=\"148\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"186\" y1=\"116\" x2=\"186\" y2=\"148\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"172\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"166\" y1=\"100\" x2=\"132\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"120\" y=\"106\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"108\" y1=\"100\" x2=\"74\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"62\" y=\"106\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"194\" y1=\"100\" x2=\"228\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"240\" y=\"106\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"252\" y1=\"100\" x2=\"286\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"298\" y=\"106\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
+      "numericAnswer": 98,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 98"
+      ],
+      "explanation": "(2 × 1) + 32 + (4 × 16) = 2 + 32 + 64 = 98.",
+      "answerLabel": "Relative formula mass"
     },
     {
-      "id": "c3-relative-formula-mass-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the relative formula mass of magnesium hydroxide, Mg(OH)₂. (Ar: H = 1, O = 16, Mg = 24)",
-      "numericAnswer": 58, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: 24 + 2 × (16 + 1)", "1 mark: 58"],
-      "explanation": "The 2 after the bracket doubles both O and H: 24 + 32 + 2 = 58."
+      "id": "c3-relative-formula-mass-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Calculate the relative formula mass of magnesium hydroxide, Mg(OH)₂.\nRelative atomic masses (Ar): H = 1; O = 16; Mg = 24",
+      "numericAnswer": 58,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 24 + 2 × (16 + 1)",
+        "1 mark: 58"
+      ],
+      "explanation": "The 2 after the bracket doubles both O and H: 24 + 32 + 2 = 58.",
+      "answerLabel": "Relative formula mass"
     },
     {
-      "id": "c3-relative-formula-mass-q13", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the relative formula mass of ammonium sulfate, (NH₄)₂SO₄. (Ar: H = 1, N = 14, O = 16, S = 32)",
-      "numericAnswer": 132, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: (2 × 14) + (8 × 1) + 32 + (4 × 16)", "1 mark: 132"],
-      "explanation": "The bracket is doubled, giving 2 N and 8 H: 28 + 8 + 32 + 64 = 132."
+      "id": "c3-relative-formula-mass-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Ammonium sulfate, (NH₄)₂SO₄, is used as a fertiliser.\nTable 1 shows the relative atomic masses (Ar) of the elements in ammonium sulfate.\nCalculate the relative formula mass (Mr) of ammonium sulfate.",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass (Ar)"
+        ],
+        "rows": [
+          [
+            "Hydrogen, H",
+            "1"
+          ],
+          [
+            "Nitrogen, N",
+            "14"
+          ],
+          [
+            "Oxygen, O",
+            "16"
+          ],
+          [
+            "Sulfur, S",
+            "32"
+          ]
+        ]
+      },
+      "numericAnswer": 132,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (2 × 14) + (8 × 1) + 32 + (4 × 16)",
+        "1 mark: 132"
+      ],
+      "explanation": "The bracket is doubled, giving 2 N and 8 H: 28 + 8 + 32 + 64 = 132.",
+      "answerLabel": "Relative formula mass"
     },
     {
-      "id": "c3-relative-formula-mass-q14", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the percentage by mass of iron in iron(III) oxide, Fe₂O₃. (Ar: O = 16, Fe = 56)",
-      "numericAnswer": 70, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: Mr = 160", "1 mark: (2 × 56) ÷ 160 × 100 = 70%"],
-      "explanation": "Mr = 112 + 48 = 160. There are 2 iron atoms, so 112 ÷ 160 × 100 = 70%."
+      "id": "c3-relative-formula-mass-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Calculate the percentage by mass of iron in iron(III) oxide, Fe₂O₃.\nRelative atomic masses (Ar): O = 16; Fe = 56",
+      "numericAnswer": 70,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: Mr = 160",
+        "1 mark: (2 × 56) ÷ 160 × 100 = 70%"
+      ],
+      "explanation": "Mr = 112 + 48 = 160. There are 2 iron atoms, so 112 ÷ 160 × 100 = 70%.",
+      "answerLabel": "Percentage by mass of iron"
     },
     {
-      "id": "c3-relative-formula-mass-q15", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃. (Ar: H = 1, N = 14, O = 16)",
-      "numericAnswer": 35, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: Mr = 80", "1 mark: (2 × 14) ÷ 80 × 100 = 35%"],
-      "explanation": "There are two nitrogen atoms in NH₄NO₃ (one in NH₄ and one in NO₃). 28 ÷ 80 × 100 = 35%. Using only one N gives 17.5%, which is wrong."
+      "id": "c3-relative-formula-mass-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃.\nRelative atomic masses (Ar): H = 1; N = 14; O = 16",
+      "numericAnswer": 35,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: Mr = 80",
+        "1 mark: (2 × 14) ÷ 80 × 100 = 35%"
+      ],
+      "explanation": "There are two nitrogen atoms in NH₄NO₃ (one in NH₄ and one in NO₃). 28 ÷ 80 × 100 = 35%. Using only one N gives 17.5%, which is wrong.",
+      "answerLabel": "Percentage by mass of nitrogen"
     },
     {
-      "id": "c3-relative-formula-mass-q16", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the percentage by mass of oxygen in carbon dioxide, CO₂. Give your answer to 3 significant figures. (Ar: C = 12, O = 16)",
-      "numericAnswer": 72.7, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: 32 ÷ 44 × 100", "1 mark: 72.7%"],
-      "explanation": "Mass of oxygen in the formula is 2 × 16 = 32 and Mr is 44. 32 ÷ 44 × 100 = 72.72...% = 72.7% to 3 significant figures."
+      "id": "c3-relative-formula-mass-q16",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Calculate the percentage by mass of oxygen in carbon dioxide, CO₂.\nGive your answer to 3 significant figures.\nRelative atomic masses (Ar): C = 12; O = 16",
+      "numericAnswer": 72.7,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: 32 ÷ 44 × 100",
+        "1 mark: 72.7%"
+      ],
+      "explanation": "Mass of oxygen in the formula is 2 × 16 = 32 and Mr is 44. 32 ÷ 44 × 100 = 72.72...% = 72.7% to 3 significant figures.",
+      "answerLabel": "Percentage by mass of oxygen"
     },
     {
-      "id": "c3-relative-formula-mass-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "Calculate the relative formula mass of aluminium sulfate, Al₂(SO₄)₃. (Ar: O = 16, Al = 27, S = 32)",
-      "numericAnswer": 342, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: (2 × 27) + (3 × 32) + (12 × 16)", "1 mark: 342"],
-      "explanation": "The bracket is multiplied by 3, giving 3 S and 12 O: 54 + 96 + 192 = 342."
+      "id": "c3-relative-formula-mass-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Aluminium sulfate has the formula Al₂(SO₄)₃.\nTable 1 shows the relative atomic masses (Ar) of the elements in aluminium sulfate.\nCalculate the relative formula mass (Mr) of aluminium sulfate.",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass (Ar)"
+        ],
+        "rows": [
+          [
+            "Oxygen, O",
+            "16"
+          ],
+          [
+            "Aluminium, Al",
+            "27"
+          ],
+          [
+            "Sulfur, S",
+            "32"
+          ]
+        ]
+      },
+      "numericAnswer": 342,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: (2 × 27) + (3 × 32) + (12 × 16)",
+        "1 mark: 342"
+      ],
+      "explanation": "The bracket is multiplied by 3, giving 3 S and 12 O: 54 + 96 + 192 = 342.",
+      "answerLabel": "Relative formula mass"
     },
     {
-      "id": "c3-relative-formula-mass-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "Calculate the mass of iron that could be extracted from 400 g of pure iron(III) oxide, Fe₂O₃. (Ar: O = 16, Fe = 56)",
-      "numericAnswer": 280, "tolerance": 0.01, "unit": "g",
-      "markScheme": ["1 mark: Mr of Fe₂O₃ = 160", "1 mark: percentage (or fraction) of iron = 112 ÷ 160 = 70% (0.7)", "1 mark: 0.7 × 400 = 280 g"],
-      "explanation": "70% of the mass of Fe₂O₃ is iron, so 400 g contains 0.70 × 400 = 280 g of iron."
+      "id": "c3-relative-formula-mass-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Iron is extracted from iron(III) oxide, Fe₂O₃.\nCalculate the maximum mass of iron that could be extracted from 400 g of pure iron(III) oxide.\nRelative atomic masses (Ar): O = 16; Fe = 56",
+      "numericAnswer": 280,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: Mr of Fe₂O₃ = 160",
+        "1 mark: percentage (or fraction) of iron = 112 ÷ 160 = 70% (0.7)",
+        "1 mark: 0.7 × 400 = 280 g"
+      ],
+      "explanation": "70% of the mass of Fe₂O₃ is iron, so 400 g contains 0.70 × 400 = 280 g of iron.",
+      "answerLabel": "Mass of iron"
     },
     {
-      "id": "c3-relative-formula-mass-q19", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "An element X forms an oxide with the formula X₂O. The Mr of X₂O is 62. Calculate the relative atomic mass of X. (Ar: O = 16)",
-      "numericAnswer": 23, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: 2 × Ar + 16 = 62", "1 mark: Ar = 23"],
-      "explanation": "2 × Ar = 62 − 16 = 46, so Ar = 23. X is sodium, and the oxide is Na₂O."
+      "id": "c3-relative-formula-mass-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Element X forms an oxide with the formula X₂O.\nThe relative formula mass (Mr) of X₂O is 62.\nCalculate the relative atomic mass (Ar) of X.\nRelative atomic mass (Ar): O = 16",
+      "numericAnswer": 23,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 2 × Ar + 16 = 62",
+        "1 mark: Ar = 23"
+      ],
+      "explanation": "2 × Ar = 62 − 16 = 46, so Ar = 23. X is sodium, and the oxide is Na₂O.",
+      "answerLabel": "Relative atomic mass of X"
     },
     {
-      "id": "c3-relative-formula-mass-q20", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "Calculate the percentage by mass of copper in copper sulfate, CuSO₄. Give your answer to 3 significant figures. (Ar: O = 16, S = 32, Cu = 63.5)",
-      "numericAnswer": 39.8, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: Mr = 159.5", "1 mark: 63.5 ÷ 159.5 × 100 = 39.8%"],
-      "explanation": "Mr = 63.5 + 32 + 64 = 159.5. 63.5 ÷ 159.5 × 100 = 39.81...% = 39.8%."
+      "id": "c3-relative-formula-mass-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Calculate the percentage by mass of copper in copper sulfate, CuSO₄.\nGive your answer to 3 significant figures.\nRelative atomic masses (Ar): O = 16; S = 32; Cu = 63.5",
+      "numericAnswer": 39.8,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: Mr = 159.5",
+        "1 mark: 63.5 ÷ 159.5 × 100 = 39.8%"
+      ],
+      "explanation": "Mr = 63.5 + 32 + 64 = 159.5. 63.5 ÷ 159.5 × 100 = 39.81...% = 39.8%.",
+      "answerLabel": "Percentage by mass of copper"
     },
     {
-      "id": "c3-relative-formula-mass-q21", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "State where you would find the relative atomic mass of an element.",
-      "acceptedAnswers": ["periodic table", "on the periodic table"],
-      "markScheme": ["1 mark: on the periodic table (the larger number with the symbol)"],
-      "explanation": "Each element on the periodic table shows its relative atomic mass, usually as the larger of the two numbers."
+      "id": "c3-relative-formula-mass-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Figure 1 shows how sodium is shown in the periodic table.\nGive the relative atomic mass (Ar) of sodium.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"100\" y=\"20\" width=\"100\" height=\"120\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"150\" y=\"52\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">23</text><text x=\"150\" y=\"92\" font-size=\"26\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Na</text><text x=\"150\" y=\"126\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">11</text><text x=\"150\" y=\"162\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">sodium</text></svg>"
+      },
+      "acceptedAnswers": [
+        "23"
+      ],
+      "markScheme": [
+        "1 mark: 23"
+      ],
+      "explanation": "In the periodic table the relative atomic mass is the larger number (23). The smaller number (11) is the atomic number, which is the number of protons. Relative atomic masses are found in the periodic table."
     },
     {
-      "id": "c3-relative-formula-mass-q22", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c3-relative-formula-mass-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Describe how to calculate the relative formula mass of a compound from its formula.",
-      "acceptedAnswers": ["count the atoms of each element", "multiply by Ar", "add the relative atomic masses"],
-      "markScheme": ["1 mark: count the number of atoms of each element in the formula (including multiplying by subscripts after brackets)", "1 mark: multiply each by its Ar and add them all together"],
+      "acceptedAnswers": [
+        "count the atoms of each element",
+        "multiply by Ar",
+        "add the relative atomic masses"
+      ],
+      "markScheme": [
+        "1 mark: count the number of atoms of each element in the formula (including multiplying by subscripts after brackets)",
+        "1 mark: multiply each by its Ar and add them all together"
+      ],
       "explanation": "Mr is just the sum of the Ar values of every atom in the formula."
     },
     {
-      "id": "c3-relative-formula-mass-q23", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A student calculates the Mr of Mg(NO₃)₂ as 24 + 14 + (3 × 16) × 2 = 134. Explain the mistake and give the correct Mr. (Ar: N = 14, O = 16, Mg = 24)",
-      "acceptedAnswers": ["the nitrogen must also be doubled", "148", "2 × 14"],
-      "markScheme": ["1 mark: the 2 after the bracket multiplies the nitrogen as well as the oxygen (2 N, 6 O)", "1 mark: correct Mr = 24 + 28 + 96 = 148"],
+      "id": "c3-relative-formula-mass-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student calculates the relative formula mass (Mr) of magnesium nitrate, Mg(NO₃)₂.\nThis is the student's working:\n24 + 14 + (3 × 16) × 2 = 134\nExplain the mistake the student made.\nGive the correct Mr of magnesium nitrate.\nRelative atomic masses (Ar): N = 14; O = 16; Mg = 24",
+      "acceptedAnswers": [
+        "the nitrogen must also be doubled",
+        "148",
+        "2 × 14"
+      ],
+      "markScheme": [
+        "1 mark: the 2 after the bracket multiplies the nitrogen as well as the oxygen (2 N, 6 O)",
+        "1 mark: correct Mr = 24 + 28 + 96 = 148"
+      ],
       "explanation": "Everything inside the bracket is doubled: 24 + (2 × 14) + (6 × 16) = 148. The student only doubled the oxygen."
     },
     {
-      "id": "c3-relative-formula-mass-q24", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Show that the total Mr of the reactants equals the total Mr of the products for: 2Na + Cl₂ → 2NaCl (Ar: Na = 23, Cl = 35.5)",
-      "acceptedAnswers": ["117 = 117", "46 + 71 = 117", "2 × 58.5 = 117"],
-      "markScheme": ["1 mark: reactants: (2 × 23) + (2 × 35.5) = 117", "1 mark: products: 2 × 58.5 = 117, so they are equal"],
+      "id": "c3-relative-formula-mass-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Sodium reacts with chlorine:\n2Na + Cl₂ → 2NaCl\nShow that the total Mr of the reactants is equal to the total Mr of the products.\nRelative atomic masses (Ar): Na = 23; Cl = 35.5",
+      "acceptedAnswers": [
+        "117 = 117",
+        "46 + 71 = 117",
+        "2 × 58.5 = 117"
+      ],
+      "markScheme": [
+        "1 mark: reactants: (2 × 23) + (2 × 35.5) = 117",
+        "1 mark: products: 2 × 58.5 = 117, so they are equal"
+      ],
       "explanation": "Both sides total 117, which shows that the balanced equation obeys the law of conservation of mass."
     },
     {
-      "id": "c3-relative-formula-mass-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "Two fertilisers are ammonium nitrate, NH₄NO₃ (Mr 80), and urea, CO(NH₂)₂ (Mr 60). Show which fertiliser contains the greater percentage by mass of nitrogen. (Ar: N = 14)",
-      "acceptedAnswers": ["urea", "46.7%", "35%"],
-      "markScheme": ["1 mark: ammonium nitrate: 28 ÷ 80 × 100 = 35%", "1 mark: urea: 28 ÷ 60 × 100 = 46.7%", "1 mark: urea has the greater percentage of nitrogen"],
+      "id": "c3-relative-formula-mass-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Ammonium nitrate and urea are both used as fertilisers.\nTable 1 shows information about the two fertilisers.\nShow which fertiliser contains the greater percentage by mass of nitrogen.\nRelative atomic mass (Ar): N = 14",
+      "table": {
+        "headers": [
+          "Fertiliser",
+          "Formula",
+          "Relative formula mass (Mr)"
+        ],
+        "rows": [
+          [
+            "Ammonium nitrate",
+            "NH₄NO₃",
+            "80"
+          ],
+          [
+            "Urea",
+            "CO(NH₂)₂",
+            "60"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "urea",
+        "46.7%",
+        "35%"
+      ],
+      "markScheme": [
+        "1 mark: ammonium nitrate: 28 ÷ 80 × 100 = 35%",
+        "1 mark: urea: 28 ÷ 60 × 100 = 46.7%",
+        "1 mark: urea has the greater percentage of nitrogen"
+      ],
       "explanation": "Both formulae contain 2 nitrogen atoms (mass 28), but urea has a smaller Mr, so nitrogen is a bigger fraction of its mass."
     },
     {
-      "id": "c3-relative-formula-mass-q26", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Calculate the Mr of water, H₂O, and state the answer. (Ar: H = 1, O = 16)",
-      "acceptedAnswers": ["18"],
-      "markScheme": ["1 mark: 18"],
+      "id": "c3-relative-formula-mass-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Calculate the relative formula mass (Mr) of water, H₂O.\nRelative atomic masses (Ar): H = 1; O = 16",
+      "acceptedAnswers": [
+        "18"
+      ],
+      "markScheme": [
+        "1 mark: 18"
+      ],
       "explanation": "Two hydrogen atoms (2 × 1 = 2) plus one oxygen atom (16): 2 + 16 = 18. Mr has no units."
     },
     {
-      "id": "c3-relative-formula-mass-q27", "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "Calcium carbonate decomposes on heating: CaCO₃ → CaO + CO₂\nCalculate the Mr of each substance and use your answers to explain how the equation shows that mass is conserved. (Ar: C = 12, O = 16, Ca = 40)",
+      "id": "c3-relative-formula-mass-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Calcium carbonate decomposes on heating: CaCO₃ → CaO + CO₂\nCalculate the Mr of each substance and use your answers to explain how the equation shows that mass is conserved.\nRelative atomic masses (Ar): C = 12; O = 16; Ca = 40",
       "markScheme": [
         "Indicative content: Mr CaCO₃ = 40 + 12 + 48 = 100; Mr CaO = 40 + 16 = 56; Mr CO₂ = 12 + 32 = 44; products total 56 + 44 = 100; equal to reactant total; no atoms are lost or made, just rearranged; so mass is conserved.",
         "Level 2 (3 to 4 marks): all three Mr values correct, totals compared and linked clearly to conservation of mass and atoms.",
@@ -338,8 +787,31 @@
       "explanation": "100 = 56 + 44. The total relative mass is the same on both sides because the same atoms are present before and after."
     },
     {
-      "id": "c3-relative-formula-mass-q28", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "A mining company has two iron ores. Ore A is pure haematite, Fe₂O₃. Ore B is pure magnetite, Fe₃O₄.\nCalculate the percentage by mass of iron in each ore, and the mass of iron that could be obtained from 1000 kg of each. Evaluate which ore is the better source of iron, considering your answers and any other information you would need. (Ar: O = 16, Fe = 56)",
+      "id": "c3-relative-formula-mass-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A mining company can extract iron from two ores.\nTable 1 shows information about the ores.\nCalculate the percentage by mass of iron in each iron compound, and the mass of iron that could be obtained from 1000 kg of each pure compound.\nEvaluate which ore is the better source of iron. Use your answers and suggest any other information you would need.\nRelative atomic masses (Ar): O = 16; Fe = 56",
+      "table": {
+        "headers": [
+          "Ore",
+          "Iron compound in the ore",
+          "Formula"
+        ],
+        "rows": [
+          [
+            "A",
+            "Haematite",
+            "Fe₂O₃"
+          ],
+          [
+            "B",
+            "Magnetite",
+            "Fe₃O₄"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: Mr Fe₂O₃ = 160; % Fe = 112 ÷ 160 × 100 = 70%; 1000 kg gives 700 kg Fe; Mr Fe₃O₄ = (3 × 56) + (4 × 16) = 232; % Fe = 168 ÷ 232 × 100 = 72.4%; 1000 kg gives 724 kg Fe; magnetite gives more iron per tonne; but real ores are not pure, so the percentage of iron compound in each ore matters; cost of mining and transport; energy needed for extraction; amount of ore available; conclusion based on calculations with justified reasoning.",
         "Level 3 (5 to 6 marks): all calculations correct and set out clearly, with a justified evaluation that uses the results and considers other relevant factors.",

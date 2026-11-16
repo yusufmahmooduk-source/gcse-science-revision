@@ -28,19 +28,61 @@
       "Give the mean to the same number of decimal places as the raw data (or one more)."
     ],
     "keyTerms": [
-      { "term": "Uncertainty", "definition": "The interval within which the true value is expected to lie; estimated as half the range of repeat results about the mean." },
-      { "term": "Mean", "definition": "The sum of a set of values divided by the number of values." },
-      { "term": "Range", "definition": "The difference between the largest and smallest values in a set of repeat measurements." },
-      { "term": "Anomalous result", "definition": "A result that does not fit the pattern of the other results." },
-      { "term": "Precise", "definition": "Results are precise when repeat measurements are close together (a small spread)." },
-      { "term": "Accurate", "definition": "A measurement is accurate when it is close to the true value." },
-      { "term": "Resolution", "definition": "The smallest change in a quantity that a measuring instrument can show." },
-      { "term": "Random error", "definition": "An error that makes repeat readings differ unpredictably from each other; reduced by repeating and taking a mean." }
+      {
+        "term": "Uncertainty",
+        "definition": "The interval within which the true value is expected to lie; estimated as half the range of repeat results about the mean."
+      },
+      {
+        "term": "Mean",
+        "definition": "The sum of a set of values divided by the number of values."
+      },
+      {
+        "term": "Range",
+        "definition": "The difference between the largest and smallest values in a set of repeat measurements."
+      },
+      {
+        "term": "Anomalous result",
+        "definition": "A result that does not fit the pattern of the other results."
+      },
+      {
+        "term": "Precise",
+        "definition": "Results are precise when repeat measurements are close together (a small spread)."
+      },
+      {
+        "term": "Accurate",
+        "definition": "A measurement is accurate when it is close to the true value."
+      },
+      {
+        "term": "Resolution",
+        "definition": "The smallest change in a quantity that a measuring instrument can show."
+      },
+      {
+        "term": "Random error",
+        "definition": "An error that makes repeat readings differ unpredictably from each other; reduced by repeating and taking a mean."
+      }
     ],
     "equations": [
-      { "name": "Mean", "formula": "mean = sum of values ÷ number of values", "symbols": "", "units": "same unit as the measurements", "recall": true },
-      { "name": "Range", "formula": "range = largest value − smallest value", "symbols": "", "units": "same unit as the measurements", "recall": true },
-      { "name": "Uncertainty", "formula": "uncertainty = range ÷ 2 (result written as mean ± uncertainty)", "symbols": "", "units": "same unit as the measurements", "recall": true }
+      {
+        "name": "Mean",
+        "formula": "mean = sum of values ÷ number of values",
+        "symbols": "",
+        "units": "same unit as the measurements",
+        "recall": true
+      },
+      {
+        "name": "Range",
+        "formula": "range = largest value − smallest value",
+        "symbols": "",
+        "units": "same unit as the measurements",
+        "recall": true
+      },
+      {
+        "name": "Uncertainty",
+        "formula": "uncertainty = range ÷ 2 (result written as mean ± uncertainty)",
+        "symbols": "",
+        "units": "same unit as the measurements",
+        "recall": true
+      }
     ],
     "workedExamples": [
       {
@@ -84,10 +126,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think that if they are careful enough, a measurement can have no uncertainty.", "right": "In fact every measurement has some uncertainty, because of the resolution of the equipment and random errors. Care and better equipment only reduce it." },
-      { "wrong": "Students often think the uncertainty is the whole range.", "right": "In fact AQA uses half the range: uncertainty = range ÷ 2, because the true value is expected to lie within that distance either side of the mean." },
-      { "wrong": "Students often include anomalous results when calculating a mean.", "right": "In fact anomalous results should be identified and left out of the mean, although they stay in the results table." },
-      { "wrong": "Students often think precise means the same as accurate.", "right": "In fact precise results are close to each other, while accurate results are close to the true value. Results can be precise but not accurate if there is a systematic error." }
+      {
+        "wrong": "Students often think that if they are careful enough, a measurement can have no uncertainty.",
+        "right": "In fact every measurement has some uncertainty, because of the resolution of the equipment and random errors. Care and better equipment only reduce it."
+      },
+      {
+        "wrong": "Students often think the uncertainty is the whole range.",
+        "right": "In fact AQA uses half the range: uncertainty = range ÷ 2, because the true value is expected to lie within that distance either side of the mean."
+      },
+      {
+        "wrong": "Students often include anomalous results when calculating a mean.",
+        "right": "In fact anomalous results should be identified and left out of the mean, although they stay in the results table."
+      },
+      {
+        "wrong": "Students often think precise means the same as accurate.",
+        "right": "In fact precise results are close to each other, while accurate results are close to the true value. Results can be precise but not accurate if there is a systematic error."
+      }
     ],
     "realWorld": [
       "Pharmaceutical companies report the active ingredient in tablets with an uncertainty, for example 500 ± 5 mg, so that doses are safe.",
@@ -114,200 +168,803 @@
     ]
   },
   "flashcards": [
-    { "front": "Is there always uncertainty in a measurement?", "back": "Yes. Every measurement has some uncertainty." },
-    { "front": "How do you calculate a mean?", "back": "Add all the values (excluding anomalies) and divide by the number of values." },
-    { "front": "How do you calculate the range?", "back": "Largest value − smallest value." },
-    { "front": "How does AQA estimate uncertainty from repeats?", "back": "Uncertainty = range ÷ 2, written as mean ± uncertainty." },
-    { "front": "What is an anomalous result?", "back": "A result that does not fit the pattern of the other results." },
-    { "front": "What should you do with an anomalous result?", "back": "Identify it and leave it out when calculating the mean (but keep it in the table)." },
-    { "front": "What does precise mean?", "back": "Repeat results are close together (small spread)." },
-    { "front": "What does accurate mean?", "back": "The result is close to the true value." },
-    { "front": "What is resolution?", "back": "The smallest change an instrument can measure." },
-    { "front": "Repeats: 10, 12, 11 cm³. Mean and uncertainty?", "back": "Mean 11 cm³, range 2 cm³, uncertainty ± 1 cm³: 11 ± 1 cm³." },
-    { "front": "Give two ways to reduce uncertainty.", "back": "Repeat more times and take a mean; use equipment with a better resolution." },
-    { "front": "Two results have ranges that overlap a lot. What can you conclude?", "back": "You cannot be confident there is a real difference between them." }
+    {
+      "front": "Is there always uncertainty in a measurement?",
+      "back": "Yes. Every measurement has some uncertainty."
+    },
+    {
+      "front": "How do you calculate a mean?",
+      "back": "Add all the values (excluding anomalies) and divide by the number of values."
+    },
+    {
+      "front": "How do you calculate the range?",
+      "back": "Largest value − smallest value."
+    },
+    {
+      "front": "How does AQA estimate uncertainty from repeats?",
+      "back": "Uncertainty = range ÷ 2, written as mean ± uncertainty."
+    },
+    {
+      "front": "What is an anomalous result?",
+      "back": "A result that does not fit the pattern of the other results."
+    },
+    {
+      "front": "What should you do with an anomalous result?",
+      "back": "Identify it and leave it out when calculating the mean (but keep it in the table)."
+    },
+    {
+      "front": "What does precise mean?",
+      "back": "Repeat results are close together (small spread)."
+    },
+    {
+      "front": "What does accurate mean?",
+      "back": "The result is close to the true value."
+    },
+    {
+      "front": "What is resolution?",
+      "back": "The smallest change an instrument can measure."
+    },
+    {
+      "front": "Repeats: 10, 12, 11 cm³. Mean and uncertainty?",
+      "back": "Mean 11 cm³, range 2 cm³, uncertainty ± 1 cm³: 11 ± 1 cm³."
+    },
+    {
+      "front": "Give two ways to reduce uncertainty.",
+      "back": "Repeat more times and take a mean; use equipment with a better resolution."
+    },
+    {
+      "front": "Two results have ranges that overlap a lot. What can you conclude?",
+      "back": "You cannot be confident there is a real difference between them."
+    }
   ],
   "questions": [
     {
-      "id": "c3-chemical-measurements-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What is the range of these results: 15 s, 18 s, 16 s, 17 s?",
-      "options": ["1 s", "3 s", "16.5 s", "33 s"],
+      "id": "c3-chemical-measurements-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student measures the time taken for a reaction four times.\nTable 1 shows the results.\nWhat is the range of the results?",
+      "table": {
+        "headers": [
+          "Trial",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "15"
+          ],
+          [
+            "2",
+            "18"
+          ],
+          [
+            "3",
+            "16"
+          ],
+          [
+            "4",
+            "17"
+          ]
+        ]
+      },
+      "options": [
+        "1 s",
+        "3 s",
+        "16.5 s",
+        "33 s"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: 3 s"],
+      "markScheme": [
+        "1 mark: 3 s"
+      ],
       "explanation": "Range = largest − smallest = 18 − 15 = 3 s. 16.5 s is the mean, not the range."
     },
     {
-      "id": "c3-chemical-measurements-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "How does AQA use the range of repeat measurements to estimate uncertainty?",
-      "options": ["Uncertainty = range × 2", "Uncertainty = range", "Uncertainty = range ÷ 2", "Uncertainty = mean ÷ range"],
+      "id": "c3-chemical-measurements-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How is the range of a set of repeat measurements used to estimate the uncertainty of the mean?",
+      "options": [
+        "Uncertainty = range × 2",
+        "Uncertainty = range",
+        "Uncertainty = range ÷ 2",
+        "Uncertainty = mean ÷ range"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: uncertainty = range ÷ 2"],
+      "markScheme": [
+        "1 mark: uncertainty = range ÷ 2"
+      ],
       "explanation": "The uncertainty is half the range, giving a value either side of the mean, written as mean ± uncertainty."
     },
     {
-      "id": "c3-chemical-measurements-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c3-chemical-measurements-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "What is an anomalous result?",
-      "options": ["A result that does not fit the pattern of the others", "The largest result in a set", "A result that is exactly equal to the mean", "A result recorded with a better resolution"],
+      "options": [
+        "A result that does not fit the pattern of the others",
+        "The largest result in a set",
+        "A result that is exactly equal to the mean",
+        "A result recorded with a better resolution"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: a result that does not fit the pattern of the others"],
+      "markScheme": [
+        "1 mark: a result that does not fit the pattern of the others"
+      ],
       "explanation": "Anomalous results stand out from the rest. The largest result is not anomalous unless it is clearly out of line with the others."
     },
     {
-      "id": "c3-chemical-measurements-q04", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c3-chemical-measurements-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which statement about measurements is true?",
-      "options": ["Digital instruments have no uncertainty", "Repeat measurements are always identical", "Uncertainty can be removed by careful work", "There is always some uncertainty in a measurement"],
+      "options": [
+        "Digital instruments have no uncertainty",
+        "Repeat measurements are always identical",
+        "Uncertainty can be removed by careful work",
+        "There is always some uncertainty in a measurement"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: there is always some uncertainty in a measurement"],
+      "markScheme": [
+        "1 mark: there is always some uncertainty in a measurement"
+      ],
       "explanation": "All measurements have some uncertainty. Digital instruments still have a limited resolution, and repeat readings usually vary slightly."
     },
     {
-      "id": "c3-chemical-measurements-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "A student's repeat volumes are 24.1, 24.2, 24.1 and 24.2 cm³. The true value is 25.0 cm³. How would you describe these results?",
-      "options": ["Accurate and precise", "Precise but not accurate", "Accurate but not precise", "Neither accurate nor precise"],
+      "id": "c3-chemical-measurements-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student measures a volume four times.\nTable 1 shows the results.\nThe true value of the volume is 25.0 cm³.\nWhich description of the results is correct?",
+      "table": {
+        "headers": [
+          "Trial",
+          "Volume in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "24.1"
+          ],
+          [
+            "2",
+            "24.2"
+          ],
+          [
+            "3",
+            "24.1"
+          ],
+          [
+            "4",
+            "24.2"
+          ]
+        ]
+      },
+      "options": [
+        "Accurate and precise",
+        "Precise but not accurate",
+        "Accurate but not precise",
+        "Neither accurate nor precise"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: precise but not accurate"],
+      "markScheme": [
+        "1 mark: precise but not accurate"
+      ],
       "explanation": "The results are very close together (precise) but all about 0.9 cm³ below the true value (not accurate), suggesting a systematic error."
     },
     {
-      "id": "c3-chemical-measurements-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Which balance has the best resolution?",
-      "options": ["One that reads to 1 g", "One that reads to 0.1 g", "One that reads to 0.01 g", "One that reads to 10 g"],
+      "id": "c3-chemical-measurements-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which balance has the highest resolution?",
+      "options": [
+        "One that reads to 1 g",
+        "One that reads to 0.1 g",
+        "One that reads to 0.01 g",
+        "One that reads to 10 g"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: one that reads to 0.01 g"],
+      "markScheme": [
+        "1 mark: one that reads to 0.01 g"
+      ],
       "explanation": "Resolution is the smallest change an instrument can show. 0.01 g is the smallest change of the four, so it has the best resolution."
     },
     {
-      "id": "c3-chemical-measurements-q07", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c3-chemical-measurements-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which change would most reduce the uncertainty in a mean value?",
-      "options": ["Doing fewer repeats", "Rounding all values to the nearest whole number", "Including all anomalous results", "Using equipment with a better resolution and repeating more times"],
+      "options": [
+        "Doing fewer repeats",
+        "Rounding all values to the nearest whole number",
+        "Including all anomalous results",
+        "Using equipment with a better resolution and repeating more times"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: using equipment with a better resolution and repeating more times"],
+      "markScheme": [
+        "1 mark: using equipment with a better resolution and repeating more times"
+      ],
       "explanation": "Better resolution reduces reading uncertainty, and more repeats reduce the effect of random errors. Including anomalies would make the mean less reliable."
     },
     {
-      "id": "c3-chemical-measurements-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Two catalysts are tested. Catalyst A: mean time 40 ± 6 s. Catalyst B: mean time 44 ± 5 s. Which conclusion is best?",
-      "options": ["A is definitely faster than B", "B is definitely faster than A", "The uncertainty ranges overlap, so there is no clear evidence of a difference", "The catalysts must be identical substances"],
+      "id": "c3-chemical-measurements-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student tests two catalysts for the same reaction.\nTable 1 shows the results.\nWhich conclusion is correct?",
+      "table": {
+        "headers": [
+          "Catalyst",
+          "Mean time in s",
+          "Uncertainty in s"
+        ],
+        "rows": [
+          [
+            "A",
+            "40",
+            "± 6"
+          ],
+          [
+            "B",
+            "44",
+            "± 5"
+          ]
+        ]
+      },
+      "options": [
+        "A is definitely faster than B",
+        "B is definitely faster than A",
+        "The uncertainties overlap, so there is no clear evidence of a difference",
+        "The catalysts must be the same substance"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: the uncertainty ranges overlap, so there is no clear evidence of a difference"],
+      "markScheme": [
+        "1 mark: the uncertainty ranges overlap, so there is no clear evidence of a difference"
+      ],
       "explanation": "A could be anywhere from 34 to 46 s and B from 39 to 49 s. These overlap a lot, so the difference in means may be due to random error."
     },
     {
-      "id": "c3-chemical-measurements-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "A result is recorded as 12.6 ± 0.4 cm³. Between which values is the true value expected to lie?",
-      "options": ["12.2 and 13.0 cm³", "12.4 and 12.8 cm³", "12.6 and 13.0 cm³", "12.2 and 12.6 cm³"],
+      "id": "c3-chemical-measurements-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A volume is recorded as 12.6 ± 0.4 cm³.\nBetween which two values is the true value expected to lie?",
+      "options": [
+        "12.2 and 13.0 cm³",
+        "12.4 and 12.8 cm³",
+        "12.6 and 13.0 cm³",
+        "12.2 and 12.6 cm³"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: 12.2 and 13.0 cm³"],
+      "markScheme": [
+        "1 mark: 12.2 and 13.0 cm³"
+      ],
       "explanation": "12.6 − 0.4 = 12.2 and 12.6 + 0.4 = 13.0. The uncertainty applies in both directions."
     },
     {
-      "id": "c3-chemical-measurements-q10", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Calculate the mean of these temperatures: 24.5 °C, 24.7 °C, 24.3 °C.",
-      "numericAnswer": 24.5, "tolerance": 0.01, "unit": "°C",
-      "markScheme": ["1 mark: (24.5 + 24.7 + 24.3) ÷ 3 = 24.5 °C"],
-      "explanation": "The sum is 73.5 °C. Dividing by the 3 readings gives 24.5 °C."
+      "id": "c3-chemical-measurements-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student measures the temperature of a solution three times.\nTable 1 shows the results.\nCalculate the mean temperature.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "1",
+            "24.5"
+          ],
+          [
+            "2",
+            "24.7"
+          ],
+          [
+            "3",
+            "24.3"
+          ]
+        ]
+      },
+      "numericAnswer": 24.5,
+      "tolerance": 0.01,
+      "unit": "°C",
+      "markScheme": [
+        "1 mark: (24.5 + 24.7 + 24.3) ÷ 3 = 24.5 °C"
+      ],
+      "explanation": "The sum is 73.5 °C. Dividing by the 3 readings gives 24.5 °C.",
+      "answerLabel": "Mean temperature"
     },
     {
-      "id": "c3-chemical-measurements-q11", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "A student collects these volumes of gas: 45 cm³, 47 cm³, 46 cm³, 48 cm³. Calculate the range.",
-      "numericAnswer": 3, "tolerance": 0.01, "unit": "cm³",
-      "markScheme": ["1 mark: 48 − 45 = 3 cm³"],
-      "explanation": "Range = largest − smallest value = 48 − 45 = 3 cm³."
+      "id": "c3-chemical-measurements-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student collects a gas four times in an experiment.\nTable 1 shows the volumes of gas collected.\nCalculate the range of the volumes.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Volume of gas in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "45"
+          ],
+          [
+            "2",
+            "47"
+          ],
+          [
+            "3",
+            "46"
+          ],
+          [
+            "4",
+            "48"
+          ]
+        ]
+      },
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "cm³",
+      "markScheme": [
+        "1 mark: 48 − 45 = 3 cm³"
+      ],
+      "explanation": "Range = largest − smallest value = 48 − 45 = 3 cm³.",
+      "answerLabel": "Range"
     },
     {
-      "id": "c3-chemical-measurements-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Using the volumes 45 cm³, 47 cm³, 46 cm³ and 48 cm³, calculate the uncertainty in the mean volume.",
-      "numericAnswer": 1.5, "tolerance": 0.01, "unit": "cm³",
-      "markScheme": ["1 mark: range = 3 cm³", "1 mark: uncertainty = 3 ÷ 2 = 1.5 cm³"],
-      "explanation": "Uncertainty = range ÷ 2 = 1.5 cm³, so the result is 46.5 ± 1.5 cm³."
+      "id": "c3-chemical-measurements-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student collects a gas four times in an experiment.\nTable 1 shows the volumes of gas collected.\nThe mean volume is 46.5 cm³.\nCalculate the uncertainty in the mean volume.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Volume of gas in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "45"
+          ],
+          [
+            "2",
+            "47"
+          ],
+          [
+            "3",
+            "46"
+          ],
+          [
+            "4",
+            "48"
+          ]
+        ]
+      },
+      "numericAnswer": 1.5,
+      "tolerance": 0.01,
+      "unit": "cm³",
+      "markScheme": [
+        "1 mark: range = 3 cm³",
+        "1 mark: uncertainty = 3 ÷ 2 = 1.5 cm³"
+      ],
+      "explanation": "Uncertainty = range ÷ 2 = 1.5 cm³, so the result is 46.5 ± 1.5 cm³.",
+      "answerLabel": "Uncertainty"
     },
     {
-      "id": "c3-chemical-measurements-q13", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "The times for a solution to turn cloudy were 32 s, 35 s, 52 s and 33 s. Calculate the mean time, ignoring the anomalous result. Give your answer to 1 decimal place.",
-      "numericAnswer": 33.3, "tolerance": 0.01, "unit": "s",
-      "markScheme": ["1 mark: 52 s identified as anomalous and excluded", "1 mark: (32 + 35 + 33) ÷ 3 = 33.3 s"],
-      "explanation": "52 s does not fit the pattern. 100 ÷ 3 = 33.3 s. Including 52 s would give 38 s, which is wrong."
+      "id": "c3-chemical-measurements-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the time taken for a solution to turn cloudy.\nTable 1 shows the results.\nCalculate the mean time. Do not include the anomalous result.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "32"
+          ],
+          [
+            "2",
+            "35"
+          ],
+          [
+            "3",
+            "52"
+          ],
+          [
+            "4",
+            "33"
+          ]
+        ]
+      },
+      "numericAnswer": 33.3,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 52 s identified as anomalous and excluded",
+        "1 mark: (32 + 35 + 33) ÷ 3 = 33.3 s"
+      ],
+      "explanation": "52 s does not fit the pattern. 100 ÷ 3 = 33.3 s. Including 52 s would give 38 s, which is wrong.",
+      "answerLabel": "Mean time"
     },
     {
-      "id": "c3-chemical-measurements-q14", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A student measures the mass of a product four times: 2.31 g, 2.35 g, 2.29 g, 2.33 g. Calculate the uncertainty.",
-      "numericAnswer": 0.03, "tolerance": 0.02, "unit": "g",
-      "markScheme": ["1 mark: range = 2.35 − 2.29 = 0.06 g", "1 mark: uncertainty = 0.06 ÷ 2 = 0.03 g"],
-      "explanation": "Half the range is 0.03 g. The result is 2.32 ± 0.03 g."
+      "id": "c3-chemical-measurements-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the mass of a product four times.\nTable 1 shows the results.\nCalculate the uncertainty in the mean mass.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "1",
+            "2.31"
+          ],
+          [
+            "2",
+            "2.35"
+          ],
+          [
+            "3",
+            "2.29"
+          ],
+          [
+            "4",
+            "2.33"
+          ]
+        ]
+      },
+      "numericAnswer": 0.03,
+      "tolerance": 0.02,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: range = 2.35 − 2.29 = 0.06 g",
+        "1 mark: uncertainty = 0.06 ÷ 2 = 0.03 g"
+      ],
+      "explanation": "Half the range is 0.03 g. The result is 2.32 ± 0.03 g.",
+      "answerLabel": "Uncertainty"
     },
     {
-      "id": "c3-chemical-measurements-q15", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "The volumes of acid needed to neutralise an alkali were 22.40 cm³, 22.50 cm³ and 22.35 cm³. Calculate the mean volume to 2 decimal places.",
-      "numericAnswer": 22.42, "tolerance": 0.01, "unit": "cm³",
-      "markScheme": ["1 mark: (22.40 + 22.50 + 22.35) ÷ 3", "1 mark: 22.42 cm³"],
-      "explanation": "Sum = 67.25 cm³. 67.25 ÷ 3 = 22.416... = 22.42 cm³ to 2 decimal places."
+      "id": "c3-chemical-measurements-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student does a titration three times.\nTable 1 shows the volumes of acid needed to neutralise the alkali.\nCalculate the mean volume.\nGive your answer to 2 decimal places.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Volume of acid in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "22.40"
+          ],
+          [
+            "2",
+            "22.50"
+          ],
+          [
+            "3",
+            "22.35"
+          ]
+        ]
+      },
+      "numericAnswer": 22.42,
+      "tolerance": 0.01,
+      "unit": "cm³",
+      "markScheme": [
+        "1 mark: (22.40 + 22.50 + 22.35) ÷ 3",
+        "1 mark: 22.42 cm³"
+      ],
+      "explanation": "Sum = 67.25 cm³. 67.25 ÷ 3 = 22.416... = 22.42 cm³ to 2 decimal places.",
+      "answerLabel": "Mean volume"
     },
     {
-      "id": "c3-chemical-measurements-q16", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A student records these times: 36 s, 38 s, 41 s, 37 s, 38 s. None are anomalous. Calculate the uncertainty in the mean.",
-      "numericAnswer": 2.5, "tolerance": 0.01, "unit": "s",
-      "markScheme": ["1 mark: mean = 190 ÷ 5 = 38 s", "1 mark: range = 41 − 36 = 5 s", "1 mark: uncertainty = 5 ÷ 2 = 2.5 s"],
-      "explanation": "The result is 38 ± 2.5 s. The uncertainty is half the range, not the whole range."
+      "id": "c3-chemical-measurements-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student records the time for a reaction five times.\nTable 1 shows the results. None of the results are anomalous.\nCalculate the uncertainty in the mean time.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "36"
+          ],
+          [
+            "2",
+            "38"
+          ],
+          [
+            "3",
+            "41"
+          ],
+          [
+            "4",
+            "37"
+          ],
+          [
+            "5",
+            "38"
+          ]
+        ]
+      },
+      "numericAnswer": 2.5,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: mean = 190 ÷ 5 = 38 s",
+        "1 mark: range = 41 − 36 = 5 s",
+        "1 mark: uncertainty = 5 ÷ 2 = 2.5 s"
+      ],
+      "explanation": "The result is 38 ± 2.5 s. The uncertainty is half the range, not the whole range.",
+      "answerLabel": "Uncertainty"
     },
     {
-      "id": "c3-chemical-measurements-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "The time for a reaction is recorded as 38 ± 2.5 s. Calculate the lowest value that the true time is expected to have.",
-      "numericAnswer": 35.5, "tolerance": 0.01, "unit": "s",
-      "markScheme": ["1 mark: 38 − 2.5", "1 mark: 35.5 s"],
-      "explanation": "The true value is expected to lie between 38 − 2.5 = 35.5 s and 38 + 2.5 = 40.5 s."
+      "id": "c3-chemical-measurements-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The time for a reaction is recorded as 38 ± 2.5 s.\nCalculate the lowest value that the true time is expected to have.",
+      "numericAnswer": 35.5,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: 38 − 2.5",
+        "1 mark: 35.5 s"
+      ],
+      "explanation": "The true value is expected to lie between 38 − 2.5 = 35.5 s and 38 + 2.5 = 40.5 s.",
+      "answerLabel": "Lowest time"
     },
     {
-      "id": "c3-chemical-measurements-q18", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "State why scientists repeat measurements.",
-      "acceptedAnswers": ["to calculate a mean", "to identify anomalous results", "to check repeatability", "to reduce the effect of random errors"],
-      "markScheme": ["1 mark: to identify anomalous results / calculate a mean / check results are repeatable / reduce the effect of random errors"],
+      "id": "c3-chemical-measurements-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give one reason why scientists repeat measurements.",
+      "acceptedAnswers": [
+        "to calculate a mean",
+        "to identify anomalous results",
+        "to check repeatability",
+        "to reduce the effect of random errors"
+      ],
+      "markScheme": [
+        "1 mark: to identify anomalous results / calculate a mean / check results are repeatable / reduce the effect of random errors"
+      ],
       "explanation": "Repeats let you spot anomalies and calculate a mean, which is a better estimate of the true value than a single reading."
     },
     {
-      "id": "c3-chemical-measurements-q19", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Define the term resolution of a measuring instrument.",
-      "acceptedAnswers": ["smallest change it can measure", "smallest change that can be detected", "smallest scale division"],
-      "markScheme": ["1 mark: the smallest change in the quantity that the instrument can measure (show)"],
+      "id": "c3-chemical-measurements-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the resolution of a measuring instrument?",
+      "acceptedAnswers": [
+        "smallest change it can measure",
+        "smallest change that can be detected",
+        "smallest scale division"
+      ],
+      "markScheme": [
+        "1 mark: the smallest change in the quantity that the instrument can measure (show)"
+      ],
       "explanation": "A balance with a resolution of 0.01 g can show changes as small as 0.01 g."
     },
     {
-      "id": "c3-chemical-measurements-q20", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c3-chemical-measurements-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain the difference between precise and accurate results.",
-      "acceptedAnswers": ["precise: close together", "accurate: close to the true value"],
-      "markScheme": ["1 mark: precise results have a small spread (repeat values close together)", "1 mark: accurate results are close to the true value"],
+      "acceptedAnswers": [
+        "precise: close together",
+        "accurate: close to the true value"
+      ],
+      "markScheme": [
+        "1 mark: precise results have a small spread (repeat values close together)",
+        "1 mark: accurate results are close to the true value"
+      ],
       "explanation": "Results can be precise without being accurate, for example if every reading is wrong by the same amount because of a systematic error."
     },
     {
-      "id": "c3-chemical-measurements-q21", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Explain why a burette gives a measurement of volume with less uncertainty than a 100 cm³ measuring cylinder.",
-      "acceptedAnswers": ["better resolution", "smaller scale divisions", "reads to 0.05 cm³", "0.1 cm³ divisions"],
-      "markScheme": ["1 mark: the burette has smaller scale divisions (better resolution, for example 0.1 cm³ divisions)", "1 mark: so it can measure smaller changes in volume and the reading uncertainty is smaller"],
+      "id": "c3-chemical-measurements-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Figure 1 shows part of the scale on a burette and part of the scale on a 100 cm³ measuring cylinder.\nExplain why the burette measures a volume with a lower uncertainty than the measuring cylinder.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"95\" y=\"20\" width=\"30\" height=\"220\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"95\" y1=\"30\" x2=\"113\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"34\" font-size=\"12\" fill=\"currentColor\">23</text><line x1=\"95\" y1=\"50\" x2=\"105\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"70\" x2=\"105\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"90\" x2=\"105\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"110\" x2=\"105\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"130\" x2=\"113\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"150\" x2=\"105\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"170\" x2=\"105\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"190\" x2=\"105\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"210\" x2=\"105\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"95\" y1=\"230\" x2=\"113\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"234\" font-size=\"12\" fill=\"currentColor\">24</text><text x=\"110\" y=\"262\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">burette</text><text x=\"110\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">(cm³)</text><rect x=\"275\" y=\"20\" width=\"50\" height=\"220\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"275\" y1=\"230\" x2=\"300\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"332\" y=\"234\" font-size=\"12\" fill=\"currentColor\">40</text><line x1=\"275\" y1=\"220\" x2=\"286\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"210\" x2=\"286\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"200\" x2=\"286\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"190\" x2=\"286\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"180\" x2=\"292\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"170\" x2=\"286\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"160\" x2=\"286\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"150\" x2=\"286\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"140\" x2=\"286\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"130\" x2=\"300\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"332\" y=\"134\" font-size=\"12\" fill=\"currentColor\">50</text><line x1=\"275\" y1=\"120\" x2=\"286\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"110\" x2=\"286\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"100\" x2=\"286\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"90\" x2=\"286\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"80\" x2=\"292\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"70\" x2=\"286\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"60\" x2=\"286\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"50\" x2=\"286\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"40\" x2=\"286\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"275\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"332\" y=\"34\" font-size=\"12\" fill=\"currentColor\">60</text><text x=\"300\" y=\"262\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">100 cm³ measuring cylinder</text><text x=\"300\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">(cm³)</text></svg>"
+      },
+      "acceptedAnswers": [
+        "better resolution",
+        "smaller scale divisions",
+        "reads to 0.05 cm³",
+        "0.1 cm³ divisions"
+      ],
+      "markScheme": [
+        "1 mark: the burette has smaller scale divisions (better resolution, for example 0.1 cm³ divisions)",
+        "1 mark: so it can measure smaller changes in volume and the reading uncertainty is smaller"
+      ],
       "explanation": "A burette has 0.1 cm³ divisions and can be read to the nearest 0.05 cm³, while a 100 cm³ measuring cylinder has divisions of 1 cm³."
     },
     {
-      "id": "c3-chemical-measurements-q22", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A student's results for the volume of gas made are 31, 30, 42 and 31 cm³. Identify the anomalous result and explain what the student should do with it.",
-      "acceptedAnswers": ["42", "leave it out of the mean", "ignore when calculating the mean", "repeat the measurement"],
-      "markScheme": ["1 mark: 42 cm³ is anomalous", "1 mark: leave it out when calculating the mean (or repeat the measurement)"],
+      "id": "c3-chemical-measurements-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the volume of gas produced in a reaction four times.\nTable 1 shows the results.\nIdentify the anomalous result.\nExplain what the student should do with the anomalous result.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Volume of gas in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "31"
+          ],
+          [
+            "2",
+            "30"
+          ],
+          [
+            "3",
+            "42"
+          ],
+          [
+            "4",
+            "31"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "42",
+        "leave it out of the mean",
+        "ignore when calculating the mean",
+        "repeat the measurement"
+      ],
+      "markScheme": [
+        "1 mark: 42 cm³ is anomalous",
+        "1 mark: leave it out when calculating the mean (or repeat the measurement)"
+      ],
       "explanation": "42 cm³ is far from the other three values. The mean of the rest is (31 + 30 + 31) ÷ 3 = 30.7 cm³."
     },
     {
-      "id": "c3-chemical-measurements-q23", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "Student A's repeat results are 20.1, 20.3 and 20.2 cm³. Student B's are 19.0, 21.4 and 20.2 cm³. Both have a mean of 20.2 cm³. Compare the uncertainty of the two sets of results.",
-      "acceptedAnswers": ["A has a smaller range", "A ± 0.1", "B ± 1.2", "A is more precise"],
-      "markScheme": ["1 mark: A: range 0.2, uncertainty ± 0.1 cm³", "1 mark: B: range 2.4, uncertainty ± 1.2 cm³", "1 mark: A's results are more precise / have lower uncertainty"],
+      "id": "c3-chemical-measurements-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Two students each measure the same volume three times.\nTable 1 shows the results. Both students have a mean of 20.2 cm³.\nCompare the uncertainty of the two sets of results.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Student A volume in cm³",
+          "Student B volume in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "20.1",
+            "19.0"
+          ],
+          [
+            "2",
+            "20.3",
+            "21.4"
+          ],
+          [
+            "3",
+            "20.2",
+            "20.2"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "A has a smaller range",
+        "A ± 0.1",
+        "B ± 1.2",
+        "A is more precise"
+      ],
+      "markScheme": [
+        "1 mark: A: range 0.2, uncertainty ± 0.1 cm³",
+        "1 mark: B: range 2.4, uncertainty ± 1.2 cm³",
+        "1 mark: A's results are more precise / have lower uncertainty"
+      ],
       "explanation": "The same mean can hide very different spreads. A's narrow range gives much lower uncertainty than B's."
     },
     {
-      "id": "c3-chemical-measurements-q24", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "id": "c3-chemical-measurements-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
       "question": "Suggest why a systematic error is not reduced by repeating a measurement many times.",
-      "acceptedAnswers": ["same error every time", "shifts all readings by the same amount", "mean is still wrong"],
-      "markScheme": ["1 mark: a systematic error affects every reading in the same way (by the same amount)", "1 mark: so the mean is shifted too; repeating only reduces random errors"],
+      "acceptedAnswers": [
+        "same error every time",
+        "shifts all readings by the same amount",
+        "mean is still wrong"
+      ],
+      "markScheme": [
+        "1 mark: a systematic error affects every reading in the same way (by the same amount)",
+        "1 mark: so the mean is shifted too; repeating only reduces random errors"
+      ],
       "explanation": "For example, a balance that reads 0.5 g too high makes every reading 0.5 g too high, so the mean is also 0.5 g too high."
     },
     {
-      "id": "c3-chemical-measurements-q25", "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "A student measures the time for a magnesium strip to react completely with acid. The results are 64 s, 58 s, 62 s, 60 s.\nCalculate the mean and the uncertainty, and write the result in the form mean ± uncertainty. Suggest one way the student could reduce the uncertainty.",
+      "id": "c3-chemical-measurements-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student measures the time for a magnesium strip to react completely with acid.\nTable 1 shows the results.\nCalculate the mean time and the uncertainty. Write the result in the form mean ± uncertainty.\nSuggest one way the student could reduce the uncertainty.",
+      "table": {
+        "headers": [
+          "Trial",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "64"
+          ],
+          [
+            "2",
+            "58"
+          ],
+          [
+            "3",
+            "62"
+          ],
+          [
+            "4",
+            "60"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: mean = (64 + 58 + 62 + 60) ÷ 4 = 244 ÷ 4 = 61 s; range = 64 − 58 = 6 s; uncertainty = 6 ÷ 2 = 3 s; result 61 ± 3 s; improvements: more repeats, use the same length (mass) of magnesium cut more carefully, start and stop the timer consistently (same person), use a data logger.",
         "Level 2 (3 to 4 marks): correct mean, range, uncertainty and final form, with a sensible improvement.",
@@ -316,8 +973,44 @@
       "explanation": "Mean 61 s, range 6 s, uncertainty 3 s, so 61 ± 3 s. Reducing human timing error or doing more repeats would reduce the uncertainty."
     },
     {
-      "id": "c3-chemical-measurements-q26", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "Two students measure the volume of carbon dioxide produced when 1.0 g of marble chips reacts with excess acid.\nStudent 1 (measuring cylinder over water): 182, 196, 170, 190 cm³.\nStudent 2 (gas syringe): 222, 225, 223, 226 cm³.\nThe expected volume is 240 cm³.\nEvaluate the two sets of results. Include calculations of means and uncertainties, and comment on precision, accuracy and possible sources of error.",
+      "id": "c3-chemical-measurements-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Two students measure the volume of carbon dioxide produced when 1.0 g of marble chips reacts with excess acid.\nFigure 1 shows the apparatus each student used.\nTable 1 shows the results. The expected volume of carbon dioxide is 240 cm³.\nEvaluate the two sets of results.\nInclude calculations of the means and uncertainties, and comment on precision, accuracy and possible sources of error.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 530 290\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"110\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Student 1</text><text x=\"380\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Student 2</text><path d=\"M29.4,212.5 L22.5,230 L97.5,230 L90.6,212.5 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"none\" stroke-width=\"1.5\"/><path d=\"M50,130 L50,160 L22.5,230 L97.5,230 L70,160 L70,130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"51\" y=\"122\" width=\"18\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M60,122 L60,100 L120,100 L120,228 L150,228 L150,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M110,170 L110,240 L230,240 L230,170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"111\" y=\"180\" width=\"118\" height=\"59\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M135,215 L135,60 L165,60 L165,215\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"136\" y=\"110\" width=\"28\" height=\"105\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"165\" y1=\"80\" x2=\"173\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"176\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">measuring</text><text x=\"176\" y=\"85\" font-size=\"13\" fill=\"currentColor\">cylinder</text><line x1=\"200\" y1=\"230\" x2=\"173\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"176\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">water</text><text x=\"60\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">marble chips</text><text x=\"60\" y=\"277\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and acid</text><path d=\"M279.4,212.5 L272.5,230 L347.5,230 L340.6,212.5 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"none\" stroke-width=\"1.5\"/><path d=\"M300,130 L300,160 L272.5,230 L347.5,230 L320,160 L320,130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"301\" y=\"122\" width=\"18\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M310,122 L310,110 L340,110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"340\" y=\"98\" width=\"130\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"350\" y1=\"98\" x2=\"350\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"361\" y1=\"98\" x2=\"361\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"372\" y1=\"98\" x2=\"372\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"383\" y1=\"98\" x2=\"383\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"394\" y1=\"98\" x2=\"394\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"405\" y1=\"98\" x2=\"405\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"416\" y1=\"98\" x2=\"416\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"427\" y1=\"98\" x2=\"427\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"438\" y1=\"98\" x2=\"438\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"449\" y1=\"98\" x2=\"449\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"460\" y1=\"98\" x2=\"460\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"399.5\" y=\"99\" width=\"6\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"405.5\" y1=\"110\" x2=\"510\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"510\" y1=\"98\" x2=\"510\" y2=\"122\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"400\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">gas syringe</text><text x=\"310\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">marble chips</text><text x=\"310\" y=\"277\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and acid</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Trial",
+          "Student 1 volume in cm³",
+          "Student 2 volume in cm³"
+        ],
+        "rows": [
+          [
+            "1",
+            "182",
+            "222"
+          ],
+          [
+            "2",
+            "196",
+            "225"
+          ],
+          [
+            "3",
+            "170",
+            "223"
+          ],
+          [
+            "4",
+            "190",
+            "226"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: Student 1 mean = 738 ÷ 4 = 184.5 cm³; range 26; uncertainty ± 13 cm³. Student 2 mean = 896 ÷ 4 = 224 cm³; range 4; uncertainty ± 2 cm³. Student 2 more precise (smaller range). Student 2 closer to 240 so more accurate. Both below the expected value: some gas escapes before the bung is fitted, or CO₂ dissolves in water (especially Student 1, collecting over water), or impure marble chips. Gas syringe has better resolution and less gas lost than collecting over water. Suggest improvements such as using a divided flask so reactants mix after the bung is in, more repeats, a gas syringe.",
         "Level 3 (5 to 6 marks): correct means and uncertainties, with a clear evaluation of precision and accuracy and well-reasoned sources of error linked to the methods.",
@@ -327,7 +1020,11 @@
       "explanation": "Student 2's results (224 ± 2 cm³) are both more precise and more accurate than Student 1's (184.5 ± 13 cm³). Both are below 240 cm³, which points to systematic errors such as gas escaping or dissolving."
     },
     {
-      "id": "c3-chemical-measurements-q27", "type": "extended", "tier": "both", "difficulty": 1, "marks": 4,
+      "id": "c3-chemical-measurements-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 4,
       "question": "Describe how a student should process a set of five repeat measurements to give a final result with an uncertainty.",
       "markScheme": [
         "Indicative content: look for any anomalous results that do not fit the pattern; leave them out (or repeat those measurements); add the remaining values; divide by the number of values to find the mean; find the range (largest − smallest); uncertainty = range ÷ 2; write the result as mean ± uncertainty with units; give a sensible number of decimal places.",

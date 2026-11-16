@@ -83,11 +83,46 @@
       "Mean bubbles per minute"
     ],
     "rows": [
-      ["10", "100", "52", "48", "50", "50"],
-      ["20", "25.0", "30", "33", "30", "31"],
-      ["30", "11.1", "18", "16", "17", "17"],
-      ["40", "6.25", "10", "9", "11", "10"],
-      ["50", "4.00", "6", "7", "5", "6"]
+      [
+        "10",
+        "100",
+        "52",
+        "48",
+        "50",
+        "50"
+      ],
+      [
+        "20",
+        "25.0",
+        "30",
+        "33",
+        "30",
+        "31"
+      ],
+      [
+        "30",
+        "11.1",
+        "18",
+        "16",
+        "17",
+        "17"
+      ],
+      [
+        "40",
+        "6.25",
+        "10",
+        "9",
+        "11",
+        "10"
+      ],
+      [
+        "50",
+        "4.00",
+        "6",
+        "7",
+        "5",
+        "6"
+      ]
     ],
     "notes": "Relative light intensity is calculated using the inverse square law, light intensity ∝ 1 ÷ d². Multiplying by 10 000 gives convenient numbers: at 20 cm, 10 000 ÷ 20² = 25. Plot mean bubbles per minute against distance (a curve that falls as distance increases) or against relative light intensity (a curve that rises steeply and then starts to level off)."
   },
@@ -136,9 +171,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which gas is mainly found in the bubbles released by the pondweed in bright light?",
-      "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Water vapour"],
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Water vapour"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: oxygen"],
+      "markScheme": [
+        "1 mark: oxygen"
+      ],
       "explanation": "Oxygen is a product of photosynthesis. Carbon dioxide is used up in photosynthesis, so it is not released in bright light. The bubbles may contain small amounts of other gases, but they are mostly oxygen."
     },
     {
@@ -155,7 +197,9 @@
         "To absorb heat from the lamp"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: it releases (provides) carbon dioxide, so carbon dioxide is not a limiting factor"],
+      "markScheme": [
+        "1 mark: it releases (provides) carbon dioxide, so carbon dioxide is not a limiting factor"
+      ],
       "explanation": "Carbon dioxide is a reactant in photosynthesis. Providing plenty of it means the rate depends on light intensity, the variable being tested. Plants make their own glucose, and heat is absorbed by a heat shield, not by the solution."
     },
     {
@@ -164,9 +208,16 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "After the lamp is moved, the pondweed is left for 5 minutes before the bubbles are counted. Give the reason for this.",
-      "acceptedAnswers": ["to adjust to new light intensity", "acclimatise", "rate to become steady", "rate to stabilise"],
-      "markScheme": ["1 mark: to allow the pondweed to adjust to the new light intensity (so the rate of photosynthesis becomes steady)"],
+      "question": "In this investigation, the pondweed is left for 5 minutes after the lamp is moved, before the bubbles are counted.\nGive the reason for this.",
+      "acceptedAnswers": [
+        "to adjust to new light intensity",
+        "acclimatise",
+        "rate to become steady",
+        "rate to stabilise"
+      ],
+      "markScheme": [
+        "1 mark: to allow the pondweed to adjust to the new light intensity (so the rate of photosynthesis becomes steady)"
+      ],
       "explanation": "The rate does not change instantly when light intensity changes. Waiting allows the rate to settle so the count reflects the new light intensity."
     },
     {
@@ -175,7 +226,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A student uses a filament lamp. Why should a beaker of water be placed between the lamp and the pondweed?",
+      "question": "Figure 1 shows the apparatus a student used to investigate the effect of light intensity on the rate of photosynthesis.\nThe student used a filament lamp.\nWhy should a beaker of water be placed between the lamp and the pondweed?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 280\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"50\" cy=\"120\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M72 104v32M40 142v68h20v-68\"/><path d=\"M140 80v130h80V80\"/><path d=\"M140 100v110h80V100Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M300 40v170a14 14 0 0 0 28 0V40\"/><path d=\"M300 70v140a14 14 0 0 0 28 0V70Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M314 215c-2-30 4-60 0-110M314 180l-8-12M314 150l8-12M314 125l-7-10\" stroke-width=\"2\"/><path d=\"M20 240h400v14H20z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/></g><path d=\"M20 240v9M40 240v5M60 240v5M80 240v5M100 240v5M120 240v9M140 240v5M160 240v5M180 240v5M200 240v5M220 240v9M240 240v5M260 240v5M280 240v5M300 240v5M320 240v9M340 240v5M360 240v5M380 240v5M400 240v5M420 240v9\" stroke=\"currentColor\"/><text x=\"10\" y=\"85\" font-size=\"12\" fill=\"currentColor\">Lamp</text><path d=\"M34 89L42 101\" stroke=\"currentColor\"/><text x=\"130\" y=\"40\" font-size=\"12\" fill=\"currentColor\">Beaker of water</text><path d=\"M170 44L180 98\" stroke=\"currentColor\"/><text x=\"340\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Boiling tube</text><path d=\"M338 34L328 50\" stroke=\"currentColor\"/><text x=\"340\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Pondweed</text><path d=\"M338 116L318 130\" stroke=\"currentColor\"/><text x=\"340\" y=\"168\" font-size=\"12\" fill=\"currentColor\">Sodium</text><text x=\"340\" y=\"182\" font-size=\"12\" fill=\"currentColor\">hydrogencarbonate</text><text x=\"340\" y=\"196\" font-size=\"12\" fill=\"currentColor\">solution</text><path d=\"M338 182L324 190\" stroke=\"currentColor\"/><text x=\"220\" y=\"275\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Metre rule</text></svg>"
+      },
       "options": [
         "To reduce the light intensity reaching the pondweed",
         "To provide extra water for photosynthesis",
@@ -183,7 +237,9 @@
         "To focus the light onto the pondweed"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: to absorb heat from the lamp (so temperature does not change and is controlled)"],
+      "markScheme": [
+        "1 mark: to absorb heat from the lamp (so temperature does not change and is controlled)"
+      ],
       "explanation": "Filament lamps give out a lot of heat, especially when close. Temperature also affects the rate of photosynthesis, so it must be kept constant. Using an LED lamp is another way to avoid this problem."
     },
     {
@@ -192,12 +248,35 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "With the lamp 20 cm away, a student counted 30, 33 and 30 bubbles per minute.\nCalculate the mean number of bubbles per minute.",
+      "question": "A student counted the number of bubbles released by pondweed with the lamp 20 cm away.\nTable 1 shows the results.\nCalculate the mean number of bubbles per minute.",
+      "table": {
+        "headers": [
+          "Repeat",
+          "Number of bubbles per minute"
+        ],
+        "rows": [
+          [
+            "1",
+            "30"
+          ],
+          [
+            "2",
+            "33"
+          ],
+          [
+            "3",
+            "30"
+          ]
+        ]
+      },
       "numericAnswer": 31,
       "tolerance": 0.01,
       "unit": "bubbles per minute",
-      "markScheme": ["1 mark: (30 + 33 + 30) ÷ 3 = 31"],
-      "explanation": "Add the three counts (93) and divide by 3 to give a mean of 31 bubbles per minute."
+      "markScheme": [
+        "1 mark: (30 + 33 + 30) ÷ 3 = 31"
+      ],
+      "explanation": "Add the three counts (93) and divide by 3 to give a mean of 31 bubbles per minute.",
+      "answerLabel": "Mean number of bubbles"
     },
     {
       "id": "bio-rp6-q06",
@@ -205,12 +284,15 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Light intensity can be calculated as relative light intensity = 1 ÷ d², where d is the distance in cm.\nCalculate the relative light intensity when the lamp is 20 cm from the pondweed.",
+      "question": "The lamp is 20 cm from the pondweed.\nCalculate the relative light intensity.\nUse the equation:\nrelative light intensity = 1 ÷ d²\nwhere d is the distance from the lamp in cm.",
       "numericAnswer": 0.0025,
       "tolerance": 0.01,
       "unit": "",
-      "markScheme": ["1 mark: 1 ÷ 20² = 1 ÷ 400 = 0.0025"],
-      "explanation": "Square the distance first (20² = 400), then divide 1 by it: 0.0025. Dividing 1 by 20 (giving 0.05) forgets to square the distance."
+      "markScheme": [
+        "1 mark: 1 ÷ 20² = 1 ÷ 400 = 0.0025"
+      ],
+      "explanation": "Square the distance first (20² = 400), then divide 1 by it: 0.0025. Dividing 1 by 20 (giving 0.05) forgets to square the distance.",
+      "answerLabel": "Relative light intensity"
     },
     {
       "id": "bio-rp6-q07",
@@ -218,12 +300,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A lamp is moved from 10 cm to 30 cm away from the pondweed.\nUse the inverse square law to calculate how many times lower the light intensity becomes.",
+      "question": "A lamp is moved from 10 cm to 30 cm away from the pondweed.\nLight intensity is inversely proportional to the square of the distance from the lamp.\nCalculate how many times lower the light intensity becomes.",
       "numericAnswer": 9,
       "tolerance": 0.01,
       "unit": "",
-      "markScheme": ["1 mark: distance increases by a factor of 3", "1 mark: intensity decreases by a factor of 3² = 9"],
-      "explanation": "Light intensity ∝ 1 ÷ d². Tripling the distance divides the intensity by 3² = 9. A common error is to think it falls by a factor of 3."
+      "markScheme": [
+        "1 mark: distance increases by a factor of 3",
+        "1 mark: intensity decreases by a factor of 3² = 9"
+      ],
+      "explanation": "Light intensity ∝ 1 ÷ d². Tripling the distance divides the intensity by 3² = 9. A common error is to think it falls by a factor of 3.",
+      "answerLabel": "Number of times lower"
     },
     {
       "id": "bio-rp6-q08",
@@ -231,12 +317,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "In an improved version of the experiment, 2.4 cm³ of oxygen was collected in a gas syringe in 4 minutes.\nCalculate the rate of oxygen production in cm³ per minute.",
+      "question": "A student improved the investigation by collecting the oxygen in a gas syringe.\nFigure 1 shows the gas syringe after 4 minutes. The syringe was empty at the start.\nCalculate the rate of oxygen production in cm³ per minute.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 170\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M60 70h310v50H60z\"/><path d=\"M60 70h144v50H60z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M204 72v46\" stroke-width=\"5\"/><path d=\"M204 95h220M424 78v34\"/><path d=\"M60 90H40v10h20M40 95H10\"/></g><path d=\"M60 70v-13M72 70v-7M84 70v-7M96 70v-7M108 70v-7M120 70v-13M132 70v-7M144 70v-7M156 70v-7M168 70v-7M180 70v-13M192 70v-7M204 70v-7M216 70v-7M228 70v-7M240 70v-13M252 70v-7M264 70v-7M276 70v-7M288 70v-7M300 70v-13M312 70v-7M324 70v-7M336 70v-7M348 70v-7M360 70v-13\" stroke=\"currentColor\"/><text x=\"60\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"120\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"180\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"240\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"300\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"360\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"215\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Volume in cm³</text><text x=\"10\" y=\"140\" font-size=\"12\" fill=\"currentColor\">Tube from</text><text x=\"10\" y=\"154\" font-size=\"12\" fill=\"currentColor\">pondweed</text><path d=\"M24 128L24 98\" stroke=\"currentColor\"/><text x=\"210\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Plunger</text><path d=\"M210 138L230 98\" stroke=\"currentColor\"/><text x=\"120\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Oxygen</text><path d=\"M120 138L130 112\" stroke=\"currentColor\"/></svg>"
+      },
       "numericAnswer": 0.6,
       "tolerance": 0.01,
       "unit": "cm³/min",
-      "markScheme": ["1 mark: 2.4 ÷ 4 = 0.6 cm³/min"],
-      "explanation": "Rate = volume of gas ÷ time = 2.4 ÷ 4 = 0.6 cm³ per minute."
+      "markScheme": [
+        "1 mark: 2.4 ÷ 4 = 0.6 cm³/min (volume read from the syringe is 2.4 cm³)"
+      ],
+      "explanation": "The plunger is 2 small divisions past 2 cm³ and each small division is 0.2 cm³, so 2.4 cm³ of oxygen was collected. Rate = volume of gas ÷ time = 2.4 ÷ 4 = 0.6 cm³ per minute.",
+      "answerLabel": "Rate of oxygen production"
     },
     {
       "id": "bio-rp6-q09",
@@ -244,9 +336,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Counting bubbles is not a very accurate way to measure the rate of photosynthesis. Give one reason why, and suggest a better method.",
-      "acceptedAnswers": ["bubbles are different sizes", "bubbles too fast to count", "collect gas in a gas syringe", "measure volume in measuring cylinder"],
-      "markScheme": ["1 mark: bubbles are different sizes (or are released too quickly to count accurately)", "1 mark: collect the gas and measure its volume, for example with a gas syringe or upturned measuring cylinder"],
+      "question": "Figure 1 shows bubbles of gas being released by a piece of pondweed.\nCounting bubbles is not a very accurate way to measure the rate of photosynthesis.\nGive one reason why.\nSuggest a better method.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M120 20v200a16 16 0 0 0 32 0V20\"/><path d=\"M120 30v190a16 16 0 0 0 32 0V30Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M136 230c-3-30 4-60 0-90M136 200l-9-12M136 175l9-12M136 155l-8-10\" stroke-width=\"2\"/></g><circle cx=\"137\" cy=\"40\" r=\"3\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"135\" cy=\"62\" r=\"7\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"139\" cy=\"88\" r=\"4\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"136\" cy=\"105\" r=\"9\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"138\" cy=\"128\" r=\"3\" fill=\"none\" stroke=\"currentColor\"/><text x=\"170\" y=\"70\" font-size=\"12\" fill=\"currentColor\">Bubbles of gas</text><path d=\"M168 66L146 64\" stroke=\"currentColor\"/><text x=\"170\" y=\"190\" font-size=\"12\" fill=\"currentColor\">Pondweed</text><path d=\"M168 186L140 186\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "bubbles are different sizes",
+        "bubbles too fast to count",
+        "collect gas in a gas syringe",
+        "measure volume in measuring cylinder"
+      ],
+      "markScheme": [
+        "1 mark: bubbles are different sizes (or are released too quickly to count accurately)",
+        "1 mark: collect the gas and measure its volume, for example with a gas syringe or upturned measuring cylinder"
+      ],
       "explanation": "Two bubbles might contain very different volumes of oxygen. Measuring total volume avoids this problem and gives more accurate results."
     },
     {
@@ -255,9 +358,21 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "When rate of photosynthesis was plotted against relative light intensity, the curve began to level off at high light intensities. Explain why.",
-      "acceptedAnswers": ["another factor is limiting", "carbon dioxide limiting", "temperature limiting", "light no longer limiting", "chlorophyll limiting"],
-      "markScheme": ["1 mark: light intensity is no longer the limiting factor", "1 mark: another factor, such as carbon dioxide concentration, temperature or amount of chlorophyll, is now limiting the rate"],
+      "question": "Figure 1 shows a student's results.\nExplain why the curve levels off at high light intensities.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80.1 14V254M98.2 14V254M116.3 14V254M152.5 14V254M170.6 14V254M188.7 14V254M224.9 14V254M243 14V254M261.1 14V254M297.3 14V254M315.4 14V254M333.5 14V254M369.7 14V254M387.8 14V254M405.9 14V254M62 246H424M62 238H424M62 230H424M62 222H424M62 206H424M62 198H424M62 190H424M62 182H424M62 166H424M62 158H424M62 150H424M62 142H424M62 126H424M62 118H424M62 110H424M62 102H424M62 86H424M62 78H424M62 70H424M62 62H424M62 46H424M62 38H424M62 30H424M62 22H424\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M62 14V254M134.4 14V254M206.8 14V254M279.2 14V254M351.6 14V254M424 14V254M62 254H424M62 214H424M62 174H424M62 134H424M62 94H424M62 54H424M62 14H424\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M62 14V254H424\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M62 254C64.4 249.8 72.7 235.3 76.5 228.8C80.3 222.3 80.3 221.9 84.6 214.8C88.9 207.7 96.3 194.9 102.2 186C108.1 177.1 111.5 170.5 119.9 161.2C128.3 151.9 138 140.9 152.5 130C167 119.1 185.7 105.7 206.8 96C227.9 86.3 255.1 78.1 279.2 72C303.3 65.9 327.5 62.6 351.6 59.6C375.7 56.6 411.9 54.9 424 54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M72.5 226l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M80.6 210l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M98.2 182l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M148.5 126l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M420 50l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"62\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"134.4\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"206.8\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"279.2\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"351.6\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"424\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><text x=\"56\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"218\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"56\" y=\"178\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"56\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"56\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"56\" y=\"58\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"56\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"243\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Relative light intensity</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Mean number of bubbles per minute</text></svg>"
+      },
+      "acceptedAnswers": [
+        "another factor is limiting",
+        "carbon dioxide limiting",
+        "temperature limiting",
+        "light no longer limiting",
+        "chlorophyll limiting"
+      ],
+      "markScheme": [
+        "1 mark: light intensity is no longer the limiting factor",
+        "1 mark: another factor, such as carbon dioxide concentration, temperature or amount of chlorophyll, is now limiting the rate"
+      ],
       "explanation": "Increasing a factor only increases the rate while that factor is limiting. Once something else is in short supply, extra light makes little difference."
     },
     {
@@ -266,7 +381,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the dependent variable in this investigation?",
+      "question": "What is the dependent variable in an investigation into the effect of light intensity on the rate of photosynthesis in pondweed?",
       "options": [
         "The distance of the lamp from the pondweed",
         "The temperature of the water",
@@ -274,7 +389,9 @@
         "The number of bubbles produced per minute"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: number of bubbles per minute (rate of oxygen production)"],
+      "markScheme": [
+        "1 mark: number of bubbles per minute (rate of oxygen production)"
+      ],
       "explanation": "The dependent variable is what is measured: bubbles per minute. Distance is the independent variable, while temperature and sodium hydrogencarbonate concentration are control variables."
     },
     {
@@ -284,8 +401,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Explain why this investigation should be carried out in a darkened room.",
-      "acceptedAnswers": ["other light sources", "only light from the lamp", "light intensity controlled by distance", "background light changes"],
-      "markScheme": ["1 mark: so that the only light reaching the pondweed is from the lamp", "1 mark: so light intensity depends only on the distance from the lamp (other light would change the light intensity)"],
+      "acceptedAnswers": [
+        "other light sources",
+        "only light from the lamp",
+        "light intensity controlled by distance",
+        "background light changes"
+      ],
+      "markScheme": [
+        "1 mark: so that the only light reaching the pondweed is from the lamp",
+        "1 mark: so light intensity depends only on the distance from the lamp (other light would change the light intensity)"
+      ],
       "explanation": "Daylight or other lamps add extra light that changes during the lesson, so the distance from the lamp would no longer control the light intensity."
     },
     {
@@ -294,7 +419,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "The lamp is moved from 40 cm to 20 cm from the pondweed. What happens to the light intensity?",
+      "question": "A lamp is moved from 40 cm to 20 cm from some pondweed.\nWhat happens to the light intensity at the pondweed?",
       "options": [
         "It doubles",
         "It becomes four times greater",
@@ -302,7 +427,9 @@
         "It becomes one quarter"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: it becomes four times greater"],
+      "markScheme": [
+        "1 mark: it becomes four times greater"
+      ],
       "explanation": "Light intensity ∝ 1 ÷ d². Halving the distance multiplies the intensity by 2² = 4. Students who think the relationship is simply inverse would wrongly say it doubles."
     },
     {
@@ -327,7 +454,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "The mean number of bubbles per minute fell from 50 at 10 cm to 31 at 20 cm and to 6 at 50 cm.\nExplain these results. Refer to light intensity and photosynthesis in your answer.",
+      "question": "Table 1 shows the results of an investigation into the effect of light intensity on the rate of photosynthesis in pondweed.\nExplain these results.\nRefer to light intensity and photosynthesis in your answer.",
+      "table": {
+        "headers": [
+          "Distance from lamp in cm",
+          "Mean number of bubbles per minute"
+        ],
+        "rows": [
+          [
+            "10",
+            "50"
+          ],
+          [
+            "20",
+            "31"
+          ],
+          [
+            "30",
+            "17"
+          ],
+          [
+            "40",
+            "10"
+          ],
+          [
+            "50",
+            "6"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: as distance increases, light intensity decreases; light intensity ∝ 1 ÷ d², so doubling distance from 10 to 20 cm reduces light intensity to a quarter; light provides the energy for photosynthesis (absorbed by chlorophyll); less light means less energy transferred, so less photosynthesis and less oxygen released; light is the limiting factor at greater distances; the rate did not fall to a quarter between 10 and 20 cm because at 10 cm another factor (such as carbon dioxide or temperature) was partly limiting",
         "Level 2 (3 to 4 marks): links increasing distance to decreasing light intensity (with the inverse square law) and explains reduced photosynthesis in terms of light energy and limiting factors.",

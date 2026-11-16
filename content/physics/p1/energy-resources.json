@@ -135,7 +135,7 @@
       "id": "p1-energy-resources-q01",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "Which of these is a renewable energy resource?",
-      "options": ["Coal", "Natural gas", "Wind", "Nuclear fuel"],
+      "options": ["Coal","Natural gas","Wind","Nuclear fuel"],
       "answer": 2,
       "markScheme": ["1 mark: Wind"],
       "explanation": "Wind is replenished as it is used. Coal and gas are fossil fuels and nuclear fuel is mined uranium; all of these will run out."
@@ -144,7 +144,7 @@
       "id": "p1-energy-resources-q02",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "What is meant by a renewable energy resource?",
-      "options": ["A resource that is being replenished as it is used", "A resource that releases no pollution", "A resource that is always available", "A resource that can be burned"],
+      "options": ["A resource that is being replenished as it is used","A resource that releases no pollution","A resource that is always available","A resource that can be burned"],
       "answer": 0,
       "markScheme": ["1 mark: A resource that is being replenished as it is used"],
       "explanation": "Renewable means it is replaced naturally as quickly as it is used. Some renewables are not always available (wind) and some can be burned (bio-fuels)."
@@ -153,7 +153,7 @@
       "id": "p1-energy-resources-q03",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "Which energy resource is non-renewable?",
-      "options": ["Tidal", "Geothermal", "Bio-fuel", "Nuclear fuel"],
+      "options": ["Tidal","Geothermal","Bio-fuel","Nuclear fuel"],
       "answer": 3,
       "markScheme": ["1 mark: Nuclear fuel"],
       "explanation": "Uranium is mined from the ground and the supply is limited, so it will eventually run out."
@@ -161,8 +161,8 @@
     {
       "id": "p1-energy-resources-q04",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "For which purpose are petrol and diesel mainly used?",
-      "options": ["Heating homes", "Transport", "Generating most of the UK's electricity", "Producing nuclear fuel"],
+      "question": "What are petrol and diesel mainly used for?",
+      "options": ["Heating homes","Transport","Generating most of the UK's electricity","Producing nuclear fuel"],
       "answer": 1,
       "markScheme": ["1 mark: Transport"],
       "explanation": "Petrol and diesel are made from oil and power most cars, lorries and buses."
@@ -171,7 +171,7 @@
       "id": "p1-energy-resources-q05",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
       "question": "Which renewable energy resource is the most predictable?",
-      "options": ["Wind", "Solar", "Tidal", "Waves"],
+      "options": ["Wind","Solar","Tidal","Waves"],
       "answer": 2,
       "markScheme": ["1 mark: Tidal"],
       "explanation": "Tides are caused by the Moon and happen at predictable times each day. Wind, solar and waves depend on the weather."
@@ -179,8 +179,8 @@
     {
       "id": "p1-energy-resources-q06",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Burning coal releases sulfur dioxide. What environmental problem does this cause?",
-      "options": ["Acid rain", "Radioactive contamination", "Flooding of valleys", "Noise pollution"],
+      "question": "Burning coal releases sulfur dioxide into the atmosphere.\nWhich environmental problem does sulfur dioxide cause?",
+      "options": ["Acid rain","Radioactive contamination","Flooding of valleys","Noise pollution"],
       "answer": 0,
       "markScheme": ["1 mark: Acid rain"],
       "explanation": "Sulfur dioxide dissolves in water in the atmosphere, forming acid rain that damages trees, lakes and buildings. Carbon dioxide from coal contributes to climate change."
@@ -188,8 +188,8 @@
     {
       "id": "p1-energy-resources-q07",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Which is a disadvantage of hydro-electric power?",
-      "options": ["It releases large amounts of carbon dioxide when generating", "It cannot be started quickly", "It produces radioactive waste", "Building the dam floods a valley, destroying habitats"],
+      "question": "Which of the following is a disadvantage of hydro-electric power?",
+      "options": ["It releases large amounts of carbon dioxide when generating","It cannot be started quickly","It produces radioactive waste","Building the dam floods a valley, destroying habitats"],
       "answer": 3,
       "markScheme": ["1 mark: Building the dam floods a valley, destroying habitats"],
       "explanation": "Hydro-electric power is renewable, reliable and quick to start, and releases no carbon dioxide when generating, but the reservoir floods land."
@@ -197,17 +197,20 @@
     {
       "id": "p1-energy-resources-q08",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Bio-fuels are often described as carbon neutral. Why?",
-      "options": ["Burning them releases no carbon dioxide", "The plants absorb carbon dioxide as they grow, balancing the carbon dioxide released when the fuel is burned", "They are made from fossil fuels", "They are only used in electric cars"],
+      "question": "Bio-fuels are often described as carbon neutral.\nWhy are bio-fuels described as carbon neutral?",
+      "options": ["Burning them releases no carbon dioxide","The plants absorb carbon dioxide as they grow, balancing the carbon dioxide released when the fuel is burned","They are made from fossil fuels","They are only used in electric cars"],
       "answer": 1,
-      "markScheme": ["1 mark: The plants absorb carbon dioxide as they grow, balancing the carbon dioxide released when the fuel is burned"],
+      "markScheme": [
+        "1 mark: The plants absorb carbon dioxide as they grow, balancing the carbon dioxide released when the fuel is burned"
+      ],
       "explanation": "Bio-fuels do release carbon dioxide when burned, but the same amount was taken in by photosynthesis. In practice, farming and transport mean they are not completely carbon neutral."
     },
     {
       "id": "p1-energy-resources-q09",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "A country gets much of its electricity from wind. Why does it still keep some gas-fired power stations?",
-      "options": ["Gas is renewable", "Gas power stations release no carbon dioxide", "Gas power stations can be started quickly to meet demand when wind output is low", "Gas power stations take a long time to start, so they provide a steady supply"],
+      "question": "A country generates much of its electricity using wind turbines.\nFigure 1 shows how the demand for electricity and the power output of the country's wind turbines changed during one day.\nWhy does the country also keep some gas-fired power stations?",
+      "figure": {"svg":"<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 16V250M93.7 16V250M123.3 16V250M153 16V250M182.7 16V250M212.3 16V250M242 16V250M271.7 16V250M301.3 16V250M331 16V250M360.7 16V250M390.3 16V250M420 16V250M64 250H420M64 230.5H420M64 211H420M64 191.5H420M64 172H420M64 152.5H420M64 133H420M64 113.5H420M64 94H420M64 74.5H420M64 55H420M64 35.5H420M64 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.2\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M64 16V250H420\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"64\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"123.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"182.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"242\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">12</text><text x=\"301.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">16</text><text x=\"360.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">20</text><text x=\"420\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">24</text><text x=\"58\" y=\"254\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"58\" y=\"215\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">10</text><text x=\"58\" y=\"176\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">20</text><text x=\"58\" y=\"137\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">30</text><text x=\"58\" y=\"98\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"58\" y=\"59\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">50</text><text x=\"58\" y=\"20\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">60</text><text x=\"242\" y=\"292\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Time of day in hours</text><text transform=\"translate(16 133) rotate(-90)\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Power in GW</text><polyline points=\"64,133 123.3,152.5 182.7,94 242,86.2 301.3,78.4 331,55 360.7,74.5 420,125.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"197.5\" y=\"66.7\" font-size=\"12\" fill=\"currentColor\">demand</text><polyline points=\"64,203.2 123.3,211 182.7,226.6 242,238.3 301.3,242.2 360.7,230.5 420,218.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"212.3\" y=\"207.1\" font-size=\"12\" fill=\"currentColor\">wind output</text></svg>"},
+      "options": ["Gas is renewable","Gas power stations release no carbon dioxide","Gas power stations can be started quickly to meet demand when wind output is low","Gas power stations take a long time to start, so they provide a steady supply"],
       "answer": 2,
       "markScheme": ["1 mark: Gas power stations can be started quickly to meet demand when wind output is low"],
       "explanation": "Wind is unreliable, so a backup that can respond quickly is needed. Gas is non-renewable and releases carbon dioxide, but it has a short start-up time."
@@ -215,8 +218,8 @@
     {
       "id": "p1-energy-resources-q10",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Which is a disadvantage of generating electricity using nuclear fuel?",
-      "options": ["It produces radioactive waste that remains dangerous for a very long time", "It releases large amounts of carbon dioxide while generating", "It is unreliable because it depends on the weather", "It causes acid rain"],
+      "question": "Which of the following is a disadvantage of generating electricity using nuclear fuel?",
+      "options": ["It produces radioactive waste that remains dangerous for a very long time","It releases large amounts of carbon dioxide while generating","It is unreliable because it depends on the weather","It causes acid rain"],
       "answer": 0,
       "markScheme": ["1 mark: It produces radioactive waste that remains dangerous for a very long time"],
       "explanation": "Nuclear power is reliable and releases no carbon dioxide while operating, but the waste must be stored safely for thousands of years."
@@ -225,7 +228,7 @@
       "id": "p1-energy-resources-q11",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
       "question": "Which renewable energy resource can be used directly to fuel vehicles?",
-      "options": ["Geothermal", "Tidal", "Hydro-electricity", "Bio-fuel"],
+      "options": ["Geothermal","Tidal","Hydro-electricity","Bio-fuel"],
       "answer": 3,
       "markScheme": ["1 mark: Bio-fuel"],
       "explanation": "Bio-fuels such as bioethanol and biodiesel can be burned in vehicle engines. The other resources are used to generate electricity or for heating."
@@ -233,111 +236,163 @@
     {
       "id": "p1-energy-resources-q12",
       "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "In one year a country generated 320 TWh of electricity. 80 TWh came from wind. Calculate the percentage of the country's electricity that came from wind.",
-      "numericAnswer": 25, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: (80 ÷ 320) × 100", "1 mark: 25%"],
-      "explanation": "Percentage = part ÷ total × 100 = 80 ÷ 320 × 100 = 25%."
+      "question": "Table 1 shows the electricity generated from different energy resources in one country in one year.\nCalculate the percentage of the country's electricity that was generated from wind.",
+      "table": {
+        "headers": ["Energy resource","Electricity generated in TWh"],
+        "rows": [
+          ["Gas","120"],
+          ["Nuclear","60"],
+          ["Wind","80"],
+          ["Solar","20"],
+          ["Other","40"]
+        ]
+      },
+      "numericAnswer": 25,
+      "tolerance": 0.01,
+      "unit": "%",
+      "answerLabel": "Percentage from wind",
+      "markScheme": ["1 mark: total = 320 TWh and (80 ÷ 320) × 100","1 mark: 25%"],
+      "explanation": "First add the values to find the total: 120 + 60 + 80 + 20 + 40 = 320 TWh. Percentage = part ÷ total × 100 = 80 ÷ 320 × 100 = 25%."
     },
     {
       "id": "p1-energy-resources-q13",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A coal-fired power station has a maximum output of 2000 MW. Each wind turbine has a maximum output of 2.5 MW. Calculate how many wind turbines would be needed to match the maximum output of the power station.",
-      "numericAnswer": 800, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: 2000 ÷ 2.5", "1 mark: 800 turbines"],
+      "question": "Table 1 shows the maximum power output of a coal-fired power station and of one wind turbine.\nCalculate the number of wind turbines needed to match the maximum power output of the coal-fired power station.",
+      "table": {
+        "headers": ["Generator","Maximum power output in MW"],
+        "rows": [
+          ["Coal-fired power station","2000"],
+          ["One wind turbine","2.5"]
+        ]
+      },
+      "numericAnswer": 800,
+      "tolerance": 0.01,
+      "unit": "",
+      "answerLabel": "Number of wind turbines",
+      "markScheme": ["1 mark: 2000 ÷ 2.5","1 mark: 800 turbines"],
       "explanation": "2000 ÷ 2.5 = 800. In reality more would be needed, because turbines rarely produce their maximum output."
     },
     {
       "id": "p1-energy-resources-q14",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A wind farm has a maximum power output of 300 MW. Over a year its average output is 35% of its maximum. Calculate its average power output.",
-      "numericAnswer": 105, "tolerance": 0.01, "unit": "MW",
-      "markScheme": ["1 mark: 0.35 × 300", "1 mark: 105 MW"],
+      "question": "A wind farm has a maximum power output of 300 MW. Over one year, the average power output of the wind farm is 35% of its maximum power output.\nCalculate the average power output of the wind farm.",
+      "numericAnswer": 105,
+      "tolerance": 0.01,
+      "unit": "MW",
+      "answerLabel": "Average power output",
+      "markScheme": ["1 mark: 0.35 × 300","1 mark: 105 MW"],
       "explanation": "35% = 0.35, and 0.35 × 300 = 105 MW. The average is low because wind speed varies."
     },
     {
       "id": "p1-energy-resources-q15",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A gas-fired power station supplies 1500 MW of electrical power. Its efficiency is 38%. Calculate the rate at which energy is transferred from the fuel (the total power input). Give your answer to 3 significant figures.",
-      "numericAnswer": 3950, "tolerance": 0.01, "unit": "MW",
-      "markScheme": ["1 mark: efficiency = 0.38", "1 mark: total input = 1500 ÷ 0.38 = 3947 MW", "1 mark: 3950 MW (3 s.f.)"],
+      "question": "A gas-fired power station has a useful power output of 1500 MW. The efficiency of the power station is 38%.\nCalculate the total power input to the power station.\nGive your answer to 3 significant figures.",
+      "numericAnswer": 3950,
+      "tolerance": 0.01,
+      "unit": "MW",
+      "answerLabel": "Total power input",
+      "markScheme": [
+        "1 mark: efficiency = 0.38",
+        "1 mark: total input = 1500 ÷ 0.38 = 3947 MW",
+        "1 mark: 3950 MW (3 s.f.)"
+      ],
       "explanation": "Rearrange efficiency = useful output ÷ total input: total input = 1500 ÷ 0.38 = 3947 MW, about 3950 MW. Most of the fuel's energy is wasted heating the surroundings."
     },
     {
       "id": "p1-energy-resources-q16",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "Name two fossil fuels.",
-      "acceptedAnswers": ["coal", "oil", "natural gas", "gas"],
+      "acceptedAnswers": ["coal","oil","natural gas","gas"],
       "markScheme": ["1 mark: any two from coal, oil, natural gas"],
       "explanation": "The three fossil fuels are coal, oil and natural gas, formed from the remains of ancient organisms."
     },
     {
       "id": "p1-energy-resources-q17",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "State the three main uses of energy resources.",
-      "acceptedAnswers": ["transport", "electricity generation", "heating"],
-      "markScheme": ["2 marks: transport, electricity generation and heating", "1 mark: any two of these"],
+      "question": "Give the three main uses of energy resources.",
+      "acceptedAnswers": ["transport","electricity generation","heating"],
+      "markScheme": ["2 marks: transport, electricity generation and heating","1 mark: any two of these"],
       "explanation": "AQA identifies transport, electricity generation and heating as the main uses."
     },
     {
       "id": "p1-energy-resources-q18",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "Name one renewable energy resource that can be used to heat homes directly.",
-      "acceptedAnswers": ["solar", "solar water heating", "geothermal", "bio-fuel", "wood", "biofuel"],
+      "acceptedAnswers": ["solar","solar water heating","geothermal","bio-fuel","wood","biofuel"],
       "markScheme": ["1 mark: any one from solar (water heating), geothermal, bio-fuel such as wood"],
       "explanation": "Solar water heaters, geothermal heat pumps and wood burners all provide heating from renewable resources."
     },
     {
       "id": "p1-energy-resources-q19",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Explain why solar cells are an unreliable source of electricity.",
-      "acceptedAnswers": ["no electricity at night", "less on cloudy days", "depends on weather", "varies with season"],
-      "markScheme": ["1 mark: they produce no electricity at night", "1 mark: and less on cloudy days or in winter, so the output depends on weather and time"],
-      "explanation": "Solar cells need sunlight; output varies unpredictably with cloud and falls to zero at night, so they cannot guarantee supply."
+      "question": "Figure 1 shows how the power output of a solar farm changed during one day.\nExplain why solar cells are an unreliable source of electricity.",
+      "figure": {"svg":"<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 16V250M93.7 16V250M123.3 16V250M153 16V250M182.7 16V250M212.3 16V250M242 16V250M271.7 16V250M301.3 16V250M331 16V250M360.7 16V250M390.3 16V250M420 16V250M64 250H420M64 226.6H420M64 203.2H420M64 179.8H420M64 156.4H420M64 133H420M64 109.6H420M64 86.2H420M64 62.8H420M64 39.4H420M64 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.2\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M64 16V250H420\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"64\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"123.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"182.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"242\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">12</text><text x=\"301.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">16</text><text x=\"360.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">20</text><text x=\"420\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">24</text><text x=\"58\" y=\"254\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"58\" y=\"207.2\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">10</text><text x=\"58\" y=\"160.4\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">20</text><text x=\"58\" y=\"113.6\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">30</text><text x=\"58\" y=\"66.8\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"58\" y=\"20\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">50</text><text x=\"242\" y=\"292\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Time of day in hours</text><text transform=\"translate(16 133) rotate(-90)\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Power output in kW</text><polyline points=\"64,250 138.2,250 153,245.3 167.8,221.9 182.7,184.5 197.5,142.4 212.3,104.9 227.2,76.8 242,62.8 256.8,72.2 271.7,175.1 286.5,193.8 301.3,137.7 316.2,179.8 331,217.2 345.8,240.6 360.7,250 420,250\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"},
+      "acceptedAnswers": ["no electricity at night","less on cloudy days","depends on weather","varies with season"],
+      "markScheme": [
+        "1 mark: they produce no electricity at night (Figure 1 shows zero output before 06:00 and after 20:00)",
+        "1 mark: and less when it is cloudy or in winter, so the output depends on the weather and the time of day (e.g. the dip in the afternoon)"
+      ],
+      "explanation": "Solar cells need sunlight. Figure 1 shows the output is zero at night and drops suddenly in the afternoon, probably when clouds cover the Sun, so solar cells cannot guarantee a supply."
     },
     {
       "id": "p1-energy-resources-q20",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
       "question": "Give one advantage and one disadvantage of using nuclear power stations to generate electricity.",
-      "acceptedAnswers": ["no carbon dioxide", "reliable", "lots of energy from small mass of fuel", "radioactive waste", "risk of accidents", "expensive to build", "expensive to decommission", "non-renewable"],
-      "markScheme": ["1 mark: advantage, e.g. no carbon dioxide released while generating; reliable; a small mass of fuel gives a lot of energy", "1 mark: disadvantage, e.g. radioactive waste; risk of serious accidents; high cost of building and decommissioning; non-renewable; slow start-up"],
+      "acceptedAnswers": ["no carbon dioxide","reliable","lots of energy from small mass of fuel","radioactive waste","risk of accidents","expensive to build","expensive to decommission","non-renewable"],
+      "markScheme": [
+        "1 mark: advantage, e.g. no carbon dioxide released while generating; reliable; a small mass of fuel gives a lot of energy",
+        "1 mark: disadvantage, e.g. radioactive waste; risk of serious accidents; high cost of building and decommissioning; non-renewable; slow start-up"
+      ],
       "explanation": "Nuclear is reliable and low-carbon, but waste, accident risk and cost are major drawbacks."
     },
     {
       "id": "p1-energy-resources-q21",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
       "question": "Explain how burning fossil fuels contributes to climate change.",
-      "acceptedAnswers": ["releases carbon dioxide", "greenhouse gas", "global warming", "traps heat"],
-      "markScheme": ["1 mark: burning fossil fuels releases carbon dioxide (a greenhouse gas)", "1 mark: which increases global warming, leading to climate change"],
+      "acceptedAnswers": ["releases carbon dioxide","greenhouse gas","global warming","traps heat"],
+      "markScheme": [
+        "1 mark: burning fossil fuels releases carbon dioxide (a greenhouse gas)",
+        "1 mark: which increases global warming, leading to climate change"
+      ],
       "explanation": "Extra carbon dioxide in the atmosphere increases the greenhouse effect, raising average global temperatures and changing the climate."
     },
     {
       "id": "p1-energy-resources-q22",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Describe how geothermal energy can be used, and give one limitation.",
-      "acceptedAnswers": ["hot rocks heat water", "steam turns turbines", "heating buildings", "only in volcanic areas", "limited locations"],
-      "markScheme": ["1 mark: hot rocks underground heat water, which can be used to heat buildings or make steam to drive turbines", "1 mark: limitation: only practical in a few places (e.g. volcanic areas) where hot rocks are near the surface, or high drilling costs"],
+      "question": "Describe how geothermal energy can be used.\nGive one limitation of geothermal energy.",
+      "acceptedAnswers": ["hot rocks heat water","steam turns turbines","heating buildings","only in volcanic areas","limited locations"],
+      "markScheme": [
+        "1 mark: hot rocks underground heat water, which can be used to heat buildings or make steam to drive turbines",
+        "1 mark: limitation: only practical in a few places (e.g. volcanic areas) where hot rocks are near the surface, or high drilling costs"
+      ],
       "explanation": "Geothermal is reliable and renewable but is only economic where hot rocks are close to the surface, such as Iceland."
     },
     {
       "id": "p1-energy-resources-q23",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "The use of coal to generate electricity in the UK has fallen sharply in recent decades. Suggest three reasons for this.",
-      "acceptedAnswers": ["carbon dioxide emissions", "climate change", "government targets", "renewables cheaper", "gas cleaner", "acid rain", "coal running out", "costs"],
-      "markScheme": ["1 mark each for any three: coal releases the most carbon dioxide per unit of energy, contributing to climate change; government targets or laws to cut emissions; renewable technology such as wind and solar has become cheaper; gas releases less carbon dioxide and sulfur dioxide than coal; coal causes acid rain; public pressure; UK coal reserves are expensive to mine"],
+      "question": "Figure 1 shows how the percentage of the UK's electricity generated from coal changed between 1990 and 2020.\nSuggest three reasons for this change.",
+      "figure": {"svg":"<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M64 16V250M123.3 16V250M182.7 16V250M242 16V250M301.3 16V250M360.7 16V250M420 16V250M64 250H420M64 216.6H420M64 183.1H420M64 149.7H420M64 116.3H420M64 82.9H420M64 49.4H420M64 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.2\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M64 16V250H420\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"64\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">1990</text><text x=\"123.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">1995</text><text x=\"182.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2000</text><text x=\"242\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2005</text><text x=\"301.3\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2010</text><text x=\"360.7\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2015</text><text x=\"420\" y=\"266\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2020</text><text x=\"58\" y=\"254\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">0</text><text x=\"58\" y=\"220.6\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">10</text><text x=\"58\" y=\"187.1\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">20</text><text x=\"58\" y=\"153.7\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">30</text><text x=\"58\" y=\"120.3\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">40</text><text x=\"58\" y=\"86.9\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">50</text><text x=\"58\" y=\"53.4\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">60</text><text x=\"58\" y=\"20\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">70</text><text x=\"242\" y=\"292\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Year</text><text transform=\"translate(16 133) rotate(-90)\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">Electricity from coal in %</text><polyline points=\"64,32.7 123.3,92.9 182.7,143 242,136.3 301.3,156.4 360.7,176.5 420,243.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M60 28.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M119.3 88.9l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M178.7 139l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M238 132.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M297.3 152.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M356.7 172.5l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M416 239.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"},
+      "acceptedAnswers": ["carbon dioxide emissions","climate change","government targets","renewables cheaper","gas cleaner","acid rain","coal running out","costs"],
+      "markScheme": [
+        "1 mark each for any three: coal releases the most carbon dioxide per unit of energy, contributing to climate change; government targets or laws to cut emissions; renewable technology such as wind and solar has become cheaper; gas releases less carbon dioxide and sulfur dioxide than coal; coal causes acid rain; public pressure; UK coal reserves are expensive to mine"
+      ],
       "explanation": "The decline is driven by environmental concerns and policy, plus economic changes that made gas and renewables more attractive."
     },
     {
       "id": "p1-energy-resources-q24",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "Scientists agree that wind farms reduce carbon dioxide emissions, yet some local communities oppose new wind farms. Suggest why scientific evidence alone cannot settle whether a wind farm should be built.",
-      "acceptedAnswers": ["visual pollution", "noise", "cost", "political", "social", "public opinion", "economic", "ethical"],
-      "markScheme": ["1 mark: local objections such as noise, spoiling the view, or effects on wildlife or property values", "1 mark: the decision also depends on social, economic, political or ethical factors (such as cost, jobs or public opinion), not only scientific evidence"],
+      "question": "Scientists agree that wind farms reduce carbon dioxide emissions. However, some local communities oppose new wind farms.\nSuggest why scientific evidence alone cannot decide whether a wind farm should be built.",
+      "acceptedAnswers": ["visual pollution","noise","cost","political","social","public opinion","economic","ethical"],
+      "markScheme": [
+        "1 mark: local objections such as noise, spoiling the view, or effects on wildlife or property values",
+        "1 mark: the decision also depends on social, economic, political or ethical factors (such as cost, jobs or public opinion), not only scientific evidence"
+      ],
       "explanation": "Science can measure emissions and effects, but whether the benefits outweigh local costs is a value judgement involving people, money and politics."
     },
     {
       "id": "p1-energy-resources-q25",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "A town's electricity currently comes from a coal-fired power station. The council proposes closing it and building an offshore wind farm instead.\nEvaluate this proposal.",
+      "question": "The electricity for a town is generated by a coal-fired power station. The town council wants to close the power station and build an offshore wind farm instead.\nEvaluate this proposal.",
       "markScheme": [
         "Indicative content: advantages of wind: renewable, will not run out; no carbon dioxide released while generating, so less contribution to climate change; no sulfur dioxide so no acid rain; no fuel costs; offshore sites have stronger, more consistent wind and less visual impact; disadvantages of wind: unreliable, no output when wind is calm or too strong; needs backup (e.g. gas) or energy storage; high building cost; possible effects on marine wildlife and birds; coal: reliable and can meet demand on request, but non-renewable, releases carbon dioxide and sulfur dioxide; conclusion: a justified judgement, e.g. wind is better for the environment but must be combined with a reliable backup or storage.",
         "Level 3 (5 to 6 marks): a detailed evaluation comparing both resources, covering reliability and environmental impact, with a justified conclusion.",
@@ -360,7 +415,17 @@
     {
       "id": "p1-energy-resources-q27",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "The table shows the percentage of electricity generated from each source in one country.\nYear 2000: coal 33%, gas 39%, nuclear 21%, renewables 3%, other 4%\nYear 2020: coal 2%, gas 36%, nuclear 16%, renewables 43%, other 3%\nDescribe the trends shown and suggest reasons for them.",
+      "question": "Table 1 shows the percentage of electricity generated from each energy resource in one country in 2000 and in 2020.\nDescribe the trends shown in Table 1.\nSuggest reasons for these trends.",
+      "table": {
+        "headers": ["Energy resource","Percentage in 2000","Percentage in 2020"],
+        "rows": [
+          ["Coal","33","2"],
+          ["Gas","39","36"],
+          ["Nuclear","21","16"],
+          ["Renewables","3","43"],
+          ["Other","4","3"]
+        ]
+      },
       "markScheme": [
         "Indicative content: coal fell sharply from 33% to 2%; renewables rose greatly from 3% to 43%; gas stayed roughly the same (39% to 36%); nuclear fell slightly (21% to 16%); reasons: concern about carbon dioxide emissions and climate change; government targets and policies; falling cost of wind and solar; closure of old coal and nuclear stations; gas kept as a reliable, quick-start backup for variable renewables.",
         "Level 2 (3 to 4 marks): trends described using data from the table and at least two sensible reasons linked to the trends.",
@@ -371,7 +436,7 @@
     {
       "id": "p1-energy-resources-q28",
       "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "Most homes in the UK are heated by burning natural gas. Discuss the advantages and disadvantages of this, and suggest one renewable alternative.",
+      "question": "Most homes in the UK are heated by burning natural gas.\nDiscuss the advantages and disadvantages of heating homes using natural gas.\nSuggest one renewable alternative.",
       "markScheme": [
         "Indicative content: advantages of gas: reliable, available on demand; can be supplied through pipes to many homes; relatively cheap; quick to heat; disadvantages: non-renewable and will run out; burning releases carbon dioxide, contributing to climate change; price depends on world markets and supply security; renewable alternative: solar water heating, geothermal heat, or burning bio-fuel (wood); an alternative may be less reliable or more expensive to install.",
         "Level 2 (3 to 4 marks): clear advantages and disadvantages of gas with a suitable renewable alternative.",

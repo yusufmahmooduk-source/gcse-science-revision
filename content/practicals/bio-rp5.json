@@ -85,12 +85,54 @@
       "Rate of reaction (s⁻¹)"
     ],
     "rows": [
-      ["4", "280", "300", "290", "290", "0.00345"],
-      ["5", "140", "130", "150", "140", "0.00714"],
-      ["6", "50", "60", "70", "60", "0.0167"],
-      ["7", "30", "40", "20", "30", "0.0333"],
-      ["8", "80", "90", "70", "80", "0.0125"],
-      ["9", "200", "220", "210", "210", "0.00476"]
+      [
+        "4",
+        "280",
+        "300",
+        "290",
+        "290",
+        "0.00345"
+      ],
+      [
+        "5",
+        "140",
+        "130",
+        "150",
+        "140",
+        "0.00714"
+      ],
+      [
+        "6",
+        "50",
+        "60",
+        "70",
+        "60",
+        "0.0167"
+      ],
+      [
+        "7",
+        "30",
+        "40",
+        "20",
+        "30",
+        "0.0333"
+      ],
+      [
+        "8",
+        "80",
+        "90",
+        "70",
+        "80",
+        "0.0125"
+      ],
+      [
+        "9",
+        "200",
+        "220",
+        "210",
+        "210",
+        "0.00476"
+      ]
     ],
     "notes": "Rate of reaction = 1 ÷ mean time, in s⁻¹, given to 3 significant figures. For example, at pH 7: 1 ÷ 30 = 0.0333 s⁻¹. Some students multiply by 1000 to give larger numbers (1000 ÷ time). Plot rate on the y-axis against pH on the x-axis and join the points with straight lines or a smooth curve."
   },
@@ -146,7 +188,9 @@
         "The maltose has been broken down into glucose"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: there is no starch left / all the starch has been broken down (digested)"],
+      "markScheme": [
+        "1 mark: there is no starch left / all the starch has been broken down (digested)"
+      ],
       "explanation": "Iodine only turns blue-black with starch. When it stays orange-brown, amylase has broken down all the starch into maltose. If amylase were denatured, starch would remain and the iodine would stay blue-black."
     },
     {
@@ -155,12 +199,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "At pH 8 it took 80 seconds for the starch to be broken down.\nCalculate the rate of reaction using rate = 1 ÷ time.",
+      "question": "Table 1 shows the mean time for starch to be broken down by amylase at pH 8.\nCalculate the rate of reaction.\nUse the equation:\nrate = 1 ÷ time",
+      "table": {
+        "headers": [
+          "pH",
+          "Mean time for starch to be broken down in s"
+        ],
+        "rows": [
+          [
+            "8",
+            "80"
+          ]
+        ]
+      },
       "numericAnswer": 0.0125,
       "tolerance": 0.01,
       "unit": "s⁻¹",
-      "markScheme": ["1 mark: 1 ÷ 80 = 0.0125 s⁻¹"],
-      "explanation": "Rate = 1 ÷ 80 = 0.0125 per second. The unit is s⁻¹ because the time was measured in seconds."
+      "markScheme": [
+        "1 mark: 1 ÷ 80 = 0.0125 s⁻¹"
+      ],
+      "explanation": "Rate = 1 ÷ 80 = 0.0125 per second. The unit is s⁻¹ because the time was measured in seconds.",
+      "answerLabel": "Rate of reaction"
     },
     {
       "id": "bio-rp5-q03",
@@ -168,12 +227,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a repeat of the investigation using a more dilute amylase solution, the mean time for the starch to be broken down at pH 5 was 2 minutes 30 seconds.\nCalculate the rate of reaction in s⁻¹. Give your answer to 3 significant figures.",
+      "question": "A student repeated the investigation using a more dilute amylase solution.\nAt pH 5 the mean time for the starch to be broken down was 2 minutes 30 seconds.\nCalculate the rate of reaction in s⁻¹.\nUse the equation:\nrate = 1 ÷ time\nGive your answer to 3 significant figures.",
       "numericAnswer": 0.00667,
       "tolerance": 0.01,
       "unit": "s⁻¹",
-      "markScheme": ["1 mark: 2 minutes 30 seconds = 150 s", "1 mark: 1 ÷ 150 = 0.00667 s⁻¹"],
-      "explanation": "Convert to seconds first: 2 × 60 + 30 = 150 s. Then rate = 1 ÷ 150 = 0.006666, which is 0.00667 s⁻¹ to 3 significant figures. Using 2.30 as the time is a common error."
+      "markScheme": [
+        "1 mark: 2 minutes 30 seconds = 150 s",
+        "1 mark: 1 ÷ 150 = 0.00667 s⁻¹"
+      ],
+      "explanation": "Convert to seconds first: 2 × 60 + 30 = 150 s. Then rate = 1 ÷ 150 = 0.006666, which is 0.00667 s⁻¹ to 3 significant figures. Using 2.30 as the time is a common error.",
+      "answerLabel": "Rate of reaction"
     },
     {
       "id": "bio-rp5-q04",
@@ -189,7 +252,9 @@
         "To keep the pH of the reaction mixture at a fixed value"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: to keep the pH constant (at a known value)"],
+      "markScheme": [
+        "1 mark: to keep the pH constant (at a known value)"
+      ],
       "explanation": "A buffer resists changes in pH, so each reaction mixture stays at the pH being tested. The water bath controls temperature, and starch is the substrate."
     },
     {
@@ -198,9 +263,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the amylase and starch solutions are put in the water bath for 5 minutes before they are mixed.",
-      "acceptedAnswers": ["reach the same temperature", "35 °C before reaction starts", "temperature is a control variable", "temperature affects rate"],
-      "markScheme": ["1 mark: so both solutions reach the temperature of the water bath (35 °C) before the reaction starts", "1 mark: because temperature affects the rate of reaction, so it must be controlled (only pH should change)"],
+      "question": "Figure 1 shows some of the apparatus used in this investigation.\nExplain why the amylase and starch solutions are put in the water bath for 5 minutes before they are mixed.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M110 60v170h200V60\"/><path d=\"M110 110v120h200V110Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M270 30v170\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-opacity=\"0.5\"/><circle cx=\"270\" cy=\"200\" r=\"5\" fill=\"#fca5a5\"/></g><path d=\"M150 90V180a9 9 0 0 0 18 0V90Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M150 40V180a9 9 0 0 0 18 0V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M210 90V180a9 9 0 0 0 18 0V90Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M210 40V180a9 9 0 0 0 18 0V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"4\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Amylase solution and</text><text x=\"4\" y=\"34\" font-size=\"12\" fill=\"currentColor\">pH buffer solution</text><path d=\"M60 38L156 96\" stroke=\"currentColor\"/><text x=\"200\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Starch solution</text><path d=\"M230 24L222 96\" stroke=\"currentColor\"/><text x=\"320\" y=\"50\" font-size=\"12\" fill=\"currentColor\">Thermometer</text><path d=\"M318 46L274 60\" stroke=\"currentColor\"/><text x=\"320\" y=\"160\" font-size=\"12\" fill=\"currentColor\">Water bath</text><path d=\"M318 156L308 156\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "reach the same temperature",
+        "35 °C before reaction starts",
+        "temperature is a control variable",
+        "temperature affects rate"
+      ],
+      "markScheme": [
+        "1 mark: so both solutions reach the temperature of the water bath (35 °C) before the reaction starts",
+        "1 mark: because temperature affects the rate of reaction, so it must be controlled (only pH should change)"
+      ],
       "explanation": "If cold solutions were mixed, the reaction would start at a lower temperature and run more slowly, giving times that reflect temperature as well as pH."
     },
     {
@@ -209,10 +285,41 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Mean times for starch breakdown were: pH 5: 140 s; pH 6: 60 s; pH 7: 30 s; pH 8: 80 s.\nWhat is the best estimate of the optimum pH of this amylase?",
-      "options": ["pH 5", "pH 6", "pH 8", "pH 7"],
+      "question": "Table 1 shows the results of an investigation into the effect of pH on amylase.\nWhat is the best estimate of the optimum pH of this amylase?",
+      "table": {
+        "headers": [
+          "pH",
+          "Mean time for starch to be broken down in s"
+        ],
+        "rows": [
+          [
+            "5",
+            "140"
+          ],
+          [
+            "6",
+            "60"
+          ],
+          [
+            "7",
+            "30"
+          ],
+          [
+            "8",
+            "80"
+          ]
+        ]
+      },
+      "options": [
+        "pH 5",
+        "pH 6",
+        "pH 8",
+        "pH 7"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: pH 7"],
+      "markScheme": [
+        "1 mark: pH 7"
+      ],
       "explanation": "The optimum pH gives the fastest rate, which is the shortest time. pH 7 had the shortest time (30 s). Choosing pH 5 confuses the longest time with the fastest rate."
     },
     {
@@ -222,8 +329,17 @@
       "difficulty": 2,
       "marks": 3,
       "question": "Explain why amylase breaks down starch very slowly at pH 4.",
-      "acceptedAnswers": ["active site changes shape", "denatured", "starch no longer fits active site", "fewer enzyme-substrate complexes"],
-      "markScheme": ["1 mark: pH 4 is far from the optimum pH (so bonds holding the enzyme's shape are disrupted)", "1 mark: the shape of the active site changes / enzyme is denatured", "1 mark: starch no longer fits the active site, so fewer enzyme-substrate complexes form"],
+      "acceptedAnswers": [
+        "active site changes shape",
+        "denatured",
+        "starch no longer fits active site",
+        "fewer enzyme-substrate complexes"
+      ],
+      "markScheme": [
+        "1 mark: pH 4 is far from the optimum pH (so bonds holding the enzyme's shape are disrupted)",
+        "1 mark: the shape of the active site changes / enzyme is denatured",
+        "1 mark: starch no longer fits the active site, so fewer enzyme-substrate complexes form"
+      ],
       "explanation": "Enzyme function depends on the shape of the active site. The acidic conditions alter that shape, so the substrate cannot bind. Avoid saying the enzyme is 'killed': enzymes are proteins, not living things."
     },
     {
@@ -232,12 +348,32 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The mean time for the starch to be broken down was 30 s at pH 7 and 140 s at pH 5.\nCalculate how many times faster the rate of reaction was at pH 7 than at pH 5. Give your answer to 2 significant figures.",
+      "question": "Table 1 shows some results of an investigation into the effect of pH on amylase.\nCalculate how many times faster the rate of reaction was at pH 7 than at pH 5.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "pH",
+          "Mean time for starch to be broken down in s"
+        ],
+        "rows": [
+          [
+            "5",
+            "140"
+          ],
+          [
+            "7",
+            "30"
+          ]
+        ]
+      },
       "numericAnswer": 4.7,
       "tolerance": 0.02,
       "unit": "",
-      "markScheme": ["1 mark: rate at pH 7 = 1 ÷ 30 = 0.0333 s⁻¹ and rate at pH 5 = 1 ÷ 140 = 0.00714 s⁻¹", "1 mark: 0.0333 ÷ 0.00714 = 4.7 times"],
-      "explanation": "Because rate = 1 ÷ time, the ratio of rates is the inverse ratio of the times: 140 ÷ 30 = 4.67, which is 4.7 to 2 significant figures."
+      "markScheme": [
+        "1 mark: rate at pH 7 = 1 ÷ 30 = 0.0333 s⁻¹ and rate at pH 5 = 1 ÷ 140 = 0.00714 s⁻¹",
+        "1 mark: 0.0333 ÷ 0.00714 = 4.7 times"
+      ],
+      "explanation": "Because rate = 1 ÷ time, the ratio of rates is the inverse ratio of the times: 140 ÷ 30 = 4.67, which is 4.7 to 2 significant figures.",
+      "answerLabel": "Number of times faster"
     },
     {
       "id": "bio-rp5-q09",
@@ -245,9 +381,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student sampled the mixture every 30 seconds instead of every 10 seconds. Explain why this would make the results less accurate.",
-      "acceptedAnswers": ["end point could be any time in the 30 s interval", "less precise time", "lower resolution", "starch may have gone earlier"],
-      "markScheme": ["1 mark: the starch may have been broken down at any time during the 30 s interval", "1 mark: so the recorded time could be up to 30 s too long (less precise, harder to tell results apart)"],
+      "question": "Figure 1 shows a spotting tile from one test at pH 7.\nThe student added a drop of the reaction mixture to iodine every 10 seconds.\nAnother student sampled the mixture every 30 seconds instead of every 10 seconds.\nExplain why this would make the results less accurate.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"25\" width=\"290\" height=\"225\" rx=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"60\" r=\"22\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"70\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10 s</text><circle cx=\"140\" cy=\"60\" r=\"22\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"140\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20 s</text><circle cx=\"210\" cy=\"60\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"210\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30 s</text><circle cx=\"280\" cy=\"60\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"280\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40 s</text><circle cx=\"70\" cy=\"130\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"70\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50 s</text><circle cx=\"140\" cy=\"130\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"140\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60 s</text><circle cx=\"210\" cy=\"130\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"210\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70 s</text><circle cx=\"280\" cy=\"130\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"280\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80 s</text><circle cx=\"70\" cy=\"200\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"70\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">90 s</text><circle cx=\"140\" cy=\"200\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"140\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100 s</text><circle cx=\"210\" cy=\"200\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"210\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">110 s</text><circle cx=\"280\" cy=\"200\" r=\"22\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"280\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">120 s</text><circle cx=\"345\" cy=\"70\" r=\"9\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"360\" y=\"66\" font-size=\"12\" fill=\"currentColor\">Blue-</text><text x=\"360\" y=\"80\" font-size=\"12\" fill=\"currentColor\">black</text><circle cx=\"345\" cy=\"120\" r=\"9\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"360\" y=\"116\" font-size=\"12\" fill=\"currentColor\">Orange-</text><text x=\"360\" y=\"130\" font-size=\"12\" fill=\"currentColor\">brown</text><text x=\"30\" y=\"278\" font-size=\"12\" fill=\"currentColor\">Time each drop of the mixture was added to iodine</text></svg>"
+      },
+      "acceptedAnswers": [
+        "end point could be any time in the 30 s interval",
+        "less precise time",
+        "lower resolution",
+        "starch may have gone earlier"
+      ],
+      "markScheme": [
+        "1 mark: the starch may have been broken down at any time during the 30 s interval",
+        "1 mark: so the recorded time could be up to 30 s too long (less precise, harder to tell results apart)"
+      ],
       "explanation": "The sampling interval sets the resolution of the timing. With 30 s intervals, a reaction that took 35 s and one that took 55 s would both be recorded as 60 s."
     },
     {
@@ -257,9 +404,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "What is the product when amylase breaks down starch?",
-      "options": ["Maltose (a sugar)", "Amino acids", "Glycerol", "Fatty acids"],
+      "options": [
+        "Maltose (a sugar)",
+        "Amino acids",
+        "Glycerol",
+        "Fatty acids"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: maltose / sugars"],
+      "markScheme": [
+        "1 mark: maltose / sugars"
+      ],
       "explanation": "Amylase is a carbohydrase that breaks starch into maltose. Proteases produce amino acids, and lipases produce fatty acids and glycerol."
     },
     {
@@ -268,9 +422,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give two variables, other than temperature, that should be kept the same in this investigation.",
-      "acceptedAnswers": ["volume of amylase", "concentration of amylase", "volume of starch", "concentration of starch", "volume of buffer", "sampling interval", "drops of iodine"],
-      "markScheme": ["1 mark each, up to 2: volume or concentration of amylase; volume or concentration of starch; volume of buffer; time interval between samples; number of drops of iodine"],
+      "question": "Give two variables, other than temperature, that should be kept the same in an investigation into the effect of pH on amylase.",
+      "acceptedAnswers": [
+        "volume of amylase",
+        "concentration of amylase",
+        "volume of starch",
+        "concentration of starch",
+        "volume of buffer",
+        "sampling interval",
+        "drops of iodine"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: volume or concentration of amylase; volume or concentration of starch; volume of buffer; time interval between samples; number of drops of iodine"
+      ],
       "explanation": "Each of these affects how quickly the starch disappears or how the end point looks, so only pH should be changed."
     },
     {
@@ -279,9 +443,20 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student concluded that the optimum pH of amylase is exactly pH 7. Suggest how the investigation could be improved to find the optimum pH more precisely.",
-      "acceptedAnswers": ["test more pH values between 6 and 8", "smaller intervals of pH", "pH 6.5 7.0 7.5", "sample more often"],
-      "markScheme": ["1 mark: use more pH values between pH 6 and pH 8 (smaller pH intervals, for example 6.5, 7.0, 7.5)", "1 mark: repeat each and calculate means (or sample more frequently, for example every 5 s)"],
+      "question": "Figure 1 shows a student's results.\nThe student concluded that the optimum pH of amylase is exactly pH 7.\nSuggest how the investigation could be improved to find the optimum pH more precisely.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M84.2 14V264M98.3 14V264M112.5 14V264M126.6 14V264M155 14V264M169.1 14V264M183.3 14V264M197.4 14V264M225.8 14V264M239.9 14V264M254.1 14V264M268.2 14V264M296.6 14V264M310.7 14V264M324.9 14V264M339 14V264M367.4 14V264M381.5 14V264M395.7 14V264M409.8 14V264M70 256.9H424M70 249.7H424M70 242.6H424M70 235.4H424M70 221.1H424M70 214H424M70 206.9H424M70 199.7H424M70 185.4H424M70 178.3H424M70 171.1H424M70 164H424M70 149.7H424M70 142.6H424M70 135.4H424M70 128.3H424M70 114H424M70 106.9H424M70 99.7H424M70 92.6H424M70 78.3H424M70 71.1H424M70 64H424M70 56.9H424M70 42.6H424M70 35.4H424M70 28.3H424M70 21.1H424\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M70 14V264M140.8 14V264M211.6 14V264M282.4 14V264M353.2 14V264M424 14V264M70 264H424M70 228.3H424M70 192.6H424M70 156.9H424M70 121.1H424M70 85.4H424M70 49.7H424M70 14H424\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M70 14V264H424\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"70,239.4 140.8,213 211.6,144.7 282.4,26.1 353.2,174.7 424,230\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M66 235.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M136.8 209l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M207.6 140.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M278.4 22.1l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M349.2 170.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M420 226l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"140.8\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"211.6\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"282.4\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"353.2\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"424\" y=\"280\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"232.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.005</text><text x=\"64\" y=\"196.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.010</text><text x=\"64\" y=\"160.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.015</text><text x=\"64\" y=\"125.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.020</text><text x=\"64\" y=\"89.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.025</text><text x=\"64\" y=\"53.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.030</text><text x=\"64\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.035</text><text x=\"247\" y=\"302\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pH</text><text x=\"14\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 139)\">Rate of reaction in s⁻¹</text></svg>"
+      },
+      "acceptedAnswers": [
+        "test more pH values between 6 and 8",
+        "smaller intervals of pH",
+        "pH 6.5 7.0 7.5",
+        "sample more often"
+      ],
+      "markScheme": [
+        "1 mark: use more pH values between pH 6 and pH 8 (smaller pH intervals, for example 6.5, 7.0, 7.5)",
+        "1 mark: repeat each and calculate means (or sample more frequently, for example every 5 s)"
+      ],
       "explanation": "With only whole-number pH values tested, the true optimum could be anywhere between 6 and 8. Testing closer values around the peak narrows down where the maximum rate is."
     },
     {
@@ -290,10 +465,17 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "At pH 9 the rate of reaction was 0.00476 s⁻¹. What was the mean time for the starch to be broken down?",
-      "options": ["48 s", "476 s", "210 s", "21 s"],
+      "question": "At pH 9 the rate of reaction was 0.00476 s⁻¹.\nWhat was the mean time for the starch to be broken down?\nUse the equation:\nrate = 1 ÷ time",
+      "options": [
+        "48 s",
+        "476 s",
+        "210 s",
+        "21 s"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 210 s"],
+      "markScheme": [
+        "1 mark: 210 s"
+      ],
       "explanation": "Rearrange rate = 1 ÷ time to time = 1 ÷ rate = 1 ÷ 0.00476 = 210 s. The other options come from misreading the decimal place."
     },
     {

@@ -197,7 +197,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "In coronary heart disease, where does fatty material build up?",
+      "question": "Coronary heart disease is a non-communicable disease.\nIn coronary heart disease, where does fatty material build up?",
       "options": [
         "In the heart chambers",
         "In the coronary arteries",
@@ -216,7 +216,10 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is a stent?",
+      "question": "Figure 1 shows a coronary artery that has been treated for coronary heart disease.\nWhat is structure X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"60\" width=\"380\" height=\"100\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"30\" y=\"80\" width=\"380\" height=\"60\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M150 80h140v-8q-70 -6 -140 0z\" fill=\"#fde68a\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><path d=\"M150 140h140v8q-70 6 -140 0z\" fill=\"#fde68a\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><path d=\"M150 85H290M150 135H290M150 85L170 135M170 85L150 135M170 85L190 135M190 85L170 135M190 85L210 135M210 85L190 135M210 85L230 135M230 85L210 135M230 85L250 135M250 85L230 135M250 85L270 135M270 85L250 135M270 85L290 135M290 85L270 135\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"270\" y1=\"85\" x2=\"330\" y2=\"30\" stroke=\"currentColor\"/><text x=\"334\" y=\"34\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">X</text><line x1=\"50\" y1=\"62\" x2=\"60\" y2=\"30\" stroke=\"currentColor\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Wall of coronary artery</text><line x1=\"200\" y1=\"73\" x2=\"200\" y2=\"200\" stroke=\"currentColor\"/><text x=\"204\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Fatty material</text><text x=\"60\" y=\"115\" font-size=\"12\" fill=\"currentColor\">Blood flow →</text></svg>"
+      },
       "options": [
         "A drug that lowers cholesterol",
         "A replacement heart valve",
@@ -254,7 +257,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why does narrowing of the coronary arteries cause chest pain during exercise?",
+      "question": "A person has narrowed coronary arteries.\nWhy does the person get chest pain during exercise?",
       "options": [
         "The heart chambers fill with fat",
         "Heart muscle receives too little oxygen for its increased rate of respiration",
@@ -349,7 +352,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A patient's coronary artery is 90% blocked and they are having frequent chest pain. Which is the most appropriate immediate treatment?",
+      "question": "A patient's coronary artery is 90% blocked. The patient has frequent chest pain.\nWhich is the most appropriate immediate treatment?",
       "options": [
         "Statins only",
         "A heart and lung transplant",
@@ -387,7 +390,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A patient's cholesterol level fell from 7.0 to 5.6 mmol/dm³ after taking statins. Calculate the percentage decrease.",
+      "question": "Table 1 shows a patient's blood cholesterol level before and after taking statins.\nCalculate the percentage decrease in the patient's blood cholesterol level.",
+      "table": {
+        "headers": [
+          "Time",
+          "Blood cholesterol level in mmol/dm³"
+        ],
+        "rows": [
+          [
+            "Before taking statins",
+            "7.0"
+          ],
+          [
+            "After taking statins",
+            "5.6"
+          ]
+        ]
+      },
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "%",
@@ -395,7 +414,8 @@
         "1 mark: (7.0 − 5.6) ÷ 7.0 × 100",
         "1 mark: 20%"
       ],
-      "explanation": "Decrease = 1.4. 1.4 ÷ 7.0 = 0.2 = 20%."
+      "explanation": "Decrease = 1.4. 1.4 ÷ 7.0 = 0.2 = 20%.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "b2-coronary-heart-disease-q12",
@@ -403,7 +423,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A country records 520 000 deaths in one year. 1 in 8 of these deaths is caused by coronary heart disease. Calculate the number of deaths caused by CHD that year.",
+      "question": "In one year a country recorded 520 000 deaths.\n1 in 8 of these deaths was caused by coronary heart disease (CHD).\nCalculate the number of deaths caused by CHD that year.",
       "numericAnswer": 65000,
       "tolerance": 0,
       "unit": "deaths",
@@ -411,7 +431,8 @@
         "1 mark: 520 000 ÷ 8",
         "1 mark: 65 000"
       ],
-      "explanation": "1 in 8 means divide by 8: 520 000 ÷ 8 = 65 000."
+      "explanation": "1 in 8 means divide by 8: 520 000 ÷ 8 = 65 000.",
+      "answerLabel": "Number of deaths"
     },
     {
       "id": "b2-coronary-heart-disease-q13",
@@ -419,7 +440,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "The lumen of a healthy coronary artery has a diameter of 4.0 mm. Fatty material reduces the diameter to 2.0 mm. Calculate the percentage decrease in the cross-sectional area of the lumen. (Area of a circle = πr²)",
+      "question": "Figure 1 shows cross-sections of a healthy coronary artery and a coronary artery with fatty material.\nThe diameter of the lumen is shown for each artery.\nCalculate the percentage decrease in the cross-sectional area of the lumen.\nUse the equation:\narea of a circle = π × radius²",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 240\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"70\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"40\" fill=\"#e5e7eb\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"110\" r=\"70\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"320\" cy=\"110\" r=\"40\" fill=\"#fde68a\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"110\" r=\"20\" fill=\"#e5e7eb\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><path d=\"M70 110H150M300 110H340\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M70 110l7 -4v8zM150 110l-7 -4v8zM300 110l7 -4v8zM340 110l-7 -4v8z\" fill=\"currentColor\"/><text x=\"110\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4.0 mm</text><text x=\"320\" y=\"26\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2.0 mm</text><line x1=\"320\" y1=\"31\" x2=\"320\" y2=\"108\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"110\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Healthy artery</text><text x=\"320\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Artery with fatty material</text><line x1=\"350\" y1=\"135\" x2=\"400\" y2=\"165\" stroke=\"currentColor\"/><text x=\"404\" y=\"169\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Fatty</text><text x=\"404\" y=\"180\" font-size=\"12\" fill=\"currentColor\">material</text></svg>"
+      },
       "numericAnswer": 75,
       "tolerance": 0.01,
       "unit": "%",
@@ -428,7 +452,8 @@
         "1 mark: new area = π × 1.0² = 3.14 mm²",
         "1 mark: (12.6 − 3.14) ÷ 12.6 × 100 = 75%"
       ],
-      "explanation": "Halving the diameter halves the radius, and area depends on radius squared, so the area becomes one quarter: a 75% decrease. Saying 50% is the most common error."
+      "explanation": "Halving the diameter halves the radius, and area depends on radius squared, so the area becomes one quarter: a 75% decrease. Saying 50% is the most common error.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "b2-coronary-heart-disease-q14",
@@ -436,7 +461,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a trial, 4.0% of patients taking a placebo had a heart attack within 5 years, compared with 2.8% of patients taking statins. Calculate the percentage reduction in risk for patients taking statins.",
+      "question": "Scientists did a trial with patients at risk of coronary heart disease.\nOne group took statins. The other group took a placebo.\nFigure 1 shows the percentage of patients in each group who had a heart attack within 5 years.\nCalculate the percentage reduction in risk for patients taking statins compared with patients taking the placebo.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 320\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"64\" y=\"264.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"216.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"64\" y=\"168.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"64\" y=\"120.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"64\" y=\"72.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"64\" y=\"24.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><path d=\"M70 250.4H360M70 240.8H360M70 231.2H360M70 221.6H360M70 202.4H360M70 192.8H360M70 183.2H360M70 173.6H360M70 154.4H360M70 144.8H360M70 135.2H360M70 125.6H360M70 106.4H360M70 96.8H360M70 87.2H360M70 77.6H360M70 58.4H360M70 48.8H360M70 39.2H360M70 29.6H360\" stroke=\"currentColor\" stroke-opacity=\"0.12\" fill=\"none\"/><path d=\"M70 260.0H360M70 212.0H360M70 164.0H360M70 116.0H360M70 68.0H360M70 20.0H360\" stroke=\"currentColor\" stroke-opacity=\"0.3\" fill=\"none\"/><rect x=\"109.9\" y=\"68.0\" width=\"65.3\" height=\"192.0\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"142.5\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Placebo</text><rect x=\"254.9\" y=\"125.6\" width=\"65.3\" height=\"134.4\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"287.5\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Statins</text><path d=\"M70 20V260H360\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"215\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Treatment group</text><text x=\"18\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 140)\">Patients who had a heart attack in %</text></svg>"
+      },
       "numericAnswer": 30,
       "tolerance": 0.01,
       "unit": "%",
@@ -444,7 +472,8 @@
         "1 mark: (4.0 − 2.8) ÷ 4.0 × 100",
         "1 mark: 30%"
       ],
-      "explanation": "The fall is 1.2 percentage points. As a proportion of the placebo risk this is 1.2 ÷ 4.0 = 0.30, a 30% reduction."
+      "explanation": "The fall is 1.2 percentage points. As a proportion of the placebo risk this is 1.2 ÷ 4.0 = 0.30, a 30% reduction.",
+      "answerLabel": "Percentage reduction"
     },
     {
       "id": "b2-coronary-heart-disease-q15",
@@ -452,7 +481,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A stent costs £1200 to fit. Statins cost £18 per year. How many years of statins cost the same as fitting one stent?",
+      "question": "Table 1 shows the cost of two treatments for coronary heart disease.\nCalculate the number of years of statins that cost the same as fitting one stent.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Treatment",
+          "Cost in £"
+        ],
+        "rows": [
+          [
+            "Fitting one stent",
+            "1200"
+          ],
+          [
+            "Statins for one year",
+            "18"
+          ]
+        ]
+      },
       "numericAnswer": 66.7,
       "tolerance": 0.01,
       "unit": "years",
@@ -460,7 +505,8 @@
         "1 mark: 1200 ÷ 18",
         "1 mark: 66.7 years"
       ],
-      "explanation": "1200 ÷ 18 = 66.67 years. This shows that comparing costs is not straightforward; statins are cheap per year but are taken for life, while stents carry other costs such as hospital care."
+      "explanation": "1200 ÷ 18 = 66.67 years. This shows that comparing costs is not straightforward; statins are cheap per year but are taken for life, while stents carry other costs such as hospital care.",
+      "answerLabel": "Number of years"
     },
     {
       "id": "b2-coronary-heart-disease-q16",
@@ -468,7 +514,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "State one way a heart valve can become faulty.",
+      "question": "Give one way in which a heart valve can become faulty.",
       "acceptedAnswers": [
         "does not open fully",
         "leaks",
@@ -504,7 +550,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain how a build-up of fatty material in the coronary arteries can lead to a heart attack.",
+      "question": "Figure 1 shows a cross-section of a coronary artery from a person with coronary heart disease.\nExplain how the build-up of fatty material in the coronary arteries can lead to a heart attack.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"170\" cy=\"120\" r=\"90\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"170\" cy=\"120\" r=\"60\" fill=\"#fde68a\" fill-opacity=\"0.8\" stroke=\"currentColor\"/><circle cx=\"170\" cy=\"120\" r=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><line x1=\"240\" y1=\"63\" x2=\"300\" y2=\"25\" stroke=\"currentColor\"/><text x=\"304\" y=\"29\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Artery wall</text><line x1=\"212\" y1=\"100\" x2=\"300\" y2=\"90\" stroke=\"currentColor\"/><text x=\"304\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Fatty material</text><line x1=\"175\" y1=\"125\" x2=\"300\" y2=\"170\" stroke=\"currentColor\"/><text x=\"304\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Lumen</text></svg>"
+      },
       "acceptedAnswers": [
         "narrows artery",
         "less blood flow",
@@ -585,7 +634,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A person has a leaky valve between the left atrium and left ventricle. Explain why they become breathless and tired easily.",
+      "question": "Figure 1 shows a section through the human heart.\nA person has a leaking valve, labelled V, between the left atrium and the left ventricle.\nExplain why the person becomes breathless and tired easily.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 320\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10 0)\"><rect x=\"110\" y=\"20\" width=\"26\" height=\"85\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"290\" y=\"20\" width=\"26\" height=\"85\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"184\" y=\"20\" width=\"22\" height=\"162\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"214\" y=\"20\" width=\"22\" height=\"162\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M80 110Q80 92 98 92H180V182H240V92H322Q340 92 340 110V200Q340 262 210 304Q80 262 80 200Z\" fill=\"#e5e7eb\" fill-opacity=\"0.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"95\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"245\" y=\"100\" width=\"80\" height=\"62\" rx=\"10\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M95 178H200V270Q140 255 95 205Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M228 178H320V205Q305 252 228 282Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M110 162L128 176M160 162L142 176M260 162L278 176M310 162L292 176\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/><path d=\"M185 186l10 -8l10 8M215 186l10 -8l10 8\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></g><line x1=\"300\" y1=\"170\" x2=\"405\" y2=\"215\" stroke=\"currentColor\"/><text x=\"409\" y=\"219\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">V</text></svg>"
+      },
       "acceptedAnswers": [
         "backflow",
         "less blood to body",
@@ -624,7 +676,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which word describes the build-up in coronary heart disease?",
+      "question": "What builds up inside the coronary arteries in coronary heart disease?",
       "options": [
         "Fatty material",
         "Blood cells",

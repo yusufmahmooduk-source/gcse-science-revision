@@ -257,7 +257,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which factor, apart from disease, can have a profound effect on health?",
+      "question": "Diseases are major factors affecting health.\nWhich other factor can also have a profound effect on health?",
       "options": [
         "Eye colour",
         "Blood group",
@@ -276,7 +276,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A person has a defect in their immune system. What is the most likely effect?",
+      "question": "A person has a defect in their immune system.\nWhat is the most likely effect on the person?",
       "options": [
         "They are more likely to suffer from infectious diseases",
         "They cannot develop cancer",
@@ -314,7 +314,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Immune reactions initially caused by a pathogen can trigger:",
+      "question": "Immune reactions initially caused by a pathogen can trigger other health problems.\nComplete the sentence.\nImmune reactions initially caused by a pathogen can trigger",
       "options": [
         "allergies such as skin rashes and asthma",
         "coronary heart disease",
@@ -333,7 +333,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why is disease incidence often given per 100 000 people?",
+      "question": "The incidence of a disease is often given as the number of cases per 100 000 people.\nWhy is incidence given per 100 000 people?",
       "options": [
         "Because 100 000 people are always tested",
         "Because it makes the numbers bigger",
@@ -352,7 +352,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A study of a disease used 50 volunteers, all male students aged 18 to 21. Which is the main weakness of this sample?",
+      "question": "Scientists studied a disease using 50 volunteers.\nAll of the volunteers were male students aged 18 to 21.\nWhat is the main weakness of this sample?",
       "options": [
         "It is too large",
         "It is not representative of the whole population and is small",
@@ -371,7 +371,47 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Data on the ages of 200 patients with a disease are grouped into 10-year age classes. Which is the most suitable way to display these data?",
+      "question": "Table 1 shows the ages of 200 patients with a disease.\nThe ages are grouped into 10-year classes.\nWhich is the most suitable way to display these data?",
+      "table": {
+        "headers": [
+          "Age in years",
+          "Number of patients"
+        ],
+        "rows": [
+          [
+            "0 to 9",
+            "4"
+          ],
+          [
+            "10 to 19",
+            "8"
+          ],
+          [
+            "20 to 29",
+            "12"
+          ],
+          [
+            "30 to 39",
+            "20"
+          ],
+          [
+            "40 to 49",
+            "30"
+          ],
+          [
+            "50 to 59",
+            "46"
+          ],
+          [
+            "60 to 69",
+            "48"
+          ],
+          [
+            "70 to 79",
+            "32"
+          ]
+        ]
+      },
       "options": [
         "Pie chart",
         "Line graph",
@@ -390,7 +430,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A patient with a long-term painful lung disease becomes depressed. What does this illustrate?",
+      "question": "A patient has a long-term, painful lung disease.\nThe patient becomes depressed.\nWhat does this example show?",
       "options": [
         "Mental illness is a communicable disease",
         "Depression is caused by a pathogen",
@@ -409,7 +449,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "In a survey of 400 people, 36 had hay fever. Calculate the percentage with hay fever.",
+      "question": "Table 1 shows the results of a survey about hay fever.\nCalculate the percentage of people in the survey who had hay fever.",
+      "table": {
+        "headers": [
+          "Group",
+          "Number of people"
+        ],
+        "rows": [
+          [
+            "People in the survey",
+            "400"
+          ],
+          [
+            "People with hay fever",
+            "36"
+          ]
+        ]
+      },
       "numericAnswer": 9,
       "tolerance": 0,
       "unit": "%",
@@ -417,7 +473,8 @@
         "1 mark: 36 ÷ 400 × 100",
         "1 mark: 9%"
       ],
-      "explanation": "36 ÷ 400 = 0.09, × 100 = 9%."
+      "explanation": "36 ÷ 400 = 0.09, × 100 = 9%.",
+      "answerLabel": "Percentage with hay fever"
     },
     {
       "id": "b2-health-issues-q12",
@@ -425,7 +482,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A town of 80 000 people had 120 new cases of a disease in a year. Calculate the incidence per 100 000 people.",
+      "question": "Table 1 shows information about a disease in one town in one year.\nCalculate the incidence of the disease per 100 000 people.",
+      "table": {
+        "headers": [
+          "Population of the town",
+          "Number of new cases in one year"
+        ],
+        "rows": [
+          [
+            "80 000",
+            "120"
+          ]
+        ]
+      },
       "numericAnswer": 150,
       "tolerance": 0,
       "unit": "per 100 000",
@@ -433,7 +502,8 @@
         "1 mark: 120 ÷ 80 000 × 100 000",
         "1 mark: 150"
       ],
-      "explanation": "120 ÷ 80 000 = 0.0015, × 100 000 = 150 per 100 000."
+      "explanation": "120 ÷ 80 000 = 0.0015, × 100 000 = 150 per 100 000.",
+      "answerLabel": "Incidence"
     },
     {
       "id": "b2-health-issues-q13",
@@ -441,7 +511,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a random sample of 250 adults, 30 had high blood pressure. Estimate the number of adults with high blood pressure in a city of 150 000 adults.",
+      "question": "Table 1 shows the results for a random sample of adults from a city.\nThe city has 150 000 adults.\nEstimate the number of adults in the city who have high blood pressure.",
+      "table": {
+        "headers": [
+          "Number of adults in the sample",
+          "Number with high blood pressure"
+        ],
+        "rows": [
+          [
+            "250",
+            "30"
+          ]
+        ]
+      },
       "numericAnswer": 18000,
       "tolerance": 0,
       "unit": "adults",
@@ -449,7 +531,8 @@
         "1 mark: 30 ÷ 250 = 0.12",
         "1 mark: 0.12 × 150 000 = 18 000"
       ],
-      "explanation": "The sample proportion is 12%, which scaled up gives 18 000."
+      "explanation": "The sample proportion is 12%, which scaled up gives 18 000.",
+      "answerLabel": "Estimated number of adults"
     },
     {
       "id": "b2-health-issues-q14",
@@ -457,7 +540,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The number of new cases of a disease in a country fell from 3600 to 2700 in five years. Calculate the percentage decrease.",
+      "question": "Figure 1 shows the number of new cases of a disease in a country from 2018 to 2023.\nCalculate the percentage decrease in the number of new cases between 2018 and 2023.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M85.4 20V265M100.8 20V265M116.2 20V265M131.6 20V265M162.4 20V265M177.8 20V265M193.2 20V265M208.6 20V265M239.4 20V265M254.8 20V265M270.2 20V265M285.6 20V265M316.4 20V265M331.8 20V265M347.2 20V265M362.6 20V265M393.4 20V265M408.8 20V265M424.2 20V265M439.6 20V265M70 252.8H455M70 240.5H455M70 228.3H455M70 216.0H455M70 191.5H455M70 179.3H455M70 167.0H455M70 154.8H455M70 130.3H455M70 118.0H455M70 105.8H455M70 93.5H455M70 69.0H455M70 56.8H455M70 44.5H455M70 32.3H455\" stroke=\"currentColor\" stroke-opacity=\"0.12\" fill=\"none\"/><path d=\"M70.0 20V265M147.0 20V265M224.0 20V265M301.0 20V265M378.0 20V265M455.0 20V265M70 265.0H455M70 203.8H455M70 142.5H455M70 81.3H455M70 20.0H455\" stroke=\"currentColor\" stroke-opacity=\"0.3\" fill=\"none\"/><text x=\"70.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2018</text><text x=\"147.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2019</text><text x=\"224.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2020</text><text x=\"301.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2021</text><text x=\"378.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2022</text><text x=\"455.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2023</text><text x=\"64\" y=\"269.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2000</text><text x=\"64\" y=\"207.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2500</text><text x=\"64\" y=\"146.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3000</text><text x=\"64\" y=\"85.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3500</text><text x=\"64\" y=\"24.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4000</text><path d=\"M70 20V265H455\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262.5\" y=\"308\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year</text><text x=\"18\" y=\"142.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 142.5)\">Number of new cases</text><polyline points=\"70.0,69.0 147.0,81.3 224.0,105.8 301.0,130.3 378.0,154.8 455.0,179.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M66.0 65.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M143.0 77.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M220.0 101.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M297.0 126.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M374.0 150.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M451.0 175.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "numericAnswer": 25,
       "tolerance": 0,
       "unit": "%",
@@ -465,7 +551,8 @@
         "1 mark: (3600 − 2700) ÷ 3600 × 100",
         "1 mark: 25%"
       ],
-      "explanation": "Decrease = 900. 900 ÷ 3600 = 0.25 = 25%. Dividing by the new value (2700) is a common error."
+      "explanation": "Decrease = 900. 900 ÷ 3600 = 0.25 = 25%. Dividing by the new value (2700) is a common error.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "b2-health-issues-q15",
@@ -473,7 +560,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Country X (population 5 million) had 7500 cases of a disease. Country Y (population 60 million) had 54 000 cases. Calculate how many times higher the incidence per 100 000 people is in country X than in country Y.",
+      "question": "Table 1 shows information about a disease in two countries, X and Y.\nCalculate how many times higher the incidence per 100 000 people is in country X than in country Y.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Country",
+          "Population",
+          "Number of cases"
+        ],
+        "rows": [
+          [
+            "X",
+            "5 000 000",
+            "7 500"
+          ],
+          [
+            "Y",
+            "60 000 000",
+            "54 000"
+          ]
+        ]
+      },
       "numericAnswer": 1.67,
       "tolerance": 0.01,
       "unit": "",
@@ -482,7 +588,8 @@
         "1 mark: Y: 54 000 ÷ 60 000 000 × 100 000 = 90 per 100 000",
         "1 mark: 150 ÷ 90 = 1.67"
       ],
-      "explanation": "Although country Y has far more cases, its incidence is lower. 150 ÷ 90 = 1.67 times higher in X."
+      "explanation": "Although country Y has far more cases, its incidence is lower. 150 ÷ 90 = 1.67 times higher in X.",
+      "answerLabel": "Number of times higher"
     },
     {
       "id": "b2-health-issues-q16",
@@ -490,7 +597,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by a non-communicable disease.",
+      "question": "What is meant by a non-communicable disease?",
       "acceptedAnswers": [
         "cannot be passed",
         "not spread",
@@ -529,7 +636,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why a person with HIV, which damages white blood cells, is more likely to get tuberculosis.",
+      "question": "HIV is a virus that damages white blood cells.\nExplain why a person with HIV is more likely to get tuberculosis.",
       "acceptedAnswers": [
         "immune system damaged",
         "fewer white blood cells",
@@ -548,7 +655,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain how a communicable disease can lead to a non-communicable disease. Use an example.",
+      "question": "A communicable disease can lead to a non-communicable disease.\nExplain how. Use an example in your answer.",
       "acceptedAnswers": [
         "virus in cells",
         "HPV",
@@ -590,7 +697,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Town P has 400 cases of a disease and town Q has 250 cases. A student concludes that people in town P are more at risk. Explain why this conclusion may not be valid and what further information is needed.",
+      "question": "Table 1 shows the number of cases of a disease in two towns, P and Q.\nA student concludes that people in town P are more at risk of the disease than people in town Q.\nExplain why this conclusion may not be valid.\nGive the further information needed.",
+      "table": {
+        "headers": [
+          "Town",
+          "Number of cases of the disease"
+        ],
+        "rows": [
+          [
+            "P",
+            "400"
+          ],
+          [
+            "Q",
+            "250"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "population size",
         "rate per 100 000",

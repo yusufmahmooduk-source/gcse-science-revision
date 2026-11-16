@@ -141,7 +141,7 @@
       "id": "p1-power-q01",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
       "question": "What is the unit of power?",
-      "options": ["joule", "newton", "volt", "watt"],
+      "options": ["joule","newton","volt","watt"],
       "answer": 3,
       "markScheme": ["1 mark: watt"],
       "explanation": "Power is measured in watts (W). The joule is the unit of energy and the newton the unit of force."
@@ -149,8 +149,8 @@
     {
       "id": "p1-power-q02",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which of these is the best definition of power?",
-      "options": ["The rate at which energy is transferred", "The total energy transferred by a device", "The force needed to move an object", "The energy wasted by a device"],
+      "question": "Which of the following is the definition of power?",
+      "options": ["The rate at which energy is transferred","The total energy transferred by a device","The force needed to move an object","The energy wasted by a device"],
       "answer": 0,
       "markScheme": ["1 mark: The rate at which energy is transferred"],
       "explanation": "Power is about how quickly energy is transferred (per second), not the total amount transferred."
@@ -158,8 +158,8 @@
     {
       "id": "p1-power-q03",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "A power of 1 watt is equal to:",
-      "options": ["1 joule per minute", "1 newton per second", "1 joule per second", "1 joule × 1 second"],
+      "question": "Which of the following is equal to a power of 1 watt?",
+      "options": ["1 joule per minute","1 newton per second","1 joule per second","1 joule × 1 second"],
       "answer": 2,
       "markScheme": ["1 mark: 1 joule per second"],
       "explanation": "P = E ÷ t, so 1 W = 1 J ÷ 1 s = 1 J/s."
@@ -167,8 +167,8 @@
     {
       "id": "p1-power-q04",
       "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "A kettle has a power of 3 kW. What is this in watts?",
-      "options": ["30 W", "3000 W", "300 W", "0.003 W"],
+      "question": "A kettle has a power of 3 kW.\nWhat is the power of the kettle in watts?",
+      "options": ["30 W","3000 W","300 W","0.003 W"],
       "answer": 1,
       "markScheme": ["1 mark: 3000 W"],
       "explanation": "The prefix kilo means × 1000, so 3 kW = 3 × 1000 = 3000 W."
@@ -176,8 +176,15 @@
     {
       "id": "p1-power-q05",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Motor A and motor B each lift identical loads through the same height. Motor A takes 5 s and motor B takes 10 s. Which statement is correct?",
-      "options": ["Motor B does more work because it takes longer", "Motor A does more work because it is faster", "Both do the same work, but motor A has twice the power of motor B", "Both have the same power because they lift the same load"],
+      "question": "Motor A and motor B each lift identical loads through the same height.\nTable 1 shows the time each motor takes to lift the load.\nWhich statement is correct?",
+      "table": {
+        "headers": ["Motor","Time taken in s"],
+        "rows": [
+          ["A","5"],
+          ["B","10"]
+        ]
+      },
+      "options": ["Motor B does more work because it takes longer","Motor A does more work because it is faster","Both do the same work, but motor A has twice the power of motor B","Both have the same power because they lift the same load"],
       "answer": 2,
       "markScheme": ["1 mark: Both do the same work, but motor A has twice the power of motor B"],
       "explanation": "Work done depends on the load and height, which are the same. Power = work ÷ time, so halving the time doubles the power."
@@ -185,8 +192,15 @@
     {
       "id": "p1-power-q06",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Heater X (2 kW) is on for 10 minutes. Heater Y (1 kW) is on for 30 minutes. Which statement is correct?",
-      "options": ["Heater X transfers more energy because its power is higher", "Heater Y transfers more energy: 1800 kJ compared with 1200 kJ", "Both heaters transfer the same energy", "It is impossible to compare them without knowing the voltage"],
+      "question": "Table 1 shows the power of two heaters, X and Y, and the time each heater is switched on for.\nWhich statement is correct?",
+      "table": {
+        "headers": ["Heater","Power in kW","Time switched on in minutes"],
+        "rows": [
+          ["X","2","10"],
+          ["Y","1","30"]
+        ]
+      },
+      "options": ["Heater X transfers more energy because its power is higher","Heater Y transfers more energy: 1800 kJ compared with 1200 kJ","Both heaters transfer the same energy","It is impossible to compare them without knowing the voltage"],
       "answer": 1,
       "markScheme": ["1 mark: Heater Y transfers more energy: 1800 kJ compared with 1200 kJ"],
       "explanation": "E = P × t. X: 2000 × 600 = 1 200 000 J. Y: 1000 × 1800 = 1 800 000 J. A lower power for a longer time can transfer more energy."
@@ -194,8 +208,8 @@
     {
       "id": "p1-power-q07",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Which equation links power (P), work done (W) and time (t)?",
-      "options": ["P = W × t", "P = t ÷ W", "P = W + t", "P = W ÷ t"],
+      "question": "Which equation links power (P), time (t) and work done (W)?",
+      "options": ["P = W × t","P = t ÷ W","P = W + t","P = W ÷ t"],
       "answer": 3,
       "markScheme": ["1 mark: P = W ÷ t"],
       "explanation": "Power is the rate of doing work, so it is work done divided by time taken."
@@ -203,8 +217,8 @@
     {
       "id": "p1-power-q08",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "A lift raises a load through a fixed height. The mass of the load is doubled and the time taken is halved. What happens to the useful power output of the lift motor?",
-      "options": ["It becomes four times larger", "It doubles", "It stays the same", "It halves"],
+      "question": "A lift raises a load through a fixed height.\nThe mass of the load is doubled and the time taken is halved.\nWhat happens to the useful power output of the lift motor?",
+      "options": ["It becomes four times larger","It doubles","It stays the same","It halves"],
       "answer": 0,
       "markScheme": ["1 mark: It becomes four times larger"],
       "explanation": "P = mgh ÷ t. Doubling m doubles the work done, and halving t doubles the power again: 2 × 2 = 4 times larger."
@@ -212,8 +226,8 @@
     {
       "id": "p1-power-q09",
       "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Two kettles each heat 1 kg of water from 20 °C to 100 °C. Ignoring energy losses, which statement is correct about the kettle with the higher power rating?",
-      "options": ["It transfers more energy to the water", "It transfers less energy because it is more powerful", "It transfers the same energy to the water in a shorter time", "It raises the water to a higher final temperature"],
+      "question": "Two kettles each heat 1 kg of water from 20 °C to 100 °C. Energy losses can be ignored.\nWhich statement about the kettle with the higher power is correct?",
+      "options": ["It transfers more energy to the water","It transfers less energy because it is more powerful","It transfers the same energy to the water in a shorter time","It raises the water to a higher final temperature"],
       "answer": 2,
       "markScheme": ["1 mark: It transfers the same energy to the water in a shorter time"],
       "explanation": "The energy needed depends only on the mass, the specific heat capacity and the temperature change, which are the same. A higher power transfers that energy faster, so t = E ÷ P is shorter."
@@ -221,8 +235,8 @@
     {
       "id": "p1-power-q10",
       "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "A 40 W lamp is switched on for 1 minute. How much energy does it transfer?",
-      "options": ["40 J", "2400 J", "0.67 J", "40 000 J"],
+      "question": "A 40 W lamp is switched on for 1 minute.\nHow much energy is transferred by the lamp?",
+      "options": ["40 J","2400 J","0.67 J","40 000 J"],
       "answer": 1,
       "markScheme": ["1 mark: 2400 J"],
       "explanation": "E = P × t = 40 × 60 = 2400 J. Using t = 1 gives 40 J, and dividing gives 0.67 J; both are wrong."
@@ -230,135 +244,191 @@
     {
       "id": "p1-power-q11",
       "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "A motor transfers 600 J of energy in 20 s. Calculate its power.",
-      "numericAnswer": 30, "tolerance": 0.01, "unit": "W",
-      "markScheme": ["1 mark: P = 600 ÷ 20", "1 mark: 30 W"],
+      "question": "A motor transfers 600 J of energy in 20 s.\nCalculate the power of the motor.",
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "W",
+      "answerLabel": "Power",
+      "markScheme": ["1 mark: P = 600 ÷ 20","1 mark: 30 W"],
       "explanation": "P = E ÷ t = 600 ÷ 20 = 30 W."
     },
     {
       "id": "p1-power-q12",
       "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "A weightlifter does 4500 J of work in 15 s. Calculate the power.",
-      "numericAnswer": 300, "tolerance": 0.01, "unit": "W",
-      "markScheme": ["1 mark: P = 4500 ÷ 15", "1 mark: 300 W"],
+      "question": "A weightlifter does 4500 J of work in 15 s.\nCalculate the power of the weightlifter.",
+      "numericAnswer": 300,
+      "tolerance": 0.01,
+      "unit": "W",
+      "answerLabel": "Power",
+      "markScheme": ["1 mark: P = 4500 ÷ 15","1 mark: 300 W"],
       "explanation": "P = W ÷ t = 4500 ÷ 15 = 300 W."
     },
     {
       "id": "p1-power-q13",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "An 800 W microwave oven is used for 3.0 minutes. Calculate the energy transferred. Give your answer in kJ.",
-      "numericAnswer": 144, "tolerance": 0.01, "unit": "kJ",
-      "markScheme": ["1 mark: t = 180 s", "1 mark: E = 800 × 180 = 144 000 J", "1 mark: 144 kJ"],
+      "question": "An 800 W microwave oven is switched on for 3.0 minutes.\nCalculate the energy transferred by the microwave oven.\nGive your answer in kilojoules.",
+      "numericAnswer": 144,
+      "tolerance": 0.01,
+      "unit": "kJ",
+      "answerLabel": "Energy transferred",
+      "markScheme": ["1 mark: t = 180 s","1 mark: E = 800 × 180 = 144 000 J","1 mark: 144 kJ"],
       "explanation": "Convert 3.0 minutes to 180 s. E = P × t = 144 000 J. Divide by 1000 to get 144 kJ."
     },
     {
       "id": "p1-power-q14",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "A 2.5 kW heater transfers 900 kJ of energy. Calculate the time taken in minutes.",
-      "numericAnswer": 6, "tolerance": 0.01, "unit": "minutes",
-      "markScheme": ["1 mark: t = 900 000 ÷ 2500", "1 mark: t = 360 s", "1 mark: 6.0 minutes"],
+      "question": "A 2.5 kW heater transfers 900 kJ of energy.\nCalculate the time the heater is switched on for.\nGive your answer in minutes.",
+      "numericAnswer": 6,
+      "tolerance": 0.01,
+      "unit": "minutes",
+      "answerLabel": "Time",
+      "markScheme": ["1 mark: t = 900 000 ÷ 2500","1 mark: t = 360 s","1 mark: 6.0 minutes"],
       "explanation": "Convert to W and J, then t = E ÷ P = 900 000 ÷ 2500 = 360 s. Divide by 60: 6.0 minutes."
     },
     {
       "id": "p1-power-q15",
       "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "A cyclist does 36 kJ of work in 4.0 minutes. Calculate the cyclist's average power.",
-      "numericAnswer": 150, "tolerance": 0.01, "unit": "W",
-      "markScheme": ["1 mark: W = 36 000 J and t = 240 s", "1 mark: P = 36 000 ÷ 240", "1 mark: 150 W"],
+      "question": "A cyclist does 36 kJ of work in 4.0 minutes.\nCalculate the mean power of the cyclist.",
+      "numericAnswer": 150,
+      "tolerance": 0.01,
+      "unit": "W",
+      "answerLabel": "Mean power",
+      "markScheme": ["1 mark: W = 36 000 J and t = 240 s","1 mark: P = 36 000 ÷ 240","1 mark: 150 W"],
       "explanation": "Convert both units first. P = W ÷ t = 36 000 ÷ 240 = 150 W."
     },
     {
       "id": "p1-power-q16",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "A crane lifts an 800 kg steel beam through a height of 15 m in 40 s. Calculate the useful power output of the crane. (g = 9.8 N/kg)",
-      "numericAnswer": 2940, "tolerance": 0.01, "unit": "W",
-      "markScheme": ["1 mark: work done = mgh", "1 mark: = 800 × 9.8 × 15 = 117 600 J", "1 mark: P = 117 600 ÷ 40", "1 mark: 2940 W"],
+      "question": "Figure 1 shows a crane lifting a steel beam.\nThe crane lifts the 800 kg beam through a height of 15 m in 40 s.\nCalculate the useful power output of the crane.\nGravitational field strength = 9.8 N/kg",
+      "figure": {"svg":"<svg viewBox=\"0 0 400 245\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"20\" y=\"196\" width=\"90\" height=\"34\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"65\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">crane motor</text><line x1=\"10\" y1=\"230\" x2=\"390\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"14\" x2=\"380\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"290\" y1=\"14\" x2=\"290\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"290\" cy=\"40\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"205\" x2=\"280\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"282\" y=\"70\" width=\"36\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"90\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">beam</text><rect x=\"282\" y=\"200\" width=\"36\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"300\" y=\"219\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">start</text><line x1=\"350\" y1=\"165\" x2=\"350\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"350,100 346.5,107.2 353.5,107.2\" fill=\"currentColor\"/><line x1=\"350\" y1=\"165\" x2=\"350\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"350,230 353.5,222.8 346.5,222.8\" fill=\"currentColor\"/><text x=\"356\" y=\"169\" font-size=\"12\" fill=\"currentColor\">15 m</text></svg>"},
+      "numericAnswer": 2940,
+      "tolerance": 0.01,
+      "unit": "W",
+      "answerLabel": "Useful power output",
+      "markScheme": [
+        "1 mark: work done = mgh",
+        "1 mark: = 800 × 9.8 × 15 = 117 600 J",
+        "1 mark: P = 117 600 ÷ 40",
+        "1 mark: 2940 W"
+      ],
       "explanation": "The work done lifting the beam equals its gain in gravitational potential energy, 117 600 J. Dividing by 40 s gives 2940 W (about 2.9 kW)."
     },
     {
       "id": "p1-power-q17",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A student of mass 55 kg runs up a flight of stairs with a vertical height of 3.2 m in 4.0 s. Calculate her useful power. Give your answer to 2 significant figures. (g = 9.8 N/kg)",
-      "numericAnswer": 430, "tolerance": 0.02, "unit": "W",
-      "markScheme": ["1 mark: Ep = 55 × 9.8 × 3.2 = 1724.8 J", "1 mark: P = 1724.8 ÷ 4.0 = 431.2 W", "1 mark: 430 W (2 s.f.)"],
+      "question": "Figure 1 shows a flight of stairs.\nA student of mass 55 kg runs up the stairs in 4.0 s.\nCalculate the useful power output of the student.\nGravitational field strength = 9.8 N/kg\nGive your answer to 2 significant figures.",
+      "figure": {"svg":"<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"10\" y1=\"210\" x2=\"390\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M16 210l-8 8M30 210l-8 8M44 210l-8 8M58 210l-8 8M72 210l-8 8M86 210l-8 8M100 210l-8 8M114 210l-8 8M128 210l-8 8M142 210l-8 8M156 210l-8 8M170 210l-8 8M184 210l-8 8M198 210l-8 8M212 210l-8 8M226 210l-8 8M240 210l-8 8M254 210l-8 8M268 210l-8 8M282 210l-8 8M296 210l-8 8M310 210l-8 8M324 210l-8 8M338 210l-8 8M352 210l-8 8M366 210l-8 8M380 210l-8 8\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M40 210 h30 v-20 h30 v-20 h30 v-20 h30 v-20 h30 v-20 h30 v-20 h30 v-20 h30 v-20 h50V210\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"50\" x2=\"370\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"360\" y1=\"130\" x2=\"360\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"360,50 356.5,57.2 363.5,57.2\" fill=\"currentColor\"/><line x1=\"360\" y1=\"130\" x2=\"360\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"360,210 363.5,202.8 356.5,202.8\" fill=\"currentColor\"/><text x=\"366\" y=\"134\" font-size=\"12\" fill=\"currentColor\">3.2 m</text><text x=\"60\" y=\"120\" font-size=\"12\" fill=\"currentColor\">flight of stairs</text></svg>"},
+      "numericAnswer": 430,
+      "tolerance": 0.02,
+      "unit": "W",
+      "answerLabel": "Useful power output",
+      "markScheme": [
+        "1 mark: Ep = 55 × 9.8 × 3.2 = 1724.8 J",
+        "1 mark: P = 1724.8 ÷ 4.0 = 431.2 W",
+        "1 mark: 430 W (2 s.f.)"
+      ],
       "explanation": "Only the vertical height matters for gravitational potential energy. P = 1724.8 ÷ 4.0 = 431 W, which is 430 W to 2 s.f."
     },
     {
       "id": "p1-power-q18",
       "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "A 2.2 kW kettle takes 3.0 minutes to boil some water. A 1.8 kW kettle is used to transfer the same amount of energy. Calculate how long the 1.8 kW kettle takes, in seconds.",
-      "numericAnswer": 220, "tolerance": 0.01, "unit": "s",
-      "markScheme": ["1 mark: E = 2200 × 180", "1 mark: E = 396 000 J", "1 mark: t = 396 000 ÷ 1800", "1 mark: 220 s"],
+      "question": "Table 1 shows information about two kettles, A and B.\nKettle B transfers the same amount of energy as kettle A.\nCalculate the time kettle B takes.\nGive your answer in seconds.",
+      "table": {
+        "headers": ["Kettle","Power in kW","Time taken"],
+        "rows": [
+          ["A","2.2","3.0 minutes"],
+          ["B","1.8","?"]
+        ]
+      },
+      "numericAnswer": 220,
+      "tolerance": 0.01,
+      "unit": "s",
+      "answerLabel": "Time",
+      "markScheme": ["1 mark: E = 2200 × 180","1 mark: E = 396 000 J","1 mark: t = 396 000 ÷ 1800","1 mark: 220 s"],
       "explanation": "First find the energy needed using the first kettle: 2200 × 180 = 396 000 J. Then t = E ÷ P = 396 000 ÷ 1800 = 220 s. The lower power kettle takes longer."
     },
     {
       "id": "p1-power-q19",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Write down the equation that links power, energy transferred and time.",
-      "acceptedAnswers": ["P = E ÷ t", "power = energy transferred ÷ time", "P = E/t"],
+      "question": "Write down the equation that links energy transferred, power and time.",
+      "acceptedAnswers": ["P = E ÷ t","power = energy transferred ÷ time","P = E/t"],
       "markScheme": ["1 mark: power = energy transferred ÷ time (P = E ÷ t)"],
       "explanation": "This equation must be recalled; it is not on the equation sheet."
     },
     {
       "id": "p1-power-q20",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Define the term power.",
-      "acceptedAnswers": ["rate of energy transfer", "rate of doing work", "energy transferred per second", "work done per second"],
+      "question": "What is meant by the term power?",
+      "acceptedAnswers": ["rate of energy transfer","rate of doing work","energy transferred per second","work done per second"],
       "markScheme": ["1 mark: the rate at which energy is transferred (or the rate at which work is done)"],
       "explanation": "The word 'rate' (or 'per second') is essential. 'Amount of energy' alone does not score."
     },
     {
       "id": "p1-power-q21",
       "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "State what is meant by a power of 1 watt.",
-      "acceptedAnswers": ["1 joule per second", "transfer of 1 J every second", "1 J/s"],
+      "question": "What is meant by a power of 1 watt?",
+      "acceptedAnswers": ["1 joule per second","transfer of 1 J every second","1 J/s"],
       "markScheme": ["1 mark: an energy transfer of 1 joule per second"],
       "explanation": "The watt is defined from P = E ÷ t: 1 W means 1 J of energy transferred each second."
     },
     {
       "id": "p1-power-q22",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Two cyclists of equal mass ride up the same hill. Cyclist A reaches the top in less time than cyclist B. Explain which cyclist has the greater useful power output.",
-      "acceptedAnswers": ["cyclist A", "same work done", "less time", "same gravitational potential energy gained"],
-      "markScheme": ["1 mark: both do the same work (gain the same gravitational potential energy) because mass and height are equal", "1 mark: A does it in less time, so A has the greater power (P = W ÷ t)"],
+      "question": "Two cyclists, A and B, have equal mass. Both cyclists ride up the same hill.\nCyclist A reaches the top of the hill in less time than cyclist B.\nExplain which cyclist has the greater useful power output.",
+      "acceptedAnswers": ["cyclist A","same work done","less time","same gravitational potential energy gained"],
+      "markScheme": [
+        "1 mark: both do the same work (gain the same gravitational potential energy) because mass and height are equal",
+        "1 mark: A does it in less time, so A has the greater power (P = W ÷ t)"
+      ],
       "explanation": "Same mass and same height means the same mgh. Power = work ÷ time, so the shorter time gives the greater power."
     },
     {
       "id": "p1-power-q23",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Explain why a 3 kW kettle boils a litre of water faster than a 2 kW kettle.",
-      "acceptedAnswers": ["transfers energy at a higher rate", "more energy per second", "same energy needed", "t = E ÷ P"],
-      "markScheme": ["1 mark: the same amount of energy is needed to boil the water in each kettle", "1 mark: the 3 kW kettle transfers more energy per second (3000 J/s compared with 2000 J/s), so it takes less time"],
+      "question": "A 3 kW kettle and a 2 kW kettle each contain 1 litre of water at the same temperature.\nExplain why the 3 kW kettle boils the water faster than the 2 kW kettle.",
+      "acceptedAnswers": ["transfers energy at a higher rate","more energy per second","same energy needed","t = E ÷ P"],
+      "markScheme": [
+        "1 mark: the same amount of energy is needed to boil the water in each kettle",
+        "1 mark: the 3 kW kettle transfers more energy per second (3000 J/s compared with 2000 J/s), so it takes less time"
+      ],
       "explanation": "t = E ÷ P: with the same E, a bigger P gives a smaller t."
     },
     {
       "id": "p1-power-q24",
       "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A hairdryer is labelled 1.5 kW. State what this tells you about the hairdryer's energy transfer, giving a value in joules.",
-      "acceptedAnswers": ["1500 J per second", "transfers 1500 joules each second", "1500 J/s"],
-      "markScheme": ["1 mark: 1.5 kW = 1500 W", "1 mark: it transfers 1500 J of energy every second"],
+      "question": "A hairdryer has a power of 1.5 kW.\nWhat does this tell you about the energy transferred by the hairdryer?\nGive a value in joules in your answer.",
+      "acceptedAnswers": ["1500 J per second","transfers 1500 joules each second","1500 J/s"],
+      "markScheme": ["1 mark: 1.5 kW = 1500 W","1 mark: it transfers 1500 J of energy every second"],
       "explanation": "A watt is a joule per second, so 1.5 kW means 1500 J transferred each second it is switched on."
     },
     {
       "id": "p1-power-q25",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A student wants to find her useful power output when running up a flight of stairs. State the three measurements she must take, and the instruments she should use.",
-      "acceptedAnswers": ["mass", "bathroom scales", "vertical height", "metre rule", "tape measure", "time", "stopwatch"],
-      "markScheme": ["1 mark: her mass, using (bathroom) scales", "1 mark: the vertical height of the stairs, using a tape measure or metre rule", "1 mark: the time taken, using a stopwatch"],
+      "question": "A student wants to find her useful power output when she runs up a flight of stairs.\nGive the three measurements she must take and the measuring instrument she should use for each one.",
+      "acceptedAnswers": ["mass","bathroom scales","vertical height","metre rule","tape measure","time","stopwatch"],
+      "markScheme": [
+        "1 mark: her mass, using (bathroom) scales",
+        "1 mark: the vertical height of the stairs, using a tape measure or metre rule",
+        "1 mark: the time taken, using a stopwatch"
+      ],
       "explanation": "Useful power = mgh ÷ t, so she needs m, h (vertical height, not length along the stairs) and t. g is taken as 9.8 N/kg."
     },
     {
       "id": "p1-power-q26",
       "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "The electrical input power of a lift motor is greater than the value of mgh ÷ t for the load it raises. Explain why.",
-      "acceptedAnswers": ["energy dissipated", "wasted as thermal energy", "friction", "heating of the motor", "sound"],
-      "markScheme": ["1 mark: mgh ÷ t is only the useful power output", "1 mark: some energy is dissipated, for example heating the motor and wires because of resistance and friction, or as sound"],
+      "question": "The electrical input power to a lift motor is greater than the value of mgh ÷ t for the load it lifts.\nExplain why.",
+      "acceptedAnswers": ["energy dissipated","wasted as thermal energy","friction","heating of the motor","sound"],
+      "markScheme": [
+        "1 mark: mgh ÷ t is only the useful power output",
+        "1 mark: some energy is dissipated, for example heating the motor and wires because of resistance and friction, or as sound"
+      ],
       "explanation": "Not all of the input energy goes into the gravitational potential store of the load. The rest is wasted, so input power is greater than useful output power."
     },
     {
       "id": "p1-power-q27",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "Describe how you could find the useful power output of a small electric motor by using it to lift a load. Include the measurements you would make, how you would use them, and how you would make your result more accurate.",
+      "question": "Figure 1 shows how a small electric motor can be used to lift a load.\nDescribe how you could use this apparatus to find the useful power output of the motor.\nYour answer should include the measurements you would make, how you would use them, and how you would make your result more accurate.",
+      "figure": {"svg":"<svg viewBox=\"0 0 400 245\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"20\" y=\"196\" width=\"90\" height=\"34\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"65\" y=\"217\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">motor</text><line x1=\"10\" y1=\"230\" x2=\"390\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"200\" y1=\"14\" x2=\"380\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"290\" y1=\"14\" x2=\"290\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"290\" cy=\"40\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"205\" x2=\"280\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.2\"/><rect x=\"282\" y=\"70\" width=\"36\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"90\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">load</text><rect x=\"282\" y=\"200\" width=\"36\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"300\" y=\"219\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">start</text><line x1=\"350\" y1=\"165\" x2=\"350\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"350,100 346.5,107.2 353.5,107.2\" fill=\"currentColor\"/><line x1=\"350\" y1=\"165\" x2=\"350\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"350,230 353.5,222.8 346.5,222.8\" fill=\"currentColor\"/><text x=\"356\" y=\"169\" font-size=\"12\" fill=\"currentColor\">height</text></svg>"},
       "markScheme": [
         "Indicative content: attach a string from the motor's axle to a load of known mass (measured on a balance); measure the vertical height the load is raised with a metre rule; switch on the motor and time how long it takes to lift the load through that height with a stopwatch; calculate work done = mgh using g = 9.8 N/kg; calculate useful power = mgh ÷ t; use a large height so the time is longer and percentage error in timing is smaller; repeat several times and calculate a mean; use light gates or video to reduce reaction time error; check the load moves at a steady speed so kinetic energy is not changing much.",
         "Level 3 (5 to 6 marks): a coherent method with all measurements and instruments, correct calculation of power from mgh ÷ t, and at least two valid ways of improving accuracy.",
@@ -370,7 +440,14 @@
     {
       "id": "p1-power-q28",
       "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "A family replaces a 2.0 kW kettle with a 3.0 kW kettle. Both need to transfer 360 kJ of energy to boil a full kettle of water.\nCalculate how long each kettle takes and explain the difference in terms of power.",
+      "question": "A family replaces kettle A with kettle B.\nTable 1 shows the power of each kettle. Both kettles need to transfer 360 kJ of energy to boil a full kettle of water.\nCalculate the time each kettle takes to boil the water.\nExplain the difference in terms of power.",
+      "table": {
+        "headers": ["Kettle","Power in kW"],
+        "rows": [
+          ["A","2.0"],
+          ["B","3.0"]
+        ]
+      },
       "markScheme": [
         "Indicative content: 360 kJ = 360 000 J; 2.0 kW = 2000 W, t = 360 000 ÷ 2000 = 180 s (3.0 minutes); 3.0 kW = 3000 W, t = 360 000 ÷ 3000 = 120 s (2.0 minutes); the same energy is transferred by both; the 3.0 kW kettle transfers 1000 J more each second, so it takes 60 s less.",
         "Level 2 (3 to 4 marks): both times calculated correctly with a clear explanation linking higher power to a faster rate of energy transfer.",
@@ -381,7 +458,7 @@
     {
       "id": "p1-power-q29",
       "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
-      "question": "A lift of total mass 600 kg is raised 20 m in 25 s. The electrical input power to the lift motor is 6.0 kW.\nCalculate the useful power output and the power wasted, and explain what happens to the wasted energy. (g = 9.8 N/kg)",
+      "question": "A lift of total mass 600 kg is raised through a height of 20 m in 25 s. The electrical input power to the lift motor is 6.0 kW.\nCalculate the useful power output of the lift motor and the power wasted.\nExplain what happens to the wasted energy.\nGravitational field strength = 9.8 N/kg",
       "markScheme": [
         "Indicative content: work done = mgh = 600 × 9.8 × 20 = 117 600 J; useful power = 117 600 ÷ 25 = 4704 W (4.7 kW); power wasted = 6000 − 4704 = 1296 W (about 1.3 kW); wasted energy is dissipated, mainly heating the motor, cables and pulleys due to friction and electrical resistance, and as sound, ending up in the thermal store of the surroundings.",
         "Level 2 (3 to 4 marks): correct useful power and wasted power, with a correct explanation of where the wasted energy goes.",

@@ -476,10 +476,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "How many electrons are in a potassium ion, K⁺? (Potassium has an atomic number of 19.)",
+      "question": "Potassium has atomic number 19.\nGive the number of electrons in a potassium ion, K⁺",
       "numericAnswer": 18,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of electrons",
       "markScheme": [
         "1 mark: 18"
       ],
@@ -491,10 +492,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of lithium oxide, Li₂O. (Ar: Li = 7, O = 16)",
+      "question": "Calculate the relative formula mass (Mr) of lithium oxide, Li₂O\nRelative atomic masses (Ar): Li = 7  O = 16",
       "numericAnswer": 30,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass",
       "markScheme": [
         "1 mark: (2 × 7) + 16",
         "1 mark: 30"
@@ -507,10 +509,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of potassium hydroxide, KOH. (Ar: K = 39, O = 16, H = 1)",
+      "question": "Calculate the relative formula mass (Mr) of potassium hydroxide, KOH\nRelative atomic masses (Ar): K = 39  O = 16  H = 1",
       "numericAnswer": 56,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass",
       "markScheme": [
         "1 mark: 39 + 16 + 1",
         "1 mark: 56"
@@ -523,10 +526,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "2.3 g of sodium reacts completely with 3.55 g of chlorine. Calculate the mass of sodium chloride produced.",
+      "question": "Sodium reacts with chlorine to produce sodium chloride.\nTable 1 shows the masses of sodium and chlorine that react completely.\nCalculate the mass of sodium chloride produced.",
+      "table": {
+        "headers": [
+          "Reactant",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "Sodium",
+            "2.3"
+          ],
+          [
+            "Chlorine",
+            "3.55"
+          ]
+        ]
+      },
       "numericAnswer": 5.85,
       "tolerance": 0.01,
       "unit": "g",
+      "answerLabel": "Mass of sodium chloride",
       "markScheme": [
         "1 mark: mass is conserved, so 2.3 + 3.55",
         "1 mark: 5.85 g"
@@ -539,10 +559,31 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The melting point of potassium is 63 °C and the melting point of caesium is 28 °C. Estimate the melting point of rubidium, which lies between them, by calculating the mean of the two values.",
+      "question": "Table 1 shows the melting points of three Group 1 elements.\nEstimate the melting point of rubidium by calculating the mean of the melting points of potassium and caesium.",
+      "table": {
+        "headers": [
+          "Element",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Potassium",
+            "63"
+          ],
+          [
+            "Rubidium",
+            "?"
+          ],
+          [
+            "Caesium",
+            "28"
+          ]
+        ]
+      },
       "numericAnswer": 45.5,
       "tolerance": 0.02,
       "unit": "°C",
+      "answerLabel": "Melting point of rubidium",
       "markScheme": [
         "1 mark: (63 + 28) ÷ 2",
         "1 mark: 45.5 °C"
@@ -555,10 +596,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Calculate the mass of hydrogen produced when 0.46 g of sodium reacts with excess water.\n2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)\n(Ar: Na = 23, H = 1)",
+      "question": "Sodium reacts with water.\n2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)\nCalculate the mass of hydrogen produced when 0.46 g of sodium reacts with excess water.\nRelative atomic masses (Ar): Na = 23  H = 1",
       "numericAnswer": 0.02,
       "tolerance": 0.02,
       "unit": "g",
+      "answerLabel": "Mass of hydrogen",
       "markScheme": [
         "1 mark: moles of Na = 0.46 ÷ 23 = 0.020 mol",
         "1 mark: moles of H₂ = 0.020 ÷ 2 = 0.010 mol",
@@ -572,7 +614,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State why the Group 1 elements are called the alkali metals.",
+      "question": "Explain why the Group 1 elements are called the alkali metals.",
       "acceptedAnswers": [
         "react with water to form alkaline solutions",
         "form alkalis",
@@ -589,7 +631,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A small piece of sodium is added to a trough of water. Describe two things you would see.",
+      "question": "Figure 1 shows a small piece of sodium being added to a trough of water.\nDescribe two things you would see.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M30 60V150H270V60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"31\" y=\"85\" width=\"238\" height=\"64\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"31\" y1=\"85\" x2=\"269\" y2=\"85\" stroke=\"currentColor\"/><rect x=\"130\" y=\"77\" width=\"16\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"146\" y1=\"78\" x2=\"296\" y2=\"40\" stroke=\"currentColor\"/><text x=\"300\" y=\"44\" font-size=\"12\" fill=\"currentColor\">small piece of sodium</text><line x1=\"210\" y1=\"120\" x2=\"296\" y2=\"110\" stroke=\"currentColor\"/><text x=\"300\" y=\"114\" font-size=\"12\" fill=\"currentColor\">water</text><line x1=\"270\" y1=\"140\" x2=\"296\" y2=\"150\" stroke=\"currentColor\"/><text x=\"300\" y=\"154\" font-size=\"12\" fill=\"currentColor\">trough</text></svg>"
+      },
       "acceptedAnswers": [
         "floats",
         "fizzes",
@@ -682,7 +727,36 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Rubidium is below potassium in Group 1. Predict the formula of rubidium chloride and describe what it would look like at room temperature.",
+      "question": "Rubidium is below potassium in Group 1.\nTable 1 shows information about some Group 1 chlorides.\nPredict the formula of rubidium chloride and describe what it would look like at room temperature.",
+      "table": {
+        "headers": [
+          "Group 1 chloride",
+          "Formula",
+          "Appearance at room temperature"
+        ],
+        "rows": [
+          [
+            "Lithium chloride",
+            "LiCl",
+            "white solid"
+          ],
+          [
+            "Sodium chloride",
+            "NaCl",
+            "white solid"
+          ],
+          [
+            "Potassium chloride",
+            "KCl",
+            "white solid"
+          ],
+          [
+            "Rubidium chloride",
+            "?",
+            "?"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "RbCl",
         "white solid",
@@ -701,7 +775,10 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 3,
-      "question": "Explain, in terms of atomic structure, why reactivity increases going down Group 1.",
+      "question": "Figure 1 shows the electronic structures of lithium, sodium and potassium atoms.\nExplain, in terms of atomic structure, why reactivity increases going down Group 1.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"70\" cy=\"62\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"62\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"62\" r=\"32\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M67 43l6 6m0-6l-6 6M67 75l6 6m0-6l-6 6M67 27l6 6m0-6l-6 6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"114\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Lithium</text><circle cx=\"200\" cy=\"62\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"62\" r=\"16\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"62\" r=\"32\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"62\" r=\"48\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M197 43l6 6m0-6l-6 6M197 75l6 6m0-6l-6 6M190.1 27.8l6 6m0-6l-6 6M203.9 27.8l6 6m0-6l-6 6M228.2 52.1l6 6m0-6l-6 6M228.2 65.9l6 6m0-6l-6 6M203.9 90.2l6 6m0-6l-6 6M190.1 90.2l6 6m0-6l-6 6M165.8 65.9l6 6m0-6l-6 6M165.8 52.1l6 6m0-6l-6 6M197 11l6 6m0-6l-6 6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Sodium</text><circle cx=\"355\" cy=\"62\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"355\" cy=\"62\" r=\"14\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"355\" cy=\"62\" r=\"27\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"355\" cy=\"62\" r=\"40\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"355\" cy=\"62\" r=\"53\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M352 45l6 6m0-6l-6 6M352 73l6 6m0-6l-6 6M345.1 32.9l6 6m0-6l-6 6M358.9 32.9l6 6m0-6l-6 6M378.1 52.1l6 6m0-6l-6 6M378.1 65.9l6 6m0-6l-6 6M358.9 85.1l6 6m0-6l-6 6M345.1 85.1l6 6m0-6l-6 6M325.9 65.9l6 6m0-6l-6 6M325.9 52.1l6 6m0-6l-6 6M345 19.6l6 6m0-6l-6 6M359 19.6l6 6m0-6l-6 6M391.4 52l6 6m0-6l-6 6M391.4 66l6 6m0-6l-6 6M359 98.4l6 6m0-6l-6 6M345 98.4l6 6m0-6l-6 6M312.6 66l6 6m0-6l-6 6M312.6 52l6 6m0-6l-6 6M352 6l6 6m0-6l-6 6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"355\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Potassium</text></svg>"
+      },
       "acceptedAnswers": [
         "more shells",
         "outer electron further from nucleus",
@@ -756,7 +833,39 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 4,
-      "question": "A student made these predictions about francium, the element at the bottom of Group 1:\n1. Francium will have a higher melting point than caesium.\n2. Francium will react with water to form francium hydroxide, FrOH, and hydrogen.\n3. Francium will form Fr²⁺ ions.\n4. Francium will be the most reactive alkali metal.\nEvaluate each prediction, using trends in Group 1.",
+      "question": "Francium is the element at the bottom of Group 1.\nTable 1 shows the melting points of the Group 1 elements.\nA student made these predictions about francium:\n1. Francium will have a higher melting point than caesium.\n2. Francium will react with water to form francium hydroxide, FrOH, and hydrogen.\n3. Francium will form Fr²⁺ ions.\n4. Francium will be the most reactive alkali metal.\nEvaluate each prediction.\nUse trends in Group 1 in your answer.",
+      "table": {
+        "headers": [
+          "Element",
+          "Melting point in °C"
+        ],
+        "rows": [
+          [
+            "Lithium",
+            "181"
+          ],
+          [
+            "Sodium",
+            "98"
+          ],
+          [
+            "Potassium",
+            "63"
+          ],
+          [
+            "Rubidium",
+            "39"
+          ],
+          [
+            "Caesium",
+            "28"
+          ],
+          [
+            "Francium",
+            "?"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: prediction 1 is incorrect, since melting points decrease down the group, so francium would have a lower melting point than caesium; prediction 2 is correct, since all alkali metals react with water to form a hydroxide MOH and hydrogen; prediction 3 is incorrect, since francium has one outer electron so forms Fr⁺ ions; prediction 4 is correct, since reactivity increases down the group because the outer electron is furthest from the nucleus, most shielded, so most easily lost.",
         "Level 2 (3 to 4 marks): all four predictions correctly judged with reasons based on trends or electronic structure.",

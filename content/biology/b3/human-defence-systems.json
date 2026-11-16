@@ -229,7 +229,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the role of cilia in the trachea?",
+      "question": "Figure 1 shows the cells lining the trachea.\nWhat is the role of the cilia?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 275\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"66\" width=\"400\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><rect x=\"30\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"55\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"80\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"105\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"130\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"155\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"180\" y=\"110\" width=\"50\" height=\"110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M188 110C188 150 222 150 222 110Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"230\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"255\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"280\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"305\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"330\" y=\"110\" width=\"50\" height=\"110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M338 110C338 150 372 150 372 110Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"355\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"380\" y=\"110\" width=\"50\" height=\"110\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"405\" cy=\"185\" r=\"10\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M35 110V96M41 110V96M47 110V96M53 110V96M59 110V96M65 110V96M71 110V96M77 110V96M85 110V96M91 110V96M97 110V96M103 110V96M109 110V96M115 110V96M121 110V96M127 110V96M135 110V96M141 110V96M147 110V96M153 110V96M159 110V96M165 110V96M171 110V96M177 110V96M235 110V96M241 110V96M247 110V96M253 110V96M259 110V96M265 110V96M271 110V96M277 110V96M285 110V96M291 110V96M297 110V96M303 110V96M309 110V96M315 110V96M321 110V96M327 110V96M385 110V96M391 110V96M397 110V96M403 110V96M409 110V96M415 110V96M421 110V96M427 110V96\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"78\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"140\" cy=\"84\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"205\" cy=\"75\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"290\" cy=\"82\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"365\" cy=\"76\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"410\" cy=\"86\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M120 80V40M222 103V40M362 73L345 40\" stroke=\"currentColor\" fill=\"none\"/><text x=\"120\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mucus</text><text x=\"222\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">cilia</text><text x=\"345\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">trapped pathogens</text><path d=\"M55 205V250M205 130V250\" stroke=\"currentColor\"/><text x=\"55\" y=\"264\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">ciliated cell</text><text x=\"205\" y=\"264\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mucus-producing cell</text></svg>"
+      },
       "options": [
         "To trap pathogens",
         "To produce antibodies",
@@ -419,10 +422,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A blood sample contains 7500 white blood cells per mm³. 4500 of these white blood cells are phagocytes. Calculate the percentage of white blood cells that are phagocytes.",
+      "question": "Table 1 shows the number of white blood cells in a blood sample.\nCalculate the percentage of the white blood cells that are phagocytes.",
+      "table": {
+        "headers": [
+          "Number of white blood cells per mm³",
+          "Number of phagocytes per mm³"
+        ],
+        "rows": [
+          [
+            "7500",
+            "4500"
+          ]
+        ]
+      },
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of phagocytes",
       "markScheme": [
         "1 mark: 4500 ÷ 7500 (= 0.6)",
         "1 mark: × 100 = 60%"
@@ -435,10 +451,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "During an infection, a patient's white blood cell count rose from 6000 per mm³ to 15 000 per mm³. Calculate the percentage increase.",
+      "question": "Figure 1 shows the white blood cell count of a patient during an infection.\nCalculate the percentage increase in white blood cell count between day 0 and the maximum count.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 310\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 262H440M70 246.6H440M70 231.3H440M70 215.9H440M70 200.5H440M70 185.1H440M70 169.8H440M70 154.4H440M70 139H440M70 123.6H440M70 108.3H440M70 92.9H440M70 77.5H440M70 62.1H440M70 46.8H440M70 31.4H440M70 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M70 16V262M107 16V262M144 16V262M181 16V262M218 16V262M255 16V262M292 16V262M329 16V262M366 16V262M403 16V262M440 16V262M70 262H440M70 231.3H440M70 200.5H440M70 169.8H440M70 139H440M70 108.3H440M70 77.5H440M70 46.8H440M70 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M70 16V262H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"70\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"107\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"144\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"181\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"218\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"255\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"292\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"329\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"366\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"403\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"440\" y=\"278\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"64\" y=\"266\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"235.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2000</text><text x=\"64\" y=\"204.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4000</text><text x=\"64\" y=\"173.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6000</text><text x=\"64\" y=\"143\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8000</text><text x=\"64\" y=\"112.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10000</text><text x=\"64\" y=\"81.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">12000</text><text x=\"64\" y=\"50.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">14000</text><text x=\"64\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">16000</text><text x=\"255\" y=\"302\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 139)\">White blood cells per mm³</text><polyline points=\"70,169.8 107,154.4 144,115.9 181,69.8 218,39.1 255,31.4 292,46.8 329,85.2 366,123.6 403,154.4 440,162.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"169.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"107\" cy=\"154.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"144\" cy=\"115.9\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"181\" cy=\"69.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"218\" cy=\"39.1\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"255\" cy=\"31.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"292\" cy=\"46.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"329\" cy=\"85.2\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"366\" cy=\"123.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"403\" cy=\"154.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"162.1\" r=\"2.5\" fill=\"currentColor\"/></svg>"
+      },
       "numericAnswer": 150,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage increase",
       "markScheme": [
         "1 mark: 15 000 − 6000 = 9000",
         "1 mark: (9000 ÷ 6000) × 100 = 150%"
@@ -451,10 +471,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Cilia move mucus up the trachea at 12 mm per minute. The trachea is 120 mm long. Calculate the time it takes for mucus to travel the full length of the trachea.",
+      "question": "Cilia move mucus up the trachea.\nTable 1 shows information about the trachea of one person.\nCalculate the time it takes for mucus to travel the full length of the trachea.",
+      "table": {
+        "headers": [
+          "Length of trachea in mm",
+          "Speed of mucus in mm per minute"
+        ],
+        "rows": [
+          [
+            "120",
+            "12"
+          ]
+        ]
+      },
       "numericAnswer": 10,
       "tolerance": 0,
       "unit": "minutes",
+      "answerLabel": "Time",
       "markScheme": [
         "1 mark: 120 ÷ 12 = 10 minutes"
       ],
@@ -466,10 +499,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A blood sample contains 5 000 000 red blood cells and 7500 white blood cells per mm³. Calculate the ratio of red blood cells to white blood cells in the form x : 1. Give your answer to the nearest whole number.",
+      "question": "Table 1 shows the number of red blood cells and white blood cells in a blood sample.\nCalculate the ratio of red blood cells to white blood cells.\nGive your answer in the form x : 1 to the nearest whole number.",
+      "table": {
+        "headers": [
+          "Type of blood cell",
+          "Number of cells per mm³"
+        ],
+        "rows": [
+          [
+            "Red blood cells",
+            "5 000 000"
+          ],
+          [
+            "White blood cells",
+            "7500"
+          ]
+        ]
+      },
       "numericAnswer": 667,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Ratio",
       "markScheme": [
         "1 mark: 5 000 000 ÷ 7500",
         "1 mark: = 666.7, so 667 : 1"
@@ -600,7 +650,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why a person usually feels ill for several days the first time they are infected by a particular pathogen.",
+      "question": "Figure 1 shows the number of pathogens and the concentration of antibodies in a person's blood the first time they are infected by a particular pathogen.\nThe person felt ill between day 2 and day 8.\nExplain why the person felt ill for several days.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 16V252M117.7 16V252M171.4 16V252M225.1 16V252M278.9 16V252M332.6 16V252M386.3 16V252M440 16V252M64 252H440M64 204.8H440M64 157.6H440M64 110.4H440M64 63.2H440M64 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"117.7\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"171.4\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"225.1\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"278.9\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"332.6\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"386.3\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">14</text><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\"></text><text x=\"252\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Relative amount</text><polyline points=\"64,240.2 117.7,181.2 171.4,98.6 225.1,51.4 278.9,110.4 332.6,204.8 386.3,240.2 440,252\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"230.5\" y=\"39.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pathogens</text><polyline points=\"64,252 117.7,252 171.4,244.9 225.1,204.8 278.9,122.2 332.6,82.1 386.3,91.5 440,110.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"359.4\" y=\"70.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">antibodies</text></svg>"
+      },
       "acceptedAnswers": [
         "takes time to make antibodies",
         "antibodies not yet made",
@@ -619,7 +672,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by an antigen.",
+      "question": "What is meant by an antigen?",
       "acceptedAnswers": [
         "molecule on surface of pathogen",
         "protein on pathogen",
