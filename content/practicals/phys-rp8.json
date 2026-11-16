@@ -1,0 +1,319 @@
+{
+  "id": "phys-rp8",
+  "science": "physics",
+  "number": 8,
+  "title": "Waves",
+  "combined": true,
+  "topicId": "p6",
+  "subtopic": "properties-of-waves",
+  "aim": "To make observations to identify suitable apparatus to measure the frequency, wavelength and speed of waves in a ripple tank and waves on a stretched string.",
+  "background": [
+    "All waves obey the wave equation: wave speed = frequency × wavelength (v = f λ). Speed is in m/s, frequency in hertz (Hz) and wavelength in metres. Frequency is the number of waves passing a point each second, and wavelength is the distance from one point on a wave to the same point on the next wave (for example crest to crest).",
+    "In a ripple tank, a vibrating bar (dipper) makes plane water waves. A lamp above the tank projects an image of the waves onto white paper or a screen below, where the bright lines are the crests. The wavelength is found by measuring across several waves with a ruler and dividing by the number of waves. The frequency is found by counting the number of waves that pass a point in 10 seconds, or by using a stroboscope set so that the pattern appears to stand still.",
+    "On a stretched string, a vibration generator driven by a signal generator makes the string vibrate. The string passes over a pulley and is kept under tension by hanging masses. At certain frequencies a standing wave forms, with nodes (points that do not move) and antinodes (points of maximum vibration). Each loop is half a wavelength, so one wavelength is the length of two loops. The frequency is read from the signal generator.",
+    "Measuring across several wavelengths, rather than one, reduces the percentage uncertainty in the measured wavelength. The speed of waves on a string depends on the tension and the string itself, not on the frequency, so changing the frequency changes the wavelength but the speed stays the same."
+  ],
+  "hypothesis": "For waves on a string with fixed length and tension, the wavelength will decrease as the frequency increases so that the wave speed (f × λ) stays constant.",
+  "variables": {
+    "independent": "Frequency of the signal generator (Hz), adjusted to give standing waves with different numbers of loops.",
+    "dependent": "Wavelength of the waves (m), measured with a metre ruler; wave speed is calculated from v = f λ.",
+    "control": [
+      "Tension in the string (same hanging mass)",
+      "Type and thickness of string",
+      "Length of string between the vibration generator and the pulley (1.20 m)",
+      "For the ripple tank: depth of water, which affects wave speed"
+    ]
+  },
+  "equipment": [
+    "Ripple tank with a plane wave dipper (vibrating bar) and motor",
+    "Lamp above the ripple tank and white paper or screen below",
+    "Ruler (metre ruler or 30 cm ruler)",
+    "Stopclock and stroboscope (or mobile phone camera)",
+    "Signal generator and vibration generator",
+    "String or elastic cord",
+    "Pulley clamped to the bench",
+    "Mass hanger and slotted masses",
+    "Wooden bridge (optional) and metre ruler"
+  ],
+  "method": [
+    "Ripple tank: fill the tank with water to a depth of about 5 mm and check it is level. Place the lamp above the tank and white paper underneath.",
+    "Switch on the dipper motor at a low frequency so that plane waves are clearly visible on the paper.",
+    "Place a ruler on the paper at right angles to the wave fronts. Measure the distance across 10 complete wavelengths (11 bright lines) and divide by 10 to find one wavelength. A photograph with the ruler in view can make this easier.",
+    "Count the number of waves passing a fixed point in 10 seconds, then divide by 10 to find the frequency. Alternatively, adjust a stroboscope until the waves appear stationary; the strobe frequency then equals the wave frequency.",
+    "Calculate the wave speed using v = f λ.",
+    "String: attach one end of the string to the vibration generator. Pass the other end over a pulley at the end of the bench and hang masses from it to keep it under tension.",
+    "Measure the length L of string between the vibration generator and the top of the pulley (1.20 m).",
+    "Switch on the signal generator. Slowly increase the frequency from zero until a clear standing wave with one loop is seen. Record the frequency.",
+    "Increase the frequency until 2, 3, 4 and then 5 loops are seen, recording the frequency each time.",
+    "For each frequency, calculate the wavelength: each loop is half a wavelength, so wavelength = 2L ÷ number of loops.",
+    "Calculate the wave speed for each frequency using v = f λ, and calculate the mean wave speed."
+  ],
+  "safety": [
+    {
+      "hazard": "Water near the mains powered lamp and motor",
+      "risk": "Electric shock.",
+      "precaution": "Keep the lamp and power supplies away from the water, wipe up spills immediately and do not touch electrical equipment with wet hands."
+    },
+    {
+      "hazard": "Stroboscope flashing",
+      "risk": "Can trigger seizures in people with photosensitive epilepsy.",
+      "precaution": "Check that no one in the room is affected before using a stroboscope; use a phone camera instead if needed."
+    },
+    {
+      "hazard": "Hanging masses and stretched string",
+      "risk": "Masses falling on feet, or the string snapping and hitting the eyes.",
+      "precaution": "Use a soft mat or sand tray under the masses, keep feet clear, and wear eye protection when the string is under tension."
+    },
+    {
+      "hazard": "Spilled water on the floor",
+      "risk": "Slipping.",
+      "precaution": "Fill the tank carefully and wipe up spills straight away."
+    }
+  ],
+  "results": {
+    "headers": ["Frequency (Hz)", "Number of loops", "Wavelength (m)", "Wave speed (m/s)"],
+    "rows": [
+      ["12", "1", "2.40", "28.8"],
+      ["24", "2", "1.20", "28.8"],
+      ["37", "3", "0.80", "29.6"],
+      ["48", "4", "0.60", "28.8"],
+      ["61", "5", "0.48", "29.3"]
+    ],
+    "notes": "String length L = 1.20 m, same tension throughout. Wavelength = 2L ÷ number of loops; wave speed = frequency × wavelength. Mean wave speed = (28.8 + 28.8 + 29.6 + 28.8 + 29.3) ÷ 5 ≈ 29 m/s. Ripple tank results: 10 wavelengths measured 15.0 cm on the paper, so λ = 1.5 cm = 0.015 m; 120 waves passed a point in 10 s, so f = 12 Hz; v = 12 × 0.015 = 0.18 m/s."
+  },
+  "analysis": [
+    "For the string, the wave speed is almost the same (about 29 m/s) at every frequency. As the frequency increases, the wavelength decreases in inverse proportion, so their product stays constant. This shows the speed is set by the string and its tension, not the frequency.",
+    "A graph of frequency against 1 ÷ wavelength would be a straight line through the origin, with a gradient equal to the wave speed.",
+    "Water waves in the ripple tank travel much more slowly (0.18 m/s) than waves on the string. This is why water waves are easy to observe and count, but the wavelength must be measured carefully as the waves are close together.",
+    "The image on the paper is slightly larger than the real waves because the light spreads out from the lamp, so the measured wavelength may be a little larger than the true wavelength. This is a systematic error that can be reduced by placing a ruler in the water or measuring the magnification.",
+    "Measuring across 10 wavelengths (or several loops on the string) reduces the percentage uncertainty in a single wavelength by a factor of 10."
+  ],
+  "errors": [
+    {
+      "error": "Waves in the ripple tank move too quickly to measure the wavelength accurately by eye.",
+      "improvement": "Use a stroboscope to freeze the pattern, or take a photograph with a ruler in the image."
+    },
+    {
+      "error": "Counting waves passing a point by eye is difficult at high frequencies.",
+      "improvement": "Use a low frequency, count for a longer time (for example 10 s or more), or film the waves and count them in slow motion."
+    },
+    {
+      "error": "Measuring a single wavelength gives a large percentage uncertainty.",
+      "improvement": "Measure across as many wavelengths (or loops) as possible and divide by the number."
+    },
+    {
+      "error": "The nodes on the string are hard to locate exactly, as the string near the vibration generator still moves slightly.",
+      "improvement": "Measure between clear nodes away from the vibration generator, or use a wooden bridge to define the end of the vibrating length."
+    },
+    {
+      "error": "The shadow image in the ripple tank is magnified compared with the actual waves.",
+      "improvement": "Place a ruler on the paper and an object of known size in the tank to find the magnification, or measure directly in the water."
+    }
+  ],
+  "diagram": {
+    "title": "Waves on a stretched string",
+    "caption": "A signal generator drives a vibration generator attached to a string. The string passes over a pulley and is kept under tension by hanging masses. Here the standing wave has 4 loops along length L, so one wavelength is the length of 2 loops.",
+    "svg": "<svg viewBox=\"0 0 480 260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"180\" width=\"380\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"130\" width=\"40\" height=\"50\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"20\" width=\"90\" height=\"36\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M70 130 V120\"/><path d=\"M50 40 H30 V155 H50\"/><circle cx=\"410\" cy=\"130\" r=\"10\"/><line x1=\"400\" y1=\"184\" x2=\"410\" y2=\"130\"/><path d=\"M420 130 V200\"/><path d=\"M70 120 Q112.5 90 155 120 Q197.5 90 240 120 Q282.5 90 325 120 Q367.5 90 410 120\"/><path d=\"M70 120 Q112.5 150 155 120 Q197.5 150 240 120 Q282.5 150 325 120 Q367.5 150 410 120\" stroke-dasharray=\"4 3\"/></g><g fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"><rect x=\"408\" y=\"200\" width=\"24\" height=\"10\"/><rect x=\"408\" y=\"212\" width=\"24\" height=\"10\"/><rect x=\"408\" y=\"224\" width=\"24\" height=\"10\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"><path d=\"M70 80 H410 M76 76 L70 80 L76 84 M404 76 L410 80 L404 84\"/><path d=\"M155 166 H325 M161 162 L155 166 L161 170 M319 162 L325 166 L319 170\"/><line x1=\"155\" y1=\"124\" x2=\"170\" y2=\"142\"/><line x1=\"392\" y1=\"236\" x2=\"406\" y2=\"218\"/><line x1=\"112\" y1=\"103\" x2=\"112\" y2=\"96\"/></g><g fill=\"currentColor\"><circle cx=\"155\" cy=\"120\" r=\"2.5\"/><circle cx=\"240\" cy=\"120\" r=\"2.5\"/><circle cx=\"325\" cy=\"120\" r=\"2.5\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"58\" y=\"35\">Signal</text><text x=\"58\" y=\"49\">generator</text><text x=\"230\" y=\"74\">L = 1.20 m</text><text x=\"94\" y=\"92\">Antinode</text><text x=\"172\" y=\"150\">Node</text><text x=\"96\" y=\"204\">Vibration generator</text><text x=\"190\" y=\"178\">One wavelength, λ</text><text x=\"428\" y=\"126\">Pulley</text><text x=\"340\" y=\"240\">Hanging</text><text x=\"340\" y=\"254\">masses</text></g><line x1=\"90\" y1=\"170\" x2=\"100\" y2=\"194\" stroke=\"currentColor\" stroke-width=\"1\"/></svg>"
+  },
+  "examTips": [
+    "Learn v = f λ and be ready to rearrange it. Check units: wavelength must be in metres to get speed in m/s.",
+    "On a stretched string, one loop is half a wavelength. Wavelength = 2 × length ÷ number of loops.",
+    "Describe how to measure each quantity in a ripple tank: wavelength by measuring across several waves on the screen; frequency by counting waves passing a point in a set time or with a stroboscope.",
+    "Explain that measuring over many wavelengths reduces uncertainty.",
+    "Remember that wave speed on a string depends on tension and the string, so changing frequency changes wavelength, not speed."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp8-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which equation links wave speed, frequency and wavelength?",
+      "options": ["wave speed = frequency ÷ wavelength", "wave speed = wavelength ÷ frequency", "wave speed = frequency × wavelength", "wave speed = frequency + wavelength"],
+      "answer": 2,
+      "markScheme": ["1 mark: wave speed = frequency × wavelength"],
+      "explanation": "v = f λ. Students must recall this equation. The other options give the wrong units."
+    },
+    {
+      "id": "phys-rp8-q02",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Water waves in a ripple tank have a frequency of 12 Hz and a wavelength of 1.5 cm.\nCalculate the speed of the waves in m/s.",
+      "numericAnswer": 0.18,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": ["1 mark: 1.5 cm = 0.015 m", "1 mark: v = f λ = 12 × 0.015", "1 mark: 0.18 m/s"],
+      "explanation": "Convert the wavelength to metres before multiplying. 12 × 1.5 = 18 gives the speed in cm/s, which is 0.18 m/s."
+    },
+    {
+      "id": "phys-rp8-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student measures the distance across 10 wavelengths of water waves projected onto a screen below a ripple tank. The distance is 15.0 cm.\nCalculate one wavelength.",
+      "numericAnswer": 1.5,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "markScheme": ["1 mark: 15.0 ÷ 10 = 1.5 cm"],
+      "explanation": "Divide the total distance by the number of wavelengths measured. Measuring across 10 waves makes the result more accurate than measuring one."
+    },
+    {
+      "id": "phys-rp8-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student counts 120 waves passing a point in a ripple tank in 10 seconds.\nCalculate the frequency of the waves.",
+      "numericAnswer": 12,
+      "tolerance": 0.01,
+      "unit": "Hz",
+      "markScheme": ["1 mark: 120 ÷ 10 = 12 Hz"],
+      "explanation": "Frequency is the number of waves passing a point each second, so divide the number of waves by the time in seconds."
+    },
+    {
+      "id": "phys-rp8-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is a stroboscope useful when measuring the wavelength of water waves in a ripple tank?",
+      "options": [
+        "It makes the waves travel more slowly",
+        "It makes the wave pattern appear to stand still",
+        "It increases the amplitude of the waves",
+        "It measures the speed of the waves directly"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: makes the wave pattern appear stationary (freezes it)"],
+      "explanation": "When the strobe flashes at the same frequency as the waves, each flash shows the waves in the same position, so they appear frozen and can be measured. The waves themselves are unchanged."
+    },
+    {
+      "id": "phys-rp8-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the distance across 10 waves in a ripple tank and divides by 10, instead of measuring a single wavelength.\nExplain why this is a better method.",
+      "acceptedAnswers": ["reduces uncertainty", "smaller percentage error", "more accurate", "waves are small"],
+      "markScheme": ["1 mark: a single wavelength is very small / hard to measure", "1 mark: measuring over 10 waves reduces the (percentage) uncertainty in each wavelength"],
+      "explanation": "The uncertainty in reading the ruler is about the same whatever the distance, so it is a much smaller fraction of 15 cm than of 1.5 cm."
+    },
+    {
+      "id": "phys-rp8-q07",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A standing wave on a string has 4 loops between the vibration generator and the pulley. The length of the vibrating string is 1.20 m.\nCalculate the wavelength of the wave.",
+      "numericAnswer": 0.6,
+      "tolerance": 0.01,
+      "unit": "m",
+      "markScheme": ["1 mark: each loop = 1.20 ÷ 4 = 0.30 m = half a wavelength", "1 mark: λ = 2 × 0.30 = 0.60 m"],
+      "explanation": "One loop is half a wavelength, so 4 loops are 2 wavelengths. A common mistake is to take one loop as a whole wavelength, giving 0.30 m."
+    },
+    {
+      "id": "phys-rp8-q08",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Waves on a string have a frequency of 48 Hz and a wavelength of 0.60 m.\nCalculate the speed of the waves.",
+      "numericAnswer": 28.8,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": ["1 mark: v = f λ = 48 × 0.60", "1 mark: 28.8 m/s (accept 29 m/s)"],
+      "explanation": "Wave speed = frequency × wavelength = 28.8 m/s."
+    },
+    {
+      "id": "phys-rp8-q09",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A lamp is placed above a ripple tank, with white paper underneath the tank.\nGive the reason for this.",
+      "acceptedAnswers": ["to see the waves", "project the waves onto the paper", "shadows of the waves", "crests show as bright lines"],
+      "markScheme": ["1 mark: to project an image (shadow) of the waves onto the paper so they can be seen and measured"],
+      "explanation": "The crests act like lenses and focus the light into bright lines on the paper, making the waves much easier to see and measure than looking at the water directly."
+    },
+    {
+      "id": "phys-rp8-q10",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The speed of waves on a stretched string is 28.8 m/s. A standing wave forms with a wavelength of 0.80 m.\nCalculate the frequency of the signal generator.",
+      "numericAnswer": 36,
+      "tolerance": 0.01,
+      "unit": "Hz",
+      "markScheme": ["1 mark: f = v ÷ λ = 28.8 ÷ 0.80", "1 mark: 36 Hz"],
+      "explanation": "Rearrange v = f λ to f = v ÷ λ. Multiplying instead gives 23, which is wrong."
+    },
+    {
+      "id": "phys-rp8-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A standing wave on a string has a number of loops. Which length is equal to one wavelength?",
+      "options": ["The length of one loop", "The length of two loops", "The distance from a node to the next antinode", "The total length of the string"],
+      "answer": 1,
+      "markScheme": ["1 mark: the length of two loops"],
+      "explanation": "Each loop goes from one node to the next node, which is half a wavelength. So two loops make one full wavelength. Node to antinode is a quarter of a wavelength."
+    },
+    {
+      "id": "phys-rp8-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one hazard when using a ripple tank and a precaution to reduce the risk.",
+      "acceptedAnswers": ["water and electricity", "electric shock", "slipping on spilled water", "stroboscope epilepsy", "wipe up spills"],
+      "markScheme": ["1 mark: hazard: water near mains electrical equipment (lamp, motor) / spilled water / flashing stroboscope", "1 mark: matching precaution: keep electrics away from water and dry hands / wipe up spills / check no one has photosensitive epilepsy"],
+      "explanation": "Water and mains electricity together risk electric shock; a stroboscope can trigger seizures in people with photosensitive epilepsy."
+    },
+    {
+      "id": "phys-rp8-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Water waves in a ripple tank have a frequency of 12 Hz.\nCalculate the period of the waves. Give your answer to 2 significant figures.",
+      "numericAnswer": 0.083,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": ["1 mark: T = 1 ÷ f = 1 ÷ 12", "1 mark: 0.083 s"],
+      "explanation": "The period is the time for one complete wave, T = 1 ÷ f. 1 ÷ 12 = 0.0833 s, which is 0.083 s to 2 significant figures."
+    },
+    {
+      "id": "phys-rp8-q14",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student increases the frequency of the vibration generator from 24 Hz to 48 Hz. The tension and the string are not changed.\nExplain what happens to the wavelength and the speed of the waves on the string.",
+      "acceptedAnswers": ["wavelength halves", "speed stays the same", "speed depends on tension", "speed constant"],
+      "markScheme": ["1 mark: the speed stays the same, because it depends on the tension and the string (the medium)", "1 mark: so the wavelength halves (since v = f λ and f doubles)"],
+      "explanation": "Wave speed is set by the medium. With v constant, doubling f must halve λ, which is seen as twice as many loops on the string."
+    },
+    {
+      "id": "phys-rp8-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe how a student could use a ripple tank to measure the speed of water waves.\nInclude how the student would measure the wavelength and the frequency.",
+      "markScheme": [
+        "Indicative content: fill the ripple tank with a shallow, even depth of water; set up the dipper (vibrating bar) to make plane waves; place a lamp above and white paper or screen below to see the wave pattern; use a low frequency so the waves can be seen; wavelength: place a ruler on the paper at right angles to the waves, measure across 10 waves and divide by 10; use a stroboscope or take a photo with a ruler to freeze the pattern; frequency: count the number of waves passing a fixed point in 10 s and divide by 10, or use the stroboscope frequency when the waves appear still, or the frequency setting of the power supply; calculate speed = frequency × wavelength; convert to metres; repeat and calculate a mean; safety: keep electrics away from water",
+        "Level 3 (5 to 6 marks): a coherent method with clear, workable ways to measure both wavelength and frequency, including measuring over several waves, and the use of v = f λ.",
+        "Level 2 (3 to 4 marks): a method that describes how to measure wavelength or frequency in detail and refers to v = f λ, but with the other measurement weak or missing.",
+        "Level 1 (1 to 2 marks): simple statements, such as measuring the waves and using an equation, without clear methods.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers explain how the waves are made visible, measure across several wavelengths, describe a clear way to find frequency, and calculate speed with v = f λ."
+    }
+  ]
+}

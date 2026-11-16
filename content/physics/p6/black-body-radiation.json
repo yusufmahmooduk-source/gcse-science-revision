@@ -1,0 +1,694 @@
+{
+  "id": "p6-black-body-radiation",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "black-body-radiation",
+  "specRef": "4.6.3.2",
+  "title": "Perfect black bodies and radiation",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A perfect black body is an object that absorbs all of the radiation incident on it; it does not reflect or transmit any. Since a good absorber is also a good emitter, a perfect black body would be the best possible emitter. All bodies emit radiation, and the intensity and wavelength distribution of the emission depend on the temperature of the body.",
+    "explanation": [
+      "A perfect black body is an idealised object that absorbs all of the electromagnetic radiation that falls on it. It does not reflect or transmit any radiation. Because a good absorber is also a good emitter, a perfect black body would also be the best possible emitter of radiation at any given temperature. No real object is a perfect black body, but matt black surfaces come close.",
+      "All bodies (objects) emit radiation, whatever their temperature. The intensity of the radiation and the range of wavelengths it covers (the wavelength distribution) depend on the temperature of the body. As the temperature increases, the intensity of every wavelength increases, and the intensity of shorter wavelengths increases more rapidly. So the peak of the emission moves towards shorter wavelengths. A body at room temperature emits mostly long-wavelength infrared. A very hot object, like an electric grill or the filament of a lamp, emits visible light too: it glows red, then orange, yellow and white as it gets hotter.",
+      "A body at constant temperature is absorbing radiation at the same rate as it is emitting radiation. The temperature of a body increases when it absorbs radiation faster than it emits radiation, and decreases when it emits faster than it absorbs. This balance explains why a cup of tea cools to room temperature and then stays there, and why a car left in the sun warms up until it reaches a steady temperature.",
+      "The temperature of the Earth depends on many factors that control the rates at which radiation is absorbed and emitted. The Earth absorbs radiation from the Sun (mostly visible light and infrared) and emits infrared radiation back into space. Some incoming radiation is reflected by clouds, ice and snow and never absorbed. Some of the infrared emitted by the surface is absorbed by gases in the atmosphere (such as carbon dioxide, methane and water vapour) and re-emitted, some of it back towards the surface. If the rates of absorption and emission are equal, the Earth's temperature stays constant.",
+      "Changing these factors changes the Earth's temperature. More greenhouse gases in the atmosphere mean more infrared is absorbed and less escapes to space, so the Earth absorbs radiation faster than it emits it and warms up until a new balance is reached at a higher temperature. Melting ice reduces the amount of sunlight reflected, so more is absorbed, which also causes warming. More cloud cover reflects more incoming sunlight but also traps more outgoing infrared. Higher tier students should be able to use information, or draw and interpret diagrams, to show how radiation affects the temperature of the Earth's surface and atmosphere."
+    ],
+    "keyFacts": [
+      "A perfect black body absorbs all radiation incident on it; it reflects and transmits none.",
+      "A good absorber is also a good emitter.",
+      "A perfect black body would be the best possible emitter.",
+      "All bodies emit radiation, whatever their temperature.",
+      "The intensity and wavelength distribution of emitted radiation depend on temperature.",
+      "Hotter: intensity of every wavelength increases, shorter wavelengths increase most; peak moves to shorter wavelength.",
+      "Constant temperature: absorbing and emitting radiation at the same rate.",
+      "Temperature rises when absorption is faster than emission.",
+      "Earth's temperature depends on the balance of radiation absorbed from the Sun and emitted into space."
+    ],
+    "keyTerms": [
+      {
+        "term": "Perfect black body",
+        "definition": "An object that absorbs all of the radiation incident on it and does not reflect or transmit any."
+      },
+      {
+        "term": "Intensity",
+        "definition": "The power of radiation per unit area; how much radiation energy arrives or is emitted per second."
+      },
+      {
+        "term": "Wavelength distribution",
+        "definition": "How the intensity of emitted radiation is spread over different wavelengths."
+      },
+      {
+        "term": "Peak wavelength",
+        "definition": "The wavelength at which a body emits radiation with the greatest intensity."
+      },
+      {
+        "term": "Radiation balance",
+        "definition": "The condition where a body absorbs radiation at the same rate as it emits it, so its temperature is constant."
+      },
+      {
+        "term": "Greenhouse gas",
+        "definition": "A gas in the atmosphere, such as carbon dioxide, that absorbs infrared emitted by the Earth's surface and re-emits it."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Reading an emission graph",
+        "question": "A graph shows emission curves for a star at 4000 K and a star at 6000 K. Describe two differences between the curves.",
+        "steps": [
+          "At every wavelength the 6000 K curve is higher: greater intensity.",
+          "The peak of the 6000 K curve is at a shorter wavelength.",
+          "The total area under the 6000 K curve is much larger, showing much more energy emitted per second."
+        ],
+        "answer": "The hotter star has greater intensity at all wavelengths and its peak is at a shorter wavelength."
+      },
+      {
+        "title": "Explaining a steady temperature",
+        "question": "A metal plate in sunlight warms from 20 °C to 45 °C and then stays at 45 °C. Explain why.",
+        "steps": [
+          "At first the plate absorbs radiation faster than it emits it, so its temperature rises.",
+          "As it gets hotter it emits radiation at a greater rate.",
+          "At 45 °C the rate of emission equals the rate of absorption.",
+          "There is no net energy transfer, so the temperature stays constant."
+        ],
+        "answer": "It warms until it emits radiation at the same rate as it absorbs it, then its temperature is constant."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Emission curves at different temperatures",
+        "caption": "As temperature increases, the intensity of every wavelength increases, and shorter wavelengths increase more, so the peak moves to shorter wavelengths. The shaded band is the visible spectrum.",
+        "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg'><rect x='114.0' y='25' width='48.0' height='175' fill='#86efac' fill-opacity='0.5'/><g stroke='currentColor' stroke-width='1.5'><line x1='50' y1='200' x2='460' y2='200'/><line x1='50' y1='200' x2='50' y2='20'/></g><path d='M466.0 200.0 L457.0 204.5 L457.0 195.5 Z' fill='currentColor'/><path d='M50.0 14.0 L54.5 23.0 L45.5 23.0 Z' fill='currentColor'/><g fill='none' stroke='currentColor' stroke-width='2'><path d='M66.0 200.0 L70.0 199.9 L74.0 199.0 L78.0 195.7 L82.0 187.7 L86.0 174.1 L90.0 155.5 L94.0 134.0 L98.0 111.6 L102.0 90.4 L106.0 71.8 L110.0 56.5 L114.0 44.9 L118.0 36.9 L122.0 32.1 L126.0 30.1 L130.0 30.5 L134.0 32.7 L138.0 36.5 L142.0 41.3 L146.0 46.9 L150.0 53.1 L154.0 59.5 L158.0 66.2 L162.0 72.8 L166.0 79.4 L170.0 85.8 L174.0 92.1 L178.0 98.1 L182.0 103.8 L186.0 109.3 L190.0 114.5 L194.0 119.4 L198.0 124.1 L202.0 128.4 L206.0 132.6 L210.0 136.4 L214.0 140.1 L218.0 143.5 L222.0 146.7 L226.0 149.7 L230.0 152.5 L234.0 155.1 L238.0 157.6 L242.0 159.9 L246.0 162.1 L250.0 164.1 L254.0 166.1 L258.0 167.8 L262.0 169.5 L266.0 171.1 L270.0 172.6 L274.0 174.0 L278.0 175.3 L282.0 176.5 L286.0 177.7 L290.0 178.8 L294.0 179.8 L298.0 180.8 L302.0 181.7 L306.0 182.6 L310.0 183.4 L314.0 184.1 L318.0 184.9 L322.0 185.5 L326.0 186.2 L330.0 186.8 L334.0 187.4 L338.0 187.9 L342.0 188.5 L346.0 189.0 L350.0 189.4 L354.0 189.9 L358.0 190.3 L362.0 190.7 L366.0 191.1 L370.0 191.4 L374.0 191.8 L378.0 192.1 L382.0 192.4 L386.0 192.7 L390.0 193.0 L394.0 193.3 L398.0 193.5 L402.0 193.8 L406.0 194.0 L410.0 194.2 L414.0 194.4 L418.0 194.6 L422.0 194.8 L426.0 195.0 L430.0 195.2 L434.0 195.3 L438.0 195.5 L442.0 195.7 L446.0 195.8 L450.0 196.0'/><path d='M66.0 200.0 L70.0 200.0 L74.0 200.0 L78.0 199.7 L82.0 198.9 L86.0 196.9 L90.0 193.5 L94.0 188.5 L98.0 182.1 L102.0 175.0 L106.0 167.5 L110.0 160.1 L114.0 153.3 L118.0 147.4 L122.0 142.3 L126.0 138.4 L130.0 135.4 L134.0 133.3 L138.0 132.1 L142.0 131.7 L146.0 131.9 L150.0 132.6 L154.0 133.7 L158.0 135.2 L162.0 136.9 L166.0 138.9 L170.0 141.0 L174.0 143.1 L178.0 145.3 L182.0 147.6 L186.0 149.8 L190.0 152.0 L194.0 154.1 L198.0 156.2 L202.0 158.2 L206.0 160.2 L210.0 162.1 L214.0 163.9 L218.0 165.6 L222.0 167.3 L226.0 168.9 L230.0 170.4 L234.0 171.8 L238.0 173.2 L242.0 174.5 L246.0 175.7 L250.0 176.8 L254.0 177.9 L258.0 179.0 L262.0 180.0 L266.0 180.9 L270.0 181.8 L274.0 182.6 L278.0 183.4 L282.0 184.2 L286.0 184.9 L290.0 185.6 L294.0 186.2 L298.0 186.8 L302.0 187.4 L306.0 188.0 L310.0 188.5 L314.0 189.0 L318.0 189.5 L322.0 189.9 L326.0 190.3 L330.0 190.7 L334.0 191.1 L338.0 191.5 L342.0 191.8 L346.0 192.1 L350.0 192.5 L354.0 192.8 L358.0 193.0 L362.0 193.3 L366.0 193.6 L370.0 193.8 L374.0 194.1 L378.0 194.3 L382.0 194.5 L386.0 194.7 L390.0 194.9 L394.0 195.1 L398.0 195.3 L402.0 195.4 L406.0 195.6 L410.0 195.7 L414.0 195.9 L418.0 196.0 L422.0 196.2 L426.0 196.3 L430.0 196.4 L434.0 196.6 L438.0 196.7 L442.0 196.8 L446.0 196.9 L450.0 197.0' stroke-dasharray='6 3'/><path d='M66.0 200.0 L70.0 200.0 L74.0 200.0 L78.0 200.0 L82.0 200.0 L86.0 199.9 L90.0 199.6 L94.0 199.2 L98.0 198.4 L102.0 197.3 L106.0 195.8 L110.0 194.1 L114.0 192.3 L118.0 190.3 L122.0 188.4 L126.0 186.5 L130.0 184.7 L134.0 183.1 L138.0 181.7 L142.0 180.5 L146.0 179.6 L150.0 178.8 L154.0 178.3 L158.0 177.9 L162.0 177.7 L166.0 177.6 L170.0 177.7 L174.0 177.9 L178.0 178.1 L182.0 178.5 L186.0 178.9 L190.0 179.3 L194.0 179.8 L198.0 180.4 L202.0 180.9 L206.0 181.5 L210.0 182.1 L214.0 182.7 L218.0 183.3 L222.0 183.8 L226.0 184.4 L230.0 185.0 L234.0 185.5 L238.0 186.1 L242.0 186.6 L246.0 187.1 L250.0 187.6 L254.0 188.1 L258.0 188.5 L262.0 189.0 L266.0 189.4 L270.0 189.8 L274.0 190.2 L278.0 190.6 L282.0 190.9 L286.0 191.3 L290.0 191.6 L294.0 192.0 L298.0 192.3 L302.0 192.6 L306.0 192.8 L310.0 193.1 L314.0 193.4 L318.0 193.6 L322.0 193.9 L326.0 194.1 L330.0 194.3 L334.0 194.5 L338.0 194.7 L342.0 194.9 L346.0 195.1 L350.0 195.3 L354.0 195.4 L358.0 195.6 L362.0 195.8 L366.0 195.9 L370.0 196.1 L374.0 196.2 L378.0 196.3 L382.0 196.5 L386.0 196.6 L390.0 196.7 L394.0 196.8 L398.0 196.9 L402.0 197.0 L406.0 197.1 L410.0 197.2 L414.0 197.3 L418.0 197.4 L422.0 197.5 L426.0 197.6 L430.0 197.6 L434.0 197.7 L438.0 197.8 L442.0 197.8 L446.0 197.9 L450.0 198.0' stroke-dasharray='2 3'/></g><g font-size='12' fill='currentColor'><text x='135.3' y='34.0'>6000 K</text><text x='156.7' y='133.7'>5000 K</text><text x='179.9' y='175.6'>4000 K</text><text x='116.0' y='194'>visible</text><text x='300' y='225'>wavelength / nm</text><text x='48' y='225'>0</text><text x='200.0' y='216'>1000</text><text x='360.0' y='216'>2000</text><text x='20' y='245'>Hotter: more radiation at every wavelength, peak at shorter wavelength</text><text x='58' y='14'>intensity</text></g></svg>"
+      },
+      {
+        "title": "Radiation and the temperature of the Earth",
+        "caption": "The Earth absorbs some radiation from the Sun and reflects some. The surface emits infrared; some escapes to space and some is absorbed and re-emitted by the atmosphere. The balance between absorption and emission sets the Earth's temperature.",
+        "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg'><path d='M20 200 Q240 160 460 200 L460 240 L20 240 Z' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><path d='M20 120 Q240 80 460 120' fill='none' stroke='currentColor' stroke-dasharray='5 4'/><circle cx='40' cy='35' r='20' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='2'><line x1='70' y1='40' x2='160' y2='180'/><line x1='120' y1='30' x2='150' y2='95'/><line x1='150' y1='95' x2='190' y2='30'/><line x1='300' y1='175' x2='320' y2='30'/><line x1='370' y1='180' x2='385' y2='112'/><line x1='385' y1='112' x2='400' y2='170'/></g><path d='M160.0 180.0 L151.3 174.9 L158.9 170.0 Z' fill='currentColor'/><path d='M190.0 30.0 L189.1 40.0 L181.5 35.3 Z' fill='currentColor'/><path d='M320.0 30.0 L323.2 39.5 L314.3 38.3 Z' fill='currentColor'/><path d='M400.0 170.0 L393.4 162.4 L402.1 160.2 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='70' y='20'>radiation from the Sun</text><text x='170' y='160'>absorbed by surface</text><text x='160' y='55'>some reflected</text><text x='160' y='69'>back to space</text><text x='326' y='44'>some emitted</text><text x='326' y='58'>to space</text><text x='392' y='110'>some absorbed and</text><text x='392' y='124'>re-emitted by</text><text x='392' y='138'>atmosphere</text><text x='22' y='112'>atmosphere</text><text x='30' y='232'>Earth's surface emits infrared</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a perfect black body does not emit radiation because it is black.",
+        "right": "In fact a perfect black body is the best possible emitter as well as a perfect absorber."
+      },
+      {
+        "wrong": "Students often think hotter objects emit only shorter wavelengths.",
+        "right": "In fact hotter objects emit more at every wavelength; the shorter wavelengths just increase more rapidly, so the peak shifts."
+      },
+      {
+        "wrong": "Students often think an object at constant temperature has stopped absorbing and emitting.",
+        "right": "In fact it is still doing both, at equal rates."
+      },
+      {
+        "wrong": "Students often think greenhouse gases trap heat by stopping sunlight reaching the Earth.",
+        "right": "In fact they absorb some of the infrared emitted by the Earth's surface and re-emit it, reducing the rate at which energy escapes to space."
+      }
+    ],
+    "realWorld": [
+      "Astronomers estimate the temperature of stars from their colour: blue-white stars are hotter than red stars.",
+      "Thermal imaging and infrared thermometers estimate temperature from the radiation an object emits.",
+      "Climate scientists model the Earth's radiation balance to predict how greenhouse gases will change global temperature.",
+      "Electric grills glow red when hot because they emit some visible light at the long-wavelength end."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Use information, or draw or interpret diagrams, to show how radiation affects the temperature of the Earth's surface and atmosphere."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic (perfect black bodies, temperature and wavelength distribution of emitted radiation, radiation balance and the Earth's temperature) is in separate Physics only."
+    ],
+    "examTips": [
+      "Define a perfect black body precisely: absorbs ALL incident radiation, reflects and transmits none.",
+      "When comparing emission curves, mention both the higher intensity at every wavelength and the peak shifting to shorter wavelength.",
+      "Explain temperature changes by comparing the rate of absorption with the rate of emission.",
+      "For the Earth, name specific factors: reflection by clouds and ice, absorption by greenhouse gases, emission of infrared to space.",
+      "Higher: on diagrams of the Earth, follow each arrow and say whether radiation is absorbed, reflected or emitted."
+    ],
+    "summary": [
+      "A perfect black body absorbs all incident radiation and is the best emitter.",
+      "All bodies emit radiation; intensity and wavelength distribution depend on temperature.",
+      "Hotter: more intense at all wavelengths, peak at shorter wavelength.",
+      "Constant temperature: absorption rate equals emission rate.",
+      "Earth's temperature depends on the balance of absorbed and emitted radiation.",
+      "Greenhouse gases, clouds and ice change that balance."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a perfect black body?",
+      "back": "An object that absorbs all the radiation incident on it; it does not reflect or transmit any."
+    },
+    {
+      "front": "Why is a perfect black body the best possible emitter?",
+      "back": "A good absorber is also a good emitter."
+    },
+    {
+      "front": "What two features of emitted radiation depend on temperature?",
+      "back": "Its intensity and its wavelength distribution."
+    },
+    {
+      "front": "What happens to emission as temperature increases?",
+      "back": "Intensity of every wavelength increases; shorter wavelengths increase more rapidly."
+    },
+    {
+      "front": "Where does the peak of the emission curve move as temperature rises?",
+      "back": "To shorter wavelengths."
+    },
+    {
+      "front": "What does constant temperature tell you about radiation?",
+      "back": "The body absorbs and emits radiation at the same rate."
+    },
+    {
+      "front": "When does a body's temperature increase?",
+      "back": "When it absorbs radiation faster than it emits it."
+    },
+    {
+      "front": "Do all bodies emit radiation?",
+      "back": "Yes, whatever their temperature."
+    },
+    {
+      "front": "How do greenhouse gases affect the Earth's temperature?",
+      "back": "They absorb infrared emitted by the surface and re-emit it, so less escapes to space and the Earth warms."
+    },
+    {
+      "front": "How does melting ice affect the Earth's temperature?",
+      "back": "Less sunlight is reflected, so more is absorbed and the Earth warms."
+    },
+    {
+      "front": "Why does a hot grill glow red but a warm radiator does not?",
+      "back": "The grill is hot enough to emit some visible (red) light; the radiator emits only infrared."
+    },
+    {
+      "front": "Which star is hotter: a red star or a blue-white star?",
+      "back": "Blue-white: its peak emission is at a shorter wavelength."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-black-body-radiation-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is a perfect black body?",
+      "options": [
+        "An object that reflects all the radiation incident on it",
+        "An object that emits no radiation",
+        "An object that absorbs all the radiation incident on it",
+        "An object that transmits all the radiation incident on it"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: An object that absorbs all the radiation incident on it"
+      ],
+      "explanation": "A perfect black body absorbs all incident radiation; it does not reflect or transmit any."
+    },
+    {
+      "id": "p6-black-body-radiation-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement about a perfect black body is correct?",
+      "options": [
+        "It would be the best possible emitter of radiation",
+        "It would emit no radiation",
+        "It reflects all visible light",
+        "It only absorbs infrared"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It would be the best possible emitter of radiation"
+      ],
+      "explanation": "A good absorber is a good emitter, so a perfect absorber would also be the best emitter."
+    },
+    {
+      "id": "p6-black-body-radiation-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which objects emit radiation?",
+      "options": [
+        "Only objects that glow",
+        "Only perfect black bodies",
+        "Only objects hotter than their surroundings",
+        "All objects, whatever their temperature"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: All objects, whatever their temperature"
+      ],
+      "explanation": "All bodies emit radiation; the intensity and wavelength distribution depend on temperature."
+    },
+    {
+      "id": "p6-black-body-radiation-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object is at a constant temperature. Which statement is correct?",
+      "options": [
+        "It does not absorb or emit radiation",
+        "It absorbs radiation at the same rate as it emits it",
+        "It emits radiation faster than it absorbs it",
+        "It absorbs radiation faster than it emits it"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It absorbs radiation at the same rate as it emits it"
+      ],
+      "explanation": "Constant temperature means the rates of absorption and emission are equal."
+    },
+    {
+      "id": "p6-black-body-radiation-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "As the temperature of an object increases, what happens to the peak of its emission curve?",
+      "options": [
+        "It moves to a longer wavelength and becomes higher",
+        "It moves to a shorter wavelength and becomes higher",
+        "It moves to a shorter wavelength and becomes lower",
+        "It stays at the same wavelength but becomes higher"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It moves to a shorter wavelength and becomes higher"
+      ],
+      "explanation": "Hotter bodies emit more at every wavelength, and shorter wavelengths increase more, so the peak is higher and at a shorter wavelength."
+    },
+    {
+      "id": "p6-black-body-radiation-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the temperature of an object in sunlight rise at first?",
+      "options": [
+        "It emits radiation faster than it absorbs radiation",
+        "It stops emitting radiation",
+        "It reflects all the radiation",
+        "It absorbs radiation faster than it emits radiation"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It absorbs radiation faster than it emits radiation"
+      ],
+      "explanation": "A net gain of energy from radiation raises the temperature."
+    },
+    {
+      "id": "p6-black-body-radiation-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A star appears blue-white and another appears red. What can be concluded?",
+      "options": [
+        "The blue-white star is hotter, because its emission peaks at a shorter wavelength",
+        "The red star is hotter, because red light has more energy",
+        "Both stars are the same temperature",
+        "The red star is a perfect black body"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The blue-white star is hotter, because its emission peaks at a shorter wavelength"
+      ],
+      "explanation": "Hotter bodies have peak emission at shorter wavelengths, so the blue-white star is hotter."
+    },
+    {
+      "id": "p6-black-body-radiation-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which change would cause the Earth's average temperature to increase?",
+      "options": [
+        "More ice reflecting sunlight back to space",
+        "Less carbon dioxide in the atmosphere",
+        "More greenhouse gases absorbing infrared emitted by the surface",
+        "More infrared escaping directly to space"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: More greenhouse gases absorbing infrared emitted by the surface"
+      ],
+      "explanation": "Greenhouse gases reduce the rate at which energy is emitted to space, so the Earth absorbs faster than it emits and warms."
+    },
+    {
+      "id": "p6-black-body-radiation-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Higher: a diagram of the Earth shows 100 units of solar radiation arriving, 30 reflected and 70 absorbed. The Earth emits 70 units to space. What does this show?",
+      "options": [
+        "The Earth is warming because it absorbs more than it reflects",
+        "The Earth is cooling because it emits 70 units",
+        "The Earth is warming because 100 units arrive",
+        "The Earth's temperature is constant because absorption equals emission"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The Earth's temperature is constant because absorption equals emission"
+      ],
+      "explanation": "Absorbed (70) equals emitted (70), so there is no net gain or loss; reflected radiation is never absorbed so does not affect the balance."
+    },
+    {
+      "id": "p6-black-body-radiation-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does a perfect black body do with radiation that falls on it?",
+      "options": [
+        "Absorbs all of it",
+        "Reflects half and absorbs half",
+        "Transmits all of it",
+        "Reflects all of it"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Absorbs all of it"
+      ],
+      "explanation": "By definition, a perfect black body absorbs all incident radiation."
+    },
+    {
+      "id": "p6-black-body-radiation-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Define a perfect black body.",
+      "acceptedAnswers": [
+        "absorbs all radiation incident",
+        "does not reflect or transmit"
+      ],
+      "markScheme": [
+        "1 mark: absorbs all the radiation incident on it",
+        "1 mark: does not reflect or transmit any radiation"
+      ],
+      "explanation": "Both parts of the definition are needed."
+    },
+    {
+      "id": "p6-black-body-radiation-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the intensity of radiation emitted by a body as its temperature increases.",
+      "acceptedAnswers": [
+        "increases"
+      ],
+      "markScheme": [
+        "1 mark: it increases (at every wavelength)"
+      ],
+      "explanation": "Hotter bodies emit more intense radiation."
+    },
+    {
+      "id": "p6-black-body-radiation-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe how the wavelength distribution of radiation from a body changes as its temperature increases.",
+      "acceptedAnswers": [
+        "intensity of every wavelength increases",
+        "shorter wavelengths increase more rapidly",
+        "peak shorter wavelength"
+      ],
+      "markScheme": [
+        "1 mark: the intensity of every wavelength increases",
+        "1 mark: the intensity of shorter wavelengths increases more rapidly / the peak moves to shorter wavelengths"
+      ],
+      "explanation": "This is why very hot objects start to glow visibly."
+    },
+    {
+      "id": "p6-black-body-radiation-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a perfect black body would be the best possible emitter of radiation.",
+      "acceptedAnswers": [
+        "perfect absorber",
+        "good absorber is good emitter"
+      ],
+      "markScheme": [
+        "1 mark: it is a perfect absorber (absorbs all radiation)",
+        "1 mark: good absorbers are also good emitters"
+      ],
+      "explanation": "The link between absorbing and emitting is the key idea."
+    },
+    {
+      "id": "p6-black-body-radiation-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a car left in the sun eventually reaches a steady temperature.",
+      "acceptedAnswers": [
+        "emits more as it gets hotter",
+        "emission equals absorption",
+        "no net energy transfer"
+      ],
+      "markScheme": [
+        "1 mark: as the car gets hotter it emits radiation at a greater rate",
+        "1 mark: eventually it emits at the same rate as it absorbs, so the temperature stays constant"
+      ],
+      "explanation": "Steady temperature means balanced rates."
+    },
+    {
+      "id": "p6-black-body-radiation-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how an increase in carbon dioxide in the atmosphere could cause the Earth's temperature to rise.",
+      "acceptedAnswers": [
+        "absorbs infrared emitted by surface",
+        "re-emits some back towards Earth",
+        "less escapes to space",
+        "absorbs faster than emits"
+      ],
+      "markScheme": [
+        "1 mark: carbon dioxide absorbs infrared radiation emitted by the Earth's surface",
+        "1 mark: and re-emits some back towards the surface, so less radiation escapes to space",
+        "1 mark: the Earth absorbs radiation faster than it emits it, so its temperature rises (until a new balance)"
+      ],
+      "explanation": "The balance between absorption and emission shifts, so the equilibrium temperature rises."
+    },
+    {
+      "id": "p6-black-body-radiation-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why the melting of polar ice could increase the Earth's temperature.",
+      "acceptedAnswers": [
+        "ice reflects sunlight",
+        "less reflected",
+        "more absorbed"
+      ],
+      "markScheme": [
+        "1 mark: ice and snow reflect a lot of sunlight",
+        "1 mark: when they melt, less is reflected and more radiation is absorbed, so the Earth warms"
+      ],
+      "explanation": "Darker land and sea absorb more radiation than bright ice."
+    },
+    {
+      "id": "p6-black-body-radiation-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Name one factor that affects the rate at which the Earth absorbs radiation from the Sun.",
+      "acceptedAnswers": [
+        "cloud cover",
+        "ice cover",
+        "snow",
+        "reflection"
+      ],
+      "markScheme": [
+        "1 mark: any one of: cloud cover, amount of ice / snow, other reflective surfaces"
+      ],
+      "explanation": "Clouds and ice reflect radiation that would otherwise be absorbed."
+    },
+    {
+      "id": "p6-black-body-radiation-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Higher: a diagram shows the Earth absorbing 240 units of radiation per second but emitting only 237 units per second to space. State and explain what will happen to the Earth's temperature.",
+      "acceptedAnswers": [
+        "temperature increases",
+        "absorbs more than emits",
+        "until new balance"
+      ],
+      "markScheme": [
+        "1 mark: the temperature will increase",
+        "1 mark: because it absorbs radiation faster than it emits it (until emission rises to match)"
+      ],
+      "explanation": "A net gain of 3 units per second means warming until a new balance is reached."
+    },
+    {
+      "id": "p6-black-body-radiation-q20",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how the radiation emitted by an object changes as its temperature increases from room temperature to very hot (for example, a glowing grill).",
+      "markScheme": [
+        "Indicative content:",
+        "all objects emit radiation whatever their temperature",
+        "at room temperature mainly long-wavelength infrared",
+        "as temperature increases intensity of every wavelength increases",
+        "shorter wavelengths increase more rapidly; peak moves to shorter wavelengths",
+        "very hot objects emit visible light: glow red, then orange, yellow, white",
+        "Level 2 (3 to 4 marks): clear description of both intensity and wavelength changes with an example.",
+        "Level 1 (1 to 2 marks): states that hotter objects emit more radiation."
+      ],
+      "explanation": "Both the amount and the spread of wavelengths change with temperature."
+    },
+    {
+      "id": "p6-black-body-radiation-q21",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Higher: explain how the temperature of the Earth depends on the radiation it absorbs and emits. Include how factors such as greenhouse gases, clouds and ice affect this, and refer to the idea of balance.",
+      "markScheme": [
+        "Indicative content:",
+        "the Earth absorbs radiation from the Sun (visible and infrared)",
+        "some incoming radiation is reflected by clouds, ice and snow and not absorbed",
+        "the Earth's surface emits infrared radiation",
+        "some infrared escapes to space; some is absorbed by greenhouse gases and re-emitted, some back to the surface",
+        "temperature constant when rate of absorption equals rate of emission",
+        "more greenhouse gases: less infrared escapes, Earth absorbs faster than it emits, temperature rises until new balance",
+        "less ice: less reflection, more absorption, warming",
+        "clouds reflect incoming radiation (cooling) but also absorb outgoing infrared (warming)",
+        "diagrams of energy flows can be used to show whether absorption exceeds emission",
+        "Level 3 (5 to 6 marks): detailed, coherent explanation using the balance idea and at least two factors correctly explained.",
+        "Level 2 (3 to 4 marks): describes absorption and emission with at least one factor explained.",
+        "Level 1 (1 to 2 marks): simple statements about the Sun heating the Earth or greenhouse gases."
+      ],
+      "explanation": "The central idea is the balance between absorption and emission; each factor shifts that balance."
+    },
+    {
+      "id": "p6-black-body-radiation-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How much of the radiation falling on a perfect black body is transmitted through it?",
+      "options": [
+        "All of it",
+        "Only the infrared",
+        "None",
+        "About half"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: None"
+      ],
+      "explanation": "A perfect black body reflects and transmits nothing; it absorbs everything incident on it."
+    },
+    {
+      "id": "p6-black-body-radiation-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A body emits radiation faster than it absorbs it. What happens to its temperature?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It becomes absolute zero immediately"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It decreases"
+      ],
+      "explanation": "A net loss of energy by radiation makes the temperature fall."
+    },
+    {
+      "id": "p6-black-body-radiation-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which surface comes closest to being a perfect black body?",
+      "options": [
+        "Matt black",
+        "Shiny silver",
+        "Glossy white",
+        "Clear glass"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Matt black"
+      ],
+      "explanation": "Matt black surfaces absorb almost all incident radiation; shiny and white surfaces reflect a lot and glass transmits light."
+    },
+    {
+      "id": "p6-black-body-radiation-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what is meant by the intensity of radiation.",
+      "acceptedAnswers": [
+        "power per unit area",
+        "energy per second per unit area",
+        "how much radiation"
+      ],
+      "markScheme": [
+        "1 mark: the power (energy per second) of radiation per unit area"
+      ],
+      "explanation": "Intensity tells you how much radiation energy arrives or is emitted each second over an area."
+    },
+    {
+      "id": "p6-black-body-radiation-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State one example of a body whose temperature stays constant because it absorbs and emits radiation at the same rate.",
+      "acceptedAnswers": [
+        "cup at room temperature",
+        "Earth",
+        "object in equilibrium"
+      ],
+      "markScheme": [
+        "1 mark: any valid example, e.g. a cup of tea that has cooled to room temperature, the Earth (on average), a car that has reached a steady temperature in the sun"
+      ],
+      "explanation": "Any object at a steady temperature is in radiation balance with its surroundings."
+    },
+    {
+      "id": "p6-black-body-radiation-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Two identical metal plates, one painted matt black and one polished silver, are placed in strong sunlight. Explain which plate reaches a higher temperature and why both eventually stop warming.",
+      "markScheme": [
+        "Indicative content:",
+        "matt black plate absorbs more of the incident radiation (closer to a black body)",
+        "silver plate reflects most radiation, so absorbs less",
+        "so the black plate absorbs energy at a greater rate and warms more",
+        "both plates emit more radiation as their temperature rises",
+        "each stops warming when its rate of emission equals its rate of absorption",
+        "black plate reaches a higher steady temperature",
+        "Level 2 (3 to 4 marks): identifies the black plate with an explanation of absorption and of the balance at steady temperature.",
+        "Level 1 (1 to 2 marks): identifies black plate with a simple reason."
+      ],
+      "explanation": "Absorption sets how much energy goes in; the steady temperature is where emission matches absorption."
+    }
+  ]
+}

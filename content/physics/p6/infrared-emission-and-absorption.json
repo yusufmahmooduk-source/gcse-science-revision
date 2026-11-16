@@ -1,0 +1,692 @@
+{
+  "id": "p6-infrared-emission-and-absorption",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "infrared-emission-and-absorption",
+  "specRef": "4.6.3.1",
+  "title": "Emission and absorption of infrared radiation",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "All bodies (objects), no matter what their temperature, emit and absorb infrared radiation. The hotter the body, the more infrared radiation it radiates in a given time.",
+    "explanation": [
+      "Every object emits infrared radiation, whatever its temperature. An ice cube, your body, a cup of tea and the Sun all emit infrared. Every object also absorbs infrared radiation from its surroundings. Infrared is an electromagnetic wave, so it can travel through a vacuum: this is how energy from the Sun reaches the Earth, and why you feel warm in front of a fire even though the air between you and the fire is not doing the heating.",
+      "The hotter an object is, the more infrared radiation it radiates in a given time. A cup of tea at 80 °C emits infrared at a much greater rate than the same cup at room temperature. This is why infrared cameras (thermal imaging cameras) can show differences in temperature: hotter objects emit more infrared and appear brighter in the image. It also explains why a hot object cools down: it emits more infrared than it absorbs from its cooler surroundings.",
+      "Whether an object warms up or cools down depends on the balance between the infrared it absorbs and the infrared it emits. An object that absorbs more infrared than it emits gets hotter. An object that emits more than it absorbs cools down. An object at the same temperature as its surroundings absorbs and emits at the same rate, so its temperature stays constant.",
+      "The type of surface also affects how much infrared is emitted and absorbed. Dark, matt surfaces are good emitters and good absorbers of infrared. Light, shiny surfaces are poor emitters and poor absorbers; they are good reflectors of infrared. A good emitter is always a good absorber. This is investigated using a Leslie cube in required practical 10 (covered with properties of electromagnetic waves). For the same surface, the hotter it is, the more infrared it emits.",
+      "These ideas explain many everyday design choices. Radiators and the cooling fins on engines are often painted dark so they emit more infrared. Kettles and teapots may be shiny so they emit less and keep drinks hot. Emergency blankets are shiny to reduce infrared emitted by the casualty. Solar water-heating panels are matt black to absorb as much infrared from the Sun as possible."
+    ],
+    "keyFacts": [
+      "All bodies emit and absorb infrared radiation, whatever their temperature.",
+      "The hotter a body, the more infrared it radiates in a given time.",
+      "Infrared is an EM wave and can travel through a vacuum.",
+      "An object warms up if it absorbs infrared faster than it emits it.",
+      "An object cools down if it emits infrared faster than it absorbs it.",
+      "At constant temperature, absorption and emission rates are equal.",
+      "Matt black surfaces are the best emitters and absorbers of infrared.",
+      "Shiny, light surfaces are poor emitters and absorbers but good reflectors.",
+      "Thermal imaging cameras detect the infrared emitted by objects."
+    ],
+    "keyTerms": [
+      {
+        "term": "Infrared radiation",
+        "definition": "Electromagnetic radiation with wavelengths longer than visible light, emitted and absorbed by all objects."
+      },
+      {
+        "term": "Emit",
+        "definition": "To give out radiation."
+      },
+      {
+        "term": "Absorb",
+        "definition": "To take in radiation, transferring its energy to the object's internal energy."
+      },
+      {
+        "term": "Rate of emission",
+        "definition": "The amount of radiation emitted in a given time."
+      },
+      {
+        "term": "Thermal imaging camera",
+        "definition": "A camera that forms an image from the infrared emitted by objects, showing temperature differences."
+      },
+      {
+        "term": "Good emitter",
+        "definition": "A surface, such as matt black, that emits a lot of infrared at a given temperature; it is also a good absorber."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Explaining cooling",
+        "question": "A mug of hot chocolate at 70 °C is left in a room at 20 °C. Explain, in terms of infrared radiation, why it cools down.",
+        "steps": [
+          "The mug emits infrared radiation and also absorbs infrared from the room.",
+          "Because the mug is hotter than the room, it emits infrared at a greater rate than it absorbs it.",
+          "There is a net transfer of energy away from the mug, so its temperature falls.",
+          "As it cools, it emits less infrared in a given time, so it cools more slowly until it reaches room temperature."
+        ],
+        "answer": "It emits more infrared than it absorbs, so it loses energy and cools, more slowly as its temperature falls."
+      },
+      {
+        "title": "Interpreting a thermal image",
+        "question": "A thermal image of a house in winter shows the windows much brighter than the walls. What does this show?",
+        "steps": [
+          "Brighter areas in a thermal image emit more infrared.",
+          "Hotter surfaces emit more infrared in a given time.",
+          "So the windows are warmer on the outside than the walls: more energy is being lost through the windows."
+        ],
+        "answer": "The windows are hotter, so more energy is escaping through them than through the walls."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Hotter objects emit more infrared",
+        "caption": "Both objects emit infrared. The hotter object emits more infrared radiation in a given time (more and longer arrows).",
+        "svg": "<svg viewBox='0 0 480 240' xmlns='http://www.w3.org/2000/svg'><circle cx='120' cy='115' r='34' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><circle cx='360' cy='115' r='34' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='1.3'><line x1='158.0' y1='115.0' x2='198.0' y2='115.0'/><path d='M198.0 115.0 L191.0 118.5 L191.0 111.5 Z' fill='currentColor'/><line x1='152.9' y1='134.0' x2='187.5' y2='154.0'/><path d='M187.5 154.0 L179.7 153.5 L183.2 147.5 Z' fill='currentColor'/><line x1='139.0' y1='147.9' x2='159.0' y2='182.5'/><path d='M159.0 182.5 L152.5 178.2 L158.5 174.7 Z' fill='currentColor'/><line x1='120.0' y1='153.0' x2='120.0' y2='193.0'/><path d='M120.0 193.0 L116.5 186.0 L123.5 186.0 Z' fill='currentColor'/><line x1='101.0' y1='147.9' x2='81.0' y2='182.5'/><path d='M81.0 182.5 L81.5 174.7 L87.5 178.2 Z' fill='currentColor'/><line x1='87.1' y1='134.0' x2='52.5' y2='154.0'/><path d='M52.5 154.0 L56.8 147.5 L60.3 153.5 Z' fill='currentColor'/><line x1='82.0' y1='115.0' x2='42.0' y2='115.0'/><path d='M42.0 115.0 L49.0 111.5 L49.0 118.5 Z' fill='currentColor'/><line x1='87.1' y1='96.0' x2='52.5' y2='76.0'/><path d='M52.5 76.0 L60.3 76.5 L56.8 82.5 Z' fill='currentColor'/><line x1='101.0' y1='82.1' x2='81.0' y2='47.5'/><path d='M81.0 47.5 L87.5 51.8 L81.5 55.3 Z' fill='currentColor'/><line x1='120.0' y1='77.0' x2='120.0' y2='37.0'/><path d='M120.0 37.0 L123.5 44.0 L116.5 44.0 Z' fill='currentColor'/><line x1='139.0' y1='82.1' x2='159.0' y2='47.5'/><path d='M159.0 47.5 L158.5 55.3 L152.5 51.8 Z' fill='currentColor'/><line x1='152.9' y1='96.0' x2='187.5' y2='76.0'/><path d='M187.5 76.0 L183.2 82.5 L179.7 76.5 Z' fill='currentColor'/><line x1='398.0' y1='115.0' x2='420.0' y2='115.0'/><path d='M420.0 115.0 L413.0 118.5 L413.0 111.5 Z' fill='currentColor'/><line x1='371.7' y1='151.1' x2='378.5' y2='172.1'/><path d='M378.5 172.1 L373.0 166.5 L379.7 164.3 Z' fill='currentColor'/><line x1='329.3' y1='137.3' x2='311.5' y2='150.3'/><path d='M311.5 150.3 L315.1 143.3 L319.2 149.0 Z' fill='currentColor'/><line x1='329.3' y1='92.7' x2='311.5' y2='79.7'/><path d='M311.5 79.7 L319.2 81.0 L315.1 86.7 Z' fill='currentColor'/><line x1='371.7' y1='78.9' x2='378.5' y2='57.9'/><path d='M378.5 57.9 L379.7 65.7 L373.0 63.5 Z' fill='currentColor'/></g><g font-size='12' fill='currentColor'><text x='96' y='112'>hot</text><text x='92' y='126'>80 °C</text><text x='344' y='112'>cool</text><text x='340' y='126'>20 °C</text><text x='40' y='222'>hotter: more infrared emitted</text><text x='40' y='236'>in a given time</text><text x='280' y='222'>cooler: still emits infrared,</text><text x='280' y='236'>but less in a given time</text></g></svg>"
+      },
+      {
+        "title": "Effect of surface on emission",
+        "caption": "At the same temperature, a matt black surface emits much more infrared than a shiny silver surface. Good emitters are also good absorbers.",
+        "svg": "<svg viewBox='0 0 480 200' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='60' width='120' height='90' fill='currentColor' fill-opacity='0.75' stroke='currentColor'/><rect x='300' y='60' width='120' height='90' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' stroke-width='1.5'><line x1='170' y1='75' x2='220' y2='75'/><line x1='170' y1='95' x2='220' y2='95'/><line x1='170' y1='115' x2='220' y2='115'/><line x1='170' y1='135' x2='220' y2='135'/><line x1='430' y1='105' x2='460' y2='105'/></g><path d='M228.0 75.0 L219.0 79.5 L219.0 70.5 Z' fill='currentColor'/><path d='M228.0 95.0 L219.0 99.5 L219.0 90.5 Z' fill='currentColor'/><path d='M228.0 115.0 L219.0 119.5 L219.0 110.5 Z' fill='currentColor'/><path d='M228.0 135.0 L219.0 139.5 L219.0 130.5 Z' fill='currentColor'/><path d='M466.0 105.0 L457.0 109.5 L457.0 100.5 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='40' y='40'>matt black surface</text><text x='300' y='40'>shiny silver surface</text><text x='40' y='176'>good emitter and good absorber</text><text x='290' y='176'>poor emitter and poor absorber</text><text x='290' y='192'>(good reflector)</text><text x='130' y='194'>both at the same temperature</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think only hot objects emit infrared.",
+        "right": "In fact all objects emit infrared, whatever their temperature; colder objects just emit less in a given time."
+      },
+      {
+        "wrong": "Students often think cold objects 'give out cold'.",
+        "right": "In fact cold objects absorb more infrared than they emit; there is no such thing as 'cold' radiation."
+      },
+      {
+        "wrong": "Students often think a shiny surface is a good emitter because it is bright.",
+        "right": "In fact shiny surfaces are poor emitters and poor absorbers of infrared; they are good reflectors."
+      },
+      {
+        "wrong": "Students often think an object at constant temperature has stopped emitting infrared.",
+        "right": "In fact it is still emitting, but it absorbs infrared at the same rate."
+      }
+    ],
+    "realWorld": [
+      "Thermal imaging cameras help firefighters find people in smoke and help surveyors find heat loss from buildings.",
+      "Solar water-heating panels are painted matt black to absorb as much infrared as possible.",
+      "Shiny emergency blankets reduce the infrared emitted by a casualty, keeping them warm.",
+      "Night-vision cameras detect the infrared emitted by animals for wildlife filming."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This subtopic is in separate Physics only: all bodies emit and absorb infrared radiation, and the hotter the body, the more infrared it radiates in a given time."
+    ],
+    "examTips": [
+      "Use the phrase 'in a given time' when describing how much infrared a hotter object emits.",
+      "Remember all objects emit infrared: never say a cold object emits none.",
+      "To explain warming or cooling, compare the rate of absorption with the rate of emission.",
+      "Link surface type to emission: matt black is the best emitter and absorber, shiny silver the worst.",
+      "Do not confuse infrared radiation with conduction or convection; radiation needs no medium."
+    ],
+    "summary": [
+      "All objects emit and absorb infrared radiation.",
+      "Hotter objects emit more infrared in a given time.",
+      "Warming: absorb faster than emit. Cooling: emit faster than absorb.",
+      "Constant temperature: rates are equal.",
+      "Matt black: best emitter and absorber. Shiny: poor emitter and absorber."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Which objects emit infrared radiation?",
+      "back": "All objects, whatever their temperature."
+    },
+    {
+      "front": "How does temperature affect the infrared emitted?",
+      "back": "The hotter the object, the more infrared it emits in a given time."
+    },
+    {
+      "front": "Do cold objects emit infrared?",
+      "back": "Yes, but less in a given time than hotter objects."
+    },
+    {
+      "front": "When does an object's temperature increase?",
+      "back": "When it absorbs infrared faster than it emits it."
+    },
+    {
+      "front": "When does an object's temperature stay constant?",
+      "back": "When it absorbs and emits infrared at the same rate."
+    },
+    {
+      "front": "Best emitter of infrared?",
+      "back": "Matt black surface."
+    },
+    {
+      "front": "Worst emitter of infrared?",
+      "back": "Shiny silver (light, shiny) surface."
+    },
+    {
+      "front": "Good emitters of infrared are also...",
+      "back": "Good absorbers."
+    },
+    {
+      "front": "Can infrared travel through a vacuum?",
+      "back": "Yes; it is an electromagnetic wave."
+    },
+    {
+      "front": "How does a thermal imaging camera work?",
+      "back": "It detects infrared emitted by objects; hotter objects emit more and appear brighter."
+    },
+    {
+      "front": "Why are solar panels for heating water matt black?",
+      "back": "Matt black absorbs the most infrared."
+    },
+    {
+      "front": "Why does a hot drink cool down?",
+      "back": "It emits infrared faster than it absorbs it from the cooler surroundings."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-infrared-emission-and-absorption-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which objects emit infrared radiation?",
+      "options": [
+        "Only objects hotter than 100 °C",
+        "Only objects that glow",
+        "All objects, whatever their temperature",
+        "Only black objects"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: All objects, whatever their temperature"
+      ],
+      "explanation": "All bodies emit and absorb infrared, no matter what their temperature."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which surface is the best emitter of infrared radiation?",
+      "options": [
+        "Matt black",
+        "Shiny silver",
+        "Shiny white",
+        "Matt white"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Matt black"
+      ],
+      "explanation": "Matt black surfaces are the best emitters (and absorbers) of infrared."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens to the amount of infrared radiated by an object in a given time as it gets hotter?",
+      "options": [
+        "It decreases",
+        "It stays the same",
+        "It becomes zero",
+        "It increases"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It increases"
+      ],
+      "explanation": "The hotter the body, the more infrared it radiates in a given time."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An ice cube is at −10 °C. Which statement is correct?",
+      "options": [
+        "It emits no infrared because it is cold",
+        "It emits and absorbs infrared radiation",
+        "It absorbs infrared but cannot emit it",
+        "It emits cold radiation"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It emits and absorbs infrared radiation"
+      ],
+      "explanation": "All objects emit and absorb infrared. The ice cube emits less than warmer objects."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object's temperature is increasing. What must be true?",
+      "options": [
+        "It is emitting infrared faster than it is absorbing it",
+        "It is absorbing infrared faster than it is emitting it",
+        "It is absorbing and emitting at the same rate",
+        "It has stopped emitting infrared"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It is absorbing infrared faster than it is emitting it"
+      ],
+      "explanation": "A net gain of energy by radiation means absorption is faster than emission."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is the outside of a teapot sometimes made shiny?",
+      "options": [
+        "Shiny surfaces absorb more infrared from the room",
+        "Shiny surfaces emit more infrared, keeping the tea hot",
+        "Shiny surfaces stop conduction",
+        "Shiny surfaces are poor emitters, so less energy is lost by infrared"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Shiny surfaces are poor emitters, so less energy is lost by infrared"
+      ],
+      "explanation": "Shiny surfaces emit little infrared, so the tea stays hot for longer."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Two identical cans, one matt black and one shiny silver, are filled with water at 80 °C. Which statement is correct?",
+      "options": [
+        "The black can cools faster because it emits infrared at a greater rate",
+        "The shiny can cools faster because it reflects more infrared",
+        "Both cool at the same rate because they start at the same temperature",
+        "The black can stays hot longer because it absorbs more infrared"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The black can cools faster because it emits infrared at a greater rate"
+      ],
+      "explanation": "At the same temperature, the matt black can emits more infrared per second. Although it also absorbs more, its surroundings are cooler, so its net loss is larger."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A thermal imaging camera shows a person brighter than a wall behind them. What can be concluded?",
+      "options": [
+        "The wall is not emitting any infrared",
+        "The person is reflecting visible light",
+        "The person is emitting more infrared in a given time, so is hotter than the wall",
+        "The wall is absorbing all of the infrared from the person"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The person is emitting more infrared in a given time, so is hotter than the wall"
+      ],
+      "explanation": "Brightness in a thermal image indicates more infrared emitted. The wall still emits infrared, just less."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How does energy from the Sun reach the Earth through space?",
+      "options": [
+        "By conduction through space",
+        "By convection currents in space",
+        "By sound waves",
+        "By infrared and other EM radiation, which can travel through a vacuum"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: By infrared and other EM radiation, which can travel through a vacuum"
+      ],
+      "explanation": "Space is a vacuum, so conduction and convection cannot occur. EM radiation needs no medium."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q10",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the rate at which an object emits infrared when its temperature increases.",
+      "acceptedAnswers": [
+        "increases",
+        "emits more"
+      ],
+      "markScheme": [
+        "1 mark: it increases / more infrared is emitted in a given time"
+      ],
+      "explanation": "Hotter objects emit more infrared per second."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name the best and the worst emitters of infrared from: shiny silver, matt black, matt white.",
+      "acceptedAnswers": [
+        "best matt black",
+        "worst shiny silver"
+      ],
+      "markScheme": [
+        "1 mark: best: matt black",
+        "1 mark: worst: shiny silver"
+      ],
+      "explanation": "Dark and matt emit more; light and shiny emit less."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a hot potato left on a plate cools down.",
+      "acceptedAnswers": [
+        "emits more than absorbs",
+        "hotter than surroundings",
+        "net energy loss"
+      ],
+      "markScheme": [
+        "1 mark: the potato is hotter than its surroundings, so it emits infrared faster than it absorbs it",
+        "1 mark: so there is a net transfer of energy away and its temperature falls"
+      ],
+      "explanation": "Compare the rates of emission and absorption."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why solar panels used for heating water are painted matt black.",
+      "acceptedAnswers": [
+        "matt black good absorber",
+        "absorbs most infrared",
+        "water heats up more"
+      ],
+      "markScheme": [
+        "1 mark: matt black is the best absorber of infrared",
+        "1 mark: so more energy from the Sun is transferred to the water, heating it more"
+      ],
+      "explanation": "Good absorbers increase the energy transferred from sunlight."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a car left in the sun on a hot day gets hotter, and then reaches a steady temperature.",
+      "acceptedAnswers": [
+        "absorbs more than emits",
+        "temperature rises",
+        "emits more as hotter",
+        "rates become equal"
+      ],
+      "markScheme": [
+        "1 mark: at first it absorbs infrared faster than it emits, so its temperature rises",
+        "1 mark: as it gets hotter it emits more, until emission equals absorption and the temperature stays constant"
+      ],
+      "explanation": "Emission rises with temperature until the two rates balance."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Suggest and explain why emergency blankets given to marathon runners are shiny.",
+      "acceptedAnswers": [
+        "shiny poor emitter",
+        "reduces infrared emitted",
+        "reflects infrared back to body",
+        "keeps runner warm"
+      ],
+      "markScheme": [
+        "1 mark: shiny surfaces are poor emitters of infrared",
+        "1 mark: so less energy is lost from the blanket's outer surface by radiation",
+        "1 mark: the inner shiny surface also reflects infrared emitted by the runner back towards them, keeping them warm"
+      ],
+      "explanation": "Shiny surfaces reduce radiation losses in both ways."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says: 'An object at the same temperature as its surroundings does not emit any infrared.' Explain why the student is wrong.",
+      "acceptedAnswers": [
+        "all objects emit infrared",
+        "emits and absorbs at same rate",
+        "no net change"
+      ],
+      "markScheme": [
+        "1 mark: all objects emit infrared whatever their temperature",
+        "1 mark: it absorbs infrared at the same rate as it emits it, so its temperature stays constant"
+      ],
+      "explanation": "Constant temperature means balanced rates, not zero emission."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name a device that forms an image from the infrared emitted by objects.",
+      "acceptedAnswers": [
+        "thermal imaging camera",
+        "infrared camera"
+      ],
+      "markScheme": [
+        "1 mark: thermal imaging camera / infrared camera"
+      ],
+      "explanation": "Infrared cameras show warmer objects as brighter."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q18",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how the temperature of an object and the type of its surface affect the infrared radiation it emits.",
+      "markScheme": [
+        "Indicative content:",
+        "all objects emit infrared whatever their temperature",
+        "the hotter the object, the more infrared it emits in a given time",
+        "matt black surfaces emit the most infrared",
+        "shiny silver / light shiny surfaces emit the least",
+        "dark surfaces emit more than light; matt more than shiny",
+        "good emitters are also good absorbers",
+        "Level 2 (3 to 4 marks): clear description of both temperature and surface effects.",
+        "Level 1 (1 to 2 marks): one factor described simply."
+      ],
+      "explanation": "Both the temperature and the surface affect the rate of emission."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q19",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A householder wants to keep a hot water tank hot and also wants a radiator to warm a room quickly. Using your knowledge of infrared emission and absorption, explain what surfaces should be used and why, and explain how the temperature of each object affects the infrared it emits.",
+      "markScheme": [
+        "Indicative content:",
+        "all objects emit and absorb infrared; hotter objects emit more in a given time",
+        "hot water tank is hotter than the room so it emits more than it absorbs and cools",
+        "tank should have a shiny / light surface: poor emitter, so less energy lost by radiation",
+        "radiator should be matt black / dark: good emitter, so more infrared emitted per second to warm the room",
+        "the hotter the radiator, the more infrared it emits",
+        "as the tank cools, it emits less, so cooling slows",
+        "objects reach constant temperature when absorption and emission rates are equal",
+        "Level 3 (5 to 6 marks): correct surfaces for both with clear explanations linked to emission, and correct effect of temperature.",
+        "Level 2 (3 to 4 marks): correct surface for both or one with good explanation; some reference to temperature.",
+        "Level 1 (1 to 2 marks): simple statements about surfaces or temperature."
+      ],
+      "explanation": "Choose poor emitters to keep things hot and good emitters to transfer energy away quickly."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q20",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which surface is the best absorber of infrared radiation?",
+      "options": [
+        "Shiny silver",
+        "Polished white",
+        "Matt black",
+        "Mirror"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Matt black"
+      ],
+      "explanation": "Good emitters are good absorbers, so matt black absorbs most."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q21",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of wave is infrared radiation?",
+      "options": [
+        "Sound",
+        "Electromagnetic",
+        "Longitudinal",
+        "Seismic"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Electromagnetic"
+      ],
+      "explanation": "Infrared is part of the electromagnetic spectrum, between microwaves and visible light."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object stays at a constant temperature. Which statement is correct?",
+      "options": [
+        "It absorbs and emits infrared at the same rate",
+        "It neither absorbs nor emits infrared",
+        "It only emits infrared",
+        "It only absorbs infrared"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It absorbs and emits infrared at the same rate"
+      ],
+      "explanation": "Constant temperature means no net energy change: absorption and emission rates balance."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A metal block at 300 °C and an identical block at 30 °C are placed in the same room. Which statement is correct?",
+      "options": [
+        "Both emit the same infrared because they are the same material",
+        "Only the 300 °C block emits infrared",
+        "The 300 °C block emits much more infrared each second than the 30 °C block",
+        "The 30 °C block emits more because it absorbs more"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The 300 °C block emits much more infrared each second than the 30 °C block"
+      ],
+      "explanation": "Both emit infrared, but the hotter body radiates much more in a given time."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q24",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Car radiators that cool engines are often painted black. What is the main reason?",
+      "options": [
+        "Black surfaces emit infrared at a greater rate, transferring energy away faster",
+        "Black surfaces reflect infrared back into the engine",
+        "Black paint stops conduction",
+        "Black surfaces absorb energy from the engine by convection"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Black surfaces emit infrared at a greater rate, transferring energy away faster"
+      ],
+      "explanation": "A good emitter transfers more energy away from the hot radiator by infrared each second."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "State what is meant by 'a good absorber of infrared'.",
+      "acceptedAnswers": [
+        "takes in most infrared",
+        "absorbs a large proportion of infrared falling on it"
+      ],
+      "markScheme": [
+        "1 mark: a surface that absorbs most of the infrared radiation falling on it (reflects little)"
+      ],
+      "explanation": "Matt black surfaces are good absorbers."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Two identical cups of tea at 80 °C are placed outside, one on a cold day and one on a warm day. Explain which cools faster.",
+      "acceptedAnswers": [
+        "cold day cools faster",
+        "absorbs less infrared from surroundings",
+        "bigger difference between emission and absorption"
+      ],
+      "markScheme": [
+        "1 mark: the cup on the cold day cools faster",
+        "1 mark: it absorbs less infrared from the colder surroundings, so the difference between emission and absorption (net loss) is greater"
+      ],
+      "explanation": "Both cups emit at the same rate at 80 °C; what differs is how much they absorb."
+    },
+    {
+      "id": "p6-infrared-emission-and-absorption-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A hot object is left to cool in a room. Explain, in terms of infrared emission and absorption, why it cools quickly at first, then more slowly, and finally stays at room temperature.",
+      "markScheme": [
+        "Indicative content:",
+        "the object emits and absorbs infrared at all times",
+        "at first it is much hotter than the room, so it emits much more infrared than it absorbs: rapid net loss",
+        "as it cools it emits less infrared in a given time",
+        "so the difference between emission and absorption gets smaller and cooling slows",
+        "at room temperature it emits and absorbs at the same rate",
+        "so its temperature stays constant",
+        "Level 2 (3 to 4 marks): full explanation linking temperature to emission rate and the balance with absorption.",
+        "Level 1 (1 to 2 marks): states it emits infrared and cools, with little explanation."
+      ],
+      "explanation": "Rate of cooling depends on the gap between emission and absorption, which shrinks as the object cools."
+    }
+  ]
+}

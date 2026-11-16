@@ -1,0 +1,711 @@
+{
+  "id": "p7-transformers",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "transformers",
+  "specRef": "4.7.3.4",
+  "title": "Transformers",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "A transformer is a device that changes the size of an alternating potential difference. It consists of a primary coil and a secondary coil wound on a soft iron core; the ratio of the p.d.s equals the ratio of the numbers of turns, Vp ÷ Vs = np ÷ ns.",
+    "explanation": [
+      "A basic transformer has a primary coil and a secondary coil of insulated wire, wound on the same iron core. The coils are not electrically connected to each other. Iron is used for the core because it is easily magnetised (and demagnetised), so it carries a strong magnetic field from one coil to the other.",
+      "An alternating current in the primary coil produces a magnetic field in the iron core that is constantly changing in size and direction. This changing magnetic field passes through the secondary coil. A changing magnetic field around a conductor induces a potential difference across it (the generator effect), so an alternating p.d. is induced across the secondary coil. If the secondary is connected to a complete circuit, an alternating current flows. A transformer does not work with a steady d.c., because a steady current gives an unchanging field, which induces nothing.",
+      "The ratio of the potential differences across the coils depends on the ratio of the numbers of turns: Vp ÷ Vs = np ÷ ns. In a step-up transformer the secondary has more turns than the primary (ns > np), so Vs is greater than Vp. In a step-down transformer, ns < np and Vs is less than Vp. Both this equation and the power equation below are given on the equation sheet.",
+      "If a transformer is 100% efficient, the electrical power output equals the electrical power input: Vp × Ip = Vs × Is, where Vp × Ip is the input power and Vs × Is is the output power. This means that if the p.d. is stepped up, the current is stepped down by the same factor, and the other way round. You can use this to calculate the current drawn from the input supply to provide a particular power output, using Ip = power output ÷ Vp.",
+      "Transformers are essential in the National Grid. Step-up transformers at power stations increase the p.d. to very high values (such as 400 000 V) for transmission. For the same power, a higher p.d. means a much smaller current in the cables, so less energy is wasted heating the cables (power loss = I²R). This makes the system more efficient. Step-down transformers then reduce the p.d. to a safer 230 V for homes."
+    ],
+    "keyFacts": [
+      "A transformer has a primary coil and a secondary coil wound on a soft iron core.",
+      "Iron is used because it is easily magnetised.",
+      "Alternating current in the primary gives a changing magnetic field in the core.",
+      "The changing field induces an alternating p.d. in the secondary coil.",
+      "Transformers only work with a.c.",
+      "Vp ÷ Vs = np ÷ ns (equation sheet).",
+      "Step-up: ns > np, Vs > Vp. Step-down: ns < np, Vs < Vp.",
+      "For a 100% efficient transformer, Vp × Ip = Vs × Is (equation sheet).",
+      "Stepping up the p.d. steps down the current by the same factor.",
+      "The National Grid uses high p.d. and low current to reduce energy losses in the cables."
+    ],
+    "keyTerms": [
+      {
+        "term": "Transformer",
+        "definition": "A device that changes the size of an alternating p.d. using two coils on an iron core."
+      },
+      {
+        "term": "Primary coil",
+        "definition": "The input coil, connected to the a.c. supply."
+      },
+      {
+        "term": "Secondary coil",
+        "definition": "The output coil, across which a p.d. is induced."
+      },
+      {
+        "term": "Step-up transformer",
+        "definition": "A transformer with more turns on the secondary than the primary, so it increases the p.d."
+      },
+      {
+        "term": "Step-down transformer",
+        "definition": "A transformer with fewer turns on the secondary than the primary, so it decreases the p.d."
+      },
+      {
+        "term": "Iron core",
+        "definition": "Soft iron on which both coils are wound; it is easily magnetised and links the changing field between the coils."
+      },
+      {
+        "term": "Turns ratio",
+        "definition": "The ratio np ÷ ns of turns on the primary and secondary coils."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Transformer turns ratio",
+        "formula": "p.d. across primary ÷ p.d. across secondary = turns on primary ÷ turns on secondary",
+        "symbols": "Vp ÷ Vs = np ÷ ns",
+        "units": "Vp and Vs in volts (V); np and ns are numbers of turns (no unit)",
+        "recall": false
+      },
+      {
+        "name": "Transformer power (100% efficient)",
+        "formula": "p.d. across primary × current in primary = p.d. across secondary × current in secondary",
+        "symbols": "Vp × Ip = Vs × Is",
+        "units": "V in volts (V), I in amperes (A); each side is a power in watts (W)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding the secondary p.d.",
+        "question": "A transformer has 2000 turns on the primary and 100 turns on the secondary. The primary is connected to 230 V a.c. Calculate the secondary p.d.",
+        "steps": [
+          "Vp ÷ Vs = np ÷ ns, so Vs = Vp × ns ÷ np.",
+          "Vs = 230 × 100 ÷ 2000.",
+          "Vs = 11.5 V (a step-down transformer)."
+        ],
+        "answer": "11.5 V"
+      },
+      {
+        "title": "Finding the number of turns",
+        "question": "A transformer steps 12 V up to 240 V. The primary has 50 turns. Calculate the number of turns on the secondary.",
+        "steps": [
+          "ns = np × Vs ÷ Vp.",
+          "ns = 50 × 240 ÷ 12.",
+          "ns = 1000 turns."
+        ],
+        "answer": "1000 turns"
+      },
+      {
+        "title": "Current in the secondary",
+        "question": "A 100% efficient transformer has Vp = 230 V and Ip = 0.50 A. The secondary p.d. is 11.5 V. Calculate the secondary current.",
+        "steps": [
+          "Vp × Ip = Vs × Is, so Is = Vp × Ip ÷ Vs.",
+          "Is = 230 × 0.50 ÷ 11.5 = 115 ÷ 11.5.",
+          "Is = 10 A."
+        ],
+        "answer": "10 A"
+      },
+      {
+        "title": "Current drawn from the supply in kV",
+        "question": "A 100% efficient step-up transformer at a power station has an input of 25 kV and 400 A. The output p.d. is 400 kV. Calculate the output current.",
+        "steps": [
+          "Convert: Vp = 25 000 V, Vs = 400 000 V.",
+          "Is = Vp × Ip ÷ Vs = 25 000 × 400 ÷ 400 000.",
+          "Is = 25 A: the p.d. is multiplied by 16 and the current divided by 16."
+        ],
+        "answer": "25 A"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Structure of a transformer",
+        "caption": "The a.c. supply drives an alternating current in the primary coil, making a changing magnetic field in the soft iron core. This changing field passes through the secondary coil and induces an alternating p.d. across it. With more turns on the secondary, this is a step-up transformer.",
+        "svg": "<svg viewBox='0 0 440 280' xmlns='http://www.w3.org/2000/svg'><path d='M120 50 H320 V230 H120 Z M150 80 V200 H290 V80 Z' fill='#e5e7eb' fill-opacity='0.5' fill-rule='evenodd' stroke='currentColor'/><path d='M113 95 Q135 111 157 95' fill='none' stroke='currentColor' stroke-width='2'/><path d='M113 115 Q135 131 157 115' fill='none' stroke='currentColor' stroke-width='2'/><path d='M113 135 Q135 151 157 135' fill='none' stroke='currentColor' stroke-width='2'/><path d='M113 155 Q135 171 157 155' fill='none' stroke='currentColor' stroke-width='2'/><path d='M113 175 Q135 191 157 175' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 90 Q305 103 327 90' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 104 Q305 117 327 104' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 118 Q305 131 327 118' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 132 Q305 145 327 132' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 146 Q305 159 327 146' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 160 Q305 173 327 160' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 174 Q305 187 327 174' fill='none' stroke='currentColor' stroke-width='2'/><path d='M283 188 Q305 201 327 188' fill='none' stroke='currentColor' stroke-width='2'/><g stroke='currentColor' fill='none'><polyline points='113,95 60,95'/><polyline points='113,175 60,175'/><polyline points='327,90 380,90'/><polyline points='327,188 380,188'/></g><circle cx='45' cy='135' r='16' fill='none' stroke='currentColor'/><path d='M35 135 Q40 125 45 135 T55 135' fill='none' stroke='currentColor'/><line x1='60' y1='95' x2='45' y2='95' stroke='currentColor'/><line x1='45' y1='95' x2='45' y2='119' stroke='currentColor'/><line x1='60' y1='175' x2='45' y2='175' stroke='currentColor'/><line x1='45' y1='175' x2='45' y2='151' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='150' y='35'>soft iron core</text><text x='10' y='210'>a.c. input, Vp</text><text x='60' y='250'>primary coil (np turns)</text><text x='330' y='140'>output, Vs</text><text x='250' y='250'>secondary coil (ns turns)</text><text x='170' y='145'>changing magnetic</text><text x='170' y='160'>field in core</text><text x='60' y='272'>Here ns &gt; np: a step-up transformer (Vs &gt; Vp)</text></g></svg>"
+      },
+      {
+        "title": "Transformers in the National Grid",
+        "caption": "Step-up transformers increase the p.d. and decrease the current for transmission, reducing energy lost heating the cables. Step-down transformers reduce the p.d. to 230 V for homes.",
+        "svg": "<svg viewBox='0 0 440 220' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='30' width='90' height='46' rx='4' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><text x='16' y='49' font-size='12' fill='currentColor'>Power station</text><text x='16' y='65' font-size='12' fill='currentColor'>25 kV</text><rect x='120' y='30' width='90' height='46' rx='4' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='126' y='49' font-size='12' fill='currentColor'>Step-up</text><text x='126' y='65' font-size='12' fill='currentColor'>transformer</text><rect x='230' y='30' width='90' height='46' rx='4' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='236' y='49' font-size='12' fill='currentColor'>Transmission</text><text x='236' y='65' font-size='12' fill='currentColor'>cables 400 kV</text><rect x='340' y='30' width='90' height='46' rx='4' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='346' y='49' font-size='12' fill='currentColor'>Step-down</text><text x='346' y='65' font-size='12' fill='currentColor'>transformer</text><rect x='340' y='120' width='90' height='46' rx='4' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><text x='346' y='139' font-size='12' fill='currentColor'>Homes</text><text x='346' y='155' font-size='12' fill='currentColor'>230 V</text><g stroke='currentColor'><line x1='100' y1='53' x2='116' y2='53'/><line x1='210' y1='53' x2='226' y2='53'/><line x1='320' y1='53' x2='336' y2='53'/><line x1='385' y1='76' x2='385' y2='116'/></g><polygon points='120.5,53.0 113.5,56.5 113.5,49.5' fill='currentColor'/><polygon points='230.5,53.0 223.5,56.5 223.5,49.5' fill='currentColor'/><polygon points='340.5,53.0 333.5,56.5 333.5,49.5' fill='currentColor'/><polygon points='385.0,120.5 381.5,113.5 388.5,113.5' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='10' y='120'>Step-up: p.d. increased,</text><text x='10' y='136'>current decreased (Vp Ip = Vs Is)</text><text x='10' y='166'>Smaller current in the cables means</text><text x='10' y='182'>less energy lost heating them (P = I²R),</text><text x='10' y='198'>so the system is more efficient.</text><text x='230' y='110'>Step-down: safer</text><text x='230' y='126'>p.d. for homes</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think current flows through the iron core from one coil to the other.",
+        "right": "In fact the coils are not electrically connected; energy is transferred by the changing magnetic field in the core inducing a p.d. in the secondary."
+      },
+      {
+        "wrong": "Students often think a step-up transformer gives out more power than it takes in.",
+        "right": "In fact a step-up transformer increases the p.d. but decreases the current; power out cannot be more than power in (Vp Ip = Vs Is at best)."
+      },
+      {
+        "wrong": "Students often think transformers work with d.c. from a battery.",
+        "right": "In fact a steady d.c. produces an unchanging field, which induces no p.d. in the secondary; a transformer needs a.c."
+      },
+      {
+        "wrong": "Students often think high-voltage cables are used because they carry more current.",
+        "right": "In fact high p.d. is used so that the current is smaller, reducing the energy wasted heating the cables."
+      }
+    ],
+    "realWorld": [
+      "The National Grid uses step-up transformers at power stations and step-down transformers in substations.",
+      "Phone and laptop chargers contain step-down transformers that reduce 230 V mains to a few volts.",
+      "Electric toothbrush chargers transfer energy using the changing magnetic field between two coils, like a transformer with the core split in two."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Explain how the effect of an alternating current in one coil in inducing a current in another is used in transformers.",
+      "Explain how the ratio of the p.d.s across the two coils depends on the ratio of the number of turns on each; calculate the current drawn from the input supply to provide a particular power output.",
+      "Apply Vp ÷ Vs = np ÷ ns and Vp × Ip = Vs × Is (both on the equation sheet); explain how transformers in the National Grid reduce power loss."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science (Combined students learn only that step-up and step-down transformers are used in the National Grid).",
+      "Transformer structure and operation, the turns ratio equation and the power equation for a 100% efficient transformer."
+    ],
+    "examTips": [
+      "Write the equation first, then rearrange before substituting: for example Vs = Vp × ns ÷ np.",
+      "Check your answer makes sense: if ns > np, Vs must be bigger than Vp, and Is must be smaller than Ip.",
+      "Convert kV to V (× 1000) before using Vp Ip = Vs Is if the units on each side are different.",
+      "When explaining how a transformer works, mention: a.c. in primary, changing magnetic field, iron core, induced p.d. in secondary."
+    ],
+    "summary": [
+      "Transformers change the size of an alternating p.d.",
+      "Two coils on a soft iron core; a.c. in the primary induces a.c. in the secondary.",
+      "Vp ÷ Vs = np ÷ ns.",
+      "Vp × Ip = Vs × Is for a 100% efficient transformer.",
+      "Step-up increases p.d. and decreases current; step-down does the reverse.",
+      "The National Grid uses high p.d., low current to reduce energy loss."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What are the main parts of a transformer?",
+      "back": "A primary coil and a secondary coil wound on a soft iron core."
+    },
+    {
+      "front": "Why is the core made of iron?",
+      "back": "Iron is easily magnetised, so it carries the changing magnetic field between the coils."
+    },
+    {
+      "front": "Why does a transformer need a.c.?",
+      "back": "Only a changing current gives a changing magnetic field, which induces a p.d. in the secondary."
+    },
+    {
+      "front": "Turns ratio equation",
+      "back": "Vp ÷ Vs = np ÷ ns."
+    },
+    {
+      "front": "Power equation for a 100% efficient transformer",
+      "back": "Vp × Ip = Vs × Is."
+    },
+    {
+      "front": "What does a step-up transformer do?",
+      "back": "Increases the p.d. (ns > np) and decreases the current."
+    },
+    {
+      "front": "What does a step-down transformer do?",
+      "back": "Decreases the p.d. (ns < np) and increases the current."
+    },
+    {
+      "front": "Why does the National Grid transmit at high p.d.?",
+      "back": "For the same power the current is lower, so less energy is wasted heating the cables."
+    },
+    {
+      "front": "Rearrange Vp ÷ Vs = np ÷ ns for Vs.",
+      "back": "Vs = Vp × ns ÷ np."
+    },
+    {
+      "front": "How do you calculate the current drawn from the supply?",
+      "back": "Ip = power output ÷ Vp (for a 100% efficient transformer)."
+    },
+    {
+      "front": "Are the primary and secondary coils electrically connected?",
+      "back": "No; they are linked only by the changing magnetic field in the core."
+    },
+    {
+      "front": "What is Vp × Ip?",
+      "back": "The input power to the transformer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-transformers-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the core of a transformer made from?",
+      "options": [
+        "Copper",
+        "Plastic",
+        "Soft iron",
+        "Aluminium"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Soft iron"
+      ],
+      "explanation": "Soft iron is easily magnetised, so it carries the changing magnetic field from the primary to the secondary coil."
+    },
+    {
+      "id": "p7-transformers-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a step-up transformer do to the potential difference?",
+      "options": [
+        "Increases it",
+        "Decreases it",
+        "Keeps it the same",
+        "Changes a.c. to d.c."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Increases it"
+      ],
+      "explanation": "A step-up transformer has more turns on the secondary, so the output p.d. is larger than the input."
+    },
+    {
+      "id": "p7-transformers-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In a step-down transformer, how do the numbers of turns compare?",
+      "options": [
+        "More turns on the secondary than the primary",
+        "No turns on the secondary",
+        "Equal numbers of turns",
+        "Fewer turns on the secondary than the primary"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Fewer turns on the secondary than the primary"
+      ],
+      "explanation": "Fewer secondary turns gives a smaller secondary p.d., because Vs ÷ Vp = ns ÷ np."
+    },
+    {
+      "id": "p7-transformers-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does a transformer not work with a steady d.c. supply?",
+      "options": [
+        "d.c. is too dangerous",
+        "A steady current gives an unchanging magnetic field, which induces no p.d.",
+        "Iron does not conduct d.c.",
+        "d.c. melts the coils"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A steady current gives an unchanging magnetic field, which induces no p.d."
+      ],
+      "explanation": "A p.d. is only induced by a changing field. Steady d.c. gives a constant field, so nothing is induced in the secondary (except briefly at switch-on or off)."
+    },
+    {
+      "id": "p7-transformers-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A transformer steps up the p.d. by a factor of 10. If it is 100% efficient, what happens to the current?",
+      "options": [
+        "It increases by a factor of 10",
+        "It stays the same",
+        "It decreases by a factor of 10",
+        "It decreases by a factor of 100"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It decreases by a factor of 10"
+      ],
+      "explanation": "Vp Ip = Vs Is, so if V is multiplied by 10, I is divided by 10 to keep the power the same."
+    },
+    {
+      "id": "p7-transformers-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the National Grid transmit electricity at a very high potential difference?",
+      "options": [
+        "To reduce the current and so reduce energy losses in the cables",
+        "To make the current larger",
+        "Because homes need 400 kV",
+        "To make the electricity travel faster"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: To reduce the current and so reduce energy losses in the cables"
+      ],
+      "explanation": "For a given power, a higher p.d. means a smaller current, and the heating loss depends on I²R."
+    },
+    {
+      "id": "p7-transformers-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What happens in the secondary coil of a transformer?",
+      "options": [
+        "A current flows directly from the primary through the core",
+        "A steady d.c. is produced",
+        "The magnetic field is converted into heat only",
+        "An alternating p.d. is induced by the changing magnetic field"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: An alternating p.d. is induced by the changing magnetic field"
+      ],
+      "explanation": "The changing field in the core passes through the secondary coil and induces an alternating p.d."
+    },
+    {
+      "id": "p7-transformers-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A transformer has 400 turns on the primary and 100 turns on the secondary. The input is 240 V and 0.50 A. Assuming 100% efficiency, what are the secondary p.d. and current?",
+      "options": [
+        "960 V and 0.125 A",
+        "60 V and 2.0 A",
+        "60 V and 0.125 A",
+        "960 V and 2.0 A"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 60 V and 2.0 A"
+      ],
+      "explanation": "Vs = 240 × 100 ÷ 400 = 60 V. Power in = 240 × 0.50 = 120 W, so Is = 120 ÷ 60 = 2.0 A. Stepping down the p.d. steps up the current."
+    },
+    {
+      "id": "p7-transformers-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which change would increase the output p.d. of a step-down transformer, with the same input?",
+      "options": [
+        "Removing turns from the secondary",
+        "Adding turns to the primary",
+        "Adding turns to the secondary",
+        "Replacing the iron core with plastic"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Adding turns to the secondary"
+      ],
+      "explanation": "Vs = Vp × ns ÷ np: increasing ns increases Vs. Adding primary turns decreases Vs; a plastic core weakens the field link."
+    },
+    {
+      "id": "p7-transformers-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why are real transformers slightly less than 100% efficient?",
+      "options": [
+        "Some energy is dissipated heating the coils and core",
+        "The coils create energy",
+        "The current in the secondary is always zero",
+        "The iron core is not magnetic"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Some energy is dissipated heating the coils and core"
+      ],
+      "explanation": "The coils have resistance and the core heats up as it is repeatedly magnetised, so output power is slightly less than input power."
+    },
+    {
+      "id": "p7-transformers-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A transformer has 2000 turns on its primary coil and 100 turns on its secondary coil. The primary p.d. is 230 V. Calculate the secondary p.d.",
+      "numericAnswer": 11.5,
+      "tolerance": 0.02,
+      "unit": "V",
+      "markScheme": [
+        "1 mark: Vs = 230 × 100 ÷ 2000",
+        "1 mark: Vs = 11.5 V"
+      ],
+      "explanation": "Vs = Vp × ns ÷ np = 230 × 100 ÷ 2000 = 11.5 V."
+    },
+    {
+      "id": "p7-transformers-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A transformer increases a p.d. from 12 V to 240 V. The primary coil has 50 turns. Calculate the number of turns on the secondary coil.",
+      "numericAnswer": 1000,
+      "tolerance": 0.02,
+      "unit": "turns",
+      "markScheme": [
+        "1 mark: ns = 50 × 240 ÷ 12",
+        "1 mark: ns = 1000"
+      ],
+      "explanation": "ns = np × Vs ÷ Vp = 50 × 240 ÷ 12 = 1000 turns."
+    },
+    {
+      "id": "p7-transformers-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 100% efficient transformer has a primary p.d. of 230 V and a primary current of 0.50 A. The secondary p.d. is 11.5 V. Calculate the secondary current.",
+      "numericAnswer": 10,
+      "tolerance": 0.02,
+      "unit": "A",
+      "markScheme": [
+        "1 mark: Vp Ip = Vs Is",
+        "1 mark: Is = 230 × 0.50 ÷ 11.5",
+        "1 mark: Is = 10 A"
+      ],
+      "explanation": "Is = Vp Ip ÷ Vs = 115 ÷ 11.5 = 10 A."
+    },
+    {
+      "id": "p7-transformers-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A 100% efficient transformer supplies a 60 W, 12 V lamp from the 230 V mains. Calculate the current drawn from the mains supply.",
+      "numericAnswer": 0.261,
+      "tolerance": 0.02,
+      "unit": "A",
+      "markScheme": [
+        "1 mark: power output = power input = 60 W",
+        "1 mark: Ip = 60 ÷ 230",
+        "1 mark: Ip = 0.26 A"
+      ],
+      "explanation": "Vp Ip = Vs Is = 60 W, so Ip = 60 ÷ 230 = 0.261 A. The lamp current (5.0 A) is much larger than the mains current."
+    },
+    {
+      "id": "p7-transformers-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A step-up transformer at a power station has an input of 25 kV and 400 A. The output p.d. is 400 kV. Assuming the transformer is 100% efficient, calculate the output current.",
+      "numericAnswer": 25,
+      "tolerance": 0.02,
+      "unit": "A",
+      "markScheme": [
+        "1 mark: Is = Vp Ip ÷ Vs",
+        "1 mark: Is = 25 000 × 400 ÷ 400 000",
+        "1 mark: Is = 25 A"
+      ],
+      "explanation": "The p.d. increases 16 times, so the current falls 16 times: 400 ÷ 16 = 25 A. Using kV on both sides gives the same answer because the units cancel."
+    },
+    {
+      "id": "p7-transformers-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A transformer has 500 turns on the primary and 12 500 turns on the secondary. The primary p.d. is 11 kV. Calculate the secondary p.d. in kV.",
+      "numericAnswer": 275,
+      "tolerance": 0.02,
+      "unit": "kV",
+      "markScheme": [
+        "1 mark: turns ratio ns ÷ np = 25",
+        "1 mark: Vs = 11 × 25",
+        "1 mark: Vs = 275 kV"
+      ],
+      "explanation": "Vs = Vp × ns ÷ np = 11 kV × 12 500 ÷ 500 = 275 kV."
+    },
+    {
+      "id": "p7-transformers-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A phone charger contains a transformer that reduces 230 V to 5.0 V. The secondary coil has 40 turns. Calculate the number of turns on the primary coil.",
+      "numericAnswer": 1840,
+      "tolerance": 0.02,
+      "unit": "turns",
+      "markScheme": [
+        "1 mark: np = ns × Vp ÷ Vs",
+        "1 mark: np = 40 × 230 ÷ 5.0",
+        "1 mark: np = 1840"
+      ],
+      "explanation": "np ÷ ns = Vp ÷ Vs, so np = 40 × 230 ÷ 5.0 = 1840 turns."
+    },
+    {
+      "id": "p7-transformers-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A transmission cable has a resistance of 10 Ω. Calculate how many times smaller the power wasted in the cable is when the current is 25 A instead of 400 A.",
+      "numericAnswer": 256,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: power loss = I²R",
+        "1 mark: 400² × 10 = 1 600 000 W and 25² × 10 = 6250 W",
+        "1 mark: ratio = 256"
+      ],
+      "explanation": "Power loss = I²R. 1 600 000 ÷ 6250 = 256, which is (400 ÷ 25)² = 16². Reducing the current 16 times reduces losses 256 times."
+    },
+    {
+      "id": "p7-transformers-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the names of the two coils in a transformer and what each is connected to.",
+      "acceptedAnswers": [
+        "primary",
+        "secondary",
+        "supply",
+        "output"
+      ],
+      "markScheme": [
+        "1 mark: primary coil, connected to the (a.c.) input supply",
+        "1 mark: secondary coil, connected to the output (load)"
+      ],
+      "explanation": "The input goes into the primary; the output is taken from the secondary."
+    },
+    {
+      "id": "p7-transformers-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Give the reason the core of a transformer is made of iron.",
+      "acceptedAnswers": [
+        "easily magnetised"
+      ],
+      "markScheme": [
+        "1 mark: iron is easily magnetised (and demagnetised)"
+      ],
+      "explanation": "This lets the changing magnetic field pass strongly from one coil to the other."
+    },
+    {
+      "id": "p7-transformers-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain how an alternating current in the primary coil of a transformer produces an alternating p.d. across the secondary coil.",
+      "acceptedAnswers": [
+        "changing magnetic field",
+        "iron core",
+        "induced",
+        "secondary"
+      ],
+      "markScheme": [
+        "1 mark: the alternating current produces a changing (alternating) magnetic field",
+        "1 mark: the iron core carries this changing field through the secondary coil",
+        "1 mark: the changing field induces an alternating p.d. across the secondary coil"
+      ],
+      "explanation": "This is the generator effect: a changing field around a conductor induces a p.d."
+    },
+    {
+      "id": "p7-transformers-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how step-up transformers in the National Grid reduce energy losses.",
+      "acceptedAnswers": [
+        "increase p.d.",
+        "decrease current",
+        "less heating",
+        "I²R"
+      ],
+      "markScheme": [
+        "1 mark: they increase the p.d., so for the same power the current is decreased",
+        "1 mark: a smaller current means less energy is wasted heating the cables (power loss = I²R)"
+      ],
+      "explanation": "Lower current means less heating, so the system is more efficient."
+    },
+    {
+      "id": "p7-transformers-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student says that a step-up transformer is a way of getting more energy out than you put in. Explain why this is wrong.",
+      "acceptedAnswers": [
+        "power in equals power out",
+        "current decreases",
+        "energy conserved"
+      ],
+      "markScheme": [
+        "1 mark: power output cannot be more than power input (energy is conserved); at best Vp Ip = Vs Is",
+        "1 mark: the p.d. increases but the current decreases by the same factor"
+      ],
+      "explanation": "A transformer changes the balance of p.d. and current, not the total power."
+    },
+    {
+      "id": "p7-transformers-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why step-down transformers are needed before electricity reaches homes.",
+      "acceptedAnswers": [
+        "safety",
+        "230 V",
+        "high p.d. dangerous"
+      ],
+      "markScheme": [
+        "1 mark: transmission p.d.s (hundreds of kV) are extremely dangerous",
+        "1 mark: so the p.d. is reduced to a safer 230 V for use in homes (and appliances are designed for 230 V)"
+      ],
+      "explanation": "High p.d. is efficient for transmission but unsafe for domestic use."
+    },
+    {
+      "id": "p7-transformers-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the structure of a basic transformer and explain why it only works with alternating current.",
+      "markScheme": [
+        "Indicative content: primary coil and secondary coil of insulated wire; both wound on the same soft iron core; coils not electrically connected; iron is easily magnetised; a.c. in the primary produces a changing magnetic field in the core; changing field passes through the secondary and induces a p.d.; d.c. produces a steady field which does not change, so no p.d. is induced.",
+        "Level 2 (3 to 4 marks): clear description of the structure with a correct explanation of the need for a.c.",
+        "Level 1 (1 to 2 marks): names parts or states a.c. is needed, with little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The key physics is that only a changing magnetic field induces a p.d."
+    },
+    {
+      "id": "p7-transformers-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how transformers are used in the National Grid to transmit electrical power efficiently. Use calculations to support your answer: a power station delivers 10 MW at 25 kV, and a step-up transformer raises this to 400 kV.",
+      "markScheme": [
+        "Indicative content: power station output: I = P ÷ V = 10 000 000 ÷ 25 000 = 400 A; after step-up to 400 kV, for a 100% efficient transformer, Is = Vp Ip ÷ Vs = 25 000 × 400 ÷ 400 000 = 25 A; power loss in cables = I²R; current reduced by factor 16 so losses reduced by factor 256; less energy wasted heating cables, more efficient; transformer works by a.c. in primary producing changing magnetic field in iron core, inducing p.d. in secondary with more turns; step-down transformers near homes reduce p.d. to 230 V for safety; the turns ratio sets the p.d. ratio.",
+        "Level 3 (5 to 6 marks): coherent explanation linking step-up, reduced current and reduced I²R losses, supported by correct calculations (400 A and 25 A), with step-down for safety.",
+        "Level 2 (3 to 4 marks): explains reduced current giving reduced losses with some calculation or detail.",
+        "Level 1 (1 to 2 marks): simple statements, such as transformers change the voltage.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "I = 10 MW ÷ 25 kV = 400 A, stepped down to 25 A. Losses fall by a factor of 16² = 256."
+    },
+    {
+      "id": "p7-transformers-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links the p.d.s and numbers of turns in a transformer.",
+      "acceptedAnswers": [
+        "Vp/Vs = np/ns"
+      ],
+      "markScheme": [
+        "1 mark: Vp ÷ Vs = np ÷ ns"
+      ],
+      "explanation": "This is given on the equation sheet."
+    }
+  ]
+}

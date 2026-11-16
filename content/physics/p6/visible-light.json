@@ -1,0 +1,686 @@
+{
+  "id": "p6-visible-light",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "visible-light",
+  "specRef": "4.6.2.6",
+  "title": "Visible light",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "Visible light is the part of the EM spectrum our eyes detect; each colour has its own narrow band of wavelength and frequency. Light reflects specularly from smooth surfaces and diffusely from rough ones. The colour of an opaque object depends on which wavelengths it reflects most strongly; colour filters absorb some wavelengths and transmit others.",
+    "explanation": [
+      "Visible light is a small part of the electromagnetic spectrum. White light is a mixture of all the colours of the visible spectrum: red, orange, yellow, green, blue, indigo and violet. Each colour has its own narrow band of wavelength and frequency. Red light has the longest wavelength (about 700 nm) and lowest frequency; violet has the shortest wavelength (about 400 nm) and highest frequency.",
+      "Reflection from a smooth surface, such as a mirror or still water, happens in a single direction. This is called specular reflection: parallel rays stay parallel after reflection, so a clear image is formed. Reflection from a rough surface, such as paper or cloth, causes scattering in many directions. This is called diffuse reflection. Each tiny part of the surface still obeys the law of reflection, but the normals point in different directions, so no clear image forms.",
+      "The colour of an opaque object is determined by which wavelengths of light are more strongly reflected. Wavelengths that are not reflected are absorbed. A red apple in white light reflects red light and absorbs the other colours, so it looks red. If all wavelengths are reflected equally, the object appears white. If all wavelengths are absorbed, the object appears black. In coloured light the appearance can change: a red object in blue light absorbs the blue and reflects nothing, so it looks black.",
+      "Objects that transmit light are either transparent or translucent. Transparent objects, such as clear glass, transmit light without scattering it, so you can see clearly through them. Translucent objects, such as frosted glass or tissue paper, transmit light but scatter it, so you cannot see clearly through them. Opaque objects do not transmit any light.",
+      "Colour filters work by absorbing certain wavelengths (and so colours) and transmitting other wavelengths. A red filter transmits red light and absorbs the other colours of white light. If you look through a red filter at a green object in white light, the green object reflects only green light, which the red filter absorbs, so the object looks black. Explaining colour always comes down to differential absorption, transmission and reflection of different wavelengths."
+    ],
+    "keyFacts": [
+      "Each colour has its own narrow band of wavelength and frequency.",
+      "Red has the longest wavelength of visible light; violet the shortest.",
+      "Specular reflection: from a smooth surface, in a single direction.",
+      "Diffuse reflection: from a rough surface, scattered in many directions.",
+      "Colour of an opaque object depends on which wavelengths are most strongly reflected.",
+      "Wavelengths not reflected are absorbed.",
+      "Reflects all wavelengths equally: white. Absorbs all: black.",
+      "Transparent objects transmit light clearly; translucent objects transmit but scatter it.",
+      "Colour filters absorb certain wavelengths and transmit others."
+    ],
+    "keyTerms": [
+      {
+        "term": "Specular reflection",
+        "definition": "Reflection from a smooth surface in a single direction."
+      },
+      {
+        "term": "Diffuse reflection",
+        "definition": "Reflection from a rough surface that scatters light in many directions."
+      },
+      {
+        "term": "Opaque",
+        "definition": "Does not transmit light; light is reflected or absorbed."
+      },
+      {
+        "term": "Transparent",
+        "definition": "Transmits light without scattering, so objects can be seen clearly through it."
+      },
+      {
+        "term": "Translucent",
+        "definition": "Transmits light but scatters it, so objects cannot be seen clearly through it."
+      },
+      {
+        "term": "Colour filter",
+        "definition": "A transparent material that absorbs certain wavelengths (colours) of light and transmits others."
+      },
+      {
+        "term": "Visible spectrum",
+        "definition": "The range of colours of visible light, from red (longest wavelength) to violet (shortest)."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Object in coloured light",
+        "question": "A white shirt with blue stripes is lit only by red light. Describe and explain its appearance.",
+        "steps": [
+          "The white parts reflect all colours, so they reflect the red light: they look red.",
+          "The blue stripes reflect only blue light and absorb other colours.",
+          "There is no blue light, so the stripes absorb the red light and reflect nothing: they look black."
+        ],
+        "answer": "A red shirt with black stripes."
+      },
+      {
+        "title": "Filters in series",
+        "question": "White light passes through a red filter and then a blue filter. What emerges?",
+        "steps": [
+          "The red filter transmits only red light and absorbs the rest.",
+          "The blue filter transmits only blue light, so it absorbs the red.",
+          "No light is transmitted."
+        ],
+        "answer": "No light emerges; the combination looks black."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Specular and diffuse reflection",
+        "caption": "Parallel rays hitting a smooth mirror are reflected in one direction (specular). On a rough surface the normals point in different directions, so rays are scattered (diffuse).",
+        "svg": "<svg viewBox='0 0 480 200' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='140' x2='190' y2='140' stroke='currentColor' stroke-width='3'/><path d='M250 140 l10 -6 l10 8 l10 -7 l10 9 l10 -8 l10 6 l10 -9 l10 8 l10 -6 l10 7 l10 -8 l10 6 l10 -4' fill='none' stroke='currentColor' stroke-width='3'/><g stroke='currentColor' stroke-width='1.3'><line x1='10' y1='40' x2='60' y2='140'/><line x1='60' y1='140' x2='110' y2='40'/><path d='M35.0 90.0 L27.0 84.0 L35.0 79.9 Z' fill='currentColor'/><path d='M85.0 90.0 L85.0 100.1 L77.0 96.0 Z' fill='currentColor'/><line x1='40' y1='40' x2='90' y2='140'/><line x1='90' y1='140' x2='140' y2='40'/><path d='M65.0 90.0 L57.0 84.0 L65.0 79.9 Z' fill='currentColor'/><path d='M115.0 90.0 L115.0 100.1 L107.0 96.0 Z' fill='currentColor'/><line x1='70' y1='40' x2='120' y2='140'/><line x1='120' y1='140' x2='170' y2='40'/><path d='M95.0 90.0 L87.0 84.0 L95.0 79.9 Z' fill='currentColor'/><path d='M145.0 90.0 L145.0 100.1 L137.0 96.0 Z' fill='currentColor'/><line x1='240' y1='40' x2='290' y2='140'/><line x1='290' y1='140' x2='250' y2='80'/><path d='M265.0 90.0 L257.0 84.0 L265.0 79.9 Z' fill='currentColor'/><path d='M270.0 110.0 L278.7 115.0 L271.2 120.0 Z' fill='currentColor'/><line x1='270' y1='40' x2='320' y2='140'/><line x1='320' y1='140' x2='350' y2='50'/><path d='M295.0 90.0 L287.0 84.0 L295.0 79.9 Z' fill='currentColor'/><path d='M335.0 95.0 L336.4 105.0 L327.9 102.1 Z' fill='currentColor'/><line x1='300' y1='40' x2='350' y2='140'/><line x1='350' y1='140' x2='420' y2='100'/><path d='M325.0 90.0 L317.0 84.0 L325.0 79.9 Z' fill='currentColor'/><path d='M385.0 120.0 L379.4 128.4 L375.0 120.6 Z' fill='currentColor'/></g><g font-size='12' fill='currentColor'><text x='20' y='166'>smooth surface (mirror)</text><text x='20' y='182'>specular reflection:</text><text x='20' y='196'>reflected in one direction</text><text x='250' y='166'>rough surface (paper)</text><text x='250' y='182'>diffuse reflection:</text><text x='250' y='196'>scattered in many directions</text></g></svg>"
+      },
+      {
+        "title": "Colour filters and coloured objects",
+        "caption": "Left: a red filter transmits red light and absorbs the other colours of white light. Right: an opaque red object reflects red light and absorbs the other wavelengths.",
+        "svg": "<svg viewBox='0 0 480 220' xmlns='http://www.w3.org/2000/svg'><g stroke-width='3'><line x1='20' y1='60' x2='130' y2='60' stroke='#fca5a5'/><line x1='20' y1='70' x2='130' y2='70' stroke='#86efac'/><line x1='20' y1='80' x2='130' y2='80' stroke='#93c5fd'/><line x1='150' y1='70' x2='240' y2='70' stroke='#fca5a5'/></g><rect x='130' y='40' width='20' height='60' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><path d='M248.0 70.0 L239.0 74.5 L239.0 65.5 Z' fill='currentColor'/><g stroke-width='3'><line x1='280' y1='130' x2='330' y2='175' stroke='#fca5a5'/><line x1='290' y1='122' x2='340' y2='167' stroke='#86efac'/><line x1='300' y1='114' x2='350' y2='159' stroke='#93c5fd'/><line x1='345' y1='175' x2='395' y2='130' stroke='#fca5a5'/></g><rect x='310' y='175' width='90' height='30' fill='#fca5a5' fill-opacity='0.5' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='20' y='30'>white light</text><text x='112' y='120'>red filter</text><text x='170' y='56'>only red</text><text x='170' y='96'>transmitted</text><text x='20' y='150'>Filter: transmits red,</text><text x='20' y='166'>absorbs other colours</text><text x='230' y='110'>white light</text><text x='400' y='126'>red reflected</text><text x='318' y='195'>red object</text><text x='240' y='218'>Opaque red object: reflects red, absorbs the rest</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a red filter turns white light red by adding colour.",
+        "right": "In fact the filter absorbs the other colours and transmits only the red that was already in the white light."
+      },
+      {
+        "wrong": "Students often think a red object always looks red.",
+        "right": "In fact a red object only looks red if red light falls on it. In blue light it absorbs all the light and looks black."
+      },
+      {
+        "wrong": "Students often think rough surfaces break the law of reflection.",
+        "right": "In fact every point obeys i = r; the normals point in different directions, causing diffuse reflection."
+      },
+      {
+        "wrong": "Students often confuse translucent with transparent.",
+        "right": "In fact both transmit light, but translucent materials scatter it so you cannot see clearly through them."
+      }
+    ],
+    "realWorld": [
+      "Stage lighting uses colour filters (gels) to change the appearance of costumes and sets.",
+      "Matt paper and screens use diffuse reflection to reduce glare, while mirrors use specular reflection.",
+      "Frosted glass in bathroom windows is translucent: it lets light in but stops people seeing through."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "This whole subtopic (colour, specular and diffuse reflection, filters, transparent and translucent) is in separate Physics only."
+    ],
+    "examTips": [
+      "When explaining colour, use the words reflect, absorb and transmit, and say which wavelengths (colours) are involved.",
+      "For an object in coloured light, ask: is that colour reflected by the object? If not, it looks black.",
+      "Name the reflection types precisely: specular (smooth, single direction) and diffuse (rough, scattered).",
+      "Remember that a filter can only transmit colours that are already in the light falling on it."
+    ],
+    "summary": [
+      "Each colour has its own narrow band of wavelengths and frequencies.",
+      "Specular reflection from smooth surfaces; diffuse from rough surfaces.",
+      "Opaque objects' colour depends on wavelengths reflected; others are absorbed.",
+      "White reflects all wavelengths; black absorbs all.",
+      "Transparent and translucent objects transmit light.",
+      "Colour filters absorb some wavelengths and transmit others."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is specular reflection?",
+      "back": "Reflection from a smooth surface in a single direction."
+    },
+    {
+      "front": "What is diffuse reflection?",
+      "back": "Reflection from a rough surface, scattering light in many directions."
+    },
+    {
+      "front": "What determines the colour of an opaque object?",
+      "back": "Which wavelengths of light it reflects most strongly."
+    },
+    {
+      "front": "What happens to wavelengths that are not reflected by an opaque object?",
+      "back": "They are absorbed."
+    },
+    {
+      "front": "Why does a white object look white?",
+      "back": "It reflects all wavelengths of visible light equally."
+    },
+    {
+      "front": "Why does a black object look black?",
+      "back": "It absorbs all wavelengths of visible light."
+    },
+    {
+      "front": "How does a colour filter work?",
+      "back": "It absorbs certain wavelengths (colours) and transmits others."
+    },
+    {
+      "front": "Transparent vs translucent?",
+      "back": "Both transmit light; translucent materials scatter it, transparent ones do not."
+    },
+    {
+      "front": "Which visible colour has the longest wavelength?",
+      "back": "Red."
+    },
+    {
+      "front": "Which visible colour has the highest frequency?",
+      "back": "Violet."
+    },
+    {
+      "front": "A green leaf in red light looks...",
+      "back": "Black (it absorbs red and there is no green light to reflect)."
+    },
+    {
+      "front": "White light through a green filter gives...",
+      "back": "Green light only."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-visible-light-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of reflection happens at a smooth mirror?",
+      "options": [
+        "Diffuse reflection",
+        "Scattering",
+        "Specular reflection",
+        "Absorption"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Specular reflection"
+      ],
+      "explanation": "Smooth surfaces reflect light in a single direction: specular reflection."
+    },
+    {
+      "id": "p6-visible-light-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Why does a white object appear white in white light?",
+      "options": [
+        "It reflects all wavelengths of visible light equally",
+        "It absorbs all wavelengths of visible light",
+        "It transmits all wavelengths of visible light",
+        "It emits white light"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It reflects all wavelengths of visible light equally"
+      ],
+      "explanation": "An object appears white when all wavelengths are reflected equally."
+    },
+    {
+      "id": "p6-visible-light-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What does a blue filter do to white light?",
+      "options": [
+        "Adds blue to the white light",
+        "Reflects blue light and transmits other colours",
+        "Absorbs blue light and transmits other colours",
+        "Transmits blue light and absorbs other colours"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Transmits blue light and absorbs other colours"
+      ],
+      "explanation": "A filter transmits its own colour and absorbs the other wavelengths."
+    },
+    {
+      "id": "p6-visible-light-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which colour of visible light has the longest wavelength?",
+      "options": [
+        "Violet",
+        "Red",
+        "Green",
+        "Blue"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Red"
+      ],
+      "explanation": "Red has the longest wavelength and lowest frequency of visible light; violet the shortest."
+    },
+    {
+      "id": "p6-visible-light-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A green apple is viewed in white light. Which statement is correct?",
+      "options": [
+        "It absorbs green light and reflects the other colours",
+        "It reflects green light and absorbs the other colours",
+        "It transmits green light only",
+        "It reflects all colours equally"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It reflects green light and absorbs the other colours"
+      ],
+      "explanation": "The colour of an opaque object is the colour of light it reflects most strongly; the rest is absorbed."
+    },
+    {
+      "id": "p6-visible-light-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A red car is lit only by blue light. What colour does it appear?",
+      "options": [
+        "Red",
+        "Blue",
+        "Purple",
+        "Black"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Black"
+      ],
+      "explanation": "The red paint reflects only red light. In blue light there is no red to reflect, so the blue is absorbed and the car looks black."
+    },
+    {
+      "id": "p6-visible-light-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the difference between transparent and translucent materials?",
+      "options": [
+        "Both transmit light, but translucent materials scatter it",
+        "Transparent materials absorb all light; translucent materials reflect it",
+        "Translucent materials do not transmit any light",
+        "Transparent materials scatter light; translucent ones do not"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Both transmit light, but translucent materials scatter it"
+      ],
+      "explanation": "Transparent objects transmit light without scattering; translucent objects transmit but scatter, so images are blurred."
+    },
+    {
+      "id": "p6-visible-light-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "White light passes through a yellow filter and then a blue filter. Assuming the yellow filter transmits only yellow light, what emerges?",
+      "options": [
+        "Blue light",
+        "Yellow light",
+        "No light",
+        "Green light"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: No light"
+      ],
+      "explanation": "The yellow filter absorbs all but yellow. The blue filter absorbs yellow, so no light gets through."
+    },
+    {
+      "id": "p6-visible-light-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why does a sheet of paper not act as a mirror, even though it reflects most of the light falling on it?",
+      "options": [
+        "It absorbs all the light",
+        "It transmits most of the light",
+        "It only reflects white light",
+        "Its rough surface causes diffuse reflection, scattering the light"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Its rough surface causes diffuse reflection, scattering the light"
+      ],
+      "explanation": "Paper is rough on a small scale, so light is reflected in many directions and no image forms."
+    },
+    {
+      "id": "p6-visible-light-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about the colours of visible light is correct?",
+      "options": [
+        "All colours have the same wavelength but different speeds",
+        "Each colour has a single exact wavelength",
+        "Each colour has its own narrow band of wavelength and frequency",
+        "Colours differ only in amplitude"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Each colour has its own narrow band of wavelength and frequency"
+      ],
+      "explanation": "Each colour covers a narrow range (band) of wavelengths and frequencies; all travel at the same speed in a vacuum."
+    },
+    {
+      "id": "p6-visible-light-q11",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the type of reflection that happens from a rough surface.",
+      "acceptedAnswers": [
+        "diffuse"
+      ],
+      "markScheme": [
+        "1 mark: diffuse reflection (scattering)"
+      ],
+      "explanation": "Rough surfaces scatter light in many directions."
+    },
+    {
+      "id": "p6-visible-light-q12",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State why a black object appears black.",
+      "acceptedAnswers": [
+        "absorbs all wavelengths",
+        "absorbs all colours"
+      ],
+      "markScheme": [
+        "1 mark: it absorbs all wavelengths / colours of light (reflects none)"
+      ],
+      "explanation": "No light is reflected to your eye, so it looks black."
+    },
+    {
+      "id": "p6-visible-light-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a red rose looks red in white light.",
+      "acceptedAnswers": [
+        "reflects red",
+        "absorbs other wavelengths"
+      ],
+      "markScheme": [
+        "1 mark: the petals reflect red light (wavelengths)",
+        "1 mark: and absorb the other colours / wavelengths"
+      ],
+      "explanation": "Opaque colour depends on which wavelengths are reflected most strongly."
+    },
+    {
+      "id": "p6-visible-light-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the difference between specular and diffuse reflection.",
+      "acceptedAnswers": [
+        "specular smooth surface single direction",
+        "diffuse rough surface scattered"
+      ],
+      "markScheme": [
+        "1 mark: specular reflection is from a smooth surface, in a single direction",
+        "1 mark: diffuse reflection is from a rough surface, scattered in many directions"
+      ],
+      "explanation": "Both obey the law of reflection at each point."
+    },
+    {
+      "id": "p6-visible-light-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a green filter makes white light appear green.",
+      "acceptedAnswers": [
+        "absorbs other colours",
+        "transmits green"
+      ],
+      "markScheme": [
+        "1 mark: the filter transmits green wavelengths",
+        "1 mark: and absorbs the other wavelengths / colours"
+      ],
+      "explanation": "Filters remove colours by absorption; they do not add colour."
+    },
+    {
+      "id": "p6-visible-light-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A football kit has a white shirt and blue shorts. Describe and explain how it looks under green light.",
+      "acceptedAnswers": [
+        "shirt green",
+        "shorts black",
+        "white reflects all",
+        "blue absorbs green"
+      ],
+      "markScheme": [
+        "1 mark: shirt looks green because white reflects all colours, including green",
+        "1 mark: shorts look black",
+        "1 mark: because blue shorts only reflect blue; the green light is absorbed"
+      ],
+      "explanation": "Under coloured light, objects can only reflect colours present in the light."
+    },
+    {
+      "id": "p6-visible-light-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why frosted glass is used in bathroom windows rather than clear glass.",
+      "acceptedAnswers": [
+        "translucent",
+        "scatters light",
+        "lets light in",
+        "cannot see through"
+      ],
+      "markScheme": [
+        "1 mark: frosted glass is translucent: it transmits light so the room is lit",
+        "1 mark: but scatters the light, so people cannot see clearly through it (privacy)"
+      ],
+      "explanation": "Translucent materials let light through without giving a clear image."
+    },
+    {
+      "id": "p6-visible-light-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "State what is meant by an opaque object.",
+      "acceptedAnswers": [
+        "does not transmit light"
+      ],
+      "markScheme": [
+        "1 mark: an object that does not transmit light (it reflects or absorbs it)"
+      ],
+      "explanation": "Opaque objects block light; their colour comes from reflected wavelengths."
+    },
+    {
+      "id": "p6-visible-light-q19",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain why a mirror forms a clear image but a white painted wall does not, even though both reflect most of the light that hits them.",
+      "markScheme": [
+        "Indicative content:",
+        "both reflect most visible light (white wall reflects all wavelengths equally)",
+        "mirror is smooth: specular reflection in a single direction",
+        "parallel rays stay parallel so a clear image forms",
+        "wall is rough: diffuse reflection",
+        "normals point in many directions, so light is scattered",
+        "law of reflection obeyed at every point on both",
+        "Level 2 (3 to 4 marks): explains both using specular and diffuse reflection with surface smoothness.",
+        "Level 1 (1 to 2 marks): simple statement that one is smooth and one is rough."
+      ],
+      "explanation": "The difference is the smoothness of the surface, not the amount of light reflected."
+    },
+    {
+      "id": "p6-visible-light-q20",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how the colour of objects and of light is affected by absorption, transmission and reflection of different wavelengths. Use examples of opaque objects, transparent or translucent objects, and colour filters.",
+      "markScheme": [
+        "Indicative content:",
+        "white light is a mixture of colours; each colour has a narrow band of wavelengths",
+        "opaque objects: colour depends on wavelengths most strongly reflected; others absorbed",
+        "white: all wavelengths reflected equally; black: all absorbed",
+        "example: red object reflects red, absorbs others; in blue light it looks black",
+        "transparent objects transmit light without scattering; translucent transmit but scatter",
+        "coloured transparent objects transmit only some wavelengths",
+        "colour filters absorb certain wavelengths and transmit others; e.g. red filter transmits red",
+        "filters in series can absorb all light",
+        "Level 3 (5 to 6 marks): detailed, linked explanation covering opaque objects, transmission and filters with correct examples.",
+        "Level 2 (3 to 4 marks): explains some colour effects with examples, limited on one area.",
+        "Level 1 (1 to 2 marks): simple statements about colour."
+      ],
+      "explanation": "Every colour effect is explained by which wavelengths are reflected, absorbed or transmitted."
+    },
+    {
+      "id": "p6-visible-light-q21",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which word describes a material that transmits light but scatters it, such as tissue paper?",
+      "options": [
+        "Transparent",
+        "Translucent",
+        "Opaque",
+        "Reflective"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Translucent"
+      ],
+      "explanation": "Translucent materials let light through but scatter it."
+    },
+    {
+      "id": "p6-visible-light-q22",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A white sheet of paper is viewed through a red filter in white light. What colour does it appear?",
+      "options": [
+        "Red",
+        "White",
+        "Black",
+        "Pink"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Red"
+      ],
+      "explanation": "The paper reflects all colours; the filter transmits only red, so the paper looks red."
+    },
+    {
+      "id": "p6-visible-light-q23",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A blue book is viewed through a red filter in white light. What colour does it appear?",
+      "options": [
+        "Blue",
+        "Red",
+        "Black",
+        "Purple"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Black"
+      ],
+      "explanation": "The book reflects only blue light. The red filter absorbs blue, so no light reaches the eye: the book looks black."
+    },
+    {
+      "id": "p6-visible-light-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State which colour of visible light has the highest frequency.",
+      "acceptedAnswers": [
+        "violet"
+      ],
+      "markScheme": [
+        "1 mark: violet"
+      ],
+      "explanation": "Violet has the shortest wavelength and highest frequency of visible light."
+    },
+    {
+      "id": "p6-visible-light-q25",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a lake on a calm day reflects a clear image of mountains, but on a windy day it does not.",
+      "acceptedAnswers": [
+        "calm smooth surface specular",
+        "windy rough surface diffuse",
+        "scattered"
+      ],
+      "markScheme": [
+        "1 mark: calm water is smooth, giving specular reflection in a single direction",
+        "1 mark: windy water is rough, giving diffuse reflection / scattering, so no clear image"
+      ],
+      "explanation": "The smoothness of the surface decides the type of reflection."
+    },
+    {
+      "id": "p6-visible-light-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A shop uses blue lighting. Explain why a customer might choose the wrong colour of T-shirt.",
+      "acceptedAnswers": [
+        "colours look different",
+        "objects can only reflect blue",
+        "red looks black",
+        "only blue light available"
+      ],
+      "markScheme": [
+        "1 mark: under blue light, objects can only reflect blue light (if they reflect it at all)",
+        "1 mark: so, e.g., red and black T-shirts both look black, and white and blue both look blue"
+      ],
+      "explanation": "Colour appearance depends on the wavelengths in the light falling on the object."
+    },
+    {
+      "id": "p6-visible-light-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A stage designer shines white light through a green filter onto a performer wearing a white top, red trousers and a green hat. Describe and explain how each item appears.",
+      "markScheme": [
+        "Indicative content:",
+        "green filter transmits green light and absorbs other colours, so only green light reaches the stage",
+        "white top reflects all colours, so reflects the green: appears green",
+        "red trousers reflect only red; green is absorbed: appear black",
+        "green hat reflects green: appears green",
+        "Level 2 (3 to 4 marks): correct appearance of all three items with explanation using the filter and reflection/absorption.",
+        "Level 1 (1 to 2 marks): some correct appearances with little explanation."
+      ],
+      "explanation": "First work out what light the filter transmits, then what each object reflects."
+    }
+  ]
+}
