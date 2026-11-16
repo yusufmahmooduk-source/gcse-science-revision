@@ -3,7 +3,7 @@ import { useState } from "react";
 import type { Question } from "@/lib/types";
 import { markNumeric, suggestShort, formatNumber } from "@/lib/marking";
 import { recordAttempt, toggleBookmark, useStore, latest } from "@/lib/store";
-import ExamQuestion from "./ExamQuestion";
+import ExamQuestion, { isMoney } from "./ExamQuestion";
 import { Badge, Button, Text } from "./ui";
 
 const DIFF = { 1: "Grade 1 to 3", 2: "Grade 4 to 6", 3: "Grade 7 to 9" } as const;
@@ -20,7 +20,7 @@ export function MarkScheme({ q }: { q: Question }) {
         <p>
           <span className="font-semibold">Answer: </span>
           {q.answerLabel ? `${q.answerLabel} = ` : ""}
-          {formatNumber(q.numericAnswer)} {q.unit}
+          {isMoney(q.unit) ? `${q.unit}${formatNumber(q.numericAnswer)}` : `${formatNumber(q.numericAnswer)} ${q.unit ?? ""}`}
         </p>
       )}
       <div>

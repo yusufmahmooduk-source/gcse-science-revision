@@ -294,7 +294,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "When one molecule of methane, CH₄, burns completely, how many C–H bonds are broken?",
+      "question": "Methane burns completely in oxygen.\nFigure 1 shows the reaction using displayed formulae.\nHow many C–H bonds are broken when one molecule of methane burns?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 430 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"60\" x2=\"50\" y2=\"42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"80\" x2=\"50\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"70\" x2=\"24\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"70\" x2=\"76\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"50\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"50\" y=\"37\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"50\" y=\"113\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"14\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"86\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"110\" y=\"75\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"145\" y1=\"42.5\" x2=\"163\" y2=\"42.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"47.5\" x2=\"163\" y2=\"47.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"135\" y=\"50\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"173\" y=\"50\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"145\" y1=\"92.5\" x2=\"163\" y2=\"92.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"97.5\" x2=\"163\" y2=\"97.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"135\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"173\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"190\" y1=\"70\" x2=\"224\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"224,70 218,66.3 218,73.8\" fill=\"currentColor\"/><line x1=\"255\" y1=\"67.5\" x2=\"270\" y2=\"67.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"72.5\" x2=\"270\" y2=\"72.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"67.5\" x2=\"305\" y2=\"67.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"72.5\" x2=\"305\" y2=\"72.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"280\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"315\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"340\" y=\"75\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"382.6\" y1=\"41.8\" x2=\"373.4\" y2=\"50.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"397.4\" y1=\"41.8\" x2=\"406.6\" y2=\"50.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"390\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"366\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"414\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"382.6\" y1=\"101.8\" x2=\"373.4\" y2=\"110.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"397.4\" y1=\"101.8\" x2=\"406.6\" y2=\"110.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"390\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"366\" y=\"122\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"414\" y=\"122\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
       "options": [
         "1",
         "2",
@@ -332,7 +335,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "In a reaction, the energy needed to break all the bonds in the reactants is 1500 kJ/mol and the energy released forming all the bonds in the products is 1200 kJ/mol. Which statement is correct?",
+      "question": "Table 1 shows the energy changes for a reaction.\nWhich statement is correct?",
+      "table": {
+        "headers": [
+          "Energy change",
+          "Energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "Energy needed to break all the bonds in the reactants",
+            "1500"
+          ],
+          [
+            "Energy released forming all the bonds in the products",
+            "1200"
+          ]
+        ]
+      },
       "options": [
         "The reaction is exothermic and the overall energy change is −300 kJ/mol",
         "The reaction is exothermic and the overall energy change is −2700 kJ/mol",
@@ -389,14 +408,31 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "In a reaction, the energy needed to break bonds in the reactants is 1200 kJ/mol and the energy released forming bonds in the products is 1450 kJ/mol. Calculate the overall energy change.",
+      "question": "Table 1 shows the energy changes for a reaction.\nCalculate the overall energy change for the reaction.",
+      "table": {
+        "headers": [
+          "Energy change",
+          "Energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "Energy needed to break bonds in the reactants",
+            "1200"
+          ],
+          [
+            "Energy released forming bonds in the products",
+            "1450"
+          ]
+        ]
+      },
       "numericAnswer": -250,
       "tolerance": 0.01,
       "unit": "kJ/mol",
       "markScheme": [
         "1 mark: 1200 − 1450 = −250 kJ/mol"
       ],
-      "explanation": "Overall energy change = bonds broken − bonds formed = 1200 − 1450 = −250 kJ/mol. The negative sign shows it is exothermic."
+      "explanation": "Overall energy change = bonds broken − bonds formed = 1200 − 1450 = −250 kJ/mol. The negative sign shows it is exothermic.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q12",
@@ -404,14 +440,31 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "When ethene reacts with bromine, the energy needed to break bonds is 805 kJ/mol and the energy released forming bonds is 917 kJ/mol. Calculate the overall energy change.",
+      "question": "Ethene reacts with bromine.\nTable 1 shows the energy changes for the reaction.\nCalculate the overall energy change for the reaction.",
+      "table": {
+        "headers": [
+          "Energy change",
+          "Energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "Energy needed to break bonds in the reactants",
+            "805"
+          ],
+          [
+            "Energy released forming bonds in the products",
+            "917"
+          ]
+        ]
+      },
       "numericAnswer": -112,
       "tolerance": 0.01,
       "unit": "kJ/mol",
       "markScheme": [
         "1 mark: 805 − 917 = −112 kJ/mol"
       ],
-      "explanation": "805 − 917 = −112 kJ/mol. More energy is released than taken in, so the reaction is exothermic."
+      "explanation": "805 − 917 = −112 kJ/mol. More energy is released than taken in, so the reaction is exothermic.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q13",
@@ -419,7 +472,30 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 3,
-      "question": "Hydrogen reacts with chlorine: H₂ + Cl₂ → 2HCl\nBond energies (kJ/mol): H–H 436, Cl–Cl 243, H–Cl 432.\nCalculate the overall energy change.",
+      "question": "Hydrogen reacts with chlorine to produce hydrogen chloride.\nFigure 1 shows the reaction using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 110\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"50\" x2=\"46\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"56\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"90\" y=\"55\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"125\" y1=\"50\" x2=\"149\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Cl</text><text x=\"159\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Cl</text><line x1=\"185\" y1=\"50\" x2=\"219\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"219,50 213,46.3 213,53.8\" fill=\"currentColor\"/><line x1=\"255\" y1=\"25\" x2=\"275\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"30\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"285\" y=\"30\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Cl</text><line x1=\"255\" y1=\"75\" x2=\"275\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"80\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"285\" y=\"80\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Cl</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "Cl–Cl",
+            "243"
+          ],
+          [
+            "H–Cl",
+            "432"
+          ]
+        ]
+      },
       "numericAnswer": -185,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -428,7 +504,8 @@
         "1 mark: bonds formed = 2 × 432 = 864",
         "1 mark: 679 − 864 = −185 kJ/mol"
       ],
-      "explanation": "Two molecules of HCl form, so two H–Cl bonds are made. 679 − 864 = −185 kJ/mol. Using only one H–Cl bond gives the wrong answer of +247 kJ/mol."
+      "explanation": "Two molecules of HCl form, so two H–Cl bonds are made. 679 − 864 = −185 kJ/mol. Using only one H–Cl bond gives the wrong answer of +247 kJ/mol.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q14",
@@ -436,7 +513,30 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 3,
-      "question": "Hydrogen reacts with bromine: H₂ + Br₂ → 2HBr\nBond energies (kJ/mol): H–H 436, Br–Br 193, H–Br 366.\nCalculate the overall energy change.",
+      "question": "Hydrogen reacts with bromine to produce hydrogen bromide.\nFigure 1 shows the reaction using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 110\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"50\" x2=\"46\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"56\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"90\" y=\"55\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"125\" y1=\"50\" x2=\"149\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Br</text><text x=\"159\" y=\"55\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Br</text><line x1=\"185\" y1=\"50\" x2=\"219\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"219,50 213,46.3 213,53.8\" fill=\"currentColor\"/><line x1=\"255\" y1=\"25\" x2=\"275\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"30\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"285\" y=\"30\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Br</text><line x1=\"255\" y1=\"75\" x2=\"275\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"80\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"285\" y=\"80\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Br</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "Br–Br",
+            "193"
+          ],
+          [
+            "H–Br",
+            "366"
+          ]
+        ]
+      },
       "numericAnswer": -103,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -445,7 +545,8 @@
         "1 mark: bonds formed = 2 × 366 = 732",
         "1 mark: 629 − 732 = −103 kJ/mol"
       ],
-      "explanation": "Energy in = 629 kJ/mol, energy out = 732 kJ/mol, so the overall energy change is −103 kJ/mol (exothermic)."
+      "explanation": "Energy in = 629 kJ/mol, energy out = 732 kJ/mol, so the overall energy change is −103 kJ/mol (exothermic).",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q15",
@@ -453,7 +554,30 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 3,
-      "question": "Ammonia is made in the Haber process: N₂ + 3H₂ → 2NH₃\nBond energies (kJ/mol): N≡N 945, H–H 436, N–H 391.\nCalculate the overall energy change.",
+      "question": "Ammonia is made in the Haber process.\nFigure 1 shows the reaction using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"56\" x2=\"50\" y2=\"56\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"60\" x2=\"50\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"64\" x2=\"50\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"65\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">N</text><text x=\"60\" y=\"65\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">N</text><text x=\"90\" y=\"65\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"125\" y1=\"20\" x2=\"141\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"25\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"151\" y=\"25\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"125\" y1=\"60\" x2=\"141\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"65\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"151\" y=\"65\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"125\" y1=\"100\" x2=\"141\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"105\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"151\" y=\"105\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"175\" y1=\"60\" x2=\"209\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"209,60 203,56.3 203,63.8\" fill=\"currentColor\"/><line x1=\"260\" y1=\"20\" x2=\"246\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"20\" x2=\"294\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"30\" x2=\"270\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"270\" y=\"25\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">N</text><text x=\"236\" y=\"25\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"304\" y=\"25\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"270\" y=\"59\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"260\" y1=\"90\" x2=\"246\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"90\" x2=\"294\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"100\" x2=\"270\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"270\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">N</text><text x=\"236\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"304\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"270\" y=\"129\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "N≡N",
+            "945"
+          ],
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "N–H",
+            "391"
+          ]
+        ]
+      },
       "numericAnswer": -93,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -462,7 +586,8 @@
         "1 mark: bonds formed = 6 × 391 = 2346",
         "1 mark: 2253 − 2346 = −93 kJ/mol"
       ],
-      "explanation": "Each NH₃ has three N–H bonds and two NH₃ form, so six N–H bonds are made. 2253 − 2346 = −93 kJ/mol."
+      "explanation": "Each NH₃ has three N–H bonds and two NH₃ form, so six N–H bonds are made. 2253 − 2346 = −93 kJ/mol.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q16",
@@ -470,7 +595,27 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Hydrogen chloride decomposes: 2HCl → H₂ + Cl₂\nBond energies (kJ/mol): H–Cl 432, H–H 436, Cl–Cl 243.\nCalculate the overall energy change.",
+      "question": "Hydrogen chloride decomposes to form hydrogen and chlorine:\n2HCl → H₂ + Cl₂\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–Cl",
+            "432"
+          ],
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "Cl–Cl",
+            "243"
+          ]
+        ]
+      },
       "numericAnswer": 185,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -478,7 +623,8 @@
         "1 mark: broken 2 × 432 = 864; formed 436 + 243 = 679",
         "1 mark: 864 − 679 = +185 kJ/mol"
       ],
-      "explanation": "This is the reverse of the formation of HCl, so the overall energy change has the same size but opposite sign: +185 kJ/mol (endothermic)."
+      "explanation": "This is the reverse of the formation of HCl, so the overall energy change has the same size but opposite sign: +185 kJ/mol (endothermic).",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q17",
@@ -486,7 +632,34 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Methane burns: CH₄ + 2O₂ → CO₂ + 2H₂O\nBond energies (kJ/mol): C–H 413, O=O 498, C=O 805, O–H 464.\nCalculate the overall energy change.",
+      "question": "Figure 1 shows the complete combustion of methane using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 430 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"60\" x2=\"50\" y2=\"42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"80\" x2=\"50\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"70\" x2=\"24\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"70\" x2=\"76\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"50\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"50\" y=\"37\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"50\" y=\"113\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"14\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"86\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"110\" y=\"75\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"145\" y1=\"42.5\" x2=\"163\" y2=\"42.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"47.5\" x2=\"163\" y2=\"47.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"135\" y=\"50\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"173\" y=\"50\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"145\" y1=\"92.5\" x2=\"163\" y2=\"92.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"97.5\" x2=\"163\" y2=\"97.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"135\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"173\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"190\" y1=\"70\" x2=\"224\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"224,70 218,66.3 218,73.8\" fill=\"currentColor\"/><line x1=\"255\" y1=\"67.5\" x2=\"270\" y2=\"67.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"72.5\" x2=\"270\" y2=\"72.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"67.5\" x2=\"305\" y2=\"67.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"72.5\" x2=\"305\" y2=\"72.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"280\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"315\" y=\"75\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"340\" y=\"75\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"382.6\" y1=\"41.8\" x2=\"373.4\" y2=\"50.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"397.4\" y1=\"41.8\" x2=\"406.6\" y2=\"50.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"390\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"366\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"414\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"382.6\" y1=\"101.8\" x2=\"373.4\" y2=\"110.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"397.4\" y1=\"101.8\" x2=\"406.6\" y2=\"110.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"390\" y=\"100\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"366\" y=\"122\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"414\" y=\"122\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "C–H",
+            "413"
+          ],
+          [
+            "O=O",
+            "498"
+          ],
+          [
+            "C=O",
+            "805"
+          ],
+          [
+            "O–H",
+            "464"
+          ]
+        ]
+      },
       "numericAnswer": -818,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -495,7 +668,8 @@
         "1 mark: bonds formed = (2 × 805) + (4 × 464) = 3466",
         "1 mark: 2648 − 3466 = −818 kJ/mol"
       ],
-      "explanation": "Bonds broken: 1652 + 996 = 2648 kJ/mol. Bonds formed: 1610 + 1856 = 3466 kJ/mol. Overall: −818 kJ/mol."
+      "explanation": "Bonds broken: 1652 + 996 = 2648 kJ/mol. Bonds formed: 1610 + 1856 = 3466 kJ/mol. Overall: −818 kJ/mol.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q18",
@@ -503,7 +677,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "For the reaction H₂ + Cl₂ → 2HCl, the overall energy change is −185 kJ/mol.\nBond energies (kJ/mol): H–H 436, Cl–Cl 243.\nCalculate the bond energy of the H–Cl bond.",
+      "question": "Hydrogen reacts with chlorine:\nH₂ + Cl₂ → 2HCl\nThe overall energy change for the reaction is −185 kJ/mol.\nTable 1 shows some bond energies.\nCalculate the bond energy of the H–Cl bond.",
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "Cl–Cl",
+            "243"
+          ],
+          [
+            "H–Cl",
+            "X"
+          ]
+        ]
+      },
       "numericAnswer": 432,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -512,7 +706,8 @@
         "1 mark: 2x = 679 + 185 = 864",
         "1 mark: x = 432 kJ/mol"
       ],
-      "explanation": "Rearrange bonds broken − bonds formed = overall change. 2 × (H–Cl) = 679 + 185 = 864, so H–Cl = 432 kJ/mol."
+      "explanation": "Rearrange bonds broken − bonds formed = overall change. 2 × (H–Cl) = 679 + 185 = 864, so H–Cl = 432 kJ/mol.",
+      "answerLabel": "Bond energy of H–Cl"
     },
     {
       "id": "c5-bond-energies-q19",
@@ -520,7 +715,34 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Ethene reacts with hydrogen to form ethane: C₂H₄ + H₂ → C₂H₆\nBond energies (kJ/mol): C=C 612, C–C 347, C–H 413, H–H 436.\nCalculate the overall energy change.",
+      "question": "Ethene reacts with hydrogen to produce ethane.\nFigure 1 shows the reaction using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 430 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"62.5\" x2=\"65\" y2=\"62.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"67.5\" x2=\"65\" y2=\"67.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"27.7\" y1=\"58.2\" x2=\"16.3\" y2=\"47.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"27.7\" y1=\"71.8\" x2=\"16.3\" y2=\"82.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"82.3\" y1=\"58.2\" x2=\"93.7\" y2=\"47.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"82.3\" y1=\"71.8\" x2=\"93.7\" y2=\"82.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"35\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"75\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"9\" y=\"46\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"9\" y=\"94\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"101\" y=\"46\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"101\" y=\"94\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"130\" y=\"70\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"160\" y1=\"65\" x2=\"176\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"150\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"186\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"205\" y1=\"65\" x2=\"239\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"239,65 233,61.3 233,68.8\" fill=\"currentColor\"/><line x1=\"300\" y1=\"65\" x2=\"320\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"65\" x2=\"266\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"55\" x2=\"290\" y2=\"41\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"75\" x2=\"290\" y2=\"89\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"65\" x2=\"354\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"55\" x2=\"330\" y2=\"41\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"75\" x2=\"330\" y2=\"89\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"290\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"330\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"256\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"290\" y=\"36\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"290\" y=\"104\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"364\" y=\"70\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"330\" y=\"36\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"330\" y=\"104\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "C=C",
+            "612"
+          ],
+          [
+            "C–C",
+            "347"
+          ],
+          [
+            "C–H",
+            "413"
+          ],
+          [
+            "H–H",
+            "436"
+          ]
+        ]
+      },
       "numericAnswer": -125,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -529,7 +751,8 @@
         "1 mark: bonds formed = 347 + (6 × 413) = 2825",
         "1 mark: 2700 − 2825 = −125 kJ/mol"
       ],
-      "explanation": "Ethene has one C=C and four C–H bonds; ethane has one C–C and six C–H bonds. 2700 − 2825 = −125 kJ/mol. (The four C–H bonds that are unchanged cancel out, so 1048 − 1173 gives the same answer.)"
+      "explanation": "Ethene has one C=C and four C–H bonds; ethane has one C–C and six C–H bonds. 2700 − 2825 = −125 kJ/mol. (The four C–H bonds that are unchanged cancel out, so 1048 − 1173 gives the same answer.)",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q20",
@@ -537,7 +760,30 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Hydrogen peroxide decomposes: 2H₂O₂ → 2H₂O + O₂\nThe displayed formula of hydrogen peroxide is H–O–O–H.\nBond energies (kJ/mol): O–H 464, O–O 146, O=O 498.\nCalculate the overall energy change.",
+      "question": "Hydrogen peroxide decomposes to produce water and oxygen.\nFigure 1 shows the reaction using displayed formulae.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 430 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"25\" y1=\"35\" x2=\"39\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"59\" y1=\"35\" x2=\"75\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"95\" y1=\"35\" x2=\"109\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"15\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"49\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"85\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"119\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"25\" y1=\"90\" x2=\"39\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"59\" y1=\"90\" x2=\"75\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"95\" y1=\"90\" x2=\"109\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"15\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"49\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"85\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"119\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"140\" y1=\"62\" x2=\"174\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"174,62 168,58.3 168,65.8\" fill=\"currentColor\"/><line x1=\"217.6\" y1=\"36.8\" x2=\"208.4\" y2=\"45.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"232.4\" y1=\"36.8\" x2=\"241.6\" y2=\"45.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"35\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"201\" y=\"57\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"249\" y=\"57\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"217.6\" y1=\"91.8\" x2=\"208.4\" y2=\"100.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"232.4\" y1=\"91.8\" x2=\"241.6\" y2=\"100.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"90\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"201\" y=\"112\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"249\" y=\"112\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"275\" y=\"67\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"310\" y1=\"59.5\" x2=\"328\" y2=\"59.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"310\" y1=\"64.5\" x2=\"328\" y2=\"64.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"300\" y=\"67\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"338\" y=\"67\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "O–H",
+            "464"
+          ],
+          [
+            "O–O",
+            "146"
+          ],
+          [
+            "O=O",
+            "498"
+          ]
+        ]
+      },
       "numericAnswer": -206,
       "tolerance": 0.01,
       "unit": "kJ/mol",
@@ -546,7 +792,8 @@
         "1 mark: bonds formed = (4 × 464) + 498 = 2354",
         "1 mark: 2148 − 2354 = −206 kJ/mol"
       ],
-      "explanation": "Each H₂O₂ has two O–H and one O–O bond; there are two molecules. Products: two H₂O (four O–H) and one O=O. 2148 − 2354 = −206 kJ/mol."
+      "explanation": "Each H₂O₂ has two O–H and one O–O bond; there are two molecules. Products: two H₂O (four O–H) and one O=O. 2148 − 2354 = −206 kJ/mol.",
+      "answerLabel": "Overall energy change"
     },
     {
       "id": "c5-bond-energies-q21",
@@ -621,7 +868,27 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student calculated the overall energy change for H₂ + Cl₂ → 2HCl as +247 kJ/mol (H–H 436, Cl–Cl 243, H–Cl 432). Identify the mistake and give the correct answer.",
+      "question": "A student calculated the overall energy change for the reaction:\nH₂ + Cl₂ → 2HCl\nThe student's answer was +247 kJ/mol.\nTable 1 shows the bond energies the student used.\nIdentify the mistake the student made and give the correct answer.",
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "Cl–Cl",
+            "243"
+          ],
+          [
+            "H–Cl",
+            "432"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "only counted one H–Cl bond",
         "two H–Cl bonds formed",
@@ -691,7 +958,30 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Hydrogen is being considered as a fuel. It burns in oxygen: 2H₂ + O₂ → 2H₂O\nBond energies (kJ/mol): H–H 436, O=O 498, O–H 464.\nCalculate the overall energy change for this reaction and explain, in terms of bonds, why it releases energy. Use your answer to comment on whether hydrogen is a suitable fuel.",
+      "question": "Hydrogen is being considered as a fuel.\nFigure 1 shows the reaction when hydrogen burns in oxygen.\nTable 1 shows some bond energies.\nCalculate the overall energy change for the reaction and explain, in terms of bonds, why the reaction releases energy.\nEvaluate whether hydrogen is a suitable fuel.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 130\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"35\" x2=\"46\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"56\" y=\"40\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"30\" y1=\"90\" x2=\"46\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"20\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"56\" y=\"95\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"85\" y=\"67\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">+</text><line x1=\"120\" y1=\"59.5\" x2=\"138\" y2=\"59.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"64.5\" x2=\"138\" y2=\"64.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"110\" y=\"67\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"148\" y=\"67\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><line x1=\"170\" y1=\"62\" x2=\"204\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"204,62 198,58.3 198,65.8\" fill=\"currentColor\"/><line x1=\"247.6\" y1=\"36.8\" x2=\"238.4\" y2=\"45.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"262.4\" y1=\"36.8\" x2=\"271.6\" y2=\"45.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"35\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"231\" y=\"57\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"279\" y=\"57\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><line x1=\"247.6\" y1=\"91.8\" x2=\"238.4\" y2=\"100.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"262.4\" y1=\"91.8\" x2=\"271.6\" y2=\"100.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"90\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">O</text><text x=\"231\" y=\"112\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"279\" y=\"112\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">H</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Bond",
+          "Bond energy in kJ/mol"
+        ],
+        "rows": [
+          [
+            "H–H",
+            "436"
+          ],
+          [
+            "O=O",
+            "498"
+          ],
+          [
+            "O–H",
+            "464"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: bonds broken: 2 × H–H = 872 and 1 × O=O = 498, total 1370 kJ/mol; bonds formed: 4 × O–H = 4 × 464 = 1856 kJ/mol; overall energy change = 1370 − 1856 = −486 kJ/mol; negative so exothermic; breaking bonds needs energy, forming bonds releases energy; more energy is released forming the four O–H bonds than is needed to break the H–H and O=O bonds; the extra energy is transferred to the surroundings; a large amount of energy is released, so hydrogen is a good fuel; the only product is water, so no carbon dioxide is produced.",
         "Level 3 (5 to 6 marks): correct calculation with working (−486 kJ/mol), a clear explanation in terms of bond breaking and bond making, and a reasoned comment on suitability as a fuel.",

@@ -197,7 +197,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What was the main gas in the Earth's early atmosphere, according to the theory in this topic?",
+      "question": "Scientists have a theory about the Earth's early atmosphere.\nWhich gas was the main gas in the Earth's early atmosphere?",
       "options": [
         "Oxygen",
         "Nitrogen",
@@ -273,7 +273,43 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The Earth's early atmosphere may have been like the atmospheres of which two planets today?",
+      "question": "Table 1 shows the main gases in the atmospheres of some planets today.\nThe Earth's early atmosphere was probably mainly carbon dioxide.\nThe Earth's early atmosphere may have been like the atmospheres of which two planets today?",
+      "table": {
+        "headers": [
+          "Planet",
+          "Main gases in the atmosphere"
+        ],
+        "rows": [
+          [
+            "Jupiter",
+            "hydrogen and helium"
+          ],
+          [
+            "Mars",
+            "carbon dioxide"
+          ],
+          [
+            "Mercury",
+            "almost no atmosphere"
+          ],
+          [
+            "Neptune",
+            "hydrogen, helium and methane"
+          ],
+          [
+            "Saturn",
+            "hydrogen and helium"
+          ],
+          [
+            "Uranus",
+            "hydrogen, helium and methane"
+          ],
+          [
+            "Venus",
+            "carbon dioxide"
+          ]
+        ]
+      },
       "options": [
         "Jupiter and Saturn",
         "Mercury and Neptune",
@@ -406,14 +442,15 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The Earth is about 4.6 billion years old. Write 4.6 billion as an ordinary number (1 billion = 1 000 000 000).",
+      "question": "The Earth is about 4.6 billion years old.\n1 billion = 1 000 000 000\nGive the age of the Earth as an ordinary number.",
       "numericAnswer": 4600000000,
       "tolerance": 0.01,
       "unit": "years",
       "markScheme": [
         "1 mark: 4 600 000 000"
       ],
-      "explanation": "4.6 × 1 000 000 000 = 4 600 000 000 years, or 4.6 × 10⁹ years in standard form."
+      "explanation": "4.6 × 1 000 000 000 = 4 600 000 000 years, or 4.6 × 10⁹ years in standard form.",
+      "answerLabel": "Age of the Earth"
     },
     {
       "id": "c9-early-atmosphere-q13",
@@ -421,7 +458,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Intense volcanic activity is thought to have happened during the first billion years of the Earth's 4.6 billion year history. Calculate this as a percentage of the Earth's age. Give your answer to 2 significant figures.",
+      "question": "Figure 1 shows a timeline of the Earth's history.\nScientists think there was intense volcanic activity during the first billion years.\nCalculate the first billion years as a percentage of the Earth's age.\nGive your answer to 2 significant figures.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 145\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"40\" width=\"91.3\" height=\"30\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"40\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Intense volcanic activity</text><path d=\"M40 70H460\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M40 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"40\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><path d=\"M131.3 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"131.3\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><path d=\"M222.6 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"222.6\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><path d=\"M313.9 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"313.9\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><path d=\"M405.2 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"405.2\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><path d=\"M460 70v8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"460\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4.6</text><text x=\"460\" y=\"112\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Today</text><text x=\"250\" y=\"132\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time since the Earth formed in billions of years</text></svg>"
+      },
       "numericAnswer": 22,
       "tolerance": 0.03,
       "unit": "%",
@@ -429,7 +469,8 @@
         "1 mark: 1 ÷ 4.6 × 100",
         "1 mark: 22%"
       ],
-      "explanation": "1 ÷ 4.6 = 0.2174, × 100 = 21.7%, which is 22% to 2 significant figures."
+      "explanation": "1 ÷ 4.6 = 0.2174, × 100 = 21.7%, which is 22% to 2 significant figures.",
+      "answerLabel": "Percentage of the Earth's age"
     },
     {
       "id": "c9-early-atmosphere-q14",
@@ -437,7 +478,35 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: a 200 cm³ sample of gas collected from a volcano contains 30 cm³ of carbon dioxide.\nCalculate the percentage of carbon dioxide in the sample.",
+      "question": "A scientist collected a 200 cm³ sample of gas from a volcano.\nTable 1 shows the volume of each gas in the sample.\nCalculate the percentage of carbon dioxide in the sample.",
+      "table": {
+        "headers": [
+          "Gas",
+          "Volume in cm³"
+        ],
+        "rows": [
+          [
+            "Water vapour",
+            "140"
+          ],
+          [
+            "Carbon dioxide",
+            "30"
+          ],
+          [
+            "Sulfur dioxide",
+            "20"
+          ],
+          [
+            "Nitrogen",
+            "6"
+          ],
+          [
+            "Other gases",
+            "4"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0.01,
       "unit": "%",
@@ -445,7 +514,8 @@
         "1 mark: (30 ÷ 200) × 100",
         "1 mark: 15%"
       ],
-      "explanation": "30 ÷ 200 = 0.15, × 100 = 15%."
+      "explanation": "Use the carbon dioxide row: 30 cm³ out of a total of 200 cm³. 30 ÷ 200 = 0.15, × 100 = 15%.",
+      "answerLabel": "Percentage of carbon dioxide"
     },
     {
       "id": "c9-early-atmosphere-q15",
@@ -453,7 +523,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The atmosphere of Mars is about 95% carbon dioxide. Calculate the volume of carbon dioxide in a 250 cm³ sample of Martian atmosphere.",
+      "question": "Figure 1 shows the composition of the atmosphere of Mars.\nCalculate the volume of carbon dioxide in a 250 cm³ sample of the atmosphere of Mars.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M170 140L170 50A90 90 0 0 1 186.9 51.6Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M178.8 46.4L180 34.5h4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"186\" y=\"38.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Nitrogen 3%</text><path d=\"M170 140L186.9 51.6A90 90 0 0 1 197.8 54.4Z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M193.4 49L214.4 61.3h4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"220.4\" y=\"65.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Argon 2%</text><path d=\"M170 140L197.8 54.4A90 90 0 1 1 170 50Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"162.3\" y=\"185.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Carbon dioxide</text><text x=\"162.3\" y=\"200.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">95%</text></svg>"
+      },
       "numericAnswer": 237.5,
       "tolerance": 0.01,
       "unit": "cm³",
@@ -461,7 +534,8 @@
         "1 mark: 95 ÷ 100 × 250",
         "1 mark: 237.5 cm³ (accept 238 cm³)"
       ],
-      "explanation": "0.95 × 250 = 237.5 cm³."
+      "explanation": "From Figure 1, carbon dioxide is 95% of the atmosphere. 0.95 × 250 = 237.5 cm³.",
+      "answerLabel": "Volume of carbon dioxide"
     },
     {
       "id": "c9-early-atmosphere-q16",
@@ -469,7 +543,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The atmosphere of Venus is about 96% carbon dioxide and the Earth's atmosphere today is about 0.04% carbon dioxide. Calculate how many times greater the percentage of carbon dioxide is on Venus.",
+      "question": "Table 1 shows the percentage of carbon dioxide in the atmospheres of Venus and the Earth today.\nCalculate how many times greater the percentage of carbon dioxide is on Venus than on the Earth today.",
+      "table": {
+        "headers": [
+          "Planet",
+          "Percentage of carbon dioxide in the atmosphere"
+        ],
+        "rows": [
+          [
+            "Venus",
+            "96"
+          ],
+          [
+            "Earth today",
+            "0.04"
+          ]
+        ]
+      },
       "numericAnswer": 2400,
       "tolerance": 0.01,
       "unit": "",
@@ -477,7 +567,8 @@
         "1 mark: 96 ÷ 0.04",
         "1 mark: 2400"
       ],
-      "explanation": "96 ÷ 0.04 = 2400. Dividing by a small decimal gives a large number: 0.04 goes into 1 twenty-five times, so into 96 it goes 96 × 25 = 2400 times."
+      "explanation": "96 ÷ 0.04 = 2400. Dividing by a small decimal gives a large number: 0.04 goes into 1 twenty-five times, so into 96 it goes 96 × 25 = 2400 times.",
+      "answerLabel": "Number of times greater"
     },
     {
       "id": "c9-early-atmosphere-q17",
@@ -520,7 +611,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe how the oceans formed, according to the theory in this topic.",
+      "question": "Describe how the oceans formed.",
       "acceptedAnswers": [
         "volcanoes released water vapour",
         "Earth cooled",
@@ -615,7 +706,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Venus and Mars have atmospheres that are mainly carbon dioxide. Explain how this information is used as evidence for the theory of the Earth's early atmosphere, and give one limitation of this evidence.",
+      "question": "Table 1 shows the approximate composition of the atmospheres of Venus, Mars and the Earth today.\nExplain how this information is used as evidence for the theory of the Earth's early atmosphere.\nGive one limitation of this evidence.",
+      "table": {
+        "headers": [
+          "Planet",
+          "Percentage of carbon dioxide",
+          "Percentage of nitrogen"
+        ],
+        "rows": [
+          [
+            "Venus",
+            "96",
+            "3"
+          ],
+          [
+            "Mars",
+            "95",
+            "3"
+          ],
+          [
+            "Earth today",
+            "0.04",
+            "78"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "rocky planets",
         "similar formation",

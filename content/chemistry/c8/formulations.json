@@ -348,7 +348,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A company changes its washing-up liquid from 12% detergent to 18% detergent, keeping everything else the same apart from less water. Which statement is correct?",
+      "question": "A company changes the formulation of its washing-up liquid.\nTable 1 shows the old and new formulations.\nWhich statement is correct?",
       "options": [
         "The product is now a pure substance",
         "The product is no longer a formulation",
@@ -359,7 +359,31 @@
       "markScheme": [
         "1 mark: The properties of the product, such as cleaning power, will change"
       ],
-      "explanation": "Changing proportions changes properties; it is still a designed mixture (formulation), not a pure substance, and no new compound is formed."
+      "explanation": "Changing proportions changes properties; it is still a designed mixture (formulation), not a pure substance, and no new compound is formed.",
+      "table": {
+        "headers": [
+          "Component",
+          "Old formulation: percentage by mass",
+          "New formulation: percentage by mass"
+        ],
+        "rows": [
+          [
+            "Detergent",
+            "12",
+            "18"
+          ],
+          [
+            "Water",
+            "85",
+            "79"
+          ],
+          [
+            "Perfume and colouring",
+            "3",
+            "3"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-formulations-q09",
@@ -386,7 +410,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A paint contains 20% pigment by mass. Calculate the mass of pigment in 2.5 kg of paint.",
+      "question": "Table 1 shows the composition of a paint.\nCalculate the mass of pigment in 2.5 kg of the paint.",
       "numericAnswer": 0.5,
       "tolerance": 0.02,
       "unit": "kg",
@@ -394,7 +418,32 @@
         "1 mark: mass = (20 ÷ 100) × 2.5",
         "1 mark: 0.5 kg"
       ],
-      "explanation": "0.20 × 2.5 = 0.50 kg. Remember to convert the percentage to a decimal before multiplying."
+      "explanation": "0.20 × 2.5 = 0.50 kg. Remember to convert the percentage to a decimal before multiplying.",
+      "table": {
+        "headers": [
+          "Component",
+          "Percentage by mass"
+        ],
+        "rows": [
+          [
+            "Pigment",
+            "20"
+          ],
+          [
+            "Binder",
+            "35"
+          ],
+          [
+            "Solvent",
+            "40"
+          ],
+          [
+            "Additives",
+            "5"
+          ]
+        ]
+      },
+      "answerLabel": "Mass of pigment"
     },
     {
       "id": "c8-formulations-q11",
@@ -402,7 +451,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A 600 mg tablet contains 500 mg of paracetamol. Calculate the percentage by mass of paracetamol in the tablet. Give your answer to 3 significant figures.",
+      "question": "Table 1 shows the components of a paracetamol tablet.\nCalculate the percentage by mass of paracetamol in the tablet.\nGive your answer to 3 significant figures.",
       "numericAnswer": 83.3,
       "tolerance": 0.02,
       "unit": "%",
@@ -410,7 +459,28 @@
         "1 mark: (500 ÷ 600) × 100",
         "1 mark: 83.3%"
       ],
-      "explanation": "500 ÷ 600 = 0.8333; × 100 = 83.3%. The other 16.7% is made up of other components such as fillers and binders."
+      "explanation": "500 ÷ 600 = 0.8333; × 100 = 83.3%. The other 16.7% is made up of other components such as fillers and binders.",
+      "table": {
+        "headers": [
+          "Component",
+          "Mass in mg"
+        ],
+        "rows": [
+          [
+            "Paracetamol",
+            "500"
+          ],
+          [
+            "Starch, binder and other components",
+            "100"
+          ],
+          [
+            "Total",
+            "600"
+          ]
+        ]
+      },
+      "answerLabel": "Percentage by mass of paracetamol"
     },
     {
       "id": "c8-formulations-q12",
@@ -418,7 +488,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A bag of fertiliser has a mass of 50 kg. Ammonium nitrate makes up 34% of the mass. Calculate the mass of ammonium nitrate in the bag.",
+      "question": "A bag of fertiliser has a mass of 50 kg.\nAmmonium nitrate makes up 34% of the mass.\nCalculate the mass of ammonium nitrate in the bag.",
       "numericAnswer": 17,
       "tolerance": 0.02,
       "unit": "kg",
@@ -426,7 +496,8 @@
         "1 mark: (34 ÷ 100) × 50",
         "1 mark: 17 kg"
       ],
-      "explanation": "Convert 34% to 0.34, then 0.34 × 50 kg = 17 kg of ammonium nitrate."
+      "explanation": "Convert 34% to 0.34, then 0.34 × 50 kg = 17 kg of ammonium nitrate.",
+      "answerLabel": "Mass of ammonium nitrate"
     },
     {
       "id": "c8-formulations-q13",
@@ -434,7 +505,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "18 carat gold is an alloy that is 75% gold by mass. A ring made from 18 carat gold contains 4.5 g of gold. Calculate the total mass of the ring.",
+      "question": "18 carat gold is an alloy that is 75% gold by mass.\nA ring made from 18 carat gold contains 4.5 g of gold.\nCalculate the total mass of the ring.",
       "numericAnswer": 6,
       "tolerance": 0.02,
       "unit": "g",
@@ -443,7 +514,8 @@
         "1 mark: total = 4.5 ÷ 0.75 (or 4.5 × 100 ÷ 75)",
         "1 mark: 6.0 g"
       ],
-      "explanation": "Rearrange: total mass = mass of gold ÷ (75 ÷ 100) = 4.5 ÷ 0.75 = 6.0 g. A common error is to multiply 4.5 by 0.75."
+      "explanation": "Rearrange: total mass = mass of gold ÷ (75 ÷ 100) = 4.5 ÷ 0.75 = 6.0 g. A common error is to multiply 4.5 by 0.75.",
+      "answerLabel": "Total mass of ring"
     },
     {
       "id": "c8-formulations-q14",
@@ -451,7 +523,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A cleaning spray is made by adding 5.0 cm³ of concentrate to water to make a total volume of 250 cm³. Calculate the percentage by volume of concentrate in the spray.",
+      "question": "A cleaning spray is made by adding 5.0 cm³ of concentrate to water to make a total volume of 250 cm³.\nCalculate the percentage by volume of concentrate in the spray.",
       "numericAnswer": 2,
       "tolerance": 0.02,
       "unit": "%",
@@ -459,7 +531,8 @@
         "1 mark: (5.0 ÷ 250) × 100",
         "1 mark: 2.0%"
       ],
-      "explanation": "5.0 ÷ 250 = 0.020; × 100 = 2.0%. Use the total volume (250 cm³), not the volume of water added."
+      "explanation": "5.0 ÷ 250 = 0.020; × 100 = 2.0%. Use the total volume (250 cm³), not the volume of water added.",
+      "answerLabel": "Percentage by volume of concentrate"
     },
     {
       "id": "c8-formulations-q15",
@@ -467,7 +540,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A paint is made from 35% binder, 40% solvent, 5% additives and the rest pigment. Calculate the percentage of pigment.",
+      "question": "Table 1 shows the composition of a paint.\nCalculate the percentage by mass of pigment in the paint.",
       "numericAnswer": 20,
       "tolerance": 0.02,
       "unit": "%",
@@ -475,7 +548,32 @@
         "1 mark: 100 − (35 + 40 + 5)",
         "1 mark: 20%"
       ],
-      "explanation": "All components must add up to 100%, so pigment = 100 − 80 = 20%."
+      "explanation": "All components must add up to 100%, so pigment = 100 − 80 = 20%.",
+      "table": {
+        "headers": [
+          "Component",
+          "Percentage by mass"
+        ],
+        "rows": [
+          [
+            "Binder",
+            "35"
+          ],
+          [
+            "Solvent",
+            "40"
+          ],
+          [
+            "Additives",
+            "5"
+          ],
+          [
+            "Pigment",
+            "X"
+          ]
+        ]
+      },
+      "answerLabel": "Percentage of pigment"
     },
     {
       "id": "c8-formulations-q16",
@@ -520,7 +618,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A sun cream contains a UV filter, water, oil, an emulsifier and a perfume, each in a fixed percentage. Explain why sun cream is described as a formulation.",
+      "question": "Table 1 shows the components of a sun cream.\nExplain why sun cream is described as a formulation.",
       "acceptedAnswers": [
         "mixture",
         "designed for a use",
@@ -531,7 +629,41 @@
         "1 mark: it is a mixture designed as a useful product",
         "1 mark: the components are present in measured/fixed quantities, each with a particular purpose"
       ],
-      "explanation": "Both ideas show it is a deliberately designed mixture rather than a random one."
+      "explanation": "Both ideas show it is a deliberately designed mixture rather than a random one.",
+      "table": {
+        "headers": [
+          "Component",
+          "Purpose",
+          "Percentage by mass"
+        ],
+        "rows": [
+          [
+            "UV filter",
+            "Absorbs ultraviolet light",
+            "10"
+          ],
+          [
+            "Water",
+            "Base of the cream",
+            "55"
+          ],
+          [
+            "Oil",
+            "Softens the skin",
+            "25"
+          ],
+          [
+            "Emulsifier",
+            "Stops the oil and water separating",
+            "9"
+          ],
+          [
+            "Perfume",
+            "Gives a pleasant smell",
+            "1"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-formulations-q19",
@@ -635,7 +767,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A pharmaceutical company makes ibuprofen tablets. Each tablet has a mass of 400 mg and contains 200 mg of ibuprofen. The rest is made up of starch, a binder and a sugar coating.\nExplain why the tablet is a formulation, why it is not a pure substance in the chemical sense, and why the company must measure the quantity of each component carefully. Include a calculation of the percentage of ibuprofen in the tablet.",
+      "question": "A pharmaceutical company makes ibuprofen tablets.\nTable 1 shows the components of one tablet.\nExplain why the tablet is a formulation, why it is not a pure substance in the chemical sense, and why the company must measure the quantity of each component carefully.\nInclude a calculation of the percentage by mass of ibuprofen in the tablet.",
       "markScheme": [
         "Indicative content: the tablet is a mixture designed as a useful product (a medicine)",
         "Each component has a purpose: ibuprofen is the active ingredient; starch adds bulk and helps it break up; the binder holds it together; the coating makes it easier to swallow and masks taste",
@@ -649,7 +781,35 @@
         "Level 2 (3 to 4 marks): two explanations with some detail, or calculation plus one explanation",
         "Level 1 (1 to 2 marks): simple relevant statements"
       ],
-      "explanation": "The best answers link the definitions of formulation and pure substance to the specific tablet and support the argument about measurement with the 50% calculation."
+      "explanation": "The best answers link the definitions of formulation and pure substance to the specific tablet and support the argument about measurement with the 50% calculation.",
+      "table": {
+        "headers": [
+          "Component",
+          "Mass in mg"
+        ],
+        "rows": [
+          [
+            "Ibuprofen",
+            "200"
+          ],
+          [
+            "Starch",
+            "120"
+          ],
+          [
+            "Binder",
+            "50"
+          ],
+          [
+            "Sugar coating",
+            "30"
+          ],
+          [
+            "Total",
+            "400"
+          ]
+        ]
+      }
     },
     {
       "id": "c8-formulations-q25",

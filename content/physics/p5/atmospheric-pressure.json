@@ -348,7 +348,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "The atmosphere is described as a 'thin' layer. Why?",
+      "question": "The Earth's atmosphere is described as a 'thin' layer.\nWhy is it described as thin?",
       "options": [
         "Its mass is very small compared with the Moon's",
         "Its thickness is very small compared with the radius of the Earth",
@@ -386,7 +386,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A sealed packet of crisps is taken from sea level to the top of a high mountain. It puffs up. Why?",
+      "question": "A sealed packet of crisps is taken from sea level to the top of a high mountain. The packet puffs up.\nWhy does the packet puff up?",
       "options": [
         "The pressure outside the packet is now lower than the pressure inside it",
         "The air inside the packet has gained more molecules",
@@ -405,7 +405,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A barometer is carried from a valley floor up to a hilltop. What happens to its reading?",
+      "question": "A barometer is carried from a valley floor up to the top of a hill.\nWhat happens to the reading on the barometer?",
       "options": [
         "It increases",
         "It stays the same",
@@ -443,15 +443,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Atmospheric pressure is 100 000 Pa. Calculate the force the atmosphere exerts on one side of a window of area 1.5 m².",
+      "question": "Figure 1 shows a window.\nAtmospheric pressure = 100 000 Pa\nCalculate the force the atmosphere exerts on one side of the window.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"90\" y=\"30\" width=\"180\" height=\"120\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"30\" width=\"180\" height=\"120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-width=\"5\"/><line x1=\"150\" y1=\"175\" x2=\"95.6\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"90,175 96.2,171.8 96.2,178.2\" fill=\"currentColor\"/><line x1=\"210\" y1=\"175\" x2=\"264.4\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"270,175 263.8,178.2 263.8,171.8\" fill=\"currentColor\"/><text x=\"180\" y=\"179\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.5 m</text><line x1=\"305\" y1=\"75\" x2=\"305\" y2=\"35.6\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"305,30 308.2,36.2 301.8,36.2\" fill=\"currentColor\"/><line x1=\"305\" y1=\"105\" x2=\"305\" y2=\"144.4\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"305,150 301.8,143.8 308.2,143.8\" fill=\"currentColor\"/><text x=\"305\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.0 m</text><text x=\"180\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Glass</text><text x=\"180\" y=\"205\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Window</text></svg>"
+      },
       "numericAnswer": 150000,
       "tolerance": 0.02,
       "unit": "N",
       "markScheme": [
-        "1 mark: F = p × A = 100 000 × 1.5",
+        "1 mark: area = 1.5 × 1.0 = 1.5 m² and F = p × A = 100 000 × 1.5",
         "1 mark: 150 000 N"
       ],
-      "explanation": "Rearrange p = F/A to F = p × A = 100 000 × 1.5 = 150 000 N. The window does not break because the air on the other side pushes with an equal force."
+      "explanation": "Rearrange p = F/A to F = p × A = 100 000 × 1.5 = 150 000 N. The window does not break because the air on the other side pushes with an equal force.",
+      "answerLabel": "Force"
     },
     {
       "id": "p5-atmospheric-pressure-q14",
@@ -459,7 +463,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Atmospheric pressure is 101 000 Pa. Calculate the force of the air on the top of a table with an area of 0.25 m².",
+      "question": "The top of a table has an area of 0.25 m².\nAtmospheric pressure = 101 000 Pa\nCalculate the force exerted by the air on the top of the table.",
       "numericAnswer": 25250,
       "tolerance": 0.02,
       "unit": "N",
@@ -467,7 +471,8 @@
         "1 mark: F = 101 000 × 0.25",
         "1 mark: 25 250 N"
       ],
-      "explanation": "F = p × A = 101 000 × 0.25 = 25 250 N. An equal upward force from air under the table means there is no resultant force."
+      "explanation": "F = p × A = 101 000 × 0.25 = 25 250 N. An equal upward force from air under the table means there is no resultant force.",
+      "answerLabel": "Force"
     },
     {
       "id": "p5-atmospheric-pressure-q15",
@@ -475,7 +480,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "The air inside an aircraft cabin is at a pressure of 80 000 Pa. The air outside is at 25 000 Pa. A cabin door has an area of 2.0 m². Calculate the resultant force on the door due to the pressure difference.",
+      "question": "Figure 1 shows the door of an aircraft cabin during a flight.\nCalculate the resultant force on the door due to the difference in air pressure.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"195\" y=\"20\" width=\"30\" height=\"190\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"210\" y=\"228\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Cabin door</text><text x=\"95\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Inside the cabin</text><text x=\"95\" y=\"58\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Air pressure = 80 000 Pa</text><text x=\"325\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Outside the aircraft</text><text x=\"325\" y=\"58\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Air pressure = 25 000 Pa</text><line x1=\"130\" y1=\"90\" x2=\"184.8\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"192,90 184,94.1 184,85.9\" fill=\"currentColor\"/><line x1=\"130\" y1=\"120\" x2=\"184.8\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"192,120 184,124.1 184,115.9\" fill=\"currentColor\"/><line x1=\"130\" y1=\"150\" x2=\"184.8\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"192,150 184,154.1 184,145.9\" fill=\"currentColor\"/><line x1=\"285\" y1=\"100\" x2=\"235.2\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"228,100 236,95.9 236,104.1\" fill=\"currentColor\"/><line x1=\"285\" y1=\"140\" x2=\"235.2\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"228,140 236,135.9 236,144.1\" fill=\"currentColor\"/><text x=\"325\" y=\"200\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Area of door = 2.0 m²</text></svg>"
+      },
       "numericAnswer": 110000,
       "tolerance": 0.02,
       "unit": "N",
@@ -484,7 +492,8 @@
         "1 mark: F = 55 000 × 2.0",
         "1 mark: 110 000 N"
       ],
-      "explanation": "Use the pressure difference: 55 000 Pa × 2.0 m² = 110 000 N, acting outwards. This is why aircraft doors are designed to be pushed shut by the cabin pressure."
+      "explanation": "Use the pressure difference: 55 000 Pa × 2.0 m² = 110 000 N, acting outwards. This is why aircraft doors are designed to be pushed shut by the cabin pressure.",
+      "answerLabel": "Resultant force"
     },
     {
       "id": "p5-atmospheric-pressure-q16",
@@ -492,7 +501,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Atmospheric pressure is 100 000 Pa at sea level and 60 000 Pa at the top of a mountain. Calculate the decrease in the force from the atmosphere on a surface of area 0.040 m² when it is taken from sea level to the top of the mountain.",
+      "question": "Table 1 shows the atmospheric pressure at two places.\nA surface has an area of 0.040 m².\nCalculate the decrease in the force from the atmosphere on the surface when it is taken from sea level to the top of the mountain.",
+      "table": {
+        "headers": [
+          "Place",
+          "Atmospheric pressure in Pa"
+        ],
+        "rows": [
+          [
+            "Sea level",
+            "100 000"
+          ],
+          [
+            "Top of mountain",
+            "60 000"
+          ]
+        ]
+      },
       "numericAnswer": 1600,
       "tolerance": 0.02,
       "unit": "N",
@@ -501,7 +526,8 @@
         "1 mark: F = 40 000 × 0.040",
         "1 mark: 1600 N"
       ],
-      "explanation": "The pressure falls by 40 000 Pa. The force falls by 40 000 × 0.040 = 1600 N (from 4000 N to 2400 N)."
+      "explanation": "The pressure falls by 40 000 Pa. The force falls by 40 000 × 0.040 = 1600 N (from 4000 N to 2400 N).",
+      "answerLabel": "Decrease in force"
     },
     {
       "id": "p5-atmospheric-pressure-q17",
@@ -509,7 +535,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Air is pumped out of a metal can until the pressure inside is 20 000 Pa. The atmospheric pressure outside is 100 000 Pa. One side of the can has an area of 0.030 m². Calculate the resultant force on this side of the can.",
+      "question": "Figure 1 shows a metal can connected to a vacuum pump.\nAir is pumped out of the can until the pressure inside is 20 000 Pa.\nAtmospheric pressure = 100 000 Pa\nSide X of the can has an area of 0.030 m².\nCalculate the resultant force on side X of the can.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"60\" y=\"50\" width=\"140\" height=\"150\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"130\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Metal can</text><text x=\"130\" y=\"143\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">(air pumped out)</text><path d=\"M200 80 H260 M200 92 H260\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"260\" y=\"55\" width=\"120\" height=\"60\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"320\" y=\"89\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Vacuum pump</text><line x1=\"225\" y1=\"86\" x2=\"244.4\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"250,86 243.8,89.2 243.8,82.8\" fill=\"currentColor\"/><line x1=\"203\" y1=\"50\" x2=\"203\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"222\" y=\"175\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Side X</text><text x=\"130\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Air outside at atmospheric pressure</text></svg>"
+      },
       "numericAnswer": 2400,
       "tolerance": 0.02,
       "unit": "N",
@@ -518,7 +547,8 @@
         "1 mark: F = 80 000 × 0.030",
         "1 mark: 2400 N (inwards)"
       ],
-      "explanation": "The resultant force is (100 000 − 20 000) × 0.030 = 2400 N, acting inwards, which is enough to crush the can."
+      "explanation": "The resultant force is (100 000 − 20 000) × 0.030 = 2400 N, acting inwards, which is enough to crush the can.",
+      "answerLabel": "Resultant force"
     },
     {
       "id": "p5-atmospheric-pressure-q18",
@@ -619,7 +649,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A rubber sucker is pressed onto a smooth wall, squeezing out most of the air underneath it. Explain why it stays on the wall.",
+      "question": "Figure 1 shows a rubber sucker pressed onto a smooth wall. Most of the air underneath the sucker has been squeezed out.\nExplain why the sucker stays on the wall.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"40\" y=\"20\" width=\"40\" height=\"180\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"214\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Wall</text><path d=\"M80 50 Q140 70 145 105 Q140 140 80 160\" fill=\"#93c5fd\" stroke=\"currentColor\" stroke-width=\"2\" fill-opacity=\"0.5\"/><rect x=\"145\" y=\"95\" width=\"70\" height=\"20\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"250\" y=\"72\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Rubber sucker</text><line x1=\"245\" y1=\"68\" x2=\"128\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"112\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Handle</text><line x1=\"245\" y1=\"108\" x2=\"216\" y2=\"105\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Small amount of air</text><text x=\"250\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">trapped under sucker</text><line x1=\"245\" y1=\"152\" x2=\"100\" y2=\"105\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Air outside</text></svg>"
+      },
       "acceptedAnswers": [
         "pressure under sucker lower",
         "atmospheric pressure outside greater",
@@ -658,7 +691,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Atmospheric pressure falls quickly with height close to the ground but more slowly at great heights. Suggest why.",
+      "question": "Figure 1 shows how atmospheric pressure changes with height above sea level.\nAtmospheric pressure decreases quickly with height close to the ground but more slowly at great heights.\nSuggest why.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M62 15V252M90.2 15V252M118.3 15V252M146.5 15V252M174.7 15V252M202.8 15V252M231 15V252M259.2 15V252M287.3 15V252M315.5 15V252M343.7 15V252M371.8 15V252M400 15V252M62 252H400M62 232.3H400M62 212.5H400M62 192.8H400M62 173H400M62 153.3H400M62 133.5H400M62 113.8H400M62 94H400M62 74.3H400M62 54.5H400M62 34.8H400M62 15H400\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.25\"/><text x=\"62\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"118.3\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"174.7\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"231\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15</text><text x=\"287.3\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"343.7\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">25</text><text x=\"400\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"56\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"216.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"56\" y=\"177\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"56\" y=\"137.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"56\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"56\" y=\"58.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><path d=\"M62 15V252M118.3 15V252M174.7 15V252M231 15V252M287.3 15V252M343.7 15V252M400 15V252M62 252H400M62 212.5H400M62 173H400M62 133.5H400M62 94H400M62 54.5H400M62 15H400\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-opacity=\"0.45\"/><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"15\" x2=\"62\" y2=\"252\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Height above sea level in km</text><text x=\"16\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 133.5)\">Atmospheric pressure in kPa</text><polyline points=\"62,52.5 66.2,62.1 70.5,71.3 74.7,80 78.9,88.3 83.1,96.1 87.4,103.6 91.6,110.8 95.8,117.6 100,124.1 104.3,130.2 108.5,136.1 112.7,141.7 116.9,147 121.2,152 125.4,156.8 129.6,161.4 133.8,165.8 138.1,169.9 142.3,173.9 146.5,177.6 150.7,181.2 155,184.6 159.2,187.9 163.4,191 167.6,193.9 171.9,196.7 176.1,199.4 180.3,201.9 184.5,204.3 188.8,206.6 193,208.8 197.2,210.9 201.4,212.9 205.7,214.7 209.9,216.5 214.1,218.2 218.3,219.9 222.6,221.4 226.8,222.9 231,224.3 235.2,225.6 239.5,226.9 243.7,228.1 247.9,229.2 252.1,230.3 256.4,231.4 260.6,232.4 264.8,233.3 269,234.2 273.3,235.1 277.5,235.9 281.7,236.7 285.9,237.4 290.2,238.1 294.4,238.8 298.6,239.4 302.8,240 307,240.6 311.3,241.1 315.5,241.7 319.7,242.2 324,242.6 328.2,243.1 332.4,243.5 336.6,243.9 340.8,244.3 345.1,244.7 349.3,245 353.5,245.4 357.8,245.7 362,246 366.2,246.3 370.4,246.6 374.7,246.8 378.9,247.1 383.1,247.3 387.3,247.5 391.6,247.7 395.8,248 400,248.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/></svg>"
+      },
       "acceptedAnswers": [
         "air densest near ground",
         "more molecules per metre",
@@ -718,7 +754,39 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A weather balloon carries a pressure sensor from the ground up to a height of 30 km. Explain how and why the atmospheric pressure measured by the sensor changes during the ascent.",
+      "question": "A weather balloon carries a pressure sensor from the ground up to a height of 30 km.\nTable 1 shows some of the readings from the sensor.\nExplain how and why the atmospheric pressure measured by the sensor changes as the balloon rises.\nUse data from Table 1 in your answer.",
+      "table": {
+        "headers": [
+          "Height in km",
+          "Atmospheric pressure in kPa"
+        ],
+        "rows": [
+          [
+            "0",
+            "101"
+          ],
+          [
+            "5",
+            "54"
+          ],
+          [
+            "10",
+            "26"
+          ],
+          [
+            "15",
+            "12"
+          ],
+          [
+            "20",
+            "5.5"
+          ],
+          [
+            "30",
+            "1.2"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content:",
         "Atmospheric pressure is caused by air molecules colliding with the sensor's surface.",

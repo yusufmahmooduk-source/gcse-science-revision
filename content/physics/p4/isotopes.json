@@ -317,7 +317,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Two isotopes of an element are compared. Which statement is correct?",
+      "question": "Figure 1 shows the nuclei of two isotopes of helium.\nWhich statement about the two isotopes is correct?",
       "options": [
         "They have different numbers of protons",
         "They have the same mass number",
@@ -328,7 +328,10 @@
       "markScheme": [
         "1 mark: They have different numbers of neutrons"
       ],
-      "explanation": "Isotopes differ only in the number of neutrons. Neutral atoms of both isotopes have the same numbers of protons and electrons."
+      "explanation": "Isotopes differ only in the number of neutrons. Neutral atoms of both isotopes have the same numbers of protons and electrons.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 170\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"85.4\" cy=\"70\" r=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"70\" r=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"134.6\" cy=\"70\" r=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Isotope 1</text><circle cx=\"253.1\" cy=\"70\" r=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"277.7\" cy=\"70\" r=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"302.3\" cy=\"70\" r=\"12\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"326.9\" cy=\"70\" r=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"290\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Isotope 2</text><circle cx=\"130\" cy=\"155\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"142\" y=\"159\" font-size=\"12\" fill=\"currentColor\">proton</text><circle cx=\"210\" cy=\"155\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"222\" y=\"159\" font-size=\"12\" fill=\"currentColor\">neutron</text></svg>"
+      }
     },
     {
       "id": "p4-isotopes-q08",
@@ -336,7 +339,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "An atom has 19 protons, 20 neutrons and 19 electrons. Which is its correct symbol? (K is potassium)",
+      "question": "Table 1 shows the numbers of particles in an atom of potassium (K).\nWhich is the correct symbol for this atom?",
       "options": [
         "²⁰₁₉K",
         "³⁹₁₉K",
@@ -347,7 +350,27 @@
       "markScheme": [
         "1 mark: ³⁹₁₉K"
       ],
-      "explanation": "Mass number = 19 + 20 = 39 goes on top, and atomic number = 19 goes at the bottom. The mass number is always the larger number."
+      "explanation": "Mass number = 19 + 20 = 39 goes on top, and atomic number = 19 goes at the bottom. The mass number is always the larger number.",
+      "table": {
+        "headers": [
+          "Particle",
+          "Number in the atom"
+        ],
+        "rows": [
+          [
+            "Proton",
+            "19"
+          ],
+          [
+            "Neutron",
+            "20"
+          ],
+          [
+            "Electron",
+            "19"
+          ]
+        ]
+      }
     },
     {
       "id": "p4-isotopes-q09",
@@ -355,7 +378,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Atom X has 26 protons and 30 neutrons. Atom Y has 26 protons and 32 neutrons. Atom Z has 27 protons and 30 neutrons. Which statement is correct?",
+      "question": "Table 1 shows the numbers of protons and neutrons in three atoms, X, Y and Z.\nWhich statement is correct?",
       "options": [
         "X and Z are isotopes",
         "Y and Z are the same element",
@@ -366,7 +389,31 @@
       "markScheme": [
         "1 mark: X and Y are isotopes"
       ],
-      "explanation": "Only X and Y have the same number of protons (26), so they are the same element with different neutron numbers: isotopes. Z has 27 protons, so it is a different element."
+      "explanation": "Only X and Y have the same number of protons (26), so they are the same element with different neutron numbers: isotopes. Z has 27 protons, so it is a different element.",
+      "table": {
+        "headers": [
+          "Atom",
+          "Number of protons",
+          "Number of neutrons"
+        ],
+        "rows": [
+          [
+            "X",
+            "26",
+            "30"
+          ],
+          [
+            "Y",
+            "26",
+            "32"
+          ],
+          [
+            "Z",
+            "27",
+            "30"
+          ]
+        ]
+      }
     },
     {
       "id": "p4-isotopes-q10",
@@ -374,14 +421,15 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Calculate the number of neutrons in an atom of ¹⁹₉F.",
+      "question": "An atom of fluorine is represented as ¹⁹₉F\nDetermine the number of neutrons in this atom.",
       "numericAnswer": 10,
       "tolerance": 0.01,
       "unit": "",
       "markScheme": [
         "1 mark: 19 − 9 = 10"
       ],
-      "explanation": "Neutrons = mass number − atomic number = 19 − 9 = 10."
+      "explanation": "Neutrons = mass number − atomic number = 19 − 9 = 10.",
+      "answerLabel": "Number of neutrons"
     },
     {
       "id": "p4-isotopes-q11",
@@ -389,14 +437,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Uranium has atomic number 92. Calculate the number of neutrons in uranium-238.",
+      "question": "Uranium has an atomic number of 92.\nDetermine the number of neutrons in an atom of uranium-238.",
       "numericAnswer": 146,
       "tolerance": 0.01,
       "unit": "",
       "markScheme": [
         "1 mark: 238 − 92 = 146"
       ],
-      "explanation": "The 238 is the mass number. 238 − 92 = 146 neutrons."
+      "explanation": "The 238 is the mass number. 238 − 92 = 146 neutrons.",
+      "answerLabel": "Number of neutrons"
     },
     {
       "id": "p4-isotopes-q12",
@@ -404,7 +453,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Chlorine has two common isotopes, chlorine-35 and chlorine-37. The atomic number of chlorine is 17.\nCalculate how many neutrons there are in an atom of chlorine-37.",
+      "question": "Table 1 shows information about two isotopes of chlorine.\nCalculate the number of neutrons in an atom of chlorine-37.",
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "",
@@ -412,7 +461,27 @@
         "1 mark: 37 − 17",
         "1 mark: 20"
       ],
-      "explanation": "Chlorine-37 has mass number 37. 37 − 17 = 20 neutrons. Chlorine-35 has 18 neutrons."
+      "explanation": "Chlorine-37 has mass number 37. 37 − 17 = 20 neutrons. Chlorine-35 has 18 neutrons.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Atomic number",
+          "Mass number"
+        ],
+        "rows": [
+          [
+            "Chlorine-35",
+            "17",
+            "35"
+          ],
+          [
+            "Chlorine-37",
+            "17",
+            "37"
+          ]
+        ]
+      },
+      "answerLabel": "Number of neutrons"
     },
     {
       "id": "p4-isotopes-q13",
@@ -420,7 +489,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "An iron atom has 26 protons and 30 neutrons. It loses 3 outer electrons.\nCalculate the number of electrons in the ion.",
+      "question": "Table 1 shows the numbers of protons and neutrons in an iron atom.\nThe iron atom loses 3 outer electrons to form an ion.\nCalculate the number of electrons in the ion.",
       "numericAnswer": 23,
       "tolerance": 0.01,
       "unit": "",
@@ -428,7 +497,24 @@
         "1 mark: neutral atom has 26 electrons",
         "1 mark: 26 − 3 = 23"
       ],
-      "explanation": "A neutral atom has as many electrons as protons (26). Losing 3 leaves 23. The neutrons are irrelevant here."
+      "explanation": "A neutral atom has as many electrons as protons (26). Losing 3 leaves 23. The neutrons are irrelevant here.",
+      "table": {
+        "headers": [
+          "Particle",
+          "Number in the atom"
+        ],
+        "rows": [
+          [
+            "Proton",
+            "26"
+          ],
+          [
+            "Neutron",
+            "30"
+          ]
+        ]
+      },
+      "answerLabel": "Number of electrons"
     },
     {
       "id": "p4-isotopes-q14",
@@ -436,7 +522,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Isotope P of lead has atomic number 82 and mass number 208. Isotope Q of lead has 4 fewer neutrons than isotope P.\nCalculate the mass number of isotope Q.",
+      "question": "Isotope P of lead has an atomic number of 82 and a mass number of 208.\nIsotope Q of lead has 4 fewer neutrons than isotope P.\nCalculate the mass number of isotope Q.",
       "numericAnswer": 204,
       "tolerance": 0.01,
       "unit": "",
@@ -444,7 +530,8 @@
         "1 mark: neutrons in P = 208 − 82 = 126, so Q has 122",
         "1 mark: mass number of Q = 82 + 122 = 204"
       ],
-      "explanation": "Isotope Q has the same 82 protons but 122 neutrons, so its mass number is 204. Shortcut: 4 fewer neutrons means mass number 4 smaller."
+      "explanation": "Isotope Q has the same 82 protons but 122 neutrons, so its mass number is 204. Shortcut: 4 fewer neutrons means mass number 4 smaller.",
+      "answerLabel": "Mass number"
     },
     {
       "id": "p4-isotopes-q15",
@@ -505,7 +592,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why carbon-12 and carbon-14 are the same element.",
+      "question": "Figure 1 shows the nuclei of carbon-12 and carbon-14.\nExplain why carbon-12 and carbon-14 are the same element.",
       "acceptedAnswers": [
         "same number of protons",
         "same atomic number",
@@ -515,7 +602,10 @@
         "1 mark: they have the same number of protons (6) / same atomic number",
         "1 mark: the number of protons determines the element"
       ],
-      "explanation": "The element depends only on the number of protons. The different number of neutrons changes the mass, not the element."
+      "explanation": "The element depends only on the number of protons. The different number of neutrons changes the mass, not the element.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"82.3\" cy=\"56.4\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"100.8\" cy=\"56.4\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"119.2\" cy=\"56.4\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"137.7\" cy=\"56.4\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"91.6\" cy=\"72.1\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"72.1\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"128.5\" cy=\"72.1\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"82.3\" cy=\"87.9\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"100.8\" cy=\"87.9\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"119.2\" cy=\"87.9\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"137.7\" cy=\"87.9\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"103.6\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">carbon-12</text><circle cx=\"262.3\" cy=\"56.4\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"280.8\" cy=\"56.4\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"299.2\" cy=\"56.4\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"317.7\" cy=\"56.4\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"271.6\" cy=\"72.1\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"290\" cy=\"72.1\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"308.5\" cy=\"72.1\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"262.3\" cy=\"87.9\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"280.8\" cy=\"87.9\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"299.2\" cy=\"87.9\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"317.7\" cy=\"87.9\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"271.6\" cy=\"103.6\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"290\" cy=\"103.6\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"308.5\" cy=\"103.6\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"290\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">carbon-14</text><circle cx=\"130\" cy=\"180\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"142\" y=\"184\" font-size=\"12\" fill=\"currentColor\">proton</text><circle cx=\"210\" cy=\"180\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"222\" y=\"184\" font-size=\"12\" fill=\"currentColor\">neutron</text></svg>"
+      }
     },
     {
       "id": "p4-isotopes-q19",
@@ -541,7 +631,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Isotope A has mass number 40 and atomic number 19. Isotope B has mass number 40 and atomic number 20.\nA student says A and B are isotopes because they have the same mass number. Explain why the student is wrong.",
+      "question": "Table 1 shows information about two atoms, A and B.\nA student says that A and B are isotopes because they have the same mass number.\nExplain why the student is wrong.",
       "acceptedAnswers": [
         "different atomic numbers",
         "different number of protons",
@@ -551,7 +641,26 @@
         "1 mark: A and B have different atomic numbers / numbers of protons",
         "1 mark: so they are different elements, and isotopes must be the same element"
       ],
-      "explanation": "Isotopes must share an atomic number. Having the same mass number is irrelevant."
+      "explanation": "Isotopes must share an atomic number. Having the same mass number is irrelevant.",
+      "table": {
+        "headers": [
+          "Atom",
+          "Atomic number",
+          "Mass number"
+        ],
+        "rows": [
+          [
+            "A",
+            "19",
+            "40"
+          ],
+          [
+            "B",
+            "20",
+            "40"
+          ]
+        ]
+      }
     },
     {
       "id": "p4-isotopes-q21",

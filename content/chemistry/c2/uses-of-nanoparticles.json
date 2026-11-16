@@ -421,7 +421,8 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Silver nanoparticles in a wound dressing have a diameter of 20 nm. Write this diameter in metres. Give your answer in standard form.",
+      "question": "Silver nanoparticles in a wound dressing have a diameter of 20 nm.\nCalculate the diameter of the nanoparticles in metres.\nGive your answer in standard form.",
+      "answerLabel": "Diameter",
       "numericAnswer": 2e-8,
       "tolerance": 0.01,
       "unit": "m",
@@ -436,7 +437,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A nanoparticle catalyst is made of cubes with sides of 2 nm. Calculate the surface area to volume ratio of one cube.",
+      "question": "A nanoparticle catalyst is made of cubes.\nFigure 1 shows one of the cubes.\nCalculate the surface area to volume ratio of the cube.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"110,60 210,60 210,160 110,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"110,60 155,15 255,15 210,60\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"210,60 255,15 255,115 210,160\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"160\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">2 nm</text></svg>"
+      },
+      "answerLabel": "Surface area to volume ratio",
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "per nm",
@@ -452,7 +457,8 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "A sun cream contains 5% nanoparticles by mass. Calculate the mass of nanoparticles in a 200 g bottle.",
+      "question": "A sun cream contains 5% nanoparticles by mass.\nCalculate the mass of nanoparticles in a 200 g bottle of the sun cream.",
+      "answerLabel": "Mass of nanoparticles",
       "numericAnswer": 10,
       "tolerance": 0,
       "unit": "g",
@@ -467,7 +473,24 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A nanoparticle catalyst has 50 times more surface area per gram than the normal powdered catalyst. A factory uses 100 g of the powdered catalyst. Calculate the mass of the nanoparticle catalyst that would give the same total surface area.",
+      "question": "A factory uses 100 g of a powdered catalyst.\nTable 1 shows the relative surface area per gram of two forms of the catalyst.\nCalculate the mass of the nanoparticle catalyst that would give the same total surface area as 100 g of the powdered catalyst.",
+      "table": {
+        "headers": [
+          "Form of catalyst",
+          "Relative surface area per gram"
+        ],
+        "rows": [
+          [
+            "Powder",
+            "1"
+          ],
+          [
+            "Nanoparticles",
+            "50"
+          ]
+        ]
+      },
+      "answerLabel": "Mass of nanoparticle catalyst",
       "numericAnswer": 2,
       "tolerance": 0.01,
       "unit": "g",
@@ -483,7 +506,24 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Titanium dioxide particles in an old sun cream had a side length of 3000 nm. In a new sun cream the particles have a side length of 30 nm. Assuming the particles are cubes, by what factor has the surface area to volume ratio increased?",
+      "question": "Titanium dioxide particles are used in sun creams.\nTable 1 shows the side lengths of the particles in an old sun cream and in a new sun cream.\nThe particles are cubes.\nCalculate the factor by which the surface area to volume ratio of the particles has increased.",
+      "table": {
+        "headers": [
+          "Sun cream",
+          "Side length of particles in nm"
+        ],
+        "rows": [
+          [
+            "Old",
+            "3000"
+          ],
+          [
+            "New",
+            "30"
+          ]
+        ]
+      },
+      "answerLabel": "Factor",
       "numericAnswer": 100,
       "tolerance": 0,
       "unit": "",
@@ -499,7 +539,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A platinum catalyst costs £40 per gram as nanoparticles and £25 per gram as a powder. A process needs 5.0 g of powder or 0.50 g of nanoparticles. Calculate how much money is saved by using the nanoparticles.",
+      "question": "A process uses a platinum catalyst.\nTable 1 shows information about two forms of the catalyst.\nCalculate how much money is saved by using the nanoparticles instead of the powder.",
+      "table": {
+        "headers": [
+          "Form of platinum",
+          "Cost per gram in £",
+          "Mass needed in g"
+        ],
+        "rows": [
+          [
+            "Powder",
+            "25",
+            "5.0"
+          ],
+          [
+            "Nanoparticles",
+            "40",
+            "0.50"
+          ]
+        ]
+      },
+      "answerLabel": "Money saved",
       "numericAnswer": 105,
       "tolerance": 0.01,
       "unit": "£",
@@ -515,7 +575,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A cube of zinc oxide with sides of 1 μm (1000 nm) is divided into nanoparticle cubes with sides of 10 nm. Calculate how many nanoparticles are made.",
+      "question": "Figure 1 shows a cube of zinc oxide with sides of 1 μm (1000 nm).\nThe cube is divided into nanoparticle cubes with sides of 10 nm.\nCalculate the number of nanoparticles made.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"40,70 160,70 160,190 40,190\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"40,70 94,16 214,16 160,70\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"160,70 214,16 214,136 160,190\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"100\" y=\"210\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1000 nm</text><polygon points=\"330,150 350,150 350,170 330,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"330,150 339,141 359,141 350,150\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"350,150 359,141 359,161 350,170\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"340\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10 nm</text><text x=\"100\" y=\"222\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Large cube</text><text x=\"345\" y=\"222\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">One nanoparticle</text><text x=\"330\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Not drawn to scale</text></svg>"
+      },
+      "answerLabel": "Number of nanoparticles",
       "numericAnswer": 1000000,
       "tolerance": 0,
       "unit": "",
@@ -587,7 +651,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Suggest why silver nanoparticles are more effective at killing bacteria than the same mass of a silver bar.",
+      "question": "Figure 1 shows a silver bar and the same mass of silver as nanoparticles.\nSuggest why silver nanoparticles are more effective at killing bacteria than the same mass of a silver bar.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><polygon points=\"40,70 140,70 140,170 40,170\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"40,70 85,25 185,25 140,70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"140,70 185,25 185,125 140,170\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"300,70 314,70 314,84 300,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"300,70 306.3,63.7 320.3,63.7 314,70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"314,70 320.3,63.7 320.3,77.7 314,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"312,110 326,110 326,124 312,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"312,110 318.3,103.7 332.3,103.7 326,110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"326,110 332.3,103.7 332.3,117.7 326,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"300,150 314,150 314,164 300,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"300,150 306.3,143.7 320.3,143.7 314,150\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"314,150 320.3,143.7 320.3,157.7 314,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"330,70 344,70 344,84 330,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"330,70 336.3,63.7 350.3,63.7 344,70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"344,70 350.3,63.7 350.3,77.7 344,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"342,110 356,110 356,124 342,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"342,110 348.3,103.7 362.3,103.7 356,110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"356,110 362.3,103.7 362.3,117.7 356,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"330,150 344,150 344,164 330,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"330,150 336.3,143.7 350.3,143.7 344,150\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"344,150 350.3,143.7 350.3,157.7 344,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"360,70 374,70 374,84 360,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"360,70 366.3,63.7 380.3,63.7 374,70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"374,70 380.3,63.7 380.3,77.7 374,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"372,110 386,110 386,124 372,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"372,110 378.3,103.7 392.3,103.7 386,110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"386,110 392.3,103.7 392.3,117.7 386,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"360,150 374,150 374,164 360,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"360,150 366.3,143.7 380.3,143.7 374,150\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"374,150 380.3,143.7 380.3,157.7 374,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"390,70 404,70 404,84 390,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"390,70 396.3,63.7 410.3,63.7 404,70\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"404,70 410.3,63.7 410.3,77.7 404,84\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"402,110 416,110 416,124 402,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"402,110 408.3,103.7 422.3,103.7 416,110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"416,110 422.3,103.7 422.3,117.7 416,124\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"390,150 404,150 404,164 390,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"390,150 396.3,143.7 410.3,143.7 404,150\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"404,150 410.3,143.7 410.3,157.7 404,164\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"100\" y=\"210\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Silver bar</text><text x=\"360\" y=\"210\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Silver nanoparticles</text><text x=\"370\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Not drawn to scale</text></svg>"
+      },
       "acceptedAnswers": [
         "high surface area to volume ratio",
         "more silver atoms at surface",
@@ -678,7 +745,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A company is deciding whether to use silver nanoparticles in sports socks to prevent odour.\nInformation:\n• Silver nanoparticles kill bacteria that cause odour.\n• Socks with nanoparticles need 0.1 g of silver; socks using silver thread need 2.0 g.\n• Tests show that up to half of the nanoparticles wash out after 10 washes.\n• Silver nanoparticles in waste water can kill bacteria used in sewage treatment.\n• The long-term effects of silver nanoparticles on human health are not yet known.\nUse the information and your knowledge of nanoparticles to evaluate whether the company should use silver nanoparticles.",
+      "question": "A company is deciding whether to use silver nanoparticles in sports socks to prevent odour.\nTable 1 shows some information about silver nanoparticles.\nUse the information in Table 1 and your knowledge of nanoparticles to evaluate whether the company should use silver nanoparticles.",
+      "table": {
+        "headers": [
+          "Topic",
+          "Information"
+        ],
+        "rows": [
+          [
+            "Effect on bacteria",
+            "Silver nanoparticles kill bacteria that cause odour."
+          ],
+          [
+            "Mass of silver needed per pair of socks",
+            "0.1 g as nanoparticles; 2.0 g as silver thread"
+          ],
+          [
+            "Washing",
+            "Up to half of the nanoparticles wash out after 10 washes."
+          ],
+          [
+            "Environment",
+            "Silver nanoparticles in waste water can kill bacteria used in sewage treatment."
+          ],
+          [
+            "Health",
+            "The long-term effects of silver nanoparticles on human health are not yet known."
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: advantages: antibacterial so odour reduced; high surface area to volume ratio so much more effective per gram; 0.1 g compared with 2.0 g, 20 times less silver needed, saving money and resources; disadvantages: half washes out after 10 washes so effect decreases over time; nanoparticles in waste water may kill bacteria in sewage treatment, damaging the treatment process and environment; small size means they may be absorbed through skin; long-term health effects unknown; conclusion: a justified decision, for example use them only after further testing, or do not use them because environmental risk outweighs benefit, or use them because so little silver is needed, with reasons.",
         "Level 3 (5 to 6 marks): a detailed evaluation using the data (including the 20 times difference in mass and wash-out) and scientific knowledge (surface area to volume ratio, possible risks), weighing both sides to reach a justified conclusion.",

@@ -15,6 +15,11 @@ export function QNum({ n }: { n: number }) {
   );
 }
 
+/** Currency units go before the number (£12), every other unit after it (12 m). */
+export function isMoney(unit?: string) {
+  return !!unit && /^[£$€]$/.test(unit.trim());
+}
+
 export function marksLabel(m: number) {
   return `[${m} mark${m === 1 ? "" : "s"}]`;
 }
@@ -144,6 +149,7 @@ export default function ExamQuestion({
               />
               <div className="mt-3 flex flex-wrap items-baseline justify-end gap-2">
                 <span>{q.answerLabel ?? "Answer"} =</span>
+                {isMoney(q.unit) && <span>{q.unit}</span>}
                 <input
                   aria-label="Final answer"
                   value={value}
@@ -152,7 +158,7 @@ export default function ExamQuestion({
                   onKeyDown={(e) => e.key === "Enter" && value.trim() && onEnter?.()}
                   className="answer-line w-44"
                 />
-                <span className="min-w-6">{q.unit}</span>
+                <span className="min-w-6">{isMoney(q.unit) ? "" : q.unit}</span>
               </div>
             </>
           )}

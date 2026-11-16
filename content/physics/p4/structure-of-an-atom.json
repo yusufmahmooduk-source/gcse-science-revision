@@ -307,7 +307,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "An electron in an atom moves to an energy level further from the nucleus. What must have happened?",
+      "question": "Figure 1 shows the energy levels in an atom.\nThe arrow shows an electron moving from energy level 1 to energy level 3, further from the nucleus.\nWhat must have happened for the electron to move in this way?",
       "options": [
         "The atom emitted electromagnetic radiation",
         "The atom absorbed electromagnetic radiation",
@@ -318,7 +318,10 @@
       "markScheme": [
         "1 mark: The atom absorbed electromagnetic radiation"
       ],
-      "explanation": "Moving further from the nucleus means moving to a higher energy level, which needs energy. The energy comes from absorbing electromagnetic radiation. Emission happens when the electron moves closer."
+      "explanation": "Moving further from the nucleus means moving to a higher energy level, which needs energy. The energy comes from absorbing electromagnetic radiation. Emission happens when the electron moves closer.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><circle cx=\"130\" cy=\"130\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"139.6\" cy=\"130\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"138.4\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"121.6\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"184\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 1</text><circle cx=\"130\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 2</text><circle cx=\"130\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"254\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 3</text><circle cx=\"163\" cy=\"107.4\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"169.9462437616284\" y1=\"102.67130428768029\" x2=\"215.00956833569686\" y2=\"71.84182524031137\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><line x1=\"169\" y1=\"103.4\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"304\" y=\"44\" font-size=\"12\" fill=\"currentColor\">electron</text></svg>"
+      }
     },
     {
       "id": "p4-structure-of-an-atom-q08",
@@ -364,7 +367,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The radius of an atom is 1.0 × 10⁻¹⁰ m. The radius of its nucleus is 1/10 000 of this.\nCalculate the radius of the nucleus in metres.",
+      "question": "The radius of an atom is 1.0 × 10⁻¹⁰ m.\nThe radius of its nucleus is 1/10 000 of the radius of the atom.\nCalculate the radius of the nucleus.\nGive your answer in standard form.",
       "numericAnswer": 1e-14,
       "tolerance": 0.01,
       "unit": "m",
@@ -372,7 +375,8 @@
         "1 mark: radius = 1.0 × 10⁻¹⁰ ÷ 10 000",
         "1 mark: 1.0 × 10⁻¹⁴ m"
       ],
-      "explanation": "Divide by 10 000 (10⁴): 10⁻¹⁰ ÷ 10⁴ = 10⁻¹⁴. Multiplying instead gives 10⁻⁶ m, which would be bigger than the atom."
+      "explanation": "Divide by 10 000 (10⁴): 10⁻¹⁰ ÷ 10⁴ = 10⁻¹⁴. Multiplying instead gives 10⁻⁶ m, which would be bigger than the atom.",
+      "answerLabel": "Radius of nucleus"
     },
     {
       "id": "p4-structure-of-an-atom-q11",
@@ -380,7 +384,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A nucleus has a radius of 2 × 10⁻¹⁵ m. The atom has a radius of 1 × 10⁻¹⁰ m.\nCalculate how many times larger the radius of the atom is than the radius of the nucleus.",
+      "question": "Table 1 shows the radius of an atom and the radius of its nucleus.\nCalculate how many times larger the radius of the atom is than the radius of the nucleus.",
       "numericAnswer": 50000,
       "tolerance": 0.01,
       "unit": "",
@@ -388,7 +392,24 @@
         "1 mark: ratio = 1 × 10⁻¹⁰ ÷ 2 × 10⁻¹⁵",
         "1 mark: 50 000 (5 × 10⁴)"
       ],
-      "explanation": "1 × 10⁻¹⁰ ÷ 2 × 10⁻¹⁵ = 0.5 × 10⁵ = 5 × 10⁴. This fits the rule that the nucleus is less than 1/10 000 of the atom."
+      "explanation": "1 × 10⁻¹⁰ ÷ 2 × 10⁻¹⁵ = 0.5 × 10⁵ = 5 × 10⁴. This fits the rule that the nucleus is less than 1/10 000 of the atom.",
+      "table": {
+        "headers": [
+          "Part",
+          "Radius in m"
+        ],
+        "rows": [
+          [
+            "Atom",
+            "1 × 10⁻¹⁰"
+          ],
+          [
+            "Nucleus",
+            "2 × 10⁻¹⁵"
+          ]
+        ]
+      },
+      "answerLabel": "Number of times larger"
     },
     {
       "id": "p4-structure-of-an-atom-q12",
@@ -396,7 +417,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a model of an atom, the nucleus is a marble of radius 0.5 cm. In the model the atom radius is 10 000 times the nucleus radius.\nCalculate the radius of the model atom in metres.",
+      "question": "A teacher makes a scale model of an atom.\nThe nucleus is a marble of radius 0.5 cm.\nIn the model, the radius of the atom is 10 000 times the radius of the nucleus.\nCalculate the radius of the model atom in metres.",
       "numericAnswer": 50,
       "tolerance": 0.01,
       "unit": "m",
@@ -404,7 +425,8 @@
         "1 mark: 0.5 × 10 000 = 5000 cm",
         "1 mark: 5000 ÷ 100 = 50 m"
       ],
-      "explanation": "0.5 cm × 10 000 = 5000 cm. There are 100 cm in a metre, so 5000 cm = 50 m. This shows how much empty space an atom contains."
+      "explanation": "0.5 cm × 10 000 = 5000 cm. There are 100 cm in a metre, so 5000 cm = 50 m. This shows how much empty space an atom contains.",
+      "answerLabel": "Radius of model atom"
     },
     {
       "id": "p4-structure-of-an-atom-q13",
@@ -412,7 +434,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A gold atom has a radius of 1.4 × 10⁻¹⁰ m. Its nucleus has a radius of 7.0 × 10⁻¹⁵ m.\nCalculate the ratio radius of atom : radius of nucleus. Give your answer as a single number.",
+      "question": "Table 1 shows data about a gold atom.\nCalculate the ratio:\nradius of atom ÷ radius of nucleus",
       "numericAnswer": 20000,
       "tolerance": 0.01,
       "unit": "",
@@ -420,7 +442,24 @@
         "1 mark: 1.4 × 10⁻¹⁰ ÷ 7.0 × 10⁻¹⁵",
         "1 mark: 20 000 (2 × 10⁴)"
       ],
-      "explanation": "1.4 ÷ 7.0 = 0.2 and 10⁻¹⁰ ÷ 10⁻¹⁵ = 10⁵, so the ratio is 0.2 × 10⁵ = 2 × 10⁴ = 20 000."
+      "explanation": "1.4 ÷ 7.0 = 0.2 and 10⁻¹⁰ ÷ 10⁻¹⁵ = 10⁵, so the ratio is 0.2 × 10⁵ = 2 × 10⁴ = 20 000.",
+      "table": {
+        "headers": [
+          "Part of gold atom",
+          "Radius in m"
+        ],
+        "rows": [
+          [
+            "Atom",
+            "1.4 × 10⁻¹⁰"
+          ],
+          [
+            "Nucleus",
+            "7.0 × 10⁻¹⁵"
+          ]
+        ]
+      },
+      "answerLabel": "Ratio"
     },
     {
       "id": "p4-structure-of-an-atom-q14",
@@ -428,14 +467,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Write the atomic radius 1 × 10⁻¹⁰ m in nanometres. (1 nm = 1 × 10⁻⁹ m)",
+      "question": "The radius of an atom is 1 × 10⁻¹⁰ m.\n1 nm = 1 × 10⁻⁹ m\nWhat is the radius of the atom in nanometres?",
       "numericAnswer": 0.1,
       "tolerance": 0.01,
       "unit": "nm",
       "markScheme": [
         "1 mark: 0.1 nm"
       ],
-      "explanation": "1 × 10⁻¹⁰ ÷ 1 × 10⁻⁹ = 1 × 10⁻¹ = 0.1 nm. An atom is one tenth of a nanometre across in radius."
+      "explanation": "1 × 10⁻¹⁰ ÷ 1 × 10⁻⁹ = 1 × 10⁻¹ = 0.1 nm. An atom is one tenth of a nanometre across in radius.",
+      "answerLabel": "Radius"
     },
     {
       "id": "p4-structure-of-an-atom-q15",
@@ -461,7 +501,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "State where the electrons are found in an atom.",
+      "question": "Figure 1 shows a model of an atom.\nThe particle labelled E is an electron.\nDescribe where the electrons are found in an atom.",
       "acceptedAnswers": [
         "energy levels",
         "shells",
@@ -470,7 +510,10 @@
       "markScheme": [
         "1 mark: in energy levels (shells) at different distances from the nucleus"
       ],
-      "explanation": "Electrons are outside the nucleus, arranged in energy levels at fixed distances from it."
+      "explanation": "Electrons are outside the nucleus, arranged in energy levels at fixed distances from it.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"130\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"162.8\" cy=\"130\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"143.6\" cy=\"141.1\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"143.6\" cy=\"118.9\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"137.2\" cy=\"130\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"156.4\" cy=\"141.1\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"156.4\" cy=\"118.9\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"150\" cy=\"130\" r=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><circle cx=\"191.3\" cy=\"158.2\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"108.7\" cy=\"101.8\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"150\" cy=\"130\" r=\"95\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><circle cx=\"233.4\" cy=\"84.5\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"233.4\" y1=\"84.5\" x2=\"330\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"336\" y=\"64\" font-size=\"12\" fill=\"currentColor\">E</text><line x1=\"150\" y1=\"130\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"336\" y=\"154\" font-size=\"12\" fill=\"currentColor\">nucleus</text></svg>"
+      }
     },
     {
       "id": "p4-structure-of-an-atom-q17",
@@ -512,7 +555,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe what happens to an electron in an atom when the atom absorbs electromagnetic radiation.",
+      "question": "Figure 1 shows the energy levels in an atom.\nThe atom absorbs electromagnetic radiation.\nDescribe what happens to the electron shown in Figure 1.",
       "acceptedAnswers": [
         "moves to higher energy level",
         "further from nucleus",
@@ -522,7 +565,10 @@
         "1 mark: the electron gains energy",
         "1 mark: it moves to a higher energy level / further from the nucleus"
       ],
-      "explanation": "Absorbed radiation gives the electron energy, so it moves out to a level further from the nucleus."
+      "explanation": "Absorbed radiation gives the electron energy, so it moves out to a level further from the nucleus.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><circle cx=\"130\" cy=\"130\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"139.6\" cy=\"130\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"138.4\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"121.6\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"184\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 1</text><circle cx=\"130\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 2</text><circle cx=\"130\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"254\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 3</text><circle cx=\"163\" cy=\"107.4\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"169\" y1=\"103.4\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"304\" y=\"44\" font-size=\"12\" fill=\"currentColor\">electron</text></svg>"
+      }
     },
     {
       "id": "p4-structure-of-an-atom-q20",
@@ -624,7 +670,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "An electron moves from energy level 3 to energy level 1 in an atom. Which statement is correct?",
+      "question": "Figure 1 shows the energy levels in an atom.\nThe arrow shows an electron moving from energy level 3 to energy level 1.\nWhich statement is correct?",
       "options": [
         "The atom absorbs radiation and the electron moves further from the nucleus",
         "The atom absorbs radiation and the electron moves closer to the nucleus",
@@ -635,7 +681,10 @@
       "markScheme": [
         "1 mark: The atom emits radiation and the electron moves closer to the nucleus"
       ],
-      "explanation": "Level 1 is closest to the nucleus and lowest in energy. Dropping from level 3 to level 1 releases energy, which is emitted as electromagnetic radiation."
+      "explanation": "Level 1 is closest to the nucleus and lowest in energy. Dropping from level 3 to level 1 releases energy, which is emitted as electromagnetic radiation.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><circle cx=\"130\" cy=\"130\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"139.6\" cy=\"130\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"138.4\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"125.2\" cy=\"121.6\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"184\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 1</text><circle cx=\"130\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 2</text><circle cx=\"130\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"130\" y=\"254\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">level 3</text><circle cx=\"220.8\" cy=\"67.9\" r=\"5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"213.85409847482333\" y1=\"72.63232470306441\" x2=\"168.79077390075489\" y2=\"103.46180375043333\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#ar)\"/><line x1=\"226.8\" y1=\"63.9\" x2=\"300\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"304\" y=\"44\" font-size=\"12\" fill=\"currentColor\">electron</text></svg>"
+      }
     },
     {
       "id": "p4-structure-of-an-atom-q26",

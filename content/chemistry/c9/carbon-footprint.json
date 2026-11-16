@@ -248,7 +248,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Planting trees to balance the carbon dioxide released by a flight is an example of:",
+      "question": "Planting trees to balance the carbon dioxide released by a flight is an example of which method?",
       "options": [
         "carbon capture and storage",
         "a carbon tax",
@@ -381,7 +381,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Example data: a T-shirt has a carbon footprint of 8.0 kg CO₂. Manufacture contributes 4.4 kg. What percentage of the carbon footprint is from manufacture?",
+      "question": "Figure 1 shows the carbon footprint of a cotton T-shirt at each stage of its life cycle.\nThe total carbon footprint of the T-shirt is 8.0 kg of carbon dioxide.\nWhat percentage of the carbon footprint comes from manufacture?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 238H460M62 229.1H460M62 220.2H460M62 211.2H460M62 202.3H460M62 193.4H460M62 184.5H460M62 175.6H460M62 166.6H460M62 157.7H460M62 148.8H460M62 139.9H460M62 131H460M62 122H460M62 113.1H460M62 104.2H460M62 95.3H460M62 86.4H460M62 77.4H460M62 68.5H460M62 59.6H460M62 50.7H460M62 41.8H460M62 32.8H460M62 23.9H460M62 15H460\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 238H460M62 193.4H460M62 148.8H460M62 104.2H460M62 59.6H460M62 15H460\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 15V238H460\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"56\" y=\"242\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"197.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"152.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"108.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"56\" y=\"63.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"261\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Life cycle stage</text><text x=\"14\" y=\"126.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 126.5)\">Mass of CO₂ in kg</text><rect x=\"79.9\" y=\"184.5\" width=\"43.8\" height=\"53.5\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"101.8\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Raw</text><text x=\"101.8\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">materials</text><rect x=\"159.5\" y=\"41.8\" width=\"43.8\" height=\"196.2\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"181.4\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Manufacture</text><rect x=\"239.1\" y=\"202.3\" width=\"43.8\" height=\"35.7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"261\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Transport</text><rect x=\"318.7\" y=\"175.6\" width=\"43.8\" height=\"62.4\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"340.6\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Use</text><rect x=\"398.3\" y=\"229.1\" width=\"43.8\" height=\"8.9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"420.2\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Disposal</text></svg>"
+      },
       "options": [
         "44%",
         "36%",
@@ -392,7 +395,7 @@
       "markScheme": [
         "1 mark: 55%"
       ],
-      "explanation": "4.4 ÷ 8.0 × 100 = 55%. 44% comes from wrongly dividing by 10."
+      "explanation": "Read the manufacture bar: 4.4 kg. 4.4 ÷ 8.0 × 100 = 55%. 44% comes from wrongly dividing by 10 instead of by the total."
     },
     {
       "id": "c9-carbon-footprint-q11",
@@ -400,14 +403,43 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Example data: the life cycle stages of a product emit 2.0 kg, 1.5 kg, 0.8 kg, 0.2 kg and 0.5 kg of carbon dioxide. Calculate the carbon footprint of the product.",
+      "question": "Table 1 shows the mass of carbon dioxide released at each stage of the life cycle of a product.\nCalculate the carbon footprint of the product.",
+      "table": {
+        "headers": [
+          "Life cycle stage",
+          "Mass of carbon dioxide released in kg"
+        ],
+        "rows": [
+          [
+            "Extracting raw materials",
+            "2.0"
+          ],
+          [
+            "Manufacture",
+            "1.5"
+          ],
+          [
+            "Transport",
+            "0.8"
+          ],
+          [
+            "Use",
+            "0.2"
+          ],
+          [
+            "Disposal",
+            "0.5"
+          ]
+        ]
+      },
       "numericAnswer": 5,
       "tolerance": 0.01,
       "unit": "kg",
       "markScheme": [
         "1 mark: 5.0 kg"
       ],
-      "explanation": "The carbon footprint is the total over the full life cycle: 2.0 + 1.5 + 0.8 + 0.2 + 0.5 = 5.0 kg."
+      "explanation": "The carbon footprint is the total over the full life cycle: 2.0 + 1.5 + 0.8 + 0.2 + 0.5 = 5.0 kg.",
+      "answerLabel": "Carbon footprint"
     },
     {
       "id": "c9-carbon-footprint-q12",
@@ -415,7 +447,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: a household uses 3200 kWh of electricity in a year. Each kWh produces 0.25 kg of carbon dioxide. Calculate the mass of carbon dioxide produced, in tonnes.",
+      "question": "Table 1 shows information about the electricity used by a household in one year.\nCalculate the mass of carbon dioxide produced by generating this electricity.\nGive your answer in tonnes.\n1 tonne = 1000 kg",
+      "table": {
+        "headers": [
+          "Electricity used in one year in kWh",
+          "Mass of carbon dioxide produced per kWh in kg"
+        ],
+        "rows": [
+          [
+            "3200",
+            "0.25"
+          ]
+        ]
+      },
       "numericAnswer": 0.8,
       "tolerance": 0.01,
       "unit": "tonnes",
@@ -423,7 +467,8 @@
         "1 mark: 3200 × 0.25 = 800 kg",
         "1 mark: 800 ÷ 1000 = 0.8 tonnes"
       ],
-      "explanation": "Multiply energy by the emission factor, then convert kg to tonnes by dividing by 1000."
+      "explanation": "Multiply energy by the emission factor, then convert kg to tonnes by dividing by 1000.",
+      "answerLabel": "Mass of carbon dioxide"
     },
     {
       "id": "c9-carbon-footprint-q13",
@@ -431,7 +476,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: after insulating its loft and walls, a family's carbon footprint for heating fell from 2.4 tonnes to 1.5 tonnes of carbon dioxide per year. Calculate the percentage reduction.",
+      "question": "A family insulated the loft and walls of their home.\nFigure 1 shows the carbon footprint for heating the home in one year, before and after insulating.\nCalculate the percentage reduction in the carbon footprint for heating.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 252H360M62 244.1H360M62 236.2H360M62 228.3H360M62 220.4H360M62 212.5H360M62 204.6H360M62 196.7H360M62 188.8H360M62 180.9H360M62 173H360M62 165.1H360M62 157.2H360M62 149.3H360M62 141.4H360M62 133.5H360M62 125.6H360M62 117.7H360M62 109.8H360M62 101.9H360M62 94H360M62 86.1H360M62 78.2H360M62 70.3H360M62 62.4H360M62 54.5H360M62 46.6H360M62 38.7H360M62 30.8H360M62 22.9H360M62 15H360\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 252H360M62 212.5H360M62 173H360M62 133.5H360M62 94H360M62 54.5H360M62 15H360\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 15V252H360\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"56\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"216.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.5</text><text x=\"56\" y=\"177\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"137.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1.5</text><text x=\"56\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"58.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2.5</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"14\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 133.5)\">Carbon footprint in tonnes of CO₂</text><rect x=\"103\" y=\"62.4\" width=\"67.1\" height=\"189.6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"136.5\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Before insulating</text><rect x=\"252\" y=\"133.5\" width=\"67.1\" height=\"118.5\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"285.5\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">After insulating</text></svg>"
+      },
       "numericAnswer": 37.5,
       "tolerance": 0.01,
       "unit": "%",
@@ -439,7 +487,8 @@
         "1 mark: (2.4 − 1.5) ÷ 2.4 × 100",
         "1 mark: 37.5%"
       ],
-      "explanation": "Reduction = 0.9 tonnes. 0.9 ÷ 2.4 = 0.375 = 37.5%."
+      "explanation": "From Figure 1: before = 2.4 tonnes, after = 1.5 tonnes. Reduction = 0.9 tonnes. 0.9 ÷ 2.4 × 100 = 37.5%.",
+      "answerLabel": "Percentage reduction"
     },
     {
       "id": "c9-carbon-footprint-q14",
@@ -447,7 +496,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Example data: one tree absorbs about 25 kg of carbon dioxide per year. Calculate how many trees are needed to offset 1.5 tonnes of carbon dioxide per year.",
+      "question": "One tree absorbs about 25 kg of carbon dioxide per year.\nCalculate the number of trees needed to offset 1.5 tonnes of carbon dioxide per year.\n1 tonne = 1000 kg",
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "trees",
@@ -455,7 +504,8 @@
         "1 mark: 1.5 tonnes = 1500 kg",
         "1 mark: 1500 ÷ 25 = 60 trees"
       ],
-      "explanation": "Convert tonnes to kg first so the units match, then divide."
+      "explanation": "Convert tonnes to kg first so the units match, then divide.",
+      "answerLabel": "Number of trees"
     },
     {
       "id": "c9-carbon-footprint-q15",
@@ -463,7 +513,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Example data: a car emits 150 g of carbon dioxide per km. A bus emits 1200 g per km but carries 40 passengers. Calculate how many grams of carbon dioxide per passenger per km are saved when one person travels by bus instead of driving alone.",
+      "question": "Table 1 shows information about carbon dioxide emissions from a car and a bus.\nCalculate the mass of carbon dioxide saved per km when one person travels by bus instead of driving alone in the car.\nAssume the bus is full.",
+      "table": {
+        "headers": [
+          "Vehicle",
+          "Mass of carbon dioxide emitted per km in g",
+          "Number of passengers"
+        ],
+        "rows": [
+          [
+            "Car",
+            "150",
+            "1"
+          ],
+          [
+            "Bus",
+            "1200",
+            "40"
+          ]
+        ]
+      },
       "numericAnswer": 120,
       "tolerance": 0.01,
       "unit": "g",
@@ -472,7 +541,8 @@
         "1 mark: car (one person) = 150 g per km",
         "1 mark: saving = 150 − 30 = 120 g per km"
       ],
-      "explanation": "Sharing the bus's emissions among 40 people gives 30 g per passenger per km, much less than 150 g for a car with one person."
+      "explanation": "Sharing the bus's emissions among 40 people gives 30 g per passenger per km, much less than 150 g for a car with one person.",
+      "answerLabel": "Mass of carbon dioxide saved per km"
     },
     {
       "id": "c9-carbon-footprint-q16",
@@ -663,7 +733,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Example data: an electric car has higher emissions during manufacture than a petrol car, but much lower emissions during use. Explain why the full life cycle must be considered when comparing their carbon footprints.",
+      "question": "Figure 1 shows estimated carbon dioxide emissions at each stage of the life cycle of a petrol car and an electric car.\nExplain why the full life cycle must be considered when comparing the carbon footprints of the two cars.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 252H440M62 218.1H440M62 184.3H440M62 150.4H440M62 116.6H440M62 82.7H440M62 48.9H440M62 15H440\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 15V252H440\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"56\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"222.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"56\" y=\"188.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"56\" y=\"154.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><text x=\"56\" y=\"120.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"56\" y=\"86.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25</text><text x=\"56\" y=\"52.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">35</text><text x=\"251\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Life cycle stage</text><text x=\"14\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 133.5)\">Mass of CO₂ in tonnes</text><rect x=\"80.9\" y=\"204.6\" width=\"44.1\" height=\"47.4\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"125\" y=\"170.7\" width=\"44.1\" height=\"81.3\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"125\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Manufacture</text><rect x=\"206.9\" y=\"48.9\" width=\"44.1\" height=\"203.1\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"251\" y=\"184.3\" width=\"44.1\" height=\"67.7\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"251\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Use</text><rect x=\"332.9\" y=\"245.2\" width=\"44.1\" height=\"6.8\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"377\" y=\"245.2\" width=\"44.1\" height=\"6.8\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"377\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Disposal</text><rect x=\"330\" y=\"22\" width=\"14\" height=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"350\" y=\"33\" font-size=\"12\" fill=\"currentColor\">Petrol car</text><rect x=\"330\" y=\"40\" width=\"14\" height=\"12\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"350\" y=\"51\" font-size=\"12\" fill=\"currentColor\">Electric car</text></svg>"
+      },
       "acceptedAnswers": [
         "full life cycle",
         "manufacture emissions",
@@ -672,10 +745,10 @@
         "depends on electricity source"
       ],
       "markScheme": [
-        "1 mark: comparing only one stage (for example use) would give a misleading result",
-        "1 mark: the total emissions over all stages (raw materials, manufacture, use, disposal) decide which has the lower carbon footprint, which also depends on how the electricity is generated"
+        "1 mark: the electric car has higher emissions during manufacture (12 tonnes compared with 7 tonnes), so comparing only one stage would give a misleading result",
+        "1 mark: the totals over all stages (petrol 38 tonnes, electric 23 tonnes) decide which has the lower carbon footprint; emissions during use depend on how the electricity is generated"
       ],
-      "explanation": "The carbon footprint is defined over the full life cycle, so higher manufacturing emissions may be outweighed by lower emissions during use."
+      "explanation": "The carbon footprint is defined over the full life cycle. In Figure 1 the electric car has higher manufacturing emissions, but these are outweighed by much lower emissions during use, so its total is lower."
     },
     {
       "id": "c9-carbon-footprint-q26",
@@ -697,7 +770,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A government plans to halve the country's carbon footprint in 20 years. Discuss the actions it could take to reduce emissions of carbon dioxide and methane, and explain why these actions may be limited.",
+      "question": "Figure 1 shows the sources of greenhouse gas emissions in one country.\nThe government of the country plans to halve its carbon footprint in 20 years.\nDiscuss the actions the government could take to reduce emissions of carbon dioxide and methane, and explain why these actions may be limited.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 270\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M230 135L230 40A95 95 0 0 1 320.4 164.4Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M310.1 76.8L324.7 66.2h4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"330.7\" y=\"70.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Energy supply</text><path d=\"M230 135L320.4 164.4A95 95 0 0 1 195 223.3Z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M272.2 224.6L279.8 240.9h4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"285.8\" y=\"244.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Transport</text><path d=\"M230 135L195 223.3A95 95 0 0 1 139.6 164.4Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M157.8 202.8L144.7 215.1h-4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"138.7\" y=\"211.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Agriculture</text><text x=\"138.7\" y=\"226.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">(mainly methane)</text><path d=\"M230 135L139.6 164.4A95 95 0 0 1 156.8 74.4Z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M132.8 116.4L115.1 113.1h-4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"109.1\" y=\"117.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Homes</text><path d=\"M230 135L156.8 74.4A95 95 0 0 1 179.1 54.8Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M164.5 60.7L152.6 47.2h-4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"146.6\" y=\"43.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Waste in landfill</text><text x=\"146.6\" y=\"58.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">(mainly methane)</text><path d=\"M230 135L179.1 54.8A95 95 0 0 1 230 40Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M202.4 39.9L197.4 22.6h-4\" stroke=\"currentColor\" fill=\"none\"/><text x=\"191.4\" y=\"26.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Industry</text></svg>"
+      },
       "markScheme": [
         "Indicative content: actions: alternative energy (wind, solar, nuclear) to replace fossil fuel power stations; energy conservation (insulation grants, efficient appliances, public transport); carbon capture and storage; carbon taxes and licences; carbon offsetting through tree planting; methane: reduce landfill (recycling, composting), capture landfill methane, reduce livestock farming. Limits: scientific disagreement over causes and effects; economic considerations (high cost, effect on jobs and industry, competitiveness); lack of public information and education; people unwilling to make lifestyle changes (for example flying less, eating less meat); need for international cooperation because emissions are global and other countries may not cut theirs.",
         "Level 3 (5 to 6 marks): a range of actions for both carbon dioxide and methane explained, and several limitations discussed with reasons, leading to a balanced judgement.",
