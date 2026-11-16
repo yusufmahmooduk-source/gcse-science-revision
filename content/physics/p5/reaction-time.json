@@ -283,7 +283,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "In a ruler drop test, student X catches the ruler at 12 cm and student Y catches it at 18 cm. What can you conclude?",
+      "question": "Two students, X and Y, did a ruler drop test.\nTable 1 shows the distance the ruler fell before each student caught it.\nWhat can you conclude?",
       "options": [
         "Student Y has the shorter reaction time.",
         "Student X has the shorter reaction time.",
@@ -294,7 +294,23 @@
       "markScheme": [
         "1 mark: Student X has the shorter reaction time."
       ],
-      "explanation": "The ruler falls further the longer it takes to catch it, so the smaller distance (12 cm) means the shorter reaction time. Both rulers fall with the same acceleration."
+      "explanation": "The ruler falls further the longer it takes to catch it, so the smaller distance (12 cm) means the shorter reaction time. Both rulers fall with the same acceleration.",
+      "table": {
+        "headers": [
+          "Student",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "X",
+            "12"
+          ],
+          [
+            "Y",
+            "18"
+          ]
+        ]
+      }
     },
     {
       "id": "p5-reaction-time-q05",
@@ -321,7 +337,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Two students compare their reaction times using a ruler drop test. Which is the most important control variable?",
+      "question": "Two students compare their reaction times using a ruler drop test.\nWhich is the most important control variable?",
       "options": [
         "The height of each student",
         "The mass of the ruler",
@@ -340,7 +356,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which is an advantage of using a computer test (clicking when the screen changes colour) rather than a ruler drop test?",
+      "question": "A computer test measures reaction time. The user clicks the mouse when the screen changes colour.\nWhat is an advantage of using the computer test rather than a ruler drop test?",
       "options": [
         "It records the time directly with a better resolution, and the stimulus can appear at random times.",
         "It always gives a reaction time of 0.9 s.",
@@ -359,7 +375,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A car's speed doubles and the driver's reaction time also doubles because the driver is tired. By what factor does the thinking distance change?",
+      "question": "The speed of a car doubles. The reaction time of the driver also doubles because the driver is tired.\nBy what factor does the thinking distance change?",
       "options": [
         "It stays the same.",
         "It doubles.",
@@ -397,7 +413,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student's ruler drop results are 12 cm, 13 cm, 25 cm and 12 cm. What is the best value to use for the mean distance?",
+      "question": "Table 1 shows the results of a student's ruler drop test.\nWhat is the best value to use for the mean distance?",
       "options": [
         "15.5 cm",
         "12.3 cm",
@@ -408,7 +424,31 @@
       "markScheme": [
         "1 mark: 12.3 cm"
       ],
-      "explanation": "25 cm is anomalous, so it is left out. Mean = (12 + 13 + 12) ÷ 3 = 12.3 cm. 15.5 cm includes the anomaly; 12 cm is the mode, not the mean."
+      "explanation": "25 cm is anomalous, so it is left out. Mean = (12 + 13 + 12) ÷ 3 = 12.3 cm. 15.5 cm includes the anomaly; 12 cm is the mode, not the mean.",
+      "table": {
+        "headers": [
+          "Test",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "1",
+            "12"
+          ],
+          [
+            "2",
+            "13"
+          ],
+          [
+            "3",
+            "25"
+          ],
+          [
+            "4",
+            "12"
+          ]
+        ]
+      }
     },
     {
       "id": "p5-reaction-time-q11",
@@ -416,7 +456,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A student's three ruler drop results are 18 cm, 22 cm and 20 cm.\nCalculate the mean distance fallen.",
+      "question": "Table 1 shows the results of a student's ruler drop test.\nCalculate the mean distance the ruler fell.",
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "cm",
@@ -424,7 +464,28 @@
         "1 mark: (18 + 22 + 20) ÷ 3",
         "1 mark: 20 cm"
       ],
-      "explanation": "Mean = 60 ÷ 3 = 20 cm."
+      "explanation": "Mean = 60 ÷ 3 = 20 cm.",
+      "table": {
+        "headers": [
+          "Test",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "1",
+            "18"
+          ],
+          [
+            "2",
+            "22"
+          ],
+          [
+            "3",
+            "20"
+          ]
+        ]
+      },
+      "answerLabel": "Mean distance"
     },
     {
       "id": "p5-reaction-time-q12",
@@ -432,7 +493,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A driver travelling at 13 m/s has a reaction time of 0.5 s.\nCalculate the thinking distance.",
+      "question": "A driver is travelling at 13 m/s. The reaction time of the driver is 0.5 s.\nCalculate the thinking distance.",
       "numericAnswer": 6.5,
       "tolerance": 0.01,
       "unit": "m",
@@ -440,7 +501,8 @@
         "1 mark: 13 × 0.5",
         "1 mark: 6.5 m"
       ],
-      "explanation": "Thinking distance = speed × reaction time = 13 × 0.5 = 6.5 m."
+      "explanation": "Thinking distance = speed × reaction time = 13 × 0.5 = 6.5 m.",
+      "answerLabel": "Thinking distance"
     },
     {
       "id": "p5-reaction-time-q13",
@@ -448,7 +510,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A computer reaction test gives three results: 0.25 s, 0.27 s and 0.29 s.\nCalculate the mean reaction time.",
+      "question": "Table 1 shows the results of three computer reaction tests.\nCalculate the mean reaction time.",
       "numericAnswer": 0.27,
       "tolerance": 0.01,
       "unit": "s",
@@ -456,7 +518,28 @@
         "1 mark: (0.25 + 0.27 + 0.29) ÷ 3",
         "1 mark: 0.27 s"
       ],
-      "explanation": "Mean = 0.81 ÷ 3 = 0.27 s."
+      "explanation": "Mean = 0.81 ÷ 3 = 0.27 s.",
+      "table": {
+        "headers": [
+          "Test",
+          "Reaction time in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "0.25"
+          ],
+          [
+            "2",
+            "0.27"
+          ],
+          [
+            "3",
+            "0.29"
+          ]
+        ]
+      },
+      "answerLabel": "Mean reaction time"
     },
     {
       "id": "p5-reaction-time-q14",
@@ -464,7 +547,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A driver travels at 30 m/s. When alert, her reaction time is 0.5 s. When she uses a phone, her reaction time is 0.9 s.\nCalculate how much further the car travels before braking when she is using the phone.",
+      "question": "A driver travels at 30 m/s.\nTable 1 shows the reaction time of the driver when she is alert and when she is using a phone.\nCalculate how much further the car travels before the brakes are applied when she is using the phone.",
       "numericAnswer": 12,
       "tolerance": 0.01,
       "unit": "m",
@@ -473,7 +556,24 @@
         "1 mark: distracted thinking distance = 30 × 0.9 = 27 m",
         "1 mark: difference = 12 m"
       ],
-      "explanation": "27 − 15 = 12 m, or 30 × (0.9 − 0.5) = 12 m. That is about three car lengths further before braking even starts."
+      "explanation": "27 − 15 = 12 m, or 30 × (0.9 − 0.5) = 12 m. That is about three car lengths further before braking even starts.",
+      "table": {
+        "headers": [
+          "Condition",
+          "Reaction time in s"
+        ],
+        "rows": [
+          [
+            "Alert",
+            "0.5"
+          ],
+          [
+            "Using a phone",
+            "0.9"
+          ]
+        ]
+      },
+      "answerLabel": "Extra distance"
     },
     {
       "id": "p5-reaction-time-q15",
@@ -481,7 +581,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A ruler is released from rest and falls 20 cm before it is caught. The acceleration of the ruler is 9.8 m/s².\nCalculate the reaction time of the person catching it.",
+      "question": "A ruler is released from rest. The ruler falls 20 cm before it is caught.\nThe acceleration of the ruler is 9.8 m/s².\nCalculate the reaction time of the person catching the ruler.\nUse the equation:\n(final velocity)² − (initial velocity)² = 2 × acceleration × distance",
       "numericAnswer": 0.2,
       "tolerance": 0.03,
       "unit": "s",
@@ -491,7 +591,8 @@
         "1 mark: t = v ÷ a = 1.98 ÷ 9.8",
         "1 mark: t = 0.20 s"
       ],
-      "explanation": "Use v² − u² = 2as with u = 0 to find the final speed, then a = Δv ÷ t to find the time. Remember to convert 20 cm to 0.20 m."
+      "explanation": "Use v² − u² = 2as with u = 0 to find the final speed, then a = Δv ÷ t to find the time. Remember to convert 20 cm to 0.20 m.",
+      "answerLabel": "Reaction time"
     },
     {
       "id": "p5-reaction-time-q16",
@@ -499,7 +600,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A metre rule is released from rest and falls 45 cm before it is caught. The acceleration of the rule is 9.8 m/s².\nCalculate the reaction time.",
+      "question": "A metre rule is released from rest. The rule falls 45 cm before it is caught.\nThe acceleration of the rule is 9.8 m/s².\nCalculate the reaction time of the person catching the rule.\nUse the equation:\n(final velocity)² − (initial velocity)² = 2 × acceleration × distance",
       "numericAnswer": 0.303,
       "tolerance": 0.03,
       "unit": "s",
@@ -509,7 +610,8 @@
         "1 mark: t = 2.97 ÷ 9.8",
         "1 mark: t = 0.30 s"
       ],
-      "explanation": "v = √8.82 = 2.97 m/s; t = 2.97 ÷ 9.8 = 0.30 s. This is longer than the 20 cm result, as expected for a greater distance fallen."
+      "explanation": "v = √8.82 = 2.97 m/s; t = 2.97 ÷ 9.8 = 0.30 s. This is longer than the 20 cm result, as expected for a greater distance fallen.",
+      "answerLabel": "Reaction time"
     },
     {
       "id": "p5-reaction-time-q17",
@@ -517,7 +619,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A driver has a reaction time of 0.9 s and is travelling at 54 km/h.\nCalculate the thinking distance.",
+      "question": "A driver is travelling at 54 km/h. The reaction time of the driver is 0.9 s.\nCalculate the thinking distance.",
       "numericAnswer": 13.5,
       "tolerance": 0.01,
       "unit": "m",
@@ -526,7 +628,8 @@
         "1 mark: 15 × 0.9",
         "1 mark: 13.5 m"
       ],
-      "explanation": "Convert first: 54 km/h = 15 m/s. Thinking distance = 15 × 0.9 = 13.5 m."
+      "explanation": "Convert first: 54 km/h = 15 m/s. Thinking distance = 15 × 0.9 = 13.5 m.",
+      "answerLabel": "Thinking distance"
     },
     {
       "id": "p5-reaction-time-q18",
@@ -534,7 +637,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A driver's reaction time is 0.4 s when alert and 0.8 s when tired. The car travels at 27 m/s.\nCalculate the extra thinking distance when the driver is tired.",
+      "question": "A car travels at 27 m/s.\nTable 1 shows the reaction time of the driver when alert and when tired.\nCalculate the extra thinking distance when the driver is tired.",
       "numericAnswer": 10.8,
       "tolerance": 0.01,
       "unit": "m",
@@ -543,7 +646,24 @@
         "1 mark: tired: 27 × 0.8 = 21.6 m",
         "1 mark: extra = 10.8 m"
       ],
-      "explanation": "Doubling the reaction time doubles the thinking distance, from 10.8 m to 21.6 m, an extra 10.8 m."
+      "explanation": "Doubling the reaction time doubles the thinking distance, from 10.8 m to 21.6 m, an extra 10.8 m.",
+      "table": {
+        "headers": [
+          "Condition of driver",
+          "Reaction time in s"
+        ],
+        "rows": [
+          [
+            "Alert",
+            "0.4"
+          ],
+          [
+            "Tired",
+            "0.8"
+          ]
+        ]
+      },
+      "answerLabel": "Extra thinking distance"
     },
     {
       "id": "p5-reaction-time-q19",
@@ -587,7 +707,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Describe how a ruler drop test can be used to measure a person's reaction time.",
+      "question": "Figure 1 shows a ruler drop test.\nDescribe how the ruler drop test can be used to measure a person's reaction time.",
       "acceptedAnswers": [
         "zero mark level with fingers",
         "drop without warning",
@@ -602,7 +722,10 @@
         "1 mark: partner releases the ruler without warning and the catcher catches it; read the distance fallen at the fingers",
         "1 mark: repeat several times, calculate a mean and convert distance to time using a table or graph"
       ],
-      "explanation": "A longer distance fallen means a longer reaction time. Repeating improves the reliability of the result."
+      "explanation": "A longer distance fallen means a longer reaction time. Repeating improves the reliability of the result.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 310\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"180\" y=\"20\" width=\"40\" height=\"260\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"196\" y=\"274\" font-size=\"12\" fill=\"currentColor\">0</text><text x=\"196\" y=\"234\" font-size=\"12\" fill=\"currentColor\">5</text><text x=\"196\" y=\"194\" font-size=\"12\" fill=\"currentColor\">10</text><text x=\"196\" y=\"154\" font-size=\"12\" fill=\"currentColor\">15</text><text x=\"196\" y=\"114\" font-size=\"12\" fill=\"currentColor\">20</text><text x=\"196\" y=\"74\" font-size=\"12\" fill=\"currentColor\">25</text><text x=\"196\" y=\"34\" font-size=\"12\" fill=\"currentColor\">30</text><path d=\"M180 270h12M180 262h6M180 254h6M180 246h6M180 238h6M180 230h12M180 222h6M180 214h6M180 206h6M180 198h6M180 190h12M180 182h6M180 174h6M180 166h6M180 158h6M180 150h12M180 142h6M180 134h6M180 126h6M180 118h6M180 110h12M180 102h6M180 94h6M180 86h6M180 78h6M180 70h12M180 62h6M180 54h6M180 46h6M180 38h6M180 30h12\" stroke=\"currentColor\" stroke-width=\"1\" fill=\"none\"/><ellipse cx=\"200\" cy=\"18\" rx=\"30\" ry=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"240\" y=\"22\" font-size=\"12\" fill=\"currentColor\">partner holds the top of the ruler</text><ellipse cx=\"165\" cy=\"275\" rx=\"12\" ry=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><ellipse cx=\"235\" cy=\"275\" rx=\"12\" ry=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"250\" y=\"280\" font-size=\"12\" fill=\"currentColor\">catcher's thumb and finger</text><text x=\"250\" y=\"296\" font-size=\"12\" fill=\"currentColor\">level with the zero mark</text><text x=\"150\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">scale in cm</text></svg>"
+      }
     },
     {
       "id": "p5-reaction-time-q22",
@@ -667,7 +790,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Evaluate the ruler drop test as a method of measuring reaction time. Give one strength, one weakness and one improvement.",
+      "question": "Evaluate the ruler drop test as a method of measuring reaction time.\nGive one strength, one weakness and one improvement.",
       "acceptedAnswers": [
         "simple",
         "cheap",
@@ -691,7 +814,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student does ten ruler drop tests. Her results get steadily smaller during the ten attempts.\nSuggest a reason for this and how the method could be improved.",
+      "question": "A student did ten ruler drop tests.\nTable 1 shows the results.\nSuggest a reason for the pattern in the results.\nSuggest how the method could be improved.",
       "acceptedAnswers": [
         "practice",
         "learning",
@@ -703,7 +826,55 @@
         "1 mark: she is learning or getting used to the test (practice effect), or learning to anticipate the release",
         "1 mark: allow some practice attempts before recording, or vary the delay before release randomly"
       ],
-      "explanation": "A trend in repeat results suggests a systematic change, not just random variation, so the method should be adjusted."
+      "explanation": "A trend in repeat results suggests a systematic change, not just random variation, so the method should be adjusted.",
+      "table": {
+        "headers": [
+          "Attempt",
+          "Distance ruler fell in cm"
+        ],
+        "rows": [
+          [
+            "1",
+            "24"
+          ],
+          [
+            "2",
+            "22"
+          ],
+          [
+            "3",
+            "21"
+          ],
+          [
+            "4",
+            "19"
+          ],
+          [
+            "5",
+            "18"
+          ],
+          [
+            "6",
+            "17"
+          ],
+          [
+            "7",
+            "15"
+          ],
+          [
+            "8",
+            "15"
+          ],
+          [
+            "9",
+            "14"
+          ],
+          [
+            "10",
+            "13"
+          ]
+        ]
+      }
     },
     {
       "id": "p5-reaction-time-q27",
@@ -711,7 +882,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 6,
-      "question": "Plan an investigation to find out whether listening to loud music affects a person's reaction time, using a ruler drop test.\nInclude the variables and how you would make the results valid.",
+      "question": "Plan an investigation to find out whether listening to loud music affects a person's reaction time.\nUse a ruler drop test.\nInclude the variables and how you would make sure the results are valid.",
       "markScheme": [
         "Indicative content: independent variable is music on or off (or volume); dependent variable is reaction time (distance fallen converted to time); control variables: same person catching, same hand, same ruler, same person dropping, fingers start level with zero, same gap between thumb and finger, same seating position; method: partner holds ruler with zero at catcher's fingers, releases without warning, record distance where caught, repeat at least 5 times without music and 5 times with music; remove anomalies, calculate means, convert to time using a conversion table; allow practice attempts first; compare means and spread; a longer mean time with music shows that distraction increases reaction time.",
         "Level 3 (5 to 6 marks): a coherent, detailed method that would produce valid results, with correct independent, dependent and several control variables and repeats with a mean.",
@@ -740,13 +911,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "Two students each did three computer reaction tests.\nStudent A: 0.21 s, 0.23 s, 0.22 s\nStudent B: 0.18 s, 0.31 s, 0.20 s\nStudent A says: \"I have a faster reaction time than Student B.\"\nEvaluate this conclusion using the data.",
+      "question": "Two students, A and B, each did three computer reaction tests.\nTable 1 shows the results.\nStudent A says:\n\"I have a faster reaction time than Student B.\"\nEvaluate this conclusion.\nUse data from Table 1 in your answer.",
       "markScheme": [
         "Indicative content: mean for A = 0.22 s; mean for B including all results = 0.23 s, which would support the claim; but B's results have a large spread and 0.31 s looks anomalous; mean for B without the anomaly = 0.19 s, which is faster than A; A's results are more repeatable; the difference between the means is small compared with the spread, so the conclusion is not secure; more repeats are needed for both students.",
         "Level 2 (3 to 4 marks): calculates means, identifies the anomaly and its effect, and gives a justified judgement about the conclusion.",
         "Level 1 (1 to 2 marks): compares some values or calculates one mean, with a simple judgement."
       ],
-      "explanation": "Whether a conclusion is valid depends on the spread of the data and on how anomalies are treated, not just on comparing two means."
+      "explanation": "Whether a conclusion is valid depends on the spread of the data and on how anomalies are treated, not just on comparing two means.",
+      "table": {
+        "headers": [
+          "Student",
+          "Test 1 reaction time in s",
+          "Test 2 reaction time in s",
+          "Test 3 reaction time in s"
+        ],
+        "rows": [
+          [
+            "A",
+            "0.21",
+            "0.23",
+            "0.22"
+          ],
+          [
+            "B",
+            "0.18",
+            "0.31",
+            "0.20"
+          ]
+        ]
+      }
     }
   ]
 }
