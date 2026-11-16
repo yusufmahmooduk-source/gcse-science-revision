@@ -344,7 +344,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A car travels at 90 km/h. What is this speed in m/s?",
+      "question": "A car travels at 90 km/h.\nWhat is this speed in m/s?",
       "options": [
         "25 m/s",
         "324 m/s",
@@ -363,7 +363,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A student times a toy car over 2.0 m with a stopwatch. Why would using light gates give a more accurate time?",
+      "question": "Figure 1 shows a toy car on a track.\nA student uses a stopwatch to time the toy car between the start line and the finish line.\nWhy would using light gates give a more accurate time?",
       "options": [
         "Light gates make the car go at a constant speed",
         "Light gates remove the effect of human reaction time",
@@ -374,7 +374,10 @@
       "markScheme": [
         "1 mark: B"
       ],
-      "explanation": "Starting and stopping a stopwatch involves reaction time, which is a large fraction of a short time. Light gates trigger automatically."
+      "explanation": "Starting and stopping a stopwatch involves reaction time, which is a large fraction of a short time. Light gates trigger automatically.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><rect x=\"20\" y=\"100\" width=\"420\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"35\" y=\"75\" width=\"50\" height=\"20\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\" rx=\"6\"/><circle cx=\"51\" cy=\"95\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"69\" cy=\"95\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"100\" y1=\"60\" x2=\"100\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/><line x1=\"400\" y1=\"60\" x2=\"400\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/><text x=\"100\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">start line</text><text x=\"400\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">finish line</text><line x1=\"100\" y1=\"140\" x2=\"400\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#ar)\" marker-end=\"url(#ar)\"/><text x=\"250\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2.0 m</text><text x=\"60\" y=\"130\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">toy car</text></svg>"
+      }
     },
     {
       "id": "p5-speed-q09",
@@ -382,7 +385,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A runner runs 400 m at 8.0 m/s and then walks 400 m at 2.0 m/s. What is the average speed for the whole 800 m?",
+      "question": "A runner runs and then walks.\nTable 1 shows information about the two parts of the journey.\nWhat is the average speed for the whole 800 m?",
       "options": [
         "5.0 m/s",
         "4.0 m/s",
@@ -393,7 +396,26 @@
       "markScheme": [
         "1 mark: C"
       ],
-      "explanation": "Time running = 400 ÷ 8.0 = 50 s; time walking = 400 ÷ 2.0 = 200 s. Average speed = 800 ÷ 250 = 3.2 m/s. 5.0 m/s is the trap of averaging the speeds; more time is spent walking, so the average is closer to 2.0 m/s."
+      "explanation": "Time running = 400 ÷ 8.0 = 50 s; time walking = 400 ÷ 2.0 = 200 s. Average speed = 800 ÷ 250 = 3.2 m/s. 5.0 m/s is the trap of averaging the speeds; more time is spent walking, so the average is closer to 2.0 m/s.",
+      "table": {
+        "headers": [
+          "Part of journey",
+          "Distance in m",
+          "Speed in m/s"
+        ],
+        "rows": [
+          [
+            "Running",
+            "400",
+            "8.0"
+          ],
+          [
+            "Walking",
+            "400",
+            "2.0"
+          ]
+        ]
+      }
     },
     {
       "id": "p5-speed-q10",
@@ -401,7 +423,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A dog runs 60 m in 8.0 s. Calculate its average speed.",
+      "question": "A dog runs 60 m in 8.0 s.\nCalculate the average speed of the dog.",
       "numericAnswer": 7.5,
       "tolerance": 0.01,
       "unit": "m/s",
@@ -409,7 +431,8 @@
         "1 mark: v = s ÷ t = 60 ÷ 8.0",
         "1 mark: 7.5 m/s"
       ],
-      "explanation": "Speed = distance ÷ time = 60 ÷ 8.0 = 7.5 m/s."
+      "explanation": "Speed = distance ÷ time = 60 ÷ 8.0 = 7.5 m/s.",
+      "answerLabel": "Average speed"
     },
     {
       "id": "p5-speed-q11",
@@ -417,7 +440,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A bus travels at a constant speed of 12 m/s for 50 s. Calculate the distance it travels.",
+      "question": "A bus travels at a constant speed of 12 m/s for 50 s.\nCalculate the distance the bus travels.",
       "numericAnswer": 600,
       "tolerance": 0.01,
       "unit": "m",
@@ -425,7 +448,8 @@
         "1 mark: s = v t = 12 × 50",
         "1 mark: 600 m"
       ],
-      "explanation": "s = v t = 12 × 50 = 600 m."
+      "explanation": "s = v t = 12 × 50 = 600 m.",
+      "answerLabel": "Distance"
     },
     {
       "id": "p5-speed-q12",
@@ -433,7 +457,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A woman walks at 1.5 m/s for 25 minutes. Calculate the distance she walks in metres.",
+      "question": "A woman walks at 1.5 m/s for 25 minutes.\nCalculate the distance she walks in metres.",
       "numericAnswer": 2250,
       "tolerance": 0.01,
       "unit": "m",
@@ -442,7 +466,8 @@
         "1 mark: s = 1.5 × 1500",
         "1 mark: 2250 m"
       ],
-      "explanation": "Convert minutes to seconds first: 25 × 60 = 1500 s. Then s = v t = 1.5 × 1500 = 2250 m."
+      "explanation": "Convert minutes to seconds first: 25 × 60 = 1500 s. Then s = v t = 1.5 × 1500 = 2250 m.",
+      "answerLabel": "Distance"
     },
     {
       "id": "p5-speed-q13",
@@ -450,7 +475,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A cyclist travels at 6.0 m/s. Calculate how long it takes her to cycle 3.6 km. Give your answer in seconds.",
+      "question": "A cyclist travels at 6.0 m/s.\nCalculate the time taken for the cyclist to travel 3.6 km.\nGive your answer in seconds.",
       "numericAnswer": 600,
       "tolerance": 0.01,
       "unit": "s",
@@ -459,7 +484,8 @@
         "1 mark: t = s ÷ v = 3600 ÷ 6.0",
         "1 mark: 600 s"
       ],
-      "explanation": "Rearrange s = v t to t = s ÷ v. Convert km to m: 3.6 km = 3600 m. t = 3600 ÷ 6.0 = 600 s (10 minutes)."
+      "explanation": "Rearrange s = v t to t = s ÷ v. Convert km to m: 3.6 km = 3600 m. t = 3600 ÷ 6.0 = 600 s (10 minutes).",
+      "answerLabel": "Time"
     },
     {
       "id": "p5-speed-q14",
@@ -467,7 +493,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A train travels at 108 km/h. Convert this speed to m/s.",
+      "question": "A train travels at 108 km/h.\nCalculate this speed in m/s.",
       "numericAnswer": 30,
       "tolerance": 0.01,
       "unit": "m/s",
@@ -475,7 +501,8 @@
         "1 mark: 108 × 1000 ÷ 3600",
         "1 mark: 30 m/s"
       ],
-      "explanation": "108 km/h = 108 000 m per 3600 s = 30 m/s."
+      "explanation": "108 km/h = 108 000 m per 3600 s = 30 m/s.",
+      "answerLabel": "Speed"
     },
     {
       "id": "p5-speed-q15",
@@ -483,7 +510,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "During a storm, a girl hears thunder 4.0 s after she sees a lightning flash. The speed of sound in air is 330 m/s. Calculate how far away the lightning was.",
+      "question": "Figure 1 shows a girl watching a storm.\nThe girl hears the thunder 4.0 s after she sees the lightning flash.\nThe speed of sound in air is 330 m/s.\nCalculate the distance between the girl and the lightning.",
       "numericAnswer": 1320,
       "tolerance": 0.01,
       "unit": "m",
@@ -491,7 +518,11 @@
         "1 mark: s = 330 × 4.0",
         "1 mark: 1320 m"
       ],
-      "explanation": "Light arrives almost instantly, so the delay is the time for the sound. s = v t = 330 × 4.0 = 1320 m (about 1.3 km)."
+      "explanation": "Light arrives almost instantly, so the delay is the time for the sound. s = v t = 330 × 4.0 = 1320 m (about 1.3 km).",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 220\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40 60Q40 30 80 35Q100 10 140 30Q180 20 180 55Q190 80 150 80H60Q30 80 40 60Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M110 80L95 120H112L98 170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"140\" font-size=\"12\" fill=\"currentColor\">lightning</text><line x1=\"20\" y1=\"180\" x2=\"440\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"99\" r=\"9\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"390\" y1=\"108\" x2=\"390\" y2=\"144\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"372\" y1=\"118.8\" x2=\"408\" y2=\"118.8\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"390\" y1=\"144\" x2=\"377.4\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"390\" y1=\"144\" x2=\"402.6\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"390\" y=\"200\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">girl</text></svg>"
+      },
+      "answerLabel": "Distance"
     },
     {
       "id": "p5-speed-q16",
@@ -499,7 +530,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A car travels 12 km along a motorway in 8.0 minutes and then 3.0 km through a town in 7.0 minutes. Calculate the average speed of the car for the whole journey in m/s.",
+      "question": "A car makes a journey in two parts.\nTable 1 shows information about the journey.\nCalculate the average speed of the car for the whole journey in m/s.",
       "numericAnswer": 16.67,
       "tolerance": 0.02,
       "unit": "m/s",
@@ -509,7 +540,27 @@
         "1 mark: average speed = 15 000 ÷ 900",
         "1 mark: 16.7 m/s"
       ],
-      "explanation": "Average speed = total distance ÷ total time = 15 000 ÷ 900 = 16.7 m/s. Averaging the two separate speeds (25 m/s and 7.1 m/s) gives the wrong answer because the times are different."
+      "explanation": "Average speed = total distance ÷ total time = 15 000 ÷ 900 = 16.7 m/s. Averaging the two separate speeds (25 m/s and 7.1 m/s) gives the wrong answer because the times are different.",
+      "table": {
+        "headers": [
+          "Part of journey",
+          "Distance in km",
+          "Time in minutes"
+        ],
+        "rows": [
+          [
+            "Motorway",
+            "12",
+            "8.0"
+          ],
+          [
+            "Town",
+            "3.0",
+            "7.0"
+          ]
+        ]
+      },
+      "answerLabel": "Average speed"
     },
     {
       "id": "p5-speed-q17",
@@ -517,7 +568,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A student stands 99 m from a tall wall and claps once. The speed of sound in air is 330 m/s. Calculate the time between the clap and hearing the echo.",
+      "question": "Figure 1 shows a student standing in front of a tall wall.\nThe student claps once and hears an echo from the wall.\nThe speed of sound in air is 330 m/s.\nCalculate the time between the clap and the student hearing the echo.",
       "numericAnswer": 0.6,
       "tolerance": 0.01,
       "unit": "s",
@@ -526,7 +577,11 @@
         "1 mark: t = s ÷ v = 198 ÷ 330",
         "1 mark: 0.60 s"
       ],
-      "explanation": "The sound must travel to the wall and back, a distance of 198 m. t = 198 ÷ 330 = 0.60 s. Using 99 m gives 0.30 s, which forgets the return trip."
+      "explanation": "The sound must travel to the wall and back, a distance of 198 m. t = 198 ÷ 330 = 0.60 s. Using 99 m gives 0.30 s, which forgets the return trip.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><line x1=\"20\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"80\" r=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"70\" y1=\"90\" x2=\"70\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"50\" y1=\"102\" x2=\"90\" y2=\"102\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"130\" x2=\"56\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"130\" x2=\"84\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"190\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">student</text><rect x=\"390\" y=\"30\" width=\"30\" height=\"140\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"405\" y=\"22\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">wall</text><line x1=\"80\" y1=\"70\" x2=\"390\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#ar)\" marker-end=\"url(#ar)\"/><text x=\"235\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">99 m</text></svg>"
+      },
+      "answerLabel": "Time"
     },
     {
       "id": "p5-speed-q18",
@@ -534,7 +589,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the unit of speed in the SI system.",
+      "question": "Give the SI unit of speed.",
       "acceptedAnswers": [
         "m/s",
         "metres per second",
@@ -571,7 +626,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State a typical speed for a person running.",
+      "question": "Give a typical speed for a person running.",
       "acceptedAnswers": [
         "3 m/s",
         "about 3 m/s"
@@ -646,7 +701,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A student says: \"I can estimate the time for a 2 km walk to school without being told my speed.\" Estimate the time in minutes, showing your reasoning.",
+      "question": "A student walks 2 km to school.\nEstimate the time taken for the student to walk to school.\nGive your answer in minutes.\nShow your reasoning.",
       "acceptedAnswers": [
         "1.5 m/s",
         "about 1300 s",
@@ -687,7 +742,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Two students want to measure the speed of sound in air. They have a starting pistol (which makes a flash and a bang), a stopwatch and a long, straight, open field.\nDescribe a method they could use, explain how they would calculate the speed of sound, and explain how they could make their result more accurate.",
+      "question": "Two students want to measure the speed of sound in air.\nFigure 1 shows the students on a long, straight, open field.\nThey have a starting pistol, which makes a flash and a bang, and a stopwatch.\nDescribe a method the students could use.\nExplain how they would calculate the speed of sound and how they could make their result more accurate.",
       "markScheme": [
         "Indicative content:",
         "Measure a large distance between the students, for example 400 m to 500 m, with a trundle wheel or measuring tape",
@@ -703,7 +758,10 @@
         "Level 1 (1 to 2 marks): basic relevant steps",
         "0 marks: no relevant content"
       ],
-      "explanation": "The key ideas are: time the delay between flash and bang over a known, large distance; speed = distance ÷ time; and reduce the effect of reaction time by using a large distance and repeats."
+      "explanation": "The key ideas are: time the delay between flash and bang over a known, large distance; speed = distance ÷ time; and reduce the effect of reaction time by using a large distance and repeats.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><line x1=\"20\" y1=\"160\" x2=\"460\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"79\" r=\"9\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"70\" y1=\"88\" x2=\"70\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"52\" y1=\"98.8\" x2=\"88\" y2=\"98.8\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"124\" x2=\"57.4\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"124\" x2=\"82.6\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"70\" y=\"182\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">student A</text><text x=\"70\" y=\"198\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">starting pistol</text><circle cx=\"410\" cy=\"79\" r=\"9\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"410\" y1=\"88\" x2=\"410\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"392\" y1=\"98.8\" x2=\"428\" y2=\"98.8\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"410\" y1=\"124\" x2=\"397.4\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"410\" y1=\"124\" x2=\"422.6\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"410\" y=\"182\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">student B</text><text x=\"410\" y=\"198\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">stopwatch</text><line x1=\"85\" y1=\"40\" x2=\"395\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#ar)\" marker-end=\"url(#ar)\"/><text x=\"240\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">distance between students</text></svg>"
+      }
     }
   ]
 }

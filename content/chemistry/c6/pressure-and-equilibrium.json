@@ -409,14 +409,15 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "Methanol is made by the reaction CO(g) + 2H₂(g) ⇌ CH₃OH(g).\nHow many molecules of gas are shown on the left-hand side of the equation?",
+      "question": "Methanol is made by the reaction:\nCO(g) + 2H₂(g) ⇌ CH₃OH(g)\nDetermine the number of molecules of gas shown on the left-hand side of the equation.",
       "markScheme": [
         "1 mark: 3"
       ],
       "explanation": "1 CO + 2 H₂ = 3 molecules, compared with 1 molecule of CH₃OH on the right.",
       "numericAnswer": 3,
       "tolerance": 0,
-      "unit": ""
+      "unit": "",
+      "answerLabel": "Number of molecules"
     },
     {
       "id": "c6-pressure-and-equilibrium-q13",
@@ -424,14 +425,15 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "Hydrogen is made by the reaction CH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g).\nHow many molecules of gas are shown on the right-hand side of the equation?",
+      "question": "Hydrogen is made by the reaction:\nCH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g)\nDetermine the number of molecules of gas shown on the right-hand side of the equation.",
       "markScheme": [
         "1 mark: 4"
       ],
       "explanation": "1 CO + 3 H₂ = 4 molecules, compared with 2 on the left. High pressure would therefore lower the yield of hydrogen.",
       "numericAnswer": 4,
       "tolerance": 0,
-      "unit": ""
+      "unit": "",
+      "answerLabel": "Number of molecules"
     },
     {
       "id": "c6-pressure-and-equilibrium-q14",
@@ -439,14 +441,31 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "At 450 °C, the equilibrium yield of ammonia is 16% at 100 atm and 36% at 300 atm.\nBy how many percentage points does the yield increase?",
+      "question": "Table 1 shows the equilibrium yield of ammonia at 450 °C at two different pressures.\nCalculate the increase in the percentage yield.",
+      "table": {
+        "headers": [
+          "Pressure in atm",
+          "Yield of ammonia in %"
+        ],
+        "rows": [
+          [
+            "100",
+            "16"
+          ],
+          [
+            "300",
+            "36"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 36 − 16 = 20"
       ],
       "explanation": "36 − 16 = 20 percentage points. The yield increases with pressure because the product side has fewer molecules.",
       "numericAnswer": 20,
       "tolerance": 0.01,
-      "unit": "percentage points"
+      "unit": "percentage points",
+      "answerLabel": "Increase in yield"
     },
     {
       "id": "c6-pressure-and-equilibrium-q15",
@@ -454,7 +473,23 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "At 450 °C and 300 atm the equilibrium yield of ammonia is 36%. The maximum possible mass of ammonia from a batch is 500 kg.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "question": "Table 1 shows information about a batch of reactants in the Haber process at 450 °C and 300 atm.\nCalculate the mass of ammonia in the equilibrium mixture.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Equilibrium yield of ammonia",
+            "36%"
+          ],
+          [
+            "Maximum possible mass of ammonia",
+            "500 kg"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 36 ÷ 100 × 500",
         "1 mark: 180 kg"
@@ -462,7 +497,8 @@
       "explanation": "Mass = 0.36 × 500 = 180 kg. Check: 180 ÷ 500 = 0.36.",
       "numericAnswer": 180,
       "tolerance": 0.01,
-      "unit": "kg"
+      "unit": "kg",
+      "answerLabel": "Mass of ammonia"
     },
     {
       "id": "c6-pressure-and-equilibrium-q16",
@@ -470,7 +506,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A sealed vessel initially contains 1.0 mol of N₂ and 3.0 mol of H₂. They react: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). At equilibrium, 0.40 mol of N₂ has reacted.\nCalculate the total number of moles of gas in the vessel at equilibrium.",
+      "question": "Nitrogen and hydrogen react in a sealed vessel:\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nTable 1 shows the amounts of gas at the start.\nAt equilibrium, 0.40 mol of N₂ has reacted.\nCalculate the total number of moles of gas in the vessel at equilibrium.",
+      "table": {
+        "headers": [
+          "Gas",
+          "Amount at the start in mol"
+        ],
+        "rows": [
+          [
+            "N₂",
+            "1.0"
+          ],
+          [
+            "H₂",
+            "3.0"
+          ],
+          [
+            "NH₃",
+            "0.0"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: N₂ = 0.60 mol and H₂ = 3.0 − 1.20 = 1.80 mol",
         "1 mark: NH₃ = 2 × 0.40 = 0.80 mol",
@@ -479,7 +535,8 @@
       "explanation": "0.60 + 1.80 + 0.80 = 3.20 mol. The total has fallen from 4.0 mol because 4 molecules of reactant form 2 of product, which is why high pressure favours ammonia. Check: the fall is 2 × 0.40 = 0.80 mol, and 4.0 − 0.80 = 3.20 mol.",
       "numericAnswer": 3.2,
       "tolerance": 0.01,
-      "unit": "mol"
+      "unit": "mol",
+      "answerLabel": "Total moles of gas"
     },
     {
       "id": "c6-pressure-and-equilibrium-q17",
@@ -635,7 +692,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "For a reaction X(g) ⇌ 2Y(g), the percentage of Y at equilibrium is 70% at 1 atm and 30% at 10 atm (same temperature).\nExplain how the data agree with the effect of pressure on equilibrium.",
+      "question": "For the reaction X(g) ⇌ 2Y(g), the percentage of Y at equilibrium was measured at two pressures at the same temperature.\nTable 1 shows the results.\nExplain how the data agree with the effect of pressure on equilibrium.",
+      "table": {
+        "headers": [
+          "Pressure in atm",
+          "Percentage of Y at equilibrium"
+        ],
+        "rows": [
+          [
+            "1",
+            "70"
+          ],
+          [
+            "10",
+            "30"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: the right has more molecules (2) than the left (1)",
         "1 mark: so higher pressure shifts the position left, towards fewer molecules, so less Y (70% falls to 30%)"
@@ -653,7 +726,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "A gas syringe contains an equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide:\n2NO₂(g) ⇌ N₂O₄(g)\nThe plunger is pushed in quickly, increasing the pressure. The mixture first looks darker, then becomes paler.\nExplain these observations.",
+      "question": "Figure 1 shows a sealed gas syringe containing an equilibrium mixture of brown nitrogen dioxide and colourless dinitrogen tetroxide:\n2NO₂(g) ⇌ N₂O₄(g)\nThe plunger is pushed in quickly, increasing the pressure. The mixture first looks darker, then becomes paler.\nExplain these observations.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"80\" width=\"260\" height=\"60\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M40 100 L20 105 L20 115 L40 120\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"80\" x2=\"70\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"100\" y1=\"80\" x2=\"100\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"130\" y1=\"80\" x2=\"130\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"160\" y1=\"80\" x2=\"160\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"190\" y1=\"80\" x2=\"190\" y2=\"94\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"220\" y1=\"80\" x2=\"220\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"280\" y1=\"80\" x2=\"280\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"310\" y1=\"80\" x2=\"310\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"340\" y1=\"80\" x2=\"340\" y2=\"94\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"370\" y1=\"80\" x2=\"370\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"300\" y=\"84\" width=\"8\" height=\"52\" fill=\"currentColor\" fill-opacity=\"0.6\"/><line x1=\"308\" y1=\"110\" x2=\"400\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"400\" y1=\"92\" x2=\"400\" y2=\"128\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"430\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"352,160 362,155 362,165\" fill=\"currentColor\"/><text x=\"395\" y=\"180\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Plunger pushed in</text><line x1=\"150\" y1=\"140\" x2=\"147\" y2=\"171\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"150\" y=\"175\" font-size=\"13\" fill=\"currentColor\">NO₂ and N₂O₄ mixture</text><line x1=\"22\" y1=\"110\" x2=\"27\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"30\" y=\"50\" font-size=\"13\" fill=\"currentColor\">Sealed end</text><line x1=\"350\" y1=\"110\" x2=\"327\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"330\" y=\"50\" font-size=\"13\" fill=\"currentColor\">Plunger</text></svg>"
+      },
       "markScheme": [
         "Indicative content: pushing the plunger in reduces the volume, so all gases are more concentrated; the brown colour first looks darker because there is more NO₂ per unit volume; the system is no longer at equilibrium; Le Chatelier: the system responds to counteract the increase in pressure; the left has 2 molecules and the right has 1 molecule; the position shifts towards the side with fewer molecules, the right; more colourless N₂O₄ forms and NO₂ is used up; so the colour becomes paler; a new equilibrium is reached.",
         "Level 2 (3 to 4 marks): explains both the initial darkening and the later paling, with the shift linked to numbers of molecules and Le Chatelier's principle.",
@@ -681,7 +757,29 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Ammonia is made by the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic.\nThe percentage yield of ammonia at equilibrium is:\n350 °C: 100 atm 40%; 200 atm 53%; 300 atm 62%\n450 °C: 100 atm 16%; 200 atm 28%; 300 atm 36%\nUse the data to explain the effect of pressure on the yield of ammonia, and evaluate the use of a pressure of 200 atm in industry.",
+      "question": "Ammonia is made by the reaction:\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nThe forward reaction is exothermic.\nTable 1 shows the percentage yield of ammonia at equilibrium.\nUse the data to explain the effect of pressure on the yield of ammonia.\nEvaluate the use of a pressure of 200 atm in industry.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Yield of ammonia at 100 atm in %",
+          "Yield of ammonia at 200 atm in %",
+          "Yield of ammonia at 300 atm in %"
+        ],
+        "rows": [
+          [
+            "350",
+            "40",
+            "53",
+            "62"
+          ],
+          [
+            "450",
+            "16",
+            "28",
+            "36"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: at both temperatures the yield increases as pressure increases, for example at 450 °C from 16% at 100 atm to 36% at 300 atm; there are 4 molecules on the left and 2 on the right; Le Chatelier: increasing pressure makes the system counteract the change by reducing pressure; the position shifts to the side with fewer molecules, the right, so more ammonia; the trend is the same at both temperatures, but yields are lower at 450 °C because the forward reaction is exothermic; higher pressure also increases the rate because gas particles are closer together; evaluation: 300 atm gives a higher yield than 200 atm, but very high pressure requires thicker, more expensive pipes and vessels; compressing gases uses a lot of energy; there is a greater risk of leaks or explosions; 200 atm is a compromise between yield and cost and safety; unreacted gases are recycled so a lower yield per pass is acceptable.",
         "Level 3 (5 to 6 marks): trend described with data, fully explained using molecule counts and Le Chatelier's principle, and a balanced evaluation of 200 atm with a conclusion.",

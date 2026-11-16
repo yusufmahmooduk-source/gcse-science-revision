@@ -378,7 +378,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Solution A has pH 2. Solution B has pH 4. Which statement is correct?",
+      "question": "Table 1 shows the pH of two solutions, A and B.\nWhich statement is correct?",
+      "table": {
+        "headers": [
+          "Solution",
+          "pH"
+        ],
+        "rows": [
+          [
+            "A",
+            "2"
+          ],
+          [
+            "B",
+            "4"
+          ]
+        ]
+      },
       "options": [
         "A has twice the hydrogen ion concentration of B",
         "B has 100 times the hydrogen ion concentration of A",
@@ -416,10 +432,27 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Solution P has pH 2 and solution Q has pH 5. How many times greater is the hydrogen ion concentration in P than in Q?",
+      "question": "Table 1 shows the pH of two solutions, P and Q.\nHow many times greater is the hydrogen ion concentration in P than in Q?",
+      "table": {
+        "headers": [
+          "Solution",
+          "pH"
+        ],
+        "rows": [
+          [
+            "P",
+            "2"
+          ],
+          [
+            "Q",
+            "5"
+          ]
+        ]
+      },
       "numericAnswer": 1000,
       "tolerance": 0.001,
       "unit": "",
+      "answerLabel": "Number of times greater",
       "markScheme": [
         "1 mark: 1000 (10³)"
       ],
@@ -431,10 +464,11 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many times greater is the hydrogen ion concentration of a solution with pH 1 than a solution with pH 3?",
+      "question": "Solution R has a pH of 1.\nSolution S has a pH of 3.\nHow many times greater is the hydrogen ion concentration in solution R than in solution S?",
       "numericAnswer": 100,
       "tolerance": 0.001,
       "unit": "",
+      "answerLabel": "Number of times greater",
       "markScheme": [
         "1 mark: 100"
       ],
@@ -446,10 +480,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A solution with pH 2 has a hydrogen ion concentration of 0.01 mol/dm³. Calculate the hydrogen ion concentration of a solution with pH 4.",
+      "question": "Table 1 shows information about two acid solutions.\nCalculate the hydrogen ion concentration of the solution with pH 4.",
+      "table": {
+        "headers": [
+          "pH",
+          "Hydrogen ion concentration in mol/dm³"
+        ],
+        "rows": [
+          [
+            "2",
+            "0.01"
+          ],
+          [
+            "4",
+            "?"
+          ]
+        ]
+      },
       "numericAnswer": 0.0001,
       "tolerance": 0.01,
       "unit": "mol/dm³",
+      "answerLabel": "Hydrogen ion concentration",
       "markScheme": [
         "1 mark: pH increases by 2, so H⁺ concentration decreases by a factor of 100",
         "1 mark: 0.01 ÷ 100 = 0.0001 mol/dm³"
@@ -462,10 +513,14 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "1 cm³ of hydrochloric acid with pH 2 is diluted with water to a total volume of 1000 cm³. Calculate the pH of the diluted acid.",
+      "question": "A student dilutes 1 cm³ of hydrochloric acid with water, as shown in Figure 1.\nThe acid has a pH of 2 before it is diluted.\nCalculate the pH of the diluted acid.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"91\" y=\"172\" width=\"48\" height=\"17\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M90,60 L90,190 L140,190 L140,60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"90\" y1=\"172\" x2=\"140\" y2=\"172\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"80\" y1=\"190\" x2=\"150\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"115\" y=\"215\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1 cm³ of acid</text><line x1=\"180\" y1=\"125\" x2=\"330\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M323.6,127.7 L330,125 L323.6,122.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"112\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">water added</text><text x=\"255\" y=\"148\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">and mixed</text><rect x=\"371\" y=\"55\" width=\"68\" height=\"134\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M370,30 L370,190 L440,190 L440,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"370\" y1=\"55\" x2=\"440\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"360\" y1=\"190\" x2=\"450\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"405\" y=\"215\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">total volume 1000 cm³</text></svg>"
+      },
       "numericAnswer": 5,
       "tolerance": 0.01,
       "unit": "",
+      "answerLabel": "pH",
       "markScheme": [
         "1 mark: H⁺ concentration decreases by a factor of 1000 (= 10³)",
         "1 mark: pH increases by 3, so new pH = 5"
@@ -478,10 +533,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The hydrogen ion concentration of a solution with pH 6 is increased by a factor of 1000. Calculate the new pH.",
+      "question": "A solution has a pH of 6.\nThe hydrogen ion concentration of the solution is increased by a factor of 1000.\nCalculate the new pH.",
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "",
+      "answerLabel": "pH",
       "markScheme": [
         "1 mark: factor 1000 = 10³, so a change of 3 pH units",
         "1 mark: pH decreases, so new pH = 6 − 3 = 3"
@@ -494,10 +550,14 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "10 cm³ of hydrochloric acid with pH 1 is diluted with water to a total volume of 100 cm³. Calculate the new pH.",
+      "question": "A student dilutes 10 cm³ of hydrochloric acid with water, as shown in Figure 1.\nThe acid has a pH of 1 before it is diluted.\nCalculate the new pH.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"91\" y=\"172\" width=\"48\" height=\"17\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M90,60 L90,190 L140,190 L140,60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"90\" y1=\"172\" x2=\"140\" y2=\"172\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"80\" y1=\"190\" x2=\"150\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"115\" y=\"215\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10 cm³ of acid</text><line x1=\"180\" y1=\"125\" x2=\"330\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M323.6,127.7 L330,125 L323.6,122.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"112\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">water added</text><text x=\"255\" y=\"148\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">and mixed</text><rect x=\"371\" y=\"55\" width=\"68\" height=\"134\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M370,30 L370,190 L440,190 L440,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"370\" y1=\"55\" x2=\"440\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"360\" y1=\"190\" x2=\"450\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"405\" y=\"215\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">total volume 100 cm³</text></svg>"
+      },
       "numericAnswer": 2,
       "tolerance": 0.01,
       "unit": "",
+      "answerLabel": "pH",
       "markScheme": [
         "1 mark: H⁺ concentration decreases by a factor of 10",
         "1 mark: new pH = 2"
@@ -510,7 +570,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by a weak acid.",
+      "question": "What is meant by a weak acid?",
       "acceptedAnswers": [
         "partially ionised in aqueous solution",
         "only some molecules ionise"
@@ -542,7 +602,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Write a balanced equation, with state symbols, to show hydrochloric acid ionising in water.",
+      "question": "Hydrochloric acid is a strong acid.\nWrite an equation to show hydrochloric acid ionising in water.\nInclude state symbols.",
       "acceptedAnswers": [
         "HCl(aq) → H⁺(aq) + Cl⁻(aq)"
       ],
@@ -558,7 +618,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Ethanoic acid, CH₃COOH, is a weak acid. Write an equation to show it ionising in water and explain the arrow you have used.",
+      "question": "Ethanoic acid, CH₃COOH, is a weak acid.\nWrite an equation to show ethanoic acid ionising in water.\nExplain the type of arrow you have used.",
       "acceptedAnswers": [
         "CH₃COOH ⇌ CH₃COO⁻ + H⁺",
         "reversible arrow because only partially ionised"
@@ -592,7 +652,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Explain why 0.1 mol/dm³ hydrochloric acid has a lower pH than 0.1 mol/dm³ ethanoic acid.",
+      "question": "Table 1 shows information about two acid solutions.\nExplain why the hydrochloric acid has a lower pH than the ethanoic acid.",
+      "table": {
+        "headers": [
+          "Acid",
+          "Concentration in mol/dm³"
+        ],
+        "rows": [
+          [
+            "Hydrochloric acid",
+            "0.1"
+          ],
+          [
+            "Ethanoic acid",
+            "0.1"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "hydrochloric acid completely ionised",
         "ethanoic acid partially ionised",
@@ -611,7 +687,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the pH of a neutral solution.",
+      "question": "Give the pH of a neutral solution.",
       "acceptedAnswers": [
         "7",
         "pH 7"
@@ -662,7 +738,41 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A student measured the pH of four acid solutions.\nSolution 1: 1.0 mol/dm³ hydrochloric acid, pH 0\nSolution 2: 0.1 mol/dm³ hydrochloric acid, pH 1\nSolution 3: 1.0 mol/dm³ ethanoic acid, pH 2.4\nSolution 4: 0.1 mol/dm³ ethanoic acid, pH 2.9\nExplain the differences in pH between these solutions. Use ideas about strength, concentration and hydrogen ions in your answer.",
+      "question": "A student measured the pH of four acid solutions.\nTable 1 shows the results.\nExplain the differences in pH between these solutions.\nUse ideas about strength, concentration and hydrogen ions in your answer.",
+      "table": {
+        "headers": [
+          "Solution",
+          "Acid",
+          "Concentration in mol/dm³",
+          "pH"
+        ],
+        "rows": [
+          [
+            "1",
+            "hydrochloric acid",
+            "1.0",
+            "0"
+          ],
+          [
+            "2",
+            "hydrochloric acid",
+            "0.1",
+            "1"
+          ],
+          [
+            "3",
+            "ethanoic acid",
+            "1.0",
+            "2.4"
+          ],
+          [
+            "4",
+            "ethanoic acid",
+            "0.1",
+            "2.9"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: hydrochloric acid is a strong acid, completely ionised in aqueous solution; ethanoic acid is a weak acid, only partially ionised; at the same concentration (compare 1 with 3, or 2 with 4) hydrochloric acid has a higher H⁺ concentration so a lower pH; solutions 1 and 3 are more concentrated than 2 and 4 (more acid per dm³); more concentrated solution of the same acid has more H⁺ ions so lower pH; solution 1 has 10 times the H⁺ concentration of solution 2 (pH differs by 1 unit, factor of 10 because HCl fully ionises and is diluted 10 times); for ethanoic acid diluting 10 times changes pH by less than 1 because it is only partially ionised; a decrease of 1 pH unit means a 10-fold increase in H⁺ concentration.",
         "Level 3 (5 to 6 marks): clear explanation of both strength (degree of ionisation) and concentration, correctly linked to H⁺ concentration and pH, including the factor of 10 for a 1 unit change.",
@@ -678,7 +788,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "Compare the meaning of the terms strong, weak, concentrated and dilute when describing acids. Give an example of an acid solution that is strong but dilute and one that is weak but concentrated.",
+      "question": "Compare the meanings of the terms strong, weak, concentrated and dilute when describing acids.\nGive an example of an acid solution that is strong but dilute.\nGive an example of an acid solution that is weak but concentrated.",
       "markScheme": [
         "Indicative content: strong acid completely ionised in aqueous solution; weak acid partially ionised; concentrated: large amount of acid (amount of substance) per given volume; dilute: small amount per given volume; strength and concentration are independent; strong but dilute example: 0.01 mol/dm³ hydrochloric (or nitric or sulfuric) acid; weak but concentrated example: 2 mol/dm³ (or higher) ethanoic or citric acid.",
         "Level 2 (3 to 4 marks): all four terms correctly defined and two correct examples given.",
