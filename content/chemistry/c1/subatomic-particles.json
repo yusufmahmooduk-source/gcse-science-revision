@@ -290,12 +290,12 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The atomic number of an element is equal to the number of:",
+      "question": "What is the atomic number of an element equal to?",
       "options": [
-        "Neutrons in an atom",
-        "Protons plus neutrons in an atom",
-        "Protons in an atom",
-        "Shells in an atom"
+        "The number of neutrons in an atom",
+        "The number of protons plus neutrons in an atom",
+        "The number of protons in an atom",
+        "The number of shells in an atom"
       ],
       "answer": 2,
       "markScheme": [
@@ -309,7 +309,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why do atoms have no overall charge?",
+      "question": "Figure 1 shows a model of a lithium atom.\nWhy does the atom have no overall charge?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"110\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"100\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"100\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"94\" cy=\"100\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"94\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"118\" cy=\"113.9\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"118\" y=\"117.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"126\" cy=\"100\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"102\" cy=\"113.9\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"102\" cy=\"86.1\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"118\" cy=\"86.1\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"55\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"59\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"110\" cy=\"145\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"149\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"190\" cy=\"100\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"190\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"260\" cy=\"60\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"260\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><text x=\"276\" y=\"64\" font-size=\"12\" fill=\"currentColor\">proton</text><circle cx=\"260\" cy=\"100\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"276\" y=\"104\" font-size=\"12\" fill=\"currentColor\">neutron</text><circle cx=\"260\" cy=\"140\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"260\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><text x=\"276\" y=\"144\" font-size=\"12\" fill=\"currentColor\">electron</text></svg>"
+      },
       "options": [
         "They have equal numbers of protons and neutrons",
         "Neutrons cancel out the charge of the protons",
@@ -385,7 +388,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A particle contains 12 protons, 12 neutrons and 10 electrons. What is its overall charge?",
+      "question": "Table 1 shows the numbers of subatomic particles in a particle.\nWhat is the overall charge of the particle?",
+      "table": {
+        "headers": [
+          "Subatomic particle",
+          "Number in the particle"
+        ],
+        "rows": [
+          [
+            "Protons",
+            "12"
+          ],
+          [
+            "Neutrons",
+            "12"
+          ],
+          [
+            "Electrons",
+            "10"
+          ]
+        ]
+      },
       "options": [
         "0",
         "2+",
@@ -404,10 +427,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Chlorine has atomic number 17. How many electrons are there in a chlorine atom?",
+      "question": "Chlorine has atomic number 17.\nGive the number of electrons in a chlorine atom.",
       "numericAnswer": 17,
       "tolerance": 0,
       "unit": "electrons",
+      "answerLabel": "Number of electrons",
       "markScheme": [
         "1 mark: 17"
       ],
@@ -419,10 +443,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "An atom contains 20 electrons. What is its atomic number?",
+      "question": "An atom contains 20 electrons.\nGive the atomic number of this atom.",
       "numericAnswer": 20,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Atomic number",
       "markScheme": [
         "1 mark: 20"
       ],
@@ -434,10 +459,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Oxygen has atomic number 8. What is the total relative charge of all the protons in the nucleus of an oxygen atom?",
+      "question": "Oxygen has atomic number 8.\nDetermine the total relative charge of all the protons in the nucleus of an oxygen atom.",
       "numericAnswer": 8,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Total relative charge",
       "markScheme": [
         "1 mark: +8"
       ],
@@ -449,10 +475,31 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A particle contains 9 protons, 10 neutrons and 10 electrons. Calculate its overall relative charge.",
+      "question": "Table 1 shows the numbers of subatomic particles in a particle.\nCalculate the overall relative charge of the particle.",
+      "table": {
+        "headers": [
+          "Subatomic particle",
+          "Number in the particle"
+        ],
+        "rows": [
+          [
+            "Protons",
+            "9"
+          ],
+          [
+            "Neutrons",
+            "10"
+          ],
+          [
+            "Electrons",
+            "10"
+          ]
+        ]
+      },
       "numericAnswer": -1,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Overall relative charge",
       "markScheme": [
         "1 mark: −1"
       ],
@@ -464,10 +511,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Aluminium has atomic number 13. An aluminium atom loses 3 electrons. How many electrons does the particle now have?",
+      "question": "Aluminium has atomic number 13.\nAn aluminium atom loses 3 electrons.\nDetermine the number of electrons the particle now has.",
       "numericAnswer": 10,
       "tolerance": 0,
       "unit": "electrons",
+      "answerLabel": "Number of electrons",
       "markScheme": [
         "1 mark: 10"
       ],
@@ -479,10 +527,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Sulfur has atomic number 16. A sulfur atom gains 2 electrons. Calculate the overall relative charge of the particle formed.",
+      "question": "Sulfur has atomic number 16.\nA sulfur atom gains 2 electrons.\nCalculate the overall relative charge of the particle formed.",
       "numericAnswer": -2,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Overall relative charge",
       "markScheme": [
         "1 mark: electrons = 16 + 2 = 18",
         "1 mark: charge = 16 − 18 = −2"
@@ -495,7 +544,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "State the relative charge of each subatomic particle: proton, neutron and electron.",
+      "question": "Complete Table 1 to show the relative charge of each subatomic particle.",
+      "table": {
+        "headers": [
+          "Subatomic particle",
+          "Relative charge"
+        ],
+        "rows": [
+          [
+            "Proton",
+            "........"
+          ],
+          [
+            "Neutron",
+            "........"
+          ],
+          [
+            "Electron",
+            "........"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "+1",
         "0",
@@ -514,7 +583,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by the atomic number of an element.",
+      "question": "What is meant by the atomic number of an element?",
       "acceptedAnswers": [
         "number of protons",
         "proton number"
@@ -639,7 +708,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A particle has 8 protons and 10 electrons. Explain whether this particle is an atom.",
+      "question": "Table 1 shows the numbers of protons and electrons in a particle.\nExplain whether this particle is an atom.",
+      "table": {
+        "headers": [
+          "Subatomic particle",
+          "Number in the particle"
+        ],
+        "rows": [
+          [
+            "Protons",
+            "8"
+          ],
+          [
+            "Electrons",
+            "10"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "not an atom",
         "ion",
@@ -659,7 +744,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why the electrons in an atom are held around the nucleus.",
+      "question": "Figure 1 shows a model of a lithium atom.\nExplain why the electrons in an atom are held around the nucleus.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"110\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"100\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"100\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"94\" cy=\"100\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"94\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"118\" cy=\"113.9\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"118\" y=\"117.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><circle cx=\"126\" cy=\"100\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"102\" cy=\"113.9\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"102\" cy=\"86.1\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"118\" cy=\"86.1\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"55\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"59\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"110\" cy=\"145\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"110\" y=\"149\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"190\" cy=\"100\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"190\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><circle cx=\"260\" cy=\"60\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"260\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">+</text><text x=\"276\" y=\"64\" font-size=\"12\" fill=\"currentColor\">proton</text><circle cx=\"260\" cy=\"100\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"276\" y=\"104\" font-size=\"12\" fill=\"currentColor\">neutron</text><circle cx=\"260\" cy=\"140\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><text x=\"260\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">−</text><text x=\"276\" y=\"144\" font-size=\"12\" fill=\"currentColor\">electron</text></svg>"
+      },
       "acceptedAnswers": [
         "opposite charges attract",
         "nucleus is positive",
@@ -707,7 +795,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Element A has atomic number 3. Element B has atomic number 11.\nUse the nuclear model and the relative charges of subatomic particles to describe an atom of each element. Explain why both atoms are neutral and why they are atoms of different elements.",
+      "question": "Table 1 shows the atomic numbers of two elements, A and B.\nUse the nuclear model and the relative charges of subatomic particles to describe an atom of each element.\nExplain why both atoms are neutral and why they are atoms of different elements.",
+      "table": {
+        "headers": [
+          "Element",
+          "Atomic number"
+        ],
+        "rows": [
+          [
+            "A",
+            "3"
+          ],
+          [
+            "B",
+            "11"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: each atom has a tiny nucleus with electrons in shells around it; A (lithium) has 3 protons in the nucleus and 3 electrons; B (sodium) has 11 protons and 11 electrons; both also contain neutrons in the nucleus, which have no charge; protons have relative charge +1, electrons −1; in each atom the number of protons equals the number of electrons, so the total positive and negative charges cancel (+3 and −3; +11 and −11); A and B are different elements because they have different numbers of protons (different atomic numbers); all atoms of lithium have 3 protons and all atoms of sodium have 11.",
         "Level 3 (5 to 6 marks): accurate description of both atoms with correct numbers and locations, clear explanation of neutrality using charges, and a clear reason they are different elements.",

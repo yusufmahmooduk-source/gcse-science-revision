@@ -297,12 +297,12 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The mass number of an atom is the:",
+      "question": "What is the mass number of an atom?",
       "options": [
-        "Number of protons",
-        "Number of neutrons",
-        "Number of protons plus neutrons",
-        "Number of protons plus electrons"
+        "The number of protons",
+        "The number of neutrons",
+        "The number of protons plus neutrons",
+        "The number of protons plus electrons"
       ],
       "answer": 2,
       "markScheme": [
@@ -392,7 +392,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "An atom of oxygen-18 is represented as ¹⁸₈O. Which row is correct for this atom?",
+      "question": "Figure 1 shows the symbol for an atom of oxygen-18.\nWhich row is correct for this atom?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 80\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"162\" y=\"30\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">18</text><text x=\"162\" y=\"58\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"166\" y=\"52\" font-size=\"40\" fill=\"currentColor\">O</text></svg>"
+      },
       "options": [
         "8 protons, 18 neutrons, 8 electrons",
         "8 protons, 10 neutrons, 8 electrons",
@@ -430,10 +433,14 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "How many neutrons are there in an atom of ²³₁₁Na?",
+      "question": "Figure 1 shows the symbol for an atom of sodium.\nDetermine the number of neutrons in this atom.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 80\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"162\" y=\"30\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">23</text><text x=\"162\" y=\"58\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">11</text><text x=\"166\" y=\"52\" font-size=\"40\" fill=\"currentColor\">Na</text></svg>"
+      },
       "numericAnswer": 12,
       "tolerance": 0,
       "unit": "neutrons",
+      "answerLabel": "Number of neutrons",
       "markScheme": [
         "1 mark: 12"
       ],
@@ -445,10 +452,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "An atom has 17 protons and 18 neutrons. What is its mass number?",
+      "question": "An atom has 17 protons and 18 neutrons.\nGive the mass number of this atom.",
       "numericAnswer": 35,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Mass number",
       "markScheme": [
         "1 mark: 35"
       ],
@@ -460,10 +468,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many neutrons are there in an atom of ³⁷₁₇Cl?",
+      "question": "Determine the number of neutrons in an atom of ³⁷₁₇Cl",
       "numericAnswer": 20,
       "tolerance": 0,
       "unit": "neutrons",
+      "answerLabel": "Number of neutrons",
       "markScheme": [
         "1 mark: 20"
       ],
@@ -475,10 +484,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many electrons are there in the aluminium ion ²⁷₁₃Al³⁺?",
+      "question": "Determine the number of electrons in the aluminium ion ²⁷₁₃Al³⁺",
       "numericAnswer": 10,
       "tolerance": 0,
       "unit": "electrons",
+      "answerLabel": "Number of electrons",
       "markScheme": [
         "1 mark: 10"
       ],
@@ -490,10 +500,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many electrons are there in the sulfide ion ³²₁₆S²⁻?",
+      "question": "Determine the number of electrons in the sulfide ion ³²₁₆S²⁻",
       "numericAnswer": 18,
       "tolerance": 0,
       "unit": "electrons",
+      "answerLabel": "Number of electrons",
       "markScheme": [
         "1 mark: 18"
       ],
@@ -505,10 +516,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The radius of an atom is 0.1 nm. Give this radius in metres. (1 nm = 1 × 10⁻⁹ m)",
+      "question": "The radius of an atom is 0.1 nm.\n1 nm = 1 × 10⁻⁹ m\nGive the radius of the atom in metres.\nGive your answer in standard form.",
       "numericAnswer": 1e-10,
       "tolerance": 0.01,
       "unit": "m",
+      "answerLabel": "Radius",
       "markScheme": [
         "1 mark: 1 × 10⁻¹⁰ m"
       ],
@@ -520,10 +532,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The radius of an atom is 1 × 10⁻¹⁰ m. The radius of its nucleus is 1 × 10⁻¹⁴ m.\nCalculate how many times larger the radius of the atom is than the radius of the nucleus.",
+      "question": "Table 1 shows the radius of an atom and the radius of its nucleus.\nCalculate how many times larger the radius of the atom is than the radius of the nucleus.",
+      "table": {
+        "headers": [
+          "Part of atom",
+          "Radius in m"
+        ],
+        "rows": [
+          [
+            "Whole atom",
+            "1 × 10⁻¹⁰"
+          ],
+          [
+            "Nucleus",
+            "1 × 10⁻¹⁴"
+          ]
+        ]
+      },
       "numericAnswer": 10000,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of times larger",
       "markScheme": [
         "1 mark: (1 × 10⁻¹⁰) ÷ (1 × 10⁻¹⁴)",
         "1 mark: 10 000 (1 × 10⁴)"
@@ -536,10 +565,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A gold atom has a radius of 1.44 × 10⁻¹⁰ m. Give this radius in nanometres. (1 nm = 1 × 10⁻⁹ m)",
+      "question": "A gold atom has a radius of 1.44 × 10⁻¹⁰ m\n1 nm = 1 × 10⁻⁹ m\nGive the radius of the gold atom in nanometres.",
       "numericAnswer": 0.144,
       "tolerance": 0.01,
       "unit": "nm",
+      "answerLabel": "Radius",
       "markScheme": [
         "1 mark: 0.144 nm"
       ],
@@ -551,10 +581,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "An atom has a radius of 1.5 × 10⁻¹⁰ m. Its nucleus has a radius 1/10 000 of the radius of the atom.\nCalculate the radius of the nucleus. Give your answer in metres in standard form.",
+      "question": "An atom has a radius of 1.5 × 10⁻¹⁰ m\nThe radius of its nucleus is 1/10 000 of the radius of the atom.\nCalculate the radius of the nucleus.\nGive your answer in metres in standard form.",
       "numericAnswer": 1.5e-14,
       "tolerance": 0.01,
       "unit": "m",
+      "answerLabel": "Radius of nucleus",
       "markScheme": [
         "1 mark: 1.5 × 10⁻¹⁰ ÷ 10 000 (or ÷ 10⁴)",
         "1 mark: 1.5 × 10⁻¹⁴ m"
@@ -567,10 +598,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A teacher builds a scale model of an atom. The nucleus is a bead of radius 1 cm. The radius of a real atom is 10 000 times the radius of its nucleus.\nCalculate the radius the model atom would need, in metres.",
+      "question": "A teacher builds a scale model of an atom.\nThe nucleus is a bead of radius 1 cm.\nThe radius of a real atom is 10 000 times the radius of its nucleus.\nCalculate the radius the model atom would need.\nGive your answer in metres.",
       "numericAnswer": 100,
       "tolerance": 0,
       "unit": "m",
+      "answerLabel": "Radius of model atom",
       "markScheme": [
         "1 mark: 1 cm × 10 000 = 10 000 cm",
         "1 mark: 10 000 cm ÷ 100 = 100 m"
@@ -583,7 +615,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by the mass number of an atom.",
+      "question": "What is meant by the mass number of an atom?",
       "acceptedAnswers": [
         "protons and neutrons",
         "number of protons plus neutrons",
@@ -600,7 +632,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Define the term isotopes.",
+      "question": "What are isotopes?",
       "acceptedAnswers": [
         "same element",
         "same number of protons",
@@ -619,7 +651,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "State the relative mass of a proton, a neutron and an electron.",
+      "question": "Table 1 shows the three subatomic particles.\nGive the relative mass of each particle.",
+      "table": {
+        "headers": [
+          "Particle",
+          "Relative mass"
+        ],
+        "rows": [
+          [
+            "Proton",
+            "........"
+          ],
+          [
+            "Neutron",
+            "........"
+          ],
+          [
+            "Electron",
+            "........"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "1",
         "very small",
@@ -659,7 +711,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Chlorine has two isotopes, ³⁵₁₇Cl and ³⁷₁₇Cl. Compare the numbers of protons, neutrons and electrons in atoms of these two isotopes.",
+      "question": "Figure 1 shows the symbols for the two isotopes of chlorine.\nCompare the numbers of protons, neutrons and electrons in atoms of these two isotopes.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"62\" y=\"28\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">35</text><text x=\"62\" y=\"56\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">17</text><text x=\"66\" y=\"50\" font-size=\"40\" fill=\"currentColor\">Cl</text><text x=\"242\" y=\"28\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">37</text><text x=\"242\" y=\"56\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">17</text><text x=\"246\" y=\"50\" font-size=\"40\" fill=\"currentColor\">Cl</text><text x=\"85\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">chlorine-35</text><text x=\"265\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">chlorine-37</text></svg>"
+      },
       "acceptedAnswers": [
         "17 protons",
         "18 neutrons",
@@ -698,7 +753,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Argon-40 is ⁴⁰₁₈Ar and calcium-40 is ⁴⁰₂₀Ca. Explain why these two atoms are not isotopes, even though they have the same mass number.",
+      "question": "Figure 1 shows the symbols for an atom of argon-40 and an atom of calcium-40.\nExplain why these two atoms are not isotopes, even though they have the same mass number.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"62\" y=\"28\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"62\" y=\"56\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">18</text><text x=\"66\" y=\"50\" font-size=\"40\" fill=\"currentColor\">Ar</text><text x=\"242\" y=\"28\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"242\" y=\"56\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"246\" y=\"50\" font-size=\"40\" fill=\"currentColor\">Ca</text><text x=\"85\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">argon-40</text><text x=\"265\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">calcium-40</text></svg>"
+      },
       "acceptedAnswers": [
         "different number of protons",
         "different elements",
@@ -736,7 +794,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "The radius of an atom is about 1 × 10⁻¹⁰ m and the radius of its nucleus is about 1 × 10⁻¹⁴ m.\nCompare the size and mass of the nucleus with the size and mass of the whole atom, and explain what this tells us about the structure of an atom.",
+      "question": "Table 1 shows the approximate radius of an atom and of its nucleus.\nCompare the size and mass of the nucleus with the size and mass of the whole atom.\nExplain what this tells us about the structure of an atom.",
+      "table": {
+        "headers": [
+          "Part of atom",
+          "Approximate radius in m"
+        ],
+        "rows": [
+          [
+            "Whole atom",
+            "1 × 10⁻¹⁰"
+          ],
+          [
+            "Nucleus",
+            "1 × 10⁻¹⁴"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: the atom's radius is about 10 000 times the radius of the nucleus (nucleus less than 1/10 000 of the atom's radius); the nucleus is a tiny part of the volume; but almost all the mass is in the nucleus because protons and neutrons (relative mass 1) are there; electrons have very small mass and are outside the nucleus; so most of the atom is empty space, with a tiny, dense nucleus at the centre.",
         "Level 2 (3 to 4 marks): a clear comparison of size and mass using the data, with a correct conclusion about empty space and a dense nucleus.",

@@ -282,7 +282,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Element X has two isotopes, X-79 and X-81, with equal abundance (50% each). What is the relative atomic mass of X?",
+      "question": "Element X has two isotopes.\nTable 1 shows the abundance of each isotope.\nWhat is the relative atomic mass of X?",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "X-79",
+            "79",
+            "50"
+          ],
+          [
+            "X-81",
+            "81",
+            "50"
+          ]
+        ]
+      },
       "options": [
         "79",
         "80",
@@ -339,7 +358,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Lithium is 7.5% lithium-6 and 92.5% lithium-7. What is the relative atomic mass of lithium to 1 decimal place?",
+      "question": "Table 1 shows the isotopes of lithium.\nWhat is the relative atomic mass of lithium to 1 decimal place?",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "lithium-6",
+            "6",
+            "7.5"
+          ],
+          [
+            "lithium-7",
+            "7",
+            "92.5"
+          ]
+        ]
+      },
       "options": [
         "6.5",
         "7.0",
@@ -396,10 +434,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "An element has two isotopes with mass numbers 10 and 12. Each makes up 50% of the atoms. Calculate the relative atomic mass of the element.",
+      "question": "An element has two isotopes with mass numbers 10 and 12.\nEach isotope makes up 50% of the atoms.\nCalculate the relative atomic mass of the element.",
       "numericAnswer": 11,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: 11"
       ],
@@ -411,10 +450,30 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Chlorine is 75% chlorine-35 and 25% chlorine-37. Calculate the relative atomic mass of chlorine.",
+      "question": "Table 1 shows the isotopes of chlorine.\nCalculate the relative atomic mass of chlorine.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "chlorine-35",
+            "35",
+            "75"
+          ],
+          [
+            "chlorine-37",
+            "37",
+            "25"
+          ]
+        ]
+      },
       "numericAnswer": 35.5,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: (35 × 75) + (37 × 25) = 3550",
         "1 mark: 3550 ÷ 100 = 35.5"
@@ -427,10 +486,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Boron is 20% boron-10 and 80% boron-11. Calculate the relative atomic mass of boron.",
+      "question": "Figure 1 shows the percentage abundance of the two isotopes of boron.\nCalculate the relative atomic mass of boron.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M66 16V252M360 16V252M66 252H360M66 228.4H360M66 204.8H360M66 181.2H360M66 157.6H360M66 134H360M66 110.4H360M66 86.8H360M66 63.2H360M66 39.6H360M66 16H360\" stroke=\"currentColor\" stroke-opacity=\"0.18\" fill=\"none\"/><text x=\"60\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"60\" y=\"232.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"60\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"60\" y=\"185.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"60\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"60\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"60\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"60\" y=\"90.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">70</text><text x=\"60\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"60\" y=\"43.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">90</text><text x=\"60\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><path d=\"M66 16V252M360 16V252M66 252H360M66 228.4H360M66 204.8H360M66 181.2H360M66 157.6H360M66 134H360M66 110.4H360M66 86.8H360M66 63.2H360M66 39.6H360M66 16H360\" stroke=\"currentColor\" stroke-opacity=\"0.4\" fill=\"none\"/><path d=\"M66 16V252H360\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"213\" y=\"290\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Isotope</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Percentage abundance (%)</text><rect x=\"99.1\" y=\"204.8\" width=\"80.9\" height=\"47.2\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"139.5\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">boron-10</text><rect x=\"246.1\" y=\"63.2\" width=\"80.9\" height=\"188.8\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"286.5\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">boron-11</text></svg>"
+      },
       "numericAnswer": 10.8,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: (10 × 20) + (11 × 80) = 1080",
         "1 mark: 1080 ÷ 100 = 10.8"
@@ -443,10 +506,30 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Copper is 69% copper-63 and 31% copper-65. Calculate the relative atomic mass of copper. Give your answer to 1 decimal place.",
+      "question": "Table 1 shows the isotopes of copper.\nCalculate the relative atomic mass of copper.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "copper-63",
+            "63",
+            "69"
+          ],
+          [
+            "copper-65",
+            "65",
+            "31"
+          ]
+        ]
+      },
       "numericAnswer": 63.6,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: (63 × 69) + (65 × 31) = 4347 + 2015 = 6362",
         "1 mark: 6362 ÷ 100 = 63.62 = 63.6 (1 d.p.)"
@@ -459,10 +542,30 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Bromine is 50.7% bromine-79 and 49.3% bromine-81. Calculate the relative atomic mass of bromine. Give your answer to 1 decimal place.",
+      "question": "Table 1 shows the isotopes of bromine.\nCalculate the relative atomic mass of bromine.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "bromine-79",
+            "79",
+            "50.7"
+          ],
+          [
+            "bromine-81",
+            "81",
+            "49.3"
+          ]
+        ]
+      },
       "numericAnswer": 80,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: (79 × 50.7) + (81 × 49.3) = 4005.3 + 3993.3 = 7998.6",
         "1 mark: 7998.6 ÷ 100 = 79.986 = 80.0 (1 d.p.)"
@@ -475,10 +578,35 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Neon is 90.5% neon-20 and 9.2% neon-22. The rest is neon-21. Calculate the percentage abundance of neon-21.",
+      "question": "Table 1 shows the isotopes of neon.\nCalculate the percentage abundance of neon-21.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "neon-20",
+            "20",
+            "90.5"
+          ],
+          [
+            "neon-21",
+            "21",
+            "?"
+          ],
+          [
+            "neon-22",
+            "22",
+            "9.2"
+          ]
+        ]
+      },
       "numericAnswer": 0.3,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage abundance of neon-21",
       "markScheme": [
         "1 mark: 100 − 90.5 − 9.2 = 0.3%"
       ],
@@ -490,10 +618,30 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Gallium is 60.1% gallium-69 and 39.9% gallium-71. Calculate the relative atomic mass of gallium to 1 decimal place.",
+      "question": "Table 1 shows the isotopes of gallium.\nCalculate the relative atomic mass of gallium.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "gallium-69",
+            "69",
+            "60.1"
+          ],
+          [
+            "gallium-71",
+            "71",
+            "39.9"
+          ]
+        ]
+      },
       "numericAnswer": 69.8,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: (69 × 60.1) + (71 × 39.9) = 4146.9 + 2832.9 = 6979.8",
         "1 mark: 6979.8 ÷ 100 = 69.798 = 69.8 (1 d.p.)"
@@ -506,10 +654,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Magnesium has three isotopes: magnesium-24 (79%), magnesium-25 (10%) and magnesium-26 (11%). Calculate the relative atomic mass of magnesium to 1 decimal place.",
+      "question": "Table 1 shows the three isotopes of magnesium.\nCalculate the relative atomic mass of magnesium.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "magnesium-24",
+            "24",
+            "79"
+          ],
+          [
+            "magnesium-25",
+            "25",
+            "10"
+          ],
+          [
+            "magnesium-26",
+            "26",
+            "11"
+          ]
+        ]
+      },
       "numericAnswer": 24.3,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: 24 × 79 = 1896, 25 × 10 = 250, 26 × 11 = 286",
         "1 mark: total 2432 ÷ 100 = 24.32",
@@ -523,10 +696,35 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Silicon is 92.2% silicon-28, 4.7% silicon-29 and 3.1% silicon-30. Calculate the relative atomic mass of silicon to 1 decimal place.",
+      "question": "Table 1 shows the three isotopes of silicon.\nCalculate the relative atomic mass of silicon.\nGive your answer to 1 decimal place.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "silicon-28",
+            "28",
+            "92.2"
+          ],
+          [
+            "silicon-29",
+            "29",
+            "4.7"
+          ],
+          [
+            "silicon-30",
+            "30",
+            "3.1"
+          ]
+        ]
+      },
       "numericAnswer": 28.1,
       "tolerance": 0.002,
       "unit": "",
+      "answerLabel": "Relative atomic mass",
       "markScheme": [
         "1 mark: 28 × 92.2 = 2581.6, 29 × 4.7 = 136.3, 30 × 3.1 = 93",
         "1 mark: total 2810.9 ÷ 100 = 28.109",
@@ -540,10 +738,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Copper has two isotopes, copper-63 and copper-65. A sample of copper has a relative atomic mass of 63.5.\nCalculate the percentage abundance of copper-63 in this sample.",
+      "question": "Copper has two isotopes, copper-63 and copper-65.\nA sample of copper has a relative atomic mass of 63.5\nCalculate the percentage abundance of copper-63 in this sample.",
       "numericAnswer": 75,
       "tolerance": 0,
       "unit": "%",
+      "answerLabel": "Percentage abundance of copper-63",
       "markScheme": [
         "1 mark: 63x + 65(100 − x) = 6350",
         "1 mark: 6500 − 2x = 6350",
@@ -557,7 +756,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Define the term relative atomic mass.",
+      "question": "What is meant by the relative atomic mass of an element?",
       "acceptedAnswers": [
         "average",
         "takes account of abundance",
@@ -576,7 +775,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by the percentage abundance of an isotope.",
+      "question": "What is meant by the percentage abundance of an isotope?",
       "acceptedAnswers": [
         "percentage of atoms",
         "proportion of atoms that are that isotope"
@@ -611,7 +810,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student calculates the relative atomic mass of boron as (10 + 11) ÷ 2 = 10.5. Boron is 20% boron-10 and 80% boron-11. Explain the student's mistake and give the correct value.",
+      "question": "Table 1 shows the isotopes of boron.\nA student calculates the relative atomic mass of boron as (10 + 11) ÷ 2 = 10.5\nExplain the student's mistake and give the correct value.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "boron-10",
+            "10",
+            "20"
+          ],
+          [
+            "boron-11",
+            "11",
+            "80"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "did not take account of abundance",
         "not a weighted average",
@@ -684,7 +902,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe how to calculate the relative atomic mass of an element from the percentage abundances of its isotopes. Use chlorine (75% chlorine-35, 25% chlorine-37) as an example.",
+      "question": "Table 1 shows the isotopes of chlorine.\nDescribe how to calculate the relative atomic mass of an element from the percentage abundances of its isotopes.\nUse chlorine as an example.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "chlorine-35",
+            "35",
+            "75"
+          ],
+          [
+            "chlorine-37",
+            "37",
+            "25"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: multiply the mass number of each isotope by its percentage abundance (35 × 75 = 2625; 37 × 25 = 925); add the results (3550); divide by 100 (35.5); Ar has no units; answer should be between the mass numbers and closest to the most abundant isotope.",
         "Level 2 (3 to 4 marks): a clear, correct method in the right order, with a fully worked chlorine example giving 35.5.",
@@ -698,7 +935,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Magnesium has three isotopes, shown below.\nmagnesium-24: 79%\nmagnesium-25: 10%\nmagnesium-26: 11%\nExplain what is meant by isotopes and by relative atomic mass. Calculate the relative atomic mass of magnesium, and explain why the value is not a whole number and why it is closest to 24.",
+      "question": "Magnesium has three isotopes.\nTable 1 shows the percentage abundance of each isotope.\nExplain what is meant by isotopes and by relative atomic mass.\nCalculate the relative atomic mass of magnesium.\nExplain why the value is not a whole number and why it is closest to 24.",
+      "table": {
+        "headers": [
+          "Isotope",
+          "Mass number",
+          "Percentage abundance (%)"
+        ],
+        "rows": [
+          [
+            "magnesium-24",
+            "24",
+            "79"
+          ],
+          [
+            "magnesium-25",
+            "25",
+            "10"
+          ],
+          [
+            "magnesium-26",
+            "26",
+            "11"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: isotopes are atoms of the same element with the same number of protons (12 for magnesium) but different numbers of neutrons (12, 13 and 14); relative atomic mass is an average value that takes account of the abundance of the isotopes; calculation: 24 × 79 = 1896, 25 × 10 = 250, 26 × 11 = 286; total 2432; ÷ 100 = 24.32 (24.3); not a whole number because it is an average of different isotope masses; closest to 24 because magnesium-24 is by far the most abundant (79%).",
         "Level 3 (5 to 6 marks): correct definitions, a fully correct calculation with working, and clear explanations of both features of the answer.",
