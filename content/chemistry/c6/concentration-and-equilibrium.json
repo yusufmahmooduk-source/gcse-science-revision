@@ -275,7 +275,35 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Iodine monochloride and chlorine form iodine trichloride: ICl(l, brown) + Cl₂(g, green) ⇌ ICl₃(s, yellow)\nMore chlorine is added. What is observed?",
+      "question": "Iodine monochloride reacts with chlorine to form iodine trichloride:\nICl(l) + Cl₂(g) ⇌ ICl₃(s)\nTable 1 gives information about the substances.\nMore chlorine is added to the equilibrium mixture. What is observed?",
+      "table": {
+        "headers": [
+          "Substance",
+          "Formula",
+          "State at room temperature",
+          "Colour"
+        ],
+        "rows": [
+          [
+            "Iodine monochloride",
+            "ICl",
+            "Liquid",
+            "Brown"
+          ],
+          [
+            "Chlorine",
+            "Cl₂",
+            "Gas",
+            "Green"
+          ],
+          [
+            "Iodine trichloride",
+            "ICl₃",
+            "Solid",
+            "Yellow"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: more yellow solid forms"
       ],
@@ -294,7 +322,26 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Yellow chromate ions and orange dichromate ions are in equilibrium: 2CrO₄²⁻ + 2H⁺ ⇌ Cr₂O₇²⁻ + H₂O\nDilute acid is added. What colour change is seen?",
+      "question": "Chromate ions and dichromate ions are in equilibrium:\n2CrO₄²⁻(aq) + 2H⁺(aq) ⇌ Cr₂O₇²⁻(aq) + H₂O(l)\nTable 1 shows the colours of the ions.\nDilute acid is added to a solution of chromate ions. What colour change is seen?",
+      "table": {
+        "headers": [
+          "Ion",
+          "Formula",
+          "Colour in solution"
+        ],
+        "rows": [
+          [
+            "Chromate",
+            "CrO₄²⁻",
+            "Yellow"
+          ],
+          [
+            "Dichromate",
+            "Cr₂O₇²⁻",
+            "Orange"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: yellow to orange"
       ],
@@ -408,7 +455,31 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "For the reaction A ⇌ B, at equilibrium [A] = 0.40 mol/dm³ and [B] = 0.60 mol/dm³. Extra A is added so that [A] becomes 0.90 mol/dm³. At the new equilibrium, [A] = 0.60 mol/dm³.\nCalculate [B] at the new equilibrium.",
+      "question": "For the reaction A ⇌ B, extra A is added to an equilibrium mixture.\nTable 1 shows the concentrations.\nCalculate the concentration of B at the new equilibrium.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Concentration of A in mol/dm³",
+          "Concentration of B in mol/dm³"
+        ],
+        "rows": [
+          [
+            "Original equilibrium",
+            "0.40",
+            "0.60"
+          ],
+          [
+            "Just after adding A",
+            "0.90",
+            "0.60"
+          ],
+          [
+            "New equilibrium",
+            "0.60",
+            "X"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: [A] fell by 0.90 − 0.60 = 0.30 mol/dm³, so [B] rose by 0.30 mol/dm³",
         "1 mark: [B] = 0.60 + 0.30 = 0.90 mol/dm³"
@@ -416,7 +487,8 @@
       "explanation": "The equation is 1:1, so every mole of A that reacts forms one mole of B. [A] fell by 0.30, so [B] increased by 0.30 to 0.90 mol/dm³.",
       "numericAnswer": 0.9,
       "tolerance": 0.01,
-      "unit": "mol/dm³"
+      "unit": "mol/dm³",
+      "answerLabel": "Concentration of B"
     },
     {
       "id": "c6-concentration-and-equilibrium-q13",
@@ -424,14 +496,35 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "For the reaction A ⇌ B, at equilibrium [A] = 0.40 mol/dm³ and [B] = 0.60 mol/dm³. Extra A is added so that [A] becomes 0.90 mol/dm³. At the new equilibrium, [A] = 0.60 mol/dm³.\nBy how much did the concentration of A fall after the extra A was added?",
+      "question": "For the reaction A ⇌ B, extra A is added to an equilibrium mixture.\nTable 1 shows the concentration of A.\nCalculate the fall in the concentration of A after the extra A was added.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Concentration of A in mol/dm³"
+        ],
+        "rows": [
+          [
+            "Original equilibrium",
+            "0.40"
+          ],
+          [
+            "Just after adding A",
+            "0.90"
+          ],
+          [
+            "New equilibrium",
+            "0.60"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 0.90 − 0.60 = 0.30 mol/dm³"
       ],
       "explanation": "The concentration of A fell from 0.90 mol/dm³ (just after adding) to 0.60 mol/dm³ (new equilibrium), a fall of 0.30 mol/dm³.",
       "numericAnswer": 0.3,
       "tolerance": 0.01,
-      "unit": "mol/dm³"
+      "unit": "mol/dm³",
+      "answerLabel": "Fall in concentration of A"
     },
     {
       "id": "c6-concentration-and-equilibrium-q14",
@@ -439,7 +532,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Using the same data, 0.50 mol/dm³ of extra A was added (from 0.40 to 0.90 mol/dm³). Calculate the percentage of the added A that was converted into B.",
+      "question": "For the reaction A ⇌ B, extra A is added to an equilibrium mixture.\nTable 1 shows the concentration of A.\nCalculate the percentage of the added A that was converted into B.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Concentration of A in mol/dm³"
+        ],
+        "rows": [
+          [
+            "Original equilibrium",
+            "0.40"
+          ],
+          [
+            "Just after adding A",
+            "0.90"
+          ],
+          [
+            "New equilibrium",
+            "0.60"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: 0.30 ÷ 0.50 × 100",
         "1 mark: 60%"
@@ -447,7 +560,8 @@
       "explanation": "0.30 mol/dm³ of A reacted out of 0.50 mol/dm³ added: 0.30 ÷ 0.50 × 100 = 60%. The remaining 40% of the added A stays unreacted, showing the change is only partly counteracted.",
       "numericAnswer": 60,
       "tolerance": 0.01,
-      "unit": "%"
+      "unit": "%",
+      "answerLabel": "Percentage converted"
     },
     {
       "id": "c6-concentration-and-equilibrium-q15",
@@ -455,14 +569,15 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "In the Haber process, N₂ + 3H₂ ⇌ 2NH₃. After extra hydrogen is added, a further 0.45 mol of nitrogen reacts before a new equilibrium is reached.\nHow many moles of ammonia are formed?",
+      "question": "In the Haber process:\nN₂ + 3H₂ ⇌ 2NH₃\nAfter extra hydrogen is added, a further 0.45 mol of nitrogen reacts before a new equilibrium is reached.\nCalculate the number of moles of ammonia formed.",
       "markScheme": [
         "1 mark: 0.45 × 2 = 0.90 mol"
       ],
       "explanation": "The ratio N₂ : NH₃ is 1 : 2, so 0.45 mol of N₂ forms 0.90 mol of NH₃.",
       "numericAnswer": 0.9,
       "tolerance": 0.01,
-      "unit": "mol"
+      "unit": "mol",
+      "answerLabel": "Moles of ammonia"
     },
     {
       "id": "c6-concentration-and-equilibrium-q16",
@@ -470,14 +585,15 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "In the same reaction, N₂ + 3H₂ ⇌ 2NH₃, how many moles of hydrogen react when 0.45 mol of nitrogen reacts?",
+      "question": "In the Haber process:\nN₂ + 3H₂ ⇌ 2NH₃\nCalculate the number of moles of hydrogen that react when 0.45 mol of nitrogen reacts.",
       "markScheme": [
         "1 mark: 0.45 × 3 = 1.35 mol"
       ],
       "explanation": "The ratio N₂ : H₂ is 1 : 3, so 0.45 × 3 = 1.35 mol of hydrogen reacts. Check: 1.35 ÷ 0.45 = 3.",
       "numericAnswer": 1.35,
       "tolerance": 0.01,
-      "unit": "mol"
+      "unit": "mol",
+      "answerLabel": "Moles of hydrogen"
     },
     {
       "id": "c6-concentration-and-equilibrium-q17",
@@ -520,7 +636,35 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "The tube containing ICl(l) + Cl₂(g) ⇌ ICl₃(s) is opened and turned upside down so that some chlorine gas escapes.\nPredict what is observed and explain why.",
+      "question": "A tube contains an equilibrium mixture:\nICl(l) + Cl₂(g) ⇌ ICl₃(s)\nTable 1 gives information about the substances.\nThe tube is opened and turned upside down so that some chlorine gas escapes.\nPredict what is observed and explain why.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Formula",
+          "State at room temperature",
+          "Colour"
+        ],
+        "rows": [
+          [
+            "Iodine monochloride",
+            "ICl",
+            "Liquid",
+            "Brown"
+          ],
+          [
+            "Chlorine",
+            "Cl₂",
+            "Gas",
+            "Green"
+          ],
+          [
+            "Iodine trichloride",
+            "ICl₃",
+            "Solid",
+            "Yellow"
+          ]
+        ]
+      },
       "markScheme": [
         "1 mark: yellow solid decreases / more brown liquid forms",
         "1 mark: removing chlorine (a reactant) shifts the position to the left"
@@ -650,7 +794,38 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "Iodine monochloride is a brown liquid. It reacts with green chlorine gas to form yellow iodine trichloride crystals:\nICl(l) + Cl₂(g) ⇌ ICl₃(s)\nThe mixture is at equilibrium in a sealed U-tube. Describe and explain what would be observed if (a) more chlorine is added and (b) some chlorine is removed.",
+      "question": "Iodine monochloride reacts with chlorine to form iodine trichloride:\nICl(l) + Cl₂(g) ⇌ ICl₃(s)\nFigure 1 shows the equilibrium mixture in a sealed U-tube.\nTable 1 gives information about the substances.\nDescribe and explain what would be observed if:\n• more chlorine is added\n• some chlorine is removed.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M120 40 L120 200 A60 60 0 0 0 240 200 L240 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M150 40 L150 200 A30 30 0 0 0 210 200 L210 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M120 40 L150 40 M210 40 L240 40\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M121 60 L149 60 L149 200 A31 31 0 0 0 211 200 L211 60 L239 60 L239 200 A59 59 0 0 1 121 200 Z\" fill=\"#86efac\" fill-opacity=\"0.5\"/><path d=\"M121 195 L149 195 L149 200 A31 31 0 0 0 211 200 L211 195 L239 195 L239 200 A59 59 0 0 1 121 200 Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M121 225 A59 59 0 0 0 239 225 L239 228 A59 59 0 0 1 121 228Z\" fill=\"none\"/><line x1=\"239\" y1=\"110\" x2=\"277\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"280\" y=\"110\" font-size=\"13\" fill=\"currentColor\">Chlorine gas</text><line x1=\"232\" y1=\"215\" x2=\"277\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"280\" y=\"230\" font-size=\"13\" fill=\"currentColor\">Brown liquid and</text><text x=\"280\" y=\"246\" font-size=\"13\" fill=\"currentColor\">yellow crystals</text><line x1=\"120\" y1=\"42\" x2=\"73\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"70\" y=\"30\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Sealed end</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Substance",
+          "Formula",
+          "State at room temperature",
+          "Colour"
+        ],
+        "rows": [
+          [
+            "Iodine monochloride",
+            "ICl",
+            "Liquid",
+            "Brown"
+          ],
+          [
+            "Chlorine",
+            "Cl₂",
+            "Gas",
+            "Green"
+          ],
+          [
+            "Iodine trichloride",
+            "ICl₃",
+            "Solid",
+            "Yellow"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: (a) adding chlorine increases the concentration of a reactant; by Le Chatelier's principle the system counteracts the change by using up chlorine; position shifts right; more yellow crystals of ICl₃ form; the amount of brown liquid decreases; green colour of gas fades; (b) removing chlorine decreases the concentration of a reactant; the system counteracts by producing chlorine; position shifts left; yellow crystals decrease; more brown liquid forms.",
         "Level 2 (3 to 4 marks): correct observations for both changes, each explained using the direction of shift and Le Chatelier's principle.",
@@ -664,7 +839,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "For the reaction A ⇌ B, these concentrations were measured:\nOriginal equilibrium: [A] = 0.40 mol/dm³, [B] = 0.60 mol/dm³\nJust after adding A: [A] = 0.90 mol/dm³, [B] = 0.60 mol/dm³\nNew equilibrium: [A] = 0.60 mol/dm³, [B] = 0.90 mol/dm³\nUse the data to explain how the system responded to the addition of A.",
+      "question": "For the reaction A ⇌ B, extra A is added to an equilibrium mixture.\nTable 1 shows the concentrations.\nUse the data to explain how the system responded to the addition of A.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Concentration of A in mol/dm³",
+          "Concentration of B in mol/dm³"
+        ],
+        "rows": [
+          [
+            "Original equilibrium",
+            "0.40",
+            "0.60"
+          ],
+          [
+            "Just after adding A",
+            "0.90",
+            "0.60"
+          ],
+          [
+            "New equilibrium",
+            "0.60",
+            "0.90"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: adding A increased its concentration from 0.40 to 0.90 mol/dm³; the system was no longer at equilibrium; by Le Chatelier's principle it counteracted the change by using up some A; [A] fell by 0.30 to 0.60 mol/dm³; [B] rose by 0.30 to 0.90 mol/dm³, matching the 1:1 ratio; so the position shifted right; more product formed; the change was only partly counteracted because [A] at the new equilibrium (0.60) is still higher than originally (0.40); forward rate increased at first, then rates became equal again.",
         "Level 2 (3 to 4 marks): uses the data accurately to show the shift to the right and that the change is only partly counteracted, linked to Le Chatelier's principle.",
@@ -678,7 +877,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Chromate ions (yellow) and dichromate ions (orange) are in equilibrium in solution:\n2CrO₄²⁻(aq) + 2H⁺(aq) ⇌ Cr₂O₇²⁻(aq) + H₂O(l)\nA student adds dilute acid to a yellow solution of chromate ions, then adds sodium hydroxide solution until it is in excess.\nExplain the colour changes seen. Use Le Chatelier's principle and ideas about concentration in your answer.",
+      "question": "Chromate ions and dichromate ions are in equilibrium in solution:\n2CrO₄²⁻(aq) + 2H⁺(aq) ⇌ Cr₂O₇²⁻(aq) + H₂O(l)\nTable 1 shows the colours of the ions.\nA student adds dilute acid to a solution of chromate ions. The student then adds sodium hydroxide solution until it is in excess.\nExplain the colour changes seen. Use Le Chatelier's principle and ideas about concentration in your answer.",
+      "table": {
+        "headers": [
+          "Ion",
+          "Formula",
+          "Colour in solution"
+        ],
+        "rows": [
+          [
+            "Chromate",
+            "CrO₄²⁻",
+            "Yellow"
+          ],
+          [
+            "Dichromate",
+            "Cr₂O₇²⁻",
+            "Orange"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: the solution starts yellow because chromate is the main species; adding acid increases the concentration of H⁺ ions, a reactant; the system is no longer at equilibrium; the system responds to counteract the change by using up H⁺; position shifts right; more dichromate forms; the solution turns orange; adding sodium hydroxide: hydroxide ions react with (neutralise) H⁺ ions; this decreases the concentration of H⁺; the system counteracts by producing more H⁺; position shifts left; dichromate reacts with water to reform chromate; the solution turns yellow again; this shows the reaction is reversible and the position depends on concentration; the concentrations of all species change until a new equilibrium is reached each time.",
         "Level 3 (5 to 6 marks): both colour changes fully explained, linking the change in [H⁺] to the direction of shift using Le Chatelier's principle, with the role of hydroxide ions clear.",
