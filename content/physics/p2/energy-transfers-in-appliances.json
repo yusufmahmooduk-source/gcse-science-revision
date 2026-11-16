@@ -209,7 +209,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which equation links energy transferred, power and time?",
+      "question": "Which equation links energy transferred (E), power (P) and time (t)?",
       "markScheme": [
         "1 mark: E = P × t"
       ],
@@ -228,7 +228,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which equation links energy transferred, charge and potential difference?",
+      "question": "Which equation links energy transferred (E), charge flow (Q) and potential difference (V)?",
       "markScheme": [
         "1 mark: E = Q × V"
       ],
@@ -285,18 +285,47 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which uses the most energy?",
+      "question": "Table 1 shows the power of four appliances and the time each one is switched on.\nWhich appliance transfers the most energy?",
       "markScheme": [
-        "1 mark: A 100 W TV for 1 hour"
+        "1 mark: Television"
       ],
-      "explanation": "Energy = P t: kettle 180 000 J, toaster 120 000 J, TV 360 000 J, LED 36 000 J. The low-power TV on for a long time transfers the most.",
+      "explanation": "Energy = P t with t in seconds: kettle 3000 × 60 = 180 000 J, toaster 1000 × 120 = 120 000 J, television 100 × 3600 = 360 000 J, LED lamp 10 × 3600 = 36 000 J. The low-power television on for a long time transfers the most energy.",
       "options": [
-        "A 3000 W kettle for 1 minute",
-        "A 1000 W toaster for 2 minutes",
-        "A 100 W TV for 1 hour",
-        "A 10 W LED for 1 hour"
+        "Kettle",
+        "Toaster",
+        "Television",
+        "LED lamp"
       ],
-      "answer": 2
+      "answer": 2,
+      "table": {
+        "headers": [
+          "Appliance",
+          "Power in W",
+          "Time switched on"
+        ],
+        "rows": [
+          [
+            "Kettle",
+            "3000",
+            "1 minute"
+          ],
+          [
+            "Toaster",
+            "1000",
+            "2 minutes"
+          ],
+          [
+            "Television",
+            "100",
+            "1 hour"
+          ],
+          [
+            "LED lamp",
+            "10",
+            "1 hour"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-energy-transfers-in-appliances-q06",
@@ -323,7 +352,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A potential difference of 12 V means that:",
+      "question": "Which statement describes a potential difference of 12 V?",
       "markScheme": [
         "1 mark: 12 J of energy is transferred per coulomb of charge"
       ],
@@ -342,7 +371,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Two heaters are switched on for the same time. Heater A has twice the power of heater B. Which statement is correct?",
+      "question": "Two heaters, A and B, are switched on for the same time. Heater A has twice the power of heater B.\nWhich statement is correct?",
       "markScheme": [
         "1 mark: A transfers twice as much energy as B."
       ],
@@ -361,7 +390,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A 60 W lamp is on for 2 hours. How much energy does it transfer?",
+      "question": "A 60 W lamp is switched on for 2 hours.\nHow much energy does the lamp transfer?",
       "markScheme": [
         "1 mark: 432 000 J"
       ],
@@ -380,7 +409,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A 2000 W kettle is switched on for 90 s. Calculate the energy transferred.",
+      "question": "A 2000 W kettle is switched on for 90 s.\nCalculate the energy transferred by the kettle.",
       "markScheme": [
         "1 mark: E = 2000 × 90",
         "1 mark: 180 000 J"
@@ -388,7 +417,8 @@
       "explanation": "E = P t = 2000 × 90 = 180 000 J.",
       "numericAnswer": 180000,
       "tolerance": 0.02,
-      "unit": "J"
+      "unit": "J",
+      "answerLabel": "Energy transferred"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q11",
@@ -396,7 +426,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A 1.5 kW heater is switched on for 4.0 minutes. Calculate the energy transferred.",
+      "question": "A 1.5 kW heater is switched on for 4.0 minutes.\nCalculate the energy transferred by the heater.",
       "markScheme": [
         "1 mark: 1500 W and 240 s",
         "1 mark: E = 1500 × 240",
@@ -405,7 +435,8 @@
       "explanation": "Convert both: 1.5 kW = 1500 W, 4.0 min = 240 s. E = 360 000 J.",
       "numericAnswer": 360000,
       "tolerance": 0.02,
-      "unit": "J"
+      "unit": "J",
+      "answerLabel": "Energy transferred"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q12",
@@ -413,7 +444,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "30 C of charge flows through a 12 V lamp. Calculate the energy transferred.",
+      "question": "30 C of charge flows through a 12 V lamp.\nCalculate the energy transferred by the lamp.",
       "markScheme": [
         "1 mark: E = 30 × 12",
         "1 mark: 360 J"
@@ -421,7 +452,8 @@
       "explanation": "E = Q V = 30 × 12 = 360 J.",
       "numericAnswer": 360,
       "tolerance": 0.02,
-      "unit": "J"
+      "unit": "J",
+      "answerLabel": "Energy transferred"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q13",
@@ -429,7 +461,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A toaster connected to the 230 V mains transfers 4600 J of energy. Calculate the charge that flows through it.",
+      "question": "A toaster connected to the 230 V mains supply transfers 4600 J of energy.\nCalculate the charge that flows through the toaster.",
       "markScheme": [
         "1 mark: Q = E ÷ V = 4600 ÷ 230",
         "1 mark: 20 C"
@@ -437,7 +469,8 @@
       "explanation": "Rearrange E = Q V to Q = E ÷ V = 4600 ÷ 230 = 20 C.",
       "numericAnswer": 20,
       "tolerance": 0.02,
-      "unit": "C"
+      "unit": "C",
+      "answerLabel": "Charge"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q14",
@@ -445,7 +478,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A blender transfers 90 000 J of energy in 5.0 minutes. Calculate its power.",
+      "question": "A blender transfers 90 000 J of energy in 5.0 minutes.\nCalculate the power of the blender.",
       "markScheme": [
         "1 mark: 5.0 min = 300 s",
         "1 mark: P = E ÷ t = 90 000 ÷ 300",
@@ -454,7 +487,8 @@
       "explanation": "Convert the time to seconds, then P = E ÷ t.",
       "numericAnswer": 300,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "answerLabel": "Power"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q15",
@@ -462,7 +496,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A heater on the 230 V mains carries a current of 3.0 A for 2.0 minutes. Calculate the energy transferred.",
+      "question": "A heater connected to the 230 V mains supply has a current of 3.0 A for 2.0 minutes.\nCalculate the energy transferred by the heater.",
       "markScheme": [
         "1 mark: Q = I t = 3.0 × 120 = 360 C",
         "1 mark: E = Q V = 360 × 230",
@@ -471,7 +505,8 @@
       "explanation": "Find the charge with Q = I t (time in seconds), then E = Q V. Alternatively P = V I = 690 W and E = P t = 690 × 120 = 82 800 J.",
       "numericAnswer": 82800,
       "tolerance": 0.02,
-      "unit": "J"
+      "unit": "J",
+      "answerLabel": "Energy transferred"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q16",
@@ -479,7 +514,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A 2.5 kW heater transfers 1.8 MJ of energy. Calculate how long it was switched on, in minutes.",
+      "question": "A 2.5 kW heater transfers 1.8 MJ of energy.\nCalculate the time the heater was switched on.\nGive your answer in minutes.",
       "markScheme": [
         "1 mark: 2500 W and 1 800 000 J",
         "1 mark: t = 1 800 000 ÷ 2500 = 720 s",
@@ -488,7 +523,8 @@
       "explanation": "Convert kW and MJ to W and J, find t = E ÷ P = 720 s, then divide by 60.",
       "numericAnswer": 12,
       "tolerance": 0.02,
-      "unit": "minutes"
+      "unit": "minutes",
+      "answerLabel": "Time"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q17",
@@ -496,7 +532,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State two factors that affect the amount of energy transferred by an appliance.",
+      "question": "Give two factors that affect the amount of energy transferred by an appliance.",
       "markScheme": [
         "1 mark: the power (rating) of the appliance",
         "1 mark: how long it is switched on (time)"
@@ -549,7 +585,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student says 'a 3 kW kettle always transfers more energy than a 50 W fridge.' Evaluate this statement.",
+      "question": "Table 1 shows information about a kettle and a fridge in a home.\nA student says: 'The kettle always transfers more energy than the fridge.'\nEvaluate the student's statement. Use data from Table 1 in your answer.",
       "markScheme": [
         "1 mark: energy depends on time as well as power (E = P t)",
         "1 mark: the fridge is on for much longer (all day), so it may transfer more energy in total, e.g. 50 W × 24 h = 4.32 MJ versus 3 kW × 10 min = 1.8 MJ"
@@ -559,7 +595,26 @@
         "depends on time",
         "fridge on longer",
         "E = P t"
-      ]
+      ],
+      "table": {
+        "headers": [
+          "Appliance",
+          "Power",
+          "Time used each day"
+        ],
+        "rows": [
+          [
+            "Kettle",
+            "3 kW",
+            "10 minutes"
+          ],
+          [
+            "Fridge",
+            "50 W",
+            "24 hours"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-energy-transfers-in-appliances-q21",
@@ -567,7 +622,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe the useful energy transfers in a hair dryer.",
+      "question": "Figure 1 shows the inside of a hair dryer.\nDescribe the useful energy transfers in the hair dryer.",
       "markScheme": [
         "1 mark: energy transferred electrically to the heating element / thermal store (of the air)",
         "1 mark: and to the kinetic store of the motor/fan"
@@ -576,7 +631,10 @@
       "acceptedAnswers": [
         "thermal store of air",
         "kinetic store of fan motor"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 430 260\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><path d=\"M40 60H300L340 75V125L300 140H40Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M190 140L180 230H230L240 140\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"95\" cy=\"100\" r=\"22\"/><line x1=\"95\" y1=\"78\" x2=\"95\" y2=\"122\"/><line x1=\"73\" y1=\"100\" x2=\"117\" y2=\"100\"/><circle cx=\"95\" cy=\"100\" r=\"5\" fill=\"currentColor\"/><path d=\"M170 85L178 115L186 85L194 115L202 85L210 115L218 85L226 115L234 85L242 115L250 85\" stroke-width=\"1.8\"/><line x1=\"5\" y1=\"100\" x2=\"35\" y2=\"100\"/><path d=\"M35 100L27.8 103.5L27.8 96.5Z\" fill=\"currentColor\"/><line x1=\"345\" y1=\"100\" x2=\"385\" y2=\"100\"/><path d=\"M385 100L377.8 103.5L377.8 96.5Z\" fill=\"currentColor\"/><text x=\"4\" y=\"88\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">air in</text><text x=\"345\" y=\"88\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">hot air out</text><line x1=\"95\" y1=\"122\" x2=\"95\" y2=\"170\"/><text x=\"95\" y=\"186\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">motor and fan</text><line x1=\"210\" y1=\"85\" x2=\"210\" y2=\"45\"/><text x=\"210\" y=\"38\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">heating element</text><text x=\"212\" y=\"250\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">switch and wires in handle</text></g></svg>"
+      }
     },
     {
       "id": "p2-energy-transfers-in-appliances-q22",
@@ -615,13 +673,32 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A 2.0 kW kettle and a 1.2 kW microwave are each used to heat a cup of water. The kettle takes 40 s and the microwave takes 75 s.\nCalculate the energy transferred by each appliance and suggest which is the better choice, giving a reason.",
+      "question": "A kettle and a microwave oven are each used to heat a cup of water.\nTable 1 shows the power of each appliance and the time it takes to heat the water.\nCalculate the energy transferred by each appliance and suggest which is the better choice. Give a reason for your answer.",
       "markScheme": [
         "Indicative content: kettle: E = P t = 2000 × 40 = 80 000 J; microwave: E = 1200 × 75 = 90 000 J; the kettle has a higher power but is on for less time; the kettle transfers less energy in total for the same job, so it is more efficient / cheaper to run for this task; it is also faster; possible counterpoints: microwave heats in the cup directly, kettle may heat more water than needed.",
         "Level 2 (3 to 4 marks): both energies correctly calculated (with unit conversions) and a justified conclusion.",
         "Level 1 (1 to 2 marks): one correct calculation or a conclusion with limited support."
       ],
-      "explanation": "Power alone does not tell you which uses more energy; E = P t shows the kettle transfers 80 kJ and the microwave 90 kJ."
+      "explanation": "Power alone does not tell you which uses more energy; E = P t shows the kettle transfers 80 kJ and the microwave 90 kJ.",
+      "table": {
+        "headers": [
+          "Appliance",
+          "Power in kW",
+          "Time taken in s"
+        ],
+        "rows": [
+          [
+            "Kettle",
+            "2.0",
+            "40"
+          ],
+          [
+            "Microwave oven",
+            "1.2",
+            "75"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-energy-transfers-in-appliances-q25",
@@ -648,15 +725,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A 40 W lamp is switched on for 30 s. Calculate the energy transferred.",
+      "question": "Figure 1 shows how the energy transferred by a lamp changes with time.\nUse Figure 1 to determine the power of the lamp.",
       "markScheme": [
-        "1 mark: E = 40 × 30",
-        "1 mark: 1200 J"
+        "1 mark: correct pair of values read from the graph, e.g. 1200 J in 30 s",
+        "1 mark: P = E ÷ t = 1200 ÷ 30 = 40 W"
       ],
-      "explanation": "E = P t = 40 × 30 = 1200 J.",
-      "numericAnswer": 1200,
+      "explanation": "Rearrange E = P t to give P = E ÷ t. From the line, 1200 J is transferred in 30 s, so P = 1200 ÷ 30 = 40 W. Any point on the line gives the same answer, for example 2400 J in 60 s.",
+      "numericAnswer": 40,
       "tolerance": 0.02,
-      "unit": "J"
+      "unit": "W",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><g stroke-width=\"0.6\" opacity=\"0.45\"><line x1=\"70\" y1=\"16\" x2=\"70\" y2=\"250\"/><line x1=\"97.5\" y1=\"16\" x2=\"97.5\" y2=\"250\"/><line x1=\"125\" y1=\"16\" x2=\"125\" y2=\"250\"/><line x1=\"152.5\" y1=\"16\" x2=\"152.5\" y2=\"250\"/><line x1=\"180\" y1=\"16\" x2=\"180\" y2=\"250\"/><line x1=\"207.5\" y1=\"16\" x2=\"207.5\" y2=\"250\"/><line x1=\"235\" y1=\"16\" x2=\"235\" y2=\"250\"/><line x1=\"262.5\" y1=\"16\" x2=\"262.5\" y2=\"250\"/><line x1=\"290\" y1=\"16\" x2=\"290\" y2=\"250\"/><line x1=\"317.5\" y1=\"16\" x2=\"317.5\" y2=\"250\"/><line x1=\"345\" y1=\"16\" x2=\"345\" y2=\"250\"/><line x1=\"372.5\" y1=\"16\" x2=\"372.5\" y2=\"250\"/><line x1=\"400\" y1=\"16\" x2=\"400\" y2=\"250\"/><line x1=\"70\" y1=\"250\" x2=\"400\" y2=\"250\"/><line x1=\"70\" y1=\"230.5\" x2=\"400\" y2=\"230.5\"/><line x1=\"70\" y1=\"211\" x2=\"400\" y2=\"211\"/><line x1=\"70\" y1=\"191.5\" x2=\"400\" y2=\"191.5\"/><line x1=\"70\" y1=\"172\" x2=\"400\" y2=\"172\"/><line x1=\"70\" y1=\"152.5\" x2=\"400\" y2=\"152.5\"/><line x1=\"70\" y1=\"133\" x2=\"400\" y2=\"133\"/><line x1=\"70\" y1=\"113.5\" x2=\"400\" y2=\"113.5\"/><line x1=\"70\" y1=\"94\" x2=\"400\" y2=\"94\"/><line x1=\"70\" y1=\"74.5\" x2=\"400\" y2=\"74.5\"/><line x1=\"70\" y1=\"55\" x2=\"400\" y2=\"55\"/><line x1=\"70\" y1=\"35.5\" x2=\"400\" y2=\"35.5\"/><line x1=\"70\" y1=\"16\" x2=\"400\" y2=\"16\"/></g><line x1=\"70\" y1=\"250\" x2=\"400\" y2=\"250\"/><line x1=\"70\" y1=\"16\" x2=\"70\" y2=\"250\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"255\"/><text x=\"70\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">0</text><line x1=\"125\" y1=\"250\" x2=\"125\" y2=\"255\"/><text x=\"125\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">10</text><line x1=\"180\" y1=\"250\" x2=\"180\" y2=\"255\"/><text x=\"180\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">20</text><line x1=\"235\" y1=\"250\" x2=\"235\" y2=\"255\"/><text x=\"235\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">30</text><line x1=\"290\" y1=\"250\" x2=\"290\" y2=\"255\"/><text x=\"290\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">40</text><line x1=\"345\" y1=\"250\" x2=\"345\" y2=\"255\"/><text x=\"345\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">50</text><line x1=\"400\" y1=\"250\" x2=\"400\" y2=\"255\"/><text x=\"400\" y=\"269\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">60</text><line x1=\"65\" y1=\"250\" x2=\"70\" y2=\"250\"/><text x=\"62\" y=\"254\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">0</text><line x1=\"65\" y1=\"211\" x2=\"70\" y2=\"211\"/><text x=\"62\" y=\"215\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">400</text><line x1=\"65\" y1=\"172\" x2=\"70\" y2=\"172\"/><text x=\"62\" y=\"176\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">800</text><line x1=\"65\" y1=\"133\" x2=\"70\" y2=\"133\"/><text x=\"62\" y=\"137\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">1200</text><line x1=\"65\" y1=\"94\" x2=\"70\" y2=\"94\"/><text x=\"62\" y=\"98\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">1600</text><line x1=\"65\" y1=\"55\" x2=\"70\" y2=\"55\"/><text x=\"62\" y=\"59\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">2000</text><line x1=\"65\" y1=\"16\" x2=\"70\" y2=\"16\"/><text x=\"62\" y=\"20\" font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">2400</text><text x=\"235\" y=\"292\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Time in s</text><text x=\"16\" y=\"133\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" transform=\"rotate(-90 16 133)\">Energy transferred in J</text><polyline points=\"70,250 400,16\" stroke-width=\"2.5\"/></g></svg>"
+      },
+      "answerLabel": "Power"
     },
     {
       "id": "p2-energy-transfers-in-appliances-q27",
@@ -664,7 +745,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Compare the energy transferred by each coulomb of charge passing through a 230 V mains heater and a 12 V car headlamp.",
+      "question": "Table 1 shows the potential difference across two appliances.\nCompare the energy transferred by each coulomb of charge passing through the mains heater and through the car headlamp.",
       "markScheme": [
         "1 mark: each coulomb transfers 230 J in the heater and 12 J in the headlamp",
         "1 mark: so each coulomb transfers about 19 times more energy in the mains heater (E = Q V)"
@@ -674,7 +755,23 @@
         "230 J per coulomb",
         "12 J per coulomb",
         "more energy per coulomb"
-      ]
+      ],
+      "table": {
+        "headers": [
+          "Appliance",
+          "Potential difference in V"
+        ],
+        "rows": [
+          [
+            "Mains heater",
+            "230"
+          ],
+          [
+            "Car headlamp",
+            "12"
+          ]
+        ]
+      }
     }
   ]
 }

@@ -297,7 +297,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "During filtration, what name is given to the solid left on the filter paper?",
+      "question": "Figure 1 shows the apparatus used to filter a mixture.\nWhat is the name given to the solid, X, left on the filter paper?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 265\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M140 40L190 115V170M260 40L210 115V170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M148 44L200 116L252 44\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><path d=\"M183 98H217L200 116Z\" fill=\"#fde68a\" fill-opacity=\"0.6\" stroke=\"currentColor\"/><path d=\"M175 160V180L130 250H270L225 180V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M150.6 218H249.4L270 250H130Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"208\" y1=\"106\" x2=\"300\" y2=\"100\" stroke=\"currentColor\"/><text x=\"303\" y=\"104\" font-size=\"12\" fill=\"currentColor\">X</text><line x1=\"236\" y1=\"66\" x2=\"300\" y2=\"62\" stroke=\"currentColor\"/><text x=\"303\" y=\"66\" font-size=\"12\" fill=\"currentColor\">filter paper</text><line x1=\"150\" y1=\"55\" x2=\"95\" y2=\"60\" stroke=\"currentColor\"/><text x=\"92\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">filter funnel</text><line x1=\"140\" y1=\"235\" x2=\"95\" y2=\"235\" stroke=\"currentColor\"/><text x=\"92\" y=\"239\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">conical flask</text></svg>"
+      },
       "options": [
         "Filtrate",
         "Distillate",
@@ -316,7 +319,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Ethanol boils at 78 °C and water boils at 100 °C. Which method is best for separating a mixture of ethanol and water?",
+      "question": "Table 1 shows the boiling points of ethanol and water.\nWhich method is best for separating a mixture of ethanol and water?",
+      "table": {
+        "headers": [
+          "Liquid",
+          "Boiling point in °C"
+        ],
+        "rows": [
+          [
+            "Ethanol",
+            "78"
+          ],
+          [
+            "Water",
+            "100"
+          ]
+        ]
+      },
       "options": [
         "Filtration",
         "Crystallisation",
@@ -335,7 +354,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the purpose of the condenser in distillation?",
+      "question": "Figure 1 shows the apparatus used for simple distillation.\nWhat is the purpose of part X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 275\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M80 72V133A40 40 0 1 0 100 133V72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50.9 180A40 40 0 0 0 129.1 180Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M100 87L360.9 167.1M100 93L359.2 172.8\" stroke=\"currentColor\" fill=\"none\"/><path d=\"M161.2 95.2L323.7 145.2L316.1 170L153.5 120.1Z\" fill=\"#93c5fd\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M292.9 163.2v22M300.9 161.2v24M176.3 104.1v-24M184.3 102.1v-22\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"90\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M350 185V245H410V185\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"225\" width=\"58\" height=\"19\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"90\" y1=\"262\" x2=\"90\" y2=\"240\" stroke=\"currentColor\"/><polygon points=\"90,240 86.9,247.4 93.1,247.4\" fill=\"currentColor\"/><line x1=\"70\" y1=\"232\" x2=\"110\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"40\" x2=\"130\" y2=\"30\" stroke=\"currentColor\"/><text x=\"133\" y=\"34\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"110\" y1=\"195\" x2=\"150\" y2=\"235\" stroke=\"currentColor\"/><text x=\"153\" y=\"239\" font-size=\"12\" fill=\"currentColor\">flask</text><line x1=\"90\" y1=\"252\" x2=\"60\" y2=\"258\" stroke=\"currentColor\"/><text x=\"57\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heat</text><line x1=\"266\" y1=\"128\" x2=\"300\" y2=\"100\" stroke=\"currentColor\"/><text x=\"303\" y=\"104\" font-size=\"12\" fill=\"currentColor\">X</text><line x1=\"293\" y1=\"186\" x2=\"270\" y2=\"208\" stroke=\"currentColor\"/><text x=\"267\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">water in</text><line x1=\"184\" y1=\"79\" x2=\"215\" y2=\"60\" stroke=\"currentColor\"/><text x=\"218\" y=\"64\" font-size=\"12\" fill=\"currentColor\">water out</text></svg>"
+      },
       "options": [
         "To heat the solution so that it boils",
         "To cool the vapour so that it turns back into a liquid",
@@ -430,7 +452,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State what is meant by a mixture.",
+      "question": "What is meant by a mixture?",
       "acceptedAnswers": [
         "two or more substances",
         "elements or compounds",
@@ -604,7 +626,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Ethanol boils at 78 °C and water at 100 °C. Explain why simple distillation does not give pure ethanol from a mixture of ethanol and water.",
+      "question": "Table 1 shows the boiling points of ethanol and water.\nExplain why simple distillation does not give pure ethanol from a mixture of ethanol and water.",
+      "table": {
+        "headers": [
+          "Liquid",
+          "Boiling point in °C"
+        ],
+        "rows": [
+          [
+            "Ethanol",
+            "78"
+          ],
+          [
+            "Water",
+            "100"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "boiling points are close",
         "similar boiling points",
@@ -624,7 +662,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In distillation the thermometer bulb is placed level with the side arm leading to the condenser. Explain why.",
+      "question": "Figure 1 shows the apparatus a student used to distil water from ink.\nThe thermometer bulb is placed level with the side arm leading to the condenser.\nExplain why.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 275\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M80 72V133A40 40 0 1 0 100 133V72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50.9 180A40 40 0 0 0 129.1 180Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M100 87L360.9 167.1M100 93L359.2 172.8\" stroke=\"currentColor\" fill=\"none\"/><path d=\"M161.2 95.2L323.7 145.2L316.1 170L153.5 120.1Z\" fill=\"#93c5fd\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M292.9 163.2v22M300.9 161.2v24M176.3 104.1v-24M184.3 102.1v-22\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"90\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M350 185V245H410V185\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"225\" width=\"58\" height=\"19\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"90\" y1=\"262\" x2=\"90\" y2=\"240\" stroke=\"currentColor\"/><polygon points=\"90,240 86.9,247.4 93.1,247.4\" fill=\"currentColor\"/><line x1=\"70\" y1=\"232\" x2=\"110\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"40\" x2=\"130\" y2=\"30\" stroke=\"currentColor\"/><text x=\"133\" y=\"34\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"110\" y1=\"195\" x2=\"150\" y2=\"235\" stroke=\"currentColor\"/><text x=\"153\" y=\"239\" font-size=\"12\" fill=\"currentColor\">ink</text><line x1=\"90\" y1=\"252\" x2=\"60\" y2=\"258\" stroke=\"currentColor\"/><text x=\"57\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heat</text><line x1=\"266\" y1=\"128\" x2=\"300\" y2=\"100\" stroke=\"currentColor\"/><text x=\"303\" y=\"104\" font-size=\"12\" fill=\"currentColor\">condenser</text><line x1=\"293\" y1=\"186\" x2=\"270\" y2=\"208\" stroke=\"currentColor\"/><text x=\"267\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">water in</text><line x1=\"184\" y1=\"79\" x2=\"215\" y2=\"60\" stroke=\"currentColor\"/><text x=\"218\" y=\"64\" font-size=\"12\" fill=\"currentColor\">water out</text><line x1=\"112\" y1=\"94\" x2=\"130\" y2=\"135\" stroke=\"currentColor\"/><text x=\"133\" y=\"139\" font-size=\"12\" fill=\"currentColor\">side arm</text></svg>"
+      },
       "acceptedAnswers": [
         "temperature of the vapour",
         "vapour entering the condenser",
@@ -643,7 +684,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why cooling water enters the condenser at the lower end and leaves at the upper end.",
+      "question": "Figure 1 shows the apparatus used to obtain pure water from salt solution.\nExplain why the cooling water enters the condenser at the lower end and leaves at the upper end.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 275\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M80 72V133A40 40 0 1 0 100 133V72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50.9 180A40 40 0 0 0 129.1 180Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M100 87L360.9 167.1M100 93L359.2 172.8\" stroke=\"currentColor\" fill=\"none\"/><path d=\"M161.2 95.2L323.7 145.2L316.1 170L153.5 120.1Z\" fill=\"#93c5fd\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M292.9 163.2v22M300.9 161.2v24M176.3 104.1v-24M184.3 102.1v-22\" stroke=\"currentColor\" fill=\"none\"/><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"90\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M350 185V245H410V185\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"225\" width=\"58\" height=\"19\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"90\" y1=\"262\" x2=\"90\" y2=\"240\" stroke=\"currentColor\"/><polygon points=\"90,240 86.9,247.4 93.1,247.4\" fill=\"currentColor\"/><line x1=\"70\" y1=\"232\" x2=\"110\" y2=\"232\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"40\" x2=\"130\" y2=\"30\" stroke=\"currentColor\"/><text x=\"133\" y=\"34\" font-size=\"12\" fill=\"currentColor\">thermometer</text><line x1=\"110\" y1=\"195\" x2=\"150\" y2=\"235\" stroke=\"currentColor\"/><text x=\"153\" y=\"239\" font-size=\"12\" fill=\"currentColor\">salt solution</text><line x1=\"90\" y1=\"252\" x2=\"60\" y2=\"258\" stroke=\"currentColor\"/><text x=\"57\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">heat</text><line x1=\"266\" y1=\"128\" x2=\"300\" y2=\"100\" stroke=\"currentColor\"/><text x=\"303\" y=\"104\" font-size=\"12\" fill=\"currentColor\">condenser</text><line x1=\"293\" y1=\"186\" x2=\"270\" y2=\"208\" stroke=\"currentColor\"/><text x=\"267\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">cooling water in</text><line x1=\"184\" y1=\"79\" x2=\"215\" y2=\"60\" stroke=\"currentColor\"/><text x=\"218\" y=\"64\" font-size=\"12\" fill=\"currentColor\">cooling water out</text><line x1=\"410\" y1=\"230\" x2=\"425\" y2=\"215\" stroke=\"currentColor\"/><text x=\"428\" y=\"219\" font-size=\"12\" fill=\"currentColor\">pure water</text></svg>"
+      },
       "acceptedAnswers": [
         "condenser stays full",
         "full of water",
@@ -678,7 +722,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A bottle contains a mixture of propanone (boiling point 56 °C) and water (boiling point 100 °C). A blue dye is dissolved in the mixture.\nDescribe and explain how a student could obtain separate samples of pure propanone and pure water, and how they could find out whether the blue dye is a single substance.",
+      "question": "A bottle contains a mixture of propanone and water. A blue dye is dissolved in the mixture.\nTable 1 shows the boiling points of propanone and water.\nDescribe and explain how a student could:\n• obtain separate samples of pure propanone and pure water\n• find out whether the blue dye is a single substance.",
+      "table": {
+        "headers": [
+          "Liquid",
+          "Boiling point in °C"
+        ],
+        "rows": [
+          [
+            "Propanone",
+            "56"
+          ],
+          [
+            "Water",
+            "100"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: propanone and water mix completely so filtration cannot be used; use fractional distillation because both are liquids; heat the mixture in a flask with a fractionating column; propanone has the lower boiling point so its vapour reaches the top first; collect the liquid that distils while the thermometer reads about 56 °C; when the temperature rises towards 100 °C change the collecting container; collect water at 100 °C; the dye has a much higher boiling point and stays in the flask; condenser cools the vapour with water in at the bottom; to test the dye use paper chromatography; spot the dye on a pencil line, place in solvent below the line; if it gives one spot it may be a single substance, more than one spot means it is a mixture of dyes.",
         "Level 3 (5 to 6 marks): correct choice and detailed explanation of fractional distillation linked to boiling points, including the order of collection, and a correct use of chromatography to test the dye.",

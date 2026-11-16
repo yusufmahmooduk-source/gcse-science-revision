@@ -75,11 +75,36 @@
       "Dish C, light from above: mean height (mm)"
     ],
     "rows": [
-      ["0", "2", "2", "2"],
-      ["2", "4", "5", "4"],
-      ["4", "14", "19", "13"],
-      ["6", "24", "35", "22"],
-      ["8", "31", "48", "28"]
+      [
+        "0",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "2",
+        "4",
+        "5",
+        "4"
+      ],
+      [
+        "4",
+        "14",
+        "19",
+        "13"
+      ],
+      [
+        "6",
+        "24",
+        "35",
+        "22"
+      ],
+      [
+        "8",
+        "31",
+        "48",
+        "28"
+      ]
     ],
     "notes": "Observations on day 8: dish A seedlings were green and bent towards the slit, with a mean angle of 42° from the vertical; dish B seedlings were tall, thin and pale yellow and grew straight up; dish C seedlings were green, short and sturdy and grew straight up. All 10 seeds germinated in dishes A and C, and 9 in dish B. Plot mean height (y-axis) against day (x-axis) as a line graph with one line for each condition."
   },
@@ -135,7 +160,9 @@
         "The movement of water through a plant"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: a growth response to light"],
+      "markScheme": [
+        "1 mark: a growth response to light"
+      ],
       "explanation": "'Photo' means light and 'tropism' means a growth response to a stimulus from one direction. Gravitropism is the response to gravity, and photosynthesis is how plants make glucose."
     },
     {
@@ -145,9 +172,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which plant hormone causes shoots to bend towards light?",
-      "options": ["Insulin", "Gibberellin", "Ethene", "Auxin"],
+      "options": [
+        "Insulin",
+        "Gibberellin",
+        "Ethene",
+        "Auxin"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: auxin"],
+      "markScheme": [
+        "1 mark: auxin"
+      ],
       "explanation": "Auxin controls phototropism and gravitropism. Gibberellins are involved in seed germination, ethene controls fruit ripening, and insulin is an animal hormone."
     },
     {
@@ -156,9 +190,22 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Explain how auxin causes a cress shoot to bend towards light coming from one side.",
-      "acceptedAnswers": ["auxin moves to shaded side", "auxin accumulates on shaded side", "cells on shaded side elongate more", "unequal growth", "bends towards light"],
-      "markScheme": ["1 mark: auxin builds up (moves) to the shaded side of the shoot", "1 mark: auxin causes cells on the shaded side to elongate (grow longer) more", "1 mark: so the shaded side grows faster than the light side and the shoot bends towards the light"],
+      "question": "Figure 1 shows a cress shoot growing with light coming from one side.\nExplain how auxin causes the shoot to bend towards the light.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M60 180h160v16H60z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M140 180c0-40 2-80 30-110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M170 70c10-14 26-14 34-8c-12 10-24 12-34 8zM170 70c-4-16 4-28 16-32c2 14-6 26-16 32z\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"350\" cy=\"80\" r=\"18\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M326 70L236 70M242.1 73.4L236 70L242.1 66.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><path d=\"M326 100L236 100M242.1 103.4L236 100L242.1 96.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"260\" y=\"130\" font-size=\"12\" fill=\"currentColor\">Light from</text><text x=\"260\" y=\"144\" font-size=\"12\" fill=\"currentColor\">one side</text><text x=\"320\" y=\"50\" font-size=\"12\" fill=\"currentColor\">Lamp</text><text x=\"30\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Shoot</text><path d=\"M70 116L140 120\" stroke=\"currentColor\"/><text x=\"60\" y=\"215\" font-size=\"12\" fill=\"currentColor\">Moist cotton wool</text><path d=\"M110 204L120 194\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "auxin moves to shaded side",
+        "auxin accumulates on shaded side",
+        "cells on shaded side elongate more",
+        "unequal growth",
+        "bends towards light"
+      ],
+      "markScheme": [
+        "1 mark: auxin builds up (moves) to the shaded side of the shoot",
+        "1 mark: auxin causes cells on the shaded side to elongate (grow longer) more",
+        "1 mark: so the shaded side grows faster than the light side and the shoot bends towards the light"
+      ],
       "explanation": "The bending comes from unequal growth. Auxin does not make cells on the light side shrink: the shaded side simply grows more."
     },
     {
@@ -175,7 +222,9 @@
         "Negative phototropism"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: positive gravitropism (geotropism)"],
+      "markScheme": [
+        "1 mark: positive gravitropism (geotropism)"
+      ],
       "explanation": "The root grows towards the pull of gravity, so it is positively gravitropic. It cannot be phototropism because the seedling was in the dark. Shoots show negative gravitropism by growing upwards."
     },
     {
@@ -184,12 +233,45 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "The heights of 10 cress seedlings on day 8 were (in mm): 28, 32, 30, 35, 29, 31, 33, 30, 27, 35.\nCalculate the mean height.",
+      "question": "A student measured the heights of 10 cress seedlings on day 8.\nTable 1 shows the results.\nCalculate the mean height of the seedlings.",
+      "table": {
+        "headers": [
+          "Seedling",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "rows": [
+          [
+            "Height in mm",
+            "28",
+            "32",
+            "30",
+            "35",
+            "29",
+            "31",
+            "33",
+            "30",
+            "27",
+            "35"
+          ]
+        ]
+      },
       "numericAnswer": 31,
       "tolerance": 0.01,
       "unit": "mm",
-      "markScheme": ["1 mark: 310 ÷ 10 = 31 mm"],
-      "explanation": "Add all ten heights (310 mm) and divide by the number of seedlings (10), giving 31 mm."
+      "markScheme": [
+        "1 mark: 310 ÷ 10 = 31 mm"
+      ],
+      "explanation": "Add all ten heights (310 mm) and divide by the number of seedlings (10), giving 31 mm.",
+      "answerLabel": "Mean height"
     },
     {
       "id": "bio-rp8-q06",
@@ -197,12 +279,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The mean height of seedlings in dish A was 4 mm on day 2 and 31 mm on day 8.\nCalculate the mean rate of growth between day 2 and day 8 in mm per day.",
+      "question": "Figure 1 shows the mean height of the seedlings in dish A over 8 days.\nUse Figure 1 to calculate the mean rate of growth between day 2 and day 8.\nGive your answer in mm per day.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M83.4 14V254M126.1 14V254M168.9 14V254M211.6 14V254M254.4 14V254M297.1 14V254M339.9 14V254M382.6 14V254M62 247.1H404M62 240.3H404M62 233.4H404M62 226.6H404M62 212.9H404M62 206H404M62 199.1H404M62 192.3H404M62 178.6H404M62 171.7H404M62 164.9H404M62 158H404M62 144.3H404M62 137.4H404M62 130.6H404M62 123.7H404M62 110H404M62 103.1H404M62 96.3H404M62 89.4H404M62 75.7H404M62 68.9H404M62 62H404M62 55.1H404M62 41.4H404M62 34.6H404M62 27.7H404M62 20.9H404\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M62 14V254M104.8 14V254M147.5 14V254M190.3 14V254M233 14V254M275.8 14V254M318.5 14V254M361.3 14V254M404 14V254M62 254H404M62 219.7H404M62 185.4H404M62 151.1H404M62 116.9H404M62 82.6H404M62 48.3H404M62 14H404\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M62 14V254H404\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"62,240.3 147.5,226.6 233,158 318.5,89.4 404,41.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M58 236.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M143.5 222.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M229 154l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M314.5 85.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 37.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"62\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"104.8\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"147.5\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"190.3\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"233\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"275.8\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"318.5\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"361.3\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"404\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"56\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"223.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"56\" y=\"189.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"56\" y=\"155.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><text x=\"56\" y=\"120.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"56\" y=\"86.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25</text><text x=\"56\" y=\"52.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"56\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">35</text><text x=\"233\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Mean height of seedlings in mm</text></svg>"
+      },
       "numericAnswer": 4.5,
       "tolerance": 0.01,
       "unit": "mm/day",
-      "markScheme": ["1 mark: increase = 31 − 4 = 27 mm over 8 − 2 = 6 days", "1 mark: 27 ÷ 6 = 4.5 mm/day"],
-      "explanation": "Rate = change in height ÷ time. The time is 6 days (from day 2 to day 8), not 8 days. Dividing 27 by 8 gives the wrong answer of 3.4 mm/day."
+      "markScheme": [
+        "1 mark: heights read from graph: 4 mm on day 2 and 31 mm on day 8, so increase = 27 mm over 6 days",
+        "1 mark: 27 ÷ 6 = 4.5 mm/day"
+      ],
+      "explanation": "Read the values from the graph: 4 mm on day 2 and 31 mm on day 8. Rate = change in height ÷ time = 27 ÷ 6 = 4.5 mm/day. The time is 6 days (from day 2 to day 8), not 8 days. Dividing 27 by 8 gives the wrong answer of 3.4 mm/day.",
+      "answerLabel": "Mean rate of growth"
     },
     {
       "id": "bio-rp8-q07",
@@ -210,12 +299,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student planted 20 cress seeds and 17 of them germinated.\nCalculate the percentage of seeds that germinated.",
+      "question": "Table 1 shows how many cress seeds germinated in one dish.\nCalculate the percentage of seeds that germinated.",
+      "table": {
+        "headers": [
+          "Number of seeds planted",
+          "Number of seeds that germinated"
+        ],
+        "rows": [
+          [
+            "20",
+            "17"
+          ]
+        ]
+      },
       "numericAnswer": 85,
       "tolerance": 0.01,
       "unit": "%",
-      "markScheme": ["1 mark: 17 ÷ 20 × 100 = 85%"],
-      "explanation": "Percentage = number germinated ÷ total × 100 = 17 ÷ 20 × 100 = 85%."
+      "markScheme": [
+        "1 mark: 17 ÷ 20 × 100 = 85%"
+      ],
+      "explanation": "Percentage = number germinated ÷ total × 100 = 17 ÷ 20 × 100 = 85%.",
+      "answerLabel": "Percentage germinated"
     },
     {
       "id": "bio-rp8-q08",
@@ -223,7 +327,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the purpose of dish C, in which the seedlings receive light from above?",
+      "question": "Figure 1 shows how a student set up three dishes of cress seedlings.\nWhat is the purpose of dish C?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 500 250\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M20 80h120v110H20zM140 80v40M140 140v50\"/><path d=\"M210 80h120v110H210z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M370 80v110h120V80\"/></g><path d=\"M40 175h80v10h-80z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M56 175v-16M72 175v-16M88 175v-16M104 175v-16\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M230 175h80v10h-80z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M246 175v-16M262 175v-16M278 175v-16M294 175v-16\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M390 175h80v10h-80z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M406 175v-16M422 175v-16M438 175v-16M454 175v-16\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M198 130L146 130M152.1 133.4L146 130L152.1 126.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"154\" y=\"118\" font-size=\"12\" fill=\"currentColor\">Light</text><circle cx=\"430\" cy=\"28\" r=\"14\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M430 46L430 74M433.4 67.9L430 74L426.6 67.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"450\" y=\"32\" font-size=\"12\" fill=\"currentColor\">Lamp</text><text x=\"154\" y=\"156\" font-size=\"12\" fill=\"currentColor\">Slit</text><path d=\"M152 150L142 133\" stroke=\"currentColor\"/><text x=\"80\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dish A</text><text x=\"80\" y=\"228\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">light from one side</text><text x=\"270\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dish B</text><text x=\"270\" y=\"228\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">closed box, darkness</text><text x=\"430\" y=\"212\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Dish C</text><text x=\"430\" y=\"228\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">light from above</text><text x=\"20\" y=\"66\" font-size=\"12\" fill=\"currentColor\">Box</text><path d=\"M44 62L56 80\" stroke=\"currentColor\"/></svg>"
+      },
       "options": [
         "To show what happens to seedlings with no light",
         "To provide extra seedlings in case some die",
@@ -231,7 +338,9 @@
         "To test the effect of gravity on roots"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: it is a control, for comparison, showing seedlings grow straight when light is not from one side"],
+      "markScheme": [
+        "1 mark: it is a control, for comparison, showing seedlings grow straight when light is not from one side"
+      ],
       "explanation": "Seedlings in dish C grow straight up. Comparing with dish A shows that the bending is caused by the direction of light, not by something else such as the type of seed. Dish B is the one with no light."
     },
     {
@@ -240,9 +349,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give two variables that should be kept the same for all three dishes.",
-      "acceptedAnswers": ["number of seeds", "volume of water", "temperature", "type of seed", "amount of cotton wool", "time"],
-      "markScheme": ["1 mark each, up to 2: number of seeds; volume of water added; temperature; type of seed; amount of cotton wool; length of time"],
+      "question": "Give two variables that should be kept the same for all three dishes of cress seedlings.",
+      "acceptedAnswers": [
+        "number of seeds",
+        "volume of water",
+        "temperature",
+        "type of seed",
+        "amount of cotton wool",
+        "time"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: number of seeds; volume of water added; temperature; type of seed; amount of cotton wool; length of time"
+      ],
       "explanation": "These variables affect germination and growth, so they must be controlled. Only the direction of light should differ between the dishes."
     },
     {
@@ -252,8 +370,17 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Explain why 10 seeds are planted in each dish rather than just one.",
-      "acceptedAnswers": ["seedlings vary", "calculate a mean", "some may not germinate", "reduce effect of anomalies", "more representative"],
-      "markScheme": ["1 mark: individual seedlings vary (and some may not germinate)", "1 mark: so a mean can be calculated, reducing the effect of unusual seedlings and giving more representative results"],
+      "acceptedAnswers": [
+        "seedlings vary",
+        "calculate a mean",
+        "some may not germinate",
+        "reduce effect of anomalies",
+        "more representative"
+      ],
+      "markScheme": [
+        "1 mark: individual seedlings vary (and some may not germinate)",
+        "1 mark: so a mean can be calculated, reducing the effect of unusual seedlings and giving more representative results"
+      ],
       "explanation": "One seedling could be unusual or fail to grow. Measuring many and calculating a mean gives a more reliable picture of how seedlings respond."
     },
     {
@@ -270,7 +397,9 @@
         "Bent sideways and green"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: taller, thinner and yellow (pale)"],
+      "markScheme": [
+        "1 mark: taller, thinner and yellow (pale)"
+      ],
       "explanation": "Without light, seedlings cannot make chlorophyll, so they are yellow. They use stored food from the seed to grow rapidly upwards. They grow straight up, not sideways, because there is no light from one side."
     },
     {
@@ -280,8 +409,18 @@
       "difficulty": 3,
       "marks": 3,
       "question": "A root is placed horizontally. Explain why it grows downwards.",
-      "acceptedAnswers": ["auxin accumulates on lower side", "gravity", "auxin inhibits cell elongation in roots", "upper side grows more", "positive gravitropism"],
-      "markScheme": ["1 mark: auxin builds up on the lower side of the root because of gravity", "1 mark: in roots, auxin inhibits cell elongation", "1 mark: so the upper side grows more than the lower side and the root bends downwards"],
+      "acceptedAnswers": [
+        "auxin accumulates on lower side",
+        "gravity",
+        "auxin inhibits cell elongation in roots",
+        "upper side grows more",
+        "positive gravitropism"
+      ],
+      "markScheme": [
+        "1 mark: auxin builds up on the lower side of the root because of gravity",
+        "1 mark: in roots, auxin inhibits cell elongation",
+        "1 mark: so the upper side grows more than the lower side and the root bends downwards"
+      ],
       "explanation": "The key difference from shoots is that auxin inhibits elongation in roots. More auxin on the lower side means the lower side grows less, so the root curves downwards."
     },
     {
@@ -291,8 +430,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Suggest how a student could measure how much the seedlings in dish A had bent towards the light.",
-      "acceptedAnswers": ["protractor", "angle from vertical", "photograph", "measure angle"],
-      "markScheme": ["1 mark: use a protractor to measure the angle between each shoot and the vertical", "1 mark: measure several seedlings and calculate a mean angle (or photograph and measure the angle on the image)"],
+      "acceptedAnswers": [
+        "protractor",
+        "angle from vertical",
+        "photograph",
+        "measure angle"
+      ],
+      "markScheme": [
+        "1 mark: use a protractor to measure the angle between each shoot and the vertical",
+        "1 mark: measure several seedlings and calculate a mean angle (or photograph and measure the angle on the image)"
+      ],
       "explanation": "The angle from vertical is a quantitative measure of bending. Photographing seedlings allows careful measurement without damaging them."
     },
     {
@@ -317,7 +464,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "After 8 days, seedlings with light from one side were bent towards the light, seedlings with light from above were straight and green, and seedlings in the dark were straight, tall and yellow.\nExplain these results.",
+      "question": "A student grew cress seedlings in three different conditions for 8 days.\nTable 1 shows the student's observations.\nExplain these results.",
+      "table": {
+        "headers": [
+          "Condition",
+          "Observations after 8 days"
+        ],
+        "rows": [
+          [
+            "Light from one side",
+            "Green, bent towards the light"
+          ],
+          [
+            "Light from above",
+            "Green, short and straight"
+          ],
+          [
+            "Darkness",
+            "Yellow, tall, thin and straight"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: one-sided light: auxin builds up on the shaded side, cells there elongate more, shoot bends towards light (positive phototropism), helping it absorb more light for photosynthesis; light from above: auxin evenly distributed, equal elongation on all sides so shoots grow straight; dark: no light so no chlorophyll made, so yellow; seedlings use stored food to grow tall quickly; grow straight up because the only directional stimulus is gravity (negative gravitropism of shoots)",
         "Level 2 (3 to 4 marks): explains at least two of the three results using auxin distribution and cell elongation, with correct reference to phototropism or gravitropism.",

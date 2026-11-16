@@ -227,7 +227,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which organ is most damaged by long-term heavy drinking of alcohol?",
+      "question": "Long-term heavy drinking of alcohol damages some organs.\nWhich organ is most damaged by long-term heavy drinking of alcohol?",
       "options": [
         "Lungs",
         "Liver",
@@ -284,7 +284,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A scatter graph shows that as people's weekly exercise increases, their blood pressure decreases. What type of correlation is this?",
+      "question": "Figure 1 shows the blood pressure and the amount of exercise done each week by 19 people.\nWhat type of correlation is shown in Figure 1?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70.0 20V265M147.0 20V265M224.0 20V265M301.0 20V265M378.0 20V265M455.0 20V265M70 265.0H455M70 224.2H455M70 183.3H455M70 142.5H455M70 101.7H455M70 60.8H455M70 20.0H455\" stroke=\"currentColor\" stroke-opacity=\"0.3\" fill=\"none\"/><text x=\"70.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"147.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"224.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"301.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"378.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"455.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"64\" y=\"269.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"64\" y=\"228.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">110</text><text x=\"64\" y=\"187.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"64\" y=\"146.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">130</text><text x=\"64\" y=\"105.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"64\" y=\"64.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">150</text><text x=\"64\" y=\"24.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><path d=\"M70 20V265H455\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262.5\" y=\"308\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Exercise in hours per week</text><text x=\"18\" y=\"142.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 142.5)\">Blood pressure in mmHg</text><path d=\"M85.3 48.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M104.5 73.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M123.8 56.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M143.0 93.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M162.3 81.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M181.5 105.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200.8 97.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M220.0 126.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M239.3 114.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M258.5 138.5l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M277.8 130.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M297.0 154.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M316.3 142.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M335.5 167.1l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M354.8 158.9l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M374.0 179.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M393.3 171.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M412.5 191.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M431.8 183.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "options": [
         "Positive",
         "Negative",
@@ -303,7 +306,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why does smoking during pregnancy cause low birth weight?",
+      "question": "Smoking during pregnancy can cause a baby to have a low birth weight.\nWhat is the reason for this?",
       "options": [
         "Nicotine is a food for the fetus",
         "Smoking increases the mother's appetite",
@@ -341,7 +344,36 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Scientists find a strong positive correlation between ice-cream sales and cases of skin cancer. What is the best explanation?",
+      "question": "Table 1 shows the sales of ice cream and the number of new cases of skin cancer in a town in different months of one year.\nThere is a strong positive correlation between the two sets of data.\nWhat is the best explanation for this correlation?",
+      "table": {
+        "headers": [
+          "Month",
+          "Ice-cream sales in thousands",
+          "Number of new cases of skin cancer"
+        ],
+        "rows": [
+          [
+            "January",
+            "2",
+            "11"
+          ],
+          [
+            "April",
+            "9",
+            "18"
+          ],
+          [
+            "July",
+            "25",
+            "34"
+          ],
+          [
+            "October",
+            "7",
+            "16"
+          ]
+        ]
+      },
       "options": [
         "Ice cream contains carcinogens",
         "Skin cancer makes people eat more ice cream",
@@ -360,7 +392,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Which statement best describes why smoking is accepted as a cause of lung cancer rather than just being correlated with it?",
+      "question": "Smoking is accepted as a cause of lung cancer, not just as being correlated with it.\nWhich statement best explains why?",
       "options": [
         "Most smokers get lung cancer",
         "Scientists have identified carcinogens in tobacco smoke that damage DNA in lung cells",
@@ -379,7 +411,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A person with a family history of heart disease is overweight, smokes and rarely exercises. Which statement is correct?",
+      "question": "A person has a family history of heart disease.\nThe person is overweight, smokes and rarely exercises.\nWhich statement about this person is correct?",
       "options": [
         "Only their genes affect their risk",
         "Stopping smoking will have no effect because of their genes",
@@ -398,7 +430,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "In a group of 800 adults, 120 were obese. Calculate the percentage of the group who were obese.",
+      "question": "Table 1 shows information about a group of adults.\nCalculate the percentage of the group who were obese.",
+      "table": {
+        "headers": [
+          "Number of adults in the group",
+          "Number who were obese"
+        ],
+        "rows": [
+          [
+            "800",
+            "120"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0,
       "unit": "%",
@@ -406,7 +450,8 @@
         "1 mark: 120 ÷ 800 × 100",
         "1 mark: 15%"
       ],
-      "explanation": "120 ÷ 800 = 0.15 = 15%."
+      "explanation": "120 ÷ 800 = 0.15 = 15%.",
+      "answerLabel": "Percentage who were obese"
     },
     {
       "id": "b2-lifestyle-and-non-communicable-diseases-q12",
@@ -414,7 +459,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a study, 9 out of 1500 non-smokers and 63 out of 1500 smokers developed lung cancer. How many times greater was the risk for smokers?",
+      "question": "Table 1 shows the results of a study of lung cancer in smokers and non-smokers.\nCalculate how many times greater the risk of lung cancer was for smokers than for non-smokers.",
+      "table": {
+        "headers": [
+          "Group",
+          "Number of people in group",
+          "Number who developed lung cancer"
+        ],
+        "rows": [
+          [
+            "Non-smokers",
+            "1500",
+            "9"
+          ],
+          [
+            "Smokers",
+            "1500",
+            "63"
+          ]
+        ]
+      },
       "numericAnswer": 7,
       "tolerance": 0,
       "unit": "",
@@ -422,7 +486,8 @@
         "1 mark: 63 ÷ 9 (same group sizes)",
         "1 mark: 7"
       ],
-      "explanation": "Because both groups are the same size, compare the numbers directly: 63 ÷ 9 = 7 times greater."
+      "explanation": "Because both groups are the same size, compare the numbers directly: 63 ÷ 9 = 7 times greater.",
+      "answerLabel": "Number of times greater"
     },
     {
       "id": "b2-lifestyle-and-non-communicable-diseases-q13",
@@ -430,7 +495,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "The number of adults with Type 2 diabetes in a country rose from 2.4 million to 3.9 million. Calculate the percentage increase.",
+      "question": "Figure 1 shows the number of adults with Type 2 diabetes in a country between 2010 and 2020.\nCalculate the percentage increase in the number of adults with Type 2 diabetes between 2010 and 2020.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M85.4 20V265M100.8 20V265M116.2 20V265M131.6 20V265M162.4 20V265M177.8 20V265M193.2 20V265M208.6 20V265M239.4 20V265M254.8 20V265M270.2 20V265M285.6 20V265M316.4 20V265M331.8 20V265M347.2 20V265M362.6 20V265M393.4 20V265M408.8 20V265M424.2 20V265M439.6 20V265M70 255.2H455M70 245.4H455M70 235.6H455M70 225.8H455M70 206.2H455M70 196.4H455M70 186.6H455M70 176.8H455M70 157.2H455M70 147.4H455M70 137.6H455M70 127.8H455M70 108.2H455M70 98.4H455M70 88.6H455M70 78.8H455M70 59.2H455M70 49.4H455M70 39.6H455M70 29.8H455\" stroke=\"currentColor\" stroke-opacity=\"0.12\" fill=\"none\"/><path d=\"M70.0 20V265M147.0 20V265M224.0 20V265M301.0 20V265M378.0 20V265M455.0 20V265M70 265.0H455M70 216.0H455M70 167.0H455M70 118.0H455M70 69.0H455M70 20.0H455\" stroke=\"currentColor\" stroke-opacity=\"0.3\" fill=\"none\"/><text x=\"70.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2010</text><text x=\"147.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2012</text><text x=\"224.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2014</text><text x=\"301.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2016</text><text x=\"378.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2018</text><text x=\"455.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2020</text><text x=\"64\" y=\"269.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"220.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"64\" y=\"171.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"64\" y=\"122.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"64\" y=\"73.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"64\" y=\"24.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><path d=\"M70 20V265H455\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262.5\" y=\"308\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year</text><text x=\"18\" y=\"142.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 142.5)\">Adults with Type 2 diabetes in millions</text><polyline points=\"70.0,147.4 147.0,132.7 224.0,118.0 301.0,103.3 378.0,88.6 455.0,73.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M66.0 143.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M143.0 128.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M220.0 114.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M297.0 99.3l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M374.0 84.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M451.0 69.9l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "numericAnswer": 62.5,
       "tolerance": 0.01,
       "unit": "%",
@@ -438,7 +506,8 @@
         "1 mark: (3.9 − 2.4) ÷ 2.4 × 100",
         "1 mark: 62.5%"
       ],
-      "explanation": "Increase = 1.5 million. 1.5 ÷ 2.4 = 0.625 = 62.5%."
+      "explanation": "Increase = 1.5 million. 1.5 ÷ 2.4 = 0.625 = 62.5%.",
+      "answerLabel": "Percentage increase"
     },
     {
       "id": "b2-lifestyle-and-non-communicable-diseases-q14",
@@ -446,7 +515,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A health service spends £10 billion a year on diabetes. 80% of this is spent on treating complications. Type 2 diabetes accounts for 90% of all diabetes cases. Assuming spending on complications is shared in proportion to cases, calculate the yearly spending on complications of Type 2 diabetes in billions of pounds.",
+      "question": "Table 1 shows information about the cost of diabetes to a health service.\nAssume spending on complications is shared between types of diabetes in proportion to the number of cases.\nCalculate the yearly spending on complications of Type 2 diabetes.\nGive your answer in billions of pounds.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Total yearly spending on diabetes in £ billion",
+            "10"
+          ],
+          [
+            "Percentage of spending used to treat complications",
+            "80"
+          ],
+          [
+            "Percentage of diabetes cases that are Type 2",
+            "90"
+          ]
+        ]
+      },
       "numericAnswer": 7.2,
       "tolerance": 0.01,
       "unit": "£ billion",
@@ -454,7 +543,8 @@
         "1 mark: 10 × 0.8 = £8 billion on complications",
         "1 mark: 8 × 0.9 = £7.2 billion"
       ],
-      "explanation": "First find the spending on complications (£8 billion), then 90% of this for Type 2: £7.2 billion."
+      "explanation": "First find the spending on complications (£8 billion), then 90% of this for Type 2: £7.2 billion.",
+      "answerLabel": "Yearly spending"
     },
     {
       "id": "b2-lifestyle-and-non-communicable-diseases-q15",
@@ -462,7 +552,29 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Group A (2000 people, regular exercise) had 30 cases of cardiovascular disease. Group B (500 people, no regular exercise) had 24 cases. Calculate how many times greater the rate of disease was in group B than group A.",
+      "question": "Table 1 shows the number of cases of cardiovascular disease in two groups of people.\nCalculate how many times greater the rate of cardiovascular disease was in group B than in group A.",
+      "table": {
+        "headers": [
+          "Group",
+          "Regular exercise",
+          "Number of people",
+          "Number of cases of cardiovascular disease"
+        ],
+        "rows": [
+          [
+            "A",
+            "Yes",
+            "2000",
+            "30"
+          ],
+          [
+            "B",
+            "No",
+            "500",
+            "24"
+          ]
+        ]
+      },
       "numericAnswer": 3.2,
       "tolerance": 0.01,
       "unit": "",
@@ -471,7 +583,8 @@
         "1 mark: B: 24 ÷ 500 = 0.048 (4.8%)",
         "1 mark: 0.048 ÷ 0.015 = 3.2"
       ],
-      "explanation": "Group A has more cases but a much larger group. Comparing rates shows group B's rate is 3.2 times greater."
+      "explanation": "Group A has more cases but a much larger group. Comparing rates shows group B's rate is 3.2 times greater.",
+      "answerLabel": "Number of times greater"
     },
     {
       "id": "b2-lifestyle-and-non-communicable-diseases-q16",
@@ -575,7 +688,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A study found a positive correlation between the number of fast-food outlets in an area and the rate of obesity. Explain why this does not prove that fast food causes obesity.",
+      "question": "Figure 1 shows the results of a study of the number of fast-food outlets and the percentage of adults who are obese in 16 areas.\nThe results show a positive correlation.\nExplain why these results do not prove that eating fast food causes obesity.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70.0 20V265M134.2 20V265M198.3 20V265M262.5 20V265M326.7 20V265M390.8 20V265M455.0 20V265M70 265.0H455M70 216.0H455M70 167.0H455M70 118.0H455M70 69.0H455M70 20.0H455\" stroke=\"currentColor\" stroke-opacity=\"0.3\" fill=\"none\"/><text x=\"70.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"134.2\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"198.3\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"262.5\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"326.7\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"390.8\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"455.0\" y=\"281\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"64\" y=\"269.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"64\" y=\"220.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><text x=\"64\" y=\"171.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"64\" y=\"122.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25</text><text x=\"64\" y=\"73.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"64\" y=\"24.0\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">35</text><path d=\"M70 20V265H455\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262.5\" y=\"308\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Number of fast-food outlets per 10 000 people</text><text x=\"18\" y=\"142.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 142.5)\">Adults who are obese in %</text><path d=\"M98.1 202.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M130.2 172.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M130.2 192.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M162.3 163.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M194.3 153.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M194.3 123.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M226.4 133.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M258.5 114.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M258.5 143.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M290.6 94.4l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M322.7 104.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M322.7 74.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M354.8 84.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M386.8 55.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M418.9 65.0l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M418.9 35.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "acceptedAnswers": [
         "correlation not causation",
         "other factors",
@@ -616,7 +732,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State two ways a person could reduce their risk of cardiovascular disease.",
+      "question": "Give two ways a person could reduce their risk of cardiovascular disease.",
       "acceptedAnswers": [
         "stop smoking",
         "exercise",
@@ -636,7 +752,7 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which of these is NOT a lifestyle risk factor?",
+      "question": "Which of these is not a lifestyle risk factor?",
       "options": [
         "Smoking",
         "Lack of exercise",

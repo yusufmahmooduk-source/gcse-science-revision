@@ -209,7 +209,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which equation links power, potential difference and current?",
+      "question": "Which equation links power (P), potential difference (V) and current (I)?",
       "markScheme": [
         "1 mark: P = V × I"
       ],
@@ -247,7 +247,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which equation correctly links power, current and resistance?",
+      "question": "Which equation links power (P), current (I) and resistance (R)?",
       "markScheme": [
         "1 mark: P = I² R"
       ],
@@ -285,7 +285,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The current through a fixed resistor is doubled. What happens to the power transferred?",
+      "question": "The current in a fixed resistor is doubled.\nWhat happens to the power transferred by the resistor?",
       "markScheme": [
         "1 mark: It is four times as large."
       ],
@@ -304,7 +304,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Two appliances are connected to the 230 V mains. Appliance X has a power of 2000 W and Y has a power of 500 W. Which statement is correct?",
+      "question": "Two appliances, X and Y, are connected to the 230 V mains supply.\nTable 1 shows the power of each appliance.\nWhich statement is correct?",
       "markScheme": [
         "1 mark: X draws four times the current of Y."
       ],
@@ -315,7 +315,23 @@
         "They draw the same current.",
         "X draws twice the current of Y."
       ],
-      "answer": 0
+      "answer": 0,
+      "table": {
+        "headers": [
+          "Appliance",
+          "Power in W"
+        ],
+        "rows": [
+          [
+            "X",
+            "2000"
+          ],
+          [
+            "Y",
+            "500"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-electrical-power-q07",
@@ -323,7 +339,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A resistor has 6.0 V across it and a current of 200 mA through it. What power does it transfer?",
+      "question": "Figure 1 shows a circuit used to find the power of a resistor.\nThe voltmeter reads 6.0 V and the ammeter reads 200 mA.\nWhat is the power transferred by the resistor?",
       "markScheme": [
         "1 mark: 1.2 W"
       ],
@@ -334,7 +350,10 @@
         "30 W",
         "1.2 W"
       ],
-      "answer": 3
+      "answer": 3,
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 225\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><line x1=\"40\" y1=\"40\" x2=\"174\" y2=\"40\"/><line x1=\"206\" y1=\"40\" x2=\"340\" y2=\"40\"/><g transform=\"translate(190 40)\"><line x1=\"-16\" y1=\"-16\" x2=\"-16\" y2=\"16\"/><line x1=\"-6\" y1=\"-8\" x2=\"-6\" y2=\"8\" stroke-width=\"5\"/><line x1=\"-6\" y1=\"0\" x2=\"6\" y2=\"0\" stroke-dasharray=\"3 3\"/><line x1=\"6\" y1=\"-16\" x2=\"6\" y2=\"16\"/><line x1=\"16\" y1=\"-8\" x2=\"16\" y2=\"8\" stroke-width=\"5\"/></g><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"82\"/><line x1=\"340\" y1=\"108\" x2=\"340\" y2=\"150\"/><g transform=\"translate(340 95) rotate(90)\"><circle r=\"13\"/></g><text x=\"340\" y=\"100\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"150\"/><line x1=\"40\" y1=\"150\" x2=\"130\" y2=\"150\"/><line x1=\"130\" y1=\"150\" x2=\"172\" y2=\"150\"/><line x1=\"208\" y1=\"150\" x2=\"250\" y2=\"150\"/><g transform=\"translate(190 150)\"><rect x=\"-18\" y=\"-7\" width=\"36\" height=\"14\"/></g><line x1=\"250\" y1=\"150\" x2=\"340\" y2=\"150\"/><line x1=\"130\" y1=\"150\" x2=\"130\" y2=\"200\"/><line x1=\"250\" y1=\"150\" x2=\"250\" y2=\"200\"/><line x1=\"130\" y1=\"200\" x2=\"177\" y2=\"200\"/><line x1=\"203\" y1=\"200\" x2=\"250\" y2=\"200\"/><g transform=\"translate(190 200)\"><circle r=\"13\"/></g><text x=\"190\" y=\"205\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">V</text><circle cx=\"130\" cy=\"150\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"250\" cy=\"150\" r=\"3.5\" fill=\"currentColor\"/></g></svg>"
+      }
     },
     {
       "id": "p2-electrical-power-q08",
@@ -342,7 +361,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A current of 3.0 A flows through a 20 Ω resistor. What is the power?",
+      "question": "A current of 3.0 A flows through a 20 Ω resistor.\nWhat is the power transferred by the resistor?",
       "markScheme": [
         "1 mark: 180 W"
       ],
@@ -380,7 +399,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A heater is connected to 230 V and draws a current of 4.0 A. Calculate its power.",
+      "question": "A heater is connected to a 230 V supply. The current in the heater is 4.0 A.\nCalculate the power of the heater.",
       "markScheme": [
         "1 mark: P = 230 × 4.0",
         "1 mark: 920 W"
@@ -388,7 +407,8 @@
       "explanation": "P = V I = 230 × 4.0 = 920 W.",
       "numericAnswer": 920,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "answerLabel": "Power"
     },
     {
       "id": "p2-electrical-power-q11",
@@ -396,7 +416,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A car headlamp works at 12 V with a current of 2.5 A. Calculate its power.",
+      "question": "Figure 1 shows a car headlamp connected to a 12 V battery.\nThe current in the headlamp is 2.5 A.\nCalculate the power of the headlamp.",
       "markScheme": [
         "1 mark: P = 12 × 2.5",
         "1 mark: 30 W"
@@ -404,7 +424,11 @@
       "explanation": "P = V I = 12 × 2.5 = 30 W.",
       "numericAnswer": 30,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 192\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><line x1=\"40\" y1=\"40\" x2=\"174\" y2=\"40\"/><line x1=\"206\" y1=\"40\" x2=\"340\" y2=\"40\"/><g transform=\"translate(190 40)\"><line x1=\"-16\" y1=\"-16\" x2=\"-16\" y2=\"16\"/><line x1=\"-6\" y1=\"-8\" x2=\"-6\" y2=\"8\" stroke-width=\"5\"/><line x1=\"-6\" y1=\"0\" x2=\"6\" y2=\"0\" stroke-dasharray=\"3 3\"/><line x1=\"6\" y1=\"-16\" x2=\"6\" y2=\"16\"/><line x1=\"16\" y1=\"-8\" x2=\"16\" y2=\"8\" stroke-width=\"5\"/></g><text x=\"190\" y=\"18\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">12 V</text><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"82\"/><line x1=\"340\" y1=\"108\" x2=\"340\" y2=\"150\"/><g transform=\"translate(340 95) rotate(90)\"><circle r=\"13\"/></g><text x=\"340\" y=\"100\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"150\"/><line x1=\"40\" y1=\"150\" x2=\"177\" y2=\"150\"/><line x1=\"203\" y1=\"150\" x2=\"340\" y2=\"150\"/><g transform=\"translate(190 150)\"><circle r=\"13\"/><line x1=\"-9.2\" y1=\"-9.2\" x2=\"9.2\" y2=\"9.2\"/><line x1=\"-9.2\" y1=\"9.2\" x2=\"9.2\" y2=\"-9.2\"/></g><text x=\"190\" y=\"184\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">headlamp</text></g></svg>"
+      },
+      "answerLabel": "Power"
     },
     {
       "id": "p2-electrical-power-q12",
@@ -412,7 +436,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A 2.3 kW kettle is connected to the 230 V mains. Calculate the current through it.",
+      "question": "A 2.3 kW kettle is connected to the 230 V mains supply.\nCalculate the current in the kettle.",
       "markScheme": [
         "1 mark: 2.3 kW = 2300 W",
         "1 mark: I = P ÷ V = 2300 ÷ 230",
@@ -421,7 +445,8 @@
       "explanation": "Convert to watts, then I = P ÷ V = 2300 ÷ 230 = 10 A.",
       "numericAnswer": 10,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "answerLabel": "Current"
     },
     {
       "id": "p2-electrical-power-q13",
@@ -429,7 +454,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A current of 0.50 A flows through a 40 Ω resistor. Calculate the power transferred.",
+      "question": "Figure 1 shows a circuit containing a 40 Ω resistor.\nThe ammeter reads 0.50 A.\nCalculate the power transferred by the resistor.",
       "markScheme": [
         "1 mark: P = 0.50² × 40",
         "1 mark: 10 W"
@@ -437,7 +462,11 @@
       "explanation": "P = I² R = 0.25 × 40 = 10 W.",
       "numericAnswer": 10,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 192\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><line x1=\"40\" y1=\"40\" x2=\"174\" y2=\"40\"/><line x1=\"206\" y1=\"40\" x2=\"340\" y2=\"40\"/><g transform=\"translate(190 40)\"><line x1=\"-16\" y1=\"-16\" x2=\"-16\" y2=\"16\"/><line x1=\"-6\" y1=\"-8\" x2=\"-6\" y2=\"8\" stroke-width=\"5\"/><line x1=\"-6\" y1=\"0\" x2=\"6\" y2=\"0\" stroke-dasharray=\"3 3\"/><line x1=\"6\" y1=\"-16\" x2=\"6\" y2=\"16\"/><line x1=\"16\" y1=\"-8\" x2=\"16\" y2=\"8\" stroke-width=\"5\"/></g><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"82\"/><line x1=\"340\" y1=\"108\" x2=\"340\" y2=\"150\"/><g transform=\"translate(340 95) rotate(90)\"><circle r=\"13\"/></g><text x=\"340\" y=\"100\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"150\"/><line x1=\"40\" y1=\"150\" x2=\"172\" y2=\"150\"/><line x1=\"208\" y1=\"150\" x2=\"340\" y2=\"150\"/><g transform=\"translate(190 150)\"><rect x=\"-18\" y=\"-7\" width=\"36\" height=\"14\"/></g><text x=\"190\" y=\"180\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">40 Ω</text></g></svg>"
+      },
+      "answerLabel": "Power"
     },
     {
       "id": "p2-electrical-power-q14",
@@ -445,7 +474,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A 60 W lamp is connected to the 230 V mains. Calculate the current through the lamp. Give your answer to 2 significant figures.",
+      "question": "A 60 W lamp is connected to the 230 V mains supply.\nCalculate the current in the lamp.\nGive your answer to 2 significant figures.",
       "markScheme": [
         "1 mark: I = P ÷ V = 60 ÷ 230",
         "1 mark: 0.26 A"
@@ -453,7 +482,8 @@
       "explanation": "I = 60 ÷ 230 = 0.2609 A, which is 0.26 A to 2 significant figures.",
       "numericAnswer": 0.26,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "answerLabel": "Current"
     },
     {
       "id": "p2-electrical-power-q15",
@@ -461,7 +491,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A resistor transfers 36 W when the current through it is 3.0 A. Calculate its resistance.",
+      "question": "A resistor transfers 36 W when the current in it is 3.0 A.\nCalculate the resistance of the resistor.",
       "markScheme": [
         "1 mark: R = P ÷ I²",
         "1 mark: R = 36 ÷ 9.0",
@@ -470,7 +500,8 @@
       "explanation": "Rearrange P = I² R to R = P ÷ I² = 36 ÷ 9.0 = 4.0 Ω.",
       "numericAnswer": 4,
       "tolerance": 0.02,
-      "unit": "Ω"
+      "unit": "Ω",
+      "answerLabel": "Resistance"
     },
     {
       "id": "p2-electrical-power-q16",
@@ -478,7 +509,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A 4.0 Ω resistor transfers energy at a rate of 9.0 W. Calculate the current through it.",
+      "question": "Figure 1 shows a circuit containing a 4.0 Ω resistor.\nThe resistor transfers energy at a rate of 9.0 W.\nCalculate the reading on the ammeter.",
       "markScheme": [
         "1 mark: I² = P ÷ R = 9.0 ÷ 4.0 = 2.25",
         "1 mark: I = √2.25",
@@ -487,7 +518,11 @@
       "explanation": "Rearrange: I = √(P ÷ R) = √2.25 = 1.5 A.",
       "numericAnswer": 1.5,
       "tolerance": 0.02,
-      "unit": "A"
+      "unit": "A",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 192\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><line x1=\"40\" y1=\"40\" x2=\"174\" y2=\"40\"/><line x1=\"206\" y1=\"40\" x2=\"340\" y2=\"40\"/><g transform=\"translate(190 40)\"><line x1=\"-16\" y1=\"-16\" x2=\"-16\" y2=\"16\"/><line x1=\"-6\" y1=\"-8\" x2=\"-6\" y2=\"8\" stroke-width=\"5\"/><line x1=\"-6\" y1=\"0\" x2=\"6\" y2=\"0\" stroke-dasharray=\"3 3\"/><line x1=\"6\" y1=\"-16\" x2=\"6\" y2=\"16\"/><line x1=\"16\" y1=\"-8\" x2=\"16\" y2=\"8\" stroke-width=\"5\"/></g><line x1=\"340\" y1=\"40\" x2=\"340\" y2=\"82\"/><line x1=\"340\" y1=\"108\" x2=\"340\" y2=\"150\"/><g transform=\"translate(340 95) rotate(90)\"><circle r=\"13\"/></g><text x=\"340\" y=\"100\" font-size=\"14\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"150\"/><line x1=\"40\" y1=\"150\" x2=\"172\" y2=\"150\"/><line x1=\"208\" y1=\"150\" x2=\"340\" y2=\"150\"/><g transform=\"translate(190 150)\"><rect x=\"-18\" y=\"-7\" width=\"36\" height=\"14\"/></g><text x=\"190\" y=\"180\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">4.0 Ω</text></g></svg>"
+      },
+      "answerLabel": "Current"
     },
     {
       "id": "p2-electrical-power-q17",
@@ -495,7 +530,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Define power.",
+      "question": "Give the definition of power.",
       "markScheme": [
         "1 mark: the rate at which energy is transferred / energy transferred per second"
       ],
@@ -581,7 +616,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Suggest why appliances that heat things, such as kettles and heaters, usually draw a larger current than other appliances on the mains.",
+      "question": "Table 1 shows the power ratings of some appliances that are connected to the 230 V mains supply.\nSuggest why appliances that heat things, such as kettles and fan heaters, draw a larger current than the other appliances.",
       "markScheme": [
         "1 mark: they have a higher power rating",
         "1 mark: the potential difference is the same (230 V), so I = P ÷ V is larger"
@@ -591,7 +626,31 @@
         "higher power",
         "I = P ÷ V",
         "same voltage"
-      ]
+      ],
+      "table": {
+        "headers": [
+          "Appliance",
+          "Power in W"
+        ],
+        "rows": [
+          [
+            "Kettle",
+            "2300"
+          ],
+          [
+            "Fan heater",
+            "2000"
+          ],
+          [
+            "Television",
+            "100"
+          ],
+          [
+            "Laptop charger",
+            "60"
+          ]
+        ]
+      }
     },
     {
       "id": "p2-electrical-power-q23",
@@ -647,7 +706,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A phone charger supplies a potential difference of 5.0 V and a current of 2.0 A. Calculate the output power.",
+      "question": "A phone charger supplies a potential difference of 5.0 V and a current of 2.0 A.\nCalculate the output power of the charger.",
       "markScheme": [
         "1 mark: P = 5.0 × 2.0",
         "1 mark: 10 W"
@@ -655,7 +714,8 @@
       "explanation": "P = V I = 5.0 × 2.0 = 10 W.",
       "numericAnswer": 10,
       "tolerance": 0.02,
-      "unit": "W"
+      "unit": "W",
+      "answerLabel": "Power"
     },
     {
       "id": "p2-electrical-power-q27",
@@ -663,7 +723,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State the unit of power and explain what a power of 1 unit means.",
+      "question": "Give the unit of power.\nExplain what a power of 1 of these units means.",
       "markScheme": [
         "1 mark: watt (W)",
         "1 mark: 1 W means 1 joule of energy is transferred every second"

@@ -351,7 +351,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A light switch is open. Which statement is correct?",
+      "question": "Figure 1 shows a lighting circuit connected to the mains supply. The switch is open.\nWhich statement is correct?",
       "markScheme": [
         "1 mark: The live wire before the switch can still be at 230 V."
       ],
@@ -362,7 +362,10 @@
         "The live wire before the switch can still be at 230 V.",
         "The neutral wire is now at 230 V."
       ],
-      "answer": 2
+      "answer": 2,
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 190\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><circle cx=\"70\" cy=\"50\" r=\"4\"/><circle cx=\"70\" cy=\"150\" r=\"4\"/><text x=\"62\" y=\"54\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">live</text><text x=\"62\" y=\"154\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">neutral</text><line x1=\"74\" y1=\"50\" x2=\"121\" y2=\"50\"/><line x1=\"153\" y1=\"50\" x2=\"200\" y2=\"50\"/><g transform=\"translate(137 50)\"><circle cx=\"-14\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"14\" r=\"2.5\" fill=\"currentColor\"/><line x1=\"-14\" y1=\"0\" x2=\"12\" y2=\"-13\"/><line x1=\"-16\" y1=\"0\" x2=\"-14\" y2=\"0\"/><line x1=\"14\" y1=\"0\" x2=\"16\" y2=\"0\"/></g><text x=\"137\" y=\"28\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">switch</text><path d=\"M200 50L320 50L320 80\"/><line x1=\"320\" y1=\"80\" x2=\"320\" y2=\"87\"/><line x1=\"320\" y1=\"113\" x2=\"320\" y2=\"120\"/><g transform=\"translate(320 100) rotate(90)\"><circle r=\"13\"/><line x1=\"-9.2\" y1=\"-9.2\" x2=\"9.2\" y2=\"9.2\"/><line x1=\"-9.2\" y1=\"9.2\" x2=\"9.2\" y2=\"-9.2\"/></g><text x=\"338\" y=\"105\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">lamp</text><path d=\"M320 120L320 150L74 150\"/></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q10",
@@ -389,18 +392,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "Name the three wires in a three-core cable and give the colour of each.",
+      "question": "Figure 1 shows the inside of a three-pin plug.\nName the wires labelled A, B and C. Give the colour of the insulation on each wire.",
       "markScheme": [
-        "1 mark: live: brown",
-        "1 mark: neutral: blue",
-        "1 mark: earth: green and yellow stripes"
+        "1 mark: A is the neutral wire: blue",
+        "1 mark: B is the earth wire: green and yellow stripes",
+        "1 mark: C is the live wire: brown"
       ],
-      "explanation": "All three colours are standard throughout the UK and Europe.",
+      "explanation": "In a UK plug the earth wire (green and yellow) goes to the top pin, the neutral wire (blue) to the left pin and the live wire (brown) to the right pin through the fuse. The fuse is always in the live wire.",
       "acceptedAnswers": [
         "live brown",
         "neutral blue",
         "earth green and yellow"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 320\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"60\" y=\"20\" width=\"280\" height=\"270\" rx=\"30\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"188\" y=\"45\" width=\"24\" height=\"44\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"95\" y=\"168\" width=\"44\" height=\"24\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"252\" y=\"200\" width=\"44\" height=\"24\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"262\" y=\"95\" width=\"24\" height=\"70\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><line x1=\"274\" y1=\"165\" x2=\"274\" y2=\"200\"/><rect x=\"160\" y=\"238\" width=\"80\" height=\"16\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><line x1=\"186\" y1=\"254\" x2=\"186\" y2=\"290\"/><line x1=\"214\" y1=\"254\" x2=\"214\" y2=\"290\"/><path d=\"M192 238C180 220 150 210 139 186\" stroke-width=\"5\"/><path d=\"M200 238C200 190 200 130 200 89\" stroke-width=\"5\"/><path d=\"M208 238C230 220 262 180 270 165\" stroke-width=\"5\"/><line x1=\"162\" y1=\"214\" x2=\"40\" y2=\"240\" stroke-width=\"1\"/><text x=\"26\" y=\"245\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" font-weight=\"bold\">A</text><text x=\"210\" y=\"180\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" font-weight=\"bold\">B</text><line x1=\"244\" y1=\"200\" x2=\"330\" y2=\"195\" stroke-width=\"1\"/><text x=\"334\" y=\"200\" font-size=\"15\" fill=\"currentColor\" stroke=\"none\" font-weight=\"bold\">C</text><line x1=\"286\" y1=\"120\" x2=\"355\" y2=\"120\" stroke-width=\"1\"/><text x=\"358\" y=\"124\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">fuse</text><line x1=\"240\" y1=\"250\" x2=\"355\" y2=\"262\" stroke-width=\"1\"/><text x=\"358\" y=\"266\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">cable grip</text><line x1=\"214\" y1=\"285\" x2=\"355\" y2=\"300\" stroke-width=\"1\"/><text x=\"358\" y=\"304\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">cable</text><line x1=\"212\" y1=\"60\" x2=\"355\" y2=\"60\" stroke-width=\"1\"/><text x=\"358\" y=\"64\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">pin</text></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q12",
@@ -408,7 +414,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the function of the live wire.",
+      "question": "Give the function of the live wire.",
       "markScheme": [
         "1 mark: carries the alternating potential difference from the supply"
       ],
@@ -423,7 +429,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the function of the earth wire.",
+      "question": "Give the function of the earth wire.",
       "markScheme": [
         "1 mark: a safety wire to stop the appliance (casing) becoming live"
       ],
@@ -439,7 +445,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Explain why the wires in a cable are made of copper and covered in plastic.",
+      "question": "Figure 1 shows a cross-section through a three-core mains cable.\nExplain why the wires in the cable are made of copper and covered in plastic.",
       "markScheme": [
         "1 mark: copper is a good (electrical) conductor",
         "1 mark: plastic is a good insulator, so prevents electric shock / prevents wires touching"
@@ -448,7 +454,10 @@
       "acceptedAnswers": [
         "copper good conductor",
         "plastic good insulator"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 210\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><circle cx=\"130\" cy=\"110\" r=\"80\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"130\" cy=\"70\" r=\"26\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"130\" cy=\"70\" r=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"95\" cy=\"135\" r=\"26\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"95\" cy=\"135\" r=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"165\" cy=\"135\" r=\"26\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"165\" cy=\"135\" r=\"10\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><line x1=\"130\" y1=\"70\" x2=\"260\" y2=\"50\" stroke-width=\"1\"/><text x=\"264\" y=\"54\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">copper</text><line x1=\"150\" y1=\"82\" x2=\"260\" y2=\"95\" stroke-width=\"1\"/><text x=\"264\" y=\"99\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">inner plastic insulation</text><line x1=\"205\" y1=\"140\" x2=\"260\" y2=\"150\" stroke-width=\"1\"/><text x=\"264\" y=\"154\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">outer plastic insulation</text></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q15",
@@ -476,7 +485,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A metal kettle has a fault: the live wire has come loose and is touching the metal case. Explain how the earth wire keeps the user safe.",
+      "question": "Figure 1 shows the circuit inside a metal kettle. There is a fault: the live wire has come loose and is touching the metal case.\nExplain how the earth wire keeps the user safe.",
       "markScheme": [
         "1 mark: the earth wire connects the case to earth",
         "1 mark: current flows through the earth wire (low resistance path) to the ground rather than through the user",
@@ -487,7 +496,10 @@
         "current flows through earth wire",
         "low resistance path",
         "case stays at 0 V"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"170\" y=\"30\" width=\"200\" height=\"170\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"270\" y=\"222\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">metal case</text><circle cx=\"70\" cy=\"70\" r=\"4\"/><circle cx=\"70\" cy=\"160\" r=\"4\"/><text x=\"60\" y=\"74\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">live</text><text x=\"60\" y=\"164\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">neutral</text><path d=\"M74 70L250 70L250 90\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"97\"/><line x1=\"250\" y1=\"133\" x2=\"250\" y2=\"140\"/><g transform=\"translate(250 115) rotate(90)\"><rect x=\"-18\" y=\"-7\" width=\"36\" height=\"14\"/></g><text x=\"262\" y=\"120\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">heating element</text><path d=\"M250 140L250 160L74 160\"/><path d=\"M370 180L400 180L400 220\"/><line x1=\"400\" y1=\"220\" x2=\"400\" y2=\"230\"/><line x1=\"386\" y1=\"230\" x2=\"414\" y2=\"230\"/><line x1=\"391\" y1=\"236\" x2=\"409\" y2=\"236\"/><line x1=\"396\" y1=\"242\" x2=\"404\" y2=\"242\"/><text x=\"408\" y=\"206\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">earth wire</text><circle cx=\"370\" cy=\"180\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M150 70L150 45L170 45\"/><circle cx=\"150\" cy=\"70\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"45\" r=\"3.5\" fill=\"currentColor\"/><text x=\"82\" y=\"24\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">fault: live wire touching case</text></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q17",
@@ -531,7 +543,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "An electrician turns off a light switch before replacing a light fitting. Explain why this is not enough to make the job safe and state what the electrician should do instead.",
+      "question": "Figure 1 shows a lighting circuit connected to the mains supply.\nAn electrician opens the switch before replacing the light fitting.\nExplain why this is not enough to make the job safe, and give what the electrician should do instead.",
       "markScheme": [
         "1 mark: parts of the live wire may still be connected to the supply / at 230 V",
         "1 mark: touching them would put a large pd across the body causing a current/shock",
@@ -542,7 +554,10 @@
         "live wire still at 230 V",
         "turn off at the consumer unit",
         "isolate supply"
-      ]
+      ],
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 190\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><circle cx=\"70\" cy=\"50\" r=\"4\"/><circle cx=\"70\" cy=\"150\" r=\"4\"/><text x=\"62\" y=\"54\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">live</text><text x=\"62\" y=\"154\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">neutral</text><line x1=\"74\" y1=\"50\" x2=\"121\" y2=\"50\"/><line x1=\"153\" y1=\"50\" x2=\"200\" y2=\"50\"/><g transform=\"translate(137 50)\"><circle cx=\"-14\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"14\" r=\"2.5\" fill=\"currentColor\"/><line x1=\"-14\" y1=\"0\" x2=\"12\" y2=\"-13\"/><line x1=\"-16\" y1=\"0\" x2=\"-14\" y2=\"0\"/><line x1=\"14\" y1=\"0\" x2=\"16\" y2=\"0\"/></g><text x=\"137\" y=\"28\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">switch</text><path d=\"M200 50L320 50L320 80\"/><line x1=\"320\" y1=\"80\" x2=\"320\" y2=\"87\"/><line x1=\"320\" y1=\"113\" x2=\"320\" y2=\"120\"/><g transform=\"translate(320 100) rotate(90)\"><circle r=\"13\"/><line x1=\"-9.2\" y1=\"-9.2\" x2=\"9.2\" y2=\"9.2\"/><line x1=\"-9.2\" y1=\"9.2\" x2=\"9.2\" y2=\"-9.2\"/></g><text x=\"338\" y=\"105\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">lamp</text><path d=\"M320 120L320 150L74 150\"/></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q20",
@@ -635,7 +650,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "The earth wire in a metal toaster has become disconnected. A fault then connects the live wire to the metal case. What happens when someone touches the case?",
+      "question": "Figure 1 shows the circuit inside a metal toaster. The earth wire has become disconnected. A fault then connects the live wire to the metal case.\nWhat happens when someone touches the case?",
       "markScheme": [
         "1 mark: The case is at about 230 V, so a current flows through the person to earth"
       ],
@@ -646,7 +661,10 @@
         "The case is at 0 V, so they are safe",
         "The toaster stops working and the case stays safe"
       ],
-      "answer": 1
+      "answer": 1,
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"170\" y=\"30\" width=\"200\" height=\"170\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><text x=\"270\" y=\"222\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">metal case</text><circle cx=\"70\" cy=\"70\" r=\"4\"/><circle cx=\"70\" cy=\"160\" r=\"4\"/><text x=\"60\" y=\"74\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">live</text><text x=\"60\" y=\"164\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"end\">neutral</text><path d=\"M74 70L250 70L250 90\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"97\"/><line x1=\"250\" y1=\"133\" x2=\"250\" y2=\"140\"/><g transform=\"translate(250 115) rotate(90)\"><rect x=\"-18\" y=\"-7\" width=\"36\" height=\"14\"/></g><text x=\"262\" y=\"120\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"start\">heating element</text><path d=\"M250 140L250 160L74 160\"/><path d=\"M370 180L400 180L400 196\"/><line x1=\"400\" y1=\"210\" x2=\"400\" y2=\"220\"/><line x1=\"400\" y1=\"220\" x2=\"400\" y2=\"230\"/><line x1=\"386\" y1=\"230\" x2=\"414\" y2=\"230\"/><line x1=\"391\" y1=\"236\" x2=\"409\" y2=\"236\"/><line x1=\"396\" y1=\"242\" x2=\"404\" y2=\"242\"/><text x=\"408\" y=\"206\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">broken</text><circle cx=\"370\" cy=\"180\" r=\"3.5\" fill=\"currentColor\"/><path d=\"M150 70L150 45L170 45\"/><circle cx=\"150\" cy=\"70\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"45\" r=\"3.5\" fill=\"currentColor\"/><text x=\"82\" y=\"24\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\">fault: live wire touching case</text></g></svg>"
+      }
     },
     {
       "id": "p2-mains-electricity-q26",
@@ -654,7 +672,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "State the approximate potential difference between: (a) the live wire and the neutral wire; (b) the neutral wire and earth; (c) the live wire and earth.",
+      "question": "Give the approximate potential difference between:\n(a) the live wire and the neutral wire\n(b) the neutral wire and earth\n(c) the live wire and earth.",
       "markScheme": [
         "1 mark: (a) about 230 V",
         "1 mark: (b) about 0 V",

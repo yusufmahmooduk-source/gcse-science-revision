@@ -313,7 +313,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "An antibody graph shows two responses. After the vaccine, antibody concentration rises after about 10 days to a low peak. After later exposure to the live pathogen, it rises within 2 days to a much higher peak. Which statement best explains this difference?",
+      "question": "A person was vaccinated against a disease on day 0. On day 60 the person was infected by the live pathogen.\nFigure 1 shows the concentration of antibodies in the person's blood.\nWhich statement best explains the difference between the two responses?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 272H450M64 263.7H450M64 255.4H450M64 247.1H450M64 238.9H450M64 230.6H450M64 222.3H450M64 214H450M64 205.7H450M64 197.4H450M64 189.1H450M64 180.9H450M64 172.6H450M64 164.3H450M64 156H450M64 147.7H450M64 139.4H450M64 131.1H450M64 122.9H450M64 114.6H450M64 106.3H450M64 98H450M64 89.7H450M64 81.4H450M64 73.1H450M64 64.9H450M64 56.6H450M64 48.3H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 40V272M112.3 40V272M160.5 40V272M208.8 40V272M257 40V272M305.3 40V272M353.5 40V272M401.8 40V272M450 40V272M64 272H450M64 238.9H450M64 205.7H450M64 172.6H450M64 139.4H450M64 106.3H450M64 73.1H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 40V272H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"112.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"160.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"208.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"257\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"305.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"353.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"401.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"450\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"58\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"242.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"209.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"176.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"58\" y=\"143.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"58\" y=\"110.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"77.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"58\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"257\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 156)\">Antibody concentration in arbitrary units</text><polyline points=\"64,272 97.8,272 107.4,267 117.1,257.1 131.6,247.1 146,250.5 170.2,257.1 208.8,263.7 257,267 305.3,268.7 353.5,268.7 358.3,255.4 363.2,197.4 368,114.6 372.8,73.1 382.5,81.4 401.8,114.6 425.9,147.7 450,172.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M64 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><path d=\"M353.5 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"68\" y=\"26\" font-size=\"12\" fill=\"currentColor\">vaccinated</text><text x=\"353.5\" y=\"26\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">infected by live pathogen</text></svg>"
+      },
       "options": [
         "The live pathogen is less harmful than the vaccine",
         "White blood cells can now recognise the pathogen and produce the correct antibodies quickly",
@@ -408,10 +411,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A town has a population of 80 000 people. 92% of the people are immune to measles. Calculate the number of people who are NOT immune.",
+      "question": "Table 1 shows information about the people in a town.\nCalculate the number of people in the town who are NOT immune to measles.",
+      "table": {
+        "headers": [
+          "Population of town",
+          "Percentage of people immune to measles"
+        ],
+        "rows": [
+          [
+            "80 000",
+            "92"
+          ]
+        ]
+      },
       "numericAnswer": 6400,
       "tolerance": 0,
       "unit": "people",
+      "answerLabel": "Number of people not immune",
       "markScheme": [
         "1 mark: 100 − 92 = 8% (or 80 000 × 0.92 = 73 600)",
         "1 mark: 80 000 × 0.08 = 6400 (or 80 000 − 73 600 = 6400)"
@@ -424,10 +440,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "After vaccination, a person's antibody concentration peaked at 15 arbitrary units. After later infection by the live pathogen, it peaked at 120 arbitrary units. How many times greater was the second peak than the first?",
+      "question": "A person was vaccinated against a disease on day 0. On day 60 the person was infected by the live pathogen.\nFigure 1 shows the concentration of antibodies in the person's blood.\nCalculate how many times greater the second peak antibody concentration was than the first peak.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 272H450M64 263.7H450M64 255.4H450M64 247.1H450M64 238.9H450M64 230.6H450M64 222.3H450M64 214H450M64 205.7H450M64 197.4H450M64 189.1H450M64 180.9H450M64 172.6H450M64 164.3H450M64 156H450M64 147.7H450M64 139.4H450M64 131.1H450M64 122.9H450M64 114.6H450M64 106.3H450M64 98H450M64 89.7H450M64 81.4H450M64 73.1H450M64 64.9H450M64 56.6H450M64 48.3H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 40V272M112.3 40V272M160.5 40V272M208.8 40V272M257 40V272M305.3 40V272M353.5 40V272M401.8 40V272M450 40V272M64 272H450M64 238.9H450M64 205.7H450M64 172.6H450M64 139.4H450M64 106.3H450M64 73.1H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 40V272H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"112.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"160.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"208.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"257\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"305.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"353.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"401.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"450\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"58\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"242.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"209.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"176.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"58\" y=\"143.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"58\" y=\"110.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"77.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"58\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"257\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 156)\">Antibody concentration in arbitrary units</text><polyline points=\"64,272 97.8,272 107.4,267 117.1,257.1 131.6,247.1 146,250.5 170.2,257.1 208.8,263.7 257,267 305.3,268.7 353.5,268.7 358.3,255.4 363.2,197.4 368,114.6 372.8,73.1 382.5,81.4 401.8,114.6 425.9,147.7 450,172.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M64 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><path d=\"M353.5 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"68\" y=\"26\" font-size=\"12\" fill=\"currentColor\">vaccinated</text><text x=\"353.5\" y=\"26\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">infected by live pathogen</text></svg>"
+      },
       "numericAnswer": 8,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of times greater",
       "markScheme": [
         "1 mark: 120 ÷ 15 = 8"
       ],
@@ -439,10 +459,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "To prevent measles spreading, about 95% of a population needs to be immune. A city has 1 200 000 people. Calculate how many people need to be immune.",
+      "question": "To prevent measles spreading, about 95% of a population needs to be immune.\nA city has a population of 1 200 000 people.\nCalculate the number of people in the city who need to be immune.",
       "numericAnswer": 1140000,
       "tolerance": 0,
       "unit": "people",
+      "answerLabel": "Number of people",
       "markScheme": [
         "1 mark: 1 200 000 × 0.95",
         "1 mark: = 1 140 000"
@@ -455,10 +476,30 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "In a country, measles cases rose from 56 in one year to 1176 a few years later, after vaccination rates fell. Calculate the percentage increase in cases.",
+      "question": "Vaccination rates against measles fell in one country.\nTable 1 shows the number of measles cases in two years.\nCalculate the percentage increase in the number of measles cases.",
+      "table": {
+        "headers": [
+          "Year",
+          "Percentage of children vaccinated",
+          "Number of measles cases"
+        ],
+        "rows": [
+          [
+            "2014",
+            "94",
+            "56"
+          ],
+          [
+            "2018",
+            "85",
+            "1176"
+          ]
+        ]
+      },
       "numericAnswer": 2000,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage increase",
       "markScheme": [
         "1 mark: 1176 − 56 = 1120",
         "1 mark: (1120 ÷ 56) × 100 = 2000%"
@@ -531,7 +572,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State why most young children are vaccinated against measles.",
+      "question": "Give one reason why most young children are vaccinated against measles.",
       "acceptedAnswers": [
         "measles can be fatal",
         "serious illness",
@@ -606,7 +647,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Compare the antibody response after vaccination with the response when the live pathogen enters the body later.",
+      "question": "A person was vaccinated against a disease on day 0. On day 60 the person was infected by the live pathogen.\nFigure 1 shows the concentration of antibodies in the person's blood.\nCompare the antibody response after vaccination with the response after infection by the live pathogen.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 272H450M64 263.7H450M64 255.4H450M64 247.1H450M64 238.9H450M64 230.6H450M64 222.3H450M64 214H450M64 205.7H450M64 197.4H450M64 189.1H450M64 180.9H450M64 172.6H450M64 164.3H450M64 156H450M64 147.7H450M64 139.4H450M64 131.1H450M64 122.9H450M64 114.6H450M64 106.3H450M64 98H450M64 89.7H450M64 81.4H450M64 73.1H450M64 64.9H450M64 56.6H450M64 48.3H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 40V272M112.3 40V272M160.5 40V272M208.8 40V272M257 40V272M305.3 40V272M353.5 40V272M401.8 40V272M450 40V272M64 272H450M64 238.9H450M64 205.7H450M64 172.6H450M64 139.4H450M64 106.3H450M64 73.1H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 40V272H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"112.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"160.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"208.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"257\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"305.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"353.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"401.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"450\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"58\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"242.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"209.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"176.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"58\" y=\"143.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"58\" y=\"110.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"77.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"58\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"257\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 156)\">Antibody concentration in arbitrary units</text><polyline points=\"64,272 97.8,272 107.4,267 117.1,257.1 131.6,247.1 146,250.5 170.2,257.1 208.8,263.7 257,267 305.3,268.7 353.5,268.7 358.3,255.4 363.2,197.4 368,114.6 372.8,73.1 382.5,81.4 401.8,114.6 425.9,147.7 450,172.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M64 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><path d=\"M353.5 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"68\" y=\"26\" font-size=\"12\" fill=\"currentColor\">vaccinated</text><text x=\"353.5\" y=\"26\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">infected by live pathogen</text></svg>"
+      },
       "acceptedAnswers": [
         "second response faster",
         "second response larger",
@@ -641,7 +685,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 4,
-      "question": "A graph shows antibody concentration in a person's blood. The person was vaccinated on day 0 and infected by the live pathogen on day 60. Antibody concentration rose slowly from day 7 to a peak of 15 units on day 14. After day 60 it rose within 2 days to a peak of 120 units on day 64.\nDescribe and explain the differences between the two responses.",
+      "question": "A person was vaccinated on day 0 and infected by the live pathogen on day 60.\nFigure 1 shows the concentration of antibodies in the person's blood.\nDescribe and explain the differences between the two responses.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 272H450M64 263.7H450M64 255.4H450M64 247.1H450M64 238.9H450M64 230.6H450M64 222.3H450M64 214H450M64 205.7H450M64 197.4H450M64 189.1H450M64 180.9H450M64 172.6H450M64 164.3H450M64 156H450M64 147.7H450M64 139.4H450M64 131.1H450M64 122.9H450M64 114.6H450M64 106.3H450M64 98H450M64 89.7H450M64 81.4H450M64 73.1H450M64 64.9H450M64 56.6H450M64 48.3H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 40V272M112.3 40V272M160.5 40V272M208.8 40V272M257 40V272M305.3 40V272M353.5 40V272M401.8 40V272M450 40V272M64 272H450M64 238.9H450M64 205.7H450M64 172.6H450M64 139.4H450M64 106.3H450M64 73.1H450M64 40H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 40V272H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"112.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"160.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"208.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"257\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"305.3\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"353.5\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"401.8\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"450\" y=\"288\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"58\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"242.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"209.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"176.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"58\" y=\"143.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"58\" y=\"110.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"77.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"58\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><text x=\"257\" y=\"312\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in days</text><text x=\"16\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 156)\">Antibody concentration in arbitrary units</text><polyline points=\"64,272 97.8,272 107.4,267 117.1,257.1 131.6,247.1 146,250.5 170.2,257.1 208.8,263.7 257,267 305.3,268.7 353.5,268.7 358.3,255.4 363.2,197.4 368,114.6 372.8,73.1 382.5,81.4 401.8,114.6 425.9,147.7 450,172.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M64 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><path d=\"M353.5 14V268\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"68\" y=\"26\" font-size=\"12\" fill=\"currentColor\">vaccinated</text><text x=\"353.5\" y=\"26\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">infected by live pathogen</text></svg>"
+      },
       "markScheme": [
         "Indicative content: first response slower (antibodies start rising after about 7 days); second response faster (within 2 days); second peak much higher (120 units compared with 15, 8 times greater); first response stimulated by dead or inactive pathogen in vaccine; white blood cells (memory cells) can recognise the antigens of the pathogen afterwards; on re-infection they respond quickly to produce the correct antibodies; pathogen destroyed before it causes illness.",
         "Level 2 (3 to 4 marks): describes both speed and size differences using data and explains them in terms of white blood cells responding quickly to the same antigens.",

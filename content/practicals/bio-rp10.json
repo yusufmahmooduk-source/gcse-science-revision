@@ -91,11 +91,46 @@
       "Rate of reaction (s⁻¹)"
     ],
     "rows": [
-      ["20", "520", "560", "540", "540", "0.00185"],
-      ["30", "290", "310", "300", "300", "0.00333"],
-      ["40", "150", "170", "160", "160", "0.00625"],
-      ["50", "260", "300", "280", "280", "0.00357"],
-      ["60", "more than 600", "more than 600", "more than 600", "more than 600", "less than 0.00167"]
+      [
+        "20",
+        "520",
+        "560",
+        "540",
+        "540",
+        "0.00185"
+      ],
+      [
+        "30",
+        "290",
+        "310",
+        "300",
+        "300",
+        "0.00333"
+      ],
+      [
+        "40",
+        "150",
+        "170",
+        "160",
+        "160",
+        "0.00625"
+      ],
+      [
+        "50",
+        "260",
+        "300",
+        "280",
+        "280",
+        "0.00357"
+      ],
+      [
+        "60",
+        "more than 600",
+        "more than 600",
+        "more than 600",
+        "more than 600",
+        "less than 0.00167"
+      ]
     ],
     "notes": "Rate = 1 ÷ mean time, given to 3 significant figures. For example, at 40 °C: 1 ÷ 160 = 0.00625 s⁻¹. At 60 °C the colour did not change within 600 s, so the rate was less than 1 ÷ 600 = 0.00167 s⁻¹. Plot rate (y-axis) against temperature (x-axis) and join the points with a smooth curve."
   },
@@ -143,7 +178,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why does the colour of the milk mixture change from pink to colourless after lipase is added?",
+      "question": "A student added lipase to a mixture of milk, sodium carbonate solution and phenolphthalein indicator.\nWhy does the colour of the mixture change from pink to colourless after lipase is added?",
       "options": [
         "Lipase breaks down lipids into fatty acids, which lower the pH",
         "Lipase breaks down proteins into amino acids, which raise the pH",
@@ -151,7 +186,9 @@
         "The milk is heated, which removes the colour"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: lipids are broken down into fatty acids (and glycerol), which lower the pH so phenolphthalein becomes colourless"],
+      "markScheme": [
+        "1 mark: lipids are broken down into fatty acids (and glycerol), which lower the pH so phenolphthalein becomes colourless"
+      ],
       "explanation": "Lipase digests lipids, not proteins. The fatty acids produced are acidic, so they lower the pH below the point where phenolphthalein is pink. Lipase does not react with the indicator itself."
     },
     {
@@ -160,7 +197,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What is the purpose of adding sodium carbonate solution to the milk at the start?",
+      "question": "What is the purpose of adding sodium carbonate solution to the milk at the start of the investigation?",
       "options": [
         "To provide the substrate for lipase",
         "To make the solution alkaline so that phenolphthalein is pink at the start",
@@ -168,7 +205,9 @@
         "To denature any enzymes already in the milk"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: to make the solution alkaline (so the indicator starts pink)"],
+      "markScheme": [
+        "1 mark: to make the solution alkaline (so the indicator starts pink)"
+      ],
       "explanation": "Phenolphthalein is pink only in alkaline conditions. Sodium carbonate makes the milk alkaline so the change to colourless can be seen as fatty acids are produced. The lipids in milk are the substrate."
     },
     {
@@ -177,12 +216,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "At 40 °C the mean time for the colour change was 160 s.\nCalculate the rate of reaction using rate = 1 ÷ time. Give your answer to 3 significant figures.",
+      "question": "Table 1 shows the mean time for the colour change at 40 °C.\nCalculate the rate of reaction.\nUse the equation:\nrate = 1 ÷ time\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Mean time for colour change in s"
+        ],
+        "rows": [
+          [
+            "40",
+            "160"
+          ]
+        ]
+      },
       "numericAnswer": 0.00625,
       "tolerance": 0.01,
       "unit": "s⁻¹",
-      "markScheme": ["1 mark: 1 ÷ 160 = 0.00625 s⁻¹"],
-      "explanation": "Rate = 1 ÷ 160 = 0.00625 per second. The unit is s⁻¹ because time was measured in seconds."
+      "markScheme": [
+        "1 mark: 1 ÷ 160 = 0.00625 s⁻¹"
+      ],
+      "explanation": "Rate = 1 ÷ 160 = 0.00625 per second. The unit is s⁻¹ because time was measured in seconds.",
+      "answerLabel": "Rate of reaction"
     },
     {
       "id": "bio-rp10-q04",
@@ -190,12 +244,35 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "At 30 °C, the times for the colour change in three repeats were 290 s, 310 s and 300 s.\nCalculate the mean time.",
+      "question": "A student repeated the investigation three times at 30 °C.\nTable 1 shows the results.\nCalculate the mean time for the colour change.",
+      "table": {
+        "headers": [
+          "Repeat",
+          "Time for colour change in s"
+        ],
+        "rows": [
+          [
+            "1",
+            "290"
+          ],
+          [
+            "2",
+            "310"
+          ],
+          [
+            "3",
+            "300"
+          ]
+        ]
+      },
       "numericAnswer": 300,
       "tolerance": 0.01,
       "unit": "s",
-      "markScheme": ["1 mark: (290 + 310 + 300) ÷ 3 = 300 s"],
-      "explanation": "Add the three times (900 s) and divide by 3 to give 300 s."
+      "markScheme": [
+        "1 mark: (290 + 310 + 300) ÷ 3 = 300 s"
+      ],
+      "explanation": "Add the three times (900 s) and divide by 3 to give 300 s.",
+      "answerLabel": "Mean time"
     },
     {
       "id": "bio-rp10-q05",
@@ -203,9 +280,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the milk tube and the lipase tube are left in the water bath for 10 minutes before they are mixed.",
-      "acceptedAnswers": ["reach the temperature of the water bath", "temperature is the independent variable", "reaction occurs at the correct temperature"],
-      "markScheme": ["1 mark: so that both solutions reach the temperature being tested (of the water bath)", "1 mark: so the reaction takes place at that temperature from the start, making the results valid"],
+      "question": "Figure 1 shows the apparatus used in this investigation.\nExplain why the milk tube and the lipase tube are left in the water bath for 10 minutes before they are mixed.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M110 110v120h200V110Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M150 80V190a9 9 0 0 0 18 0V80Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><path d=\"M150 40V190a9 9 0 0 0 18 0V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M230 150V190a9 9 0 0 0 18 0V150Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M230 40V190a9 9 0 0 0 18 0V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M110 60v170h200V60\"/><path d=\"M159 20v170\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-opacity=\"0.5\"/></g><circle cx=\"159\" cy=\"190\" r=\"4\" fill=\"#fca5a5\" stroke=\"currentColor\"/><text x=\"4\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Thermometer</text><path d=\"M80 16L156 26\" stroke=\"currentColor\"/><text x=\"4\" y=\"60\" font-size=\"12\" fill=\"currentColor\">Milk, sodium carbonate</text><text x=\"4\" y=\"74\" font-size=\"12\" fill=\"currentColor\">solution and</text><text x=\"4\" y=\"88\" font-size=\"12\" fill=\"currentColor\">phenolphthalein</text><path d=\"M100 84L150 110\" stroke=\"currentColor\"/><text x=\"260\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Lipase solution</text><path d=\"M290 24L242 160\" stroke=\"currentColor\"/><text x=\"320\" y=\"170\" font-size=\"12\" fill=\"currentColor\">Water bath</text><path d=\"M318 166L308 166\" stroke=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "reach the temperature of the water bath",
+        "temperature is the independent variable",
+        "reaction occurs at the correct temperature"
+      ],
+      "markScheme": [
+        "1 mark: so that both solutions reach the temperature being tested (of the water bath)",
+        "1 mark: so the reaction takes place at that temperature from the start, making the results valid"
+      ],
       "explanation": "If the solutions started at room temperature, the reaction would begin at the wrong temperature and the time would not reflect the temperature being investigated."
     },
     {
@@ -214,10 +301,41 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Mean times for the colour change were: 20 °C: 540 s; 30 °C: 300 s; 40 °C: 160 s; 50 °C: 280 s.\nAt which temperature was the rate of decay fastest?",
-      "options": ["20 °C", "30 °C", "50 °C", "40 °C"],
+      "question": "Table 1 shows the results of an investigation into the effect of temperature on the rate of decay of milk.\nAt which temperature was the rate of decay fastest?",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Mean time for colour change in s"
+        ],
+        "rows": [
+          [
+            "20",
+            "540"
+          ],
+          [
+            "30",
+            "300"
+          ],
+          [
+            "40",
+            "160"
+          ],
+          [
+            "50",
+            "280"
+          ]
+        ]
+      },
+      "options": [
+        "20 °C",
+        "30 °C",
+        "50 °C",
+        "40 °C"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: 40 °C"],
+      "markScheme": [
+        "1 mark: 40 °C"
+      ],
       "explanation": "The fastest rate has the shortest time. At 40 °C the colour changed in only 160 s. Choosing 20 °C confuses the longest time with the fastest rate."
     },
     {
@@ -226,9 +344,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Explain why the rate of reaction was faster at 30 °C than at 20 °C.",
-      "acceptedAnswers": ["more kinetic energy", "molecules move faster", "more collisions", "more enzyme-substrate complexes", "more frequent successful collisions"],
-      "markScheme": ["1 mark: at higher temperature the molecules (lipase and lipid) have more kinetic energy / move faster", "1 mark: so they collide more often", "1 mark: so more enzyme-substrate complexes form and lipids are broken down into fatty acids faster"],
+      "question": "In an investigation into the decay of milk, the rate of reaction was faster at 30 °C than at 20 °C.\nExplain why.",
+      "acceptedAnswers": [
+        "more kinetic energy",
+        "molecules move faster",
+        "more collisions",
+        "more enzyme-substrate complexes",
+        "more frequent successful collisions"
+      ],
+      "markScheme": [
+        "1 mark: at higher temperature the molecules (lipase and lipid) have more kinetic energy / move faster",
+        "1 mark: so they collide more often",
+        "1 mark: so more enzyme-substrate complexes form and lipids are broken down into fatty acids faster"
+      ],
       "explanation": "Below the optimum, increasing temperature speeds up the reaction by increasing the frequency of collisions between enzyme and substrate."
     },
     {
@@ -237,9 +365,21 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "At 60 °C the colour did not change within 600 seconds. Explain why.",
-      "acceptedAnswers": ["lipase denatured", "active site changes shape", "lipids no longer fit active site", "no fatty acids produced"],
-      "markScheme": ["1 mark: the high temperature changes the shape of the lipase active site (the enzyme is denatured)", "1 mark: so the lipid substrate no longer fits the active site", "1 mark: so no (or very few) fatty acids are produced and the pH does not fall enough to change the indicator"],
+      "question": "Figure 1 shows the effect of temperature on the rate of reaction between lipase and milk.\nAt 60 °C the colour did not change within 600 seconds.\nExplain why.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M86.1 14V254M100.2 14V254M114.2 14V254M128.3 14V254M156.5 14V254M170.6 14V254M184.6 14V254M198.7 14V254M226.9 14V254M241 14V254M255 14V254M269.1 14V254M297.3 14V254M311.4 14V254M325.4 14V254M339.5 14V254M367.7 14V254M381.8 14V254M395.8 14V254M409.9 14V254M72 247.1H424M72 240.3H424M72 233.4H424M72 226.6H424M72 212.9H424M72 206H424M72 199.1H424M72 192.3H424M72 178.6H424M72 171.7H424M72 164.9H424M72 158H424M72 144.3H424M72 137.4H424M72 130.6H424M72 123.7H424M72 110H424M72 103.1H424M72 96.3H424M72 89.4H424M72 75.7H424M72 68.9H424M72 62H424M72 55.1H424M72 41.4H424M72 34.6H424M72 27.7H424M72 20.9H424\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\"/><path d=\"M72 14V254M142.4 14V254M212.8 14V254M283.2 14V254M353.6 14V254M424 14V254M72 254H424M72 219.7H424M72 185.4H424M72 151.1H424M72 116.9H424M72 82.6H424M72 48.3H424M72 14H424\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\"/><path d=\"M72 14V254H424\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M142.4 190.6C154.1 182.1 189.3 165 212.8 139.8C236.3 114.7 259.7 41.1 283.2 39.7C306.7 38.3 341.9 116.3 353.6 131.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M138.4 186.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M208.8 135.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M279.2 35.7l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M349.6 127.6l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"72\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"142.4\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"212.8\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"283.2\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"353.6\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"424\" y=\"270\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"66\" y=\"258\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"66\" y=\"223.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.001</text><text x=\"66\" y=\"189.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.002</text><text x=\"66\" y=\"155.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.003</text><text x=\"66\" y=\"120.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.004</text><text x=\"66\" y=\"86.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.005</text><text x=\"66\" y=\"52.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.006</text><text x=\"66\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.007</text><text x=\"248\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Temperature in °C</text><text x=\"14\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 134)\">Rate of reaction in s⁻¹</text></svg>"
+      },
+      "acceptedAnswers": [
+        "lipase denatured",
+        "active site changes shape",
+        "lipids no longer fit active site",
+        "no fatty acids produced"
+      ],
+      "markScheme": [
+        "1 mark: the high temperature changes the shape of the lipase active site (the enzyme is denatured)",
+        "1 mark: so the lipid substrate no longer fits the active site",
+        "1 mark: so no (or very few) fatty acids are produced and the pH does not fall enough to change the indicator"
+      ],
       "explanation": "Denaturation is a permanent change in the shape of the active site. Avoid saying the enzyme has been 'killed', because enzymes are not alive."
     },
     {
@@ -248,12 +388,32 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a compost heap, the mass of a bag of grass cuttings fell from 80 g to 50 g over 6 weeks.\nCalculate the mean rate of decay in g per week.",
+      "question": "A gardener put a bag of grass cuttings in a compost heap.\nTable 1 shows the mass of the grass cuttings.\nCalculate the mean rate of decay in g per week.",
+      "table": {
+        "headers": [
+          "Time in weeks",
+          "Mass of grass cuttings in g"
+        ],
+        "rows": [
+          [
+            "0",
+            "80"
+          ],
+          [
+            "6",
+            "50"
+          ]
+        ]
+      },
       "numericAnswer": 5,
       "tolerance": 0.01,
       "unit": "g/week",
-      "markScheme": ["1 mark: mass lost = 80 − 50 = 30 g", "1 mark: 30 ÷ 6 = 5 g/week"],
-      "explanation": "Rate of decay = mass lost ÷ time = 30 ÷ 6 = 5 g per week. Dividing the final mass (50 g) by the time would not give the mass that decayed."
+      "markScheme": [
+        "1 mark: mass lost = 80 − 50 = 30 g",
+        "1 mark: 30 ÷ 6 = 5 g/week"
+      ],
+      "explanation": "Rate of decay = mass lost ÷ time = 30 ÷ 6 = 5 g per week. Dividing the final mass (50 g) by the time would not give the mass that decayed.",
+      "answerLabel": "Mean rate of decay"
     },
     {
       "id": "bio-rp10-q10",
@@ -261,9 +421,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "It is difficult to judge exactly when the pink colour disappears. Suggest two ways to make the end point more accurate.",
-      "acceptedAnswers": ["white tile", "colour standard", "same person judges", "pH probe", "data logger", "pH meter"],
-      "markScheme": ["1 mark each, up to 2: view against a white tile; compare with a colour standard of the end colour; the same person judges every end point; use a pH meter or pH probe and data logger to record when the pH reaches a set value"],
+      "question": "In this investigation it is difficult to judge exactly when the pink colour disappears.\nSuggest two ways to make the end point more accurate.",
+      "acceptedAnswers": [
+        "white tile",
+        "colour standard",
+        "same person judges",
+        "pH probe",
+        "data logger",
+        "pH meter"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: view against a white tile; compare with a colour standard of the end colour; the same person judges every end point; use a pH meter or pH probe and data logger to record when the pH reaches a set value"
+      ],
       "explanation": "Colour judgements are subjective. A white background and a reference tube make judgements more consistent, and a pH probe removes the judgement altogether."
     },
     {
@@ -280,7 +449,9 @@
         "Carnivores such as foxes"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: decomposers (bacteria and fungi)"],
+      "markScheme": [
+        "1 mark: decomposers (bacteria and fungi)"
+      ],
       "explanation": "Decomposers secrete enzymes onto dead material and absorb the small soluble molecules produced. This returns carbon dioxide and mineral ions to the environment."
     },
     {
@@ -290,8 +461,20 @@
       "difficulty": 1,
       "marks": 3,
       "question": "A gardener wants grass cuttings in a compost heap to decay as quickly as possible. Give three conditions that would increase the rate of decay.",
-      "acceptedAnswers": ["warm", "moist", "water", "oxygen", "air", "turn the heap", "small pieces"],
-      "markScheme": ["1 mark: warm temperature", "1 mark: moist (water available)", "1 mark: plenty of oxygen (air), for example by turning the heap regularly"],
+      "acceptedAnswers": [
+        "warm",
+        "moist",
+        "water",
+        "oxygen",
+        "air",
+        "turn the heap",
+        "small pieces"
+      ],
+      "markScheme": [
+        "1 mark: warm temperature",
+        "1 mark: moist (water available)",
+        "1 mark: plenty of oxygen (air), for example by turning the heap regularly"
+      ],
       "explanation": "Decomposers need warmth for their enzymes to work quickly, water for their reactions and to absorb food, and oxygen for aerobic respiration."
     },
     {
@@ -300,12 +483,32 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The mean time for the colour change was 540 s at 20 °C and 160 s at 40 °C.\nCalculate how many times faster the rate of reaction was at 40 °C than at 20 °C. Give your answer to 2 significant figures.",
+      "question": "Table 1 shows some results of an investigation into the effect of temperature on the rate of decay of milk.\nCalculate how many times faster the rate of reaction was at 40 °C than at 20 °C.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Temperature in °C",
+          "Mean time for colour change in s"
+        ],
+        "rows": [
+          [
+            "20",
+            "540"
+          ],
+          [
+            "40",
+            "160"
+          ]
+        ]
+      },
       "numericAnswer": 3.4,
       "tolerance": 0.02,
       "unit": "",
-      "markScheme": ["1 mark: rate at 40 °C = 1 ÷ 160 = 0.00625 s⁻¹ and rate at 20 °C = 1 ÷ 540 = 0.00185 s⁻¹", "1 mark: 0.00625 ÷ 0.00185 = 3.4 times (or 540 ÷ 160 = 3.4)"],
-      "explanation": "Because rate = 1 ÷ time, the ratio of the rates equals the inverse ratio of the times: 540 ÷ 160 = 3.375, which is 3.4 to 2 significant figures."
+      "markScheme": [
+        "1 mark: rate at 40 °C = 1 ÷ 160 = 0.00625 s⁻¹ and rate at 20 °C = 1 ÷ 540 = 0.00185 s⁻¹",
+        "1 mark: 0.00625 ÷ 0.00185 = 3.4 times (or 540 ÷ 160 = 3.4)"
+      ],
+      "explanation": "Because rate = 1 ÷ time, the ratio of the rates equals the inverse ratio of the times: 540 ÷ 160 = 3.375, which is 3.4 to 2 significant figures.",
+      "answerLabel": "Number of times faster"
     },
     {
       "id": "bio-rp10-q14",

@@ -27,16 +27,46 @@
       "(HT) Diluting with water increases the volume but does not change the mass of solute."
     ],
     "keyTerms": [
-      { "term": "Solute", "definition": "The substance that dissolves in a solvent to make a solution." },
-      { "term": "Solvent", "definition": "The liquid in which a solute dissolves, often water." },
-      { "term": "Solution", "definition": "A mixture formed when a solute dissolves in a solvent." },
-      { "term": "Concentration", "definition": "The amount of solute in a given volume of solution, for example in g/dm³." },
-      { "term": "Cubic decimetre (dm³)", "definition": "A unit of volume equal to 1000 cm³ (one litre)." },
-      { "term": "Dilute", "definition": "Describes a solution with a small amount of solute per unit volume; also to add solvent to reduce concentration." }
+      {
+        "term": "Solute",
+        "definition": "The substance that dissolves in a solvent to make a solution."
+      },
+      {
+        "term": "Solvent",
+        "definition": "The liquid in which a solute dissolves, often water."
+      },
+      {
+        "term": "Solution",
+        "definition": "A mixture formed when a solute dissolves in a solvent."
+      },
+      {
+        "term": "Concentration",
+        "definition": "The amount of solute in a given volume of solution, for example in g/dm³."
+      },
+      {
+        "term": "Cubic decimetre (dm³)",
+        "definition": "A unit of volume equal to 1000 cm³ (one litre)."
+      },
+      {
+        "term": "Dilute",
+        "definition": "Describes a solution with a small amount of solute per unit volume; also to add solvent to reduce concentration."
+      }
     ],
     "equations": [
-      { "name": "Concentration in g/dm³", "formula": "concentration = mass of solute ÷ volume of solution", "symbols": "c = m ÷ V", "units": "c in g/dm³, m in g, V in dm³", "recall": true },
-      { "name": "Volume conversion", "formula": "volume in dm³ = volume in cm³ ÷ 1000", "symbols": "", "units": "dm³", "recall": true }
+      {
+        "name": "Concentration in g/dm³",
+        "formula": "concentration = mass of solute ÷ volume of solution",
+        "symbols": "c = m ÷ V",
+        "units": "c in g/dm³, m in g, V in dm³",
+        "recall": true
+      },
+      {
+        "name": "Volume conversion",
+        "formula": "volume in dm³ = volume in cm³ ÷ 1000",
+        "symbols": "",
+        "units": "dm³",
+        "recall": true
+      }
     ],
     "workedExamples": [
       {
@@ -88,10 +118,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often divide by a volume in cm³ and get a concentration that is 1000 times too small.", "right": "In fact the volume must be in dm³ for g/dm³. Divide cm³ by 1000 first." },
-      { "wrong": "Students often think adding water to a solution removes some of the solute.", "right": "In fact the mass of solute stays the same; only the volume increases, so the concentration falls." },
-      { "wrong": "Students often think a concentrated solution is the same as a strong one.", "right": "In fact concentration is about how much solute is in a given volume. 'Strong' has a different meaning for acids, describing how fully they ionise." },
-      { "wrong": "Students often think the volume of solvent added is the volume of solution.", "right": "In fact concentration uses the final volume of the solution. Chemists dissolve the solute and then make the solution up to the mark in a volumetric flask." }
+      {
+        "wrong": "Students often divide by a volume in cm³ and get a concentration that is 1000 times too small.",
+        "right": "In fact the volume must be in dm³ for g/dm³. Divide cm³ by 1000 first."
+      },
+      {
+        "wrong": "Students often think adding water to a solution removes some of the solute.",
+        "right": "In fact the mass of solute stays the same; only the volume increases, so the concentration falls."
+      },
+      {
+        "wrong": "Students often think a concentrated solution is the same as a strong one.",
+        "right": "In fact concentration is about how much solute is in a given volume. 'Strong' has a different meaning for acids, describing how fully they ionise."
+      },
+      {
+        "wrong": "Students often think the volume of solvent added is the volume of solution.",
+        "right": "In fact concentration uses the final volume of the solution. Chemists dissolve the solute and then make the solution up to the mark in a volumetric flask."
+      }
     ],
     "realWorld": [
       "Hospital drips contain saline at a carefully controlled concentration (about 9 g/dm³ of sodium chloride) so that blood cells are not damaged.",
@@ -120,207 +162,609 @@
     ]
   },
   "flashcards": [
-    { "front": "What is a solute?", "back": "The substance that dissolves to form a solution." },
-    { "front": "Equation for concentration in g/dm³?", "back": "concentration = mass of solute (g) ÷ volume of solution (dm³)" },
-    { "front": "How many cm³ in 1 dm³?", "back": "1000 cm³" },
-    { "front": "Convert 500 cm³ to dm³.", "back": "0.500 dm³" },
-    { "front": "10 g dissolved to make 0.5 dm³ of solution. Concentration?", "back": "20 g/dm³" },
-    { "front": "Mass of solute in 2 dm³ of a 15 g/dm³ solution?", "back": "30 g" },
-    { "front": "What happens to concentration if the same mass of solute is dissolved in twice the volume?", "back": "It halves." },
-    { "front": "What happens to concentration if twice the mass is dissolved in the same volume?", "back": "It doubles." },
-    { "front": "Does adding water change the mass of solute?", "back": "No. It only increases the volume, so concentration falls." },
-    { "front": "What does g/dm³ mean?", "back": "Grams of solute in each cubic decimetre of solution." },
-    { "front": "Rearrange c = m ÷ V to find V.", "back": "V = m ÷ c" },
-    { "front": "What is 1 dm³ also called?", "back": "1 litre." }
+    {
+      "front": "What is a solute?",
+      "back": "The substance that dissolves to form a solution."
+    },
+    {
+      "front": "Equation for concentration in g/dm³?",
+      "back": "concentration = mass of solute (g) ÷ volume of solution (dm³)"
+    },
+    {
+      "front": "How many cm³ in 1 dm³?",
+      "back": "1000 cm³"
+    },
+    {
+      "front": "Convert 500 cm³ to dm³.",
+      "back": "0.500 dm³"
+    },
+    {
+      "front": "10 g dissolved to make 0.5 dm³ of solution. Concentration?",
+      "back": "20 g/dm³"
+    },
+    {
+      "front": "Mass of solute in 2 dm³ of a 15 g/dm³ solution?",
+      "back": "30 g"
+    },
+    {
+      "front": "What happens to concentration if the same mass of solute is dissolved in twice the volume?",
+      "back": "It halves."
+    },
+    {
+      "front": "What happens to concentration if twice the mass is dissolved in the same volume?",
+      "back": "It doubles."
+    },
+    {
+      "front": "Does adding water change the mass of solute?",
+      "back": "No. It only increases the volume, so concentration falls."
+    },
+    {
+      "front": "What does g/dm³ mean?",
+      "back": "Grams of solute in each cubic decimetre of solution."
+    },
+    {
+      "front": "Rearrange c = m ÷ V to find V.",
+      "back": "V = m ÷ c"
+    },
+    {
+      "front": "What is 1 dm³ also called?",
+      "back": "1 litre."
+    }
   ],
   "questions": [
     {
-      "id": "c3-concentration-of-solutions-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which unit is used for concentration measured as mass per volume?",
-      "options": ["g/dm³", "g", "dm³", "mol"],
+      "id": "c3-concentration-of-solutions-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which unit is used for the concentration of a solution measured as mass per volume?",
+      "options": [
+        "g/dm³",
+        "g",
+        "dm³",
+        "mol"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: g/dm³"],
+      "markScheme": [
+        "1 mark: g/dm³"
+      ],
       "explanation": "Concentration = mass ÷ volume, so the unit is grams per cubic decimetre, g/dm³."
     },
     {
-      "id": "c3-concentration-of-solutions-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "How many cm³ are there in 1 dm³?",
-      "options": ["10", "100", "1000", "1 000 000"],
+      "id": "c3-concentration-of-solutions-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How many cm³ are in 1 dm³?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "1 000 000"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 1000"],
+      "markScheme": [
+        "1 mark: 1000"
+      ],
       "explanation": "1 dm³ = 10 cm × 10 cm × 10 cm = 1000 cm³ (one litre)."
     },
     {
-      "id": "c3-concentration-of-solutions-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "In a solution of sugar in water, what is the sugar?",
-      "options": ["The solvent", "The solute", "The solution", "The precipitate"],
+      "id": "c3-concentration-of-solutions-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A student dissolves sugar in water to make a solution.\nWhat is the sugar?",
+      "options": [
+        "The solvent",
+        "The solute",
+        "The solution",
+        "The precipitate"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the solute"],
+      "markScheme": [
+        "1 mark: the solute"
+      ],
       "explanation": "The solute is the substance that dissolves. Water is the solvent, and the mixture is the solution."
     },
     {
-      "id": "c3-concentration-of-solutions-q04", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What is 250 cm³ in dm³?",
-      "options": ["2.5 dm³", "25 dm³", "0.025 dm³", "0.25 dm³"],
+      "id": "c3-concentration-of-solutions-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A beaker contains 250 cm³ of solution.\nWhat is this volume in dm³?",
+      "options": [
+        "2.5 dm³",
+        "25 dm³",
+        "0.025 dm³",
+        "0.25 dm³"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: 0.25 dm³"],
+      "markScheme": [
+        "1 mark: 0.25 dm³"
+      ],
       "explanation": "Divide by 1000: 250 ÷ 1000 = 0.25 dm³."
     },
     {
-      "id": "c3-concentration-of-solutions-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Which solution is the most concentrated?",
-      "options": ["10 g in 1.0 dm³", "10 g in 0.5 dm³", "20 g in 4.0 dm³", "5 g in 2.0 dm³"],
+      "id": "c3-concentration-of-solutions-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Table 1 shows information about four solutions of the same solute.\nWhich solution is the most concentrated?",
+      "table": {
+        "headers": [
+          "Solution",
+          "Mass of solute in g",
+          "Volume of solution in dm³"
+        ],
+        "rows": [
+          [
+            "A",
+            "10",
+            "1.0"
+          ],
+          [
+            "B",
+            "10",
+            "0.5"
+          ],
+          [
+            "C",
+            "20",
+            "4.0"
+          ],
+          [
+            "D",
+            "5",
+            "2.0"
+          ]
+        ]
+      },
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: 10 g in 0.5 dm³"],
-      "explanation": "Concentrations: 10, 20, 5 and 2.5 g/dm³. 10 g in 0.5 dm³ gives 20 g/dm³, the highest."
+      "markScheme": [
+        "1 mark: B"
+      ],
+      "explanation": "Concentration = mass ÷ volume. A: 10 ÷ 1.0 = 10 g/dm³. B: 10 ÷ 0.5 = 20 g/dm³. C: 20 ÷ 4.0 = 5 g/dm³. D: 5 ÷ 2.0 = 2.5 g/dm³. Solution B has the greatest mass of solute in each dm³. Solution C has the largest mass, but it is spread through a much larger volume."
     },
     {
-      "id": "c3-concentration-of-solutions-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "A student dissolves 4.0 g of solute to make 200 cm³ of solution and calculates the concentration as 4.0 ÷ 200 = 0.02 g/dm³. What mistake has been made?",
-      "options": ["The mass should be multiplied by the volume", "The volume was not converted from cm³ to dm³", "The mass should be in kg", "The answer should be multiplied by 2"],
+      "id": "c3-concentration-of-solutions-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student dissolves 4.0 g of solute to make 200 cm³ of solution.\nThis is the student's working:\nconcentration = 4.0 ÷ 200 = 0.02 g/dm³\nWhat mistake has the student made?",
+      "options": [
+        "The mass should be multiplied by the volume",
+        "The volume was not converted from cm³ to dm³",
+        "The mass should be in kg",
+        "The answer should be multiplied by 2"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the volume was not converted from cm³ to dm³"],
+      "markScheme": [
+        "1 mark: the volume was not converted from cm³ to dm³"
+      ],
       "explanation": "200 cm³ = 0.200 dm³, so the concentration is 4.0 ÷ 0.200 = 20 g/dm³, 1000 times larger."
     },
     {
-      "id": "c3-concentration-of-solutions-q07", "type": "mcq", "tier": "higher", "difficulty": 2, "marks": 1,
-      "question": "The same mass of salt is dissolved to make 1 dm³ of solution and then to make 3 dm³ of solution. How does the concentration of the 3 dm³ solution compare?",
-      "options": ["It is three times higher", "It is the same", "It is one third", "It is nine times lower"],
+      "id": "c3-concentration-of-solutions-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A student dissolves the same mass of salt to make two solutions.\nSolution 1 has a volume of 1 dm³. Solution 2 has a volume of 3 dm³.\nHow does the concentration of solution 2 compare with the concentration of solution 1?",
+      "options": [
+        "It is three times higher",
+        "It is the same",
+        "It is one third",
+        "It is nine times lower"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: it is one third"],
+      "markScheme": [
+        "1 mark: it is one third"
+      ],
       "explanation": "Concentration = mass ÷ volume. With the same mass, three times the volume gives one third of the concentration."
     },
     {
-      "id": "c3-concentration-of-solutions-q08", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
-      "question": "Water is added to 100 cm³ of a 50 g/dm³ solution until the total volume is 400 cm³. What is the new concentration?",
-      "options": ["200 g/dm³", "12.5 g/dm³", "50 g/dm³", "25 g/dm³"],
+      "id": "c3-concentration-of-solutions-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student has 100 cm³ of a solution with a concentration of 50 g/dm³.\nThe student adds water until the total volume is 400 cm³.\nWhat is the new concentration?",
+      "options": [
+        "200 g/dm³",
+        "12.5 g/dm³",
+        "50 g/dm³",
+        "25 g/dm³"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: 12.5 g/dm³"],
+      "markScheme": [
+        "1 mark: 12.5 g/dm³"
+      ],
       "explanation": "Mass of solute = 50 × 0.100 = 5.0 g. New concentration = 5.0 ÷ 0.400 = 12.5 g/dm³. The volume is four times bigger, so the concentration is a quarter."
     },
     {
-      "id": "c3-concentration-of-solutions-q09", "type": "mcq", "tier": "higher", "difficulty": 3, "marks": 1,
+      "id": "c3-concentration-of-solutions-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Which change would double the concentration of a solution?",
-      "options": ["Doubling the volume of solution and keeping the mass the same", "Halving both the mass and the volume", "Adding the same volume of water", "Doubling the mass of solute and keeping the volume of solution the same"],
+      "options": [
+        "Doubling the volume of solution and keeping the mass the same",
+        "Halving both the mass and the volume",
+        "Adding the same volume of water",
+        "Doubling the mass of solute and keeping the volume of solution the same"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: doubling the mass of solute and keeping the volume of solution the same"],
+      "markScheme": [
+        "1 mark: doubling the mass of solute and keeping the volume of solution the same"
+      ],
       "explanation": "Concentration is proportional to mass for a fixed volume. Halving both leaves the concentration unchanged; adding water or doubling volume halves it."
     },
     {
-      "id": "c3-concentration-of-solutions-q10", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "20 g of sodium hydroxide is dissolved to make 2.0 dm³ of solution. Calculate the concentration in g/dm³.",
-      "numericAnswer": 10, "tolerance": 0.01, "unit": "g/dm³",
-      "markScheme": ["1 mark: 20 ÷ 2.0", "1 mark: 10 g/dm³"],
-      "explanation": "concentration = mass ÷ volume = 20 ÷ 2.0 = 10 g/dm³."
+      "id": "c3-concentration-of-solutions-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A student dissolves sodium hydroxide in water.\nTable 1 shows the results.\nCalculate the concentration of the solution in g/dm³.",
+      "table": {
+        "headers": [
+          "Mass of sodium hydroxide in g",
+          "Volume of solution in dm³"
+        ],
+        "rows": [
+          [
+            "20",
+            "2.0"
+          ]
+        ]
+      },
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: 20 ÷ 2.0",
+        "1 mark: 10 g/dm³"
+      ],
+      "explanation": "concentration = mass ÷ volume = 20 ÷ 2.0 = 10 g/dm³.",
+      "answerLabel": "Concentration"
     },
     {
-      "id": "c3-concentration-of-solutions-q11", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "Calculate the mass of solute in 0.50 dm³ of a solution with a concentration of 40 g/dm³.",
-      "numericAnswer": 20, "tolerance": 0.01, "unit": "g",
-      "markScheme": ["1 mark: 40 × 0.50", "1 mark: 20 g"],
-      "explanation": "mass = concentration × volume = 40 × 0.50 = 20 g."
+      "id": "c3-concentration-of-solutions-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A solution has a concentration of 40 g/dm³.\nCalculate the mass of solute in 0.50 dm³ of the solution.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: 40 × 0.50",
+        "1 mark: 20 g"
+      ],
+      "explanation": "mass = concentration × volume = 40 × 0.50 = 20 g.",
+      "answerLabel": "Mass of solute"
     },
     {
-      "id": "c3-concentration-of-solutions-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "5.0 g of copper sulfate is dissolved to make 250 cm³ of solution. Calculate the concentration in g/dm³.",
-      "numericAnswer": 20, "tolerance": 0.01, "unit": "g/dm³",
-      "markScheme": ["1 mark: 250 cm³ = 0.250 dm³", "1 mark: 5.0 ÷ 0.250 = 20 g/dm³"],
-      "explanation": "Convert the volume first. 5.0 ÷ 0.250 = 20 g/dm³."
+      "id": "c3-concentration-of-solutions-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student dissolves 5.0 g of copper sulfate in water to make a solution.\nFigure 1 shows the flask the student uses. The flask is filled to the graduation mark.\nCalculate the concentration of the solution in g/dm³.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M141,80 V105.7 A55,55 0 0 0 117,204 H183 A55,55 0 0 0 159,105.7 V80 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M141,40 V105.7 A55,55 0 0 0 117,204 H183 A55,55 0 0 0 159,105.7 V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"137\" y1=\"80\" x2=\"163\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"139\" y=\"26\" width=\"22\" height=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"150\" y=\"175\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">250 cm³</text><line x1=\"162\" y1=\"34\" x2=\"217\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"220\" y=\"34\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">stopper</text><line x1=\"165\" y1=\"80\" x2=\"217\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"220\" y=\"80\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">graduation mark</text><line x1=\"190\" y1=\"150\" x2=\"237\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">copper sulfate solution</text></svg>"
+      },
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: 250 cm³ = 0.250 dm³",
+        "1 mark: 5.0 ÷ 0.250 = 20 g/dm³"
+      ],
+      "explanation": "Convert the volume first. 5.0 ÷ 0.250 = 20 g/dm³.",
+      "answerLabel": "Concentration"
     },
     {
-      "id": "c3-concentration-of-solutions-q13", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Calculate the mass of solute in 25.0 cm³ of a solution of concentration 80 g/dm³.",
-      "numericAnswer": 2, "tolerance": 0.01, "unit": "g",
-      "markScheme": ["1 mark: 25.0 cm³ = 0.0250 dm³", "1 mark: 80 × 0.0250 = 2.0 g"],
-      "explanation": "mass = concentration × volume in dm³. 80 × 0.0250 = 2.0 g."
+      "id": "c3-concentration-of-solutions-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A solution has a concentration of 80 g/dm³.\nCalculate the mass of solute in 25.0 cm³ of the solution.",
+      "numericAnswer": 2,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: 25.0 cm³ = 0.0250 dm³",
+        "1 mark: 80 × 0.0250 = 2.0 g"
+      ],
+      "explanation": "mass = concentration × volume in dm³. 80 × 0.0250 = 2.0 g.",
+      "answerLabel": "Mass of solute"
     },
     {
-      "id": "c3-concentration-of-solutions-q14", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "4.0 g of potassium chloride is dissolved to make 50 cm³ of solution. Calculate the concentration in g/dm³.",
-      "numericAnswer": 80, "tolerance": 0.01, "unit": "g/dm³",
-      "markScheme": ["1 mark: 50 cm³ = 0.050 dm³", "1 mark: 4.0 ÷ 0.050 = 80 g/dm³"],
-      "explanation": "Small volumes give large concentrations once converted to dm³: 4.0 ÷ 0.050 = 80 g/dm³."
+      "id": "c3-concentration-of-solutions-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student dissolves potassium chloride in water.\nTable 1 shows the results.\nCalculate the concentration of the solution in g/dm³.",
+      "table": {
+        "headers": [
+          "Mass of potassium chloride in g",
+          "Volume of solution in cm³"
+        ],
+        "rows": [
+          [
+            "4.0",
+            "50"
+          ]
+        ]
+      },
+      "numericAnswer": 80,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: 50 cm³ = 0.050 dm³",
+        "1 mark: 4.0 ÷ 0.050 = 80 g/dm³"
+      ],
+      "explanation": "Small volumes give large concentrations once converted to dm³: 4.0 ÷ 0.050 = 80 g/dm³.",
+      "answerLabel": "Concentration"
     },
     {
-      "id": "c3-concentration-of-solutions-q15", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 3,
-      "question": "A technician has 12 g of solute and needs a solution with concentration 60 g/dm³. Calculate the volume of solution that should be made, in cm³.",
-      "numericAnswer": 200, "tolerance": 0.01, "unit": "cm³",
-      "markScheme": ["1 mark: volume = mass ÷ concentration", "1 mark: 12 ÷ 60 = 0.20 dm³", "1 mark: 0.20 × 1000 = 200 cm³"],
-      "explanation": "Rearrange and then convert dm³ to cm³ by multiplying by 1000."
+      "id": "c3-concentration-of-solutions-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A technician has 12 g of a solute. The technician needs a solution with a concentration of 60 g/dm³.\nCalculate the volume of solution the technician should make.\nGive your answer in cm³.",
+      "numericAnswer": 200,
+      "tolerance": 0.01,
+      "unit": "cm³",
+      "markScheme": [
+        "1 mark: volume = mass ÷ concentration",
+        "1 mark: 12 ÷ 60 = 0.20 dm³",
+        "1 mark: 0.20 × 1000 = 200 cm³"
+      ],
+      "explanation": "Rearrange and then convert dm³ to cm³ by multiplying by 1000.",
+      "answerLabel": "Volume of solution"
     },
     {
-      "id": "c3-concentration-of-solutions-q16", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "A solution has a concentration of 50 g/dm³. Water is added until the volume of the solution is doubled. Calculate the new concentration.",
-      "numericAnswer": 25, "tolerance": 0.01, "unit": "g/dm³",
-      "markScheme": ["1 mark: mass of solute unchanged, volume doubled", "1 mark: 50 ÷ 2 = 25 g/dm³"],
-      "explanation": "Concentration is inversely proportional to volume when the mass is fixed, so doubling the volume halves the concentration."
+      "id": "c3-concentration-of-solutions-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A solution has a concentration of 50 g/dm³.\nWater is added until the volume of the solution is doubled.\nCalculate the new concentration.",
+      "numericAnswer": 25,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: mass of solute unchanged, volume doubled",
+        "1 mark: 50 ÷ 2 = 25 g/dm³"
+      ],
+      "explanation": "Concentration is inversely proportional to volume when the mass is fixed, so doubling the volume halves the concentration.",
+      "answerLabel": "New concentration"
     },
     {
-      "id": "c3-concentration-of-solutions-q17", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "100 cm³ of a solution has a concentration of 30 g/dm³. A further 3.0 g of the same solute is dissolved in it, and the volume does not change. Calculate the new concentration.",
-      "numericAnswer": 60, "tolerance": 0.01, "unit": "g/dm³",
-      "markScheme": ["1 mark: original mass = 30 × 0.100 = 3.0 g", "1 mark: new mass = 6.0 g", "1 mark: 6.0 ÷ 0.100 = 60 g/dm³"],
-      "explanation": "Doubling the mass of solute in the same volume doubles the concentration from 30 to 60 g/dm³."
+      "id": "c3-concentration-of-solutions-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A student dissolves more solute in a solution. The volume of the solution does not change.\nTable 1 shows the student's results.\nCalculate the new concentration of the solution.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Volume of solution in cm³",
+            "100"
+          ],
+          [
+            "Concentration at the start in g/dm³",
+            "30"
+          ],
+          [
+            "Extra mass of the same solute dissolved in g",
+            "3.0"
+          ]
+        ]
+      },
+      "numericAnswer": 60,
+      "tolerance": 0.01,
+      "unit": "g/dm³",
+      "markScheme": [
+        "1 mark: original mass = 30 × 0.100 = 3.0 g",
+        "1 mark: new mass = 6.0 g",
+        "1 mark: 6.0 ÷ 0.100 = 60 g/dm³"
+      ],
+      "explanation": "Doubling the mass of solute in the same volume doubles the concentration from 30 to 60 g/dm³.",
+      "answerLabel": "New concentration"
     },
     {
-      "id": "c3-concentration-of-solutions-q18", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A 750 cm³ bottle contains a solution with a concentration of 36 g/dm³. Calculate the mass of solute in a 200 cm³ portion of it.",
-      "numericAnswer": 7.2, "tolerance": 0.01, "unit": "g",
-      "markScheme": ["1 mark: 200 cm³ = 0.200 dm³", "1 mark: mass = 36 × 0.200", "1 mark: 7.2 g"],
-      "explanation": "The concentration is the same throughout the bottle, so only the 200 cm³ portion matters: 36 × 0.200 = 7.2 g. The 750 cm³ is extra information."
+      "id": "c3-concentration-of-solutions-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A bottle contains 750 cm³ of a solution. The concentration of the solution is 36 g/dm³.\nA student pours 200 cm³ of the solution into a beaker.\nCalculate the mass of solute in the beaker.",
+      "numericAnswer": 7.2,
+      "tolerance": 0.01,
+      "unit": "g",
+      "markScheme": [
+        "1 mark: 200 cm³ = 0.200 dm³",
+        "1 mark: mass = 36 × 0.200",
+        "1 mark: 7.2 g"
+      ],
+      "explanation": "The concentration is the same throughout the bottle, so only the 200 cm³ portion matters: 36 × 0.200 = 7.2 g. The 750 cm³ is extra information.",
+      "answerLabel": "Mass of solute"
     },
     {
-      "id": "c3-concentration-of-solutions-q19", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Define the term solvent.",
-      "acceptedAnswers": ["the liquid a solute dissolves in", "liquid that dissolves the solute"],
-      "markScheme": ["1 mark: the liquid in which a solute dissolves"],
+      "id": "c3-concentration-of-solutions-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the term solvent?",
+      "acceptedAnswers": [
+        "the liquid a solute dissolves in",
+        "liquid that dissolves the solute"
+      ],
+      "markScheme": [
+        "1 mark: the liquid in which a solute dissolves"
+      ],
       "explanation": "In most school chemistry solutions, the solvent is water."
     },
     {
-      "id": "c3-concentration-of-solutions-q20", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c3-concentration-of-solutions-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Write the equation that links concentration, mass of solute and volume of solution.",
-      "acceptedAnswers": ["concentration = mass ÷ volume", "c = m ÷ V", "concentration = mass / volume"],
-      "markScheme": ["1 mark: concentration (g/dm³) = mass of solute (g) ÷ volume of solution (dm³)"],
+      "acceptedAnswers": [
+        "concentration = mass ÷ volume",
+        "c = m ÷ V",
+        "concentration = mass / volume"
+      ],
+      "markScheme": [
+        "1 mark: concentration (g/dm³) = mass of solute (g) ÷ volume of solution (dm³)"
+      ],
       "explanation": "This must be recalled; it is not given in the exam."
     },
     {
-      "id": "c3-concentration-of-solutions-q21", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c3-concentration-of-solutions-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Describe the difference between a concentrated solution and a dilute solution.",
-      "acceptedAnswers": ["more solute per volume", "less solute per volume", "concentrated has more solute in the same volume"],
-      "markScheme": ["1 mark: a concentrated solution has a large mass of solute in a given volume", "1 mark: a dilute solution has a small mass of solute in a given volume"],
+      "acceptedAnswers": [
+        "more solute per volume",
+        "less solute per volume",
+        "concentrated has more solute in the same volume"
+      ],
+      "markScheme": [
+        "1 mark: a concentrated solution has a large mass of solute in a given volume",
+        "1 mark: a dilute solution has a small mass of solute in a given volume"
+      ],
       "explanation": "Concentration compares the amount of solute with the volume of solution."
     },
     {
-      "id": "c3-concentration-of-solutions-q22", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Explain why a volume of 500 cm³ must be converted before being used to calculate a concentration in g/dm³, and give the converted value.",
-      "acceptedAnswers": ["unit must be dm³", "0.5 dm³", "0.500 dm³"],
-      "markScheme": ["1 mark: the unit g/dm³ needs the volume in dm³", "1 mark: 500 ÷ 1000 = 0.500 dm³"],
+      "id": "c3-concentration-of-solutions-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student wants to calculate a concentration in g/dm³. The volume of the solution is 500 cm³.\nExplain why the student must convert the volume before using it.\nGive the converted value.",
+      "acceptedAnswers": [
+        "unit must be dm³",
+        "0.5 dm³",
+        "0.500 dm³"
+      ],
+      "markScheme": [
+        "1 mark: the unit g/dm³ needs the volume in dm³",
+        "1 mark: 500 ÷ 1000 = 0.500 dm³"
+      ],
       "explanation": "Using 500 instead of 0.500 would make the concentration 1000 times too small."
     },
     {
-      "id": "c3-concentration-of-solutions-q23", "type": "short", "tier": "higher", "difficulty": 2, "marks": 2,
-      "question": "Explain how dissolving more solute in the same volume of solution affects its concentration.",
-      "acceptedAnswers": ["concentration increases", "more mass per dm³", "directly proportional"],
-      "markScheme": ["1 mark: concentration increases", "1 mark: because there is a greater mass of solute in each dm³ of solution (concentration is proportional to mass)"],
+      "id": "c3-concentration-of-solutions-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how dissolving more solute in the same volume of solution changes its concentration.",
+      "acceptedAnswers": [
+        "concentration increases",
+        "more mass per dm³",
+        "directly proportional"
+      ],
+      "markScheme": [
+        "1 mark: concentration increases",
+        "1 mark: because there is a greater mass of solute in each dm³ of solution (concentration is proportional to mass)"
+      ],
       "explanation": "With a fixed volume, concentration is directly proportional to the mass of solute."
     },
     {
-      "id": "c3-concentration-of-solutions-q24", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "id": "c3-concentration-of-solutions-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
       "question": "A student dilutes a solution by adding water. Explain what happens to the mass of solute, the volume of solution and the concentration.",
-      "acceptedAnswers": ["mass stays the same", "volume increases", "concentration decreases"],
-      "markScheme": ["1 mark: the mass of solute stays the same", "1 mark: the volume of solution increases", "1 mark: so the concentration decreases (less solute per dm³)"],
+      "acceptedAnswers": [
+        "mass stays the same",
+        "volume increases",
+        "concentration decreases"
+      ],
+      "markScheme": [
+        "1 mark: the mass of solute stays the same",
+        "1 mark: the volume of solution increases",
+        "1 mark: so the concentration decreases (less solute per dm³)"
+      ],
       "explanation": "Only the solvent is added. The same solute is spread through a larger volume."
     },
     {
-      "id": "c3-concentration-of-solutions-q25", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "Solution X contains 12 g of solute in 400 cm³. Solution Y contains 18 g of the same solute in 750 cm³. Show which solution is more concentrated.",
-      "acceptedAnswers": ["X", "X is 30 g/dm³", "Y is 24 g/dm³"],
-      "markScheme": ["1 mark: X: 12 ÷ 0.400 = 30 g/dm³; Y: 18 ÷ 0.750 = 24 g/dm³", "1 mark: X is more concentrated"],
+      "id": "c3-concentration-of-solutions-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Table 1 shows information about two solutions of the same solute.\nShow which solution is more concentrated.",
+      "table": {
+        "headers": [
+          "Solution",
+          "Mass of solute in g",
+          "Volume of solution in cm³"
+        ],
+        "rows": [
+          [
+            "X",
+            "12",
+            "400"
+          ],
+          [
+            "Y",
+            "18",
+            "750"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "X",
+        "X is 30 g/dm³",
+        "Y is 24 g/dm³"
+      ],
+      "markScheme": [
+        "1 mark: X: 12 ÷ 0.400 = 30 g/dm³; Y: 18 ÷ 0.750 = 24 g/dm³",
+        "1 mark: X is more concentrated"
+      ],
       "explanation": "Y has more solute in total, but it is spread through a larger volume, so its concentration is lower."
     },
     {
-      "id": "c3-concentration-of-solutions-q26", "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
-      "question": "Describe how a student could make 250 cm³ of a sodium chloride solution with a concentration of 8.0 g/dm³. Include the calculation of the mass of sodium chloride needed.",
+      "id": "c3-concentration-of-solutions-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "A student needs to make 250 cm³ of sodium chloride solution with a concentration of 8.0 g/dm³.\nCalculate the mass of sodium chloride needed.\nDescribe how the student should make the solution.",
       "markScheme": [
         "Indicative content: volume = 250 ÷ 1000 = 0.250 dm³; mass = 8.0 × 0.250 = 2.0 g; weigh 2.0 g of sodium chloride on a balance (resolution 0.01 g); dissolve in a small volume of distilled water in a beaker, stirring; transfer to a 250 cm³ volumetric flask, rinsing the beaker into the flask; add distilled water up to the mark; stopper and invert to mix.",
         "Level 2 (3 to 4 marks): correct mass calculated (2.0 g) with a clear, workable method making the final volume of solution 250 cm³.",
@@ -329,8 +773,32 @@
       "explanation": "Mass = concentration × volume = 2.0 g. The solute should be dissolved and then made up to a total volume of 250 cm³, not added to 250 cm³ of water."
     },
     {
-      "id": "c3-concentration-of-solutions-q27", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "A gardener has a bottle of concentrated plant food with a concentration of 150 g/dm³. The instructions say the diluted feed should have a concentration of 3.0 g/dm³, and the gardener wants to make 5.0 dm³ of diluted feed.\nCalculate the volume of concentrated plant food needed and explain, in terms of the mass of solute and volume of solution, why the concentration changes when it is diluted. Suggest why the concentration must be controlled.",
+      "id": "c3-concentration-of-solutions-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A gardener dilutes concentrated plant food with water.\nTable 1 shows information about the plant food.\nCalculate the volume of concentrated plant food the gardener needs.\nExplain why the concentration changes when the plant food is diluted. Use ideas about the mass of solute and the volume of solution.\nSuggest why the concentration of the diluted feed must be controlled.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Concentration of concentrated plant food in g/dm³",
+            "150"
+          ],
+          [
+            "Concentration of diluted feed needed in g/dm³",
+            "3.0"
+          ],
+          [
+            "Volume of diluted feed needed in dm³",
+            "5.0"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: mass of solute needed in diluted feed = 3.0 × 5.0 = 15 g; volume of concentrate containing 15 g = 15 ÷ 150 = 0.10 dm³ = 100 cm³; add water to make total volume 5.0 dm³; the mass of solute stays the same (15 g) when water is added; the volume increases 50 times; so the concentration decreases by a factor of 50 (150 ÷ 50 = 3.0 g/dm³); concentration control: too concentrated may damage plant roots (by osmosis) or waste money; too dilute may not give enough nutrients.",
         "Level 3 (5 to 6 marks): correct calculation of 100 cm³ (0.10 dm³) with clear working, a full explanation in terms of unchanged mass and increased volume, and a sensible reason for controlling concentration.",

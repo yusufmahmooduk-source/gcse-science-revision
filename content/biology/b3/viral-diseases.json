@@ -393,10 +393,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "After a vaccination programme began, the number of measles cases in a country fell from 4800 per year to 120 per year. Calculate the percentage decrease in cases.",
+      "question": "A measles vaccination programme began in a country.\nTable 1 shows the number of measles cases per year before and after the programme began.\nCalculate the percentage decrease in the number of cases per year.",
+      "table": {
+        "headers": [
+          "Time",
+          "Number of measles cases per year"
+        ],
+        "rows": [
+          [
+            "Before the vaccination programme",
+            "4800"
+          ],
+          [
+            "After the vaccination programme",
+            "120"
+          ]
+        ]
+      },
       "numericAnswer": 97.5,
       "tolerance": 0.005,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 4800 − 120 = 4680",
         "1 mark: (4680 ÷ 4800) × 100 = 97.5%"
@@ -409,10 +426,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "In a region, 650 000 young children are due to be vaccinated against measles. 8% of them are not vaccinated. Calculate how many children are not vaccinated.",
+      "question": "Table 1 shows information about measles vaccination of young children in a region.\nCalculate the number of children who are not vaccinated.",
+      "table": {
+        "headers": [
+          "Number of children due to be vaccinated",
+          "Percentage of children not vaccinated"
+        ],
+        "rows": [
+          [
+            "650 000",
+            "8"
+          ]
+        ]
+      },
       "numericAnswer": 52000,
       "tolerance": 0,
       "unit": "children",
+      "answerLabel": "Number of children not vaccinated",
       "markScheme": [
         "1 mark: 650 000 × 0.08 = 52 000"
       ],
@@ -424,10 +454,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Healthy tomato plants in a greenhouse produced a mean of 4.5 kg of tomatoes each. Plants infected with TMV produced a mean of 3.15 kg each. Calculate the percentage reduction in yield caused by TMV.",
+      "question": "Table 1 shows the mean yield of tomatoes from healthy plants and from plants infected with tobacco mosaic virus (TMV).\nCalculate the percentage reduction in yield caused by TMV.",
+      "table": {
+        "headers": [
+          "Tomato plants",
+          "Mean yield per plant in kg"
+        ],
+        "rows": [
+          [
+            "Healthy",
+            "4.5"
+          ],
+          [
+            "Infected with TMV",
+            "3.15"
+          ]
+        ]
+      },
       "numericAnswer": 30,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage reduction",
       "markScheme": [
         "1 mark: 4.5 − 3.15 = 1.35 kg",
         "1 mark: (1.35 ÷ 4.5) × 100 = 30%"
@@ -440,10 +487,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A healthy leaf has a green area of 36 cm². After infection with TMV, 9 cm² of the leaf is discoloured and cannot photosynthesise. Assuming the rate of photosynthesis is proportional to green area, calculate the percentage decrease in the leaf's rate of photosynthesis.",
+      "question": "A tomato leaf was infected with tobacco mosaic virus (TMV).\nTable 1 shows information about the leaf.\nThe rate of photosynthesis is proportional to the green area of the leaf.\nCalculate the percentage decrease in the leaf's rate of photosynthesis.",
+      "table": {
+        "headers": [
+          "Green area before infection in cm²",
+          "Area discoloured by TMV in cm²"
+        ],
+        "rows": [
+          [
+            "36",
+            "9"
+          ]
+        ]
+      },
       "numericAnswer": 25,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 9 ÷ 36 (= 0.25)",
         "1 mark: × 100 = 25%"
@@ -475,7 +535,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State why most young children in the UK are vaccinated against measles.",
+      "question": "Give one reason why most young children in the UK are vaccinated against measles.",
       "acceptedAnswers": [
         "can be fatal",
         "serious illness",
@@ -532,7 +592,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain how antiretroviral drugs help a person infected with HIV.",
+      "question": "A person infected with HIV started taking antiretroviral drugs in year 5.\nFigure 1 shows the number of immune cells in the person's blood.\nExplain how antiretroviral drugs help a person infected with HIV.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 30V252M108 30V252M146 30V252M184 30V252M222 30V252M260 30V252M298 30V252M336 30V252M374 30V252M412 30V252M450 30V252M70 252H450M70 215H450M70 178H450M70 141H450M70 104H450M70 67H450M70 30H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M70 30V252H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"70\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"108\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"146\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"184\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"222\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"260\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"298\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"336\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"374\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"412\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"450\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"64\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"64\" y=\"182\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"64\" y=\"145\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">600</text><text x=\"64\" y=\"108\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">800</text><text x=\"64\" y=\"71\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1000</text><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1200</text><text x=\"260\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time after infection in years</text><text x=\"16\" y=\"141\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 141)\">Immune cells per mm³ of blood</text><polyline points=\"70,67 108,85.5 146,104 184,122.5 222,141 260,159.5 298,144.7 336,129.9 374,118.8 412,109.5 450,104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"67\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"108\" cy=\"85.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"146\" cy=\"104\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"184\" cy=\"122.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"222\" cy=\"141\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"260\" cy=\"159.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"298\" cy=\"144.7\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"336\" cy=\"129.9\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"374\" cy=\"118.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"412\" cy=\"109.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"450\" cy=\"104\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M260 18V252\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"264\" y=\"22\" font-size=\"12\" fill=\"currentColor\">antiretroviral drugs started</text></svg>"
+      },
       "acceptedAnswers": [
         "control the virus",
         "stop virus reproducing",
@@ -594,7 +657,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Explain why people with AIDS often die from infections such as pneumonia, which healthy people usually survive.",
+      "question": "Figure 1 shows the number of immune cells in the blood of a person with HIV who was not treated.\nThe person developed AIDS in year 8.\nExplain why people with AIDS often die from infections such as pneumonia, which healthy people usually survive.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 16V252M108 16V252M146 16V252M184 16V252M222 16V252M260 16V252M298 16V252M336 16V252M374 16V252M412 16V252M450 16V252M70 252H450M70 212.7H450M70 173.3H450M70 134H450M70 94.7H450M70 55.3H450M70 16H450\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M70 16V252H450\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"70\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"108\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"146\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"184\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"222\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"260\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"298\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"336\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"374\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"412\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"450\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"64\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"216.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"64\" y=\"177.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"64\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">600</text><text x=\"64\" y=\"98.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">800</text><text x=\"64\" y=\"59.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1000</text><text x=\"64\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1200</text><text x=\"260\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time after infection in years</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Immune cells per mm³ of blood</text><polyline points=\"70,55.3 89,114.3 108,84.8 146,98.6 184,114.3 222,130.1 260,145.8 298,163.5 336,183.2 374,212.7 412,228.4 450,240.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"55.3\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"89\" cy=\"114.3\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"108\" cy=\"84.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"146\" cy=\"98.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"184\" cy=\"114.3\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"222\" cy=\"130.1\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"260\" cy=\"145.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"298\" cy=\"163.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"336\" cy=\"183.2\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"374\" cy=\"212.7\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"412\" cy=\"228.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"450\" cy=\"240.2\" r=\"2.5\" fill=\"currentColor\"/></svg>"
+      },
       "acceptedAnswers": [
         "HIV attacked immune cells",
         "immune system damaged",
@@ -665,7 +731,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "A gardener grows tomatoes. Some plants develop leaves with a pale mosaic pattern.\nExplain the cause of these symptoms and how the disease affects the tomato plants.",
+      "question": "A gardener grows tomatoes. Some plants develop leaves with a pale mosaic pattern.\nFigure 1 shows a leaf from one of these plants.\nExplain the cause of these symptoms and how the disease affects the tomato plants.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 450 300\" xmlns=\"http://www.w3.org/2000/svg\"><defs><clipPath id=\"b3vir26\"><path d=\"M200 30C270 60 300 130 290 190C280 240 240 265 200 275C160 265 120 240 110 190C100 130 130 60 200 30Z\"/></clipPath></defs><path d=\"M200 30C270 60 300 130 290 190C280 240 240 265 200 275C160 265 120 240 110 190C100 130 130 60 200 30Z\" fill=\"#86efac\" fill-opacity=\"0.5\"/><g clip-path=\"url(#b3vir26)\"><path d=\"M150 80l40 -10 20 30 -30 25 -35 -10z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M215 60l30 5 15 35 -25 15 -25 -25z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M120 150l35 -5 15 40 -30 20 -25 -20z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M210 130l45 -5 20 40 -35 25 -30 -25z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M160 200l40 5 10 35 -40 10 -20 -25z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M235 205l30 -5 5 30 -30 15z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M110 110l30 -5 10 25 -35 5z\" fill=\"#86efac\" fill-opacity=\"0.5\"/><path d=\"M175 150l25 -5 10 25 -30 5z\" fill=\"#86efac\" fill-opacity=\"0.5\"/><path d=\"M250 90l30 10 -5 25 -25 -5z\" fill=\"#86efac\" fill-opacity=\"0.5\"/></g><path d=\"M200 30C270 60 300 130 290 190C280 240 240 265 200 275C160 265 120 240 110 190C100 130 130 60 200 30Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M200 30V290M200 90L150 70M200 90L250 70M200 140L135 115M200 140L265 115M200 190L135 175M200 190L265 175M200 235L160 240M200 235L240 240\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M245 85L330 85\" stroke=\"currentColor\"/><circle cx=\"245\" cy=\"85\" r=\"2\" fill=\"currentColor\"/><text x=\"334\" y=\"89\" font-size=\"12\" fill=\"currentColor\">pale area</text><path d=\"M280 197H330\" stroke=\"currentColor\"/><circle cx=\"280\" cy=\"197\" r=\"2\" fill=\"currentColor\"/><text x=\"334\" y=\"201\" font-size=\"12\" fill=\"currentColor\">dark green area</text></svg>"
+      },
       "markScheme": [
         "Indicative content: caused by tobacco mosaic virus (TMV); a plant pathogen affecting many species; causes discolouration of leaves in a mosaic pattern; discoloured areas lack chlorophyll; less light absorbed; less photosynthesis; less glucose produced; slower growth and lower yield of tomatoes.",
         "Level 2 (3 to 4 marks): names TMV and gives a linked explanation of how it reduces growth.",
