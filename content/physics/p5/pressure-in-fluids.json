@@ -1,0 +1,790 @@
+{
+  "id": "p5-pressure-in-fluids",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "pressure-in-fluids",
+  "specRef": "4.5.5.1",
+  "title": "Pressure in a fluid",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "A fluid is a liquid or a gas. The pressure in a fluid causes a force normal (at right angles) to any surface it touches, and pressure = force normal to a surface ÷ area of that surface (p = F/A).",
+    "explanation": [
+      "Liquids and gases are both fluids because they can flow. The particles in a fluid move around and collide with any surface they touch, such as the walls of a container or the surface of an object placed in the fluid. These collisions produce a force on the surface, and the force always acts normal (at right angles) to the surface. That is why water squirts straight out sideways from a hole in the side of a bottle before it curves down.",
+      "Pressure tells us how concentrated a force is. It is calculated using p = F ÷ A, where p is the pressure in pascals (Pa), F is the force normal to the surface in newtons (N), and A is the area of that surface in square metres (m²). One pascal is one newton per square metre (1 Pa = 1 N/m²). A large force on a small area gives a large pressure, which is why a sharp knife cuts easily and why a drawing pin has a point. Spreading a force over a large area gives a small pressure, which is why snowshoes and wide tractor tyres stop people and vehicles sinking into soft ground.",
+      "Areas are often given in cm². Because 1 m = 100 cm, 1 m² = 100 × 100 = 10 000 cm². To convert cm² to m², divide by 10 000. For example, 25 cm² = 0.0025 m². Forgetting this conversion is a very common mistake in pressure calculations. The equation can be rearranged to F = p × A or A = F ÷ p.",
+      "(Higher tier) In a liquid, pressure increases with depth, because a deeper point has a taller column of liquid above it, so a greater weight of liquid presses on each square metre. Pressure also increases with density: a denser liquid has a greater weight for the same height of column. The pressure due to a column of liquid is p = h ρ g, where h is the height of the column (depth) in m, ρ is the density in kg/m³ and g is the gravitational field strength in N/kg. For the difference in pressure between two depths, use the difference in depth: Δp = Δh × ρ × g.",
+      "(Higher tier) The bottom surface of a partly or totally submerged object is deeper than its top surface, so the pressure on the bottom is greater. This creates a resultant upward force called upthrust, which is equal to the weight of liquid displaced. An object floats if the upthrust can balance its weight. This happens when the object is less dense than the liquid: it sinks only part of the way in before it displaces its own weight of liquid. An object denser than the liquid cannot displace enough liquid to balance its weight, so it sinks."
+    ],
+    "keyFacts": [
+      "A fluid is a liquid or a gas.",
+      "Pressure in a fluid causes a force at right angles (normal) to any surface.",
+      "Pressure = force normal to a surface ÷ area of that surface: p = F/A.",
+      "Pressure is measured in pascals (Pa); 1 Pa = 1 N/m².",
+      "1 m² = 10 000 cm², so divide cm² by 10 000 to get m².",
+      "Smaller area for the same force gives a larger pressure.",
+      "(HT) Pressure due to a column of liquid: p = hρg.",
+      "(HT) Pressure in a liquid increases with depth and with density.",
+      "(HT) Greater pressure on the bottom of a submerged object than on the top gives upthrust.",
+      "(HT) An object floats if it is less dense than the fluid; it sinks if it is denser."
+    ],
+    "keyTerms": [
+      {
+        "term": "Fluid",
+        "definition": "A substance that can flow: a liquid or a gas."
+      },
+      {
+        "term": "Pressure",
+        "definition": "The force acting normal to a surface per unit area; p = F/A, measured in pascals."
+      },
+      {
+        "term": "Pascal (Pa)",
+        "definition": "The unit of pressure; 1 Pa = 1 N/m²."
+      },
+      {
+        "term": "Normal force",
+        "definition": "A force acting at right angles to a surface."
+      },
+      {
+        "term": "Density (ρ)",
+        "definition": "Mass per unit volume, in kg/m³; used in p = hρg."
+      },
+      {
+        "term": "Upthrust (HT)",
+        "definition": "The resultant upward force on an object in a fluid, caused by the greater pressure on its bottom surface than its top surface."
+      },
+      {
+        "term": "Displaced fluid (HT)",
+        "definition": "The fluid pushed aside by an object placed in it; its weight equals the upthrust."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Pressure",
+        "formula": "pressure = force normal to a surface ÷ area of that surface",
+        "symbols": "p = F ÷ A",
+        "units": "p in pascals (Pa), F in newtons (N), A in square metres (m²)",
+        "recall": true
+      },
+      {
+        "name": "Pressure due to a column of liquid (HT)",
+        "formula": "pressure due to a column of liquid = height of column × density of the liquid × gravitational field strength",
+        "symbols": "p = h ρ g",
+        "units": "p in pascals (Pa), h in metres (m), ρ in kg/m³, g in N/kg",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Pressure with area in cm²",
+        "question": "A force of 500 N acts on an area of 25 cm². Calculate the pressure.",
+        "steps": [
+          "Convert the area: 25 cm² ÷ 10 000 = 0.0025 m².",
+          "p = F ÷ A = 500 ÷ 0.0025.",
+          "p = 200 000 Pa (200 kPa)."
+        ],
+        "answer": "200 000 Pa"
+      },
+      {
+        "title": "Rearranging to find force",
+        "question": "The air in a tyre is at a pressure of 50 000 Pa above atmospheric pressure. The area of tyre in contact with the road is 0.030 m². Calculate the force the tyre exerts on the road due to this pressure.",
+        "steps": [
+          "Rearrange p = F ÷ A to F = p × A.",
+          "F = 50 000 × 0.030.",
+          "F = 1500 N."
+        ],
+        "answer": "1500 N"
+      },
+      {
+        "title": "(HT) Pressure at a depth",
+        "question": "Calculate the pressure due to the water at the bottom of a pool 5.0 m deep. (density of water = 1000 kg/m³, g = 9.8 N/kg)",
+        "steps": [
+          "p = h ρ g.",
+          "p = 5.0 × 1000 × 9.8.",
+          "p = 49 000 Pa."
+        ],
+        "answer": "49 000 Pa"
+      },
+      {
+        "title": "(HT) Difference in pressure between two depths",
+        "question": "A diver descends from 2.0 m to 12.0 m below the surface of the sea. Calculate the increase in pressure. (density of sea water = 1030 kg/m³, g = 9.8 N/kg)",
+        "steps": [
+          "Difference in depth: Δh = 12.0 − 2.0 = 10.0 m.",
+          "Δp = Δh × ρ × g = 10.0 × 1030 × 9.8.",
+          "Δp = 100 940 Pa (about 101 000 Pa)."
+        ],
+        "answer": "100 940 Pa (1.0 × 10⁵ Pa to 2 s.f.)"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Fluid pressure acts at right angles to surfaces",
+        "caption": "Water pushes at right angles on every surface of its container. For Higher tier, the arrows are longer deeper down because the pressure increases with depth.",
+        "svg": "<svg viewBox='0 0 420 270' xmlns='http://www.w3.org/2000/svg'><rect x='100' y='60' width='180' height='160' fill='#93c5fd' fill-opacity='0.5'/><polyline points='100,30 100,220 280,220 280,30' fill='none' stroke='currentColor' stroke-width='3'/><g stroke='currentColor' stroke-width='2'><line x1='100' y1='90' x2='88' y2='90'/><line x1='100' y1='140' x2='76' y2='140'/><line x1='100' y1='190' x2='64' y2='190'/><line x1='280' y1='90' x2='292' y2='90'/><line x1='280' y1='140' x2='304' y2='140'/><line x1='280' y1='190' x2='316' y2='190'/><line x1='140' y1='220' x2='140' y2='252'/><line x1='190' y1='220' x2='190' y2='252'/><line x1='240' y1='220' x2='240' y2='252'/></g><g fill='currentColor'><path d='M80 90 L89 85 L89 95 Z'/><path d='M68 140 L77 135 L77 145 Z'/><path d='M56 190 L65 185 L65 195 Z'/><path d='M300 90 L291 85 L291 95 Z'/><path d='M312 140 L303 135 L303 145 Z'/><path d='M324 190 L315 185 L315 195 Z'/><path d='M140 260 L135 251 L145 251 Z'/><path d='M190 260 L185 251 L195 251 Z'/><path d='M240 260 L235 251 L245 251 Z'/></g><g font-size='12' fill='currentColor'><text x='170' y='130'>water</text><text x='100' y='22'>surface of water at the top</text><text x='325' y='80'>forces act at</text><text x='325' y='95'>right angles</text><text x='325' y='110'>(normal) to</text><text x='325' y='125'>every surface</text><text x='325' y='175'>(HT) longer</text><text x='325' y='190'>arrows deeper:</text><text x='325' y='205'>pressure rises</text><text x='325' y='220'>with depth</text></g><line x1='100' y1='60' x2='280' y2='60' stroke='currentColor' stroke-dasharray='4 3'/></svg>"
+      },
+      {
+        "title": "(HT) Upthrust on a submerged object",
+        "caption": "The bottom of the object is deeper than the top, so it experiences a larger pressure and a larger force. The side forces cancel. The resultant upward force is the upthrust.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='300' height='210' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><rect x='120' y='100' width='100' height='60' fill='#fde68a' fill-opacity='0.5' stroke='currentColor'/><g stroke='currentColor' stroke-width='2'><line x1='150' y1='72' x2='150' y2='90'/><line x1='190' y1='72' x2='190' y2='90'/><line x1='150' y1='205' x2='150' y2='170'/><line x1='190' y1='205' x2='190' y2='170'/><line x1='85' y1='130' x2='110' y2='130'/><line x1='255' y1='130' x2='230' y2='130'/></g><g fill='currentColor'><path d='M150 100 L145 89 L155 89 Z'/><path d='M190 100 L185 89 L195 89 Z'/><path d='M150 160 L145 171 L155 171 Z'/><path d='M190 160 L185 171 L195 171 Z'/><path d='M120 130 L109 125 L109 135 Z'/><path d='M220 130 L231 125 L231 135 Z'/></g><line x1='370' y1='190' x2='370' y2='92' stroke='currentColor' stroke-width='4'/><path d='M370 78 L362 94 L378 94 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='30' y='50'>water surface</text><text x='205' y='85'>smaller pressure on top</text><text x='205' y='225'>larger pressure on bottom</text><text x='30' y='118'>side forces</text><text x='30' y='150'>cancel</text><text x='340' y='210'>upthrust</text><text x='328' y='226'>(resultant</text><text x='328' y='242'>force up)</text><text x='150' y='134'>object</text></g></svg>"
+      },
+      {
+        "title": "(HT) Water jets from holes at different depths",
+        "caption": "Water leaves each hole at right angles to the wall. The deepest hole has the largest pressure, so its jet travels furthest.",
+        "svg": "<svg viewBox='0 0 420 250' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='226' x2='400' y2='226' stroke='currentColor' stroke-width='2'/><rect x='60' y='45' width='80' height='181' fill='#93c5fd' fill-opacity='0.5'/><polyline points='60,20 60,226 140,226 140,20' fill='none' stroke='currentColor' stroke-width='3'/><line x1='60' y1='45' x2='140' y2='45' stroke='currentColor' stroke-dasharray='4 3'/><g fill='none' stroke='currentColor' stroke-width='2' stroke-dasharray='6 3'><path d='M140 85 Q172 84 185 226'/><path d='M140 135 Q205 133 240 226'/><path d='M140 185 Q250 181 300 226'/></g><g font-size='12' fill='currentColor'><text x='75' y='120'>water</text><text x='150' y='70'>shallow hole: smaller pressure, short jet</text><text x='215' y='130'>deeper: larger pressure</text><text x='255' y='180'>deepest hole: largest</text><text x='255' y='195'>pressure, longest jet</text><text x='150' y='244'>(HT) pressure increases with depth, p = hρg</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think that pressure in a fluid acts only downwards.",
+        "right": "In fact fluid pressure acts in all directions, producing a force at right angles to every surface, including sideways and upwards."
+      },
+      {
+        "wrong": "Students often convert cm² to m² by dividing by 100.",
+        "right": "In fact 1 m² = 10 000 cm², so you divide by 10 000."
+      },
+      {
+        "wrong": "(HT) Students often think that heavy objects sink and light objects float.",
+        "right": "In fact floating depends on density compared with the fluid: a huge steel ship floats because its overall density (including the air inside) is less than water."
+      },
+      {
+        "wrong": "(HT) Students often think upthrust is caused by the water 'pushing up' only from below.",
+        "right": "In fact water pushes on all surfaces; upthrust is the resultant force because the pressure on the bottom is greater than on the top."
+      },
+      {
+        "wrong": "(HT) Students often think the shape or width of a container changes the pressure at a given depth.",
+        "right": "In fact p = hρg depends only on depth, density and g, not on the shape of the container."
+      }
+    ],
+    "realWorld": [
+      "Snowshoes, skis and wide tractor tyres spread weight over a large area, reducing pressure so they do not sink into snow or mud.",
+      "Knives, needles and drawing pins have tiny areas at the tip, giving very high pressures that cut or pierce easily.",
+      "(HT) Dams are built much thicker at the bottom because water pressure increases with depth.",
+      "(HT) Submarines and deep-sea divers must cope with pressures that increase by about 100 000 Pa for every 10 m of depth in sea water.",
+      "(HT) Ships float because they displace a weight of water equal to their own weight; a ship floats lower in less dense fresh water than in sea water."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Pressure due to a column of liquid: p = hρg, where h is the height of the column in m, ρ the density of the liquid in kg/m³ and g the gravitational field strength in N/kg (given on the equation sheet).",
+      "Explain why pressure at a point in a liquid increases with the height of the column of liquid above that point (more weight of liquid above each square metre) and with the density of the liquid.",
+      "Calculate the difference in pressure at different depths in a liquid using Δp = Δh × ρ × g.",
+      "A partially or totally submerged object experiences a greater pressure on its bottom surface than on its top surface, creating a resultant upward force called upthrust.",
+      "Describe the factors that influence floating and sinking: an object floats if its weight can be balanced by the upthrust, which happens if it is less dense than the fluid; the upthrust equals the weight of fluid displaced, so a denser object sinks because it cannot displace enough fluid."
+    ],
+    "separateOnlyContent": [
+      "The whole of this subtopic (pressure in a fluid, 4.5.5.1) is in separate Physics (8463) only and is not assessed in Combined Science Trilogy.",
+      "Recall and use p = F/A, with pressure in pascals.",
+      "(HT) Use p = hρg, explain upthrust and describe floating and sinking."
+    ],
+    "examTips": [
+      "p = F/A must be recalled; p = hρg is on the equation sheet.",
+      "Convert cm² to m² by dividing by 10 000 before using p = F/A.",
+      "Give pressure in Pa (or N/m²); 1 kPa = 1000 Pa.",
+      "(HT) For a difference in pressure, use the difference in depth in p = hρg rather than calculating both pressures (either method gets the marks if correct).",
+      "(HT) When explaining upthrust, compare the pressure on the top and bottom surfaces and use the phrase 'resultant force upwards'.",
+      "(HT) When explaining floating, compare the density of the object with the density of the fluid, or compare weight with upthrust."
+    ],
+    "summary": [
+      "A fluid is a liquid or gas; its pressure acts at right angles to any surface.",
+      "p = F/A, measured in pascals (1 Pa = 1 N/m²).",
+      "Smaller area, same force: bigger pressure.",
+      "(HT) p = hρg: pressure increases with depth and density.",
+      "(HT) Upthrust: greater pressure on the bottom than the top of an object.",
+      "(HT) Objects less dense than the fluid float; denser objects sink."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is a fluid?",
+      "back": "A liquid or a gas."
+    },
+    {
+      "front": "In what direction does fluid pressure act on a surface?",
+      "back": "At right angles (normal) to the surface."
+    },
+    {
+      "front": "Equation for pressure?",
+      "back": "pressure = force normal to surface ÷ area (p = F/A)."
+    },
+    {
+      "front": "Unit of pressure?",
+      "back": "The pascal (Pa); 1 Pa = 1 N/m²."
+    },
+    {
+      "front": "How do you convert cm² to m²?",
+      "back": "Divide by 10 000."
+    },
+    {
+      "front": "Why do snowshoes stop you sinking?",
+      "back": "Larger area, so smaller pressure on the snow."
+    },
+    {
+      "front": "Pressure: 200 N on 0.5 m²?",
+      "back": "400 Pa."
+    },
+    {
+      "front": "(HT) Equation for pressure due to a column of liquid?",
+      "back": "p = hρg (on the equation sheet)."
+    },
+    {
+      "front": "(HT) Why does pressure increase with depth?",
+      "back": "There is a greater height (weight) of liquid above each unit area."
+    },
+    {
+      "front": "(HT) Why does pressure depend on density?",
+      "back": "A denser liquid has a greater weight for the same column height."
+    },
+    {
+      "front": "(HT) What causes upthrust?",
+      "back": "Greater pressure on the bottom surface of an object than on the top, giving a resultant upward force."
+    },
+    {
+      "front": "(HT) When does an object float?",
+      "back": "When it is less dense than the fluid, so upthrust can balance its weight."
+    },
+    {
+      "front": "(HT) Upthrust is equal to the weight of what?",
+      "back": "The fluid displaced by the object."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-pressure-in-fluids-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which of these is a fluid?",
+      "options": [
+        "Steel",
+        "Ice",
+        "Wood",
+        "Air"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Air"
+      ],
+      "explanation": "A fluid is a substance that can flow: a liquid or a gas. Air is a gas. Steel, ice and wood are solids."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of pressure?",
+      "options": [
+        "Newton (N)",
+        "Pascal (Pa)",
+        "Joule (J)",
+        "Newton-metre (N m)"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Pascal (Pa)"
+      ],
+      "explanation": "Pressure is measured in pascals; 1 Pa = 1 N/m²."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "In which direction does the force due to fluid pressure act on a surface?",
+      "options": [
+        "Always vertically downwards",
+        "Always vertically upwards",
+        "At right angles to the surface",
+        "Parallel to the surface"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: At right angles to the surface"
+      ],
+      "explanation": "Fluid pressure produces a force normal (at right angles) to any surface, whatever its orientation."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A force stays the same but the area it acts on is halved. What happens to the pressure?",
+      "options": [
+        "It doubles",
+        "It halves",
+        "It stays the same",
+        "It increases four times"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It doubles"
+      ],
+      "explanation": "p = F ÷ A. Halving A while F is constant doubles p."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these is equal to 1 pascal?",
+      "options": [
+        "1 N m",
+        "1 N/m",
+        "1 J/s",
+        "1 N/m²"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 1 N/m²"
+      ],
+      "explanation": "Pressure = force ÷ area, so 1 Pa = 1 newton per square metre."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why do snowshoes help a person walk on soft snow?",
+      "options": [
+        "They reduce the person's weight",
+        "They increase the area, so the pressure on the snow is smaller",
+        "They increase the pressure, so the snow is compressed",
+        "They reduce the force of friction"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: They increase the area, so the pressure on the snow is smaller"
+      ],
+      "explanation": "The weight is the same but it is spread over a larger area, so p = F/A is smaller and the person sinks less."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why does the pressure in a liquid increase with depth?",
+      "options": [
+        "The liquid becomes more compressed and its particles are bigger",
+        "There is a greater height of liquid above, so a greater weight of liquid pushes on each unit area",
+        "The temperature of the liquid increases with depth",
+        "Gravitational field strength increases with depth"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: There is a greater height of liquid above, so a greater weight of liquid pushes on each unit area"
+      ],
+      "explanation": "Deeper points have a taller column of liquid above them, so the weight of liquid acting on each square metre is greater (p = hρg)."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A diver is at a depth of 10 m in fresh water and then at 10 m in sea water, which is denser. How does the pressure due to the water compare?",
+      "options": [
+        "It is greater in the sea water",
+        "It is greater in the fresh water",
+        "It is the same, because the depth is the same",
+        "It is zero in both, because the diver is floating"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It is greater in the sea water"
+      ],
+      "explanation": "p = hρg. At the same depth, a larger density gives a larger pressure, so the pressure is greater in sea water."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "What causes the upthrust on an object submerged in water?",
+      "options": [
+        "The water pressure is the same on all surfaces of the object",
+        "The pressure on the top surface is greater than on the bottom surface",
+        "The pressure on the bottom surface is greater than on the top surface",
+        "The object's weight pushes the water upwards"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The pressure on the bottom surface is greater than on the top surface"
+      ],
+      "explanation": "The bottom surface is deeper, so it has a greater pressure and a greater upward force than the downward force on the top. The resultant is upthrust."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Which statement explains why a solid object floats in water?",
+      "options": [
+        "Its weight is greater than the upthrust",
+        "Its density is less than the density of water",
+        "Its volume is greater than 1 m³",
+        "Its mass is less than 1 kg"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Its density is less than the density of water"
+      ],
+      "explanation": "An object less dense than the liquid can displace its own weight of liquid before it is fully submerged, so upthrust balances its weight and it floats. Mass or volume alone do not decide floating."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is 50 cm² in m²?",
+      "options": [
+        "0.5 m²",
+        "0.05 m²",
+        "0.005 m²",
+        "5000 m²"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 0.005 m²"
+      ],
+      "explanation": "1 m² = 10 000 cm², so 50 ÷ 10 000 = 0.005 m². Dividing by 100 (0.5 m²) is a common mistake."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A force of 600 N acts on an area of 2.0 m². Calculate the pressure.",
+      "numericAnswer": 300,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p = 600 ÷ 2.0",
+        "1 mark: 300 Pa"
+      ],
+      "explanation": "p = F ÷ A = 600 ÷ 2.0 = 300 Pa."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 500 N acts on an area of 25 cm². Calculate the pressure in pascals.",
+      "numericAnswer": 200000,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: 25 cm² = 0.0025 m²",
+        "1 mark: p = 500 ÷ 0.0025",
+        "1 mark: 200 000 Pa"
+      ],
+      "explanation": "Convert the area: 25 ÷ 10 000 = 0.0025 m². p = 500 ÷ 0.0025 = 200 000 Pa."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A pressure of 50 000 Pa acts on an area of 0.030 m². Calculate the force on the area.",
+      "numericAnswer": 1500,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = p × A = 50 000 × 0.030",
+        "1 mark: 1500 N"
+      ],
+      "explanation": "Rearrange p = F/A to F = p × A = 50 000 × 0.030 = 1500 N."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A crate exerts a force of 2400 N on the floor and a pressure of 8000 Pa. Calculate the area of the crate in contact with the floor.",
+      "numericAnswer": 0.3,
+      "tolerance": 0.02,
+      "unit": "m²",
+      "markScheme": [
+        "1 mark: A = F ÷ p",
+        "1 mark: A = 2400 ÷ 8000",
+        "1 mark: 0.3 m²"
+      ],
+      "explanation": "Rearrange p = F/A to A = F ÷ p = 2400 ÷ 8000 = 0.30 m²."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Calculate the pressure due to the water at the bottom of a swimming pool 5.0 m deep. Use p = hρg. (density of water = 1000 kg/m³, g = 9.8 N/kg)",
+      "numericAnswer": 49000,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p = 5.0 × 1000 × 9.8",
+        "1 mark: 49 000 Pa"
+      ],
+      "explanation": "p = hρg = 5.0 × 1000 × 9.8 = 49 000 Pa."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A diver descends from a depth of 2.0 m to 12.0 m in the sea. Calculate the increase in the pressure on the diver. Use p = hρg. (density of sea water = 1030 kg/m³, g = 9.8 N/kg)",
+      "numericAnswer": 100940,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: Δh = 10.0 m",
+        "1 mark: Δp = 10.0 × 1030 × 9.8",
+        "1 mark: 100 940 Pa (accept 1.0 × 10⁵ Pa)"
+      ],
+      "explanation": "Use the difference in depth: Δp = 10.0 × 1030 × 9.8 = 100 940 Pa."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The pressure due to the water at the bottom of a tank is 29 400 Pa. Calculate the depth of the water. Use p = hρg. (density of water = 1000 kg/m³, g = 9.8 N/kg)",
+      "numericAnswer": 3,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: h = p ÷ (ρ g)",
+        "1 mark: h = 29 400 ÷ (1000 × 9.8)",
+        "1 mark: 3.0 m"
+      ],
+      "explanation": "Rearrange p = hρg to h = p ÷ (ρg) = 29 400 ÷ 9800 = 3.0 m."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Calculate the pressure at the bottom of a column of mercury 76 cm tall. Use p = hρg. (density of mercury = 13 600 kg/m³, g = 9.8 N/kg)",
+      "numericAnswer": 101293,
+      "tolerance": 0.02,
+      "unit": "Pa",
+      "markScheme": [
+        "1 mark: p = 0.76 × 13 600 × 9.8",
+        "1 mark: 101 293 Pa (accept 1.0 × 10⁵ Pa)"
+      ],
+      "explanation": "Convert 76 cm to 0.76 m. p = 0.76 × 13 600 × 9.8 = 101 292.8 Pa, about the same as atmospheric pressure at sea level."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q20",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A cuboid is held completely under water. Its top and bottom faces each have an area of 0.020 m². The top face is 0.10 m below the surface and the bottom face is 0.30 m below the surface. Calculate the upthrust on the cuboid. (density of water = 1000 kg/m³, g = 9.8 N/kg)",
+      "numericAnswer": 39.2,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: pressure difference = (0.30 − 0.10) × 1000 × 9.8",
+        "1 mark: = 1960 Pa",
+        "1 mark: upthrust = 1960 × 0.020",
+        "1 mark: 39.2 N"
+      ],
+      "explanation": "The bottom is 0.20 m deeper than the top, so the pressure there is 1960 Pa greater. The extra upward force is 1960 × 0.020 = 39.2 N, which is the upthrust."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links pressure, force normal to a surface and area.",
+      "acceptedAnswers": [
+        "p = F/A",
+        "pressure = force ÷ area"
+      ],
+      "markScheme": [
+        "1 mark: pressure = force normal to a surface ÷ area of that surface (p = F/A)"
+      ],
+      "explanation": "This equation must be recalled."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Explain why a sharp knife cuts through food more easily than a blunt knife.",
+      "acceptedAnswers": [
+        "smaller area",
+        "greater pressure",
+        "same force"
+      ],
+      "markScheme": [
+        "1 mark: a sharp blade has a smaller area (in contact with the food)",
+        "1 mark: so for the same force the pressure is greater"
+      ],
+      "explanation": "p = F/A: reducing the area increases the pressure, which breaks through the food more easily."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe the direction of the forces that the water in a swimming pool exerts on the walls and floor of the pool.",
+      "acceptedAnswers": [
+        "at right angles",
+        "normal",
+        "perpendicular",
+        "outwards on walls",
+        "downwards on floor"
+      ],
+      "markScheme": [
+        "1 mark: forces act at right angles (normal) to each surface",
+        "1 mark: outwards / horizontally on the walls and downwards on the floor"
+      ],
+      "explanation": "Fluid pressure always produces a force normal to the surface, so the walls are pushed outwards and the floor downwards."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A drawing pin has a sharp point and a wide, flat head. Explain why the drawing pin is designed this way.",
+      "acceptedAnswers": [
+        "small area point",
+        "large pressure",
+        "large area head",
+        "small pressure on thumb"
+      ],
+      "markScheme": [
+        "1 mark: the point has a small area so the pressure on the board is large, so it goes in easily",
+        "1 mark: the head has a large area so the pressure on the thumb is small, so it does not hurt"
+      ],
+      "explanation": "The same force acts at both ends, but the different areas give very different pressures."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Holes are made at different heights in the side of a tall bottle of water. Explain why water spurts out furthest from the lowest hole.",
+      "acceptedAnswers": [
+        "deeper",
+        "greater height of water above",
+        "greater pressure",
+        "greater force",
+        "p = hρg"
+      ],
+      "markScheme": [
+        "1 mark: the lowest hole is at the greatest depth",
+        "1 mark: so there is a greater height (weight) of water above it and the pressure is greater (p = hρg)",
+        "1 mark: so the water is pushed out with a greater force/speed and travels further"
+      ],
+      "explanation": "Pressure increases with depth, so the deepest hole has the highest pressure pushing water out."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why the wall of a dam is much thicker at the bottom than at the top.",
+      "acceptedAnswers": [
+        "pressure increases with depth",
+        "greater force at bottom",
+        "p = hρg",
+        "withstand force"
+      ],
+      "markScheme": [
+        "1 mark: water pressure increases with depth (p = hρg)",
+        "1 mark: so the force on the wall is greatest at the bottom",
+        "1 mark: the wall must be thicker/stronger there to withstand the larger force"
+      ],
+      "explanation": "The deepest water has the greatest column of water above it and so the greatest pressure on the dam."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q27",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain how upthrust is produced on an object that is fully submerged in water.",
+      "acceptedAnswers": [
+        "bottom deeper than top",
+        "greater pressure on bottom",
+        "greater force upwards",
+        "resultant upward force"
+      ],
+      "markScheme": [
+        "1 mark: the bottom surface of the object is deeper than the top surface",
+        "1 mark: so the pressure (and force) on the bottom surface is greater than on the top",
+        "1 mark: giving a resultant upward force (upthrust)"
+      ],
+      "explanation": "Pressure increases with depth, so the upward push on the bottom exceeds the downward push on the top."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q28",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Use ideas about pressure to explain why a tractor has very wide tyres, but a woman wearing stiletto heels can damage a wooden floor.",
+      "markScheme": [
+        "Indicative content:",
+        "Pressure = force ÷ area (p = F/A).",
+        "The tractor is very heavy (large weight/force).",
+        "Wide tyres give a large area in contact with the ground.",
+        "So the pressure on the soft ground is reduced, so the tractor does not sink.",
+        "A stiletto heel has a very small area.",
+        "Even a moderate weight on a tiny area gives a very large pressure.",
+        "This large pressure can dent the wooden floor.",
+        "Level 2 (3 to 4 marks): both examples explained using force and area to compare pressure.",
+        "Level 1 (1 to 2 marks): one example explained, or both described without a clear link to area."
+      ],
+      "explanation": "Pressure depends on both force and area. A huge force on a large area can give a small pressure, while a small force on a tiny area can give a very large pressure."
+    },
+    {
+      "id": "p5-pressure-in-fluids-q29",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain why some objects float in water and others sink. Use ideas about pressure, upthrust, weight and density in your answer.",
+      "markScheme": [
+        "Indicative content:",
+        "Pressure in a liquid increases with depth (p = hρg).",
+        "A submerged object has a greater pressure on its bottom surface than its top surface.",
+        "This gives a resultant upward force: upthrust.",
+        "The upthrust equals the weight of water displaced.",
+        "Two forces act on the object: weight downwards and upthrust upwards.",
+        "If weight is greater than the maximum upthrust (when fully submerged) the object sinks.",
+        "An object floats when upthrust equals weight.",
+        "An object less dense than water displaces its own weight of water before being fully submerged, so it floats.",
+        "An object denser than water cannot displace enough water, so it sinks.",
+        "Example: a steel ship floats because its hollow shape (with air) gives a low average density; a solid steel block sinks.",
+        "Level 3 (5 to 6 marks): clear, linked explanation from pressure difference to upthrust, comparing upthrust with weight and linking to density.",
+        "Level 2 (3 to 4 marks): explains upthrust or compares weight and upthrust with some reference to density.",
+        "Level 1 (1 to 2 marks): simple statements, e.g. less dense objects float."
+      ],
+      "explanation": "Floating depends on whether upthrust, which comes from the pressure difference between top and bottom, can balance the weight. That happens when the object is less dense than the liquid."
+    }
+  ]
+}

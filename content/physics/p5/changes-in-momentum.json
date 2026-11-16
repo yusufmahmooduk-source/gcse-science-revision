@@ -1,0 +1,746 @@
+{
+  "id": "p5-changes-in-momentum",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "changes-in-momentum",
+  "specRef": "4.5.7.3",
+  "title": "Changes in momentum",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "When a resultant force acts on a moving object (or one able to move), its momentum changes. Force equals the rate of change of momentum: F = mΔv ÷ Δt.",
+    "explanation": [
+      "When a resultant force acts on an object that is moving, or that is able to move, the object's momentum changes. Newton's Second Law (F = m a) and the definition of acceleration (a = (v − u) ÷ t) can be combined: F = m (v − u) ÷ t, which is written F = mΔv ÷ Δt. Here mΔv is the change in momentum and Δt is the time taken for the change. So force equals the rate of change of momentum. This equation is given on the equation sheet.",
+      "The equation shows how force, change in momentum and time are linked. For a given change in momentum, a larger force produces the change in a shorter time, and a smaller force produces it over a longer time. If an object has to be stopped, its change in momentum is fixed (it must lose all of its momentum). Making the stopping time longer therefore makes the force on the object smaller. This idea is the basis of many safety features.",
+      "In a car crash, the people inside must lose all their momentum. Seat belts stretch slightly, so the person stops over a longer time than if they hit the dashboard or windscreen. Air bags inflate and then deflate gradually as the person's head and chest move into them, increasing the time taken to stop. Crumple zones at the front and back of a car are designed to crush in a collision, so the car stops over a longer time. In each case the rate of change of momentum is smaller, so the force on the occupants is smaller and injuries are less severe. Air bags also spread the force over a larger area.",
+      "The same idea is used in sport and play. Gymnasium crash mats and cushioned playground surfaces (such as rubber or bark chippings) squash when someone lands on them, increasing the time taken to stop. Cycle helmets contain a layer of crushable foam that compresses on impact, increasing the time for the head to stop. Gymnasts bend their knees when landing, and cricket fielders move their hands backwards when catching a hard ball, for the same reason.",
+      "Take care with direction. If an object bounces back, its velocity changes sign, so the change in velocity is larger than if it just stopped. For example, a ball hitting a wall at +6 m/s and rebounding at −4 m/s has Δv = −4 − 6 = −10 m/s. Always choose a positive direction, use Δv = v − u and convert units (g to kg, km/h to m/s, ms to s) before calculating."
+    ],
+    "keyFacts": [
+      "A resultant force on a moving object causes a change in momentum.",
+      "Force = rate of change of momentum: F = mΔv ÷ Δt (on the equation sheet).",
+      "F = mΔv ÷ Δt comes from combining F = m a with a = (v − u) ÷ t.",
+      "mΔv is the change in momentum, measured in kg m/s.",
+      "For the same change in momentum, increasing the time decreases the force.",
+      "Seat belts, air bags and crumple zones increase the time taken for occupants to stop, reducing the force.",
+      "Crash mats, cushioned playground surfaces and cycle helmets increase impact time, reducing the force.",
+      "A rebound gives a bigger change in velocity than just stopping, so a bigger change in momentum.",
+      "Convert ms to s, g to kg and km/h to m/s before calculating."
+    ],
+    "keyTerms": [
+      {
+        "term": "Change in momentum",
+        "definition": "mΔv = m(v − u): the final momentum minus the initial momentum, in kg m/s."
+      },
+      {
+        "term": "Rate of change of momentum",
+        "definition": "The change in momentum divided by the time taken; equal to the resultant force."
+      },
+      {
+        "term": "Impact time",
+        "definition": "The time over which a collision takes place, during which the momentum changes."
+      },
+      {
+        "term": "Crumple zone",
+        "definition": "A part of a car designed to deform in a crash, increasing the time taken to stop and reducing the force."
+      },
+      {
+        "term": "Air bag",
+        "definition": "A bag that inflates in a crash so the occupant stops over a longer time, reducing the force on them."
+      },
+      {
+        "term": "Seat belt",
+        "definition": "A belt that holds an occupant in place and stretches slightly to increase stopping time in a crash."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Force and change in momentum",
+        "formula": "force = change in momentum ÷ time taken",
+        "symbols": "F = m Δv ÷ Δt",
+        "units": "F in N, m in kg, Δv in m/s, Δt in s",
+        "recall": false
+      },
+      {
+        "name": "Newton's Second Law",
+        "formula": "resultant force = mass × acceleration",
+        "symbols": "F = m a",
+        "units": "F in N, m in kg, a in m/s²",
+        "recall": true
+      },
+      {
+        "name": "Acceleration",
+        "formula": "acceleration = change in velocity ÷ time taken",
+        "symbols": "a = Δv ÷ t",
+        "units": "a in m/s², Δv in m/s, t in s",
+        "recall": true
+      },
+      {
+        "name": "Momentum",
+        "formula": "momentum = mass × velocity",
+        "symbols": "p = m v",
+        "units": "p in kg m/s, m in kg, v in m/s",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Force when kicking a ball",
+        "question": "A football of mass 0.45 kg is kicked from rest to 24 m/s. The boot is in contact with the ball for 12 ms. Calculate the average force on the ball.",
+        "steps": [
+          "Convert time: 12 ms = 0.012 s.",
+          "Change in momentum = mΔv = 0.45 × (24 − 0) = 10.8 kg m/s.",
+          "F = mΔv ÷ Δt = 10.8 ÷ 0.012.",
+          "F = 900 N."
+        ],
+        "answer": "900 N"
+      },
+      {
+        "title": "How an air bag reduces the force",
+        "question": "A driver of mass 70 kg is travelling at 15 m/s when the car crashes. Calculate the force on the driver if (a) she hits the steering wheel and stops in 0.020 s, (b) an air bag stops her in 0.15 s.",
+        "steps": [
+          "Change in momentum = 70 × (0 − 15) = −1050 kg m/s (size 1050 kg m/s).",
+          "(a) F = 1050 ÷ 0.020 = 52 500 N.",
+          "(b) F = 1050 ÷ 0.15 = 7000 N.",
+          "The air bag makes the stopping time 7.5 times longer, so the force is 7.5 times smaller."
+        ],
+        "answer": "(a) 52 500 N; (b) 7000 N"
+      },
+      {
+        "title": "Rebound: using signs for direction",
+        "question": "A ball of mass 0.40 kg hits a wall at 6.0 m/s and rebounds at 4.0 m/s. It is in contact with the wall for 0.050 s. Calculate the average force the wall exerts on the ball.",
+        "steps": [
+          "Take the direction towards the wall as positive: u = +6.0 m/s, v = −4.0 m/s.",
+          "Δv = v − u = −4.0 − 6.0 = −10 m/s.",
+          "Change in momentum = 0.40 × (−10) = −4.0 kg m/s.",
+          "F = −4.0 ÷ 0.050 = −80 N."
+        ],
+        "answer": "80 N, directed away from the wall"
+      },
+      {
+        "title": "Crash force with km/h conversion",
+        "question": "A car of mass 1200 kg travelling at 54 km/h hits a wall and stops in 0.15 s. Calculate the average force on the car.",
+        "steps": [
+          "Convert: 54 ÷ 3.6 = 15 m/s.",
+          "Change in momentum = 1200 × 15 = 18 000 kg m/s.",
+          "F = 18 000 ÷ 0.15 = 120 000 N."
+        ],
+        "answer": "120 000 N"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Increasing impact time reduces the force",
+        "caption": "A person landing on a hard floor and on a crash mat has the same change in momentum. The crash mat makes the impact last longer, so the force is much smaller.",
+        "svg": "<svg viewBox='0 0 460 270' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2' fill='none'><line x1='60' y1='220' x2='430' y2='220'/><line x1='60' y1='220' x2='60' y2='20'/><path d='M60 220 C 75 220, 78 40, 90 40 C 102 40, 105 220, 120 220' stroke-width='3'/><path d='M60 220 C 120 220, 140 180, 200 180 C 260 180, 280 220, 340 220' stroke-dasharray='7 4' stroke-width='3'/></g><g font-size='12' fill='currentColor'><text x='245' y='245' text-anchor='middle'>time of impact</text><text x='20' y='120' transform='rotate(-90 20 120)' text-anchor='middle'>force</text><text x='105' y='45'>hard floor: short impact time,</text><text x='105' y='60'>very large force</text><text x='210' y='160'>crash mat (dashed): longer</text><text x='210' y='175'>impact time, smaller force</text><text x='245' y='263' text-anchor='middle'>Same change in momentum (mΔv) in both cases: F = mΔv ÷ Δt</text></g></svg>"
+      },
+      {
+        "title": "Car safety features",
+        "caption": "The crumple zone, seat belt and air bag all increase the time taken for the occupant to stop in a crash, reducing the rate of change of momentum and so the force.",
+        "svg": "<svg viewBox='0 0 460 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-width='2'><path d='M40 170 L40 110 L150 110 L175 60 L320 60 L345 110 L420 110 L420 170 Z' fill='#e5e7eb' fill-opacity='0.5'/><rect x='360' y='110' width='60' height='60' fill='#fde68a' fill-opacity='0.5' stroke-dasharray='5 3'/><circle cx='110' cy='170' r='22' fill='#e5e7eb'/><circle cx='350' cy='170' r='22' fill='#e5e7eb'/><rect x='228' y='85' width='10' height='65' fill='#c4b5fd' fill-opacity='0.5'/><circle cx='252' cy='80' r='10' fill='none'/><line x1='250' y1='90' x2='250' y2='135'/><line x1='243' y1='92' x2='260' y2='138' stroke-width='3'/><ellipse cx='280' cy='96' rx='12' ry='16' fill='#fca5a5' fill-opacity='0.5'/></g><g stroke='currentColor' stroke-width='1'><line x1='288' y1='84' x2='336' y2='48'/><line x1='254' y1='122' x2='218' y2='210'/><line x1='390' y1='160' x2='390' y2='210'/></g><line x1='360' y1='26' x2='428' y2='26' stroke='currentColor' stroke-width='3'/><path d='M440 26 L426 19 L426 33 Z' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='350' y='30' text-anchor='end'>direction of travel</text><text x='338' y='46'>airbag</text><text x='160' y='225'>seat belt</text><text x='360' y='225'>crumple zone</text><text x='45' y='100'>car</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think air bags and seat belts reduce the change in momentum of the occupant.",
+        "right": "In fact the change in momentum is the same (the person still has to stop); these features increase the time taken, which reduces the force."
+      },
+      {
+        "wrong": "Students often think a rigid car that does not crumple is the safest.",
+        "right": "In fact a rigid car would stop in a very short time, giving huge forces on the occupants. Crumple zones deliberately increase the stopping time."
+      },
+      {
+        "wrong": "Students often think a ball that bounces back has a smaller change in momentum than one that stops.",
+        "right": "In fact the velocity reverses, so Δv is larger (for example −4 − 6 = −10 m/s), and the change in momentum is larger."
+      },
+      {
+        "wrong": "Students often think force is the same as momentum.",
+        "right": "In fact force is the rate of change of momentum: the change in momentum divided by the time taken."
+      }
+    ],
+    "realWorld": [
+      "Seat belts, air bags and crumple zones are required safety features in modern cars.",
+      "Gymnasium crash mats and rubber playground surfaces reduce the force on people who fall.",
+      "Cycle and motorcycle helmets use crushable foam to increase the time for the head to stop.",
+      "Cricket fielders pull their hands back when catching, and parachutists roll when landing, to increase the stopping time.",
+      "Motorway crash barriers bend on impact to increase the time over which a vehicle stops."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole topic is Higher tier only: force as the rate of change of momentum (F = mΔv ÷ Δt), derived from F = ma and a = (v − u) ÷ t.",
+      "Applying equations relating force, mass, velocity and acceleration to explain how the changes involved are inter-related."
+    ],
+    "separateOnlyContent": [
+      "This whole topic is in separate Physics (8463) only: changes in momentum, F = mΔv ÷ Δt, and explaining safety features such as air bags, seat belts, gymnasium crash mats, cushioned playground surfaces and cycle helmets."
+    ],
+    "examTips": [
+      "When explaining a safety feature, use the full chain: increases the time taken to stop → reduces the rate of change of momentum → reduces the force → less injury.",
+      "Do not say safety features 'absorb the momentum' or 'reduce the momentum'; the change in momentum is the same.",
+      "F = mΔv ÷ Δt is on the equation sheet, but you must be able to show how it comes from F = ma and a = Δv ÷ t.",
+      "Convert milliseconds to seconds (÷ 1000) before dividing.",
+      "For rebounds, use signs: Δv = v − u with v negative."
+    ],
+    "summary": [
+      "A force acting on a moving object changes its momentum.",
+      "Force = rate of change of momentum, F = mΔv ÷ Δt.",
+      "The same change in momentum over a longer time needs a smaller force.",
+      "Car safety features increase stopping time to reduce forces on occupants.",
+      "Crash mats, cushioned surfaces and helmets work in the same way.",
+      "Rebounds give a larger change in momentum than stopping."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What does a resultant force on a moving object cause?",
+      "back": "A change in its momentum."
+    },
+    {
+      "front": "Equation linking force and change in momentum?",
+      "back": "F = mΔv ÷ Δt (force = change in momentum ÷ time)."
+    },
+    {
+      "front": "Which two equations combine to give F = mΔv ÷ Δt?",
+      "back": "F = m a and a = (v − u) ÷ t."
+    },
+    {
+      "front": "What is mΔv?",
+      "back": "The change in momentum."
+    },
+    {
+      "front": "How does an air bag reduce injury?",
+      "back": "It increases the time to stop, so the rate of change of momentum and the force are smaller."
+    },
+    {
+      "front": "How do seat belts reduce injury?",
+      "back": "They stretch slightly, increasing stopping time, which reduces the force on the occupant."
+    },
+    {
+      "front": "How do crumple zones work?",
+      "back": "They crush in a crash, increasing the time for the car to stop, reducing the force."
+    },
+    {
+      "front": "How do crash mats work?",
+      "back": "They squash, increasing the time taken to stop, reducing the force on the person landing."
+    },
+    {
+      "front": "Why do cycle helmets contain crushable foam?",
+      "back": "It compresses, increasing the time for the head to stop and reducing the force."
+    },
+    {
+      "front": "Same change in momentum, time doubled: what happens to the force?",
+      "back": "It halves."
+    },
+    {
+      "front": "Why does a rebound give a bigger change in momentum than stopping?",
+      "back": "The velocity reverses, so Δv is bigger."
+    },
+    {
+      "front": "Why do fielders pull their hands back when catching?",
+      "back": "To increase the time the ball takes to stop, reducing the force on the hands."
+    },
+    {
+      "front": "Convert 20 ms to seconds.",
+      "back": "0.020 s."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-changes-in-momentum-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is equal to the rate of change of momentum of an object?",
+      "options": [
+        "Its kinetic energy",
+        "The resultant force on it",
+        "Its velocity",
+        "Its mass"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The resultant force on it"
+      ],
+      "explanation": "F = mΔv ÷ Δt: the resultant force equals the change in momentum divided by the time taken."
+    },
+    {
+      "id": "p5-changes-in-momentum-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of rate of change of momentum?",
+      "options": [
+        "kg m/s",
+        "J",
+        "W",
+        "N"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: N"
+      ],
+      "explanation": "Rate of change of momentum = (kg m/s) ÷ s = kg m/s², which is the newton. kg m/s is the unit of momentum itself."
+    },
+    {
+      "id": "p5-changes-in-momentum-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How does an air bag reduce the injury to a driver in a crash?",
+      "options": [
+        "It increases the time taken for the driver to stop, so the force on the driver is smaller.",
+        "It reduces the driver's change in momentum to zero.",
+        "It increases the driver's momentum.",
+        "It reduces the time taken for the driver to stop."
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It increases the time taken for the driver to stop, so the force on the driver is smaller."
+      ],
+      "explanation": "The driver must still lose all their momentum, but over a longer time, so F = mΔv ÷ Δt is smaller."
+    },
+    {
+      "id": "p5-changes-in-momentum-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A gymnast lands on a thick crash mat instead of a hard floor. Which statement is correct?",
+      "options": [
+        "Her change in momentum is smaller on the mat.",
+        "Her change in momentum is larger on the mat.",
+        "The time of impact is longer on the mat, so the force on her is smaller.",
+        "The time of impact is shorter on the mat, so the force on her is smaller."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The time of impact is longer on the mat, so the force on her is smaller."
+      ],
+      "explanation": "Her change in momentum is the same (she lands at the same speed and stops). The mat increases the impact time, reducing the force."
+    },
+    {
+      "id": "p5-changes-in-momentum-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An object's momentum changes by the same amount, but the time taken for the change is doubled. What happens to the force?",
+      "options": [
+        "It doubles.",
+        "It halves.",
+        "It stays the same.",
+        "It increases four times."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It halves."
+      ],
+      "explanation": "F = mΔv ÷ Δt. Doubling Δt with the same mΔv halves F."
+    },
+    {
+      "id": "p5-changes-in-momentum-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why are seat belts designed to stretch slightly in a crash?",
+      "options": [
+        "To allow the passenger to reach the dashboard",
+        "To reduce the passenger's mass",
+        "To increase the passenger's change in momentum",
+        "To increase the time taken for the passenger to stop"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: To increase the time taken for the passenger to stop"
+      ],
+      "explanation": "A longer stopping time means a smaller rate of change of momentum and so a smaller force on the passenger."
+    },
+    {
+      "id": "p5-changes-in-momentum-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which two equations can be combined to give F = mΔv ÷ Δt?",
+      "options": [
+        "F = m a and a = (v − u) ÷ t",
+        "p = m v and W = F s",
+        "Ek = ½ m v² and W = F s",
+        "s = v t and F = k e"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: F = m a and a = (v − u) ÷ t"
+      ],
+      "explanation": "Substituting a = (v − u) ÷ t into F = m a gives F = m(v − u) ÷ t = mΔv ÷ Δt."
+    },
+    {
+      "id": "p5-changes-in-momentum-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A 0.20 kg ball hits a wall at 10 m/s. In which case is the change in momentum of the ball largest?",
+      "options": [
+        "The ball sticks to the wall.",
+        "The ball rebounds at 5 m/s.",
+        "The ball rebounds at 10 m/s.",
+        "The ball slows to 5 m/s but keeps moving through a paper screen."
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The ball rebounds at 10 m/s."
+      ],
+      "explanation": "Taking towards the wall as positive: sticking Δv = −10; rebound at 5 m/s Δv = −15; rebound at 10 m/s Δv = −20 m/s; passing through at 5 m/s Δv = −5. The biggest change is the full-speed rebound (4.0 kg m/s)."
+    },
+    {
+      "id": "p5-changes-in-momentum-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A cycle helmet contains a layer of crushable foam. Which is the best explanation of how this protects the rider's head?",
+      "options": [
+        "The foam reduces the momentum the head has before the impact.",
+        "The foam crushes, increasing the time for the head to stop, so the rate of change of momentum and the force are smaller.",
+        "The foam makes the head stop more quickly, reducing the force.",
+        "The foam increases the mass of the head, so it decelerates less."
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The foam crushes, increasing the time for the head to stop, so the rate of change of momentum and the force are smaller."
+      ],
+      "explanation": "The head's momentum before impact is unchanged. Increasing the impact time is what reduces the force."
+    },
+    {
+      "id": "p5-changes-in-momentum-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A cricket fielder moves her hands backwards as she catches a fast ball. Why does this reduce the force on her hands?",
+      "options": [
+        "It reduces the ball's speed before it reaches her hands.",
+        "It reduces the change in momentum of the ball.",
+        "It increases the ball's momentum.",
+        "It increases the time taken for the ball to stop."
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It increases the time taken for the ball to stop."
+      ],
+      "explanation": "The ball's change in momentum is fixed. A longer stopping time gives a smaller rate of change of momentum, so a smaller force."
+    },
+    {
+      "id": "p5-changes-in-momentum-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A ball of mass 0.50 kg is kicked from rest to a velocity of 20 m/s.\nCalculate the change in momentum of the ball.",
+      "numericAnswer": 10,
+      "tolerance": 0.01,
+      "unit": "kg m/s",
+      "markScheme": [
+        "1 mark: change in momentum = 0.50 × (20 − 0)",
+        "1 mark: 10 kg m/s"
+      ],
+      "explanation": "mΔv = 0.50 × 20 = 10 kg m/s."
+    },
+    {
+      "id": "p5-changes-in-momentum-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A ball of mass 0.50 kg is kicked from rest to 20 m/s. The kick lasts 0.050 s.\nCalculate the average force on the ball.",
+      "numericAnswer": 200,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 0.50 × 20 ÷ 0.050",
+        "1 mark: 200 N"
+      ],
+      "explanation": "F = mΔv ÷ Δt = 10 ÷ 0.050 = 200 N."
+    },
+    {
+      "id": "p5-changes-in-momentum-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A car of mass 1000 kg travelling at 20 m/s is brought to rest by a constant braking force of 5000 N.\nCalculate the time taken for the car to stop.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: change in momentum = 1000 × 20 = 20 000 kg m/s",
+        "1 mark: Δt = mΔv ÷ F = 20 000 ÷ 5000",
+        "1 mark: 4.0 s"
+      ],
+      "explanation": "Rearranging F = mΔv ÷ Δt gives Δt = mΔv ÷ F."
+    },
+    {
+      "id": "p5-changes-in-momentum-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A passenger of mass 70 kg is travelling at 15 m/s when the car crashes. Without a seat belt, the passenger hits the dashboard and stops in 0.10 s.\nCalculate the average force on the passenger.",
+      "numericAnswer": 10500,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 70 × 15 ÷ 0.10",
+        "1 mark: 10 500 N"
+      ],
+      "explanation": "mΔv = 1050 kg m/s; F = 1050 ÷ 0.10 = 10 500 N."
+    },
+    {
+      "id": "p5-changes-in-momentum-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "The passenger in the previous question (70 kg, 15 m/s) wears a seat belt, which stops them in 0.75 s.\nCalculate the average force on the passenger.",
+      "numericAnswer": 1400,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 70 × 15 ÷ 0.75",
+        "1 mark: 1400 N"
+      ],
+      "explanation": "The same change in momentum over a time 7.5 times longer gives a force 7.5 times smaller."
+    },
+    {
+      "id": "p5-changes-in-momentum-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A ball of mass 0.40 kg hits a wall at 6.0 m/s and rebounds at 4.0 m/s in the opposite direction. The ball is in contact with the wall for 0.050 s.\nCalculate the size of the average force the wall exerts on the ball.",
+      "numericAnswer": 80,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: Δv = −4.0 − 6.0 = −10 m/s (taking towards the wall as positive)",
+        "1 mark: change in momentum = 0.40 × (−10) = −4.0 kg m/s",
+        "1 mark: F = 4.0 ÷ 0.050",
+        "1 mark: 80 N"
+      ],
+      "explanation": "Ignoring the direction change gives Δv = 2.0 m/s and a force of only 16 N, which is wrong."
+    },
+    {
+      "id": "p5-changes-in-momentum-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A car of mass 1200 kg travelling at 54 km/h hits a wall and stops in 0.15 s.\nCalculate the average force on the car.",
+      "numericAnswer": 120000,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: 54 ÷ 3.6 = 15 m/s",
+        "1 mark: change in momentum = 1200 × 15 = 18 000 kg m/s",
+        "1 mark: F = 18 000 ÷ 0.15 = 120 000 N"
+      ],
+      "explanation": "Using 54 directly gives a force 3.6 times too large."
+    },
+    {
+      "id": "p5-changes-in-momentum-q18",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A gymnast of mass 50 kg lands on a crash mat at 7.0 m/s. The mat brings her to rest in 0.35 s.\nCalculate the average force on the gymnast from the mat.",
+      "numericAnswer": 1000,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: change in momentum = 50 × 7.0 = 350 kg m/s",
+        "1 mark: F = 350 ÷ 0.35",
+        "1 mark: 1000 N"
+      ],
+      "explanation": "On a hard floor she might stop in 0.010 s, giving 35 000 N. The mat reduces the force 35 times."
+    },
+    {
+      "id": "p5-changes-in-momentum-q19",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A skater of mass 60 kg is at rest. A friend pushes her with a constant resultant force of 120 N for 2.0 s.\nCalculate the skater's velocity at the end of the push.",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "m/s",
+      "markScheme": [
+        "1 mark: change in momentum = F × Δt = 120 × 2.0 = 240 kg m/s",
+        "1 mark: Δv = 240 ÷ 60",
+        "1 mark: v = 4.0 m/s"
+      ],
+      "explanation": "Rearrange F = mΔv ÷ Δt to give Δv = FΔt ÷ m. She starts at rest, so v = Δv."
+    },
+    {
+      "id": "p5-changes-in-momentum-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Write down the equation that links force, change in momentum and time.",
+      "acceptedAnswers": [
+        "F = mΔv ÷ Δt",
+        "force = change in momentum ÷ time"
+      ],
+      "markScheme": [
+        "1 mark: force = change in momentum ÷ time taken (F = mΔv ÷ Δt)"
+      ],
+      "explanation": "Force is the rate of change of momentum."
+    },
+    {
+      "id": "p5-changes-in-momentum-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two safety features that reduce the force on a person in a collision by increasing the time of impact.",
+      "acceptedAnswers": [
+        "air bag",
+        "seat belt",
+        "crumple zone",
+        "crash mat",
+        "cushioned playground surface",
+        "cycle helmet"
+      ],
+      "markScheme": [
+        "1 mark each, any two: air bag; seat belt; crumple zone; gymnasium crash mat; cushioned playground surface; cycle helmet"
+      ],
+      "explanation": "All of these increase the time over which momentum changes."
+    },
+    {
+      "id": "p5-changes-in-momentum-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain how wearing a seat belt reduces the force on a passenger in a car crash.",
+      "acceptedAnswers": [
+        "stretches",
+        "increases time",
+        "same change in momentum",
+        "rate of change of momentum smaller",
+        "smaller force"
+      ],
+      "markScheme": [
+        "1 mark: the seat belt stretches, so the passenger takes a longer time to stop",
+        "1 mark: the change in momentum is the same, so the rate of change of momentum is smaller",
+        "1 mark: force = rate of change of momentum, so the force on the passenger is smaller"
+      ],
+      "explanation": "It also stops the passenger hitting hard surfaces, which would stop them in a very short time."
+    },
+    {
+      "id": "p5-changes-in-momentum-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why playground surfaces under climbing frames are made of soft rubber rather than concrete.",
+      "acceptedAnswers": [
+        "increases time",
+        "child stops over longer time",
+        "smaller force",
+        "rate of change of momentum"
+      ],
+      "markScheme": [
+        "1 mark: the rubber deforms, so a falling child takes longer to stop (longer impact time)",
+        "1 mark: so the rate of change of momentum is smaller and the force on the child is smaller (less injury)"
+      ],
+      "explanation": "The child's change in momentum on landing is the same on both surfaces."
+    },
+    {
+      "id": "p5-changes-in-momentum-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Show how the equation F = mΔv ÷ Δt can be obtained from Newton's Second Law.",
+      "acceptedAnswers": [
+        "F = m a",
+        "a = (v − u) ÷ t",
+        "substitute",
+        "F = m(v − u) ÷ t"
+      ],
+      "markScheme": [
+        "1 mark: F = m a",
+        "1 mark: a = (v − u) ÷ t (a = Δv ÷ Δt)",
+        "1 mark: substituting gives F = m(v − u) ÷ t = mΔv ÷ Δt, and mΔv is the change in momentum"
+      ],
+      "explanation": "This shows that force equals the rate of change of momentum."
+    },
+    {
+      "id": "p5-changes-in-momentum-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why the front of a car is designed to crumple in a collision rather than being completely rigid.",
+      "acceptedAnswers": [
+        "increases time",
+        "car stops over longer time",
+        "smaller rate of change of momentum",
+        "smaller force on occupants"
+      ],
+      "markScheme": [
+        "1 mark: crumpling increases the time taken for the car (and occupants) to stop",
+        "1 mark: so the rate of change of momentum is smaller and the force on the occupants is smaller"
+      ],
+      "explanation": "A rigid car would stop almost instantly, producing very large forces."
+    },
+    {
+      "id": "p5-changes-in-momentum-q26",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Modern cars have air bags, seat belts and crumple zones.\nExplain how these features reduce injuries to the occupants of a car in a collision. Use the idea of momentum in your answer.",
+      "markScheme": [
+        "Indicative content: in a collision the occupants must lose all their momentum, so their change in momentum is fixed; force = rate of change of momentum, F = mΔv ÷ Δt; increasing the time taken to stop reduces the force; crumple zones crush, increasing the time for the car to stop; seat belts stretch slightly, increasing the time for the occupant to stop, and stop them hitting the dashboard or windscreen; air bags inflate and the occupant moves into them, increasing the time for the head and chest to stop, and spreading the force over a larger area; smaller forces mean less serious injuries.",
+        "Level 3 (5 to 6 marks): all three features explained, each clearly linked to increased time, reduced rate of change of momentum and reduced force.",
+        "Level 2 (3 to 4 marks): at least two features explained with a link to increased time and reduced force.",
+        "Level 1 (1 to 2 marks): features named, or a simple statement that they make the force smaller."
+      ],
+      "explanation": "Do not say the features reduce momentum; the change in momentum is the same, only the time changes."
+    },
+    {
+      "id": "p5-changes-in-momentum-q27",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "A 60 g egg is dropped and hits the ground at 5.0 m/s. On concrete it stops in 0.0020 s. On a foam pad it stops in 0.050 s.\nCalculate the average force on the egg in each case and explain why the egg breaks on concrete but not on foam.",
+      "markScheme": [
+        "Indicative content: mass = 0.060 kg; change in momentum = 0.060 × 5.0 = 0.30 kg m/s in both cases; concrete: F = 0.30 ÷ 0.0020 = 150 N; foam: F = 0.30 ÷ 0.050 = 6.0 N; the foam deforms so the egg takes longer to stop; the rate of change of momentum is smaller, so the force is 25 times smaller; the force on concrete is large enough to break the shell, but the force on foam is not.",
+        "Level 2 (3 to 4 marks): both forces calculated correctly (150 N and 6.0 N) with an explanation linking longer time to smaller force.",
+        "Level 1 (1 to 2 marks): change in momentum or one force calculated correctly, or a qualitative explanation only."
+      ],
+      "explanation": "Remember to convert 60 g to 0.060 kg. The change in momentum is identical; only the time differs."
+    },
+    {
+      "id": "p5-changes-in-momentum-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Gymnasts land on thick crash mats and bend their knees as they land.\nExplain, using the idea of momentum, why both of these reduce the risk of injury.",
+      "markScheme": [
+        "Indicative content: the gymnast lands with a certain momentum and must lose all of it, so the change in momentum is fixed; force = change in momentum ÷ time taken; the crash mat compresses, so the gymnast takes longer to stop; bending the knees also increases the distance and time over which the body stops; a longer time means a smaller rate of change of momentum; so the force on the gymnast's body (legs and joints) is smaller, reducing the risk of injury.",
+        "Level 2 (3 to 4 marks): explains that both increase stopping time, linked to a smaller rate of change of momentum and a smaller force.",
+        "Level 1 (1 to 2 marks): states that the mat or bending knees makes landing softer or reduces force, without full explanation."
+      ],
+      "explanation": "Both methods work in the same way: same change in momentum, longer time, smaller force."
+    }
+  ]
+}

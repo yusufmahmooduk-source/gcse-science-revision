@@ -1,0 +1,661 @@
+{
+  "id": "p6-properties-of-em-waves-2",
+  "science": "physics",
+  "topicId": "p6",
+  "slug": "properties-of-em-waves-2",
+  "specRef": "4.6.2.3",
+  "title": "Properties of electromagnetic waves 2",
+  "separateOnly": false,
+  "higherOnly": true,
+  "notes": {
+    "definition": "Radio waves can be produced by oscillating currents in electrical circuits, and when absorbed they can induce an alternating current of the same frequency (Higher). Changes in atoms and nuclei also generate and absorb EM waves; gamma rays come from changes in the nucleus. Ultraviolet, X-rays and gamma rays can harm body tissue, and radiation dose (in sieverts) measures the risk of harm.",
+    "explanation": [
+      "Higher tier: radio waves can be produced by oscillations in electrical circuits. In a radio transmitter, an alternating current makes electrons oscillate up and down the aerial. This produces radio waves with the same frequency as the oscillating current. When radio waves reach a receiving aerial they are absorbed, and they make the electrons in the aerial oscillate. This creates an alternating current with the same frequency as the radio wave itself. So radio waves can induce oscillations in an electrical circuit, which is how a radio, television or phone picks up a signal.",
+      "EM waves are also generated or absorbed when changes happen inside atoms and nuclei. When electrons in atoms move between energy levels they can emit or absorb visible light, ultraviolet or X-rays, for example. Changes in the nucleus of an atom produce gamma rays: gamma rays originate from the nucleus. Because of the wide range of possible changes, atoms and nuclei can generate and absorb EM radiation over a very wide range of frequencies.",
+      "Ultraviolet, X-rays and gamma rays are high-frequency EM waves that carry a lot of energy and can damage human body tissue. Ultraviolet can cause the skin to age prematurely and increases the risk of skin cancer; it can also cause sunburn and damage the eyes. X-rays and gamma rays are ionising radiation: they can knock electrons out of atoms, which can cause mutation of genes (changes to DNA) and lead to cancer. The effects depend on the type of radiation and the size of the dose.",
+      "Radiation dose, measured in sieverts (Sv), is a measure of the risk of harm resulting from exposure of the body to radiation. One sievert is a very large dose, so doses are usually given in millisieverts: 1000 millisieverts (mSv) = 1 sievert (Sv). As a guide, the average yearly dose from background radiation in the UK is about 2.7 mSv, a chest X-ray gives about 0.02 mSv and a CT scan can give about 10 mSv. You do not need to recall the unit, but you must be able to use data about doses to draw conclusions about risks and consequences of exposure.",
+      "When evaluating risk from data, compare the doses involved, consider how often the exposure happens and weigh the benefit (such as diagnosing an illness) against the risk. A higher dose means a greater risk of harm. For example, if a CT scan gives 500 times the dose of a chest X-ray, a doctor will only order it when the extra information is worth the higher risk."
+    ],
+    "keyFacts": [
+      "Higher: radio waves can be produced by oscillations (alternating currents) in electrical circuits.",
+      "Higher: absorbed radio waves can induce an alternating current with the same frequency as the radio wave.",
+      "Changes in atoms and nuclei can generate or absorb EM waves over a wide frequency range.",
+      "Gamma rays originate from changes in the nucleus of an atom.",
+      "UV can make skin age prematurely and increases the risk of skin cancer.",
+      "X-rays and gamma rays are ionising and can cause mutation of genes and cancer.",
+      "Effects depend on the type of radiation and the size of the dose.",
+      "Radiation dose (sieverts, Sv) measures the risk of harm from exposure.",
+      "1000 mSv = 1 Sv."
+    ],
+    "keyTerms": [
+      {
+        "term": "Oscillation",
+        "definition": "A repeated back and forth movement; in a circuit, an alternating current that changes direction regularly."
+      },
+      {
+        "term": "Aerial (antenna)",
+        "definition": "A conductor that emits radio waves when a current oscillates in it, or absorbs them to produce a current."
+      },
+      {
+        "term": "Ionising radiation",
+        "definition": "Radiation with enough energy to remove electrons from atoms, such as X-rays and gamma rays."
+      },
+      {
+        "term": "Mutation",
+        "definition": "A change in the genetic material (DNA) of a cell, which can lead to cancer."
+      },
+      {
+        "term": "Radiation dose",
+        "definition": "A measure of the risk of harm resulting from exposure of the body to radiation, measured in sieverts (Sv)."
+      },
+      {
+        "term": "Sievert (Sv)",
+        "definition": "The unit of radiation dose; 1 Sv = 1000 mSv."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Wave speed",
+        "formula": "wave speed = frequency × wavelength",
+        "symbols": "v = f λ",
+        "units": "v in m/s, f in Hz, λ in m",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting dose units",
+        "question": "A patient receives a dose of 0.0027 Sv. Convert this to millisieverts.",
+        "steps": [
+          "1 Sv = 1000 mSv, so multiply by 1000.",
+          "0.0027 × 1000 = 2.7 mSv."
+        ],
+        "answer": "2.7 mSv"
+      },
+      {
+        "title": "Comparing risks from data",
+        "question": "A chest X-ray gives a dose of 0.02 mSv and a CT scan gives 10 mSv. How many chest X-rays give the same dose as one CT scan, and what does this suggest about risk?",
+        "steps": [
+          "Number = 10 ÷ 0.02 = 500.",
+          "The CT scan dose is 500 times larger.",
+          "A larger dose means a greater risk of harm (cancer), so a CT scan should only be used when its benefit justifies the higher risk."
+        ],
+        "answer": "500 chest X-rays; the CT scan carries a much greater risk."
+      },
+      {
+        "title": "Higher: frequency of the induced current",
+        "question": "A radio aerial absorbs radio waves of frequency 100 MHz. State the frequency of the alternating current induced and calculate the wavelength of the waves. (speed = 3 × 10⁸ m/s)",
+        "steps": [
+          "The induced alternating current has the same frequency as the radio wave: 100 MHz = 1 × 10⁸ Hz.",
+          "λ = v ÷ f = 3 × 10⁸ ÷ 1 × 10⁸ = 3 m."
+        ],
+        "answer": "100 MHz (1 × 10⁸ Hz); 3 m"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Higher: producing and receiving radio waves",
+        "caption": "An oscillating current in the transmitter aerial produces radio waves. When the receiving aerial absorbs them, an alternating current of the same frequency is induced.",
+        "svg": "<svg viewBox='0 0 500 230' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='120' width='100' height='60' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><line x1='70' y1='120' x2='70' y2='50' stroke='currentColor' stroke-width='2'/><path d='M55 50 L70 40 L85 50' fill='none' stroke='currentColor' stroke-width='2'/><path d='M100 70 q14 -20 28 0 q14 20 28 0 q14 -20 28 0 q14 20 28 0 q14 -20 28 0 q14 20 28 0 q14 -20 28 0 q14 20 28 0 q14 -20 28 0 q14 20 28 0' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M392.0 70.0 L383.0 74.5 L383.0 65.5 Z' fill='currentColor'/><rect x='380' y='120' width='100' height='60' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><line x1='430' y1='120' x2='430' y2='50' stroke='currentColor' stroke-width='2'/><path d='M415 50 L430 40 L445 50' fill='none' stroke='currentColor' stroke-width='2'/><path d='M30 160 q10 -12 20 0 q10 12 20 0 q10 -12 20 0 q10 12 20 0' fill='none' stroke='currentColor'/><path d='M390 160 q10 -12 20 0 q10 12 20 0 q10 -12 20 0 q10 12 20 0' fill='none' stroke='currentColor'/><g font-size='12' fill='currentColor'><text x='22' y='112'>transmitter</text><text x='24' y='140'>oscillating current</text><text x='382' y='112'>receiver</text><text x='384' y='140'>alternating current</text><text x='150' y='50'>radio waves (EM waves)</text><text x='88' y='36'>aerial</text><text x='370' y='36'>aerial</text><text x='20' y='206'>Electrons oscillating in the transmitter aerial produce radio waves. Absorbed by</text><text x='20' y='222'>the receiving aerial, they induce an alternating current of the SAME frequency.</text></g></svg>"
+      },
+      {
+        "title": "Hazards of UV, X-rays and gamma rays",
+        "caption": "The higher frequency EM waves can damage body tissue. UV affects the skin; X-rays and gamma rays are ionising and can cause gene mutations and cancer.",
+        "svg": "<svg viewBox='0 0 480 230' xmlns='http://www.w3.org/2000/svg'><g font-size='12' fill='currentColor'><text x='20' y='24'>Hazards of high-frequency EM radiation to body tissue</text><rect x='20' y='40' width='110' height='40' fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'/><text x='30' y='65'>Ultraviolet</text><text x='145' y='65'>skin ages prematurely; increased risk of skin cancer</text><rect x='20' y='90' width='110' height='40' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='30' y='115'>X-rays</text><text x='145' y='115'>ionising: can cause mutation of genes and cancer</text><rect x='20' y='140' width='110' height='40' fill='#93c5fd' fill-opacity='0.5' stroke='currentColor'/><text x='30' y='165'>Gamma rays</text><text x='145' y='165'>ionising: can cause mutation of genes and cancer</text><text x='20' y='210'>Harm depends on the type of radiation and the size of the dose (sieverts).</text></g><line x1='460' y1='180' x2='460' y2='50' stroke='currentColor' stroke-width='1.5'/><path d='M460.0 42.0 L464.5 51.0 L455.5 51.0 Z' fill='currentColor'/><text x='420' y='196' font-size='12' fill='currentColor'>frequency</text></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the current induced in a receiving aerial has a different frequency from the radio wave.",
+        "right": "In fact the alternating current has the same frequency as the radio wave that induced it."
+      },
+      {
+        "wrong": "Students often think all EM radiation is ionising and causes cancer.",
+        "right": "In fact only the high-frequency end (some UV, X-rays and gamma rays) is ionising. Radio waves and visible light are not."
+      },
+      {
+        "wrong": "Students often think a sievert is a small unit.",
+        "right": "In fact 1 Sv is a very large dose; most doses are measured in millisieverts (1000 mSv = 1 Sv)."
+      },
+      {
+        "wrong": "Students often think gamma rays come from the electrons in an atom.",
+        "right": "In fact gamma rays originate from changes in the nucleus."
+      }
+    ],
+    "realWorld": [
+      "Radio and television transmitters use oscillating currents in tall aerials to broadcast signals; your radio's aerial turns them back into a current.",
+      "Hospitals record patients' radiation doses in millisieverts and limit the number of X-rays and CT scans.",
+      "Sunscreen and sunglasses protect skin and eyes from ultraviolet radiation.",
+      "Radiographers stand behind lead screens and wear dosimeters to monitor their dose."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "Radio waves can be produced by oscillations in electrical circuits.",
+      "When radio waves are absorbed they may create an alternating current with the same frequency as the radio wave, so radio waves can induce oscillations in an electrical circuit.",
+      "Note: the content on atoms and nuclei, hazards of UV, X-rays and gamma rays, and radiation dose in sieverts is for both tiers."
+    ],
+    "separateOnlyContent": [],
+    "examTips": [
+      "Higher: always say the induced alternating current has the SAME frequency as the radio wave.",
+      "Link each hazard to the right radiation: UV → premature skin ageing and skin cancer; X-rays and gamma → ionising, gene mutation, cancer.",
+      "Convert between Sv and mSv carefully: multiply by 1000 to go from Sv to mSv.",
+      "When asked to draw conclusions from dose data, compare the numbers (for example, 'about 500 times larger') and link a larger dose to a larger risk.",
+      "Remember gamma rays come from the nucleus; this links to radioactive decay in the atomic structure topic."
+    ],
+    "summary": [
+      "Higher: oscillating currents produce radio waves.",
+      "Higher: absorbed radio waves induce an AC of the same frequency.",
+      "Atoms and nuclei emit and absorb EM waves; gamma rays come from the nucleus.",
+      "UV: skin ageing and skin cancer; X-rays and gamma: ionising, mutations and cancer.",
+      "Harm depends on radiation type and dose.",
+      "Dose in sieverts measures risk; 1000 mSv = 1 Sv."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "Higher: how can radio waves be produced?",
+      "back": "By oscillations (alternating currents) in electrical circuits, e.g. in a transmitter aerial."
+    },
+    {
+      "front": "Higher: what happens when radio waves are absorbed by an aerial?",
+      "back": "They induce an alternating current with the same frequency as the radio wave."
+    },
+    {
+      "front": "Where do gamma rays originate?",
+      "back": "From changes in the nucleus of an atom."
+    },
+    {
+      "front": "What can generate or absorb EM waves over a wide frequency range?",
+      "back": "Changes in atoms and in the nuclei of atoms."
+    },
+    {
+      "front": "Two effects of UV on the body?",
+      "back": "Skin ages prematurely; increased risk of skin cancer."
+    },
+    {
+      "front": "Why are X-rays and gamma rays dangerous?",
+      "back": "They are ionising and can cause mutation of genes and cancer."
+    },
+    {
+      "front": "What do the effects of radiation depend on?",
+      "back": "The type of radiation and the size of the dose."
+    },
+    {
+      "front": "What does radiation dose measure?",
+      "back": "The risk of harm resulting from exposure of the body to radiation."
+    },
+    {
+      "front": "Unit of radiation dose?",
+      "back": "Sievert (Sv)."
+    },
+    {
+      "front": "How many mSv in 1 Sv?",
+      "back": "1000 mSv."
+    },
+    {
+      "front": "Convert 0.05 Sv to mSv.",
+      "back": "50 mSv."
+    },
+    {
+      "front": "Which EM waves are ionising?",
+      "back": "X-rays and gamma rays (and the highest-frequency ultraviolet)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p6-properties-of-em-waves-2-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Higher: how can radio waves be produced?",
+      "options": [
+        "By heating an object until it glows",
+        "By changes in the nucleus of an atom",
+        "By oscillating currents in an electrical circuit",
+        "By vibrating air particles"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: By oscillating currents in an electrical circuit"
+      ],
+      "explanation": "Radio waves are produced by oscillations in electrical circuits, such as an alternating current in a transmitter aerial. Changes in nuclei produce gamma rays; vibrating air is sound."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Higher: radio waves of frequency 200 kHz are absorbed by an aerial. What is the frequency of the alternating current induced in the aerial?",
+      "options": [
+        "200 kHz",
+        "100 kHz",
+        "400 kHz",
+        "50 Hz"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: 200 kHz"
+      ],
+      "explanation": "The induced alternating current has the same frequency as the radio wave that produced it: 200 kHz."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Where do gamma rays originate?",
+      "options": [
+        "From oscillating electrons in an aerial",
+        "From hot objects such as heaters",
+        "From electrons moving between energy levels in atoms only",
+        "From changes in the nucleus of an atom"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: From changes in the nucleus of an atom"
+      ],
+      "explanation": "Gamma rays come from changes in the nucleus, for example during radioactive decay."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which effect is caused by excessive exposure to ultraviolet radiation?",
+      "options": [
+        "Heating of internal organs",
+        "Premature ageing of the skin",
+        "Mutation caused by radio waves",
+        "Loss of hearing"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Premature ageing of the skin"
+      ],
+      "explanation": "UV can cause skin to age prematurely and increases the risk of skin cancer."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the unit of radiation dose?",
+      "options": [
+        "Hertz (Hz)",
+        "Sievert (Sv)",
+        "Becquerel (Bq)",
+        "Watt (W)"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Sievert (Sv)"
+      ],
+      "explanation": "Radiation dose is measured in sieverts. The becquerel is the unit of activity, which is a different quantity."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which statement about X-rays and gamma rays is correct?",
+      "options": [
+        "They are harmless because they pass straight through the body",
+        "They only affect the surface of the skin",
+        "They cause harm only by heating tissue",
+        "They are ionising and can cause mutation of genes and cancer"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: They are ionising and can cause mutation of genes and cancer"
+      ],
+      "explanation": "X-rays and gamma rays are ionising radiation. They can damage DNA, causing gene mutations and cancer."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What does a radiation dose measure?",
+      "options": [
+        "The risk of harm from exposure of the body to radiation",
+        "The number of nuclei that decay each second",
+        "The frequency of the radiation",
+        "The time taken for half the nuclei to decay"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The risk of harm from exposure of the body to radiation"
+      ],
+      "explanation": "Dose (in sieverts) is a measure of the risk of harm. Activity and half-life are different quantities."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How many millisieverts are in 1 sievert?",
+      "options": [
+        "100",
+        "10",
+        "1000",
+        "1 000 000"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 1000"
+      ],
+      "explanation": "1000 mSv = 1 Sv, because 'milli' means one thousandth."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A person receives a dose of 0.5 mSv from one scan. Another scan gives 0.05 Sv. How many times larger is the second dose?",
+      "options": [
+        "10 times",
+        "1000 times",
+        "0.1 times",
+        "100 times"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 100 times"
+      ],
+      "explanation": "0.05 Sv = 50 mSv. 50 ÷ 0.5 = 100, so the second dose is 100 times larger."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Higher: which statement explains how a radio receiver detects a signal?",
+      "options": [
+        "Radio waves are converted directly into sound waves by the aerial",
+        "Radio waves produce a direct current in the aerial",
+        "Radio waves are absorbed by the aerial and make electrons oscillate, creating an alternating current",
+        "Radio waves make the nuclei in the aerial emit gamma rays"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Radio waves are absorbed by the aerial and make electrons oscillate, creating an alternating current"
+      ],
+      "explanation": "Absorbed radio waves induce oscillations of the electrons, which is an alternating current at the same frequency as the wave. The receiver then processes this signal."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Convert a radiation dose of 2.7 mSv into sieverts.",
+      "numericAnswer": 0.0027,
+      "tolerance": 0.02,
+      "unit": "Sv",
+      "markScheme": [
+        "1 mark: 0.0027 Sv"
+      ],
+      "explanation": "Divide by 1000 to go from mSv to Sv: 2.7 ÷ 1000 = 0.0027 Sv."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Convert a radiation dose of 0.05 Sv into millisieverts.",
+      "numericAnswer": 50,
+      "tolerance": 0.02,
+      "unit": "mSv",
+      "markScheme": [
+        "1 mark: 50 mSv"
+      ],
+      "explanation": "Multiply by 1000: 0.05 × 1000 = 50 mSv."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A chest X-ray gives a dose of 0.02 mSv. A CT scan gives 10 mSv. Calculate how many chest X-rays would give the same dose as one CT scan.",
+      "numericAnswer": 500,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 10 ÷ 0.02",
+        "1 mark: 500"
+      ],
+      "explanation": "10 ÷ 0.02 = 500. The CT scan dose is 500 times greater, so it carries a much greater risk."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The average yearly dose from background radiation in the UK is 2.7 mSv. Calculate the average daily dose in mSv. (1 year = 365 days)",
+      "numericAnswer": 0.0074,
+      "tolerance": 0.02,
+      "unit": "mSv",
+      "markScheme": [
+        "1 mark: 2.7 ÷ 365",
+        "1 mark: 0.0074 mSv"
+      ],
+      "explanation": "2.7 ÷ 365 = 0.0074 mSv per day (2 s.f.)."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Higher: an oscillating current of frequency 1.0 MHz in a transmitter aerial produces radio waves. Calculate the wavelength of these radio waves. (speed = 3 × 10⁸ m/s)",
+      "numericAnswer": 300,
+      "tolerance": 0.02,
+      "unit": "m",
+      "markScheme": [
+        "1 mark: f = 1.0 × 10⁶ Hz; λ = 3 × 10⁸ ÷ 1.0 × 10⁶",
+        "1 mark: 300 m"
+      ],
+      "explanation": "The radio waves have the same frequency as the oscillating current, 1.0 × 10⁶ Hz. λ = v ÷ f = 300 m."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Higher: radio waves of frequency 100 MHz induce an alternating current in an aerial. Calculate the time period of this alternating current.",
+      "numericAnswer": 1e-8,
+      "tolerance": 0.02,
+      "unit": "s",
+      "markScheme": [
+        "1 mark: f = 100 MHz = 1 × 10⁸ Hz, T = 1 ÷ 1 × 10⁸",
+        "1 mark: 1 × 10⁻⁸ s"
+      ],
+      "explanation": "The current has the same frequency as the radio wave. T = 1/f = 1 ÷ 1 × 10⁸ = 1 × 10⁻⁸ s."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Higher: describe how a radio transmitter produces radio waves.",
+      "acceptedAnswers": [
+        "alternating current",
+        "oscillating current",
+        "electrons oscillate in aerial",
+        "same frequency"
+      ],
+      "markScheme": [
+        "1 mark: an alternating / oscillating current is supplied to the aerial",
+        "1 mark: electrons oscillate in the aerial, producing radio waves of the same frequency"
+      ],
+      "explanation": "Radio waves are produced by oscillations in electrical circuits."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Higher: describe what happens when radio waves are absorbed by a receiving aerial.",
+      "acceptedAnswers": [
+        "induce alternating current",
+        "electrons oscillate",
+        "same frequency as radio wave"
+      ],
+      "markScheme": [
+        "1 mark: an alternating current is induced / electrons in the aerial oscillate",
+        "1 mark: with the same frequency as the radio wave"
+      ],
+      "explanation": "Radio waves can induce oscillations in an electrical circuit."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Name two types of EM radiation that are ionising.",
+      "acceptedAnswers": [
+        "X-rays",
+        "gamma rays"
+      ],
+      "markScheme": [
+        "1 mark: X-rays",
+        "1 mark: gamma rays"
+      ],
+      "explanation": "X-rays and gamma rays are ionising. (High-frequency UV is also ionising, but the spec names X-rays and gamma rays.)"
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "State two factors that determine how harmful a dose of radiation is to body tissue.",
+      "acceptedAnswers": [
+        "type of radiation",
+        "size of dose"
+      ],
+      "markScheme": [
+        "1 mark: the type of radiation",
+        "1 mark: the size of the dose"
+      ],
+      "explanation": "The spec states that effects depend on the type of radiation and the size of the dose."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why people should use sunscreen when in strong sunlight.",
+      "acceptedAnswers": [
+        "sunlight contains UV",
+        "UV causes skin cancer",
+        "premature ageing",
+        "sunscreen absorbs UV"
+      ],
+      "markScheme": [
+        "1 mark: sunlight contains ultraviolet radiation",
+        "1 mark: which can cause premature skin ageing / increase the risk of skin cancer; sunscreen absorbs or reflects UV"
+      ],
+      "explanation": "Sunscreen reduces the UV reaching the skin and so reduces the risk."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A dental X-ray gives a dose of 0.005 mSv. A CT scan gives 10 mSv. Use these data to compare the risks and suggest why doctors still use CT scans.",
+      "acceptedAnswers": [
+        "CT dose 2000 times larger",
+        "greater risk of cancer",
+        "benefit outweighs risk",
+        "diagnose serious illness"
+      ],
+      "markScheme": [
+        "1 mark: the CT dose is 2000 times larger (10 ÷ 0.005)",
+        "1 mark: so the CT scan has a much greater risk of harm / cancer",
+        "1 mark: used when the benefit (diagnosing a serious condition) outweighs the risk"
+      ],
+      "explanation": "Drawing conclusions from data means calculating a comparison and weighing benefit against risk."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "State what can be generated or absorbed when changes happen in atoms and in the nuclei of atoms.",
+      "acceptedAnswers": [
+        "electromagnetic waves",
+        "EM radiation"
+      ],
+      "markScheme": [
+        "1 mark: electromagnetic waves / radiation (over a wide frequency range)"
+      ],
+      "explanation": "Changes in atoms and nuclei generate or absorb EM waves; nuclear changes produce gamma rays."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Higher: explain how radio waves are used to transfer a signal from a transmitter to a receiver. Refer to the currents in each aerial.",
+      "markScheme": [
+        "Indicative content:",
+        "an alternating current in the transmitter circuit makes electrons oscillate in the transmitter aerial",
+        "this produces radio waves of the same frequency",
+        "radio waves (EM waves) travel at 3 × 10⁸ m/s to the receiver",
+        "the receiving aerial absorbs the radio waves",
+        "electrons in the receiving aerial oscillate, inducing an alternating current",
+        "the induced current has the same frequency as the radio wave",
+        "Level 2 (3 to 4 marks): links oscillating current, radio waves and induced AC with the same frequency.",
+        "Level 1 (1 to 2 marks): simple statements about transmitters or receivers."
+      ],
+      "explanation": "Production and absorption of radio waves are reverse processes; the frequency is the same throughout."
+    },
+    {
+      "id": "p6-properties-of-em-waves-2-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Hospitals use X-rays and gamma rays in medicine. Explain the hazards of ultraviolet, X-rays and gamma rays to the human body, and how radiation dose data can be used to judge the risk of a medical procedure.",
+      "markScheme": [
+        "Indicative content:",
+        "UV, X-rays and gamma are high-frequency EM waves that transfer a lot of energy",
+        "UV: causes premature ageing of skin and increases risk of skin cancer (also sunburn, eye damage)",
+        "X-rays and gamma rays: ionising radiation",
+        "ionisation can damage DNA, causing mutation of genes, which can lead to cancer",
+        "harm depends on the type of radiation and the size of the dose",
+        "radiation dose (in sieverts) is a measure of the risk of harm",
+        "1000 mSv = 1 Sv; typical doses quoted in mSv",
+        "compare doses, e.g. CT scan about 10 mSv versus chest X-ray about 0.02 mSv",
+        "larger dose means greater risk; risk must be weighed against the medical benefit",
+        "limit number of scans; protect staff (lead screens, distance, dosimeters)",
+        "Level 3 (5 to 6 marks): detailed explanation of hazards for each type and clear use of dose data to judge risk.",
+        "Level 2 (3 to 4 marks): describes hazards and refers to dose and risk with limited use of data.",
+        "Level 1 (1 to 2 marks): simple statements that radiation is harmful."
+      ],
+      "explanation": "A full answer links each radiation to its effect and explains dose as a measure of risk."
+    }
+  ]
+}

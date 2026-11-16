@@ -1,0 +1,319 @@
+{
+  "id": "phys-rp4",
+  "science": "physics",
+  "number": 4,
+  "title": "I–V characteristics",
+  "combined": true,
+  "topicId": "p2",
+  "subtopic": "resistors",
+  "aim": "To investigate the relationship between current and potential difference (the I–V characteristic) for a fixed resistor at constant temperature, a filament lamp and a diode.",
+  "background": [
+    "An I–V characteristic is a graph of current (y-axis) against potential difference (x-axis) for a component. It is produced by measuring the current through the component with an ammeter in series and the potential difference across it with a voltmeter in parallel, for a range of potential differences in both directions. The supply connections are reversed to obtain negative values.",
+    "A fixed resistor at constant temperature is an ohmic conductor: current is directly proportional to potential difference, so its I–V graph is a straight line through the origin and its resistance stays the same. The resistance at any point is R = V ÷ I.",
+    "In a filament lamp, a larger current makes the filament hotter. The metal ions vibrate more, so electrons collide with them more often and the resistance increases. The I–V graph is a curve that gets less steep as the potential difference increases, and it has the same shape for negative values.",
+    "A diode only lets current flow in one direction (the forward direction). In the reverse direction its resistance is very high and the current is zero. In the forward direction the current is almost zero until the potential difference reaches about 0.6 V, then it rises very steeply. A protective resistor is connected in series with the diode to stop the current becoming large enough to damage it."
+  ],
+  "hypothesis": "The current through the fixed resistor will be directly proportional to the potential difference; the filament lamp will give a curve with resistance increasing as the potential difference increases; the diode will only conduct in the forward direction, above about 0.6 V.",
+  "variables": {
+    "independent": "Potential difference across the component (V), changed using a variable resistor and by reversing the supply connections.",
+    "dependent": "Current through the component (A).",
+    "control": [
+      "The component being tested (one at a time)",
+      "Temperature of the fixed resistor (keep the current small and switch off between readings)",
+      "Same ammeter and voltmeter for every reading",
+      "Same power supply"
+    ]
+  },
+  "equipment": [
+    "Low voltage d.c. power supply or battery pack (up to 6 V)",
+    "Variable resistor (rheostat)",
+    "Ammeter (or milliammeter for the diode)",
+    "Voltmeter",
+    "Switch",
+    "10 Ω fixed resistor",
+    "6 V, 0.3 A filament lamp in a holder",
+    "Silicon diode with a 100 Ω protective resistor",
+    "Connecting leads"
+  ],
+  "method": [
+    "Set up a series circuit containing the power supply, a switch, a variable resistor, an ammeter and the 10 Ω fixed resistor.",
+    "Connect a voltmeter in parallel across the fixed resistor.",
+    "Set the variable resistor so that the potential difference across the resistor is about 1 V. Close the switch, record the potential difference and the current, then open the switch.",
+    "Adjust the variable resistor to increase the potential difference in steps (for example 1 V, 2 V, 4 V, 6 V) and record the current at each value.",
+    "Reverse the connections to the power supply so that the current flows the other way through the resistor. Repeat the readings and record them as negative values.",
+    "Repeat the whole set of readings and calculate a mean current for each potential difference.",
+    "Replace the fixed resistor with the filament lamp and repeat steps 3 to 6.",
+    "Replace the lamp with the diode connected in series with a 100 Ω protective resistor. Connect the voltmeter across the diode only and use a milliammeter.",
+    "For the diode, increase the potential difference in small steps of 0.1 V from 0 V to about 0.8 V, because the current changes rapidly in this range. Then reverse the supply and take readings up to about −5 V.",
+    "Plot an I–V graph for each component, with current on the y-axis and potential difference on the x-axis, including negative values, and draw a line or smooth curve of best fit."
+  ],
+  "safety": [
+    {
+      "hazard": "Filament lamp becomes hot",
+      "risk": "Burns if the lamp is touched while on or just after use.",
+      "precaution": "Do not touch the lamp while it is lit and let it cool before changing components."
+    },
+    {
+      "hazard": "Components and resistance wire in the variable resistor heating up",
+      "risk": "Burns, and components may be damaged by a large current.",
+      "precaution": "Do not exceed the rated potential difference of the lamp (6 V), use a protective resistor with the diode and switch off between readings."
+    },
+    {
+      "hazard": "Mains powered power supply",
+      "risk": "Electric shock if leads are damaged or liquids are spilled.",
+      "precaution": "Check leads before use and keep drinks and water away from the circuit."
+    }
+  ],
+  "results": {
+    "headers": ["Potential difference (V)", "Current through 10 Ω resistor (A)", "Current through filament lamp (A)"],
+    "rows": [
+      ["−6.0", "−0.60", "−0.30"],
+      ["−4.0", "−0.40", "−0.24"],
+      ["−2.0", "−0.20", "−0.16"],
+      ["−1.0", "−0.10", "−0.11"],
+      ["0.0", "0.00", "0.00"],
+      ["1.0", "0.10", "0.11"],
+      ["2.0", "0.20", "0.16"],
+      ["4.0", "0.40", "0.24"],
+      ["6.0", "0.60", "0.30"]
+    ],
+    "notes": "Negative values were obtained by reversing the supply connections. Plot current (y-axis) against potential difference (x-axis), with the origin in the middle of the graph so that all four quadrants can be used for negative values. Diode readings (forward direction, with a 100 Ω protective resistor): 0.2 V, 0 mA; 0.4 V, 0 mA; 0.5 V, 0.1 mA; 0.6 V, 2 mA; 0.65 V, 8 mA; 0.7 V, 25 mA. Reverse direction: 0 mA at every potential difference from −1 V to −5 V."
+  },
+  "analysis": [
+    "Fixed resistor: the graph is a straight line through the origin. Current is directly proportional to potential difference, and R = V ÷ I = 6.0 ÷ 0.60 = 10 Ω at every point, so the resistance is constant. The graph has the same shape when the current is reversed.",
+    "Filament lamp: the graph is an S-shaped curve through the origin that gets less steep as the potential difference increases. The resistance increases: at 1.0 V, R = 1.0 ÷ 0.11 ≈ 9.1 Ω, but at 6.0 V, R = 6.0 ÷ 0.30 = 20 Ω. This is because the larger current heats the filament, the metal ions vibrate more and electrons collide with them more often.",
+    "The lamp curve is symmetrical: reversing the potential difference gives the same size of current in the opposite direction, because the filament heats up the same amount whichever way the current flows.",
+    "Diode: in the reverse direction no current flows, so its resistance is very high. In the forward direction, the current is almost zero below about 0.6 V and then increases very rapidly, so its resistance falls sharply above 0.6 V.",
+    "A steeper part of an I–V graph means a lower resistance, because more current flows for each volt. Resistance should always be calculated as V ÷ I at a point, not from the gradient of a curve."
+  ],
+  "errors": [
+    {
+      "error": "The fixed resistor heats up at larger currents, increasing its resistance so its graph starts to curve.",
+      "improvement": "Keep currents small, switch off between readings and allow the resistor to cool."
+    },
+    {
+      "error": "Too few readings in the region where the diode starts to conduct, so the shape of the curve is not clear.",
+      "improvement": "Take readings at small intervals (0.05 V or 0.1 V) between 0.4 V and 0.8 V."
+    },
+    {
+      "error": "Using a meter with too large a range (for example an ammeter reading to 0.1 A) gives poor resolution for small currents.",
+      "improvement": "Use a milliammeter or digital meter with a suitable range for small currents."
+    },
+    {
+      "error": "Zero error on an analogue meter gives every reading too high or too low.",
+      "improvement": "Check that meters read zero before connecting them and adjust or subtract any zero error."
+    },
+    {
+      "error": "Filament lamp readings drift because the filament has not reached a steady temperature.",
+      "improvement": "Wait a few seconds after changing the potential difference before taking the reading, and repeat to calculate a mean."
+    }
+  ],
+  "diagram": {
+    "title": "Circuit for I–V characteristics",
+    "caption": "A battery, variable resistor and ammeter are in series with the component under test (here a filament lamp), with a voltmeter in parallel across it. For the diode, the lamp is replaced by a diode in series with a protective resistor.",
+    "svg": "<svg viewBox=\"0 0 520 280\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M60 190 V50 H140 M162 50 H240 M290 50 H380 V108 M380 132 V190 H232 M208 190 H60\"/><line x1=\"140\" y1=\"38\" x2=\"140\" y2=\"62\"/><line x1=\"146\" y1=\"43\" x2=\"146\" y2=\"57\" stroke-width=\"4\"/><line x1=\"156\" y1=\"38\" x2=\"156\" y2=\"62\"/><line x1=\"162\" y1=\"43\" x2=\"162\" y2=\"57\" stroke-width=\"4\"/><line x1=\"146\" y1=\"50\" x2=\"156\" y2=\"50\"/><rect x=\"240\" y=\"43\" width=\"50\" height=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><line x1=\"236\" y1=\"66\" x2=\"294\" y2=\"36\"/><path d=\"M286 36 L294 36 L290 43\"/><circle cx=\"380\" cy=\"120\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><circle cx=\"220\" cy=\"190\" r=\"12\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M211.5 181.5 L228.5 198.5 M228.5 181.5 L211.5 198.5\"/><path d=\"M170 190 V240 H208 M232 240 H270 V190\"/><circle cx=\"220\" cy=\"240\" r=\"12\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M410 200 H425 M443 200 H458 M488 200 H505\"/><path d=\"M425 190 L443 200 L425 210 Z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\"/><line x1=\"443\" y1=\"190\" x2=\"443\" y2=\"210\"/><rect x=\"458\" y=\"193\" width=\"30\" height=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/></g><g fill=\"currentColor\"><circle cx=\"170\" cy=\"190\" r=\"2.5\"/><circle cx=\"270\" cy=\"190\" r=\"2.5\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"380\" y=\"124\">A</text><text x=\"220\" y=\"244\">V</text></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"124\" y=\"28\">Battery</text><text x=\"222\" y=\"24\">Variable resistor</text><text x=\"396\" y=\"124\">Ammeter</text><text x=\"180\" y=\"172\">Filament lamp</text><text x=\"190\" y=\"270\">Voltmeter</text><text x=\"410\" y=\"170\">For the diode:</text><text x=\"412\" y=\"228\">Diode</text><text x=\"456\" y=\"228\">Protective</text><text x=\"456\" y=\"242\">resistor</text></g></svg>"
+  },
+  "examTips": [
+    "Learn the three graph shapes: straight line through the origin (resistor), S-shaped curve (filament lamp), and zero current in reverse with a sharp rise above about 0.6 V (diode).",
+    "Explain the lamp curve fully: more current, filament hotter, ions vibrate more, more collisions with electrons, so resistance increases.",
+    "Reversing the supply connections gives negative potential differences and currents. Mention this when describing the method.",
+    "State the role of the variable resistor: it changes the current in the circuit and so the potential difference across the component.",
+    "Calculate resistance at a point using R = V ÷ I from the readings, not from the gradient of the curve."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp4-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the shape of the I–V graph for a fixed resistor at constant temperature?",
+      "options": [
+        "A straight line through the origin",
+        "A curve that gets less steep as potential difference increases",
+        "A horizontal line",
+        "Zero current until 0.6 V, then a steep rise"
+      ],
+      "answer": 0,
+      "markScheme": ["1 mark: straight line through the origin"],
+      "explanation": "Current is directly proportional to potential difference for a fixed resistor at constant temperature, so the graph is a straight line through the origin. The curve describes a filament lamp and the steep rise above 0.6 V describes a diode."
+    },
+    {
+      "id": "phys-rp4-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A diode is connected in the reverse direction to a 3 V supply. What is the current through it?",
+      "options": ["A large current", "The same current as in the forward direction", "Zero (or almost zero)", "A current that increases with time"],
+      "answer": 2,
+      "markScheme": ["1 mark: zero / almost zero"],
+      "explanation": "A diode has a very high resistance in the reverse direction, so (almost) no current flows. It only conducts in the forward direction."
+    },
+    {
+      "id": "phys-rp4-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A filament lamp has a potential difference of 6.0 V across it and a current of 0.30 A through it.\nCalculate its resistance.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: R = V ÷ I = 6.0 ÷ 0.30", "1 mark: 20 Ω"],
+      "explanation": "Resistance = potential difference ÷ current. 6.0 ÷ 0.30 = 20 Ω."
+    },
+    {
+      "id": "phys-rp4-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A filament lamp has a current of 0.11 A through it when the potential difference across it is 1.0 V.\nCalculate the resistance of the lamp. Give your answer to 2 significant figures.",
+      "numericAnswer": 9.1,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: R = 1.0 ÷ 0.11", "1 mark: 9.1 Ω"],
+      "explanation": "1.0 ÷ 0.11 = 9.09 Ω, which is 9.1 Ω to 2 significant figures. The same lamp has a resistance of 20 Ω at 6.0 V, showing that its resistance increases as it gets hotter."
+    },
+    {
+      "id": "phys-rp4-q05",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "Explain why the resistance of a filament lamp increases as the potential difference across it increases.",
+      "acceptedAnswers": ["filament gets hotter", "temperature increases", "ions vibrate more", "more collisions", "electrons collide with ions"],
+      "markScheme": ["1 mark: larger current makes the filament hotter (temperature increases)", "1 mark: the metal ions vibrate more", "1 mark: so electrons collide with the ions more often, increasing resistance"],
+      "explanation": "The energy transferred by the current heats the filament. Faster vibrating ions get in the way of the flowing electrons more, so there is more resistance."
+    },
+    {
+      "id": "phys-rp4-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "When finding the I–V characteristic of a component, a student reverses the connections to the power supply.\nGive the reason for this.",
+      "acceptedAnswers": ["negative values", "current in the opposite direction", "reverse direction"],
+      "markScheme": ["1 mark: to obtain negative values of potential difference and current / to make the current flow in the opposite direction"],
+      "explanation": "Reversing the supply lets the student see whether the component behaves the same in both directions. A diode does not, but a resistor and a lamp do."
+    },
+    {
+      "id": "phys-rp4-q07",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A variable resistor is connected in series with the component when finding its I–V characteristic.\nState the purpose of the variable resistor.",
+      "acceptedAnswers": ["change the current", "change the potential difference across the component", "vary the pd"],
+      "markScheme": ["1 mark: to change (control) the current in the circuit and so the potential difference across the component"],
+      "explanation": "Changing the resistance of the variable resistor changes how the supply potential difference is shared, giving a range of values across the component being tested."
+    },
+    {
+      "id": "phys-rp4-q08",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A diode is connected in series with a 100 Ω resistor when its I–V characteristic is measured.\nExplain why the resistor is needed.",
+      "acceptedAnswers": ["protective resistor", "limit the current", "stop the diode being damaged", "current rises steeply above 0.6 V"],
+      "markScheme": ["1 mark: the current through a diode rises very steeply above about 0.6 V (its resistance becomes very small)", "1 mark: the resistor limits the current so the diode is not damaged (overheats)"],
+      "explanation": "Once a diode conducts, a tiny increase in potential difference causes a large increase in current. The resistor keeps the current to a safe value."
+    },
+    {
+      "id": "phys-rp4-q09",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A potential difference of 4.5 V is applied across a 10 Ω fixed resistor.\nCalculate the current through the resistor.",
+      "numericAnswer": 0.45,
+      "tolerance": 0.01,
+      "unit": "A",
+      "markScheme": ["1 mark: I = V ÷ R = 4.5 ÷ 10", "1 mark: 0.45 A"],
+      "explanation": "Rearranging V = I R gives I = V ÷ R. 4.5 ÷ 10 = 0.45 A."
+    },
+    {
+      "id": "phys-rp4-q10",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A diode and a 100 Ω protective resistor are connected in series to a 3.0 V supply. The potential difference across the diode is 0.7 V.\nCalculate the current in the circuit in mA.",
+      "numericAnswer": 23,
+      "tolerance": 0.01,
+      "unit": "mA",
+      "markScheme": ["1 mark: pd across resistor = 3.0 − 0.7 = 2.3 V", "1 mark: I = 2.3 ÷ 100 = 0.023 A", "1 mark: 23 mA"],
+      "explanation": "In series, the supply potential difference is shared between components, so the resistor has 2.3 V across it. The current is the same through both components. Using 3.0 V gives 30 mA, which is wrong."
+    },
+    {
+      "id": "phys-rp4-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which component is an ohmic conductor?",
+      "options": ["A filament lamp", "A diode", "A fixed resistor at constant temperature", "A thermistor"],
+      "answer": 2,
+      "markScheme": ["1 mark: a fixed resistor at constant temperature"],
+      "explanation": "An ohmic conductor has a current directly proportional to the potential difference across it, so its resistance is constant. The lamp, diode and thermistor all have resistances that change."
+    },
+    {
+      "id": "phys-rp4-q12",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The I–V graphs for two fixed resistors, X and Y, are straight lines through the origin. The line for X is steeper than the line for Y. Current is on the y-axis. What does this show?",
+      "options": [
+        "X has a higher resistance than Y",
+        "X has a lower resistance than Y",
+        "X and Y have the same resistance",
+        "X is not an ohmic conductor"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: X has a lower resistance"],
+      "explanation": "A steeper line means more current flows for each volt, so the resistance (V ÷ I) is lower. Students often assume a steeper line means more resistance, which would only be true if potential difference were on the y-axis."
+    },
+    {
+      "id": "phys-rp4-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "An I–V graph for a fixed resistor is a straight line through the origin, with current on the y-axis. The gradient of the line is 0.05 A/V.\nCalculate the resistance of the resistor.",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "unit": "Ω",
+      "markScheme": ["1 mark: gradient = I ÷ V = 1 ÷ R", "1 mark: R = 1 ÷ 0.05 = 20 Ω"],
+      "explanation": "For a straight line through the origin, the gradient I ÷ V is the reciprocal of resistance. So R = 1 ÷ gradient = 20 Ω."
+    },
+    {
+      "id": "phys-rp4-q14",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student measures the current through a diode in the forward direction using steps of 1 V from 0 V to 5 V.\nExplain why this is not a suitable set of potential differences.",
+      "acceptedAnswers": ["steps too large", "current changes around 0.6 V", "miss the shape of the curve", "use smaller steps below 1 V"],
+      "markScheme": ["1 mark: the current only starts to flow at about 0.6 V and then rises very steeply", "1 mark: so steps of 1 V would miss the shape of the curve; smaller steps (for example 0.1 V) are needed between 0 and 1 V"],
+      "explanation": "Almost all of the interesting change for a diode happens between 0.5 V and 0.8 V. Large steps would give one reading of zero and then very large currents."
+    },
+    {
+      "id": "phys-rp4-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to obtain the I–V characteristic of a filament lamp.\nInclude a description of the circuit and how the readings should be taken and presented.",
+      "markScheme": [
+        "Indicative content: connect the lamp in series with a power supply, switch, variable resistor and ammeter; connect a voltmeter in parallel across the lamp; adjust the variable resistor to change the potential difference across the lamp; record potential difference and current for a range of values (for example 0 to 6 V in 1 V steps); reverse the supply connections and repeat to get negative values; repeat readings and calculate a mean; do not exceed the lamp's rated potential difference; allow the lamp to cool and do not touch it; plot current (y-axis) against potential difference (x-axis), using all four quadrants; draw a smooth curve of best fit; resistance can be found from V ÷ I at each point; expect an S-shaped curve as resistance increases with temperature",
+        "Level 3 (5 to 6 marks): a coherent method with a correct circuit including the variable resistor and correct meter positions, a range of readings including reversed values, and a clear description of how the graph is plotted.",
+        "Level 2 (3 to 4 marks): a method with a mostly correct circuit and readings of V and I for a range of values, but missing detail such as reversing the supply or how the graph is drawn.",
+        "Level 1 (1 to 2 marks): simple statements about measuring current and potential difference for a lamp, with an incomplete circuit.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers make it clear where each meter goes, how the potential difference is varied, why the supply is reversed and what graph is drawn. Mentioning safety (hot lamp, rated voltage) adds detail."
+    }
+  ]
+}

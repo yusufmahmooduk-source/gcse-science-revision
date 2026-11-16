@@ -1,0 +1,662 @@
+{
+  "id": "p7-loudspeakers",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "loudspeakers",
+  "specRef": "4.7.2.4",
+  "title": "Loudspeakers",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "A moving-coil loudspeaker (and headphones) uses the motor effect to convert variations in the current in an electrical circuit into pressure variations in the air, which are sound waves.",
+    "explanation": [
+      "A moving-coil loudspeaker contains a permanent magnet and a coil of wire attached to a paper or plastic cone. The coil sits in the narrow gap between the poles of the magnet, where the magnetic field is strong and points radially (straight out from the central pole to the outer pole). The coil is free to move backwards and forwards, and the cone is held by a flexible suspension at its edge.",
+      "The loudspeaker is connected to an amplifier, which supplies an alternating current. The current in the coil is at right angles to the magnetic field, so there is a force on the coil (the motor effect). By Fleming's left-hand rule, this force acts along the axis of the cone, either outwards or inwards depending on the direction of the current.",
+      "Because the current is alternating, it keeps changing direction. Each time the current reverses, the force on the coil reverses. The coil, and the cone attached to it, are therefore pushed out and pulled in repeatedly, so they vibrate. As the cone moves outwards it pushes air particles together, making a compression; as it moves inwards it makes a rarefaction. These pressure variations travel through the air as a longitudinal sound wave.",
+      "The frequency of the sound is equal to the frequency of the alternating current, because the cone vibrates once for each cycle of the current. A larger current produces a larger force on the coil, so the cone vibrates with a larger amplitude and the sound is louder. In this way the variations in the electrical signal are copied as variations in air pressure.",
+      "Headphones work in exactly the same way as loudspeakers, using a smaller magnet, coil and diaphragm placed close to the ear. A loudspeaker is like a microphone in reverse: a microphone uses the generator effect to turn pressure variations into a current, while a loudspeaker uses the motor effect to turn a varying current into pressure variations."
+    ],
+    "keyFacts": [
+      "Loudspeakers and headphones use the motor effect.",
+      "They convert variations in current into pressure variations in the air (sound waves).",
+      "A coil attached to a cone sits in the field of a permanent magnet.",
+      "An alternating current in the coil produces a force that keeps reversing direction.",
+      "The coil and cone vibrate, producing compressions and rarefactions in the air.",
+      "Frequency of sound = frequency of the alternating current.",
+      "Larger current gives a larger force, larger amplitude vibration and louder sound.",
+      "The direction of the force on the coil is given by Fleming's left-hand rule."
+    ],
+    "keyTerms": [
+      {
+        "term": "Moving-coil loudspeaker",
+        "definition": "A device that uses the motor effect on a coil attached to a cone to produce sound from an electrical signal."
+      },
+      {
+        "term": "Cone (diaphragm)",
+        "definition": "The light, stiff part attached to the coil that vibrates and pushes on the air."
+      },
+      {
+        "term": "Alternating current",
+        "definition": "A current that repeatedly reverses direction."
+      },
+      {
+        "term": "Compression",
+        "definition": "A region of a longitudinal wave where particles are closer together (higher pressure)."
+      },
+      {
+        "term": "Rarefaction",
+        "definition": "A region of a longitudinal wave where particles are further apart (lower pressure)."
+      },
+      {
+        "term": "Amplifier",
+        "definition": "A device that provides a larger version of an electrical signal to drive a loudspeaker."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Force on a conductor in a magnetic field",
+        "formula": "force = magnetic flux density × current × length",
+        "symbols": "F = B I l",
+        "units": "F in N, B in T, I in A, l in m (total length of coil wire in the field)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Linking frequency of current and sound",
+        "question": "An amplifier supplies an alternating current of frequency 440 Hz to a loudspeaker. State the frequency of the sound produced and explain why.",
+        "steps": [
+          "The force on the coil reverses each time the current reverses.",
+          "The cone moves out and in once for each cycle of the current.",
+          "So it makes 440 complete vibrations per second."
+        ],
+        "answer": "440 Hz, because the cone vibrates at the same frequency as the current."
+      },
+      {
+        "title": "Force on a loudspeaker coil",
+        "question": "A loudspeaker coil contains 2.5 m of wire in a radial magnetic field of 0.80 T. The current at one instant is 0.20 A. Calculate the force on the coil at that instant.",
+        "steps": [
+          "The wire is at right angles to the radial field everywhere, so use F = B I l.",
+          "F = 0.80 × 0.20 × 2.5.",
+          "F = 0.40 N."
+        ],
+        "answer": "0.40 N"
+      },
+      {
+        "title": "Effect of current on loudness",
+        "question": "The peak current in a loudspeaker coil is doubled at the same frequency. Describe the effect on the sound.",
+        "steps": [
+          "F = BIl, so doubling the current doubles the peak force on the coil.",
+          "The cone vibrates with a larger amplitude.",
+          "The pitch stays the same because the frequency has not changed."
+        ],
+        "answer": "The sound is louder (larger amplitude) but has the same pitch."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Moving-coil loudspeaker (cross-section)",
+        "caption": "The coil sits in the gap of a permanent magnet, where the field points from the central north pole to the outer south pole. An alternating current from the amplifier produces a force on the coil that keeps reversing, so the coil and cone vibrate in and out, producing compressions and rarefactions (a sound wave).",
+        "svg": "<svg viewBox='0 0 460 290' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='60' width='110' height='36' fill='#93c5fd' fill-opacity='0.5'/><rect x='40' y='164' width='110' height='36' fill='#93c5fd' fill-opacity='0.5'/><rect x='20' y='60' width='20' height='140' fill='#93c5fd' fill-opacity='0.5'/><rect x='60' y='112' width='90' height='36' fill='#fca5a5' fill-opacity='0.5'/><line x1='122' y1='100' x2='158' y2='100' stroke-width='2'/><line x1='122' y1='160' x2='158' y2='160' stroke-width='2'/><line x1='158' y1='100' x2='300' y2='30' stroke-width='2'/><line x1='158' y1='160' x2='300' y2='230' stroke-width='2'/><path d='M158 100 Q175 130 158 160' fill='none' stroke-dasharray='3 2'/><path d='M300 30 q8 -6 14 2' fill='none'/><path d='M300 230 q8 6 14 -2' fill='none'/><polyline points='164,163 164,250 60,250' fill='none'/><polyline points='172,167 172,262 60,262' fill='none'/></g><circle cx='128' cy='104' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='138' cy='104' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='128' cy='156' r='4' fill='#fde68a' stroke='currentColor'/><circle cx='138' cy='156' r='4' fill='#fde68a' stroke='currentColor'/><line x1='330' y1='95' x2='330' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='342' y1='95' x2='342' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='354' y1='95' x2='354' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='395' y1='95' x2='395' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='407' y1='95' x2='407' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='419' y1='95' x2='419' y2='165' stroke='currentColor' stroke-opacity='0.7'/><line x1='372' y1='95' x2='372' y2='165' stroke='currentColor' stroke-opacity='0.3'/><line x1='437' y1='95' x2='437' y2='165' stroke='currentColor' stroke-opacity='0.3'/><line x1='133' y1='110' x2='133' y2='97' stroke='currentColor'/><polygon points='133.0,94.5 136.5,101.5 129.5,101.5' fill='currentColor'/><line x1='133' y1='150' x2='133' y2='163' stroke='currentColor'/><polygon points='133.0,165.5 129.5,158.5 136.5,158.5' fill='currentColor'/><line x1='320' y1='270' x2='280' y2='270' stroke='currentColor'/><polygon points='275.8,270.0 284.2,265.8 284.2,274.2' fill='currentColor'/><line x1='290' y1='270' x2='330' y2='270' stroke='currentColor'/><polygon points='334.2,270.0 325.8,274.2 325.8,265.8' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='85' y='134'>N</text><text x='70' y='82'>S</text><text x='70' y='186'>S</text><text x='150' y='20'>permanent magnet (N centre, S outer pole)</text><text x='180' y='134'>coil on former, in the gap</text><text x='230' y='60'>cone</text><text x='10' y='245'>a.c. from</text><text x='10' y='258'>amplifier</text><text x='340' y='85'>compressions</text><text x='350' y='182'>sound wave</text><text x='230' y='285'>cone vibrates in and out</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think the loudspeaker magnet is an electromagnet that switches on and off.",
+        "right": "In fact the loudspeaker has a permanent magnet; it is the current in the coil that alternates, so the force on the coil reverses."
+      },
+      {
+        "wrong": "Students often think loudspeakers use the generator effect.",
+        "right": "In fact loudspeakers use the motor effect (current in a field produces a force). Microphones use the generator effect."
+      },
+      {
+        "wrong": "Students often think a larger current gives a higher pitch.",
+        "right": "In fact a larger current gives a larger amplitude and louder sound; the pitch depends on the frequency of the current."
+      },
+      {
+        "wrong": "Students often think the sound wave is made of air travelling from the speaker to the listener.",
+        "right": "In fact the air particles vibrate back and forth; it is the pressure variation (energy) that travels."
+      }
+    ],
+    "realWorld": [
+      "Headphones and earbuds use tiny moving-coil drivers that work like loudspeakers.",
+      "Mobile phones, televisions and car audio systems all use moving-coil loudspeakers.",
+      "Large concert speaker systems use separate large cones for low frequencies (woofers) and small ones for high frequencies (tweeters)."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Explain how a moving-coil loudspeaker and headphones use the motor effect to convert variations in current in electrical circuits to the pressure variations in sound waves."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "Loudspeakers and headphones: the motor effect on a coil carrying an alternating current makes a cone vibrate and produce sound."
+    ],
+    "examTips": [
+      "Use the words 'motor effect', 'alternating current', 'force reverses', 'cone vibrates' and 'pressure variations' in your explanation.",
+      "State that the frequency of the sound equals the frequency of the a.c. supply and that a larger current gives a louder sound.",
+      "Do not confuse loudspeakers (motor effect) with microphones (generator effect); learn them as a pair.",
+      "Write explanations in a clear sequence: current, field and force, force reversing, cone vibrating, compressions and rarefactions."
+    ],
+    "summary": [
+      "Loudspeakers and headphones use the motor effect.",
+      "Alternating current in the coil produces a force that keeps reversing.",
+      "The coil and cone vibrate, creating pressure variations in air.",
+      "Sound frequency equals current frequency.",
+      "Bigger current gives bigger amplitude and louder sound."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What effect do loudspeakers use?",
+      "back": "The motor effect."
+    },
+    {
+      "front": "What does a loudspeaker convert?",
+      "back": "Variations in current into pressure variations in the air (sound waves)."
+    },
+    {
+      "front": "What type of current is supplied to a loudspeaker?",
+      "back": "Alternating current (a varying signal from an amplifier)."
+    },
+    {
+      "front": "Why does the loudspeaker cone vibrate?",
+      "back": "The force on the coil reverses each time the current reverses."
+    },
+    {
+      "front": "What type of magnet is in a loudspeaker?",
+      "back": "A permanent magnet."
+    },
+    {
+      "front": "How is the frequency of the sound related to the current?",
+      "back": "It equals the frequency of the alternating current."
+    },
+    {
+      "front": "What happens if the current amplitude increases?",
+      "back": "Larger force, larger amplitude vibration, louder sound."
+    },
+    {
+      "front": "What does the cone produce in the air?",
+      "back": "Compressions and rarefactions (a longitudinal sound wave)."
+    },
+    {
+      "front": "How do headphones work?",
+      "back": "The same way as a loudspeaker, using the motor effect on a small coil and diaphragm."
+    },
+    {
+      "front": "Which device is the reverse of a loudspeaker?",
+      "back": "A moving-coil microphone (generator effect)."
+    },
+    {
+      "front": "Which rule gives the direction of the force on the coil?",
+      "back": "Fleming's left-hand rule."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-loudspeakers-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which effect does a moving-coil loudspeaker use?",
+      "options": [
+        "The generator effect",
+        "The heating effect of a current",
+        "The motor effect",
+        "Static electricity"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The motor effect"
+      ],
+      "explanation": "A current in a coil in a magnetic field experiences a force: the motor effect. Microphones use the generator effect."
+    },
+    {
+      "id": "p7-loudspeakers-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of current must be supplied to a loudspeaker to produce a sound?",
+      "options": [
+        "A changing (alternating) current",
+        "A steady direct current",
+        "No current",
+        "A very small steady current"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A changing (alternating) current"
+      ],
+      "explanation": "Only a changing current makes the force change direction or size, so the cone vibrates. A steady d.c. would just push the cone to one position."
+    },
+    {
+      "id": "p7-loudspeakers-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which part of a loudspeaker vibrates to push on the air?",
+      "options": [
+        "The permanent magnet",
+        "The plug",
+        "The amplifier",
+        "The cone"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The cone"
+      ],
+      "explanation": "The coil is attached to the cone, which vibrates and creates pressure variations in the air."
+    },
+    {
+      "id": "p7-loudspeakers-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What do loudspeakers convert variations in current into?",
+      "options": [
+        "Variations in light intensity",
+        "Pressure variations in the air",
+        "Variations in temperature",
+        "Variations in magnetic material"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Pressure variations in the air"
+      ],
+      "explanation": "The vibrating cone produces compressions and rarefactions: pressure variations that form a sound wave."
+    },
+    {
+      "id": "p7-loudspeakers-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An alternating current of frequency 250 Hz is supplied to a loudspeaker. What is the frequency of the sound produced?",
+      "options": [
+        "125 Hz",
+        "500 Hz",
+        "250 Hz",
+        "It depends on the size of the cone"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: 250 Hz"
+      ],
+      "explanation": "The cone vibrates once per cycle of the current, so the sound frequency equals the a.c. frequency: 250 Hz."
+    },
+    {
+      "id": "p7-loudspeakers-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The amplitude of the current in a loudspeaker is increased at the same frequency. What happens to the sound?",
+      "options": [
+        "It becomes louder",
+        "It becomes higher pitched",
+        "It becomes quieter",
+        "It stops"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: It becomes louder"
+      ],
+      "explanation": "A larger current gives a larger force, so the cone vibrates with a larger amplitude: the sound is louder. The pitch depends on frequency, which is unchanged."
+    },
+    {
+      "id": "p7-loudspeakers-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the force on a loudspeaker coil keep changing direction?",
+      "options": [
+        "The magnet's poles keep swapping",
+        "The air pressure reverses the field",
+        "The cone pushes the coil back",
+        "The current in the coil keeps reversing"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The current in the coil keeps reversing"
+      ],
+      "explanation": "The permanent magnet's field is constant. The alternating current reverses, so the force reverses."
+    },
+    {
+      "id": "p7-loudspeakers-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A steady direct current is passed through a loudspeaker coil. What happens?",
+      "options": [
+        "A continuous high-pitched note is heard",
+        "The cone moves to a new position and stays there, so no continuous sound is produced",
+        "The cone vibrates at 50 Hz",
+        "The magnet becomes demagnetised"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The cone moves to a new position and stays there, so no continuous sound is produced"
+      ],
+      "explanation": "A constant current gives a constant force, so the cone moves once (perhaps with a click) and stays displaced. No vibration means no sound."
+    },
+    {
+      "id": "p7-loudspeakers-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is the magnet in a loudspeaker shaped so that the field in the gap is radial?",
+      "options": [
+        "So the coil does not need a current",
+        "So the magnet is lighter",
+        "So the wire of the coil is everywhere at right angles to the field, giving the maximum force along the axis",
+        "So the field reverses every half turn"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: So the wire of the coil is everywhere at right angles to the field, giving the maximum force along the axis"
+      ],
+      "explanation": "With a radial field, every part of the circular coil is at right angles to the field, so the forces all act along the axis, giving a large force that moves the cone in and out."
+    },
+    {
+      "id": "p7-loudspeakers-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which device works in the same way as a loudspeaker?",
+      "options": [
+        "Headphones",
+        "A microphone",
+        "A transformer",
+        "A dynamo"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Headphones"
+      ],
+      "explanation": "Headphones are small loudspeakers, using the motor effect. Microphones and dynamos use the generator effect; transformers use induction between coils."
+    },
+    {
+      "id": "p7-loudspeakers-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A loudspeaker coil has 2.5 m of wire in a magnetic field of flux density 0.80 T, at right angles to the field. The current at one instant is 0.20 A. Calculate the force on the coil.",
+      "numericAnswer": 0.4,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 0.80 × 0.20 × 2.5",
+        "1 mark: F = 0.40 N"
+      ],
+      "explanation": "F = BIl = 0.80 × 0.20 × 2.5 = 0.40 N."
+    },
+    {
+      "id": "p7-loudspeakers-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A headphone coil has 60 cm of wire in a field of 0.50 T. The current is 30 mA. Calculate the force on the coil in newtons.",
+      "numericAnswer": 0.009,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: l = 0.60 m and I = 0.030 A",
+        "1 mark: F = 0.50 × 0.030 × 0.60",
+        "1 mark: F = 0.0090 N"
+      ],
+      "explanation": "Convert units first, then F = BIl = 0.50 × 0.030 × 0.60 = 0.0090 N."
+    },
+    {
+      "id": "p7-loudspeakers-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The force on a loudspeaker coil is 0.36 N when the current is 0.30 A. The coil has 1.5 m of wire at right angles to the field. Calculate the magnetic flux density.",
+      "numericAnswer": 0.8,
+      "tolerance": 0.02,
+      "unit": "T",
+      "markScheme": [
+        "1 mark: B = F ÷ (I l)",
+        "1 mark: B = 0.36 ÷ (0.30 × 1.5)",
+        "1 mark: B = 0.80 T"
+      ],
+      "explanation": "Rearranging F = BIl gives B = F ÷ (Il) = 0.36 ÷ 0.45 = 0.80 T."
+    },
+    {
+      "id": "p7-loudspeakers-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "The peak force on a loudspeaker coil is 0.15 N when the peak current is 0.25 A. The volume is turned up so the peak current becomes 0.40 A. Calculate the new peak force.",
+      "numericAnswer": 0.24,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: force is proportional to current: F = 0.15 × (0.40 ÷ 0.25)",
+        "1 mark: F = 0.24 N"
+      ],
+      "explanation": "With B and l fixed, F ∝ I. The current increases by a factor of 1.6, so the force becomes 0.15 × 1.6 = 0.24 N."
+    },
+    {
+      "id": "p7-loudspeakers-q15",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the effect used by headphones to produce sound.",
+      "acceptedAnswers": [
+        "motor effect"
+      ],
+      "markScheme": [
+        "1 mark: the motor effect"
+      ],
+      "explanation": "Headphones are small loudspeakers."
+    },
+    {
+      "id": "p7-loudspeakers-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two parts of a moving-coil loudspeaker, other than the cone.",
+      "acceptedAnswers": [
+        "permanent magnet",
+        "coil",
+        "suspension",
+        "former"
+      ],
+      "markScheme": [
+        "1 mark each for any two: permanent magnet; coil (of wire); flexible suspension; former (tube the coil is wound on); terminals or leads"
+      ],
+      "explanation": "The coil and permanent magnet are essential for the motor effect."
+    },
+    {
+      "id": "p7-loudspeakers-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a loudspeaker produces a louder sound when the current is increased.",
+      "acceptedAnswers": [
+        "larger force",
+        "larger amplitude"
+      ],
+      "markScheme": [
+        "1 mark: larger current gives a larger force on the coil (F = BIl)",
+        "1 mark: so the cone vibrates with a larger amplitude"
+      ],
+      "explanation": "Loudness depends on amplitude, which depends on the size of the force."
+    },
+    {
+      "id": "p7-loudspeakers-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how the vibrating cone of a loudspeaker produces a sound wave.",
+      "acceptedAnswers": [
+        "compressions",
+        "rarefactions",
+        "pushes air",
+        "pressure variations"
+      ],
+      "markScheme": [
+        "1 mark: as the cone moves out it pushes air particles together, forming compressions (and as it moves in it forms rarefactions)",
+        "1 mark: these pressure variations travel through the air as a longitudinal wave"
+      ],
+      "explanation": "The cone transfers its vibration to the air, creating alternating high and low pressure regions."
+    },
+    {
+      "id": "p7-loudspeakers-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "State how the frequency of the sound from a loudspeaker is related to the current, and explain why.",
+      "acceptedAnswers": [
+        "same frequency",
+        "one vibration per cycle"
+      ],
+      "markScheme": [
+        "1 mark: the sound has the same frequency as the alternating current",
+        "1 mark: the force (and so the cone) changes direction twice in each cycle, giving one complete vibration per cycle"
+      ],
+      "explanation": "The cone follows the current: one full oscillation of current gives one full oscillation of the cone."
+    },
+    {
+      "id": "p7-loudspeakers-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Suggest why the cone of a loudspeaker is made from a light material such as paper.",
+      "acceptedAnswers": [
+        "low mass",
+        "accelerates easily",
+        "responds quickly",
+        "F = ma"
+      ],
+      "markScheme": [
+        "1 mark: a light cone has a small mass",
+        "1 mark: so the force produces a large acceleration and the cone can follow rapid (high-frequency) changes in current"
+      ],
+      "explanation": "From F = ma, a small mass gives a large acceleration for the same force."
+    },
+    {
+      "id": "p7-loudspeakers-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A loudspeaker is connected to an amplifier. The connections to the loudspeaker are swapped. Suggest why the sound heard is unchanged.",
+      "acceptedAnswers": [
+        "current still alternates",
+        "same frequency",
+        "same amplitude"
+      ],
+      "markScheme": [
+        "1 mark: the current still alternates with the same frequency and amplitude",
+        "1 mark: so the cone still vibrates in the same way (only the phase is reversed), giving the same pitch and loudness"
+      ],
+      "explanation": "Reversing the connections reverses the force at each instant, but the cone still vibrates in and out at the same frequency and amplitude."
+    },
+    {
+      "id": "p7-loudspeakers-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Compare how a loudspeaker and a moving-coil microphone work.",
+      "acceptedAnswers": [
+        "motor effect",
+        "generator effect",
+        "reverse",
+        "coil and magnet"
+      ],
+      "markScheme": [
+        "1 mark: both contain a coil attached to a cone or diaphragm in the field of a permanent magnet",
+        "1 mark: a loudspeaker uses the motor effect: a varying current produces a force that makes the cone vibrate and produce sound",
+        "1 mark: a microphone uses the generator effect: sound makes the diaphragm and coil vibrate, inducing a varying p.d. or current"
+      ],
+      "explanation": "They are mirror images: the loudspeaker turns electrical signals into sound, the microphone turns sound into electrical signals."
+    },
+    {
+      "id": "p7-loudspeakers-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe the structure of a moving-coil loudspeaker and explain the purpose of each main part.",
+      "markScheme": [
+        "Indicative content: permanent magnet provides a strong (radial) magnetic field; coil of wire sits in the gap in the field and carries the varying current from the amplifier; coil is attached to a cone (diaphragm); cone is light and has a large surface area to push on the air; flexible suspension holds the cone in place and returns it to the centre; terminals connect the coil to the amplifier.",
+        "Level 2 (3 to 4 marks): describes at least three parts with clear purposes linked to producing sound.",
+        "Level 1 (1 to 2 marks): names parts with limited explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Magnet gives the field; coil carries current and feels the force; cone pushes the air."
+    },
+    {
+      "id": "p7-loudspeakers-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Explain how a moving-coil loudspeaker converts an alternating current from an amplifier into a sound wave. Include how the pitch and loudness of the sound are controlled.",
+      "markScheme": [
+        "Indicative content: coil attached to cone sits in the field of a permanent magnet; alternating current flows in the coil; current at right angles to the field so there is a force on the coil (motor effect, Fleming's left-hand rule); when the current reverses, the force reverses; coil and cone are pushed out and in, so they vibrate; cone moving out creates compressions, moving in creates rarefactions; pressure variations travel as a longitudinal sound wave; frequency of sound equals frequency of current, so frequency controls pitch; larger current gives larger force (F = BIl), larger amplitude, louder sound.",
+        "Level 3 (5 to 6 marks): detailed, correctly sequenced explanation including the reversing force, vibration, pressure variations, and both pitch and loudness.",
+        "Level 2 (3 to 4 marks): explains force on coil and vibration of cone with some link to sound properties.",
+        "Level 1 (1 to 2 marks): simple statements, for example the magnet makes the cone move.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The full chain is: a.c., motor effect force, force reversing, cone vibrating, pressure variations, with frequency giving pitch and current size giving loudness."
+    },
+    {
+      "id": "p7-loudspeakers-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The frequency of the alternating current supplied to a loudspeaker is doubled, but its amplitude is unchanged. What happens to the sound?",
+      "options": [
+        "Its speed in air doubles",
+        "It becomes twice as loud at the same pitch",
+        "Its pitch falls",
+        "Its pitch rises and its loudness stays about the same"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Its pitch rises and its loudness stays about the same"
+      ],
+      "explanation": "The cone vibrates at the frequency of the current, so the sound frequency doubles and the pitch rises. The current amplitude, and so the force and loudness, is unchanged. The speed of sound in air does not depend on frequency."
+    },
+    {
+      "id": "p7-loudspeakers-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is produced in the air in front of a loudspeaker cone as it moves outwards?",
+      "acceptedAnswers": [
+        "compression",
+        "higher pressure"
+      ],
+      "markScheme": [
+        "1 mark: a compression (region of higher pressure)"
+      ],
+      "explanation": "The cone pushes the air particles closer together."
+    }
+  ]
+}

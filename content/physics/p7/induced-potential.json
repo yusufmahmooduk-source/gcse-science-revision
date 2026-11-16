@@ -1,0 +1,649 @@
+{
+  "id": "p7-induced-potential",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "induced-potential",
+  "specRef": "4.7.3.1",
+  "title": "Induced potential",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "If an electrical conductor moves relative to a magnetic field, or if there is a change in the magnetic field around a conductor, a potential difference is induced across the ends of the conductor. This is the generator effect. If the conductor is part of a complete circuit, a current is induced.",
+    "explanation": [
+      "The generator effect happens when a conductor cuts through magnetic field lines, or when the magnetic field through a conductor (such as a coil) changes. Moving a wire up and down between the poles of a magnet, or pushing a magnet into a coil, induces a potential difference across the ends of the conductor. If the conductor is part of a complete circuit, the induced p.d. drives an induced current. Nothing is induced if the conductor and magnet are not moving relative to each other, or if the wire moves parallel to the field lines.",
+      "The size of the induced potential difference (and so the induced current) can be increased by: moving the conductor or magnet faster (increasing the speed of movement), using a stronger magnetic field, and using a coil with more turns of wire. Each of these increases the rate at which field lines are cut. For a coil, putting an iron core inside also increases the effect.",
+      "The direction of the induced potential difference depends on the direction of movement and the direction of the field. Reversing the direction of movement (for example pulling the magnet out instead of pushing it in) reverses the induced p.d. and current. Reversing the magnetic field (using the other pole of the magnet) also reverses it. A centre-zero ammeter shows this as a deflection in the opposite direction.",
+      "An induced current generates its own magnetic field. This field always opposes the original change: either the movement of the conductor or the change in the magnetic field. For example, if the north pole of a magnet is pushed into a coil, the induced current makes the end of the coil nearest the magnet become a north pole, which repels the approaching magnet. If the magnet is pulled out, that end becomes a south pole, which attracts the magnet and opposes it leaving.",
+      "Because the induced field opposes the change, work has to be done to move the magnet or conductor. This is how energy is conserved: the energy transferred to the circuit comes from the work done against this opposing force. If the circuit is broken, there is a p.d. but no current, and no opposing force, so the magnet moves freely."
+    ],
+    "keyFacts": [
+      "Generator effect: a p.d. is induced when a conductor moves relative to a magnetic field or the field around it changes.",
+      "If the conductor is in a complete circuit, a current is induced.",
+      "No p.d. is induced if there is no relative movement or change in field.",
+      "Faster movement induces a larger p.d.",
+      "A stronger magnetic field induces a larger p.d.",
+      "More turns on the coil induce a larger p.d.",
+      "Reversing the movement or the field reverses the induced p.d.",
+      "The induced current produces a magnetic field that opposes the original change.",
+      "Work must be done against the opposing force; this supplies the electrical energy."
+    ],
+    "keyTerms": [
+      {
+        "term": "Generator effect",
+        "definition": "The induction of a potential difference across a conductor when it moves relative to a magnetic field or when the field around it changes."
+      },
+      {
+        "term": "Induced potential difference",
+        "definition": "The p.d. produced across the ends of a conductor by the generator effect."
+      },
+      {
+        "term": "Induced current",
+        "definition": "The current that flows when an induced p.d. acts in a complete circuit."
+      },
+      {
+        "term": "Centre-zero ammeter",
+        "definition": "An ammeter whose needle rests in the middle, so it can show current in either direction."
+      },
+      {
+        "term": "Relative motion",
+        "definition": "Movement of the conductor and magnetic field compared with each other; either can move."
+      },
+      {
+        "term": "Coil",
+        "definition": "Many turns of wire; more turns give a larger induced p.d."
+      }
+    ],
+    "equations": [],
+    "workedExamples": [
+      {
+        "title": "Predicting the meter reading",
+        "question": "A magnet is pushed into a coil connected to a centre-zero ammeter and the needle flicks to the right. Describe what happens when (a) the magnet is held still inside the coil and (b) the magnet is pulled out.",
+        "steps": [
+          "(a) With no relative movement, the field in the coil does not change, so no p.d. is induced: the needle reads zero.",
+          "(b) Pulling out is the reverse movement, so the induced p.d. and current reverse: the needle flicks to the left."
+        ],
+        "answer": "(a) zero; (b) deflects to the left."
+      },
+      {
+        "title": "Applying the opposing rule",
+        "question": "The south pole of a magnet is pushed towards the end of a coil that is part of a complete circuit. State the pole induced at that end of the coil and explain why.",
+        "steps": [
+          "The induced current produces a field that opposes the change.",
+          "The approaching magnet is opposed by repelling it.",
+          "To repel a south pole, the near end must be a south pole."
+        ],
+        "answer": "A south pole, which repels the approaching magnet."
+      },
+      {
+        "title": "Increasing the induced p.d.",
+        "question": "A student moves a wire slowly between two magnets and gets a reading of 2 mV. Give three changes that would increase the reading.",
+        "steps": [
+          "Move the wire faster.",
+          "Use stronger magnets.",
+          "Loop the wire into a coil so more turns pass through the field."
+        ],
+        "answer": "Faster movement, stronger field, more turns."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Inducing a current with a magnet and a coil",
+        "caption": "Pushing the north pole of the magnet into the coil induces a current shown by the centre-zero ammeter. The induced current makes the near end of the coil a north pole, which repels the magnet and opposes the change.",
+        "svg": "<svg viewBox='0 0 440 270' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='95' width='60' height='30' fill='#93c5fd' fill-opacity='0.5'/><rect x='100' y='95' width='60' height='30' fill='#fca5a5' fill-opacity='0.5'/></g><line x1='60' y1='70' x2='130' y2='70' stroke='currentColor' stroke-width='2'/><polygon points='139.6,70.0 128.4,75.6 128.4,64.4' fill='currentColor'/><ellipse cx='215' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><ellipse cx='235' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><ellipse cx='255' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><ellipse cx='275' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><ellipse cx='295' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><ellipse cx='315' cy='110' rx='9' ry='38' fill='none' stroke='currentColor'/><g stroke='currentColor' fill='none'><polyline points='206,120 190,120 190,220 285,220'/><polyline points='324,120 360,120 360,220 315,220'/></g><circle cx='300' cy='220' r='18' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><line x1='300' y1='228' x2='300' y2='208' stroke='currentColor' stroke-width='2'/><g font-size='12' fill='currentColor'><text x='60' y='115'>S</text><text x='125' y='115'>N</text><text x='40' y='60'>magnet pushed in</text><text x='190' y='50'>near end of coil becomes N:</text><text x='190' y='64'>it repels the magnet (opposes the change)</text><text x='330' y='170'>coil</text><text x='200' y='255'>centre-zero ammeter: needle deflects</text><text x='20' y='160'>Pull magnet out: current reverses.</text><text x='20' y='176'>Magnet still: no current.</text></g></svg>"
+      },
+      {
+        "title": "Moving a wire through a magnetic field",
+        "caption": "A wire moved up through the field between N and S cuts field lines, so a p.d. is induced across its ends. Reversing the motion or the field reverses the p.d.; moving along the field lines induces nothing.",
+        "svg": "<svg viewBox='0 0 420 240' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='60' width='70' height='110' fill='#fca5a5' fill-opacity='0.5'/><rect x='270' y='60' width='70' height='110' fill='#93c5fd' fill-opacity='0.5'/></g><line x1='110' y1='80' x2='270' y2='80' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='128.5,80.0 121.5,83.5 121.5,76.5' fill='currentColor'/><line x1='110' y1='115' x2='270' y2='115' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='128.5,115.0 121.5,118.5 121.5,111.5' fill='currentColor'/><line x1='110' y1='150' x2='270' y2='150' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='128.5,150.0 121.5,153.5 121.5,146.5' fill='currentColor'/><circle cx='190' cy='115' r='10' fill='#fde68a' stroke='currentColor'/><line x1='215' y1='130' x2='215' y2='95' stroke='currentColor' stroke-width='2'/><polygon points='215.0,87.1 219.9,96.9 210.1,96.9' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='70' y='120'>N</text><text x='300' y='120'>S</text><text x='40' y='40'>wire (end-on) moved up through the field</text><text x='225' y='108'>motion</text><text x='20' y='200'>A p.d. is induced across the ends of the wire.</text><text x='20' y='216'>Moving down, or reversing the field, reverses it.</text><text x='20' y='232'>Moving along the field lines: no p.d.</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a magnet held still inside a coil induces a current.",
+        "right": "In fact a p.d. is only induced while the field through the coil is changing, so there must be relative movement or a changing field."
+      },
+      {
+        "wrong": "Students often think the induced current's field helps the motion.",
+        "right": "In fact the induced field always opposes the change that caused it, so work must be done to keep the magnet or conductor moving."
+      },
+      {
+        "wrong": "Students often think a current is always induced.",
+        "right": "In fact a p.d. is induced across the conductor; a current flows only if the conductor is part of a complete circuit."
+      },
+      {
+        "wrong": "Students often confuse the generator effect with the motor effect.",
+        "right": "In fact in the generator effect movement produces a p.d.; in the motor effect a current produces a force (movement)."
+      }
+    ],
+    "realWorld": [
+      "Power station generators induce p.d.s by rotating magnets inside coils.",
+      "Bicycle dynamos and wind turbines use the generator effect.",
+      "Induction hobs and wireless phone chargers use changing magnetic fields to induce currents."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Explain that the induced current generates a magnetic field that opposes the original change, either the movement of the conductor or the change in magnetic field.",
+      "Recall the factors that affect the size of the induced p.d. or current, and identify factors that affect the size and direction."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "The generator effect: a p.d. is induced across a conductor that moves relative to a magnetic field, or when the field around a conductor changes."
+    ],
+    "examTips": [
+      "Use the phrase 'relative movement' or 'cuts magnetic field lines'; also say 'potential difference is induced', not 'current is made'.",
+      "For factors, give speed of movement, strength of the field and number of turns. Do not say 'bigger magnet'; say 'stronger magnet'.",
+      "To explain direction of induced pole, always start with 'the induced current produces a field that opposes the change'.",
+      "Remember that a p.d. is induced even in an open circuit, but a current needs a complete circuit."
+    ],
+    "summary": [
+      "Relative movement of a conductor and a magnetic field induces a p.d.",
+      "A complete circuit gives an induced current.",
+      "Faster movement, stronger field and more turns give a larger p.d.",
+      "Reversing movement or field reverses the p.d.",
+      "The induced field opposes the change that caused it."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the generator effect?",
+      "back": "A p.d. is induced across a conductor when it moves relative to a magnetic field or the field around it changes."
+    },
+    {
+      "front": "When does an induced p.d. produce a current?",
+      "back": "When the conductor is part of a complete circuit."
+    },
+    {
+      "front": "Three ways to increase the induced p.d.",
+      "back": "Move faster, use a stronger magnetic field, use more turns."
+    },
+    {
+      "front": "How can the direction of the induced p.d. be reversed?",
+      "back": "Reverse the direction of movement or reverse the magnetic field."
+    },
+    {
+      "front": "What happens if a magnet is held still in a coil?",
+      "back": "No p.d. is induced."
+    },
+    {
+      "front": "What does the induced current's magnetic field do?",
+      "back": "It opposes the original change (movement or change in field)."
+    },
+    {
+      "front": "N pole pushed into a coil: what pole forms at the near end?",
+      "back": "A north pole (repelling the magnet)."
+    },
+    {
+      "front": "N pole pulled out of a coil: what pole forms at the near end?",
+      "back": "A south pole (attracting the magnet, opposing its removal)."
+    },
+    {
+      "front": "Why is work needed to push a magnet into a coil in a complete circuit?",
+      "back": "The induced field opposes the motion, so a force must be overcome."
+    },
+    {
+      "front": "What does a centre-zero ammeter show?",
+      "back": "The size and direction of a small current."
+    },
+    {
+      "front": "Moving a wire parallel to field lines induces...",
+      "back": "No p.d. (it does not cut field lines)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-induced-potential-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the generator effect?",
+      "options": [
+        "A force on a current-carrying wire in a field",
+        "A magnet losing its magnetism",
+        "A p.d. induced across a conductor moving relative to a magnetic field",
+        "A current producing a magnetic field"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: A p.d. induced across a conductor moving relative to a magnetic field"
+      ],
+      "explanation": "The generator effect is the induction of a p.d. by relative movement or a changing field. The force on a current-carrying wire is the motor effect."
+    },
+    {
+      "id": "p7-induced-potential-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A magnet is held stationary inside a coil connected to an ammeter. What does the ammeter read?",
+      "options": [
+        "Zero",
+        "A large steady current",
+        "A current that alternates",
+        "A current that slowly increases"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Zero"
+      ],
+      "explanation": "No relative movement means the field through the coil is not changing, so no p.d. is induced."
+    },
+    {
+      "id": "p7-induced-potential-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which change would increase the p.d. induced when a magnet is moved into a coil?",
+      "options": [
+        "Moving the magnet more slowly",
+        "Using a coil with fewer turns",
+        "Using a longer connecting wire",
+        "Using a stronger magnet"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Using a stronger magnet"
+      ],
+      "explanation": "A stronger field increases the induced p.d., as do faster movement and more turns. Fewer turns or slower movement reduce it."
+    },
+    {
+      "id": "p7-induced-potential-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is needed for an induced p.d. to produce an induced current?",
+      "options": [
+        "A battery in the circuit",
+        "A complete circuit",
+        "A permanent magnet inside the coil",
+        "An iron core"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A complete circuit"
+      ],
+      "explanation": "An induced p.d. drives a current only around a complete circuit. No battery is needed."
+    },
+    {
+      "id": "p7-induced-potential-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "When a magnet is pushed into a coil, a centre-zero ammeter deflects to the left. What happens when the magnet is pulled out at the same speed?",
+      "options": [
+        "It deflects to the left",
+        "It reads zero",
+        "It deflects to the right",
+        "It deflects further to the left"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It deflects to the right"
+      ],
+      "explanation": "Reversing the direction of movement reverses the induced p.d. and current, so the needle deflects the other way."
+    },
+    {
+      "id": "p7-induced-potential-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A wire is moved between the poles of a magnet. In which direction of movement is no p.d. induced?",
+      "options": [
+        "Parallel to the field lines",
+        "At right angles to the field lines",
+        "Upwards across the field",
+        "Downwards across the field"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Parallel to the field lines"
+      ],
+      "explanation": "A p.d. is induced only when the conductor cuts field lines. Moving parallel to the lines cuts none."
+    },
+    {
+      "id": "p7-induced-potential-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "The south pole of a magnet is turned round so that the north pole is pushed into the coil instead, at the same speed. What happens to the induced current?",
+      "options": [
+        "It is the same in every way",
+        "It doubles",
+        "It stops",
+        "It has the same size but the opposite direction"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It has the same size but the opposite direction"
+      ],
+      "explanation": "Reversing the field reverses the direction of the induced current. The size stays the same because the speed and field strength are unchanged."
+    },
+    {
+      "id": "p7-induced-potential-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The north pole of a magnet is pushed into one end of a coil that is part of a complete circuit. What pole is induced at that end of the coil?",
+      "options": [
+        "South, which attracts the magnet",
+        "North, which repels the magnet",
+        "No pole is induced",
+        "North, which attracts the magnet"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: North, which repels the magnet"
+      ],
+      "explanation": "The induced field opposes the change, so it repels the approaching north pole: that end becomes a north pole."
+    },
+    {
+      "id": "p7-induced-potential-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A magnet is dropped through a long vertical coil. Why does it fall more slowly when the coil is connected in a complete circuit than when the circuit is broken?",
+      "options": [
+        "The coil is heavier",
+        "Air resistance increases inside the coil",
+        "The induced current produces a field that opposes the motion of the magnet",
+        "The coil attracts the magnet upwards because it is iron"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The induced current produces a field that opposes the motion of the magnet"
+      ],
+      "explanation": "With a complete circuit, an induced current flows and its field opposes the magnet's motion. With a broken circuit there is a p.d. but no current, so no opposing force."
+    },
+    {
+      "id": "p7-induced-potential-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A coil is connected to a sensitive voltmeter. Which action would NOT induce a p.d.?",
+      "options": [
+        "Moving the coil and magnet together at the same velocity",
+        "Switching on a current in a nearby electromagnet",
+        "Moving the coil towards a stationary magnet",
+        "Rotating a magnet near the end of the coil"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Moving the coil and magnet together at the same velocity"
+      ],
+      "explanation": "If the coil and magnet move together, there is no relative motion and the field through the coil does not change, so no p.d. is induced."
+    },
+    {
+      "id": "p7-induced-potential-q11",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 3,
+      "question": "State three factors that affect the size of the p.d. induced when a magnet is moved into a coil.",
+      "acceptedAnswers": [
+        "speed",
+        "strength of the magnet",
+        "number of turns"
+      ],
+      "markScheme": [
+        "1 mark: speed of movement of the magnet (or coil)",
+        "1 mark: strength of the magnetic field",
+        "1 mark: number of turns on the coil"
+      ],
+      "explanation": "Each factor increases the rate at which field lines are cut."
+    },
+    {
+      "id": "p7-induced-potential-q12",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two ways of reversing the direction of an induced current.",
+      "acceptedAnswers": [
+        "reverse the movement",
+        "reverse the field",
+        "other pole"
+      ],
+      "markScheme": [
+        "1 mark: reverse the direction of movement",
+        "1 mark: reverse the magnetic field (use the other pole)"
+      ],
+      "explanation": "Either reverses the induced p.d.; reversing both leaves it unchanged."
+    },
+    {
+      "id": "p7-induced-potential-q13",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain the difference between an induced potential difference and an induced current.",
+      "acceptedAnswers": [
+        "complete circuit",
+        "p.d. across ends",
+        "current needs circuit"
+      ],
+      "markScheme": [
+        "1 mark: an induced p.d. appears across the ends of the conductor whenever it moves relative to the field",
+        "1 mark: an induced current flows only if the conductor is part of a complete circuit"
+      ],
+      "explanation": "The p.d. is always induced by the generator effect; the current depends on the circuit being closed."
+    },
+    {
+      "id": "p7-induced-potential-q14",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A student moves a wire up through a magnetic field and the meter shows a small reading. Describe two ways she could make the reading larger without changing the magnet.",
+      "acceptedAnswers": [
+        "move faster",
+        "more turns",
+        "coil",
+        "loop the wire"
+      ],
+      "markScheme": [
+        "1 mark: move the wire faster",
+        "1 mark: wind the wire into a coil (more turns) and move the coil through the field"
+      ],
+      "explanation": "Faster motion and more turns both increase the induced p.d. without changing the field."
+    },
+    {
+      "id": "p7-induced-potential-q15",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why a p.d. is induced when the current in a nearby electromagnet is switched on, even though nothing moves.",
+      "acceptedAnswers": [
+        "magnetic field changes",
+        "change in field"
+      ],
+      "markScheme": [
+        "1 mark: switching on the current makes the magnetic field around the coil change (grow)",
+        "1 mark: a change in magnetic field around a conductor induces a p.d."
+      ],
+      "explanation": "The generator effect needs a changing field, which can be produced by movement or by changing a current."
+    },
+    {
+      "id": "p7-induced-potential-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The north pole of a bar magnet is pulled away from a coil that is connected to a resistor. Explain which magnetic pole forms at the end of the coil nearest the magnet, and why work must be done to pull the magnet away.",
+      "acceptedAnswers": [
+        "south pole",
+        "opposes the change",
+        "attracts",
+        "work done against force"
+      ],
+      "markScheme": [
+        "1 mark: the induced current produces a magnetic field that opposes the change (the magnet leaving)",
+        "1 mark: so the near end becomes a south pole, attracting the magnet",
+        "1 mark: a force must be applied against this attraction, so work is done, and this energy is transferred to the circuit"
+      ],
+      "explanation": "Opposing the removal means attracting the magnet back, so a south pole forms. The work done becomes electrical energy, heating the resistor."
+    },
+    {
+      "id": "p7-induced-potential-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Explain why it is harder to push a magnet into a coil when the coil is connected to a low-resistance circuit than when the coil's ends are not connected.",
+      "acceptedAnswers": [
+        "induced current",
+        "opposing field",
+        "no current when open"
+      ],
+      "markScheme": [
+        "1 mark: in the complete circuit an induced current flows and produces a field that opposes the motion (repels the magnet)",
+        "1 mark: when the ends are not connected there is no current, so no opposing field (only a p.d.)"
+      ],
+      "explanation": "Opposition comes from the induced current's field. With no current there is no opposing force."
+    },
+    {
+      "id": "p7-induced-potential-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A coil is rotated at a steady speed in a magnetic field. Suggest and explain the effect on the induced p.d. of rotating it twice as fast.",
+      "acceptedAnswers": [
+        "larger",
+        "cuts field lines faster",
+        "frequency increases"
+      ],
+      "markScheme": [
+        "1 mark: the induced p.d. is larger",
+        "1 mark: the field lines are cut faster (the field through the coil changes more rapidly); the p.d. also changes direction more often"
+      ],
+      "explanation": "Faster rotation increases the rate of change of field, increasing the p.d.; it also increases how often the p.d. reverses."
+    },
+    {
+      "id": "p7-induced-potential-q19",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe how a magnet, a coil and a centre-zero ammeter can be used to demonstrate the generator effect, and the observations that would be made.",
+      "markScheme": [
+        "Indicative content: connect the coil to the centre-zero ammeter in a complete circuit; push the magnet into the coil: needle deflects one way; hold the magnet still: no reading; pull the magnet out: needle deflects the other way; push in faster: larger deflection; use the other pole: deflection reversed; stronger magnet or more turns: larger deflection.",
+        "Level 2 (3 to 4 marks): describes a clear method and at least three correct observations, including direction effects.",
+        "Level 1 (1 to 2 marks): simple description such as move a magnet and see the needle move.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The demonstration shows a p.d. only during relative movement, with direction depending on movement and field."
+    },
+    {
+      "id": "p7-induced-potential-q20",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A bar magnet is dropped, north pole first, through a vertical copper coil connected to a data logger that records the induced p.d. Explain the shape of the p.d. against time graph you would expect, including how and why the p.d. changes as the magnet enters, passes through and leaves the coil. Also explain why the magnet's acceleration is less than it would be without the coil circuit closed.",
+      "markScheme": [
+        "Indicative content: as the north pole enters, the field through the coil increases, inducing a p.d. (a pulse in one direction); while the magnet is in the middle, the field is changing less, so the p.d. is small (around zero); as the magnet leaves, the field decreases, so a p.d. is induced in the opposite direction (pulse of opposite sign); the second pulse is larger and shorter because the magnet is moving faster (it has accelerated under gravity); induced current produces a field that opposes the change: near end becomes N as the magnet enters (repels), far end becomes N as it leaves (attracts the S pole back); this opposing force reduces the acceleration; work done against it is transferred to the circuit; with open circuit, no current, no opposing force.",
+        "Level 3 (5 to 6 marks): explains both pulses with opposite directions, the larger second pulse due to greater speed, and the opposing force reducing acceleration.",
+        "Level 2 (3 to 4 marks): explains that a p.d. is induced entering and leaving, with some explanation of direction or opposition.",
+        "Level 1 (1 to 2 marks): simple statements, for example a p.d. is induced as the magnet falls.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Entering and leaving produce opposite changes in field, so opposite p.d.s. The magnet speeds up, so the second pulse is bigger. Lenz-type opposition slows the fall."
+    },
+    {
+      "id": "p7-induced-potential-q21",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which of these will induce the largest p.d. in a coil?",
+      "options": [
+        "A weak magnet moved slowly into a coil of 100 turns",
+        "A weak magnet moved quickly into a coil of 50 turns",
+        "A strong magnet held still in a coil of 500 turns",
+        "A strong magnet moved quickly into a coil of 500 turns"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: A strong magnet moved quickly into a coil of 500 turns"
+      ],
+      "explanation": "Largest p.d. needs a strong field, fast movement and many turns. A stationary magnet induces nothing."
+    },
+    {
+      "id": "p7-induced-potential-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the effect in which a potential difference is induced by moving a wire through a magnetic field.",
+      "acceptedAnswers": [
+        "generator effect",
+        "electromagnetic induction"
+      ],
+      "markScheme": [
+        "1 mark: the generator effect (electromagnetic induction)"
+      ],
+      "explanation": "This is the generator effect."
+    },
+    {
+      "id": "p7-induced-potential-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Compare the motor effect and the generator effect.",
+      "acceptedAnswers": [
+        "motor effect: current produces force",
+        "generator effect: movement produces p.d."
+      ],
+      "markScheme": [
+        "1 mark: in the motor effect a current in a magnetic field produces a force (movement)",
+        "1 mark: in the generator effect movement relative to a magnetic field (or a changing field) produces a p.d. (or current)"
+      ],
+      "explanation": "They are opposite processes: one turns electrical energy into motion, the other motion into electrical energy."
+    },
+    {
+      "id": "p7-induced-potential-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
+      "question": "Explain, in terms of energy, why the induced current always produces a magnetic field that opposes the change causing it.",
+      "markScheme": [
+        "Indicative content: the induced current transfers energy to the circuit (heats the resistance); energy must be conserved; so work must be done on the magnet or conductor; this is only possible if there is a force opposing the movement; if the induced field helped the motion, the magnet would speed up and energy would be created from nothing, which is impossible; opposing field means work done by the person or engine is transferred as electrical energy.",
+        "Level 2 (3 to 4 marks): links opposition to the need for work done and conservation of energy with a clear explanation.",
+        "Level 1 (1 to 2 marks): states that energy is conserved or that the induced field opposes motion, with little explanation.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The opposing force is what makes the mover do work; that work becomes the electrical energy in the circuit."
+    },
+    {
+      "id": "p7-induced-potential-q25",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why does the needle of a centre-zero ammeter swing back and forth when a magnet is moved in and out of a coil repeatedly?",
+      "options": [
+        "The magnet's poles swap each time",
+        "The induced current reverses each time the direction of movement reverses",
+        "The coil heats up",
+        "The battery is switched on and off"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: The induced current reverses each time the direction of movement reverses"
+      ],
+      "explanation": "Moving in induces current one way, moving out induces current the other way, so an alternating current is produced."
+    }
+  ]
+}
