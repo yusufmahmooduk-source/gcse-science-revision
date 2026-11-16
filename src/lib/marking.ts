@@ -18,7 +18,10 @@ export function markNumeric(q: Question, input: string): { correct: boolean; val
   if (v === null || q.numericAnswer === undefined) return { correct: false, value: v };
   const target = q.numericAnswer;
   const tol = Math.max(q.tolerance ?? 0.01, 1e-9);
-  const correct = target === 0 ? Math.abs(v) < 1e-9 : Math.abs(v - target) / Math.abs(target) <= tol + 1e-12;
+  const close = (a: number, b: number) => (b === 0 ? Math.abs(a) < 1e-9 : Math.abs(a - b) / Math.abs(b) <= tol + 1e-12);
+  // also accept the answer correctly rounded to 2 or 3 significant figures, as an examiner would
+  const rounded = [2, 3].map((sf) => (target === 0 ? 0 : parseFloat(target.toPrecision(sf))));
+  const correct = close(v, target) || rounded.some((r) => Math.abs(v - r) <= Math.abs(r) * 1e-9);
   return { correct, value: v };
 }
 
