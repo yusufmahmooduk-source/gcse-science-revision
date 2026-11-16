@@ -327,7 +327,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Carbon dioxide is bubbled through limewater and the limewater turns cloudy. Which product is responsible for the cloudiness?",
+      "question": "Figure 1 shows carbon dioxide being bubbled through limewater.\nThe limewater turns cloudy.\nWhich product makes the limewater cloudy?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 340 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M140 40V200A20 20 0 0 0 180 200V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M141 110V200A19 19 0 0 0 179 200V110Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M60 30H157V200M163 200V36H60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"154\" cy=\"185\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"166\" cy=\"170\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"155\" cy=\"150\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"165\" cy=\"128\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"60\" y=\"22\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">carbon dioxide</text><path d=\"M70 52H110M104 47L111 52L104 57\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"181\" y1=\"160\" x2=\"240\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"244\" y=\"165\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">limewater</text></svg>"
+      },
       "options": [
         "CaCO₃(s)",
         "H₂O(l)",
@@ -346,7 +349,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Ethanol melts at −114 °C and boils at 78 °C. Which state symbol should be used for ethanol in a reaction at 100 °C?",
+      "question": "Table 1 shows the melting point and boiling point of ethanol.\nWhich state symbol should be used for ethanol in a reaction at 100 °C?",
+      "table": {
+        "headers": [
+          "Melting point in °C",
+          "Boiling point in °C"
+        ],
+        "rows": [
+          [
+            "−114",
+            "78"
+          ]
+        ]
+      },
       "options": [
         "(s)",
         "(l)",
@@ -403,7 +418,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Green copper carbonate decomposes when heated to form black copper oxide and carbon dioxide.\nCuCO₃ → CuO + CO₂\nAdd state symbols to the equation and use them to suggest two observations.",
+      "question": "Figure 1 shows apparatus used to heat green copper carbonate.\nCopper carbonate decomposes to form black copper oxide and carbon dioxide.\nCuCO₃ → CuO + CO₂\nAdd state symbols to the equation.\nUse the state symbols to suggest two observations.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M60 70H190A12 12 0 0 1 190 94H60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M150 93H192A10 10 0 0 0 192 73H170Q160 85 150 93Z\" fill=\"#86efac\" fill-opacity=\"0.5\"/><path d=\"M45 64H66V100H45Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M66 79H260V150M266 150V85H66\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M243 110V210A20 20 0 0 0 283 210V110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M244 150V210A19 19 0 0 0 282 210V150Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><text x=\"175\" y=\"135\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">heat</text><path d=\"M165 122V106M161 111L165 104L169 111M185 122V106M181 111L185 104L189 111\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"88\" x2=\"120\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"116\" y=\"45\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">copper carbonate</text><line x1=\"282\" y1=\"190\" x2=\"320\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"324\" y=\"195\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">limewater</text></svg>"
+      },
       "acceptedAnswers": [
         "CuCO₃(s)",
         "CuO(s)",
@@ -570,7 +588,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Aluminium oxide is dissolved in molten cryolite and electrolysed at about 950 °C. Aluminium melts at 660 °C. Oxygen is produced at the positive electrode.\nGive the state symbols for aluminium and oxygen as they are produced, and explain your choice for aluminium.",
+      "question": "Aluminium is produced by the electrolysis of aluminium oxide dissolved in molten cryolite.\nOxygen is produced at the positive electrode.\nTable 1 gives information about the process.\nGive the state symbols for aluminium and oxygen as they are produced.\nExplain your choice for aluminium.",
+      "table": {
+        "headers": [
+          "Information",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "Temperature of the electrolysis cell",
+            "950"
+          ],
+          [
+            "Melting point of aluminium",
+            "660"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "Al(l)",
         "O₂(g)",
@@ -589,10 +623,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "How many different state symbols are used in chemical equations at GCSE?",
+      "question": "How many different state symbols are used in chemical equations?",
       "numericAnswer": 4,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of state symbols",
       "markScheme": [
         "1 mark: 4"
       ],
@@ -604,10 +639,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "In this equation, how many of the substances have the state symbol (aq)?\nCaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)",
+      "question": "Calcium carbonate reacts with hydrochloric acid.\nCaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)\nHow many of the substances in the equation have the state symbol (aq)?",
       "numericAnswer": 2,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of substances",
       "markScheme": [
         "1 mark: 2"
       ],
@@ -619,10 +655,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Methane burns: CH₄ + 2O₂ → CO₂ + 2H₂O. At 120 °C all of the substances are gases. How many formulae in the equation should have the state symbol (g) at 120 °C?",
+      "question": "The equation for the combustion of methane is:\nCH₄ + 2O₂ → CO₂ + 2H₂O\nAt 120 °C all of the substances are gases.\nHow many formulae in the equation should have the state symbol (g) at 120 °C?",
       "numericAnswer": 4,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of formulae",
       "markScheme": [
         "1 mark: 4"
       ],
@@ -634,10 +671,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Water has a boiling point of 100 °C. At what temperature, in °C, would you change the state symbol for water from (l) to (g) as it is heated at normal pressure?",
+      "question": "Figure 1 shows a heating curve for water at normal pressure.\nAt what temperature should the state symbol for water change from (l) to (g)?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 310\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><path d=\"M70 260H370M70 242.9H370M70 225.7H370M70 208.6H370M70 191.4H370M70 174.3H370M70 157.1H370M70 140H370M70 122.9H370M70 105.7H370M70 88.6H370M70 71.4H370M70 54.3H370M70 37.1H370M70 20H370M70 20V260M95 20V260M120 20V260M145 20V260M170 20V260M195 20V260M220 20V260M245 20V260M270 20V260M295 20V260M320 20V260M345 20V260M370 20V260\" stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"0.8\"/><path d=\"M70 20V260H370\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"64\" y=\"264\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">−20</text><text x=\"64\" y=\"229.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"195.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"64\" y=\"161.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"64\" y=\"126.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"64\" y=\"92.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"64\" y=\"58.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"64\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><text x=\"70\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"120\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"170\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"220\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"270\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"320\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"370\" y=\"276\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"220\" y=\"296\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Time in minutes</text><text transform=\"translate(26 140) rotate(-90)\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Temperature in °C</text><polyline points=\"70,260 95,225.7 145,225.7 270,54.3 345,54.3 370,20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg>"
+      },
       "numericAnswer": 100,
       "tolerance": 0.01,
       "unit": "°C",
+      "answerLabel": "Temperature",
       "markScheme": [
         "1 mark: 100 (°C)"
       ],
@@ -663,7 +704,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A student investigates three reactions:\n1. Magnesium ribbon is added to dilute hydrochloric acid.\n2. Sodium hydroxide solution is added to dilute sulfuric acid.\n3. Carbon dioxide is bubbled through limewater (calcium hydroxide solution).\nFor each reaction write a balanced equation with state symbols and describe what the state symbols tell you about the observations.",
+      "question": "A student investigates the three reactions shown in Table 1.\nFor each reaction, write a balanced equation with state symbols.\nDescribe what the state symbols tell you about the observations.",
+      "table": {
+        "headers": [
+          "Reaction",
+          "Description"
+        ],
+        "rows": [
+          [
+            "1",
+            "Magnesium ribbon is added to dilute hydrochloric acid."
+          ],
+          [
+            "2",
+            "Sodium hydroxide solution is added to dilute sulfuric acid."
+          ],
+          [
+            "3",
+            "Carbon dioxide is bubbled through limewater (calcium hydroxide solution)."
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: 1: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g); solid magnesium disappears, bubbles / fizzing of hydrogen, magnesium chloride stays dissolved. 2: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l); all reactants and products are in solution or liquid, so no gas and no solid: no visible change (temperature rise could be measured). 3: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l); gas bubbled into solution; solid calcium carbonate forms as a precipitate, so the limewater turns cloudy / milky.",
         "Level 3 (5 to 6 marks): three correct balanced equations with all state symbols correct, each linked clearly to the expected observations",
