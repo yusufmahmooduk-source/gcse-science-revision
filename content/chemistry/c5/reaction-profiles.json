@@ -282,7 +282,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "On a reaction profile the reactants are at 50 kJ and the products are at 120 kJ. Which statement is correct?",
+      "question": "Figure 1 shows the reaction profile for a reaction.\nWhich statement about the reaction is correct?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 187.5 L140 187.5 C185 187.5 185 61.5 225 61.5 C265 61.5 255 114 300 114 L390 114\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"106\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "options": [
         "The reaction is exothermic and releases 70 kJ",
         "The reaction is exothermic and releases 120 kJ",
@@ -293,7 +296,7 @@
       "markScheme": [
         "1 mark: endothermic, takes in 70 kJ"
       ],
-      "explanation": "The products are higher than the reactants, so energy is taken in. The amount is 120 − 50 = 70 kJ."
+      "explanation": "Figure 1 shows the reactants at 50 kJ and the products at 120 kJ. The products are higher in energy, so the reaction is endothermic and takes in 120 − 50 = 70 kJ. 170 kJ is the energy at the peak, not the energy taken in."
     },
     {
       "id": "c5-reaction-profiles-q06",
@@ -301,18 +304,21 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which arrow on a reaction profile represents the activation energy?",
+      "question": "Figure 1 shows the reaction profile for an exothermic reaction.\nWhich arrow represents the activation energy?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"240\" x2=\"50\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"50,18 46.3,24 53.8,24\" fill=\"currentColor\"/><line x1=\"50\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"30\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 30 130)\">Energy</text><text x=\"225\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M65 93 L120 93 C165 93 170 46.8 210 46.8 C250 46.8 235 187.5 280 187.5 L390 187.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"67\" y=\"85\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"179.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text><line x1=\"120\" y1=\"93\" x2=\"210\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"210\" y1=\"93\" x2=\"210\" y2=\"46.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"210,46.8 206.3,52.8 213.8,52.8\" fill=\"currentColor\"/><text x=\"202\" y=\"74.9\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">B</text><line x1=\"280\" y1=\"187.5\" x2=\"305\" y2=\"187.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"210\" y1=\"46.8\" x2=\"305\" y2=\"46.8\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"305\" y1=\"187.5\" x2=\"305\" y2=\"46.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"305,46.8 301.3,52.8 308.8,52.8\" fill=\"currentColor\"/><text x=\"313\" y=\"122.2\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">A</text><line x1=\"100\" y1=\"93\" x2=\"120\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"100\" y1=\"187.5\" x2=\"280\" y2=\"187.5\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"100\" y1=\"93\" x2=\"100\" y2=\"187.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"100,187.5 96.3,181.5 103.8,181.5\" fill=\"currentColor\"/><text x=\"92\" y=\"145.3\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">C</text><line x1=\"210\" y1=\"46.8\" x2=\"355\" y2=\"46.8\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"355\" y1=\"240\" x2=\"355\" y2=\"46.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"355,46.8 351.3,52.8 358.8,52.8\" fill=\"currentColor\"/><text x=\"363\" y=\"148.4\" font-size=\"14\" fill=\"currentColor\" font-weight=\"bold\">D</text></svg>"
+      },
       "options": [
-        "From the products up to the peak",
-        "From the reactants up to the peak",
-        "From the reactants to the products",
-        "From the x-axis up to the peak"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 1,
       "markScheme": [
         "1 mark: from the reactants up to the peak"
       ],
-      "explanation": "The activation energy is the extra energy the reactants need to reach the top of the curve, so it is measured from the reactant level."
+      "explanation": "Activation energy is the minimum energy needed for particles to react, so it is measured from the reactants up to the peak of the curve: arrow B. Arrow A starts at the products, arrow C is the overall energy change and arrow D starts from zero energy rather than from the reactants."
     },
     {
       "id": "c5-reaction-profiles-q07",
@@ -339,7 +345,26 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Reaction A has an activation energy of 50 kJ/mol and an overall energy change of −100 kJ/mol. Reaction B has an activation energy of 150 kJ/mol and an overall energy change of −200 kJ/mol. Which statement is correct?",
+      "question": "Table 1 shows information about two reactions, A and B.\nWhich statement is correct?",
+      "table": {
+        "headers": [
+          "Reaction",
+          "Activation energy in kJ/mol",
+          "Overall energy change in kJ/mol"
+        ],
+        "rows": [
+          [
+            "A",
+            "50",
+            "−100"
+          ],
+          [
+            "B",
+            "150",
+            "−200"
+          ]
+        ]
+      },
       "options": [
         "Reaction A is more likely to start at room temperature because its activation energy is lower",
         "Reaction B is more likely to start at room temperature because it releases more energy",
@@ -396,14 +421,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "On a reaction profile the reactants are at 100 kJ, the peak of the curve is at 180 kJ and the products are at 40 kJ. Calculate the activation energy.",
+      "question": "Figure 1 shows the reaction profile for a reaction.\nDetermine the activation energy for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 135 L140 135 C185 135 185 51 225 51 C265 51 255 198 300 198 L390 198\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"127\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "numericAnswer": 80,
       "tolerance": 0.01,
       "unit": "kJ",
       "markScheme": [
         "1 mark: 180 − 100 = 80 kJ"
       ],
-      "explanation": "Activation energy is measured from the reactants to the peak: 180 − 100 = 80 kJ. Using the products (180 − 40 = 140 kJ) is a common mistake."
+      "explanation": "Read the reactants (100 kJ) and the peak (180 kJ) from Figure 1. Activation energy is measured from the reactants to the peak: 180 − 100 = 80 kJ. Using the products (180 − 40 = 140 kJ) is a common mistake.",
+      "answerLabel": "Activation energy"
     },
     {
       "id": "c5-reaction-profiles-q12",
@@ -411,14 +440,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "On a reaction profile the reactants are at 100 kJ and the products are at 40 kJ. Calculate the energy released to the surroundings.",
+      "question": "Figure 1 shows the reaction profile for an exothermic reaction.\nDetermine the energy released to the surroundings.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 135 L140 135 C185 135 185 72 225 72 C265 72 255 198 300 198 L390 198\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"127\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "numericAnswer": 60,
       "tolerance": 0.01,
       "unit": "kJ",
       "markScheme": [
         "1 mark: 100 − 40 = 60 kJ"
       ],
-      "explanation": "The products have 60 kJ less energy than the reactants, so 60 kJ is released. The overall energy change can be written as −60 kJ."
+      "explanation": "Figure 1 shows the reactants at 100 kJ and the products at 40 kJ. The products have 60 kJ less energy than the reactants, so 60 kJ is released. The overall energy change can be written as −60 kJ.",
+      "answerLabel": "Energy released"
     },
     {
       "id": "c5-reaction-profiles-q13",
@@ -426,14 +459,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "For an endothermic reaction, the reactants are at 30 kJ/mol, the peak is at 150 kJ/mol and the products are at 75 kJ/mol. Calculate the activation energy.",
+      "question": "Figure 1 shows the reaction profile for an endothermic reaction.\nDetermine the activation energy for the reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"220.9\" x2=\"400\" y2=\"220.9\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"224.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><line x1=\"70\" y1=\"201.8\" x2=\"400\" y2=\"201.8\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"205.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"70\" y1=\"182.7\" x2=\"400\" y2=\"182.7\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"186.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">45</text><line x1=\"70\" y1=\"163.6\" x2=\"400\" y2=\"163.6\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"167.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"144.5\" x2=\"400\" y2=\"144.5\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"148.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">75</text><line x1=\"70\" y1=\"125.5\" x2=\"400\" y2=\"125.5\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"129.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">90</text><line x1=\"70\" y1=\"106.4\" x2=\"400\" y2=\"106.4\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"110.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">105</text><line x1=\"70\" y1=\"87.3\" x2=\"400\" y2=\"87.3\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"91.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"68.2\" x2=\"400\" y2=\"68.2\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"72.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">135</text><line x1=\"70\" y1=\"49.1\" x2=\"400\" y2=\"49.1\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"53.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">150</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">165</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ/mol</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 201.8 L140 201.8 C185 201.8 185 49.1 225 49.1 C265 49.1 255 144.5 300 144.5 L390 144.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"193.8\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"136.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "numericAnswer": 120,
       "tolerance": 0.01,
       "unit": "kJ/mol",
       "markScheme": [
         "1 mark: 150 − 30 = 120 kJ/mol"
       ],
-      "explanation": "Activation energy = peak − reactants = 150 − 30 = 120 kJ/mol."
+      "explanation": "From Figure 1 the reactants are at 30 kJ/mol and the peak is at 150 kJ/mol. Activation energy = peak − reactants = 150 − 30 = 120 kJ/mol.",
+      "answerLabel": "Activation energy"
     },
     {
       "id": "c5-reaction-profiles-q14",
@@ -441,14 +478,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "For the same endothermic reaction (reactants 30 kJ/mol, products 75 kJ/mol), calculate the energy taken in from the surroundings.",
+      "question": "Figure 1 shows the reaction profile for an endothermic reaction.\nDetermine the energy taken in from the surroundings.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"220.9\" x2=\"400\" y2=\"220.9\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"224.9\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">15</text><line x1=\"70\" y1=\"201.8\" x2=\"400\" y2=\"201.8\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"205.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"70\" y1=\"182.7\" x2=\"400\" y2=\"182.7\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"186.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">45</text><line x1=\"70\" y1=\"163.6\" x2=\"400\" y2=\"163.6\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"167.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"144.5\" x2=\"400\" y2=\"144.5\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"148.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">75</text><line x1=\"70\" y1=\"125.5\" x2=\"400\" y2=\"125.5\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"129.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">90</text><line x1=\"70\" y1=\"106.4\" x2=\"400\" y2=\"106.4\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"110.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">105</text><line x1=\"70\" y1=\"87.3\" x2=\"400\" y2=\"87.3\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"91.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"68.2\" x2=\"400\" y2=\"68.2\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"72.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">135</text><line x1=\"70\" y1=\"49.1\" x2=\"400\" y2=\"49.1\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"53.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">150</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">165</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ/mol</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 201.8 L140 201.8 C185 201.8 185 49.1 225 49.1 C265 49.1 255 144.5 300 144.5 L390 144.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"193.8\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"136.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "numericAnswer": 45,
       "tolerance": 0.01,
       "unit": "kJ/mol",
       "markScheme": [
         "1 mark: 75 − 30 = 45 kJ/mol"
       ],
-      "explanation": "The products are 75 − 30 = 45 kJ/mol higher than the reactants, so 45 kJ/mol is taken in."
+      "explanation": "From Figure 1 the reactants are at 30 kJ/mol and the products are at 75 kJ/mol. The products are 75 − 30 = 45 kJ/mol higher than the reactants, so 45 kJ/mol is taken in. The peak (150 kJ/mol) is not needed.",
+      "answerLabel": "Energy taken in"
     },
     {
       "id": "c5-reaction-profiles-q15",
@@ -456,7 +497,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In an exothermic reaction the reactants are at 120 kJ. The products have 85 kJ less energy than the reactants and the activation energy is 35 kJ. Calculate the energy at the peak of the curve.",
+      "question": "An exothermic reaction has these energy values:\n• the reactants are at 120 kJ\n• the products have 85 kJ less energy than the reactants\n• the activation energy is 35 kJ.\nCalculate the energy at the peak of the reaction profile.",
       "numericAnswer": 155,
       "tolerance": 0.01,
       "unit": "kJ",
@@ -464,7 +505,8 @@
         "1 mark: peak = reactants + activation energy",
         "1 mark: 120 + 35 = 155 kJ"
       ],
-      "explanation": "The peak is the activation energy above the reactant level: 120 + 35 = 155 kJ. The 85 kJ released is not needed for this calculation."
+      "explanation": "The peak is the activation energy above the reactant level: 120 + 35 = 155 kJ. The 85 kJ released is not needed for this calculation.",
+      "answerLabel": "Energy at peak"
     },
     {
       "id": "c5-reaction-profiles-q16",
@@ -472,7 +514,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "For a reaction, the reactants are at 100 kJ, the peak is at 180 kJ and the products are at 40 kJ. Calculate the activation energy for the reverse reaction (products turning back into reactants).",
+      "question": "Figure 1 shows the reaction profile for a reaction.\nThe reaction is reversed so that the products turn back into the reactants.\nDetermine the activation energy for the reverse reaction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 280\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"244\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"219\" x2=\"400\" y2=\"219\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"223\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"70\" y1=\"198\" x2=\"400\" y2=\"198\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"202\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"70\" y1=\"177\" x2=\"400\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"181\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><line x1=\"70\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><line x1=\"70\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"139\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><line x1=\"70\" y1=\"114\" x2=\"400\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"118\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">120</text><line x1=\"70\" y1=\"93\" x2=\"400\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"97\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">140</text><line x1=\"70\" y1=\"72\" x2=\"400\" y2=\"72\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">160</text><line x1=\"70\" y1=\"51\" x2=\"400\" y2=\"51\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">180</text><line x1=\"70\" y1=\"30\" x2=\"400\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.3\"/><text x=\"64\" y=\"34\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"70,18 66.3,24 73.8,24\" fill=\"currentColor\"/><line x1=\"70\" y1=\"240\" x2=\"400\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"402,240 396,236.3 396,243.8\" fill=\"currentColor\"/><text x=\"18\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 18 130)\">Energy in kJ</text><text x=\"235\" y=\"270\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Progress of reaction</text><path d=\"M85 135 L140 135 C185 135 185 51 225 51 C265 51 255 198 300 198 L390 198\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"87\" y=\"127\" font-size=\"13\" fill=\"currentColor\">Reactants</text><text x=\"390\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Products</text></svg>"
+      },
       "numericAnswer": 140,
       "tolerance": 0.01,
       "unit": "kJ",
@@ -480,7 +525,8 @@
         "1 mark: reverse reaction starts at the products (40 kJ)",
         "1 mark: 180 − 40 = 140 kJ"
       ],
-      "explanation": "For the reverse reaction the starting level is the products, so the activation energy is measured from 40 kJ up to the peak: 180 − 40 = 140 kJ."
+      "explanation": "From Figure 1 the products are at 40 kJ and the peak is at 180 kJ. For the reverse reaction the starting level is the products, so the activation energy is measured from 40 kJ up to the peak: 180 − 40 = 140 kJ.",
+      "answerLabel": "Activation energy"
     },
     {
       "id": "c5-reaction-profiles-q17",
@@ -610,7 +656,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Three reactions have these energy values:\nP: activation energy 20 kJ/mol, overall energy change −90 kJ/mol\nQ: activation energy 200 kJ/mol, overall energy change −95 kJ/mol\nR: activation energy 25 kJ/mol, overall energy change +40 kJ/mol\nSuggest which reaction would be best for a hand warmer. Explain your answer.",
+      "question": "A company wants to use a reaction in a hand warmer.\nTable 1 shows information about three reactions, P, Q and R.\nSuggest which reaction would be best for a hand warmer.\nExplain your answer.",
+      "table": {
+        "headers": [
+          "Reaction",
+          "Activation energy in kJ/mol",
+          "Overall energy change in kJ/mol"
+        ],
+        "rows": [
+          [
+            "P",
+            "20",
+            "−90"
+          ],
+          [
+            "Q",
+            "200",
+            "−95"
+          ],
+          [
+            "R",
+            "25",
+            "+40"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "P",
         "exothermic",

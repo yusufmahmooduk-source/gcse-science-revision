@@ -283,7 +283,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the molecular formula of propane?",
+      "question": "Figure 1 shows the displayed formula of propane.\nWhat is the molecular formula of propane?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 240 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"93\" y1=\"60\" x2=\"111\" y2=\"60\"/><line x1=\"129\" y1=\"60\" x2=\"147\" y2=\"60\"/><line x1=\"75\" y1=\"60\" x2=\"57\" y2=\"60\"/><line x1=\"84\" y1=\"51\" x2=\"84\" y2=\"33\"/><line x1=\"84\" y1=\"69\" x2=\"84\" y2=\"87\"/><line x1=\"120\" y1=\"51\" x2=\"120\" y2=\"33\"/><line x1=\"120\" y1=\"69\" x2=\"120\" y2=\"87\"/><line x1=\"165\" y1=\"60\" x2=\"183\" y2=\"60\"/><line x1=\"156\" y1=\"51\" x2=\"156\" y2=\"33\"/><line x1=\"156\" y1=\"69\" x2=\"156\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"84\" y=\"65\">C</text><text x=\"120\" y=\"65\">C</text><text x=\"156\" y=\"65\">C</text><text x=\"48\" y=\"65\">H</text><text x=\"84\" y=\"29\">H</text><text x=\"84\" y=\"101\">H</text><text x=\"120\" y=\"29\">H</text><text x=\"120\" y=\"101\">H</text><text x=\"192\" y=\"65\">H</text><text x=\"156\" y=\"29\">H</text><text x=\"156\" y=\"101\">H</text></g></svg>"
+      },
       "options": [
         "C₃H₆",
         "C₃H₈",
@@ -378,7 +381,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many covalent bonds are shown in the displayed formula of ethane, C₂H₆?",
+      "question": "Figure 1 shows the displayed formula of ethane, C₂H₆.\nHow many covalent bonds are shown in Figure 1?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"91\" y1=\"60\" x2=\"109\" y2=\"60\"/><line x1=\"73\" y1=\"60\" x2=\"55\" y2=\"60\"/><line x1=\"82\" y1=\"51\" x2=\"82\" y2=\"33\"/><line x1=\"82\" y1=\"69\" x2=\"82\" y2=\"87\"/><line x1=\"127\" y1=\"60\" x2=\"145\" y2=\"60\"/><line x1=\"118\" y1=\"51\" x2=\"118\" y2=\"33\"/><line x1=\"118\" y1=\"69\" x2=\"118\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"82\" y=\"65\">C</text><text x=\"118\" y=\"65\">C</text><text x=\"46\" y=\"65\">H</text><text x=\"82\" y=\"29\">H</text><text x=\"82\" y=\"101\">H</text><text x=\"154\" y=\"65\">H</text><text x=\"118\" y=\"29\">H</text><text x=\"118\" y=\"101\">H</text></g></svg>"
+      },
       "options": [
         "6",
         "8",
@@ -397,7 +403,36 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Two consecutive members of the alkane family differ by which group of atoms?",
+      "question": "Table 1 shows the first four members of the alkane family.\nTwo consecutive members of the alkane family differ by which group of atoms?",
+      "table": {
+        "headers": [
+          "Name of alkane",
+          "Number of carbon atoms",
+          "Molecular formula"
+        ],
+        "rows": [
+          [
+            "Methane",
+            "1",
+            "CH₄"
+          ],
+          [
+            "Ethane",
+            "2",
+            "C₂H₆"
+          ],
+          [
+            "Propane",
+            "3",
+            "C₃H₈"
+          ],
+          [
+            "Butane",
+            "4",
+            "C₄H₁₀"
+          ]
+        ]
+      },
       "options": [
         "CH",
         "CH₃",
@@ -416,10 +451,40 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "An alkane has 8 carbon atoms. How many hydrogen atoms does it have?",
+      "question": "Table 1 shows the first four members of the alkane family.\nAn alkane has 8 carbon atoms.\nHow many hydrogen atoms does one molecule of this alkane contain?",
+      "table": {
+        "headers": [
+          "Name of alkane",
+          "Number of carbon atoms",
+          "Molecular formula"
+        ],
+        "rows": [
+          [
+            "Methane",
+            "1",
+            "CH₄"
+          ],
+          [
+            "Ethane",
+            "2",
+            "C₂H₆"
+          ],
+          [
+            "Propane",
+            "3",
+            "C₃H₈"
+          ],
+          [
+            "Butane",
+            "4",
+            "C₄H₁₀"
+          ]
+        ]
+      },
       "numericAnswer": 18,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of hydrogen atoms",
       "markScheme": [
         "1 mark: 18"
       ],
@@ -431,10 +496,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of propane, C₃H₈. (Ar: C = 12, H = 1)",
+      "question": "Propane has the formula C₃H₈.\nCalculate the relative formula mass (Mr) of propane.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 44,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass (Mr)",
       "markScheme": [
         "1 mark: (3 × 12) + (8 × 1)",
         "1 mark: 44"
@@ -447,10 +513,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "An alkane molecule contains 30 hydrogen atoms. How many carbon atoms does it contain?",
+      "question": "An alkane molecule contains 30 hydrogen atoms.\nCalculate the number of carbon atoms in one molecule of this alkane.",
       "numericAnswer": 14,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of carbon atoms",
       "markScheme": [
         "1 mark: 2n + 2 = 30",
         "1 mark: n = 14"
@@ -463,10 +530,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Calculate the relative formula mass (Mr) of the alkane with 10 carbon atoms. (Ar: C = 12, H = 1)",
+      "question": "An alkane has 10 carbon atoms in each molecule.\nCalculate the relative formula mass (Mr) of this alkane.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 142,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Relative formula mass (Mr)",
       "markScheme": [
         "1 mark: formula C₁₀H₂₂",
         "1 mark: Mr = 120 + 22 = 142"
@@ -479,10 +547,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "An alkane has a relative formula mass (Mr) of 72. Work out the number of carbon atoms in one molecule. (Ar: C = 12, H = 1)",
+      "question": "An alkane has a relative formula mass (Mr) of 72.\nCalculate the number of carbon atoms in one molecule of this alkane.\nRelative atomic masses (Ar): C = 12   H = 1",
       "numericAnswer": 5,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Number of carbon atoms",
       "markScheme": [
         "1 mark: Mr = 12n + (2n + 2) = 14n + 2",
         "1 mark: 14n + 2 = 72 so 14n = 70",
@@ -496,7 +565,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Name the alkane with the formula CH₄.",
+      "question": "Figure 1 shows the displayed formula of a hydrocarbon.\nName the alkane shown in Figure 1.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"80\" y1=\"51\" x2=\"80\" y2=\"33\"/><line x1=\"80\" y1=\"69\" x2=\"80\" y2=\"87\"/><line x1=\"71\" y1=\"60\" x2=\"53\" y2=\"60\"/><line x1=\"89\" y1=\"60\" x2=\"107\" y2=\"60\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"80\" y=\"65\">C</text><text x=\"80\" y=\"29\">H</text><text x=\"80\" y=\"101\">H</text><text x=\"44\" y=\"65\">H</text><text x=\"116\" y=\"65\">H</text></g></svg>"
+      },
       "acceptedAnswers": [
         "methane"
       ],
@@ -563,7 +635,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe the displayed formula of ethane. State how many C–H bonds and how many C–C bonds it contains.",
+      "question": "Describe the displayed formula of ethane, C₂H₆.\nGive the number of C–H bonds and the number of C–C bonds in one molecule.",
       "acceptedAnswers": [
         "6 C–H bonds",
         "1 C–C bond",
@@ -581,7 +653,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student says, 'C₇H₁₄ is an alkane because it only contains carbon and hydrogen.' Explain why the student is wrong.",
+      "question": "A student says:\n'C₇H₁₄ is an alkane because it contains only carbon and hydrogen.'\nExplain why the student is wrong.",
       "acceptedAnswers": [
         "alkane would be C₇H₁₆",
         "does not fit CₙH₂ₙ₊₂",
@@ -617,7 +689,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Use ideas about bonding to explain why there is no alkane with the formula CH₅ or C₂H₇.",
+      "question": "Figure 1 shows the displayed formulae of methane and ethane.\nUse Figure 1 and ideas about bonding to explain why there is no alkane with the formula CH₅ or C₂H₇.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 330 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"70\" y1=\"51\" x2=\"70\" y2=\"33\"/><line x1=\"70\" y1=\"69\" x2=\"70\" y2=\"87\"/><line x1=\"61\" y1=\"60\" x2=\"43\" y2=\"60\"/><line x1=\"79\" y1=\"60\" x2=\"97\" y2=\"60\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"70\" y=\"65\">C</text><text x=\"70\" y=\"29\">H</text><text x=\"70\" y=\"101\">H</text><text x=\"34\" y=\"65\">H</text><text x=\"106\" y=\"65\">H</text></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"219\" y1=\"60\" x2=\"237\" y2=\"60\"/><line x1=\"201\" y1=\"60\" x2=\"183\" y2=\"60\"/><line x1=\"210\" y1=\"51\" x2=\"210\" y2=\"33\"/><line x1=\"210\" y1=\"69\" x2=\"210\" y2=\"87\"/><line x1=\"255\" y1=\"60\" x2=\"273\" y2=\"60\"/><line x1=\"246\" y1=\"51\" x2=\"246\" y2=\"33\"/><line x1=\"246\" y1=\"69\" x2=\"246\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"210\" y=\"65\">C</text><text x=\"246\" y=\"65\">C</text><text x=\"174\" y=\"65\">H</text><text x=\"210\" y=\"29\">H</text><text x=\"210\" y=\"101\">H</text><text x=\"282\" y=\"65\">H</text><text x=\"246\" y=\"29\">H</text><text x=\"246\" y=\"101\">H</text></g><text x=\"70\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Methane, CH₄</text><text x=\"228\" y=\"130\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ethane, C₂H₆</text></svg>"
+      },
       "acceptedAnswers": [
         "carbon forms 4 bonds",
         "hydrogen forms 1 bond",
@@ -637,7 +712,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A hydrocarbon has 18 carbon atoms and 36 hydrogen atoms. Deduce whether it is an alkane. Give a reason.",
+      "question": "A hydrocarbon has 18 carbon atoms and 36 hydrogen atoms in each molecule.\nIs this hydrocarbon an alkane?\nGive a reason for your answer.",
       "acceptedAnswers": [
         "not an alkane",
         "alkane would be C₁₈H₃₈",
@@ -655,7 +730,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Butane has the molecular formula C₄H₁₀. Suggest one advantage of using a displayed formula rather than a molecular formula.",
+      "question": "Figure 1 shows the displayed formula of butane.\nThe molecular formula of butane is C₄H₁₀.\nSuggest one advantage of using a displayed formula rather than a molecular formula.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 270 120\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"90\" y1=\"60\" x2=\"108\" y2=\"60\"/><line x1=\"126\" y1=\"60\" x2=\"144\" y2=\"60\"/><line x1=\"162\" y1=\"60\" x2=\"180\" y2=\"60\"/><line x1=\"72\" y1=\"60\" x2=\"54\" y2=\"60\"/><line x1=\"81\" y1=\"51\" x2=\"81\" y2=\"33\"/><line x1=\"81\" y1=\"69\" x2=\"81\" y2=\"87\"/><line x1=\"117\" y1=\"51\" x2=\"117\" y2=\"33\"/><line x1=\"117\" y1=\"69\" x2=\"117\" y2=\"87\"/><line x1=\"153\" y1=\"51\" x2=\"153\" y2=\"33\"/><line x1=\"153\" y1=\"69\" x2=\"153\" y2=\"87\"/><line x1=\"198\" y1=\"60\" x2=\"216\" y2=\"60\"/><line x1=\"189\" y1=\"51\" x2=\"189\" y2=\"33\"/><line x1=\"189\" y1=\"69\" x2=\"189\" y2=\"87\"/></g><g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\"><text x=\"81\" y=\"65\">C</text><text x=\"117\" y=\"65\">C</text><text x=\"153\" y=\"65\">C</text><text x=\"189\" y=\"65\">C</text><text x=\"45\" y=\"65\">H</text><text x=\"81\" y=\"29\">H</text><text x=\"81\" y=\"101\">H</text><text x=\"117\" y=\"29\">H</text><text x=\"117\" y=\"101\">H</text><text x=\"153\" y=\"29\">H</text><text x=\"153\" y=\"101\">H</text><text x=\"225\" y=\"65\">H</text><text x=\"189\" y=\"29\">H</text><text x=\"189\" y=\"101\">H</text></g></svg>"
+      },
       "acceptedAnswers": [
         "shows the bonds",
         "shows how atoms are arranged",
@@ -674,7 +752,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe what crude oil is and how it was formed. Explain why it is described as a finite resource.",
+      "question": "Describe what crude oil is and how it was formed.\nExplain why crude oil is described as a finite resource.",
       "markScheme": [
         "Indicative content: formed from remains of ancient biomass, mainly plankton; buried in mud; changed by heat and pressure over millions of years; found in rocks; mixture of a very large number of compounds; mostly hydrocarbons (mostly alkanes); finite because it is used much faster than it forms, so it will run out.",
         "Level 2 (3 to 4 marks): clear description of formation and composition, with a correct explanation of finite.",
@@ -688,7 +766,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Explain how you could decide whether each of these compounds is an alkane: C₃H₈, C₆H₁₂, C₂H₅OH, C₂₀H₄₂. Your answer should refer to the definition of a hydrocarbon, the general formula and the bonding in alkanes.",
+      "question": "Table 1 shows the formulae of four compounds, A, B, C and D.\nExplain how you could decide whether each compound is an alkane.\nYour answer should refer to:\n• the definition of a hydrocarbon\n• the general formula of the alkanes\n• the bonding in alkanes.",
+      "table": {
+        "headers": [
+          "Compound",
+          "Formula"
+        ],
+        "rows": [
+          [
+            "A",
+            "C₃H₈"
+          ],
+          [
+            "B",
+            "C₆H₁₂"
+          ],
+          [
+            "C",
+            "C₂H₅OH"
+          ],
+          [
+            "D",
+            "C₂₀H₄₂"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: a hydrocarbon contains hydrogen and carbon only; C₂H₅OH contains oxygen so it is not a hydrocarbon and not an alkane; alkanes fit CₙH₂ₙ₊₂; C₃H₈: 2 × 3 + 2 = 8, so alkane (propane); C₆H₁₂: alkane would be C₆H₁₄, so not an alkane; C₂₀H₄₂: 2 × 20 + 2 = 42, so alkane; alkanes are saturated, with only single C–C bonds, each C forming four bonds and each H one bond; a hydrocarbon with fewer H than 2n + 2 must have a different structure (e.g. a double bond).",
         "Level 3 (5 to 6 marks): all four compounds correctly classified with reasons using both the hydrocarbon definition and CₙH₂ₙ₊₂, linked to saturated bonding.",
@@ -704,7 +806,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A hydrocarbon molecule contains 11 carbon atoms and has only single bonds. Which of these is its formula?",
+      "question": "A hydrocarbon molecule contains 11 carbon atoms.\nAll the bonds in the molecule are single bonds.\nWhat is the formula of the hydrocarbon?",
       "options": [
         "C₁₁H₂₂",
         "C₁₁H₂₀",
@@ -723,7 +825,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Give the name of the family of hydrocarbons that most of the compounds in crude oil belong to.",
+      "question": "Most of the compounds in crude oil are hydrocarbons.\nName the family of hydrocarbons that most of these compounds belong to.",
       "acceptedAnswers": [
         "alkanes"
       ],
