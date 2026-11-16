@@ -5,15 +5,14 @@
   "scripts": {
     "dev": "node scripts/build-data.mjs && next dev",
     "build": "node scripts/build-data.mjs && next build",
-    "start": "serve out -l tcp://0.0.0.0:${PORT:-3000}",
+    "start": "node server.mjs",
     "lint": "eslint",
     "validate": "node scripts/validate.mjs && node scripts/validate-practicals.mjs"
   },
   "dependencies": {
-    "next": "15.5.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "serve": "^14.2.4"
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -22,7 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "^16.4.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
