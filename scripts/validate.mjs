@@ -119,9 +119,26 @@ for (const file of files) {
       if (typeof q.unit !== "string") errs.push(`${tag}: unit must be string`);
     }
     if (q.type === "short" && (!Array.isArray(q.acceptedAnswers) || !q.acceptedAnswers.length)) errs.push(`${tag}: short needs acceptedAnswers`);
+    if (q.type === "numeric" && (typeof q.answerLabel !== "string" || q.answerLabel.trim().length < 2)) errs.push(`${tag}: numeric needs answerLabel`);
+    if (q.figure !== undefined) {
+      const fs_ = q.figure?.svg ?? "";
+      if (!fs_.startsWith("<svg") || !fs_.trim().endsWith("</svg>") || !/viewBox=/.test(fs_)) errs.push(`${tag}: figure.svg invalid`);
+      if (/<script|foreignObject|<image|href="http/i.test(fs_)) errs.push(`${tag}: figure has forbidden element`);
+      if (fs_.length > 8000) errs.push(`${tag}: figure SVG too large`);
+    }
+    if (q.table !== undefined) {
+      const t = q.table;
+      if (!Array.isArray(t?.headers) || t.headers.length < 2 || !Array.isArray(t?.rows) || !t.rows.length || !t.rows.every((r) => Array.isArray(r) && r.length === t.headers.length))
+        errs.push(`${tag}: table needs headers (>=2) and rows of the same length`);
+    }
+    const allText = [q.question, ...(q.options ?? [])].join(" ");
+    if (/\bFigure \d/.test(allText) && !q.figure) errs.push(`${tag}: mentions a Figure but has no figure`);
+    if (/\bTable \d/.test(allText) && !q.table) errs.push(`${tag}: mentions a Table but has no table`);
     if (q.type === "extended" && ![4, 6].includes(q.marks)) errs.push(`${tag}: extended must be 4 or 6 marks`);
   });
   need(count.mcq >= 8, `mcq: ${count.mcq} (need >= 8)`);
+  const visual = qs.filter((q) => q.figure || q.table).length;
+  need(visual >= 6, `only ${visual} questions with a figure or table (need >= 6)`);
   need(count.short >= 6, `short: ${count.short} (need >= 6)`);
   need(count.extended >= 2, `extended: ${count.extended} (need >= 2)`);
   need(qs.some((q) => q.type === "extended" && q.marks === 6), "need a 6-mark extended question");

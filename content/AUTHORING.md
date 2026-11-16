@@ -147,3 +147,40 @@ Run `node scripts/validate-practicals.mjs` after writing.
 Quizzes shuffle questions, so never refer to another question ("the previous
 question", "the first question", "the circuit above"). Repeat the data instead.
 The validator rejects these references.
+
+## Exam-paper style (applies to every question)
+
+Questions are displayed like a real AQA paper: boxed question numbers, "[n marks]",
+"Tick (✓) one box." for multiple choice, dotted answer lines, and a final answer
+line for calculations. Write every question so it reads exactly like an AQA paper:
+
+- Use AQA command words and phrasing: "Give one...", "Name...", "Describe how...",
+  "Explain why...", "Calculate...", "Use the equation...", "Suggest...",
+  "Evaluate...", "Complete the sentence." Don't write "Tick one box" yourself:
+  the site adds it to multiple-choice questions automatically.
+- Calculations: say what to use and how to give it, as AQA does, e.g.
+  "Use the equation: magnification = size of image ÷ size of real object" when the
+  equation is not one students must recall, "Give your answer to 2 significant
+  figures" or "Give your answer in standard form" where it matters.
+  Every numeric question MUST have `"answerLabel"`: the quantity name that goes
+  before the answer line, e.g. "Resistance" renders as "Resistance = ........ Ω".
+- `"figure"`: add one whenever a real paper would show a diagram: apparatus,
+  circuits, graphs to read values from, cells/organisms/structures to label or
+  identify, ray diagrams, energy/reaction profiles, wave diagrams, field lines,
+  displayed formulae, life cycles, food webs, maps of distribution, etc.
+  Shape: `"figure": { "svg": "<svg viewBox=...>...</svg>" }`. The stem then says
+  "Figure 1 shows..." and the question must be answerable from the figure. Same SVG
+  rules as notes diagrams (viewBox, no width/height, currentColor, soft fills only,
+  font-size 12+, under 6000 characters, no scripts). Graphs must have labelled axes
+  with units and readable gridlines/scale, and any value a student reads off must be
+  exactly where the answer says it is. Label parts with letters (A, B, C) when the
+  question asks students to identify them, and never print the answer on the figure.
+- `"table"`: whenever a question gives data (results, measurements, comparisons),
+  put it in a table instead of the stem:
+  `"table": { "headers": ["Temperature in °C", "Time in s"], "rows": [["20", "84"], ["30", "41"]] }`
+  and the stem says "Table 1 shows..." Headers include units as AQA does
+  ("Mass in g", "Volume in cm³").
+- A question may have both a figure and a table (then they are Figure 1 and Table 1).
+- Aim for a figure or a table on at least 6 questions in every subtopic (more in
+  maths, practical and graph-heavy subtopics). Every question that says "Figure 1"
+  must have a `figure`; every question that says "Table 1" must have a `table`.

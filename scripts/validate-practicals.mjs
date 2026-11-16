@@ -33,6 +33,7 @@ for (const file of files) {
   if (!(d.examTips?.length >= 3)) e.push("examTips >= 3");
   const qs = d.questions ?? [];
   if (qs.length < 12) e.push(`questions ${qs.length} (need >= 12)`);
+  if (qs.filter((q) => q.figure || q.table).length < 5) e.push("need >= 5 questions with a figure or table");
   const ids = new Set();
   qs.forEach((q, i) => {
     if (ids.has(q.id) || !q.id?.startsWith(d.id + "-q")) e.push(`q${i + 1}: bad/duplicate id`);
@@ -43,6 +44,12 @@ for (const file of files) {
     if (q.type === "mcq" && (q.options?.length !== 4 || !(q.answer >= 0 && q.answer <= 3))) e.push(`q${i + 1}: mcq options/answer`);
     if (q.type === "numeric" && (typeof q.numericAnswer !== "number" || typeof q.tolerance !== "number" || typeof q.unit !== "string")) e.push(`q${i + 1}: numeric fields`);
     if (q.type === "short" && !q.acceptedAnswers?.length) e.push(`q${i + 1}: acceptedAnswers`);
+    if (q.type === "numeric" && !(q.answerLabel?.trim().length >= 2)) e.push(`q${i + 1}: numeric needs answerLabel`);
+    if (q.figure && (!q.figure.svg?.startsWith("<svg") || !/viewBox/.test(q.figure.svg) || /<script|foreignObject|<image/.test(q.figure.svg) || q.figure.svg.length > 8000)) e.push(`q${i + 1}: figure svg invalid`);
+    if (q.table && (!(q.table.headers?.length >= 2) || !q.table.rows?.length || !q.table.rows.every((r) => r.length === q.table.headers.length))) e.push(`q${i + 1}: table invalid`);
+    const txt = [q.question, ...(q.options ?? [])].join(" ");
+    if (/\bFigure \d/.test(txt) && !q.figure) e.push(`q${i + 1}: mentions a Figure but has none`);
+    if (/\bTable \d/.test(txt) && !q.table) e.push(`q${i + 1}: mentions a Table but has none`);
   });
   if (/\b(TODO|lorem|TBD)\b/i.test(JSON.stringify(d))) e.push("placeholder text");
   const rel = path.relative(root, file);

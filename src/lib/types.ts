@@ -16,6 +16,12 @@ export interface Question {
   acceptedAnswers?: string[];
   markScheme: string[];
   explanation: string;
+  /** Exam-style figure shown under the stem; the stem refers to it as "Figure 1". */
+  figure?: { svg: string; caption?: string };
+  /** Exam-style data table; the stem refers to it as "Table 1". */
+  table?: { caption?: string; headers: string[]; rows: string[][] };
+  /** Label for the final answer line of a calculation, e.g. "Resistance". */
+  answerLabel?: string;
   // added at build time
   source?: { science: ScienceId; topicId: string; slug: string; title: string; higherOnly: boolean; separateOnly: boolean };
 }
