@@ -397,10 +397,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A bacterium divides once every 20 minutes inside a wound. Starting with one bacterium, how many bacteria will there be after 3 hours, assuming none die?",
+      "question": "A bacterium is inside a wound.\nTable 1 shows information about the bacteria.\nCalculate the number of bacteria there will be after 3 hours.\nAssume that no bacteria die.",
+      "table": {
+        "headers": [
+          "Number of bacteria at start",
+          "Mean time between divisions in minutes"
+        ],
+        "rows": [
+          [
+            "1",
+            "20"
+          ]
+        ]
+      },
       "numericAnswer": 512,
       "tolerance": 0,
       "unit": "bacteria",
+      "answerLabel": "Number of bacteria",
       "markScheme": [
         "1 mark: number of divisions = 180 ÷ 20 = 9",
         "1 mark: 2⁹ = 512"
@@ -413,10 +426,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "In a school of 1250 students, 75 students caught a communicable disease during one term. Calculate the percentage of students who caught the disease.",
+      "question": "Table 1 shows information about a communicable disease in a school during one term.\nCalculate the percentage of students who caught the disease.",
+      "table": {
+        "headers": [
+          "Number of students in the school",
+          "Number of students who caught the disease"
+        ],
+        "rows": [
+          [
+            "1250",
+            "75"
+          ]
+        ]
+      },
       "numericAnswer": 6,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of students",
       "markScheme": [
         "1 mark: 75 ÷ 1250 (= 0.06)",
         "1 mark: × 100 = 6%"
@@ -429,10 +455,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A hospital ward recorded 250 infections in a year. After hand gel was placed at every bed, the number fell to 160 infections the next year. Calculate the percentage decrease in infections.",
+      "question": "Hand gel was placed next to every bed on a hospital ward.\nFigure 1 shows the number of infections on the ward in the year before and the year after the hand gel was introduced.\nCalculate the percentage decrease in the number of infections.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 252H400M64 244.1H400M64 236.3H400M64 228.4H400M64 220.5H400M64 212.7H400M64 204.8H400M64 196.9H400M64 189.1H400M64 181.2H400M64 173.3H400M64 165.5H400M64 157.6H400M64 149.7H400M64 141.9H400M64 134H400M64 126.1H400M64 118.3H400M64 110.4H400M64 102.5H400M64 94.7H400M64 86.8H400M64 78.9H400M64 71.1H400M64 63.2H400M64 55.3H400M64 47.5H400M64 39.6H400M64 31.7H400M64 23.9H400M64 16H400\" stroke=\"currentColor\" stroke-opacity=\"0.12\" stroke-width=\"0.5\"/><path d=\"M64 252H400M64 212.7H400M64 173.3H400M64 134H400M64 94.7H400M64 55.3H400M64 16H400\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H400\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"216.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"58\" y=\"177.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">150</text><text x=\"58\" y=\"98.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"58\" y=\"59.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">250</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"232\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"></text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Number of infections</text><rect x=\"97.6\" y=\"55.3\" width=\"100.8\" height=\"196.7\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"148\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year before hand gel</text><rect x=\"265.6\" y=\"126.1\" width=\"100.8\" height=\"125.9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year after hand gel</text></svg>"
+      },
       "numericAnswer": 36,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: decrease = 250 − 160 = 90",
         "1 mark: (90 ÷ 250) × 100 = 36%"
@@ -445,10 +475,25 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A bacterial population inside a host doubles every 30 minutes. An infection starts with 200 bacteria. How many hours will it take for the population to reach 51 200 bacteria?",
+      "question": "An infection starts with a small number of bacteria inside a host.\nTable 1 shows information about the bacterial population.\nCalculate the time it takes for the population to reach 51 200 bacteria.\nGive your answer in hours.",
+      "table": {
+        "headers": [
+          "Number of bacteria at start",
+          "Time for population to double in minutes",
+          "Final number of bacteria"
+        ],
+        "rows": [
+          [
+            "200",
+            "30",
+            "51 200"
+          ]
+        ]
+      },
       "numericAnswer": 4,
       "tolerance": 0,
       "unit": "hours",
+      "answerLabel": "Time",
       "markScheme": [
         "1 mark: 51 200 ÷ 200 = 256",
         "1 mark: 256 = 2⁸, so 8 doublings",
@@ -462,7 +507,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by a communicable disease.",
+      "question": "What is meant by a communicable disease?",
       "acceptedAnswers": [
         "disease that can be spread/passed from one organism/person to another",
         "caused by a pathogen",
@@ -537,7 +582,36 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why isolating a patient with an infectious disease reduces the spread of the disease.",
+      "question": "Patients with the same infectious disease were admitted to two hospital wards.\nOn ward A the patients were isolated in separate rooms. On ward B the patients were not isolated.\nTable 1 shows the number of new cases of the disease on each ward.\nExplain why isolating a patient with an infectious disease reduces the spread of the disease.",
+      "table": {
+        "headers": [
+          "Week",
+          "New cases on ward A (isolated)",
+          "New cases on ward B (not isolated)"
+        ],
+        "rows": [
+          [
+            "1",
+            "2",
+            "2"
+          ],
+          [
+            "2",
+            "2",
+            "5"
+          ],
+          [
+            "3",
+            "1",
+            "9"
+          ],
+          [
+            "4",
+            "1",
+            "14"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "prevents contact",
         "fewer people exposed",
@@ -578,7 +652,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Suggest why diseases spread more quickly in crowded cities than in rural areas. Explain your answer.",
+      "question": "Figure 1 shows the number of cases of a communicable disease in a crowded city and in a rural area with the same number of people.\nSuggest why the disease spread more quickly in the city than in the rural area. Explain your answer.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 16V252M139.2 16V252M214.4 16V252M289.6 16V252M364.8 16V252M440 16V252M64 252H440M64 204.8H440M64 157.6H440M64 110.4H440M64 63.2H440M64 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"139.2\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"214.4\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"289.6\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"364.8\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">500</text><text x=\"252\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in weeks</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Number of cases</text><polyline points=\"64,249.6 139.2,242.6 214.4,219 289.6,167 364.8,101 440,39.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"64\" cy=\"249.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"139.2\" cy=\"242.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"214.4\" cy=\"219\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"289.6\" cy=\"167\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"364.8\" cy=\"101\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"39.6\" r=\"2.5\" fill=\"currentColor\"/><text x=\"342.2\" y=\"96.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">city</text><polyline points=\"64,249.6 139.2,248.2 214.4,245.4 289.6,241.6 364.8,237.8 440,234.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"64\" cy=\"249.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"139.2\" cy=\"248.2\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"214.4\" cy=\"245.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"289.6\" cy=\"241.6\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"364.8\" cy=\"237.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"234.1\" r=\"2.5\" fill=\"currentColor\"/><text x=\"364.8\" y=\"219\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">rural area</text></svg>"
+      },
       "acceptedAnswers": [
         "more contact between people",
         "people closer together",
@@ -619,7 +696,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State two ways that good hygiene can reduce the spread of disease.",
+      "question": "Give two ways that good hygiene can reduce the spread of disease.",
       "acceptedAnswers": [
         "handwashing",
         "disinfecting surfaces",

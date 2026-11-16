@@ -318,7 +318,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What does 'antibiotic-resistant strain' mean?",
+      "question": "What is meant by an antibiotic-resistant strain of bacteria?",
       "options": [
         "A person who is not affected by antibiotics",
         "A virus that can survive antibiotics",
@@ -337,7 +337,34 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Bacteria were grown on agar with discs of four antibiotics. The clear zone diameters were: W 12 mm, X 0 mm, Y 25 mm, Z 8 mm. Which antibiotic is most effective against these bacteria?",
+      "question": "A scientist grew bacteria on an agar plate. She placed four paper discs on the agar. Each disc contained a different antibiotic, W, X, Y or Z.\nFigure 1 shows the agar plate after incubation.\nTable 1 shows the diameter of the clear zone around each disc.\nWhich antibiotic is most effective against these bacteria?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 140a121 121 0 1 0 242 0a121 121 0 1 0 -242 0ZM73.3 85a16.7 16.7 0 1 0 33.3 0a16.7 16.7 0 1 0 -33.3 0ZM55.3 195a34.7 34.7 0 1 0 69.4 0a34.7 34.7 0 1 0 -69.4 0ZM188.9 195a11.1 11.1 0 1 0 22.2 0a11.1 11.1 0 1 0 -22.2 0Z\" fill-rule=\"evenodd\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"145\" cy=\"140\" r=\"125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"85\" r=\"16.666666666666664\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><circle cx=\"90\" cy=\"195\" r=\"34.72222222222222\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><circle cx=\"200\" cy=\"195\" r=\"11.11111111111111\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><circle cx=\"90\" cy=\"85\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"90\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">W</text><circle cx=\"200\" cy=\"85\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"200\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">X</text><circle cx=\"90\" cy=\"195\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"90\" y=\"199\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><circle cx=\"200\" cy=\"195\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"200\" y=\"199\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Z</text><rect x=\"300\" y=\"110\" width=\"18\" height=\"14\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"326\" y=\"122\" font-size=\"12\" fill=\"currentColor\">bacteria growing</text><rect x=\"300\" y=\"134\" width=\"18\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"326\" y=\"146\" font-size=\"12\" fill=\"currentColor\">clear zone</text><circle cx=\"309\" cy=\"165\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"326\" y=\"170\" font-size=\"12\" fill=\"currentColor\">paper disc</text></svg>"
+      },
+      "table": {
+        "headers": [
+          "Antibiotic",
+          "Diameter of clear zone in mm"
+        ],
+        "rows": [
+          [
+            "W",
+            "12"
+          ],
+          [
+            "X",
+            "0"
+          ],
+          [
+            "Y",
+            "25"
+          ],
+          [
+            "Z",
+            "8"
+          ]
+        ]
+      },
       "options": [
         "W",
         "X",
@@ -394,10 +421,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A hospital tested 2400 samples of a bacterium. 360 of the samples were resistant to an antibiotic.\nCalculate the percentage of samples that were resistant.",
+      "question": "A hospital tested samples of one type of bacterium for resistance to an antibiotic.\nTable 1 shows the results.\nCalculate the percentage of samples that were resistant to the antibiotic.",
+      "table": {
+        "headers": [
+          "Number of samples tested",
+          "Number of samples resistant to the antibiotic"
+        ],
+        "rows": [
+          [
+            "2400",
+            "360"
+          ]
+        ]
+      },
       "numericAnswer": 15,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage of samples resistant",
       "markScheme": [
         "1 mark: (360 ÷ 2400) × 100",
         "1 mark: 15(%)"
@@ -410,10 +450,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In one country the death rate from a bacterial disease fell from 450 per 100 000 people to 27 per 100 000 people after antibiotics were introduced.\nCalculate the percentage decrease in the death rate.",
+      "question": "Table 1 shows the death rate from a bacterial disease in one country before and after antibiotics were introduced.\nCalculate the percentage decrease in the death rate.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Time",
+          "Death rate per 100 000 people"
+        ],
+        "rows": [
+          [
+            "Before antibiotics were introduced",
+            "450"
+          ],
+          [
+            "After antibiotics were introduced",
+            "27"
+          ]
+        ]
+      },
       "numericAnswer": 94,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: (450 − 27) ÷ 450 × 100",
         "1 mark: 94(%)"
@@ -426,10 +483,14 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A clear zone around an antibiotic disc has a diameter of 18 mm.\nCalculate the area of the clear zone using area = πr². Give your answer to the nearest whole number.",
+      "question": "A student tested an antibiotic on bacteria grown on an agar plate.\nFigure 1 shows the clear zone around the antibiotic disc.\nCalculate the area of the clear zone.\nUse the equation: area = πr²\nGive your answer to the nearest whole number.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 130a114 114 0 1 0 228 0a114 114 0 1 0 -228 0ZM70 130a60 60 0 1 0 120 0a60 60 0 1 0 -120 0Z\" fill-rule=\"evenodd\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"130\" cy=\"130\" r=\"118\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"130\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><circle cx=\"130\" cy=\"130\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M70 130H190M70 124v12M190 124v12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M70 130l8 -4v8zM190 130l-8 -4v8z\" fill=\"currentColor\"/><rect x=\"102\" y=\"96\" width=\"56\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" rx=\"3\"/><text x=\"130\" y=\"110\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">18 mm</text><rect x=\"290\" y=\"100\" width=\"18\" height=\"14\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"112\" font-size=\"12\" fill=\"currentColor\">bacteria growing</text><rect x=\"290\" y=\"124\" width=\"18\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"316\" y=\"136\" font-size=\"12\" fill=\"currentColor\">clear zone</text><circle cx=\"299\" cy=\"155\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"160\" font-size=\"12\" fill=\"currentColor\">paper disc</text></svg>"
+      },
       "numericAnswer": 254,
       "tolerance": 0.01,
       "unit": "mm²",
+      "answerLabel": "Area of clear zone",
       "markScheme": [
         "1 mark: radius = 9 mm",
         "1 mark: π × 9² = 254 mm²"
@@ -442,10 +503,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A single resistant bacterium survives a course of antibiotics. In ideal conditions it divides once every 20 minutes.\nCalculate how many resistant bacteria there will be after 3 hours.",
+      "question": "A single resistant bacterium survives a course of antibiotics.\nIn ideal conditions the bacterium divides once every 20 minutes.\nCalculate the number of resistant bacteria there will be after 3 hours.",
       "numericAnswer": 512,
       "tolerance": 0,
       "unit": "bacteria",
+      "answerLabel": "Number of bacteria",
       "markScheme": [
         "1 mark: 3 hours = 180 minutes, so 180 ÷ 20 = 9 divisions",
         "1 mark: 2⁹ = 512"
@@ -458,7 +520,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what an antibiotic does inside the body.",
+      "question": "What do antibiotics do inside the body?",
       "acceptedAnswers": [
         "kills bacteria",
         "kills infective bacteria",
@@ -549,7 +611,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Antibiotics were first widely used in the 1940s. Describe the effect this has had on deaths from infectious diseases, and name the type of disease affected.",
+      "question": "Figure 1 shows the death rate from bacterial diseases in one country between 1900 and 2000.\nAntibiotics were first widely used in the 1940s.\nDescribe the effect the use of antibiotics has had on deaths from infectious diseases. Name the type of infectious disease affected.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 16V252M139.2 16V252M214.4 16V252M289.6 16V252M364.8 16V252M440 16V252M64 252H440M64 204.8H440M64 157.6H440M64 110.4H440M64 63.2H440M64 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1900</text><text x=\"139.2\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1920</text><text x=\"214.4\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1940</text><text x=\"289.6\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1960</text><text x=\"364.8\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1980</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2000</text><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">500</text><text x=\"252\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Deaths per 100 000 people</text><polyline points=\"64,34.9 101.6,49 139.2,63.2 176.8,77.4 214.4,91.5 252,195.4 289.6,223.7 327.2,233.1 364.8,237.8 402.4,238.8 440,239.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"64\" cy=\"34.9\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"101.6\" cy=\"49\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"139.2\" cy=\"63.2\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"176.8\" cy=\"77.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"214.4\" cy=\"91.5\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"252\" cy=\"195.4\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"289.6\" cy=\"223.7\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"327.2\" cy=\"233.1\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"364.8\" cy=\"237.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"402.4\" cy=\"238.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"239.3\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M233.20000000000002 25.439999999999998V252\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><text x=\"240.7\" y=\"30.2\" font-size=\"12\" fill=\"currentColor\">antibiotics first widely used</text></svg>"
+      },
       "acceptedAnswers": [
         "greatly reduced deaths",
         "bacterial diseases",
@@ -629,7 +694,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Antibiotic C produced no clear zone on a plate of bacteria from a patient. Antibiotic D produced a large clear zone. Suggest two conclusions the doctor could draw.",
+      "question": "A doctor sent bacteria from a patient's infection to a laboratory.\nThe bacteria were grown on an agar plate with discs of two antibiotics, C and D.\nFigure 1 shows the agar plate after incubation.\nSuggest two conclusions the doctor could make from Figure 1.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 130a114 114 0 1 0 228 0a114 114 0 1 0 -228 0ZM130 130a45 45 0 1 0 90 0a45 45 0 1 0 -90 0Z\" fill-rule=\"evenodd\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"130\" cy=\"130\" r=\"118\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"130\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><circle cx=\"75\" cy=\"130\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"75\" y=\"134\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><circle cx=\"175\" cy=\"130\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"175\" y=\"134\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"290\" y=\"100\" width=\"18\" height=\"14\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"112\" font-size=\"12\" fill=\"currentColor\">bacteria growing</text><rect x=\"290\" y=\"124\" width=\"18\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\"/><text x=\"316\" y=\"136\" font-size=\"12\" fill=\"currentColor\">clear zone</text><circle cx=\"299\" cy=\"155\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"316\" y=\"160\" font-size=\"12\" fill=\"currentColor\">paper disc</text></svg>"
+      },
       "acceptedAnswers": [
         "bacteria resistant to C",
         "C not effective against this bacterium",

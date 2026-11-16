@@ -3,9 +3,11 @@ import { useEffect, useMemo, useState } from "react";
 import type { Question, ScienceId } from "@/lib/types";
 import { ALL_SCIENCES, useBanks } from "@/lib/useBank";
 import { recordAttempt, recordSession, useStore } from "@/lib/store";
-import { markNumeric, formatNumber } from "@/lib/marking";
+import { markNumeric } from "@/lib/marking";
+import ExamQuestion from "@/components/ExamQuestion";
+import { MarkScheme } from "@/components/QuestionCard";
 import { filterForUser, pickQuestions } from "@/components/QuizRunner";
-import { Badge, Button, Text } from "@/components/ui";
+import { Badge, Button } from "@/components/ui";
 
 const PAPER_TOPICS: Record<ScienceId, [string[], string[]]> = {
   biology: [["b1", "b2", "b3", "b4"], ["b5", "b6", "b7"]],
@@ -173,70 +175,64 @@ export default function MockClient() {
         )}
       </div>
 
-      {qs.map((q, i) => {
-        const a = answers[q.id] ?? "";
-        const sc = submitted ? autoScore(q) : undefined;
-        return (
-          <div key={q.id} className="rounded-xl border border-line bg-card p-5">
-            <div className="mb-2 flex items-center gap-2">
-              <span className="font-bold text-accent">{String(i + 1).padStart(2, "0")}</span>
-              <span className="text-xs text-muted">{q.source?.title}</span>
-              <span className="ml-auto text-sm font-semibold text-muted">[{q.marks}]</span>
-            </div>
-            <p className="mb-3">
-              <Text>{q.question}</Text>
-            </p>
-            {q.type === "mcq" ? (
-              <div className="grid gap-2">
-                {q.options!.map((o, j) => {
-                  let cls = a === String(j) ? "border-accent bg-accent-soft" : "border-line";
-                  if (submitted && j === q.answer) cls = "border-green-600 bg-green-100 dark:bg-green-500/20";
-                  else if (submitted && a === String(j)) cls = "border-rose-500 bg-rose-100 dark:bg-rose-500/20";
-                  return (
-                    <button key={j} disabled={submitted} onClick={() => setAnswers({ ...answers, [q.id]: String(j) })} className={`rounded-lg border px-3 py-2 text-left text-sm ${cls}`}>
-                      <strong className="mr-2">{"ABCD"[j]}</strong>
-                      {o}
-                    </button>
-                  );
-                })}
-              </div>
-            ) : q.type === "numeric" ? (
-              <div className="flex items-center gap-2">
-                <input disabled={submitted} value={a} onChange={(e) => setAnswers({ ...answers, [q.id]: e.target.value })} className="w-56 rounded-lg border border-line bg-bg px-3 py-2 text-sm" />
-                <span className="text-sm text-muted">{q.unit}</span>
-              </div>
-            ) : (
-              <textarea disabled={submitted} value={a} rows={q.type === "extended" ? 6 : 3} onChange={(e) => setAnswers({ ...answers, [q.id]: e.target.value })} className="w-full rounded-lg border border-line bg-bg px-3 py-2 text-sm" />
-            )}
-            {submitted && (
-              <div className="mt-3 space-y-2 rounded-lg bg-bg p-3 text-sm">
-                {q.type === "numeric" && <p>Answer: {formatNumber(q.numericAnswer!)} {q.unit}</p>}
-                <ul className="list-disc pl-5">
-                  {q.markScheme.map((m, k) => (
-                    <li key={k}>
-                      <Text>{m}</Text>
-                    </li>
-                  ))}
-                </ul>
-                {(q.type === "short" || q.type === "extended") ? (
-                  <div className="flex flex-wrap items-center gap-2 pt-1">
-                    <span className="font-semibold">Your mark:</span>
-                    {Array.from({ length: q.marks + 1 }, (_, k) => (
-                      <button key={k} onClick={() => setSelf({ ...self, [q.id]: k })} className={`h-8 w-8 rounded-md border ${self[q.id] === k ? "border-accent bg-accent text-white" : "border-line bg-card"}`}>
-                        {k}
-                      </button>
-                    ))}
-                  </div>
-                ) : (
-                  <Badge tone={sc === q.marks ? "accent" : "rose"}>
-                    {sc}/{q.marks}
-                  </Badge>
-                )}
-              </div>
-            )}
+      {!submitted && (
+        <div className="paper exam p-6 sm:p-8">
+          <p className="text-sm font-bold uppercase tracking-wide">GCSE</p>
+          <h2 className="text-2xl font-bold capitalize">
+            {science} Paper {paper + 1} · {s.tier === "higher" ? "Higher" : "Foundation"} Tier
+          </h2>
+          <p className="mt-1 text-sm">Time allowed: {LENGTHS[len].mins} minutes · Total marks: {totalMarks}</p>
+          <div className="mt-4 border-t border-line pt-4 text-sm">
+            <p className="font-bold">Instructions</p>
+            <ul className="mt-1 list-disc space-y-1 pl-5">
+              <li>Answer all questions in the spaces provided.</li>
+              <li>In all calculations, show clearly how you work out your answer.</li>
+              <li>The marks for questions are shown in brackets.</li>
+              <li>Have a calculator and ruler ready. When you finish, press &quot;Finish and mark&quot; and mark your written answers against the mark scheme.</li>
+            </ul>
           </div>
-        );
-      })}
+        </div>
+      )}
+      <div className="paper divide-y divide-line">
+        {qs.map((q, i) => {
+          const a = answers[q.id] ?? "";
+          const sc = submitted ? autoScore(q) : undefined;
+          return (
+            <div key={q.id} className="p-5 sm:p-6">
+              <ExamQuestion
+                q={q}
+                number={i + 1}
+                value={a}
+                onChange={(v) => setAnswers({ ...answers, [q.id]: v })}
+                locked={submitted}
+                reveal={submitted && q.type === "mcq"}
+                context={q.source?.title}
+              />
+              {submitted && (
+                <>
+                  <MarkScheme q={q} />
+                  {q.type === "short" || q.type === "extended" ? (
+                    <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
+                      <span className="font-semibold">Your mark:</span>
+                      {Array.from({ length: q.marks + 1 }, (_, k) => (
+                        <button key={k} onClick={() => setSelf({ ...self, [q.id]: k })} className={`h-8 w-8 rounded-md border ${self[q.id] === k ? "border-accent bg-accent text-white" : "border-line bg-card"}`}>
+                          {k}
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="mt-3">
+                      <Badge tone={sc === q.marks ? "accent" : "rose"}>
+                        {sc}/{q.marks}
+                      </Badge>
+                    </p>
+                  )}
+                </>
+              )}
+            </div>
+          );
+        })}
+      </div>
       {!submitted && (
         <div className="flex justify-end">
           <Button onClick={() => { setSubmitted(true); window.scrollTo({ top: 0 }); }}>Finish and mark</Button>

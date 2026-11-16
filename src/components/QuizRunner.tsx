@@ -117,6 +117,7 @@ export default function QuizRunner({ pool, size = 10, label, autoOnly = false }:
       <QuestionCard
         key={`${key}-${q.id}-${i}`}
         q={q}
+        index={i}
         onDone={(r) => {
           const next = { ...results, [q.id]: r };
           setResults(next);

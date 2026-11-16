@@ -81,11 +81,36 @@
       "Estimated length of one cell (μm)"
     ],
     "rows": [
-      ["1", "1800", "8", "225"],
-      ["2", "1800", "9", "200"],
-      ["3", "1800", "7", "257"],
-      ["4", "1800", "8", "225"],
-      ["5", "1800", "8", "225"]
+      [
+        "1",
+        "1800",
+        "8",
+        "225"
+      ],
+      [
+        "2",
+        "1800",
+        "9",
+        "200"
+      ],
+      [
+        "3",
+        "1800",
+        "7",
+        "257"
+      ],
+      [
+        "4",
+        "1800",
+        "8",
+        "225"
+      ],
+      [
+        "5",
+        "1800",
+        "8",
+        "225"
+      ]
     ],
     "notes": "The field of view diameter was measured as 1.8 mm with a clear ruler, which is 1800 μm. Estimated cell length = diameter of field of view ÷ number of cells across it. The mean estimated length is (225 + 200 + 257 + 225 + 225) ÷ 5 = 226 μm (to 3 significant figures). A labelled drawing at ×400 should show box-shaped cells with a cell wall, cytoplasm, a nucleus and a large vacuole, and no chloroplasts."
   },
@@ -132,7 +157,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Why is iodine solution added to the onion epidermis before it is viewed under the microscope?",
+      "question": "A student added a few drops of iodine solution to onion epidermis on a microscope slide.\nWhy did the student add iodine solution?",
       "options": [
         "To kill the cells so they stop moving",
         "To stain structures such as the nucleus so they can be seen more clearly",
@@ -140,7 +165,9 @@
         "To make the cells bigger so they are easier to see"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: to stain structures (such as the nucleus or cell wall) and increase contrast"],
+      "markScheme": [
+        "1 mark: to stain structures (such as the nucleus or cell wall) and increase contrast"
+      ],
       "explanation": "Onion epidermis cells are almost colourless, so they are hard to see. Iodine stains the nucleus and cell wall, increasing contrast. Onion cells do not move, and the stain does not change their size. Water, not iodine, stops the tissue drying out."
     },
     {
@@ -149,7 +176,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which objective lens should be used first when viewing a new slide?",
+      "question": "Which objective lens should a student use first when viewing a new slide?",
       "options": [
         "×40, because it shows the most detail",
         "×10, because it is in the middle of the range",
@@ -157,7 +184,9 @@
         "×4, because it is the lowest power and gives the widest field of view"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: ×4 (the lowest power objective)"],
+      "markScheme": [
+        "1 mark: ×4 (the lowest power objective)"
+      ],
       "explanation": "The lowest power objective shows the largest area of the slide, so it is easiest to find the cells and focus. It also leaves the most space between lens and slide, so the slide is not damaged. You then move up to higher power once the cells are centred."
     },
     {
@@ -166,12 +195,31 @@
       "tier": "foundation",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student uses an eyepiece lens of ×10 and an objective lens of ×40.\nCalculate the total magnification.",
+      "question": "Table 1 shows the magnification of the lenses used on a light microscope.\nCalculate the total magnification.",
+      "table": {
+        "headers": [
+          "Lens",
+          "Magnification"
+        ],
+        "rows": [
+          [
+            "Eyepiece lens",
+            "×10"
+          ],
+          [
+            "Objective lens",
+            "×40"
+          ]
+        ]
+      },
       "numericAnswer": 400,
       "tolerance": 0,
       "unit": "",
-      "markScheme": ["1 mark: 400 (×400)"],
-      "explanation": "Total magnification = eyepiece magnification × objective magnification = 10 × 40 = 400. A common mistake is to add the two values (giving 50) instead of multiplying."
+      "markScheme": [
+        "1 mark: 400 (×400)"
+      ],
+      "explanation": "Total magnification = eyepiece magnification × objective magnification = 10 × 40 = 400. A common mistake is to add the two values (giving 50) instead of multiplying.",
+      "answerLabel": "Total magnification"
     },
     {
       "id": "bio-rp1-q04",
@@ -179,12 +227,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In a student's drawing, an onion cell is 36 mm long. The real length of the cell is 0.12 mm.\nCalculate the magnification of the drawing.",
+      "question": "Figure 1 shows a student's drawing of an onion cell.\nThe real length of the cell is 0.12 mm.\nCalculate the magnification of the drawing.\nUse the equation:\nmagnification = size of image ÷ size of real object",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 165\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"30\" width=\"280\" height=\"80\" rx=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"46\" y=\"36\" width=\"268\" height=\"68\" rx=\"3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><ellipse cx=\"115\" cy=\"70\" rx=\"20\" ry=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M40 130H320M47 126L40 130L47 134M313 126L320 130L313 134\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M40 122v16M320 122v16\" stroke=\"currentColor\"/><text x=\"180\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">36 mm</text></svg>"
+      },
       "numericAnswer": 300,
       "tolerance": 0,
       "unit": "",
-      "markScheme": ["1 mark: magnification = image size ÷ real size = 36 ÷ 0.12", "1 mark: ×300"],
-      "explanation": "Both lengths are already in mm, so divide directly: 36 ÷ 0.12 = 300. Dividing the wrong way round (0.12 ÷ 36) gives a number smaller than 1, which cannot be right for a drawing that is bigger than the real cell."
+      "markScheme": [
+        "1 mark: magnification = image size ÷ real size = 36 ÷ 0.12",
+        "1 mark: ×300"
+      ],
+      "explanation": "Both lengths are already in mm, so divide directly: 36 ÷ 0.12 = 300. Dividing the wrong way round (0.12 ÷ 36) gives a number smaller than 1, which cannot be right for a drawing that is bigger than the real cell.",
+      "answerLabel": "Magnification"
     },
     {
       "id": "bio-rp1-q05",
@@ -192,12 +247,33 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A photograph of an onion cell taken at a magnification of ×150 shows the cell as 45 mm long.\nCalculate the real length of the cell in micrometres (μm).",
+      "question": "A student took a photograph of an onion cell through a light microscope.\nTable 1 shows information about the photograph.\nCalculate the real length of the cell in micrometres (μm).\n1 mm = 1000 μm",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Magnification of the photograph",
+            "×150"
+          ],
+          [
+            "Length of the cell in the photograph in mm",
+            "45"
+          ]
+        ]
+      },
       "numericAnswer": 300,
       "tolerance": 0.01,
       "unit": "μm",
-      "markScheme": ["1 mark: real size = image size ÷ magnification = 45 ÷ 150", "1 mark: = 0.3 mm", "1 mark: × 1000 = 300 μm"],
-      "explanation": "Real size = 45 ÷ 150 = 0.3 mm. To convert mm to μm multiply by 1000, giving 300 μm. Students often forget to convert units, giving 0.3 as their final answer."
+      "markScheme": [
+        "1 mark: real size = image size ÷ magnification = 45 ÷ 150",
+        "1 mark: = 0.3 mm",
+        "1 mark: × 1000 = 300 μm"
+      ],
+      "explanation": "Real size = 45 ÷ 150 = 0.3 mm. To convert mm to μm multiply by 1000, giving 300 μm. Students often forget to convert units, giving 0.3 as their final answer.",
+      "answerLabel": "Real length"
     },
     {
       "id": "bio-rp1-q06",
@@ -206,8 +282,16 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Explain why the student must use a very thin layer of onion epidermis on the slide.",
-      "acceptedAnswers": ["light can pass through", "one layer of cells", "cells do not overlap", "can see individual cells"],
-      "markScheme": ["1 mark: so light can pass through the specimen", "1 mark: so it is a single layer of cells and cells do not overlap, making individual cells visible"],
+      "acceptedAnswers": [
+        "light can pass through",
+        "one layer of cells",
+        "cells do not overlap",
+        "can see individual cells"
+      ],
+      "markScheme": [
+        "1 mark: so light can pass through the specimen",
+        "1 mark: so it is a single layer of cells and cells do not overlap, making individual cells visible"
+      ],
       "explanation": "A light microscope works by shining light up through the specimen. If the tissue is thick, too little light passes through and overlapping cells make the image unclear."
     },
     {
@@ -216,9 +300,15 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Give the reason why the coverslip is lowered onto the specimen slowly and at an angle.",
-      "acceptedAnswers": ["to prevent air bubbles", "avoid trapping air bubbles", "stop air bubbles forming"],
-      "markScheme": ["1 mark: to avoid trapping air bubbles under the coverslip"],
+      "question": "Give one reason why the coverslip is lowered onto the specimen slowly and at an angle.",
+      "acceptedAnswers": [
+        "to prevent air bubbles",
+        "avoid trapping air bubbles",
+        "stop air bubbles forming"
+      ],
+      "markScheme": [
+        "1 mark: to avoid trapping air bubbles under the coverslip"
+      ],
       "explanation": "Air bubbles look like dark-edged circles and can hide cells or be mistaken for them. Lowering the coverslip from one side pushes the air out as the liquid spreads."
     },
     {
@@ -227,10 +317,17 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which structure would a student NOT see in onion epidermis cells viewed at ×400?",
-      "options": ["Cell wall", "Nucleus", "Chloroplast", "Cytoplasm"],
+      "question": "Which structure would a student not see in onion epidermis cells viewed at ×400?",
+      "options": [
+        "Cell wall",
+        "Nucleus",
+        "Chloroplast",
+        "Cytoplasm"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: chloroplast"],
+      "markScheme": [
+        "1 mark: chloroplast"
+      ],
       "explanation": "Onion epidermis cells are plant cells, so they have a cell wall, nucleus and cytoplasm. However, the onion bulb grows underground and does not photosynthesise, so its cells have no chloroplasts. Many students wrongly assume all plant cells contain chloroplasts."
     },
     {
@@ -239,12 +336,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "At ×100 the diameter of the field of view is 1.8 mm. A student counts 6 onion cells lying end to end across the diameter.\nEstimate the length of one cell in μm.",
+      "question": "Figure 1 shows the field of view when a student looked at onion cells with a light microscope at ×100.\nThe diameter of the field of view is 1.8 mm.\nUse Figure 1 to estimate the length of one cell in μm.\n1 mm = 1000 μm",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 320 270\" xmlns=\"http://www.w3.org/2000/svg\"><defs><clipPath id=\"fv\"><circle cx=\"160\" cy=\"125\" r=\"105\"/></clipPath></defs><circle cx=\"160\" cy=\"125\" r=\"105\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><g clip-path=\"url(#fv)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><rect x=\"2.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"37.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"72.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"107.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"142.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"177.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"212.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"247.5\" y=\"6.0\" width=\"35.0\" height=\"34\"/><rect x=\"20.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"55.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"90.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"125.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"160.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"195.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"230.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"265.0\" y=\"40.0\" width=\"35.0\" height=\"34\"/><rect x=\"2.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"37.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"72.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"107.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"142.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"177.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"212.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"247.5\" y=\"74.0\" width=\"35.0\" height=\"34\"/><rect x=\"20.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"55.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"90.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"125.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"160.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"195.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"230.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"265.0\" y=\"108.0\" width=\"35.0\" height=\"34\"/><rect x=\"2.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"37.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"72.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"107.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"142.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"177.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"212.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"247.5\" y=\"142.0\" width=\"35.0\" height=\"34\"/><rect x=\"20.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"55.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"90.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"125.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"160.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"195.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"230.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"265.0\" y=\"176.0\" width=\"35.0\" height=\"34\"/><rect x=\"2.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"37.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"72.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"107.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"142.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"177.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"212.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/><rect x=\"247.5\" y=\"210.0\" width=\"35.0\" height=\"34\"/></g><circle cx=\"160\" cy=\"125\" r=\"105\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M55 248H265M62 244L55 248L62 252M258 244L265 248L258 252\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><path d=\"M55 240v16M265 240v16\" stroke=\"currentColor\"/><text x=\"160\" y=\"266\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.8 mm</text></svg>"
+      },
       "numericAnswer": 300,
       "tolerance": 0.01,
       "unit": "μm",
-      "markScheme": ["1 mark: 1.8 mm = 1800 μm", "1 mark: 1800 ÷ 6 = 300 μm"],
-      "explanation": "Convert the diameter to micrometres first (1.8 × 1000 = 1800 μm), then divide by the number of cells: 1800 ÷ 6 = 300 μm."
+      "markScheme": [
+        "1 mark: 1.8 mm = 1800 μm",
+        "1 mark: 6 cells across the diameter, so 1800 ÷ 6 = 300 μm"
+      ],
+      "explanation": "Count the cells lying end to end across the widest part of the field of view: there are 6. Convert the diameter to micrometres first (1.8 × 1000 = 1800 μm), then divide by the number of cells: 1800 ÷ 6 = 300 μm.",
+      "answerLabel": "Length of one cell"
     },
     {
       "id": "bio-rp1-q10",
@@ -252,7 +356,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why should only the fine focusing knob be used when the ×40 objective lens is in place?",
+      "question": "Figure 1 shows a light microscope.\nWhy should a student use only the fine focusing knob when the ×40 objective lens is in place?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(60 0)\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"80\" y=\"262\" width=\"150\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><path d=\"M190 262V70h22v192z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"146\" y=\"62\" width=\"50\" height=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"120\" y=\"42\" width=\"30\" height=\"78\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"126\" y=\"14\" width=\"18\" height=\"28\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"108\" y=\"120\" width=\"54\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"112\" y=\"130\" width=\"10\" height=\"26\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"130\" y=\"130\" width=\"10\" height=\"40\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"148\" y=\"130\" width=\"10\" height=\"20\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"70\" y=\"178\" width=\"120\" height=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><rect x=\"100\" y=\"174\" width=\"70\" height=\"4\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M135 187v40\"/><circle cx=\"135\" cy=\"238\" r=\"11\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><circle cx=\"222\" cy=\"140\" r=\"14\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><circle cx=\"222\" cy=\"178\" r=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/></g><text x=\"4\" y=\"32\" font-size=\"12\" fill=\"currentColor\">Eyepiece lens</text><path d=\"M86 28L186 28\" stroke=\"currentColor\"/><text x=\"4\" y=\"152\" font-size=\"12\" fill=\"currentColor\">Objective lens</text><path d=\"M88 148L172 148\" stroke=\"currentColor\"/><text x=\"4\" y=\"190\" font-size=\"12\" fill=\"currentColor\">Stage</text><path d=\"M40 186L130 183\" stroke=\"currentColor\"/><text x=\"4\" y=\"172\" font-size=\"12\" fill=\"currentColor\">Slide</text><path d=\"M40 168L165 175\" stroke=\"currentColor\"/><text x=\"4\" y=\"242\" font-size=\"12\" fill=\"currentColor\">Lamp</text><path d=\"M38 238L184 238\" stroke=\"currentColor\"/><text x=\"310\" y=\"120\" font-size=\"12\" fill=\"currentColor\">Coarse</text><text x=\"310\" y=\"134\" font-size=\"12\" fill=\"currentColor\">focusing knob</text><path d=\"M308 128L296 140\" stroke=\"currentColor\"/><text x=\"310\" y=\"186\" font-size=\"12\" fill=\"currentColor\">Fine</text><text x=\"310\" y=\"200\" font-size=\"12\" fill=\"currentColor\">focusing knob</text><path d=\"M308 190L290 180\" stroke=\"currentColor\"/></svg>"
+      },
       "options": [
         "The coarse focusing knob only works at low power",
         "The fine focusing knob makes the image bigger",
@@ -260,7 +367,9 @@
         "The lens is very close to the slide, and a large movement could crash the lens into the slide"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: the objective is very close to the slide so the coarse knob could break the slide or damage the lens"],
+      "markScheme": [
+        "1 mark: the objective is very close to the slide so the coarse knob could break the slide or damage the lens"
+      ],
       "explanation": "At high power the gap between the objective and the slide is very small. The coarse knob moves the stage a long way, so it could push the slide into the lens. Neither knob changes magnification; they only change focus."
     },
     {
@@ -270,8 +379,19 @@
       "difficulty": 1,
       "marks": 3,
       "question": "Give three rules a student should follow when making a scientific drawing of cells seen under a microscope.",
-      "acceptedAnswers": ["sharp pencil", "no shading", "clear continuous lines", "label lines with a ruler", "label lines do not cross", "include magnification", "draw what you see", "title"],
-      "markScheme": ["1 mark each, up to 3: use a sharp pencil; clear, continuous outlines with no shading or sketchy lines; label lines drawn with a ruler that touch the structure and do not cross; state the magnification; draw only what is actually seen; give the drawing a title; take up a reasonable amount of the space"],
+      "acceptedAnswers": [
+        "sharp pencil",
+        "no shading",
+        "clear continuous lines",
+        "label lines with a ruler",
+        "label lines do not cross",
+        "include magnification",
+        "draw what you see",
+        "title"
+      ],
+      "markScheme": [
+        "1 mark each, up to 3: use a sharp pencil; clear, continuous outlines with no shading or sketchy lines; label lines drawn with a ruler that touch the structure and do not cross; state the magnification; draw only what is actually seen; give the drawing a title; take up a reasonable amount of the space"
+      ],
       "explanation": "Scientific drawings are meant to be accurate records, not artistic pictures. Shading and sketchy lines make structures unclear, and including the magnification allows the real size to be calculated."
     },
     {
@@ -280,12 +400,40 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The mean length of an onion epidermal cell was estimated as 225 μm.\nGive this length in metres. (1 m = 1 000 000 μm)",
+      "question": "A student measured the lengths of four onion epidermal cells.\nTable 1 shows the results.\nCalculate the mean length of the cells in metres.\nGive your answer in standard form.\n1 m = 1 000 000 μm",
+      "table": {
+        "headers": [
+          "Cell",
+          "Length in μm"
+        ],
+        "rows": [
+          [
+            "1",
+            "210"
+          ],
+          [
+            "2",
+            "240"
+          ],
+          [
+            "3",
+            "230"
+          ],
+          [
+            "4",
+            "220"
+          ]
+        ]
+      },
       "numericAnswer": 0.000225,
       "tolerance": 0.01,
       "unit": "m",
-      "markScheme": ["1 mark: 225 ÷ 1 000 000", "1 mark: 2.25 × 10⁻⁴ m (0.000225 m)"],
-      "explanation": "There are 10⁶ μm in a metre, so divide by 1 000 000: 225 ÷ 1 000 000 = 0.000225 m, which is 2.25 × 10⁻⁴ m in standard form."
+      "markScheme": [
+        "1 mark: mean = (210 + 240 + 230 + 220) ÷ 4 = 225 μm",
+        "1 mark: 225 ÷ 1 000 000 = 2.25 × 10⁻⁴ m"
+      ],
+      "explanation": "First calculate the mean: 900 ÷ 4 = 225 μm. There are 10⁶ μm in a metre, so divide by 1 000 000: 225 ÷ 1 000 000 = 0.000225 m, which is 2.25 × 10⁻⁴ m in standard form.",
+      "answerLabel": "Mean length"
     },
     {
       "id": "bio-rp1-q13",
@@ -293,9 +441,17 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student counted the number of cells across the field of view in only one place on the slide. Suggest why this estimate of cell length might not be representative, and how it could be improved.",
-      "acceptedAnswers": ["cells vary in size", "repeat in different fields of view", "calculate a mean", "several areas of the slide"],
-      "markScheme": ["1 mark: cells vary in size, so one area may contain unusually large or small cells", "1 mark: count cells in several different fields of view and calculate a mean"],
+      "question": "A student estimated the length of onion cells by counting the cells across the field of view in only one place on the slide.\nSuggest why this estimate might not be representative.\nSuggest how the estimate could be improved.",
+      "acceptedAnswers": [
+        "cells vary in size",
+        "repeat in different fields of view",
+        "calculate a mean",
+        "several areas of the slide"
+      ],
+      "markScheme": [
+        "1 mark: cells vary in size, so one area may contain unusually large or small cells",
+        "1 mark: count cells in several different fields of view and calculate a mean"
+      ],
       "explanation": "Biological material is variable. Repeating the count in several places and calculating a mean reduces the effect of any one unusual area and gives a more representative estimate."
     },
     {

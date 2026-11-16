@@ -252,7 +252,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which of these is NOT carried dissolved in plasma?",
+      "question": "Plasma transports many substances around the body.\nWhich substance is not transported dissolved in the plasma?",
       "options": [
         "Urea",
         "Glucose",
@@ -290,7 +290,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A student sees a large cell with a lobed nucleus in a blood smear. What is it?",
+      "question": "Figure 1 shows a blood smear viewed using a light microscope.\nCell X is large and has a lobed nucleus.\nWhat type of cell is X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"400\" height=\"220\" rx=\"8\" fill=\"#fde68a\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"60\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"60\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"110\" cy=\"45\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"45\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"70\" cy=\"120\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"120\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"150\" cy=\"180\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"180\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"250\" cy=\"60\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"250\" cy=\"60\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"300\" cy=\"190\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"300\" cy=\"190\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"350\" cy=\"80\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"350\" cy=\"80\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"360\" cy=\"150\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"360\" cy=\"150\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"210\" cy=\"200\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"210\" cy=\"200\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"60\" cy=\"190\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"190\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"240\" cy=\"130\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"240\" cy=\"130\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"170\" cy=\"105\" r=\"34\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M150 101c-2 -12 10 -16 14 -8c4 -10 16 -8 14 2c10 -2 14 10 6 16c-6 6 -14 0 -16 -4c-4 8 -16 8 -18 -6z\" fill=\"#c4b5fd\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 120l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M110 170l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M330 40l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"190\" y1=\"95\" x2=\"262\" y2=\"30\" stroke=\"currentColor\"/><text x=\"269\" y=\"34\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">X</text></svg>"
+      },
       "options": [
         "A white blood cell",
         "A red blood cell",
@@ -301,7 +304,7 @@
       "markScheme": [
         "1 mark: A"
       ],
-      "explanation": "Only white blood cells have a nucleus in blood. Red blood cells and platelets have none."
+      "explanation": "Cell X has a nucleus and is much larger than the cells around it, so it is a white blood cell. Red blood cells and platelets have no nucleus."
     },
     {
       "id": "b2-blood-q07",
@@ -309,7 +312,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Plasma carries urea from:",
+      "question": "Urea is transported in the plasma.\nComplete the sentence.\nPlasma transports urea from",
       "options": [
         "the kidneys to the liver",
         "the lungs to the kidneys",
@@ -347,7 +350,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A person has a low platelet count. Which symptom is most likely?",
+      "question": "Table 1 shows the results of a blood test for a patient.\nWhich symptom is the patient most likely to have?",
+      "table": {
+        "headers": [
+          "Component of blood",
+          "Patient's result per mm³",
+          "Normal range per mm³"
+        ],
+        "rows": [
+          [
+            "Red blood cells",
+            "5 000 000",
+            "4 500 000 to 5 500 000"
+          ],
+          [
+            "White blood cells",
+            "7 000",
+            "4 000 to 11 000"
+          ],
+          [
+            "Platelets",
+            "40 000",
+            "150 000 to 400 000"
+          ]
+        ]
+      },
       "options": [
         "Breathlessness during exercise",
         "Frequent infections",
@@ -358,7 +385,7 @@
       "markScheme": [
         "1 mark: C"
       ],
-      "explanation": "Platelets help blood clot, so too few means poor clotting. Breathlessness suggests too few red cells; frequent infections suggest too few white cells."
+      "explanation": "Only the platelet count is outside (below) the normal range. Platelets help blood clot, so too few means poor clotting, easy bruising and longer bleeding. Breathlessness would suggest too few red blood cells; frequent infections would suggest too few white blood cells."
     },
     {
       "id": "b2-blood-q10",
@@ -366,7 +393,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "At high altitude there is less oxygen in the air. After several weeks there, a climber's blood would be expected to contain:",
+      "question": "There is less oxygen in the air at high altitude.\nA climber spends several weeks at high altitude.\nWhich change would be expected in the climber's blood?",
       "options": [
         "more red blood cells",
         "more platelets",
@@ -404,7 +431,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "An adult has 5.0 dm³ of blood. 55% of this is plasma. Calculate the volume of plasma.",
+      "question": "Table 1 shows the composition of blood by volume.\nAn adult has 5.0 dm³ of blood.\nCalculate the volume of plasma in this adult's blood.",
+      "table": {
+        "headers": [
+          "Component",
+          "Percentage of blood volume"
+        ],
+        "rows": [
+          [
+            "Plasma",
+            "55"
+          ],
+          [
+            "Red blood cells",
+            "44"
+          ],
+          [
+            "White blood cells and platelets",
+            "1"
+          ]
+        ]
+      },
       "numericAnswer": 2.75,
       "tolerance": 0.01,
       "unit": "dm³",
@@ -412,7 +459,8 @@
         "1 mark: 0.55 × 5.0",
         "1 mark: 2.75 dm³"
       ],
-      "explanation": "55% of 5.0 = 0.55 × 5.0 = 2.75 dm³."
+      "explanation": "55% of 5.0 = 0.55 × 5.0 = 2.75 dm³.",
+      "answerLabel": "Volume of plasma"
     },
     {
       "id": "b2-blood-q13",
@@ -420,7 +468,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A red blood cell has a real diameter of 8 μm. In a drawing it is 24 mm across. Calculate the magnification of the drawing.",
+      "question": "Figure 1 shows a student's drawing of a red blood cell.\nThe real diameter of the red blood cell is 8 μm.\nCalculate the magnification of the drawing.\nUse the equation:\nmagnification = size of image ÷ size of real object",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"180\" cy=\"95\" r=\"70\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"95\" r=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><line x1=\"110\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M110 180l8 -4v8zM250 180l-8 -4v8z\" fill=\"currentColor\"/><line x1=\"110\" y1=\"170\" x2=\"110\" y2=\"190\" stroke=\"currentColor\"/><line x1=\"250\" y1=\"170\" x2=\"250\" y2=\"190\" stroke=\"currentColor\"/><text x=\"180\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">24 mm</text></svg>"
+      },
       "numericAnswer": 3000,
       "tolerance": 0,
       "unit": "",
@@ -428,7 +479,8 @@
         "1 mark: 24 mm = 24 000 μm",
         "1 mark: 24 000 ÷ 8 = 3000 (× 3000)"
       ],
-      "explanation": "Convert the image size to μm: 24 × 1000 = 24 000 μm. Magnification = 24 000 ÷ 8 = × 3000."
+      "explanation": "Convert the image size to μm: 24 × 1000 = 24 000 μm. Magnification = 24 000 ÷ 8 = × 3000.",
+      "answerLabel": "Magnification"
     },
     {
       "id": "b2-blood-q14",
@@ -436,7 +488,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A micrograph is magnified × 1500. A white blood cell in the image is 18 mm across. Calculate the real diameter of the cell in μm.",
+      "question": "Figure 1 shows a white blood cell in a micrograph magnified × 1500.\nCalculate the real diameter of the white blood cell.\nGive your answer in micrometres (μm).",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"180\" cy=\"100\" r=\"80\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M130 95c-6 -30 26 -42 36 -20c10 -26 42 -20 36 6c26 -6 36 26 14 40c-16 14 -36 0 -42 -10c-10 20 -40 20 -44 -16z\" fill=\"#c4b5fd\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"250\" y=\"40\" font-size=\"12\" fill=\"currentColor\">Nucleus</text><line x1=\"248\" y1=\"44\" x2=\"222\" y2=\"92\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"200\" x2=\"260\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M100 200l8 -4v8zM260 200l-8 -4v8z\" fill=\"currentColor\"/><line x1=\"100\" y1=\"190\" x2=\"100\" y2=\"210\" stroke=\"currentColor\"/><line x1=\"260\" y1=\"190\" x2=\"260\" y2=\"210\" stroke=\"currentColor\"/><text x=\"180\" y=\"194\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">18 mm</text><text x=\"10\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Magnification × 1500</text></svg>"
+      },
       "numericAnswer": 12,
       "tolerance": 0,
       "unit": "μm",
@@ -444,7 +499,8 @@
         "1 mark: 18 ÷ 1500 = 0.012 mm",
         "1 mark: 0.012 × 1000 = 12 μm"
       ],
-      "explanation": "Real size = image ÷ magnification = 18 ÷ 1500 = 0.012 mm = 12 μm. This is larger than a red blood cell (about 7 to 8 μm), as expected."
+      "explanation": "Real size = image ÷ magnification = 18 ÷ 1500 = 0.012 mm = 12 μm. This is larger than a red blood cell (about 7 to 8 μm), as expected.",
+      "answerLabel": "Real diameter"
     },
     {
       "id": "b2-blood-q15",
@@ -452,7 +508,23 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "1 mm³ of blood contains 5 000 000 red blood cells and 8000 white blood cells. Calculate how many red blood cells there are for every white blood cell.",
+      "question": "Table 1 shows the number of red blood cells and white blood cells in 1 mm³ of a person's blood.\nCalculate the number of red blood cells for every one white blood cell.",
+      "table": {
+        "headers": [
+          "Type of blood cell",
+          "Number in 1 mm³ of blood"
+        ],
+        "rows": [
+          [
+            "Red blood cells",
+            "5 000 000"
+          ],
+          [
+            "White blood cells",
+            "8 000"
+          ]
+        ]
+      },
       "numericAnswer": 625,
       "tolerance": 0,
       "unit": "",
@@ -460,7 +532,8 @@
         "1 mark: 5 000 000 ÷ 8000",
         "1 mark: 625"
       ],
-      "explanation": "5 000 000 ÷ 8000 = 625, so the ratio is 625 : 1."
+      "explanation": "5 000 000 ÷ 8000 = 625, so the ratio is 625 : 1.",
+      "answerLabel": "Number of red blood cells per white blood cell"
     },
     {
       "id": "b2-blood-q16",
@@ -468,7 +541,23 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A healthy platelet count is 250 000 per mm³. A patient's count is 90 000 per mm³. Calculate the percentage decrease compared with the healthy value.",
+      "question": "Table 1 shows the platelet count of a healthy person and of a patient.\nCalculate the percentage decrease in the patient's platelet count compared with the healthy person.",
+      "table": {
+        "headers": [
+          "Person",
+          "Platelet count per mm³"
+        ],
+        "rows": [
+          [
+            "Healthy person",
+            "250 000"
+          ],
+          [
+            "Patient",
+            "90 000"
+          ]
+        ]
+      },
       "numericAnswer": 64,
       "tolerance": 0.01,
       "unit": "%",
@@ -476,7 +565,8 @@
         "1 mark: (250 000 − 90 000) ÷ 250 000 × 100",
         "1 mark: 64%"
       ],
-      "explanation": "Decrease = 160 000. 160 000 ÷ 250 000 = 0.64, so a 64% decrease."
+      "explanation": "Decrease = 160 000. 160 000 ÷ 250 000 = 0.64, so a 64% decrease.",
+      "answerLabel": "Percentage decrease"
     },
     {
       "id": "b2-blood-q17",
@@ -580,7 +670,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A blood smear shows many small cells without a nucleus, a few larger cells with a nucleus, and tiny fragments. Identify each type and suggest why the white blood cells are much less numerous than red blood cells.",
+      "question": "Figure 1 shows a blood smear viewed using a light microscope.\nIdentify cells A, B and C.\nSuggest why there are far fewer white blood cells than red blood cells in blood.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"400\" height=\"220\" rx=\"8\" fill=\"#fde68a\" fill-opacity=\"0.2\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"60\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"60\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"110\" cy=\"45\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"45\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"70\" cy=\"120\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"120\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"150\" cy=\"180\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"150\" cy=\"180\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"250\" cy=\"60\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"250\" cy=\"60\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"300\" cy=\"190\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"300\" cy=\"190\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"350\" cy=\"80\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"350\" cy=\"80\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"360\" cy=\"150\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"360\" cy=\"150\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"210\" cy=\"200\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"210\" cy=\"200\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"60\" cy=\"190\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"190\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"240\" cy=\"130\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"240\" cy=\"130\" r=\"8.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.4\"/><circle cx=\"170\" cy=\"105\" r=\"34\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M150 101c-2 -12 10 -16 14 -8c4 -10 16 -8 14 2c10 -2 14 10 6 16c-6 6 -14 0 -16 -4c-4 8 -16 8 -18 -6z\" fill=\"#c4b5fd\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M300 120l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M110 170l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M330 40l5 -3l4 4l-2 5l-6 0z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"250\" y1=\"60\" x2=\"290\" y2=\"20\" stroke=\"currentColor\"/><text x=\"294\" y=\"24\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">A</text><line x1=\"160\" y1=\"76\" x2=\"148\" y2=\"24\" stroke=\"currentColor\"/><text x=\"144\" y=\"28\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\" font-weight=\"bold\">B</text><line x1=\"302\" y1=\"121\" x2=\"330\" y2=\"105\" stroke=\"currentColor\"/><text x=\"334\" y=\"109\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">C</text></svg>"
+      },
       "acceptedAnswers": [
         "red blood cells",
         "white blood cells",
@@ -589,11 +682,11 @@
         "oxygen needed by all cells"
       ],
       "markScheme": [
-        "1 mark: small cells without nucleus are red blood cells; larger cells with nucleus are white blood cells",
-        "1 mark: tiny fragments are platelets",
-        "1 mark: red cells must carry oxygen to all cells all the time, while white cells are only needed in large numbers when pathogens are present / numbers increase during infection"
+        "1 mark: A is a red blood cell and B is a white blood cell",
+        "1 mark: C is a platelet",
+        "1 mark: red blood cells are needed all the time to carry oxygen to all body cells, while white blood cells are only needed in large numbers when pathogens are present / numbers increase during infection"
       ],
-      "explanation": "Identification uses size, nucleus and number. The difference in numbers reflects continuous oxygen demand compared with defence needed mainly during infection."
+      "explanation": "A is small with no nucleus (red blood cell), B is large with a lobed nucleus (white blood cell) and C is a tiny cell fragment (platelet). The difference in numbers reflects a continuous need for oxygen transport compared with defence, which is needed mainly during infection."
     },
     {
       "id": "b2-blood-q23",
@@ -621,7 +714,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State the function of white blood cells.",
+      "question": "Give the function of white blood cells.",
       "acceptedAnswers": [
         "defend against pathogens",
         "fight infection",

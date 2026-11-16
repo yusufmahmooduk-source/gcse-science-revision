@@ -241,18 +241,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which of these substances is a compound?",
+      "question": "Figure 1 shows the particles in four different substances, A, B, C and D.\nEach circle represents an atom. Different shadings represent atoms of different elements.\nWhich substance is a compound?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 520 178\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"10\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"35\" cy=\"35\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"90\" cy=\"40\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"60\" cy=\"68\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"32\" cy=\"98\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"95\" cy=\"95\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"65\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"140\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"162.8\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"177.2\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"212.8\" cy=\"50\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"227.2\" cy=\"50\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"167.8\" cy=\"75\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"182.2\" cy=\"75\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"207.8\" cy=\"98\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"222.2\" cy=\"98\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"195\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"270\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"292.8\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"307.2\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"342.8\" cy=\"40\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"357.2\" cy=\"40\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"292.8\" cy=\"80\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"307.2\" cy=\"80\" r=\"9\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"340.8\" cy=\"82\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"355.2\" cy=\"82\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"312.8\" cy=\"106\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"327.2\" cy=\"106\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"325\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"400\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"420.6\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"449.4\" cy=\"35\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"435\" cy=\"35\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"457.6\" cy=\"68\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"486.4\" cy=\"68\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"472\" cy=\"68\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"420.6\" cy=\"100\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"449.4\" cy=\"100\" r=\"9\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"435\" cy=\"100\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"455\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>"
+      },
       "options": [
-        "O₂",
-        "Na",
-        "N₂",
-        "CO₂"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 3,
       "markScheme": [
-        "1 mark: CO₂"
+        "1 mark: D"
       ],
-      "explanation": "CO₂ contains two different elements (carbon and oxygen) chemically combined. O₂ and N₂ are molecules of elements, and Na is an element."
+      "explanation": "D contains only one type of particle, and each particle is made of atoms of two different elements chemically bonded together, so D is a compound. A and B are elements (one type of atom only, as single atoms in A and as molecules in B). C is a mixture of two elements because the two kinds of molecule are not bonded to each other."
     },
     {
       "id": "c1-atoms-elements-and-compounds-q03",
@@ -412,10 +415,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Glucose has the formula C₆H₁₂O₆. How many atoms are there in one molecule of glucose?",
+      "question": "Glucose has the formula C₆H₁₂O₆.\nCalculate the total number of atoms in one molecule of glucose.",
       "numericAnswer": 24,
       "tolerance": 0,
       "unit": "atoms",
+      "answerLabel": "Number of atoms",
       "markScheme": [
         "1 mark: 24"
       ],
@@ -427,10 +431,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many oxygen atoms are shown by 3CO₂?",
+      "question": "Determine the number of oxygen atoms shown by 3CO₂.",
       "numericAnswer": 6,
       "tolerance": 0,
       "unit": "atoms",
+      "answerLabel": "Number of oxygen atoms",
       "markScheme": [
         "1 mark: 6"
       ],
@@ -442,10 +447,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Aluminium sulfate has the formula Al₂(SO₄)₃. How many atoms are there in one formula unit?",
+      "question": "Aluminium sulfate has the formula Al₂(SO₄)₃.\nCalculate the total number of atoms in one formula unit of aluminium sulfate.",
       "numericAnswer": 17,
       "tolerance": 0,
       "unit": "atoms",
+      "answerLabel": "Number of atoms",
       "markScheme": [
         "1 mark: 17"
       ],
@@ -457,10 +463,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Propane burns in oxygen:\nC₃H₈(g) + xO₂(g) → 3CO₂(g) + 4H₂O(l)\nWhat is the value of x needed to balance the equation?",
+      "question": "Propane burns in oxygen.\nC₃H₈(g) + xO₂(g) → 3CO₂(g) + 4H₂O(l)\nDetermine the value of x needed to balance the equation.",
       "numericAnswer": 5,
       "tolerance": 0,
       "unit": "",
+      "answerLabel": "Value of x",
       "markScheme": [
         "1 mark: counts 10 oxygen atoms in the products (6 in 3CO₂ + 4 in 4H₂O)",
         "1 mark: x = 5"
@@ -473,7 +480,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "State what is meant by an element.",
+      "question": "What is meant by an element?",
       "acceptedAnswers": [
         "only one type of atom",
         "one kind of atom",
@@ -545,7 +552,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Balance this equation:\nMg(s) + HCl(aq) → MgCl₂(aq) + H₂(g)",
+      "question": "Balance the equation.\nMg(s) + HCl(aq) → MgCl₂(aq) + H₂(g)",
       "acceptedAnswers": [
         "Mg + 2HCl → MgCl₂ + H₂",
         "2HCl"
@@ -561,7 +568,26 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Name the compounds with these formulae:\n(a) KBr\n(b) CaCO₃",
+      "question": "Table 1 shows the formulae of two compounds.\nName the compounds (a) and (b).",
+      "table": {
+        "headers": [
+          "",
+          "Formula",
+          "Name of compound"
+        ],
+        "rows": [
+          [
+            "(a)",
+            "KBr",
+            "........................"
+          ],
+          [
+            "(b)",
+            "CaCO₃",
+            "........................"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "potassium bromide",
         "calcium carbonate"
@@ -578,7 +604,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student tries to balance the equation H₂ + O₂ → H₂O by writing H₂ + O₂ → H₂O₂. Explain why this is wrong.",
+      "question": "A student tries to balance the equation H₂ + O₂ → H₂O by writing H₂ + O₂ → H₂O₂\nFigure 1 shows models of a water molecule and a hydrogen peroxide molecule.\nExplain why the student's method of balancing the equation is wrong.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 380 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"10\" y=\"10\" width=\"160\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"210\" y=\"10\" width=\"160\" height=\"110\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"90\" cy=\"55\" r=\"14\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"78\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"78\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"270\" cy=\"62\" r=\"14\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"296\" cy=\"62\" r=\"14\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"248\" cy=\"82\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"318\" cy=\"42\" r=\"9\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"90\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Water, H₂O</text><text x=\"290\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Hydrogen peroxide, H₂O₂</text><circle cx=\"110\" cy=\"158\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"122\" y=\"162\" font-size=\"12\" fill=\"currentColor\">oxygen atom</text><circle cx=\"230\" cy=\"158\" r=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"242\" y=\"162\" font-size=\"12\" fill=\"currentColor\">hydrogen atom</text></svg>"
+      },
       "acceptedAnswers": [
         "changes the substance",
         "different substance",
@@ -598,7 +627,31 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Iron is magnetic. When iron and sulfur are heated together they form iron sulfide, which is not attracted to a magnet. Explain why.",
+      "question": "Iron and sulfur react when they are heated together to form iron sulfide.\nTable 1 shows some properties of iron, sulfur and iron sulfide.\nExplain why iron sulfide is not attracted to a magnet, even though it contains iron.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Colour",
+          "Attracted to a magnet?"
+        ],
+        "rows": [
+          [
+            "Iron",
+            "grey",
+            "yes"
+          ],
+          [
+            "Sulfur",
+            "yellow",
+            "no"
+          ],
+          [
+            "Iron sulfide",
+            "black",
+            "no"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "compound",
         "chemically combined",
@@ -669,7 +722,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 4,
-      "question": "Methane (CH₄) burns in oxygen to produce carbon dioxide and water.\nWrite the word equation and the balanced symbol equation, with state symbols, for this reaction, and state what the formula CH₄ tells you about methane.",
+      "question": "Figure 1 shows a model of a methane molecule, CH₄\nMethane burns in oxygen to produce carbon dioxide and water.\nWrite the word equation and the balanced symbol equation, with state symbols, for this reaction.\nState what the formula CH₄ tells you about methane.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"110\" y1=\"75\" x2=\"110\" y2=\"28\"/><line x1=\"110\" y1=\"75\" x2=\"110\" y2=\"122\"/><line x1=\"110\" y1=\"75\" x2=\"63\" y2=\"75\"/><line x1=\"110\" y1=\"75\" x2=\"157\" y2=\"75\"/></g><circle cx=\"110\" cy=\"75\" r=\"16\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"28\" r=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"110\" cy=\"122\" r=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"63\" cy=\"75\" r=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"157\" cy=\"75\" r=\"10\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><circle cx=\"210\" cy=\"55\" r=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"226\" y=\"59\" font-size=\"12\" fill=\"currentColor\">carbon atom</text><circle cx=\"210\" cy=\"90\" r=\"8\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"226\" y=\"94\" font-size=\"12\" fill=\"currentColor\">hydrogen atom</text><text x=\"150\" y=\"160\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Methane molecule</text></svg>"
+      },
       "markScheme": [
         "Indicative content: methane + oxygen → carbon dioxide + water; CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l); CH₄ shows methane is a compound of carbon and hydrogen; it contains 1 carbon atom and 4 hydrogen atoms per molecule, in a fixed ratio of 1 : 4.",
         "1 mark: correct word equation",
@@ -685,7 +741,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A student mixes iron filings with powdered sulfur, then heats the mixture strongly. The mixture glows red and a black solid forms.\nCompare the substances before and after heating. In your answer, describe and explain the differences in terms of elements, mixtures and compounds, and suggest how the student could show that a chemical reaction has happened.",
+      "question": "A student mixes iron filings with powdered sulfur, then heats the mixture strongly. The mixture glows red and a black solid forms.\nFigure 1 shows models of the particles before and after heating.\nCompare the substances before and after heating.\nIn your answer you should:\n• describe and explain the differences in terms of elements, mixtures and compounds\n• suggest how the student could show that a chemical reaction has happened.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 330 175\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"10\" y=\"10\" width=\"125\" height=\"125\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"185\" y=\"10\" width=\"125\" height=\"125\" fill=\"none\" stroke=\"currentColor\"/><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"28\" cy=\"30\" r=\"7\"/><circle cx=\"28\" cy=\"45\" r=\"7\"/><circle cx=\"28\" cy=\"60\" r=\"7\"/><circle cx=\"43\" cy=\"30\" r=\"7\"/><circle cx=\"43\" cy=\"45\" r=\"7\"/><circle cx=\"43\" cy=\"60\" r=\"7\"/><circle cx=\"58\" cy=\"30\" r=\"7\"/><circle cx=\"58\" cy=\"45\" r=\"7\"/><circle cx=\"58\" cy=\"60\" r=\"7\"/><circle cx=\"30\" cy=\"95\" r=\"7\"/><circle cx=\"30\" cy=\"110\" r=\"7\"/><circle cx=\"45\" cy=\"95\" r=\"7\"/><circle cx=\"45\" cy=\"110\" r=\"7\"/></g><g fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"88\" cy=\"82\" r=\"7\"/><circle cx=\"88\" cy=\"97\" r=\"7\"/><circle cx=\"88\" cy=\"112\" r=\"7\"/><circle cx=\"103\" cy=\"82\" r=\"7\"/><circle cx=\"103\" cy=\"97\" r=\"7\"/><circle cx=\"103\" cy=\"112\" r=\"7\"/><circle cx=\"118\" cy=\"82\" r=\"7\"/><circle cx=\"118\" cy=\"97\" r=\"7\"/><circle cx=\"118\" cy=\"112\" r=\"7\"/><circle cx=\"95\" cy=\"25\" r=\"7\"/><circle cx=\"95\" cy=\"40\" r=\"7\"/><circle cx=\"110\" cy=\"25\" r=\"7\"/><circle cx=\"110\" cy=\"40\" r=\"7\"/></g><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"205\" cy=\"25\" r=\"7\"/><circle cx=\"205\" cy=\"55\" r=\"7\"/><circle cx=\"205\" cy=\"85\" r=\"7\"/><circle cx=\"220\" cy=\"40\" r=\"7\"/><circle cx=\"220\" cy=\"70\" r=\"7\"/><circle cx=\"220\" cy=\"100\" r=\"7\"/><circle cx=\"235\" cy=\"25\" r=\"7\"/><circle cx=\"235\" cy=\"55\" r=\"7\"/><circle cx=\"235\" cy=\"85\" r=\"7\"/><circle cx=\"250\" cy=\"40\" r=\"7\"/><circle cx=\"250\" cy=\"70\" r=\"7\"/><circle cx=\"250\" cy=\"100\" r=\"7\"/><circle cx=\"265\" cy=\"25\" r=\"7\"/><circle cx=\"265\" cy=\"55\" r=\"7\"/><circle cx=\"265\" cy=\"85\" r=\"7\"/><circle cx=\"280\" cy=\"40\" r=\"7\"/><circle cx=\"280\" cy=\"70\" r=\"7\"/><circle cx=\"280\" cy=\"100\" r=\"7\"/></g><g fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"><circle cx=\"205\" cy=\"40\" r=\"7\"/><circle cx=\"205\" cy=\"70\" r=\"7\"/><circle cx=\"205\" cy=\"100\" r=\"7\"/><circle cx=\"220\" cy=\"25\" r=\"7\"/><circle cx=\"220\" cy=\"55\" r=\"7\"/><circle cx=\"220\" cy=\"85\" r=\"7\"/><circle cx=\"235\" cy=\"40\" r=\"7\"/><circle cx=\"235\" cy=\"70\" r=\"7\"/><circle cx=\"235\" cy=\"100\" r=\"7\"/><circle cx=\"250\" cy=\"25\" r=\"7\"/><circle cx=\"250\" cy=\"55\" r=\"7\"/><circle cx=\"250\" cy=\"85\" r=\"7\"/><circle cx=\"265\" cy=\"40\" r=\"7\"/><circle cx=\"265\" cy=\"70\" r=\"7\"/><circle cx=\"265\" cy=\"100\" r=\"7\"/><circle cx=\"280\" cy=\"25\" r=\"7\"/><circle cx=\"280\" cy=\"55\" r=\"7\"/><circle cx=\"280\" cy=\"85\" r=\"7\"/></g><text x=\"72\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Before heating</text><text x=\"247\" y=\"150\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">After heating</text><circle cx=\"70\" cy=\"166\" r=\"7\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"82\" y=\"170\" font-size=\"12\" fill=\"currentColor\">iron atom</text><circle cx=\"190\" cy=\"166\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"202\" y=\"170\" font-size=\"12\" fill=\"currentColor\">sulfur atom</text></svg>"
+      },
       "markScheme": [
         "Indicative content: before heating there are two elements, iron and sulfur, each made of one type of atom; they are mixed, not chemically combined; they can be in any proportion; each keeps its own properties (iron is magnetic, sulfur is yellow); they could be separated by a physical method such as using a magnet. The glow shows an energy change (energy is released). After heating a new substance, iron sulfide (FeS), has formed; it is a compound; iron and sulfur atoms are chemically bonded in fixed proportions (1 : 1); it has different properties (black, not attracted to a magnet); it can only be separated into iron and sulfur by a chemical reaction. Evidence: hold a magnet near the product, compare colour, note the glow (energy change).",
         "Level 3 (5 to 6 marks): clear comparison of the mixture and the compound, explaining chemical combination and fixed proportions, with linked evidence for a chemical reaction.",

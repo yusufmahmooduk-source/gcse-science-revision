@@ -393,10 +393,25 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "50 Salmonella bacteria are present on food left at room temperature. The bacteria divide every 20 minutes. Calculate the number of bacteria after 4 hours.",
+      "question": "Salmonella bacteria are present on some food left at room temperature.\nTable 1 shows information about the bacteria.\nCalculate the number of bacteria on the food after 4 hours.",
+      "table": {
+        "headers": [
+          "Number of bacteria at start",
+          "Mean time between divisions in minutes",
+          "Time food is left in hours"
+        ],
+        "rows": [
+          [
+            "50",
+            "20",
+            "4"
+          ]
+        ]
+      },
       "numericAnswer": 204800,
       "tolerance": 0,
       "unit": "bacteria",
+      "answerLabel": "Number of bacteria",
       "markScheme": [
         "1 mark: 240 ÷ 20 = 12 divisions",
         "1 mark: 50 × 2¹² = 204 800"
@@ -409,10 +424,23 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A laboratory tested 400 samples of gonorrhoea bacteria. 140 samples were resistant to penicillin. Calculate the percentage of samples that were resistant.",
+      "question": "A laboratory tested samples of gonorrhoea bacteria for resistance to penicillin.\nTable 1 shows the results.\nCalculate the percentage of samples that were resistant to penicillin.",
+      "table": {
+        "headers": [
+          "Number of samples tested",
+          "Number of samples resistant to penicillin"
+        ],
+        "rows": [
+          [
+            "400",
+            "140"
+          ]
+        ]
+      },
       "numericAnswer": 35,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage resistant",
       "markScheme": [
         "1 mark: 140 ÷ 400 (= 0.35)",
         "1 mark: × 100 = 35%"
@@ -425,10 +453,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Before poultry vaccination began, a country had 14 000 reported cases of Salmonella food poisoning per year. Several years later there were 2100 cases per year. Calculate the percentage decrease.",
+      "question": "Poultry in one country were vaccinated against Salmonella.\nTable 1 shows the number of reported cases of Salmonella food poisoning in the country before vaccination began and several years later.\nCalculate the percentage decrease in the number of cases.",
+      "table": {
+        "headers": [
+          "Time",
+          "Number of reported cases per year"
+        ],
+        "rows": [
+          [
+            "Before poultry vaccination began",
+            "14 000"
+          ],
+          [
+            "Several years after vaccination began",
+            "2100"
+          ]
+        ]
+      },
       "numericAnswer": 85,
       "tolerance": 0.01,
       "unit": "%",
+      "answerLabel": "Percentage decrease",
       "markScheme": [
         "1 mark: 14 000 − 2100 = 11 900",
         "1 mark: (11 900 ÷ 14 000) × 100 = 85%"
@@ -441,10 +486,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A population of bacteria in a sample of food increased from 1000 to 64 000 in 3 hours. Calculate the mean time between divisions (the generation time) in minutes.",
+      "question": "Table 1 shows how the number of bacteria in a sample of food changed over 3 hours.\nCalculate the mean time between divisions of the bacteria.\nGive your answer in minutes.",
+      "table": {
+        "headers": [
+          "Time in hours",
+          "Number of bacteria"
+        ],
+        "rows": [
+          [
+            "0",
+            "1000"
+          ],
+          [
+            "3",
+            "64 000"
+          ]
+        ]
+      },
       "numericAnswer": 30,
       "tolerance": 0,
       "unit": "minutes",
+      "answerLabel": "Mean time between divisions",
       "markScheme": [
         "1 mark: 64 000 ÷ 1000 = 64",
         "1 mark: 64 = 2⁶ so 6 divisions",
@@ -516,7 +578,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "State two ways the spread of gonorrhoea can be controlled.",
+      "question": "Give two ways the spread of gonorrhoea can be controlled.",
       "acceptedAnswers": [
         "antibiotics",
         "treatment with antibiotics",
@@ -555,7 +617,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Suggest why the number of gonorrhoea cases may increase now that many strains are resistant to penicillin.",
+      "question": "Gonorrhoea used to be treated with penicillin.\nFigure 1 shows the percentage of gonorrhoea samples resistant to penicillin in one country between 2000 and 2020.\nSuggest why the number of cases of gonorrhoea may increase as the percentage of resistant samples increases.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 16V252M158 16V252M252 16V252M346 16V252M440 16V252M64 252H440M64 212.7H440M64 173.3H440M64 134H440M64 94.7H440M64 55.3H440M64 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2000</text><text x=\"158\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2005</text><text x=\"252\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2010</text><text x=\"346\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2015</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2020</text><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"216.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"58\" y=\"177.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"58\" y=\"98.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"59.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"252\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Samples resistant to penicillin in %</text><polyline points=\"64,204.8 158,173.3 252,130.1 346,86.8 440,35.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"64\" cy=\"204.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"158\" cy=\"173.3\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"252\" cy=\"130.1\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"346\" cy=\"86.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"35.7\" r=\"2.5\" fill=\"currentColor\"/></svg>"
+      },
       "acceptedAnswers": [
         "harder to treat",
         "infection lasts longer",
@@ -575,7 +640,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why storing food in a fridge reduces the risk of Salmonella food poisoning but does not make contaminated food completely safe.",
+      "question": "Two samples of chicken were contaminated with the same number of Salmonella bacteria.\nOne sample was kept at 25 °C and one was kept in a fridge at 4 °C.\nFigure 1 shows the results.\nExplain why storing food in a fridge reduces the risk of Salmonella food poisoning but does not make contaminated food completely safe.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 16V252M126.7 16V252M189.3 16V252M252 16V252M314.7 16V252M377.3 16V252M440 16V252M64 252H440M64 204.8H440M64 157.6H440M64 110.4H440M64 63.2H440M64 16H440\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"0.7\"/><path d=\"M64 16V252H440\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"/><text x=\"64\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"126.7\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"189.3\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"252\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"314.7\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"377.3\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"440\" y=\"268\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"208.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"58\" y=\"161.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"58\" y=\"114.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">60</text><text x=\"58\" y=\"67.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">80</text><text x=\"58\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"252\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Time in hours</text><text x=\"16\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 134)\">Number of bacteria in thousands</text><polyline points=\"64,249.6 70.3,249.3 76.5,248.9 82.8,248.4 89.1,247.9 95.3,247.3 101.6,246.6 107.9,245.8 114.1,244.8 120.4,243.8 126.7,242.6 132.9,241.2 139.2,239.5 145.5,237.7 151.7,235.6 158,233.1 164.3,230.3 170.5,227.1 176.8,223.4 183.1,219.1 189.3,214.2 195.6,208.6 201.9,202.2 208.1,194.8 214.4,186.3 220.7,176.5 226.9,165.3 233.2,152.4 239.5,137.5 245.7,120.5 252,101 258.3,78.5 264.5,52.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"226.9\" y=\"86.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">25 °C</text><polyline points=\"64,249.6 95.3,249.2 126.7,248.8 158,248.3 189.3,247.6 220.7,246.9 252,246.1 283.3,245.1 314.7,243.9 346,242.6 377.3,241 408.7,239.2 440,237\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"346\" y=\"200.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4 °C (fridge)</text></svg>"
+      },
       "acceptedAnswers": [
         "slows reproduction",
         "does not kill bacteria",
