@@ -27,15 +27,39 @@
       "To compare products fairly, compare on the same basis, for example per use."
     ],
     "keyTerms": [
-      { "term": "Life cycle assessment (LCA)", "definition": "An assessment of the environmental impact of a product over its whole life, from raw materials to disposal." },
-      { "term": "Raw materials", "definition": "The substances extracted from the Earth or grown that are used to make a product." },
-      { "term": "Value judgement", "definition": "A decision based on opinion about how important something is, rather than on a measurement." },
-      { "term": "Abbreviated (selective) LCA", "definition": "An LCA that only considers some stages or impacts; it can be misused to support a chosen conclusion." },
-      { "term": "Biodegradable", "definition": "Able to be broken down by microorganisms in the environment." },
-      { "term": "Disposal", "definition": "What happens to a product at the end of its useful life: landfill, incineration, reuse or recycling." }
+      {
+        "term": "Life cycle assessment (LCA)",
+        "definition": "An assessment of the environmental impact of a product over its whole life, from raw materials to disposal."
+      },
+      {
+        "term": "Raw materials",
+        "definition": "The substances extracted from the Earth or grown that are used to make a product."
+      },
+      {
+        "term": "Value judgement",
+        "definition": "A decision based on opinion about how important something is, rather than on a measurement."
+      },
+      {
+        "term": "Abbreviated (selective) LCA",
+        "definition": "An LCA that only considers some stages or impacts; it can be misused to support a chosen conclusion."
+      },
+      {
+        "term": "Biodegradable",
+        "definition": "Able to be broken down by microorganisms in the environment."
+      },
+      {
+        "term": "Disposal",
+        "definition": "What happens to a product at the end of its useful life: landfill, incineration, reuse or recycling."
+      }
     ],
     "equations": [
-      { "name": "Impact per use", "formula": "impact per use = total impact over life ÷ number of uses", "symbols": "", "units": "same unit as the impact (for example MJ per use)", "recall": false }
+      {
+        "name": "Impact per use",
+        "formula": "impact per use = total impact over life ÷ number of uses",
+        "symbols": "",
+        "units": "same unit as the impact (for example MJ per use)",
+        "recall": false
+      }
     ],
     "workedExamples": [
       {
@@ -81,10 +105,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think an LCA gives a single objective answer about which product is best.", "right": "In fact giving values to the effects of pollutants needs value judgements, so LCA is not purely objective." },
-      { "wrong": "Students often think paper bags are always better than plastic bags because paper is renewable and biodegradable.", "right": "In fact paper bags usually need more energy and water to make, are heavier to transport and are used fewer times, so a full LCA may favour a reusable plastic bag." },
-      { "wrong": "Students often forget the use stage and transport in an LCA.", "right": "In fact LCAs include use and operation during the lifetime (for example fuel used by a car) and transport and distribution at each stage." },
-      { "wrong": "Students often think any published LCA can be trusted.", "right": "In fact selective or abbreviated LCAs can be misused to support pre-determined conclusions, for example in advertising." }
+      {
+        "wrong": "Students often think an LCA gives a single objective answer about which product is best.",
+        "right": "In fact giving values to the effects of pollutants needs value judgements, so LCA is not purely objective."
+      },
+      {
+        "wrong": "Students often think paper bags are always better than plastic bags because paper is renewable and biodegradable.",
+        "right": "In fact paper bags usually need more energy and water to make, are heavier to transport and are used fewer times, so a full LCA may favour a reusable plastic bag."
+      },
+      {
+        "wrong": "Students often forget the use stage and transport in an LCA.",
+        "right": "In fact LCAs include use and operation during the lifetime (for example fuel used by a car) and transport and distribution at each stage."
+      },
+      {
+        "wrong": "Students often think any published LCA can be trusted.",
+        "right": "In fact selective or abbreviated LCAs can be misused to support pre-determined conclusions, for example in advertising."
+      }
     ],
     "realWorld": [
       "Supermarkets have used LCAs to compare plastic, paper and cotton 'bags for life'.",
@@ -111,194 +147,652 @@
     ]
   },
   "flashcards": [
-    { "front": "What is a life cycle assessment?", "back": "An assessment of the environmental impact of a product at every stage of its life." },
-    { "front": "The four stages of an LCA", "back": "Extracting and processing raw materials; manufacturing and packaging; use and operation; disposal." },
-    { "front": "What is considered at each stage as well?", "back": "Transport and distribution." },
-    { "front": "Which LCA factors are easy to quantify?", "back": "Use of water, resources and energy sources, and production of some wastes." },
-    { "front": "Why is LCA not purely objective?", "back": "Giving numerical values to the effects of pollutants requires value judgements." },
-    { "front": "How can LCAs be misused?", "back": "Selective or abbreviated LCAs can leave out stages to reach a pre-determined conclusion, for example to support advertising." },
-    { "front": "Raw material for plastic bags", "back": "Crude oil (finite)." },
-    { "front": "Raw material for paper bags", "back": "Wood from trees (renewable)." },
-    { "front": "Advantage of paper bags at disposal", "back": "They are biodegradable." },
-    { "front": "Advantage of plastic bags in manufacture and use", "back": "Less energy and water to make, lighter to transport, stronger so can be reused many times." },
-    { "front": "How do you compare a reusable item with a single-use one?", "back": "Divide the total impact by the number of uses to get the impact per use." },
-    { "front": "Give an example of the use stage of an LCA", "back": "Fuel burned by a car during its lifetime, or electricity used by a washing machine." }
+    {
+      "front": "What is a life cycle assessment?",
+      "back": "An assessment of the environmental impact of a product at every stage of its life."
+    },
+    {
+      "front": "The four stages of an LCA",
+      "back": "Extracting and processing raw materials; manufacturing and packaging; use and operation; disposal."
+    },
+    {
+      "front": "What is considered at each stage as well?",
+      "back": "Transport and distribution."
+    },
+    {
+      "front": "Which LCA factors are easy to quantify?",
+      "back": "Use of water, resources and energy sources, and production of some wastes."
+    },
+    {
+      "front": "Why is LCA not purely objective?",
+      "back": "Giving numerical values to the effects of pollutants requires value judgements."
+    },
+    {
+      "front": "How can LCAs be misused?",
+      "back": "Selective or abbreviated LCAs can leave out stages to reach a pre-determined conclusion, for example to support advertising."
+    },
+    {
+      "front": "Raw material for plastic bags",
+      "back": "Crude oil (finite)."
+    },
+    {
+      "front": "Raw material for paper bags",
+      "back": "Wood from trees (renewable)."
+    },
+    {
+      "front": "Advantage of paper bags at disposal",
+      "back": "They are biodegradable."
+    },
+    {
+      "front": "Advantage of plastic bags in manufacture and use",
+      "back": "Less energy and water to make, lighter to transport, stronger so can be reused many times."
+    },
+    {
+      "front": "How do you compare a reusable item with a single-use one?",
+      "back": "Divide the total impact by the number of uses to get the impact per use."
+    },
+    {
+      "front": "Give an example of the use stage of an LCA",
+      "back": "Fuel burned by a car during its lifetime, or electricity used by a washing machine."
+    }
   ],
   "questions": [
     {
-      "id": "c10-life-cycle-assessment-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which of these is a stage in a life cycle assessment?",
-      "options": ["Advertising the product", "Setting the price of the product", "Disposal at the end of its useful life", "Designing the logo"],
+      "options": [
+        "Advertising the product",
+        "Setting the price of the product",
+        "Disposal at the end of its useful life",
+        "Designing the logo"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: disposal at the end of its useful life"],
+      "markScheme": [
+        "1 mark: disposal at the end of its useful life"
+      ],
       "explanation": "The four LCA stages are raw materials, manufacture and packaging, use, and disposal. Advertising and pricing are not environmental stages."
     },
     {
-      "id": "c10-life-cycle-assessment-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "What is the purpose of a life cycle assessment?",
-      "options": ["To work out the profit made from a product", "To assess the environmental impact of a product", "To test whether a product is safe to use", "To decide how long a product will last"],
+      "options": [
+        "To work out the profit made from a product",
+        "To assess the environmental impact of a product",
+        "To test whether a product is safe to use",
+        "To decide how long a product will last"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: to assess the environmental impact of a product"],
+      "markScheme": [
+        "1 mark: to assess the environmental impact of a product"
+      ],
       "explanation": "LCAs assess environmental impact over the whole life of a product."
     },
     {
-      "id": "c10-life-cycle-assessment-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "What is the raw material used to make poly(ethene) plastic bags?",
-      "options": ["Crude oil", "Wood", "Cotton", "Limestone"],
+      "options": [
+        "Crude oil",
+        "Wood",
+        "Cotton",
+        "Limestone"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: crude oil"],
+      "markScheme": [
+        "1 mark: crude oil"
+      ],
       "explanation": "Poly(ethene) is made from ethene, which comes from cracking fractions of crude oil, a finite resource."
     },
     {
-      "id": "c10-life-cycle-assessment-q04", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-life-cycle-assessment-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which factor in an LCA is the hardest to give a numerical value to?",
-      "options": ["The mass of water used", "The energy used in manufacture", "The harm caused by pollutants released", "The mass of raw material extracted"],
+      "options": [
+        "The mass of water used",
+        "The energy used in manufacture",
+        "The harm caused by pollutants released",
+        "The mass of raw material extracted"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: the harm caused by pollutants"],
+      "markScheme": [
+        "1 mark: the harm caused by pollutants"
+      ],
       "explanation": "Water, energy and raw materials can be measured, but valuing the effects of pollutants needs value judgements."
     },
     {
-      "id": "c10-life-cycle-assessment-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "For a car, which stage of its life cycle is likely to have the largest environmental impact?",
-      "options": ["Packaging", "Disposal", "Extracting raw materials for the tyres", "Use and operation"],
+      "id": "c10-life-cycle-assessment-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Figure 1 shows the energy used at each stage of the life cycle of a petrol car.\nWhich stage of the car's life cycle has the largest environmental impact?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M66 236H460M66 228.6H460M66 221.3H460M66 213.9H460M66 206.5H460M66 199.2H460M66 191.8H460M66 184.4H460M66 177.1H460M66 169.7H460M66 162.3H460M66 155H460M66 147.6H460M66 140.2H460M66 132.9H460M66 125.5H460M66 118.1H460M66 110.8H460M66 103.4H460M66 96H460M66 88.7H460M66 81.3H460M66 73.9H460M66 66.6H460M66 59.2H460M66 51.8H460M66 44.5H460M66 37.1H460M66 29.7H460M66 22.4H460M66 15H460\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M66 236H460M66 199.2H460M66 162.3H460M66 125.5H460M66 88.7H460M66 51.8H460M66 15H460\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M66 15V236H460\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"60\" y=\"240\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"60\" y=\"203.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"60\" y=\"166.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"60\" y=\"129.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"60\" y=\"92.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"60\" y=\"55.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">500</text><text x=\"60\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">600</text><text x=\"263\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Life cycle stage</text><text x=\"14\" y=\"125.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 125.5)\">Energy used in GJ</text><rect x=\"88.2\" y=\"213.9\" width=\"54.2\" height=\"22.1\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"115.3\" y=\"253\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Raw</text><text x=\"115.3\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">materials</text><rect x=\"186.7\" y=\"206.5\" width=\"54.2\" height=\"29.5\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"213.8\" y=\"253\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Manufacture</text><text x=\"213.8\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and packaging</text><rect x=\"285.2\" y=\"44.5\" width=\"54.2\" height=\"191.5\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"312.3\" y=\"253\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Use and</text><text x=\"312.3\" y=\"267\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">operation</text><rect x=\"383.7\" y=\"232.3\" width=\"54.2\" height=\"3.7\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"410.8\" y=\"253\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Disposal</text></svg>"
+      },
+      "options": [
+        "Extracting and processing raw materials",
+        "Disposal",
+        "Manufacturing and packaging",
+        "Use and operation"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: use and operation"],
-      "explanation": "A petrol car burns fuel throughout its lifetime, so the use stage usually has the largest energy use and emissions."
+      "markScheme": [
+        "1 mark: use and operation"
+      ],
+      "explanation": "Figure 1 shows the use stage uses far more energy than any other stage, because a petrol car burns fuel throughout its lifetime, so the use stage usually has the largest energy use and emissions."
     },
     {
-      "id": "c10-life-cycle-assessment-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-life-cycle-assessment-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Why might a selective (abbreviated) LCA be misleading?",
-      "options": ["It includes too many stages", "It uses too much data", "It is always carried out by scientists", "It may leave out stages where the product performs badly"],
+      "options": [
+        "It includes too many stages",
+        "It uses too much data",
+        "It is always carried out by scientists",
+        "It may leave out stages where the product performs badly"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: it may leave out stages where the product performs badly"],
+      "markScheme": [
+        "1 mark: it may leave out stages where the product performs badly"
+      ],
       "explanation": "Selective LCAs can be used to reach a pre-determined conclusion, for example to support an advertising claim."
     },
     {
-      "id": "c10-life-cycle-assessment-q07", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-life-cycle-assessment-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Two reports compare the same products using the same measured data but reach different conclusions. What is the most likely reason?",
-      "options": ["One report measured energy incorrectly", "The reports gave different weightings to the effects of pollutants, which needs value judgements", "LCAs cannot compare two products", "The products changed between the reports"],
+      "options": [
+        "One report measured energy incorrectly",
+        "The reports gave different weightings to the effects of pollutants, which needs value judgements",
+        "LCAs cannot compare two products",
+        "The products changed between the reports"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: different value judgements about pollutant effects"],
+      "markScheme": [
+        "1 mark: different value judgements about pollutant effects"
+      ],
       "explanation": "Even with the same data, authors may weigh impacts (for example climate change versus litter) differently."
     },
     {
-      "id": "c10-life-cycle-assessment-q08", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
-      "question": "A plastic bag needs 1.5 MJ to make and is used 5 times. A paper bag needs 2.1 MJ to make and is used once. Which statement is correct?",
-      "options": ["The paper bag uses less energy per use", "Both use the same energy per use", "The plastic bag uses 0.3 MJ per use, less than the paper bag", "The plastic bag uses 7.5 MJ per use"],
+      "id": "c10-life-cycle-assessment-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Table 1 shows information about a plastic bag and a paper bag.\nWhich statement is correct?",
+      "table": {
+        "headers": [
+          "Bag",
+          "Energy needed to make one bag in MJ",
+          "Number of times each bag is used"
+        ],
+        "rows": [
+          [
+            "Plastic",
+            "1.5",
+            "5"
+          ],
+          [
+            "Paper",
+            "2.1",
+            "1"
+          ]
+        ]
+      },
+      "options": [
+        "The paper bag uses less energy per use",
+        "Both use the same energy per use",
+        "The plastic bag uses 0.3 MJ per use, less than the paper bag",
+        "The plastic bag uses 7.5 MJ per use"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: plastic 0.3 MJ per use, less than paper"],
+      "markScheme": [
+        "1 mark: plastic 0.3 MJ per use, less than paper"
+      ],
       "explanation": "Plastic: 1.5 ÷ 5 = 0.3 MJ per use. Paper: 2.1 MJ per use. Multiplying (7.5) instead of dividing is a common error."
     },
     {
-      "id": "c10-life-cycle-assessment-q09", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which is an advantage of paper bags compared with plastic bags?",
-      "options": ["Paper bags are biodegradable", "Paper bags need less energy to make", "Paper bags are stronger when wet", "Paper bags are lighter to transport"],
+      "options": [
+        "Paper bags are biodegradable",
+        "Paper bags need less energy to make",
+        "Paper bags are stronger when wet",
+        "Paper bags are lighter to transport"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: paper bags are biodegradable"],
+      "markScheme": [
+        "1 mark: paper bags are biodegradable"
+      ],
       "explanation": "Paper biodegrades and comes from a renewable resource. The other statements are true of plastic bags, not paper."
     },
     {
-      "id": "c10-life-cycle-assessment-q10", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-life-cycle-assessment-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "In which LCA stage would the energy used to recycle a glass bottle be included?",
-      "options": ["Use and operation", "Disposal at the end of its useful life", "Packaging", "Advertising"],
+      "options": [
+        "Use and operation",
+        "Disposal at the end of its useful life",
+        "Packaging",
+        "Advertising"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: disposal at the end of its useful life"],
+      "markScheme": [
+        "1 mark: disposal at the end of its useful life"
+      ],
       "explanation": "What happens to a product at the end of its life, including recycling, landfill or incineration, belongs to the disposal stage."
     },
     {
-      "id": "c10-life-cycle-assessment-q11", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "LCA data show that making a paper bag uses 2.4 MJ and making a plastic bag uses 1.6 MJ. Calculate the difference in energy used.",
-      "numericAnswer": 0.8, "tolerance": 0.01, "unit": "MJ",
-      "markScheme": ["1 mark: 2.4 − 1.6 = 0.8 MJ"],
-      "explanation": "The paper bag uses 0.8 MJ more energy to make."
+      "id": "c10-life-cycle-assessment-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Table 1 shows the energy used to make a paper bag and a plastic bag.\nCalculate the difference in energy used.",
+      "table": {
+        "headers": [
+          "Bag",
+          "Energy used to make one bag in MJ"
+        ],
+        "rows": [
+          [
+            "Paper",
+            "2.4"
+          ],
+          [
+            "Plastic",
+            "1.6"
+          ]
+        ]
+      },
+      "numericAnswer": 0.8,
+      "tolerance": 0.01,
+      "unit": "MJ",
+      "markScheme": [
+        "1 mark: 2.4 − 1.6 = 0.8 MJ"
+      ],
+      "explanation": "The paper bag uses 0.8 MJ more energy to make.",
+      "answerLabel": "Difference in energy"
     },
     {
-      "id": "c10-life-cycle-assessment-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A cotton bag needs 52 MJ of energy to make and is used 130 times. Calculate the energy per use.",
-      "numericAnswer": 0.4, "tolerance": 0.01, "unit": "MJ",
-      "markScheme": ["1 mark: 52 ÷ 130", "1 mark: 0.4 MJ per use"],
-      "explanation": "Energy per use = total energy ÷ number of uses = 52 ÷ 130 = 0.4 MJ."
+      "id": "c10-life-cycle-assessment-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A cotton bag needs 52 MJ of energy to make.\nThe bag is used 130 times.\nCalculate the energy used per use.",
+      "numericAnswer": 0.4,
+      "tolerance": 0.01,
+      "unit": "MJ",
+      "markScheme": [
+        "1 mark: 52 ÷ 130",
+        "1 mark: 0.4 MJ per use"
+      ],
+      "explanation": "Energy per use = total energy ÷ number of uses = 52 ÷ 130 = 0.4 MJ.",
+      "answerLabel": "Energy per use"
     },
     {
-      "id": "c10-life-cycle-assessment-q13", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "The energy used at each stage of the life of a kettle is: raw materials 120 MJ, manufacture 80 MJ, use 1600 MJ, disposal 40 MJ, transport 60 MJ. Calculate the percentage of the total energy used during the use stage.",
-      "numericAnswer": 84.2, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: total = 1900 MJ", "1 mark: (1600 ÷ 1900) × 100 = 84.2%"],
-      "explanation": "Total = 120 + 80 + 1600 + 40 + 60 = 1900 MJ. 1600 ÷ 1900 × 100 = 84.2%."
+      "id": "c10-life-cycle-assessment-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Table 1 shows the energy used at each stage of the life of a kettle.\nCalculate the percentage of the total energy that is used during the use stage.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Energy used in MJ"
+        ],
+        "rows": [
+          [
+            "Extracting raw materials",
+            "120"
+          ],
+          [
+            "Manufacture",
+            "80"
+          ],
+          [
+            "Transport",
+            "60"
+          ],
+          [
+            "Use",
+            "1600"
+          ],
+          [
+            "Disposal",
+            "40"
+          ]
+        ]
+      },
+      "numericAnswer": 84.2,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: total = 1900 MJ",
+        "1 mark: (1600 ÷ 1900) × 100 = 84.2%"
+      ],
+      "explanation": "Total = 120 + 80 + 1600 + 40 + 60 = 1900 MJ. 1600 ÷ 1900 × 100 = 84.2%.",
+      "answerLabel": "Percentage of total energy"
     },
     {
-      "id": "c10-life-cycle-assessment-q14", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "Making one plastic bag releases 0.06 kg of CO₂. Making one paper bag releases 0.15 kg of CO₂. A shopper needs to carry shopping 300 times. Each plastic bag is used 5 times and each paper bag is used once. Calculate how many more kilograms of CO₂ are released by using paper bags rather than plastic bags.",
-      "numericAnswer": 41.4, "tolerance": 0.01, "unit": "kg",
-      "markScheme": ["1 mark: plastic: 300 ÷ 5 = 60 bags, 60 × 0.06 = 3.6 kg", "1 mark: paper: 300 × 0.15 = 45 kg", "1 mark: 45 − 3.6 = 41.4 kg"],
-      "explanation": "Work out the number of bags needed for each type, then the total CO₂ for each, then subtract."
+      "id": "c10-life-cycle-assessment-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A shopper needs to carry shopping 300 times.\nTable 1 shows information about plastic bags and paper bags.\nCalculate how much more carbon dioxide is released by using paper bags rather than plastic bags.\nGive your answer in kg.",
+      "table": {
+        "headers": [
+          "Bag",
+          "Mass of CO₂ released making one bag in kg",
+          "Number of times each bag is used"
+        ],
+        "rows": [
+          [
+            "Plastic",
+            "0.06",
+            "5"
+          ],
+          [
+            "Paper",
+            "0.15",
+            "1"
+          ]
+        ]
+      },
+      "numericAnswer": 41.4,
+      "tolerance": 0.01,
+      "unit": "kg",
+      "markScheme": [
+        "1 mark: plastic: 300 ÷ 5 = 60 bags, 60 × 0.06 = 3.6 kg",
+        "1 mark: paper: 300 × 0.15 = 45 kg",
+        "1 mark: 45 − 3.6 = 41.4 kg"
+      ],
+      "explanation": "Work out the number of bags needed for each type, then the total CO₂ for each, then subtract.",
+      "answerLabel": "Extra mass of carbon dioxide"
     },
     {
-      "id": "c10-life-cycle-assessment-q15", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 2,
-      "question": "A glass bottle needs 7.5 MJ to make and can be refilled 24 more times after its first use. A plastic bottle needs 1.2 MJ to make and is used once. Calculate how many times greater the energy per use is for the plastic bottle than for the glass bottle (ignore washing and transport).",
-      "numericAnswer": 4, "tolerance": 0.01, "unit": "",
-      "markScheme": ["1 mark: glass: 7.5 ÷ 25 = 0.3 MJ per use", "1 mark: 1.2 ÷ 0.3 = 4 times"],
-      "explanation": "The glass bottle is used 1 + 24 = 25 times in total, giving 0.3 MJ per use. A common error is dividing by 24."
+      "id": "c10-life-cycle-assessment-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Table 1 shows information about a glass bottle and a plastic bottle.\nCalculate how many times greater the energy per use is for the plastic bottle than for the glass bottle.\nIgnore the energy used for washing and transport.",
+      "table": {
+        "headers": [
+          "Bottle",
+          "Energy needed to make the bottle in MJ",
+          "Number of times the bottle is used"
+        ],
+        "rows": [
+          [
+            "Glass",
+            "7.5",
+            "25"
+          ],
+          [
+            "Plastic",
+            "1.2",
+            "1"
+          ]
+        ]
+      },
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "unit": "",
+      "markScheme": [
+        "1 mark: glass: 7.5 ÷ 25 = 0.3 MJ per use",
+        "1 mark: 1.2 ÷ 0.3 = 4 times"
+      ],
+      "explanation": "The glass bottle is used 25 times in total, giving 7.5 ÷ 25 = 0.3 MJ per use. The plastic bottle uses 1.2 MJ per use. 1.2 ÷ 0.3 = 4.",
+      "answerLabel": "Number of times greater"
     },
     {
-      "id": "c10-life-cycle-assessment-q16", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "Name two stages of a life cycle assessment, other than disposal.",
-      "acceptedAnswers": ["extracting and processing raw materials", "raw materials", "manufacturing and packaging", "manufacture", "use and operation", "use"],
-      "markScheme": ["1 mark each for any two: extracting and processing raw materials / manufacturing and packaging / use and operation during its lifetime"],
+      "id": "c10-life-cycle-assessment-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Figure 1 shows the stages of a life cycle assessment (LCA).\nName two of the stages A, B and C.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 498 76\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"100\" height=\"56\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"60\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">A</text><path d=\"M110 38L136 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M136 38L128.6 41.1L128.6 34.9Z\" fill=\"currentColor\"/><rect x=\"136\" y=\"10\" width=\"100\" height=\"56\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"186\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">B</text><path d=\"M236 38L262 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M262 38L254.6 41.1L254.6 34.9Z\" fill=\"currentColor\"/><rect x=\"262\" y=\"10\" width=\"100\" height=\"56\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"312\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">C</text><path d=\"M362 38L388 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M388 38L380.6 41.1L380.6 34.9Z\" fill=\"currentColor\"/><rect x=\"388\" y=\"10\" width=\"100\" height=\"56\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"438\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Disposal</text></svg>"
+      },
+      "acceptedAnswers": [
+        "extracting and processing raw materials",
+        "raw materials",
+        "manufacturing and packaging",
+        "manufacture",
+        "use and operation",
+        "use"
+      ],
+      "markScheme": [
+        "1 mark each for any two: A: extracting and processing raw materials / B: manufacturing and packaging / C: use and operation during its lifetime"
+      ],
       "explanation": "The four stages are raw materials, manufacture and packaging, use, and disposal."
     },
     {
-      "id": "c10-life-cycle-assessment-q17", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-life-cycle-assessment-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Give two things that can be easily measured and included in an LCA.",
-      "acceptedAnswers": ["water", "energy", "resources", "raw materials", "waste", "mass of waste"],
-      "markScheme": ["1 mark each for any two: use of water / energy / resources (raw materials) / production of some wastes"],
+      "acceptedAnswers": [
+        "water",
+        "energy",
+        "resources",
+        "raw materials",
+        "waste",
+        "mass of waste"
+      ],
+      "markScheme": [
+        "1 mark each for any two: use of water / energy / resources (raw materials) / production of some wastes"
+      ],
       "explanation": "These can be quantified fairly easily, unlike the effects of pollutants."
     },
     {
-      "id": "c10-life-cycle-assessment-q18", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-life-cycle-assessment-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain why life cycle assessment is not a purely objective process.",
-      "acceptedAnswers": ["value judgements", "effects of pollutants hard to quantify", "opinion", "numerical values to pollutants"],
-      "markScheme": ["1 mark: allocating numerical values to the effects of pollutants is difficult", "1 mark: it requires value judgements (opinions), which may differ between people"],
+      "acceptedAnswers": [
+        "value judgements",
+        "effects of pollutants hard to quantify",
+        "opinion",
+        "numerical values to pollutants"
+      ],
+      "markScheme": [
+        "1 mark: allocating numerical values to the effects of pollutants is difficult",
+        "1 mark: it requires value judgements (opinions), which may differ between people"
+      ],
       "explanation": "Different people may judge the importance of different pollutants differently."
     },
     {
-      "id": "c10-life-cycle-assessment-q19", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-life-cycle-assessment-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "A company publishes an LCA showing that its product has a low environmental impact. Suggest two reasons why you should be cautious about trusting this LCA.",
-      "acceptedAnswers": ["selective", "abbreviated", "stages left out", "biased", "company wants to sell", "advertising", "value judgements", "not independent"],
-      "markScheme": ["1 mark: the LCA may be selective/abbreviated and leave out stages where the product performs badly", "1 mark: the company may be biased because it wants to sell the product / may make value judgements in its favour"],
+      "acceptedAnswers": [
+        "selective",
+        "abbreviated",
+        "stages left out",
+        "biased",
+        "company wants to sell",
+        "advertising",
+        "value judgements",
+        "not independent"
+      ],
+      "markScheme": [
+        "1 mark: the LCA may be selective/abbreviated and leave out stages where the product performs badly",
+        "1 mark: the company may be biased because it wants to sell the product / may make value judgements in its favour"
+      ],
       "explanation": "Selective LCAs can be misused to reach pre-determined conclusions in support of advertising claims."
     },
     {
-      "id": "c10-life-cycle-assessment-q20", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-life-cycle-assessment-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Give one environmental advantage and one environmental disadvantage of using plastic shopping bags rather than paper bags.",
-      "acceptedAnswers": ["less energy", "less water", "lighter to transport", "reusable", "stronger", "made from crude oil", "finite", "not biodegradable", "litter", "landfill"],
-      "markScheme": ["1 mark: advantage: less energy or water to make / lighter so less fuel to transport / can be reused many times / can be recycled", "1 mark: disadvantage: made from crude oil (finite) / not biodegradable so lasts in landfill or as litter"],
+      "acceptedAnswers": [
+        "less energy",
+        "less water",
+        "lighter to transport",
+        "reusable",
+        "stronger",
+        "made from crude oil",
+        "finite",
+        "not biodegradable",
+        "litter",
+        "landfill"
+      ],
+      "markScheme": [
+        "1 mark: advantage: less energy or water to make / lighter so less fuel to transport / can be reused many times / can be recycled",
+        "1 mark: disadvantage: made from crude oil (finite) / not biodegradable so lasts in landfill or as litter"
+      ],
       "explanation": "Plastic bags win on manufacture, transport and reuse; paper bags win on raw material and biodegradability."
     },
     {
-      "id": "c10-life-cycle-assessment-q21", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "id": "c10-life-cycle-assessment-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
       "question": "An advert says: 'Electric cars produce zero emissions, so they have no environmental impact.' Use ideas about life cycle assessment to explain why this claim is misleading.",
-      "acceptedAnswers": ["only considers use stage", "selective", "battery manufacture", "raw materials extracted", "electricity generated from fossil fuels", "disposal of batteries", "manufacture uses energy"],
-      "markScheme": ["1 mark: the claim only considers the use stage (selective LCA)", "1 mark: extracting raw materials and manufacturing the car and battery use energy and cause pollution", "1 mark: electricity may be generated from fossil fuels / disposal of batteries has an impact"],
+      "acceptedAnswers": [
+        "only considers use stage",
+        "selective",
+        "battery manufacture",
+        "raw materials extracted",
+        "electricity generated from fossil fuels",
+        "disposal of batteries",
+        "manufacture uses energy"
+      ],
+      "markScheme": [
+        "1 mark: the claim only considers the use stage (selective LCA)",
+        "1 mark: extracting raw materials and manufacturing the car and battery use energy and cause pollution",
+        "1 mark: electricity may be generated from fossil fuels / disposal of batteries has an impact"
+      ],
       "explanation": "A full LCA includes all stages; an electric car still has impacts from raw materials, manufacture, electricity generation and disposal."
     },
     {
-      "id": "c10-life-cycle-assessment-q22", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State what is included at each stage of an LCA as well as the main process.",
-      "acceptedAnswers": ["transport", "distribution", "transport and distribution"],
-      "markScheme": ["1 mark: transport and distribution"],
+      "acceptedAnswers": [
+        "transport",
+        "distribution",
+        "transport and distribution"
+      ],
+      "markScheme": [
+        "1 mark: transport and distribution"
+      ],
       "explanation": "Moving materials and products between stages uses fuel and causes emissions."
     },
     {
-      "id": "c10-life-cycle-assessment-q23", "type": "short", "tier": "both", "difficulty": 3, "marks": 2,
+      "id": "c10-life-cycle-assessment-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
       "question": "Suggest why paper bags are usually used fewer times than plastic bags, and how this affects the LCA comparison.",
-      "acceptedAnswers": ["weaker", "tear", "lose strength when wet", "single use", "more bags needed", "impact per use higher"],
-      "markScheme": ["1 mark: paper bags are weaker / tear easily, especially when wet", "1 mark: so more paper bags are needed, increasing the total impact (higher impact per use)"],
+      "acceptedAnswers": [
+        "weaker",
+        "tear",
+        "lose strength when wet",
+        "single use",
+        "more bags needed",
+        "impact per use higher"
+      ],
+      "markScheme": [
+        "1 mark: paper bags are weaker / tear easily, especially when wet",
+        "1 mark: so more paper bags are needed, increasing the total impact (higher impact per use)"
+      ],
       "explanation": "The number of uses strongly affects the comparison, so LCAs often compare impact per use."
     },
     {
-      "id": "c10-life-cycle-assessment-q24", "type": "extended", "tier": "both", "difficulty": 2, "marks": 6,
-      "question": "The table shows LCA data for making one shopping bag.\n\nPlastic bag: raw material crude oil; energy to make 1.6 MJ; water used 0.3 dm³; mass 8 g; typical uses 5; biodegradable: no.\nPaper bag: raw material wood; energy to make 2.4 MJ; water used 4 dm³; mass 50 g; typical uses 1; biodegradable: yes.\n\nCarry out a comparative life cycle assessment of the two bags. Use the data and your own knowledge to decide which bag has the lower environmental impact.",
+      "id": "c10-life-cycle-assessment-q24",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Table 1 shows life cycle assessment data for making one shopping bag.\nCarry out a comparative life cycle assessment of the two bags.\nUse the data and your own knowledge to decide which bag has the lower environmental impact.",
+      "table": {
+        "headers": [
+          "Property",
+          "Plastic bag",
+          "Paper bag"
+        ],
+        "rows": [
+          [
+            "Raw material",
+            "crude oil",
+            "wood"
+          ],
+          [
+            "Energy to make one bag in MJ",
+            "1.6",
+            "2.4"
+          ],
+          [
+            "Water used to make one bag in dm³",
+            "0.3",
+            "4"
+          ],
+          [
+            "Mass of one bag in g",
+            "8",
+            "50"
+          ],
+          [
+            "Typical number of uses",
+            "5",
+            "1"
+          ],
+          [
+            "Biodegradable",
+            "no",
+            "yes"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: raw materials: crude oil is finite, wood is renewable; manufacture: paper uses more energy (2.4 v 1.6 MJ) and much more water (4 v 0.3 dm³); transport: paper bag is over 6 times heavier, so more fuel to transport; use: plastic used about 5 times, so energy per use 0.32 MJ v 2.4 MJ; disposal: paper biodegrades, plastic does not but can be recycled; plastic litter harms wildlife; conclusion with justification, for example plastic bag lower impact per use if reused, but paper better at disposal.",
         "Level 3 (5 to 6 marks): detailed comparison across all or most stages, using data (including a calculation such as per-use energy), with a justified conclusion.",
@@ -308,7 +802,11 @@
       "explanation": "Use the data actively: compare figures, calculate per-use impacts and refer to each stage of the life cycle before concluding."
     },
     {
-      "id": "c10-life-cycle-assessment-q25", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "id": "c10-life-cycle-assessment-q25",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
       "question": "Evaluate the usefulness of life cycle assessments for helping people choose between two products.",
       "markScheme": [
         "Indicative content: useful: considers all stages, so gives a fuller picture; energy, water, resources and some wastes can be measured and compared; can show which stage has the largest impact and where improvements can be made. Limitations: valuing effects of pollutants needs value judgements; not purely objective; selective or abbreviated LCAs can be misused to support advertising; data may be estimates and depend on assumptions such as number of uses; conclusion.",
@@ -318,18 +816,39 @@
       "explanation": "Evaluation requires both strengths and limitations, ending with a judgement."
     },
     {
-      "id": "c10-life-cycle-assessment-q26", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-life-cycle-assessment-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Paper bags are made from wood. State why wood is described as a renewable resource.",
-      "acceptedAnswers": ["trees can be replanted", "regrown", "replaced as fast as used"],
-      "markScheme": ["1 mark: trees can be replanted / regrown as fast as they are used"],
+      "acceptedAnswers": [
+        "trees can be replanted",
+        "regrown",
+        "replaced as fast as used"
+      ],
+      "markScheme": [
+        "1 mark: trees can be replanted / regrown as fast as they are used"
+      ],
       "explanation": "Managed forests replace the trees that are cut down."
     },
     {
-      "id": "c10-life-cycle-assessment-q27", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-life-cycle-assessment-q27",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Which change would make the comparison between a reusable bag and a single-use bag fairest?",
-      "options": ["Comparing only the energy needed to make one bag of each", "Comparing the total impact for the same number of shopping trips", "Comparing only the disposal stage", "Comparing the masses of the bags"],
+      "options": [
+        "Comparing only the energy needed to make one bag of each",
+        "Comparing the total impact for the same number of shopping trips",
+        "Comparing only the disposal stage",
+        "Comparing the masses of the bags"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: comparing total impact for the same number of shopping trips"],
+      "markScheme": [
+        "1 mark: comparing total impact for the same number of shopping trips"
+      ],
       "explanation": "Products must be compared for the same function. A reusable bag replaces many single-use bags."
     }
   ]

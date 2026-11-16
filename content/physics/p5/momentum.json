@@ -275,16 +275,45 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which of these has the greatest momentum?",
+      "question": "Table 1 gives information about four moving objects.\nWhich object has the greatest momentum?",
+      "table": {
+        "headers": [
+          "Object",
+          "Mass in kg",
+          "Velocity in m/s"
+        ],
+        "rows": [
+          [
+            "Car",
+            "1000",
+            "10"
+          ],
+          [
+            "Lorry",
+            "20 000",
+            "1.0"
+          ],
+          [
+            "Sprinter",
+            "60",
+            "10"
+          ],
+          [
+            "Cricket ball",
+            "0.15",
+            "40"
+          ]
+        ]
+      },
       "options": [
-        "A 1000 kg car moving at 10 m/s",
-        "A 20 000 kg lorry moving at 1.0 m/s",
-        "A 60 kg sprinter moving at 10 m/s",
-        "A 0.15 kg cricket ball moving at 40 m/s"
+        "Car",
+        "Lorry",
+        "Sprinter",
+        "Cricket ball"
       ],
       "answer": 1,
       "markScheme": [
-        "1 mark: A 20 000 kg lorry moving at 1.0 m/s"
+        "1 mark: lorry"
       ],
       "explanation": "Momenta: car 10 000, lorry 20 000, sprinter 600, ball 6 kg m/s. The slowest object has the largest momentum because of its huge mass."
     },
@@ -294,7 +323,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "A 1500 kg car is parked on a road. What is its momentum?",
+      "question": "A 1500 kg car is parked on a road.\nWhat is the momentum of the car?",
       "options": [
         "1500 kg m/s",
         "14 700 kg m/s",
@@ -313,7 +342,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "An object's mass is halved and its velocity is doubled. What happens to its momentum?",
+      "question": "The mass of an object is halved and its velocity is doubled.\nWhat happens to the momentum of the object?",
       "options": [
         "It stays the same.",
         "It doubles.",
@@ -332,7 +361,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Taking right as positive, what is the momentum of a 2.0 kg ball moving to the left at 5.0 m/s?",
+      "question": "Figure 1 shows a ball moving to the left.\nWhat is the momentum of the ball?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"320\" y1=\"30\" x2=\"373.6\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"380,30 372.9,33.6 372.9,26.4\" fill=\"currentColor\"/><text x=\"350\" y=\"22\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Positive direction</text><line x1=\"10\" y1=\"120\" x2=\"410\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"220\" cy=\"100\" r=\"20\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"220\" y=\"104\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2.0 kg</text><line x1=\"190\" y1=\"100\" x2=\"128\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"120,100 128.9,95.5 128.9,104.5\" fill=\"currentColor\"/><text x=\"155\" y=\"85\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5.0 m/s</text></svg>"
+      },
       "options": [
         "+10 kg m/s",
         "+2.5 kg m/s",
@@ -351,7 +383,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A 1000 kg car travels at 20 m/s. A 5000 kg van has the same momentum. What is the velocity of the van?",
+      "question": "A 1000 kg car travels at 20 m/s. A 5000 kg van has the same momentum as the car.\nWhat is the velocity of the van?",
       "options": [
         "2.0 m/s",
         "4.0 m/s",
@@ -370,7 +402,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Two identical trolleys move towards each other, each at 2 m/s. What is the total momentum of the two trolleys?",
+      "question": "Figure 1 shows two identical trolleys moving towards each other.\nWhat is the total momentum of the two trolleys?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 110\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"10\" y=\"18\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">Two identical trolleys</text><line x1=\"10\" y1=\"98\" x2=\"430\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"56\" width=\"80\" height=\"32\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"87.6\" cy=\"93\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"132.4\" cy=\"93\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"110\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Trolley</text><line x1=\"85\" y1=\"44\" x2=\"127.8\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"2.2\"/><polygon points=\"135,44 127,48.1 127,39.9\" fill=\"currentColor\"/><text x=\"140\" y=\"48\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">2 m/s</text><rect x=\"280\" y=\"56\" width=\"80\" height=\"32\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"297.6\" cy=\"93\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"342.4\" cy=\"93\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"320\" y=\"76\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Trolley</text><line x1=\"345\" y1=\"44\" x2=\"302.2\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"2.2\"/><polygon points=\"295,44 303,39.9 303,48.1\" fill=\"currentColor\"/><text x=\"290\" y=\"48\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2 m/s</text></svg>"
+      },
       "options": [
         "It depends on which trolley is heavier.",
         "Twice the momentum of one trolley",
@@ -389,7 +424,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "A ball is thrown straight up. What is its momentum at the very top of its flight?",
+      "question": "A ball is thrown straight up.\nWhat is the momentum of the ball at the very top of its flight?",
       "options": [
         "Zero, because its velocity is momentarily zero",
         "Its maximum value, because it is highest",
@@ -408,7 +443,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 2,
-      "question": "A cricket ball of mass 0.16 kg travels at 25 m/s.\nCalculate its momentum.",
+      "question": "A cricket ball of mass 0.16 kg travels at 25 m/s.\nCalculate the momentum of the cricket ball.",
       "numericAnswer": 4,
       "tolerance": 0.01,
       "unit": "kg m/s",
@@ -416,7 +451,8 @@
         "1 mark: p = 0.16 × 25",
         "1 mark: 4.0 kg m/s"
       ],
-      "explanation": "p = m v = 0.16 × 25 = 4.0 kg m/s."
+      "explanation": "p = m v = 0.16 × 25 = 4.0 kg m/s.",
+      "answerLabel": "Momentum"
     },
     {
       "id": "p5-momentum-q12",
@@ -424,7 +460,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 2,
-      "question": "A runner of mass 70 kg runs at 9.0 m/s.\nCalculate the runner's momentum.",
+      "question": "A runner of mass 70 kg runs at 9.0 m/s.\nCalculate the momentum of the runner.",
       "numericAnswer": 630,
       "tolerance": 0.01,
       "unit": "kg m/s",
@@ -432,7 +468,8 @@
         "1 mark: p = 70 × 9.0",
         "1 mark: 630 kg m/s"
       ],
-      "explanation": "p = m v = 70 × 9.0 = 630 kg m/s."
+      "explanation": "p = m v = 70 × 9.0 = 630 kg m/s.",
+      "answerLabel": "Momentum"
     },
     {
       "id": "p5-momentum-q13",
@@ -449,7 +486,8 @@
         "1 mark: m = 12 000 ÷ 15",
         "1 mark: 800 kg"
       ],
-      "explanation": "Rearranging p = m v gives m = p ÷ v = 12 000 ÷ 15 = 800 kg."
+      "explanation": "Rearranging p = m v gives m = p ÷ v = 12 000 ÷ 15 = 800 kg.",
+      "answerLabel": "Mass"
     },
     {
       "id": "p5-momentum-q14",
@@ -466,7 +504,8 @@
         "1 mark: v = 2.9 ÷ 0.058",
         "1 mark: 50 m/s"
       ],
-      "explanation": "v = p ÷ m = 2.9 ÷ 0.058 = 50 m/s."
+      "explanation": "v = p ÷ m = 2.9 ÷ 0.058 = 50 m/s.",
+      "answerLabel": "Velocity"
     },
     {
       "id": "p5-momentum-q15",
@@ -474,7 +513,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 3,
-      "question": "A lorry of mass 12 tonnes travels at 54 km/h.\nCalculate the momentum of the lorry. (1 tonne = 1000 kg)",
+      "question": "A lorry of mass 12 tonnes travels at 54 km/h.\n1 tonne = 1000 kg\nCalculate the momentum of the lorry.",
       "numericAnswer": 180000,
       "tolerance": 0.01,
       "unit": "kg m/s",
@@ -483,7 +522,8 @@
         "1 mark: v = 54 ÷ 3.6 = 15 m/s",
         "1 mark: p = 12 000 × 15 = 180 000 kg m/s"
       ],
-      "explanation": "Both units must be converted before using p = m v."
+      "explanation": "Both units must be converted before using p = m v.",
+      "answerLabel": "Momentum"
     },
     {
       "id": "p5-momentum-q16",
@@ -500,7 +540,8 @@
         "1 mark: p = 0.045 × 70",
         "1 mark: 3.15 kg m/s (accept 3.2 kg m/s)"
       ],
-      "explanation": "Using 45 g directly gives 3150, which is 1000 times too large."
+      "explanation": "Using 45 g directly gives 3150, which is 1000 times too large.",
+      "answerLabel": "Momentum"
     },
     {
       "id": "p5-momentum-q17",
@@ -508,7 +549,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "Car A (mass 1200 kg) travels east at 20 m/s. Car B (mass 1500 kg) travels west at 16 m/s.\nTaking east as positive, calculate the total momentum of the two cars.",
+      "question": "Figure 1 shows two cars, A and B. Car A travels east. Car B travels west.\nCalculate the total momentum of the two cars.\nTake east as the positive direction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><line x1=\"360\" y1=\"25\" x2=\"403.6\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"410,25 402.9,28.6 402.9,21.4\" fill=\"currentColor\"/><text x=\"352\" y=\"29\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">East</text><line x1=\"10\" y1=\"130\" x2=\"430\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M40 121.7 V102.395 H64.2 L78.5 75.66499999999999 H114.80000000000001 L128 94.97 H150 V121.7 Z\" fill=\"#93c5fd\" stroke=\"currentColor\" stroke-width=\"1.5\" fill-opacity=\"0.5\"/><circle cx=\"64.2\" cy=\"121.7\" r=\"11\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"128\" cy=\"121.7\" r=\"11\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"95\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Car A, 1200 kg</text><line x1=\"160\" y1=\"100\" x2=\"207\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"215,100 206.1,104.5 206.1,95.5\" fill=\"currentColor\"/><text x=\"188\" y=\"90\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20 m/s</text><g transform=\"translate(680 0) scale(-1 1)\"><path d=\"M290 121.7 V102.395 H314.2 L328.5 75.66499999999999 H364.8 L378 94.97 H400 V121.7 Z\" fill=\"#86efac\" stroke=\"currentColor\" stroke-width=\"1.5\" fill-opacity=\"0.5\"/><circle cx=\"314.2\" cy=\"121.7\" r=\"11\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"378\" cy=\"121.7\" r=\"11\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/></g><text x=\"335\" y=\"55\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Car B, 1500 kg</text><line x1=\"275\" y1=\"100\" x2=\"230\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"222,100 230.9,95.5 230.9,104.5\" fill=\"currentColor\"/><text x=\"250\" y=\"90\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">16 m/s</text></svg>"
+      },
       "numericAnswer": 0,
       "tolerance": 0,
       "unit": "kg m/s",
@@ -517,7 +561,8 @@
         "1 mark: momentum of B = −24 000 kg m/s",
         "1 mark: total = 0 kg m/s"
       ],
-      "explanation": "The momenta are equal in size and opposite in direction, so they cancel. Adding the sizes (48 000 kg m/s) ignores direction."
+      "explanation": "The momenta are equal in size and opposite in direction, so they cancel. Adding the sizes (48 000 kg m/s) ignores direction.",
+      "answerLabel": "Total momentum"
     },
     {
       "id": "p5-momentum-q18",
@@ -525,7 +570,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A train of mass 30 000 kg moves at 0.60 m/s.\nCalculate the velocity at which a 900 kg car would have the same momentum.",
+      "question": "A train of mass 30 000 kg moves at 0.60 m/s.\nCalculate the velocity at which a 900 kg car would have the same momentum as the train.",
       "numericAnswer": 20,
       "tolerance": 0.01,
       "unit": "m/s",
@@ -534,7 +579,8 @@
         "1 mark: v = 18 000 ÷ 900",
         "1 mark: 20 m/s"
       ],
-      "explanation": "A slow train has the same momentum as a car travelling at 20 m/s (about 45 mph)."
+      "explanation": "A slow train has the same momentum as a car travelling at 20 m/s (about 45 mph).",
+      "answerLabel": "Velocity"
     },
     {
       "id": "p5-momentum-q19",
@@ -650,7 +696,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A ball of mass 0.40 kg moves at 5.0 m/s to the right. It bounces off a wall and moves at 5.0 m/s to the left.\nA student says: \"The momentum of the ball has not changed, because its speed is the same.\"\nExplain why the student is wrong.",
+      "question": "Figure 1 shows a ball before and after it bounces off a wall.\nA student makes this statement:\n'The momentum of the ball has not changed, because its speed is the same.'\nExplain why the student is wrong.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><text x=\"10\" y=\"20\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">Before hitting the wall</text><rect x=\"360\" y=\"30\" width=\"22\" height=\"90\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"85\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"85\" x2=\"214\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"222,85 213.1,89.5 213.1,80.5\" fill=\"currentColor\"/><text x=\"185\" y=\"72\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5.0 m/s</text><text x=\"250\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.40 kg</text><g transform=\"translate(0 130)\"><text x=\"10\" y=\"20\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">After hitting the wall</text><rect x=\"360\" y=\"30\" width=\"22\" height=\"90\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"85\" r=\"18\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"85\" x2=\"163\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"2.5\"/><polygon points=\"155,85 163.9,80.5 163.9,89.5\" fill=\"currentColor\"/><text x=\"190\" y=\"72\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5.0 m/s</text><text x=\"250\" y=\"120\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0.40 kg</text></g></svg>"
+      },
       "acceptedAnswers": [
         "vector",
         "direction changed",
@@ -671,7 +720,31 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "Three road users are on a straight road.\nBus: mass 12 000 kg, moving east at 9.0 m/s\nCar: mass 1500 kg, moving west at 25 m/s\nCyclist (with bicycle): mass 80 kg, moving east at 10 m/s\nTaking east as positive, calculate the momentum of each road user. Use your answers to explain how momentum depends on mass and velocity, and why direction matters.",
+      "question": "Table 1 gives information about three road users on a straight road.\nCalculate the momentum of each road user. Take east as the positive direction.\nUse your answers to explain how momentum depends on mass and velocity, and why direction matters.",
+      "table": {
+        "headers": [
+          "Road user",
+          "Mass in kg",
+          "Velocity"
+        ],
+        "rows": [
+          [
+            "Bus",
+            "12 000",
+            "9.0 m/s east"
+          ],
+          [
+            "Car",
+            "1500",
+            "25 m/s west"
+          ],
+          [
+            "Cyclist (with bicycle)",
+            "80",
+            "10 m/s east"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: bus p = 12 000 × 9.0 = +108 000 kg m/s; car p = 1500 × (−25) = −37 500 kg m/s; cyclist p = 80 × 10 = +800 kg m/s; the bus is the slowest but has the largest momentum because its mass is much greater; the car has more momentum than the cyclist because it has a larger mass and a larger velocity; the car's momentum is negative because it moves west, opposite to the chosen positive direction; momentum is a vector so its sign shows direction; momentum is proportional to both mass and velocity.",
         "Level 3 (5 to 6 marks): all three momenta correct with correct signs and units, and a clear explanation of the roles of mass, velocity and direction.",
@@ -686,7 +759,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "Describe how a student could determine the momentum of a trolley moving along a runway in the laboratory.",
+      "question": "Figure 1 shows a trolley on a runway and a light gate.\nDescribe how a student could determine the momentum of the trolley as it moves along the runway.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><rect x=\"20\" y=\"140\" width=\"400\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Runway</text><rect x=\"110\" y=\"104\" width=\"90\" height=\"30\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"136\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"136\" r=\"5\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"155\" y=\"124\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Trolley</text><rect x=\"150\" y=\"74\" width=\"12\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"110\" y=\"60\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Card</text><line x1=\"113\" y1=\"62\" x2=\"150\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M280 140 V40 H330 V140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-opacity=\"0.6\"/><text x=\"305\" y=\"30\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Light gate</text><path d=\"M282 88 H328\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"345\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Light beam</text><line x1=\"340\" y1=\"88\" x2=\"330\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"80\" y1=\"90\" x2=\"122.8\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"130,90 122,94.1 122,85.9\" fill=\"currentColor\"/><text x=\"55\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Motion</text></svg>"
+      },
       "markScheme": [
         "Indicative content: measure the mass of the trolley using a top-pan balance (in kg); measure the velocity: use a light gate and a card of known length on the trolley (velocity = length of card ÷ time to pass through the gate), or measure a distance with a metre rule and time it with a stopwatch (velocity = distance ÷ time); make the runway friction-compensated so the velocity is constant; repeat the velocity measurement and calculate a mean; calculate momentum = mass × velocity, in kg m/s.",
         "Level 2 (3 to 4 marks): describes measuring mass and velocity with suitable equipment and calculating p = m v with correct units.",
