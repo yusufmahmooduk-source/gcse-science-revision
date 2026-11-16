@@ -1,0 +1,675 @@
+{
+  "id": "p7-generator-effect",
+  "science": "physics",
+  "topicId": "p7",
+  "slug": "generator-effect",
+  "specRef": "4.7.3.2",
+  "title": "Uses of the generator effect",
+  "separateOnly": true,
+  "higherOnly": true,
+  "notes": {
+    "definition": "The generator effect is used in an alternator to generate alternating current (a.c.) and in a dynamo to generate direct current (d.c.). In both, a coil rotates in a magnetic field, inducing a potential difference.",
+    "explanation": [
+      "In a simple generator, a coil of wire is rotated in a magnetic field (or a magnet is rotated inside a coil). As the coil turns, its sides cut through the magnetic field lines, so a potential difference is induced across the ends of the coil. If the coil is connected to a complete circuit, an induced current flows. The energy comes from the work done to turn the coil, for example by a turbine, engine or bicycle wheel.",
+      "As the coil rotates, the induced p.d. changes. When the plane of the coil is parallel to the magnetic field, the sides are moving at right angles to the field lines and cutting them fastest, so the induced p.d. is at its maximum. When the plane of the coil is at right angles to the field, the sides are moving along the field lines and not cutting them, so the induced p.d. is zero. Each half turn, the sides swap over, so the direction of the induced p.d. in the coil reverses.",
+      "An alternator generates a.c. Each end of the coil is connected to its own slip ring, and carbon brushes press against the rings. Because each ring is always connected to the same end of the coil, the output p.d. reverses every half turn, just as the p.d. in the coil does. A graph of p.d. against time is a smooth wave that is positive for half a turn and negative for the next half. One complete cycle of the wave corresponds to one complete rotation.",
+      "A dynamo generates d.c. Instead of slip rings it has a split-ring commutator. Every half turn, just as the p.d. in the coil reverses, the commutator swaps the connections to the brushes. The output p.d. therefore always has the same direction. A graph of p.d. against time shows a series of humps above the axis: the p.d. varies in size and falls to zero twice per rotation, but it never becomes negative.",
+      "For both devices, rotating the coil faster increases the peak p.d. (the field lines are cut faster) and makes the cycles happen more often, so on a graph the peaks become taller and closer together. A stronger magnetic field or more turns on the coil increases the peak p.d. without changing the frequency. For an alternator, the frequency of the a.c. equals the number of rotations per second."
+    ],
+    "keyFacts": [
+      "An alternator generates a.c.; a dynamo generates d.c.",
+      "Both use a coil rotating in a magnetic field (the generator effect).",
+      "An alternator uses slip rings and brushes.",
+      "A dynamo uses a split-ring commutator and brushes.",
+      "Induced p.d. is maximum when the coil plane is parallel to the field and zero when it is at right angles.",
+      "The p.d. in the coil reverses every half turn.",
+      "Alternator output graph: a wave going positive and negative; one cycle per rotation.",
+      "Dynamo output graph: humps all on one side; p.d. varies but never reverses.",
+      "Faster rotation gives higher peaks and a higher frequency.",
+      "Stronger field or more turns gives higher peaks at the same frequency."
+    ],
+    "keyTerms": [
+      {
+        "term": "Alternator",
+        "definition": "A generator that produces alternating current, using slip rings."
+      },
+      {
+        "term": "Dynamo",
+        "definition": "A generator that produces direct current, using a split-ring commutator."
+      },
+      {
+        "term": "Slip rings",
+        "definition": "Two separate rings, each permanently connected to one end of the coil, so the output alternates."
+      },
+      {
+        "term": "Split-ring commutator",
+        "definition": "A split ring that reverses the coil's connections every half turn, so the output is d.c."
+      },
+      {
+        "term": "Brushes",
+        "definition": "Carbon contacts that press on the rotating rings and connect the coil to the external circuit."
+      },
+      {
+        "term": "Frequency",
+        "definition": "The number of complete cycles per second, measured in hertz (Hz)."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Frequency and period",
+        "formula": "period = 1 ÷ frequency",
+        "symbols": "T = 1 ÷ f",
+        "units": "T in seconds (s), f in hertz (Hz)",
+        "recall": false
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Frequency from rotation speed",
+        "question": "An alternator coil turns at 3000 revolutions per minute. Calculate the frequency of the a.c. output.",
+        "steps": [
+          "One rotation gives one cycle of a.c.",
+          "Rotations per second = 3000 ÷ 60 = 50.",
+          "Frequency = 50 Hz."
+        ],
+        "answer": "50 Hz"
+      },
+      {
+        "title": "Frequency from a graph",
+        "question": "A p.d. against time graph for an alternator shows one complete cycle takes 0.040 s. Calculate the frequency and the number of rotations per second.",
+        "steps": [
+          "f = 1 ÷ T = 1 ÷ 0.040.",
+          "f = 25 Hz.",
+          "One cycle per rotation, so 25 rotations per second."
+        ],
+        "answer": "25 Hz; 25 rotations per second"
+      },
+      {
+        "title": "Comparing graphs",
+        "question": "An alternator is turned twice as fast. Describe the change to its p.d. against time graph.",
+        "steps": [
+          "Faster rotation cuts field lines faster, so the peak p.d. increases (about doubles).",
+          "Twice as many rotations per second, so twice as many cycles: the frequency doubles and the period halves."
+        ],
+        "answer": "Peaks are taller and twice as close together."
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A simple alternator",
+        "caption": "A coil is turned between the poles of a magnet. Each end of the coil connects to its own slip ring, and brushes connect the rings to a lamp. The induced p.d. reverses every half turn, so the lamp is supplied with a.c.",
+        "svg": "<svg viewBox='0 0 440 330' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor'><rect x='40' y='40' width='60' height='130' fill='#fca5a5' fill-opacity='0.5'/><rect x='320' y='40' width='60' height='130' fill='#93c5fd' fill-opacity='0.5'/></g><line x1='100' y1='60' x2='320' y2='60' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,60.0 114.5,63.5 114.5,56.5' fill='currentColor'/><line x1='100' y1='105' x2='320' y2='105' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,105.0 114.5,108.5 114.5,101.5' fill='currentColor'/><line x1='100' y1='150' x2='320' y2='150' stroke='currentColor' stroke-dasharray='4 4' stroke-opacity='0.6'/><polygon points='121.5,150.0 114.5,153.5 114.5,146.5' fill='currentColor'/><g stroke='currentColor' stroke-width='3' fill='none'><polyline points='204,190 150,190 150,40 270,40 270,190 216,190'/><line x1='204' y1='190' x2='204' y2='222'/><line x1='216' y1='190' x2='216' y2='252'/></g><line x1='210' y1='190' x2='210' y2='300' stroke='currentColor' stroke-width='2' stroke-dasharray='6 3'/><g stroke='currentColor' stroke-width='2' fill='#fde68a' fill-opacity='0.5'><ellipse cx='210' cy='225' rx='26' ry='8'/><ellipse cx='210' cy='255' rx='26' ry='8'/></g><g stroke='currentColor'><rect x='240' y='219' width='22' height='12' fill='#e5e7eb'/><rect x='240' y='249' width='22' height='12' fill='#e5e7eb'/><polyline points='262,225 330,225 330,240' fill='none'/><polyline points='262,255 300,255 300,300 330,300 330,280' fill='none'/><circle cx='330' cy='260' r='18' fill='none'/><line x1='317' y1='247' x2='343' y2='273'/><line x1='317' y1='273' x2='343' y2='247'/></g><path d='M180 312 Q210 326 240 312' fill='none' stroke='currentColor'/><polygon points='243.6,309.8 238.7,317.8 234.2,310.7' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='65' y='110'>N</text><text x='345' y='110'>S</text><text x='176' y='130'>coil</text><text x='160' y='20'>field: N to S</text><text x='90' y='230'>slip rings</text><text x='268' y='216'>brushes</text><text x='358' y='264'>lamp</text><text x='250' y='326'>coil turned</text><text x='10' y='290'>Each ring stays connected to</text><text x='10' y='304'>one end of the coil: output is a.c.</text></g></svg>"
+      },
+      {
+        "title": "Output of an alternator and a dynamo",
+        "caption": "Top: an alternator gives a.c.; the p.d. reverses every half turn, with one cycle per rotation. Bottom: a dynamo's split-ring commutator swaps the connections every half turn, so the p.d. varies but never reverses (d.c.).",
+        "svg": "<svg viewBox='0 0 440 300' xmlns='http://www.w3.org/2000/svg'><line x1='50' y1='30' x2='50' y2='130' stroke='currentColor'/><line x1='50' y1='80' x2='405' y2='80' stroke='currentColor'/><polygon points='408.5,80.0 401.5,83.5 401.5,76.5' fill='currentColor'/><polygon points='50.0,26.5 53.5,33.5 46.5,33.5' fill='currentColor'/><path d='M50.0 80.0 L54.3 73.7 L58.5 67.6 L62.8 61.8 L67.0 56.5 L71.3 51.7 L75.5 47.6 L79.8 44.4 L84.0 42.0 L88.3 40.5 L92.5 40.0 L96.8 40.5 L101.0 42.0 L105.3 44.4 L109.5 47.6 L113.8 51.7 L118.0 56.5 L122.3 61.8 L126.5 67.6 L130.8 73.7 L135.0 80.0 L139.3 86.3 L143.5 92.4 L147.8 98.2 L152.0 103.5 L156.3 108.3 L160.5 112.4 L164.8 115.6 L169.0 118.0 L173.3 119.5 L177.5 120.0 L181.8 119.5 L186.0 118.0 L190.3 115.6 L194.5 112.4 L198.8 108.3 L203.0 103.5 L207.3 98.2 L211.5 92.4 L215.8 86.3 L220.0 80.0 L224.2 73.7 L228.5 67.6 L232.8 61.8 L237.0 56.5 L241.3 51.7 L245.5 47.6 L249.8 44.4 L254.0 42.0 L258.3 40.5 L262.5 40.0 L266.8 40.5 L271.0 42.0 L275.3 44.4 L279.5 47.6 L283.8 51.7 L288.0 56.5 L292.3 61.8 L296.5 67.6 L300.8 73.7 L305.0 80.0 L309.3 86.3 L313.5 92.4 L317.8 98.2 L322.0 103.5 L326.3 108.3 L330.5 112.4 L334.8 115.6 L339.0 118.0 L343.3 119.5 L347.5 120.0 L351.8 119.5 L356.0 118.0 L360.3 115.6 L364.5 112.4 L368.8 108.3 L373.0 103.5 L377.3 98.2 L381.5 92.4 L385.8 86.3 L390.0 80.0' fill='none' stroke='currentColor' stroke-width='2'/><line x1='50' y1='190' x2='50' y2='290' stroke='currentColor'/><line x1='50' y1='240' x2='405' y2='240' stroke='currentColor'/><polygon points='408.5,240.0 401.5,243.5 401.5,236.5' fill='currentColor'/><polygon points='50.0,186.5 53.5,193.5 46.5,193.5' fill='currentColor'/><path d='M50.0 240.0 L54.3 233.7 L58.5 227.6 L62.8 221.8 L67.0 216.5 L71.3 211.7 L75.5 207.6 L79.8 204.4 L84.0 202.0 L88.3 200.5 L92.5 200.0 L96.8 200.5 L101.0 202.0 L105.3 204.4 L109.5 207.6 L113.8 211.7 L118.0 216.5 L122.3 221.8 L126.5 227.6 L130.8 233.7 L135.0 240.0 L139.3 233.7 L143.5 227.6 L147.8 221.8 L152.0 216.5 L156.3 211.7 L160.5 207.6 L164.8 204.4 L169.0 202.0 L173.3 200.5 L177.5 200.0 L181.8 200.5 L186.0 202.0 L190.3 204.4 L194.5 207.6 L198.8 211.7 L203.0 216.5 L207.3 221.8 L211.5 227.6 L215.8 233.7 L220.0 240.0 L224.2 233.7 L228.5 227.6 L232.8 221.8 L237.0 216.5 L241.3 211.7 L245.5 207.6 L249.8 204.4 L254.0 202.0 L258.3 200.5 L262.5 200.0 L266.8 200.5 L271.0 202.0 L275.3 204.4 L279.5 207.6 L283.8 211.7 L288.0 216.5 L292.3 221.8 L296.5 227.6 L300.8 233.7 L305.0 240.0 L309.3 233.7 L313.5 227.6 L317.8 221.8 L322.0 216.5 L326.3 211.7 L330.5 207.6 L334.8 204.4 L339.0 202.0 L343.3 200.5 L347.5 200.0 L351.8 200.5 L356.0 202.0 L360.3 204.4 L364.5 207.6 L368.8 211.7 L373.0 216.5 L377.3 221.8 L381.5 227.6 L385.8 233.7 L390.0 240.0' fill='none' stroke='currentColor' stroke-width='2'/><line x1='50' y1='140' x2='220' y2='140' stroke='currentColor'/><polygon points='46.5,140.0 53.5,136.5 53.5,143.5' fill='currentColor'/><polygon points='223.5,140.0 216.5,143.5 216.5,136.5' fill='currentColor'/><g font-size='12' fill='currentColor'><text x='60' y='22'>Alternator (slip rings): a.c.</text><text x='10' y='45'>p.d.</text><text x='395' y='96'>time</text><text x='100' y='155'>one rotation of the coil</text><text x='60' y='182'>Dynamo (split-ring commutator): d.c.</text><text x='10' y='205'>p.d.</text><text x='395' y='256'>time</text><text x='60' y='290'>p.d. varies but never reverses: two peaks per rotation</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think a dynamo gives a steady, constant d.c. like a battery.",
+        "right": "In fact a simple dynamo's p.d. varies, falling to zero twice per rotation; it is d.c. only because it never reverses direction."
+      },
+      {
+        "wrong": "Students often think the p.d. is largest when the coil is at right angles to the field (facing the poles).",
+        "right": "In fact the p.d. is largest when the plane of the coil is parallel to the field, because the sides then cut the field lines fastest."
+      },
+      {
+        "wrong": "Students often mix up slip rings and split rings.",
+        "right": "In fact slip rings (alternator) give a.c.; a split-ring commutator (dynamo, and d.c. motor) gives d.c."
+      },
+      {
+        "wrong": "Students often think turning faster only increases the frequency.",
+        "right": "In fact turning faster increases both the frequency and the peak p.d."
+      }
+    ],
+    "realWorld": [
+      "Power station generators are huge alternators producing a.c. at 50 Hz for the National Grid.",
+      "Cars use an alternator driven by the engine to charge the battery (with electronics to convert the a.c. to d.c.).",
+      "Older bicycle lights were powered by a small generator turned by the wheel.",
+      "Wind turbines and hydroelectric turbines turn generators to produce electricity."
+    ],
+    "practicals": [],
+    "higherTier": [
+      "This whole subtopic is Higher tier only.",
+      "Explain how the generator effect is used in an alternator to generate a.c. and in a dynamo to generate d.c.",
+      "Draw and interpret graphs of potential difference generated in the coil against time."
+    ],
+    "separateOnlyContent": [
+      "This whole subtopic is in separate Physics (8463) only, not Combined Science.",
+      "Alternators (slip rings, a.c.) and dynamos (split-ring commutator, d.c.)."
+    ],
+    "examTips": [
+      "Link the component to the output: slip rings give a.c.; split-ring commutator gives d.c.",
+      "When interpreting a graph, find the period (time for one cycle) and use f = 1 ÷ T. Convert ms to s first.",
+      "When asked to sketch the effect of faster rotation, draw higher peaks AND more cycles in the same time.",
+      "Say the p.d. is maximum when the coil sides cut the field lines fastest, which is when the coil is parallel to the field."
+    ],
+    "summary": [
+      "Generators rotate a coil in a magnetic field to induce a p.d.",
+      "Alternator: slip rings, a.c. output.",
+      "Dynamo: split-ring commutator, d.c. output that varies but never reverses.",
+      "p.d. is maximum when the coil is parallel to the field, zero at right angles.",
+      "Faster rotation: higher peaks and higher frequency."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What does an alternator generate?",
+      "back": "Alternating current (a.c.)."
+    },
+    {
+      "front": "What does a dynamo generate?",
+      "back": "Direct current (d.c.)."
+    },
+    {
+      "front": "Which part makes an alternator's output a.c.?",
+      "back": "Slip rings (each connected to one end of the coil)."
+    },
+    {
+      "front": "Which part makes a dynamo's output d.c.?",
+      "back": "A split-ring commutator."
+    },
+    {
+      "front": "When is the induced p.d. in a rotating coil maximum?",
+      "back": "When the plane of the coil is parallel to the magnetic field."
+    },
+    {
+      "front": "When is the induced p.d. in a rotating coil zero?",
+      "back": "When the plane of the coil is at right angles to the field."
+    },
+    {
+      "front": "How often does the p.d. in the coil reverse?",
+      "back": "Every half turn."
+    },
+    {
+      "front": "Shape of an alternator's p.d.–time graph",
+      "back": "A wave going positive and negative."
+    },
+    {
+      "front": "Shape of a dynamo's p.d.–time graph",
+      "back": "Humps all on one side of the axis, falling to zero twice per rotation."
+    },
+    {
+      "front": "Effect of turning a generator faster",
+      "back": "Higher peak p.d. and higher frequency."
+    },
+    {
+      "front": "Effect of a stronger magnet on the output",
+      "back": "Higher peak p.d., same frequency."
+    },
+    {
+      "front": "Equation linking period and frequency",
+      "back": "T = 1 ÷ f."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-generator-effect-q01",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What type of current does an alternator produce?",
+      "options": [
+        "Direct current",
+        "No current",
+        "Alternating current",
+        "Static charge"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Alternating current"
+      ],
+      "explanation": "An alternator produces alternating current. A dynamo produces direct current."
+    },
+    {
+      "id": "p7-generator-effect-q02",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component makes a dynamo produce direct current?",
+      "options": [
+        "A split-ring commutator",
+        "Slip rings",
+        "An iron core",
+        "A lamp"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: A split-ring commutator"
+      ],
+      "explanation": "The split-ring commutator swaps the connections every half turn, so the output never reverses."
+    },
+    {
+      "id": "p7-generator-effect-q03",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which component is found in an alternator but not in a dynamo?",
+      "options": [
+        "Brushes",
+        "A coil",
+        "A magnet",
+        "Slip rings"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Slip rings"
+      ],
+      "explanation": "Both have brushes, a coil and a magnet. Only the alternator uses slip rings."
+    },
+    {
+      "id": "p7-generator-effect-q04",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "At which position of a rotating coil is the induced p.d. zero?",
+      "options": [
+        "When the plane of the coil is parallel to the field",
+        "When the plane of the coil is at right angles to the field",
+        "When the coil is turning fastest",
+        "At every position"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: When the plane of the coil is at right angles to the field"
+      ],
+      "explanation": "At right angles to the field, the sides move along the field lines and do not cut them, so no p.d. is induced at that instant."
+    },
+    {
+      "id": "p7-generator-effect-q05",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "How often does the direction of the p.d. induced in a rotating coil reverse?",
+      "options": [
+        "Every quarter turn",
+        "Every full turn",
+        "Every half turn",
+        "Every two turns"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: Every half turn"
+      ],
+      "explanation": "Each half turn the two sides of the coil swap places, so they cut the field in the opposite direction and the p.d. reverses."
+    },
+    {
+      "id": "p7-generator-effect-q06",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "An alternator's coil is rotated faster. What happens to the output?",
+      "options": [
+        "Higher peak p.d. and higher frequency",
+        "Higher peak p.d., same frequency",
+        "Same peak p.d., higher frequency",
+        "Lower peak p.d. and lower frequency"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Higher peak p.d. and higher frequency"
+      ],
+      "explanation": "Faster rotation cuts field lines faster (higher peak) and gives more cycles per second (higher frequency)."
+    },
+    {
+      "id": "p7-generator-effect-q07",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A stronger magnet is used in an alternator turning at the same speed. What happens to the output?",
+      "options": [
+        "Higher frequency only",
+        "No change",
+        "Output becomes d.c.",
+        "Higher peak p.d., same frequency"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Higher peak p.d., same frequency"
+      ],
+      "explanation": "A stronger field increases the induced p.d. but the number of rotations per second, and so the frequency, is unchanged."
+    },
+    {
+      "id": "p7-generator-effect-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A graph of a dynamo's output p.d. against time shows 20 humps in 0.50 s. How many rotations per second does the coil make?",
+      "options": [
+        "10",
+        "20",
+        "40",
+        "80"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: 20"
+      ],
+      "explanation": "A dynamo gives two humps per rotation, so 20 humps is 10 rotations in 0.50 s, which is 20 rotations per second."
+    },
+    {
+      "id": "p7-generator-effect-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Why is the output of a simple dynamo described as d.c. even though its p.d. keeps changing?",
+      "options": [
+        "The p.d. is always the same size",
+        "The current is very small",
+        "The p.d. never changes direction",
+        "It uses slip rings"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: The p.d. never changes direction"
+      ],
+      "explanation": "Direct current means the current flows in one direction only. The size can vary; a dynamo's output varies in size but never reverses."
+    },
+    {
+      "id": "p7-generator-effect-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "In a bicycle dynamo, a magnet rotates next to a fixed coil. Why is this design used instead of rotating the coil?",
+      "options": [
+        "No brushes or rotating connections are needed, as the coil is stationary",
+        "A rotating magnet cannot induce a p.d.",
+        "It produces d.c. without a commutator",
+        "The magnet becomes stronger when rotated"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: No brushes or rotating connections are needed, as the coil is stationary"
+      ],
+      "explanation": "Relative motion is all that matters. With the coil fixed, the wires can be connected directly without slip rings or brushes, which wear out."
+    },
+    {
+      "id": "p7-generator-effect-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "An alternator coil makes 50 complete rotations every second. State the frequency of the a.c. it produces.",
+      "numericAnswer": 50,
+      "tolerance": 0.02,
+      "unit": "Hz",
+      "markScheme": [
+        "1 mark: one cycle per rotation",
+        "1 mark: 50 Hz"
+      ],
+      "explanation": "Each rotation produces one complete cycle, so the frequency equals the rotations per second: 50 Hz."
+    },
+    {
+      "id": "p7-generator-effect-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "An alternator coil turns at 1800 revolutions per minute. Calculate the frequency of the output in hertz.",
+      "numericAnswer": 30,
+      "tolerance": 0.02,
+      "unit": "Hz",
+      "markScheme": [
+        "1 mark: 1800 ÷ 60",
+        "1 mark: 30 Hz"
+      ],
+      "explanation": "Rotations per second = 1800 ÷ 60 = 30, and one cycle per rotation gives 30 Hz."
+    },
+    {
+      "id": "p7-generator-effect-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A p.d. against time graph for an alternator shows that one complete cycle takes 40 ms. Calculate the frequency of the output.",
+      "numericAnswer": 25,
+      "tolerance": 0.02,
+      "unit": "Hz",
+      "markScheme": [
+        "1 mark: T = 0.040 s",
+        "1 mark: f = 1 ÷ 0.040",
+        "1 mark: f = 25 Hz"
+      ],
+      "explanation": "Convert 40 ms to 0.040 s, then f = 1 ÷ T = 25 Hz."
+    },
+    {
+      "id": "p7-generator-effect-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A dynamo coil rotates 15 times per second. Calculate the time between one peak of the output p.d. and the next, in milliseconds.",
+      "numericAnswer": 33.3,
+      "tolerance": 0.02,
+      "unit": "ms",
+      "markScheme": [
+        "1 mark: two peaks per rotation, so 30 peaks per second",
+        "1 mark: time between peaks = 1 ÷ 30 s",
+        "1 mark: 0.0333 s = 33.3 ms"
+      ],
+      "explanation": "A dynamo's output has two humps per rotation, so 30 peaks per second. The time between peaks is 1 ÷ 30 = 0.0333 s = 33.3 ms."
+    },
+    {
+      "id": "p7-generator-effect-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "An alternator produces a.c. of frequency 60 Hz. Calculate how many rotations the coil makes in one minute.",
+      "numericAnswer": 3600,
+      "tolerance": 0.02,
+      "unit": "",
+      "markScheme": [
+        "1 mark: 60 rotations per second",
+        "1 mark: 60 × 60 = 3600"
+      ],
+      "explanation": "One cycle per rotation, so 60 rotations each second, and 60 × 60 = 3600 rotations per minute."
+    },
+    {
+      "id": "p7-generator-effect-q16",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State the difference between the output of an alternator and the output of a dynamo.",
+      "acceptedAnswers": [
+        "alternator a.c.",
+        "dynamo d.c.",
+        "reverses",
+        "never reverses"
+      ],
+      "markScheme": [
+        "1 mark: an alternator produces a.c. (p.d. that reverses direction)",
+        "1 mark: a dynamo produces d.c. (p.d. that does not reverse)"
+      ],
+      "explanation": "The difference is due to slip rings versus a split-ring commutator."
+    },
+    {
+      "id": "p7-generator-effect-q17",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "State two ways to increase the peak p.d. from an alternator without changing its frequency.",
+      "acceptedAnswers": [
+        "stronger magnet",
+        "more turns",
+        "iron core"
+      ],
+      "markScheme": [
+        "1 mark: use a stronger magnet (field)",
+        "1 mark: use more turns on the coil (or add an iron core)"
+      ],
+      "explanation": "Turning faster also increases the peak but changes the frequency, so it is not allowed here."
+    },
+    {
+      "id": "p7-generator-effect-q18",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why the p.d. induced in a rotating coil is greatest when the plane of the coil is parallel to the magnetic field.",
+      "acceptedAnswers": [
+        "cutting field lines fastest",
+        "moving at right angles to the field"
+      ],
+      "markScheme": [
+        "1 mark: the sides of the coil are moving at right angles to the field lines",
+        "1 mark: so they cut the field lines at the greatest rate"
+      ],
+      "explanation": "The induced p.d. depends on the rate of cutting field lines."
+    },
+    {
+      "id": "p7-generator-effect-q19",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how slip rings result in an alternating output from a rotating coil.",
+      "acceptedAnswers": [
+        "each ring connected to one end",
+        "p.d. in coil reverses",
+        "output reverses"
+      ],
+      "markScheme": [
+        "1 mark: each slip ring is always connected to the same end of the coil",
+        "1 mark: so when the p.d. in the coil reverses every half turn, the output p.d. also reverses"
+      ],
+      "explanation": "Slip rings pass on the coil's own alternating p.d. unchanged."
+    },
+    {
+      "id": "p7-generator-effect-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how a split-ring commutator results in a direct current output.",
+      "acceptedAnswers": [
+        "swaps connections",
+        "every half turn",
+        "same direction"
+      ],
+      "markScheme": [
+        "1 mark: the commutator swaps the connections between the coil and the brushes every half turn",
+        "1 mark: this happens just as the p.d. in the coil reverses, so the output is always in the same direction"
+      ],
+      "explanation": "Two reversals cancel: the coil's p.d. reverses and the connections reverse together."
+    },
+    {
+      "id": "p7-generator-effect-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Describe how the p.d. against time graph of an alternator changes when the coil is turned at half the speed.",
+      "acceptedAnswers": [
+        "lower peaks",
+        "longer period",
+        "lower frequency",
+        "half"
+      ],
+      "markScheme": [
+        "1 mark: the peak p.d. decreases (about halves)",
+        "1 mark: the cycles are further apart (period doubles)",
+        "1 mark: so the frequency halves"
+      ],
+      "explanation": "Slower rotation cuts field lines more slowly and completes fewer cycles each second."
+    },
+    {
+      "id": "p7-generator-effect-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A lamp is connected to a dynamo. Suggest why the lamp might flicker when the dynamo turns slowly.",
+      "acceptedAnswers": [
+        "p.d. falls to zero",
+        "twice per rotation",
+        "varying"
+      ],
+      "markScheme": [
+        "1 mark: the dynamo's p.d. falls to zero twice every rotation",
+        "1 mark: at low speeds these gaps are long enough for the lamp to dim visibly"
+      ],
+      "explanation": "The output of a simple dynamo is a series of humps with zeros in between."
+    },
+    {
+      "id": "p7-generator-effect-q23",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Explain how a simple alternator generates an alternating current.",
+      "markScheme": [
+        "Indicative content: a coil is rotated in a magnetic field (or a magnet rotated in a coil); the sides of the coil cut magnetic field lines; a p.d. is induced (generator effect); each half turn the sides move in the opposite direction through the field, so the p.d. reverses; slip rings, each connected to one end of the coil, and brushes connect to the external circuit; so the output reverses too: a.c.; maximum p.d. when coil parallel to field, zero when perpendicular.",
+        "Level 2 (3 to 4 marks): coherent explanation of induction, reversal every half turn and role of slip rings.",
+        "Level 1 (1 to 2 marks): simple statements such as the coil spins in a magnet.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Generator effect plus slip rings gives a.c."
+    },
+    {
+      "id": "p7-generator-effect-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "Compare how an alternator and a dynamo work, and sketch or describe the p.d. against time graph for each. Include the effect of rotating the coil faster.",
+      "markScheme": [
+        "Indicative content: both: coil rotated in magnetic field, sides cut field lines, p.d. induced by generator effect; p.d. maximum when coil parallel to field, zero when perpendicular; p.d. in coil reverses every half turn; alternator: slip rings, each connected to one end of the coil, output reverses: a.c.; graph a smooth wave above and below the axis, one cycle per rotation; dynamo: split-ring commutator swaps connections every half turn, output never reverses: d.c.; graph of humps all above the axis, falling to zero twice per rotation; faster rotation: higher peaks, more cycles or humps in the same time (higher frequency), for both.",
+        "Level 3 (5 to 6 marks): detailed comparison of both mechanisms, correct description of both graphs and the effect of faster rotation.",
+        "Level 2 (3 to 4 marks): explains one device well and the other partly, with some graph description.",
+        "Level 1 (1 to 2 marks): simple statements, such as alternator gives a.c. and dynamo gives d.c.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "The only structural difference is slip rings versus split-ring commutator, which determines a.c. or d.c. output."
+    },
+    {
+      "id": "p7-generator-effect-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the effect used by both alternators and dynamos.",
+      "acceptedAnswers": [
+        "generator effect",
+        "electromagnetic induction"
+      ],
+      "markScheme": [
+        "1 mark: the generator effect (electromagnetic induction)"
+      ],
+      "explanation": "Both rely on a p.d. being induced by relative motion between a coil and a magnetic field."
+    },
+    {
+      "id": "p7-generator-effect-q26",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Where does the energy that a generator transfers electrically come from?",
+      "options": [
+        "The magnet runs down",
+        "The lamp in the circuit",
+        "The brushes",
+        "Work done to turn the coil"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: Work done to turn the coil"
+      ],
+      "explanation": "A turbine, engine or person does work turning the coil against the opposing force from the induced current. The magnet does not run down."
+    }
+  ]
+}

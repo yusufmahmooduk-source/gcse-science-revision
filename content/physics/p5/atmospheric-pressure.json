@@ -1,0 +1,739 @@
+{
+  "id": "p5-atmospheric-pressure",
+  "science": "physics",
+  "topicId": "p5",
+  "slug": "atmospheric-pressure",
+  "specRef": "4.5.5.2",
+  "title": "Atmospheric pressure",
+  "separateOnly": true,
+  "higherOnly": false,
+  "notes": {
+    "definition": "The atmosphere is a thin layer of air around the Earth. Air molecules colliding with a surface create atmospheric pressure, which decreases with increasing height because there is less air (a smaller weight of air) above the surface.",
+    "explanation": [
+      "The Earth is surrounded by a layer of air called the atmosphere. Compared with the size of the Earth, this layer is very thin: most of the air lies within about 10 km of the surface, while the Earth's radius is about 6400 km. The atmosphere is held in place by the Earth's gravity. It gets less dense with increasing altitude, so the air molecules are closer together near the ground and more spread out higher up.",
+      "Air molecules are always moving quickly in random directions. When they hit a surface they bounce off, and each collision exerts a tiny force on the surface at right angles to it. Billions of collisions every second on every square metre add up to a large pressure, called atmospheric pressure. At sea level it is about 100 000 Pa (100 kPa), which means the air pushes with a force of about 100 000 N on every square metre. We do not notice it because it acts in all directions and the fluids in our bodies push outwards with a similar pressure.",
+      "Atmospheric pressure decreases as height above ground level increases. A simple way to explain this is to think about the air above a surface. The number of air molecules, and so the weight of air, above a surface decreases as the height of the surface increases. At any height there is always less air above a surface than there is above a lower surface. Less weight of air above means fewer molecules pressing down and colliding, so the pressure is lower.",
+      "Because the air is less dense higher up, there are also fewer molecules in each cubic metre, so collisions with a surface are less frequent. This is why the pressure at the top of Mount Everest is only about one third of the pressure at sea level, and why the pressure falls quickly near the ground but more slowly at great heights, where the remaining air is thin.",
+      "Atmospheric pressure is calculated like any pressure: p = F/A. The force due to atmospheric pressure on a surface is F = p × A. Effects of atmospheric pressure include a rubber sucker sticking to a smooth wall, a can collapsing when the air inside is removed, sealed packets of crisps puffing up at high altitude, and ears 'popping' as an aircraft climbs or descends."
+    ],
+    "keyFacts": [
+      "The atmosphere is a thin layer of air around the Earth, relative to the Earth's size.",
+      "The atmosphere gets less dense with increasing altitude.",
+      "Air molecules colliding with a surface create atmospheric pressure.",
+      "The force from atmospheric pressure acts at right angles to any surface.",
+      "Atmospheric pressure at sea level is about 100 000 Pa (100 kPa).",
+      "Atmospheric pressure decreases as height increases.",
+      "Higher up, there are fewer air molecules (less weight of air) above a surface.",
+      "Force due to atmospheric pressure: F = p × A."
+    ],
+    "keyTerms": [
+      {
+        "term": "Atmosphere",
+        "definition": "The thin layer of air surrounding the Earth, held by gravity."
+      },
+      {
+        "term": "Atmospheric pressure",
+        "definition": "The pressure caused by air molecules colliding with a surface; about 100 kPa at sea level."
+      },
+      {
+        "term": "Altitude",
+        "definition": "The height above sea level (or ground level)."
+      },
+      {
+        "term": "Density",
+        "definition": "Mass per unit volume; the air's density decreases with altitude."
+      },
+      {
+        "term": "Pascal (Pa)",
+        "definition": "The unit of pressure; 1 Pa = 1 N/m²."
+      },
+      {
+        "term": "Air molecule",
+        "definition": "A particle of a gas in air (for example nitrogen or oxygen) that moves randomly at high speed."
+      }
+    ],
+    "equations": [
+      {
+        "name": "Pressure",
+        "formula": "pressure = force normal to a surface ÷ area of that surface",
+        "symbols": "p = F ÷ A",
+        "units": "p in pascals (Pa), F in newtons (N), A in square metres (m²)",
+        "recall": true
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Force of the atmosphere on a window",
+        "question": "Atmospheric pressure is 100 000 Pa. Calculate the force the atmosphere exerts on one side of a window of area 1.5 m².",
+        "steps": [
+          "Rearrange p = F ÷ A to F = p × A.",
+          "F = 100 000 × 1.5.",
+          "F = 150 000 N. The window does not break because the air on the other side pushes back with an equal force."
+        ],
+        "answer": "150 000 N"
+      },
+      {
+        "title": "Explaining a change with height",
+        "question": "A climber records atmospheric pressure of 100 kPa at the base of a mountain and 60 kPa at the summit. Explain the difference.",
+        "steps": [
+          "At the summit, the climber is higher above sea level.",
+          "There is less air above the summit, so a smaller weight of air above each square metre.",
+          "The air at the summit is also less dense, so fewer molecules collide with each square metre per second.",
+          "So the atmospheric pressure is lower at the summit."
+        ],
+        "answer": "Less air (smaller weight of air) above the summit, and less dense air, so fewer collisions and lower pressure"
+      },
+      {
+        "title": "Resultant force from a pressure difference",
+        "question": "An aircraft cabin is kept at 80 000 Pa while the air outside is at 25 000 Pa. A door has an area of 2.0 m². Calculate the resultant force on the door.",
+        "steps": [
+          "Pressure difference = 80 000 − 25 000 = 55 000 Pa.",
+          "F = p × A = 55 000 × 2.0.",
+          "F = 110 000 N, acting outwards (from the higher pressure side)."
+        ],
+        "answer": "110 000 N outwards"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "A simple model of the atmosphere",
+        "caption": "In a column of air, molecules are closest together near the ground. Higher up there are fewer molecules above any surface, so the weight of air above it and the atmospheric pressure are smaller.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='215' width='380' height='25' fill='#86efac' fill-opacity='0.5' stroke='currentColor'/><rect x='110' y='30' width='120' height='185' fill='#93c5fd' fill-opacity='0.3' stroke='currentColor' stroke-dasharray='4 3'/><g fill='currentColor'><circle cx='114' cy='205' r='2.5'/><circle cx='121' cy='203' r='2.5'/><circle cx='131' cy='205' r='2.5'/><circle cx='137' cy='207' r='2.5'/><circle cx='149' cy='204' r='2.5'/><circle cx='156' cy='207' r='2.5'/><circle cx='167' cy='202' r='2.5'/><circle cx='174' cy='203' r='2.5'/><circle cx='184' cy='203' r='2.5'/><circle cx='192' cy='205' r='2.5'/><circle cx='198' cy='202' r='2.5'/><circle cx='211' cy='208' r='2.5'/><circle cx='215' cy='205' r='2.5'/><circle cx='228' cy='203' r='2.5'/><circle cx='115' cy='190' r='2.5'/><circle cx='126' cy='189' r='2.5'/><circle cx='133' cy='193' r='2.5'/><circle cx='145' cy='188' r='2.5'/><circle cx='155' cy='189' r='2.5'/><circle cx='163' cy='192' r='2.5'/><circle cx='174' cy='189' r='2.5'/><circle cx='182' cy='193' r='2.5'/><circle cx='193' cy='192' r='2.5'/><circle cx='205' cy='188' r='2.5'/><circle cx='216' cy='189' r='2.5'/><circle cx='227' cy='191' r='2.5'/><circle cx='114' cy='173' r='2.5'/><circle cx='128' cy='173' r='2.5'/><circle cx='137' cy='174' r='2.5'/><circle cx='153' cy='176' r='2.5'/><circle cx='167' cy='174' r='2.5'/><circle cx='176' cy='175' r='2.5'/><circle cx='188' cy='177' r='2.5'/><circle cx='200' cy='175' r='2.5'/><circle cx='211' cy='173' r='2.5'/><circle cx='225' cy='173' r='2.5'/><circle cx='115' cy='162' r='2.5'/><circle cx='132' cy='163' r='2.5'/><circle cx='146' cy='162' r='2.5'/><circle cx='158' cy='161' r='2.5'/><circle cx='170' cy='157' r='2.5'/><circle cx='182' cy='159' r='2.5'/><circle cx='195' cy='159' r='2.5'/><circle cx='211' cy='161' r='2.5'/><circle cx='222' cy='163' r='2.5'/><circle cx='116' cy='144' r='2.5'/><circle cx='136' cy='145' r='2.5'/><circle cx='150' cy='148' r='2.5'/><circle cx='170' cy='147' r='2.5'/><circle cx='188' cy='145' r='2.5'/><circle cx='202' cy='147' r='2.5'/><circle cx='224' cy='144' r='2.5'/><circle cx='117' cy='128' r='2.5'/><circle cx='141' cy='131' r='2.5'/><circle cx='161' cy='132' r='2.5'/><circle cx='178' cy='132' r='2.5'/><circle cx='198' cy='127' r='2.5'/><circle cx='217' cy='127' r='2.5'/><circle cx='122' cy='117' r='2.5'/><circle cx='148' cy='113' r='2.5'/><circle cx='170' cy='112' r='2.5'/><circle cx='193' cy='115' r='2.5'/><circle cx='215' cy='114' r='2.5'/><circle cx='123' cy='99' r='2.5'/><circle cx='157' cy='98' r='2.5'/><circle cx='183' cy='97' r='2.5'/><circle cx='216' cy='98' r='2.5'/><circle cx='129' cy='83' r='2.5'/><circle cx='170' cy='84' r='2.5'/><circle cx='207' cy='87' r='2.5'/><circle cx='140' cy='71' r='2.5'/><circle cx='199' cy='73' r='2.5'/><circle cx='141' cy='56' r='2.5'/><circle cx='199' cy='54' r='2.5'/><circle cx='167' cy='42' r='2.5'/></g><g font-size='12' fill='currentColor'><text x='30' y='233'>ground (sea level)</text><text x='245' y='45'>high altitude:</text><text x='245' y='60'>few molecules above,</text><text x='245' y='75'>low density, low pressure</text><text x='245' y='180'>ground level:</text><text x='245' y='195'>most air above,</text><text x='245' y='210'>dense air, high pressure</text><text x='20' y='20'>A column of air: molecules are closer together lower down</text></g><line x1='240' y1='100' x2='240' y2='160' stroke='currentColor' stroke-width='2'/><path d='M240 90 L234 102 L246 102 Z' fill='currentColor'/><text x='250' y='130' font-size='12' fill='currentColor'>altitude increases</text></svg>"
+      },
+      {
+        "title": "How air molecules create pressure",
+        "caption": "Air molecules collide with a surface and bounce off. Each collision exerts a force at right angles to the surface; the total force per unit area is atmospheric pressure.",
+        "svg": "<svg viewBox='0 0 420 220' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='30' height='180' fill='#e5e7eb' fill-opacity='0.5' stroke='currentColor'/><g fill='#c4b5fd' fill-opacity='0.5' stroke='currentColor'><circle cx='170' cy='50' r='8'/><circle cx='250' cy='110' r='8'/><circle cx='180' cy='170' r='8'/><circle cx='320' cy='70' r='8'/><circle cx='330' cy='160' r='8'/></g><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='162,52 78,80 150,105'/><polyline points='242,112 78,140 160,165'/></g><g fill='currentColor'><path d='M156 107 L145 99 L143 109 Z'/><path d='M166 168 L155 159 L153 169 Z'/></g><g stroke='currentColor' stroke-width='3'><line x1='70' y1='80' x2='20' y2='80'/><line x1='70' y1='140' x2='20' y2='140'/></g><g fill='currentColor'><path d='M12 80 L24 74 L24 86 Z'/><path d='M12 140 L24 134 L24 146 Z'/></g><g font-size='12' fill='currentColor'><text x='80' y='14'>surface</text><text x='200' y='30'>air molecules move randomly</text><text x='200' y='95'>molecule collides and bounces off</text><text x='5' y='70'>force</text><text x='215' y='200' text-anchor='middle'>Each collision exerts a force at right angles to the</text><text x='215' y='215' text-anchor='middle'>surface; many collisions per second give pressure.</text></g></svg>"
+      },
+      {
+        "title": "Atmospheric pressure decreases with altitude",
+        "caption": "Pressure falls from about 100 kPa at sea level to about 26 kPa at 10 km. The fall is fastest near the ground, where the air is densest.",
+        "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg'><g stroke='currentColor' stroke-opacity='0.25'><line x1='60' y1='125' x2='360' y2='125'/><line x1='60' y1='40' x2='360' y2='40'/><line x1='160' y1='210' x2='160' y2='30'/><line x1='260' y1='210' x2='260' y2='30'/><line x1='360' y1='210' x2='360' y2='30'/></g><g stroke='currentColor'><line x1='60' y1='210' x2='370' y2='210'/><line x1='60' y1='210' x2='60' y2='25'/></g><path d='M60 38.3 C120 95 190 140 260 165 S330 186 360 189.6' fill='none' stroke='currentColor' stroke-width='2.5'/><g fill='currentColor'><circle cx='60' cy='38.3' r='3'/><circle cx='160' cy='118.2' r='3'/><circle cx='260' cy='165' r='3'/><circle cx='360' cy='189.6' r='3'/></g><g font-size='12' fill='currentColor'><text x='60' y='226' text-anchor='middle'>0</text><text x='160' y='226' text-anchor='middle'>5</text><text x='260' y='226' text-anchor='middle'>10</text><text x='360' y='226' text-anchor='middle'>15</text><text x='210' y='248' text-anchor='middle'>altitude in km</text><text x='52' y='214' text-anchor='end'>0</text><text x='52' y='129' text-anchor='end'>50</text><text x='52' y='44' text-anchor='end'>100</text><text x='16' y='125' transform='rotate(-90 16 125)' text-anchor='middle'>pressure in kPa</text><text x='170' y='80'>pressure falls as altitude rises</text><text x='170' y='95'>(top of Everest, 8.8 km: about 33 kPa)</text></g></svg>"
+      }
+    ],
+    "misconceptions": [
+      {
+        "wrong": "Students often think atmospheric pressure only pushes downwards.",
+        "right": "In fact air molecules collide with surfaces from all directions, so atmospheric pressure acts at right angles to every surface, including upwards and sideways."
+      },
+      {
+        "wrong": "Students often think a sucker is pulled onto a wall by suction.",
+        "right": "In fact it is pushed onto the wall by atmospheric pressure outside, which is greater than the reduced pressure under the sucker."
+      },
+      {
+        "wrong": "Students often think the atmosphere is very thick compared with the Earth.",
+        "right": "In fact it is a thin layer: most of the air is within about 10 km of the surface, compared with an Earth radius of about 6400 km."
+      },
+      {
+        "wrong": "Students often think pressure decreases with height because it is colder higher up.",
+        "right": "In fact the main reason is that there is less air (a smaller weight of air) above a higher surface, and the air there is less dense."
+      }
+    ],
+    "realWorld": [
+      "Aircraft cabins are pressurised because the atmospheric pressure at cruising altitude (about 10 km) is too low for passengers to breathe comfortably.",
+      "Mountaineers on very high peaks often carry oxygen because the low-pressure, low-density air contains fewer oxygen molecules per breath.",
+      "Barometers measure atmospheric pressure; aircraft altimeters use the fall in pressure with height to estimate altitude.",
+      "Sealed food packets puff up on mountains or in aircraft because the pressure outside the packet becomes lower than the pressure inside."
+    ],
+    "practicals": [],
+    "higherTier": [],
+    "separateOnlyContent": [
+      "The whole of this subtopic (atmospheric pressure, 4.5.5.2) is in separate Physics (8463) only and is not assessed in Combined Science Trilogy.",
+      "Describe a simple model of the Earth's atmosphere and of atmospheric pressure.",
+      "Explain why atmospheric pressure varies with height above a surface."
+    ],
+    "examTips": [
+      "When explaining atmospheric pressure, mention air molecules colliding with the surface and exerting a force.",
+      "To explain why pressure falls with height, say there are fewer molecules (less weight of air) above the surface; mentioning the lower density earns credit too.",
+      "Use 'air molecules' or 'particles', not 'atoms of air' or 'oxygen only'.",
+      "In calculations, convert kPa to Pa (× 1000) and cm² to m² (÷ 10 000) before using F = p × A.",
+      "For collapsing cans or suckers, compare the pressure outside with the pressure inside and state the direction of the resultant force."
+    ],
+    "summary": [
+      "The atmosphere is a thin layer of air around the Earth.",
+      "It becomes less dense as altitude increases.",
+      "Atmospheric pressure comes from air molecules colliding with surfaces.",
+      "At sea level it is about 100 000 Pa.",
+      "Higher up there is less air above a surface, so the pressure is lower.",
+      "Force due to atmospheric pressure: F = p × A."
+    ]
+  },
+  "flashcards": [
+    {
+      "front": "What is the atmosphere?",
+      "back": "A thin layer of air around the Earth."
+    },
+    {
+      "front": "What creates atmospheric pressure?",
+      "back": "Air molecules colliding with a surface."
+    },
+    {
+      "front": "How does the density of the atmosphere change with altitude?",
+      "back": "It decreases."
+    },
+    {
+      "front": "How does atmospheric pressure change with height?",
+      "back": "It decreases."
+    },
+    {
+      "front": "Why does atmospheric pressure decrease with height?",
+      "back": "There are fewer air molecules (less weight of air) above a higher surface."
+    },
+    {
+      "front": "Approximate atmospheric pressure at sea level?",
+      "back": "About 100 000 Pa (100 kPa)."
+    },
+    {
+      "front": "In what direction does atmospheric pressure act on a surface?",
+      "back": "At right angles to the surface, from all directions."
+    },
+    {
+      "front": "Why is the atmosphere described as thin?",
+      "back": "Its thickness is very small compared with the radius of the Earth."
+    },
+    {
+      "front": "How do you calculate the force from atmospheric pressure?",
+      "back": "F = p × A."
+    },
+    {
+      "front": "Why does a sealed crisp packet puff up on a mountain?",
+      "back": "The air pressure outside is lower than the pressure inside the packet."
+    },
+    {
+      "front": "Why does a rubber sucker stick to a wall?",
+      "back": "Atmospheric pressure outside is greater than the pressure under the sucker, pushing it on."
+    },
+    {
+      "front": "What happens to the number of molecule collisions per second higher up?",
+      "back": "It decreases, because the air is less dense."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-atmospheric-pressure-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which statement best describes the Earth's atmosphere?",
+      "options": [
+        "A thick layer of rock around the Earth's core",
+        "A thin layer of air around the Earth",
+        "A layer of water vapour above the oceans only",
+        "Empty space around the Earth"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: A thin layer of air around the Earth"
+      ],
+      "explanation": "The atmosphere is a thin layer of air (relative to the size of the Earth) held around the planet by gravity."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What causes atmospheric pressure on a surface?",
+      "options": [
+        "Air molecules colliding with the surface",
+        "Sunlight shining on the surface",
+        "The Earth's magnetic field",
+        "Heat from the Earth's core"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: Air molecules colliding with the surface"
+      ],
+      "explanation": "Moving air molecules hit the surface and bounce off, each collision exerting a small force. Together they produce the pressure."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What happens to atmospheric pressure as you climb higher above sea level?",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It decreases",
+        "It becomes zero immediately"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: It decreases"
+      ],
+      "explanation": "There is less air above you the higher you go, so atmospheric pressure decreases with height."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "How does the density of the atmosphere change as altitude increases?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It increases and then decreases"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: It decreases"
+      ],
+      "explanation": "The atmosphere gets less dense with increasing altitude: the molecules are more spread out higher up."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Why is atmospheric pressure lower at the top of a mountain than at its base?",
+      "options": [
+        "The air at the top is warmer",
+        "Gravity is much stronger at the top",
+        "There is a smaller weight of air above the top of the mountain",
+        "Air molecules at the top move faster"
+      ],
+      "answer": 2,
+      "markScheme": [
+        "1 mark: There is a smaller weight of air above the top of the mountain"
+      ],
+      "explanation": "At a greater height there are fewer air molecules, so less weight of air, above the surface, giving a lower pressure."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "What is the approximate value of atmospheric pressure at sea level?",
+      "options": [
+        "100 Pa",
+        "1000 Pa",
+        "10 000 000 Pa",
+        "100 000 Pa"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: 100 000 Pa"
+      ],
+      "explanation": "Atmospheric pressure at sea level is about 100 000 Pa (100 kPa), roughly the pressure of a 10 m column of water."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "In which direction does the force due to atmospheric pressure act on a surface?",
+      "options": [
+        "At right angles to the surface",
+        "Only vertically downwards",
+        "Parallel to the surface",
+        "Only vertically upwards"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: At right angles to the surface"
+      ],
+      "explanation": "Molecules strike surfaces from every direction, and the force from a fluid's pressure is always normal (at right angles) to the surface."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q08",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "The atmosphere is described as a 'thin' layer. Why?",
+      "options": [
+        "Its mass is very small compared with the Moon's",
+        "Its thickness is very small compared with the radius of the Earth",
+        "It contains very few molecules near the ground",
+        "It is only found above the oceans"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: Its thickness is very small compared with the radius of the Earth"
+      ],
+      "explanation": "Most of the air lies within about 10 km of the surface, compared with an Earth radius of about 6400 km. Near the ground the air is actually at its densest."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q09",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A passenger's ears 'pop' as an aircraft climbs after take-off. Which explanation is correct?",
+      "options": [
+        "The atmospheric pressure outside the ear increases, pushing the eardrum in",
+        "The air in the middle ear becomes colder and contracts",
+        "Gravity on the eardrum decreases",
+        "The atmospheric pressure outside the ear decreases, so the air inside the ear pushes the eardrum outwards"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: The atmospheric pressure outside the ear decreases, so the air inside the ear pushes the eardrum outwards"
+      ],
+      "explanation": "As the aircraft climbs, cabin pressure falls. The air trapped behind the eardrum is briefly at a higher pressure, so the eardrum is pushed outwards until the pressures equalise."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q10",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A sealed packet of crisps is taken from sea level to the top of a high mountain. It puffs up. Why?",
+      "options": [
+        "The pressure outside the packet is now lower than the pressure inside it",
+        "The air inside the packet has gained more molecules",
+        "The pressure outside the packet is now higher than the pressure inside it",
+        "The crisps expand when cooled"
+      ],
+      "answer": 0,
+      "markScheme": [
+        "1 mark: The pressure outside the packet is now lower than the pressure inside it"
+      ],
+      "explanation": "Atmospheric pressure at the top is lower. The air inside the packet is at the higher sea-level pressure, so there is a resultant outward force and the packet expands."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q11",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A barometer is carried from a valley floor up to a hilltop. What happens to its reading?",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It increases then decreases",
+        "It decreases"
+      ],
+      "answer": 3,
+      "markScheme": [
+        "1 mark: It decreases"
+      ],
+      "explanation": "A barometer measures atmospheric pressure, which is lower at greater heights, so the reading falls."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q12",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Which change would increase the pressure exerted by air on a surface?",
+      "options": [
+        "Fewer air molecules hitting the surface each second",
+        "More air molecules hitting the surface each second",
+        "Moving the surface to a higher altitude",
+        "Making the air less dense"
+      ],
+      "answer": 1,
+      "markScheme": [
+        "1 mark: More air molecules hitting the surface each second"
+      ],
+      "explanation": "Pressure comes from collisions. More collisions per second on the same area means a larger force and a larger pressure. The other options all reduce collisions."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Atmospheric pressure is 100 000 Pa. Calculate the force the atmosphere exerts on one side of a window of area 1.5 m².",
+      "numericAnswer": 150000,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = p × A = 100 000 × 1.5",
+        "1 mark: 150 000 N"
+      ],
+      "explanation": "Rearrange p = F/A to F = p × A = 100 000 × 1.5 = 150 000 N. The window does not break because the air on the other side pushes with an equal force."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Atmospheric pressure is 101 000 Pa. Calculate the force of the air on the top of a table with an area of 0.25 m².",
+      "numericAnswer": 25250,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: F = 101 000 × 0.25",
+        "1 mark: 25 250 N"
+      ],
+      "explanation": "F = p × A = 101 000 × 0.25 = 25 250 N. An equal upward force from air under the table means there is no resultant force."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q15",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "The air inside an aircraft cabin is at a pressure of 80 000 Pa. The air outside is at 25 000 Pa. A cabin door has an area of 2.0 m². Calculate the resultant force on the door due to the pressure difference.",
+      "numericAnswer": 110000,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: pressure difference = 80 000 − 25 000 = 55 000 Pa",
+        "1 mark: F = 55 000 × 2.0",
+        "1 mark: 110 000 N"
+      ],
+      "explanation": "Use the pressure difference: 55 000 Pa × 2.0 m² = 110 000 N, acting outwards. This is why aircraft doors are designed to be pushed shut by the cabin pressure."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q16",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Atmospheric pressure is 100 000 Pa at sea level and 60 000 Pa at the top of a mountain. Calculate the decrease in the force from the atmosphere on a surface of area 0.040 m² when it is taken from sea level to the top of the mountain.",
+      "numericAnswer": 1600,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: pressure difference = 40 000 Pa",
+        "1 mark: F = 40 000 × 0.040",
+        "1 mark: 1600 N"
+      ],
+      "explanation": "The pressure falls by 40 000 Pa. The force falls by 40 000 × 0.040 = 1600 N (from 4000 N to 2400 N)."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q17",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Air is pumped out of a metal can until the pressure inside is 20 000 Pa. The atmospheric pressure outside is 100 000 Pa. One side of the can has an area of 0.030 m². Calculate the resultant force on this side of the can.",
+      "numericAnswer": 2400,
+      "tolerance": 0.02,
+      "unit": "N",
+      "markScheme": [
+        "1 mark: pressure difference = 100 000 − 20 000 = 80 000 Pa",
+        "1 mark: F = 80 000 × 0.030",
+        "1 mark: 2400 N (inwards)"
+      ],
+      "explanation": "The resultant force is (100 000 − 20 000) × 0.030 = 2400 N, acting inwards, which is enough to crush the can."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Describe a simple model of the Earth's atmosphere.",
+      "acceptedAnswers": [
+        "thin layer of air",
+        "less dense with altitude",
+        "held by gravity",
+        "molecules further apart higher up"
+      ],
+      "markScheme": [
+        "1 mark: a thin layer of air around the Earth (thin compared with the size of the Earth)",
+        "1 mark: that gets less dense as altitude increases / molecules further apart higher up"
+      ],
+      "explanation": "The model has two key ideas: a thin layer, and density decreasing with height."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "State what happens to the density of air as the height above sea level increases.",
+      "acceptedAnswers": [
+        "decreases",
+        "gets less dense",
+        "lower density"
+      ],
+      "markScheme": [
+        "1 mark: it decreases"
+      ],
+      "explanation": "Air molecules are more spread out higher up, so the density is lower."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Name the unit in which atmospheric pressure is measured.",
+      "acceptedAnswers": [
+        "pascal",
+        "Pa",
+        "N/m²",
+        "kPa"
+      ],
+      "markScheme": [
+        "1 mark: pascal (Pa) (accept N/m² or kPa)"
+      ],
+      "explanation": "Atmospheric pressure is a pressure, so it is measured in pascals. 100 000 Pa = 100 kPa."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain how air molecules produce a pressure on a surface.",
+      "acceptedAnswers": [
+        "molecules collide",
+        "exert a force",
+        "at right angles",
+        "many collisions",
+        "force per unit area"
+      ],
+      "markScheme": [
+        "1 mark: air molecules collide with (hit and bounce off) the surface, exerting a force",
+        "1 mark: the total force from many collisions acting on each unit area is the pressure"
+      ],
+      "explanation": "Each collision gives a small push at right angles to the surface. Billions of collisions per second on each square metre add up to atmospheric pressure."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Explain why atmospheric pressure is lower at the top of a mountain than at sea level.",
+      "acceptedAnswers": [
+        "less air above",
+        "fewer molecules above",
+        "smaller weight of air",
+        "less dense"
+      ],
+      "markScheme": [
+        "1 mark: at the top there are fewer air molecules / less air above the surface",
+        "1 mark: so the weight of air above is smaller, giving a lower pressure (accept air less dense, so fewer collisions)"
+      ],
+      "explanation": "The higher the surface, the less air there is above it pressing down, so the pressure is lower."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q23",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A rubber sucker is pressed onto a smooth wall, squeezing out most of the air underneath it. Explain why it stays on the wall.",
+      "acceptedAnswers": [
+        "pressure under sucker lower",
+        "atmospheric pressure outside greater",
+        "pushed onto wall",
+        "resultant force towards wall"
+      ],
+      "markScheme": [
+        "1 mark: the pressure under the sucker is lower than atmospheric pressure outside",
+        "1 mark: so there is a resultant force pushing the sucker onto the wall"
+      ],
+      "explanation": "The sucker is pushed, not pulled: the greater atmospheric pressure outside creates a larger force than the small pressure under the sucker."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q24",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Explain why atmospheric pressure decreases as height above the ground increases.",
+      "acceptedAnswers": [
+        "fewer molecules above",
+        "less weight of air above",
+        "less dense",
+        "fewer collisions"
+      ],
+      "markScheme": [
+        "1 mark: as height increases there are fewer air molecules above the surface",
+        "1 mark: so the weight of air above the surface is smaller",
+        "1 mark: (and the air is less dense, so fewer collisions per second) so the atmospheric pressure is lower"
+      ],
+      "explanation": "There is always less air above a higher surface than a lower one, so less weight of air acts on it and the pressure is lower."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q25",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "Atmospheric pressure falls quickly with height close to the ground but more slowly at great heights. Suggest why.",
+      "acceptedAnswers": [
+        "air densest near ground",
+        "more molecules per metre",
+        "each metre contains more air",
+        "thin air higher up"
+      ],
+      "markScheme": [
+        "1 mark: the air near the ground is denser, so each metre of height contains more air (more molecules)",
+        "1 mark: so rising one metre removes more weight of air above the surface near the ground than at a great height, where the air is thin"
+      ],
+      "explanation": "The drop in pressure depends on how much air is left behind below you. Near the ground each metre of air is dense, so climbing it removes a lot of weight from above."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q26",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A small amount of water is boiled in a metal can, which is then sealed and cooled. The steam condenses and the can collapses. Explain why the can collapses.",
+      "acceptedAnswers": [
+        "pressure inside lower",
+        "fewer molecules inside",
+        "atmospheric pressure outside greater",
+        "resultant force inwards"
+      ],
+      "markScheme": [
+        "1 mark: when the steam condenses there are fewer gas molecules inside, so the pressure inside the can falls",
+        "1 mark: atmospheric pressure outside is now much greater than the pressure inside",
+        "1 mark: so there is a large resultant force inwards which crushes the can"
+      ],
+      "explanation": "Before cooling, the pressures inside and outside are balanced. After the steam condenses, the inside pressure is low, so the atmosphere pushes the walls in."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q27",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
+      "question": "Describe a simple model of the Earth's atmosphere and explain how it produces atmospheric pressure on a surface.",
+      "markScheme": [
+        "Indicative content:",
+        "The atmosphere is a thin layer of air around the Earth, held by gravity.",
+        "It is thin compared with the size of the Earth.",
+        "It gets less dense as altitude increases (molecules more spread out).",
+        "Air is made of molecules moving rapidly in random directions.",
+        "Molecules collide with surfaces and bounce off.",
+        "Each collision exerts a force on the surface, at right angles to it.",
+        "The total force per unit area from many collisions is atmospheric pressure (about 100 000 Pa at sea level).",
+        "Level 2 (3 to 4 marks): describes the model (thin layer, density decreasing with height) and clearly explains pressure from collisions.",
+        "Level 1 (1 to 2 marks): a simple description of the atmosphere or a simple statement about molecules hitting surfaces."
+      ],
+      "explanation": "The model is a thin layer of air that thins out with height. Pressure arises because moving molecules continually collide with surfaces, producing a force per unit area."
+    },
+    {
+      "id": "p5-atmospheric-pressure-q28",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A weather balloon carries a pressure sensor from the ground up to a height of 30 km. Explain how and why the atmospheric pressure measured by the sensor changes during the ascent.",
+      "markScheme": [
+        "Indicative content:",
+        "Atmospheric pressure is caused by air molecules colliding with the sensor's surface.",
+        "At ground level the pressure is about 100 000 Pa (100 kPa).",
+        "As the balloon rises, the pressure measured decreases.",
+        "At a greater height there are fewer air molecules above the sensor, so the weight of air above is smaller.",
+        "There is always less air above a higher surface than above a lower one.",
+        "The atmosphere becomes less dense with altitude, so fewer molecules collide with the sensor each second.",
+        "Fewer collisions per second means a smaller force on each unit area, so a lower pressure.",
+        "The pressure falls quickly near the ground (dense air) and more slowly at great heights (thin air); at 30 km it is only about 1 kPa.",
+        "Level 3 (5 to 6 marks): clear, linked explanation of the decrease, using both the weight of air above and the density/collision idea, with a description of how the rate of decrease changes.",
+        "Level 2 (3 to 4 marks): states pressure decreases and gives one valid explanation (less air above or fewer collisions).",
+        "Level 1 (1 to 2 marks): states that pressure decreases with height, with little explanation."
+      ],
+      "explanation": "The reading falls throughout the ascent because there is less and less air above the sensor and the thinner air produces fewer collisions. The fall is steepest near the ground."
+    }
+  ]
+}

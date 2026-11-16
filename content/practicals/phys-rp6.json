@@ -1,0 +1,332 @@
+{
+  "id": "phys-rp6",
+  "science": "physics",
+  "number": 6,
+  "title": "Force and extension",
+  "combined": true,
+  "topicId": "p5",
+  "subtopic": "forces-and-elasticity",
+  "aim": "To investigate the relationship between the force applied to a spring and its extension, and to find the spring constant and the limit of proportionality.",
+  "background": [
+    "When a force stretches a spring, the increase in its length is called the extension: extension = stretched length − original (unstretched) length. For a spring that is not stretched too far, the extension is directly proportional to the force applied. This is described by force = spring constant × extension (F = k e), where k is the spring constant in N/m and e is the extension in metres.",
+    "The spring constant measures how stiff the spring is: a stiffer spring has a larger k and stretches less for the same force. If a graph of force (y-axis) against extension (x-axis) is plotted, the straight part has a gradient equal to k.",
+    "If the force is increased too much, the spring passes its limit of proportionality. Beyond this point, extension is no longer proportional to force and the graph curves. If it is stretched even further, past its elastic limit, it is inelastically deformed and does not return to its original length when the force is removed.",
+    "A stretched spring stores elastic potential energy. Provided the limit of proportionality is not exceeded, the energy stored is given by elastic potential energy = 0.5 × spring constant × extension² (Eₑ = ½ k e²). This equation is given on the AQA equation sheet."
+  ],
+  "hypothesis": "The extension of the spring will be directly proportional to the force applied, up to the limit of proportionality, after which the extension will increase by more for each extra newton.",
+  "variables": {
+    "independent": "Force (weight) applied to the spring (N), changed by adding 1.0 N slotted masses.",
+    "dependent": "Extension of the spring (cm), calculated from the length measured with a metre ruler and pointer.",
+    "control": [
+      "The same spring throughout",
+      "Same position of the ruler (vertical and fixed)",
+      "Pointer attached at the same point on the spring",
+      "Reading taken at eye level once the spring has stopped moving"
+    ]
+  },
+  "equipment": [
+    "Spring with loops at each end",
+    "Two clamp stands, bosses and clamps",
+    "Metre ruler (resolution 1 mm)",
+    "Pointer (a splint or pin attached to the bottom of the spring)",
+    "Mass hanger and slotted masses (each adding a weight of 1.0 N)",
+    "G-clamp to fix the stand to the bench",
+    "Set square to check the ruler is vertical",
+    "Eye protection"
+  ],
+  "method": [
+    "Set up the clamp stand and use a G-clamp to fix it to the bench so it cannot topple over. Wear eye protection.",
+    "Hang the spring from the clamp and attach a pointer to the bottom of the spring.",
+    "Clamp a metre ruler vertically next to the spring, using a set square to check it is vertical, with the pointer touching the scale.",
+    "Read the position of the pointer at eye level and record it. Measure the original (unstretched) length of the spring.",
+    "Hang the mass hanger (weight 1.0 N) on the spring. Wait until the spring stops moving, then record the new pointer reading at eye level.",
+    "Add slotted masses one at a time so that the weight increases by 1.0 N each time, recording the pointer reading after each addition.",
+    "Continue until the weight is 8.0 N, or until the spring starts to stretch noticeably more than before.",
+    "Calculate the extension for each force: extension = stretched length − original length.",
+    "Remove the masses one at a time and record the readings again; repeat the experiment and calculate a mean extension for each force.",
+    "Plot a graph of force (y-axis) against extension (x-axis). Draw a line of best fit, identify the limit of proportionality where the line starts to curve, and calculate the spring constant from the gradient of the straight part."
+  ],
+  "safety": [
+    {
+      "hazard": "Masses falling from the spring",
+      "risk": "Injury to feet or hands.",
+      "precaution": "Do not overload the spring, keep feet away from under the masses and place a box of sand or a soft mat underneath."
+    },
+    {
+      "hazard": "Clamp stand toppling over",
+      "risk": "The stand and masses fall onto people or equipment.",
+      "precaution": "Use a G-clamp to fix the stand base to the bench and keep the masses directly above the base."
+    },
+    {
+      "hazard": "Overstretched spring snapping or flying off",
+      "risk": "Injury to the eyes.",
+      "precaution": "Wear eye protection and do not stretch the spring beyond the range planned."
+    }
+  ],
+  "results": {
+    "headers": ["Force (N)", "Length of spring (cm)", "Extension (cm)"],
+    "rows": [
+      ["0.0", "5.0", "0.0"],
+      ["1.0", "7.5", "2.5"],
+      ["2.0", "10.0", "5.0"],
+      ["3.0", "12.4", "7.4"],
+      ["4.0", "15.0", "10.0"],
+      ["5.0", "17.6", "12.6"],
+      ["6.0", "20.0", "15.0"],
+      ["7.0", "23.2", "18.2"],
+      ["8.0", "27.5", "22.5"]
+    ],
+    "notes": "Extension = length − original length (5.0 cm). Plot force (N) on the y-axis against extension (m or cm) on the x-axis. The points up to 6.0 N lie on a straight line through the origin. Gradient of the straight part = 6.0 N ÷ 0.150 m = 40 N/m. Above 6.0 N, the extension increases by more than 2.5 cm for each newton, so the graph curves: the limit of proportionality is at about 6.0 N."
+  },
+  "analysis": [
+    "Up to 6.0 N, the graph of force against extension is a straight line through the origin, so extension is directly proportional to force (Hooke's law). Each extra 1.0 N stretches the spring by about 2.5 cm.",
+    "The spring constant is the gradient of the straight part: k = F ÷ e = 6.0 ÷ 0.150 = 40 N/m. Remember to convert the extension from cm to m before calculating k.",
+    "Beyond about 6.0 N, the extension per newton increases (3.2 cm for 7.0 N and 4.3 cm for 8.0 N), so the line curves. This shows the limit of proportionality has been passed.",
+    "When the 8.0 N load was removed, the spring did not quite return to 5.0 cm, which shows that it had also passed its elastic limit and was permanently (inelastically) deformed.",
+    "The elastic potential energy stored at the limit of proportionality is Eₑ = ½ k e² = 0.5 × 40 × 0.150² = 0.45 J."
+  ],
+  "errors": [
+    {
+      "error": "Parallax error when reading the pointer against the ruler.",
+      "improvement": "Read at eye level with the pointer touching the ruler, or use a set square held horizontally from the pointer to the scale."
+    },
+    {
+      "error": "Readings taken while the spring is still bouncing.",
+      "improvement": "Wait until the spring has stopped moving before reading the position of the pointer."
+    },
+    {
+      "error": "Ruler not vertical, so the measured lengths are wrong.",
+      "improvement": "Check the ruler is vertical with a set square against the bench before starting."
+    },
+    {
+      "error": "The pointer slips along the spring, causing a systematic error in the length.",
+      "improvement": "Fix the pointer firmly with tape and measure extensions from a fixed reference reading rather than estimating the end of the spring."
+    },
+    {
+      "error": "Too few readings near the limit of proportionality, making it hard to identify.",
+      "improvement": "Use smaller increments of force (0.5 N) as the graph starts to curve, and repeat readings."
+    }
+  ],
+  "diagram": {
+    "title": "Force and extension apparatus",
+    "caption": "A spring hangs from a clamp stand fixed to the bench with a G-clamp. Slotted masses on a hanger stretch the spring, and a pointer on the end of the spring shows its position on a vertical metre ruler.",
+    "svg": "<svg viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"300\" x2=\"440\" y2=\"300\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"40\" y=\"290\" width=\"160\" height=\"10\"/><rect x=\"310\" y=\"290\" width=\"80\" height=\"10\"/><rect x=\"54\" y=\"34\" width=\"12\" height=\"12\"/><rect x=\"334\" y=\"54\" width=\"12\" height=\"12\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M60 290 V20 M60 40 H200 M340 290 V40 M340 60 H284\"/><path d=\"M200 40 V52 l10 4 l-20 8 l20 8 l-20 8 l20 8 l-20 8 l20 8 l-20 8 l20 8 l-20 8 l20 8 l-10 4 V170\"/><path d=\"M42 286 H30 V312 H52 V302\"/></g><path d=\"M200 155 H262 M254 151 L262 155 L254 159\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"><rect x=\"180\" y=\"170\" width=\"40\" height=\"10\"/><rect x=\"180\" y=\"182\" width=\"40\" height=\"10\"/><rect x=\"180\" y=\"194\" width=\"40\" height=\"10\"/><rect x=\"176\" y=\"206\" width=\"48\" height=\"5\"/></g><rect x=\"262\" y=\"30\" width=\"22\" height=\"250\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"0.8\"><line x1=\"262\" y1=\"50\" x2=\"272\" y2=\"50\"/><line x1=\"262\" y1=\"75\" x2=\"268\" y2=\"75\"/><line x1=\"262\" y1=\"100\" x2=\"272\" y2=\"100\"/><line x1=\"262\" y1=\"125\" x2=\"268\" y2=\"125\"/><line x1=\"262\" y1=\"150\" x2=\"272\" y2=\"150\"/><line x1=\"262\" y1=\"175\" x2=\"268\" y2=\"175\"/><line x1=\"262\" y1=\"200\" x2=\"272\" y2=\"200\"/><line x1=\"262\" y1=\"225\" x2=\"268\" y2=\"225\"/><line x1=\"262\" y1=\"250\" x2=\"272\" y2=\"250\"/></g><g stroke=\"currentColor\" stroke-width=\"1\"><line x1=\"122\" y1=\"96\" x2=\"188\" y2=\"100\"/><line x1=\"122\" y1=\"151\" x2=\"222\" y2=\"155\"/><line x1=\"132\" y1=\"190\" x2=\"178\" y2=\"190\"/><line x1=\"346\" y1=\"196\" x2=\"284\" y2=\"200\"/><line x1=\"60\" y1=\"240\" x2=\"84\" y2=\"240\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"80\" y=\"100\">Spring</text><text x=\"76\" y=\"155\">Pointer</text><text x=\"74\" y=\"184\">Slotted</text><text x=\"74\" y=\"198\">masses</text><text x=\"352\" y=\"192\">Vertical</text><text x=\"352\" y=\"206\">metre ruler</text><text x=\"88\" y=\"244\">Clamp stand</text><text x=\"58\" y=\"316\">G-clamp</text><text x=\"289\" y=\"150\">Read at</text><text x=\"289\" y=\"164\">eye level</text></g></svg>"
+  },
+  "examTips": [
+    "Extension is the change in length, not the total length. Subtract the original length every time.",
+    "Convert extension to metres before using F = k e. A gradient in N/cm must be multiplied by 100 to give N/m.",
+    "The limit of proportionality is where the force against extension graph stops being a straight line. Describe this in words or give the force at which it happens.",
+    "Learn the safety points: G-clamp the stand, eye protection, keep feet clear of falling masses.",
+    "Use Eₑ = ½ k e² only up to the limit of proportionality, and remember to square the extension."
+  ],
+  "questions": [
+    {
+      "id": "phys-rp6-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is the extension of a spring?",
+      "options": [
+        "The total length of the stretched spring",
+        "The increase in length of the spring from its original length",
+        "The force needed to stretch the spring by 1 m",
+        "The length of the spring when no force acts on it"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: the increase in length from the original length"],
+      "explanation": "Extension = stretched length − original length. A common mistake is to plot the total length instead, which gives a line that does not pass through the origin."
+    },
+    {
+      "id": "phys-rp6-q02",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A spring has an unstretched length of 5.0 cm. When a weight is hung on it, its length is 12.6 cm.\nCalculate the extension of the spring.",
+      "numericAnswer": 7.6,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "markScheme": ["1 mark: 12.6 − 5.0 = 7.6 cm"],
+      "explanation": "Extension = stretched length − original length = 7.6 cm."
+    },
+    {
+      "id": "phys-rp6-q03",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A spring has a spring constant of 40 N/m. It is stretched by 7.5 cm without passing its limit of proportionality.\nCalculate the force applied to the spring.",
+      "numericAnswer": 3,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": ["1 mark: e = 7.5 cm = 0.075 m", "1 mark: F = k e = 40 × 0.075 = 3.0 N"],
+      "explanation": "The extension must be in metres. Using 7.5 instead of 0.075 gives 300 N, which is far too large."
+    },
+    {
+      "id": "phys-rp6-q04",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 3,
+      "question": "A force of 6.0 N stretches a spring by 15.0 cm. The spring has not passed its limit of proportionality.\nCalculate the spring constant.",
+      "numericAnswer": 40,
+      "tolerance": 0.01,
+      "unit": "N/m",
+      "markScheme": ["1 mark: e = 0.150 m", "1 mark: k = F ÷ e = 6.0 ÷ 0.150", "1 mark: 40 N/m"],
+      "explanation": "Rearrange F = k e to k = F ÷ e, with extension in metres. Using 15.0 cm gives 0.4, which is the spring constant in N/cm, not N/m."
+    },
+    {
+      "id": "phys-rp6-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "What is meant by the limit of proportionality of a spring?",
+      "options": [
+        "The point at which the spring breaks",
+        "The largest force the spring can measure",
+        "The point beyond which extension is no longer directly proportional to force",
+        "The point at which the spring stops stretching"
+      ],
+      "answer": 2,
+      "markScheme": ["1 mark: the point beyond which extension is no longer proportional to force"],
+      "explanation": "Up to the limit of proportionality, F = k e applies and the graph is straight. Beyond it the graph curves, but the spring does not necessarily break or stop stretching."
+    },
+    {
+      "id": "phys-rp6-q06",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A student measures the length of a stretched spring using a pointer and a vertical metre ruler.\nGive two ways the student can make the readings more accurate.",
+      "acceptedAnswers": ["read at eye level", "pointer touching ruler", "wait for spring to stop moving", "ruler vertical", "set square"],
+      "markScheme": ["1 mark each, up to 2: read at eye level (avoid parallax); use a pointer touching the ruler; wait until the spring stops moving; check the ruler is vertical with a set square; keep the ruler fixed in position"],
+      "explanation": "Each of these reduces an error in reading the position of the bottom of the spring. A pointer gives a fixed, sharp reference point."
+    },
+    {
+      "id": "phys-rp6-q07",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A spring with a spring constant of 40 N/m is stretched by 0.150 m. The limit of proportionality is not exceeded.\nCalculate the elastic potential energy stored in the spring.",
+      "numericAnswer": 0.45,
+      "tolerance": 0.01,
+      "unit": "J",
+      "markScheme": ["1 mark: Eₑ = ½ k e² = 0.5 × 40 × 0.150²", "1 mark: 0.45 J"],
+      "explanation": "Square the extension before multiplying: 0.150² = 0.0225, and 0.5 × 40 × 0.0225 = 0.45 J. Forgetting to square gives 3.0 J."
+    },
+    {
+      "id": "phys-rp6-q08",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "A slotted mass of 200 g is hung on a spring. The gravitational field strength is 9.8 N/kg.\nCalculate the weight of the mass.",
+      "numericAnswer": 1.96,
+      "tolerance": 0.01,
+      "unit": "N",
+      "markScheme": ["1 mark: 200 g = 0.200 kg", "1 mark: W = m g = 0.200 × 9.8 = 1.96 N"],
+      "explanation": "Weight = mass × gravitational field strength, with mass in kilograms. Using 200 gives 1960 N."
+    },
+    {
+      "id": "phys-rp6-q09",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Give one hazard in a spring stretching experiment and a precaution to reduce the risk.",
+      "acceptedAnswers": ["masses falling", "stand toppling", "G-clamp", "spring snapping", "eye protection", "keep feet clear"],
+      "markScheme": ["1 mark: hazard: masses falling on feet / clamp stand toppling / spring snapping or flying off", "1 mark: matching precaution: keep feet clear or use a soft mat / G-clamp the stand to the bench / wear eye protection"],
+      "explanation": "The precaution must reduce the risk from the hazard named. For example, a G-clamp stops the stand toppling when heavy masses are added."
+    },
+    {
+      "id": "phys-rp6-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "A spring is loaded beyond its limit of proportionality. Which statement describes what happens as more force is added?",
+      "options": [
+        "Each extra newton gives the same extension as before",
+        "Each extra newton gives a larger extension than before",
+        "The spring stops stretching",
+        "The spring gets shorter"
+      ],
+      "answer": 1,
+      "markScheme": ["1 mark: each extra newton gives a larger extension"],
+      "explanation": "Beyond the limit of proportionality the spring becomes easier to stretch, so the extension per newton increases and the force against extension graph curves."
+    },
+    {
+      "id": "phys-rp6-q11",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
+      "question": "A student plots force in N against extension in cm for a spring. The gradient of the straight part of the graph is 0.40 N/cm.\nCalculate the spring constant in N/m.",
+      "numericAnswer": 40,
+      "tolerance": 0.01,
+      "unit": "N/m",
+      "markScheme": ["1 mark: 1 m = 100 cm, so multiply by 100", "1 mark: 40 N/m"],
+      "explanation": "0.40 N stretches the spring by 1 cm, so 100 times as much force (40 N) would stretch it by 1 m. Dividing by 100 instead gives 0.0040 N/m, which is wrong."
+    },
+    {
+      "id": "phys-rp6-q12",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A spring has a spring constant of 25 N/m. A weight of 2.0 N is hung on it. The limit of proportionality is not exceeded.\nCalculate the extension of the spring in cm.",
+      "numericAnswer": 8,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "markScheme": ["1 mark: e = F ÷ k = 2.0 ÷ 25", "1 mark: e = 0.080 m", "1 mark: 8.0 cm"],
+      "explanation": "Rearrange F = k e to e = F ÷ k, which gives the extension in metres. Multiply by 100 to convert to centimetres."
+    },
+    {
+      "id": "phys-rp6-q13",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Describe how a student could test whether a spring has been stretched beyond its elastic limit.",
+      "acceptedAnswers": ["remove the masses", "does not return to original length", "permanently stretched", "inelastically deformed"],
+      "markScheme": ["1 mark: remove all the masses (force) and measure the length again", "1 mark: if it does not return to its original length, the elastic limit has been exceeded"],
+      "explanation": "A spring stretched within its elastic limit returns to its original shape. If it stays longer, it has been inelastically (permanently) deformed."
+    },
+    {
+      "id": "phys-rp6-q14",
+      "type": "mcq",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "A student plots the total length of a spring (y-axis) against the force applied (x-axis), instead of the extension. Below the limit of proportionality, what will the graph look like?",
+      "options": [
+        "A straight line through the origin",
+        "A curve through the origin",
+        "A straight line that crosses the y-axis at the original length",
+        "A horizontal straight line"
+      ],
+      "answer": 2,
+      "markScheme": ["1 mark: a straight line with a y-intercept equal to the original length"],
+      "explanation": "Length = original length + extension. The extension part still increases in proportion to force, so the line is straight with the same gradient, but it is shifted up by the original length. It is linear but not proportional."
+    },
+    {
+      "id": "phys-rp6-q15",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
+      "question": "Describe a method to investigate how the extension of a spring depends on the force applied to it.\nInclude how the results could be used to find the spring constant.",
+      "markScheme": [
+        "Indicative content: clamp stand fixed with a G-clamp; hang the spring from the clamp; fix a vertical metre ruler next to it; attach a pointer to the bottom of the spring; record the original pointer reading; add masses (for example 100 g, about 1 N) one at a time; wait for the spring to stop moving; read the pointer at eye level; calculate extension = new length − original length; calculate force (weight) = mass × 9.8 N/kg; take at least 6 readings; repeat (for example while unloading) and take means; plot force against extension; gradient of the straight part = spring constant; convert extension to m; identify the limit of proportionality where the line curves; safety: eye protection, keep feet clear",
+        "Level 3 (5 to 6 marks): a coherent method that would give valid results, with accurate measurement of extension (pointer, eye level, original length subtracted), a range of forces, and a clear explanation of finding k from the gradient.",
+        "Level 2 (3 to 4 marks): a method with the main steps (adding masses, measuring length or extension) and some idea of how k is found, but lacking some detail.",
+        "Level 1 (1 to 2 marks): simple statements about hanging masses on a spring and measuring it, with no clear method or analysis.",
+        "0 marks: no relevant content."
+      ],
+      "explanation": "Top answers explain how extension is measured accurately, how force is worked out from mass, what graph to plot, and that k is the gradient of the straight part with extension in metres."
+    }
+  ]
+}
