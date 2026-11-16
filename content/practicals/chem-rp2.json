@@ -75,11 +75,35 @@
     }
   ],
   "results": {
-    "headers": ["Reading", "Rough", "Titration 1", "Titration 2", "Titration 3"],
+    "headers": [
+      "Reading",
+      "Rough",
+      "Titration 1",
+      "Titration 2",
+      "Titration 3"
+    ],
     "rows": [
-      ["Final burette reading (cm³)", "24.60", "24.70", "24.30", "25.20"],
-      ["Initial burette reading (cm³)", "0.00", "0.50", "0.20", "1.05"],
-      ["Titre (cm³)", "24.60", "24.20", "24.10", "24.15"]
+      [
+        "Final burette reading (cm³)",
+        "24.60",
+        "24.70",
+        "24.30",
+        "25.20"
+      ],
+      [
+        "Initial burette reading (cm³)",
+        "0.00",
+        "0.50",
+        "0.20",
+        "1.05"
+      ],
+      [
+        "Titre (cm³)",
+        "24.60",
+        "24.20",
+        "24.10",
+        "24.15"
+      ]
     ],
     "notes": "All readings are to 2 decimal places, ending in 0 or 5, because a burette is read to the nearest 0.05 cm³. Titrations 1, 2 and 3 are concordant (all within 0.10 cm³). The rough titre is ignored because it overshoots the end point. Mean titre = (24.20 + 24.10 + 24.15) ÷ 3 = 24.15 cm³."
   },
@@ -132,9 +156,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which piece of apparatus is used to measure exactly 25.0 cm³ of sodium hydroxide solution into the conical flask?",
-      "options": ["Measuring cylinder", "Burette", "Beaker", "Pipette"],
+      "options": [
+        "Measuring cylinder",
+        "Burette",
+        "Beaker",
+        "Pipette"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: (volumetric) pipette"],
+      "markScheme": [
+        "1 mark: (volumetric) pipette"
+      ],
       "explanation": "A volumetric pipette delivers one fixed volume very accurately. A burette delivers variable volumes and is used for the acid. A measuring cylinder is much less accurate."
     },
     {
@@ -151,7 +182,9 @@
         "It is too expensive"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: it changes colour gradually / has many colours, so the end point is not sharp"],
+      "markScheme": [
+        "1 mark: it changes colour gradually / has many colours, so the end point is not sharp"
+      ],
       "explanation": "Universal indicator passes through many colours as pH changes, so it is hard to see exactly when neutralisation happens. Phenolphthalein or methyl orange give a single, sharp colour change."
     },
     {
@@ -161,8 +194,12 @@
       "difficulty": 1,
       "marks": 1,
       "question": "State the colour change at the end point when hydrochloric acid is added to sodium hydroxide solution containing phenolphthalein.",
-      "acceptedAnswers": ["pink to colourless"],
-      "markScheme": ["1 mark: pink to colourless (both colours needed, in the correct order)"],
+      "acceptedAnswers": [
+        "pink to colourless"
+      ],
+      "markScheme": [
+        "1 mark: pink to colourless (both colours needed, in the correct order)"
+      ],
       "explanation": "Phenolphthalein is pink in alkaline solution and colourless in neutral or acidic solution. 'Clear' is not accepted for colourless."
     },
     {
@@ -171,12 +208,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The initial burette reading was 1.05 cm³ and the final burette reading was 25.20 cm³.\nCalculate the titre.",
+      "question": "Figure 1 shows the burette readings at the start and at the end of a titration.\nCalculate the titre.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M111 92 Q132 106 153 92 L153 225 L111 225 Z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M110 92 Q132 106 154 92\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"45\" x2=\"120\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"57\" x2=\"120\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"69\" x2=\"120\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"81\" x2=\"120\" y2=\"81\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"93\" x2=\"132\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"102\" y=\"98\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">1</text><line x1=\"110\" y1=\"105\" x2=\"120\" y2=\"105\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"117\" x2=\"120\" y2=\"117\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"129\" x2=\"120\" y2=\"129\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"141\" x2=\"120\" y2=\"141\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"153\" x2=\"126\" y2=\"153\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"165\" x2=\"120\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"177\" x2=\"120\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"201\" x2=\"120\" y2=\"201\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"213\" x2=\"132\" y2=\"213\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"102\" y=\"218\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">2</text><line x1=\"110\" y1=\"225\" x2=\"120\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"37\" x2=\"110\" y2=\"233\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"154\" y1=\"37\" x2=\"154\" y2=\"233\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"132\" y=\"27\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Start</text><path d=\"M291 109.99999999999974 Q312 123.99999999999974 333 109.99999999999974 L333 225 L291 225 Z\" fill=\"#fde68a\" fill-opacity=\"0.5\"/><path d=\"M290 109.99999999999974 Q312 123.99999999999974 334 109.99999999999974\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"57\" x2=\"300\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"69\" x2=\"300\" y2=\"69\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"81\" x2=\"300\" y2=\"81\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"93\" x2=\"312\" y2=\"93\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"282\" y=\"98\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">25</text><line x1=\"290\" y1=\"105\" x2=\"300\" y2=\"105\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"117\" x2=\"300\" y2=\"117\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"129\" x2=\"300\" y2=\"129\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"141\" x2=\"300\" y2=\"141\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"153\" x2=\"306\" y2=\"153\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"165\" x2=\"300\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"177\" x2=\"300\" y2=\"177\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"189\" x2=\"300\" y2=\"189\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"201\" x2=\"300\" y2=\"201\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"213\" x2=\"312\" y2=\"213\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"282\" y=\"218\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">26</text><line x1=\"290\" y1=\"225\" x2=\"300\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"290\" y1=\"37\" x2=\"290\" y2=\"233\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"334\" y1=\"37\" x2=\"334\" y2=\"233\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"312\" y=\"27\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">End</text><text x=\"220\" y=\"245\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Burette readings in cm³</text></svg>"
+      },
       "numericAnswer": 24.15,
       "tolerance": 0.001,
       "unit": "cm³",
-      "markScheme": ["1 mark: 25.20 − 1.05 = 24.15 cm³"],
-      "explanation": "Titre = final reading − initial reading = 24.15 cm³. Write it to 2 decimal places to match the precision of the burette."
+      "markScheme": [
+        "1 mark: 25.20 − 1.05 = 24.15 cm³"
+      ],
+      "explanation": "Titre = final reading − initial reading = 24.15 cm³. Write it to 2 decimal places to match the precision of the burette.",
+      "answerLabel": "Titre"
     },
     {
       "id": "chem-rp2-q05",
@@ -184,12 +227,40 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student recorded these titres: rough 24.60 cm³, 24.20 cm³, 24.10 cm³, 24.15 cm³.\nCalculate the mean titre using the concordant results.",
+      "question": "Table 1 shows a student's titration results.\nCalculate the mean titre.\nUse only the concordant results.",
+      "table": {
+        "headers": [
+          "Titration",
+          "Titre in cm³"
+        ],
+        "rows": [
+          [
+            "Rough",
+            "24.60"
+          ],
+          [
+            "1",
+            "24.20"
+          ],
+          [
+            "2",
+            "24.10"
+          ],
+          [
+            "3",
+            "24.15"
+          ]
+        ]
+      },
       "numericAnswer": 24.15,
       "tolerance": 0.001,
       "unit": "cm³",
-      "markScheme": ["1 mark: uses 24.20, 24.10 and 24.15 only (ignores rough titre)", "1 mark: (24.20 + 24.10 + 24.15) ÷ 3 = 24.15 cm³"],
-      "explanation": "The three accurate titres are all within 0.10 cm³ of each other, so all three are concordant. Including the rough titre gives 24.26 cm³, which is wrong because the rough titre overshot."
+      "markScheme": [
+        "1 mark: uses 24.20, 24.10 and 24.15 only (ignores rough titre)",
+        "1 mark: (24.20 + 24.10 + 24.15) ÷ 3 = 24.15 cm³"
+      ],
+      "explanation": "The three accurate titres are all within 0.10 cm³ of each other, so all three are concordant. Including the rough titre gives 24.26 cm³, which is wrong because the rough titre overshot.",
+      "answerLabel": "Mean titre"
     },
     {
       "id": "chem-rp2-q06",
@@ -197,15 +268,46 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which set of titres contains two concordant results?",
+      "question": "Concordant titres are within 0.10 cm³ of each other.\nTable 1 shows two titres from each of four sets of results, A, B, C and D.\nWhich set contains two concordant results?",
+      "table": {
+        "headers": [
+          "Set",
+          "Titre 1 in cm³",
+          "Titre 2 in cm³"
+        ],
+        "rows": [
+          [
+            "A",
+            "23.40",
+            "23.65"
+          ],
+          [
+            "B",
+            "22.80",
+            "22.95"
+          ],
+          [
+            "C",
+            "24.35",
+            "24.30"
+          ],
+          [
+            "D",
+            "21.10",
+            "21.40"
+          ]
+        ]
+      },
       "options": [
-        "23.40 cm³ and 23.65 cm³",
-        "22.80 cm³ and 22.95 cm³",
-        "24.35 cm³ and 24.30 cm³",
-        "21.10 cm³ and 21.40 cm³"
+        "Set A",
+        "Set B",
+        "Set C",
+        "Set D"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: 24.35 cm³ and 24.30 cm³"],
+      "markScheme": [
+        "1 mark: 24.35 cm³ and 24.30 cm³"
+      ],
       "explanation": "Concordant titres are within 0.10 cm³. 24.35 and 24.30 differ by 0.05 cm³. The other pairs differ by 0.25, 0.15 and 0.30 cm³."
     },
     {
@@ -214,9 +316,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the conical flask is swirled and placed on a white tile during the titration.",
-      "acceptedAnswers": ["swirl to mix", "acid reacts with all the alkali", "white tile to see colour change", "see end point clearly"],
-      "markScheme": ["1 mark: swirling mixes the acid and alkali so they react completely / the indicator colour is even", "1 mark: the white tile makes the colour change easier to see"],
+      "question": "Figure 1 shows the apparatus a student used for a titration.\nExplain why the student swirls the conical flask and places it on a white tile during the titration.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 380\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"352\" width=\"140\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"352\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"4\"/><line x1=\"60\" y1=\"80\" x2=\"168\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"3\"/><rect x=\"166\" y=\"72\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M168 20 L168 200 L172 212 L172 232 L176 232 L176 212 L180 200 L180 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M169 40 L169 200 L179 200 L179 40 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"168\" y1=\"40\" x2=\"180\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"160\" y=\"214\" width=\"28\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"100\" y=\"340\" width=\"150\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M137.7945205479452 312 L123 338 L225 338 L210.2054794520548 312 Z\" fill=\"#fca5a5\" fill-opacity=\"0.5\"/><line x1=\"136.79\" y1=\"312\" x2=\"211.21\" y2=\"312\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M162 226 L162 266 L122 339 L226 339 L186 266 L186 226\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"180\" y1=\"120\" x2=\"237\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Burette</text><line x1=\"178\" y1=\"170\" x2=\"237\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"160\" font-size=\"13\" fill=\"currentColor\">Hydrochloric acid</text><line x1=\"188\" y1=\"218\" x2=\"237\" y2=\"211\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"240\" y=\"215\" font-size=\"13\" fill=\"currentColor\">Tap</text><line x1=\"187\" y1=\"262\" x2=\"247\" y2=\"251\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"255\" font-size=\"13\" fill=\"currentColor\">Conical flask</text><line x1=\"205\" y1=\"325\" x2=\"247\" y2=\"296\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"300\" font-size=\"13\" fill=\"currentColor\">Sodium hydroxide solution</text><text x=\"250\" y=\"316\" font-size=\"13\" fill=\"currentColor\">and indicator</text><line x1=\"250\" y1=\"346\" x2=\"267\" y2=\"346\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"270\" y=\"350\" font-size=\"13\" fill=\"currentColor\">White tile</text><line x1=\"60\" y1=\"45\" x2=\"77\" y2=\"16\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"80\" y=\"20\" font-size=\"13\" fill=\"currentColor\">Clamp stand</text></svg>"
+      },
+      "acceptedAnswers": [
+        "swirl to mix",
+        "acid reacts with all the alkali",
+        "white tile to see colour change",
+        "see end point clearly"
+      ],
+      "markScheme": [
+        "1 mark: swirling mixes the acid and alkali so they react completely / the indicator colour is even",
+        "1 mark: the white tile makes the colour change easier to see"
+      ],
       "explanation": "Without swirling, acid could sit in one place and change the indicator locally before all the alkali has reacted. The white background shows a faint pink colour clearly."
     },
     {
@@ -225,9 +338,49 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Give two ways the student made sure the end point was found accurately in titrations 1 to 3.",
-      "acceptedAnswers": ["rough titration first", "add acid drop by drop near the end point", "swirl", "white tile", "rinse sides of flask"],
-      "markScheme": ["1 mark each, up to 2: did a rough titration first to find the approximate end point; added acid dropwise near the end point; swirled the flask after each drop; used a white tile; washed the sides of the flask with distilled water"],
+      "question": "A student titrated sodium hydroxide solution with hydrochloric acid.\nTable 1 shows the student's results.\nGive two ways the student could make sure the end point was found accurately in titrations 1, 2 and 3.",
+      "table": {
+        "headers": [
+          "Titration",
+          "Rough",
+          "1",
+          "2",
+          "3"
+        ],
+        "rows": [
+          [
+            "Final burette reading in cm³",
+            "24.60",
+            "24.70",
+            "24.30",
+            "25.20"
+          ],
+          [
+            "Initial burette reading in cm³",
+            "0.00",
+            "0.50",
+            "0.20",
+            "1.05"
+          ],
+          [
+            "Titre in cm³",
+            "24.60",
+            "24.20",
+            "24.10",
+            "24.15"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "rough titration first",
+        "add acid drop by drop near the end point",
+        "swirl",
+        "white tile",
+        "rinse sides of flask"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: did a rough titration first to find the approximate end point; added acid dropwise near the end point; swirled the flask after each drop; used a white tile; washed the sides of the flask with distilled water"
+      ],
       "explanation": "Adding the last few cm³ one drop at a time stops the student overshooting, so the titre is accurate to within one drop."
     },
     {
@@ -236,12 +389,16 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "24.15 cm³ of 0.100 mol/dm³ hydrochloric acid was needed to neutralise the sodium hydroxide.\nCalculate the number of moles of HCl used.",
+      "question": "In a titration, 24.15 cm³ of 0.100 mol/dm³ hydrochloric acid neutralised some sodium hydroxide solution.\nCalculate the amount, in moles, of HCl used.",
       "numericAnswer": 0.002415,
       "tolerance": 0.005,
       "unit": "mol",
-      "markScheme": ["1 mark: 24.15 cm³ = 0.02415 dm³", "1 mark: 0.100 × 0.02415 = 0.002415 mol (2.415 × 10⁻³ mol)"],
-      "explanation": "Moles = concentration × volume in dm³. Forgetting to divide by 1000 gives 2.415 mol, which is far too large."
+      "markScheme": [
+        "1 mark: 24.15 cm³ = 0.02415 dm³",
+        "1 mark: 0.100 × 0.02415 = 0.002415 mol (2.415 × 10⁻³ mol)"
+      ],
+      "explanation": "Moles = concentration × volume in dm³. Forgetting to divide by 1000 gives 2.415 mol, which is far too large.",
+      "answerLabel": "Amount of HCl"
     },
     {
       "id": "chem-rp2-q10",
@@ -249,12 +406,37 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "24.15 cm³ of 0.100 mol/dm³ hydrochloric acid exactly neutralised 25.0 cm³ of sodium hydroxide solution.\nHCl + NaOH → NaCl + H₂O\nCalculate the concentration of the sodium hydroxide solution in mol/dm³. Give your answer to 3 significant figures.",
+      "question": "A student titrated 25.0 cm³ of sodium hydroxide solution with 0.100 mol/dm³ hydrochloric acid.\nTable 1 shows the student's results.\nThe equation for the reaction is:\nHCl + NaOH → NaCl + H₂O\nCalculate the concentration of the sodium hydroxide solution in mol/dm³.\nGive your answer to 3 significant figures.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Volume of sodium hydroxide solution in cm³",
+            "25.0"
+          ],
+          [
+            "Concentration of hydrochloric acid in mol/dm³",
+            "0.100"
+          ],
+          [
+            "Mean titre of hydrochloric acid in cm³",
+            "24.15"
+          ]
+        ]
+      },
       "numericAnswer": 0.0966,
       "tolerance": 0.005,
       "unit": "mol/dm³",
-      "markScheme": ["1 mark: moles HCl = 0.100 × 24.15 ÷ 1000 = 0.002415 mol", "1 mark: moles NaOH = 0.002415 mol (1 : 1 ratio)", "1 mark: concentration = 0.002415 ÷ 0.0250 = 0.0966 mol/dm³"],
-      "explanation": "Use the mole ratio from the equation, then divide by the volume of alkali in dm³ (25.0 ÷ 1000 = 0.0250 dm³). The answer is slightly less than 0.100 mol/dm³ because less acid than alkali was needed."
+      "markScheme": [
+        "1 mark: moles HCl = 0.100 × 24.15 ÷ 1000 = 0.002415 mol",
+        "1 mark: moles NaOH = 0.002415 mol (1 : 1 ratio)",
+        "1 mark: concentration = 0.002415 ÷ 0.0250 = 0.0966 mol/dm³"
+      ],
+      "explanation": "Use the mole ratio from the equation, then divide by the volume of alkali in dm³ (25.0 ÷ 1000 = 0.0250 dm³). The answer is slightly less than 0.100 mol/dm³ because less acid than alkali was needed.",
+      "answerLabel": "Concentration"
     },
     {
       "id": "chem-rp2-q11",
@@ -262,12 +444,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The concentration of a sodium hydroxide solution is 0.0966 mol/dm³.\nCalculate its concentration in g/dm³. Relative formula mass (Mr) of NaOH = 40. Give your answer to 3 significant figures.",
+      "question": "The concentration of a sodium hydroxide solution is 0.0966 mol/dm³.\nCalculate the concentration of the solution in g/dm³.\nRelative formula mass (Mr): NaOH = 40\nGive your answer to 3 significant figures.",
       "numericAnswer": 3.86,
       "tolerance": 0.005,
       "unit": "g/dm³",
-      "markScheme": ["1 mark: 0.0966 × 40", "1 mark: 3.86 g/dm³"],
-      "explanation": "Mass concentration (g/dm³) = concentration (mol/dm³) × Mr. 0.0966 × 40 = 3.864, which is 3.86 g/dm³."
+      "markScheme": [
+        "1 mark: 0.0966 × 40",
+        "1 mark: 3.86 g/dm³"
+      ],
+      "explanation": "Mass concentration (g/dm³) = concentration (mol/dm³) × Mr. 0.0966 × 40 = 3.864, which is 3.86 g/dm³.",
+      "answerLabel": "Concentration"
     },
     {
       "id": "chem-rp2-q12",
@@ -275,12 +461,37 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "In another titration, 20.00 cm³ of dilute sulfuric acid neutralised 25.0 cm³ of 0.200 mol/dm³ sodium hydroxide solution.\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\nCalculate the concentration of the sulfuric acid in mol/dm³.",
+      "question": "A student titrated 25.0 cm³ of sodium hydroxide solution with dilute sulfuric acid.\nTable 1 shows the student's results.\nThe equation for the reaction is:\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\nCalculate the concentration of the sulfuric acid in mol/dm³.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Volume of sodium hydroxide solution in cm³",
+            "25.0"
+          ],
+          [
+            "Concentration of sodium hydroxide solution in mol/dm³",
+            "0.200"
+          ],
+          [
+            "Mean titre of sulfuric acid in cm³",
+            "20.00"
+          ]
+        ]
+      },
       "numericAnswer": 0.125,
       "tolerance": 0.005,
       "unit": "mol/dm³",
-      "markScheme": ["1 mark: moles NaOH = 0.200 × 25.0 ÷ 1000 = 0.00500 mol", "1 mark: moles H₂SO₄ = 0.00500 ÷ 2 = 0.00250 mol", "1 mark: concentration = 0.00250 ÷ 0.02000 = 0.125 mol/dm³"],
-      "explanation": "Sulfuric acid reacts with sodium hydroxide in a 1 : 2 ratio, so the moles of acid are half the moles of alkali. Ignoring the ratio gives 0.250 mol/dm³."
+      "markScheme": [
+        "1 mark: moles NaOH = 0.200 × 25.0 ÷ 1000 = 0.00500 mol",
+        "1 mark: moles H₂SO₄ = 0.00500 ÷ 2 = 0.00250 mol",
+        "1 mark: concentration = 0.00250 ÷ 0.02000 = 0.125 mol/dm³"
+      ],
+      "explanation": "Sulfuric acid reacts with sodium hydroxide in a 1 : 2 ratio, so the moles of acid are half the moles of alkali. Ignoring the ratio gives 0.250 mol/dm³.",
+      "answerLabel": "Concentration"
     },
     {
       "id": "chem-rp2-q13",
@@ -288,7 +499,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student rinsed the burette with distilled water but did not rinse it with acid before filling it. What effect would this have on the titre?",
+      "question": "A student rinsed a burette with distilled water. The student did not rinse the burette with hydrochloric acid before filling it with the acid.\nWhat effect would this have on the titre?",
       "options": [
         "The titre would be smaller, because the acid is more concentrated",
         "The titre would be larger, because the acid is diluted",
@@ -296,7 +507,9 @@
         "The titre would be smaller, because water neutralises some alkali"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: titre larger because the acid is diluted (lower concentration)"],
+      "markScheme": [
+        "1 mark: titre larger because the acid is diluted (lower concentration)"
+      ],
       "explanation": "Water left in the burette dilutes the acid, so each cm³ contains fewer moles of H⁺ and more acid is needed to neutralise the alkali. Water in the conical flask does not matter because it does not change the moles of alkali."
     },
     {
@@ -306,8 +519,13 @@
       "difficulty": 2,
       "marks": 1,
       "question": "Write the ionic equation for the neutralisation of any strong acid by any strong alkali. Include state symbols.",
-      "acceptedAnswers": ["H⁺(aq) + OH⁻(aq) → H₂O(l)", "H+ + OH- → H2O"],
-      "markScheme": ["1 mark: H⁺(aq) + OH⁻(aq) → H₂O(l)"],
+      "acceptedAnswers": [
+        "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+        "H+ + OH- → H2O"
+      ],
+      "markScheme": [
+        "1 mark: H⁺(aq) + OH⁻(aq) → H₂O(l)"
+      ],
       "explanation": "Hydrogen ions from the acid react with hydroxide ions from the alkali to form water. The other ions (such as Na⁺ and Cl⁻) are spectator ions."
     },
     {

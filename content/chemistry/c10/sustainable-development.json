@@ -27,15 +27,39 @@
       "Years a resource will last can be estimated as reserves ÷ rate of use (assuming use stays constant)."
     ],
     "keyTerms": [
-      { "term": "Finite resource", "definition": "A resource that is used up faster than it is replaced, so it will eventually run out (for example crude oil or metal ores)." },
-      { "term": "Renewable resource", "definition": "A resource that can be replaced at the same rate as, or faster than, it is used (for example timber from managed forests)." },
-      { "term": "Sustainable development", "definition": "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs." },
-      { "term": "Natural resource", "definition": "A material obtained directly from the Earth, plants or animals, such as wood, cotton, wool or rubber." },
-      { "term": "Synthetic product", "definition": "A material made by chemical processes to supplement or replace a natural product, such as poly(ethene) or nylon." },
-      { "term": "Reserves", "definition": "The amount of a resource that is known to exist and can be extracted economically." }
+      {
+        "term": "Finite resource",
+        "definition": "A resource that is used up faster than it is replaced, so it will eventually run out (for example crude oil or metal ores)."
+      },
+      {
+        "term": "Renewable resource",
+        "definition": "A resource that can be replaced at the same rate as, or faster than, it is used (for example timber from managed forests)."
+      },
+      {
+        "term": "Sustainable development",
+        "definition": "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs."
+      },
+      {
+        "term": "Natural resource",
+        "definition": "A material obtained directly from the Earth, plants or animals, such as wood, cotton, wool or rubber."
+      },
+      {
+        "term": "Synthetic product",
+        "definition": "A material made by chemical processes to supplement or replace a natural product, such as poly(ethene) or nylon."
+      },
+      {
+        "term": "Reserves",
+        "definition": "The amount of a resource that is known to exist and can be extracted economically."
+      }
     ],
     "equations": [
-      { "name": "Estimated lifetime of a resource", "formula": "years remaining = known reserves ÷ amount used per year", "symbols": "", "units": "years (reserves and use must be in the same units)", "recall": false }
+      {
+        "name": "Estimated lifetime of a resource",
+        "formula": "years remaining = known reserves ÷ amount used per year",
+        "symbols": "",
+        "units": "years (reserves and use must be in the same units)",
+        "recall": false
+      }
     ],
     "workedExamples": [
       {
@@ -76,10 +100,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think renewable means the resource can never run out however much we use.", "right": "In fact a renewable resource only stays available if it is used no faster than it is replaced; overfelling a forest can still use timber up." },
-      { "wrong": "Students often think sustainable development means stopping all use of finite resources.", "right": "In fact it means meeting today's needs without compromising future generations, for example by using finite resources efficiently, recycling and switching to renewables where possible." },
-      { "wrong": "Students often think synthetic products are always less sustainable than natural ones.", "right": "In fact it depends on the raw materials, energy and waste involved; a synthetic product can reduce pressure on land or animals, but many are made from finite crude oil." },
-      { "wrong": "Students often think that 'reserves ÷ use' gives an exact date the resource will run out.", "right": "In fact it is only an estimate: use changes, new reserves are found and recycling changes demand." }
+      {
+        "wrong": "Students often think renewable means the resource can never run out however much we use.",
+        "right": "In fact a renewable resource only stays available if it is used no faster than it is replaced; overfelling a forest can still use timber up."
+      },
+      {
+        "wrong": "Students often think sustainable development means stopping all use of finite resources.",
+        "right": "In fact it means meeting today's needs without compromising future generations, for example by using finite resources efficiently, recycling and switching to renewables where possible."
+      },
+      {
+        "wrong": "Students often think synthetic products are always less sustainable than natural ones.",
+        "right": "In fact it depends on the raw materials, energy and waste involved; a synthetic product can reduce pressure on land or animals, but many are made from finite crude oil."
+      },
+      {
+        "wrong": "Students often think that 'reserves ÷ use' gives an exact date the resource will run out.",
+        "right": "In fact it is only an estimate: use changes, new reserves are found and recycling changes demand."
+      }
     ],
     "realWorld": [
       "Synthetic fibres such as nylon and polyester supplement natural wool and cotton in clothing, reducing the land needed for sheep and cotton crops.",
@@ -105,200 +141,575 @@
     ]
   },
   "flashcards": [
-    { "front": "Four needs met by the Earth's resources", "back": "Warmth, shelter, food and transport." },
-    { "front": "Define sustainable development", "back": "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs." },
-    { "front": "What is a finite resource?", "back": "One used up much faster than it is replaced, so it will run out, e.g. crude oil, coal, metal ores." },
-    { "front": "What is a renewable resource?", "back": "One that can be replaced at the same rate as it is used, e.g. timber, cotton, wool, crops." },
-    { "front": "Give two examples of natural products that are supplemented by synthetic ones", "back": "Wool and cotton (by polyester and nylon); natural rubber (by synthetic rubber)." },
-    { "front": "How does chemistry help sustainable development?", "back": "By improving agricultural and industrial processes, providing new products, and reducing energy use and waste." },
-    { "front": "How do catalysts make a process more sustainable?", "back": "They lower the temperature (energy) needed, saving fuel." },
-    { "front": "How can you estimate how long a resource will last?", "back": "Divide known reserves by the amount used per year (same units)." },
-    { "front": "Is crude oil finite or renewable?", "back": "Finite: it formed over millions of years and is used much faster." },
-    { "front": "Why is wood from managed forests renewable?", "back": "New trees are planted to replace those felled, so it is replaced as fast as it is used." },
-    { "front": "Name three finite resources", "back": "Crude oil, natural gas, coal, metal ores (any three)." },
-    { "front": "Why are estimates of resource lifetimes uncertain?", "back": "Rate of use changes, new reserves are discovered, and recycling and new technology change demand." }
+    {
+      "front": "Four needs met by the Earth's resources",
+      "back": "Warmth, shelter, food and transport."
+    },
+    {
+      "front": "Define sustainable development",
+      "back": "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "front": "What is a finite resource?",
+      "back": "One used up much faster than it is replaced, so it will run out, e.g. crude oil, coal, metal ores."
+    },
+    {
+      "front": "What is a renewable resource?",
+      "back": "One that can be replaced at the same rate as it is used, e.g. timber, cotton, wool, crops."
+    },
+    {
+      "front": "Give two examples of natural products that are supplemented by synthetic ones",
+      "back": "Wool and cotton (by polyester and nylon); natural rubber (by synthetic rubber)."
+    },
+    {
+      "front": "How does chemistry help sustainable development?",
+      "back": "By improving agricultural and industrial processes, providing new products, and reducing energy use and waste."
+    },
+    {
+      "front": "How do catalysts make a process more sustainable?",
+      "back": "They lower the temperature (energy) needed, saving fuel."
+    },
+    {
+      "front": "How can you estimate how long a resource will last?",
+      "back": "Divide known reserves by the amount used per year (same units)."
+    },
+    {
+      "front": "Is crude oil finite or renewable?",
+      "back": "Finite: it formed over millions of years and is used much faster."
+    },
+    {
+      "front": "Why is wood from managed forests renewable?",
+      "back": "New trees are planted to replace those felled, so it is replaced as fast as it is used."
+    },
+    {
+      "front": "Name three finite resources",
+      "back": "Crude oil, natural gas, coal, metal ores (any three)."
+    },
+    {
+      "front": "Why are estimates of resource lifetimes uncertain?",
+      "back": "Rate of use changes, new reserves are discovered, and recycling and new technology change demand."
+    }
   ],
   "questions": [
     {
-      "id": "c10-sustainable-development-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which of these is a finite resource?",
-      "options": ["Wool", "Timber from a managed forest", "Natural gas", "Cotton"],
+      "options": [
+        "Wool",
+        "Timber from a managed forest",
+        "Natural gas",
+        "Cotton"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: Natural gas"],
+      "markScheme": [
+        "1 mark: Natural gas"
+      ],
       "explanation": "Natural gas formed over millions of years and is used far faster than it forms, so it will run out. Wool, cotton and managed timber can be replaced each year or so."
     },
     {
-      "id": "c10-sustainable-development-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which statement is the definition of sustainable development?",
-      "options": ["Development that uses only renewable resources", "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs", "Development that produces no waste at all", "Development that uses the cheapest raw materials available"],
+      "options": [
+        "Development that uses only renewable resources",
+        "Development that meets the needs of current generations without compromising the ability of future generations to meet their own needs",
+        "Development that produces no waste at all",
+        "Development that uses the cheapest raw materials available"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: meets the needs of current generations without compromising the ability of future generations to meet their own needs"],
+      "markScheme": [
+        "1 mark: meets the needs of current generations without compromising the ability of future generations to meet their own needs"
+      ],
       "explanation": "This is the AQA definition. Using only renewables or producing no waste may help, but they are not the definition."
     },
     {
-      "id": "c10-sustainable-development-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Humans use the Earth's resources to provide warmth, shelter, food and which other need?",
-      "options": ["Transport", "Entertainment", "Education", "Medicine"],
+      "options": [
+        "Transport",
+        "Entertainment",
+        "Education",
+        "Medicine"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: Transport"],
+      "markScheme": [
+        "1 mark: Transport"
+      ],
       "explanation": "The specification lists warmth, shelter, food and transport as the basic uses of Earth's resources."
     },
     {
-      "id": "c10-sustainable-development-q04", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which of these is a synthetic product that can replace a natural one?",
-      "options": ["Cotton", "Wool", "Silk", "Nylon"],
+      "options": [
+        "Cotton",
+        "Wool",
+        "Silk",
+        "Nylon"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: Nylon"],
+      "markScheme": [
+        "1 mark: Nylon"
+      ],
       "explanation": "Nylon is made by chemical processes and can replace natural fibres such as silk or wool. Cotton, wool and silk are natural products."
     },
     {
-      "id": "c10-sustainable-development-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-sustainable-development-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which feature decides whether a resource is renewable?",
-      "options": ["Whether it comes from a living thing", "Whether it is cheap to extract", "Whether it can be replaced at the same rate as it is used", "Whether it is found in the atmosphere"],
+      "options": [
+        "Whether it comes from a living thing",
+        "Whether it is cheap to extract",
+        "Whether it can be replaced at the same rate as it is used",
+        "Whether it is found in the atmosphere"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: whether it can be replaced at the same rate as it is used"],
+      "markScheme": [
+        "1 mark: whether it can be replaced at the same rate as it is used"
+      ],
       "explanation": "The key idea is the rate of replacement compared with the rate of use. Coal came from living things but is finite because it forms too slowly."
     },
     {
-      "id": "c10-sustainable-development-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-sustainable-development-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Coal formed from the remains of plants. Why is coal classed as a finite resource?",
-      "options": ["It cannot be burned more than once", "It took millions of years to form and is used much faster than it forms", "It is found only in a few countries", "It releases carbon dioxide when it burns"],
+      "options": [
+        "It cannot be burned more than once",
+        "It took millions of years to form and is used much faster than it forms",
+        "It is found only in a few countries",
+        "It releases carbon dioxide when it burns"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: it formed over millions of years and is used much faster than it forms"],
+      "markScheme": [
+        "1 mark: it formed over millions of years and is used much faster than it forms"
+      ],
       "explanation": "Being made from plants does not make a resource renewable; the formation rate is far too slow compared with the rate we use it."
     },
     {
-      "id": "c10-sustainable-development-q07", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-sustainable-development-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which change to an industrial process would make it more sustainable?",
-      "options": ["Using a higher temperature so that the reaction is faster", "Using a catalyst so the process runs at a lower temperature", "Using a finite raw material instead of a renewable one", "Sending the by-products to landfill"],
+      "options": [
+        "Using a higher temperature so that the reaction is faster",
+        "Using a catalyst so the process runs at a lower temperature",
+        "Using a finite raw material instead of a renewable one",
+        "Sending the by-products to landfill"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: using a catalyst so the process runs at a lower temperature"],
+      "markScheme": [
+        "1 mark: using a catalyst so the process runs at a lower temperature"
+      ],
       "explanation": "A catalyst allows lower temperatures, so less fuel is burned. Higher temperatures use more energy, and landfill wastes materials."
     },
     {
-      "id": "c10-sustainable-development-q08", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
-      "question": "Known reserves of a resource are 120 million tonnes and use is 4 million tonnes per year. Which statement about the estimate of 30 years is correct?",
-      "options": ["The resource will definitely run out in exactly 30 years", "The estimate assumes the rate of use stays the same and no new reserves are found", "The estimate will be too long if recycling increases", "The estimate is renewable because it is less than 100 years"],
+      "id": "c10-sustainable-development-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
+      "question": "Table 1 shows information about a resource.\nA scientist estimates that the known reserves will last 30 years.\nWhich statement about this estimate is correct?",
+      "table": {
+        "headers": [
+          "Known reserves in millions of tonnes",
+          "Use in millions of tonnes per year"
+        ],
+        "rows": [
+          [
+            "120",
+            "4"
+          ]
+        ]
+      },
+      "options": [
+        "The resource will definitely run out in exactly 30 years",
+        "The estimate assumes the rate of use stays the same and no new reserves are found",
+        "The estimate will be too long if recycling increases",
+        "The estimate is renewable because it is less than 100 years"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the estimate assumes constant use and no new reserves"],
+      "markScheme": [
+        "1 mark: the estimate assumes constant use and no new reserves"
+      ],
       "explanation": "120 ÷ 4 = 30 years only if use stays constant. Increased recycling would make the resource last longer, not shorter."
     },
     {
-      "id": "c10-sustainable-development-q09", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-sustainable-development-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "A plastic bag can be made from crude oil or from starch grown in maize. Which statement is the best evaluation of sustainability?",
-      "options": ["The maize bag is fully sustainable because maize is natural", "The crude oil bag is more sustainable because oil is cheaper", "The maize raw material is renewable, but growing maize uses land, fertiliser and energy that must also be considered", "Both are equally sustainable because both make bags"],
+      "options": [
+        "The maize bag is fully sustainable because maize is natural",
+        "The crude oil bag is more sustainable because oil is cheaper",
+        "The maize raw material is renewable, but growing maize uses land, fertiliser and energy that must also be considered",
+        "Both are equally sustainable because both make bags"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: maize is renewable but land, fertiliser and energy use must also be considered"],
+      "markScheme": [
+        "1 mark: maize is renewable but land, fertiliser and energy use must also be considered"
+      ],
       "explanation": "A good evaluation considers the whole picture. A renewable raw material helps, but farming has its own resource costs."
     },
     {
-      "id": "c10-sustainable-development-q10", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which of these is a renewable resource?",
-      "options": ["Copper ore", "Crude oil", "Coal", "Wool"],
+      "options": [
+        "Copper ore",
+        "Crude oil",
+        "Coal",
+        "Wool"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: Wool"],
+      "markScheme": [
+        "1 mark: Wool"
+      ],
       "explanation": "Sheep grow new wool every year, so wool is replaced as fast as it is used. Copper ore, crude oil and coal are finite."
     },
     {
-      "id": "c10-sustainable-development-q11", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "The known reserves of a metal ore are 900 million tonnes. The ore is mined at 30 million tonnes per year. Calculate how many years the reserves will last if the rate of mining stays the same.",
-      "numericAnswer": 30, "tolerance": 0.01, "unit": "years",
-      "markScheme": ["1 mark: 900 ÷ 30", "1 mark: 30 years"],
-      "explanation": "Years remaining = reserves ÷ rate of use = 900 ÷ 30 = 30 years."
+      "id": "c10-sustainable-development-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Table 1 shows information about a metal ore.\nCalculate how many years the known reserves will last if the rate of mining stays the same.",
+      "table": {
+        "headers": [
+          "Known reserves in millions of tonnes",
+          "Rate of mining in millions of tonnes per year"
+        ],
+        "rows": [
+          [
+            "900",
+            "30"
+          ]
+        ]
+      },
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "years",
+      "markScheme": [
+        "1 mark: 900 ÷ 30",
+        "1 mark: 30 years"
+      ],
+      "explanation": "Years remaining = reserves ÷ rate of use = 900 ÷ 30 = 30 years.",
+      "answerLabel": "Time"
     },
     {
-      "id": "c10-sustainable-development-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A town uses 48 000 tonnes of timber each year. 18 000 tonnes comes from local managed forests. Calculate the percentage of the timber that comes from local managed forests.",
-      "numericAnswer": 37.5, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: (18 000 ÷ 48 000) × 100", "1 mark: 37.5%"],
-      "explanation": "18 000 ÷ 48 000 = 0.375, × 100 = 37.5%."
+      "id": "c10-sustainable-development-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Figure 1 shows the total mass of timber a town uses each year and the mass that comes from local managed forests.\nCalculate the percentage of the timber that comes from local managed forests.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 238H420M70 229.1H420M70 220.2H420M70 211.2H420M70 202.3H420M70 193.4H420M70 184.5H420M70 175.6H420M70 166.6H420M70 157.7H420M70 148.8H420M70 139.9H420M70 131H420M70 122H420M70 113.1H420M70 104.2H420M70 95.3H420M70 86.4H420M70 77.4H420M70 68.5H420M70 59.6H420M70 50.7H420M70 41.8H420M70 32.8H420M70 23.9H420M70 15H420\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M70 238H420M70 193.4H420M70 148.8H420M70 104.2H420M70 59.6H420M70 15H420\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M70 15V238H420\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"64\" y=\"242\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"64\" y=\"197.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10 000</text><text x=\"64\" y=\"152.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20 000</text><text x=\"64\" y=\"108.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30 000</text><text x=\"64\" y=\"63.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40 000</text><text x=\"64\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50 000</text><text x=\"14\" y=\"126.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 126.5)\">Mass of timber in tonnes</text><rect x=\"118.1\" y=\"23.9\" width=\"78.8\" height=\"214.1\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"157.5\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Total timber used</text><rect x=\"293.1\" y=\"157.7\" width=\"78.8\" height=\"80.3\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"332.5\" y=\"255\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">From local</text><text x=\"332.5\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">managed forests</text></svg>"
+      },
+      "numericAnswer": 37.5,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (18 000 ÷ 48 000) × 100",
+        "1 mark: 37.5%"
+      ],
+      "explanation": "From Figure 1: total = 48 000 tonnes and local = 18 000 tonnes. 18 000 ÷ 48 000 = 0.375, × 100 = 37.5%.",
+      "answerLabel": "Percentage from local forests"
     },
     {
-      "id": "c10-sustainable-development-q13", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "World oil reserves are about 1.7 × 10¹² barrels. World use is about 3.4 × 10¹⁰ barrels per year. Estimate how many years the reserves will last.",
-      "numericAnswer": 50, "tolerance": 0.01, "unit": "years",
-      "markScheme": ["1 mark: 1.7 × 10¹² ÷ 3.4 × 10¹⁰", "1 mark: 50 years"],
-      "explanation": "1.7 × 10¹² ÷ 3.4 × 10¹⁰ = 0.5 × 10² = 50 years."
+      "id": "c10-sustainable-development-q13",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Table 1 shows approximate data about world oil reserves and use.\nEstimate how many years the reserves will last.",
+      "table": {
+        "headers": [
+          "World oil reserves in barrels",
+          "World use in barrels per year"
+        ],
+        "rows": [
+          [
+            "1.7 × 10¹²",
+            "3.4 × 10¹⁰"
+          ]
+        ]
+      },
+      "numericAnswer": 50,
+      "tolerance": 0.01,
+      "unit": "years",
+      "markScheme": [
+        "1 mark: 1.7 × 10¹² ÷ 3.4 × 10¹⁰",
+        "1 mark: 50 years"
+      ],
+      "explanation": "1.7 × 10¹² ÷ 3.4 × 10¹⁰ = 0.5 × 10² = 50 years.",
+      "answerLabel": "Time"
     },
     {
-      "id": "c10-sustainable-development-q14", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "Reserves of a mineral are 600 million tonnes. Use this year is 20 million tonnes, but demand is expected to rise so that average use over the coming years is 25% higher than this year. Calculate how many years the reserves will last at the higher average rate.",
-      "numericAnswer": 24, "tolerance": 0.01, "unit": "years",
-      "markScheme": ["1 mark: new rate = 20 × 1.25 = 25 million tonnes per year", "1 mark: 600 ÷ 25", "1 mark: 24 years"],
-      "explanation": "A 25% increase on 20 gives 25 million tonnes per year. 600 ÷ 25 = 24 years, compared with 30 years at the current rate."
+      "id": "c10-sustainable-development-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Table 1 shows information about a mineral.\nDemand is expected to rise so that the average use over the coming years is 25% higher than the use this year.\nCalculate how many years the reserves will last at the higher average rate of use.",
+      "table": {
+        "headers": [
+          "Reserves in millions of tonnes",
+          "Use this year in millions of tonnes"
+        ],
+        "rows": [
+          [
+            "600",
+            "20"
+          ]
+        ]
+      },
+      "numericAnswer": 24,
+      "tolerance": 0.01,
+      "unit": "years",
+      "markScheme": [
+        "1 mark: new rate = 20 × 1.25 = 25 million tonnes per year",
+        "1 mark: 600 ÷ 25",
+        "1 mark: 24 years"
+      ],
+      "explanation": "A 25% increase on 20 gives 25 million tonnes per year. 600 ÷ 25 = 24 years, compared with 30 years at the current rate.",
+      "answerLabel": "Time"
     },
     {
-      "id": "c10-sustainable-development-q15", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "In 2010 a country got 12% of its electricity from renewable sources. In 2020 it got 42%. Calculate the increase in percentage points.",
-      "numericAnswer": 30, "tolerance": 0.01, "unit": "percentage points",
-      "markScheme": ["1 mark: 42 − 12", "1 mark: 30"],
-      "explanation": "The increase is 42 − 12 = 30 percentage points."
+      "id": "c10-sustainable-development-q15",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Figure 1 shows the percentage of a country's electricity that came from renewable sources between 2010 and 2020.\nCalculate the increase in percentage points between 2010 and 2020.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M62 252H440M62 242.5H440M62 233H440M62 223.6H440M62 214.1H440M62 204.6H440M62 195.1H440M62 185.6H440M62 176.2H440M62 166.7H440M62 157.2H440M62 147.7H440M62 138.2H440M62 128.8H440M62 119.3H440M62 109.8H440M62 100.3H440M62 90.8H440M62 81.4H440M62 71.9H440M62 62.4H440M62 52.9H440M62 43.4H440M62 34H440M62 24.5H440M62 15H440M62 15V252M99.8 15V252M137.6 15V252M175.4 15V252M213.2 15V252M251 15V252M288.8 15V252M326.6 15V252M364.4 15V252M402.2 15V252M440 15V252\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 252H440M62 204.6H440M62 157.2H440M62 109.8H440M62 62.4H440M62 15H440M62 15V252M137.6 15V252M213.2 15V252M288.8 15V252M364.4 15V252M440 15V252\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 15V252H440\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"56\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"208.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10</text><text x=\"56\" y=\"161.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"56\" y=\"113.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"56\" y=\"66.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">40</text><text x=\"56\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">50</text><text x=\"62\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2010</text><text x=\"137.6\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2012</text><text x=\"213.2\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2014</text><text x=\"288.8\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2016</text><text x=\"364.4\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2018</text><text x=\"440\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2020</text><text x=\"251\" y=\"292\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Year</text><text x=\"14\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 133.5)\">Electricity from renewables in %</text><polyline points=\"62,195.1 137.6,176.2 213.2,157.2 288.8,128.8 364.4,90.8 440,52.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M58 191.1l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M133.6 172.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M209.2 153.2l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M284.8 124.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M360.4 86.8l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M436 48.9l8 8m0 -8l-8 8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
+      "numericAnswer": 30,
+      "tolerance": 0.01,
+      "unit": "percentage points",
+      "markScheme": [
+        "1 mark: 42 − 12",
+        "1 mark: 30"
+      ],
+      "explanation": "From Figure 1: 12% in 2010 and 42% in 2020. The increase is 42 − 12 = 30 percentage points.",
+      "answerLabel": "Increase"
     },
     {
-      "id": "c10-sustainable-development-q16", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State what is meant by a finite resource.",
-      "acceptedAnswers": ["will run out", "used faster than it is replaced", "cannot be replaced as fast as it is used", "limited supply"],
-      "markScheme": ["1 mark: a resource that will run out / is used faster than it can be replaced"],
+      "acceptedAnswers": [
+        "will run out",
+        "used faster than it is replaced",
+        "cannot be replaced as fast as it is used",
+        "limited supply"
+      ],
+      "markScheme": [
+        "1 mark: a resource that will run out / is used faster than it can be replaced"
+      ],
       "explanation": "A finite resource forms much more slowly than we use it, so the supply is limited."
     },
     {
-      "id": "c10-sustainable-development-q17", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-sustainable-development-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Give two examples of finite resources.",
-      "acceptedAnswers": ["crude oil", "natural gas", "coal", "metal ores", "iron ore", "copper ore", "limestone"],
-      "markScheme": ["1 mark each for any two: crude oil / natural gas / coal / a named metal ore"],
+      "acceptedAnswers": [
+        "crude oil",
+        "natural gas",
+        "coal",
+        "metal ores",
+        "iron ore",
+        "copper ore",
+        "limestone"
+      ],
+      "markScheme": [
+        "1 mark each for any two: crude oil / natural gas / coal / a named metal ore"
+      ],
       "explanation": "Fossil fuels and metal ores are the standard examples of finite resources."
     },
     {
-      "id": "c10-sustainable-development-q18", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-sustainable-development-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Name two natural products that have been supplemented or replaced by synthetic products.",
-      "acceptedAnswers": ["wool", "cotton", "silk", "rubber", "wood", "timber", "leather"],
-      "markScheme": ["1 mark each for any two: wool / cotton / silk / rubber / wood / leather"],
+      "acceptedAnswers": [
+        "wool",
+        "cotton",
+        "silk",
+        "rubber",
+        "wood",
+        "timber",
+        "leather"
+      ],
+      "markScheme": [
+        "1 mark each for any two: wool / cotton / silk / rubber / wood / leather"
+      ],
       "explanation": "Synthetic fibres replace wool, cotton and silk; synthetic rubber replaces natural rubber; plastics replace wood in many uses."
     },
     {
-      "id": "c10-sustainable-development-q19", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-sustainable-development-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain why timber from a managed forest is described as a renewable resource.",
-      "acceptedAnswers": ["trees are replanted", "replaced as fast as it is used", "new trees grow to replace felled trees"],
-      "markScheme": ["1 mark: new trees are planted to replace those cut down", "1 mark: so timber is replaced at the same rate as it is used"],
+      "acceptedAnswers": [
+        "trees are replanted",
+        "replaced as fast as it is used",
+        "new trees grow to replace felled trees"
+      ],
+      "markScheme": [
+        "1 mark: new trees are planted to replace those cut down",
+        "1 mark: so timber is replaced at the same rate as it is used"
+      ],
       "explanation": "Renewable means the supply is replaced as fast as it is used, which managed replanting achieves."
     },
     {
-      "id": "c10-sustainable-development-q20", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-sustainable-development-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Describe two ways in which chemists contribute to sustainable development.",
-      "acceptedAnswers": ["catalysts", "lower energy", "fertilisers", "new materials", "synthetic products", "recycling", "less waste", "improve industrial processes", "improve agricultural processes"],
-      "markScheme": ["1 mark each for any two: developing catalysts so processes use less energy / making fertilisers to grow more food / developing new or synthetic materials to replace scarce natural ones / improving processes to reduce waste / developing recycling methods"],
+      "acceptedAnswers": [
+        "catalysts",
+        "lower energy",
+        "fertilisers",
+        "new materials",
+        "synthetic products",
+        "recycling",
+        "less waste",
+        "improve industrial processes",
+        "improve agricultural processes"
+      ],
+      "markScheme": [
+        "1 mark each for any two: developing catalysts so processes use less energy / making fertilisers to grow more food / developing new or synthetic materials to replace scarce natural ones / improving processes to reduce waste / developing recycling methods"
+      ],
       "explanation": "The specification says chemistry improves agricultural and industrial processes to provide new products and supports sustainable development."
     },
     {
-      "id": "c10-sustainable-development-q21", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-sustainable-development-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Biodiesel can be made from rapeseed oil. Suggest one advantage and one disadvantage of using rapeseed oil rather than crude oil as a raw material for fuel.",
-      "acceptedAnswers": ["renewable", "crop can be regrown", "uses land needed for food", "needs fertiliser", "lower yield", "deforestation"],
-      "markScheme": ["1 mark: advantage: rapeseed is renewable / can be regrown each year", "1 mark: disadvantage: uses farmland that could grow food / needs fertilisers and energy to grow and process"],
+      "acceptedAnswers": [
+        "renewable",
+        "crop can be regrown",
+        "uses land needed for food",
+        "needs fertiliser",
+        "lower yield",
+        "deforestation"
+      ],
+      "markScheme": [
+        "1 mark: advantage: rapeseed is renewable / can be regrown each year",
+        "1 mark: disadvantage: uses farmland that could grow food / needs fertilisers and energy to grow and process"
+      ],
       "explanation": "Crops are renewable, but they compete with food for land and still need energy and fertilisers."
     },
     {
-      "id": "c10-sustainable-development-q22", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "id": "c10-sustainable-development-q22",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
       "question": "A report estimates that reserves of a metal ore will last 40 years. Give three reasons why the metal may actually be available for longer than 40 years.",
-      "acceptedAnswers": ["new reserves discovered", "more recycling", "lower-grade ores become economic", "demand falls", "substitute materials", "new extraction methods", "phytomining", "bioleaching"],
-      "markScheme": ["1 mark each for any three: new reserves discovered / more of the metal is recycled / new methods allow low-grade ores to be used / demand falls / other materials replace the metal"],
+      "acceptedAnswers": [
+        "new reserves discovered",
+        "more recycling",
+        "lower-grade ores become economic",
+        "demand falls",
+        "substitute materials",
+        "new extraction methods",
+        "phytomining",
+        "bioleaching"
+      ],
+      "markScheme": [
+        "1 mark each for any three: new reserves discovered / more of the metal is recycled / new methods allow low-grade ores to be used / demand falls / other materials replace the metal"
+      ],
       "explanation": "The 40-year estimate assumes constant use and current reserves; any change that increases supply or reduces demand extends the lifetime."
     },
     {
-      "id": "c10-sustainable-development-q23", "type": "short", "tier": "higher", "difficulty": 3, "marks": 2,
+      "id": "c10-sustainable-development-q23",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 2,
       "question": "Explain why a resource that comes from living things can still be used in a way that is not sustainable.",
-      "acceptedAnswers": ["used faster than replaced", "overharvesting", "not replanted", "future generations cannot meet needs"],
-      "markScheme": ["1 mark: if it is used faster than it is replaced (for example forests felled without replanting)", "1 mark: the resource would be depleted so future generations could not meet their needs"],
+      "acceptedAnswers": [
+        "used faster than replaced",
+        "overharvesting",
+        "not replanted",
+        "future generations cannot meet needs"
+      ],
+      "markScheme": [
+        "1 mark: if it is used faster than it is replaced (for example forests felled without replanting)",
+        "1 mark: the resource would be depleted so future generations could not meet their needs"
+      ],
       "explanation": "Renewability depends on the balance between rate of use and rate of replacement, not only on the source."
     },
     {
-      "id": "c10-sustainable-development-q24", "type": "short", "tier": "both", "difficulty": 3, "marks": 2,
+      "id": "c10-sustainable-development-q24",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
       "question": "A student says: 'Recycling aluminium cans helps sustainable development.' Explain why the student is correct.",
-      "acceptedAnswers": ["less ore mined", "conserves finite resource", "less energy than extraction", "less waste in landfill", "bauxite lasts longer"],
-      "markScheme": ["1 mark: reduces the amount of finite aluminium ore that must be mined / conserves the ore for future generations", "1 mark: uses less energy than extracting new aluminium / reduces landfill waste"],
+      "acceptedAnswers": [
+        "less ore mined",
+        "conserves finite resource",
+        "less energy than extraction",
+        "less waste in landfill",
+        "bauxite lasts longer"
+      ],
+      "markScheme": [
+        "1 mark: reduces the amount of finite aluminium ore that must be mined / conserves the ore for future generations",
+        "1 mark: uses less energy than extracting new aluminium / reduces landfill waste"
+      ],
       "explanation": "Recycling conserves a finite resource and saves energy, so future generations are less disadvantaged."
     },
     {
-      "id": "c10-sustainable-development-q25", "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "id": "c10-sustainable-development-q25",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
       "question": "Clothing can be made from cotton (a natural fibre grown as a crop) or from polyester (a synthetic fibre made from crude oil).\nCompare the sustainability of the two fibres.",
       "markScheme": [
         "Indicative content: cotton is renewable as it can be regrown each year; polyester is made from crude oil, a finite resource; cotton needs large areas of land, lots of water and often fertilisers and pesticides; polyester production uses energy from fossil fuels; polyester can be recycled; cotton is biodegradable.",
@@ -308,7 +719,11 @@
       "explanation": "Sustainability depends on more than whether the raw material is renewable: land, water, energy and disposal all matter."
     },
     {
-      "id": "c10-sustainable-development-q26", "type": "extended", "tier": "both", "difficulty": 3, "marks": 6,
+      "id": "c10-sustainable-development-q26",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 6,
       "question": "A government wants industry to use the Earth's resources more sustainably.\nExplain what is meant by sustainable development and evaluate ways in which chemistry can help industry and agriculture to become more sustainable.",
       "markScheme": [
         "Indicative content: definition (meets needs of current generations without compromising the ability of future generations to meet their own needs); finite resources such as crude oil and ores will run out; use renewable raw materials where possible; catalysts reduce energy use by lowering temperatures; recycling metals, glass and plastics conserves ores and energy; synthetic materials can supplement scarce natural ones; fertilisers increase crop yields so less land is needed, but excess fertiliser can pollute water; renewable raw materials may use land needed for food; reducing waste and finding uses for by-products.",
@@ -319,17 +734,42 @@
       "explanation": "Top answers define the term precisely and weigh benefits against limitations, for example fertilisers raise yields but may cause pollution."
     },
     {
-      "id": "c10-sustainable-development-q27", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "A forest has 50 000 trees. 2500 trees are felled each year and 2500 new trees are planted each year. How many trees will the forest have after 10 years?",
-      "numericAnswer": 50000, "tolerance": 0, "unit": "trees",
-      "markScheme": ["1 mark: 50 000"],
-      "explanation": "Felling equals replanting, so the number stays at 50 000: the timber is being used renewably."
+      "id": "c10-sustainable-development-q27",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "A forest has 50 000 trees.\nEach year 2500 trees are felled and 2500 new trees are planted.\nCalculate the number of trees in the forest after 10 years.",
+      "numericAnswer": 50000,
+      "tolerance": 0,
+      "unit": "trees",
+      "markScheme": [
+        "1 mark: 50 000"
+      ],
+      "explanation": "Felling equals replanting, so the number stays at 50 000: the timber is being used renewably.",
+      "answerLabel": "Number of trees"
     },
     {
-      "id": "c10-sustainable-development-q28", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-sustainable-development-q28",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State one way in which humans use the Earth's resources to provide shelter.",
-      "acceptedAnswers": ["building materials", "wood", "timber", "stone", "bricks", "metals", "glass", "cement", "concrete"],
-      "markScheme": ["1 mark: building materials such as wood, stone, bricks, metals, glass or concrete"],
+      "acceptedAnswers": [
+        "building materials",
+        "wood",
+        "timber",
+        "stone",
+        "bricks",
+        "metals",
+        "glass",
+        "cement",
+        "concrete"
+      ],
+      "markScheme": [
+        "1 mark: building materials such as wood, stone, bricks, metals, glass or concrete"
+      ],
       "explanation": "Shelter uses materials extracted from the Earth or grown, for example timber and stone."
     }
   ]

@@ -68,18 +68,73 @@
     }
   ],
   "results": {
-    "headers": ["Length of wire (cm)", "Potential difference (V)", "Current (A)", "Resistance (Ω)"],
+    "headers": [
+      "Length of wire (cm)",
+      "Potential difference (V)",
+      "Current (A)",
+      "Resistance (Ω)"
+    ],
     "rows": [
-      ["10", "0.20", "0.50", "0.40"],
-      ["20", "0.34", "0.44", "0.77"],
-      ["30", "0.48", "0.39", "1.23"],
-      ["40", "0.58", "0.35", "1.66"],
-      ["50", "0.64", "0.33", "1.94"],
-      ["60", "0.72", "0.30", "2.40"],
-      ["70", "0.77", "0.28", "2.75"],
-      ["80", "0.83", "0.26", "3.19"],
-      ["90", "0.86", "0.25", "3.44"],
-      ["100", "0.91", "0.23", "3.96"]
+      [
+        "10",
+        "0.20",
+        "0.50",
+        "0.40"
+      ],
+      [
+        "20",
+        "0.34",
+        "0.44",
+        "0.77"
+      ],
+      [
+        "30",
+        "0.48",
+        "0.39",
+        "1.23"
+      ],
+      [
+        "40",
+        "0.58",
+        "0.35",
+        "1.66"
+      ],
+      [
+        "50",
+        "0.64",
+        "0.33",
+        "1.94"
+      ],
+      [
+        "60",
+        "0.72",
+        "0.30",
+        "2.40"
+      ],
+      [
+        "70",
+        "0.77",
+        "0.28",
+        "2.75"
+      ],
+      [
+        "80",
+        "0.83",
+        "0.26",
+        "3.19"
+      ],
+      [
+        "90",
+        "0.86",
+        "0.25",
+        "3.44"
+      ],
+      [
+        "100",
+        "0.91",
+        "0.23",
+        "3.96"
+      ]
     ],
     "notes": "Resistance = potential difference ÷ current, given to 2 decimal places. Plot resistance (Ω) on the y-axis against length (cm or m) on the x-axis and draw a straight line of best fit; it should pass through or very close to the origin. Gradient ≈ (3.96 − 0.40) ÷ (1.00 − 0.10) ≈ 4.0 Ω per metre. Series and parallel part (supply about 6 V): 10 Ω and 22 Ω in series, V = 6.0 V, I = 0.19 A, R = 31.6 Ω (predicted 32 Ω). 10 Ω and 22 Ω in parallel, V = 6.0 V, I = 0.87 A, R = 6.9 Ω (less than 10 Ω)."
   },
@@ -139,7 +194,9 @@
         "Between the battery and the switch"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: in parallel across the wire"],
+      "markScheme": [
+        "1 mark: in parallel across the wire"
+      ],
       "explanation": "A voltmeter measures the potential difference between two points, so it is connected across (in parallel with) the component. Ammeters are connected in series."
     },
     {
@@ -148,12 +205,28 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "The potential difference across a length of wire is 1.20 V and the current through it is 0.30 A.\nCalculate the resistance of the wire.",
+      "question": "A student measured the potential difference across a length of wire and the current in the wire.\nTable 1 shows the results.\nCalculate the resistance of the wire.\nUse the equation:\npotential difference = current × resistance",
+      "table": {
+        "headers": [
+          "Potential difference in V",
+          "Current in A"
+        ],
+        "rows": [
+          [
+            "1.20",
+            "0.30"
+          ]
+        ]
+      },
       "numericAnswer": 4,
       "tolerance": 0.01,
       "unit": "Ω",
-      "markScheme": ["1 mark: R = V ÷ I = 1.20 ÷ 0.30", "1 mark: 4.0 Ω"],
-      "explanation": "Rearrange V = I R to R = V ÷ I. Multiplying instead (1.20 × 0.30 = 0.36) is a common error."
+      "markScheme": [
+        "1 mark: R = V ÷ I = 1.20 ÷ 0.30",
+        "1 mark: 4.0 Ω"
+      ],
+      "explanation": "Rearrange V = I R to R = V ÷ I. Multiplying instead (1.20 × 0.30 = 0.36) is a common error.",
+      "answerLabel": "Resistance"
     },
     {
       "id": "phys-rp3-q03",
@@ -161,12 +234,16 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A current of 0.25 A flows through a 4.0 Ω resistor.\nCalculate the potential difference across the resistor.",
+      "question": "A current of 0.25 A flows through a 4.0 Ω resistor.\nCalculate the potential difference across the resistor.\nUse the equation:\npotential difference = current × resistance",
       "numericAnswer": 1,
       "tolerance": 0.01,
       "unit": "V",
-      "markScheme": ["1 mark: V = I R = 0.25 × 4.0", "1 mark: 1.0 V"],
-      "explanation": "Potential difference = current × resistance. 0.25 × 4.0 = 1.0 V."
+      "markScheme": [
+        "1 mark: V = I R = 0.25 × 4.0",
+        "1 mark: 1.0 V"
+      ],
+      "explanation": "Potential difference = current × resistance. 0.25 × 4.0 = 1.0 V.",
+      "answerLabel": "Potential difference"
     },
     {
       "id": "phys-rp3-q04",
@@ -174,7 +251,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A graph of resistance against length for a metal wire at constant temperature is a straight line through the origin. What does this show?",
+      "question": "A student investigated how the length of a metal wire affects its resistance. The temperature of the wire was constant.\nFigure 1 shows the results.\nWhat does Figure 1 show?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\"><path d=\"M62 16V258M97.8 16V258M133.6 16V258M169.4 16V258M205.2 16V258M241 16V258M276.8 16V258M312.6 16V258M348.4 16V258M384.2 16V258M420 16V258M62 258H420M62 209.6H420M62 161.2H420M62 112.8H420M62 64.4H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 16V258H420\" stroke=\"currentColor\" fill=\"none\"/><text x=\"62\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"97.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"133.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"169.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"205.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"241\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"276.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"312.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"348.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"384.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">90</text><text x=\"420\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><text x=\"56\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"213.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"165.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"116.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"56\" y=\"68.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"241\" y=\"296\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Length of wire in cm</text><text x=\"16\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Resistance in Ω</text><polyline points=\"62,258 420,35.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M93.8 232.2l8 8M93.8 240.2l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M129.6 209l8 8M129.6 217l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M165.4 187.2l8 8M165.4 195.2l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M201.2 165.9l8 8M201.2 173.9l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M237 142.2l8 8M237 150.2l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M272.8 120.9l8 8M272.8 128.9l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M308.6 97.2l8 8M308.6 105.2l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M344.4 76.4l8 8M344.4 84.4l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M380.2 53.1l8 8M380.2 61.1l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M416 31.4l8 8M416 39.4l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
       "options": [
         "Resistance is inversely proportional to length",
         "Resistance does not depend on length",
@@ -182,7 +262,9 @@
         "Resistance is directly proportional to length"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: resistance is directly proportional to length"],
+      "markScheme": [
+        "1 mark: resistance is directly proportional to length"
+      ],
       "explanation": "A straight line through the origin means that if one quantity doubles, the other doubles. Inverse proportion would give a curve that gets closer to the axes."
     },
     {
@@ -192,8 +274,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "When investigating how the length of a wire affects its resistance, a student switches off the circuit between readings.\nExplain why.",
-      "acceptedAnswers": ["stop the wire heating up", "temperature affects resistance", "keep temperature constant", "resistance increases when hot"],
-      "markScheme": ["1 mark: the current heats the wire / keeps the temperature of the wire constant", "1 mark: the resistance of a metal increases as its temperature increases (so temperature is a control variable)"],
+      "acceptedAnswers": [
+        "stop the wire heating up",
+        "temperature affects resistance",
+        "keep temperature constant",
+        "resistance increases when hot"
+      ],
+      "markScheme": [
+        "1 mark: the current heats the wire / keeps the temperature of the wire constant",
+        "1 mark: the resistance of a metal increases as its temperature increases (so temperature is a control variable)"
+      ],
       "explanation": "If the wire warms up, its resistance changes for a reason other than length, so the test is no longer fair. Short lengths carry the largest current and heat most."
     },
     {
@@ -206,8 +296,12 @@
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "Ω",
-      "markScheme": ["1 mark: 75 cm = 0.75 m", "1 mark: 4.0 × 0.75 = 3.0 Ω"],
-      "explanation": "Resistance is proportional to length, so multiply the resistance per metre by the length in metres. Using 75 instead of 0.75 gives 300 Ω."
+      "markScheme": [
+        "1 mark: 75 cm = 0.75 m",
+        "1 mark: 4.0 × 0.75 = 3.0 Ω"
+      ],
+      "explanation": "Resistance is proportional to length, so multiply the resistance per metre by the length in metres. Using 75 instead of 0.75 gives 300 Ω.",
+      "answerLabel": "Resistance"
     },
     {
       "id": "phys-rp3-q07",
@@ -215,12 +309,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A 10 Ω resistor and a 22 Ω resistor are connected in series.\nCalculate their total resistance.",
+      "question": "Figure 1 shows a 10 Ω resistor and a 22 Ω resistor connected in series.\nCalculate the total resistance of the two resistors.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\">\n<polyline points=\"130,50 60,50 60,160 180,160\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"220,160 340,160 340,50 270,50\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"170\" y1=\"50\" x2=\"230\" y2=\"50\" stroke=\"currentColor\"/>\n<g transform=\"translate(150 50)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(250 50)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(200 160)\"><line x1=\"-20\" y1=\"0\" x2=\"-9\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"-9\" y1=\"-12\" x2=\"-9\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"-3\" y1=\"-6\" x2=\"-3\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"-3\" y1=\"0\" x2=\"3\" y2=\"0\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><line x1=\"3\" y1=\"-12\" x2=\"3\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"9\" y1=\"-6\" x2=\"9\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"9\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/></g>\n<text x=\"150\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10 Ω</text><text x=\"250\" y=\"32\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">22 Ω</text>\n</svg>"
+      },
       "numericAnswer": 32,
       "tolerance": 0.01,
       "unit": "Ω",
-      "markScheme": ["1 mark: 10 + 22 = 32 Ω"],
-      "explanation": "In series, the total resistance is the sum of the individual resistances: R total = R₁ + R₂."
+      "markScheme": [
+        "1 mark: 10 + 22 = 32 Ω"
+      ],
+      "explanation": "In series, the total resistance is the sum of the individual resistances: R total = R₁ + R₂.",
+      "answerLabel": "Total resistance"
     },
     {
       "id": "phys-rp3-q08",
@@ -228,10 +328,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A 10 Ω resistor and a 22 Ω resistor are connected in parallel. Which value could be their total resistance?",
-      "options": ["32 Ω", "16 Ω", "6.9 Ω", "12 Ω"],
+      "question": "Figure 1 shows a 10 Ω resistor and a 22 Ω resistor connected in parallel.\nWhich value could be the total resistance of the two resistors?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\">\n<polyline points=\"180,40 140,40 140,110 180,110\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"220,40 260,40 260,110 220,110\" fill=\"none\" stroke=\"currentColor\"/>\n<polyline points=\"140,75 60,75 60,190 180,190\" fill=\"none\" stroke=\"currentColor\"/>\n<polyline points=\"260,75 340,75 340,190 220,190\" fill=\"none\" stroke=\"currentColor\"/>\n<circle cx=\"140\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"260\" cy=\"75\" r=\"3\" fill=\"currentColor\"/>\n<g transform=\"translate(200 40)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(200 110)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(200 190)\"><line x1=\"-20\" y1=\"0\" x2=\"-9\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"-9\" y1=\"-12\" x2=\"-9\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"-3\" y1=\"-6\" x2=\"-3\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"-3\" y1=\"0\" x2=\"3\" y2=\"0\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><line x1=\"3\" y1=\"-12\" x2=\"3\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"9\" y1=\"-6\" x2=\"9\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"9\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/></g>\n<text x=\"200\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10 Ω</text><text x=\"200\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">22 Ω</text>\n</svg>"
+      },
+      "options": [
+        "32 Ω",
+        "16 Ω",
+        "6.9 Ω",
+        "12 Ω"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 6.9 Ω"],
+      "markScheme": [
+        "1 mark: 6.9 Ω"
+      ],
       "explanation": "The total resistance of resistors in parallel is always less than the smallest individual resistance (10 Ω). 32 Ω is the series total and 16 Ω is the mean."
     },
     {
@@ -240,12 +350,31 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Two resistors are connected in parallel to a supply. The potential difference across them is 6.0 V and the total current from the supply is 0.87 A.\nCalculate the total resistance of the two resistors. Give your answer to 2 significant figures.",
+      "question": "Figure 1 shows two resistors connected in parallel to a battery.\nTable 1 shows the readings on the meters.\nCalculate the total resistance of the two resistors.\nGive your answer to 2 significant figures.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\">\n<polyline points=\"180,40 140,40 140,110 180,110\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"220,40 260,40 260,110 220,110\" fill=\"none\" stroke=\"currentColor\"/>\n<polyline points=\"140,75 60,75 60,190 90,190\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"130\" y1=\"190\" x2=\"180\" y2=\"190\" stroke=\"currentColor\"/>\n<polyline points=\"260,75 340,75 340,190 220,190\" fill=\"none\" stroke=\"currentColor\"/>\n<polyline points=\"100,75 100,150 180,150\" fill=\"none\" stroke=\"currentColor\"/><polyline points=\"300,75 300,150 220,150\" fill=\"none\" stroke=\"currentColor\"/>\n<circle cx=\"140\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"260\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"100\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"300\" cy=\"75\" r=\"3\" fill=\"currentColor\"/>\n<g transform=\"translate(200 40)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(200 110)\"><line x1=\"-20\" y1=\"0\" x2=\"-15\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"15\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><rect x=\"-15\" y=\"-6\" width=\"30\" height=\"12\" fill=\"none\" stroke=\"currentColor\"/></g><g transform=\"translate(200 150)\"><line x1=\"-20\" y1=\"0\" x2=\"-11\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"11\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><circle r=\"11\" fill=\"none\" stroke=\"currentColor\"/><text y=\"4.5\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">V</text></g><g transform=\"translate(110 190)\"><line x1=\"-20\" y1=\"0\" x2=\"-11\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"11\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/><circle r=\"11\" fill=\"none\" stroke=\"currentColor\"/><text y=\"4.5\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\">A</text></g><g transform=\"translate(200 190)\"><line x1=\"-20\" y1=\"0\" x2=\"-9\" y2=\"0\" stroke=\"currentColor\"/><line x1=\"-9\" y1=\"-12\" x2=\"-9\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"-3\" y1=\"-6\" x2=\"-3\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"-3\" y1=\"0\" x2=\"3\" y2=\"0\" stroke=\"currentColor\" stroke-dasharray=\"2 2\"/><line x1=\"3\" y1=\"-12\" x2=\"3\" y2=\"12\" stroke=\"currentColor\"/><line x1=\"9\" y1=\"-6\" x2=\"9\" y2=\"6\" stroke=\"currentColor\" stroke-width=\"3.5\"/><line x1=\"9\" y1=\"0\" x2=\"20\" y2=\"0\" stroke=\"currentColor\"/></g>\n<text x=\"200\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">R₁</text><text x=\"200\" y=\"94\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">R₂</text>\n</svg>"
+      },
+      "table": {
+        "headers": [
+          "Reading on voltmeter in V",
+          "Reading on ammeter in A"
+        ],
+        "rows": [
+          [
+            "6.0",
+            "0.87"
+          ]
+        ]
+      },
       "numericAnswer": 6.9,
       "tolerance": 0.01,
       "unit": "Ω",
-      "markScheme": ["1 mark: R = V ÷ I = 6.0 ÷ 0.87", "1 mark: 6.9 Ω"],
-      "explanation": "6.0 ÷ 0.87 = 6.897, which rounds to 6.9 Ω. This is less than either resistor, as expected for a parallel combination."
+      "markScheme": [
+        "1 mark: R = V ÷ I = 6.0 ÷ 0.87",
+        "1 mark: 6.9 Ω"
+      ],
+      "explanation": "6.0 ÷ 0.87 = 6.897, which rounds to 6.9 Ω. This is less than either resistor, as expected for a parallel combination.",
+      "answerLabel": "Total resistance"
     },
     {
       "id": "phys-rp3-q10",
@@ -253,9 +382,21 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student plots a graph of resistance against length for a wire. The line of best fit is straight but crosses the resistance axis at 0.2 Ω instead of passing through the origin.\nSuggest a reason for this and state what type of error it is.",
-      "acceptedAnswers": ["systematic error", "contact resistance", "resistance of crocodile clips", "zero error", "clip not at 0 cm"],
-      "markScheme": ["1 mark: systematic error (or zero error)", "1 mark: extra resistance of the crocodile clips / contacts / leads, or the fixed clip was not at 0 cm"],
+      "question": "Figure 1 shows a student's graph of resistance against length for a wire.\nThe line of best fit does not pass through the origin.\nSuggest a reason for this and state what type of error it is.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\"><path d=\"M62 16V258M97.8 16V258M133.6 16V258M169.4 16V258M205.2 16V258M241 16V258M276.8 16V258M312.6 16V258M348.4 16V258M384.2 16V258M420 16V258M62 258H420M62 209.6H420M62 161.2H420M62 112.8H420M62 64.4H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 16V258H420\" stroke=\"currentColor\" fill=\"none\"/><text x=\"62\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"97.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"133.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"169.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"205.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"241\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"276.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"312.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"348.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"384.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">90</text><text x=\"420\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><text x=\"56\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"213.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"165.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"116.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"56\" y=\"68.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"241\" y=\"296\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Length of wire in cm</text><text x=\"16\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Resistance in Ω</text><polyline points=\"62,248.3 420,54.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M129.6 204.6l8 8M129.6 212.6l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M201.2 167.8l8 8M201.2 175.8l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M272.8 127.2l8 8M272.8 135.2l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M344.4 90.4l8 8M344.4 98.4l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M416 50.7l8 8M416 58.7l8 -8\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "systematic error",
+        "contact resistance",
+        "resistance of crocodile clips",
+        "zero error",
+        "clip not at 0 cm"
+      ],
+      "markScheme": [
+        "1 mark: systematic error (or zero error)",
+        "1 mark: extra resistance of the crocodile clips / contacts / leads, or the fixed clip was not at 0 cm"
+      ],
       "explanation": "Every reading is too high by the same amount, which shifts the whole line up without changing its gradient. This is typical of a systematic error, not a random one."
     },
     {
@@ -264,12 +405,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The gradient of a graph of resistance against length for a wire is 4.0 Ω/m.\nCalculate the length of the same wire that has a resistance of 2.6 Ω. Give your answer in cm.",
+      "question": "Figure 1 shows a graph of resistance against length for a wire.\nDetermine the length of the same wire that has a resistance of 2.6 Ω.\nGive your answer in cm.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\"><path d=\"M62 16V258M79.9 16V258M97.8 16V258M115.7 16V258M133.6 16V258M151.5 16V258M169.4 16V258M187.3 16V258M205.2 16V258M223.1 16V258M241 16V258M258.9 16V258M276.8 16V258M294.7 16V258M312.6 16V258M330.5 16V258M348.4 16V258M366.3 16V258M384.2 16V258M402.1 16V258M420 16V258M62 258H420M62 245.9H420M62 233.8H420M62 221.7H420M62 209.6H420M62 197.5H420M62 185.4H420M62 173.3H420M62 161.2H420M62 149.1H420M62 137H420M62 124.9H420M62 112.8H420M62 100.7H420M62 88.6H420M62 76.5H420M62 64.4H420M62 52.3H420M62 40.2H420M62 28.1H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.18\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 16V258M97.8 16V258M133.6 16V258M169.4 16V258M205.2 16V258M241 16V258M276.8 16V258M312.6 16V258M348.4 16V258M384.2 16V258M420 16V258M62 258H420M62 233.8H420M62 209.6H420M62 185.4H420M62 161.2H420M62 137H420M62 112.8H420M62 88.6H420M62 64.4H420M62 40.2H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 16V258H420\" stroke=\"currentColor\" fill=\"none\"/><text x=\"62\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"97.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"133.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"169.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"205.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"241\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"276.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60</text><text x=\"312.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">70</text><text x=\"348.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">80</text><text x=\"384.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">90</text><text x=\"420\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">100</text><text x=\"56\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.0</text><text x=\"56\" y=\"237.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.4</text><text x=\"56\" y=\"213.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0.8</text><text x=\"56\" y=\"189.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1.2</text><text x=\"56\" y=\"165.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1.6</text><text x=\"56\" y=\"141\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2.0</text><text x=\"56\" y=\"116.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2.4</text><text x=\"56\" y=\"92.6\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2.8</text><text x=\"56\" y=\"68.4\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3.2</text><text x=\"56\" y=\"44.2\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3.6</text><text x=\"56\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4.0</text><text x=\"241\" y=\"296\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Length of wire in cm</text><text x=\"16\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Resistance in Ω</text><polyline points=\"62,258 420,16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"
+      },
       "numericAnswer": 65,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: length = 2.6 ÷ 4.0 = 0.65 m", "1 mark: 65 cm"],
-      "explanation": "Length = resistance ÷ resistance per metre = 0.65 m. Converting to centimetres: 0.65 × 100 = 65 cm."
+      "markScheme": [
+        "1 mark: gradient = 4.0 ÷ 100 = 0.040 Ω/cm (or reading across from 2.6 Ω to the line)",
+        "1 mark: length = 2.6 ÷ 0.040 = 65 cm"
+      ],
+      "explanation": "The line passes through (100 cm, 4.0 Ω), so the resistance is 0.040 Ω per cm (4.0 Ω per metre). Length = 2.6 ÷ 0.040 = 65 cm. Reading across from 2.6 Ω to the line and down to the length axis gives the same answer.",
+      "answerLabel": "Length"
     },
     {
       "id": "phys-rp3-q12",
@@ -278,9 +426,16 @@
       "difficulty": 2,
       "marks": 1,
       "question": "A student investigates how the length of a wire affects its resistance. Which of these is a control variable?",
-      "options": ["The diameter of the wire", "The length of the wire", "The current through the wire", "The resistance of the wire"],
+      "options": [
+        "The diameter of the wire",
+        "The length of the wire",
+        "The current through the wire",
+        "The resistance of the wire"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: the diameter of the wire"],
+      "markScheme": [
+        "1 mark: the diameter of the wire"
+      ],
       "explanation": "Thickness affects resistance, so it must be kept the same. Length is the independent variable, resistance is the dependent variable, and current is measured to calculate resistance."
     },
     {
@@ -290,8 +445,18 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Give one hazard when investigating the resistance of a wire and a precaution to reduce the risk.",
-      "acceptedAnswers": ["wire gets hot", "burns", "switch off between readings", "low voltage", "do not touch the wire", "short circuit"],
-      "markScheme": ["1 mark: hazard: the wire gets hot (could burn) / short circuit if clips touch", "1 mark: precaution: switch off between readings / use a low potential difference / do not touch the wire / keep clips apart"],
+      "acceptedAnswers": [
+        "wire gets hot",
+        "burns",
+        "switch off between readings",
+        "low voltage",
+        "do not touch the wire",
+        "short circuit"
+      ],
+      "markScheme": [
+        "1 mark: hazard: the wire gets hot (could burn) / short circuit if clips touch",
+        "1 mark: precaution: switch off between readings / use a low potential difference / do not touch the wire / keep clips apart"
+      ],
       "explanation": "The precaution must match the hazard. A large current in a short length of wire can make it hot enough to burn the skin."
     },
     {
@@ -300,9 +465,32 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "In an investigation of resistance, the current through a 10 cm length of wire was 0.50 A and the current through a 100 cm length was 0.23 A, using the same battery.\nExplain why the current is smaller for the longer wire.",
-      "acceptedAnswers": ["longer wire has more resistance", "more collisions with ions", "greater resistance so smaller current"],
-      "markScheme": ["1 mark: the longer wire has a greater resistance", "1 mark: so for the same supply, less current flows (electrons collide with more ions)"],
+      "question": "A student investigated the resistance of a wire using the same battery for each length.\nTable 1 shows two of the results.\nExplain why the current is smaller for the longer wire.",
+      "table": {
+        "headers": [
+          "Length of wire in cm",
+          "Current in A"
+        ],
+        "rows": [
+          [
+            "10",
+            "0.50"
+          ],
+          [
+            "100",
+            "0.23"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "longer wire has more resistance",
+        "more collisions with ions",
+        "greater resistance so smaller current"
+      ],
+      "markScheme": [
+        "1 mark: the longer wire has a greater resistance",
+        "1 mark: so for the same supply, less current flows (electrons collide with more ions)"
+      ],
       "explanation": "Electrons travel past more ions in a longer wire, so there are more collisions and the resistance is higher. A higher resistance in the circuit means a smaller current."
     },
     {

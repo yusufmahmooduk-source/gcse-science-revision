@@ -27,14 +27,38 @@
       "Ground water is usually the easiest source of potable water; waste water and salt water need more processing and energy."
     ],
     "keyTerms": [
-      { "term": "Waste water", "definition": "Water that has been used in homes, agriculture or industry and contains contaminants." },
-      { "term": "Sewage", "definition": "Waste water from homes and businesses, containing human waste, organic matter and microbes." },
-      { "term": "Screening", "definition": "Passing sewage through a mesh to remove large objects such as rags, plastics and paper." },
-      { "term": "Sedimentation", "definition": "Leaving sewage to stand so that heavier solids sink to form sludge, leaving liquid effluent above." },
-      { "term": "Sewage sludge", "definition": "The solid material that settles at the bottom of sedimentation tanks." },
-      { "term": "Effluent", "definition": "The liquid that is removed from the top of sedimentation tanks." },
-      { "term": "Anaerobic digestion", "definition": "Breakdown of organic matter by bacteria in the absence of oxygen, producing biogas (methane)." },
-      { "term": "Aerobic biological treatment", "definition": "Bubbling air through effluent so that aerobic bacteria break down organic matter and harmful microbes." }
+      {
+        "term": "Waste water",
+        "definition": "Water that has been used in homes, agriculture or industry and contains contaminants."
+      },
+      {
+        "term": "Sewage",
+        "definition": "Waste water from homes and businesses, containing human waste, organic matter and microbes."
+      },
+      {
+        "term": "Screening",
+        "definition": "Passing sewage through a mesh to remove large objects such as rags, plastics and paper."
+      },
+      {
+        "term": "Sedimentation",
+        "definition": "Leaving sewage to stand so that heavier solids sink to form sludge, leaving liquid effluent above."
+      },
+      {
+        "term": "Sewage sludge",
+        "definition": "The solid material that settles at the bottom of sedimentation tanks."
+      },
+      {
+        "term": "Effluent",
+        "definition": "The liquid that is removed from the top of sedimentation tanks."
+      },
+      {
+        "term": "Anaerobic digestion",
+        "definition": "Breakdown of organic matter by bacteria in the absence of oxygen, producing biogas (methane)."
+      },
+      {
+        "term": "Aerobic biological treatment",
+        "definition": "Bubbling air through effluent so that aerobic bacteria break down organic matter and harmful microbes."
+      }
     ],
     "equations": [],
     "workedExamples": [
@@ -76,10 +100,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think sedimentation removes microbes from sewage.", "right": "In fact sedimentation only separates solids (sludge) from liquid (effluent); microbes and dissolved organic matter are broken down later by bacteria in biological treatment." },
-      { "wrong": "Students often mix up which part is treated aerobically.", "right": "In fact the effluent has air bubbled through it (aerobic); the sludge is digested without oxygen (anaerobic)." },
-      { "wrong": "Students often think bacteria are only harmful in sewage treatment.", "right": "In fact useful bacteria carry out both anaerobic digestion and aerobic biological treatment, breaking down organic matter and harmful microbes." },
-      { "wrong": "Students often think treated sewage effluent is potable.", "right": "In fact treated effluent is clean enough to release into rivers, but it would need further purification and sterilising to be safe to drink." }
+      {
+        "wrong": "Students often think sedimentation removes microbes from sewage.",
+        "right": "In fact sedimentation only separates solids (sludge) from liquid (effluent); microbes and dissolved organic matter are broken down later by bacteria in biological treatment."
+      },
+      {
+        "wrong": "Students often mix up which part is treated aerobically.",
+        "right": "In fact the effluent has air bubbled through it (aerobic); the sludge is digested without oxygen (anaerobic)."
+      },
+      {
+        "wrong": "Students often think bacteria are only harmful in sewage treatment.",
+        "right": "In fact useful bacteria carry out both anaerobic digestion and aerobic biological treatment, breaking down organic matter and harmful microbes."
+      },
+      {
+        "wrong": "Students often think treated sewage effluent is potable.",
+        "right": "In fact treated effluent is clean enough to release into rivers, but it would need further purification and sterilising to be safe to drink."
+      }
     ],
     "realWorld": [
       "Many UK sewage works burn the methane biogas from anaerobic digesters to generate electricity for the works.",
@@ -105,186 +141,535 @@
     ]
   },
   "flashcards": [
-    { "front": "Why must waste water be treated?", "back": "To remove organic matter, harmful microbes and harmful chemicals before release into the environment." },
-    { "front": "What must be removed from sewage and agricultural waste water?", "back": "Organic matter and harmful microbes." },
-    { "front": "What extra may be removed from industrial waste water?", "back": "Harmful chemicals." },
-    { "front": "First stage of sewage treatment", "back": "Screening and grit removal." },
-    { "front": "What happens in sedimentation?", "back": "Heavy solids settle as sludge; liquid effluent is removed from the top." },
-    { "front": "How is sewage sludge treated?", "back": "Anaerobic digestion: bacteria break it down without oxygen." },
-    { "front": "How is effluent treated?", "back": "Aerobic biological treatment: air is bubbled through so bacteria break down organic matter." },
-    { "front": "Products of anaerobic digestion", "back": "Biogas (mainly methane) and digested solid used as fertiliser." },
-    { "front": "Sludge vs effluent", "back": "Sludge: settled solid. Effluent: liquid above it." },
-    { "front": "Easiest source of potable water", "back": "Ground water, which needs only filtering and sterilising." },
-    { "front": "Why is waste water harder to make potable?", "back": "It needs many more treatment stages and more energy to remove organic matter and microbes." },
-    { "front": "Why is sea water hard to make potable?", "back": "Desalination needs large amounts of energy." }
+    {
+      "front": "Why must waste water be treated?",
+      "back": "To remove organic matter, harmful microbes and harmful chemicals before release into the environment."
+    },
+    {
+      "front": "What must be removed from sewage and agricultural waste water?",
+      "back": "Organic matter and harmful microbes."
+    },
+    {
+      "front": "What extra may be removed from industrial waste water?",
+      "back": "Harmful chemicals."
+    },
+    {
+      "front": "First stage of sewage treatment",
+      "back": "Screening and grit removal."
+    },
+    {
+      "front": "What happens in sedimentation?",
+      "back": "Heavy solids settle as sludge; liquid effluent is removed from the top."
+    },
+    {
+      "front": "How is sewage sludge treated?",
+      "back": "Anaerobic digestion: bacteria break it down without oxygen."
+    },
+    {
+      "front": "How is effluent treated?",
+      "back": "Aerobic biological treatment: air is bubbled through so bacteria break down organic matter."
+    },
+    {
+      "front": "Products of anaerobic digestion",
+      "back": "Biogas (mainly methane) and digested solid used as fertiliser."
+    },
+    {
+      "front": "Sludge vs effluent",
+      "back": "Sludge: settled solid. Effluent: liquid above it."
+    },
+    {
+      "front": "Easiest source of potable water",
+      "back": "Ground water, which needs only filtering and sterilising."
+    },
+    {
+      "front": "Why is waste water harder to make potable?",
+      "back": "It needs many more treatment stages and more energy to remove organic matter and microbes."
+    },
+    {
+      "front": "Why is sea water hard to make potable?",
+      "back": "Desalination needs large amounts of energy."
+    }
   ],
   "questions": [
     {
-      "id": "c10-waste-water-treatment-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-waste-water-treatment-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "What is the first stage of sewage treatment?",
-      "options": ["Sedimentation", "Screening and grit removal", "Anaerobic digestion", "Aerobic biological treatment"],
+      "options": [
+        "Sedimentation",
+        "Screening and grit removal",
+        "Anaerobic digestion",
+        "Aerobic biological treatment"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: Screening and grit removal"],
+      "markScheme": [
+        "1 mark: Screening and grit removal"
+      ],
       "explanation": "Large objects and grit must be removed first so that they do not block or damage equipment."
     },
     {
-      "id": "c10-waste-water-treatment-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "In a sedimentation tank, what is the solid that settles at the bottom called?",
-      "options": ["Effluent", "Grit", "Sewage sludge", "Biogas"],
+      "id": "c10-waste-water-treatment-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Figure 1 shows a sedimentation tank used in sewage treatment.\nWhat is the solid labelled B called?",
+      "figure": {
+        "svg": "<svg viewBox=\"-50 0 450 230\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M60 40V140L200 190L340 140V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M61 60H339V140L200 189L61 140Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M90 151L200 189L310 151Q200 135 90 151Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M-40 75L58 75\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M58 75L50.6 78.1L50.6 71.9Z\" fill=\"currentColor\"/><text x=\"-44\" y=\"66\" font-size=\"12\" fill=\"currentColor\">Sewage in</text><path d=\"M340 60H380\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M340 60L390 60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M390 60L382.6 63.1L382.6 56.9Z\" fill=\"currentColor\"/><text x=\"200\" y=\"100\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"200\" y=\"170\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><path d=\"M200 189V215\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200 205L200 222\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200 222L196.9 214.6L203.1 214.6Z\" fill=\"currentColor\"/></svg>"
+      },
+      "options": [
+        "Effluent",
+        "Grit",
+        "Sewage sludge",
+        "Biogas"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: Sewage sludge"],
+      "markScheme": [
+        "1 mark: Sewage sludge"
+      ],
       "explanation": "Sludge is the settled solid; effluent is the liquid on top. Grit is removed earlier."
     },
     {
-      "id": "c10-waste-water-treatment-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-waste-water-treatment-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which two things must be removed from sewage before it is released?",
-      "options": ["Organic matter and harmful microbes", "Dissolved salts and oxygen", "Chlorine and ozone", "Sand and gravel only"],
+      "options": [
+        "Organic matter and harmful microbes",
+        "Dissolved salts and oxygen",
+        "Chlorine and ozone",
+        "Sand and gravel only"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: organic matter and harmful microbes"],
+      "markScheme": [
+        "1 mark: organic matter and harmful microbes"
+      ],
       "explanation": "The specification states sewage and agricultural waste water require removal of organic matter and harmful microbes."
     },
     {
-      "id": "c10-waste-water-treatment-q04", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "How is the effluent from sedimentation treated?",
-      "options": ["Anaerobic digestion", "Distillation", "Reverse osmosis", "Aerobic biological treatment"],
+      "id": "c10-waste-water-treatment-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Figure 1 shows the stages in the treatment of sewage.\nHow is the effluent treated in stage X?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 605 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"90\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"50\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sewage</text><rect x=\"115\" y=\"85\" width=\"105\" height=\"54\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"167.5\" y=\"101\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Screening</text><text x=\"167.5\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and grit</text><text x=\"167.5\" y=\"131\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">removal</text><rect x=\"245\" y=\"85\" width=\"100\" height=\"54\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"295\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sedimentation</text><rect x=\"400\" y=\"20\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"440\" y=\"46\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">X</text><rect x=\"505\" y=\"15\" width=\"90\" height=\"54\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"550\" y=\"38.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Released</text><text x=\"550\" y=\"53.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">into river</text><rect x=\"400\" y=\"160\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"440\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Y</text><rect x=\"505\" y=\"155\" width=\"90\" height=\"54\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"550\" y=\"171\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Biogas and</text><text x=\"550\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">digested</text><text x=\"550\" y=\"201\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">solid</text><path d=\"M90 112L115 112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M115 112L107.6 115.1L107.6 108.9Z\" fill=\"currentColor\"/><path d=\"M220 112L245 112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M245 112L237.6 115.1L237.6 108.9Z\" fill=\"currentColor\"/><path d=\"M345 105H370V42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M370 42L400 42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 42L392.6 45.1L392.6 38.9Z\" fill=\"currentColor\"/><path d=\"M345 119H370V182\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M370 182L400 182\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 182L392.6 185.1L392.6 178.9Z\" fill=\"currentColor\"/><path d=\"M480 42L505 42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M505 42L497.6 45.1L497.6 38.9Z\" fill=\"currentColor\"/><path d=\"M480 182L505 182\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M505 182L497.6 185.1L497.6 178.9Z\" fill=\"currentColor\"/><text x=\"376\" y=\"80\" font-size=\"12\" fill=\"currentColor\">Effluent</text><text x=\"376\" y=\"150\" font-size=\"12\" fill=\"currentColor\">Sludge</text></svg>"
+      },
+      "options": [
+        "Anaerobic digestion",
+        "Distillation",
+        "Reverse osmosis",
+        "Aerobic biological treatment"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: Aerobic biological treatment"],
+      "markScheme": [
+        "1 mark: Aerobic biological treatment"
+      ],
       "explanation": "Air is bubbled through the effluent so aerobic bacteria break down organic matter. Anaerobic digestion is for the sludge."
     },
     {
-      "id": "c10-waste-water-treatment-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-waste-water-treatment-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "What does 'anaerobic' mean in anaerobic digestion?",
-      "options": ["Without bacteria", "Without oxygen", "At high temperature", "Using air"],
+      "options": [
+        "Without bacteria",
+        "Without oxygen",
+        "At high temperature",
+        "Using air"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: without oxygen"],
+      "markScheme": [
+        "1 mark: without oxygen"
+      ],
       "explanation": "Anaerobic bacteria break down sludge in sealed digesters with no oxygen, producing methane."
     },
     {
-      "id": "c10-waste-water-treatment-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-waste-water-treatment-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which type of waste water is most likely to contain harmful chemicals such as toxic metal compounds?",
-      "options": ["Sewage from homes", "Rainwater from roofs", "Industrial waste water", "Water from a reservoir"],
+      "options": [
+        "Sewage from homes",
+        "Rainwater from roofs",
+        "Industrial waste water",
+        "Water from a reservoir"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: industrial waste water"],
+      "markScheme": [
+        "1 mark: industrial waste water"
+      ],
       "explanation": "Industrial processes can release harmful chemicals, which must be removed as well as organic matter."
     },
     {
-      "id": "c10-waste-water-treatment-q07", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-waste-water-treatment-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which source usually needs the fewest treatment stages to produce potable water?",
-      "options": ["Ground water", "Sea water", "Sewage", "Industrial waste water"],
+      "options": [
+        "Ground water",
+        "Sea water",
+        "Sewage",
+        "Industrial waste water"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: Ground water"],
+      "markScheme": [
+        "1 mark: Ground water"
+      ],
       "explanation": "Ground water is fresh water naturally filtered through rock, so it mainly needs filtering and sterilising."
     },
     {
-      "id": "c10-waste-water-treatment-q08", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-waste-water-treatment-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Why is air bubbled through the effluent during aerobic biological treatment?",
-      "options": ["To push solid sludge to the bottom of the tank", "To provide oxygen for bacteria that break down organic matter", "To remove dissolved salts as a gas", "To sterilise the water with nitrogen"],
+      "options": [
+        "To push solid sludge to the bottom of the tank",
+        "To provide oxygen for bacteria that break down organic matter",
+        "To remove dissolved salts as a gas",
+        "To sterilise the water with nitrogen"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: provides oxygen for (aerobic) bacteria to break down organic matter"],
+      "markScheme": [
+        "1 mark: provides oxygen for (aerobic) bacteria to break down organic matter"
+      ],
       "explanation": "Aerobic bacteria need oxygen to respire as they break down organic matter and harmful microbes."
     },
     {
-      "id": "c10-waste-water-treatment-q09", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-waste-water-treatment-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "A water company says anaerobic digestion makes sewage treatment more sustainable. Which reason supports this?",
-      "options": ["It removes all the microbes from the effluent", "It produces methane that can be used as a fuel, and a solid that can be used as fertiliser", "It turns sludge into potable water", "It uses no bacteria"],
+      "options": [
+        "It removes all the microbes from the effluent",
+        "It produces methane that can be used as a fuel, and a solid that can be used as fertiliser",
+        "It turns sludge into potable water",
+        "It uses no bacteria"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: methane fuel and fertiliser are produced"],
+      "markScheme": [
+        "1 mark: methane fuel and fertiliser are produced"
+      ],
       "explanation": "Useful products are recovered from waste, reducing the need for other fuels and fertilisers."
     },
     {
-      "id": "c10-waste-water-treatment-q10", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-waste-water-treatment-q10",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Why are rags and plastics removed by screening at the start of sewage treatment?",
-      "options": ["They would block pipes and damage machinery", "They are needed for anaerobic digestion", "They make the water acidic", "They contain microbes that clean the water"],
+      "options": [
+        "They would block pipes and damage machinery",
+        "They are needed for anaerobic digestion",
+        "They make the water acidic",
+        "They contain microbes that clean the water"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: they would block pipes / damage equipment"],
+      "markScheme": [
+        "1 mark: they would block pipes / damage equipment"
+      ],
       "explanation": "Large objects are not broken down by bacteria and would cause blockages."
     },
     {
-      "id": "c10-waste-water-treatment-q11", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Sewage entering a treatment works contains 300 mg/dm³ of suspended solids. After sedimentation it contains 105 mg/dm³. Calculate the percentage of suspended solids removed by sedimentation.",
-      "numericAnswer": 65, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: (300 − 105) ÷ 300 × 100", "1 mark: 65%"],
-      "explanation": "Removed = 195 mg/dm³. 195 ÷ 300 × 100 = 65%."
+      "id": "c10-waste-water-treatment-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Table 1 shows the concentration of suspended solids in sewage before and after sedimentation.\nCalculate the percentage of suspended solids removed by sedimentation.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Concentration of suspended solids in mg/dm³"
+        ],
+        "rows": [
+          [
+            "Before sedimentation",
+            "300"
+          ],
+          [
+            "After sedimentation",
+            "105"
+          ]
+        ]
+      },
+      "numericAnswer": 65,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (300 − 105) ÷ 300 × 100",
+        "1 mark: 65%"
+      ],
+      "explanation": "Removed = 195 mg/dm³. 195 ÷ 300 × 100 = 65%.",
+      "answerLabel": "Percentage removed"
     },
     {
-      "id": "c10-waste-water-treatment-q12", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "A town of 40 000 people produces 150 dm³ of waste water per person per day. Calculate the total volume of waste water produced per day in dm³.",
-      "numericAnswer": 6000000, "tolerance": 0.01, "unit": "dm³",
-      "markScheme": ["1 mark: 40 000 × 150 = 6 000 000 dm³ (6.0 × 10⁶ dm³)"],
-      "explanation": "Total = number of people × volume per person = 6.0 × 10⁶ dm³ per day."
+      "id": "c10-waste-water-treatment-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Table 1 shows information about the waste water produced by a town.\nCalculate the total volume of waste water produced by the town per day.\nGive your answer in dm³.",
+      "table": {
+        "headers": [
+          "Number of people",
+          "Volume of waste water per person per day in dm³"
+        ],
+        "rows": [
+          [
+            "40 000",
+            "150"
+          ]
+        ]
+      },
+      "numericAnswer": 6000000,
+      "tolerance": 0.01,
+      "unit": "dm³",
+      "markScheme": [
+        "1 mark: 40 000 × 150 = 6 000 000 dm³ (6.0 × 10⁶ dm³)"
+      ],
+      "explanation": "Total = number of people × volume per person = 6.0 × 10⁶ dm³ per day.",
+      "answerLabel": "Total volume"
     },
     {
-      "id": "c10-waste-water-treatment-q13", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A sewage works produces 2400 m³ of biogas per day. The biogas is 60% methane by volume. Burning 1 m³ of methane releases 36 MJ of energy. Calculate the energy available per day from the methane in MJ.",
-      "numericAnswer": 51840, "tolerance": 0.01, "unit": "MJ",
-      "markScheme": ["1 mark: volume of methane = 0.60 × 2400 = 1440 m³", "1 mark: 1440 × 36", "1 mark: 51 840 MJ"],
-      "explanation": "Find the methane volume first, then multiply by energy per m³: 1440 × 36 = 51 840 MJ."
+      "id": "c10-waste-water-treatment-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A sewage works produces biogas by anaerobic digestion.\nTable 1 shows information about the biogas.\nCalculate the energy available per day from the methane in the biogas.\nGive your answer in MJ.",
+      "table": {
+        "headers": [
+          "Information",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Volume of biogas produced per day in m³",
+            "2400"
+          ],
+          [
+            "Percentage of methane in the biogas by volume",
+            "60"
+          ],
+          [
+            "Energy released by burning 1 m³ of methane in MJ",
+            "36"
+          ]
+        ]
+      },
+      "numericAnswer": 51840,
+      "tolerance": 0.01,
+      "unit": "MJ",
+      "markScheme": [
+        "1 mark: volume of methane = 0.60 × 2400 = 1440 m³",
+        "1 mark: 1440 × 36",
+        "1 mark: 51 840 MJ"
+      ],
+      "explanation": "Find the methane volume first, then multiply by energy per m³: 1440 × 36 = 51 840 MJ.",
+      "answerLabel": "Energy available per day"
     },
     {
-      "id": "c10-waste-water-treatment-q14", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "A sedimentation tank receives 5000 m³ of sewage. 4% of the volume settles as sludge. Calculate the volume of effluent removed from the top of the tank.",
-      "numericAnswer": 4800, "tolerance": 0.01, "unit": "m³",
-      "markScheme": ["1 mark: sludge = 0.04 × 5000 = 200 m³", "1 mark: effluent = 5000 − 200 = 4800 m³"],
-      "explanation": "Effluent is the remaining 96%: 0.96 × 5000 = 4800 m³."
+      "id": "c10-waste-water-treatment-q14",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "A sedimentation tank receives 5000 m³ of sewage.\n4% of the volume settles as sludge.\nCalculate the volume of effluent removed from the top of the tank.",
+      "numericAnswer": 4800,
+      "tolerance": 0.01,
+      "unit": "m³",
+      "markScheme": [
+        "1 mark: sludge = 0.04 × 5000 = 200 m³",
+        "1 mark: effluent = 5000 − 200 = 4800 m³"
+      ],
+      "explanation": "Effluent is the remaining 96%: 0.96 × 5000 = 4800 m³.",
+      "answerLabel": "Volume of effluent"
     },
     {
-      "id": "c10-waste-water-treatment-q15", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-waste-water-treatment-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Give two sources of waste water that must be treated before release into the environment.",
-      "acceptedAnswers": ["homes", "sewage", "agriculture", "farms", "industry", "industrial processes", "urban lifestyles"],
-      "markScheme": ["1 mark each for any two: sewage from homes / agriculture / industry"],
+      "acceptedAnswers": [
+        "homes",
+        "sewage",
+        "agriculture",
+        "farms",
+        "industry",
+        "industrial processes",
+        "urban lifestyles"
+      ],
+      "markScheme": [
+        "1 mark each for any two: sewage from homes / agriculture / industry"
+      ],
       "explanation": "Urban lifestyles, farming and industry all produce large volumes of waste water."
     },
     {
-      "id": "c10-waste-water-treatment-q16", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-waste-water-treatment-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Name the two parts that sewage separates into during sedimentation.",
-      "acceptedAnswers": ["sludge", "effluent"],
-      "markScheme": ["1 mark: sludge (solid at bottom)", "1 mark: effluent (liquid on top)"],
+      "acceptedAnswers": [
+        "sludge",
+        "effluent"
+      ],
+      "markScheme": [
+        "1 mark: sludge (solid at bottom)",
+        "1 mark: effluent (liquid on top)"
+      ],
       "explanation": "Sludge and effluent are then treated by different biological processes."
     },
     {
-      "id": "c10-waste-water-treatment-q17", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-waste-water-treatment-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Name the gas produced in large amounts by anaerobic digestion of sewage sludge.",
-      "acceptedAnswers": ["methane", "biogas", "CH₄"],
-      "markScheme": ["1 mark: methane (biogas)"],
+      "acceptedAnswers": [
+        "methane",
+        "biogas",
+        "CH₄"
+      ],
+      "markScheme": [
+        "1 mark: methane (biogas)"
+      ],
       "explanation": "Biogas is mainly methane, which can be burned as a fuel."
     },
     {
-      "id": "c10-waste-water-treatment-q18", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Describe what happens to sewage sludge during anaerobic digestion.",
-      "acceptedAnswers": ["bacteria break down organic matter", "without oxygen", "produces methane", "biogas", "fertiliser"],
-      "markScheme": ["1 mark: bacteria break down the organic matter in the absence of oxygen", "1 mark: producing biogas (methane) / a solid that can be used as fertiliser"],
+      "id": "c10-waste-water-treatment-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Figure 1 shows the stages in the treatment of sewage.\nDescribe what happens to the sewage sludge in stage Y.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 605 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"90\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"50\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sewage</text><rect x=\"115\" y=\"85\" width=\"105\" height=\"54\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"167.5\" y=\"101\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Screening</text><text x=\"167.5\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">and grit</text><text x=\"167.5\" y=\"131\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">removal</text><rect x=\"245\" y=\"85\" width=\"100\" height=\"54\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"295\" y=\"116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sedimentation</text><rect x=\"400\" y=\"20\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"440\" y=\"46\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">X</text><rect x=\"505\" y=\"15\" width=\"90\" height=\"54\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"550\" y=\"38.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Released</text><text x=\"550\" y=\"53.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">into river</text><rect x=\"400\" y=\"160\" width=\"80\" height=\"44\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"440\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Y</text><rect x=\"505\" y=\"155\" width=\"90\" height=\"54\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"550\" y=\"171\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Biogas and</text><text x=\"550\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">digested</text><text x=\"550\" y=\"201\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">solid</text><path d=\"M90 112L115 112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M115 112L107.6 115.1L107.6 108.9Z\" fill=\"currentColor\"/><path d=\"M220 112L245 112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M245 112L237.6 115.1L237.6 108.9Z\" fill=\"currentColor\"/><path d=\"M345 105H370V42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M370 42L400 42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 42L392.6 45.1L392.6 38.9Z\" fill=\"currentColor\"/><path d=\"M345 119H370V182\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M370 182L400 182\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 182L392.6 185.1L392.6 178.9Z\" fill=\"currentColor\"/><path d=\"M480 42L505 42\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M505 42L497.6 45.1L497.6 38.9Z\" fill=\"currentColor\"/><path d=\"M480 182L505 182\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M505 182L497.6 185.1L497.6 178.9Z\" fill=\"currentColor\"/><text x=\"376\" y=\"80\" font-size=\"12\" fill=\"currentColor\">Effluent</text><text x=\"376\" y=\"150\" font-size=\"12\" fill=\"currentColor\">Sludge</text></svg>"
+      },
+      "acceptedAnswers": [
+        "bacteria break down organic matter",
+        "without oxygen",
+        "produces methane",
+        "biogas",
+        "fertiliser"
+      ],
+      "markScheme": [
+        "1 mark: bacteria break down the organic matter in the absence of oxygen",
+        "1 mark: producing biogas (methane) / a solid that can be used as fertiliser"
+      ],
       "explanation": "Anaerobic bacteria digest the organic matter in sealed tanks."
     },
     {
-      "id": "c10-waste-water-treatment-q19", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-waste-water-treatment-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain why industrial waste water may need extra treatment compared with sewage from homes.",
-      "acceptedAnswers": ["harmful chemicals", "toxic chemicals", "heavy metals", "toxic metal compounds"],
-      "markScheme": ["1 mark: industrial waste water may contain harmful chemicals (for example toxic metal compounds)", "1 mark: these are not removed by biological treatment and must be removed before release"],
+      "acceptedAnswers": [
+        "harmful chemicals",
+        "toxic chemicals",
+        "heavy metals",
+        "toxic metal compounds"
+      ],
+      "markScheme": [
+        "1 mark: industrial waste water may contain harmful chemicals (for example toxic metal compounds)",
+        "1 mark: these are not removed by biological treatment and must be removed before release"
+      ],
       "explanation": "Bacteria break down organic matter, but toxic chemicals need other methods to remove them."
     },
     {
-      "id": "c10-waste-water-treatment-q20", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-waste-water-treatment-q20",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain why waste water must be treated before it is released into rivers.",
-      "acceptedAnswers": ["harmful microbes", "spread disease", "organic matter", "harm aquatic life", "pollution", "use up oxygen"],
-      "markScheme": ["1 mark: it contains harmful microbes that could spread disease", "1 mark: organic matter / harmful chemicals would pollute the river and harm living organisms"],
+      "acceptedAnswers": [
+        "harmful microbes",
+        "spread disease",
+        "organic matter",
+        "harm aquatic life",
+        "pollution",
+        "use up oxygen"
+      ],
+      "markScheme": [
+        "1 mark: it contains harmful microbes that could spread disease",
+        "1 mark: organic matter / harmful chemicals would pollute the river and harm living organisms"
+      ],
       "explanation": "Untreated sewage spreads disease and organic matter is broken down by microbes that use up oxygen in the river, harming fish."
     },
     {
-      "id": "c10-waste-water-treatment-q21", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "id": "c10-waste-water-treatment-q21",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
       "question": "Suggest why treating waste water to make potable water is less common than treating ground water, even though waste water is available in large amounts.",
-      "acceptedAnswers": ["more stages", "more energy", "more expensive", "public acceptance", "people unwilling", "harmful microbes", "chemicals"],
-      "markScheme": ["1 mark: waste water needs many more treatment stages (to remove organic matter, microbes and chemicals)", "1 mark: so it uses more energy and costs more", "1 mark: many people are unwilling to drink water made from sewage"],
+      "acceptedAnswers": [
+        "more stages",
+        "more energy",
+        "more expensive",
+        "public acceptance",
+        "people unwilling",
+        "harmful microbes",
+        "chemicals"
+      ],
+      "markScheme": [
+        "1 mark: waste water needs many more treatment stages (to remove organic matter, microbes and chemicals)",
+        "1 mark: so it uses more energy and costs more",
+        "1 mark: many people are unwilling to drink water made from sewage"
+      ],
       "explanation": "Ground water is already fairly clean, so it is cheaper and more acceptable to use."
     },
     {
-      "id": "c10-waste-water-treatment-q22", "type": "short", "tier": "both", "difficulty": 3, "marks": 2,
+      "id": "c10-waste-water-treatment-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
       "question": "A student says sedimentation makes the effluent safe to drink. Explain why the student is wrong.",
-      "acceptedAnswers": ["still contains microbes", "organic matter remains", "needs biological treatment", "needs sterilising", "dissolved substances remain"],
-      "markScheme": ["1 mark: effluent still contains dissolved organic matter and harmful microbes", "1 mark: it needs aerobic biological treatment (and further purification and sterilising) before it could be safe"],
+      "acceptedAnswers": [
+        "still contains microbes",
+        "organic matter remains",
+        "needs biological treatment",
+        "needs sterilising",
+        "dissolved substances remain"
+      ],
+      "markScheme": [
+        "1 mark: effluent still contains dissolved organic matter and harmful microbes",
+        "1 mark: it needs aerobic biological treatment (and further purification and sterilising) before it could be safe"
+      ],
       "explanation": "Sedimentation only lets heavy solids settle; it does not remove dissolved or tiny suspended material or kill microbes."
     },
     {
-      "id": "c10-waste-water-treatment-q23", "type": "extended", "tier": "both", "difficulty": 2, "marks": 6,
+      "id": "c10-waste-water-treatment-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 6,
       "question": "Describe how sewage is treated so that the water can be safely released into a river.\nInclude the names of the stages and what happens at each stage.",
       "markScheme": [
         "Indicative content: screening removes large objects such as rags and plastics; grit removal lets sand and stones settle; sedimentation in settlement tanks; heavy solids sink as sewage sludge; liquid effluent removed from the top; sludge undergoes anaerobic digestion by bacteria without oxygen; biogas (methane) produced and used as fuel; digested sludge used as fertiliser; effluent undergoes aerobic biological treatment; air bubbled through so bacteria break down organic matter and harmful microbes; treated water released.",
@@ -295,7 +680,11 @@
       "explanation": "The key is the split after sedimentation: sludge goes to anaerobic digestion, effluent to aerobic treatment."
     },
     {
-      "id": "c10-waste-water-treatment-q24", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 4,
+      "id": "c10-waste-water-treatment-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 4,
       "question": "A town in a dry, coastal region needs more drinking water. It could use ground water, treated waste water or desalinated sea water.\nCompare the ease of obtaining potable water from these three sources.",
       "markScheme": [
         "Indicative content: ground water is naturally filtered so only needs filtering and sterilising, lowest energy and cost, but supply may be limited in a dry region; waste water needs screening, sedimentation, biological treatment, then further purification and sterilising, more energy and possible public objections; sea water is plentiful on the coast but desalination by distillation or reverse osmosis needs large amounts of energy and is expensive.",
@@ -305,25 +694,63 @@
       "explanation": "Comparisons should rank the sources and give reasons linked to treatment steps and energy."
     },
     {
-      "id": "c10-waste-water-treatment-q25", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "What is the liquid removed from the top of a sedimentation tank called?",
-      "options": ["Sludge", "Biogas", "Brine", "Effluent"],
+      "id": "c10-waste-water-treatment-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Figure 1 shows a sedimentation tank used in sewage treatment.\nWhat is the liquid labelled A called?",
+      "figure": {
+        "svg": "<svg viewBox=\"-50 0 450 230\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M60 40V140L200 190L340 140V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M61 60H339V140L200 189L61 140Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M90 151L200 189L310 151Q200 135 90 151Z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M-40 75L58 75\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M58 75L50.6 78.1L50.6 71.9Z\" fill=\"currentColor\"/><text x=\"-44\" y=\"66\" font-size=\"12\" fill=\"currentColor\">Sewage in</text><path d=\"M340 60H380\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M340 60L390 60\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M390 60L382.6 63.1L382.6 56.9Z\" fill=\"currentColor\"/><text x=\"200\" y=\"100\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"200\" y=\"170\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><path d=\"M200 189V215\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200 205L200 222\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M200 222L196.9 214.6L203.1 214.6Z\" fill=\"currentColor\"/></svg>"
+      },
+      "options": [
+        "Sludge",
+        "Biogas",
+        "Brine",
+        "Effluent"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: Effluent"],
+      "markScheme": [
+        "1 mark: Effluent"
+      ],
       "explanation": "Effluent is the liquid; sludge is the settled solid."
     },
     {
-      "id": "c10-waste-water-treatment-q26", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-waste-water-treatment-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State what is used to break down organic matter in both the sludge and the effluent.",
-      "acceptedAnswers": ["bacteria", "microorganisms", "microbes"],
-      "markScheme": ["1 mark: bacteria (microorganisms)"],
+      "acceptedAnswers": [
+        "bacteria",
+        "microorganisms",
+        "microbes"
+      ],
+      "markScheme": [
+        "1 mark: bacteria (microorganisms)"
+      ],
       "explanation": "Useful bacteria break down organic matter: anaerobic bacteria in sludge, aerobic bacteria in effluent."
     },
     {
-      "id": "c10-waste-water-treatment-q27", "type": "short", "tier": "both", "difficulty": 3, "marks": 2,
+      "id": "c10-waste-water-treatment-q27",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
       "question": "Suggest why the solid left after anaerobic digestion is useful as a fertiliser on farmland.",
-      "acceptedAnswers": ["contains nutrients", "nitrogen", "phosphorus", "minerals", "plant growth", "organic matter improves soil"],
-      "markScheme": ["1 mark: it contains nutrients (for example nitrogen and phosphorus compounds)", "1 mark: which plants need for growth / so less manufactured fertiliser is needed"],
+      "acceptedAnswers": [
+        "contains nutrients",
+        "nitrogen",
+        "phosphorus",
+        "minerals",
+        "plant growth",
+        "organic matter improves soil"
+      ],
+      "markScheme": [
+        "1 mark: it contains nutrients (for example nitrogen and phosphorus compounds)",
+        "1 mark: which plants need for growth / so less manufactured fertiliser is needed"
+      ],
       "explanation": "Human waste is rich in nitrogen and phosphorus compounds, which remain in the digested sludge."
     }
   ]

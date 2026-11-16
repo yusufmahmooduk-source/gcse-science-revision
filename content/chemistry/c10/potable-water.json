@@ -263,7 +263,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "What is the purpose of passing water through filter beds?",
+      "question": "Figure 1 shows the main stages in producing potable water from a river in the UK.\nWhat is the purpose of passing water through filter beds?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 514 76\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"104\" height=\"56\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"62\" y=\"34.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Water taken</text><text x=\"62\" y=\"49.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">from river</text><path d=\"M114 38L140 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M140 38L132.6 41.1L132.6 34.9Z\" fill=\"currentColor\"/><rect x=\"140\" y=\"10\" width=\"104\" height=\"56\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"192\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Filter beds</text><path d=\"M244 38L270 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M270 38L262.6 41.1L262.6 34.9Z\" fill=\"currentColor\"/><rect x=\"270\" y=\"10\" width=\"104\" height=\"56\" rx=\"6\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"322\" y=\"42\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sterilising</text><path d=\"M374 38L400 38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M400 38L392.6 41.1L392.6 34.9Z\" fill=\"currentColor\"/><rect x=\"400\" y=\"10\" width=\"104\" height=\"56\" rx=\"6\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"452\" y=\"34.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Potable</text><text x=\"452\" y=\"49.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">water</text></svg>"
+      },
       "options": [
         "To remove insoluble solids",
         "To remove dissolved salts",
@@ -396,14 +399,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "An evaporating basin has a mass of 32.40 g. After evaporating a water sample in it, the basin and residue have a mass of 32.58 g. Calculate the mass of dissolved solids.",
+      "question": "A student evaporated a water sample in an evaporating basin.\nTable 1 shows the student's results.\nCalculate the mass of dissolved solids in the water sample.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Mass in g"
+        ],
+        "rows": [
+          [
+            "Empty evaporating basin",
+            "32.40"
+          ],
+          [
+            "Evaporating basin and residue",
+            "32.58"
+          ]
+        ]
+      },
       "numericAnswer": 0.18,
       "tolerance": 0.01,
       "unit": "g",
       "markScheme": [
         "1 mark: 32.58 − 32.40 = 0.18 g"
       ],
-      "explanation": "Mass of dissolved solids = mass of basin + residue − mass of empty basin = 0.18 g."
+      "explanation": "Mass of dissolved solids = mass of basin + residue − mass of empty basin = 0.18 g.",
+      "answerLabel": "Mass of dissolved solids"
     },
     {
       "id": "c10-potable-water-q11",
@@ -411,7 +431,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "25.0 cm³ of sea water is evaporated to dryness. 0.875 g of solid remains. Calculate the concentration of dissolved solids in g/dm³.",
+      "question": "A student evaporated a sample of sea water to dryness.\nTable 1 shows the student's results.\nCalculate the concentration of dissolved solids in g/dm³.",
+      "table": {
+        "headers": [
+          "Volume of sea water in cm³",
+          "Mass of solid remaining in g"
+        ],
+        "rows": [
+          [
+            "25.0",
+            "0.875"
+          ]
+        ]
+      },
       "numericAnswer": 35,
       "tolerance": 0.01,
       "unit": "g/dm³",
@@ -419,7 +451,8 @@
         "1 mark: 25.0 cm³ = 0.0250 dm³",
         "1 mark: 0.875 ÷ 0.0250 = 35 g/dm³"
       ],
-      "explanation": "Convert cm³ to dm³ by dividing by 1000, then divide mass by volume."
+      "explanation": "Convert cm³ to dm³ by dividing by 1000, then divide mass by volume.",
+      "answerLabel": "Concentration"
     },
     {
       "id": "c10-potable-water-q12",
@@ -427,7 +460,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Tap water contains 0.40 g/dm³ of dissolved solids. Calculate the mass of solids left when 150 cm³ of tap water is evaporated.",
+      "question": "Tap water contains 0.40 g/dm³ of dissolved solids.\nCalculate the mass of solids left when 150 cm³ of tap water is evaporated to dryness.",
       "numericAnswer": 0.06,
       "tolerance": 0.01,
       "unit": "g",
@@ -435,7 +468,8 @@
         "1 mark: 150 cm³ = 0.150 dm³",
         "1 mark: 0.40 × 0.150 = 0.06 g"
       ],
-      "explanation": "Mass = concentration × volume (in dm³) = 0.40 × 0.150 = 0.060 g."
+      "explanation": "Mass = concentration × volume (in dm³) = 0.40 × 0.150 = 0.060 g.",
+      "answerLabel": "Mass of solids"
     },
     {
       "id": "c10-potable-water-q13",
@@ -443,7 +477,27 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A student evaporates three 50.0 cm³ portions of a well-water sample. The masses of dissolved solids are 0.031 g, 0.029 g and 0.036 g. Calculate the mean concentration of dissolved solids in g/dm³.",
+      "question": "A student evaporated three 50.0 cm³ portions of a well-water sample.\nTable 1 shows the results.\nCalculate the mean concentration of dissolved solids in g/dm³.",
+      "table": {
+        "headers": [
+          "Portion",
+          "Mass of dissolved solids in g"
+        ],
+        "rows": [
+          [
+            "1",
+            "0.031"
+          ],
+          [
+            "2",
+            "0.029"
+          ],
+          [
+            "3",
+            "0.036"
+          ]
+        ]
+      },
       "numericAnswer": 0.64,
       "tolerance": 0.01,
       "unit": "g/dm³",
@@ -452,7 +506,8 @@
         "1 mark: 50.0 cm³ = 0.0500 dm³",
         "1 mark: 0.032 ÷ 0.0500 = 0.64 g/dm³"
       ],
-      "explanation": "Find the mean mass first, then divide by the volume in dm³."
+      "explanation": "Find the mean mass first, then divide by the volume in dm³.",
+      "answerLabel": "Mean concentration"
     },
     {
       "id": "c10-potable-water-q14",
@@ -460,7 +515,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A desalination plant produces 5.0 × 10⁴ m³ of potable water per day. It uses 3.5 kWh of energy per m³ of water. Calculate the energy used per day in kWh.",
+      "question": "A desalination plant produces 5.0 × 10⁴ m³ of potable water per day.\nThe plant uses 3.5 kWh of energy per m³ of water.\nCalculate the energy used per day.",
       "numericAnswer": 175000,
       "tolerance": 0.01,
       "unit": "kWh",
@@ -468,7 +523,8 @@
         "1 mark: 5.0 × 10⁴ × 3.5",
         "1 mark: 1.75 × 10⁵ kWh (175 000 kWh)"
       ],
-      "explanation": "Energy = volume × energy per m³ = 50 000 × 3.5 = 175 000 kWh, showing why desalination is so energy intensive."
+      "explanation": "Energy = volume × energy per m³ = 50 000 × 3.5 = 175 000 kWh, showing why desalination is so energy intensive.",
+      "answerLabel": "Energy used per day"
     },
     {
       "id": "c10-potable-water-q15",
@@ -615,7 +671,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "When salty water is distilled, the temperature in the flask rises slowly above 100 °C during the experiment, but the thermometer at the condenser opening stays at 100 °C. Explain these observations.",
+      "question": "Figure 1 shows apparatus used to distil salty water.\nDuring the experiment, the temperature of the liquid in the flask rises slowly above 100 °C, but the reading on the thermometer stays at 100 °C.\nExplain these observations.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80 60V102A45 45 0 1 0 104 102V60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M47.3 150H136.7A45 45 0 0 1 47.3 150Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"77\" y=\"52\" width=\"30\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"89\" y=\"18\" width=\"6\" height=\"58\" rx=\"3\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"92\" cy=\"78\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M105.5,70.3L336.3,166.6M102.5,77.7L333.2,173.9\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M155.2,81.3L302.8,142.9L292.8,166.8L145.1,105.2Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M279,161.1v22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M249 183.1L277 183.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M277 183.1L269.6 186.2L269.6 180Z\" fill=\"currentColor\"/><text x=\"245\" y=\"187.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Water in</text><path d=\"M169,87v-22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M169 65L197 65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M197 65L189.6 68.1L189.6 61.9Z\" fill=\"currentColor\"/><text x=\"201\" y=\"69\" font-size=\"12\" fill=\"currentColor\">Water out</text><path d=\"M309.8 165.3V225.3H359.8V165.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"310.8\" y=\"205.3\" width=\"48\" height=\"19\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M84 222q-8 -16 8 -30q16 14 8 30z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"92\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Heat</text><text x=\"102\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Thermometer</text><text x=\"10\" y=\"214\" font-size=\"12\" fill=\"currentColor\">Salty water</text><path d=\"M40 204L66 170\" stroke=\"currentColor\"/><text x=\"254\" y=\"94.1\" font-size=\"12\" fill=\"currentColor\">Condenser</text><path d=\"M229,112.1L252 90.1\" stroke=\"currentColor\"/><text x=\"364.8\" y=\"218.3\" font-size=\"12\" fill=\"currentColor\">Pure water</text></svg>"
+      },
       "acceptedAnswers": [
         "salt raises boiling point",
         "solution becomes more concentrated",
@@ -680,7 +739,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the cooling water enters at the bottom of a Liebig condenser and leaves at the top.",
+      "question": "Figure 1 shows apparatus used to distil salty water.\nExplain why the cooling water enters at the bottom of the condenser and leaves at the top.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M80 60V102A45 45 0 1 0 104 102V60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M47.3 150H136.7A45 45 0 0 1 47.3 150Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><rect x=\"77\" y=\"52\" width=\"30\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><rect x=\"89\" y=\"18\" width=\"6\" height=\"58\" rx=\"3\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"92\" cy=\"78\" r=\"4\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><path d=\"M105.5,70.3L336.3,166.6M102.5,77.7L333.2,173.9\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M155.2,81.3L302.8,142.9L292.8,166.8L145.1,105.2Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M279,161.1v22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M249 183.1L277 183.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M277 183.1L269.6 186.2L269.6 180Z\" fill=\"currentColor\"/><text x=\"245\" y=\"187.1\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">Water in</text><path d=\"M169,87v-22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M169 65L197 65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M197 65L189.6 68.1L189.6 61.9Z\" fill=\"currentColor\"/><text x=\"201\" y=\"69\" font-size=\"12\" fill=\"currentColor\">Water out</text><path d=\"M309.8 165.3V225.3H359.8V165.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"310.8\" y=\"205.3\" width=\"48\" height=\"19\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><path d=\"M84 222q-8 -16 8 -30q16 14 8 30z\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><text x=\"92\" y=\"238\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Heat</text><text x=\"102\" y=\"30\" font-size=\"12\" fill=\"currentColor\">Thermometer</text><text x=\"10\" y=\"214\" font-size=\"12\" fill=\"currentColor\">Salty water</text><path d=\"M40 204L66 170\" stroke=\"currentColor\"/><text x=\"254\" y=\"94.1\" font-size=\"12\" fill=\"currentColor\">Condenser</text><path d=\"M229,112.1L252 90.1\" stroke=\"currentColor\"/><text x=\"364.8\" y=\"218.3\" font-size=\"12\" fill=\"currentColor\">Pure water</text></svg>"
+      },
       "acceptedAnswers": [
         "condenser fills completely",
         "more efficient cooling",
@@ -718,7 +780,26 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "A student finds that 50 cm³ of water sample X leaves 0.25 g of residue, and 25 cm³ of sample Y leaves 0.15 g of residue. Which statement is correct?",
+      "question": "A student evaporated two water samples, X and Y.\nTable 1 shows the results.\nWhich statement is correct?",
+      "table": {
+        "headers": [
+          "Sample",
+          "Volume of sample in cm³",
+          "Mass of residue in g"
+        ],
+        "rows": [
+          [
+            "X",
+            "50",
+            "0.25"
+          ],
+          [
+            "Y",
+            "25",
+            "0.15"
+          ]
+        ]
+      },
       "options": [
         "X has the higher concentration of dissolved solids",
         "Both samples have the same concentration",

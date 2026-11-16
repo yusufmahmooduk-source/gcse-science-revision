@@ -28,15 +28,39 @@
       "Recycling has costs too: collection, transport and sorting."
     ],
     "keyTerms": [
-      { "term": "Reduce", "definition": "Use less of a material or product in the first place." },
-      { "term": "Reuse", "definition": "Use a product again for the same or another purpose without reprocessing it, for example refilling a glass bottle." },
-      { "term": "Recycle", "definition": "Reprocess a used material, for example by melting it, so it can be made into a new product." },
-      { "term": "Limited (finite) resource", "definition": "A raw material that will eventually run out, such as a metal ore or crude oil." },
-      { "term": "Quarrying", "definition": "Extracting rock such as limestone or sand from an open pit in the ground." },
-      { "term": "Scrap steel", "definition": "Used steel that can be melted and added to iron from the blast furnace to make new steel." }
+      {
+        "term": "Reduce",
+        "definition": "Use less of a material or product in the first place."
+      },
+      {
+        "term": "Reuse",
+        "definition": "Use a product again for the same or another purpose without reprocessing it, for example refilling a glass bottle."
+      },
+      {
+        "term": "Recycle",
+        "definition": "Reprocess a used material, for example by melting it, so it can be made into a new product."
+      },
+      {
+        "term": "Limited (finite) resource",
+        "definition": "A raw material that will eventually run out, such as a metal ore or crude oil."
+      },
+      {
+        "term": "Quarrying",
+        "definition": "Extracting rock such as limestone or sand from an open pit in the ground."
+      },
+      {
+        "term": "Scrap steel",
+        "definition": "Used steel that can be melted and added to iron from the blast furnace to make new steel."
+      }
     ],
     "equations": [
-      { "name": "Percentage recycled", "formula": "percentage recycled = (mass recycled ÷ total mass) × 100", "symbols": "", "units": "%", "recall": false }
+      {
+        "name": "Percentage recycled",
+        "formula": "percentage recycled = (mass recycled ÷ total mass) × 100",
+        "symbols": "",
+        "units": "%",
+        "recall": false
+      }
     ],
     "workedExamples": [
       {
@@ -75,10 +99,22 @@
       }
     ],
     "misconceptions": [
-      { "wrong": "Students often think recycling and reusing mean the same thing.", "right": "In fact reusing keeps the product in its current form (refilling a bottle); recycling reprocesses the material, for example melting glass to make new products." },
-      { "wrong": "Students often think recycling has no environmental cost.", "right": "In fact collecting, transporting and sorting materials uses energy and money, although recycling usually uses less energy than extracting new material." },
-      { "wrong": "Students often think all scrap metal can be mixed together and melted.", "right": "In fact the amount of separation needed depends on the material and the properties required; impurities can change the properties of the final product." },
-      { "wrong": "Students often think glass and building materials are made from unlimited raw materials.", "right": "In fact metals, glass, building materials, clay ceramics and most plastics come from limited raw materials." }
+      {
+        "wrong": "Students often think recycling and reusing mean the same thing.",
+        "right": "In fact reusing keeps the product in its current form (refilling a bottle); recycling reprocesses the material, for example melting glass to make new products."
+      },
+      {
+        "wrong": "Students often think recycling has no environmental cost.",
+        "right": "In fact collecting, transporting and sorting materials uses energy and money, although recycling usually uses less energy than extracting new material."
+      },
+      {
+        "wrong": "Students often think all scrap metal can be mixed together and melted.",
+        "right": "In fact the amount of separation needed depends on the material and the properties required; impurities can change the properties of the final product."
+      },
+      {
+        "wrong": "Students often think glass and building materials are made from unlimited raw materials.",
+        "right": "In fact metals, glass, building materials, clay ceramics and most plastics come from limited raw materials."
+      }
     ],
     "realWorld": [
       "Recycling an aluminium can saves about 95% of the energy needed to make a new can from bauxite ore.",
@@ -104,185 +140,529 @@
     ]
   },
   "flashcards": [
-    { "front": "Four benefits of reducing, reusing and recycling", "back": "Less use of limited resources, less energy used, less waste, fewer environmental impacts." },
-    { "front": "Five materials made from limited raw materials", "back": "Metals, glass, building materials, clay ceramics and most plastics." },
-    { "front": "Environmental impacts of quarrying and mining", "back": "Habitat destruction, noise, dust, visual scarring, waste rock." },
-    { "front": "How can a glass bottle be reused?", "back": "Collected, washed, sterilised and refilled." },
-    { "front": "How is glass recycled?", "back": "Crushed and melted to make different glass products." },
-    { "front": "How are metals recycled?", "back": "Melted and recast or reformed into different products." },
-    { "front": "What decides how much separation is needed for recycling?", "back": "The material and the properties required of the final product." },
-    { "front": "How does scrap steel reduce iron ore use?", "back": "Some scrap steel is added to iron from the blast furnace, so less iron needs extracting from ore." },
-    { "front": "Reuse vs recycle", "back": "Reuse: use again without reprocessing. Recycle: reprocess the material (e.g. melt) into a new product." },
-    { "front": "Why does recycling save energy?", "back": "Melting existing material needs much less energy than extracting it from ore or raw materials." },
-    { "front": "Costs of recycling", "back": "Collection, transport and sorting use energy, labour and money." },
-    { "front": "Why can't all plastics be easily recycled?", "back": "Different polymers must be separated, which is difficult and costly." }
+    {
+      "front": "Four benefits of reducing, reusing and recycling",
+      "back": "Less use of limited resources, less energy used, less waste, fewer environmental impacts."
+    },
+    {
+      "front": "Five materials made from limited raw materials",
+      "back": "Metals, glass, building materials, clay ceramics and most plastics."
+    },
+    {
+      "front": "Environmental impacts of quarrying and mining",
+      "back": "Habitat destruction, noise, dust, visual scarring, waste rock."
+    },
+    {
+      "front": "How can a glass bottle be reused?",
+      "back": "Collected, washed, sterilised and refilled."
+    },
+    {
+      "front": "How is glass recycled?",
+      "back": "Crushed and melted to make different glass products."
+    },
+    {
+      "front": "How are metals recycled?",
+      "back": "Melted and recast or reformed into different products."
+    },
+    {
+      "front": "What decides how much separation is needed for recycling?",
+      "back": "The material and the properties required of the final product."
+    },
+    {
+      "front": "How does scrap steel reduce iron ore use?",
+      "back": "Some scrap steel is added to iron from the blast furnace, so less iron needs extracting from ore."
+    },
+    {
+      "front": "Reuse vs recycle",
+      "back": "Reuse: use again without reprocessing. Recycle: reprocess the material (e.g. melt) into a new product."
+    },
+    {
+      "front": "Why does recycling save energy?",
+      "back": "Melting existing material needs much less energy than extracting it from ore or raw materials."
+    },
+    {
+      "front": "Costs of recycling",
+      "back": "Collection, transport and sorting use energy, labour and money."
+    },
+    {
+      "front": "Why can't all plastics be easily recycled?",
+      "back": "Different polymers must be separated, which is difficult and costly."
+    }
   ],
   "questions": [
     {
-      "id": "c10-reducing-use-of-resources-q01", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q01",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "Which of these is an example of reusing a product?",
-      "options": ["Crushing and melting a glass bottle", "Washing and refilling a glass bottle", "Melting an aluminium can", "Burning a plastic bag for energy"],
+      "options": [
+        "Crushing and melting a glass bottle",
+        "Washing and refilling a glass bottle",
+        "Melting an aluminium can",
+        "Burning a plastic bag for energy"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: washing and refilling a glass bottle"],
+      "markScheme": [
+        "1 mark: washing and refilling a glass bottle"
+      ],
       "explanation": "Reuse keeps the product in its original form. Crushing and melting is recycling."
     },
     {
-      "id": "c10-reducing-use-of-resources-q02", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q02",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "How are metals recycled?",
-      "options": ["Dissolving them in water", "Grinding them into powder and burying them", "Melting and recasting them into new products", "Burning them in air"],
+      "options": [
+        "Dissolving them in water",
+        "Grinding them into powder and burying them",
+        "Melting and recasting them into new products",
+        "Burning them in air"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: melting and recasting"],
+      "markScheme": [
+        "1 mark: melting and recasting"
+      ],
       "explanation": "Metals can be melted and recast or reformed into different products."
     },
     {
-      "id": "c10-reducing-use-of-resources-q03", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
-      "question": "Which material is NOT produced from limited raw materials?",
-      "options": ["Steel", "Glass", "Clay ceramics", "Wool from sheep"],
+      "id": "c10-reducing-use-of-resources-q03",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
+      "question": "Which material is not produced from limited raw materials?",
+      "options": [
+        "Steel",
+        "Glass",
+        "Clay ceramics",
+        "Wool from sheep"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: wool from sheep"],
+      "markScheme": [
+        "1 mark: wool from sheep"
+      ],
       "explanation": "Wool is renewable. Metals, glass and clay ceramics come from limited raw materials such as ores, sand and clay."
     },
     {
-      "id": "c10-reducing-use-of-resources-q04", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q04",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which is an environmental impact of obtaining raw materials by quarrying?",
-      "options": ["Destruction of habitats and noise", "Increased biodiversity", "Reduced use of fossil fuels", "Less waste rock"],
+      "options": [
+        "Destruction of habitats and noise",
+        "Increased biodiversity",
+        "Reduced use of fossil fuels",
+        "Less waste rock"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: destruction of habitats and noise"],
+      "markScheme": [
+        "1 mark: destruction of habitats and noise"
+      ],
       "explanation": "Quarries remove vegetation and habitats, and blasting and lorries cause noise and dust."
     },
     {
-      "id": "c10-reducing-use-of-resources-q05", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
-      "question": "Why is some scrap steel added to iron from the blast furnace?",
-      "options": ["To make the iron melt at a higher temperature", "To remove carbon from the iron", "To make the steel rust faster", "To reduce the amount of iron that needs to be extracted from iron ore"],
+      "id": "c10-reducing-use-of-resources-q05",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
+      "question": "Figure 1 shows how some steel is made.\nWhy is some scrap steel added to the iron from the blast furnace?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 490 146\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"140\" height=\"46\" rx=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"80\" y=\"29.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Molten iron from</text><text x=\"80\" y=\"44.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">the blast furnace</text><rect x=\"10\" y=\"90\" width=\"140\" height=\"46\" rx=\"6\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"80\" y=\"117\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Scrap steel</text><rect x=\"210\" y=\"46\" width=\"120\" height=\"54\" rx=\"6\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"270\" y=\"77\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Furnace</text><rect x=\"380\" y=\"50\" width=\"100\" height=\"46\" rx=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"430\" y=\"77\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">New steel</text><path d=\"M150 33L208 62\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M208 62L200 61.5L202.8 55.9Z\" fill=\"currentColor\"/><path d=\"M150 113L208 86\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M208 86L202.6 91.9L200 86.3Z\" fill=\"currentColor\"/><path d=\"M330 73L378 73\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M378 73L370.6 76.1L370.6 69.9Z\" fill=\"currentColor\"/></svg>"
+      },
+      "options": [
+        "To make the iron melt at a higher temperature",
+        "To remove carbon from the iron",
+        "To make the steel rust faster",
+        "To reduce the amount of iron that needs to be extracted from iron ore"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: to reduce the amount of iron extracted from ore"],
+      "markScheme": [
+        "1 mark: to reduce the amount of iron extracted from ore"
+      ],
       "explanation": "Recycled scrap steel replaces some newly extracted iron, conserving ore and energy."
     },
     {
-      "id": "c10-reducing-use-of-resources-q06", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q06",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Why does recycling aluminium save energy compared with extracting it from its ore?",
-      "options": ["Melting aluminium uses much less energy than electrolysis of its ore", "Recycled aluminium does not need to be melted", "Recycling aluminium releases energy", "Aluminium ore is renewable"],
+      "options": [
+        "Melting aluminium uses much less energy than electrolysis of its ore",
+        "Recycled aluminium does not need to be melted",
+        "Recycling aluminium releases energy",
+        "Aluminium ore is renewable"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: melting uses much less energy than extraction by electrolysis"],
+      "markScheme": [
+        "1 mark: melting uses much less energy than extraction by electrolysis"
+      ],
       "explanation": "Extracting aluminium needs electrolysis of molten aluminium oxide, which uses huge amounts of electricity; melting scrap uses about 5% of that."
     },
     {
-      "id": "c10-reducing-use-of-resources-q07", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q07",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Why does the amount of sorting needed when recycling metals depend on the final product?",
-      "options": ["All metals melt at the same temperature", "Small amounts of other metals can change the properties of the product", "Sorting is never needed for metals", "Metals cannot be mixed when molten"],
+      "options": [
+        "All metals melt at the same temperature",
+        "Small amounts of other metals can change the properties of the product",
+        "Sorting is never needed for metals",
+        "Metals cannot be mixed when molten"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: other metals (impurities) change the properties of the product"],
+      "markScheme": [
+        "1 mark: other metals (impurities) change the properties of the product"
+      ],
       "explanation": "For high-specification uses (for example aircraft alloys) the composition must be controlled precisely, so careful separation is needed."
     },
     {
-      "id": "c10-reducing-use-of-resources-q08", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q08",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "A council finds that collecting and sorting a material for recycling uses more energy than making it new. What is the best conclusion?",
-      "options": ["Recycling is always the best option", "The material should be made from renewable resources", "Collection is unnecessary", "Recycling this material may not reduce energy use, so other factors such as resource conservation and landfill must be weighed"],
+      "options": [
+        "Recycling is always the best option",
+        "The material should be made from renewable resources",
+        "Collection is unnecessary",
+        "Recycling this material may not reduce energy use, so other factors such as resource conservation and landfill must be weighed"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: weigh energy against other factors such as conserving resources and reducing landfill"],
+      "markScheme": [
+        "1 mark: weigh energy against other factors such as conserving resources and reducing landfill"
+      ],
       "explanation": "Evaluation must balance energy, resource use, waste and cost; recycling is not automatically best for every material."
     },
     {
-      "id": "c10-reducing-use-of-resources-q09", "type": "mcq", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q09",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "What happens to glass bottles that are collected for recycling (not reuse)?",
-      "options": ["They are crushed and melted to make different glass products", "They are washed and refilled", "They are buried in landfill", "They are dissolved in acid"],
+      "options": [
+        "They are crushed and melted to make different glass products",
+        "They are washed and refilled",
+        "They are buried in landfill",
+        "They are dissolved in acid"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: crushed and melted to make different glass products"],
+      "markScheme": [
+        "1 mark: crushed and melted to make different glass products"
+      ],
       "explanation": "Recycling reprocesses the glass. Washing and refilling is reuse."
     },
     {
-      "id": "c10-reducing-use-of-resources-q10", "type": "numeric", "tier": "both", "difficulty": 1, "marks": 2,
-      "question": "A school throws away 800 kg of waste paper a year. It recycles 520 kg of it. Calculate the percentage of waste paper recycled.",
-      "numericAnswer": 65, "tolerance": 0.01, "unit": "%",
-      "markScheme": ["1 mark: (520 ÷ 800) × 100", "1 mark: 65%"],
-      "explanation": "520 ÷ 800 = 0.65, × 100 = 65%."
+      "id": "c10-reducing-use-of-resources-q10",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
+      "question": "Figure 1 shows the mass of waste paper a school throws away in a year and the mass of this paper that it recycles.\nCalculate the percentage of the waste paper that is recycled.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M64 252H400M64 246.7H400M64 241.5H400M64 236.2H400M64 230.9H400M64 225.7H400M64 220.4H400M64 215.1H400M64 209.9H400M64 204.6H400M64 199.3H400M64 194.1H400M64 188.8H400M64 183.5H400M64 178.3H400M64 173H400M64 167.7H400M64 162.5H400M64 157.2H400M64 151.9H400M64 146.7H400M64 141.4H400M64 136.1H400M64 130.9H400M64 125.6H400M64 120.3H400M64 115.1H400M64 109.8H400M64 104.5H400M64 99.3H400M64 94H400M64 88.7H400M64 83.5H400M64 78.2H400M64 72.9H400M64 67.7H400M64 62.4H400M64 57.1H400M64 51.9H400M64 46.6H400M64 41.3H400M64 36.1H400M64 30.8H400M64 25.5H400M64 20.3H400M64 15H400\" stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M64 252H400M64 225.7H400M64 199.3H400M64 173H400M64 146.7H400M64 120.3H400M64 94H400M64 67.7H400M64 41.3H400M64 15H400\" stroke=\"currentColor\" stroke-opacity=\"0.35\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M64 15V252H400\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"58\" y=\"256\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"58\" y=\"229.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">100</text><text x=\"58\" y=\"203.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">200</text><text x=\"58\" y=\"177\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">300</text><text x=\"58\" y=\"150.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">400</text><text x=\"58\" y=\"124.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">500</text><text x=\"58\" y=\"98\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">600</text><text x=\"58\" y=\"71.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">700</text><text x=\"58\" y=\"45.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">800</text><text x=\"58\" y=\"19\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">900</text><text x=\"14\" y=\"133.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 14 133.5)\">Mass of paper in kg</text><rect x=\"110.2\" y=\"41.3\" width=\"75.6\" height=\"210.7\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"148\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Total waste paper</text><rect x=\"278.2\" y=\"115.1\" width=\"75.6\" height=\"136.9\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"316\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Paper recycled</text></svg>"
+      },
+      "numericAnswer": 65,
+      "tolerance": 0.01,
+      "unit": "%",
+      "markScheme": [
+        "1 mark: (520 ÷ 800) × 100",
+        "1 mark: 65%"
+      ],
+      "explanation": "From Figure 1: total = 800 kg and recycled = 520 kg. 520 ÷ 800 = 0.65, × 100 = 65%.",
+      "answerLabel": "Percentage recycled"
     },
     {
-      "id": "c10-reducing-use-of-resources-q11", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Making 1 tonne of new glass from raw materials uses 15 GJ of energy. Using recycled glass reduces this by 30%. Calculate the energy needed to make 1 tonne of glass from recycled glass.",
-      "numericAnswer": 10.5, "tolerance": 0.01, "unit": "GJ",
-      "markScheme": ["1 mark: 30% of 15 = 4.5 GJ (or 0.70 × 15)", "1 mark: 15 − 4.5 = 10.5 GJ"],
-      "explanation": "A 30% reduction leaves 70% of the energy: 0.70 × 15 = 10.5 GJ."
+      "id": "c10-reducing-use-of-resources-q11",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Table 1 shows information about making glass.\nCalculate the energy needed to make 1 tonne of glass from recycled glass.",
+      "table": {
+        "headers": [
+          "Energy to make 1 tonne of new glass from raw materials in GJ",
+          "Percentage reduction in energy when recycled glass is used"
+        ],
+        "rows": [
+          [
+            "15",
+            "30"
+          ]
+        ]
+      },
+      "numericAnswer": 10.5,
+      "tolerance": 0.01,
+      "unit": "GJ",
+      "markScheme": [
+        "1 mark: 30% of 15 = 4.5 GJ (or 0.70 × 15)",
+        "1 mark: 15 − 4.5 = 10.5 GJ"
+      ],
+      "explanation": "A 30% reduction leaves 70% of the energy: 0.70 × 15 = 10.5 GJ.",
+      "answerLabel": "Energy needed"
     },
     {
-      "id": "c10-reducing-use-of-resources-q12", "type": "numeric", "tier": "both", "difficulty": 2, "marks": 2,
-      "question": "Extracting 1 kg of aluminium from its ore uses 210 MJ. Recycling 1 kg uses 5% of this energy. Calculate the energy saved by recycling 50 kg of aluminium.",
-      "numericAnswer": 9975, "tolerance": 0.01, "unit": "MJ",
-      "markScheme": ["1 mark: saving per kg = 210 × 0.95 = 199.5 MJ", "1 mark: 199.5 × 50 = 9975 MJ"],
-      "explanation": "Recycling saves 95% of 210 MJ per kg, which is 199.5 MJ, so 50 kg saves 9975 MJ."
+      "id": "c10-reducing-use-of-resources-q12",
+      "type": "numeric",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
+      "question": "Table 1 shows the energy needed to produce 1 kg of aluminium in two ways.\nCalculate the energy saved by recycling 50 kg of aluminium instead of extracting it from its ore.",
+      "table": {
+        "headers": [
+          "Method",
+          "Energy needed to produce 1 kg of aluminium in MJ"
+        ],
+        "rows": [
+          [
+            "Extracting from its ore",
+            "210"
+          ],
+          [
+            "Recycling",
+            "10.5"
+          ]
+        ]
+      },
+      "numericAnswer": 9975,
+      "tolerance": 0.01,
+      "unit": "MJ",
+      "markScheme": [
+        "1 mark: saving per kg = 210 − 10.5 = 199.5 MJ",
+        "1 mark: 199.5 × 50 = 9975 MJ"
+      ],
+      "explanation": "Recycling 1 kg saves 210 − 10.5 = 199.5 MJ (95% of the extraction energy), so 50 kg saves 199.5 × 50 = 9975 MJ.",
+      "answerLabel": "Energy saved"
     },
     {
-      "id": "c10-reducing-use-of-resources-q13", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A copper ore contains 0.8% copper by mass. A recycling centre collects 6 tonnes of scrap copper. Calculate the mass of ore, in tonnes, that would need to be mined to produce the same mass of copper (assume all the copper in the ore is extracted).",
-      "numericAnswer": 750, "tolerance": 0.01, "unit": "tonnes",
-      "markScheme": ["1 mark: 0.8% = 0.008", "1 mark: 6 ÷ 0.008", "1 mark: 750 tonnes"],
-      "explanation": "Recycling 6 tonnes of copper avoids mining 750 tonnes of ore, of which 744 tonnes is waste rock."
+      "id": "c10-reducing-use-of-resources-q13",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "Table 1 shows information about scrap copper collected by a recycling centre and a copper ore.\nCalculate the mass of ore that would need to be mined to produce the same mass of copper.\nAssume all the copper in the ore is extracted.\nGive your answer in tonnes.",
+      "table": {
+        "headers": [
+          "Mass of scrap copper collected in tonnes",
+          "Percentage of copper in the ore by mass"
+        ],
+        "rows": [
+          [
+            "6",
+            "0.8"
+          ]
+        ]
+      },
+      "numericAnswer": 750,
+      "tolerance": 0.01,
+      "unit": "tonnes",
+      "markScheme": [
+        "1 mark: 0.8% = 0.008",
+        "1 mark: 6 ÷ 0.008",
+        "1 mark: 750 tonnes"
+      ],
+      "explanation": "Recycling 6 tonnes of copper avoids mining 750 tonnes of ore, of which 744 tonnes is waste rock.",
+      "answerLabel": "Mass of ore"
     },
     {
-      "id": "c10-reducing-use-of-resources-q14", "type": "numeric", "tier": "higher", "difficulty": 3, "marks": 3,
-      "question": "A glass bottle can be refilled 20 times before it breaks. A town uses 1.2 million bottles of milk a year. Calculate how many new bottles are needed each year if every bottle is reused the maximum number of times. (Each bottle is used once when new, then refilled 20 times.)",
-      "numericAnswer": 57143, "tolerance": 0.01, "unit": "bottles",
-      "markScheme": ["1 mark: each bottle gives 21 uses", "1 mark: 1 200 000 ÷ 21", "1 mark: 57 143 bottles (57 000)"],
-      "explanation": "1 + 20 = 21 uses per bottle. 1 200 000 ÷ 21 = 57 142.9, so about 57 143 new bottles. A common error is dividing by 20."
+      "id": "c10-reducing-use-of-resources-q14",
+      "type": "numeric",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
+      "question": "A glass milk bottle is used once when new and can then be refilled 20 times before it breaks.\nA town uses 1.2 million bottles of milk a year.\nCalculate the number of new bottles needed each year if every bottle is reused the maximum number of times.",
+      "numericAnswer": 57143,
+      "tolerance": 0.01,
+      "unit": "bottles",
+      "markScheme": [
+        "1 mark: each bottle gives 21 uses",
+        "1 mark: 1 200 000 ÷ 21",
+        "1 mark: 57 143 bottles (57 000)"
+      ],
+      "explanation": "1 + 20 = 21 uses per bottle. 1 200 000 ÷ 21 = 57 142.9, so about 57 143 new bottles. A common error is dividing by 20.",
+      "answerLabel": "Number of new bottles"
     },
     {
-      "id": "c10-reducing-use-of-resources-q15", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q15",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Give two benefits of recycling materials.",
-      "acceptedAnswers": ["reduces use of limited resources", "conserves raw materials", "less energy", "less waste", "less landfill", "less mining", "less quarrying", "fewer environmental impacts"],
-      "markScheme": ["1 mark each for any two: reduces use of limited resources / reduces energy use / reduces waste or landfill / reduces environmental impacts of mining or quarrying"],
+      "acceptedAnswers": [
+        "reduces use of limited resources",
+        "conserves raw materials",
+        "less energy",
+        "less waste",
+        "less landfill",
+        "less mining",
+        "less quarrying",
+        "fewer environmental impacts"
+      ],
+      "markScheme": [
+        "1 mark each for any two: reduces use of limited resources / reduces energy use / reduces waste or landfill / reduces environmental impacts of mining or quarrying"
+      ],
       "explanation": "These are the benefits given in the specification."
     },
     {
-      "id": "c10-reducing-use-of-resources-q16", "type": "short", "tier": "both", "difficulty": 1, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q16",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 2,
       "question": "Name two materials, other than metals, that are produced from limited raw materials.",
-      "acceptedAnswers": ["glass", "building materials", "clay ceramics", "ceramics", "bricks", "plastics", "concrete", "cement"],
-      "markScheme": ["1 mark each for any two: glass / building materials / clay ceramics / most plastics"],
+      "acceptedAnswers": [
+        "glass",
+        "building materials",
+        "clay ceramics",
+        "ceramics",
+        "bricks",
+        "plastics",
+        "concrete",
+        "cement"
+      ],
+      "markScheme": [
+        "1 mark each for any two: glass / building materials / clay ceramics / most plastics"
+      ],
       "explanation": "Glass needs sand, ceramics need clay and most plastics come from crude oil."
     },
     {
-      "id": "c10-reducing-use-of-resources-q17", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q17",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain the difference between reusing and recycling a glass bottle.",
-      "acceptedAnswers": ["reuse: washed and refilled", "recycle: crushed and melted", "made into different products"],
-      "markScheme": ["1 mark: reusing: the bottle is washed (sterilised) and refilled in the same form", "1 mark: recycling: the bottle is crushed and melted to make different glass products"],
+      "acceptedAnswers": [
+        "reuse: washed and refilled",
+        "recycle: crushed and melted",
+        "made into different products"
+      ],
+      "markScheme": [
+        "1 mark: reusing: the bottle is washed (sterilised) and refilled in the same form",
+        "1 mark: recycling: the bottle is crushed and melted to make different glass products"
+      ],
       "explanation": "Reuse uses even less energy than recycling because the glass does not need to be melted."
     },
     {
-      "id": "c10-reducing-use-of-resources-q18", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q18",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Explain why using less of a product reduces the use of energy from limited resources.",
-      "acceptedAnswers": ["less needs to be made", "manufacture uses energy", "energy from fossil fuels", "less extraction"],
-      "markScheme": ["1 mark: fewer products or less material need to be extracted and manufactured", "1 mark: extraction and manufacture use energy, much of which comes from fossil fuels (limited resources)"],
+      "acceptedAnswers": [
+        "less needs to be made",
+        "manufacture uses energy",
+        "energy from fossil fuels",
+        "less extraction"
+      ],
+      "markScheme": [
+        "1 mark: fewer products or less material need to be extracted and manufactured",
+        "1 mark: extraction and manufacture use energy, much of which comes from fossil fuels (limited resources)"
+      ],
       "explanation": "Every stage of making a product uses energy, so making less saves energy."
     },
     {
-      "id": "c10-reducing-use-of-resources-q19", "type": "short", "tier": "both", "difficulty": 2, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q19",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 2,
       "question": "Give two disadvantages of recycling.",
-      "acceptedAnswers": ["collection uses energy", "transport", "sorting", "costly", "labour", "separation difficult", "quality may be lower"],
-      "markScheme": ["1 mark each for any two: collection and transport use energy / sorting and separating is difficult or costly / needs labour / recycled material may be lower quality"],
+      "acceptedAnswers": [
+        "collection uses energy",
+        "transport",
+        "sorting",
+        "costly",
+        "labour",
+        "separation difficult",
+        "quality may be lower"
+      ],
+      "markScheme": [
+        "1 mark each for any two: collection and transport use energy / sorting and separating is difficult or costly / needs labour / recycled material may be lower quality"
+      ],
       "explanation": "Recycling has costs that must be weighed against its benefits."
     },
     {
-      "id": "c10-reducing-use-of-resources-q20", "type": "short", "tier": "higher", "difficulty": 3, "marks": 3,
+      "id": "c10-reducing-use-of-resources-q20",
+      "type": "short",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 3,
       "question": "Scrap steel from cars is often mixed with other metals such as copper from wiring. Explain why the amount of separation required depends on the steel product being made.",
-      "acceptedAnswers": ["impurities change properties", "copper makes steel brittle", "high-quality steel needs pure scrap", "construction steel less demanding", "properties required"],
-      "markScheme": ["1 mark: other metals (impurities) change the properties of the steel", "1 mark: products that need specific properties (for example high-strength steel) require careful separation", "1 mark: products with less demanding requirements (for example reinforcing bars) can use less carefully separated scrap"],
+      "acceptedAnswers": [
+        "impurities change properties",
+        "copper makes steel brittle",
+        "high-quality steel needs pure scrap",
+        "construction steel less demanding",
+        "properties required"
+      ],
+      "markScheme": [
+        "1 mark: other metals (impurities) change the properties of the steel",
+        "1 mark: products that need specific properties (for example high-strength steel) require careful separation",
+        "1 mark: products with less demanding requirements (for example reinforcing bars) can use less carefully separated scrap"
+      ],
       "explanation": "The specification states that the amount of separation depends on the material and the properties required of the final product."
     },
     {
-      "id": "c10-reducing-use-of-resources-q21", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q21",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State one environmental impact of mining for metal ores.",
-      "acceptedAnswers": ["destroys habitats", "noise", "dust", "waste rock", "spoil heaps", "scars landscape", "pollution of water"],
-      "markScheme": ["1 mark: any one of: destroys habitats / noise / dust / large amounts of waste rock / scars the landscape / water pollution"],
+      "acceptedAnswers": [
+        "destroys habitats",
+        "noise",
+        "dust",
+        "waste rock",
+        "spoil heaps",
+        "scars landscape",
+        "pollution of water"
+      ],
+      "markScheme": [
+        "1 mark: any one of: destroys habitats / noise / dust / large amounts of waste rock / scars the landscape / water pollution"
+      ],
       "explanation": "Mining disturbs large areas of land and produces waste."
     },
     {
-      "id": "c10-reducing-use-of-resources-q22", "type": "short", "tier": "both", "difficulty": 3, "marks": 2,
+      "id": "c10-reducing-use-of-resources-q22",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 2,
       "question": "Suggest why reusing a glass bottle saves more energy than recycling it.",
-      "acceptedAnswers": ["no melting needed", "only washing", "melting needs high temperature", "less processing"],
-      "markScheme": ["1 mark: reuse only needs washing/sterilising", "1 mark: recycling requires crushing and melting at high temperature, which uses much more energy"],
+      "acceptedAnswers": [
+        "no melting needed",
+        "only washing",
+        "melting needs high temperature",
+        "less processing"
+      ],
+      "markScheme": [
+        "1 mark: reuse only needs washing/sterilising",
+        "1 mark: recycling requires crushing and melting at high temperature, which uses much more energy"
+      ],
       "explanation": "The less the product is reprocessed, the less energy is needed."
     },
     {
-      "id": "c10-reducing-use-of-resources-q23", "type": "extended", "tier": "both", "difficulty": 2, "marks": 4,
+      "id": "c10-reducing-use-of-resources-q23",
+      "type": "extended",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 4,
       "question": "Describe how glass bottles and metal cans can be reused or recycled, and explain how this reduces the use of resources.",
       "markScheme": [
         "Indicative content: glass bottles can be collected, washed and refilled (reuse); glass not reused is crushed and melted to make different glass products; metal cans are melted and recast or reformed into different products; this reduces quarrying of sand and limestone and mining of ores; less energy (from fossil fuels) needed; less waste in landfill; fewer environmental impacts.",
@@ -292,8 +672,36 @@
       "explanation": "Link each method to the specific resources and energy saved."
     },
     {
-      "id": "c10-reducing-use-of-resources-q24", "type": "extended", "tier": "higher", "difficulty": 3, "marks": 6,
-      "question": "A local council is deciding whether to start collecting aluminium cans, glass bottles and plastic food trays for recycling.\nInformation:\nAluminium: recycling saves 95% of extraction energy; cans are easy to separate with magnets and eddy currents.\nGlass: recycling saves about 30% of energy; must be sorted by colour.\nPlastic trays: several different polymers that are hard to separate; recycled plastic is often lower quality.\nEvaluate the benefits and drawbacks of collecting each material, and recommend which the council should prioritise.",
+      "id": "c10-reducing-use-of-resources-q24",
+      "type": "extended",
+      "tier": "higher",
+      "difficulty": 3,
+      "marks": 6,
+      "question": "A local council is deciding whether to start collecting aluminium cans, glass bottles and plastic food trays for recycling.\nTable 1 shows information about the three materials.\nEvaluate the benefits and drawbacks of collecting each material.\nRecommend which material the council should prioritise.",
+      "table": {
+        "headers": [
+          "Material",
+          "Energy saved by recycling",
+          "Other information"
+        ],
+        "rows": [
+          [
+            "Aluminium cans",
+            "95% of extraction energy",
+            "easy to separate from other waste"
+          ],
+          [
+            "Glass bottles",
+            "about 30% of energy",
+            "must be sorted by colour"
+          ],
+          [
+            "Plastic food trays",
+            "varies",
+            "made of several different polymers that are hard to separate; recycled plastic is often lower quality"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content: aluminium: very large energy saving because extraction uses electrolysis; easy separation; conserves bauxite; high priority. Glass: moderate energy saving; reduces quarrying of sand and limestone; sorting by colour adds cost; bottles could be reused instead; glass is heavy so transport uses fuel. Plastic: conserves crude oil and reduces landfill; but separation of polymers is difficult and costly; lower quality product. General: collection and transport use energy, labour and money; reduces waste and environmental impact of mining and quarrying. Recommendation, for example aluminium first, then glass, plastic last unless separation improves.",
         "Level 3 (5 to 6 marks): detailed evaluation of all three materials using the information, considering both benefits and costs, with a justified recommendation.",
@@ -303,26 +711,61 @@
       "explanation": "Use the information given, compare the size of the savings, and weigh them against the difficulty of separation and collection."
     },
     {
-      "id": "c10-reducing-use-of-resources-q25", "type": "mcq", "tier": "both", "difficulty": 2, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q25",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 2,
+      "marks": 1,
       "question": "Which action is an example of 'reduce'?",
-      "options": ["Melting old cans to make new cans", "Using thinner aluminium to make each can", "Refilling a milk bottle", "Sending glass to a bottle bank"],
+      "options": [
+        "Melting old cans to make new cans",
+        "Using thinner aluminium to make each can",
+        "Refilling a milk bottle",
+        "Sending glass to a bottle bank"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: using thinner aluminium to make each can"],
+      "markScheme": [
+        "1 mark: using thinner aluminium to make each can"
+      ],
       "explanation": "Reducing means using less material in the first place. Melting cans is recycling; refilling is reuse."
     },
     {
-      "id": "c10-reducing-use-of-resources-q26", "type": "short", "tier": "both", "difficulty": 1, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q26",
+      "type": "short",
+      "tier": "both",
+      "difficulty": 1,
+      "marks": 1,
       "question": "State where much of the energy used to extract and process materials comes from.",
-      "acceptedAnswers": ["fossil fuels", "limited resources", "coal", "oil", "natural gas", "finite resources"],
-      "markScheme": ["1 mark: fossil fuels / limited (finite) resources"],
+      "acceptedAnswers": [
+        "fossil fuels",
+        "limited resources",
+        "coal",
+        "oil",
+        "natural gas",
+        "finite resources"
+      ],
+      "markScheme": [
+        "1 mark: fossil fuels / limited (finite) resources"
+      ],
       "explanation": "Most industrial energy comes from burning coal, oil and natural gas, which are limited."
     },
     {
-      "id": "c10-reducing-use-of-resources-q27", "type": "mcq", "tier": "both", "difficulty": 3, "marks": 1,
+      "id": "c10-reducing-use-of-resources-q27",
+      "type": "mcq",
+      "tier": "both",
+      "difficulty": 3,
+      "marks": 1,
       "question": "Which statement explains why some products are recycled rather than reused?",
-      "options": ["Recycling always uses less energy than reuse", "Reused products are always unsafe", "Some products cannot be reused in their current form, so the material is recycled for a different use", "Recycling does not require any collection"],
+      "options": [
+        "Recycling always uses less energy than reuse",
+        "Reused products are always unsafe",
+        "Some products cannot be reused in their current form, so the material is recycled for a different use",
+        "Recycling does not require any collection"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: some products cannot be reused so are recycled for a different use"],
+      "markScheme": [
+        "1 mark: some products cannot be reused so are recycled for a different use"
+      ],
       "explanation": "For example, a drinks can cannot be refilled and resealed, so its metal is melted and made into new products."
     }
   ]
