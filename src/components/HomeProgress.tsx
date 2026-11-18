@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useHydrated, useStore } from "@/lib/store";
 
 export default function HomeProgress() {

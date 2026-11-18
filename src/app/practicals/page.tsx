@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { SCIENCES, getSpec, getPracticals } from "@/lib/content";
 import { Badge } from "@/components/ui";
 

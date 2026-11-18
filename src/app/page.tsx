@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { getAvailableSciences, getPracticals } from "@/lib/content";
 import HomeProgress from "@/components/HomeProgress";
 

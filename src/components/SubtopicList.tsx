@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { ScienceId, SpecTopic } from "@/lib/types";
 import { useHydrated, useStore } from "@/lib/store";
 import { Badge } from "./ui";

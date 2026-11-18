@@ -28,7 +28,18 @@ http.createServer((req, res) => {
   file = file || path.join(root, "404.html");
   const ext = path.extname(file);
   const headers = { "Content-Type": types[ext] || "application/octet-stream", "X-Content-Type-Options": "nosniff" };
-  headers["Cache-Control"] = file.includes(`${path.sep}_next${path.sep}static${path.sep}`) ? "public, max-age=31536000, immutable" : "public, max-age=300";
+  // Hashed build files never change; everything else (pages, data) must be re-checked
+  // on every visit so a new deploy can never be mixed with old cached pieces.
+  headers["Cache-Control"] = file.includes(`${path.sep}_next${path.sep}static${path.sep}`) ? "public, max-age=31536000, immutable" : "no-cache";
+  try {
+    const st = fs.statSync(file);
+    const etag = `W/"${st.size.toString(16)}-${Math.floor(st.mtimeMs).toString(16)}"`;
+    headers["ETag"] = etag;
+    if (req.headers["if-none-match"] === etag && status === 200) {
+      res.writeHead(304, headers);
+      return res.end();
+    }
+  } catch {}
   res.writeHead(status, headers);
   if (req.method === "HEAD") return res.end();
   fs.createReadStream(file).on("error", () => res.end()).pipe(res);

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { ReactNode } from "react";
 
 export function Badge({ children, tone = "muted" }: { children: ReactNode; tone?: "muted" | "accent" | "amber" | "rose" }) {

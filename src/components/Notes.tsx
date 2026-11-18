@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { Notes as N, Subtopic } from "@/lib/types";
 import { Badge, Text } from "./ui";
 

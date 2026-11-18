@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { notFound } from "next/navigation";
 import { SCIENCES, getSpec } from "@/lib/content";
 import type { ScienceId } from "@/lib/types";

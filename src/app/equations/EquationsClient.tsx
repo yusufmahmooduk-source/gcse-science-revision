@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useMemo, useState } from "react";
 import { markNumeric, formatNumber } from "@/lib/marking";
 import { Badge, Button } from "@/components/ui";

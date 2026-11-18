@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useRef } from "react";
 import { ALL_SCIENCES, useBanks } from "@/lib/useBank";
 import { exportProgress, importProgress, masteryFor, resetProgress, useHydrated, useStore } from "@/lib/store";
