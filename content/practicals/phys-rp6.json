@@ -64,17 +64,57 @@
     }
   ],
   "results": {
-    "headers": ["Force (N)", "Length of spring (cm)", "Extension (cm)"],
+    "headers": [
+      "Force (N)",
+      "Length of spring (cm)",
+      "Extension (cm)"
+    ],
     "rows": [
-      ["0.0", "5.0", "0.0"],
-      ["1.0", "7.5", "2.5"],
-      ["2.0", "10.0", "5.0"],
-      ["3.0", "12.4", "7.4"],
-      ["4.0", "15.0", "10.0"],
-      ["5.0", "17.6", "12.6"],
-      ["6.0", "20.0", "15.0"],
-      ["7.0", "23.2", "18.2"],
-      ["8.0", "27.5", "22.5"]
+      [
+        "0.0",
+        "5.0",
+        "0.0"
+      ],
+      [
+        "1.0",
+        "7.5",
+        "2.5"
+      ],
+      [
+        "2.0",
+        "10.0",
+        "5.0"
+      ],
+      [
+        "3.0",
+        "12.4",
+        "7.4"
+      ],
+      [
+        "4.0",
+        "15.0",
+        "10.0"
+      ],
+      [
+        "5.0",
+        "17.6",
+        "12.6"
+      ],
+      [
+        "6.0",
+        "20.0",
+        "15.0"
+      ],
+      [
+        "7.0",
+        "23.2",
+        "18.2"
+      ],
+      [
+        "8.0",
+        "27.5",
+        "22.5"
+      ]
     ],
     "notes": "Extension = length − original length (5.0 cm). Plot force (N) on the y-axis against extension (m or cm) on the x-axis. The points up to 6.0 N lie on a straight line through the origin. Gradient of the straight part = 6.0 N ÷ 0.150 m = 40 N/m. Above 6.0 N, the extension increases by more than 2.5 cm for each newton, so the graph curves: the limit of proportionality is at about 6.0 N."
   },
@@ -134,7 +174,9 @@
         "The length of the spring when no force acts on it"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: the increase in length from the original length"],
+      "markScheme": [
+        "1 mark: the increase in length from the original length"
+      ],
       "explanation": "Extension = stretched length − original length. A common mistake is to plot the total length instead, which gives a line that does not pass through the origin."
     },
     {
@@ -143,12 +185,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A spring has an unstretched length of 5.0 cm. When a weight is hung on it, its length is 12.6 cm.\nCalculate the extension of the spring.",
+      "question": "A student measured the length of a spring with and without a weight hung on it.\nTable 1 shows the results.\nCalculate the extension of the spring.",
+      "table": {
+        "headers": [
+          "Spring",
+          "Length in cm"
+        ],
+        "rows": [
+          [
+            "Without weight",
+            "5.0"
+          ],
+          [
+            "With weight",
+            "12.6"
+          ]
+        ]
+      },
       "numericAnswer": 7.6,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: 12.6 − 5.0 = 7.6 cm"],
-      "explanation": "Extension = stretched length − original length = 7.6 cm."
+      "markScheme": [
+        "1 mark: 12.6 − 5.0 = 7.6 cm"
+      ],
+      "explanation": "Extension = stretched length − original length = 7.6 cm.",
+      "answerLabel": "Extension"
     },
     {
       "id": "phys-rp6-q03",
@@ -156,12 +217,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A spring has a spring constant of 40 N/m. It is stretched by 7.5 cm without passing its limit of proportionality.\nCalculate the force applied to the spring.",
+      "question": "A spring has a spring constant of 40 N/m. It is stretched by 7.5 cm without passing its limit of proportionality.\nCalculate the force applied to the spring.\nUse the equation:\nforce = spring constant × extension",
       "numericAnswer": 3,
       "tolerance": 0.01,
       "unit": "N",
-      "markScheme": ["1 mark: e = 7.5 cm = 0.075 m", "1 mark: F = k e = 40 × 0.075 = 3.0 N"],
-      "explanation": "The extension must be in metres. Using 7.5 instead of 0.075 gives 300 N, which is far too large."
+      "markScheme": [
+        "1 mark: e = 7.5 cm = 0.075 m",
+        "1 mark: F = k e = 40 × 0.075 = 3.0 N"
+      ],
+      "explanation": "The extension must be in metres. Using 7.5 instead of 0.075 gives 300 N, which is far too large.",
+      "answerLabel": "Force"
     },
     {
       "id": "phys-rp6-q04",
@@ -169,12 +234,41 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A force of 6.0 N stretches a spring by 15.0 cm. The spring has not passed its limit of proportionality.\nCalculate the spring constant.",
+      "question": "A student hung weights on a spring and measured the extension.\nTable 1 shows the results. The spring did not pass its limit of proportionality.\nCalculate the spring constant of the spring.\nUse the equation:\nforce = spring constant × extension",
+      "table": {
+        "headers": [
+          "Weight in N",
+          "Extension in cm"
+        ],
+        "rows": [
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "2.0",
+            "5.0"
+          ],
+          [
+            "4.0",
+            "10.0"
+          ],
+          [
+            "6.0",
+            "15.0"
+          ]
+        ]
+      },
       "numericAnswer": 40,
       "tolerance": 0.01,
       "unit": "N/m",
-      "markScheme": ["1 mark: e = 0.150 m", "1 mark: k = F ÷ e = 6.0 ÷ 0.150", "1 mark: 40 N/m"],
-      "explanation": "Rearrange F = k e to k = F ÷ e, with extension in metres. Using 15.0 cm gives 0.4, which is the spring constant in N/cm, not N/m."
+      "markScheme": [
+        "1 mark: e = 0.150 m",
+        "1 mark: k = F ÷ e = 6.0 ÷ 0.150",
+        "1 mark: 40 N/m"
+      ],
+      "explanation": "Rearrange F = k e to k = F ÷ e, with extension in metres. Using 15.0 cm gives 0.4, which is the spring constant in N/cm, not N/m.",
+      "answerLabel": "Spring constant"
     },
     {
       "id": "phys-rp6-q05",
@@ -190,7 +284,9 @@
         "The point at which the spring stops stretching"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: the point beyond which extension is no longer proportional to force"],
+      "markScheme": [
+        "1 mark: the point beyond which extension is no longer proportional to force"
+      ],
       "explanation": "Up to the limit of proportionality, F = k e applies and the graph is straight. Beyond it the graph curves, but the spring does not necessarily break or stop stretching."
     },
     {
@@ -199,9 +295,20 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A student measures the length of a stretched spring using a pointer and a vertical metre ruler.\nGive two ways the student can make the readings more accurate.",
-      "acceptedAnswers": ["read at eye level", "pointer touching ruler", "wait for spring to stop moving", "ruler vertical", "set square"],
-      "markScheme": ["1 mark each, up to 2: read at eye level (avoid parallax); use a pointer touching the ruler; wait until the spring stops moving; check the ruler is vertical with a set square; keep the ruler fixed in position"],
+      "question": "Figure 1 shows the apparatus a student used to investigate how the extension of a spring depends on the force applied.\nThe student measures the length of the spring using the pointer and the metre ruler.\nGive two ways the student can make the readings more accurate.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<rect x=\"30\" y=\"236\" width=\"120\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"60\" y1=\"236\" x2=\"60\" y2=\"20\" stroke=\"currentColor\"/><rect x=\"54\" y=\"26\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"33\" x2=\"190\" y2=\"33\" stroke=\"currentColor\"/>\n<path d=\"M180 40L190 46L170 54L190 62L170 70L190 78L170 86L190 94L170 102L190 110L170 118L180 126V140\" fill=\"none\" stroke=\"currentColor\"/>\n<line x1=\"180\" y1=\"140\" x2=\"180\" y2=\"150\" stroke=\"currentColor\"/><path d=\"M168 150h24v8h-24zM168 162h24v8h-24zM168 174h24v8h-24z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"158\" x2=\"180\" y2=\"162\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"170\" x2=\"180\" y2=\"174\" stroke=\"currentColor\"/>\n<line x1=\"180\" y1=\"128\" x2=\"238\" y2=\"128\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"238\" y=\"20\" width=\"22\" height=\"210\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M240 30h12M240 35h6M240 40h6M240 45h6M240 50h6M240 55h12M240 60h6M240 65h6M240 70h6M240 75h6M240 80h12M240 85h6M240 90h6M240 95h6M240 100h6M240 105h12M240 110h6M240 115h6M240 120h6M240 125h6M240 130h12M240 135h6M240 140h6M240 145h6M240 150h6M240 155h12M240 160h6M240 165h6M240 170h6M240 175h6M240 180h12M240 185h6M240 190h6M240 195h6M240 200h6M240 205h12M240 210h6M240 215h6M240 220h6\" stroke=\"currentColor\" stroke-width=\"1\"/>\n<line x1=\"90\" y1=\"33\" x2=\"90\" y2=\"70\" stroke=\"currentColor\"/><text x=\"76\" y=\"86\" font-size=\"12\" fill=\"currentColor\">clamp</text>\n<line x1=\"172\" y1=\"90\" x2=\"120\" y2=\"110\" stroke=\"currentColor\"/><text x=\"80\" y=\"124\" font-size=\"12\" fill=\"currentColor\">spring</text>\n<line x1=\"212\" y1=\"130\" x2=\"212\" y2=\"206\" stroke=\"currentColor\"/><text x=\"204\" y=\"222\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pointer</text>\n<line x1=\"260\" y1=\"60\" x2=\"290\" y2=\"60\" stroke=\"currentColor\"/><text x=\"294\" y=\"64\" font-size=\"12\" fill=\"currentColor\">metre ruler</text>\n<line x1=\"168\" y1=\"178\" x2=\"130\" y2=\"188\" stroke=\"currentColor\"/><text x=\"72\" y=\"202\" font-size=\"12\" fill=\"currentColor\">slotted masses</text>\n<line x1=\"150\" y1=\"242\" x2=\"290\" y2=\"242\" stroke=\"currentColor\"/><text x=\"294\" y=\"246\" font-size=\"12\" fill=\"currentColor\">clamp stand</text>\n</svg>"
+      },
+      "acceptedAnswers": [
+        "read at eye level",
+        "pointer touching ruler",
+        "wait for spring to stop moving",
+        "ruler vertical",
+        "set square"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: read at eye level (avoid parallax); use a pointer touching the ruler; wait until the spring stops moving; check the ruler is vertical with a set square; keep the ruler fixed in position"
+      ],
       "explanation": "Each of these reduces an error in reading the position of the bottom of the spring. A pointer gives a fixed, sharp reference point."
     },
     {
@@ -210,12 +317,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A spring with a spring constant of 40 N/m is stretched by 0.150 m. The limit of proportionality is not exceeded.\nCalculate the elastic potential energy stored in the spring.",
+      "question": "A spring with a spring constant of 40 N/m is stretched by 0.150 m. The limit of proportionality is not exceeded.\nCalculate the elastic potential energy stored in the spring.\nUse the Physics Equations Sheet.",
       "numericAnswer": 0.45,
       "tolerance": 0.01,
       "unit": "J",
-      "markScheme": ["1 mark: Eₑ = ½ k e² = 0.5 × 40 × 0.150²", "1 mark: 0.45 J"],
-      "explanation": "Square the extension before multiplying: 0.150² = 0.0225, and 0.5 × 40 × 0.0225 = 0.45 J. Forgetting to square gives 3.0 J."
+      "markScheme": [
+        "1 mark: Eₑ = ½ k e² = 0.5 × 40 × 0.150²",
+        "1 mark: 0.45 J"
+      ],
+      "explanation": "Square the extension before multiplying: 0.150² = 0.0225, and 0.5 × 40 × 0.0225 = 0.45 J. Forgetting to square gives 3.0 J.",
+      "answerLabel": "Elastic potential energy"
     },
     {
       "id": "phys-rp6-q08",
@@ -223,12 +334,16 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "A slotted mass of 200 g is hung on a spring. The gravitational field strength is 9.8 N/kg.\nCalculate the weight of the mass.",
+      "question": "A slotted mass of 200 g is hung on a spring.\ngravitational field strength = 9.8 N/kg\nCalculate the weight of the mass.\nUse the equation:\nweight = mass × gravitational field strength",
       "numericAnswer": 1.96,
       "tolerance": 0.01,
       "unit": "N",
-      "markScheme": ["1 mark: 200 g = 0.200 kg", "1 mark: W = m g = 0.200 × 9.8 = 1.96 N"],
-      "explanation": "Weight = mass × gravitational field strength, with mass in kilograms. Using 200 gives 1960 N."
+      "markScheme": [
+        "1 mark: 200 g = 0.200 kg",
+        "1 mark: W = m g = 0.200 × 9.8 = 1.96 N"
+      ],
+      "explanation": "Weight = mass × gravitational field strength, with mass in kilograms. Using 200 gives 1960 N.",
+      "answerLabel": "Weight"
     },
     {
       "id": "phys-rp6-q09",
@@ -236,9 +351,22 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give one hazard in a spring stretching experiment and a precaution to reduce the risk.",
-      "acceptedAnswers": ["masses falling", "stand toppling", "G-clamp", "spring snapping", "eye protection", "keep feet clear"],
-      "markScheme": ["1 mark: hazard: masses falling on feet / clamp stand toppling / spring snapping or flying off", "1 mark: matching precaution: keep feet clear or use a soft mat / G-clamp the stand to the bench / wear eye protection"],
+      "question": "Figure 1 shows the apparatus used to investigate the extension of a spring.\nGive one hazard in this experiment and a precaution to reduce the risk.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<rect x=\"30\" y=\"236\" width=\"120\" height=\"12\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"60\" y1=\"236\" x2=\"60\" y2=\"20\" stroke=\"currentColor\"/><rect x=\"54\" y=\"26\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"68\" y1=\"33\" x2=\"190\" y2=\"33\" stroke=\"currentColor\"/>\n<path d=\"M180 40L190 46L170 54L190 62L170 70L190 78L170 86L190 94L170 102L190 110L170 118L180 126V140\" fill=\"none\" stroke=\"currentColor\"/>\n<line x1=\"180\" y1=\"140\" x2=\"180\" y2=\"150\" stroke=\"currentColor\"/><path d=\"M168 150h24v8h-24zM168 162h24v8h-24zM168 174h24v8h-24z\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"158\" x2=\"180\" y2=\"162\" stroke=\"currentColor\"/><line x1=\"180\" y1=\"170\" x2=\"180\" y2=\"174\" stroke=\"currentColor\"/>\n<line x1=\"180\" y1=\"128\" x2=\"238\" y2=\"128\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<rect x=\"238\" y=\"20\" width=\"22\" height=\"210\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M240 30h12M240 35h6M240 40h6M240 45h6M240 50h6M240 55h12M240 60h6M240 65h6M240 70h6M240 75h6M240 80h12M240 85h6M240 90h6M240 95h6M240 100h6M240 105h12M240 110h6M240 115h6M240 120h6M240 125h6M240 130h12M240 135h6M240 140h6M240 145h6M240 150h6M240 155h12M240 160h6M240 165h6M240 170h6M240 175h6M240 180h12M240 185h6M240 190h6M240 195h6M240 200h6M240 205h12M240 210h6M240 215h6M240 220h6\" stroke=\"currentColor\" stroke-width=\"1\"/>\n<line x1=\"90\" y1=\"33\" x2=\"90\" y2=\"70\" stroke=\"currentColor\"/><text x=\"76\" y=\"86\" font-size=\"12\" fill=\"currentColor\">clamp</text>\n<line x1=\"172\" y1=\"90\" x2=\"120\" y2=\"110\" stroke=\"currentColor\"/><text x=\"80\" y=\"124\" font-size=\"12\" fill=\"currentColor\">spring</text>\n<line x1=\"212\" y1=\"130\" x2=\"212\" y2=\"206\" stroke=\"currentColor\"/><text x=\"204\" y=\"222\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pointer</text>\n<line x1=\"260\" y1=\"60\" x2=\"290\" y2=\"60\" stroke=\"currentColor\"/><text x=\"294\" y=\"64\" font-size=\"12\" fill=\"currentColor\">metre ruler</text>\n<line x1=\"168\" y1=\"178\" x2=\"130\" y2=\"188\" stroke=\"currentColor\"/><text x=\"72\" y=\"202\" font-size=\"12\" fill=\"currentColor\">slotted masses</text>\n<line x1=\"150\" y1=\"242\" x2=\"290\" y2=\"242\" stroke=\"currentColor\"/><text x=\"294\" y=\"246\" font-size=\"12\" fill=\"currentColor\">clamp stand</text>\n</svg>"
+      },
+      "acceptedAnswers": [
+        "masses falling",
+        "stand toppling",
+        "G-clamp",
+        "spring snapping",
+        "eye protection",
+        "keep feet clear"
+      ],
+      "markScheme": [
+        "1 mark: hazard: masses falling on feet / clamp stand toppling / spring snapping or flying off",
+        "1 mark: matching precaution: keep feet clear or use a soft mat / G-clamp the stand to the bench / wear eye protection"
+      ],
       "explanation": "The precaution must reduce the risk from the hazard named. For example, a G-clamp stops the stand toppling when heavy masses are added."
     },
     {
@@ -247,7 +375,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A spring is loaded beyond its limit of proportionality. Which statement describes what happens as more force is added?",
+      "question": "Figure 1 shows a force–extension graph for a spring. Point P is the limit of proportionality.\nWhich statement describes what happens as more force is added beyond point P?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><path d=\"M62 16V258M79.9 16V258M97.8 16V258M115.7 16V258M133.6 16V258M151.5 16V258M169.4 16V258M187.3 16V258M205.2 16V258M223.1 16V258M241 16V258M258.9 16V258M276.8 16V258M294.7 16V258M312.6 16V258M330.5 16V258M348.4 16V258M366.3 16V258M384.2 16V258M402.1 16V258M420 16V258M62 258H420M62 252H420M62 245.9H420M62 239.9H420M62 233.8H420M62 227.8H420M62 221.7H420M62 215.7H420M62 209.6H420M62 203.6H420M62 197.5H420M62 191.5H420M62 185.4H420M62 179.4H420M62 173.3H420M62 167.3H420M62 161.2H420M62 155.1H420M62 149.1H420M62 143H420M62 137H420M62 131H420M62 124.9H420M62 118.8H420M62 112.8H420M62 106.7H420M62 100.7H420M62 94.6H420M62 88.6H420M62 82.5H420M62 76.5H420M62 70.4H420M62 64.4H420M62 58.3H420M62 52.3H420M62 46.2H420M62 40.2H420M62 34.1H420M62 28.1H420M62 22H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.18\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 16V258M97.8 16V258M133.6 16V258M169.4 16V258M205.2 16V258M241 16V258M276.8 16V258M312.6 16V258M348.4 16V258M384.2 16V258M420 16V258M62 258H420M62 227.8H420M62 197.5H420M62 167.3H420M62 137H420M62 106.8H420M62 76.5H420M62 46.3H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 16V258H420\" stroke=\"currentColor\" fill=\"none\"/><text x=\"62\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"97.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"133.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"169.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"205.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"241\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"276.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"312.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">14</text><text x=\"348.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">16</text><text x=\"384.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">18</text><text x=\"420\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"56\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"231.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"201.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"171.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"56\" y=\"141\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"110.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"56\" y=\"80.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"56\" y=\"50.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">7</text><text x=\"56\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"241\" y=\"296\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Extension in cm</text><text x=\"16\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Force in N</text><polyline points=\"62,258 66.5,255 71,252 75.4,248.9 79.9,245.9 84.4,242.9 88.9,239.9 93.3,236.8 97.8,233.8 102.3,230.8 106.8,227.8 111.2,224.7 115.7,221.7 120.2,218.7 124.7,215.7 129.1,212.6 133.6,209.6 138.1,206.6 142.6,203.6 147,200.5 151.5,197.5 156,194.5 160.5,191.5 164.9,188.4 169.4,185.4 173.9,182.4 178.4,179.4 182.8,176.3 187.3,173.3 191.8,170.3 196.3,167.3 200.7,164.2 205.2,161.2 209.7,158.2 214.2,155.1 218.6,152.1 223.1,149.1 227.6,146.1 232.1,143.1 236.5,140 241,137 245.5,134 250,131 254.4,127.9 258.9,124.9 263.4,121.9 267.9,118.9 272.3,115.8 276.8,112.8 281.3,109.8 285.8,106.8 290.2,103.7 294.7,100.7 299.2,97.7 303.7,94.6 308.1,91.6 312.6,88.6 317.1,85.6 321.6,82.5 326,79.5 330.5,76.5 335,73.6 339.5,70.8 343.9,68.2 348.4,65.8 352.9,63.5 357.3,61.4 361.8,59.3 366.3,57.5 370.8,55.7 375.3,54 379.7,52.4 384.2,51 388.7,49.6 393.2,48.3 397.6,47.1 402.1,45.9 406.6,44.8 411.1,43.8 415.5,42.9 420,42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"330.5\" cy=\"76.5\" r=\"3\" fill=\"currentColor\"/><text x=\"314.5\" y=\"70.5\" font-size=\"12\" fill=\"currentColor\">P</text></svg>"
+      },
       "options": [
         "Each extra newton gives the same extension as before",
         "Each extra newton gives a larger extension than before",
@@ -255,7 +386,9 @@
         "The spring gets shorter"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: each extra newton gives a larger extension"],
+      "markScheme": [
+        "1 mark: each extra newton gives a larger extension"
+      ],
       "explanation": "Beyond the limit of proportionality the spring becomes easier to stretch, so the extension per newton increases and the force against extension graph curves."
     },
     {
@@ -264,12 +397,19 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student plots force in N against extension in cm for a spring. The gradient of the straight part of the graph is 0.40 N/cm.\nCalculate the spring constant in N/m.",
+      "question": "Figure 1 shows the force–extension graph for a spring.\nDetermine the spring constant of the spring in N/m.\nUse the straight part of the graph.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 310\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><path d=\"M62 16V258M79.9 16V258M97.8 16V258M115.7 16V258M133.6 16V258M151.5 16V258M169.4 16V258M187.3 16V258M205.2 16V258M223.1 16V258M241 16V258M258.9 16V258M276.8 16V258M294.7 16V258M312.6 16V258M330.5 16V258M348.4 16V258M366.3 16V258M384.2 16V258M402.1 16V258M420 16V258M62 258H420M62 252H420M62 245.9H420M62 239.9H420M62 233.8H420M62 227.8H420M62 221.7H420M62 215.7H420M62 209.6H420M62 203.6H420M62 197.5H420M62 191.5H420M62 185.4H420M62 179.4H420M62 173.3H420M62 167.3H420M62 161.2H420M62 155.1H420M62 149.1H420M62 143H420M62 137H420M62 131H420M62 124.9H420M62 118.8H420M62 112.8H420M62 106.7H420M62 100.7H420M62 94.6H420M62 88.6H420M62 82.5H420M62 76.5H420M62 70.4H420M62 64.4H420M62 58.3H420M62 52.3H420M62 46.2H420M62 40.2H420M62 34.1H420M62 28.1H420M62 22H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.18\" stroke-width=\"0.5\" fill=\"none\"/><path d=\"M62 16V258M97.8 16V258M133.6 16V258M169.4 16V258M205.2 16V258M241 16V258M276.8 16V258M312.6 16V258M348.4 16V258M384.2 16V258M420 16V258M62 258H420M62 227.8H420M62 197.5H420M62 167.3H420M62 137H420M62 106.8H420M62 76.5H420M62 46.3H420M62 16H420\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"0.8\" fill=\"none\"/><path d=\"M62 16V258H420\" stroke=\"currentColor\" fill=\"none\"/><text x=\"62\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"97.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"133.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"169.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"205.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"241\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"276.8\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"312.6\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">14</text><text x=\"348.4\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">16</text><text x=\"384.2\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">18</text><text x=\"420\" y=\"274\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"56\" y=\"262\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"56\" y=\"231.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"56\" y=\"201.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"56\" y=\"171.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"56\" y=\"141\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"56\" y=\"110.8\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"56\" y=\"80.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"56\" y=\"50.3\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">7</text><text x=\"56\" y=\"20\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"241\" y=\"296\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Extension in cm</text><text x=\"16\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Force in N</text><polyline points=\"62,258 66.5,255 71,252 75.4,248.9 79.9,245.9 84.4,242.9 88.9,239.9 93.3,236.8 97.8,233.8 102.3,230.8 106.8,227.8 111.2,224.7 115.7,221.7 120.2,218.7 124.7,215.7 129.1,212.6 133.6,209.6 138.1,206.6 142.6,203.6 147,200.5 151.5,197.5 156,194.5 160.5,191.5 164.9,188.4 169.4,185.4 173.9,182.4 178.4,179.4 182.8,176.3 187.3,173.3 191.8,170.3 196.3,167.3 200.7,164.2 205.2,161.2 209.7,158.2 214.2,155.1 218.6,152.1 223.1,149.1 227.6,146.1 232.1,143.1 236.5,140 241,137 245.5,134 250,131 254.4,127.9 258.9,124.9 263.4,121.9 267.9,118.9 272.3,115.8 276.8,112.8 281.3,109.8 285.8,106.8 290.2,103.7 294.7,100.7 299.2,97.7 303.7,94.6 308.1,91.6 312.6,88.6 317.1,85.6 321.6,82.5 326,79.5 330.5,76.5 335,73.6 339.5,70.8 343.9,68.2 348.4,65.8 352.9,63.5 357.3,61.4 361.8,59.3 366.3,57.5 370.8,55.7 375.3,54 379.7,52.4 384.2,51 388.7,49.6 393.2,48.3 397.6,47.1 402.1,45.9 406.6,44.8 411.1,43.8 415.5,42.9 420,42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"
+      },
       "numericAnswer": 40,
       "tolerance": 0.01,
       "unit": "N/m",
-      "markScheme": ["1 mark: 1 m = 100 cm, so multiply by 100", "1 mark: 40 N/m"],
-      "explanation": "0.40 N stretches the spring by 1 cm, so 100 times as much force (40 N) would stretch it by 1 m. Dividing by 100 instead gives 0.0040 N/m, which is wrong."
+      "markScheme": [
+        "1 mark: gradient of straight part = 6.0 ÷ 15 = 0.40 N/cm",
+        "1 mark: 0.40 N/cm × 100 = 40 N/m"
+      ],
+      "explanation": "Use the straight part of the line, for example 6.0 N at 15 cm, so the gradient is 0.40 N/cm. One metre is 100 cm, so the spring constant is 0.40 × 100 = 40 N/m. Dividing by 100 instead gives 0.0040 N/m, which is far too small. Points on the curved part must not be used because the spring has passed its limit of proportionality there.",
+      "answerLabel": "Spring constant"
     },
     {
       "id": "phys-rp6-q12",
@@ -277,12 +417,17 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A spring has a spring constant of 25 N/m. A weight of 2.0 N is hung on it. The limit of proportionality is not exceeded.\nCalculate the extension of the spring in cm.",
+      "question": "A spring has a spring constant of 25 N/m. A weight of 2.0 N is hung on it. The limit of proportionality is not exceeded.\nCalculate the extension of the spring in cm.\nUse the equation:\nforce = spring constant × extension",
       "numericAnswer": 8,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: e = F ÷ k = 2.0 ÷ 25", "1 mark: e = 0.080 m", "1 mark: 8.0 cm"],
-      "explanation": "Rearrange F = k e to e = F ÷ k, which gives the extension in metres. Multiply by 100 to convert to centimetres."
+      "markScheme": [
+        "1 mark: e = F ÷ k = 2.0 ÷ 25",
+        "1 mark: e = 0.080 m",
+        "1 mark: 8.0 cm"
+      ],
+      "explanation": "Rearrange F = k e to e = F ÷ k, which gives the extension in metres. Multiply by 100 to convert to centimetres.",
+      "answerLabel": "Extension"
     },
     {
       "id": "phys-rp6-q13",
@@ -291,8 +436,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Describe how a student could test whether a spring has been stretched beyond its elastic limit.",
-      "acceptedAnswers": ["remove the masses", "does not return to original length", "permanently stretched", "inelastically deformed"],
-      "markScheme": ["1 mark: remove all the masses (force) and measure the length again", "1 mark: if it does not return to its original length, the elastic limit has been exceeded"],
+      "acceptedAnswers": [
+        "remove the masses",
+        "does not return to original length",
+        "permanently stretched",
+        "inelastically deformed"
+      ],
+      "markScheme": [
+        "1 mark: remove all the masses (force) and measure the length again",
+        "1 mark: if it does not return to its original length, the elastic limit has been exceeded"
+      ],
       "explanation": "A spring stretched within its elastic limit returns to its original shape. If it stays longer, it has been inelastically (permanently) deformed."
     },
     {
@@ -309,7 +462,9 @@
         "A horizontal straight line"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: a straight line with a y-intercept equal to the original length"],
+      "markScheme": [
+        "1 mark: a straight line with a y-intercept equal to the original length"
+      ],
       "explanation": "Length = original length + extension. The extension part still increases in proportion to force, so the line is straight with the same gradient, but it is shifted up by the original length. It is linear but not proportional."
     },
     {

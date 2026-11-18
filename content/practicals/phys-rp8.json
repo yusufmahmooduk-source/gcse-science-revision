@@ -71,13 +71,43 @@
     }
   ],
   "results": {
-    "headers": ["Frequency (Hz)", "Number of loops", "Wavelength (m)", "Wave speed (m/s)"],
+    "headers": [
+      "Frequency (Hz)",
+      "Number of loops",
+      "Wavelength (m)",
+      "Wave speed (m/s)"
+    ],
     "rows": [
-      ["12", "1", "2.40", "28.8"],
-      ["24", "2", "1.20", "28.8"],
-      ["37", "3", "0.80", "29.6"],
-      ["48", "4", "0.60", "28.8"],
-      ["61", "5", "0.48", "29.3"]
+      [
+        "12",
+        "1",
+        "2.40",
+        "28.8"
+      ],
+      [
+        "24",
+        "2",
+        "1.20",
+        "28.8"
+      ],
+      [
+        "37",
+        "3",
+        "0.80",
+        "29.6"
+      ],
+      [
+        "48",
+        "4",
+        "0.60",
+        "28.8"
+      ],
+      [
+        "61",
+        "5",
+        "0.48",
+        "29.3"
+      ]
     ],
     "notes": "String length L = 1.20 m, same tension throughout. Wavelength = 2L ÷ number of loops; wave speed = frequency × wavelength. Mean wave speed = (28.8 + 28.8 + 29.6 + 28.8 + 29.3) ÷ 5 ≈ 29 m/s. Ripple tank results: 10 wavelengths measured 15.0 cm on the paper, so λ = 1.5 cm = 0.015 m; 120 waves passed a point in 10 s, so f = 12 Hz; v = 12 × 0.015 = 0.18 m/s."
   },
@@ -130,9 +160,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which equation links wave speed, frequency and wavelength?",
-      "options": ["wave speed = frequency ÷ wavelength", "wave speed = wavelength ÷ frequency", "wave speed = frequency × wavelength", "wave speed = frequency + wavelength"],
+      "options": [
+        "wave speed = frequency ÷ wavelength",
+        "wave speed = wavelength ÷ frequency",
+        "wave speed = frequency × wavelength",
+        "wave speed = frequency + wavelength"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: wave speed = frequency × wavelength"],
+      "markScheme": [
+        "1 mark: wave speed = frequency × wavelength"
+      ],
       "explanation": "v = f λ. Students must recall this equation. The other options give the wrong units."
     },
     {
@@ -141,12 +178,29 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "Water waves in a ripple tank have a frequency of 12 Hz and a wavelength of 1.5 cm.\nCalculate the speed of the waves in m/s.",
+      "question": "Table 1 shows measurements of water waves in a ripple tank.\nCalculate the speed of the waves in m/s.\nUse the equation:\nwave speed = frequency × wavelength",
+      "table": {
+        "headers": [
+          "Frequency in Hz",
+          "Wavelength in cm"
+        ],
+        "rows": [
+          [
+            "12",
+            "1.5"
+          ]
+        ]
+      },
       "numericAnswer": 0.18,
       "tolerance": 0.01,
       "unit": "m/s",
-      "markScheme": ["1 mark: 1.5 cm = 0.015 m", "1 mark: v = f λ = 12 × 0.015", "1 mark: 0.18 m/s"],
-      "explanation": "Convert the wavelength to metres before multiplying. 12 × 1.5 = 18 gives the speed in cm/s, which is 0.18 m/s."
+      "markScheme": [
+        "1 mark: 1.5 cm = 0.015 m",
+        "1 mark: v = f λ = 12 × 0.015",
+        "1 mark: 0.18 m/s"
+      ],
+      "explanation": "Convert the wavelength to metres before multiplying. 12 × 1.5 = 18 gives the speed in cm/s, which is 0.18 m/s.",
+      "answerLabel": "Wave speed"
     },
     {
       "id": "phys-rp8-q03",
@@ -154,12 +208,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student measures the distance across 10 wavelengths of water waves projected onto a screen below a ripple tank. The distance is 15.0 cm.\nCalculate one wavelength.",
+      "question": "Figure 1 shows the bright lines made by water waves projected onto a screen below a ripple tank. A ruler is placed under the pattern.\nEach bright line is one wave.\nDetermine the wavelength of the water waves.\nUse the distance across 10 wavelengths.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 180\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<rect x=\"29\" y=\"24\" width=\"407\" height=\"82\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M62 30v70M95 30v70M128 30v70M161 30v70M194 30v70M227 30v70M260 30v70M293 30v70M326 30v70M359 30v70M392 30v70\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<rect x=\"29\" y=\"120\" width=\"396\" height=\"36\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M40 120v12M51 120v6M62 120v12M73 120v6M84 120v12M95 120v6M106 120v12M117 120v6M128 120v12M139 120v6M150 120v12M161 120v6M172 120v12M183 120v6M194 120v12M205 120v6M216 120v12M227 120v6M238 120v12M249 120v6M260 120v12M271 120v6M282 120v12M293 120v6M304 120v12M315 120v6M326 120v12M337 120v6M348 120v12M359 120v6M370 120v12M381 120v6M392 120v12M403 120v6M414 120v12\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"40\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"62\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"84\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"106\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"128\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"150\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"172\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"194\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"216\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"238\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"260\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"282\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">11</text><text x=\"304\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"326\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">13</text><text x=\"348\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">14</text><text x=\"370\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15</text><text x=\"392\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">16</text><text x=\"414\" y=\"148\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">17</text>\n<text x=\"414\" y=\"172\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">cm</text>\n<text x=\"31.2\" y=\"18\" font-size=\"12\" fill=\"currentColor\">bright lines on the screen</text>\n</svg>"
+      },
       "numericAnswer": 1.5,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: 15.0 ÷ 10 = 1.5 cm"],
-      "explanation": "Divide the total distance by the number of wavelengths measured. Measuring across 10 waves makes the result more accurate than measuring one."
+      "markScheme": [
+        "1 mark: 10 wavelengths = 16.0 − 1.0 = 15.0 cm, so λ = 15.0 ÷ 10 = 1.5 cm"
+      ],
+      "explanation": "The first bright line is at 1.0 cm and the eleventh is at 16.0 cm. Eleven lines enclose 10 wavelengths, so 10λ = 15.0 cm and λ = 1.5 cm. Counting the 11 lines as 11 wavelengths gives 1.4 cm, which is wrong. Measuring across 10 waves makes the result more accurate than measuring one.",
+      "answerLabel": "Wavelength"
     },
     {
       "id": "phys-rp8-q04",
@@ -167,12 +227,27 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A student counts 120 waves passing a point in a ripple tank in 10 seconds.\nCalculate the frequency of the waves.",
+      "question": "A student counts the number of waves passing a point in a ripple tank.\nTable 1 shows the results.\nCalculate the frequency of the waves.",
+      "table": {
+        "headers": [
+          "Number of waves",
+          "Time in s"
+        ],
+        "rows": [
+          [
+            "120",
+            "10"
+          ]
+        ]
+      },
       "numericAnswer": 12,
       "tolerance": 0.01,
       "unit": "Hz",
-      "markScheme": ["1 mark: 120 ÷ 10 = 12 Hz"],
-      "explanation": "Frequency is the number of waves passing a point each second, so divide the number of waves by the time in seconds."
+      "markScheme": [
+        "1 mark: 120 ÷ 10 = 12 Hz"
+      ],
+      "explanation": "Frequency is the number of waves passing a point each second, so divide the number of waves by the time in seconds.",
+      "answerLabel": "Frequency"
     },
     {
       "id": "phys-rp8-q05",
@@ -188,7 +263,9 @@
         "It measures the speed of the waves directly"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: makes the wave pattern appear stationary (freezes it)"],
+      "markScheme": [
+        "1 mark: makes the wave pattern appear stationary (freezes it)"
+      ],
       "explanation": "When the strobe flashes at the same frequency as the waves, each flash shows the waves in the same position, so they appear frozen and can be measured. The waves themselves are unchanged."
     },
     {
@@ -198,8 +275,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "A student measures the distance across 10 waves in a ripple tank and divides by 10, instead of measuring a single wavelength.\nExplain why this is a better method.",
-      "acceptedAnswers": ["reduces uncertainty", "smaller percentage error", "more accurate", "waves are small"],
-      "markScheme": ["1 mark: a single wavelength is very small / hard to measure", "1 mark: measuring over 10 waves reduces the (percentage) uncertainty in each wavelength"],
+      "acceptedAnswers": [
+        "reduces uncertainty",
+        "smaller percentage error",
+        "more accurate",
+        "waves are small"
+      ],
+      "markScheme": [
+        "1 mark: a single wavelength is very small / hard to measure",
+        "1 mark: measuring over 10 waves reduces the (percentage) uncertainty in each wavelength"
+      ],
       "explanation": "The uncertainty in reading the ruler is about the same whatever the distance, so it is a much smaller fraction of 15 cm than of 1.5 cm."
     },
     {
@@ -208,12 +293,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A standing wave on a string has 4 loops between the vibration generator and the pulley. The length of the vibrating string is 1.20 m.\nCalculate the wavelength of the wave.",
+      "question": "Figure 1 shows a standing wave on a string between a vibration generator and a pulley.\nCalculate the wavelength of the wave.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 440 230\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<rect x=\"30\" y=\"90\" width=\"34\" height=\"50\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"64\" y1=\"100\" x2=\"70\" y2=\"100\" stroke=\"currentColor\"/>\n<path d=\"M70 100Q105 40 140 100M70 100Q105 160 140 100M140 100Q175 40 210 100M140 100Q175 160 210 100M210 100Q245 40 280 100M210 100Q245 160 280 100M280 100Q315 40 350 100M280 100Q315 160 350 100\" fill=\"none\" stroke=\"currentColor\"/>\n<circle cx=\"360\" cy=\"110\" r=\"10\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"370\" y1=\"110\" x2=\"370\" y2=\"170\" stroke=\"currentColor\"/>\n<rect x=\"362\" y=\"170\" width=\"16\" height=\"30\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"70\" y1=\"196\" x2=\"350\" y2=\"196\" stroke=\"currentColor\"/><line x1=\"70\" y1=\"188\" x2=\"70\" y2=\"204\" stroke=\"currentColor\"/><line x1=\"350\" y1=\"188\" x2=\"350\" y2=\"204\" stroke=\"currentColor\"/><text x=\"210\" y=\"216\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">1.20 m</text>\n<line x1=\"70\" y1=\"180\" x2=\"70\" y2=\"100\" stroke=\"currentColor\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/><line x1=\"350\" y1=\"180\" x2=\"350\" y2=\"100\" stroke=\"currentColor\" stroke-dasharray=\"3 3\" stroke-width=\"1\"/>\n<text x=\"8\" y=\"158\" font-size=\"12\" fill=\"currentColor\">vibration</text><text x=\"8\" y=\"174\" font-size=\"12\" fill=\"currentColor\">generator</text>\n<text x=\"380\" y=\"104\" font-size=\"12\" fill=\"currentColor\">pulley</text><text x=\"384\" y=\"190\" font-size=\"12\" fill=\"currentColor\">masses</text>\n</svg>"
+      },
       "numericAnswer": 0.6,
       "tolerance": 0.01,
       "unit": "m",
-      "markScheme": ["1 mark: each loop = 1.20 ÷ 4 = 0.30 m = half a wavelength", "1 mark: λ = 2 × 0.30 = 0.60 m"],
-      "explanation": "One loop is half a wavelength, so 4 loops are 2 wavelengths. A common mistake is to take one loop as a whole wavelength, giving 0.30 m."
+      "markScheme": [
+        "1 mark: each loop = 1.20 ÷ 4 = 0.30 m = half a wavelength",
+        "1 mark: λ = 2 × 0.30 = 0.60 m"
+      ],
+      "explanation": "One loop is half a wavelength, so 4 loops are 2 wavelengths. A common mistake is to take one loop as a whole wavelength, giving 0.30 m.",
+      "answerLabel": "Wavelength"
     },
     {
       "id": "phys-rp8-q08",
@@ -221,12 +313,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Waves on a string have a frequency of 48 Hz and a wavelength of 0.60 m.\nCalculate the speed of the waves.",
+      "question": "Waves on a string have a frequency of 48 Hz and a wavelength of 0.60 m.\nCalculate the speed of the waves.\nUse the equation:\nwave speed = frequency × wavelength",
       "numericAnswer": 28.8,
       "tolerance": 0.01,
       "unit": "m/s",
-      "markScheme": ["1 mark: v = f λ = 48 × 0.60", "1 mark: 28.8 m/s (accept 29 m/s)"],
-      "explanation": "Wave speed = frequency × wavelength = 28.8 m/s."
+      "markScheme": [
+        "1 mark: v = f λ = 48 × 0.60",
+        "1 mark: 28.8 m/s (accept 29 m/s)"
+      ],
+      "explanation": "Wave speed = frequency × wavelength = 28.8 m/s.",
+      "answerLabel": "Wave speed"
     },
     {
       "id": "phys-rp8-q09",
@@ -234,9 +330,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A lamp is placed above a ripple tank, with white paper underneath the tank.\nGive the reason for this.",
-      "acceptedAnswers": ["to see the waves", "project the waves onto the paper", "shadows of the waves", "crests show as bright lines"],
-      "markScheme": ["1 mark: to project an image (shadow) of the waves onto the paper so they can be seen and measured"],
+      "question": "Figure 1 shows a ripple tank.\nA lamp is placed above the ripple tank, with white paper underneath the tank.\nGive the reason for this.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<circle cx=\"200\" cy=\"30\" r=\"12\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"8\" x2=\"200\" y2=\"18\" stroke=\"currentColor\"/>\n<path d=\"M80 110v30h240v-30\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"81\" y=\"122\" width=\"238\" height=\"17\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M110 122q5 -4 10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/>\n<rect x=\"88\" y=\"100\" width=\"12\" height=\"26\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"100\" y1=\"140\" x2=\"100\" y2=\"200\" stroke=\"currentColor\"/><line x1=\"300\" y1=\"140\" x2=\"300\" y2=\"200\" stroke=\"currentColor\"/>\n<rect x=\"60\" y=\"206\" width=\"280\" height=\"16\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M110 214h10M130 214h10M150 214h10M170 214h10M190 214h10M210 214h10M230 214h10M250 214h10M270 214h10M290 214h10\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<line x1=\"212\" y1=\"30\" x2=\"290\" y2=\"30\" stroke=\"currentColor\"/><text x=\"294\" y=\"34\" font-size=\"12\" fill=\"currentColor\">lamp</text>\n<line x1=\"94\" y1=\"100\" x2=\"60\" y2=\"70\" stroke=\"currentColor\"/><text x=\"20\" y=\"62\" font-size=\"12\" fill=\"currentColor\">vibrating bar</text>\n<line x1=\"319\" y1=\"128\" x2=\"340\" y2=\"110\" stroke=\"currentColor\"/><text x=\"326\" y=\"102\" font-size=\"12\" fill=\"currentColor\">water</text>\n<line x1=\"320\" y1=\"125\" x2=\"340\" y2=\"150\" stroke=\"currentColor\"/><text x=\"344\" y=\"154\" font-size=\"12\" fill=\"currentColor\">ripple tank</text>\n<line x1=\"340\" y1=\"214\" x2=\"350\" y2=\"214\" stroke=\"currentColor\"/><text x=\"354\" y=\"218\" font-size=\"12\" fill=\"currentColor\">white paper</text>\n</svg>"
+      },
+      "acceptedAnswers": [
+        "to see the waves",
+        "project the waves onto the paper",
+        "shadows of the waves",
+        "crests show as bright lines"
+      ],
+      "markScheme": [
+        "1 mark: to project an image (shadow) of the waves onto the paper so they can be seen and measured"
+      ],
       "explanation": "The crests act like lenses and focus the light into bright lines on the paper, making the waves much easier to see and measure than looking at the water directly."
     },
     {
@@ -245,12 +351,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The speed of waves on a stretched string is 28.8 m/s. A standing wave forms with a wavelength of 0.80 m.\nCalculate the frequency of the signal generator.",
+      "question": "The speed of waves on a stretched string is 28.8 m/s. A standing wave forms with a wavelength of 0.80 m.\nCalculate the frequency of the vibration generator.\nUse the equation:\nwave speed = frequency × wavelength",
       "numericAnswer": 36,
       "tolerance": 0.01,
       "unit": "Hz",
-      "markScheme": ["1 mark: f = v ÷ λ = 28.8 ÷ 0.80", "1 mark: 36 Hz"],
-      "explanation": "Rearrange v = f λ to f = v ÷ λ. Multiplying instead gives 23, which is wrong."
+      "markScheme": [
+        "1 mark: f = v ÷ λ = 28.8 ÷ 0.80",
+        "1 mark: 36 Hz"
+      ],
+      "explanation": "Rearrange v = f λ to f = v ÷ λ. Multiplying instead gives 23, which is wrong.",
+      "answerLabel": "Frequency"
     },
     {
       "id": "phys-rp8-q11",
@@ -259,9 +369,16 @@
       "difficulty": 2,
       "marks": 1,
       "question": "A standing wave on a string has a number of loops. Which length is equal to one wavelength?",
-      "options": ["The length of one loop", "The length of two loops", "The distance from a node to the next antinode", "The total length of the string"],
+      "options": [
+        "The length of one loop",
+        "The length of two loops",
+        "The distance from a node to the next antinode",
+        "The total length of the string"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the length of two loops"],
+      "markScheme": [
+        "1 mark: the length of two loops"
+      ],
       "explanation": "Each loop goes from one node to the next node, which is half a wavelength. So two loops make one full wavelength. Node to antinode is a quarter of a wavelength."
     },
     {
@@ -270,9 +387,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Give one hazard when using a ripple tank and a precaution to reduce the risk.",
-      "acceptedAnswers": ["water and electricity", "electric shock", "slipping on spilled water", "stroboscope epilepsy", "wipe up spills"],
-      "markScheme": ["1 mark: hazard: water near mains electrical equipment (lamp, motor) / spilled water / flashing stroboscope", "1 mark: matching precaution: keep electrics away from water and dry hands / wipe up spills / check no one has photosensitive epilepsy"],
+      "question": "Figure 1 shows the apparatus used to measure the speed of water waves.\nGive one hazard when using a ripple tank and a precaution to reduce the risk.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<circle cx=\"200\" cy=\"30\" r=\"12\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"8\" x2=\"200\" y2=\"18\" stroke=\"currentColor\"/>\n<path d=\"M80 110v30h240v-30\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"81\" y=\"122\" width=\"238\" height=\"17\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M110 122q5 -4 10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0t10 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/>\n<rect x=\"88\" y=\"100\" width=\"12\" height=\"26\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<line x1=\"100\" y1=\"140\" x2=\"100\" y2=\"200\" stroke=\"currentColor\"/><line x1=\"300\" y1=\"140\" x2=\"300\" y2=\"200\" stroke=\"currentColor\"/>\n<rect x=\"60\" y=\"206\" width=\"280\" height=\"16\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M110 214h10M130 214h10M150 214h10M170 214h10M190 214h10M210 214h10M230 214h10M250 214h10M270 214h10M290 214h10\" stroke=\"currentColor\" stroke-width=\"3\"/>\n<line x1=\"212\" y1=\"30\" x2=\"290\" y2=\"30\" stroke=\"currentColor\"/><text x=\"294\" y=\"34\" font-size=\"12\" fill=\"currentColor\">lamp</text>\n<line x1=\"94\" y1=\"100\" x2=\"60\" y2=\"70\" stroke=\"currentColor\"/><text x=\"20\" y=\"62\" font-size=\"12\" fill=\"currentColor\">vibrating bar</text>\n<line x1=\"319\" y1=\"128\" x2=\"340\" y2=\"110\" stroke=\"currentColor\"/><text x=\"326\" y=\"102\" font-size=\"12\" fill=\"currentColor\">water</text>\n<line x1=\"320\" y1=\"125\" x2=\"340\" y2=\"150\" stroke=\"currentColor\"/><text x=\"344\" y=\"154\" font-size=\"12\" fill=\"currentColor\">ripple tank</text>\n<line x1=\"340\" y1=\"214\" x2=\"350\" y2=\"214\" stroke=\"currentColor\"/><text x=\"354\" y=\"218\" font-size=\"12\" fill=\"currentColor\">white paper</text>\n</svg>"
+      },
+      "acceptedAnswers": [
+        "water and electricity",
+        "electric shock",
+        "slipping on spilled water",
+        "stroboscope epilepsy",
+        "wipe up spills"
+      ],
+      "markScheme": [
+        "1 mark: hazard: water near mains electrical equipment (lamp, motor) / spilled water / flashing stroboscope",
+        "1 mark: matching precaution: keep electrics away from water and dry hands / wipe up spills / check no one has photosensitive epilepsy"
+      ],
       "explanation": "Water and mains electricity together risk electric shock; a stroboscope can trigger seizures in people with photosensitive epilepsy."
     },
     {
@@ -281,12 +410,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Water waves in a ripple tank have a frequency of 12 Hz.\nCalculate the period of the waves. Give your answer to 2 significant figures.",
+      "question": "Water waves in a ripple tank have a frequency of 12 Hz.\nCalculate the period of the waves.\nUse the Physics Equations Sheet.\nGive your answer to 2 significant figures.",
       "numericAnswer": 0.083,
       "tolerance": 0.02,
       "unit": "s",
-      "markScheme": ["1 mark: T = 1 ÷ f = 1 ÷ 12", "1 mark: 0.083 s"],
-      "explanation": "The period is the time for one complete wave, T = 1 ÷ f. 1 ÷ 12 = 0.0833 s, which is 0.083 s to 2 significant figures."
+      "markScheme": [
+        "1 mark: T = 1 ÷ f = 1 ÷ 12",
+        "1 mark: 0.083 s"
+      ],
+      "explanation": "The period is the time for one complete wave, T = 1 ÷ f. 1 ÷ 12 = 0.0833 s, which is 0.083 s to 2 significant figures.",
+      "answerLabel": "Period"
     },
     {
       "id": "phys-rp8-q14",
@@ -295,8 +428,16 @@
       "difficulty": 3,
       "marks": 2,
       "question": "A student increases the frequency of the vibration generator from 24 Hz to 48 Hz. The tension and the string are not changed.\nExplain what happens to the wavelength and the speed of the waves on the string.",
-      "acceptedAnswers": ["wavelength halves", "speed stays the same", "speed depends on tension", "speed constant"],
-      "markScheme": ["1 mark: the speed stays the same, because it depends on the tension and the string (the medium)", "1 mark: so the wavelength halves (since v = f λ and f doubles)"],
+      "acceptedAnswers": [
+        "wavelength halves",
+        "speed stays the same",
+        "speed depends on tension",
+        "speed constant"
+      ],
+      "markScheme": [
+        "1 mark: the speed stays the same, because it depends on the tension and the string (the medium)",
+        "1 mark: so the wavelength halves (since v = f λ and f doubles)"
+      ],
       "explanation": "Wave speed is set by the medium. With v constant, doubling f must halve λ, which is seen as twice as many loops on the string."
     },
     {

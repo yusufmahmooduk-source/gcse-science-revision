@@ -68,14 +68,49 @@
     }
   ],
   "results": {
-    "headers": ["Sample", "Number of spots", "Distance moved by spot(s) (cm)", "Rf value(s)"],
+    "headers": [
+      "Sample",
+      "Number of spots",
+      "Distance moved by spot(s) (cm)",
+      "Rf value(s)"
+    ],
     "rows": [
-      ["Dye A", "1", "2.4", "0.30"],
-      ["Dye B", "1", "5.6", "0.70"],
-      ["Dye C", "1", "4.0", "0.50"],
-      ["Dye D", "1", "6.4", "0.80"],
-      ["Food colouring X", "2", "2.4 and 5.6", "0.30 and 0.70"],
-      ["Food colouring Y", "2", "0.0 and 4.0", "0 and 0.50"]
+      [
+        "Dye A",
+        "1",
+        "2.4",
+        "0.30"
+      ],
+      [
+        "Dye B",
+        "1",
+        "5.6",
+        "0.70"
+      ],
+      [
+        "Dye C",
+        "1",
+        "4.0",
+        "0.50"
+      ],
+      [
+        "Dye D",
+        "1",
+        "6.4",
+        "0.80"
+      ],
+      [
+        "Food colouring X",
+        "2",
+        "2.4 and 5.6",
+        "0.30 and 0.70"
+      ],
+      [
+        "Food colouring Y",
+        "2",
+        "0.0 and 4.0",
+        "0 and 0.50"
+      ]
     ],
     "notes": "Distance moved by solvent (start line to solvent front) = 8.0 cm. Rf = distance moved by spot ÷ 8.0 cm. For example, dye A: 2.4 ÷ 8.0 = 0.30. Rf values have no units. Measure to the centre of each spot."
   },
@@ -123,7 +158,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Why is the start line drawn in pencil and not in ink?",
+      "question": "A student draws a start line on chromatography paper.\nWhy is the start line drawn in pencil and not in ink?",
       "options": [
         "Pencil is easier to see when the paper is wet",
         "Pencil does not dissolve in the solvent, but ink would and would move up the paper",
@@ -131,7 +166,9 @@
         "Pencil helps the solvent move up the paper"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: pencil (graphite) is insoluble / does not move with the solvent, whereas ink would dissolve and separate"],
+      "markScheme": [
+        "1 mark: pencil (graphite) is insoluble / does not move with the solvent, whereas ink would dissolve and separate"
+      ],
       "explanation": "Ink is itself a mixture of dyes. It would dissolve in the solvent and produce extra spots, confusing the results."
     },
     {
@@ -140,12 +177,19 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "On a chromatogram, the solvent moved 8.0 cm from the start line. A spot moved 3.2 cm from the start line.\nCalculate the Rf value of the spot.",
+      "question": "Figure 1 shows a chromatogram next to a scale.\nUse Figure 1 to calculate the Rf value of the spot.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 360\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"150\" y1=\"45\" x2=\"150\" y2=\"325\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"142\" y=\"324\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"142\" y=\"294\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"142\" y=\"264\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"142\" y=\"234\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"142\" y=\"204\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"142\" y=\"174\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"142\" y=\"144\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"142\" y=\"114\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">7</text><text x=\"142\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"142\" y=\"54\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">9</text><path d=\"M150 320h14M150 314h7M150 308h7M150 302h7M150 296h7M150 290h14M150 284h7M150 278h7M150 272h7M150 266h7M150 260h14M150 254h7M150 248h7M150 242h7M150 236h7M150 230h14M150 224h7M150 218h7M150 212h7M150 206h7M150 200h14M150 194h7M150 188h7M150 182h7M150 176h7M150 170h14M150 164h7M150 158h7M150 152h7M150 146h7M150 140h14M150 134h7M150 128h7M150 122h7M150 116h7M150 110h14M150 104h7M150 98h7M150 92h7M150 86h7M150 80h14M150 74.00000000000003h7M150 68h7M150 62h7M150 56h7M150 50h14\" stroke=\"currentColor\"/><text x=\"120\" y=\"20\" font-size=\"12\" fill=\"currentColor\">Distance in cm</text><rect x=\"175\" y=\"30\" width=\"120\" height=\"315\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"320\" x2=\"295\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"80\" x2=\"295\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><circle cx=\"235\" cy=\"224\" r=\"6\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"235\" cy=\"224\" r=\"1.5\" fill=\"currentColor\"/><line x1=\"166\" y1=\"224\" x2=\"227\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"166\" y1=\"80\" x2=\"175\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"166\" y1=\"320\" x2=\"175\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"295\" y1=\"80\" x2=\"307\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"310\" y=\"84\" font-size=\"13\" fill=\"currentColor\">Solvent front</text><line x1=\"241\" y1=\"224\" x2=\"307\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"310\" y=\"228\" font-size=\"13\" fill=\"currentColor\">Spot</text><line x1=\"295\" y1=\"320\" x2=\"307\" y2=\"320\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"310\" y=\"324\" font-size=\"13\" fill=\"currentColor\">Start line</text></svg>"
+      },
       "numericAnswer": 0.4,
       "tolerance": 0.01,
       "unit": "",
-      "markScheme": ["1 mark: Rf = 3.2 ÷ 8.0", "1 mark: 0.40"],
-      "explanation": "Rf = distance moved by substance ÷ distance moved by solvent = 3.2 ÷ 8.0 = 0.40. Dividing the other way gives 2.5, which is impossible because Rf must be less than 1."
+      "markScheme": [
+        "1 mark: Rf = 3.2 ÷ 8.0",
+        "1 mark: 0.40"
+      ],
+      "explanation": "Rf = distance moved by substance ÷ distance moved by solvent = 3.2 ÷ 8.0 = 0.40. Dividing the other way gives 2.5, which is impossible because Rf must be less than 1.",
+      "answerLabel": "Rf value"
     },
     {
       "id": "chem-rp6-q03",
@@ -153,10 +197,20 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "In paper chromatography, what is the stationary phase?",
-      "options": ["The solvent", "The sample spot", "The lid of the beaker", "The paper"],
+      "question": "Figure 1 shows the apparatus used for paper chromatography.\nWhich part, A, B, C or D, is the stationary phase?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 10 530 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M142 240 L142 278 L338 278 L338 240 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"140\" y1=\"240\" x2=\"340\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M134 46 L140 50 L140 280 L340 280 L340 50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"128\" y=\"38\" width=\"224\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"200\" y=\"50\" width=\"80\" height=\"222\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"204\" y1=\"226\" x2=\"276\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"222\" cy=\"226\" r=\"5\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"258\" cy=\"226\" r=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"42\" x2=\"372\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"40\" font-size=\"13\" fill=\"currentColor\">C</text><line x1=\"280\" y1=\"120\" x2=\"372\" y2=\"111\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"115\" font-size=\"13\" fill=\"currentColor\">D</text><line x1=\"217\" y1=\"226\" x2=\"128\" y2=\"191\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"125\" y=\"195\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">B</text><line x1=\"320\" y1=\"260\" x2=\"372\" y2=\"258\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"262\" font-size=\"13\" fill=\"currentColor\">A</text></svg>"
+      },
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: the paper"],
+      "markScheme": [
+        "1 mark: the paper"
+      ],
       "explanation": "The stationary phase does not move: in paper chromatography it is the paper. The solvent is the mobile phase."
     },
     {
@@ -165,9 +219,18 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Explain why the solvent level must be below the start line.",
-      "acceptedAnswers": ["spots would dissolve into the solvent", "samples wash off into the solvent", "samples would not move up the paper"],
-      "markScheme": ["1 mark: otherwise the spots / samples would dissolve into the solvent in the beaker (instead of moving up the paper)"],
+      "question": "Figure 1 shows the apparatus used for paper chromatography.\nExplain why the solvent level must be below the start line.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 10 530 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M142 240 L142 278 L338 278 L338 240 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"140\" y1=\"240\" x2=\"340\" y2=\"240\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M134 46 L140 50 L140 280 L340 280 L340 50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"128\" y=\"38\" width=\"224\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"200\" y=\"50\" width=\"80\" height=\"222\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"204\" y1=\"226\" x2=\"276\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"222\" cy=\"226\" r=\"5\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"258\" cy=\"226\" r=\"5\" fill=\"#c4b5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"42\" x2=\"372\" y2=\"36\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"40\" font-size=\"13\" fill=\"currentColor\">Lid</text><line x1=\"280\" y1=\"120\" x2=\"372\" y2=\"111\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"115\" font-size=\"13\" fill=\"currentColor\">Chromatography paper</text><line x1=\"276\" y1=\"226\" x2=\"372\" y2=\"201\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"205\" font-size=\"13\" fill=\"currentColor\">Start line (pencil)</text><line x1=\"217\" y1=\"226\" x2=\"128\" y2=\"191\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"125\" y=\"195\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Sample spots</text><line x1=\"320\" y1=\"260\" x2=\"372\" y2=\"258\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"375\" y=\"262\" font-size=\"13\" fill=\"currentColor\">Solvent</text></svg>"
+      },
+      "acceptedAnswers": [
+        "spots would dissolve into the solvent",
+        "samples wash off into the solvent",
+        "samples would not move up the paper"
+      ],
+      "markScheme": [
+        "1 mark: otherwise the spots / samples would dissolve into the solvent in the beaker (instead of moving up the paper)"
+      ],
       "explanation": "The samples need to be carried up the paper by the solvent. If they sit under the solvent surface, they just dissolve into the bulk liquid."
     },
     {
@@ -176,7 +239,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "A food colouring produces three spots on a chromatogram. What does this show?",
+      "question": "Figure 1 shows the chromatogram of a food colouring.\nWhat does Figure 1 show about the food colouring?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 320\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"110\" y=\"20\" width=\"90\" height=\"280\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"40\" x2=\"200\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><line x1=\"110\" y1=\"260\" x2=\"200\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"155\" y=\"290\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Food colouring</text><circle cx=\"155\" cy=\"210\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"145\" r=\"7\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"80\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"40\" x2=\"217\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"220\" y=\"44\" font-size=\"13\" fill=\"currentColor\">Solvent front</text><line x1=\"200\" y1=\"260\" x2=\"217\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"220\" y=\"264\" font-size=\"13\" fill=\"currentColor\">Start line</text></svg>"
+      },
       "options": [
         "It is a pure substance",
         "It contains at least three different substances",
@@ -184,7 +250,9 @@
         "The solvent was too deep"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: it is a mixture of at least three substances"],
+      "markScheme": [
+        "1 mark: it is a mixture of at least three substances"
+      ],
       "explanation": "Each spot is a different substance. It is 'at least' three because two substances could have the same Rf value in this solvent and appear as one spot."
     },
     {
@@ -193,9 +261,41 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Food colouring X gave spots with Rf values of 0.30 and 0.70. Dye A has an Rf value of 0.30, dye B has 0.70 and dye C has 0.50.\nWhat can you conclude about food colouring X? Explain your answer.",
-      "acceptedAnswers": ["mixture", "contains A and B", "does not contain C", "same Rf values as A and B"],
-      "markScheme": ["1 mark: X is a mixture that contains dyes A and B (not C)", "1 mark: because its spots have the same Rf values (and colours) as A and B"],
+      "question": "A student used paper chromatography to analyse food colouring X and three dyes, A, B and C.\nTable 1 shows the results.\nWhat can you conclude about food colouring X?\nExplain your answer.",
+      "table": {
+        "headers": [
+          "Substance",
+          "Rf value(s)"
+        ],
+        "rows": [
+          [
+            "Food colouring X",
+            "0.30 and 0.70"
+          ],
+          [
+            "Dye A",
+            "0.30"
+          ],
+          [
+            "Dye B",
+            "0.70"
+          ],
+          [
+            "Dye C",
+            "0.50"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "mixture",
+        "contains A and B",
+        "does not contain C",
+        "same Rf values as A and B"
+      ],
+      "markScheme": [
+        "1 mark: X is a mixture that contains dyes A and B (not C)",
+        "1 mark: because its spots have the same Rf values (and colours) as A and B"
+      ],
       "explanation": "Matching Rf values in the same solvent show the substances are probably the same. X has no spot at Rf 0.50, so it does not contain dye C."
     },
     {
@@ -204,9 +304,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "One substance in food colouring Y stayed on the start line. Explain why, and suggest how the student could find out what it is.",
-      "acceptedAnswers": ["insoluble in water", "does not dissolve in the solvent", "use a different solvent", "ethanol"],
-      "markScheme": ["1 mark: the substance is insoluble in the solvent (water)", "1 mark: repeat the chromatography using a different solvent (for example ethanol) and compare with known substances"],
+      "question": "Figure 1 shows the chromatogram of food colouring Y. The solvent was water.\nOne substance in food colouring Y stayed on the start line.\nExplain why.\nSuggest how the student could find out what the substance is.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 320\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"120\" y=\"20\" width=\"90\" height=\"280\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"40\" x2=\"210\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><line x1=\"120\" y1=\"260\" x2=\"210\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"165\" y=\"290\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Y</text><circle cx=\"165\" cy=\"260\" r=\"7\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"165\" cy=\"170\" r=\"7\" fill=\"#fde68a\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"165\" cy=\"100\" r=\"7\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"40\" x2=\"227\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"230\" y=\"44\" font-size=\"13\" fill=\"currentColor\">Solvent front</text><line x1=\"210\" y1=\"260\" x2=\"227\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"230\" y=\"264\" font-size=\"13\" fill=\"currentColor\">Start line</text></svg>"
+      },
+      "acceptedAnswers": [
+        "insoluble in water",
+        "does not dissolve in the solvent",
+        "use a different solvent",
+        "ethanol"
+      ],
+      "markScheme": [
+        "1 mark: the substance is insoluble in the solvent (water)",
+        "1 mark: repeat the chromatography using a different solvent (for example ethanol) and compare with known substances"
+      ],
       "explanation": "A substance can only move up the paper if it dissolves in the mobile phase. A different solvent may dissolve it and let it be identified."
     },
     {
@@ -215,7 +326,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Why is a lid placed on the beaker during chromatography?",
+      "question": "A student carries out paper chromatography in a beaker.\nWhy is a lid placed on the beaker?",
       "options": [
         "To stop the solvent evaporating from the paper, so the solvent front moves steadily",
         "To keep light out so the dyes do not fade",
@@ -223,7 +334,9 @@
         "To make the spots move faster by heating"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: to stop the solvent evaporating (keep the air saturated with solvent vapour)"],
+      "markScheme": [
+        "1 mark: to stop the solvent evaporating (keep the air saturated with solvent vapour)"
+      ],
       "explanation": "If solvent evaporated from the paper, the solvent front would move unevenly and the Rf values would be unreliable. A lid also reduces the release of flammable or harmful solvent vapour."
     },
     {
@@ -232,12 +345,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A spot has an Rf value of 0.65. The solvent moved 9.0 cm from the start line.\nCalculate how far the spot moved from the start line.",
+      "question": "A spot on a chromatogram has an Rf value of 0.65. The solvent moved 9.0 cm from the start line.\nCalculate the distance the spot moved from the start line.",
       "numericAnswer": 5.85,
       "tolerance": 0.01,
       "unit": "cm",
-      "markScheme": ["1 mark: distance = Rf × distance moved by solvent = 0.65 × 9.0", "1 mark: 5.85 cm (accept 5.9 cm)"],
-      "explanation": "Rearrange Rf = substance distance ÷ solvent distance to give substance distance = Rf × solvent distance = 0.65 × 9.0 = 5.85 cm."
+      "markScheme": [
+        "1 mark: distance = Rf × distance moved by solvent = 0.65 × 9.0",
+        "1 mark: 5.85 cm (accept 5.9 cm)"
+      ],
+      "explanation": "Rearrange Rf = substance distance ÷ solvent distance to give substance distance = Rf × solvent distance = 0.65 × 9.0 = 5.85 cm.",
+      "answerLabel": "Distance moved by spot"
     },
     {
       "id": "chem-rp6-q10",
@@ -245,9 +362,16 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Give two reasons why it is important to keep the sample spots small.",
-      "acceptedAnswers": ["spots do not overlap", "easier to measure centre", "clearer separation", "more accurate Rf"],
-      "markScheme": ["1 mark each, up to 2: large spots spread and overlap with other spots; small spots separate more clearly; it is easier to find the centre of a small spot, giving more accurate Rf values"],
+      "question": "A student puts spots of food colouring on the start line of a chromatography paper.\nGive two reasons why the spots should be small.",
+      "acceptedAnswers": [
+        "spots do not overlap",
+        "easier to measure centre",
+        "clearer separation",
+        "more accurate Rf"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: large spots spread and overlap with other spots; small spots separate more clearly; it is easier to find the centre of a small spot, giving more accurate Rf values"
+      ],
       "explanation": "Large spots produce long smears. Their centres are hard to locate, and neighbouring substances may not separate."
     },
     {
@@ -256,7 +380,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Dye D has a higher Rf value than dye A in water. Which statement explains this?",
+      "question": "Two dyes, A and D, are separated by paper chromatography using water as the solvent.\nDye D has a higher Rf value than dye A.\nWhich statement explains this?",
       "options": [
         "Dye D is more strongly attracted to the paper than dye A",
         "Dye D is less soluble in water than dye A",
@@ -264,7 +388,9 @@
         "Dye D has a larger spot than dye A"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: dye D spends more time in the mobile phase (more soluble in the solvent / less attracted to the paper)"],
+      "markScheme": [
+        "1 mark: dye D spends more time in the mobile phase (more soluble in the solvent / less attracted to the paper)"
+      ],
       "explanation": "Substances that are more soluble in the solvent, or less attracted to the stationary phase, move further. Spot size does not change the Rf value."
     },
     {
@@ -274,8 +400,16 @@
       "difficulty": 3,
       "marks": 2,
       "question": "A student says that because a dye gave one spot in water, it must be a pure substance. Evaluate this statement.",
-      "acceptedAnswers": ["two substances could have the same Rf value", "try a different solvent", "one spot in every solvent", "melting point"],
-      "markScheme": ["1 mark: it suggests the dye is pure, but two substances could have the same Rf value in water (or one could be insoluble and hidden on the start line)", "1 mark: it should be tested in other solvents; a pure substance gives a single spot in all solvents"],
+      "acceptedAnswers": [
+        "two substances could have the same Rf value",
+        "try a different solvent",
+        "one spot in every solvent",
+        "melting point"
+      ],
+      "markScheme": [
+        "1 mark: it suggests the dye is pure, but two substances could have the same Rf value in water (or one could be insoluble and hidden on the start line)",
+        "1 mark: it should be tested in other solvents; a pure substance gives a single spot in all solvents"
+      ],
       "explanation": "One spot in one solvent is good evidence but not proof. Running the dye in a second solvent, or checking its melting point, would confirm it is pure."
     },
     {
@@ -285,9 +419,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which of these could be an Rf value?",
-      "options": ["1.45", "0.62", "6.2 cm", "−0.30"],
+      "options": [
+        "1.45",
+        "0.62",
+        "6.2 cm",
+        "−0.30"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: 0.62"],
+      "markScheme": [
+        "1 mark: 0.62"
+      ],
       "explanation": "Rf values are between 0 and 1 because a substance cannot move further than the solvent. Rf values have no units."
     },
     {
@@ -300,8 +441,12 @@
       "numericAnswer": 0.4,
       "tolerance": 0.01,
       "unit": "",
-      "markScheme": ["1 mark: converts to the same units: 34 mm = 3.4 cm (or 8.5 cm = 85 mm)", "1 mark: 3.4 ÷ 8.5 = 0.40"],
-      "explanation": "Both distances must be in the same units before dividing. 34 ÷ 8.5 = 4.0 is wrong because it mixes millimetres and centimetres."
+      "markScheme": [
+        "1 mark: converts to the same units: 34 mm = 3.4 cm (or 8.5 cm = 85 mm)",
+        "1 mark: 3.4 ÷ 8.5 = 0.40"
+      ],
+      "explanation": "Both distances must be in the same units before dividing. 34 ÷ 8.5 = 4.0 is wrong because it mixes millimetres and centimetres.",
+      "answerLabel": "Rf value"
     },
     {
       "id": "chem-rp6-q15",

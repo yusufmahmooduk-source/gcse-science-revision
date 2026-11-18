@@ -267,18 +267,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "In which direction does gravity act on a satellite in a circular orbit around the Earth?",
+      "question": "Figure 1 shows a satellite in a circular orbit around the Earth. The satellite is moving anticlockwise.\nWhich arrow shows the direction of the gravitational force on the satellite?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"200\" cy=\"150\" r=\"45\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Earth</text><circle cx=\"200\" cy=\"150\" r=\"115\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><rect x=\"308\" y=\"145\" width=\"14\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"296\" y=\"147\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"147\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"315\" y1=\"140\" x2=\"315\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"315,80 311,88 319,88\" fill=\"currentColor\"/><text x=\"325\" y=\"90\" font-size=\"13\" fill=\"currentColor\" font-weight=\"bold\">A</text><line x1=\"305\" y1=\"150\" x2=\"255\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"255,150 263,154 263,146\" fill=\"currentColor\"/><text x=\"262\" y=\"140\" font-size=\"13\" fill=\"currentColor\" font-weight=\"bold\">B</text><line x1=\"334\" y1=\"150\" x2=\"390\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"390,150 382,146 382,154\" fill=\"currentColor\"/><text x=\"380\" y=\"140\" font-size=\"13\" fill=\"currentColor\" font-weight=\"bold\">C</text><line x1=\"315\" y1=\"160\" x2=\"315\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"315,220 319,212 311,212\" fill=\"currentColor\"/><text x=\"325\" y=\"215\" font-size=\"13\" fill=\"currentColor\" font-weight=\"bold\">D</text></svg>"
+      },
       "options": [
-        "Forwards, along its path",
-        "Towards the centre of the Earth",
-        "Away from the Earth",
-        "Backwards, against its motion"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "answer": 1,
       "markScheme": [
         "1 mark: Towards the centre of the Earth"
       ],
-      "explanation": "Gravity always pulls the satellite towards the centre of the Earth, the centre of the circular orbit."
+      "explanation": "Arrow B points towards the centre of the Earth, which is the centre of the circular orbit. Gravity always pulls the satellite towards the centre of the Earth. Arrow A is the direction of motion (along the path), arrow C points away from the Earth and arrow D is backwards, against the motion."
     },
     {
       "id": "p8-orbital-motion-q05",
@@ -305,7 +308,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What would happen to a satellite if gravity suddenly stopped acting on it?",
+      "question": "Figure 1 shows a satellite in a circular orbit around the Earth. The arrow shows the direction the satellite is moving at point P.\nWhat would happen to the satellite if gravity suddenly stopped acting on it at point P?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"200\" cy=\"150\" r=\"45\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Earth</text><circle cx=\"200\" cy=\"150\" r=\"115\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><rect x=\"193\" y=\"30\" width=\"14\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"181\" y=\"32\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"209\" y=\"32\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"35\" x2=\"290\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"290,35 282,31 282,39\" fill=\"currentColor\"/><text x=\"195\" y=\"18\" font-size=\"13\" fill=\"currentColor\" font-weight=\"bold\">P</text></svg>"
+      },
       "options": [
         "It would move off in a straight line along the tangent",
         "It would fall to Earth",
@@ -324,7 +330,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which satellite moves at the highest speed?",
+      "question": "Table 1 shows the orbit radius of three objects that orbit the Earth.\nWhich object moves at the highest speed?",
+      "table": {
+        "headers": [
+          "Object",
+          "Radius of orbit in m"
+        ],
+        "rows": [
+          [
+            "Satellite in a low orbit",
+            "6.8 × 10⁶"
+          ],
+          [
+            "Satellite in a geostationary orbit",
+            "4.2 × 10⁷"
+          ],
+          [
+            "The Moon",
+            "3.8 × 10⁸"
+          ]
+        ]
+      },
       "options": [
         "They all move at the same speed",
         "One in a geostationary orbit",
@@ -400,7 +426,11 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A satellite orbits the Earth at a radius of 6.8 × 10^6 m and takes 92 minutes to complete one orbit. Calculate its orbital speed in m/s.",
+      "question": "Figure 1 shows a satellite orbiting the Earth.\nThe radius of the orbit is 6.8 × 10⁶ m.\nThe satellite takes 92 minutes to complete one orbit.\nCalculate the orbital speed of the satellite.\nUse the equations:\ncircumference of orbit = 2 × π × radius\ndistance travelled = speed × time",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"200\" cy=\"150\" r=\"40\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"177\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Earth</text><circle cx=\"200\" cy=\"150\" r=\"115\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><rect x=\"308\" y=\"145\" width=\"14\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"296\" y=\"147\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"147\" width=\"10\" height=\"6\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"150\" r=\"3\" fill=\"currentColor\"/><line x1=\"200\" y1=\"150\" x2=\"298\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polygon points=\"298,150 290,146 290,154\" fill=\"currentColor\"/><text x=\"268\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">radius</text><text x=\"335\" y=\"172\" font-size=\"12\" fill=\"currentColor\">satellite</text></svg>"
+      },
+      "answerLabel": "Orbital speed",
       "numericAnswer": 7740,
       "tolerance": 0.02,
       "unit": "m/s",
@@ -417,7 +447,8 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A geostationary satellite orbits at a radius of 4.2 × 10^7 m and takes 24 hours for one orbit. Calculate its orbital speed in m/s.",
+      "question": "A geostationary satellite orbits the Earth at a radius of 4.2 × 10⁷ m.\nIt takes 24 hours to complete one orbit.\nCalculate the orbital speed of the satellite.\nUse the equations:\ncircumference of orbit = 2 × π × radius\ndistance travelled = speed × time",
+      "answerLabel": "Orbital speed",
       "numericAnswer": 3054,
       "tolerance": 0.02,
       "unit": "m/s",
@@ -434,7 +465,20 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "The Earth orbits the Sun at a radius of 1.5 × 10^11 m once every 365 days. Calculate the Earth's orbital speed in km/s.",
+      "question": "Table 1 shows data about the orbit of the Earth around the Sun.\nCalculate the orbital speed of the Earth.\nGive your answer in km/s.\nUse the equations:\ncircumference of orbit = 2 × π × radius\ndistance travelled = speed × time",
+      "table": {
+        "headers": [
+          "Radius of orbit in m",
+          "Time for one orbit in days"
+        ],
+        "rows": [
+          [
+            "1.5 × 10¹¹",
+            "365"
+          ]
+        ]
+      },
+      "answerLabel": "Orbital speed",
       "numericAnswer": 29.9,
       "tolerance": 0.02,
       "unit": "km/s",
@@ -451,7 +495,8 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A satellite orbits at a radius of 7.0 × 10^6 m with a speed of 7.5 km/s. Calculate the time it takes to complete one orbit, in minutes.",
+      "question": "A satellite orbits the Earth at a radius of 7.0 × 10⁶ m.\nThe speed of the satellite is 7.5 km/s.\nCalculate the time taken for the satellite to complete one orbit.\nGive your answer in minutes.\nUse the equations:\ncircumference of orbit = 2 × π × radius\ndistance travelled = speed × time",
+      "answerLabel": "Time",
       "numericAnswer": 97.7,
       "tolerance": 0.02,
       "unit": "minutes",
@@ -628,7 +673,10 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 6,
-      "question": "A communications satellite is moved from a low orbit into a much higher circular orbit. Explain how gravity keeps the satellite in a circular orbit, and compare its speed and velocity in the two orbits.",
+      "question": "Figure 1 shows two circular orbits around the Earth.\nA communications satellite is moved from the low orbit into the high orbit.\nExplain how gravity keeps the satellite in a circular orbit.\nCompare the speed and velocity of the satellite in the two orbits.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"200\" cy=\"150\" r=\"45\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Earth</text><circle cx=\"200\" cy=\"150\" r=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><circle cx=\"200\" cy=\"150\" r=\"135\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"200\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">low orbit</text><text x=\"200\" y=\"48\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">high orbit</text></svg>"
+      },
       "markScheme": [
         "Indicative content: gravity acts towards the centre of the Earth; at right angles to the satellite's motion; changes direction of motion, not speed; so velocity changes continuously while speed is constant; this is an acceleration towards the centre; without gravity it would move in a straight line along the tangent; in the higher orbit the gravitational force is weaker; a lower speed is needed for a stable orbit at a larger radius; so it moves more slowly in the higher orbit; it also takes longer to complete each orbit (greater distance, lower speed); for a stable orbit the radius must change if the speed changes.",
         "Level 3 (5 to 6 marks): clear explanation of constant speed and changing velocity in terms of the direction of gravity, plus a correct comparison of speeds linked to gravitational strength and radius.",

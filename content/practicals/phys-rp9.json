@@ -63,16 +63,52 @@
     }
   ],
   "results": {
-    "headers": ["Angle of incidence (°)", "Angle of reflection (°)", "Angle of refraction in glass (°)"],
+    "headers": [
+      "Angle of incidence (°)",
+      "Angle of reflection (°)",
+      "Angle of refraction in glass (°)"
+    ],
     "rows": [
-      ["0", "0", "0"],
-      ["10", "10", "7"],
-      ["20", "21", "13"],
-      ["30", "30", "20"],
-      ["40", "39", "25"],
-      ["50", "50", "31"],
-      ["60", "61", "35"],
-      ["70", "70", "39"]
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "10",
+        "10",
+        "7"
+      ],
+      [
+        "20",
+        "21",
+        "13"
+      ],
+      [
+        "30",
+        "30",
+        "20"
+      ],
+      [
+        "40",
+        "39",
+        "25"
+      ],
+      [
+        "50",
+        "50",
+        "31"
+      ],
+      [
+        "60",
+        "61",
+        "35"
+      ],
+      [
+        "70",
+        "70",
+        "39"
+      ]
     ],
     "notes": "All angles are measured from the normal with a protractor to the nearest 1°, and are means of two repeats. Plot the angle of reflection against the angle of incidence (a straight line through the origin with a gradient of 1), and the angle of refraction against the angle of incidence (a curve that becomes less steep at larger angles)."
   },
@@ -132,7 +168,9 @@
         "The angle of reflection is always smaller than the angle of incidence"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: angle of incidence = angle of reflection"],
+      "markScheme": [
+        "1 mark: angle of incidence = angle of reflection"
+      ],
       "explanation": "This is the law of reflection. Both angles are measured from the normal."
     },
     {
@@ -142,9 +180,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "When measuring the angle of incidence of a ray hitting a glass block, the angle should be measured from which line?",
-      "options": ["The surface of the block", "The normal", "The emergent ray", "The edge of the paper"],
+      "options": [
+        "The surface of the block",
+        "The normal",
+        "The emergent ray",
+        "The edge of the paper"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: the normal"],
+      "markScheme": [
+        "1 mark: the normal"
+      ],
       "explanation": "All angles in reflection and refraction are measured from the normal, the line at 90° to the surface where the ray meets it."
     },
     {
@@ -153,9 +198,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A ray of light travels from air into a glass block at an angle of incidence of 40°.\nDescribe and explain what happens to the direction of the ray.",
-      "acceptedAnswers": ["bends towards the normal", "slows down", "speed decreases", "angle of refraction smaller"],
-      "markScheme": ["1 mark: it bends towards the normal (angle of refraction smaller than 40°)", "1 mark: because light slows down when it enters glass"],
+      "question": "Figure 1 shows a ray of light travelling from air towards a glass block. The angle of incidence is 40°.\nDescribe and explain what happens to the direction of the ray when it enters the glass block.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><rect x=\"60\" y=\"120\" width=\"280\" height=\"100\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"220\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"116.4\" y1=\"20.4\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M162.1,74.8L150.5,68.8L158.2,62.4Z\" fill=\"currentColor\"/><path d=\"M200,80A40 40 0 0 0 174.3,89.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"178\" y=\"66\" font-size=\"12\" fill=\"currentColor\">40°</text><text x=\"70\" y=\"140\" font-size=\"12\" fill=\"currentColor\">glass block</text><text x=\"70\" y=\"40\" font-size=\"12\" fill=\"currentColor\">air</text><text x=\"206\" y=\"30\" font-size=\"12\" fill=\"currentColor\">normal</text></svg>"
+      },
+      "acceptedAnswers": [
+        "bends towards the normal",
+        "slows down",
+        "speed decreases",
+        "angle of refraction smaller"
+      ],
+      "markScheme": [
+        "1 mark: it bends towards the normal (angle of refraction smaller than 40°)",
+        "1 mark: because light slows down when it enters glass"
+      ],
       "explanation": "Refraction happens because the speed of light changes at the boundary. Glass is optically denser than air, so light slows down and bends towards the normal."
     },
     {
@@ -164,12 +220,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A ray of light hits a plane mirror. The angle between the incident ray and the surface of the mirror is 55°.\nCalculate the angle of reflection.",
+      "question": "Figure 1 shows a ray of light hitting a plane mirror.\nDetermine the angle of reflection.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><line x1=\"60\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M70 122l-8 10M84 122l-8 10M98 122l-8 10M112 122l-8 10M126 122l-8 10M140 122l-8 10M154 122l-8 10M168 122l-8 10M182 122l-8 10M196 122l-8 10M210 122l-8 10M224 122l-8 10M238 122l-8 10M252 122l-8 10M266 122l-8 10M280 122l-8 10M294 122l-8 10M308 122l-8 10M322 122l-8 10\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"131.2\" y1=\"21.7\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M169,75.8L158.1,68.8L166.3,63.1Z\" fill=\"currentColor\"/><path d=\"M150,120A50 50 0 0 1 171.3,79\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"122\" y=\"108\" font-size=\"12\" fill=\"currentColor\">55°</text><text x=\"250\" y=\"150\" font-size=\"12\" fill=\"currentColor\">plane mirror</text><text x=\"206\" y=\"30\" font-size=\"12\" fill=\"currentColor\">normal</text></svg>"
+      },
       "numericAnswer": 35,
       "tolerance": 0.01,
       "unit": "°",
-      "markScheme": ["1 mark: angle of incidence = 90 − 55 = 35°", "1 mark: angle of reflection = 35°"],
-      "explanation": "Angles are measured from the normal, which is at 90° to the mirror. The angle of incidence is 35°, so the angle of reflection is also 35°. Giving 55° is a common mistake."
+      "markScheme": [
+        "1 mark: angle of incidence = 90 − 55 = 35°",
+        "1 mark: angle of reflection = 35°"
+      ],
+      "explanation": "Angles are measured from the normal, which is at 90° to the mirror. The angle of incidence is 35°, so the angle of reflection is also 35°. Giving 55° is a common mistake.",
+      "answerLabel": "Angle of reflection"
     },
     {
       "id": "phys-rp9-q05",
@@ -177,12 +240,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A ray of light enters a glass block with an angle of incidence of 50°. The angle of refraction is 31°.\nCalculate the angle by which the ray has changed direction.",
+      "question": "Figure 1 shows a ray of light entering a glass block.\nCalculate the angle by which the ray changes direction.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><rect x=\"60\" y=\"120\" width=\"280\" height=\"120\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"10\" x2=\"200\" y2=\"240\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"100.4\" y1=\"36.4\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M154.8,82.1L142.4,78.2L148.8,70.5Z\" fill=\"currentColor\"/><line x1=\"200\" y1=\"120\" x2=\"261.8\" y2=\"222.9\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M234,176.6L223.5,168.9L232.1,163.7Z\" fill=\"currentColor\"/><path d=\"M200,80A40 40 0 0 0 169.4,94.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M200,166A46 46 0 0 0 223.7,159.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"172\" y=\"66\" font-size=\"12\" fill=\"currentColor\">50°</text><text x=\"206\" y=\"192\" font-size=\"12\" fill=\"currentColor\">31°</text><text x=\"70\" y=\"140\" font-size=\"12\" fill=\"currentColor\">glass</text><text x=\"70\" y=\"40\" font-size=\"12\" fill=\"currentColor\">air</text></svg>"
+      },
       "numericAnswer": 19,
       "tolerance": 0.01,
       "unit": "°",
-      "markScheme": ["1 mark: 50 − 31 = 19°"],
-      "explanation": "The change in direction (deviation) is the difference between the angle of incidence and the angle of refraction."
+      "markScheme": [
+        "1 mark: 50 − 31 = 19°"
+      ],
+      "explanation": "The change in direction (deviation) is the difference between the angle of incidence and the angle of refraction.",
+      "answerLabel": "Change in direction"
     },
     {
       "id": "phys-rp9-q06",
@@ -191,8 +260,15 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Give one reason why a ray box with a narrow slit is used, in a darkened room, when investigating refraction.",
-      "acceptedAnswers": ["thin ray", "easier to see the ray", "easier to mark the centre of the ray", "more accurate position"],
-      "markScheme": ["1 mark: gives a thin ray / makes the ray easier to see so its path (centre) can be marked accurately"],
+      "acceptedAnswers": [
+        "thin ray",
+        "easier to see the ray",
+        "easier to mark the centre of the ray",
+        "more accurate position"
+      ],
+      "markScheme": [
+        "1 mark: gives a thin ray / makes the ray easier to see so its path (centre) can be marked accurately"
+      ],
       "explanation": "A wide or faint ray makes it hard to decide exactly where to put the crosses, which leads to errors in the measured angles."
     },
     {
@@ -202,8 +278,14 @@
       "difficulty": 2,
       "marks": 1,
       "question": "A ray of light enters a glass block along the normal (angle of incidence 0°).\nState what happens to the direction of the ray.",
-      "acceptedAnswers": ["does not change direction", "passes straight through", "no bending"],
-      "markScheme": ["1 mark: it does not change direction / passes straight through (it still slows down)"],
+      "acceptedAnswers": [
+        "does not change direction",
+        "passes straight through",
+        "no bending"
+      ],
+      "markScheme": [
+        "1 mark: it does not change direction / passes straight through (it still slows down)"
+      ],
       "explanation": "The ray still changes speed, but because it meets the boundary at 90° it does not bend."
     },
     {
@@ -212,7 +294,10 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A ray of light leaves a glass block and passes into air at an angle of incidence of 25°. What happens to the ray?",
+      "question": "Figure 1 shows a ray of light inside a glass block. The ray reaches the surface of the block with an angle of incidence of 25°.\nWhat happens to the ray as it passes into the air?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><rect x=\"60\" y=\"100\" width=\"280\" height=\"120\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"10\" x2=\"200\" y2=\"220\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"149.3\" y1=\"208.8\" x2=\"200\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M177.2,149L176.6,162L167.6,157.7Z\" fill=\"currentColor\"/><path d=\"M200,160A60 60 0 0 1 174.6,154.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"186\" y=\"180\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">25°</text><text x=\"260\" y=\"130\" font-size=\"12\" fill=\"currentColor\">glass</text><text x=\"260\" y=\"60\" font-size=\"12\" fill=\"currentColor\">air</text></svg>"
+      },
       "options": [
         "It bends towards the normal",
         "It bends away from the normal",
@@ -220,7 +305,9 @@
         "It reflects back into the block"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: it bends away from the normal"],
+      "markScheme": [
+        "1 mark: it bends away from the normal"
+      ],
       "explanation": "Light speeds up as it goes from glass into air, so it bends away from the normal. The angle in air is larger than 25°."
     },
     {
@@ -230,8 +317,15 @@
       "difficulty": 2,
       "marks": 2,
       "question": "When tracing a ray of light, a student marks its path with two crosses.\nExplain why the crosses should be placed as far apart as possible.",
-      "acceptedAnswers": ["reduces error in the direction", "more accurate line", "small error in position has less effect on the angle"],
-      "markScheme": ["1 mark: the line drawn through the crosses is more accurate", "1 mark: a small error in the position of a cross gives a smaller error in the angle"],
+      "acceptedAnswers": [
+        "reduces error in the direction",
+        "more accurate line",
+        "small error in position has less effect on the angle"
+      ],
+      "markScheme": [
+        "1 mark: the line drawn through the crosses is more accurate",
+        "1 mark: a small error in the position of a cross gives a smaller error in the angle"
+      ],
       "explanation": "If the crosses are close together, a 1 mm error in one of them changes the direction of the line a lot. Far apart, the same error barely changes the angle."
     },
     {
@@ -240,12 +334,18 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A ray of light hits the surface of a glass block. The angle between the ray and the surface of the block is 25°.\nWhat is the angle of incidence?",
+      "question": "Figure 1 shows a ray of light hitting the surface of a glass block.\nDetermine the angle of incidence.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><rect x=\"60\" y=\"120\" width=\"280\" height=\"70\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"190\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"73.1\" y1=\"60.8\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M142,92.9L129,92.4L133.2,83.3Z\" fill=\"currentColor\"/><path d=\"M130,120A70 70 0 0 1 136.6,90.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"100\" y=\"112\" font-size=\"12\" fill=\"currentColor\">25°</text><text x=\"260\" y=\"160\" font-size=\"12\" fill=\"currentColor\">glass block</text><text x=\"206\" y=\"30\" font-size=\"12\" fill=\"currentColor\">normal</text></svg>"
+      },
       "numericAnswer": 65,
       "tolerance": 0.01,
       "unit": "°",
-      "markScheme": ["1 mark: 90 − 25 = 65°"],
-      "explanation": "The angle of incidence is measured from the normal, which is at 90° to the surface. 90° − 25° = 65°."
+      "markScheme": [
+        "1 mark: 90 − 25 = 65°"
+      ],
+      "explanation": "The angle of incidence is measured from the normal, which is at 90° to the surface. 90° − 25° = 65°.",
+      "answerLabel": "Angle of incidence"
     },
     {
       "id": "phys-rp9-q11",
@@ -261,7 +361,9 @@
         "Specular reflection, because the surface is rough"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: specular reflection, because the surface is smooth"],
+      "markScheme": [
+        "1 mark: specular reflection, because the surface is smooth"
+      ],
       "explanation": "A smooth surface reflects all the light in one direction (specular). A rough surface, such as paper, scatters it in many directions (diffuse)."
     },
     {
@@ -271,8 +373,17 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Give one hazard when using a ray box in a darkened room and a precaution to reduce the risk.",
-      "acceptedAnswers": ["ray box gets hot", "burns", "do not touch bulb", "tripping in the dark", "keep bags under benches"],
-      "markScheme": ["1 mark: hazard: hot ray box / tripping in the dark", "1 mark: matching precaution: do not touch the bulb housing and let it cool / keep bags and leads out of the way"],
+      "acceptedAnswers": [
+        "ray box gets hot",
+        "burns",
+        "do not touch bulb",
+        "tripping in the dark",
+        "keep bags under benches"
+      ],
+      "markScheme": [
+        "1 mark: hazard: hot ray box / tripping in the dark",
+        "1 mark: matching precaution: do not touch the bulb housing and let it cool / keep bags and leads out of the way"
+      ],
       "explanation": "The filament bulb in a ray box gets very hot, and a darkened room makes it easier to trip."
     },
     {
@@ -281,12 +392,18 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "A ray of light enters one side of a rectangular glass block with an angle of incidence of 40°. It passes through the block and leaves through the opposite, parallel side.\nWhat is the angle between the emergent ray and the normal?",
+      "question": "Figure 1 shows a ray of light passing through a rectangular glass block. The angle of incidence at the first surface is 40°.\nDetermine angle X, the angle between the emergent ray and the normal.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\"><rect x=\"60\" y=\"80\" width=\"280\" height=\"100\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"10\" x2=\"160\" y2=\"120\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"207.4\" y1=\"140\" x2=\"207.4\" y2=\"250\" stroke=\"currentColor\" stroke-dasharray=\"6 4\" stroke-width=\"1\"/><line x1=\"108.6\" y1=\"18.7\" x2=\"160\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M138.2,53.9L126.6,48L134.3,41.5Z\" fill=\"currentColor\"/><line x1=\"160\" y1=\"80\" x2=\"207.4\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M186.3,135.4L176.6,126.7L185.6,122.4Z\" fill=\"currentColor\"/><line x1=\"207.4\" y1=\"180\" x2=\"258.8\" y2=\"241.3\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M237,215.2L225.4,209.3L233.1,202.8Z\" fill=\"currentColor\"/><path d=\"M160,18A62 62 0 0 0 120.1,32.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M207.4,220A40 40 0 0 0 233.1,210.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"146\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40°</text><text x=\"217.4\" y=\"236\" font-size=\"12\" fill=\"currentColor\">X</text><text x=\"270\" y=\"110\" font-size=\"12\" fill=\"currentColor\">glass</text><text x=\"270\" y=\"210\" font-size=\"12\" fill=\"currentColor\">air</text></svg>"
+      },
       "numericAnswer": 40,
       "tolerance": 0.01,
       "unit": "°",
-      "markScheme": ["1 mark: 40°"],
-      "explanation": "The ray bends towards the normal on entering and away from the normal by the same amount on leaving, because the sides are parallel. So the emergent ray is parallel to the incident ray and makes 40° with the normal."
+      "markScheme": [
+        "1 mark: 40°"
+      ],
+      "explanation": "The ray bends towards the normal on entering and away from the normal by the same amount on leaving, because the sides are parallel. So the emergent ray is parallel to the incident ray and makes 40° with the normal.",
+      "answerLabel": "Angle X"
     },
     {
       "id": "phys-rp9-q14",
@@ -294,9 +411,37 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A student's results for a glass block show:\nangle of incidence 10°, angle of refraction 7°\nangle of incidence 60°, angle of refraction 35°\nangle of incidence 70°, angle of refraction 39°\nDescribe the relationship between the angle of incidence and the angle of refraction shown by these results.",
-      "acceptedAnswers": ["angle of refraction increases as angle of incidence increases", "not proportional", "angle of refraction always smaller", "increases less at larger angles"],
-      "markScheme": ["1 mark: as the angle of incidence increases, the angle of refraction increases (and is always smaller)", "1 mark: but not in direct proportion: the angle of refraction increases by less for each 10° at larger angles"],
+      "question": "A student measured the angle of refraction for different angles of incidence in a glass block.\nTable 1 shows some of the results.\nDescribe the relationship between the angle of incidence and the angle of refraction shown in Table 1.",
+      "table": {
+        "headers": [
+          "Angle of incidence in degrees",
+          "Angle of refraction in degrees"
+        ],
+        "rows": [
+          [
+            "10",
+            "7"
+          ],
+          [
+            "60",
+            "35"
+          ],
+          [
+            "70",
+            "39"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "angle of refraction increases as angle of incidence increases",
+        "not proportional",
+        "angle of refraction always smaller",
+        "increases less at larger angles"
+      ],
+      "markScheme": [
+        "1 mark: as the angle of incidence increases, the angle of refraction increases (and is always smaller)",
+        "1 mark: but not in direct proportion: the angle of refraction increases by less for each 10° at larger angles"
+      ],
       "explanation": "At 10°, the angle of refraction is 7° (0.7 of the incidence angle) but at 70° it is 39° (about 0.56 of it), so the relationship is not proportional."
     },
     {

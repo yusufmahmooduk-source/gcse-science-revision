@@ -72,17 +72,67 @@
     }
   ],
   "results": {
-    "headers": ["Volume of NaOH added (cm³)", "Highest temperature, run 1 (°C)", "Highest temperature, run 2 (°C)", "Mean highest temperature (°C)"],
+    "headers": [
+      "Volume of NaOH added (cm³)",
+      "Highest temperature, run 1 (°C)",
+      "Highest temperature, run 2 (°C)",
+      "Mean highest temperature (°C)"
+    ],
     "rows": [
-      ["0", "19.0", "19.2", "19.1"],
-      ["5", "22.5", "22.7", "22.6"],
-      ["10", "25.2", "25.4", "25.3"],
-      ["15", "27.3", "27.5", "27.4"],
-      ["20", "28.9", "29.1", "29.0"],
-      ["25", "30.3", "30.5", "30.4"],
-      ["30", "31.4", "31.6", "31.5"],
-      ["35", "30.5", "30.7", "30.6"],
-      ["40", "29.6", "29.8", "29.7"]
+      [
+        "0",
+        "19.0",
+        "19.2",
+        "19.1"
+      ],
+      [
+        "5",
+        "22.5",
+        "22.7",
+        "22.6"
+      ],
+      [
+        "10",
+        "25.2",
+        "25.4",
+        "25.3"
+      ],
+      [
+        "15",
+        "27.3",
+        "27.5",
+        "27.4"
+      ],
+      [
+        "20",
+        "28.9",
+        "29.1",
+        "29.0"
+      ],
+      [
+        "25",
+        "30.3",
+        "30.5",
+        "30.4"
+      ],
+      [
+        "30",
+        "31.4",
+        "31.6",
+        "31.5"
+      ],
+      [
+        "35",
+        "30.5",
+        "30.7",
+        "30.6"
+      ],
+      [
+        "40",
+        "29.6",
+        "29.8",
+        "29.7"
+      ]
     ],
     "notes": "Plot mean highest temperature against volume of NaOH added. Draw one line of best fit through the rising points (0 to 30 cm³) and another through the falling points (30 to 40 cm³). The lines cross at about 30 cm³ and 31.5 °C. Maximum temperature rise = 31.5 − 19.1 = 12.4 °C."
   },
@@ -134,7 +184,10 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Why is a polystyrene cup used instead of a glass beaker to hold the reaction mixture?",
+      "question": "Figure 1 shows the apparatus a student used to investigate the temperature change when sodium hydroxide solution is added to hydrochloric acid.\nWhy is the reaction mixture in a polystyrene cup instead of a glass beaker?",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 285\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(55 0)\"><path d=\"M110 120 L110 260 Q110 268 118 268 L262 268 Q270 268 270 260 L270 120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M130 110 L145 258 L235 258 L250 110\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M137 170 L145 256 L235 256 L243 170 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"137\" y1=\"170\" x2=\"243\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\"/><rect x=\"122\" y=\"100\" width=\"136\" height=\"10\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"20\" width=\"12\" height=\"215\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"190\" cy=\"232\" r=\"8\" fill=\"#fca5a5\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"226\" x2=\"190\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"184\" y1=\"40\" x2=\"190\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"50\" x2=\"190\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"60\" x2=\"190\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"70\" x2=\"190\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"80\" x2=\"190\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"90\" x2=\"190\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"184\" y1=\"110\" x2=\"190\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"196\" y1=\"60\" x2=\"297\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"300\" y=\"50\" font-size=\"13\" fill=\"currentColor\">Thermometer</text><line x1=\"255\" y1=\"105\" x2=\"297\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"300\" y=\"100\" font-size=\"13\" fill=\"currentColor\">Lid</text><line x1=\"270\" y1=\"200\" x2=\"297\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"300\" y=\"200\" font-size=\"13\" fill=\"currentColor\">Glass beaker</text><line x1=\"136\" y1=\"140\" x2=\"73\" y2=\"136\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"70\" y=\"140\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Polystyrene cup</text><line x1=\"160\" y1=\"220\" x2=\"73\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"70\" y=\"230\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Reaction mixture</text></g></svg>"
+      },
       "options": [
         "Polystyrene does not react with acids",
         "Polystyrene is a good thermal insulator, so less energy is transferred to the surroundings",
@@ -142,7 +195,9 @@
         "Polystyrene is easier to clean"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: polystyrene is a (good thermal) insulator / reduces energy transfer to the surroundings"],
+      "markScheme": [
+        "1 mark: polystyrene is a (good thermal) insulator / reduces energy transfer to the surroundings"
+      ],
       "explanation": "Glass conducts energy away more easily than polystyrene. Reducing energy losses makes the measured temperature change closer to the true value."
     },
     {
@@ -152,9 +207,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "The temperature of the mixture rose when sodium hydroxide was added to hydrochloric acid. What type of reaction is this?",
-      "options": ["Endothermic", "Thermal decomposition", "Electrolysis", "Exothermic"],
+      "options": [
+        "Endothermic",
+        "Thermal decomposition",
+        "Electrolysis",
+        "Exothermic"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: exothermic"],
+      "markScheme": [
+        "1 mark: exothermic"
+      ],
       "explanation": "An exothermic reaction transfers energy to the surroundings, so the temperature rises. In an endothermic reaction the temperature falls."
     },
     {
@@ -163,12 +225,31 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "The starting temperature of the acid was 19.1 °C. The highest temperature reached was 31.5 °C.\nCalculate the maximum temperature rise.",
+      "question": "A student added sodium hydroxide solution to hydrochloric acid.\nTable 1 shows the student's results.\nCalculate the maximum temperature rise.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "Starting temperature of the acid",
+            "19.1"
+          ],
+          [
+            "Highest temperature reached",
+            "31.5"
+          ]
+        ]
+      },
       "numericAnswer": 12.4,
       "tolerance": 0.005,
       "unit": "°C",
-      "markScheme": ["1 mark: 31.5 − 19.1 = 12.4 °C"],
-      "explanation": "Temperature change = highest temperature − starting temperature. Adding the temperatures together is a common mistake."
+      "markScheme": [
+        "1 mark: 31.5 − 19.1 = 12.4 °C"
+      ],
+      "explanation": "Temperature change = highest temperature − starting temperature. Adding the temperatures together is a common mistake.",
+      "answerLabel": "Maximum temperature rise"
     },
     {
       "id": "chem-rp4-q04",
@@ -177,8 +258,15 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Give one reason why a lid is placed on the polystyrene cup.",
-      "acceptedAnswers": ["reduce energy loss", "reduce heat loss", "reduce evaporation", "prevent splashing"],
-      "markScheme": ["1 mark: to reduce energy (heat) transfer to the surroundings / reduce energy lost by evaporation or convection"],
+      "acceptedAnswers": [
+        "reduce energy loss",
+        "reduce heat loss",
+        "reduce evaporation",
+        "prevent splashing"
+      ],
+      "markScheme": [
+        "1 mark: to reduce energy (heat) transfer to the surroundings / reduce energy lost by evaporation or convection"
+      ],
       "explanation": "Warm air and water vapour escaping from the top of the cup carry energy away, which would lower the temperature reading."
     },
     {
@@ -187,12 +275,37 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "After 25 cm³ of sodium hydroxide had been added, the two highest temperatures recorded were 30.3 °C and 30.5 °C.\nCalculate the mean highest temperature.",
+      "question": "A student added different volumes of sodium hydroxide solution to hydrochloric acid and recorded the highest temperature reached.\nThe student did each experiment twice.\nTable 1 shows some of the results.\nCalculate the mean highest temperature, X, for 25 cm³ of sodium hydroxide solution.",
+      "table": {
+        "headers": [
+          "Volume of sodium hydroxide solution in cm³",
+          "Highest temperature in trial 1 in °C",
+          "Highest temperature in trial 2 in °C",
+          "Mean highest temperature in °C"
+        ],
+        "rows": [
+          [
+            "20",
+            "29.0",
+            "29.2",
+            "29.1"
+          ],
+          [
+            "25",
+            "30.3",
+            "30.5",
+            "X"
+          ]
+        ]
+      },
       "numericAnswer": 30.4,
       "tolerance": 0.005,
       "unit": "°C",
-      "markScheme": ["1 mark: (30.3 + 30.5) ÷ 2 = 30.4 °C"],
-      "explanation": "Add the readings and divide by the number of readings. Give the mean to the same number of decimal places as the data (1 d.p.)."
+      "markScheme": [
+        "1 mark: (30.3 + 30.5) ÷ 2 = 30.4 °C"
+      ],
+      "explanation": "Add the readings and divide by the number of readings. Give the mean to the same number of decimal places as the data (1 d.p.).",
+      "answerLabel": "Mean highest temperature X"
     },
     {
       "id": "chem-rp4-q06",
@@ -200,10 +313,17 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "30 cm³ of 2.0 mol/dm³ hydrochloric acid was used. At which volume of 2.0 mol/dm³ sodium hydroxide would you expect the highest temperature?",
-      "options": ["15 cm³", "60 cm³", "30 cm³", "40 cm³"],
+      "question": "A student adds 2.0 mol/dm³ sodium hydroxide solution, 5 cm³ at a time, to 30 cm³ of 2.0 mol/dm³ hydrochloric acid.\nAt which volume of sodium hydroxide solution would you expect the highest temperature?",
+      "options": [
+        "15 cm³",
+        "60 cm³",
+        "30 cm³",
+        "40 cm³"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: 30 cm³"],
+      "markScheme": [
+        "1 mark: 30 cm³"
+      ],
       "explanation": "The solutions have the same concentration and react in a 1 : 1 ratio, so 30 cm³ of alkali exactly neutralises 30 cm³ of acid. This is where the most energy has been released."
     },
     {
@@ -212,9 +332,22 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why the temperature of the mixture decreased when more than 30 cm³ of sodium hydroxide solution was added.",
-      "acceptedAnswers": ["all the acid has reacted", "no more acid", "no more energy released", "cooler solution added", "mixture diluted", "energy lost to surroundings"],
-      "markScheme": ["1 mark: all the acid had been neutralised / no acid left to react, so no more energy is released", "1 mark: the extra (cooler) sodium hydroxide solution absorbs energy / dilutes the mixture / energy is lost to the surroundings"],
+      "question": "A student added sodium hydroxide solution, 5 cm³ at a time, to 30 cm³ of hydrochloric acid in a polystyrene cup. The student measured the temperature after each addition.\nFigure 1 shows the results.\nExplain why the temperature of the mixture decreased when more than 30 cm³ of sodium hydroxide solution was added.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 20V265M84.8 20V265M99.6 20V265M114.4 20V265M129.2 20V265M144 20V265M158.8 20V265M173.6 20V265M188.4 20V265M203.2 20V265M218 20V265M232.8 20V265M247.6 20V265M262.4 20V265M277.2 20V265M292 20V265M306.8 20V265M321.6 20V265M336.4 20V265M351.2 20V265M366 20V265M380.8 20V265M395.6 20V265M410.4 20V265M425.2 20V265M440 20V265M70 265H440M70 257.3H440M70 249.7H440M70 242H440M70 234.4H440M70 226.7H440M70 219.1H440M70 211.4H440M70 203.8H440M70 196.1H440M70 188.4H440M70 180.8H440M70 173.1H440M70 165.5H440M70 157.8H440M70 150.2H440M70 142.5H440M70 134.8H440M70 127.2H440M70 119.5H440M70 111.9H440M70 104.2H440M70 96.6H440M70 88.9H440M70 81.3H440M70 73.6H440M70 65.9H440M70 58.3H440M70 50.6H440M70 43H440M70 35.3H440M70 27.7H440M70 20H440\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.3\"/><path d=\"M70 20V265M144 20V265M218 20V265M292 20V265M366 20V265M440 20V265M70 265H440M70 234.4H440M70 203.8H440M70 173.1H440M70 142.5H440M70 111.9H440M70 81.3H440M70 50.6H440M70 20H440\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.55\"/><path d=\"M70 265v5M144 265v5M218 265v5M292 265v5M366 265v5M440 265v5M65 265h5M65 234.4h5M65 203.8h5M65 173.1h5M65 142.5h5M65 111.9h5M65 81.3h5M65 50.6h5M65 20h5\" stroke=\"currentColor\"/><text x=\"70\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"144\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"218\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"292\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"366\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"440\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"62\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">18</text><text x=\"62\" y=\"238.38\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"62\" y=\"207.75\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">22</text><text x=\"62\" y=\"177.13\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">24</text><text x=\"62\" y=\"146.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">26</text><text x=\"62\" y=\"115.88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">28</text><text x=\"62\" y=\"85.25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"62\" y=\"54.63\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">32</text><text x=\"62\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">34</text><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"265\" x2=\"440\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"310\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Volume of sodium hydroxide solution added in cm³</text><text x=\"16\" y=\"142.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 142.5)\">Temperature in °C</text><circle cx=\"70\" cy=\"249.69\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"107\" cy=\"196.09\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"144\" cy=\"154.75\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"181\" cy=\"122.59\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"218\" cy=\"96.56\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"255\" cy=\"75.13\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"292\" cy=\"58.28\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"329\" cy=\"72.06\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"366\" cy=\"84.31\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"403\" cy=\"96.56\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"107.28\" r=\"3.5\" fill=\"currentColor\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "all the acid has reacted",
+        "no more acid",
+        "no more energy released",
+        "cooler solution added",
+        "mixture diluted",
+        "energy lost to surroundings"
+      ],
+      "markScheme": [
+        "1 mark: all the acid had been neutralised / no acid left to react, so no more energy is released",
+        "1 mark: the extra (cooler) sodium hydroxide solution absorbs energy / dilutes the mixture / energy is lost to the surroundings"
+      ],
       "explanation": "The reaction stops releasing energy once the acid is used up. The sodium hydroxide being added is at room temperature, so it cools the warmer mixture."
     },
     {
@@ -223,9 +356,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Give two control variables in this investigation.",
-      "acceptedAnswers": ["volume of acid", "concentration of acid", "concentration of sodium hydroxide", "starting temperature", "type of cup", "lid", "stirring"],
-      "markScheme": ["1 mark each, up to 2: volume of hydrochloric acid; concentration of hydrochloric acid; concentration of sodium hydroxide; starting temperature of solutions; type of container / insulation / lid; stirring"],
+      "question": "A student investigates how the volume of sodium hydroxide solution added to hydrochloric acid affects the temperature of the mixture.\nGive two control variables in this investigation.",
+      "acceptedAnswers": [
+        "volume of acid",
+        "concentration of acid",
+        "concentration of sodium hydroxide",
+        "starting temperature",
+        "type of cup",
+        "lid",
+        "stirring"
+      ],
+      "markScheme": [
+        "1 mark each, up to 2: volume of hydrochloric acid; concentration of hydrochloric acid; concentration of sodium hydroxide; starting temperature of solutions; type of container / insulation / lid; stirring"
+      ],
       "explanation": "The volume of sodium hydroxide is the independent variable, so it cannot be a control variable."
     },
     {
@@ -234,7 +377,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "Which change would make the measured temperature rise closer to the true value?",
+      "question": "A student measures the temperature rise when hydrochloric acid reacts with sodium hydroxide solution in a polystyrene cup.\nWhich change would make the measured temperature rise closer to the true value?",
       "options": [
         "Using a glass beaker instead of a polystyrene cup",
         "Removing the lid so the thermometer is easier to read",
@@ -242,7 +385,9 @@
         "Placing the polystyrene cup inside a second polystyrene cup"
       ],
       "answer": 3,
-      "markScheme": ["1 mark: placing the cup inside a second polystyrene cup (more insulation)"],
+      "markScheme": [
+        "1 mark: placing the cup inside a second polystyrene cup (more insulation)"
+      ],
       "explanation": "Extra insulation reduces energy transfer to the surroundings. A glass beaker or no lid would increase losses, and dilute acid would give a smaller temperature rise."
     },
     {
@@ -251,9 +396,32 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A student added 1.0 g of citric acid to sodium hydrogencarbonate solution. The temperature fell from 20.5 °C to 16.2 °C.\nState the type of reaction and explain how the results show this.",
-      "acceptedAnswers": ["endothermic", "temperature decreased", "energy taken in from surroundings"],
-      "markScheme": ["1 mark: endothermic", "1 mark: the temperature fell (by 4.3 °C), so energy was taken in from the surroundings"],
+      "question": "A student added 1.0 g of citric acid to sodium hydrogencarbonate solution.\nTable 1 shows the student's results.\nState the type of reaction and explain how the results show this.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "Starting temperature",
+            "20.5"
+          ],
+          [
+            "Final temperature",
+            "16.2"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "endothermic",
+        "temperature decreased",
+        "energy taken in from surroundings"
+      ],
+      "markScheme": [
+        "1 mark: endothermic",
+        "1 mark: the temperature fell (by 4.3 °C), so energy was taken in from the surroundings"
+      ],
       "explanation": "In an endothermic reaction the reacting chemicals take in energy from the surroundings (the solution), so the thermometer shows a lower temperature."
     },
     {
@@ -262,12 +430,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "In another experiment, magnesium ribbon was added to hydrochloric acid in a polystyrene cup. The temperature changed from 20.5 °C to 38.0 °C.\nCalculate the temperature change.",
+      "question": "A student added magnesium ribbon to hydrochloric acid in a polystyrene cup. The temperature changed from 20.5 °C to 38.0 °C.\nCalculate the temperature change.",
       "numericAnswer": 17.5,
       "tolerance": 0.005,
       "unit": "°C",
-      "markScheme": ["1 mark: 38.0 − 20.5 = 17.5 °C (rise)"],
-      "explanation": "Final temperature − initial temperature = 17.5 °C. The positive value shows a temperature rise, so the reaction is exothermic."
+      "markScheme": [
+        "1 mark: 38.0 − 20.5 = 17.5 °C (rise)"
+      ],
+      "explanation": "Final temperature − initial temperature = 17.5 °C. The positive value shows a temperature rise, so the reaction is exothermic.",
+      "answerLabel": "Temperature change"
     },
     {
       "id": "chem-rp4-q12",
@@ -275,9 +446,20 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why the maximum temperature should be found by drawing two lines of best fit on a graph, rather than just using the highest temperature recorded in the table.",
-      "acceptedAnswers": ["true maximum may be between readings", "neutralisation point may fall between volumes tested", "lines cross at true maximum", "reduces effect of random error"],
-      "markScheme": ["1 mark: the exact neutralisation point may lie between two of the volumes tested (so the highest reading may not be the true maximum)", "1 mark: extrapolating the two lines to where they cross gives the true maximum temperature and volume / uses all the data so reduces the effect of random errors"],
+      "question": "A student added sodium hydroxide solution, 5 cm³ at a time, to hydrochloric acid and measured the temperature after each addition.\nFigure 1 shows the results. The student drew two lines of best fit.\nExplain why the maximum temperature should be found from where the two lines of best fit cross, rather than just using the highest temperature recorded.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M70 20V265M84.8 20V265M99.6 20V265M114.4 20V265M129.2 20V265M144 20V265M158.8 20V265M173.6 20V265M188.4 20V265M203.2 20V265M218 20V265M232.8 20V265M247.6 20V265M262.4 20V265M277.2 20V265M292 20V265M306.8 20V265M321.6 20V265M336.4 20V265M351.2 20V265M366 20V265M380.8 20V265M395.6 20V265M410.4 20V265M425.2 20V265M440 20V265M70 265H440M70 257.3H440M70 249.7H440M70 242H440M70 234.4H440M70 226.7H440M70 219.1H440M70 211.4H440M70 203.8H440M70 196.1H440M70 188.4H440M70 180.8H440M70 173.1H440M70 165.5H440M70 157.8H440M70 150.2H440M70 142.5H440M70 134.8H440M70 127.2H440M70 119.5H440M70 111.9H440M70 104.2H440M70 96.6H440M70 88.9H440M70 81.3H440M70 73.6H440M70 65.9H440M70 58.3H440M70 50.6H440M70 43H440M70 35.3H440M70 27.7H440M70 20H440\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-opacity=\"0.3\"/><path d=\"M70 20V265M144 20V265M218 20V265M292 20V265M366 20V265M440 20V265M70 265H440M70 234.4H440M70 203.8H440M70 173.1H440M70 142.5H440M70 111.9H440M70 81.3H440M70 50.6H440M70 20H440\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.55\"/><path d=\"M70 265v5M144 265v5M218 265v5M292 265v5M366 265v5M440 265v5M65 265h5M65 234.4h5M65 203.8h5M65 173.1h5M65 142.5h5M65 111.9h5M65 81.3h5M65 50.6h5M65 20h5\" stroke=\"currentColor\"/><text x=\"70\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"144\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"218\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"292\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"366\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"440\" y=\"284\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50</text><text x=\"62\" y=\"269\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">18</text><text x=\"62\" y=\"238.38\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20</text><text x=\"62\" y=\"207.75\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">22</text><text x=\"62\" y=\"177.13\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">24</text><text x=\"62\" y=\"146.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">26</text><text x=\"62\" y=\"115.88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">28</text><text x=\"62\" y=\"85.25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30</text><text x=\"62\" y=\"54.63\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">32</text><text x=\"62\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">34</text><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"265\" x2=\"440\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"310\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Volume of sodium hydroxide solution added in cm³</text><text x=\"16\" y=\"142.5\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" transform=\"rotate(-90 16 142.5)\">Temperature in °C</text><circle cx=\"70\" cy=\"249.69\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"107\" cy=\"212.94\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"144\" cy=\"182.31\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"181\" cy=\"144.03\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"218\" cy=\"110.34\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"255\" cy=\"78.19\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"292\" cy=\"65.94\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"329\" cy=\"78.19\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"366\" cy=\"90.44\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"403\" cy=\"102.69\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"440\" cy=\"114.94\" r=\"3.5\" fill=\"currentColor\"/><line x1=\"70\" y1=\"249.69\" x2=\"299.4\" y2=\"36.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"247.6\" y1=\"51.62\" x2=\"440\" y2=\"115.32\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>"
+      },
+      "acceptedAnswers": [
+        "true maximum may be between readings",
+        "neutralisation point may fall between volumes tested",
+        "lines cross at true maximum",
+        "reduces effect of random error"
+      ],
+      "markScheme": [
+        "1 mark: the exact neutralisation point may lie between two of the volumes tested (so the highest reading may not be the true maximum)",
+        "1 mark: extrapolating the two lines to where they cross gives the true maximum temperature and volume / uses all the data so reduces the effect of random errors"
+      ],
       "explanation": "Readings were only taken every 5 cm³. The two lines represent before and after neutralisation, so they meet at the point where the acid was exactly neutralised."
     },
     {
@@ -286,10 +468,17 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "The experiment is repeated using 30 cm³ of 2.0 mol/dm³ hydrochloric acid and 4.0 mol/dm³ sodium hydroxide solution. At which volume of sodium hydroxide would the highest temperature now occur?",
-      "options": ["15 cm³", "30 cm³", "60 cm³", "7.5 cm³"],
+      "question": "A student adds 4.0 mol/dm³ sodium hydroxide solution, 5 cm³ at a time, to 30 cm³ of 2.0 mol/dm³ hydrochloric acid.\nAt which volume of sodium hydroxide solution would the highest temperature occur?",
+      "options": [
+        "15 cm³",
+        "30 cm³",
+        "60 cm³",
+        "7.5 cm³"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: 15 cm³"],
+      "markScheme": [
+        "1 mark: 15 cm³"
+      ],
       "explanation": "30 cm³ of 2.0 mol/dm³ HCl contains 0.060 mol. 4.0 mol/dm³ NaOH contains 0.060 mol in 0.060 ÷ 4.0 = 0.015 dm³ = 15 cm³. Doubling the alkali concentration halves the volume needed."
     },
     {
@@ -298,9 +487,41 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "The temperature rise for each 5 cm³ of sodium hydroxide got smaller as more was added (3.5 °C, then 2.7 °C, then 2.1 °C). Suggest why.",
-      "acceptedAnswers": ["larger volume of solution", "energy shared through more solution", "dilution", "more energy lost as temperature difference increases"],
-      "markScheme": ["1 mark: each 5 cm³ releases the same amount of energy, but it is spread through a larger total volume (mass) of solution", "1 mark: so the temperature rise is smaller / more energy is lost to the surroundings as the mixture gets hotter"],
+      "question": "A student added sodium hydroxide solution, 5 cm³ at a time, to hydrochloric acid in a polystyrene cup.\nTable 1 shows the first four results.\nThe temperature rise for each 5 cm³ of sodium hydroxide solution got smaller as more was added.\nSuggest why.",
+      "table": {
+        "headers": [
+          "Volume of sodium hydroxide solution added in cm³",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "0",
+            "19.0"
+          ],
+          [
+            "5",
+            "22.5"
+          ],
+          [
+            "10",
+            "25.2"
+          ],
+          [
+            "15",
+            "27.3"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "larger volume of solution",
+        "energy shared through more solution",
+        "dilution",
+        "more energy lost as temperature difference increases"
+      ],
+      "markScheme": [
+        "1 mark: each 5 cm³ releases the same amount of energy, but it is spread through a larger total volume (mass) of solution",
+        "1 mark: so the temperature rise is smaller / more energy is lost to the surroundings as the mixture gets hotter"
+      ],
       "explanation": "The same energy heating a bigger volume of liquid gives a smaller temperature rise. Also, the hotter the mixture is compared with the room, the faster it loses energy."
     },
     {

@@ -78,16 +78,70 @@
     }
   ],
   "results": {
-    "headers": ["Sample", "Flame test colour", "Sodium hydroxide solution", "Negative ion test result", "Identity"],
+    "headers": [
+      "Sample",
+      "Flame test colour",
+      "Sodium hydroxide solution",
+      "Negative ion test result",
+      "Identity"
+    ],
     "rows": [
-      ["A", "Crimson", "No precipitate", "HNO₃ + AgNO₃: cream precipitate", "Lithium bromide, LiBr"],
-      ["B", "Green", "Blue precipitate", "HCl + BaCl₂: white precipitate", "Copper(II) sulfate, CuSO₄"],
-      ["C", "No distinctive colour", "White precipitate, dissolves in excess", "HNO₃ + AgNO₃: white precipitate", "Aluminium chloride, AlCl₃"],
-      ["D", "Lilac", "No precipitate", "Dilute HCl: fizzes, gas turns limewater milky", "Potassium carbonate, K₂CO₃"],
-      ["E", "No distinctive colour", "Green precipitate", "HCl + BaCl₂: white precipitate", "Iron(II) sulfate, FeSO₄"],
-      ["F", "Yellow", "No precipitate", "HNO₃ + AgNO₃: yellow precipitate", "Sodium iodide, NaI"],
-      ["G", "Orange-red", "White precipitate, does not dissolve in excess", "HNO₃ + AgNO₃: white precipitate", "Calcium chloride, CaCl₂"],
-      ["H", "No distinctive colour", "Brown precipitate", "HNO₃ + AgNO₃: white precipitate", "Iron(III) chloride, FeCl₃"]
+      [
+        "A",
+        "Crimson",
+        "No precipitate",
+        "HNO₃ + AgNO₃: cream precipitate",
+        "Lithium bromide, LiBr"
+      ],
+      [
+        "B",
+        "Green",
+        "Blue precipitate",
+        "HCl + BaCl₂: white precipitate",
+        "Copper(II) sulfate, CuSO₄"
+      ],
+      [
+        "C",
+        "No distinctive colour",
+        "White precipitate, dissolves in excess",
+        "HNO₃ + AgNO₃: white precipitate",
+        "Aluminium chloride, AlCl₃"
+      ],
+      [
+        "D",
+        "Lilac",
+        "No precipitate",
+        "Dilute HCl: fizzes, gas turns limewater milky",
+        "Potassium carbonate, K₂CO₃"
+      ],
+      [
+        "E",
+        "No distinctive colour",
+        "Green precipitate",
+        "HCl + BaCl₂: white precipitate",
+        "Iron(II) sulfate, FeSO₄"
+      ],
+      [
+        "F",
+        "Yellow",
+        "No precipitate",
+        "HNO₃ + AgNO₃: yellow precipitate",
+        "Sodium iodide, NaI"
+      ],
+      [
+        "G",
+        "Orange-red",
+        "White precipitate, does not dissolve in excess",
+        "HNO₃ + AgNO₃: white precipitate",
+        "Calcium chloride, CaCl₂"
+      ],
+      [
+        "H",
+        "No distinctive colour",
+        "Brown precipitate",
+        "HNO₃ + AgNO₃: white precipitate",
+        "Iron(III) chloride, FeCl₃"
+      ]
     ],
     "notes": "Identify the positive ion from the flame test and/or the hydroxide precipitate, and the negative ion from the carbonate, halide or sulfate test. A white hydroxide precipitate that does not dissolve in excess could be calcium or magnesium: a flame test distinguishes them (calcium is orange-red, magnesium gives no colour)."
   },
@@ -139,10 +193,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which metal ion gives a lilac flame?",
-      "options": ["Lithium", "Potassium", "Sodium", "Calcium"],
+      "question": "A student does flame tests on solutions of four metal ions.\nWhich metal ion gives a lilac flame?",
+      "options": [
+        "Lithium",
+        "Potassium",
+        "Sodium",
+        "Calcium"
+      ],
       "answer": 1,
-      "markScheme": ["1 mark: potassium (K⁺)"],
+      "markScheme": [
+        "1 mark: potassium (K⁺)"
+      ],
       "explanation": "Potassium gives lilac. Lithium is crimson, sodium is yellow and calcium is orange-red."
     },
     {
@@ -151,10 +212,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Sodium hydroxide solution is added to a solution of an unknown compound. A green precipitate forms. Which ion is present?",
-      "options": ["Copper(II)", "Iron(III)", "Iron(II)", "Aluminium"],
+      "question": "A student adds sodium hydroxide solution to a solution of an unknown compound. A green precipitate forms.\nWhich metal ion is present in the compound?",
+      "options": [
+        "Copper(II)",
+        "Iron(III)",
+        "Iron(II)",
+        "Aluminium"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: iron(II), Fe²⁺"],
+      "markScheme": [
+        "1 mark: iron(II), Fe²⁺"
+      ],
       "explanation": "Iron(II) hydroxide is green. Copper(II) hydroxide is blue, iron(III) hydroxide is brown and aluminium hydroxide is white."
     },
     {
@@ -163,9 +231,21 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Describe the test for carbonate ions and give the positive result.",
-      "acceptedAnswers": ["add dilute acid", "fizzing", "bubble gas through limewater", "limewater turns milky", "cloudy"],
-      "markScheme": ["1 mark: add dilute acid (and bubble the gas produced through limewater)", "1 mark: fizzing / limewater turns milky (cloudy) because carbon dioxide is produced"],
+      "question": "Figure 1 shows the apparatus a student used to test a solid for carbonate ions.\nGive the positive result of the test.\nName the gas that causes this result.",
+      "figure": {
+        "svg": "<svg viewBox=\"-20 0 480 260\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M101 150 L101 213 A21 21 0 0 0 143 213 L143 150 Z\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/><line x1=\"100\" y1=\"150\" x2=\"144\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M100 60 L100 213 A22 22 0 0 0 144 213 L144 60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"224\" r=\"3\" fill=\"currentColor\"/><circle cx=\"120\" cy=\"227\" r=\"3\" fill=\"currentColor\"/><circle cx=\"128\" cy=\"223\" r=\"3\" fill=\"currentColor\"/><circle cx=\"136\" cy=\"226\" r=\"3\" fill=\"currentColor\"/><circle cx=\"116\" cy=\"219\" r=\"3\" fill=\"currentColor\"/><circle cx=\"131\" cy=\"219\" r=\"3\" fill=\"currentColor\"/><circle cx=\"124\" cy=\"218\" r=\"3\" fill=\"currentColor\"/><rect x=\"98\" y=\"48\" width=\"48\" height=\"22\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M128 48 L128 25 L300 25 L300 215\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M281 140 L281 223 A21 21 0 0 0 323 223 L323 140 Z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\"/><line x1=\"280\" y1=\"140\" x2=\"324\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M280 70 L280 223 A22 22 0 0 0 324 223 L324 70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"190\" r=\"3\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"296\" cy=\"170\" r=\"3\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"302\" cy=\"155\" r=\"3\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"170\" x2=\"63\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"60\" y=\"160\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Dilute</text><text x=\"57\" y=\"176\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">acid</text><line x1=\"110\" y1=\"222\" x2=\"63\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"60\" y=\"230\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Solid</text><line x1=\"324\" y1=\"200\" x2=\"347\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"350\" y=\"200\" font-size=\"13\" fill=\"currentColor\">Limewater</text><line x1=\"146\" y1=\"60\" x2=\"172\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"175\" y=\"70\" font-size=\"13\" fill=\"currentColor\">Bung</text></svg>"
+      },
+      "acceptedAnswers": [
+        "limewater turns milky",
+        "limewater turns cloudy",
+        "carbon dioxide",
+        "CO₂",
+        "fizzing"
+      ],
+      "markScheme": [
+        "1 mark: the limewater turns milky (cloudy) (allow fizzing in the test tube with the acid)",
+        "1 mark: carbon dioxide (CO₂)"
+      ],
       "explanation": "Carbonates react with acids to make carbon dioxide. Carbon dioxide is identified because it turns limewater milky."
     },
     {
@@ -174,10 +254,17 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Dilute nitric acid and silver nitrate solution are added to a solution. A yellow precipitate forms. Which ion is present?",
-      "options": ["Iodide", "Chloride", "Bromide", "Sulfate"],
+      "question": "A student adds dilute nitric acid and then silver nitrate solution to a solution. A yellow precipitate forms.\nWhich ion is present in the solution?",
+      "options": [
+        "Iodide",
+        "Chloride",
+        "Bromide",
+        "Sulfate"
+      ],
       "answer": 0,
-      "markScheme": ["1 mark: iodide, I⁻"],
+      "markScheme": [
+        "1 mark: iodide, I⁻"
+      ],
       "explanation": "Silver iodide is yellow, silver bromide is cream and silver chloride is white. Sulfate is tested with barium chloride, not silver nitrate."
     },
     {
@@ -187,8 +274,15 @@
       "difficulty": 2,
       "marks": 2,
       "question": "Describe how to test a solution for sulfate ions. Give the reagents and the positive result.",
-      "acceptedAnswers": ["dilute hydrochloric acid", "barium chloride solution", "white precipitate"],
-      "markScheme": ["1 mark: add dilute hydrochloric acid followed by barium chloride solution", "1 mark: a white precipitate (of barium sulfate) forms"],
+      "acceptedAnswers": [
+        "dilute hydrochloric acid",
+        "barium chloride solution",
+        "white precipitate"
+      ],
+      "markScheme": [
+        "1 mark: add dilute hydrochloric acid followed by barium chloride solution",
+        "1 mark: a white precipitate (of barium sulfate) forms"
+      ],
       "explanation": "The acid is added first to remove carbonate ions, which would also form a white precipitate with barium ions."
     },
     {
@@ -197,9 +291,37 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Two solutions, X and Y, both form a white precipitate with a few drops of sodium hydroxide solution. When excess sodium hydroxide is added, the precipitate from X dissolves but the precipitate from Y does not.\nIdentify the metal ion in X and give two possible metal ions in Y.",
-      "acceptedAnswers": ["X aluminium", "Y calcium or magnesium", "Al³⁺", "Ca²⁺", "Mg²⁺"],
-      "markScheme": ["1 mark: X contains aluminium ions (Al³⁺)", "1 mark: Y contains calcium ions (Ca²⁺) or magnesium ions (Mg²⁺)"],
+      "question": "A student adds sodium hydroxide solution to two solutions, X and Y.\nTable 1 shows the results.\nIdentify the metal ion in X.\nGive two possible metal ions in Y.",
+      "table": {
+        "headers": [
+          "Solution",
+          "Observation with a few drops of sodium hydroxide solution",
+          "Observation with excess sodium hydroxide solution"
+        ],
+        "rows": [
+          [
+            "X",
+            "White precipitate",
+            "Precipitate dissolves"
+          ],
+          [
+            "Y",
+            "White precipitate",
+            "Precipitate does not dissolve"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "X aluminium",
+        "Y calcium or magnesium",
+        "Al³⁺",
+        "Ca²⁺",
+        "Mg²⁺"
+      ],
+      "markScheme": [
+        "1 mark: X contains aluminium ions (Al³⁺)",
+        "1 mark: Y contains calcium ions (Ca²⁺) or magnesium ions (Mg²⁺)"
+      ],
       "explanation": "Aluminium hydroxide is the only white hydroxide that dissolves in excess sodium hydroxide. A flame test would distinguish calcium (orange-red) from magnesium (no colour)."
     },
     {
@@ -208,9 +330,17 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why hydrochloric acid must not be used to acidify the solution in the test for halide ions.",
-      "acceptedAnswers": ["hydrochloric acid contains chloride ions", "adds chloride ions", "false positive", "white precipitate always forms"],
-      "markScheme": ["1 mark: hydrochloric acid contains chloride ions", "1 mark: which would form a white precipitate with silver nitrate (false positive for chloride)"],
+      "question": "A student tests a solution for halide ions.\nExplain why the student must not use hydrochloric acid to acidify the solution.",
+      "acceptedAnswers": [
+        "hydrochloric acid contains chloride ions",
+        "adds chloride ions",
+        "false positive",
+        "white precipitate always forms"
+      ],
+      "markScheme": [
+        "1 mark: hydrochloric acid contains chloride ions",
+        "1 mark: which would form a white precipitate with silver nitrate (false positive for chloride)"
+      ],
       "explanation": "Nitric acid is used because nitrate ions do not form a precipitate with silver ions. Adding chloride ions would always give a white precipitate."
     },
     {
@@ -219,9 +349,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Describe how to clean the wire loop before a flame test, and explain why this is necessary.",
-      "acceptedAnswers": ["dip in hydrochloric acid", "heat in flame until no colour", "remove ions from previous sample", "contamination"],
-      "markScheme": ["1 mark: dip the loop in (dilute hydrochloric) acid and hold in a hot Bunsen flame until it gives no colour", "1 mark: to remove ions from previous samples, which would give the wrong flame colour (contamination)"],
+      "question": "Figure 1 shows a flame test being carried out on a sample.\nDescribe how to clean the wire loop before a flame test.\nExplain why this is necessary.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 40 460 260\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"120\" y=\"242\" width=\"60\" height=\"8\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"192\" width=\"16\" height=\"50\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M143 192 Q138 160 150 120 Q162 160 157 192\" fill=\"#93c5fd\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"152\" y1=\"140\" x2=\"330\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"147\" cy=\"142\" r=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"330\" y=\"55\" width=\"90\" height=\"22\" rx=\"4\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"136\" x2=\"227\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"230\" y=\"150\" font-size=\"13\" fill=\"currentColor\">Wire loop</text><line x1=\"375\" y1=\"77\" x2=\"382\" y2=\"101\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"385\" y=\"105\" font-size=\"13\" fill=\"currentColor\">Handle</text><line x1=\"158\" y1=\"225\" x2=\"227\" y2=\"221\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"230\" y=\"225\" font-size=\"13\" fill=\"currentColor\">Bunsen burner</text><line x1=\"143\" y1=\"170\" x2=\"73\" y2=\"161\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"70\" y=\"165\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">Flame</text></svg>"
+      },
+      "acceptedAnswers": [
+        "dip in hydrochloric acid",
+        "heat in flame until no colour",
+        "remove ions from previous sample",
+        "contamination"
+      ],
+      "markScheme": [
+        "1 mark: dip the loop in (dilute hydrochloric) acid and hold in a hot Bunsen flame until it gives no colour",
+        "1 mark: to remove ions from previous samples, which would give the wrong flame colour (contamination)"
+      ],
       "explanation": "Even a trace of another metal ion, especially sodium, can change or mask the flame colour."
     },
     {
@@ -230,10 +371,33 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "A solid gives an orange-red flame. Its solution forms a white precipitate with dilute nitric acid and silver nitrate solution. What is the compound?",
-      "options": ["Lithium chloride", "Sodium bromide", "Calcium bromide", "Calcium chloride"],
+      "question": "A student does two tests on a solid compound.\nTable 1 shows the results.\nWhat is the compound?",
+      "table": {
+        "headers": [
+          "Test",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Flame test on the solid",
+            "Orange-red flame"
+          ],
+          [
+            "Dilute nitric acid and silver nitrate solution added to a solution of the solid",
+            "White precipitate"
+          ]
+        ]
+      },
+      "options": [
+        "Lithium chloride",
+        "Sodium bromide",
+        "Calcium bromide",
+        "Calcium chloride"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: calcium chloride"],
+      "markScheme": [
+        "1 mark: calcium chloride"
+      ],
       "explanation": "Orange-red shows calcium ions, and a white silver halide precipitate shows chloride ions. Bromide would give a cream precipitate; lithium gives a crimson flame."
     },
     {
@@ -250,7 +414,9 @@
         "Fe³⁺(s) + 3OH⁻(aq) → Fe(OH)₃(aq)"
       ],
       "answer": 0,
-      "markScheme": ["1 mark: Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s)"],
+      "markScheme": [
+        "1 mark: Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s)"
+      ],
       "explanation": "Iron(III) has a 3+ charge, so three hydroxide ions are needed. The precipitate is a solid (s). The Fe²⁺ equation describes iron(II), which gives a green precipitate."
     },
     {
@@ -260,8 +426,16 @@
       "difficulty": 3,
       "marks": 2,
       "question": "A student does a flame test on a mixture of sodium chloride and potassium chloride and sees only a yellow flame.\nExplain this result and suggest a better method for identifying the metal ions in the mixture.",
-      "acceptedAnswers": ["yellow masks lilac", "sodium colour hides potassium", "flame emission spectroscopy", "instrumental method"],
-      "markScheme": ["1 mark: the bright yellow colour of sodium masks / hides the lilac colour of potassium", "1 mark: use flame emission spectroscopy (an instrumental method that identifies each ion from its spectrum)"],
+      "acceptedAnswers": [
+        "yellow masks lilac",
+        "sodium colour hides potassium",
+        "flame emission spectroscopy",
+        "instrumental method"
+      ],
+      "markScheme": [
+        "1 mark: the bright yellow colour of sodium masks / hides the lilac colour of potassium",
+        "1 mark: use flame emission spectroscopy (an instrumental method that identifies each ion from its spectrum)"
+      ],
       "explanation": "Flame tests work poorly with mixtures. Flame emission spectroscopy gives a line spectrum for each metal ion, so it can identify ions in a mixture and also measure their concentrations."
     },
     {
@@ -270,12 +444,35 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "The white precipitate formed in the sulfate test is barium sulfate, BaSO₄.\nCalculate its relative formula mass (Mr). Relative atomic masses (Ar): Ba = 137, S = 32, O = 16",
+      "question": "The white precipitate formed in the test for sulfate ions is barium sulfate, BaSO₄.\nCalculate the relative formula mass (Mr) of barium sulfate.\nTable 1 shows the relative atomic masses (Ar) of the elements.",
+      "table": {
+        "headers": [
+          "Element",
+          "Relative atomic mass (Ar)"
+        ],
+        "rows": [
+          [
+            "Ba",
+            "137"
+          ],
+          [
+            "S",
+            "32"
+          ],
+          [
+            "O",
+            "16"
+          ]
+        ]
+      },
       "numericAnswer": 233,
       "tolerance": 0.001,
       "unit": "",
-      "markScheme": ["1 mark: 137 + 32 + (4 × 16) = 233"],
-      "explanation": "Mr = 137 + 32 + 64 = 233. Remember there are four oxygen atoms in the sulfate ion."
+      "markScheme": [
+        "1 mark: 137 + 32 + (4 × 16) = 233"
+      ],
+      "explanation": "Mr = 137 + 32 + 64 = 233. Remember there are four oxygen atoms in the sulfate ion.",
+      "answerLabel": "Relative formula mass (Mr)"
     },
     {
       "id": "chem-rp7-q13",
@@ -284,9 +481,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "What colour precipitate forms when sodium hydroxide solution is added to copper(II) sulfate solution?",
-      "options": ["White", "Brown", "Green", "Blue"],
+      "options": [
+        "White",
+        "Brown",
+        "Green",
+        "Blue"
+      ],
       "answer": 3,
-      "markScheme": ["1 mark: blue"],
+      "markScheme": [
+        "1 mark: blue"
+      ],
       "explanation": "Copper(II) hydroxide is a blue precipitate. The solution itself is also blue, so look for the solid forming, not just the colour."
     },
     {
@@ -295,9 +499,36 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 3,
-      "question": "A white solid gives a crimson flame. When dilute hydrochloric acid is added, it fizzes and the gas turns limewater milky.\nIdentify the compound and write a balanced equation for its reaction with hydrochloric acid.",
-      "acceptedAnswers": ["lithium carbonate", "Li₂CO₃ + 2HCl → 2LiCl + H₂O + CO₂"],
-      "markScheme": ["1 mark: lithium carbonate (Li₂CO₃)", "1 mark: correct formulae: Li₂CO₃ + HCl → LiCl + H₂O + CO₂", "1 mark: balanced: Li₂CO₃ + 2HCl → 2LiCl + H₂O + CO₂"],
+      "question": "A student does tests on a white solid.\nTable 1 shows the results.\nIdentify the compound.\nWrite a balanced equation for the reaction of the compound with hydrochloric acid.",
+      "table": {
+        "headers": [
+          "Test",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Flame test on the solid",
+            "Crimson flame"
+          ],
+          [
+            "Dilute hydrochloric acid added to the solid",
+            "Fizzing"
+          ],
+          [
+            "Gas produced bubbled through limewater",
+            "Limewater turns milky"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "lithium carbonate",
+        "Li₂CO₃ + 2HCl → 2LiCl + H₂O + CO₂"
+      ],
+      "markScheme": [
+        "1 mark: lithium carbonate (Li₂CO₃)",
+        "1 mark: correct formulae: Li₂CO₃ + HCl → LiCl + H₂O + CO₂",
+        "1 mark: balanced: Li₂CO₃ + 2HCl → 2LiCl + H₂O + CO₂"
+      ],
       "explanation": "Crimson identifies lithium, and carbon dioxide gas from acid identifies carbonate. Lithium forms Li⁺ ions and carbonate is CO₃²⁻, so the formula is Li₂CO₃."
     },
     {

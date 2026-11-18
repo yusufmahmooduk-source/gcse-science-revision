@@ -208,7 +208,7 @@
       "tier": "higher",
       "difficulty": 1,
       "marks": 1,
-      "question": "Higher: how can radio waves be produced?",
+      "question": "How can radio waves be produced?",
       "options": [
         "By heating an object until it glows",
         "By changes in the nucleus of an atom",
@@ -227,7 +227,7 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 1,
-      "question": "Higher: radio waves of frequency 200 kHz are absorbed by an aerial. What is the frequency of the alternating current induced in the aerial?",
+      "question": "Radio waves of frequency 200 kHz are absorbed by an aerial.\nWhat is the frequency of the alternating current induced in the aerial?",
       "options": [
         "200 kHz",
         "100 kHz",
@@ -265,7 +265,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Which effect is caused by excessive exposure to ultraviolet radiation?",
+      "question": "Which effect is caused by excessive exposure of the skin to ultraviolet radiation?",
       "options": [
         "Heating of internal organs",
         "Premature ageing of the skin",
@@ -322,7 +322,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "What does a radiation dose measure?",
+      "question": "What does radiation dose measure?",
       "options": [
         "The risk of harm from exposure of the body to radiation",
         "The number of nuclei that decay each second",
@@ -341,7 +341,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "How many millisieverts are in 1 sievert?",
+      "question": "How many millisieverts (mSv) are there in 1 sievert (Sv)?",
       "options": [
         "100",
         "10",
@@ -360,7 +360,23 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 1,
-      "question": "A person receives a dose of 0.5 mSv from one scan. Another scan gives 0.05 Sv. How many times larger is the second dose?",
+      "question": "Table 1 shows the radiation dose a patient receives from two medical scans.\nHow many times larger is the dose from scan B than the dose from scan A?",
+      "table": {
+        "headers": [
+          "Scan",
+          "Radiation dose"
+        ],
+        "rows": [
+          [
+            "A",
+            "0.5 mSv"
+          ],
+          [
+            "B",
+            "0.05 Sv"
+          ]
+        ]
+      },
       "options": [
         "10 times",
         "1000 times",
@@ -379,7 +395,7 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 1,
-      "question": "Higher: which statement explains how a radio receiver detects a signal?",
+      "question": "Which statement explains how a radio receiver detects a radio signal?",
       "options": [
         "Radio waves are converted directly into sound waves by the aerial",
         "Radio waves produce a direct current in the aerial",
@@ -398,10 +414,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Convert a radiation dose of 2.7 mSv into sieverts.",
+      "question": "A person receives a radiation dose of 2.7 mSv.\nWhat is this dose in sieverts?",
       "numericAnswer": 0.0027,
       "tolerance": 0.02,
       "unit": "Sv",
+      "answerLabel": "Radiation dose",
       "markScheme": [
         "1 mark: 0.0027 Sv"
       ],
@@ -413,10 +430,11 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Convert a radiation dose of 0.05 Sv into millisieverts.",
+      "question": "A worker receives a radiation dose of 0.05 Sv.\nWhat is this dose in millisieverts?",
       "numericAnswer": 50,
       "tolerance": 0.02,
       "unit": "mSv",
+      "answerLabel": "Radiation dose",
       "markScheme": [
         "1 mark: 50 mSv"
       ],
@@ -428,10 +446,27 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A chest X-ray gives a dose of 0.02 mSv. A CT scan gives 10 mSv. Calculate how many chest X-rays would give the same dose as one CT scan.",
+      "question": "Table 1 shows the radiation dose from two medical procedures.\nCalculate how many chest X-rays would give the same total dose as one CT scan.",
+      "table": {
+        "headers": [
+          "Procedure",
+          "Radiation dose in mSv"
+        ],
+        "rows": [
+          [
+            "Chest X-ray",
+            "0.02"
+          ],
+          [
+            "CT scan",
+            "10"
+          ]
+        ]
+      },
       "numericAnswer": 500,
       "tolerance": 0.02,
       "unit": "",
+      "answerLabel": "Number of chest X-rays",
       "markScheme": [
         "1 mark: 10 ÷ 0.02",
         "1 mark: 500"
@@ -444,10 +479,11 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "The average yearly dose from background radiation in the UK is 2.7 mSv. Calculate the average daily dose in mSv. (1 year = 365 days)",
+      "question": "The average radiation dose from background radiation in the UK is 2.7 mSv per year.\nThere are 365 days in one year.\nCalculate the average dose per day.\nGive your answer to 2 significant figures.",
       "numericAnswer": 0.0074,
       "tolerance": 0.02,
       "unit": "mSv",
+      "answerLabel": "Average daily dose",
       "markScheme": [
         "1 mark: 2.7 ÷ 365",
         "1 mark: 0.0074 mSv"
@@ -460,10 +496,11 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Higher: an oscillating current of frequency 1.0 MHz in a transmitter aerial produces radio waves. Calculate the wavelength of these radio waves. (speed = 3 × 10⁸ m/s)",
+      "question": "An oscillating current of frequency 1.0 MHz in a transmitter aerial produces radio waves.\nThe speed of radio waves is 3.0 × 10⁸ m/s.\nCalculate the wavelength of the radio waves.",
       "numericAnswer": 300,
       "tolerance": 0.02,
       "unit": "m",
+      "answerLabel": "Wavelength",
       "markScheme": [
         "1 mark: f = 1.0 × 10⁶ Hz; λ = 3 × 10⁸ ÷ 1.0 × 10⁶",
         "1 mark: 300 m"
@@ -476,10 +513,11 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "Higher: radio waves of frequency 100 MHz induce an alternating current in an aerial. Calculate the time period of this alternating current.",
+      "question": "Radio waves of frequency 100 MHz induce an alternating current in an aerial.\nCalculate the period of the alternating current.\nUse the equation:\nperiod = 1 ÷ frequency\nGive your answer in standard form.",
       "numericAnswer": 1e-8,
       "tolerance": 0.02,
       "unit": "s",
+      "answerLabel": "Period",
       "markScheme": [
         "1 mark: f = 100 MHz = 1 × 10⁸ Hz, T = 1 ÷ 1 × 10⁸",
         "1 mark: 1 × 10⁻⁸ s"
@@ -492,7 +530,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Higher: describe how a radio transmitter produces radio waves.",
+      "question": "Figure 1 shows a radio transmitter and a radio receiver.\nDescribe how the transmitter produces radio waves.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"60\" cy=\"150\" r=\"18\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50 150 C54 140 58 140 60 150 C62 160 66 160 70 150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"132\" x2=\"60\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"120\" x2=\"100\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"100\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"78\" y1=\"150\" x2=\"100\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"150\" x2=\"100\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"170\" x2=\"110\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Transmitter</text><text x=\"108\" y=\"30\" font-size=\"13\" fill=\"currentColor\">Transmitting aerial</text><path d=\"M115.3 82.9 A20 20 0 0 0 115.3 57.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M126 91.9 A34 34 0 0 0 126 48.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M136.8 100.9 A48 48 0 0 0 136.8 39.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M170 80 L172 76.3 L174 72.9 L176 70.3 L178 68.6 L180 68 L182 68.6 L184 70.3 L186 72.9 L188 76.3 L190 80 L192 83.7 L194 87.1 L196 89.7 L198 91.4 L200 92 L202 91.4 L204 89.7 L206 87.1 L208 83.7 L210 80 L212 76.3 L214 72.9 L216 70.3 L218 68.6 L220 68 L222 68.6 L224 70.3 L226 72.9 L228 76.3 L230 80 L232 83.7 L234 87.1 L236 89.7 L238 91.4 L240 92 L242 91.4 L244 89.7 L246 87.1 L248 83.7 L250 80 L252 76.3 L254 72.9 L256 70.3 L258 68.6 L260 68 L262 68.6 L264 70.3 L266 72.9 L268 76.3 L270 80 L272 83.7 L274 87.1 L276 89.7 L278 91.4 L280 92 L282 91.4 L284 89.7 L286 87.1 L288 83.7 L290 80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"295\" y1=\"80\" x2=\"320\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"320,80 312.6,83.1 312.6,76.9\" fill=\"currentColor\"/><text x=\"240\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Radio waves</text><line x1=\"360\" y1=\"30\" x2=\"360\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"360\" y1=\"140\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"150\" width=\"90\" height=\"30\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"375\" y=\"170\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiver</text><text x=\"352\" y=\"22\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiving aerial</text></svg>"
+      },
       "acceptedAnswers": [
         "alternating current",
         "oscillating current",
@@ -511,7 +552,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 2,
-      "question": "Higher: describe what happens when radio waves are absorbed by a receiving aerial.",
+      "question": "Figure 1 shows radio waves travelling from a transmitting aerial to a receiving aerial.\nDescribe what happens when the radio waves are absorbed by the receiving aerial.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"60\" cy=\"150\" r=\"18\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50 150 C54 140 58 140 60 150 C62 160 66 160 70 150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"132\" x2=\"60\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"120\" x2=\"100\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"100\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"78\" y1=\"150\" x2=\"100\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"150\" x2=\"100\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"170\" x2=\"110\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Transmitter</text><text x=\"108\" y=\"30\" font-size=\"13\" fill=\"currentColor\">Transmitting aerial</text><path d=\"M115.3 82.9 A20 20 0 0 0 115.3 57.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M126 91.9 A34 34 0 0 0 126 48.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M136.8 100.9 A48 48 0 0 0 136.8 39.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M170 80 L172 76.3 L174 72.9 L176 70.3 L178 68.6 L180 68 L182 68.6 L184 70.3 L186 72.9 L188 76.3 L190 80 L192 83.7 L194 87.1 L196 89.7 L198 91.4 L200 92 L202 91.4 L204 89.7 L206 87.1 L208 83.7 L210 80 L212 76.3 L214 72.9 L216 70.3 L218 68.6 L220 68 L222 68.6 L224 70.3 L226 72.9 L228 76.3 L230 80 L232 83.7 L234 87.1 L236 89.7 L238 91.4 L240 92 L242 91.4 L244 89.7 L246 87.1 L248 83.7 L250 80 L252 76.3 L254 72.9 L256 70.3 L258 68.6 L260 68 L262 68.6 L264 70.3 L266 72.9 L268 76.3 L270 80 L272 83.7 L274 87.1 L276 89.7 L278 91.4 L280 92 L282 91.4 L284 89.7 L286 87.1 L288 83.7 L290 80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"295\" y1=\"80\" x2=\"320\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"320,80 312.6,83.1 312.6,76.9\" fill=\"currentColor\"/><text x=\"240\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Radio waves</text><line x1=\"360\" y1=\"30\" x2=\"360\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"360\" y1=\"140\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"150\" width=\"90\" height=\"30\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"375\" y=\"170\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiver</text><text x=\"352\" y=\"22\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiving aerial</text></svg>"
+      },
       "acceptedAnswers": [
         "induce alternating current",
         "electrons oscillate",
@@ -529,7 +573,7 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 2,
-      "question": "Name two types of EM radiation that are ionising.",
+      "question": "Name two types of electromagnetic radiation that are ionising.",
       "acceptedAnswers": [
         "X-rays",
         "gamma rays"
@@ -546,7 +590,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "State two factors that determine how harmful a dose of radiation is to body tissue.",
+      "question": "Give two factors that determine how harmful a dose of radiation is to body tissue.",
       "acceptedAnswers": [
         "type of radiation",
         "size of dose"
@@ -563,7 +607,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "Explain why people should use sunscreen when in strong sunlight.",
+      "question": "Explain why people should use sunscreen in strong sunlight.",
       "acceptedAnswers": [
         "sunlight contains UV",
         "UV causes skin cancer",
@@ -582,7 +626,23 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 3,
-      "question": "A dental X-ray gives a dose of 0.005 mSv. A CT scan gives 10 mSv. Use these data to compare the risks and suggest why doctors still use CT scans.",
+      "question": "Table 1 shows the radiation dose from two medical procedures.\nUse data from Table 1 to compare the risks of the two procedures.\nSuggest why doctors still use CT scans.",
+      "table": {
+        "headers": [
+          "Procedure",
+          "Radiation dose in mSv"
+        ],
+        "rows": [
+          [
+            "Dental X-ray",
+            "0.005"
+          ],
+          [
+            "CT scan",
+            "10"
+          ]
+        ]
+      },
       "acceptedAnswers": [
         "CT dose 2000 times larger",
         "greater risk of cancer",
@@ -602,7 +662,7 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "State what can be generated or absorbed when changes happen in atoms and in the nuclei of atoms.",
+      "question": "Name what can be generated or absorbed when changes happen in atoms and in the nuclei of atoms.",
       "acceptedAnswers": [
         "electromagnetic waves",
         "EM radiation"
@@ -618,7 +678,10 @@
       "tier": "higher",
       "difficulty": 2,
       "marks": 4,
-      "question": "Higher: explain how radio waves are used to transfer a signal from a transmitter to a receiver. Refer to the currents in each aerial.",
+      "question": "Figure 1 shows a radio transmitter and a radio receiver.\nExplain how radio waves are used to transfer a signal from the transmitter to the receiver.\nRefer to the currents in each aerial in your answer.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\"><circle cx=\"60\" cy=\"150\" r=\"18\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M50 150 C54 140 58 140 60 150 C62 160 66 160 70 150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"132\" x2=\"60\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"120\" x2=\"100\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"100\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"78\" y1=\"150\" x2=\"100\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"150\" x2=\"100\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"170\" x2=\"110\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"190\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Transmitter</text><text x=\"108\" y=\"30\" font-size=\"13\" fill=\"currentColor\">Transmitting aerial</text><path d=\"M115.3 82.9 A20 20 0 0 0 115.3 57.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M126 91.9 A34 34 0 0 0 126 48.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M136.8 100.9 A48 48 0 0 0 136.8 39.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.6\"/><path d=\"M170 80 L172 76.3 L174 72.9 L176 70.3 L178 68.6 L180 68 L182 68.6 L184 70.3 L186 72.9 L188 76.3 L190 80 L192 83.7 L194 87.1 L196 89.7 L198 91.4 L200 92 L202 91.4 L204 89.7 L206 87.1 L208 83.7 L210 80 L212 76.3 L214 72.9 L216 70.3 L218 68.6 L220 68 L222 68.6 L224 70.3 L226 72.9 L228 76.3 L230 80 L232 83.7 L234 87.1 L236 89.7 L238 91.4 L240 92 L242 91.4 L244 89.7 L246 87.1 L248 83.7 L250 80 L252 76.3 L254 72.9 L256 70.3 L258 68.6 L260 68 L262 68.6 L264 70.3 L266 72.9 L268 76.3 L270 80 L272 83.7 L274 87.1 L276 89.7 L278 91.4 L280 92 L282 91.4 L284 89.7 L286 87.1 L288 83.7 L290 80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"295\" y1=\"80\" x2=\"320\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"320,80 312.6,83.1 312.6,76.9\" fill=\"currentColor\"/><text x=\"240\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Radio waves</text><line x1=\"360\" y1=\"30\" x2=\"360\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"360\" y1=\"140\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"150\" width=\"90\" height=\"30\"  fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"375\" y=\"170\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiver</text><text x=\"352\" y=\"22\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Receiving aerial</text></svg>"
+      },
       "markScheme": [
         "Indicative content:",
         "an alternating current in the transmitter circuit makes electrons oscillate in the transmitter aerial",
@@ -638,7 +701,31 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 6,
-      "question": "Hospitals use X-rays and gamma rays in medicine. Explain the hazards of ultraviolet, X-rays and gamma rays to the human body, and how radiation dose data can be used to judge the risk of a medical procedure.",
+      "question": "Hospitals use X-rays and gamma rays in medicine.\nTable 1 shows typical radiation doses.\nExplain the hazards of ultraviolet, X-rays and gamma rays to the human body.\nExplain how radiation dose data can be used to judge the risk of a medical procedure.",
+      "table": {
+        "headers": [
+          "Source of radiation",
+          "Radiation dose in mSv"
+        ],
+        "rows": [
+          [
+            "Dental X-ray",
+            "0.005"
+          ],
+          [
+            "Chest X-ray",
+            "0.02"
+          ],
+          [
+            "CT scan",
+            "10"
+          ],
+          [
+            "Background radiation in one year (UK average)",
+            "2.7"
+          ]
+        ]
+      },
       "markScheme": [
         "Indicative content:",
         "UV, X-rays and gamma are high-frequency EM waves that transfer a lot of energy",
@@ -682,7 +769,7 @@
       "tier": "both",
       "difficulty": 3,
       "marks": 2,
-      "question": "Explain why radiographers who take many X-ray images each day stand behind a lead screen, even though each patient receives only a small dose.",
+      "question": "Radiographers take many X-ray images each day.\nEach patient receives only a small radiation dose.\nExplain why radiographers stand behind a lead screen when taking X-ray images.",
       "acceptedAnswers": [
         "many exposures",
         "dose adds up",

@@ -68,13 +68,43 @@
     }
   ],
   "results": {
-    "headers": ["Material", "Mass (g)", "Volume (cm³)", "Density (g/cm³)"],
+    "headers": [
+      "Material",
+      "Mass (g)",
+      "Volume (cm³)",
+      "Density (g/cm³)"
+    ],
     "rows": [
-      ["Aluminium cube (3.0 cm × 3.0 cm × 3.0 cm)", "72.9", "27.0", "2.70"],
-      ["Steel cuboid (2.0 cm × 3.0 cm × 5.0 cm)", "236.4", "30.0", "7.88"],
-      ["Stone (eureka can)", "47.7", "18.0", "2.65"],
-      ["Water", "49.9", "50.0", "1.00"],
-      ["Cooking oil", "45.8", "50.0", "0.92"]
+      [
+        "Aluminium cube (3.0 cm × 3.0 cm × 3.0 cm)",
+        "72.9",
+        "27.0",
+        "2.70"
+      ],
+      [
+        "Steel cuboid (2.0 cm × 3.0 cm × 5.0 cm)",
+        "236.4",
+        "30.0",
+        "7.88"
+      ],
+      [
+        "Stone (eureka can)",
+        "47.7",
+        "18.0",
+        "2.65"
+      ],
+      [
+        "Water",
+        "49.9",
+        "50.0",
+        "1.00"
+      ],
+      [
+        "Cooking oil",
+        "45.8",
+        "50.0",
+        "0.92"
+      ]
     ],
     "notes": "Density = mass ÷ volume. Volumes of regular objects were calculated from their dimensions. The volume of the stone is the volume of water it displaced from the eureka can. Liquid masses were read directly from the balance after taring the empty measuring cylinder (for the oil, the empty cylinder had a mass of 62.5 g and the cylinder plus oil 108.3 g, giving 45.8 g). Results are given to 3 significant figures (2 for oil). To convert to kg/m³, multiply by 1000: aluminium 2700 kg/m³, steel 7880 kg/m³."
   },
@@ -127,9 +157,16 @@
       "difficulty": 1,
       "marks": 1,
       "question": "Which equation is used to calculate density?",
-      "options": ["density = mass × volume", "density = volume ÷ mass", "density = mass ÷ volume", "density = mass − volume"],
+      "options": [
+        "density = mass × volume",
+        "density = volume ÷ mass",
+        "density = mass ÷ volume",
+        "density = mass − volume"
+      ],
       "answer": 2,
-      "markScheme": ["1 mark: density = mass ÷ volume"],
+      "markScheme": [
+        "1 mark: density = mass ÷ volume"
+      ],
       "explanation": "Density is the mass per unit volume, so it is mass divided by volume (ρ = m ÷ V). Students must recall this equation."
     },
     {
@@ -138,12 +175,20 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 3,
-      "question": "A metal cube has sides of 3.0 cm and a mass of 72.9 g.\nCalculate the density of the metal in g/cm³.",
+      "question": "Figure 1 shows a metal cube on a balance. Each side of the cube is 3.0 cm long.\nCalculate the density of the metal in g/cm³.\nUse the equation:\ndensity = mass ÷ volume",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<path d=\"M150 70h80v80h-80z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M150 70l30 -25h80l-30 25zM230 70l30 -25v80l-30 25z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M110 150h190v14h-190z\" fill=\"none\" stroke=\"currentColor\"/>\n<path d=\"M90 164h230v50h-230z\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"170\" y=\"176\" width=\"90\" height=\"28\" fill=\"#86efac\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"250\" y=\"196\" font-size=\"15\" text-anchor=\"end\" fill=\"currentColor\">72.9 g</text>\n<line x1=\"140\" y1=\"70\" x2=\"140\" y2=\"150\" stroke=\"currentColor\"/><text x=\"96\" y=\"114\" font-size=\"12\" fill=\"currentColor\">3.0 cm</text>\n<text x=\"330\" y=\"196\" font-size=\"12\" fill=\"currentColor\">balance</text>\n</svg>"
+      },
       "numericAnswer": 2.7,
       "tolerance": 0.01,
       "unit": "g/cm³",
-      "markScheme": ["1 mark: volume = 3.0 × 3.0 × 3.0 = 27 cm³", "1 mark: density = 72.9 ÷ 27", "1 mark: 2.7 g/cm³"],
-      "explanation": "Find the volume of the cube first (side cubed), then divide the mass by the volume. Using 3.0 cm as the volume gives 24.3 g/cm³, which is wrong."
+      "markScheme": [
+        "1 mark: volume = 3.0 × 3.0 × 3.0 = 27 cm³",
+        "1 mark: density = 72.9 ÷ 27",
+        "1 mark: 2.7 g/cm³"
+      ],
+      "explanation": "Find the volume of the cube first (side cubed), then divide the mass by the volume. Using 3.0 cm as the volume gives 24.3 g/cm³, which is wrong.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q03",
@@ -151,12 +196,15 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 1,
-      "question": "The density of aluminium is 2.7 g/cm³.\nWhat is the density of aluminium in kg/m³?",
+      "question": "The density of aluminium is 2.7 g/cm³.\nCalculate the density of aluminium in kg/m³.",
       "numericAnswer": 2700,
       "tolerance": 0.01,
       "unit": "kg/m³",
-      "markScheme": ["1 mark: 2700 kg/m³"],
-      "explanation": "1 g/cm³ = 1000 kg/m³, so multiply by 1000. There are 1000 g in 1 kg and 1 000 000 cm³ in 1 m³."
+      "markScheme": [
+        "1 mark: 2700 kg/m³"
+      ],
+      "explanation": "1 g/cm³ = 1000 kg/m³, so multiply by 1000. There are 1000 g in 1 kg and 1 000 000 cm³ in 1 m³.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q04",
@@ -164,12 +212,19 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 2,
-      "question": "A stone with a mass of 47.7 g is lowered into a full eureka can. 18.0 cm³ of water is collected in a measuring cylinder.\nCalculate the density of the stone.",
+      "question": "A stone has a mass of 47.7 g.\nThe stone is lowered into a full eureka can and the displaced water is collected in a measuring cylinder.\nFigure 1 shows the apparatus.\nCalculate the density of the stone.\nUse the equation:\ndensity = mass ÷ volume",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<path d=\"M30 60v150h110v-150\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"31\" y=\"90\" width=\"108\" height=\"119\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M140 80l50 20\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M140 88l46 18\" fill=\"none\" stroke=\"currentColor\"/>\n<ellipse cx=\"85\" cy=\"160\" rx=\"26\" ry=\"18\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"85\" y=\"50\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">eureka can</text><text x=\"85\" y=\"164\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">stone</text>\n<path d=\"M236 50v165h46v-165\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"237\" y=\"107\" width=\"44\" height=\"108\" fill=\"#93c5fd\" fill-opacity=\"0.5\"/>\n<path d=\"M237 105q22 4 44 0\" fill=\"none\" stroke=\"currentColor\"/>\n<path d=\"M240 215h16M240 209h8M240 203h8M240 197h8M240 191h8M240 185h16M240 179h8M240 173h8M240 167h8M240 161h8M240 155h16M240 149h8M240 143h8M240 137h8M240 131h8M240 125h16M240 119h8M240 113h8M240 107h8M240 101h8M240 95h16M240 89h8M240 83h8M240 77h8M240 71h8M240 65h16\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"288\" y=\"219\" font-size=\"12\" fill=\"currentColor\">0</text><text x=\"288\" y=\"189\" font-size=\"12\" fill=\"currentColor\">5</text><text x=\"288\" y=\"159\" font-size=\"12\" fill=\"currentColor\">10</text><text x=\"288\" y=\"129\" font-size=\"12\" fill=\"currentColor\">15</text><text x=\"288\" y=\"99\" font-size=\"12\" fill=\"currentColor\">20</text><text x=\"288\" y=\"69\" font-size=\"12\" fill=\"currentColor\">25</text>\n<text x=\"318\" y=\"120\" font-size=\"12\" fill=\"currentColor\">measuring</text><text x=\"318\" y=\"136\" font-size=\"12\" fill=\"currentColor\">cylinder</text><text x=\"318\" y=\"152\" font-size=\"12\" fill=\"currentColor\">(cm³)</text>\n</svg>"
+      },
       "numericAnswer": 2.65,
       "tolerance": 0.01,
       "unit": "g/cm³",
-      "markScheme": ["1 mark: volume of stone = 18.0 cm³ (volume of water displaced)", "1 mark: density = 47.7 ÷ 18.0 = 2.65 g/cm³"],
-      "explanation": "The stone displaces its own volume of water, so its volume is 18.0 cm³. Density = 47.7 ÷ 18.0 = 2.65 g/cm³."
+      "markScheme": [
+        "1 mark: volume of stone = 18.0 cm³ (volume of water displaced)",
+        "1 mark: density = 47.7 ÷ 18.0 = 2.65 g/cm³"
+      ],
+      "explanation": "The stone displaces its own volume of water, so its volume is 18.0 cm³. Density = 47.7 ÷ 18.0 = 2.65 g/cm³.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q05",
@@ -178,8 +233,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "A student fills a eureka can with water until it overflows. Explain why the student must wait until the water stops dripping from the spout before putting the object into the can.",
-      "acceptedAnswers": ["so only the displaced water is collected", "extra water would be collected", "volume would be too large", "water level at the spout"],
-      "markScheme": ["1 mark: so the water level is exactly at the spout / the can is just full", "1 mark: otherwise extra water (not displaced by the object) would be collected, making the measured volume too large"],
+      "acceptedAnswers": [
+        "so only the displaced water is collected",
+        "extra water would be collected",
+        "volume would be too large",
+        "water level at the spout"
+      ],
+      "markScheme": [
+        "1 mark: so the water level is exactly at the spout / the can is just full",
+        "1 mark: otherwise extra water (not displaced by the object) would be collected, making the measured volume too large"
+      ],
       "explanation": "Only the water pushed out by the object should go into the measuring cylinder. Extra drips would make the volume too large and the calculated density too small."
     },
     {
@@ -196,7 +259,9 @@
         "Vernier callipers"
       ],
       "answer": 2,
-      "markScheme": ["1 mark: a eureka can and a measuring cylinder"],
+      "markScheme": [
+        "1 mark: a eureka can and a measuring cylinder"
+      ],
       "explanation": "An irregular object cannot be measured with a ruler or callipers. Its volume is found by displacement: the volume of water it pushes out of a eureka can equals its own volume."
     },
     {
@@ -205,12 +270,20 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "A steel cuboid measures 2.0 cm × 3.0 cm × 5.0 cm and has a mass of 236.4 g.\nCalculate the density of the steel. Give your answer to 3 significant figures.",
+      "question": "Figure 1 shows a steel cuboid. The mass of the cuboid is 236.4 g.\nCalculate the density of the steel.\nGive your answer to 3 significant figures.",
+      "figure": {
+        "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" stroke-width=\"1.5\" font-family=\"Arial, sans-serif\">\n<path d=\"M110 80h200v80h-200z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<path d=\"M110 80l40 -40h200l-40 40zM310 80l40 -40v80l-40 40z\" fill=\"#e5e7eb\" fill-opacity=\"0.5\" stroke=\"currentColor\"/>\n<text x=\"210\" y=\"182\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">5.0 cm</text><text x=\"56\" y=\"124\" font-size=\"12\" fill=\"currentColor\">3.0 cm</text><text x=\"362\" y=\"140\" font-size=\"12\" fill=\"currentColor\">2.0 cm</text>\n<line x1=\"110\" y1=\"168\" x2=\"310\" y2=\"168\" stroke=\"currentColor\"/><line x1=\"100\" y1=\"80\" x2=\"100\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"318\" y1=\"164\" x2=\"358\" y2=\"124\" stroke=\"currentColor\"/>\n</svg>"
+      },
       "numericAnswer": 7.88,
       "tolerance": 0.01,
       "unit": "g/cm³",
-      "markScheme": ["1 mark: volume = 2.0 × 3.0 × 5.0 = 30 cm³", "1 mark: density = 236.4 ÷ 30", "1 mark: 7.88 g/cm³"],
-      "explanation": "Volume of a cuboid = length × width × height = 30 cm³. 236.4 ÷ 30 = 7.88 g/cm³."
+      "markScheme": [
+        "1 mark: volume = 2.0 × 3.0 × 5.0 = 30 cm³",
+        "1 mark: density = 236.4 ÷ 30",
+        "1 mark: 7.88 g/cm³"
+      ],
+      "explanation": "Volume of a cuboid = length × width × height = 30 cm³. 236.4 ÷ 30 = 7.88 g/cm³.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q08",
@@ -218,12 +291,37 @@
       "tier": "both",
       "difficulty": 2,
       "marks": 3,
-      "question": "An empty measuring cylinder has a mass of 62.5 g. When 50.0 cm³ of cooking oil is added, the total mass is 108.3 g.\nCalculate the density of the oil. Give your answer to 2 significant figures.",
+      "question": "A student determined the density of cooking oil.\nTable 1 shows the results.\nCalculate the density of the oil.\nGive your answer to 2 significant figures.",
+      "table": {
+        "headers": [
+          "Measurement",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Mass of empty measuring cylinder",
+            "62.5 g"
+          ],
+          [
+            "Volume of oil",
+            "50.0 cm³"
+          ],
+          [
+            "Mass of measuring cylinder and oil",
+            "108.3 g"
+          ]
+        ]
+      },
       "numericAnswer": 0.92,
       "tolerance": 0.01,
       "unit": "g/cm³",
-      "markScheme": ["1 mark: mass of oil = 108.3 − 62.5 = 45.8 g", "1 mark: density = 45.8 ÷ 50.0", "1 mark: 0.92 g/cm³"],
-      "explanation": "Subtract the mass of the empty cylinder to find the mass of oil alone. 45.8 ÷ 50.0 = 0.916 g/cm³, which is 0.92 g/cm³ to 2 significant figures. Using 108.3 g gives 2.17 g/cm³, which is wrong."
+      "markScheme": [
+        "1 mark: mass of oil = 108.3 − 62.5 = 45.8 g",
+        "1 mark: density = 45.8 ÷ 50.0",
+        "1 mark: 0.92 g/cm³"
+      ],
+      "explanation": "Subtract the mass of the empty cylinder to find the mass of oil alone. 45.8 ÷ 50.0 = 0.916 g/cm³, which is 0.92 g/cm³ to 2 significant figures. Using 108.3 g gives 2.17 g/cm³, which is wrong.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q09",
@@ -232,8 +330,15 @@
       "difficulty": 1,
       "marks": 2,
       "question": "Describe how a student should read the volume of water in a measuring cylinder accurately.",
-      "acceptedAnswers": ["eye level", "bottom of the meniscus", "cylinder on a flat surface"],
-      "markScheme": ["1 mark: with eye level with the water surface (to avoid parallax)", "1 mark: read from the bottom of the meniscus"],
+      "acceptedAnswers": [
+        "eye level",
+        "bottom of the meniscus",
+        "cylinder on a flat surface"
+      ],
+      "markScheme": [
+        "1 mark: with eye level with the water surface (to avoid parallax)",
+        "1 mark: read from the bottom of the meniscus"
+      ],
       "explanation": "Reading from above or below eye level gives a parallax error. The water surface curves, so the reading is taken from the bottom of the curve (meniscus)."
     },
     {
@@ -242,12 +347,16 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "A block of aluminium has a volume of 0.00040 m³. The density of aluminium is 2700 kg/m³.\nCalculate the mass of the block.",
+      "question": "A block of aluminium has a volume of 0.00040 m³. The density of aluminium is 2700 kg/m³.\nCalculate the mass of the block.\nUse the equation:\ndensity = mass ÷ volume",
       "numericAnswer": 1.08,
       "tolerance": 0.01,
       "unit": "kg",
-      "markScheme": ["1 mark: m = ρ × V = 2700 × 0.00040", "1 mark: 1.08 kg"],
-      "explanation": "Rearrange ρ = m ÷ V to m = ρ × V. 2700 × 0.00040 = 1.08 kg."
+      "markScheme": [
+        "1 mark: m = ρ × V = 2700 × 0.00040",
+        "1 mark: 1.08 kg"
+      ],
+      "explanation": "Rearrange ρ = m ÷ V to m = ρ × V. 2700 × 0.00040 = 1.08 kg.",
+      "answerLabel": "Mass"
     },
     {
       "id": "phys-rp5-q11",
@@ -255,12 +364,28 @@
       "tier": "higher",
       "difficulty": 3,
       "marks": 2,
-      "question": "An object has a mass of 0.540 kg and a volume of 0.000200 m³.\nCalculate its density in kg/m³.",
+      "question": "Table 1 shows measurements of an object.\nCalculate the density of the object in kg/m³.",
+      "table": {
+        "headers": [
+          "Mass in kg",
+          "Volume in m³"
+        ],
+        "rows": [
+          [
+            "0.540",
+            "0.000200"
+          ]
+        ]
+      },
       "numericAnswer": 2700,
       "tolerance": 0.01,
       "unit": "kg/m³",
-      "markScheme": ["1 mark: ρ = 0.540 ÷ 0.000200", "1 mark: 2700 kg/m³"],
-      "explanation": "Mass in kg and volume in m³ give density in kg/m³. 0.540 ÷ 0.000200 = 2700 kg/m³. Errors with powers of ten are common, so check the answer is sensible for a solid."
+      "markScheme": [
+        "1 mark: ρ = 0.540 ÷ 0.000200",
+        "1 mark: 2700 kg/m³"
+      ],
+      "explanation": "Mass in kg and volume in m³ give density in kg/m³. 0.540 ÷ 0.000200 = 2700 kg/m³. Errors with powers of ten are common, so check the answer is sensible for a solid.",
+      "answerLabel": "Density"
     },
     {
       "id": "phys-rp5-q12",
@@ -276,7 +401,9 @@
         "There is no effect, because the mass is measured separately"
       ],
       "answer": 1,
-      "markScheme": ["1 mark: density too large because the measured volume is too small"],
+      "markScheme": [
+        "1 mark: density too large because the measured volume is too small"
+      ],
       "explanation": "Less water is collected than the object really displaced, so the measured volume is too small. Dividing the correct mass by a smaller volume gives a larger density."
     },
     {
@@ -286,8 +413,16 @@
       "difficulty": 2,
       "marks": 2,
       "question": "A student measures the sides of a small metal cube, about 1 cm across, with a ruler marked in millimetres.\nSuggest a better instrument to use and explain why it is better.",
-      "acceptedAnswers": ["vernier callipers", "micrometer", "better resolution", "smaller percentage uncertainty"],
-      "markScheme": ["1 mark: vernier callipers / micrometer", "1 mark: higher resolution (for example 0.1 mm or 0.01 mm), so a smaller percentage uncertainty in the volume"],
+      "acceptedAnswers": [
+        "vernier callipers",
+        "micrometer",
+        "better resolution",
+        "smaller percentage uncertainty"
+      ],
+      "markScheme": [
+        "1 mark: vernier callipers / micrometer",
+        "1 mark: higher resolution (for example 0.1 mm or 0.01 mm), so a smaller percentage uncertainty in the volume"
+      ],
       "explanation": "A 1 mm uncertainty in 10 mm is 10%, and cubing the length makes the error in volume even bigger. Callipers read to 0.1 mm or better."
     },
     {
@@ -296,9 +431,30 @@
       "tier": "both",
       "difficulty": 1,
       "marks": 1,
-      "question": "Explain why cooking oil, with a density of 0.92 g/cm³, floats on water, with a density of 1.00 g/cm³.",
-      "acceptedAnswers": ["oil is less dense than water", "lower density floats"],
-      "markScheme": ["1 mark: oil has a lower density than water"],
+      "question": "Table 1 shows the densities of cooking oil and water.\nExplain why cooking oil floats on water.",
+      "table": {
+        "headers": [
+          "Liquid",
+          "Density in g/cm³"
+        ],
+        "rows": [
+          [
+            "Cooking oil",
+            "0.92"
+          ],
+          [
+            "Water",
+            "1.00"
+          ]
+        ]
+      },
+      "acceptedAnswers": [
+        "oil is less dense than water",
+        "lower density floats"
+      ],
+      "markScheme": [
+        "1 mark: oil has a lower density than water"
+      ],
       "explanation": "A liquid with a lower density floats on top of a liquid with a higher density. Equal volumes of oil have less mass than water."
     },
     {
