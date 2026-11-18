@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
 import { recordSession, useStore, latest } from "@/lib/store";
 import QuestionCard, { type Result } from "./QuestionCard";
@@ -44,7 +44,7 @@ export function filterForUser(qs: Question[], tier: "foundation" | "higher", cou
   );
 }
 
-export default function QuizRunner({ pool, size = 10, label, autoOnly = false }: { pool: Question[]; size?: number; label: string; autoOnly?: boolean }) {
+export default function QuizRunner({ pool, size = 10, label, autoOnly = false, autoStart = false }: { pool: Question[]; size?: number; label: string; autoOnly?: boolean; autoStart?: boolean }) {
   const s = useStore();
   const usable = useMemo(
     () => filterForUser(pool, s.tier, s.course).filter((q) => !autoOnly || q.type === "mcq" || q.type === "numeric"),
@@ -61,6 +61,11 @@ export default function QuizRunner({ pool, size = 10, label, autoOnly = false }:
     setResults({});
     setKey((k) => k + 1);
   }
+
+  useEffect(() => {
+    if (autoStart && !set && usable.length) start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoStart, usable.length]);
 
   if (!set) {
     return (

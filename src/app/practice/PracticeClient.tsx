@@ -42,7 +42,7 @@ export default function PracticeClient() {
           <Button variant="ghost" onClick={() => setRunning(0)}>
             ← Change settings
           </Button>
-          <QuizRunner key={running} pool={pool} size={size} label="Custom practice" autoOnly={autoOnly} />
+          <QuizRunner key={running} pool={pool} size={size} label="Custom practice" autoOnly={autoOnly} autoStart />
         </div>
       ) : (
         <div className="space-y-5 rounded-xl border border-line bg-card p-6">
